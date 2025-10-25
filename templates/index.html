@@ -1,0 +1,33 @@
+<!-- templates/index.html -->
+{% extends "base.html" %}
+{% block content %}
+<div class="bg-white rounded-2xl shadow p-6">
+  <h2 class="text-xl font-semibold mb-2">선수 잠재력 분석</h2>
+  <p class="text-sm text-slate-600 mb-6">FBref 선수 ID를 입력해 실시간 분석을 실행하세요. (예: 82ec26c1)</p>
+  <form action="/analyze" method="post" class="flex gap-3">
+    <input name="player_id" placeholder="FBref 선수 ID" required
+           class="flex-1 border rounded-lg px-4 py-2 focus:outline-none focus:ring focus:border-blue-500"/>
+    <button class="px-5 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700">분석 시작</button>
+  </form>
+</div>
+
+<div class="mt-8 grid sm:grid-cols-2 gap-6">
+  <div class="bg-white rounded-2xl shadow p-6">
+    <h3 class="font-semibold">시연 팁</h3>
+    <ul class="list-disc ml-5 text-sm text-slate-600 mt-2">
+      <li>첫 분석은 실시간 계산(몇 초), 같은 선수 재분석은 캐시(0.x초)로 응답됩니다.</li>
+      <li>결과 화면에서 리포트(HTML)와 이미지(레이더/막대)를 바로 볼 수 있습니다.</li>
+      <li>역할·스타일·강점/약점·그룹 점수 등은 기존 코드 계산 결과입니다.</li>
+    </ul>
+  </div>
+  <div class="bg-white rounded-2xl shadow p-6">
+    <h3 class="font-semibold">예시 흐름</h3>
+    <ol class="list-decimal ml-5 text-sm text-slate-600 mt-2">
+      <li>선수 ID 입력 → 분석 시작</li>
+      <li>실시간 분석 배지 확인(소요시간)</li>
+      <li>다시 같은 선수로 실행 → 캐시 응답 배지 확인</li>
+      <li>리포트 열기 버튼으로 상세 HTML 보기</li>
+    </ol>
+  </div>
+</div>
+{% endblock %}
