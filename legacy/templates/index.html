@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Scout Visual | Player Potential AI</title>
+  <link rel="icon" href="/static/brand/logo_wordmark_bolt.svg">
+  <style>
+    :root{
+      --bg:#0b0c10; --panel:#11151b; --ink:#e9eef5;
+      --accent:#00ff85; --gold:#ffd700; --muted:#7e8a97; --glow: rgba(0,255,133,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; background: radial-gradient(1200px 500px at 50% 0%, #0f141a 0%, #0b0c10 60%, #07080b 100%);
+      color:var(--ink); font: 15px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      letter-spacing:.2px; overflow-x:hidden;
+    }
+    header{
+      display:flex; align-items:center; justify-content:space-between;
+      padding:20px 24px; border-bottom:1px solid #141a22; backdrop-filter: blur(6px);
+    }
+    .brand img{height:80px; display:block; filter: drop-shadow(0 0 12px rgba(25,255,167,.25));}
+    .pill{padding:6px 10px; border:1px solid #1c2430; border-radius:999px; color:var(--muted)}
+    .hero{
+      display:grid; place-items:center; padding:8vh 16px 4vh; position:relative; isolation:isolate;
+    }
+    .pitch{
+      position:absolute; inset:0; opacity:.18; z-index:-1;
+      background:
+        radial-gradient(ellipse at 50% 10%, rgba(0,255,133,.1), transparent 50%),
+        repeating-linear-gradient(0deg, transparent 0 38px, rgba(255,255,255,.05) 38px 40px),
+        repeating-linear-gradient(90deg, transparent 0 38px, rgba(255,255,255,.05) 38px 40px);
+    }
+    h1{font-size:clamp(26px,3.6vw,42px); margin:6px 0 12px; letter-spacing:.5px}
+    .sub{color:var(--muted); max-width:820px; text-align:center}
+    .card{
+      margin-top:28px; background:linear-gradient(180deg, #10151c 0%, #0d1218 100%);
+      border:1px solid #1a2230; border-radius:18px; padding:22px; width:min(760px, 92vw);
+      box-shadow: 0 10px 40px rgba(0,0,0,.35), 0 0 0 1px rgba(0,255,133,.07) inset;
+    }
+    form{display:flex; gap:10px; flex-wrap:wrap}
+    input[type="text"]{
+      flex:1 1 340px; padding:14px 14px; background:#0b1016; color:var(--ink);
+      border:1px solid #1b2432; border-radius:12px; outline:none;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    input[type="text"]::placeholder{color:#6b7786}
+    input[type="text"]:focus{border-color:#2f3e52; box-shadow:0 0 0 4px rgba(47,62,82,.25)}
+    button{
+      padding:14px 18px; border:0; border-radius:12px; font-weight:700; cursor:pointer;
+      background:linear-gradient(90deg, var(--accent) 0%, #52ffa9 100%); color:#002312;
+      box-shadow: 0 6px 24px var(--glow);
+      transition: transform .08s ease, box-shadow .2s ease, filter .2s ease;
+    }
+    button:hover{transform:translateY(-1px); filter:saturate(1.05)}
+    button:active{transform:translateY(0)}
+    .tips{margin-top:12px; color:#9aa6b2; font-size:13px}
+    .divider{height:1px; background:linear-gradient(90deg, transparent, #1b2330, transparent); margin:28px 0}
+    .prospects{display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:14px}
+    .p-card{
+      background:linear-gradient(180deg, #121720 0%, #0e131a 100%);
+      border:1px solid #1a2230; border-radius:16px; padding:14px 14px 16px;
+      transition: transform .15s ease, box-shadow .2s ease;
+    }
+    .p-card:hover{transform:translateY(-2px); box-shadow:0 10px 26px rgba(0,0,0,.35)}
+    .tag{font-size:12px; color:#9aa6b2; border:1px solid #263142; padding:3px 8px; border-radius:999px}
+    .ovr{font-weight:900; font-size:28px; letter-spacing:.5px; color:#ffd700; text-shadow:0 0 20px rgba(255,215,0,.15)}
+    .foot{color:#7e8896; font-size:12px; text-align:center; padding:28px 0 18px}
+    .scan{margin-top:12px; height:4px; background:#0b1016; border:1px solid #1b2432; border-radius:999px; overflow:hidden; display:none;}
+    .bar{height:100%; width:0%; background:linear-gradient(90deg, var(--accent), #b7ffd9)}
+    .show .scan{display:block}
+    .show .bar{animation: load 1.4s ease-in-out infinite}
+    @keyframes load{ 0%{width:0%} 50%{width:80%} 100%{width:0%} }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/" class="brand"><img src="/static/brand/logo_wordmark_bolt.svg" alt="Scout Visual"/></a>
+    <div class="pill">Local Demo</div>
+  </header>
+
+  <section class="hero">
+    <div class="pitch"></div>
+    <h1>AI 스카우트 룸에 오신 것을 환영합니다</h1>
+    <p class="sub">선수 ID를 입력하면, AI가 <b>PRD/PRG/CHA/STA</b> 핵심 지표와 잠재력을 분석해 리포트를 보여줍니다.</p>
+
+    <div class="card" id="panel">
+      <form method="post" action="/analyze" onsubmit="return handleSubmit(event)">
+        <input type="text" name="player_id_or_name" placeholder="선수 이름 또는 ID 입력 (예: Jude Bellingham 또는 27119725)" required />
+        <button type="submit">Analyze Player</button>
+      </form>
+      <div class="scan"><div class="bar"></div></div>
+      <div class="tips">Tip: 같은 선수는 캐시가 적용되어 더 빠르게 열릴 수 있습니다.</div>
+      <div class="divider"></div>
+
+      <div class="prospects">
+        <div class="p-card"><div class="tag">Example</div><div style="margin:8px 0 2px">Lamine Yamal</div><div class="ovr">POT 90</div></div>
+        <div class="p-card"><div class="tag">Example</div><div style="margin:8px 0 2px">Jude Bellingham</div><div class="ovr">POT 92</div></div>
+        <div class="p-card"><div class="tag">Example</div><div style="margin:8px 0 2px">Florian Wirtz</div><div class="ovr">POT 91</div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">© Scout Visual — Local Prototype (made by 10901 고명준)</div>
+
+  <script>
+    function handleSubmit(e){
+      const panel = document.getElementById('panel');
+      panel.classList.add('show');
+      const btn = e.target.querySelector('button[type="submit"]');
+      btn.disabled = true; btn.textContent = 'Analyzing...';
+      return true;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FPP — Football Player Potential</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="brand">FPP <span>Scout</span></div>
+      <div class="tagline">FBref 빅5리그 데이터 기반 선수 잠재력 조회 (2023 시즌 스냅샷)</div>
+    </div>
+  </header>
+
+  <div class="panel search-box">
+    <input id="searchInput" type="text" placeholder="선수 이름 검색 (예: Mbappe, Bellingham)" autocomplete="off">
+    <div class="hint">현재능력 점수는 전체 검색 대상에게, 잔존확률·미래잠재력·유사선수 비교는 만 23세 이하·900분 이상 출전 선수에게만 제공됩니다.</div>
+  </div>
+
+  <div class="panel">
+    <div class="section-title" id="resultCount">로딩 중…</div>
+    <table class="roster">
+      <thead>
+        <tr><th>선수</th><th>클럽</th><th>포지션</th><th>나이</th><th>스타일</th><th>현재능력</th><th></th></tr>
+      </thead>
+      <tbody id="rosterBody"></tbody>
+    </table>
+    <div class="empty-state" id="emptyState" style="display:none;">검색 결과가 없습니다.</div>
+  </div>
+
+  <footer class="foot">
+    데이터: worldfootballR 공개 아카이브 (원출처 FBref) · 교육·연구 목적. 상업적 사용 불가.
+  </footer>
+</div>
+
+<script src="assets/common.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

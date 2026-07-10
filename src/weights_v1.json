@@ -1,0 +1,152 @@
+{
+ "POS_W": {
+  "FW": {
+   "prod": 0.4,
+   "chance": 0.2,
+   "progress": 0.2,
+   "stability": 0.1,
+   "defense": 0.1
+  },
+  "MF": {
+   "prod": 0.15,
+   "chance": 0.2,
+   "progress": 0.3,
+   "stability": 0.2,
+   "defense": 0.15
+  },
+  "DF": {
+   "prod": 0.05,
+   "chance": 0.1,
+   "progress": 0.2,
+   "stability": 0.25,
+   "defense": 0.4
+  }
+ },
+ "STYLES": {
+  "FW": {
+   "박스 포처": {
+    "prod": 0.55,
+    "chance": 0.15,
+    "progress": 0.1,
+    "stability": 0.1,
+    "defense": 0.1
+   },
+   "타겟맨": {
+    "prod": 0.45,
+    "chance": 0.1,
+    "progress": 0.1,
+    "stability": 0.1,
+    "defense": 0.25
+   },
+   "돌파형 윙어": {
+    "prod": 0.25,
+    "chance": 0.25,
+    "progress": 0.35,
+    "stability": 0.05,
+    "defense": 0.1
+   },
+   "연결형 공격수": {
+    "prod": 0.25,
+    "chance": 0.35,
+    "progress": 0.2,
+    "stability": 0.15,
+    "defense": 0.05
+   }
+  },
+  "MF": {
+   "딥 플레이메이커": {
+    "prod": 0.05,
+    "chance": 0.25,
+    "progress": 0.3,
+    "stability": 0.25,
+    "defense": 0.15
+   },
+   "볼 운반형": {
+    "prod": 0.1,
+    "chance": 0.2,
+    "progress": 0.45,
+    "stability": 0.15,
+    "defense": 0.1
+   },
+   "수비형 파괴자": {
+    "prod": 0.05,
+    "chance": 0.05,
+    "progress": 0.15,
+    "stability": 0.25,
+    "defense": 0.5
+   },
+   "공격형 MF": {
+    "prod": 0.3,
+    "chance": 0.3,
+    "progress": 0.25,
+    "stability": 0.1,
+    "defense": 0.05
+   }
+  },
+  "DF": {
+   "빌드업 수비수": {
+    "prod": 0.05,
+    "chance": 0.1,
+    "progress": 0.35,
+    "stability": 0.3,
+    "defense": 0.2
+   },
+   "스토퍼": {
+    "prod": 0.03,
+    "chance": 0.02,
+    "progress": 0.1,
+    "stability": 0.25,
+    "defense": 0.6
+   },
+   "공격형 풀백": {
+    "prod": 0.1,
+    "chance": 0.25,
+    "progress": 0.3,
+    "stability": 0.15,
+    "defense": 0.2
+   }
+  }
+ },
+ "GROUPS": {
+  "prod": [
+   "npxG",
+   "np_G",
+   "Sh",
+   "SoT",
+   "npxG_Sh",
+   "xAG",
+   "Ast"
+  ],
+  "progress": [
+   "PrgPass",
+   "PrgDistP",
+   "PrgCarry",
+   "PrgDistC",
+   "TakeOn",
+   "PrgRec",
+   "F3Pass",
+   "AttPenT"
+  ],
+  "chance": [
+   "SCA",
+   "GCA",
+   "KP",
+   "PPA"
+  ],
+  "stability": [
+   "PassPct",
+   "Err",
+   "MisDis"
+  ],
+  "defense": [
+   "TklInt",
+   "TklPct",
+   "Blocks",
+   "Clr",
+   "Recov",
+   "AerWon",
+   "AerPct"
+  ]
+ },
+ "MIN_POOL": 600
+}

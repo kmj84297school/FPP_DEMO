@@ -1,0 +1,37 @@
+<!-- templates/base.html -->
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Scout Visual — Player Potential AI</title>
+
+  <!-- Tailwind (CDN) : 발표용 간단 적용 -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/static/style.css"/>
+  <!-- 선택: 파비콘 (compact 버전 아이콘이 있을 때) -->
+  <link rel="icon" href="/static/brand/logo_wordmark_bolt.svg">
+  <style>
+    .brand-logo{height:28px; display:block; filter: drop-shadow(0 0 12px rgba(25,255,167,.25));}
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <header class="bg-slate-900 text-white">
+    <div class="max-w-6xl mx-auto py-4 px-4 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3">
+        <img src="/static/brand/logo_wordmark_bolt.svg" alt="Scout Visual" class="brand-logo">
+        <span class="sr-only">Scout Visual — Player Potential AI</span>
+      </a>
+      <span class="text-sm opacity-80">실시간 분석 · 캐시 가속</span>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-6">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="max-w-6xl mx-auto px-4 py-8 text-xs text-slate-500">
+    데이터 출처: 공개 축구 통계(FBref). 분석·시각화 로직은 프로젝트 코드 기반. (연구/교육 목적)
+  </footer>
+</body>
+</html>
