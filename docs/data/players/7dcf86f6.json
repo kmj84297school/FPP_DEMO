@@ -26,10 +26,115 @@
   "confidence": 1.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.1796,
+  "mu": 58.2,
+  "ci80": {
+   "lo": 49.1,
+   "hi": 67.2
+  },
+  "ci50": {
+   "lo": 53.4,
+   "hi": 62.9
+  },
+  "sigma_model": 2.617,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d711d04f",
+   "season": 2018,
+   "distance": 3.087,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "8d8178ac",
+   "season": 2020,
+   "distance": 3.18,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "8d8178ac",
+   "season": 2019,
+   "distance": 3.471,
+   "survived": 1,
+   "fut_ability_v2": 64.4,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "ee4f2f3b",
+   "season": 2020,
+   "distance": 3.718,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Fabio Quagliarella",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "d711d04f",
+   "season": 2020,
+   "distance": 3.807,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "2bee98fd",
+   "season": 2018,
+   "distance": 3.878,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio García",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "d711d04f",
+   "season": 2019,
+   "distance": 4.005,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "43f71e77",
+   "season": 2020,
+   "distance": 4.011,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Jorge Molina",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "4c5b14d2",
+   "season": 2019,
+   "distance": 4.055,
+   "survived": 1,
+   "fut_ability_v2": 63.1,
+   "player_name": "Joaquín",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "43f71e77",
+   "season": 2019,
+   "distance": 4.057,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Jorge Molina",
+   "squad": "Getafe"
+  }
+ ],
+ "low_confidence": true
 }

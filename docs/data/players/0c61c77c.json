@@ -26,10 +26,115 @@
   "confidence": 1.81
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.613,
+  "mu": 47.3,
+  "ci80": {
+   "lo": 38.3,
+   "hi": 56.3
+  },
+  "ci50": {
+   "lo": 42.6,
+   "hi": 52.1
+  },
+  "sigma_model": 2.523,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "43458538",
+   "season": 2020,
+   "distance": 1.877,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "43458538",
+   "season": 2018,
+   "distance": 2.166,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "43458538",
+   "season": 2019,
+   "distance": 2.306,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "a53b661f",
+   "season": 2020,
+   "distance": 2.375,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Ihlas Bebou",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "7cdda3bf",
+   "season": 2019,
+   "distance": 2.556,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Gaëtan Laborde",
+   "squad": "Montpellier / Bordeaux"
+  },
+  {
+   "fbref_id": "909222de",
+   "season": 2019,
+   "distance": 2.586,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuno da Costa",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "6a99e0b1",
+   "season": 2020,
+   "distance": 2.702,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Iñaki Williams",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "ffa90327",
+   "season": 2020,
+   "distance": 2.808,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anwar El Ghazi",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "d1491e00",
+   "season": 2018,
+   "distance": 2.811,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Rolán",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "b318a643",
+   "season": 2018,
+   "distance": 2.811,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomón Rondón",
+   "squad": "West Brom"
+  }
+ ],
  "low_confidence": false
 }

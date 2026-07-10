@@ -26,10 +26,115 @@
   "confidence": 0.46
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7442,
+  "mu": 52.8,
+  "ci80": {
+   "lo": 44.1,
+   "hi": 61.4
+  },
+  "ci50": {
+   "lo": 48.2,
+   "hi": 57.3
+  },
+  "sigma_model": 1.545,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5cec2c74",
+   "season": 2019,
+   "distance": 2.194,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Soualiho Meïté",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "86695068",
+   "season": 2019,
+   "distance": 2.401,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Dennis Praet",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2020,
+   "distance": 2.416,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2020,
+   "distance": 2.52,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "b6b2b820",
+   "season": 2020,
+   "distance": 2.59,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Rog",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "b853e0ad",
+   "season": 2020,
+   "distance": 2.626,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Fred",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "a8748947",
+   "season": 2019,
+   "distance": 2.657,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Cairney",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "ef7cd87a",
+   "season": 2019,
+   "distance": 2.659,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Abdoulaye Touré",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2019,
+   "distance": 2.716,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2019,
+   "distance": 2.73,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.58
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4453,
+  "mu": 49.7,
+  "ci80": {
+   "lo": 40.9,
+   "hi": 58.5
+  },
+  "ci50": {
+   "lo": 45.1,
+   "hi": 54.3
+  },
+  "sigma_model": 2.075,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "71ef519e",
+   "season": 2019,
+   "distance": 2.701,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "0f52f925",
+   "season": 2018,
+   "distance": 2.937,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Lima",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "f1bed920",
+   "season": 2020,
+   "distance": 3.141,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Rodrigues",
+   "squad": "Leganés / Real Sociedad"
+  },
+  {
+   "fbref_id": "21512407",
+   "season": 2020,
+   "distance": 3.146,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Kieran Trippier",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 3.221,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "e3e05edf",
+   "season": 2019,
+   "distance": 3.274,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ambroise Oyongo",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2020,
+   "distance": 3.382,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "81069528",
+   "season": 2018,
+   "distance": 3.388,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "Roberto Rosales",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "1cd87320",
+   "season": 2018,
+   "distance": 3.401,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Ostrzolek",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2018,
+   "distance": 3.42,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton"
+  }
+ ],
  "low_confidence": false
 }

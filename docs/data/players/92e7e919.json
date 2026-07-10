@@ -26,10 +26,115 @@
   "confidence": 1.56
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4315,
+  "mu": 51.1,
+  "ci80": {
+   "lo": 42.1,
+   "hi": 60.2
+  },
+  "ci50": {
+   "lo": 46.4,
+   "hi": 55.9
+  },
+  "sigma_model": 2.66,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "76dd1480",
+   "season": 2019,
+   "distance": 2.494,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "b0547a87",
+   "season": 2020,
+   "distance": 2.578,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Nicolas de Préville",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "0b4d8274",
+   "season": 2019,
+   "distance": 2.583,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Romain Hamouma",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2020,
+   "distance": 2.727,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "2c3a6c21",
+   "season": 2020,
+   "distance": 2.744,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Mancosu",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "9f4647e9",
+   "season": 2020,
+   "distance": 2.865,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Snodgrass",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "04965583",
+   "season": 2020,
+   "distance": 2.911,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Aleix Vidal",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "6fd1ba62",
+   "season": 2018,
+   "distance": 3.004,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Markel Susaeta",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "2475dcc6",
+   "season": 2018,
+   "distance": 3.03,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dušan Tadić",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "36a3ff67",
+   "season": 2019,
+   "distance": 3.036,
+   "survived": 1,
+   "fut_ability_v2": 68.9,
+   "player_name": "Marco Reus",
+   "squad": "Dortmund"
+  }
+ ],
  "low_confidence": false
 }

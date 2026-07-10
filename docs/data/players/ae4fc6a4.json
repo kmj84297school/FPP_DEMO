@@ -26,10 +26,115 @@
   "confidence": 0.78
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4409,
+  "mu": 51.5,
+  "ci80": {
+   "lo": 42.8,
+   "hi": 60.2
+  },
+  "ci50": {
+   "lo": 46.9,
+   "hi": 56.1
+  },
+  "sigma_model": 1.848,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5313ed43",
+   "season": 2020,
+   "distance": 2.116,
+   "survived": 1,
+   "fut_ability_v2": 59.1,
+   "player_name": "Seko Fofana",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "ab651565",
+   "season": 2020,
+   "distance": 2.507,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Nathan Redmond",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2018,
+   "distance": 2.686,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "c05dfb74",
+   "season": 2020,
+   "distance": 2.783,
+   "survived": 1,
+   "fut_ability_v2": 63.8,
+   "player_name": "Iker Muniain",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "ab651565",
+   "season": 2019,
+   "distance": 2.789,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Nathan Redmond",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "c05dfb74",
+   "season": 2019,
+   "distance": 2.818,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "Iker Muniain",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "2b622f01",
+   "season": 2020,
+   "distance": 2.885,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Lucas Moura",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "6c679c6d",
+   "season": 2018,
+   "distance": 2.892,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Knockaert",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "6e7f1353",
+   "season": 2020,
+   "distance": 2.897,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Morgan Sanson",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "90f91999",
+   "season": 2020,
+   "distance": 2.909,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "John McGinn",
+   "squad": "Aston Villa"
+  }
+ ],
  "low_confidence": false
 }

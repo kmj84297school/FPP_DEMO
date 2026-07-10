@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8247,
+  "mu": 52.4,
+  "ci80": {
+   "lo": 43.8,
+   "hi": 61.0
+  },
+  "ci50": {
+   "lo": 47.8,
+   "hi": 56.9
+  },
+  "sigma_model": 1.369,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d0d8dd44",
+   "season": 2020,
+   "distance": 1.07,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Stefan de Vrij",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2020,
+   "distance": 1.512,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Berat Djimsiti",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "d0d8dd44",
+   "season": 2018,
+   "distance": 1.578,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Stefan de Vrij",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2019,
+   "distance": 1.834,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "1a2935f6",
+   "season": 2018,
+   "distance": 1.838,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dejan Lovren",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2019,
+   "distance": 1.864,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2018,
+   "distance": 1.871,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Kostas Manolas",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "282f75f3",
+   "season": 2020,
+   "distance": 1.913,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Lewis Dunk",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "f35430a4",
+   "season": 2019,
+   "distance": 1.952,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Matija Nastasić",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2019,
+   "distance": 1.959,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Christophe Hérelle",
+   "squad": "Nice"
+  }
+ ],
  "low_confidence": false
 }

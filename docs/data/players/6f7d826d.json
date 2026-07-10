@@ -26,10 +26,115 @@
   "confidence": 0.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7028,
+  "mu": 48.1,
+  "ci80": {
+   "lo": 39.2,
+   "hi": 57.0
+  },
+  "ci50": {
+   "lo": 43.4,
+   "hi": 52.8
+  },
+  "sigma_model": 2.283,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "54073b28",
+   "season": 2018,
+   "distance": 1.474,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Recio",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "4db2157a",
+   "season": 2019,
+   "distance": 1.775,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ole Selnæs",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "70dcf94d",
+   "season": 2019,
+   "distance": 1.938,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "6f5ead86",
+   "season": 2020,
+   "distance": 2.019,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hernani",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2020,
+   "distance": 2.03,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Abeid",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "3730fcbc",
+   "season": 2019,
+   "distance": 2.037,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Ralls",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "70dcf94d",
+   "season": 2020,
+   "distance": 2.146,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "20e73fac",
+   "season": 2020,
+   "distance": 2.151,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "0d077b88",
+   "season": 2019,
+   "distance": 2.177,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Bourabia",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "0d2158d5",
+   "season": 2019,
+   "distance": 2.229,
+   "survived": 1,
+   "fut_ability_v2": 37.8,
+   "player_name": "Jordan Marié",
+   "squad": "Dijon"
+  }
+ ],
  "low_confidence": false
 }

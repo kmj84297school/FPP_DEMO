@@ -26,10 +26,115 @@
   "confidence": 0.36
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1505,
+  "mu": 49.0,
+  "ci80": {
+   "lo": 40.3,
+   "hi": 57.7
+  },
+  "ci50": {
+   "lo": 44.4,
+   "hi": 53.5
+  },
+  "sigma_model": 1.732,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ad1ffcfd",
+   "season": 2019,
+   "distance": 1.874,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Vicente Iborra",
+   "squad": "Villarreal / Leicester City"
+  },
+  {
+   "fbref_id": "7106f0a0",
+   "season": 2019,
+   "distance": 2.021,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Suárez",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "a64cbd35",
+   "season": 2020,
+   "distance": 2.291,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonino Barillà",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "ad1ffcfd",
+   "season": 2018,
+   "distance": 2.323,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Vicente Iborra",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2018,
+   "distance": 2.404,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "69374ff5",
+   "season": 2020,
+   "distance": 2.424,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Baumgartlinger",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 2.438,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2019,
+   "distance": 2.527,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "003a5c72",
+   "season": 2019,
+   "distance": 2.536,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mikel San José",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "b8836910",
+   "season": 2018,
+   "distance": 2.545,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Celso Borges",
+   "squad": "La Coruña"
+  }
+ ],
  "low_confidence": false
 }

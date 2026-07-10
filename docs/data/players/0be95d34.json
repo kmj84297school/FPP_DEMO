@@ -26,10 +26,115 @@
   "confidence": 0.81
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4748,
+  "mu": 53.8,
+  "ci80": {
+   "lo": 44.8,
+   "hi": 62.8
+  },
+  "ci50": {
+   "lo": 49.0,
+   "hi": 58.5
+  },
+  "sigma_model": 2.521,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bee0bab1",
+   "season": 2018,
+   "distance": 2.926,
+   "survived": 1,
+   "fut_ability_v2": 65.8,
+   "player_name": "Karim Bellarabi",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "dc3a9a0d",
+   "season": 2018,
+   "distance": 3.1,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Ghezzal",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "bb4a42be",
+   "season": 2019,
+   "distance": 3.332,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yannis Salibur",
+   "squad": "Saint-Étienne / Guingamp"
+  },
+  {
+   "fbref_id": "4737cebe",
+   "season": 2020,
+   "distance": 3.364,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Adnan Januzaj",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2019,
+   "distance": 3.38,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Celta Vigo / Betis"
+  },
+  {
+   "fbref_id": "30395d3b",
+   "season": 2019,
+   "distance": 3.456,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolas Benezet",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "ab4b3e35",
+   "season": 2020,
+   "distance": 3.488,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bernard",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "2903a856",
+   "season": 2018,
+   "distance": 3.509,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Jonas Hofmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "94c18565",
+   "season": 2020,
+   "distance": 3.569,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Florian Kainz",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2020,
+   "distance": 3.6,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 0.61
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4399,
+  "mu": 53.0,
+  "ci80": {
+   "lo": 44.2,
+   "hi": 61.7
+  },
+  "ci50": {
+   "lo": 48.4,
+   "hi": 57.6
+  },
+  "sigma_model": 1.821,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c067631c",
+   "season": 2019,
+   "distance": 1.57,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Fredericks",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "1900032e",
+   "season": 2020,
+   "distance": 1.927,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jannik Vestergaard",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "ac861941",
+   "season": 2020,
+   "distance": 2.043,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Eric Dier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2019,
+   "distance": 2.11,
+   "survived": 1,
+   "fut_ability_v2": 53.7,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante / Valencia"
+  },
+  {
+   "fbref_id": "eb5bc3eb",
+   "season": 2018,
+   "distance": 2.185,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enric Saborit",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "93a50d2c",
+   "season": 2020,
+   "distance": 2.264,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kasim Nuhu",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2019,
+   "distance": 2.29,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "6adbc307",
+   "season": 2019,
+   "distance": 2.308,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "b0243215",
+   "season": 2020,
+   "distance": 2.334,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Dell'Orco",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2018,
+   "distance": 2.385,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club / Real Sociedad"
+  }
+ ],
  "low_confidence": false
 }

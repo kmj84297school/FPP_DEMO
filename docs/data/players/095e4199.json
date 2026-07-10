@@ -26,10 +26,115 @@
   "confidence": 1.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.3463,
+  "mu": 61.4,
+  "ci80": {
+   "lo": 52.4,
+   "hi": 70.4
+  },
+  "ci50": {
+   "lo": 56.7,
+   "hi": 66.2
+  },
+  "sigma_model": 2.512,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9efa1d25",
+   "season": 2019,
+   "distance": 3.334,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Götze",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "8f696594",
+   "season": 2020,
+   "distance": 3.461,
+   "survived": 1,
+   "fut_ability_v2": 72.2,
+   "player_name": "Memphis Depay",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "47dc80f5",
+   "season": 2018,
+   "distance": 3.578,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adel Taarabt",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "4e219ad2",
+   "season": 2020,
+   "distance": 3.841,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Suso",
+   "squad": "Milan / Sevilla"
+  },
+  {
+   "fbref_id": "5e861944",
+   "season": 2020,
+   "distance": 3.897,
+   "survived": 1,
+   "fut_ability_v2": 61.3,
+   "player_name": "Matteo Politano",
+   "squad": "Napoli / Inter"
+  },
+  {
+   "fbref_id": "fd51b456",
+   "season": 2019,
+   "distance": 4.007,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Lucas Vázquez",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2020,
+   "distance": 4.018,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria / Parma"
+  },
+  {
+   "fbref_id": "43458538",
+   "season": 2018,
+   "distance": 4.018,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "849c826a",
+   "season": 2018,
+   "distance": 4.063,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Andriy Yarmolenko",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2019,
+   "distance": 4.132,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 0.67
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0997,
+  "mu": 55.6,
+  "ci80": {
+   "lo": 46.8,
+   "hi": 64.5
+  },
+  "ci50": {
+   "lo": 51.0,
+   "hi": 60.3
+  },
+  "sigma_model": 2.178,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "dba67bc4",
+   "season": 2018,
+   "distance": 2.302,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zlatko Junuzović",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "6992791d",
+   "season": 2018,
+   "distance": 2.411,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Junior Stanislas",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "6992791d",
+   "season": 2019,
+   "distance": 2.461,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Junior Stanislas",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "ef619b0b",
+   "season": 2019,
+   "distance": 2.471,
+   "survived": 1,
+   "fut_ability_v2": 73.8,
+   "player_name": "Aaron Ramsey",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "2903a856",
+   "season": 2020,
+   "distance": 2.481,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Jonas Hofmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "dd0daf32",
+   "season": 2020,
+   "distance": 2.579,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Henrikh Mkhitaryan",
+   "squad": "Roma / Arsenal"
+  },
+  {
+   "fbref_id": "809940aa",
+   "season": 2020,
+   "distance": 2.661,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominick Drexler",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "dd669209",
+   "season": 2020,
+   "distance": 2.726,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Renato Steffen",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2019,
+   "distance": 2.829,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "980522ec",
+   "season": 2020,
+   "distance": 2.938,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Christian Eriksen",
+   "squad": "Tottenham / Inter"
+  }
+ ],
  "low_confidence": false
 }

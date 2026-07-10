@@ -26,10 +26,115 @@
   "confidence": 1.61
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5413,
+  "mu": 59.6,
+  "ci80": {
+   "lo": 50.9,
+   "hi": 68.4
+  },
+  "ci50": {
+   "lo": 55.0,
+   "hi": 64.2
+  },
+  "sigma_model": 1.87,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c2009df3",
+   "season": 2018,
+   "distance": 2.212,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Jonas Hector",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "8ff2354e",
+   "season": 2018,
+   "distance": 2.546,
+   "survived": 1,
+   "fut_ability_v2": 67.6,
+   "player_name": "Marcel Halstenberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "89d10e53",
+   "season": 2019,
+   "distance": 2.906,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Rose",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "c50281a0",
+   "season": 2018,
+   "distance": 2.961,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Lars Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2019,
+   "distance": 2.993,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "b500b384",
+   "season": 2018,
+   "distance": 3.016,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Admir Mehmedi",
+   "squad": "Leverkusen / Wolfsburg"
+  },
+  {
+   "fbref_id": "f4290206",
+   "season": 2020,
+   "distance": 3.078,
+   "survived": 1,
+   "fut_ability_v2": 64.6,
+   "player_name": "Marcos Alonso",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "e162b013",
+   "season": 2019,
+   "distance": 3.135,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Thomas Meunier",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "1a4b9094",
+   "season": 2018,
+   "distance": 3.159,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Bouna Sarr",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "1a4b9094",
+   "season": 2019,
+   "distance": 3.159,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bouna Sarr",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3196,
+  "mu": 45.4,
+  "ci80": {
+   "lo": 35.6,
+   "hi": 55.1
+  },
+  "ci50": {
+   "lo": 40.2,
+   "hi": 50.5
+  },
+  "sigma_model": 3.845,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6922f806",
+   "season": 2020,
+   "distance": 2.062,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Calleri",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "fcbcbd94",
+   "season": 2019,
+   "distance": 2.41,
+   "survived": 1,
+   "fut_ability_v2": 32.0,
+   "player_name": "Moussa Konaté",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "1fdec858",
+   "season": 2020,
+   "distance": 2.435,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dennis Srbeny",
+   "squad": "Paderborn 07 / Norwich City"
+  },
+  {
+   "fbref_id": "9853983f",
+   "season": 2018,
+   "distance": 2.44,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bobby Wood",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2018,
+   "distance": 2.459,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Ante Budimir",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "cd82452e",
+   "season": 2018,
+   "distance": 2.469,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "André Hahn",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "ca618d23",
+   "season": 2019,
+   "distance": 2.541,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Lucas Höler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "4f16405e",
+   "season": 2019,
+   "distance": 2.561,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niclas Füllkrug",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "6922f806",
+   "season": 2019,
+   "distance": 2.562,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Jonathan Calleri",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "e5f63987",
+   "season": 2018,
+   "distance": 2.57,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ginczek",
+   "squad": "Stuttgart"
+  }
+ ],
  "low_confidence": false
 }

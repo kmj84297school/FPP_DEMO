@@ -26,10 +26,115 @@
   "confidence": 0.41
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.263,
+  "mu": 54.6,
+  "ci80": {
+   "lo": 45.7,
+   "hi": 63.6
+  },
+  "ci50": {
+   "lo": 49.9,
+   "hi": 59.4
+  },
+  "sigma_model": 2.451,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d054d8b0",
+   "season": 2018,
+   "distance": 3.156,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xabi Prieto",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "4c5b14d2",
+   "season": 2018,
+   "distance": 3.966,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Joaquín",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "ec7e6ad1",
+   "season": 2018,
+   "distance": 4.132,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Brunt",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "c3a8bcd8",
+   "season": 2020,
+   "distance": 4.18,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lasse Schöne",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "75d97aa6",
+   "season": 2018,
+   "distance": 4.302,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stéphane Darbion",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "75bd85ea",
+   "season": 2020,
+   "distance": 4.323,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Salva Sevilla",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2020,
+   "distance": 4.383,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "c27dfb82",
+   "season": 2019,
+   "distance": 4.384,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Gonçalves",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "d66b9872",
+   "season": 2020,
+   "distance": 4.389,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro León",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "ab1ca213",
+   "season": 2019,
+   "distance": 4.473,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Miguel Veloso",
+   "squad": "Genoa"
+  }
+ ],
+ "low_confidence": true
 }

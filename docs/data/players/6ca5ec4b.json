@@ -26,10 +26,115 @@
   "confidence": 0.23
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3948,
+  "mu": 50.3,
+  "ci80": {
+   "lo": 41.5,
+   "hi": 59.1
+  },
+  "ci50": {
+   "lo": 45.7,
+   "hi": 55.0
+  },
+  "sigma_model": 2.037,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e7f4603c",
+   "season": 2019,
+   "distance": 1.499,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Borja García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "5a626448",
+   "season": 2019,
+   "distance": 1.726,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Moi Gómez",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2019,
+   "distance": 1.9,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "86e119e0",
+   "season": 2019,
+   "distance": 1.928,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Maximilian Arnold",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2018,
+   "distance": 2.028,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "5a1900a4",
+   "season": 2018,
+   "distance": 2.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Carroll",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "b63e789d",
+   "season": 2020,
+   "distance": 2.166,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Fleck",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2018,
+   "distance": 2.193,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "88895312",
+   "season": 2019,
+   "distance": 2.288,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Bessa",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "e7f4603c",
+   "season": 2018,
+   "distance": 2.29,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Borja García",
+   "squad": "Girona"
+  }
+ ],
  "low_confidence": false
 }

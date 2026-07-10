@@ -26,10 +26,115 @@
   "confidence": 0.41
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5405,
+  "mu": 44.5,
+  "ci80": {
+   "lo": 35.7,
+   "hi": 53.3
+  },
+  "ci50": {
+   "lo": 39.9,
+   "hi": 49.1
+  },
+  "sigma_model": 1.933,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2019,
+   "distance": 2.115,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "5cec2c74",
+   "season": 2020,
+   "distance": 2.343,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Soualiho Meïté",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "b5dd3469",
+   "season": 2018,
+   "distance": 2.361,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Nemanja Radoja",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "0d077b88",
+   "season": 2019,
+   "distance": 2.43,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Bourabia",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "c53083ad",
+   "season": 2018,
+   "distance": 2.457,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Bryan Dabo",
+   "squad": "Saint-Étienne / Fiorentina"
+  },
+  {
+   "fbref_id": "8794e251",
+   "season": 2020,
+   "distance": 2.457,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Adrien Rabiot",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "ef7cd87a",
+   "season": 2019,
+   "distance": 2.491,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Abdoulaye Touré",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "b5dd3469",
+   "season": 2020,
+   "distance": 2.548,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Nemanja Radoja",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "8da74c05",
+   "season": 2019,
+   "distance": 2.56,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Adrien Tameze",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "6f5ead86",
+   "season": 2020,
+   "distance": 2.57,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hernani",
+   "squad": "Parma"
+  }
+ ],
  "low_confidence": false
 }

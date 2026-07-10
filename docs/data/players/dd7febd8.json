@@ -26,10 +26,115 @@
   "confidence": 2.48
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2614,
+  "mu": 47.3,
+  "ci80": {
+   "lo": 38.5,
+   "hi": 56.1
+  },
+  "ci50": {
+   "lo": 42.7,
+   "hi": 52.0
+  },
+  "sigma_model": 2.05,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "aae9d04a",
+   "season": 2018,
+   "distance": 2.407,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Davide Faraoni",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "76b2817e",
+   "season": 2020,
+   "distance": 2.442,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kingsley Ehizibue",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "f68b64fc",
+   "season": 2018,
+   "distance": 2.445,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Silvan Widmer",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "5ca20b7a",
+   "season": 2018,
+   "distance": 2.488,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Joseba Zaldúa",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "46a8347f",
+   "season": 2018,
+   "distance": 2.491,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Šime Vrsaljko",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "3e9e06cb",
+   "season": 2018,
+   "distance": 2.554,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Craig Dawson",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "bbd86530",
+   "season": 2020,
+   "distance": 2.596,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christopher Lenz",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "de0f152c",
+   "season": 2020,
+   "distance": 2.601,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "Adam Masina",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "5efb80d5",
+   "season": 2019,
+   "distance": 2.676,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Velázquez",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "9085dd7c",
+   "season": 2020,
+   "distance": 2.689,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Faragò",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

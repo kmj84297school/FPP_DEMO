@@ -26,10 +26,115 @@
   "confidence": 3.49
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2191,
+  "mu": 49.0,
+  "ci80": {
+   "lo": 39.3,
+   "hi": 58.8
+  },
+  "ci50": {
+   "lo": 43.9,
+   "hi": 54.2
+  },
+  "sigma_model": 3.859,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1ecb65be",
+   "season": 2020,
+   "distance": 2.622,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Theo Walcott",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "0ac94a23",
+   "season": 2020,
+   "distance": 2.919,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Denis Cheryshev",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "b500b384",
+   "season": 2020,
+   "distance": 2.92,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Admir Mehmedi",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2020,
+   "distance": 2.935,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "9f4647e9",
+   "season": 2020,
+   "distance": 3.102,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Snodgrass",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2020,
+   "distance": 3.18,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Wahbi Khazri",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "8ca253a3",
+   "season": 2019,
+   "distance": 3.213,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Claudio Beauvue",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "849c826a",
+   "season": 2020,
+   "distance": 3.232,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andriy Yarmolenko",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "3e1858af",
+   "season": 2018,
+   "distance": 3.325,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexander",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "0b4d8274",
+   "season": 2019,
+   "distance": 3.353,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Romain Hamouma",
+   "squad": "Saint-Étienne"
+  }
+ ],
  "low_confidence": false
 }

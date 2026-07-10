@@ -26,10 +26,115 @@
   "confidence": 1.36
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0996,
+  "mu": 42.5,
+  "ci80": {
+   "lo": 32.5,
+   "hi": 52.4
+  },
+  "ci50": {
+   "lo": 37.2,
+   "hi": 47.7
+  },
+  "sigma_model": 4.183,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "aa5859cb",
+   "season": 2019,
+   "distance": 2.182,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Depoitre",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "2bcc6d52",
+   "season": 2019,
+   "distance": 2.327,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Burgstaller",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "2691c772",
+   "season": 2020,
+   "distance": 2.36,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ashley Barnes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "34e4343c",
+   "season": 2020,
+   "distance": 2.516,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Anthony Modeste",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "9f472354",
+   "season": 2019,
+   "distance": 2.565,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "8ca253a3",
+   "season": 2018,
+   "distance": 2.589,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Claudio Beauvue",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2018,
+   "distance": 2.651,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 2.678,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "8d228291",
+   "season": 2019,
+   "distance": 2.723,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charlie Austin",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "e897d8ba",
+   "season": 2020,
+   "distance": 2.774,
+   "survived": 1,
+   "fut_ability_v2": 42.1,
+   "player_name": "Kike",
+   "squad": "Eibar"
+  }
+ ],
  "low_confidence": false
 }

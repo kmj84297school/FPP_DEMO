@@ -26,10 +26,115 @@
   "confidence": 2.13
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6151,
+  "mu": 43.4,
+  "ci80": {
+   "lo": 34.6,
+   "hi": 52.2
+  },
+  "ci50": {
+   "lo": 38.8,
+   "hi": 48.0
+  },
+  "sigma_model": 1.982,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "79c90e45",
+   "season": 2019,
+   "distance": 1.914,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Pavel Kadeřábek",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "79c90e45",
+   "season": 2020,
+   "distance": 2.045,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Pavel Kadeřábek",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "d4535821",
+   "season": 2018,
+   "distance": 2.168,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Adam Marušić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "3b333ac3",
+   "season": 2019,
+   "distance": 2.65,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Hans Hateboer",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "3b333ac3",
+   "season": 2020,
+   "distance": 2.681,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Hans Hateboer",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "2d970560",
+   "season": 2020,
+   "distance": 2.715,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robin Gosens",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "5ddb8f9f",
+   "season": 2020,
+   "distance": 2.853,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny da Costa",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2018,
+   "distance": 2.861,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "826e8b63",
+   "season": 2019,
+   "distance": 2.88,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Philipp Max",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "9038c2a1",
+   "season": 2019,
+   "distance": 2.883,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jason",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

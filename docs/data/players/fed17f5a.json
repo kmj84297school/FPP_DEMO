@@ -26,10 +26,115 @@
   "confidence": 0.08
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4979,
+  "mu": 45.8,
+  "ci80": {
+   "lo": 36.9,
+   "hi": 54.8
+  },
+  "ci50": {
+   "lo": 41.1,
+   "hi": 50.5
+  },
+  "sigma_model": 2.381,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cbec1196",
+   "season": 2020,
+   "distance": 2.113,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaromír Zmrhal",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2018,
+   "distance": 2.337,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Roberto Soriano",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "b6a6e0a7",
+   "season": 2019,
+   "distance": 2.425,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Zuber",
+   "squad": "Stuttgart / Hoffenheim"
+  },
+  {
+   "fbref_id": "29f7cfd9",
+   "season": 2018,
+   "distance": 2.443,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Zoller",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "0000acda",
+   "season": 2020,
+   "distance": 2.499,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Benassi",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "f352a2db",
+   "season": 2018,
+   "distance": 2.615,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jules Iloki",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2018,
+   "distance": 2.619,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Florent Mollet",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2018,
+   "distance": 2.675,
+   "survived": 1,
+   "fut_ability_v2": 36.2,
+   "player_name": "Darko Brašanac",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "98e958af",
+   "season": 2019,
+   "distance": 2.68,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Hiljemark",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "79ca3e23",
+   "season": 2020,
+   "distance": 2.714,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Ondrej Duda",
+   "squad": "Norwich City / Hertha BSC"
+  }
+ ],
  "low_confidence": false
 }

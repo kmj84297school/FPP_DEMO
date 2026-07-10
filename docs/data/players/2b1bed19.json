@@ -26,10 +26,115 @@
   "confidence": 0.95
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3617,
+  "mu": 45.4,
+  "ci80": {
+   "lo": 36.7,
+   "hi": 54.1
+  },
+  "ci50": {
+   "lo": 40.9,
+   "hi": 50.0
+  },
+  "sigma_model": 1.731,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2ce2508a",
+   "season": 2018,
+   "distance": 1.261,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Luka Milivojević",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "653ee42d",
+   "season": 2018,
+   "distance": 1.279,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Dale Stephens",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "653ee42d",
+   "season": 2020,
+   "distance": 1.559,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dale Stephens",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2018,
+   "distance": 1.582,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "240d3a0b",
+   "season": 2018,
+   "distance": 1.652,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Dani García",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "036bba5f",
+   "season": 2019,
+   "distance": 1.702,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Rubén Alcaraz",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "3f7cd8f1",
+   "season": 2018,
+   "distance": 1.727,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Philipp Bargfrede",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "4b511457",
+   "season": 2019,
+   "distance": 1.77,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Oriol Romeu",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "3c7bc9bd",
+   "season": 2019,
+   "distance": 1.775,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Pérez",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "c75b6a02",
+   "season": 2018,
+   "distance": 1.802,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Bertolacci",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

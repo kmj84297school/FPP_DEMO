@@ -26,10 +26,115 @@
   "confidence": 0.31
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2519,
+  "mu": 45.8,
+  "ci80": {
+   "lo": 36.9,
+   "hi": 54.7
+  },
+  "ci50": {
+   "lo": 41.1,
+   "hi": 50.5
+  },
+  "sigma_model": 2.297,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f98b15f0",
+   "season": 2020,
+   "distance": 1.793,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Romain Philippoteaux",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "61bd33d0",
+   "season": 2018,
+   "distance": 2.142,
+   "survived": 1,
+   "fut_ability_v2": 36.8,
+   "player_name": "Takashi Inui",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "04965583",
+   "season": 2020,
+   "distance": 2.403,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Aleix Vidal",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "07abb358",
+   "season": 2018,
+   "distance": 2.43,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Rômulo",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "2475dcc6",
+   "season": 2018,
+   "distance": 2.433,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dušan Tadić",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "8e010ff4",
+   "season": 2019,
+   "distance": 2.472,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francisco Portillo",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "7c4243d4",
+   "season": 2020,
+   "distance": 2.565,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roque Mesa",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "4a57580c",
+   "season": 2018,
+   "distance": 2.604,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "8802c1d5",
+   "season": 2018,
+   "distance": 2.643,
+   "survived": 1,
+   "fut_ability_v2": 41.3,
+   "player_name": "Frédéric Sammaritano",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "79135368",
+   "season": 2019,
+   "distance": 2.707,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fayçal Fajr",
+   "squad": "Caen"
+  }
+ ],
  "low_confidence": false
 }

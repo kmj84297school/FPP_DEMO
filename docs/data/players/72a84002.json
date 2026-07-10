@@ -26,10 +26,115 @@
   "confidence": 0.86
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0986,
+  "mu": 43.7,
+  "ci80": {
+   "lo": 34.7,
+   "hi": 52.7
+  },
+  "ci50": {
+   "lo": 39.0,
+   "hi": 48.5
+  },
+  "sigma_model": 2.559,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "474ecac8",
+   "season": 2019,
+   "distance": 2.276,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2019,
+   "distance": 2.35,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "1cd87320",
+   "season": 2019,
+   "distance": 2.383,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Ostrzolek",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "f5e9a8bd",
+   "season": 2018,
+   "distance": 2.45,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Costa",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "1b729ba2",
+   "season": 2018,
+   "distance": 2.471,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleandro Rosi",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "c2f9d19f",
+   "season": 2020,
+   "distance": 2.509,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Neil Taylor",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "1771f2c1",
+   "season": 2018,
+   "distance": 2.554,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eneko Bóveda",
+   "squad": "La Coruña / Athletic Club"
+  },
+  {
+   "fbref_id": "0bad4516",
+   "season": 2020,
+   "distance": 2.57,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Bennett",
+   "squad": "Wolves / Leicester City"
+  },
+  {
+   "fbref_id": "76e5da9d",
+   "season": 2019,
+   "distance": 2.626,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabian Johnson",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "7fecbcdb",
+   "season": 2018,
+   "distance": 2.63,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Abdoulaye Bamba",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

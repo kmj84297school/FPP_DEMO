@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4537,
+  "mu": 48.2,
+  "ci80": {
+   "lo": 39.1,
+   "hi": 57.2
+  },
+  "ci50": {
+   "lo": 43.4,
+   "hi": 53.0
+  },
+  "sigma_model": 2.634,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "35f6db55",
+   "season": 2018,
+   "distance": 1.725,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Léo Baptistão",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "6a99e0b1",
+   "season": 2019,
+   "distance": 2.113,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Iñaki Williams",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2018,
+   "distance": 2.202,
+   "survived": 1,
+   "fut_ability_v2": 71.1,
+   "player_name": "Gerard Moreno",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "ca618d23",
+   "season": 2020,
+   "distance": 2.299,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Lucas Höler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "b561db50",
+   "season": 2019,
+   "distance": 2.415,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "ba115a40",
+   "season": 2020,
+   "distance": 2.449,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sébastien Haller",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 2.459,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2020,
+   "distance": 2.468,
+   "survived": 1,
+   "fut_ability_v2": 69.6,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2019,
+   "distance": 2.486,
+   "survived": 1,
+   "fut_ability_v2": 73.4,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "b318a643",
+   "season": 2018,
+   "distance": 2.515,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomón Rondón",
+   "squad": "West Brom"
+  }
+ ],
  "low_confidence": false
 }

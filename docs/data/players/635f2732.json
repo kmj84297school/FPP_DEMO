@@ -26,10 +26,115 @@
   "confidence": 0.62
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3632,
+  "mu": 48.4,
+  "ci80": {
+   "lo": 39.1,
+   "hi": 57.6
+  },
+  "ci50": {
+   "lo": 43.5,
+   "hi": 53.2
+  },
+  "sigma_model": 3.018,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2018,
+   "distance": 2.93,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "92b56413",
+   "season": 2019,
+   "distance": 3.003,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Tristan Dingomé",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2018,
+   "distance": 3.003,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Roberto Soriano",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "6cdd8245",
+   "season": 2020,
+   "distance": 3.009,
+   "survived": 1,
+   "fut_ability_v2": 33.3,
+   "player_name": "Tom Cleverley",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "b606638c",
+   "season": 2020,
+   "distance": 3.063,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Stiepermann",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "0f9b8301",
+   "season": 2020,
+   "distance": 3.148,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Battocchio",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "f7691f63",
+   "season": 2019,
+   "distance": 3.15,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Dimitri Liénard",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "9ab48bde",
+   "season": 2019,
+   "distance": 3.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo de Blasis",
+   "squad": "Eibar / Mainz 05"
+  },
+  {
+   "fbref_id": "3c05e082",
+   "season": 2019,
+   "distance": 3.163,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koo Ja-cheol",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "d5575935",
+   "season": 2020,
+   "distance": 3.168,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valon Berisha",
+   "squad": "Düsseldorf / Lazio"
+  }
+ ],
  "low_confidence": false
 }

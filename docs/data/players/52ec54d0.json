@@ -26,10 +26,115 @@
   "confidence": 0.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3176,
+  "mu": 51.5,
+  "ci80": {
+   "lo": 42.8,
+   "hi": 60.3
+  },
+  "ci50": {
+   "lo": 46.9,
+   "hi": 56.1
+  },
+  "sigma_model": 1.888,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e0314d87",
+   "season": 2020,
+   "distance": 1.472,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Masiello",
+   "squad": "Genoa / Atalanta"
+  },
+  {
+   "fbref_id": "3d936ba9",
+   "season": 2019,
+   "distance": 1.637,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Domenico Maietta",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2020,
+   "distance": 1.736,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "7c0000fd",
+   "season": 2018,
+   "distance": 1.74,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Barzagli",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "9ab16552",
+   "season": 2020,
+   "distance": 1.783,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Makoto Hasebe",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "55667895",
+   "season": 2019,
+   "distance": 1.898,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Moretti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "314f2124",
+   "season": 2019,
+   "distance": 1.934,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miranda",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2019,
+   "distance": 1.982,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "e97150c0",
+   "season": 2019,
+   "distance": 2.007,
+   "survived": 1,
+   "fut_ability_v2": 38.6,
+   "player_name": "Jérémy Morel",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2019,
+   "distance": 2.021,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  }
+ ],
  "low_confidence": false
 }

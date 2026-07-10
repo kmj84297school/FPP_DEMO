@@ -26,10 +26,115 @@
   "confidence": 1.35
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1632,
+  "mu": 51.2,
+  "ci80": {
+   "lo": 42.3,
+   "hi": 60.1
+  },
+  "ci50": {
+   "lo": 46.5,
+   "hi": 55.9
+  },
+  "sigma_model": 2.319,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6ef56efd",
+   "season": 2018,
+   "distance": 2.304,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bacary Sagna",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "89151b16",
+   "season": 2020,
+   "distance": 2.314,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zouhair Feddal",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2020,
+   "distance": 2.433,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nenad Tomović",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "8494acc4",
+   "season": 2020,
+   "distance": 2.466,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefan Ilsanker",
+   "squad": "Eint Frankfurt / RB Leipzig"
+  },
+  {
+   "fbref_id": "8dbff17c",
+   "season": 2019,
+   "distance": 2.492,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Adil Rami",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2019,
+   "distance": 2.542,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "39ee6cb6",
+   "season": 2020,
+   "distance": 2.574,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Rispoli",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2020,
+   "distance": 2.848,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho Monreal",
+   "squad": "Real Sociedad / Arsenal"
+  },
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2020,
+   "distance": 2.897,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Coke",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2019,
+   "distance": 2.899,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  }
+ ],
  "low_confidence": false
 }

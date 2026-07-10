@@ -26,10 +26,115 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2036,
+  "mu": 49.0,
+  "ci80": {
+   "lo": 40.2,
+   "hi": 57.7
+  },
+  "ci50": {
+   "lo": 44.4,
+   "hi": 53.6
+  },
+  "sigma_model": 1.9,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2018,
+   "distance": 1.5,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "ecab64a0",
+   "season": 2019,
+   "distance": 1.55,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "ad340e17",
+   "season": 2018,
+   "distance": 1.586,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Aquilani",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 1.814,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "43a1bea5",
+   "season": 2018,
+   "distance": 1.856,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Édgar Barreto",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2018,
+   "distance": 1.997,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "def69cd0",
+   "season": 2018,
+   "distance": 2.005,
+   "survived": 1,
+   "fut_ability_v2": 37.4,
+   "player_name": "Mikel Rico",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "a64cbd35",
+   "season": 2020,
+   "distance": 2.024,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonino Barillà",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "c311243f",
+   "season": 2018,
+   "distance": 2.039,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dennis Aogo",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "e8c930bb",
+   "season": 2020,
+   "distance": 2.085,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Milan Badelj",
+   "squad": "Fiorentina"
+  }
+ ],
  "low_confidence": false
 }

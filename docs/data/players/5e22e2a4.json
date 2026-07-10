@@ -26,10 +26,115 @@
   "confidence": 1.72
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7793,
+  "mu": 56.5,
+  "ci80": {
+   "lo": 47.8,
+   "hi": 65.2
+  },
+  "ci50": {
+   "lo": 51.9,
+   "hi": 61.1
+  },
+  "sigma_model": 1.713,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b8c1de25",
+   "season": 2018,
+   "distance": 1.962,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Maxime Gonalons",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2018,
+   "distance": 2.368,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2018,
+   "distance": 2.755,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "e61b8aee",
+   "season": 2019,
+   "distance": 2.919,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Granit Xhaka",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "e8c930bb",
+   "season": 2018,
+   "distance": 2.997,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Milan Badelj",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2020,
+   "distance": 3.078,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "72c812f3",
+   "season": 2020,
+   "distance": 3.08,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Idrissa Gana Gueye",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2019,
+   "distance": 3.085,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "5ce0b5ba",
+   "season": 2018,
+   "distance": 3.104,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Asier Illarramendi",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2019,
+   "distance": 3.11,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

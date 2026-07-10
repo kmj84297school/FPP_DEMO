@@ -26,10 +26,115 @@
   "confidence": 0.77
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3488,
+  "mu": 55.8,
+  "ci80": {
+   "lo": 47.1,
+   "hi": 64.4
+  },
+  "ci50": {
+   "lo": 51.2,
+   "hi": 60.3
+  },
+  "sigma_model": 1.735,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "89151b16",
+   "season": 2020,
+   "distance": 1.618,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zouhair Feddal",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "8494acc4",
+   "season": 2020,
+   "distance": 1.623,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefan Ilsanker",
+   "squad": "Eint Frankfurt / RB Leipzig"
+  },
+  {
+   "fbref_id": "89151b16",
+   "season": 2019,
+   "distance": 1.806,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zouhair Feddal",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2020,
+   "distance": 1.811,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2019,
+   "distance": 1.849,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "e0314d87",
+   "season": 2019,
+   "distance": 1.914,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Andrea Masiello",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "08511d65",
+   "season": 2018,
+   "distance": 1.93,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Sergio Ramos",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "08511d65",
+   "season": 2019,
+   "distance": 1.956,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "Sergio Ramos",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "7aac47fe",
+   "season": 2020,
+   "distance": 1.956,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ermin Bičakčić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2018,
+   "distance": 1.959,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  }
+ ],
  "low_confidence": false
 }

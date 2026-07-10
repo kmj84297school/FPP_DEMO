@@ -26,10 +26,115 @@
   "confidence": 0.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5192,
+  "mu": 54.0,
+  "ci80": {
+   "lo": 45.0,
+   "hi": 62.9
+  },
+  "ci50": {
+   "lo": 49.2,
+   "hi": 58.7
+  },
+  "sigma_model": 2.472,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ca2bc3df",
+   "season": 2018,
+   "distance": 2.049,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Izquierdo",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2019,
+   "distance": 2.069,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Portu",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "8e235926",
+   "season": 2019,
+   "distance": 2.147,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Michael Gregoritsch",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "67d23ab0",
+   "season": 2018,
+   "distance": 2.348,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Ince",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2018,
+   "distance": 2.398,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "862a1c15",
+   "season": 2020,
+   "distance": 2.47,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Miguel Almirón",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "74c7c2db",
+   "season": 2020,
+   "distance": 2.52,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robin Quaison",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "33ecf462",
+   "season": 2020,
+   "distance": 2.525,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valerio Verre",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "c76b7567",
+   "season": 2019,
+   "distance": 2.532,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Adrien Thomasson",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2018,
+   "distance": 2.642,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Florent Mollet",
+   "squad": "Metz"
+  }
+ ],
  "low_confidence": false
 }

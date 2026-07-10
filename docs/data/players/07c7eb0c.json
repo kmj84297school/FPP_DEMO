@@ -26,10 +26,115 @@
   "confidence": 1.66
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.1046,
+  "mu": 45.2,
+  "ci80": {
+   "lo": 36.2,
+   "hi": 54.2
+  },
+  "ci50": {
+   "lo": 40.5,
+   "hi": 49.9
+  },
+  "sigma_model": 2.474,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0aa874f4",
+   "season": 2019,
+   "distance": 2.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alaixys Romao",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "f261abcb",
+   "season": 2019,
+   "distance": 2.755,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Baier",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "f261abcb",
+   "season": 2020,
+   "distance": 2.945,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Baier",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "7dbbe367",
+   "season": 2018,
+   "distance": 3.236,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gareth Barry",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2019,
+   "distance": 3.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "0aa874f4",
+   "season": 2020,
+   "distance": 3.432,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alaixys Romao",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2018,
+   "distance": 3.528,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "316162b6",
+   "season": 2019,
+   "distance": 3.986,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oliver Fink",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "ed5886d2",
+   "season": 2020,
+   "distance": 4.048,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Parolo",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "d3d758d8",
+   "season": 2020,
+   "distance": 4.375,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valon Behrami",
+   "squad": "Genoa"
+  }
+ ],
+ "low_confidence": true
 }

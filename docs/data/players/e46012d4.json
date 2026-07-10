@@ -26,10 +26,115 @@
   "confidence": 0.69
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.653,
+  "mu": 68.1,
+  "ci80": {
+   "lo": 59.3,
+   "hi": 77.0
+  },
+  "ci50": {
+   "lo": 63.5,
+   "hi": 72.8
+  },
+  "sigma_model": 2.126,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3c6089ab",
+   "season": 2020,
+   "distance": 3.197,
+   "survived": 1,
+   "fut_ability_v2": 71.0,
+   "player_name": "Thomas Müller",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "58ae47b2",
+   "season": 2018,
+   "distance": 3.905,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Dimitri Payet",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "58ae47b2",
+   "season": 2019,
+   "distance": 4.111,
+   "survived": 1,
+   "fut_ability_v2": 66.0,
+   "player_name": "Dimitri Payet",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "19cda00b",
+   "season": 2020,
+   "distance": 4.276,
+   "survived": 1,
+   "fut_ability_v2": 77.8,
+   "player_name": "Ángel Di María",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "19cda00b",
+   "season": 2019,
+   "distance": 4.588,
+   "survived": 1,
+   "fut_ability_v2": 76.2,
+   "player_name": "Ángel Di María",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "6421dd73",
+   "season": 2018,
+   "distance": 4.615,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Mathieu Dossevi",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2020,
+   "distance": 4.617,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Radja Nainggolan",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "6e4df551",
+   "season": 2019,
+   "distance": 4.745,
+   "survived": 1,
+   "fut_ability_v2": 65.5,
+   "player_name": "Papu Gómez",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "e2716bd0",
+   "season": 2019,
+   "distance": 4.759,
+   "survived": 1,
+   "fut_ability_v2": 70.8,
+   "player_name": "David Silva",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "356c9002",
+   "season": 2018,
+   "distance": 4.786,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Antonio Candreva",
+   "squad": "Inter"
+  }
+ ],
+ "low_confidence": true
 }

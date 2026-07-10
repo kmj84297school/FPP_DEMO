@@ -26,10 +26,115 @@
   "confidence": 2.21
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3252,
+  "mu": 52.6,
+  "ci80": {
+   "lo": 43.9,
+   "hi": 61.4
+  },
+  "ci50": {
+   "lo": 48.0,
+   "hi": 57.2
+  },
+  "sigma_model": 1.898,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2018,
+   "distance": 1.514,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Nenad Tomović",
+   "squad": "Chievo / Fiorentina"
+  },
+  {
+   "fbref_id": "c5b7c315",
+   "season": 2020,
+   "distance": 1.525,
+   "survived": 1,
+   "fut_ability_v2": 53.7,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2018,
+   "distance": 1.55,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "921f6058",
+   "season": 2018,
+   "distance": 1.655,
+   "survived": 1,
+   "fut_ability_v2": 63.7,
+   "player_name": "José Luis Palomino",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2019,
+   "distance": 1.667,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "0821331c",
+   "season": 2020,
+   "distance": 1.675,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Mattia Bani",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "caffaf5a",
+   "season": 2018,
+   "distance": 1.723,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Maya Yoshida",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "f35430a4",
+   "season": 2020,
+   "distance": 1.754,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matija Nastasić",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "29d8ad3f",
+   "season": 2019,
+   "distance": 1.764,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Pablo",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "ba71d071",
+   "season": 2019,
+   "distance": 1.772,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "Pedro Alcalá",
+   "squad": "Girona"
+  }
+ ],
  "low_confidence": false
 }

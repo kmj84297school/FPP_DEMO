@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.5853,
+  "mu": 65.6,
+  "ci80": {
+   "lo": 56.6,
+   "hi": 74.5
+  },
+  "ci50": {
+   "lo": 60.9,
+   "hi": 70.2
+  },
+  "sigma_model": 2.298,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "19cda00b",
+   "season": 2020,
+   "distance": 3.434,
+   "survived": 1,
+   "fut_ability_v2": 77.8,
+   "player_name": "Ángel Di María",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "3c6089ab",
+   "season": 2020,
+   "distance": 4.088,
+   "survived": 1,
+   "fut_ability_v2": 71.0,
+   "player_name": "Thomas Müller",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "68252d6d",
+   "season": 2018,
+   "distance": 4.275,
+   "survived": 1,
+   "fut_ability_v2": 77.7,
+   "player_name": "Josip Iličić",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "e46012d4",
+   "season": 2020,
+   "distance": 4.52,
+   "survived": 1,
+   "fut_ability_v2": 74.1,
+   "player_name": "Kevin De Bruyne",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "19cda00b",
+   "season": 2019,
+   "distance": 4.822,
+   "survived": 1,
+   "fut_ability_v2": 76.2,
+   "player_name": "Ángel Di María",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "e2716bd0",
+   "season": 2019,
+   "distance": 4.912,
+   "survived": 1,
+   "fut_ability_v2": 70.8,
+   "player_name": "David Silva",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "6e4df551",
+   "season": 2018,
+   "distance": 4.94,
+   "survived": 1,
+   "fut_ability_v2": 74.8,
+   "player_name": "Papu Gómez",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "2c0f8e9e",
+   "season": 2018,
+   "distance": 5.053,
+   "survived": 1,
+   "fut_ability_v2": 77.3,
+   "player_name": "Alexis Sánchez",
+   "squad": "Arsenal / Manchester Utd"
+  },
+  {
+   "fbref_id": "58ae47b2",
+   "season": 2018,
+   "distance": 5.168,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Dimitri Payet",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "6e4df551",
+   "season": 2019,
+   "distance": 5.223,
+   "survived": 1,
+   "fut_ability_v2": 65.5,
+   "player_name": "Papu Gómez",
+   "squad": "Atalanta"
+  }
+ ],
+ "low_confidence": true
 }

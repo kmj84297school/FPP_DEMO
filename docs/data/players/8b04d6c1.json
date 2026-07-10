@@ -26,10 +26,115 @@
   "confidence": 0.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7809,
+  "mu": 57.6,
+  "ci80": {
+   "lo": 48.9,
+   "hi": 66.4
+  },
+  "ci50": {
+   "lo": 53.0,
+   "hi": 62.2
+  },
+  "sigma_model": 1.847,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "89f951b5",
+   "season": 2018,
+   "distance": 1.705,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Ivan Rakitić",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "33b8d077",
+   "season": 2020,
+   "distance": 1.751,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Marcelo Brozović",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "5ab0ea87",
+   "season": 2018,
+   "distance": 1.91,
+   "survived": 1,
+   "fut_ability_v2": 63.4,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2020,
+   "distance": 1.933,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2020,
+   "distance": 1.943,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "5ce0b5ba",
+   "season": 2018,
+   "distance": 2.075,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Asier Illarramendi",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "e61b8aee",
+   "season": 2019,
+   "distance": 2.076,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Granit Xhaka",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2018,
+   "distance": 2.154,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2018,
+   "distance": 2.166,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Kevin Strootman",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2018,
+   "distance": 2.21,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  }
+ ],
  "low_confidence": false
 }

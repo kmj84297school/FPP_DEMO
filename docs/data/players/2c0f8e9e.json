@@ -26,10 +26,115 @@
   "confidence": 0.36
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2836,
+  "mu": 65.5,
+  "ci80": {
+   "lo": 56.6,
+   "hi": 74.4
+  },
+  "ci50": {
+   "lo": 60.8,
+   "hi": 70.2
+  },
+  "sigma_model": 2.183,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "89b2c8a9",
+   "season": 2019,
+   "distance": 2.899,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Dries Mertens",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "8a08491a",
+   "season": 2020,
+   "distance": 2.934,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gonzalo Higuaín",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "70d74ece",
+   "season": 2020,
+   "distance": 2.958,
+   "survived": 1,
+   "fut_ability_v2": 81.6,
+   "player_name": "Karim Benzema",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "89b2c8a9",
+   "season": 2020,
+   "distance": 3.175,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Dries Mertens",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "ffec9769",
+   "season": 2020,
+   "distance": 3.417,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Islam Slimani",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "d711d04f",
+   "season": 2018,
+   "distance": 3.434,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "3ca7254a",
+   "season": 2019,
+   "distance": 3.544,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "Pedro",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "42276181",
+   "season": 2019,
+   "distance": 3.788,
+   "survived": 1,
+   "fut_ability_v2": 41.9,
+   "player_name": "Kévin Gameiro",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2019,
+   "distance": 3.809,
+   "survived": 1,
+   "fut_ability_v2": 70.0,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "a6154613",
+   "season": 2019,
+   "distance": 3.834,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Luis Suárez",
+   "squad": "Barcelona"
+  }
+ ],
+ "low_confidence": true
 }

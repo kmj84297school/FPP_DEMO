@@ -26,10 +26,115 @@
   "confidence": 0.09
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.3946,
+  "mu": 59.5,
+  "ci80": {
+   "lo": 50.8,
+   "hi": 68.2
+  },
+  "ci50": {
+   "lo": 54.9,
+   "hi": 64.1
+  },
+  "sigma_model": 1.795,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "55667895",
+   "season": 2018,
+   "distance": 2.733,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Moretti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "7c0000fd",
+   "season": 2018,
+   "distance": 2.887,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Barzagli",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "c4bbea9f",
+   "season": 2019,
+   "distance": 2.89,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Vitorino Hilton",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "c4bbea9f",
+   "season": 2018,
+   "distance": 3.234,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Vitorino Hilton",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "55667895",
+   "season": 2019,
+   "distance": 3.317,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Moretti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "585a73a8",
+   "season": 2020,
+   "distance": 3.328,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Alves",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "13b0c150",
+   "season": 2018,
+   "distance": 3.564,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Bonera",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "78803d03",
+   "season": 2018,
+   "distance": 3.745,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "3858e611",
+   "season": 2018,
+   "distance": 3.9,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dario Dainelli",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "9417f322",
+   "season": 2018,
+   "distance": 3.991,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolás Burdisso",
+   "squad": "Torino"
+  }
+ ],
+ "low_confidence": true
 }

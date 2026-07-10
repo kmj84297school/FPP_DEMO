@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3312,
+  "mu": 36.9,
+  "ci80": {
+   "lo": 28.1,
+   "hi": 45.6
+  },
+  "ci50": {
+   "lo": 32.3,
+   "hi": 41.5
+  },
+  "sigma_model": 1.874,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7fecbcdb",
+   "season": 2019,
+   "distance": 1.352,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Abdoulaye Bamba",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2018,
+   "distance": 1.847,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2018,
+   "distance": 1.858,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2019,
+   "distance": 1.919,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "2f72f79e",
+   "season": 2018,
+   "distance": 1.924,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Olsson",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2020,
+   "distance": 2.056,
+   "survived": 1,
+   "fut_ability_v2": 38.5,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "cacadf4f",
+   "season": 2019,
+   "distance": 2.109,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luis Advíncula",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "00a6485f",
+   "season": 2019,
+   "distance": 2.112,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Beck",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "e3e05edf",
+   "season": 2020,
+   "distance": 2.153,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ambroise Oyongo",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "bad38a94",
+   "season": 2020,
+   "distance": 2.163,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

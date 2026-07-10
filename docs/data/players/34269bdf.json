@@ -26,10 +26,115 @@
   "confidence": 0.31
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.322,
+  "mu": 48.5,
+  "ci80": {
+   "lo": 39.9,
+   "hi": 57.1
+  },
+  "ci50": {
+   "lo": 44.0,
+   "hi": 53.0
+  },
+  "sigma_model": 1.356,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "605873e1",
+   "season": 2019,
+   "distance": 1.322,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Bradarić",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "7f3b388c",
+   "season": 2020,
+   "distance": 1.374,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Fabinho",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "4b511457",
+   "season": 2020,
+   "distance": 1.4,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Oriol Romeu",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "e947ee4a",
+   "season": 2020,
+   "distance": 1.55,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Brugman",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "023937a9",
+   "season": 2019,
+   "distance": 1.592,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Ivan Radovanović",
+   "squad": "Chievo / Genoa"
+  },
+  {
+   "fbref_id": "496aeede",
+   "season": 2020,
+   "distance": 1.604,
+   "survived": 1,
+   "fut_ability_v2": 41.0,
+   "player_name": "Christoph Kramer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "faec2ec4",
+   "season": 2018,
+   "distance": 1.64,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Pizarro",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "f4081572",
+   "season": 2019,
+   "distance": 1.701,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuri Şahin",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "51b41c5c",
+   "season": 2020,
+   "distance": 1.743,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Morgan Schneiderlin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "5ce0b5ba",
+   "season": 2019,
+   "distance": 1.837,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Asier Illarramendi",
+   "squad": "Real Sociedad"
+  }
+ ],
  "low_confidence": false
 }

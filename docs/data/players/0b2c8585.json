@@ -26,10 +26,115 @@
   "confidence": 0.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.377,
+  "mu": 39.7,
+  "ci80": {
+   "lo": 30.8,
+   "hi": 48.5
+  },
+  "ci50": {
+   "lo": 35.0,
+   "hi": 44.3
+  },
+  "sigma_model": 2.255,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0cc474e7",
+   "season": 2020,
+   "distance": 1.89,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramon Azeez",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "9a506145",
+   "season": 2018,
+   "distance": 2.323,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rene Krhin",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "987718f5",
+   "season": 2018,
+   "distance": 2.336,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sam Clucas",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "4442fbcd",
+   "season": 2020,
+   "distance": 2.514,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nikola Vukčević",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2019,
+   "distance": 2.586,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "9260926b",
+   "season": 2020,
+   "distance": 2.641,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibrahim Amadou",
+   "squad": "Leganés / Norwich City"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2018,
+   "distance": 2.655,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "e208bcc8",
+   "season": 2018,
+   "distance": 2.686,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cheick Doukouré",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2019,
+   "distance": 2.697,
+   "survived": 1,
+   "fut_ability_v2": 35.8,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2019,
+   "distance": 2.712,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Darko Brašanac",
+   "squad": "Alavés"
+  }
+ ],
  "low_confidence": false
 }

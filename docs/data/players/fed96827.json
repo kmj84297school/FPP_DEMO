@@ -26,10 +26,115 @@
   "confidence": 2.35
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3653,
+  "mu": 41.3,
+  "ci80": {
+   "lo": 32.5,
+   "hi": 50.1
+  },
+  "ci50": {
+   "lo": 36.7,
+   "hi": 46.0
+  },
+  "sigma_model": 2.082,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7ed4921e",
+   "season": 2020,
+   "distance": 1.597,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "William Troost-Ekong",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "7c6d6c96",
+   "season": 2019,
+   "distance": 1.714,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Prince-Désir Gouano",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2018,
+   "distance": 1.729,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Christophe Hérelle",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "d70a2141",
+   "season": 2019,
+   "distance": 1.731,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordi Amat",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "463503e2",
+   "season": 2019,
+   "distance": 1.785,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcin Kamiński",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "93090f69",
+   "season": 2020,
+   "distance": 1.797,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Domingos Duarte",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2020,
+   "distance": 1.814,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "27f0ddef",
+   "season": 2018,
+   "distance": 1.824,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Helander",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "7cab69b5",
+   "season": 2018,
+   "distance": 1.833,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Jemerson",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "de045b15",
+   "season": 2020,
+   "distance": 1.907,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Vicari",
+   "squad": "SPAL"
+  }
+ ],
  "low_confidence": false
 }

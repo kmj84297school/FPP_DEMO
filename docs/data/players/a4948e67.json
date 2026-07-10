@@ -26,10 +26,115 @@
   "confidence": 0.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2496,
+  "mu": 35.3,
+  "ci80": {
+   "lo": 26.2,
+   "hi": 44.3
+  },
+  "ci50": {
+   "lo": 30.5,
+   "hi": 40.0
+  },
+  "sigma_model": 2.581,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "81255c03",
+   "season": 2020,
+   "distance": 2.424,
+   "survived": 1,
+   "fut_ability_v2": 38.3,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "989d5705",
+   "season": 2018,
+   "distance": 2.575,
+   "survived": 1,
+   "fut_ability_v2": 28.4,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2019,
+   "distance": 2.941,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "da052c14",
+   "season": 2020,
+   "distance": 2.947,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Jordan Ayew",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "6a99e0b1",
+   "season": 2020,
+   "distance": 3.07,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Iñaki Williams",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 3.216,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "03f946ed",
+   "season": 2020,
+   "distance": 3.252,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Petagna",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "d87e2cae",
+   "season": 2019,
+   "distance": 3.256,
+   "survived": 1,
+   "fut_ability_v2": 40.5,
+   "player_name": "Willian José",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "854ee61a",
+   "season": 2019,
+   "distance": 3.283,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Grégoire Defrel",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "74c7c2db",
+   "season": 2019,
+   "distance": 3.319,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "Robin Quaison",
+   "squad": "Mainz 05"
+  }
+ ],
  "low_confidence": false
 }

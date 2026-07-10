@@ -26,10 +26,115 @@
   "confidence": 5.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.1605,
+  "mu": 43.9,
+  "ci80": {
+   "lo": 35.0,
+   "hi": 52.8
+  },
+  "ci50": {
+   "lo": 39.2,
+   "hi": 48.5
+  },
+  "sigma_model": 2.291,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a6e316c1",
+   "season": 2018,
+   "distance": 3.03,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezequiel Schelotto",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "1a317a1b",
+   "season": 2020,
+   "distance": 3.217,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl García",
+   "squad": "Valladolid / Getafe"
+  },
+  {
+   "fbref_id": "df525574",
+   "season": 2020,
+   "distance": 3.239,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Peter Ankersen",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "e94d79e3",
+   "season": 2018,
+   "distance": 3.308,
+   "survived": 1,
+   "fut_ability_v2": 41.7,
+   "player_name": "Martín Cáceres",
+   "squad": "Hellas Verona / Lazio"
+  },
+  {
+   "fbref_id": "1b729ba2",
+   "season": 2018,
+   "distance": 3.315,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleandro Rosi",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2019,
+   "distance": 3.333,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "6ca88b2a",
+   "season": 2018,
+   "distance": 3.351,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Moubandje",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "1a317a1b",
+   "season": 2019,
+   "distance": 3.412,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl García",
+   "squad": "Girona / Leganés"
+  },
+  {
+   "fbref_id": "1040e783",
+   "season": 2018,
+   "distance": 3.476,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Romain Genevois",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "ad6295d4",
+   "season": 2018,
+   "distance": 3.537,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Layún",
+   "squad": "Sevilla"
+  }
+ ],
+ "low_confidence": true
 }

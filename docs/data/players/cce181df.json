@@ -26,10 +26,115 @@
   "confidence": 0.88
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4155,
+  "mu": 46.8,
+  "ci80": {
+   "lo": 38.1,
+   "hi": 55.6
+  },
+  "ci50": {
+   "lo": 42.3,
+   "hi": 51.4
+  },
+  "sigma_model": 1.795,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5acc4a10",
+   "season": 2018,
+   "distance": 1.821,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Étienne Capoue",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "e6c43eec",
+   "season": 2019,
+   "distance": 2.098,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Josuha Guilavogui",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "69374ff5",
+   "season": 2018,
+   "distance": 2.12,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Julian Baumgartlinger",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "faec2ec4",
+   "season": 2018,
+   "distance": 2.159,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Pizarro",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "51b41c5c",
+   "season": 2018,
+   "distance": 2.228,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Morgan Schneiderlin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "b8c1de25",
+   "season": 2020,
+   "distance": 2.321,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Maxime Gonalons",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "74e0a984",
+   "season": 2019,
+   "distance": 2.432,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Damián Musto",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "ad4d0985",
+   "season": 2019,
+   "distance": 2.486,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Sánchez",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "72c812f3",
+   "season": 2018,
+   "distance": 2.495,
+   "survived": 1,
+   "fut_ability_v2": 66.8,
+   "player_name": "Idrissa Gana Gueye",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "e6c43eec",
+   "season": 2020,
+   "distance": 2.519,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Josuha Guilavogui",
+   "squad": "Wolfsburg"
+  }
+ ],
  "low_confidence": false
 }

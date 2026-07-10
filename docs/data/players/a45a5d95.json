@@ -26,10 +26,115 @@
   "confidence": 1.51
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2038,
+  "mu": 42.4,
+  "ci80": {
+   "lo": 33.3,
+   "hi": 51.5
+  },
+  "ci50": {
+   "lo": 37.6,
+   "hi": 47.2
+  },
+  "sigma_model": 2.738,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "106bca06",
+   "season": 2020,
+   "distance": 2.198,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Alessandro Schöpf",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "d2ac648c",
+   "season": 2018,
+   "distance": 2.838,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaku Shibasaki",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "a1d04509",
+   "season": 2019,
+   "distance": 2.947,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yacine Bammou",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "5bddccc9",
+   "season": 2019,
+   "distance": 2.959,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Elias Kachunga",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "eb3dd471",
+   "season": 2020,
+   "distance": 2.98,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Luis Rioja",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "aa5a409a",
+   "season": 2018,
+   "distance": 3.093,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raman Chibsah",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "8816329f",
+   "season": 2019,
+   "distance": 3.128,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Atsu",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "b5b27493",
+   "season": 2018,
+   "distance": 3.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcus Rohdén",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "9b337c7c",
+   "season": 2019,
+   "distance": 3.425,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jozabed",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "aa5a409a",
+   "season": 2019,
+   "distance": 3.437,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raman Chibsah",
+   "squad": "Frosinone"
+  }
+ ],
  "low_confidence": false
 }

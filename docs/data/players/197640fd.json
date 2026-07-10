@@ -26,10 +26,115 @@
   "confidence": 0.74
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7546,
+  "mu": 46.9,
+  "ci80": {
+   "lo": 38.2,
+   "hi": 55.5
+  },
+  "ci50": {
+   "lo": 42.3,
+   "hi": 51.4
+  },
+  "sigma_model": 1.686,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2019,
+   "distance": 1.174,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2018,
+   "distance": 1.875,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "2200181e",
+   "season": 2020,
+   "distance": 1.947,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Kaan Ayhan",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2018,
+   "distance": 1.987,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "f4290206",
+   "season": 2018,
+   "distance": 2.076,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Marcos Alonso",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "d4535821",
+   "season": 2019,
+   "distance": 2.09,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Adam Marušić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2020,
+   "distance": 2.098,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2019,
+   "distance": 2.131,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "cb574619",
+   "season": 2019,
+   "distance": 2.144,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2018,
+   "distance": 2.154,
+   "survived": 1,
+   "fut_ability_v2": 42.7,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  }
+ ],
  "low_confidence": false
 }

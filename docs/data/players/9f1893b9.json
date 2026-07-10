@@ -26,10 +26,115 @@
   "confidence": 0.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.598,
+  "mu": 52.2,
+  "ci80": {
+   "lo": 43.4,
+   "hi": 61.0
+  },
+  "ci50": {
+   "lo": 47.5,
+   "hi": 56.8
+  },
+  "sigma_model": 2.037,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "18ebca4b",
+   "season": 2020,
+   "distance": 2.988,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Charbonnier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2019,
+   "distance": 3.123,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "7cd6badb",
+   "season": 2018,
+   "distance": 3.166,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Lars Stindl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "b500b384",
+   "season": 2019,
+   "distance": 3.176,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Admir Mehmedi",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2019,
+   "distance": 3.243,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "7cd6badb",
+   "season": 2019,
+   "distance": 3.32,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Lars Stindl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "9ab48bde",
+   "season": 2018,
+   "distance": 3.335,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Pablo de Blasis",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "b28bbd58",
+   "season": 2019,
+   "distance": 3.411,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Andros Townsend",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "7dcf86f6",
+   "season": 2020,
+   "distance": 3.42,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Iago Aspas",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2020,
+   "distance": 3.461,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Antoine Griezmann",
+   "squad": "Barcelona"
+  }
+ ],
+ "low_confidence": true
 }

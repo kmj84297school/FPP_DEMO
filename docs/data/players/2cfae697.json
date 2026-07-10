@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6307,
+  "mu": 49.9,
+  "ci80": {
+   "lo": 41.2,
+   "hi": 58.7
+  },
+  "ci50": {
+   "lo": 45.3,
+   "hi": 54.6
+  },
+  "sigma_model": 2.019,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2019,
+   "distance": 1.568,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "02febfdc",
+   "season": 2019,
+   "distance": 1.591,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raffaele Maiello",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "240d3a0b",
+   "season": 2018,
+   "distance": 1.894,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Dani García",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2018,
+   "distance": 1.928,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2018,
+   "distance": 1.958,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "a8797cf1",
+   "season": 2018,
+   "distance": 1.998,
+   "survived": 1,
+   "fut_ability_v2": 47.3,
+   "player_name": "Bongani Zungu",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "84d94b91",
+   "season": 2019,
+   "distance": 2.01,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Thomas Monconduit",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "471f16b3",
+   "season": 2020,
+   "distance": 2.015,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Kenny McLean",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "9b5ce51a",
+   "season": 2020,
+   "distance": 2.015,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Jefferson Lerma",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "8da74c05",
+   "season": 2019,
+   "distance": 2.026,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Adrien Tameze",
+   "squad": "Nice"
+  }
+ ],
  "low_confidence": false
 }

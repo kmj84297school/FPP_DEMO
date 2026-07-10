@@ -26,10 +26,115 @@
   "confidence": 0.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.5328,
+  "mu": 61.8,
+  "ci80": {
+   "lo": 52.9,
+   "hi": 70.8
+  },
+  "ci50": {
+   "lo": 57.1,
+   "hi": 66.5
+  },
+  "sigma_model": 2.363,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2019,
+   "distance": 3.714,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "7cd6badb",
+   "season": 2019,
+   "distance": 3.734,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Lars Stindl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "4e219ad2",
+   "season": 2020,
+   "distance": 3.791,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Suso",
+   "squad": "Milan / Sevilla"
+  },
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2019,
+   "distance": 3.819,
+   "survived": 1,
+   "fut_ability_v2": 66.4,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "a0b4bb3e",
+   "season": 2020,
+   "distance": 4.063,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Isco",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "b182a240",
+   "season": 2019,
+   "distance": 4.096,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Quincy Promes",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "fd51b456",
+   "season": 2019,
+   "distance": 4.292,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Lucas Vázquez",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "a39bb753",
+   "season": 2020,
+   "distance": 4.306,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eden Hazard",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "47dc80f5",
+   "season": 2018,
+   "distance": 4.35,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adel Taarabt",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "5e861944",
+   "season": 2020,
+   "distance": 4.387,
+   "survived": 1,
+   "fut_ability_v2": 61.3,
+   "player_name": "Matteo Politano",
+   "squad": "Napoli / Inter"
+  }
+ ],
+ "low_confidence": true
 }

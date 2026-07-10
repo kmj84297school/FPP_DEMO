@@ -26,10 +26,115 @@
   "confidence": 0.95
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6108,
+  "mu": 58.9,
+  "ci80": {
+   "lo": 49.9,
+   "hi": 68.0
+  },
+  "ci50": {
+   "lo": 54.2,
+   "hi": 63.7
+  },
+  "sigma_model": 2.563,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "81f0781e",
+   "season": 2019,
+   "distance": 2.399,
+   "survived": 1,
+   "fut_ability_v2": 73.4,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "854ee61a",
+   "season": 2019,
+   "distance": 2.47,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Grégoire Defrel",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "35f6db55",
+   "season": 2019,
+   "distance": 2.476,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Léo Baptistão",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "eb2fe5b6",
+   "season": 2018,
+   "distance": 2.654,
+   "survived": 1,
+   "fut_ability_v2": 82.2,
+   "player_name": "Luis Muriel",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2018,
+   "distance": 2.713,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Diego Farias",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2018,
+   "distance": 2.822,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "4c370d81",
+   "season": 2020,
+   "distance": 2.907,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Roberto Firmino",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2020,
+   "distance": 2.909,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2020,
+   "distance": 2.965,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Antoine Griezmann",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "a58bb1e1",
+   "season": 2019,
+   "distance": 3.024,
+   "survived": 1,
+   "fut_ability_v2": 71.5,
+   "player_name": "Gareth Bale",
+   "squad": "Real Madrid"
+  }
+ ],
  "low_confidence": false
 }

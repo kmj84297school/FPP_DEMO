@@ -26,10 +26,115 @@
   "confidence": 1.93
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6123,
+  "mu": 53.9,
+  "ci80": {
+   "lo": 45.1,
+   "hi": 62.7
+  },
+  "ci50": {
+   "lo": 49.3,
+   "hi": 58.6
+  },
+  "sigma_model": 2.102,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c707411f",
+   "season": 2019,
+   "distance": 1.384,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "Kostas Manolas",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "f0da930c",
+   "season": 2020,
+   "distance": 1.402,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "José María Giménez",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2019,
+   "distance": 1.522,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "f35430a4",
+   "season": 2018,
+   "distance": 1.59,
+   "survived": 1,
+   "fut_ability_v2": 55.1,
+   "player_name": "Matija Nastasić",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "3376a776",
+   "season": 2020,
+   "distance": 1.618,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Karim Rekik",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "b7ca5c51",
+   "season": 2019,
+   "distance": 1.661,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Gabriel Paulista",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "7b075c75",
+   "season": 2019,
+   "distance": 1.723,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Adama Soumaoro",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2018,
+   "distance": 1.742,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "9f8e9423",
+   "season": 2019,
+   "distance": 1.779,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Raphaël Varane",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2018,
+   "distance": 1.792,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  }
+ ],
  "low_confidence": false
 }

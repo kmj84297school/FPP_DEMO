@@ -26,10 +26,115 @@
   "confidence": 1.23
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.497,
+  "mu": 54.0,
+  "ci80": {
+   "lo": 45.3,
+   "hi": 62.8
+  },
+  "ci50": {
+   "lo": 49.4,
+   "hi": 58.6
+  },
+  "sigma_model": 1.889,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2020,
+   "distance": 1.37,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "2ce2508a",
+   "season": 2018,
+   "distance": 1.397,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Luka Milivojević",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "496aeede",
+   "season": 2018,
+   "distance": 1.434,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Christoph Kramer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "5acc4a10",
+   "season": 2019,
+   "distance": 1.805,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Étienne Capoue",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "cce181df",
+   "season": 2020,
+   "distance": 1.824,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Geoffrey Kondogbia",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "5ab0ea87",
+   "season": 2019,
+   "distance": 1.869,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "4d224fe8",
+   "season": 2019,
+   "distance": 1.911,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Casemiro",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "f503ea63",
+   "season": 2019,
+   "distance": 1.925,
+   "survived": 1,
+   "fut_ability_v2": 49.9,
+   "player_name": "Albin Ekdal",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "eb7822d7",
+   "season": 2019,
+   "distance": 1.932,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "Nemanja Matić",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "4d224fe8",
+   "season": 2020,
+   "distance": 1.969,
+   "survived": 1,
+   "fut_ability_v2": 66.4,
+   "player_name": "Casemiro",
+   "squad": "Real Madrid"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.03
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1516,
+  "mu": 51.6,
+  "ci80": {
+   "lo": 43.0,
+   "hi": 60.3
+  },
+  "ci50": {
+   "lo": 47.1,
+   "hi": 56.2
+  },
+  "sigma_model": 1.631,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1522dab2",
+   "season": 2018,
+   "distance": 1.65,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davide Astori",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2019,
+   "distance": 1.667,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "da974c7b",
+   "season": 2020,
+   "distance": 1.945,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "b3dc6eca",
+   "season": 2019,
+   "distance": 1.959,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Víctor Ruiz",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "f5efb153",
+   "season": 2018,
+   "distance": 1.996,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Laurent Koscielny",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2018,
+   "distance": 2.081,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "b1deecf8",
+   "season": 2018,
+   "distance": 2.103,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Cristián Zapata",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "53de807a",
+   "season": 2018,
+   "distance": 2.135,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "1a2935f6",
+   "season": 2018,
+   "distance": 2.159,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dejan Lovren",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "16b9d5cf",
+   "season": 2020,
+   "distance": 2.2,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Nikola Maksimović",
+   "squad": "Napoli"
+  }
+ ],
  "low_confidence": false
 }

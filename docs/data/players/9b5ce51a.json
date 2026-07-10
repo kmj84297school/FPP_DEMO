@@ -26,10 +26,115 @@
   "confidence": 0.39
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2638,
+  "mu": 47.7,
+  "ci80": {
+   "lo": 39.0,
+   "hi": 56.4
+  },
+  "ci50": {
+   "lo": 43.1,
+   "hi": 52.3
+  },
+  "sigma_model": 1.75,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2019,
+   "distance": 1.527,
+   "survived": 1,
+   "fut_ability_v2": 35.8,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "8f4d116f",
+   "season": 2020,
+   "distance": 1.862,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Damien Le Tallec",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "023937a9",
+   "season": 2018,
+   "distance": 2.014,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Ivan Radovanović",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "8754c7ca",
+   "season": 2018,
+   "distance": 2.031,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guilherme",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "74e12f1e",
+   "season": 2018,
+   "distance": 2.1,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Jack Cork",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "9e27e5de",
+   "season": 2019,
+   "distance": 2.111,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Prince Oniangué",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "b98570d1",
+   "season": 2018,
+   "distance": 2.245,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Jake Livermore",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "d4133fa1",
+   "season": 2020,
+   "distance": 2.249,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yann M'Vila",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "2acd49b9",
+   "season": 2020,
+   "distance": 2.254,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Moussa Sissoko",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "74e12f1e",
+   "season": 2020,
+   "distance": 2.26,
+   "survived": 1,
+   "fut_ability_v2": 35.0,
+   "player_name": "Jack Cork",
+   "squad": "Burnley"
+  }
+ ],
  "low_confidence": false
 }

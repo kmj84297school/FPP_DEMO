@@ -26,10 +26,115 @@
   "confidence": 0.68
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6244,
+  "mu": 51.5,
+  "ci80": {
+   "lo": 42.7,
+   "hi": 60.4
+  },
+  "ci50": {
+   "lo": 46.9,
+   "hi": 56.2
+  },
+  "sigma_model": 2.194,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "89976232",
+   "season": 2020,
+   "distance": 1.315,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2020,
+   "distance": 1.338,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2018,
+   "distance": 1.505,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "5832ebfe",
+   "season": 2020,
+   "distance": 1.527,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Denswil",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2019,
+   "distance": 1.565,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "89cbc961",
+   "season": 2019,
+   "distance": 1.577,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramiro Funes Mori",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "8b95acda",
+   "season": 2020,
+   "distance": 1.589,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Omar Colley",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2020,
+   "distance": 1.593,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Berat Djimsiti",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2018,
+   "distance": 1.614,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2018,
+   "distance": 1.661,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  }
+ ],
  "low_confidence": false
 }

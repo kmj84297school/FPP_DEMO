@@ -26,10 +26,115 @@
   "confidence": 2.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5652,
+  "mu": 46.8,
+  "ci80": {
+   "lo": 38.1,
+   "hi": 55.6
+  },
+  "ci50": {
+   "lo": 42.2,
+   "hi": 51.4
+  },
+  "sigma_model": 1.94,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "72b07a9c",
+   "season": 2019,
+   "distance": 1.297,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kiko Olivas",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 1.33,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2019,
+   "distance": 1.485,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Sergi Gómez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "27a013f7",
+   "season": 2020,
+   "distance": 1.51,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Néstor Araujo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "b857bd29",
+   "season": 2020,
+   "distance": 1.603,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Antonio Raillo",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "d70a2141",
+   "season": 2019,
+   "distance": 1.627,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordi Amat",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "f25b010f",
+   "season": 2018,
+   "distance": 1.668,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Federico Fernández",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "463503e2",
+   "season": 2019,
+   "distance": 1.733,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcin Kamiński",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "c6056d58",
+   "season": 2019,
+   "distance": 1.781,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Kamil Glik",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "27a013f7",
+   "season": 2019,
+   "distance": 1.798,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Néstor Araujo",
+   "squad": "Celta Vigo"
+  }
+ ],
  "low_confidence": false
 }

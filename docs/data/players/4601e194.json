@@ -26,10 +26,115 @@
   "confidence": 0.43
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.243,
+  "mu": 56.5,
+  "ci80": {
+   "lo": 47.7,
+   "hi": 65.3
+  },
+  "ci50": {
+   "lo": 51.9,
+   "hi": 61.1
+  },
+  "sigma_model": 2.074,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d003e213",
+   "season": 2018,
+   "distance": 3.217,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafinha",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2020,
+   "distance": 3.706,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Ashley Young",
+   "squad": "Inter / Manchester Utd"
+  },
+  {
+   "fbref_id": "356c9002",
+   "season": 2020,
+   "distance": 3.897,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Antonio Candreva",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "603116a7",
+   "season": 2020,
+   "distance": 3.948,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcelo",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "b18095b6",
+   "season": 2018,
+   "distance": 3.986,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leighton Baines",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "d003e213",
+   "season": 2019,
+   "distance": 4.066,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafinha",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "c9e99e49",
+   "season": 2018,
+   "distance": 4.078,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dani Alves",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "00b0bb87",
+   "season": 2019,
+   "distance": 4.19,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabrizio Cacciatore",
+   "squad": "Cagliari / Chievo"
+  },
+  {
+   "fbref_id": "eda40760",
+   "season": 2019,
+   "distance": 4.514,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "0ab1f153",
+   "season": 2020,
+   "distance": 4.544,
+   "survived": 1,
+   "fut_ability_v2": 64.0,
+   "player_name": "Juan Cuadrado",
+   "squad": "Juventus"
+  }
+ ],
+ "low_confidence": true
 }

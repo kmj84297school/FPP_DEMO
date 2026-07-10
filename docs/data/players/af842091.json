@@ -26,10 +26,115 @@
   "confidence": 2.72
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3439,
+  "mu": 46.2,
+  "ci80": {
+   "lo": 37.5,
+   "hi": 54.9
+  },
+  "ci50": {
+   "lo": 41.6,
+   "hi": 50.7
+  },
+  "sigma_model": 1.733,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1900032e",
+   "season": 2019,
+   "distance": 1.751,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Jannik Vestergaard",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "25f50295",
+   "season": 2018,
+   "distance": 1.878,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Mike van der Hoorn",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "b14d0c5d",
+   "season": 2018,
+   "distance": 2.026,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Sidnei",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "0821331c",
+   "season": 2019,
+   "distance": 2.151,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Mattia Bani",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "88d91621",
+   "season": 2019,
+   "distance": 2.227,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Sergio Álvarez",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "6adbc307",
+   "season": 2019,
+   "distance": 2.255,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "d368feb8",
+   "season": 2019,
+   "distance": 2.309,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfie Mawson",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "87935cf3",
+   "season": 2018,
+   "distance": 2.397,
+   "survived": 1,
+   "fut_ability_v2": 39.9,
+   "player_name": "Mamadou Sakho",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "08082af0",
+   "season": 2019,
+   "distance": 2.397,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Loïck Landre",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "27f0ddef",
+   "season": 2019,
+   "distance": 2.411,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Helander",
+   "squad": "Bologna"
+  }
+ ],
  "low_confidence": false
 }

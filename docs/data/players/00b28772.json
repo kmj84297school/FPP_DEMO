@@ -26,10 +26,115 @@
   "confidence": 0.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3656,
+  "mu": 46.2,
+  "ci80": {
+   "lo": 37.0,
+   "hi": 55.3
+  },
+  "ci50": {
+   "lo": 41.3,
+   "hi": 51.0
+  },
+  "sigma_model": 2.84,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a8b4a643",
+   "season": 2018,
+   "distance": 1.45,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Baissama Sankoh",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2019,
+   "distance": 1.782,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2019,
+   "distance": 1.866,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Darko Brašanac",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2020,
+   "distance": 1.916,
+   "survived": 1,
+   "fut_ability_v2": 26.1,
+   "player_name": "Pere Pons",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "987718f5",
+   "season": 2018,
+   "distance": 2.289,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sam Clucas",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "ff45add5",
+   "season": 2019,
+   "distance": 2.351,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfredo Morales",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "e49ce451",
+   "season": 2020,
+   "distance": 2.367,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Okay Yokuşlu",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "0cc474e7",
+   "season": 2020,
+   "distance": 2.425,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramon Azeez",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "9260926b",
+   "season": 2020,
+   "distance": 2.439,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibrahim Amadou",
+   "squad": "Leganés / Norwich City"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2019,
+   "distance": 2.445,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  }
+ ],
  "low_confidence": false
 }

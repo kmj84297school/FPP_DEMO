@@ -26,10 +26,115 @@
   "confidence": 0.94
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3381,
+  "mu": 50.8,
+  "ci80": {
+   "lo": 42.0,
+   "hi": 59.5
+  },
+  "ci50": {
+   "lo": 46.2,
+   "hi": 55.4
+  },
+  "sigma_model": 1.815,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cce181df",
+   "season": 2020,
+   "distance": 2.007,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Geoffrey Kondogbia",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "552aa16c",
+   "season": 2020,
+   "distance": 2.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Trybull",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "3befc2b6",
+   "season": 2019,
+   "distance": 2.062,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Andrei Girotto",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "5acc4a10",
+   "season": 2018,
+   "distance": 2.173,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Étienne Capoue",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2019,
+   "distance": 2.174,
+   "survived": 1,
+   "fut_ability_v2": 54.3,
+   "player_name": "Pedro Obiang",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "faec2ec4",
+   "season": 2018,
+   "distance": 2.177,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Pizarro",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "69374ff5",
+   "season": 2018,
+   "distance": 2.196,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Julian Baumgartlinger",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "ad1ffcfd",
+   "season": 2018,
+   "distance": 2.255,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Vicente Iborra",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "de343d38",
+   "season": 2018,
+   "distance": 2.285,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Georges Mandjeck",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "b8c1de25",
+   "season": 2020,
+   "distance": 2.347,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Maxime Gonalons",
+   "squad": "Granada"
+  }
+ ],
  "low_confidence": false
 }

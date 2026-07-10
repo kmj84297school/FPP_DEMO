@@ -26,10 +26,115 @@
   "confidence": 0.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6447,
+  "mu": 50.0,
+  "ci80": {
+   "lo": 41.2,
+   "hi": 58.8
+  },
+  "ci50": {
+   "lo": 45.3,
+   "hi": 54.6
+  },
+  "sigma_model": 2.008,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2019,
+   "distance": 1.405,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "791abba1",
+   "season": 2019,
+   "distance": 1.455,
+   "survived": 1,
+   "fut_ability_v2": 66.0,
+   "player_name": "Salif Sané",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "1900032e",
+   "season": 2018,
+   "distance": 1.496,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Jannik Vestergaard",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "e27da244",
+   "season": 2019,
+   "distance": 1.643,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2019,
+   "distance": 1.652,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2018,
+   "distance": 1.664,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "ce4246f5",
+   "season": 2020,
+   "distance": 1.773,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Kurt Zouma",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "f521b80a",
+   "season": 2020,
+   "distance": 1.812,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Matthias Ginter",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "b18a3023",
+   "season": 2018,
+   "distance": 1.845,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júnior Alonso",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2019,
+   "distance": 1.851,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Christophe Hérelle",
+   "squad": "Nice"
+  }
+ ],
  "low_confidence": false
 }

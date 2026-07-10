@@ -26,10 +26,115 @@
   "confidence": 0.68
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.585,
+  "mu": 52.9,
+  "ci80": {
+   "lo": 44.0,
+   "hi": 61.9
+  },
+  "ci50": {
+   "lo": 48.2,
+   "hi": 57.6
+  },
+  "sigma_model": 2.365,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3902e91b",
+   "season": 2020,
+   "distance": 2.859,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Gonzalo Melero",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "0fbecd11",
+   "season": 2019,
+   "distance": 3.08,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Dominik Kohr",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "614c38fb",
+   "season": 2018,
+   "distance": 3.418,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joel Obi",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "01efac19",
+   "season": 2020,
+   "distance": 3.435,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Antonín Barák",
+   "squad": "Lecce / Udinese"
+  },
+  {
+   "fbref_id": "0df2b165",
+   "season": 2020,
+   "distance": 3.534,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Lundstram",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "ce30bfc8",
+   "season": 2020,
+   "distance": 3.554,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Gagliardini",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "cc86b9a3",
+   "season": 2020,
+   "distance": 3.567,
+   "survived": 1,
+   "fut_ability_v2": 72.4,
+   "player_name": "Leon Goretzka",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "410ab123",
+   "season": 2018,
+   "distance": 3.571,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lewis Holtby",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "3902e91b",
+   "season": 2019,
+   "distance": 3.607,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Gonzalo Melero",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2019,
+   "distance": 3.628,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  }
+ ],
+ "low_confidence": true
 }

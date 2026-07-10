@@ -26,10 +26,115 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5469,
+  "mu": 46.6,
+  "ci80": {
+   "lo": 37.8,
+   "hi": 55.3
+  },
+  "ci50": {
+   "lo": 42.0,
+   "hi": 51.2
+  },
+  "sigma_model": 1.91,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2019,
+   "distance": 2.099,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "c53083ad",
+   "season": 2020,
+   "distance": 2.216,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bryan Dabo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "eb58eef0",
+   "season": 2018,
+   "distance": 2.36,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Georginio Wijnaldum",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "b3fd7075",
+   "season": 2020,
+   "distance": 2.386,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Poli",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "eb58eef0",
+   "season": 2019,
+   "distance": 2.39,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Georginio Wijnaldum",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2020,
+   "distance": 2.462,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Obiang",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2018,
+   "distance": 2.485,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 2.486,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "468fdbad",
+   "season": 2019,
+   "distance": 2.52,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Jonas Martin",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "bf13975c",
+   "season": 2020,
+   "distance": 2.555,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Žan Majer",
+   "squad": "Lecce"
+  }
+ ],
  "low_confidence": false
 }

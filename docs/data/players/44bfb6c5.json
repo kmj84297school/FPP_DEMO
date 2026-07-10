@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7147,
+  "mu": 49.3,
+  "ci80": {
+   "lo": 40.5,
+   "hi": 58.1
+  },
+  "ci50": {
+   "lo": 44.7,
+   "hi": 53.9
+  },
+  "sigma_model": 1.911,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4b511457",
+   "season": 2018,
+   "distance": 1.588,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Oriol Romeu",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2018,
+   "distance": 1.617,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "2ce2508a",
+   "season": 2018,
+   "distance": 1.662,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Luka Milivojević",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2018,
+   "distance": 1.677,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "496aeede",
+   "season": 2018,
+   "distance": 1.752,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Christoph Kramer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "c75b6a02",
+   "season": 2018,
+   "distance": 1.847,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Bertolacci",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "036bba5f",
+   "season": 2019,
+   "distance": 1.952,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Rubén Alcaraz",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "c2211709",
+   "season": 2020,
+   "distance": 1.965,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Ellyes Skhiri",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "c14bc029",
+   "season": 2020,
+   "distance": 2.005,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Saúl Ñíguez",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "cce181df",
+   "season": 2018,
+   "distance": 2.039,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Geoffrey Kondogbia",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

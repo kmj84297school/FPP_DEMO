@@ -26,10 +26,115 @@
   "confidence": 1.58
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3902,
+  "mu": 50.9,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 60.1
+  },
+  "ci50": {
+   "lo": 46.1,
+   "hi": 55.8
+  },
+  "sigma_model": 2.96,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2019,
+   "distance": 1.595,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "ac3fb1be",
+   "season": 2018,
+   "distance": 1.674,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Ezequiel Garay",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "e1deea75",
+   "season": 2019,
+   "distance": 1.68,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Carriço",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "ce492295",
+   "season": 2020,
+   "distance": 1.908,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Mexer",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2018,
+   "distance": 1.923,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "13d820de",
+   "season": 2018,
+   "distance": 1.938,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Andreolli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "b3dc6eca",
+   "season": 2018,
+   "distance": 1.95,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Víctor Ruiz",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2020,
+   "distance": 1.979,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nenad Tomović",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "117beb8f",
+   "season": 2018,
+   "distance": 2.004,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giancarlo González",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "56400c01",
+   "season": 2018,
+   "distance": 2.012,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Fabio Pisacane",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

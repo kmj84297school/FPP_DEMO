@@ -26,10 +26,115 @@
   "confidence": 0.56
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4525,
+  "mu": 50.9,
+  "ci80": {
+   "lo": 42.2,
+   "hi": 59.5
+  },
+  "ci50": {
+   "lo": 46.3,
+   "hi": 55.4
+  },
+  "sigma_model": 1.648,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c010b898",
+   "season": 2019,
+   "distance": 1.766,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Federico Barba",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "b82880c6",
+   "season": 2018,
+   "distance": 1.852,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Falette",
+   "squad": "Eint Frankfurt / Metz"
+  },
+  {
+   "fbref_id": "8b95acda",
+   "season": 2020,
+   "distance": 1.925,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Omar Colley",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "68635c10",
+   "season": 2018,
+   "distance": 2.054,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Frederik Sørensen",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "e27da244",
+   "season": 2020,
+   "distance": 2.066,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "1f9a3a04",
+   "season": 2019,
+   "distance": 2.077,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Terence Kongolo",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "857a5abe",
+   "season": 2018,
+   "distance": 2.079,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Stefan Bell",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "9b30df1e",
+   "season": 2018,
+   "distance": 2.095,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bartosz Salamon",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "6eaed4eb",
+   "season": 2018,
+   "distance": 2.105,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Florian Lejeune",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2019,
+   "distance": 2.105,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  }
+ ],
  "low_confidence": false
 }

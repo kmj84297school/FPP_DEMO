@@ -26,10 +26,115 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.6633,
+  "mu": 67.6,
+  "ci80": {
+   "lo": 58.8,
+   "hi": 76.4
+  },
+  "ci50": {
+   "lo": 63.0,
+   "hi": 72.3
+  },
+  "sigma_model": 2.016,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "19cda00b",
+   "season": 2018,
+   "distance": 3.335,
+   "survived": 1,
+   "fut_ability_v2": 74.8,
+   "player_name": "Ángel Di María",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "2c0f8e9e",
+   "season": 2020,
+   "distance": 3.502,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexis Sánchez",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "2f557579",
+   "season": 2019,
+   "distance": 3.771,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Lorenzo Insigne",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "e342ad68",
+   "season": 2019,
+   "distance": 4.006,
+   "survived": 1,
+   "fut_ability_v2": 76.0,
+   "player_name": "Mohamed Salah",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "942b4f90",
+   "season": 2020,
+   "distance": 4.017,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Wissam Ben Yedder",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "440c84ed",
+   "season": 2019,
+   "distance": 4.181,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iago Falque",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "2f557579",
+   "season": 2020,
+   "distance": 4.186,
+   "survived": 1,
+   "fut_ability_v2": 72.2,
+   "player_name": "Lorenzo Insigne",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "9efa1d25",
+   "season": 2019,
+   "distance": 4.202,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Götze",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "89b2c8a9",
+   "season": 2018,
+   "distance": 4.232,
+   "survived": 1,
+   "fut_ability_v2": 71.6,
+   "player_name": "Dries Mertens",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "2f557579",
+   "season": 2018,
+   "distance": 4.249,
+   "survived": 1,
+   "fut_ability_v2": 73.0,
+   "player_name": "Lorenzo Insigne",
+   "squad": "Napoli"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 1.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2357,
+  "mu": 58.4,
+  "ci80": {
+   "lo": 49.5,
+   "hi": 67.3
+  },
+  "ci50": {
+   "lo": 53.7,
+   "hi": 63.1
+  },
+  "sigma_model": 2.271,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "436a9dd0",
+   "season": 2019,
+   "distance": 2.116,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Ander Herrera",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "496aeede",
+   "season": 2019,
+   "distance": 2.571,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Christoph Kramer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2018,
+   "distance": 2.73,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Lucas Deaux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "436a9dd0",
+   "season": 2018,
+   "distance": 2.747,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Ander Herrera",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2019,
+   "distance": 2.979,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "e12b0b5b",
+   "season": 2020,
+   "distance": 3.092,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Rode",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "f4081572",
+   "season": 2019,
+   "distance": 3.102,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuri Şahin",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "496aeede",
+   "season": 2018,
+   "distance": 3.132,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Christoph Kramer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2020,
+   "distance": 3.136,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "80f36c88",
+   "season": 2018,
+   "distance": 3.191,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Sebastian Rudy",
+   "squad": "Bayern Munich"
+  }
+ ],
  "low_confidence": false
 }

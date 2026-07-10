@@ -26,10 +26,115 @@
   "confidence": 0.33
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4083,
+  "mu": 55.5,
+  "ci80": {
+   "lo": 46.7,
+   "hi": 64.2
+  },
+  "ci50": {
+   "lo": 50.9,
+   "hi": 60.1
+  },
+  "sigma_model": 1.863,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "89f951b5",
+   "season": 2019,
+   "distance": 3.055,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Ivan Rakitić",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "468fdbad",
+   "season": 2019,
+   "distance": 3.353,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Jonas Martin",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "89f951b5",
+   "season": 2018,
+   "distance": 3.358,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Ivan Rakitić",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 3.489,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2019,
+   "distance": 3.555,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2020,
+   "distance": 3.573,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "eb58eef0",
+   "season": 2020,
+   "distance": 3.596,
+   "survived": 1,
+   "fut_ability_v2": 40.8,
+   "player_name": "Georginio Wijnaldum",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "82671804",
+   "season": 2018,
+   "distance": 3.74,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luiz Gustavo",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "b3fd7075",
+   "season": 2020,
+   "distance": 3.808,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Poli",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "2acd49b9",
+   "season": 2019,
+   "distance": 3.823,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Moussa Sissoko",
+   "squad": "Tottenham"
+  }
+ ],
+ "low_confidence": true
 }

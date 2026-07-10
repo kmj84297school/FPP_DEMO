@@ -26,10 +26,115 @@
   "confidence": 0.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2078,
+  "mu": 44.5,
+  "ci80": {
+   "lo": 35.5,
+   "hi": 53.5
+  },
+  "ci50": {
+   "lo": 39.8,
+   "hi": 49.3
+  },
+  "sigma_model": 2.546,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a8b4a643",
+   "season": 2018,
+   "distance": 2.122,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Baissama Sankoh",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2019,
+   "distance": 2.236,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Darko Brašanac",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "10650926",
+   "season": 2019,
+   "distance": 2.423,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ismaël Diomandé",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "924f9191",
+   "season": 2020,
+   "distance": 2.484,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Grischa Prömel",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "0cc474e7",
+   "season": 2020,
+   "distance": 2.531,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramon Azeez",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2019,
+   "distance": 2.542,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "4442fbcd",
+   "season": 2020,
+   "distance": 2.595,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nikola Vukčević",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2020,
+   "distance": 2.684,
+   "survived": 1,
+   "fut_ability_v2": 26.1,
+   "player_name": "Pere Pons",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "9a506145",
+   "season": 2018,
+   "distance": 2.695,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rene Krhin",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "98e958af",
+   "season": 2019,
+   "distance": 2.699,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Hiljemark",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

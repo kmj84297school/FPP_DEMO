@@ -26,10 +26,115 @@
   "confidence": 0.97
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.296,
+  "mu": 51.9,
+  "ci80": {
+   "lo": 43.1,
+   "hi": 60.8
+  },
+  "ci50": {
+   "lo": 47.3,
+   "hi": 56.6
+  },
+  "sigma_model": 2.141,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2019,
+   "distance": 1.971,
+   "survived": 1,
+   "fut_ability_v2": 66.4,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "47dc80f5",
+   "season": 2018,
+   "distance": 2.696,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adel Taarabt",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "1fca9171",
+   "season": 2020,
+   "distance": 2.89,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Federico Di Francesco",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2019,
+   "distance": 2.936,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2020,
+   "distance": 3.004,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria / Parma"
+  },
+  {
+   "fbref_id": "7cd6badb",
+   "season": 2019,
+   "distance": 3.091,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Lars Stindl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2018,
+   "distance": 3.135,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Diego Farias",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "dc62fbee",
+   "season": 2020,
+   "distance": 3.251,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leonardo Bittencourt",
+   "squad": "Werder Bremen / Hoffenheim"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2019,
+   "distance": 3.298,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "a0b4bb3e",
+   "season": 2020,
+   "distance": 3.336,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Isco",
+   "squad": "Real Madrid"
+  }
+ ],
  "low_confidence": false
 }

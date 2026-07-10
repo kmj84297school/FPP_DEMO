@@ -26,10 +26,115 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1906,
+  "mu": 38.8,
+  "ci80": {
+   "lo": 29.9,
+   "hi": 47.8
+  },
+  "ci50": {
+   "lo": 34.1,
+   "hi": 43.5
+  },
+  "sigma_model": 2.424,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1fdec858",
+   "season": 2020,
+   "distance": 1.556,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dennis Srbeny",
+   "squad": "Paderborn 07 / Norwich City"
+  },
+  {
+   "fbref_id": "19b776e9",
+   "season": 2018,
+   "distance": 1.898,
+   "survived": 1,
+   "fut_ability_v2": 37.3,
+   "player_name": "Rubén Sobrino",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "3ae14ed1",
+   "season": 2020,
+   "distance": 1.954,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Trézéguet",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "0f7533cd",
+   "season": 2019,
+   "distance": 2.009,
+   "survived": 1,
+   "fut_ability_v2": 39.7,
+   "player_name": "Bobby Reid",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "cba16a46",
+   "season": 2019,
+   "distance": 2.186,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Kubo",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "6cc47ae1",
+   "season": 2019,
+   "distance": 2.224,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jürgen Locadia",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2019,
+   "distance": 2.227,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "ffa90327",
+   "season": 2020,
+   "distance": 2.23,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anwar El Ghazi",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2018,
+   "distance": 2.285,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Ante Budimir",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "46e07328",
+   "season": 2020,
+   "distance": 2.328,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Arnaiz",
+   "squad": "Osasuna / Leganés"
+  }
+ ],
  "low_confidence": false
 }

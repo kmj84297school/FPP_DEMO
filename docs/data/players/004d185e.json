@@ -26,10 +26,115 @@
   "confidence": 0.13
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5477,
+  "mu": 46.8,
+  "ci80": {
+   "lo": 37.8,
+   "hi": 55.7
+  },
+  "ci50": {
+   "lo": 42.1,
+   "hi": 51.5
+  },
+  "sigma_model": 2.389,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "98e958af",
+   "season": 2019,
+   "distance": 1.745,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Hiljemark",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "c53083ad",
+   "season": 2018,
+   "distance": 1.897,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Bryan Dabo",
+   "squad": "Saint-Étienne / Fiorentina"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2018,
+   "distance": 1.956,
+   "survived": 1,
+   "fut_ability_v2": 36.2,
+   "player_name": "Darko Brašanac",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "bf13975c",
+   "season": 2020,
+   "distance": 2.095,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Žan Majer",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2019,
+   "distance": 2.203,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "989d5705",
+   "season": 2020,
+   "distance": 2.239,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2020,
+   "distance": 2.271,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "f24ea523",
+   "season": 2019,
+   "distance": 2.341,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Genki Haraguchi",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "3f79a1c8",
+   "season": 2019,
+   "distance": 2.409,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Gonzalo Escalante",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "3cefa66a",
+   "season": 2018,
+   "distance": 2.431,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leroy Fer",
+   "squad": "Swansea City"
+  }
+ ],
  "low_confidence": false
 }

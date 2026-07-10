@@ -26,10 +26,115 @@
   "confidence": 0.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.288,
+  "mu": 51.8,
+  "ci80": {
+   "lo": 42.5,
+   "hi": 61.0
+  },
+  "ci50": {
+   "lo": 46.9,
+   "hi": 56.6
+  },
+  "sigma_model": 2.991,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0375723e",
+   "season": 2020,
+   "distance": 2.706,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Verdi",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "9a2e0ccc",
+   "season": 2018,
+   "distance": 2.707,
+   "survived": 1,
+   "fut_ability_v2": 64.0,
+   "player_name": "Emil Forsberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "9a2e0ccc",
+   "season": 2020,
+   "distance": 2.754,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Emil Forsberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "d995ed27",
+   "season": 2020,
+   "distance": 2.755,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Giacomo Bonaventura",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2020,
+   "distance": 2.776,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "c05dfb74",
+   "season": 2020,
+   "distance": 2.78,
+   "survived": 1,
+   "fut_ability_v2": 63.8,
+   "player_name": "Iker Muniain",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2018,
+   "distance": 2.838,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "3a24769f",
+   "season": 2020,
+   "distance": 2.889,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ross Barkley",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "26f6dca8",
+   "season": 2020,
+   "distance": 2.914,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Manuel Lanzini",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2019,
+   "distance": 2.947,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Celta Vigo / Betis"
+  }
+ ],
  "low_confidence": false
 }

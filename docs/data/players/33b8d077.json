@@ -26,10 +26,115 @@
   "confidence": 0.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2731,
+  "mu": 47.5,
+  "ci80": {
+   "lo": 38.3,
+   "hi": 56.7
+  },
+  "ci50": {
+   "lo": 42.7,
+   "hi": 52.3
+  },
+  "sigma_model": 2.917,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b3fd7075",
+   "season": 2019,
+   "distance": 2.497,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Poli",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "b3fd7075",
+   "season": 2020,
+   "distance": 2.946,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Poli",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "7c4243d4",
+   "season": 2019,
+   "distance": 2.948,
+   "survived": 1,
+   "fut_ability_v2": 44.9,
+   "player_name": "Roque Mesa",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "4a57580c",
+   "season": 2019,
+   "distance": 3.069,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "0f9b8301",
+   "season": 2020,
+   "distance": 3.169,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Battocchio",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "82671804",
+   "season": 2019,
+   "distance": 3.239,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luiz Gustavo",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "b3fd7075",
+   "season": 2018,
+   "distance": 3.257,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Andrea Poli",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2018,
+   "distance": 3.298,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "3c05e082",
+   "season": 2019,
+   "distance": 3.302,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koo Ja-cheol",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "80f36c88",
+   "season": 2018,
+   "distance": 3.317,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Sebastian Rudy",
+   "squad": "Bayern Munich"
+  }
+ ],
  "low_confidence": false
 }

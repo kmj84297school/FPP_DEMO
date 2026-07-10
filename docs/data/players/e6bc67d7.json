@@ -26,10 +26,115 @@
   "confidence": 0.78
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.675,
+  "mu": 48.1,
+  "ci80": {
+   "lo": 38.9,
+   "hi": 57.3
+  },
+  "ci50": {
+   "lo": 43.3,
+   "hi": 53.0
+  },
+  "sigma_model": 2.91,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1fca9171",
+   "season": 2020,
+   "distance": 1.72,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Federico Di Francesco",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "ffa90327",
+   "season": 2020,
+   "distance": 2.313,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anwar El Ghazi",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2018,
+   "distance": 2.37,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Yuya Osako",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2019,
+   "distance": 2.431,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2018,
+   "distance": 2.484,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Wahbi Khazri",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "acdad0aa",
+   "season": 2018,
+   "distance": 2.525,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcello Trotta",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "cba16a46",
+   "season": 2019,
+   "distance": 2.526,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Kubo",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "19b776e9",
+   "season": 2018,
+   "distance": 2.549,
+   "survived": 1,
+   "fut_ability_v2": 37.3,
+   "player_name": "Rubén Sobrino",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "4d50454e",
+   "season": 2020,
+   "distance": 2.674,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ben Zolinski",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "6cc47ae1",
+   "season": 2019,
+   "distance": 2.703,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jürgen Locadia",
+   "squad": "Brighton"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.97
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3853,
+  "mu": 40.3,
+  "ci80": {
+   "lo": 31.6,
+   "hi": 49.1
+  },
+  "ci50": {
+   "lo": 35.7,
+   "hi": 44.9
+  },
+  "sigma_model": 1.946,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "106bca06",
+   "season": 2020,
+   "distance": 1.876,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Alessandro Schöpf",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "d7403bd5",
+   "season": 2019,
+   "distance": 2.145,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Afriyie Acquah",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2018,
+   "distance": 2.219,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Roberto Soriano",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d7403bd5",
+   "season": 2018,
+   "distance": 2.317,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Afriyie Acquah",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "aa5a409a",
+   "season": 2019,
+   "distance": 2.412,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raman Chibsah",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "2979c05a",
+   "season": 2020,
+   "distance": 2.423,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Gerrit Holtmann",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "8816329f",
+   "season": 2019,
+   "distance": 2.439,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Atsu",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "989d5705",
+   "season": 2020,
+   "distance": 2.453,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "c53083ad",
+   "season": 2018,
+   "distance": 2.471,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Bryan Dabo",
+   "squad": "Saint-Étienne / Fiorentina"
+  },
+  {
+   "fbref_id": "9ceb7642",
+   "season": 2020,
+   "distance": 2.511,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre Kunde",
+   "squad": "Mainz 05"
+  }
+ ],
  "low_confidence": false
 }

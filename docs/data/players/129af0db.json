@@ -26,10 +26,115 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4046,
+  "mu": 53.6,
+  "ci80": {
+   "lo": 43.3,
+   "hi": 64.0
+  },
+  "ci50": {
+   "lo": 48.2,
+   "hi": 59.1
+  },
+  "sigma_model": 4.743,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "02319ad7",
+   "season": 2019,
+   "distance": 2.302,
+   "survived": 1,
+   "fut_ability_v2": 33.0,
+   "player_name": "Jaime Mata",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "b4cf5806",
+   "season": 2020,
+   "distance": 2.485,
+   "survived": 1,
+   "fut_ability_v2": 35.4,
+   "player_name": "Sebastian Andersson",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "99b7584f",
+   "season": 2018,
+   "distance": 2.655,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Harnik",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "82e9b89d",
+   "season": 2019,
+   "distance": 2.706,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enric Gallego",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "71a20ce8",
+   "season": 2018,
+   "distance": 2.711,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gómez",
+   "squad": "Stuttgart / Wolfsburg"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 2.778,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "6265208f",
+   "season": 2020,
+   "distance": 2.938,
+   "survived": 1,
+   "fut_ability_v2": 42.6,
+   "player_name": "Joselu",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "9592289a",
+   "season": 2020,
+   "distance": 2.95,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Zaza",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "d37b0350",
+   "season": 2019,
+   "distance": 3.023,
+   "survived": 1,
+   "fut_ability_v2": 40.9,
+   "player_name": "Leonardo Pavoletti",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "f93e6e94",
+   "season": 2018,
+   "distance": 3.033,
+   "survived": 1,
+   "fut_ability_v2": 41.7,
+   "player_name": "Nils Petersen",
+   "squad": "Freiburg"
+  }
+ ],
  "low_confidence": false
 }

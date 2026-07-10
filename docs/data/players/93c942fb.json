@@ -26,10 +26,115 @@
   "confidence": 1.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6083,
+  "mu": 54.3,
+  "ci80": {
+   "lo": 45.6,
+   "hi": 63.1
+  },
+  "ci50": {
+   "lo": 49.7,
+   "hi": 58.9
+  },
+  "sigma_model": 1.859,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "05439de2",
+   "season": 2018,
+   "distance": 2.733,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "David Alaba",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "433dc9a2",
+   "season": 2019,
+   "distance": 2.868,
+   "survived": 1,
+   "fut_ability_v2": 45.1,
+   "player_name": "Juan Bernat",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "433dc9a2",
+   "season": 2020,
+   "distance": 3.158,
+   "survived": 1,
+   "fut_ability_v2": 45.1,
+   "player_name": "Juan Bernat",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "2b5527c4",
+   "season": 2019,
+   "distance": 3.163,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joshua Brenet",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2018,
+   "distance": 3.264,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "4958bfb2",
+   "season": 2019,
+   "distance": 3.268,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Dani Carvajal",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "335fa267",
+   "season": 2018,
+   "distance": 3.322,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Sergi Roberto",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "335fa267",
+   "season": 2019,
+   "distance": 3.351,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Sergi Roberto",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "2ef637bd",
+   "season": 2019,
+   "distance": 3.352,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre-Yves Polomat",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "58027adc",
+   "season": 2019,
+   "distance": 3.373,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ladislav Krejčí",
+   "squad": "Bologna"
+  }
+ ],
  "low_confidence": false
 }

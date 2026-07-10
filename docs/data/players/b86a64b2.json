@@ -26,10 +26,115 @@
   "confidence": 1.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3723,
+  "mu": 51.8,
+  "ci80": {
+   "lo": 43.1,
+   "hi": 60.6
+  },
+  "ci50": {
+   "lo": 47.2,
+   "hi": 56.4
+  },
+  "sigma_model": 1.856,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2020,
+   "distance": 1.16,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2019,
+   "distance": 1.225,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "89cbc961",
+   "season": 2019,
+   "distance": 1.382,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramiro Funes Mori",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d9624b51",
+   "season": 2018,
+   "distance": 1.526,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Federico Ceccherini",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2020,
+   "distance": 1.544,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2020,
+   "distance": 1.595,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "8df7a2fb",
+   "season": 2018,
+   "distance": 1.617,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Ben Mee",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "282f75f3",
+   "season": 2019,
+   "distance": 1.626,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Lewis Dunk",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2019,
+   "distance": 1.645,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2018,
+   "distance": 1.71,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  }
+ ],
  "low_confidence": false
 }

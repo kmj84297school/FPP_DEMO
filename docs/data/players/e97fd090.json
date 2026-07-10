@@ -26,10 +26,115 @@
   "confidence": 0.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7346,
+  "mu": 57.1,
+  "ci80": {
+   "lo": 48.2,
+   "hi": 65.9
+  },
+  "ci50": {
+   "lo": 52.4,
+   "hi": 61.8
+  },
+  "sigma_model": 2.173,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2acd49b9",
+   "season": 2019,
+   "distance": 1.907,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Moussa Sissoko",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2020,
+   "distance": 1.925,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "ef7cd87a",
+   "season": 2019,
+   "distance": 1.926,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Abdoulaye Touré",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "eb58eef0",
+   "season": 2019,
+   "distance": 2.0,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Georginio Wijnaldum",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "468fdbad",
+   "season": 2019,
+   "distance": 2.037,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Jonas Martin",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "ef7cd87a",
+   "season": 2020,
+   "distance": 2.081,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Abdoulaye Touré",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "86695068",
+   "season": 2019,
+   "distance": 2.165,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Dennis Praet",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2018,
+   "distance": 2.186,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Lucas Deaux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "471f16b3",
+   "season": 2020,
+   "distance": 2.211,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Kenny McLean",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 2.217,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  }
+ ],
  "low_confidence": false
 }

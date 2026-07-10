@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7045,
+  "mu": 46.7,
+  "ci80": {
+   "lo": 37.3,
+   "hi": 56.2
+  },
+  "ci50": {
+   "lo": 41.7,
+   "hi": 51.7
+  },
+  "sigma_model": 3.365,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f69fba57",
+   "season": 2019,
+   "distance": 2.612,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2018,
+   "distance": 2.619,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Diego Farias",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "b0547a87",
+   "season": 2018,
+   "distance": 2.892,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Nicolas de Préville",
+   "squad": "Bordeaux / Lille"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2018,
+   "distance": 2.912,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2019,
+   "distance": 2.946,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "0ae4e09a",
+   "season": 2018,
+   "distance": 3.023,
+   "survived": 1,
+   "fut_ability_v2": 38.2,
+   "player_name": "Roger Martí",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2018,
+   "distance": 3.09,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Yuya Osako",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "eb2fe5b6",
+   "season": 2018,
+   "distance": 3.103,
+   "survived": 1,
+   "fut_ability_v2": 82.2,
+   "player_name": "Luis Muriel",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "99bebd12",
+   "season": 2018,
+   "distance": 3.111,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Guidetti",
+   "squad": "Alavés / Celta Vigo"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2019,
+   "distance": 3.175,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria"
+  }
+ ],
  "low_confidence": false
 }

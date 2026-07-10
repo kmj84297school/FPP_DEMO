@@ -26,10 +26,115 @@
   "confidence": 0.87
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5588,
+  "mu": 63.7,
+  "ci80": {
+   "lo": 54.6,
+   "hi": 72.8
+  },
+  "ci50": {
+   "lo": 59.0,
+   "hi": 68.5
+  },
+  "sigma_model": 2.716,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "81f0781e",
+   "season": 2020,
+   "distance": 1.992,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "942b4f90",
+   "season": 2020,
+   "distance": 2.21,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Wissam Ben Yedder",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "64f69877",
+   "season": 2020,
+   "distance": 2.34,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2019,
+   "distance": 2.345,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Rodrigo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "7dcf86f6",
+   "season": 2018,
+   "distance": 2.498,
+   "survived": 1,
+   "fut_ability_v2": 63.9,
+   "player_name": "Iago Aspas",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "942b4f90",
+   "season": 2019,
+   "distance": 2.509,
+   "survived": 1,
+   "fut_ability_v2": 63.9,
+   "player_name": "Wissam Ben Yedder",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "4431aed2",
+   "season": 2019,
+   "distance": 2.561,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Ciro Immobile",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "89b2c8a9",
+   "season": 2018,
+   "distance": 2.605,
+   "survived": 1,
+   "fut_ability_v2": 71.6,
+   "player_name": "Dries Mertens",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "4431aed2",
+   "season": 2020,
+   "distance": 2.614,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Ciro Immobile",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2019,
+   "distance": 2.675,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Antoine Griezmann",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

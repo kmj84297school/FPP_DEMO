@@ -26,10 +26,115 @@
   "confidence": 1.41
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1622,
+  "mu": 39.7,
+  "ci80": {
+   "lo": 30.5,
+   "hi": 48.9
+  },
+  "ci50": {
+   "lo": 34.9,
+   "hi": 44.5
+  },
+  "sigma_model": 2.895,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d5dd5f1f",
+   "season": 2018,
+   "distance": 2.537,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Pierre-Emerick Aubameyang",
+   "squad": "Dortmund / Arsenal"
+  },
+  {
+   "fbref_id": "0a0cc13c",
+   "season": 2018,
+   "distance": 2.681,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio León",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "f9e7c4ac",
+   "season": 2019,
+   "distance": 2.852,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfreð Finnbogason",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "66116290",
+   "season": 2018,
+   "distance": 2.994,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Radamel Falcao",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "527f063d",
+   "season": 2019,
+   "distance": 3.0,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Edinson Cavani",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "d5dd5f1f",
+   "season": 2019,
+   "distance": 3.033,
+   "survived": 1,
+   "fut_ability_v2": 49.9,
+   "player_name": "Pierre-Emerick Aubameyang",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "58d97e77",
+   "season": 2018,
+   "distance": 3.048,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alessandro Matri",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "8cfc2f69",
+   "season": 2018,
+   "distance": 3.069,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Ángel Rodríguez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "189cee7b",
+   "season": 2019,
+   "distance": 3.069,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javier Hernández",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2018,
+   "distance": 3.082,
+   "survived": 1,
+   "fut_ability_v2": 43.0,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  }
+ ],
  "low_confidence": false
 }

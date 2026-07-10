@@ -26,10 +26,115 @@
   "confidence": 0.6
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1886,
+  "mu": 43.8,
+  "ci80": {
+   "lo": 34.3,
+   "hi": 53.3
+  },
+  "ci50": {
+   "lo": 38.8,
+   "hi": 48.8
+  },
+  "sigma_model": 3.404,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bb4b1242",
+   "season": 2020,
+   "distance": 2.749,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergi Enrich",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "ed0c3318",
+   "season": 2019,
+   "distance": 2.832,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Malik Tchokounté",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "aa5859cb",
+   "season": 2018,
+   "distance": 2.909,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Depoitre",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "11ced928",
+   "season": 2020,
+   "distance": 2.942,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yaya Sanogo",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "2e52206e",
+   "season": 2018,
+   "distance": 3.072,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Jeannot",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "bb4b1242",
+   "season": 2018,
+   "distance": 3.082,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Sergi Enrich",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "549c6ba7",
+   "season": 2018,
+   "distance": 3.161,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Di Santo",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "aa5859cb",
+   "season": 2019,
+   "distance": 3.199,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Depoitre",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "2691c772",
+   "season": 2020,
+   "distance": 3.273,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ashley Barnes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "6265208f",
+   "season": 2018,
+   "distance": 3.361,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Joselu",
+   "squad": "Newcastle Utd"
+  }
+ ],
  "low_confidence": false
 }

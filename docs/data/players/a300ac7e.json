@@ -26,10 +26,115 @@
   "confidence": 2.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2053,
+  "mu": 38.0,
+  "ci80": {
+   "lo": 28.7,
+   "hi": 47.2
+  },
+  "ci50": {
+   "lo": 33.1,
+   "hi": 42.8
+  },
+  "sigma_model": 3.012,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ad469944",
+   "season": 2018,
+   "distance": 2.056,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxi López",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "43a2e16c",
+   "season": 2019,
+   "distance": 2.313,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirco Antenucci",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "f83c8d6c",
+   "season": 2019,
+   "distance": 2.483,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jimmy Briand",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2020,
+   "distance": 2.775,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "43a2e16c",
+   "season": 2018,
+   "distance": 2.785,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirco Antenucci",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "9d66fbe3",
+   "season": 2020,
+   "distance": 2.928,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Soldado",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "c58270f8",
+   "season": 2018,
+   "distance": 2.982,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Souleymane Camara",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "df301450",
+   "season": 2019,
+   "distance": 3.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Floccari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "6ca663b4",
+   "season": 2018,
+   "distance": 3.062,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giampaolo Pazzini",
+   "squad": "Hellas Verona / Levante"
+  },
+  {
+   "fbref_id": "42276181",
+   "season": 2020,
+   "distance": 3.193,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Kévin Gameiro",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

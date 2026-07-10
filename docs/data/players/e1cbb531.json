@@ -26,10 +26,115 @@
   "confidence": 0.73
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6061,
+  "mu": 49.0,
+  "ci80": {
+   "lo": 40.3,
+   "hi": 57.7
+  },
+  "ci50": {
+   "lo": 44.4,
+   "hi": 53.6
+  },
+  "sigma_model": 1.775,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "468fdbad",
+   "season": 2018,
+   "distance": 1.765,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonas Martin",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "eb58eef0",
+   "season": 2019,
+   "distance": 1.775,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Georginio Wijnaldum",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "17780d2b",
+   "season": 2019,
+   "distance": 1.891,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Tobias Strobl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "b3fd7075",
+   "season": 2020,
+   "distance": 1.965,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Poli",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "4a56052c",
+   "season": 2020,
+   "distance": 1.994,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Veretout",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "885b7aa7",
+   "season": 2020,
+   "distance": 1.996,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Didier Ibrahim Ndong",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2018,
+   "distance": 2.009,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "468fdbad",
+   "season": 2019,
+   "distance": 2.046,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Jonas Martin",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "2acd49b9",
+   "season": 2019,
+   "distance": 2.053,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Moussa Sissoko",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "e61b8aee",
+   "season": 2020,
+   "distance": 2.067,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Granit Xhaka",
+   "squad": "Arsenal"
+  }
+ ],
  "low_confidence": false
 }

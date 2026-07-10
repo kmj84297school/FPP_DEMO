@@ -26,10 +26,115 @@
   "confidence": 0.52
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4051,
+  "mu": 61.2,
+  "ci80": {
+   "lo": 52.5,
+   "hi": 69.9
+  },
+  "ci50": {
+   "lo": 56.7,
+   "hi": 65.8
+  },
+  "sigma_model": 1.659,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2018,
+   "distance": 2.396,
+   "survived": 1,
+   "fut_ability_v2": 49.9,
+   "player_name": "Daniel Wass",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 2.996,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "144607cc",
+   "season": 2019,
+   "distance": 3.048,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Jasmin Kurtić",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "ef322658",
+   "season": 2018,
+   "distance": 3.108,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "89f951b5",
+   "season": 2018,
+   "distance": 3.199,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Ivan Rakitić",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "ed5886d2",
+   "season": 2018,
+   "distance": 3.239,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Marco Parolo",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2018,
+   "distance": 3.266,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Radja Nainggolan",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "6ce1f46f",
+   "season": 2020,
+   "distance": 3.273,
+   "survived": 1,
+   "fut_ability_v2": 63.8,
+   "player_name": "Toni Kroos",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "80f36c88",
+   "season": 2020,
+   "distance": 3.282,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Rudy",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2019,
+   "distance": 3.336,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Radja Nainggolan",
+   "squad": "Inter"
+  }
+ ],
  "low_confidence": false
 }

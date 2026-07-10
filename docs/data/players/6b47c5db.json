@@ -26,10 +26,115 @@
   "confidence": 1.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3517,
+  "mu": 53.0,
+  "ci80": {
+   "lo": 44.3,
+   "hi": 61.8
+  },
+  "ci50": {
+   "lo": 48.5,
+   "hi": 57.6
+  },
+  "sigma_model": 1.763,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cce181df",
+   "season": 2020,
+   "distance": 1.14,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Geoffrey Kondogbia",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "a8797cf1",
+   "season": 2020,
+   "distance": 1.776,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bongani Zungu",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "51b41c5c",
+   "season": 2018,
+   "distance": 1.879,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Morgan Schneiderlin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "a8797cf1",
+   "season": 2018,
+   "distance": 1.905,
+   "survived": 1,
+   "fut_ability_v2": 47.3,
+   "player_name": "Bongani Zungu",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "31bbb7e2",
+   "season": 2018,
+   "distance": 1.918,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gerónimo Poblete",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "a0434482",
+   "season": 2020,
+   "distance": 1.942,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eddy Gnahoré",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "faec2ec4",
+   "season": 2018,
+   "distance": 1.97,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Pizarro",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2018,
+   "distance": 2.021,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Pedro Obiang",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "11fd2b75",
+   "season": 2020,
+   "distance": 2.022,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Omar Mascarell",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "39bec070",
+   "season": 2018,
+   "distance": 2.059,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Fossati",
+   "squad": "Hellas Verona"
+  }
+ ],
  "low_confidence": false
 }

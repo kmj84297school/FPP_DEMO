@@ -26,10 +26,115 @@
   "confidence": 1.71
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6886,
+  "mu": 53.6,
+  "ci80": {
+   "lo": 44.9,
+   "hi": 62.3
+  },
+  "ci50": {
+   "lo": 49.0,
+   "hi": 58.2
+  },
+  "sigma_model": 1.823,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c2009df3",
+   "season": 2018,
+   "distance": 2.089,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Jonas Hector",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "493924a7",
+   "season": 2020,
+   "distance": 2.119,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Kevin Mbabu",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2019,
+   "distance": 2.243,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "1a4b9094",
+   "season": 2019,
+   "distance": 2.405,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bouna Sarr",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "378825c7",
+   "season": 2020,
+   "distance": 2.479,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "Ramy Bensebaini",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "1f079188",
+   "season": 2020,
+   "distance": 2.707,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Peña",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "89d10e53",
+   "season": 2019,
+   "distance": 2.727,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Rose",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "3cefcaef",
+   "season": 2020,
+   "distance": 2.757,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Ferland Mendy",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "30c220c3",
+   "season": 2019,
+   "distance": 2.807,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mitchell Weiser",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "c50281a0",
+   "season": 2018,
+   "distance": 2.829,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Lars Bender",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

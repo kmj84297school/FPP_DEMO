@@ -26,10 +26,115 @@
   "confidence": 0.53
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2586,
+  "mu": 38.8,
+  "ci80": {
+   "lo": 29.4,
+   "hi": 48.3
+  },
+  "ci50": {
+   "lo": 33.9,
+   "hi": 43.8
+  },
+  "sigma_model": 3.409,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "81255c03",
+   "season": 2018,
+   "distance": 1.908,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "aec0fb6f",
+   "season": 2018,
+   "distance": 1.929,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javier Eraso",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "862a1c15",
+   "season": 2020,
+   "distance": 1.987,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Miguel Almirón",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "67d23ab0",
+   "season": 2018,
+   "distance": 1.994,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Ince",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "8816329f",
+   "season": 2019,
+   "distance": 2.037,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Atsu",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2019,
+   "distance": 2.151,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Portu",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "d3096421",
+   "season": 2018,
+   "distance": 2.274,
+   "survived": 1,
+   "fut_ability_v2": 67.2,
+   "player_name": "Daniel Didavi",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "91f2da4c",
+   "season": 2019,
+   "distance": 2.343,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Casimir Ninga",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "c76b7567",
+   "season": 2019,
+   "distance": 2.426,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Adrien Thomasson",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "7c388b20",
+   "season": 2019,
+   "distance": 2.465,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  }
+ ],
  "low_confidence": false
 }

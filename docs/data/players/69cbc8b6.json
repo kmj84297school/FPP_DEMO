@@ -26,10 +26,115 @@
   "confidence": 0.49
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4177,
+  "mu": 48.9,
+  "ci80": {
+   "lo": 39.8,
+   "hi": 58.0
+  },
+  "ci50": {
+   "lo": 44.1,
+   "hi": 53.7
+  },
+  "sigma_model": 2.689,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3f65898c",
+   "season": 2018,
+   "distance": 1.953,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "92d38e6c",
+   "season": 2019,
+   "distance": 2.098,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Dimitris Siovas",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "e74f0e59",
+   "season": 2018,
+   "distance": 2.1,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Lorenzo De Silvestri",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "4f974391",
+   "season": 2020,
+   "distance": 2.45,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2019,
+   "distance": 2.561,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2018,
+   "distance": 2.66,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "bad38a94",
+   "season": 2020,
+   "distance": 2.67,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2019,
+   "distance": 2.718,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2020,
+   "distance": 2.729,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "bad38a94",
+   "season": 2019,
+   "distance": 2.775,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

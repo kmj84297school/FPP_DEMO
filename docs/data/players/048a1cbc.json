@@ -26,10 +26,115 @@
   "confidence": 0.62
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4272,
+  "mu": 53.8,
+  "ci80": {
+   "lo": 45.0,
+   "hi": 62.5
+  },
+  "ci50": {
+   "lo": 49.2,
+   "hi": 58.4
+  },
+  "sigma_model": 1.885,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4601e194",
+   "season": 2019,
+   "distance": 2.723,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "0b5a292a",
+   "season": 2018,
+   "distance": 2.75,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Mário Rui",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "4601e194",
+   "season": 2018,
+   "distance": 2.931,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2019,
+   "distance": 2.966,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2019,
+   "distance": 3.001,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "d6a889ea",
+   "season": 2018,
+   "distance": 3.065,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Malcuit",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "4958bfb2",
+   "season": 2019,
+   "distance": 3.08,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Dani Carvajal",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "e288d4b3",
+   "season": 2019,
+   "distance": 3.083,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Alessandro Florenzi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "4958bfb2",
+   "season": 2020,
+   "distance": 3.098,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Dani Carvajal",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "0b5a292a",
+   "season": 2020,
+   "distance": 3.186,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Mário Rui",
+   "squad": "Napoli"
+  }
+ ],
  "low_confidence": false
 }

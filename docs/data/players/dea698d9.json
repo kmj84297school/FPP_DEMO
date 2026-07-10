@@ -26,10 +26,115 @@
   "confidence": 0.37
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.3149,
+  "mu": 51.9,
+  "ci80": {
+   "lo": 42.6,
+   "hi": 61.2
+  },
+  "ci50": {
+   "lo": 47.0,
+   "hi": 56.8
+  },
+  "sigma_model": 3.052,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "293211e1",
+   "season": 2018,
+   "distance": 2.736,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aritz Aduriz",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "df301450",
+   "season": 2019,
+   "distance": 2.82,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Floccari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "878ee034",
+   "season": 2019,
+   "distance": 2.935,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Pellissier",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "73d9bdc7",
+   "season": 2018,
+   "distance": 3.075,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Peter Crouch",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "ee4f2f3b",
+   "season": 2020,
+   "distance": 3.592,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Fabio Quagliarella",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "43f71e77",
+   "season": 2020,
+   "distance": 3.621,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Jorge Molina",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2020,
+   "distance": 3.717,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "293211e1",
+   "season": 2019,
+   "distance": 3.744,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aritz Aduriz",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "8d8178ac",
+   "season": 2018,
+   "distance": 3.776,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "df301450",
+   "season": 2020,
+   "distance": 3.928,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Floccari",
+   "squad": "SPAL"
+  }
+ ],
+ "low_confidence": true
 }

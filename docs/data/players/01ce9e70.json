@@ -26,10 +26,115 @@
   "confidence": 0.44
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0702,
+  "mu": 39.1,
+  "ci80": {
+   "lo": 29.7,
+   "hi": 48.4
+  },
+  "ci50": {
+   "lo": 34.2,
+   "hi": 44.0
+  },
+  "sigma_model": 3.168,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2ec0f902",
+   "season": 2019,
+   "distance": 2.302,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Riccardo Meggiorini",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "aa5859cb",
+   "season": 2018,
+   "distance": 2.355,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Depoitre",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "aa5859cb",
+   "season": 2019,
+   "distance": 2.616,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Depoitre",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "3071a619",
+   "season": 2019,
+   "distance": 2.646,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nolan Roux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "8ca253a3",
+   "season": 2018,
+   "distance": 2.748,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Claudio Beauvue",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "549c6ba7",
+   "season": 2018,
+   "distance": 2.834,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Di Santo",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "bb4b1242",
+   "season": 2020,
+   "distance": 2.857,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergi Enrich",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "6ca663b4",
+   "season": 2018,
+   "distance": 2.931,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giampaolo Pazzini",
+   "squad": "Hellas Verona / Levante"
+  },
+  {
+   "fbref_id": "1d6ac165",
+   "season": 2019,
+   "distance": 2.951,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sam Vokes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "4cc93246",
+   "season": 2019,
+   "distance": 3.003,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Ceravolo",
+   "squad": "Parma"
+  }
+ ],
  "low_confidence": false
 }

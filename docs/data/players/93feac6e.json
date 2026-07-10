@@ -26,10 +26,115 @@
   "confidence": 1.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4006,
+  "mu": 46.8,
+  "ci80": {
+   "lo": 37.7,
+   "hi": 55.9
+  },
+  "ci50": {
+   "lo": 42.0,
+   "hi": 51.6
+  },
+  "sigma_model": 2.695,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8d228291",
+   "season": 2018,
+   "distance": 2.563,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charlie Austin",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "d5dd5f1f",
+   "season": 2018,
+   "distance": 2.693,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Pierre-Emerick Aubameyang",
+   "squad": "Dortmund / Arsenal"
+  },
+  {
+   "fbref_id": "527f063d",
+   "season": 2019,
+   "distance": 2.859,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Edinson Cavani",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "f9e7c4ac",
+   "season": 2019,
+   "distance": 3.085,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfreð Finnbogason",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "66116290",
+   "season": 2018,
+   "distance": 3.113,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Radamel Falcao",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "8ff07990",
+   "season": 2019,
+   "distance": 3.184,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Balotelli",
+   "squad": "Marseille / Nice"
+  },
+  {
+   "fbref_id": "d87e2cae",
+   "season": 2020,
+   "distance": 3.197,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Willian José",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "9001138b",
+   "season": 2019,
+   "distance": 3.208,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Berić",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "2ead2809",
+   "season": 2020,
+   "distance": 3.235,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gianluca Lapadula",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "d6862409",
+   "season": 2019,
+   "distance": 3.317,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Florian Niederlechner",
+   "squad": "Freiburg"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.59
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4982,
+  "mu": 66.7,
+  "ci80": {
+   "lo": 57.5,
+   "hi": 75.9
+  },
+  "ci50": {
+   "lo": 61.8,
+   "hi": 71.5
+  },
+  "sigma_model": 2.901,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "dea698d9",
+   "season": 2018,
+   "distance": 3.022,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Cristiano Ronaldo",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "dea698d9",
+   "season": 2020,
+   "distance": 3.803,
+   "survived": 1,
+   "fut_ability_v2": 64.6,
+   "player_name": "Cristiano Ronaldo",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "dea698d9",
+   "season": 2019,
+   "distance": 3.873,
+   "survived": 1,
+   "fut_ability_v2": 68.1,
+   "player_name": "Cristiano Ronaldo",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "a6154613",
+   "season": 2020,
+   "distance": 4.114,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Luis Suárez",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2020,
+   "distance": 4.161,
+   "survived": 1,
+   "fut_ability_v2": 74.1,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2019,
+   "distance": 4.265,
+   "survived": 1,
+   "fut_ability_v2": 70.0,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "89b2c8a9",
+   "season": 2020,
+   "distance": 4.81,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Dries Mertens",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "d9afac11",
+   "season": 2018,
+   "distance": 5.361,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Blayac",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "ee4f2f3b",
+   "season": 2020,
+   "distance": 5.95,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Fabio Quagliarella",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "d711d04f",
+   "season": 2018,
+   "distance": 5.967,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  }
+ ],
+ "low_confidence": true
 }

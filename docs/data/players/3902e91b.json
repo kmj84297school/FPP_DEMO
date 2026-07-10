@@ -26,10 +26,115 @@
   "confidence": 0.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2125,
+  "mu": 47.7,
+  "ci80": {
+   "lo": 39.0,
+   "hi": 56.3
+  },
+  "ci50": {
+   "lo": 43.1,
+   "hi": 52.2
+  },
+  "sigma_model": 1.562,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c53083ad",
+   "season": 2020,
+   "distance": 1.848,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bryan Dabo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "7f97771d",
+   "season": 2018,
+   "distance": 2.568,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Martínez",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "144607cc",
+   "season": 2020,
+   "distance": 2.626,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jasmin Kurtić",
+   "squad": "Parma / SPAL"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2020,
+   "distance": 2.689,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paul Lasne",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "bf13975c",
+   "season": 2020,
+   "distance": 2.716,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Žan Majer",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "80f36c88",
+   "season": 2018,
+   "distance": 2.781,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Sebastian Rudy",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "1b82f8df",
+   "season": 2020,
+   "distance": 2.787,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lukas Lerager",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "1b17ed86",
+   "season": 2018,
+   "distance": 2.812,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Esteban Granero",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2019,
+   "distance": 2.857,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Kevin Strootman",
+   "squad": "Marseille / Roma"
+  },
+  {
+   "fbref_id": "cc700722",
+   "season": 2020,
+   "distance": 2.869,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Allan",
+   "squad": "Napoli"
+  }
+ ],
  "low_confidence": false
 }

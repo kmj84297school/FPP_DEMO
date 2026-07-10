@@ -26,10 +26,115 @@
   "confidence": 0.88
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1994,
+  "mu": 40.1,
+  "ci80": {
+   "lo": 31.1,
+   "hi": 49.1
+  },
+  "ci50": {
+   "lo": 35.4,
+   "hi": 44.8
+  },
+  "sigma_model": 2.458,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "71ef519e",
+   "season": 2019,
+   "distance": 2.474,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2019,
+   "distance": 2.548,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2019,
+   "distance": 2.639,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2018,
+   "distance": 2.778,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 2.903,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "79c90e45",
+   "season": 2020,
+   "distance": 2.913,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Pavel Kadeřábek",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2020,
+   "distance": 3.077,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "b3b7f5a6",
+   "season": 2018,
+   "distance": 3.088,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Timothy Chandler",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "5128bde4",
+   "season": 2020,
+   "distance": 3.116,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Darko Lazović",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "5128bde4",
+   "season": 2019,
+   "distance": 3.145,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Darko Lazović",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

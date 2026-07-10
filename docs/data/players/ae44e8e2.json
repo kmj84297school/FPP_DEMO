@@ -26,10 +26,115 @@
   "confidence": 0.58
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.5555,
+  "mu": 65.1,
+  "ci80": {
+   "lo": 56.2,
+   "hi": 73.9
+  },
+  "ci50": {
+   "lo": 60.4,
+   "hi": 69.7
+  },
+  "sigma_model": 2.109,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "94c18565",
+   "season": 2020,
+   "distance": 3.299,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Florian Kainz",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "3bb7af3b",
+   "season": 2018,
+   "distance": 3.442,
+   "survived": 1,
+   "fut_ability_v2": 71.8,
+   "player_name": "Riccardo Saponara",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "2e0367a6",
+   "season": 2019,
+   "distance": 3.616,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Naïm Sliti",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "9a2e0ccc",
+   "season": 2019,
+   "distance": 3.618,
+   "survived": 1,
+   "fut_ability_v2": 62.9,
+   "player_name": "Emil Forsberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "36d5469c",
+   "season": 2019,
+   "distance": 3.657,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Gallar",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "643b39a6",
+   "season": 2018,
+   "distance": 3.67,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emre Çolak",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "2648e18f",
+   "season": 2018,
+   "distance": 3.756,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adem Ljajić",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "9efa1d25",
+   "season": 2018,
+   "distance": 3.797,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Götze",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "48d5bd33",
+   "season": 2020,
+   "distance": 3.81,
+   "survived": 1,
+   "fut_ability_v2": 72.6,
+   "player_name": "Ruslan Malinovskyi",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "54e4866f",
+   "season": 2020,
+   "distance": 3.824,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Vincenzo Grifo",
+   "squad": "Freiburg / Hoffenheim"
+  }
+ ],
+ "low_confidence": true
 }

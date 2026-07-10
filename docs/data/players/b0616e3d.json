@@ -26,10 +26,115 @@
   "confidence": 0.21
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0848,
+  "mu": 46.8,
+  "ci80": {
+   "lo": 38.2,
+   "hi": 55.5
+  },
+  "ci50": {
+   "lo": 42.3,
+   "hi": 51.4
+  },
+  "sigma_model": 1.668,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "92232aad",
+   "season": 2020,
+   "distance": 2.257,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2020,
+   "distance": 2.389,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "1ae30132",
+   "season": 2020,
+   "distance": 2.405,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Phil Bardsley",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2019,
+   "distance": 2.42,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "12aa7661",
+   "season": 2019,
+   "distance": 2.442,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "3624ce4c",
+   "season": 2020,
+   "distance": 2.455,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Víctor Díaz",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "ffad706e",
+   "season": 2019,
+   "distance": 2.502,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2019,
+   "distance": 2.517,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2019,
+   "distance": 2.564,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "a67a09fb",
+   "season": 2018,
+   "distance": 2.58,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Fuchs",
+   "squad": "Leicester City"
+  }
+ ],
  "low_confidence": false
 }

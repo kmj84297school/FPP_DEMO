@@ -26,10 +26,115 @@
   "confidence": 0.78
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2527,
+  "mu": 40.0,
+  "ci80": {
+   "lo": 31.3,
+   "hi": 48.7
+  },
+  "ci50": {
+   "lo": 35.4,
+   "hi": 44.6
+  },
+  "sigma_model": 1.754,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0d2158d5",
+   "season": 2019,
+   "distance": 2.092,
+   "survived": 1,
+   "fut_ability_v2": 37.8,
+   "player_name": "Jordan Marié",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2019,
+   "distance": 2.135,
+   "survived": 1,
+   "fut_ability_v2": 30.9,
+   "player_name": "Pere Pons",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "d7bf3d19",
+   "season": 2019,
+   "distance": 2.144,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Romain Amalfitano",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "64b08de7",
+   "season": 2020,
+   "distance": 2.204,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "James McCarthy",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "999908af",
+   "season": 2019,
+   "distance": 2.254,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wakaso",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "b0fce72c",
+   "season": 2019,
+   "distance": 2.263,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Mikel Vesga",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2019,
+   "distance": 2.295,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2019,
+   "distance": 2.342,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2018,
+   "distance": 2.368,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "a8797cf1",
+   "season": 2020,
+   "distance": 2.393,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bongani Zungu",
+   "squad": "Amiens"
+  }
+ ],
  "low_confidence": false
 }

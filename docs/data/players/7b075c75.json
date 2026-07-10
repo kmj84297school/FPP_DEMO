@@ -26,10 +26,115 @@
   "confidence": 1.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3023,
+  "mu": 48.7,
+  "ci80": {
+   "lo": 39.8,
+   "hi": 57.5
+  },
+  "ci50": {
+   "lo": 44.0,
+   "hi": 53.3
+  },
+  "sigma_model": 2.063,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8aa5f52c",
+   "season": 2019,
+   "distance": 1.874,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrian Mariappa",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "bf97c188",
+   "season": 2019,
+   "distance": 1.976,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Mercado",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "92b4a127",
+   "season": 2018,
+   "distance": 1.978,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gustavo Cabral",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "4e358a2d",
+   "season": 2020,
+   "distance": 1.982,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Federico Fazio",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "b682dcf6",
+   "season": 2019,
+   "distance": 2.069,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sokratis Papastathopoulos",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "f5efb153",
+   "season": 2019,
+   "distance": 2.072,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Laurent Koscielny",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "8b8a56ce",
+   "season": 2018,
+   "distance": 2.097,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Simon Kjær",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "68b78c2a",
+   "season": 2019,
+   "distance": 2.112,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lorenzo Ariaudo",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "b14d0c5d",
+   "season": 2020,
+   "distance": 2.127,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sidnei",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "1bab7b66",
+   "season": 2020,
+   "distance": 2.148,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stoppila Sunzu",
+   "squad": "Metz"
+  }
+ ],
  "low_confidence": false
 }

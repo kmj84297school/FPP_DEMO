@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3377,
+  "mu": 49.5,
+  "ci80": {
+   "lo": 40.8,
+   "hi": 58.3
+  },
+  "ci50": {
+   "lo": 44.9,
+   "hi": 54.2
+  },
+  "sigma_model": 1.903,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1ad8cb67",
+   "season": 2019,
+   "distance": 1.289,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Martinez",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "b5114f85",
+   "season": 2019,
+   "distance": 1.421,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Georg Margreitter",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2020,
+   "distance": 1.517,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "b0a0698b",
+   "season": 2020,
+   "distance": 1.556,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Rafael Czichos",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2019,
+   "distance": 1.671,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "1253a12e",
+   "season": 2018,
+   "distance": 1.683,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ervin Zukanović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "779847d6",
+   "season": 2020,
+   "distance": 1.683,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Nicolas Pallois",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2019,
+   "distance": 1.768,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "952a03fe",
+   "season": 2018,
+   "distance": 1.785,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Sebastien De Maio",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "89cbc961",
+   "season": 2019,
+   "distance": 1.803,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramiro Funes Mori",
+   "squad": "Villarreal"
+  }
+ ],
  "low_confidence": false
 }

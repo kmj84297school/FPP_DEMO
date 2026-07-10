@@ -26,10 +26,115 @@
   "confidence": 0.74
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0735,
+  "mu": 49.3,
+  "ci80": {
+   "lo": 40.4,
+   "hi": 58.1
+  },
+  "ci50": {
+   "lo": 44.6,
+   "hi": 53.9
+  },
+  "sigma_model": 2.117,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2019,
+   "distance": 1.876,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2020,
+   "distance": 2.13,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "8cea6319",
+   "season": 2020,
+   "distance": 2.209,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felipe dal Belo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "e97150c0",
+   "season": 2020,
+   "distance": 2.294,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Morel",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "78803d03",
+   "season": 2018,
+   "distance": 2.316,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2020,
+   "distance": 2.366,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "46ed55b6",
+   "season": 2018,
+   "distance": 2.475,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Cannavaro",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "dbb10755",
+   "season": 2018,
+   "distance": 2.5,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kader Mangane",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "55667895",
+   "season": 2019,
+   "distance": 2.596,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Moretti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "5a3f6fae",
+   "season": 2018,
+   "distance": 2.609,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fernando Navarro",
+   "squad": "La Coruña"
+  }
+ ],
  "low_confidence": false
 }

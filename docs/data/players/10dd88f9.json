@@ -26,10 +26,115 @@
   "confidence": 2.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2073,
+  "mu": 46.0,
+  "ci80": {
+   "lo": 36.9,
+   "hi": 55.1
+  },
+  "ci50": {
+   "lo": 41.2,
+   "hi": 50.8
+  },
+  "sigma_model": 2.656,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "90fcf472",
+   "season": 2020,
+   "distance": 2.982,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wesley Saïd",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2019,
+   "distance": 3.274,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "ac05f970",
+   "season": 2018,
+   "distance": 3.55,
+   "survived": 1,
+   "fut_ability_v2": 65.1,
+   "player_name": "Michail Antonio",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "a53b661f",
+   "season": 2019,
+   "distance": 3.651,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Ihlas Bebou",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "09bcc566",
+   "season": 2019,
+   "distance": 3.702,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Virgil Misidjan",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "02c15616",
+   "season": 2020,
+   "distance": 3.713,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Marcos Llorente",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "bb4a42be",
+   "season": 2018,
+   "distance": 3.733,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yannis Salibur",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2020,
+   "distance": 3.775,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Alfred Duncan",
+   "squad": "Fiorentina / Sassuolo"
+  },
+  {
+   "fbref_id": "d85c238b",
+   "season": 2020,
+   "distance": 3.785,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Mattia Zaccagni",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "ba5a9545",
+   "season": 2020,
+   "distance": 3.815,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Hervías",
+   "squad": "Valladolid"
+  }
+ ],
+ "low_confidence": true
 }

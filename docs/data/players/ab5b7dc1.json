@@ -26,10 +26,115 @@
   "confidence": 0.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1962,
+  "mu": 48.5,
+  "ci80": {
+   "lo": 39.2,
+   "hi": 57.9
+  },
+  "ci50": {
+   "lo": 43.6,
+   "hi": 53.5
+  },
+  "sigma_model": 3.189,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d733aa38",
+   "season": 2020,
+   "distance": 2.381,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Torres",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "c6637acf",
+   "season": 2018,
+   "distance": 2.45,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Caiuby",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2018,
+   "distance": 2.547,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "7c388b20",
+   "season": 2019,
+   "distance": 2.633,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "360d70f8",
+   "season": 2020,
+   "distance": 2.65,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lago Junior",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "c5a500ca",
+   "season": 2020,
+   "distance": 2.704,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Max Gradel",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "cfd8dde3",
+   "season": 2018,
+   "distance": 2.733,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Corgnet",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "b48215cd",
+   "season": 2019,
+   "distance": 2.774,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexander Esswein",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "b63e789d",
+   "season": 2020,
+   "distance": 2.784,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Fleck",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "04965583",
+   "season": 2020,
+   "distance": 2.898,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Aleix Vidal",
+   "squad": "Alavés"
+  }
+ ],
  "low_confidence": false
 }

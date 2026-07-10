@@ -26,10 +26,115 @@
   "confidence": 1.92
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5258,
+  "mu": 55.3,
+  "ci80": {
+   "lo": 46.6,
+   "hi": 64.1
+  },
+  "ci50": {
+   "lo": 50.7,
+   "hi": 60.0
+  },
+  "sigma_model": 1.928,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6cafd68d",
+   "season": 2018,
+   "distance": 2.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Håvard Nordtveit",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "322ba2df",
+   "season": 2018,
+   "distance": 2.348,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alin Toșca",
+   "squad": "Benevento / Betis"
+  },
+  {
+   "fbref_id": "463503e2",
+   "season": 2018,
+   "distance": 2.363,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcin Kamiński",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "6fd8a334",
+   "season": 2020,
+   "distance": 2.432,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Dragović",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "8cc29864",
+   "season": 2019,
+   "distance": 2.495,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Lorenzo Tonelli",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "34b54da7",
+   "season": 2019,
+   "distance": 2.577,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tony Jantschke",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "339c6ed4",
+   "season": 2018,
+   "distance": 2.644,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vasco Regini",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "16b9d5cf",
+   "season": 2020,
+   "distance": 2.763,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Nikola Maksimović",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "fbffc4b1",
+   "season": 2018,
+   "distance": 2.8,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Jeffrey Bruma",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "5eecec3d",
+   "season": 2019,
+   "distance": 2.806,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "John Stones",
+   "squad": "Manchester City"
+  }
+ ],
  "low_confidence": false
 }

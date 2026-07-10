@@ -26,10 +26,115 @@
   "confidence": 0.23
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4796,
+  "mu": 61.4,
+  "ci80": {
+   "lo": 52.5,
+   "hi": 70.2
+  },
+  "ci50": {
+   "lo": 56.7,
+   "hi": 66.0
+  },
+  "sigma_model": 2.212,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ce30bfc8",
+   "season": 2019,
+   "distance": 2.297,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Roberto Gagliardini",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "ce30bfc8",
+   "season": 2020,
+   "distance": 2.607,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Gagliardini",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "3a24769f",
+   "season": 2019,
+   "distance": 2.707,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Ross Barkley",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "867239d3",
+   "season": 2020,
+   "distance": 2.882,
+   "survived": 1,
+   "fut_ability_v2": 73.0,
+   "player_name": "Paul Pogba",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "2acd49b9",
+   "season": 2018,
+   "distance": 2.913,
+   "survived": 1,
+   "fut_ability_v2": 43.8,
+   "player_name": "Moussa Sissoko",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2019,
+   "distance": 2.954,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2018,
+   "distance": 3.113,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "cc86b9a3",
+   "season": 2020,
+   "distance": 3.158,
+   "survived": 1,
+   "fut_ability_v2": 72.4,
+   "player_name": "Leon Goretzka",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "01efac19",
+   "season": 2020,
+   "distance": 3.253,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Antonín Barák",
+   "squad": "Lecce / Udinese"
+  },
+  {
+   "fbref_id": "3902e91b",
+   "season": 2019,
+   "distance": 3.355,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Gonzalo Melero",
+   "squad": "Huesca"
+  }
+ ],
  "low_confidence": false
 }

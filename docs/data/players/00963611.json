@@ -26,10 +26,115 @@
   "confidence": 0.63
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8281,
+  "mu": 63.7,
+  "ci80": {
+   "lo": 55.0,
+   "hi": 72.3
+  },
+  "ci50": {
+   "lo": 59.1,
+   "hi": 68.2
+  },
+  "sigma_model": 1.609,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2018,
+   "distance": 2.425,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d8931174",
+   "season": 2018,
+   "distance": 2.607,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Harry Maguire",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "cb574619",
+   "season": 2018,
+   "distance": 2.646,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2019,
+   "distance": 2.843,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "b99bec05",
+   "season": 2019,
+   "distance": 2.893,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Issiaga Sylla",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2018,
+   "distance": 2.894,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "19a12bed",
+   "season": 2020,
+   "distance": 2.942,
+   "survived": 1,
+   "fut_ability_v2": 50.1,
+   "player_name": "Hassane Kamara",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "b99bec05",
+   "season": 2020,
+   "distance": 2.956,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Issiaga Sylla",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "d557d734",
+   "season": 2019,
+   "distance": 2.963,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Matt Doherty",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "378825c7",
+   "season": 2020,
+   "distance": 2.978,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "Ramy Bensebaini",
+   "squad": "M'Gladbach"
+  }
+ ],
  "low_confidence": false
 }

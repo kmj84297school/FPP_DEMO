@@ -26,10 +26,115 @@
   "confidence": 0.48
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.453,
+  "mu": 53.9,
+  "ci80": {
+   "lo": 45.1,
+   "hi": 62.7
+  },
+  "ci50": {
+   "lo": 49.3,
+   "hi": 58.5
+  },
+  "sigma_model": 2.064,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "45db685d",
+   "season": 2020,
+   "distance": 2.727,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Jorginho",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "45db685d",
+   "season": 2019,
+   "distance": 2.906,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Jorginho",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "dc3fa3b5",
+   "season": 2018,
+   "distance": 3.328,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Diego Demme",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "16657b95",
+   "season": 2020,
+   "distance": 3.421,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Bryan Cristante",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "dc3fa3b5",
+   "season": 2020,
+   "distance": 3.433,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Demme",
+   "squad": "RB Leipzig / Napoli"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2019,
+   "distance": 3.485,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "375622c5",
+   "season": 2019,
+   "distance": 3.494,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Jordan Ferri",
+   "squad": "Nîmes / Lyon"
+  },
+  {
+   "fbref_id": "45db685d",
+   "season": 2018,
+   "distance": 3.606,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Jorginho",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "dff153a4",
+   "season": 2019,
+   "distance": 3.607,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Leandro Paredes",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "4a56052c",
+   "season": 2020,
+   "distance": 3.641,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Veretout",
+   "squad": "Roma"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7284,
+  "mu": 54.4,
+  "ci80": {
+   "lo": 45.7,
+   "hi": 63.0
+  },
+  "ci50": {
+   "lo": 49.8,
+   "hi": 58.9
+  },
+  "sigma_model": 1.58,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4a56052c",
+   "season": 2020,
+   "distance": 1.732,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Veretout",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2018,
+   "distance": 1.805,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2018,
+   "distance": 2.036,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "4a56052c",
+   "season": 2018,
+   "distance": 2.142,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Jordan Veretout",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "5a1900a4",
+   "season": 2018,
+   "distance": 2.169,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Carroll",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "45db685d",
+   "season": 2019,
+   "distance": 2.313,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Jorginho",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2019,
+   "distance": 2.399,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "16657b95",
+   "season": 2020,
+   "distance": 2.432,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Bryan Cristante",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2019,
+   "distance": 2.509,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "33b8d077",
+   "season": 2020,
+   "distance": 2.51,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Marcelo Brozović",
+   "squad": "Inter"
+  }
+ ],
  "low_confidence": false
 }

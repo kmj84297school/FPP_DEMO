@@ -26,10 +26,115 @@
   "confidence": 0.73
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4871,
+  "mu": 57.5,
+  "ci80": {
+   "lo": 48.8,
+   "hi": 66.1
+  },
+  "ci50": {
+   "lo": 52.9,
+   "hi": 62.0
+  },
+  "sigma_model": 1.605,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7e689867",
+   "season": 2018,
+   "distance": 1.983,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Terrazzino",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "2903a856",
+   "season": 2019,
+   "distance": 2.01,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Jonas Hofmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2019,
+   "distance": 2.04,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Alfred Duncan",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "75f2c59f",
+   "season": 2018,
+   "distance": 2.193,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Roberto Pereyra",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "88895312",
+   "season": 2019,
+   "distance": 2.217,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Bessa",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2018,
+   "distance": 2.272,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "72a99e38",
+   "season": 2018,
+   "distance": 2.302,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Cristian Tello",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "33ecf462",
+   "season": 2020,
+   "distance": 2.308,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valerio Verre",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "58a9a4d9",
+   "season": 2020,
+   "distance": 2.344,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Óliver Torres",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "e7f4603c",
+   "season": 2018,
+   "distance": 2.404,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Borja García",
+   "squad": "Girona"
+  }
+ ],
  "low_confidence": false
 }

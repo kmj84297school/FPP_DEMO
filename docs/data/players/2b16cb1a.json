@@ -26,10 +26,115 @@
   "confidence": 1.85
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.7924,
+  "mu": 63.6,
+  "ci80": {
+   "lo": 54.6,
+   "hi": 72.7
+  },
+  "ci50": {
+   "lo": 58.9,
+   "hi": 68.4
+  },
+  "sigma_model": 2.527,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9f1893b9",
+   "season": 2018,
+   "distance": 5.527,
+   "survived": 1,
+   "fut_ability_v2": 65.4,
+   "player_name": "Felipe Anderson",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "ff182fdc",
+   "season": 2018,
+   "distance": 6.507,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ishak Belfodil",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "8f696594",
+   "season": 2020,
+   "distance": 6.762,
+   "survived": 1,
+   "fut_ability_v2": 72.2,
+   "player_name": "Memphis Depay",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "849c826a",
+   "season": 2018,
+   "distance": 6.783,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Andriy Yarmolenko",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "a39bb753",
+   "season": 2018,
+   "distance": 6.992,
+   "survived": 1,
+   "fut_ability_v2": 70.8,
+   "player_name": "Eden Hazard",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2018,
+   "distance": 7.051,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "43458538",
+   "season": 2018,
+   "distance": 7.152,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "a69e4806",
+   "season": 2020,
+   "distance": 7.217,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Hirving Lozano",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "e0921a4f",
+   "season": 2020,
+   "distance": 7.25,
+   "survived": 1,
+   "fut_ability_v2": 70.3,
+   "player_name": "Paulo Dybala",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "b2bc3b1f",
+   "season": 2019,
+   "distance": 7.265,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Wilfried Zaha",
+   "squad": "Crystal Palace"
+  }
+ ],
+ "low_confidence": true
 }

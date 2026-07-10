@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3682,
+  "mu": 51.1,
+  "ci80": {
+   "lo": 42.2,
+   "hi": 59.9
+  },
+  "ci50": {
+   "lo": 46.4,
+   "hi": 55.7
+  },
+  "sigma_model": 2.196,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "76dd1480",
+   "season": 2019,
+   "distance": 1.741,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "b0547a87",
+   "season": 2020,
+   "distance": 1.997,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Nicolas de Préville",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "5c96b017",
+   "season": 2020,
+   "distance": 2.05,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Rubén García",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "6421ec64",
+   "season": 2018,
+   "distance": 2.118,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xherdan Shaqiri",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "db8f0eba",
+   "season": 2019,
+   "distance": 2.145,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Adri Embarba",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2020,
+   "distance": 2.242,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "48e89655",
+   "season": 2018,
+   "distance": 2.25,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Piatti",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "6c679c6d",
+   "season": 2019,
+   "distance": 2.366,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Knockaert",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "7dfbba27",
+   "season": 2020,
+   "distance": 2.367,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathias Autret",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "54e4866f",
+   "season": 2020,
+   "distance": 2.38,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Vincenzo Grifo",
+   "squad": "Freiburg / Hoffenheim"
+  }
+ ],
  "low_confidence": false
 }

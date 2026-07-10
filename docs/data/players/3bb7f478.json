@@ -26,10 +26,115 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.3451,
+  "mu": 60.5,
+  "ci80": {
+   "lo": 51.3,
+   "hi": 69.6
+  },
+  "ci50": {
+   "lo": 55.7,
+   "hi": 65.3
+  },
+  "sigma_model": 2.789,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4cde5509",
+   "season": 2020,
+   "distance": 2.667,
+   "survived": 1,
+   "fut_ability_v2": 76.2,
+   "player_name": "Zlatan Ibrahimović",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "8d8178ac",
+   "season": 2020,
+   "distance": 2.783,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "ee4f2f3b",
+   "season": 2018,
+   "distance": 3.109,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Fabio Quagliarella",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "d9afac11",
+   "season": 2018,
+   "distance": 3.244,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Blayac",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "43f71e77",
+   "season": 2019,
+   "distance": 3.323,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Jorge Molina",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "4d3ab428",
+   "season": 2018,
+   "distance": 3.371,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cyril Théréau",
+   "squad": "Fiorentina / Udinese"
+  },
+  {
+   "fbref_id": "ee4f2f3b",
+   "season": 2020,
+   "distance": 3.537,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Fabio Quagliarella",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "d711d04f",
+   "season": 2018,
+   "distance": 3.693,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "43f71e77",
+   "season": 2020,
+   "distance": 3.751,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Jorge Molina",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "8d8178ac",
+   "season": 2019,
+   "distance": 3.848,
+   "survived": 1,
+   "fut_ability_v2": 64.4,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  }
+ ],
+ "low_confidence": true
 }

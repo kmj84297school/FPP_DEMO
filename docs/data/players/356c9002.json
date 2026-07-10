@@ -26,10 +26,115 @@
   "confidence": 0.66
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.1077,
+  "mu": 50.1,
+  "ci80": {
+   "lo": 41.3,
+   "hi": 58.9
+  },
+  "ci50": {
+   "lo": 45.5,
+   "hi": 54.8
+  },
+  "sigma_model": 1.992,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "eda40760",
+   "season": 2020,
+   "distance": 1.838,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "edd6c8e9",
+   "season": 2019,
+   "distance": 3.089,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Darijo Srna",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2020,
+   "distance": 3.177,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Ashley Young",
+   "squad": "Inter / Manchester Utd"
+  },
+  {
+   "fbref_id": "635b0bae",
+   "season": 2018,
+   "distance": 3.399,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Gobbi",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2020,
+   "distance": 3.481,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "5eb72339",
+   "season": 2018,
+   "distance": 3.83,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Padoin",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "548902cc",
+   "season": 2019,
+   "distance": 4.042,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Pasqual",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "cfd8d664",
+   "season": 2019,
+   "distance": 4.209,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2019,
+   "distance": 4.245,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "7fd58fe3",
+   "season": 2020,
+   "distance": 4.26,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Senad Lulić",
+   "squad": "Lazio"
+  }
+ ],
+ "low_confidence": true
 }

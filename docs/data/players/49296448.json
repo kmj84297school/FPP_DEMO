@@ -26,10 +26,115 @@
   "confidence": 0.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8631,
+  "mu": 60.2,
+  "ci80": {
+   "lo": 51.5,
+   "hi": 68.9
+  },
+  "ci50": {
+   "lo": 55.6,
+   "hi": 64.8
+  },
+  "sigma_model": 1.748,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7460ca0d",
+   "season": 2018,
+   "distance": 2.058,
+   "survived": 1,
+   "fut_ability_v2": 59.1,
+   "player_name": "Daniel Parejo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "7460ca0d",
+   "season": 2019,
+   "distance": 2.114,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Daniel Parejo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "ad6df2d5",
+   "season": 2018,
+   "distance": 2.824,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Miralem Pjanić",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "33b8d077",
+   "season": 2019,
+   "distance": 3.262,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Marcelo Brozović",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "4a56052c",
+   "season": 2019,
+   "distance": 3.318,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Jordan Veretout",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2019,
+   "distance": 3.453,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "45db685d",
+   "season": 2018,
+   "distance": 3.505,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Jorginho",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "ad6df2d5",
+   "season": 2020,
+   "distance": 3.548,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miralem Pjanić",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "e8c930bb",
+   "season": 2018,
+   "distance": 3.604,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Milan Badelj",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "b825a650",
+   "season": 2019,
+   "distance": 3.612,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Kevin Kampl",
+   "squad": "RB Leipzig"
+  }
+ ],
  "low_confidence": false
 }

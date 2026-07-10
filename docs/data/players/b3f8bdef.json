@@ -26,10 +26,115 @@
   "confidence": 1.91
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2373,
+  "mu": 41.3,
+  "ci80": {
+   "lo": 32.6,
+   "hi": 50.0
+  },
+  "ci50": {
+   "lo": 36.7,
+   "hi": 45.9
+  },
+  "sigma_model": 1.798,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2946f9a1",
+   "season": 2018,
+   "distance": 2.812,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Nacho",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "cacadf4f",
+   "season": 2019,
+   "distance": 2.974,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luis Advíncula",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2019,
+   "distance": 3.052,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "652811aa",
+   "season": 2020,
+   "distance": 3.054,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Calderoni",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2018,
+   "distance": 3.077,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "7fecbcdb",
+   "season": 2019,
+   "distance": 3.133,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Abdoulaye Bamba",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2020,
+   "distance": 3.14,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Alberto Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "05384ea1",
+   "season": 2018,
+   "distance": 3.178,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michel",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "7f4c7c9f",
+   "season": 2020,
+   "distance": 3.239,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Jorge Miramón",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2019,
+   "distance": 3.242,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  }
+ ],
  "low_confidence": false
 }

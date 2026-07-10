@@ -26,10 +26,115 @@
   "confidence": 0.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1664,
+  "mu": 54.7,
+  "ci80": {
+   "lo": 46.0,
+   "hi": 63.4
+  },
+  "ci50": {
+   "lo": 50.2,
+   "hi": 59.3
+  },
+  "sigma_model": 1.738,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "be927d03",
+   "season": 2019,
+   "distance": 2.49,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "5c4d9be7",
+   "season": 2019,
+   "distance": 2.553,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enrico Valentini",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "b51242ef",
+   "season": 2018,
+   "distance": 2.685,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Martins Pereira",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "d1661819",
+   "season": 2019,
+   "distance": 2.769,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Bastian Oczipka",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "e4ed2628",
+   "season": 2018,
+   "distance": 2.897,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filipe Luís",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "35dd6d80",
+   "season": 2019,
+   "distance": 2.907,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Domenico Criscito",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "3024e383",
+   "season": 2020,
+   "distance": 2.948,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "José Ángel",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2019,
+   "distance": 2.96,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2019,
+   "distance": 3.002,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "615ef733",
+   "season": 2020,
+   "distance": 3.102,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ahmed Elmohamady",
+   "squad": "Aston Villa"
+  }
+ ],
  "low_confidence": false
 }

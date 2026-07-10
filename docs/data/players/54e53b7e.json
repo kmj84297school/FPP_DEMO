@@ -26,10 +26,115 @@
   "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5233,
+  "mu": 44.3,
+  "ci80": {
+   "lo": 35.0,
+   "hi": 53.6
+  },
+  "ci50": {
+   "lo": 39.4,
+   "hi": 49.2
+  },
+  "sigma_model": 3.146,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f69fba57",
+   "season": 2018,
+   "distance": 2.291,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Yuya Osako",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "7dcf86f6",
+   "season": 2020,
+   "distance": 2.358,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Iago Aspas",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "f83c8d6c",
+   "season": 2018,
+   "distance": 2.498,
+   "survived": 1,
+   "fut_ability_v2": 28.5,
+   "player_name": "Jimmy Briand",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "854ee61a",
+   "season": 2019,
+   "distance": 2.527,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Grégoire Defrel",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "601ef102",
+   "season": 2020,
+   "distance": 2.673,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Okaka",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2018,
+   "distance": 2.739,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Diego Farias",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "1ad1f50d",
+   "season": 2018,
+   "distance": 2.787,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Sau",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2020,
+   "distance": 2.808,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Antoine Griezmann",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "5592007b",
+   "season": 2020,
+   "distance": 2.808,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfredo Donnarumma",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 2.826,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

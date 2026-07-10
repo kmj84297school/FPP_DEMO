@@ -26,10 +26,115 @@
   "confidence": 1.56
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1342,
+  "mu": 54.8,
+  "ci80": {
+   "lo": 45.9,
+   "hi": 63.7
+  },
+  "ci50": {
+   "lo": 50.1,
+   "hi": 59.5
+  },
+  "sigma_model": 2.245,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fed5f993",
+   "season": 2020,
+   "distance": 1.671,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Larangeira",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "fed5f993",
+   "season": 2019,
+   "distance": 1.765,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Danilo Larangeira",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "80e4c841",
+   "season": 2020,
+   "distance": 1.836,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aurélien Chedjou",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2018,
+   "distance": 1.863,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "b666421b",
+   "season": 2020,
+   "distance": 1.922,
+   "survived": 1,
+   "fut_ability_v2": 41.0,
+   "player_name": "Ismaël Traoré",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "314f2124",
+   "season": 2018,
+   "distance": 2.003,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miranda",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2020,
+   "distance": 2.023,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2019,
+   "distance": 2.099,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2019,
+   "distance": 2.13,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "4bd414c1",
+   "season": 2020,
+   "distance": 2.164,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Raúl Albiol",
+   "squad": "Villarreal"
+  }
+ ],
  "low_confidence": false
 }

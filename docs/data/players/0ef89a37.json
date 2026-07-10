@@ -26,10 +26,115 @@
   "confidence": 0.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2592,
+  "mu": 52.4,
+  "ci80": {
+   "lo": 43.4,
+   "hi": 61.3
+  },
+  "ci50": {
+   "lo": 47.7,
+   "hi": 57.1
+  },
+  "sigma_model": 2.365,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c650629d",
+   "season": 2019,
+   "distance": 1.649,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "37f96552",
+   "season": 2018,
+   "distance": 1.865,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nabil El Zhar",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "71d4e271",
+   "season": 2018,
+   "distance": 2.124,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Manuel Jurado",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "75f2c59f",
+   "season": 2020,
+   "distance": 2.228,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Roberto Pereyra",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "07abb358",
+   "season": 2020,
+   "distance": 2.251,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rômulo",
+   "squad": "Brescia / Genoa"
+  },
+  {
+   "fbref_id": "db750822",
+   "season": 2020,
+   "distance": 2.309,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vitolo",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "b606638c",
+   "season": 2020,
+   "distance": 2.311,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Stiepermann",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "37f96552",
+   "season": 2019,
+   "distance": 2.345,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nabil El Zhar",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "9aacb284",
+   "season": 2018,
+   "distance": 2.574,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Pugh",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "3ca7254a",
+   "season": 2018,
+   "distance": 2.671,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Pedro",
+   "squad": "Chelsea"
+  }
+ ],
  "low_confidence": false
 }

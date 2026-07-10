@@ -26,10 +26,115 @@
   "confidence": 1.55
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3518,
+  "mu": 52.1,
+  "ci80": {
+   "lo": 43.3,
+   "hi": 60.8
+  },
+  "ci50": {
+   "lo": 47.5,
+   "hi": 56.7
+  },
+  "sigma_model": 1.898,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "528492ea",
+   "season": 2020,
+   "distance": 1.373,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Alfred Duncan",
+   "squad": "Fiorentina / Sassuolo"
+  },
+  {
+   "fbref_id": "38c7feef",
+   "season": 2020,
+   "distance": 1.96,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alex Oxlade-Chamberlain",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2019,
+   "distance": 2.053,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2019,
+   "distance": 2.056,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Roberto Soriano",
+   "squad": "Bologna / Torino"
+  },
+  {
+   "fbref_id": "58a9a4d9",
+   "season": 2020,
+   "distance": 2.214,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Óliver Torres",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "e5649a78",
+   "season": 2020,
+   "distance": 2.219,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Kevin Stöger",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2019,
+   "distance": 2.249,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Alfred Duncan",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "375622c5",
+   "season": 2019,
+   "distance": 2.333,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Jordan Ferri",
+   "squad": "Nîmes / Lyon"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2018,
+   "distance": 2.357,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "45392b06",
+   "season": 2018,
+   "distance": 2.384,
+   "survived": 1,
+   "fut_ability_v2": 43.1,
+   "player_name": "Nicolas Viola",
+   "squad": "Benevento"
+  }
+ ],
  "low_confidence": false
 }

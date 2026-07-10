@@ -26,10 +26,115 @@
   "confidence": 0.09
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.3015,
+  "mu": 43.6,
+  "ci80": {
+   "lo": 34.8,
+   "hi": 52.4
+  },
+  "ci50": {
+   "lo": 39.0,
+   "hi": 48.2
+  },
+  "sigma_model": 1.955,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "75bd85ea",
+   "season": 2020,
+   "distance": 2.615,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Salva Sevilla",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "516dc25b",
+   "season": 2018,
+   "distance": 2.951,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaroslav Plašil",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "65d750b5",
+   "season": 2018,
+   "distance": 3.246,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabi",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "4e7bfc23",
+   "season": 2019,
+   "distance": 3.433,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Florent Balmont",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "532d2690",
+   "season": 2018,
+   "distance": 3.445,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele De Rossi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ac62861c",
+   "season": 2018,
+   "distance": 3.532,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Féret",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2018,
+   "distance": 3.839,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "0e21fc3c",
+   "season": 2020,
+   "distance": 3.937,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Valero",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "516dc25b",
+   "season": 2019,
+   "distance": 3.959,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaroslav Plašil",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2019,
+   "distance": 3.972,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  }
+ ],
+ "low_confidence": true
 }

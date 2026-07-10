@@ -26,10 +26,115 @@
   "confidence": 0.67
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5096,
+  "mu": 49.5,
+  "ci80": {
+   "lo": 40.8,
+   "hi": 58.2
+  },
+  "ci50": {
+   "lo": 44.9,
+   "hi": 54.0
+  },
+  "sigma_model": 1.736,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3a9c4b7b",
+   "season": 2020,
+   "distance": 1.863,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Nacho Vidal",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "cc2d7ad5",
+   "season": 2020,
+   "distance": 1.877,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Charlie Taylor",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "46ee5234",
+   "season": 2018,
+   "distance": 1.878,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kieran Gibbs",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2018,
+   "distance": 2.11,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "f3112790",
+   "season": 2019,
+   "distance": 2.112,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Unai Bustinza",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "d183e9d6",
+   "season": 2020,
+   "distance": 2.112,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Nicola Murru",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2020,
+   "distance": 2.128,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "5939baa2",
+   "season": 2019,
+   "distance": 2.132,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "b2d31e83",
+   "season": 2020,
+   "distance": 2.142,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Dan Burn",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "de488e56",
+   "season": 2020,
+   "distance": 2.155,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles Traore",
+   "squad": "Nantes"
+  }
+ ],
  "low_confidence": false
 }

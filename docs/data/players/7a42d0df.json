@@ -26,10 +26,115 @@
   "confidence": 1.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.8228,
+  "mu": 65.5,
+  "ci80": {
+   "lo": 56.6,
+   "hi": 74.4
+  },
+  "ci50": {
+   "lo": 60.8,
+   "hi": 70.2
+  },
+  "sigma_model": 2.29,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e2716bd0",
+   "season": 2019,
+   "distance": 3.922,
+   "survived": 1,
+   "fut_ability_v2": 70.8,
+   "player_name": "David Silva",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "dd0daf32",
+   "season": 2020,
+   "distance": 3.925,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Henrikh Mkhitaryan",
+   "squad": "Roma / Arsenal"
+  },
+  {
+   "fbref_id": "b2d0ec1b",
+   "season": 2018,
+   "distance": 4.058,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Nolito",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "6fe90922",
+   "season": 2020,
+   "distance": 4.067,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Ivan Perišić",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "7cd6badb",
+   "season": 2020,
+   "distance": 4.105,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Lars Stindl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "e2716bd0",
+   "season": 2020,
+   "distance": 4.19,
+   "survived": 1,
+   "fut_ability_v2": 69.8,
+   "player_name": "David Silva",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2020,
+   "distance": 4.25,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Radja Nainggolan",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "e2716bd0",
+   "season": 2018,
+   "distance": 4.317,
+   "survived": 1,
+   "fut_ability_v2": 76.2,
+   "player_name": "David Silva",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "d054d8b0",
+   "season": 2018,
+   "distance": 4.376,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xabi Prieto",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2019,
+   "distance": 4.434,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Radja Nainggolan",
+   "squad": "Inter"
+  }
+ ],
+ "low_confidence": true
 }

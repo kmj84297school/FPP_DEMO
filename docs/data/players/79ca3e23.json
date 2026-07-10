@@ -26,10 +26,115 @@
   "confidence": 0.13
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2,
+  "mu": 50.2,
+  "ci80": {
+   "lo": 41.4,
+   "hi": 59.0
+  },
+  "ci50": {
+   "lo": 45.6,
+   "hi": 54.8
+  },
+  "sigma_model": 1.97,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "528492ea",
+   "season": 2019,
+   "distance": 1.634,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Alfred Duncan",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2019,
+   "distance": 1.838,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "b63e789d",
+   "season": 2020,
+   "distance": 1.903,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Fleck",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2018,
+   "distance": 1.931,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Roberto Soriano",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2019,
+   "distance": 1.989,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Roberto Soriano",
+   "squad": "Bologna / Torino"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2018,
+   "distance": 1.995,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Florent Mollet",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "4a57580c",
+   "season": 2018,
+   "distance": 2.028,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "b6a6e0a7",
+   "season": 2019,
+   "distance": 2.036,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Zuber",
+   "squad": "Stuttgart / Hoffenheim"
+  },
+  {
+   "fbref_id": "38c7feef",
+   "season": 2020,
+   "distance": 2.039,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alex Oxlade-Chamberlain",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "b500b384",
+   "season": 2020,
+   "distance": 2.121,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Admir Mehmedi",
+   "squad": "Wolfsburg"
+  }
+ ],
  "low_confidence": false
 }

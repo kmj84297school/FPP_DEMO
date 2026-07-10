@@ -26,10 +26,115 @@
   "confidence": 0.64
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1353,
+  "mu": 41.7,
+  "ci80": {
+   "lo": 33.0,
+   "hi": 50.5
+  },
+  "ci50": {
+   "lo": 37.1,
+   "hi": 46.3
+  },
+  "sigma_model": 1.918,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2019,
+   "distance": 1.633,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "81069528",
+   "season": 2020,
+   "distance": 1.744,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Rosales",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "21512407",
+   "season": 2020,
+   "distance": 1.987,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Kieran Trippier",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "9ba48d64",
+   "season": 2019,
+   "distance": 2.132,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2020,
+   "distance": 2.168,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "9f323c71",
+   "season": 2019,
+   "distance": 2.219,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2018,
+   "distance": 2.219,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 2.251,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "767212e6",
+   "season": 2020,
+   "distance": 2.255,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Faussurier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2019,
+   "distance": 2.284,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  }
+ ],
  "low_confidence": false
 }

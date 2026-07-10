@@ -26,10 +26,115 @@
   "confidence": 0.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5483,
+  "mu": 56.6,
+  "ci80": {
+   "lo": 47.5,
+   "hi": 65.6
+  },
+  "ci50": {
+   "lo": 51.8,
+   "hi": 61.3
+  },
+  "sigma_model": 2.558,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0ac94a23",
+   "season": 2018,
+   "distance": 2.845,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Denis Cheryshev",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2020,
+   "distance": 2.869,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Mark Uth",
+   "squad": "Köln / Schalke 04"
+  },
+  {
+   "fbref_id": "ecbb3fdf",
+   "season": 2018,
+   "distance": 3.038,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Schürrle",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "ee93c1a9",
+   "season": 2020,
+   "distance": 3.104,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Federico Bernardeschi",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "b93b7882",
+   "season": 2019,
+   "distance": 3.112,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "36d5469c",
+   "season": 2019,
+   "distance": 3.172,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Gallar",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "d3aaad90",
+   "season": 2019,
+   "distance": 3.202,
+   "survived": 1,
+   "fut_ability_v2": 69.9,
+   "player_name": "Stephan El Shaarawy",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "dd669209",
+   "season": 2020,
+   "distance": 3.217,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Renato Steffen",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "ce5143da",
+   "season": 2018,
+   "distance": 3.281,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Danny Welbeck",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "16daec92",
+   "season": 2020,
+   "distance": 3.295,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mijat Gaćinović",
+   "squad": "Eint Frankfurt"
+  }
+ ],
  "low_confidence": false
 }

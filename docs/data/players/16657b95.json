@@ -26,10 +26,115 @@
   "confidence": 1.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.596,
+  "mu": 57.7,
+  "ci80": {
+   "lo": 48.5,
+   "hi": 66.8
+  },
+  "ci50": {
+   "lo": 52.9,
+   "hi": 62.5
+  },
+  "sigma_model": 2.843,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4b511457",
+   "season": 2018,
+   "distance": 1.421,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Oriol Romeu",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "2ce2508a",
+   "season": 2018,
+   "distance": 1.541,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Luka Milivojević",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "84d94b91",
+   "season": 2018,
+   "distance": 1.554,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "Thomas Monconduit",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2020,
+   "distance": 1.617,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "b98570d1",
+   "season": 2018,
+   "distance": 1.622,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Jake Livermore",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2018,
+   "distance": 1.663,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "4d224fe8",
+   "season": 2020,
+   "distance": 1.683,
+   "survived": 1,
+   "fut_ability_v2": 66.4,
+   "player_name": "Casemiro",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "e6c43eec",
+   "season": 2018,
+   "distance": 1.768,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Josuha Guilavogui",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2018,
+   "distance": 1.783,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "431c837b",
+   "season": 2020,
+   "distance": 1.821,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Klaus Gjasula",
+   "squad": "Paderborn 07"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4714,
+  "mu": 55.7,
+  "ci80": {
+   "lo": 46.5,
+   "hi": 64.9
+  },
+  "ci50": {
+   "lo": 50.8,
+   "hi": 60.6
+  },
+  "sigma_model": 2.983,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8a08491a",
+   "season": 2019,
+   "distance": 2.08,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gonzalo Higuaín",
+   "squad": "Milan / Chelsea"
+  },
+  {
+   "fbref_id": "42276181",
+   "season": 2019,
+   "distance": 2.6,
+   "survived": 1,
+   "fut_ability_v2": 41.9,
+   "player_name": "Kévin Gameiro",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "5c2da10f",
+   "season": 2020,
+   "distance": 2.638,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Rémy",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "93b891d1",
+   "season": 2020,
+   "distance": 2.719,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felipe Caicedo",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "e468c053",
+   "season": 2020,
+   "distance": 2.72,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gervinho",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "66116290",
+   "season": 2018,
+   "distance": 2.83,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Radamel Falcao",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "09a9e921",
+   "season": 2018,
+   "distance": 2.84,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Carlos Bacca",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "a6154613",
+   "season": 2020,
+   "distance": 2.953,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Luis Suárez",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "6438d426",
+   "season": 2019,
+   "distance": 3.023,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Babel",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "42276181",
+   "season": 2018,
+   "distance": 3.043,
+   "survived": 1,
+   "fut_ability_v2": 35.2,
+   "player_name": "Kévin Gameiro",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

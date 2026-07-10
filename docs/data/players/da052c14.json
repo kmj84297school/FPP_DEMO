@@ -26,10 +26,115 @@
   "confidence": 0.98
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3732,
+  "mu": 43.7,
+  "ci80": {
+   "lo": 35.0,
+   "hi": 52.5
+  },
+  "ci50": {
+   "lo": 39.1,
+   "hi": 48.3
+  },
+  "sigma_model": 1.817,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "79b2399c",
+   "season": 2020,
+   "distance": 2.208,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "70f8e0bd",
+   "season": 2020,
+   "distance": 2.307,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Dani Rodríguez",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "90b70194",
+   "season": 2018,
+   "distance": 2.369,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Përparim Hetemaj",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2018,
+   "distance": 2.395,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2020,
+   "distance": 2.495,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "3c05e082",
+   "season": 2019,
+   "distance": 2.527,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koo Ja-cheol",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "5aaef9ef",
+   "season": 2020,
+   "distance": 2.558,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Juraj Kucka",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "4a57580c",
+   "season": 2019,
+   "distance": 2.578,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2020,
+   "distance": 2.581,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "cee31595",
+   "season": 2019,
+   "distance": 2.584,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "James McArthur",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

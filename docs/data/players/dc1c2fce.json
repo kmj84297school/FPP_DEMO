@@ -26,10 +26,115 @@
   "confidence": 1.73
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3621,
+  "mu": 46.3,
+  "ci80": {
+   "lo": 37.4,
+   "hi": 55.3
+  },
+  "ci50": {
+   "lo": 41.6,
+   "hi": 51.1
+  },
+  "sigma_model": 2.439,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1bda5842",
+   "season": 2020,
+   "distance": 2.213,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Portu",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "6fe90922",
+   "season": 2018,
+   "distance": 2.389,
+   "survived": 1,
+   "fut_ability_v2": 59.1,
+   "player_name": "Ivan Perišić",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "6fe90922",
+   "season": 2019,
+   "distance": 2.591,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Ivan Perišić",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "88a359d4",
+   "season": 2018,
+   "distance": 2.614,
+   "survived": 1,
+   "fut_ability_v2": 40.7,
+   "player_name": "Adrián López",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2019,
+   "distance": 2.731,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "b0547a87",
+   "season": 2020,
+   "distance": 2.891,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Nicolas de Préville",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "5c96b017",
+   "season": 2020,
+   "distance": 2.921,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Rubén García",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2020,
+   "distance": 2.939,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "0a3f6cde",
+   "season": 2020,
+   "distance": 3.034,
+   "survived": 1,
+   "fut_ability_v2": 34.1,
+   "player_name": "Christopher Antwi-Adjei",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "dba67bc4",
+   "season": 2018,
+   "distance": 3.049,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zlatko Junuzović",
+   "squad": "Werder Bremen"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8039,
+  "mu": 57.9,
+  "ci80": {
+   "lo": 49.0,
+   "hi": 66.9
+  },
+  "ci50": {
+   "lo": 53.2,
+   "hi": 62.6
+  },
+  "sigma_model": 2.357,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b561db50",
+   "season": 2019,
+   "distance": 1.691,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "64f69877",
+   "season": 2019,
+   "distance": 1.727,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "5eae500a",
+   "season": 2020,
+   "distance": 1.973,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Romelu Lukaku",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2019,
+   "distance": 2.158,
+   "survived": 1,
+   "fut_ability_v2": 73.1,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2019,
+   "distance": 2.202,
+   "survived": 1,
+   "fut_ability_v2": 73.4,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2018,
+   "distance": 2.251,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Mark Uth",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2020,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "64f69877",
+   "season": 2020,
+   "distance": 2.299,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "64f69877",
+   "season": 2018,
+   "distance": 2.332,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2019,
+   "distance": 2.332,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Antoine Griezmann",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

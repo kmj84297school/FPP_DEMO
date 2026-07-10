@@ -26,10 +26,115 @@
   "confidence": 2.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4418,
+  "mu": 50.6,
+  "ci80": {
+   "lo": 41.8,
+   "hi": 59.4
+  },
+  "ci50": {
+   "lo": 45.9,
+   "hi": 55.2
+  },
+  "sigma_model": 2.032,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ef5b337e",
+   "season": 2018,
+   "distance": 2.167,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Borini",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "140afefb",
+   "season": 2018,
+   "distance": 2.47,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Risse",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "e3e05edf",
+   "season": 2019,
+   "distance": 2.777,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ambroise Oyongo",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "2b5527c4",
+   "season": 2019,
+   "distance": 2.783,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joshua Brenet",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2020,
+   "distance": 2.852,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "58027adc",
+   "season": 2019,
+   "distance": 2.871,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ladislav Krejčí",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "f1bed920",
+   "season": 2020,
+   "distance": 2.922,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Rodrigues",
+   "squad": "Leganés / Real Sociedad"
+  },
+  {
+   "fbref_id": "5128bde4",
+   "season": 2018,
+   "distance": 2.936,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Darko Lazović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "060606ec",
+   "season": 2019,
+   "distance": 2.95,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco D'Alessandro",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "6213fd82",
+   "season": 2020,
+   "distance": 2.992,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Arkadiusz Reca",
+   "squad": "SPAL"
+  }
+ ],
  "low_confidence": false
 }

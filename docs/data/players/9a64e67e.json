@@ -26,10 +26,115 @@
   "confidence": 0.73
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8203,
+  "mu": 53.2,
+  "ci80": {
+   "lo": 44.3,
+   "hi": 62.1
+  },
+  "ci50": {
+   "lo": 48.5,
+   "hi": 57.9
+  },
+  "sigma_model": 2.161,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f0da930c",
+   "season": 2020,
+   "distance": 1.467,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "José María Giménez",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2019,
+   "distance": 1.626,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "3376a776",
+   "season": 2020,
+   "distance": 1.672,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Karim Rekik",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2019,
+   "distance": 1.718,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "Kostas Manolas",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2018,
+   "distance": 1.783,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "b7ca5c51",
+   "season": 2019,
+   "distance": 1.809,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Gabriel Paulista",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "bba30585",
+   "season": 2019,
+   "distance": 1.821,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Diego Llorente",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "f35430a4",
+   "season": 2018,
+   "distance": 1.833,
+   "survived": 1,
+   "fut_ability_v2": 55.1,
+   "player_name": "Matija Nastasić",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "7b075c75",
+   "season": 2019,
+   "distance": 1.842,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Adama Soumaoro",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "def899bd",
+   "season": 2018,
+   "distance": 1.942,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Phil Jones",
+   "squad": "Manchester Utd"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0968,
+  "mu": 52.8,
+  "ci80": {
+   "lo": 44.1,
+   "hi": 61.4
+  },
+  "ci50": {
+   "lo": 48.2,
+   "hi": 57.3
+  },
+  "sigma_model": 1.592,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2019,
+   "distance": 1.444,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2020,
+   "distance": 1.647,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2020,
+   "distance": 1.742,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nenad Tomović",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "e26c4233",
+   "season": 2018,
+   "distance": 1.934,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Russ",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "8dbff17c",
+   "season": 2019,
+   "distance": 2.107,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Adil Rami",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2018,
+   "distance": 2.15,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "1253a12e",
+   "season": 2019,
+   "distance": 2.173,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ervin Zukanović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2020,
+   "distance": 2.222,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2020,
+   "distance": 2.267,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "d2be40f2",
+   "season": 2019,
+   "distance": 2.29,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iván Ramis",
+   "squad": "Eibar"
+  }
+ ],
  "low_confidence": false
 }

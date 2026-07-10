@@ -26,10 +26,115 @@
   "confidence": 2.76
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4436,
+  "mu": 48.6,
+  "ci80": {
+   "lo": 39.6,
+   "hi": 57.5
+  },
+  "ci50": {
+   "lo": 43.8,
+   "hi": 53.3
+  },
+  "sigma_model": 2.458,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "852351df",
+   "season": 2020,
+   "distance": 3.932,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Peres",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "d4ef9ac5",
+   "season": 2019,
+   "distance": 3.995,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Toño",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "bbafc0c4",
+   "season": 2019,
+   "distance": 4.06,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Cristian Ansaldi",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "060606ec",
+   "season": 2019,
+   "distance": 4.097,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco D'Alessandro",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "5128bde4",
+   "season": 2019,
+   "distance": 4.108,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Darko Lazović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "bbafc0c4",
+   "season": 2018,
+   "distance": 4.136,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Cristian Ansaldi",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "140afefb",
+   "season": 2018,
+   "distance": 4.174,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Risse",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2019,
+   "distance": 4.206,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "9f323c71",
+   "season": 2018,
+   "distance": 4.355,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "5128bde4",
+   "season": 2020,
+   "distance": 4.405,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Darko Lazović",
+   "squad": "Hellas Verona"
+  }
+ ],
+ "low_confidence": true
 }

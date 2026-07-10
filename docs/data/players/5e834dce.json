@@ -26,10 +26,115 @@
   "confidence": 1.0
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.303,
+  "mu": 51.2,
+  "ci80": {
+   "lo": 41.9,
+   "hi": 60.4
+  },
+  "ci50": {
+   "lo": 46.3,
+   "hi": 56.0
+  },
+  "sigma_model": 2.957,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "aeda1f69",
+   "season": 2018,
+   "distance": 2.273,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felix Klaus",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "ff9fcd4d",
+   "season": 2019,
+   "distance": 2.519,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alex Pritchard",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2020,
+   "distance": 2.593,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "e280527c",
+   "season": 2019,
+   "distance": 2.6,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "97333cf5",
+   "season": 2019,
+   "distance": 2.67,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Stuart Armstrong",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "19b8b0b9",
+   "season": 2018,
+   "distance": 2.673,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Collin Quaner",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "b2d03887",
+   "season": 2019,
+   "distance": 2.697,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Camarasa",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "20e73fac",
+   "season": 2019,
+   "distance": 2.702,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "819aa8e7",
+   "season": 2018,
+   "distance": 2.702,
+   "survived": 1,
+   "fut_ability_v2": 58.1,
+   "player_name": "Ayoze Pérez",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "2b622f01",
+   "season": 2019,
+   "distance": 2.738,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Lucas Moura",
+   "squad": "Tottenham"
+  }
+ ],
  "low_confidence": false
 }

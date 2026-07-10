@@ -26,10 +26,115 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4401,
+  "mu": 44.5,
+  "ci80": {
+   "lo": 35.7,
+   "hi": 53.2
+  },
+  "ci50": {
+   "lo": 39.9,
+   "hi": 49.1
+  },
+  "sigma_model": 1.904,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "22551915",
+   "season": 2018,
+   "distance": 1.445,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cuco Martina",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2018,
+   "distance": 1.5,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "de488e56",
+   "season": 2019,
+   "distance": 1.575,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Charles Traore",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2019,
+   "distance": 1.69,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "2e3406ae",
+   "season": 2020,
+   "distance": 1.701,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fran Gámez",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "8a7ff278",
+   "season": 2018,
+   "distance": 1.708,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Joel Ward",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2020,
+   "distance": 1.774,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Arsenal"
+  },
+  {
+   "fbref_id": "1fe67e86",
+   "season": 2018,
+   "distance": 1.845,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Mikel Balenziaga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "45da6694",
+   "season": 2019,
+   "distance": 1.854,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daryl Janmaat",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2018,
+   "distance": 1.878,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  }
+ ],
  "low_confidence": false
 }

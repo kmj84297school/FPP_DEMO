@@ -26,10 +26,115 @@
   "confidence": 1.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3005,
+  "mu": 51.4,
+  "ci80": {
+   "lo": 42.7,
+   "hi": 60.0
+  },
+  "ci50": {
+   "lo": 46.8,
+   "hi": 55.9
+  },
+  "sigma_model": 1.619,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2019,
+   "distance": 1.211,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "d9624b51",
+   "season": 2018,
+   "distance": 1.495,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Federico Ceccherini",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2020,
+   "distance": 1.539,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "8df7a2fb",
+   "season": 2018,
+   "distance": 1.657,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Ben Mee",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "c5b7c315",
+   "season": 2019,
+   "distance": 1.82,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "b7c99b9b",
+   "season": 2019,
+   "distance": 1.825,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Víctor Laguardia",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "8df7a2fb",
+   "season": 2019,
+   "distance": 1.826,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Ben Mee",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "080440a4",
+   "season": 2018,
+   "distance": 1.832,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Martin Hinteregger",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2020,
+   "distance": 1.836,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "3e5e4e63",
+   "season": 2018,
+   "distance": 1.866,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Steve Cook",
+   "squad": "Bournemouth"
+  }
+ ],
  "low_confidence": false
 }

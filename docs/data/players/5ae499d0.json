@@ -26,10 +26,115 @@
   "confidence": 0.42
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7002,
+  "mu": 53.5,
+  "ci80": {
+   "lo": 44.9,
+   "hi": 62.1
+  },
+  "ci50": {
+   "lo": 49.0,
+   "hi": 58.0
+  },
+  "sigma_model": 1.49,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0fbecd11",
+   "season": 2020,
+   "distance": 1.779,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Dominik Kohr",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 1.805,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2018,
+   "distance": 1.89,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Kevin Strootman",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2018,
+   "distance": 1.934,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2019,
+   "distance": 2.018,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2018,
+   "distance": 2.035,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Lucas Deaux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "ed45c4a5",
+   "season": 2020,
+   "distance": 2.093,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Valentin Rongier",
+   "squad": "Marseille / Nantes"
+  },
+  {
+   "fbref_id": "ce30bfc8",
+   "season": 2020,
+   "distance": 2.122,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Gagliardini",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "b9fbae28",
+   "season": 2020,
+   "distance": 2.272,
+   "survived": 1,
+   "fut_ability_v2": 66.6,
+   "player_name": "N'Golo Kanté",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "ce30bfc8",
+   "season": 2019,
+   "distance": 2.274,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Roberto Gagliardini",
+   "squad": "Inter"
+  }
+ ],
  "low_confidence": false
 }

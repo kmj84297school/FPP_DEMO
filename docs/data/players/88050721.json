@@ -26,10 +26,115 @@
   "confidence": 0.5
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2263,
+  "mu": 52.1,
+  "ci80": {
+   "lo": 43.1,
+   "hi": 61.0
+  },
+  "ci50": {
+   "lo": 47.4,
+   "hi": 56.8
+  },
+  "sigma_model": 2.35,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9b337c7c",
+   "season": 2018,
+   "distance": 2.33,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jozabed",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2018,
+   "distance": 2.518,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2018,
+   "distance": 2.62,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Roberto Soriano",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "0f9b8301",
+   "season": 2020,
+   "distance": 2.74,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Battocchio",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2019,
+   "distance": 2.778,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2018,
+   "distance": 2.81,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "6cdd8245",
+   "season": 2020,
+   "distance": 2.882,
+   "survived": 1,
+   "fut_ability_v2": 33.3,
+   "player_name": "Tom Cleverley",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "80f36c88",
+   "season": 2018,
+   "distance": 2.908,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Sebastian Rudy",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 2.93,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2020,
+   "distance": 2.983,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  }
+ ],
  "low_confidence": false
 }

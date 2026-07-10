@@ -26,10 +26,115 @@
   "confidence": 0.68
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1705,
+  "mu": 51.4,
+  "ci80": {
+   "lo": 42.4,
+   "hi": 60.4
+  },
+  "ci50": {
+   "lo": 46.7,
+   "hi": 56.2
+  },
+  "sigma_model": 2.488,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8b298f56",
+   "season": 2019,
+   "distance": 2.511,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Clément Grenier",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2018,
+   "distance": 2.608,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "2903a856",
+   "season": 2020,
+   "distance": 2.768,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Jonas Hofmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2020,
+   "distance": 2.807,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2019,
+   "distance": 2.838,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "dba67bc4",
+   "season": 2018,
+   "distance": 2.84,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zlatko Junuzović",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "97333cf5",
+   "season": 2020,
+   "distance": 2.84,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Stuart Armstrong",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2020,
+   "distance": 2.863,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "f07be45a",
+   "season": 2018,
+   "distance": 2.877,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wayne Rooney",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "b63e789d",
+   "season": 2020,
+   "distance": 2.891,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Fleck",
+   "squad": "Sheffield Utd"
+  }
+ ],
  "low_confidence": false
 }

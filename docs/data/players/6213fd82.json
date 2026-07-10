@@ -26,10 +26,115 @@
   "confidence": 0.62
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1817,
+  "mu": 41.6,
+  "ci80": {
+   "lo": 33.0,
+   "hi": 50.3
+  },
+  "ci50": {
+   "lo": 37.1,
+   "hi": 46.2
+  },
+  "sigma_model": 1.571,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2018,
+   "distance": 1.308,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "0a3065c8",
+   "season": 2019,
+   "distance": 1.317,
+   "survived": 1,
+   "fut_ability_v2": 41.5,
+   "player_name": "Mitchell Dijks",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "4e0afc5d",
+   "season": 2020,
+   "distance": 1.332,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Arnaud Souquet",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2018,
+   "distance": 1.335,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "33a61a52",
+   "season": 2020,
+   "distance": 1.381,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Carlos Clerc",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "0fbb73c2",
+   "season": 2020,
+   "distance": 1.445,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Jans",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "872cd68c",
+   "season": 2018,
+   "distance": 1.489,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yoann Andreu",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2019,
+   "distance": 1.51,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "ec400194",
+   "season": 2018,
+   "distance": 1.526,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oussama Haddadi",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "5ca20b7a",
+   "season": 2019,
+   "distance": 1.563,
+   "survived": 1,
+   "fut_ability_v2": 44.1,
+   "player_name": "Joseba Zaldúa",
+   "squad": "Real Sociedad"
+  }
+ ],
  "low_confidence": false
 }

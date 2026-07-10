@@ -26,10 +26,115 @@
   "confidence": 0.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5213,
+  "mu": 47.1,
+  "ci80": {
+   "lo": 38.3,
+   "hi": 55.8
+  },
+  "ci50": {
+   "lo": 42.5,
+   "hi": 51.7
+  },
+  "sigma_model": 1.841,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "39bec070",
+   "season": 2018,
+   "distance": 1.574,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Fossati",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "0d2158d5",
+   "season": 2019,
+   "distance": 1.755,
+   "survived": 1,
+   "fut_ability_v2": 37.8,
+   "player_name": "Jordan Marié",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "1961b2aa",
+   "season": 2019,
+   "distance": 1.913,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "André Gomes",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2019,
+   "distance": 1.966,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "a8797cf1",
+   "season": 2020,
+   "distance": 1.999,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bongani Zungu",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2019,
+   "distance": 2.005,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2018,
+   "distance": 2.072,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Recio",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "4db2157a",
+   "season": 2019,
+   "distance": 2.089,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ole Selnæs",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "46291841",
+   "season": 2019,
+   "distance": 2.122,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Bostock",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2018,
+   "distance": 2.143,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.82
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5944,
+  "mu": 50.8,
+  "ci80": {
+   "lo": 42.1,
+   "hi": 59.6
+  },
+  "ci50": {
+   "lo": 46.2,
+   "hi": 55.4
+  },
+  "sigma_model": 1.806,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2020,
+   "distance": 1.352,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "282f75f3",
+   "season": 2019,
+   "distance": 1.626,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Lewis Dunk",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2020,
+   "distance": 1.687,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "89cbc961",
+   "season": 2019,
+   "distance": 1.753,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramiro Funes Mori",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "616aea37",
+   "season": 2019,
+   "distance": 1.831,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2020,
+   "distance": 1.845,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "c010b898",
+   "season": 2019,
+   "distance": 1.845,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Federico Barba",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "f35430a4",
+   "season": 2019,
+   "distance": 1.857,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Matija Nastasić",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "c5b7c315",
+   "season": 2018,
+   "distance": 1.879,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2018,
+   "distance": 1.88,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  }
+ ],
  "low_confidence": false
 }

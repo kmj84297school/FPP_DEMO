@@ -26,10 +26,115 @@
   "confidence": 0.36
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4488,
+  "mu": 55.0,
+  "ci80": {
+   "lo": 46.1,
+   "hi": 64.0
+  },
+  "ci50": {
+   "lo": 50.3,
+   "hi": 59.8
+  },
+  "sigma_model": 2.389,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "50871bcc",
+   "season": 2020,
+   "distance": 2.109,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Thorgan Hazard",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "cd0fa27b",
+   "season": 2020,
+   "distance": 2.281,
+   "survived": 1,
+   "fut_ability_v2": 65.6,
+   "player_name": "Hakan Çalhanoğlu",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "53a0e358",
+   "season": 2020,
+   "distance": 2.3,
+   "survived": 1,
+   "fut_ability_v2": 72.4,
+   "player_name": "Domenico Berardi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2019,
+   "distance": 2.314,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Florent Mollet",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "6421ec64",
+   "season": 2018,
+   "distance": 2.37,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xherdan Shaqiri",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "440c84ed",
+   "season": 2018,
+   "distance": 2.424,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iago Falque",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "980522ec",
+   "season": 2019,
+   "distance": 2.491,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Christian Eriksen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2019,
+   "distance": 2.498,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "5c96b017",
+   "season": 2020,
+   "distance": 2.564,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Rubén García",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "b0547a87",
+   "season": 2020,
+   "distance": 2.652,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Nicolas de Préville",
+   "squad": "Bordeaux"
+  }
+ ],
  "low_confidence": false
 }

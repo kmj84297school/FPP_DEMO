@@ -26,10 +26,115 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2356,
+  "mu": 46.8,
+  "ci80": {
+   "lo": 38.2,
+   "hi": 55.5
+  },
+  "ci50": {
+   "lo": 42.3,
+   "hi": 51.4
+  },
+  "sigma_model": 1.539,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b69261a0",
+   "season": 2018,
+   "distance": 1.517,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "173061c0",
+   "season": 2020,
+   "distance": 1.641,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Riccardo Gagliolo",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2020,
+   "distance": 1.928,
+   "survived": 1,
+   "fut_ability_v2": 38.5,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2020,
+   "distance": 2.035,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2019,
+   "distance": 2.055,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2019,
+   "distance": 2.116,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2020,
+   "distance": 2.154,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Schmid",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "652811aa",
+   "season": 2020,
+   "distance": 2.185,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Calderoni",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2020,
+   "distance": 2.189,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2020,
+   "distance": 2.193,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.75
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2305,
+  "mu": 43.9,
+  "ci80": {
+   "lo": 35.1,
+   "hi": 52.7
+  },
+  "ci50": {
+   "lo": 39.3,
+   "hi": 48.5
+  },
+  "sigma_model": 1.972,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9ba48d64",
+   "season": 2019,
+   "distance": 2.077,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "71ef519e",
+   "season": 2020,
+   "distance": 2.088,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2019,
+   "distance": 2.358,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "81069528",
+   "season": 2020,
+   "distance": 2.475,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Rosales",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 2.492,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "652811aa",
+   "season": 2020,
+   "distance": 2.677,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Calderoni",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "e74f0e59",
+   "season": 2019,
+   "distance": 2.685,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Lorenzo De Silvestri",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "767212e6",
+   "season": 2020,
+   "distance": 2.689,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Faussurier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "b3b7f5a6",
+   "season": 2020,
+   "distance": 2.768,
+   "survived": 1,
+   "fut_ability_v2": 38.2,
+   "player_name": "Timothy Chandler",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "97572117",
+   "season": 2019,
+   "distance": 2.776,
+   "survived": 1,
+   "fut_ability_v2": 37.4,
+   "player_name": "Allan Nyom",
+   "squad": "Leganés"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 3.15
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6421,
+  "mu": 39.5,
+  "ci80": {
+   "lo": 30.7,
+   "hi": 48.3
+  },
+  "ci50": {
+   "lo": 34.9,
+   "hi": 44.2
+  },
+  "sigma_model": 2.084,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1770bd68",
+   "season": 2020,
+   "distance": 2.227,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ken Sema",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "5128bde4",
+   "season": 2019,
+   "distance": 2.503,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Darko Lazović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "8593f88c",
+   "season": 2019,
+   "distance": 2.529,
+   "survived": 1,
+   "fut_ability_v2": 44.7,
+   "player_name": "Christian Günter",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "16e9d0ea",
+   "season": 2020,
+   "distance": 2.596,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Álex Moreno",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 2.847,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2019,
+   "distance": 2.99,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2019,
+   "distance": 3.008,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "5128bde4",
+   "season": 2020,
+   "distance": 3.026,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Darko Lazović",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "4aea5077",
+   "season": 2020,
+   "distance": 3.037,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Stefan Lainer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "e726e11e",
+   "season": 2018,
+   "distance": 3.049,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Victor Moses",
+   "squad": "Chelsea"
+  }
+ ],
  "low_confidence": false
 }

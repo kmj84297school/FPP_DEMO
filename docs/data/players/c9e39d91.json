@@ -26,10 +26,115 @@
   "confidence": 0.46
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6809,
+  "mu": 54.8,
+  "ci80": {
+   "lo": 46.2,
+   "hi": 63.4
+  },
+  "ci50": {
+   "lo": 50.3,
+   "hi": 59.4
+  },
+  "sigma_model": 1.398,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "20e73fac",
+   "season": 2019,
+   "distance": 1.94,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "02b29014",
+   "season": 2019,
+   "distance": 1.985,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2020,
+   "distance": 2.112,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "20e73fac",
+   "season": 2020,
+   "distance": 2.202,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2018,
+   "distance": 2.216,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "7c388b20",
+   "season": 2019,
+   "distance": 2.263,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "02b29014",
+   "season": 2020,
+   "distance": 2.277,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "4e6dbac4",
+   "season": 2020,
+   "distance": 2.371,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Sergej Milinković-Savić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "88895312",
+   "season": 2019,
+   "distance": 2.378,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Bessa",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "86e119e0",
+   "season": 2019,
+   "distance": 2.382,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Maximilian Arnold",
+   "squad": "Wolfsburg"
+  }
+ ],
  "low_confidence": false
 }

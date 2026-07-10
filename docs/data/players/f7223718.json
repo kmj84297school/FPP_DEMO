@@ -26,10 +26,115 @@
   "confidence": 0.65
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.445,
+  "mu": 47.7,
+  "ci80": {
+   "lo": 38.9,
+   "hi": 56.6
+  },
+  "ci50": {
+   "lo": 43.1,
+   "hi": 52.4
+  },
+  "sigma_model": 2.18,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "474ecac8",
+   "season": 2018,
+   "distance": 2.2,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "8db394aa",
+   "season": 2018,
+   "distance": 2.28,
+   "survived": 1,
+   "fut_ability_v2": 40.0,
+   "player_name": "Ximo Navarro",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "1c344204",
+   "season": 2019,
+   "distance": 2.293,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Yamberé",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "247accfd",
+   "season": 2020,
+   "distance": 2.362,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bakaye Dibassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "28b40c9c",
+   "season": 2019,
+   "distance": 2.447,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tim Ream",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "72b07a9c",
+   "season": 2020,
+   "distance": 2.462,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kiko Olivas",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2019,
+   "distance": 2.586,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2020,
+   "distance": 2.633,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "0515a4cb",
+   "season": 2019,
+   "distance": 2.715,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christophe Kerbrat",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "6e5b5a45",
+   "season": 2019,
+   "distance": 2.738,
+   "survived": 1,
+   "fut_ability_v2": 44.9,
+   "player_name": "Wesley Lautoa",
+   "squad": "Dijon"
+  }
+ ],
  "low_confidence": false
 }

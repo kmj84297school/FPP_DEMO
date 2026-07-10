@@ -26,10 +26,115 @@
   "confidence": 1.84
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5046,
+  "mu": 45.5,
+  "ci80": {
+   "lo": 36.8,
+   "hi": 54.1
+  },
+  "ci50": {
+   "lo": 40.9,
+   "hi": 50.0
+  },
+  "sigma_model": 1.598,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5c2b4f07",
+   "season": 2020,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 62.3,
+   "player_name": "Serge Aurier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "4e0afc5d",
+   "season": 2020,
+   "distance": 2.283,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Arnaud Souquet",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 2.341,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "4aea5077",
+   "season": 2020,
+   "distance": 2.408,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Stefan Lainer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "9ba48d64",
+   "season": 2018,
+   "distance": 2.438,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "1a4b9094",
+   "season": 2019,
+   "distance": 2.445,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bouna Sarr",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "d4535821",
+   "season": 2019,
+   "distance": 2.446,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Adam Marušić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "e29d1111",
+   "season": 2019,
+   "distance": 2.457,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Nacho",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2018,
+   "distance": 2.457,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "cacadf4f",
+   "season": 2019,
+   "distance": 2.46,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luis Advíncula",
+   "squad": "Rayo Vallecano"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.12
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1691,
+  "mu": 46.5,
+  "ci80": {
+   "lo": 37.7,
+   "hi": 55.3
+  },
+  "ci50": {
+   "lo": 41.9,
+   "hi": 51.1
+  },
+  "sigma_model": 1.909,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1aa84968",
+   "season": 2020,
+   "distance": 1.487,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Basham",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "63071a3f",
+   "season": 2019,
+   "distance": 2.053,
+   "survived": 1,
+   "fut_ability_v2": 41.4,
+   "player_name": "Simone Iacoponi",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "fed5f993",
+   "season": 2019,
+   "distance": 2.215,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Danilo Larangeira",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2020,
+   "distance": 2.221,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2018,
+   "distance": 2.296,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "933e8c8a",
+   "season": 2020,
+   "distance": 2.299,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Moyano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "fed5f993",
+   "season": 2020,
+   "distance": 2.323,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Larangeira",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "56400c01",
+   "season": 2019,
+   "distance": 2.335,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Pisacane",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2018,
+   "distance": 2.339,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "db0cd1ae",
+   "season": 2018,
+   "distance": 2.371,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexis",
+   "squad": "Alavés"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4143,
+  "mu": 51.6,
+  "ci80": {
+   "lo": 42.9,
+   "hi": 60.3
+  },
+  "ci50": {
+   "lo": 47.0,
+   "hi": 56.2
+  },
+  "sigma_model": 1.842,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ad6df2d5",
+   "season": 2020,
+   "distance": 2.411,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miralem Pjanić",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2019,
+   "distance": 2.563,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "d6f88a1d",
+   "season": 2020,
+   "distance": 2.818,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Adrien Silva",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "b8c1de25",
+   "season": 2018,
+   "distance": 2.838,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Maxime Gonalons",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "10efd0e1",
+   "season": 2019,
+   "distance": 2.923,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean Seri",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "dc3fa3b5",
+   "season": 2020,
+   "distance": 2.948,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Demme",
+   "squad": "RB Leipzig / Napoli"
+  },
+  {
+   "fbref_id": "e12b0b5b",
+   "season": 2020,
+   "distance": 2.986,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Rode",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "80f36c88",
+   "season": 2018,
+   "distance": 2.993,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Sebastian Rudy",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "33b8d077",
+   "season": 2020,
+   "distance": 2.998,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Marcelo Brozović",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "0d077b88",
+   "season": 2020,
+   "distance": 3.003,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Mehdi Bourabia",
+   "squad": "Sassuolo"
+  }
+ ],
  "low_confidence": false
 }

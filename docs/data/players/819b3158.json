@@ -26,10 +26,115 @@
   "confidence": 0.49
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4538,
+  "mu": 63.9,
+  "ci80": {
+   "lo": 55.3,
+   "hi": 72.6
+  },
+  "ci50": {
+   "lo": 59.4,
+   "hi": 68.5
+  },
+  "sigma_model": 1.619,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d054d8b0",
+   "season": 2018,
+   "distance": 3.243,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xabi Prieto",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "67cdbc0e",
+   "season": 2018,
+   "distance": 3.474,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Arturo Vidal",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "68829001",
+   "season": 2018,
+   "distance": 3.641,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Gonzalo Castro",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "e6ad16b2",
+   "season": 2018,
+   "distance": 3.825,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marek Hamšík",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "2f90f6b8",
+   "season": 2019,
+   "distance": 3.841,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "James Milner",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "ef322658",
+   "season": 2018,
+   "distance": 3.863,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "1bcca8b8",
+   "season": 2019,
+   "distance": 3.974,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan de Guzmán",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2020,
+   "distance": 3.998,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2019,
+   "distance": 4.103,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Radja Nainggolan",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "6025fab1",
+   "season": 2018,
+   "distance": 4.129,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Luka Modrić",
+   "squad": "Real Madrid"
+  }
+ ],
+ "low_confidence": true
 }

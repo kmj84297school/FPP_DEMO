@@ -26,10 +26,115 @@
   "confidence": 1.42
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4802,
+  "mu": 50.4,
+  "ci80": {
+   "lo": 41.3,
+   "hi": 59.5
+  },
+  "ci50": {
+   "lo": 45.6,
+   "hi": 55.2
+  },
+  "sigma_model": 2.716,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "839c14e1",
+   "season": 2020,
+   "distance": 1.35,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Arsenal"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2019,
+   "distance": 1.736,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Inter"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2018,
+   "distance": 1.777,
+   "survived": 1,
+   "fut_ability_v2": 38.9,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "de488e56",
+   "season": 2019,
+   "distance": 1.873,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Charles Traore",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "5ddb8f9f",
+   "season": 2018,
+   "distance": 1.944,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Danny da Costa",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "aae9d04a",
+   "season": 2018,
+   "distance": 1.996,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Davide Faraoni",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "c067631c",
+   "season": 2019,
+   "distance": 2.133,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Fredericks",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "2e3406ae",
+   "season": 2020,
+   "distance": 2.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fran Gámez",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "f68b64fc",
+   "season": 2018,
+   "distance": 2.252,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Silvan Widmer",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "758dd7f0",
+   "season": 2019,
+   "distance": 2.28,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Javier Manquillo",
+   "squad": "Newcastle Utd"
+  }
+ ],
  "low_confidence": false
 }

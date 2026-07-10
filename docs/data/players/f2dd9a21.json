@@ -26,10 +26,115 @@
   "confidence": 0.64
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3297,
+  "mu": 41.3,
+  "ci80": {
+   "lo": 32.3,
+   "hi": 50.3
+  },
+  "ci50": {
+   "lo": 36.6,
+   "hi": 46.0
+  },
+  "sigma_model": 2.535,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "04c11885",
+   "season": 2018,
+   "distance": 2.218,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "eaf71a5e",
+   "season": 2018,
+   "distance": 2.27,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Azamoum",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2019,
+   "distance": 2.375,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2018,
+   "distance": 2.393,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "59e4b92e",
+   "season": 2020,
+   "distance": 2.396,
+   "survived": 1,
+   "fut_ability_v2": 35.7,
+   "player_name": "Rani Khedira",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "b0fce72c",
+   "season": 2019,
+   "distance": 2.452,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Mikel Vesga",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2019,
+   "distance": 2.574,
+   "survived": 1,
+   "fut_ability_v2": 30.9,
+   "player_name": "Pere Pons",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "2edeb221",
+   "season": 2018,
+   "distance": 2.657,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Büchel",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "ff45add5",
+   "season": 2020,
+   "distance": 2.686,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfredo Morales",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "8d3c902d",
+   "season": 2020,
+   "distance": 2.812,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Cheikhou Kouyaté",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

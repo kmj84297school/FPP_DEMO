@@ -26,10 +26,115 @@
   "confidence": 0.31
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1379,
+  "mu": 43.4,
+  "ci80": {
+   "lo": 34.4,
+   "hi": 52.4
+  },
+  "ci50": {
+   "lo": 38.7,
+   "hi": 48.1
+  },
+  "sigma_model": 2.452,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2018,
+   "distance": 2.352,
+   "survived": 1,
+   "fut_ability_v2": 29.4,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2020,
+   "distance": 2.451,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "c58270f8",
+   "season": 2018,
+   "distance": 2.611,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Souleymane Camara",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "e8c9f4e9",
+   "season": 2020,
+   "distance": 2.68,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Billy Sharp",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "f1e8372d",
+   "season": 2018,
+   "distance": 2.685,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jermain Defoe",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "43a2e16c",
+   "season": 2019,
+   "distance": 2.817,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirco Antenucci",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2019,
+   "distance": 2.832,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "df301450",
+   "season": 2019,
+   "distance": 2.862,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Floccari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2019,
+   "distance": 2.903,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "f83c8d6c",
+   "season": 2020,
+   "distance": 2.949,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jimmy Briand",
+   "squad": "Bordeaux"
+  }
+ ],
  "low_confidence": false
 }

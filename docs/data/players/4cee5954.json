@@ -26,10 +26,115 @@
   "confidence": 1.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2563,
+  "mu": 44.4,
+  "ci80": {
+   "lo": 35.7,
+   "hi": 53.0
+  },
+  "ci50": {
+   "lo": 39.8,
+   "hi": 48.9
+  },
+  "sigma_model": 1.543,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "97572117",
+   "season": 2019,
+   "distance": 1.678,
+   "survived": 1,
+   "fut_ability_v2": 37.4,
+   "player_name": "Allan Nyom",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2020,
+   "distance": 2.025,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "05384ea1",
+   "season": 2018,
+   "distance": 2.214,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michel",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "1a317a1b",
+   "season": 2018,
+   "distance": 2.265,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Raúl García",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "c067631c",
+   "season": 2020,
+   "distance": 2.272,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Fredericks",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2020,
+   "distance": 2.313,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Arsenal"
+  },
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2019,
+   "distance": 2.329,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2019,
+   "distance": 2.331,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Inter"
+  },
+  {
+   "fbref_id": "1fe67e86",
+   "season": 2018,
+   "distance": 2.371,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Mikel Balenziaga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "4f974391",
+   "season": 2019,
+   "distance": 2.38,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  }
+ ],
  "low_confidence": false
 }

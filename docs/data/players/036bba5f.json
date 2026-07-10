@@ -26,10 +26,115 @@
   "confidence": 0.31
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1951,
+  "mu": 49.5,
+  "ci80": {
+   "lo": 40.8,
+   "hi": 58.3
+  },
+  "ci50": {
+   "lo": 44.9,
+   "hi": 54.2
+  },
+  "sigma_model": 1.954,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "756959aa",
+   "season": 2018,
+   "distance": 1.593,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2020,
+   "distance": 1.605,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2019,
+   "distance": 1.687,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Paul Lasne",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "c5fa58ea",
+   "season": 2018,
+   "distance": 1.845,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Pedro Mosquera",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "ab1ca213",
+   "season": 2018,
+   "distance": 1.89,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Miguel Veloso",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "68829001",
+   "season": 2019,
+   "distance": 1.927,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Gonzalo Castro",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "ea164f99",
+   "season": 2020,
+   "distance": 1.947,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matteo Scozzarella",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "1d8c99b0",
+   "season": 2019,
+   "distance": 1.987,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ki Sung-yueng",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "e8c930bb",
+   "season": 2020,
+   "distance": 1.989,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Milan Badelj",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "a64cbd35",
+   "season": 2020,
+   "distance": 1.992,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonino Barillà",
+   "squad": "Parma"
+  }
+ ],
  "low_confidence": false
 }

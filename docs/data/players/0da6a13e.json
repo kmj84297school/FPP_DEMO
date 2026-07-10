@@ -26,10 +26,115 @@
   "confidence": 1.95
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1121,
+  "mu": 38.3,
+  "ci80": {
+   "lo": 29.2,
+   "hi": 47.3
+  },
+  "ci50": {
+   "lo": 33.5,
+   "hi": 43.0
+  },
+  "sigma_model": 2.533,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "989d5705",
+   "season": 2020,
+   "distance": 2.332,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "5bddccc9",
+   "season": 2019,
+   "distance": 2.416,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Elias Kachunga",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "98e958af",
+   "season": 2019,
+   "distance": 2.535,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Hiljemark",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "cbec1196",
+   "season": 2020,
+   "distance": 2.56,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaromír Zmrhal",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "0cc474e7",
+   "season": 2020,
+   "distance": 2.786,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramon Azeez",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "924f9191",
+   "season": 2020,
+   "distance": 2.793,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Grischa Prömel",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "5bddccc9",
+   "season": 2018,
+   "distance": 2.863,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Elias Kachunga",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "b5b27493",
+   "season": 2018,
+   "distance": 2.887,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcus Rohdén",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "144607cc",
+   "season": 2018,
+   "distance": 2.906,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Jasmin Kurtić",
+   "squad": "SPAL / Atalanta"
+  },
+  {
+   "fbref_id": "989d5705",
+   "season": 2019,
+   "distance": 3.017,
+   "survived": 1,
+   "fut_ability_v2": 29.8,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  }
+ ],
  "low_confidence": false
 }

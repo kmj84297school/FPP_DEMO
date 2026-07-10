@@ -26,10 +26,115 @@
   "confidence": 0.47
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5155,
+  "mu": 45.7,
+  "ci80": {
+   "lo": 37.0,
+   "hi": 54.3
+  },
+  "ci50": {
+   "lo": 41.1,
+   "hi": 50.2
+  },
+  "sigma_model": 1.683,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "52ec54d0",
+   "season": 2019,
+   "distance": 2.441,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Leonardo Bonucci",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2019,
+   "distance": 2.447,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2018,
+   "distance": 2.541,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "52ec54d0",
+   "season": 2018,
+   "distance": 2.585,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Leonardo Bonucci",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2020,
+   "distance": 2.635,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2020,
+   "distance": 2.741,
+   "survived": 1,
+   "fut_ability_v2": 38.5,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "b18095b6",
+   "season": 2018,
+   "distance": 2.855,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leighton Baines",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "22051fbe",
+   "season": 2020,
+   "distance": 2.872,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giulio Donati",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "f7d50789",
+   "season": 2019,
+   "distance": 2.873,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Toby Alderweireld",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2019,
+   "distance": 2.883,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Nacho Monreal",
+   "squad": "Arsenal"
+  }
+ ],
  "low_confidence": false
 }

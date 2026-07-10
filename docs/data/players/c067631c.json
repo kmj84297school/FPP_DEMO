@@ -26,10 +26,115 @@
   "confidence": 0.66
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0917,
+  "mu": 43.7,
+  "ci80": {
+   "lo": 34.7,
+   "hi": 52.8
+  },
+  "ci50": {
+   "lo": 39.0,
+   "hi": 48.5
+  },
+  "sigma_model": 2.599,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "76e5da9d",
+   "season": 2019,
+   "distance": 2.426,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabian Johnson",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "1cd87320",
+   "season": 2019,
+   "distance": 2.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Ostrzolek",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "00b0bb87",
+   "season": 2020,
+   "distance": 2.518,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabrizio Cacciatore",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "933e8c8a",
+   "season": 2019,
+   "distance": 2.738,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Moyano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "e3e05edf",
+   "season": 2020,
+   "distance": 2.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ambroise Oyongo",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "cfd5e123",
+   "season": 2019,
+   "distance": 2.855,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Bong",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "1b729ba2",
+   "season": 2018,
+   "distance": 2.939,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleandro Rosi",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "89d10e53",
+   "season": 2020,
+   "distance": 2.945,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Rose",
+   "squad": "Tottenham / Newcastle Utd"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2019,
+   "distance": 2.973,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "808d48f3",
+   "season": 2020,
+   "distance": 3.009,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Jaume Costa",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

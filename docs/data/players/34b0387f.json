@@ -26,10 +26,115 @@
   "confidence": 0.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1685,
+  "mu": 49.2,
+  "ci80": {
+   "lo": 40.5,
+   "hi": 57.9
+  },
+  "ci50": {
+   "lo": 44.6,
+   "hi": 53.8
+  },
+  "sigma_model": 1.72,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "809940aa",
+   "season": 2020,
+   "distance": 1.521,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominick Drexler",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2018,
+   "distance": 1.684,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "ecd8c01e",
+   "season": 2020,
+   "distance": 1.804,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Rochina",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2020,
+   "distance": 1.824,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "f07be45a",
+   "season": 2018,
+   "distance": 1.834,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wayne Rooney",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2020,
+   "distance": 1.925,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 1.983,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2019,
+   "distance": 1.995,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "56b2957b",
+   "season": 2018,
+   "distance": 2.1,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Lucas Castro",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2019,
+   "distance": 2.174,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Radja Nainggolan",
+   "squad": "Inter"
+  }
+ ],
  "low_confidence": false
 }

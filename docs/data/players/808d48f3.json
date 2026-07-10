@@ -26,10 +26,115 @@
   "confidence": 1.46
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1092,
+  "mu": 39.2,
+  "ci80": {
+   "lo": 30.4,
+   "hi": 48.1
+  },
+  "ci50": {
+   "lo": 34.6,
+   "hi": 43.9
+  },
+  "sigma_model": 2.137,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e97150c0",
+   "season": 2020,
+   "distance": 1.733,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Morel",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "e94d79e3",
+   "season": 2020,
+   "distance": 1.933,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Martín Cáceres",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2020,
+   "distance": 2.062,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho Monreal",
+   "squad": "Real Sociedad / Arsenal"
+  },
+  {
+   "fbref_id": "5eb72339",
+   "season": 2019,
+   "distance": 2.234,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Padoin",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2020,
+   "distance": 2.269,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2019,
+   "distance": 2.372,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Nacho Monreal",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2019,
+   "distance": 2.507,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "8cea6319",
+   "season": 2019,
+   "distance": 2.514,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felipe dal Belo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "b18095b6",
+   "season": 2018,
+   "distance": 2.551,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leighton Baines",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "933e8c8a",
+   "season": 2020,
+   "distance": 2.576,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Moyano",
+   "squad": "Valladolid"
+  }
+ ],
  "low_confidence": false
 }

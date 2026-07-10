@@ -26,10 +26,115 @@
   "confidence": 1.95
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2261,
+  "mu": 47.5,
+  "ci80": {
+   "lo": 38.3,
+   "hi": 56.7
+  },
+  "ci50": {
+   "lo": 42.7,
+   "hi": 52.3
+  },
+  "sigma_model": 2.872,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2020,
+   "distance": 3.332,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "356c9002",
+   "season": 2020,
+   "distance": 3.537,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Antonio Candreva",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "bbafc0c4",
+   "season": 2020,
+   "distance": 3.817,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Ansaldi",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2019,
+   "distance": 3.966,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2020,
+   "distance": 4.005,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Ashley Young",
+   "squad": "Inter / Manchester Utd"
+  },
+  {
+   "fbref_id": "eda40760",
+   "season": 2020,
+   "distance": 4.166,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "615ef733",
+   "season": 2020,
+   "distance": 4.208,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ahmed Elmohamady",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "9ab48bde",
+   "season": 2020,
+   "distance": 4.227,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo de Blasis",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "7fd58fe3",
+   "season": 2018,
+   "distance": 4.27,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Senad Lulić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "bbafc0c4",
+   "season": 2019,
+   "distance": 4.402,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Cristian Ansaldi",
+   "squad": "Torino"
+  }
+ ],
+ "low_confidence": true
 }

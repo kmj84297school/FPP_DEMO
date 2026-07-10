@@ -26,10 +26,115 @@
   "confidence": 0.72
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7081,
+  "mu": 58.7,
+  "ci80": {
+   "lo": 50.0,
+   "hi": 67.4
+  },
+  "ci50": {
+   "lo": 54.1,
+   "hi": 63.3
+  },
+  "sigma_model": 1.717,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5ab0ea87",
+   "season": 2018,
+   "distance": 1.382,
+   "survived": 1,
+   "fut_ability_v2": 63.4,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "c6e5d20f",
+   "season": 2020,
+   "distance": 1.647,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Thiago Mendes",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2020,
+   "distance": 1.713,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2018,
+   "distance": 1.874,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "468fdbad",
+   "season": 2019,
+   "distance": 1.981,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Jonas Martin",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2019,
+   "distance": 2.002,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2020,
+   "distance": 2.044,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2019,
+   "distance": 2.053,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2020,
+   "distance": 2.062,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "e26bd2f4",
+   "season": 2020,
+   "distance": 2.1,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Panagiotis Tachtsidis",
+   "squad": "Lecce"
+  }
+ ],
  "low_confidence": false
 }

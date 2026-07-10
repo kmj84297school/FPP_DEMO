@@ -26,10 +26,115 @@
   "confidence": 0.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5826,
+  "mu": 40.9,
+  "ci80": {
+   "lo": 31.4,
+   "hi": 50.3
+  },
+  "ci50": {
+   "lo": 35.9,
+   "hi": 45.8
+  },
+  "sigma_model": 3.334,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d2ac648c",
+   "season": 2018,
+   "distance": 2.079,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaku Shibasaki",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "8816329f",
+   "season": 2019,
+   "distance": 2.237,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Atsu",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "7961f7aa",
+   "season": 2019,
+   "distance": 2.566,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kwon Chang-hoon",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "5bddccc9",
+   "season": 2018,
+   "distance": 2.6,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Elias Kachunga",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "61b62b33",
+   "season": 2020,
+   "distance": 2.6,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro Vadillo",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2018,
+   "distance": 2.627,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "8816329f",
+   "season": 2018,
+   "distance": 2.63,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Atsu",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "ff9fcd4d",
+   "season": 2018,
+   "distance": 2.657,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alex Pritchard",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "a1d04509",
+   "season": 2019,
+   "distance": 2.692,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yacine Bammou",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "90bbd822",
+   "season": 2019,
+   "distance": 2.732,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Álvaro García",
+   "squad": "Rayo Vallecano"
+  }
+ ],
  "low_confidence": false
 }

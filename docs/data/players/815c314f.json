@@ -26,10 +26,115 @@
   "confidence": 1.94
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4102,
+  "mu": 55.5,
+  "ci80": {
+   "lo": 46.8,
+   "hi": 64.2
+  },
+  "ci50": {
+   "lo": 50.9,
+   "hi": 60.1
+  },
+  "sigma_model": 1.814,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8df7a2fb",
+   "season": 2019,
+   "distance": 1.764,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Ben Mee",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "1900032e",
+   "season": 2019,
+   "distance": 1.86,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Jannik Vestergaard",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "5540c9dc",
+   "season": 2018,
+   "distance": 1.895,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ahmed Hegazi",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "f3112790",
+   "season": 2020,
+   "distance": 1.907,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Unai Bustinza",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "92d38e6c",
+   "season": 2019,
+   "distance": 1.939,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Dimitris Siovas",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "8a7ff278",
+   "season": 2020,
+   "distance": 1.951,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Joel Ward",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "3e5e4e63",
+   "season": 2018,
+   "distance": 1.977,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Steve Cook",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "247accfd",
+   "season": 2018,
+   "distance": 1.994,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Bakaye Dibassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "b82880c6",
+   "season": 2018,
+   "distance": 1.998,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Falette",
+   "squad": "Eint Frankfurt / Metz"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2019,
+   "distance": 2.035,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  }
+ ],
  "low_confidence": false
 }

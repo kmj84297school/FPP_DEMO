@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4212,
+  "mu": 44.7,
+  "ci80": {
+   "lo": 35.5,
+   "hi": 53.9
+  },
+  "ci50": {
+   "lo": 39.9,
+   "hi": 49.5
+  },
+  "sigma_model": 2.904,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "129af0db",
+   "season": 2019,
+   "distance": 2.382,
+   "survived": 1,
+   "fut_ability_v2": 66.9,
+   "player_name": "Álvaro Morata",
+   "squad": "Atlético Madrid / Chelsea"
+  },
+  {
+   "fbref_id": "2973d8ff",
+   "season": 2019,
+   "distance": 2.556,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michy Batshuayi",
+   "squad": "Crystal Palace / Valencia"
+  },
+  {
+   "fbref_id": "834d0be5",
+   "season": 2020,
+   "distance": 2.648,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Alario",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "8ff07990",
+   "season": 2019,
+   "distance": 2.754,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Balotelli",
+   "squad": "Marseille / Nice"
+  },
+  {
+   "fbref_id": "834d0be5",
+   "season": 2018,
+   "distance": 2.774,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Lucas Alario",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "d6862409",
+   "season": 2019,
+   "distance": 2.822,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Florian Niederlechner",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "4be0b467",
+   "season": 2019,
+   "distance": 2.83,
+   "survived": 1,
+   "fut_ability_v2": 30.8,
+   "player_name": "Lois Diony",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2019,
+   "distance": 2.843,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "02ef8778",
+   "season": 2020,
+   "distance": 2.898,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Raúl de Tomás",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "5ceba7fc",
+   "season": 2019,
+   "distance": 3.06,
+   "survived": 1,
+   "fut_ability_v2": 71.0,
+   "player_name": "Karl Toko Ekambi",
+   "squad": "Villarreal"
+  }
+ ],
  "low_confidence": false
 }

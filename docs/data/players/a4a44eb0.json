@@ -26,10 +26,115 @@
   "confidence": 1.77
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6534,
+  "mu": 50.4,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 59.1
+  },
+  "ci50": {
+   "lo": 45.8,
+   "hi": 55.0
+  },
+  "sigma_model": 1.773,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2020,
+   "distance": 1.605,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2019,
+   "distance": 1.704,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2019,
+   "distance": 1.833,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Sergi Gómez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "2928dca2",
+   "season": 2019,
+   "distance": 1.937,
+   "survived": 1,
+   "fut_ability_v2": 40.4,
+   "player_name": "Conor Coady",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "f1f1f238",
+   "season": 2020,
+   "distance": 2.011,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Koray Günter",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "9f8e9423",
+   "season": 2020,
+   "distance": 2.02,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Raphaël Varane",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "616aea37",
+   "season": 2019,
+   "distance": 2.037,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "2928dca2",
+   "season": 2020,
+   "distance": 2.042,
+   "survived": 1,
+   "fut_ability_v2": 39.1,
+   "player_name": "Conor Coady",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "7cab69b5",
+   "season": 2019,
+   "distance": 2.05,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jemerson",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "7ed4921e",
+   "season": 2019,
+   "distance": 2.075,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "William Troost-Ekong",
+   "squad": "Udinese"
+  }
+ ],
  "low_confidence": false
 }

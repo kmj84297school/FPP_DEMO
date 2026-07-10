@@ -26,10 +26,115 @@
   "confidence": 1.69
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3957,
+  "mu": 43.7,
+  "ci80": {
+   "lo": 33.9,
+   "hi": 53.5
+  },
+  "ci50": {
+   "lo": 38.5,
+   "hi": 48.9
+  },
+  "sigma_model": 3.933,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "aa5859cb",
+   "season": 2019,
+   "distance": 2.209,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Depoitre",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "82e9b89d",
+   "season": 2020,
+   "distance": 2.473,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enric Gallego",
+   "squad": "Osasuna / Getafe"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 2.627,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "82e34b69",
+   "season": 2018,
+   "distance": 2.883,
+   "survived": 1,
+   "fut_ability_v2": 43.2,
+   "player_name": "Troy Deeney",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "82e9b89d",
+   "season": 2019,
+   "distance": 2.933,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enric Gallego",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "2ec0f902",
+   "season": 2019,
+   "distance": 2.952,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Riccardo Meggiorini",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "9f472354",
+   "season": 2018,
+   "distance": 2.998,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "e897d8ba",
+   "season": 2020,
+   "distance": 3.095,
+   "survived": 1,
+   "fut_ability_v2": 42.1,
+   "player_name": "Kike",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2019,
+   "distance": 3.127,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2018,
+   "distance": 3.137,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  }
+ ],
  "low_confidence": false
 }

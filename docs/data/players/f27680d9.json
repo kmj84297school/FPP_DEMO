@@ -26,10 +26,115 @@
   "confidence": 0.6
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1572,
+  "mu": 48.7,
+  "ci80": {
+   "lo": 39.8,
+   "hi": 57.7
+  },
+  "ci50": {
+   "lo": 44.0,
+   "hi": 53.4
+  },
+  "sigma_model": 2.374,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3624ce4c",
+   "season": 2020,
+   "distance": 1.895,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Víctor Díaz",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "3831b9fe",
+   "season": 2018,
+   "distance": 2.058,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stephen Ward",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2020,
+   "distance": 2.069,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "00a6485f",
+   "season": 2019,
+   "distance": 2.407,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Beck",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2019,
+   "distance": 2.43,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2018,
+   "distance": 2.48,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "12aa7661",
+   "season": 2018,
+   "distance": 2.516,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "97572117",
+   "season": 2020,
+   "distance": 2.524,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Allan Nyom",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "933e8c8a",
+   "season": 2020,
+   "distance": 2.633,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Moyano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "97655ccd",
+   "season": 2018,
+   "distance": 2.644,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paul Verhaegh",
+   "squad": "Wolfsburg"
+  }
+ ],
  "low_confidence": false
 }

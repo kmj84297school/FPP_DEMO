@@ -26,10 +26,115 @@
   "confidence": 0.71
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2861,
+  "mu": 50.0,
+  "ci80": {
+   "lo": 41.2,
+   "hi": 58.8
+  },
+  "ci50": {
+   "lo": 45.4,
+   "hi": 54.7
+  },
+  "sigma_model": 2.108,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2019,
+   "distance": 1.156,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "1e0b6a73",
+   "season": 2018,
+   "distance": 1.619,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Simon Francis",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2018,
+   "distance": 1.644,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "35dd6d80",
+   "season": 2020,
+   "distance": 1.728,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Domenico Criscito",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2020,
+   "distance": 1.966,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2019,
+   "distance": 1.991,
+   "survived": 1,
+   "fut_ability_v2": 43.8,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "779847d6",
+   "season": 2019,
+   "distance": 2.123,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Nicolas Pallois",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2020,
+   "distance": 2.149,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2019,
+   "distance": 2.229,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2019,
+   "distance": 2.245,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  }
+ ],
  "low_confidence": false
 }

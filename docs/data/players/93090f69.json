@@ -26,10 +26,115 @@
   "confidence": 1.21
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6589,
+  "mu": 50.0,
+  "ci80": {
+   "lo": 41.3,
+   "hi": 58.8
+  },
+  "ci50": {
+   "lo": 45.4,
+   "hi": 54.7
+  },
+  "sigma_model": 1.902,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "89cbc961",
+   "season": 2019,
+   "distance": 1.489,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramiro Funes Mori",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "4b3e1a38",
+   "season": 2020,
+   "distance": 1.58,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Amir Rrahmani",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "d9624b51",
+   "season": 2018,
+   "distance": 1.727,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Federico Ceccherini",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "978cd030",
+   "season": 2019,
+   "distance": 1.907,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Jorge Pulido",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2020,
+   "distance": 1.943,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2020,
+   "distance": 1.981,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "8df7a2fb",
+   "season": 2018,
+   "distance": 2.056,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Ben Mee",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "8397a50c",
+   "season": 2020,
+   "distance": 2.058,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Tyrone Mings",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "1633fc8a",
+   "season": 2018,
+   "distance": 2.062,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanpe",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "857a5abe",
+   "season": 2018,
+   "distance": 2.063,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Stefan Bell",
+   "squad": "Mainz 05"
+  }
+ ],
  "low_confidence": false
 }

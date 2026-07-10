@@ -26,10 +26,115 @@
   "confidence": 0.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5435,
+  "mu": 52.9,
+  "ci80": {
+   "lo": 44.2,
+   "hi": 61.7
+  },
+  "ci50": {
+   "lo": 48.3,
+   "hi": 57.5
+  },
+  "sigma_model": 1.936,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e288d4b3",
+   "season": 2019,
+   "distance": 2.762,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Alessandro Florenzi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2020,
+   "distance": 2.764,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "e288d4b3",
+   "season": 2018,
+   "distance": 2.783,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Alessandro Florenzi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "770d7eb8",
+   "season": 2019,
+   "distance": 2.903,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Kenny Lala",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 2.992,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "0f52f925",
+   "season": 2019,
+   "distance": 3.037,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Lima",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "140afefb",
+   "season": 2018,
+   "distance": 3.046,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Risse",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "8593f88c",
+   "season": 2018,
+   "distance": 3.059,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Christian Günter",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "0f52f925",
+   "season": 2018,
+   "distance": 3.069,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Lima",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "30c220c3",
+   "season": 2019,
+   "distance": 3.079,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mitchell Weiser",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

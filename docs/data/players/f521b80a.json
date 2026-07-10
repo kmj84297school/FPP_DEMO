@@ -26,10 +26,115 @@
   "confidence": 0.49
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4194,
+  "mu": 57.0,
+  "ci80": {
+   "lo": 48.2,
+   "hi": 65.7
+  },
+  "ci50": {
+   "lo": 52.4,
+   "hi": 61.6
+  },
+  "sigma_model": 1.925,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "080440a4",
+   "season": 2020,
+   "distance": 1.264,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Martin Hinteregger",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "1253a12e",
+   "season": 2018,
+   "distance": 1.321,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ervin Zukanović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2018,
+   "distance": 1.395,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2020,
+   "distance": 1.423,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2018,
+   "distance": 1.514,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2019,
+   "distance": 1.61,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "8b95acda",
+   "season": 2020,
+   "distance": 1.658,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Omar Colley",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "083525e5",
+   "season": 2018,
+   "distance": 1.686,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Papy Djilobodji",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2018,
+   "distance": 1.716,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2020,
+   "distance": 1.73,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  }
+ ],
  "low_confidence": false
 }

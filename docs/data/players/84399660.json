@@ -26,10 +26,115 @@
   "confidence": 1.54
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4198,
+  "mu": 46.5,
+  "ci80": {
+   "lo": 36.8,
+   "hi": 56.1
+  },
+  "ci50": {
+   "lo": 41.4,
+   "hi": 51.6
+  },
+  "sigma_model": 3.7,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bb7337cc",
+   "season": 2018,
+   "distance": 3.296,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paulinho",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "5dbefa9d",
+   "season": 2018,
+   "distance": 3.865,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Ayew",
+   "squad": "Swansea City / West Ham"
+  },
+  {
+   "fbref_id": "61bd33d0",
+   "season": 2019,
+   "distance": 4.011,
+   "survived": 1,
+   "fut_ability_v2": 33.8,
+   "player_name": "Takashi Inui",
+   "squad": "Alavés / Betis"
+  },
+  {
+   "fbref_id": "db750822",
+   "season": 2020,
+   "distance": 4.039,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vitolo",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2018,
+   "distance": 4.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "38ac43d3",
+   "season": 2018,
+   "distance": 4.275,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sami Khedira",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2019,
+   "distance": 4.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "75f2c59f",
+   "season": 2020,
+   "distance": 4.643,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Roberto Pereyra",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "37f96552",
+   "season": 2019,
+   "distance": 4.667,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nabil El Zhar",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "9e27e5de",
+   "season": 2018,
+   "distance": 4.754,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Prince Oniangué",
+   "squad": "Angers"
+  }
+ ],
+ "low_confidence": true
 }

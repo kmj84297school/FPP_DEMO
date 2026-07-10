@@ -26,10 +26,115 @@
   "confidence": 0.98
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1587,
+  "mu": 44.7,
+  "ci80": {
+   "lo": 35.6,
+   "hi": 53.9
+  },
+  "ci50": {
+   "lo": 39.9,
+   "hi": 49.6
+  },
+  "sigma_model": 2.816,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2020,
+   "distance": 2.42,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "0ac94a23",
+   "season": 2020,
+   "distance": 2.544,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Denis Cheryshev",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "29f7cfd9",
+   "season": 2018,
+   "distance": 2.837,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Zoller",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "5dbefa9d",
+   "season": 2018,
+   "distance": 2.853,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Ayew",
+   "squad": "Swansea City / West Ham"
+  },
+  {
+   "fbref_id": "410ab123",
+   "season": 2018,
+   "distance": 2.87,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lewis Holtby",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2020,
+   "distance": 2.925,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "7fec31a0",
+   "season": 2020,
+   "distance": 2.977,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dan Gosling",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "bb7337cc",
+   "season": 2018,
+   "distance": 3.09,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paulinho",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "ce5143da",
+   "season": 2018,
+   "distance": 3.096,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Danny Welbeck",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "9e27e5de",
+   "season": 2018,
+   "distance": 3.141,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Prince Oniangué",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

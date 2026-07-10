@@ -26,10 +26,115 @@
   "confidence": 0.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4058,
+  "mu": 53.3,
+  "ci80": {
+   "lo": 44.5,
+   "hi": 62.2
+  },
+  "ci50": {
+   "lo": 48.7,
+   "hi": 58.0
+  },
+  "sigma_model": 2.082,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "467bae22",
+   "season": 2018,
+   "distance": 1.839,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "b2d0ec1b",
+   "season": 2018,
+   "distance": 2.147,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Nolito",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "dd669209",
+   "season": 2020,
+   "distance": 2.44,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Renato Steffen",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "dd0daf32",
+   "season": 2020,
+   "distance": 2.54,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Henrikh Mkhitaryan",
+   "squad": "Roma / Arsenal"
+  },
+  {
+   "fbref_id": "809940aa",
+   "season": 2020,
+   "distance": 2.553,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominick Drexler",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2020,
+   "distance": 2.627,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "0b4d8274",
+   "season": 2019,
+   "distance": 2.632,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Romain Hamouma",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2019,
+   "distance": 2.717,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "dba67bc4",
+   "season": 2018,
+   "distance": 2.718,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zlatko Junuzović",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "f72293fc",
+   "season": 2019,
+   "distance": 2.72,
+   "survived": 1,
+   "fut_ability_v2": 37.3,
+   "player_name": "Jóhann Berg Guðmundsson",
+   "squad": "Burnley"
+  }
+ ],
  "low_confidence": false
 }

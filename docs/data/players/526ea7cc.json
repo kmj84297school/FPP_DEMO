@@ -26,10 +26,115 @@
   "confidence": 0.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7853,
+  "mu": 53.1,
+  "ci80": {
+   "lo": 44.3,
+   "hi": 62.0
+  },
+  "ci50": {
+   "lo": 48.5,
+   "hi": 57.8
+  },
+  "sigma_model": 2.175,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b82880c6",
+   "season": 2018,
+   "distance": 1.428,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Falette",
+   "squad": "Eint Frankfurt / Metz"
+  },
+  {
+   "fbref_id": "c010b898",
+   "season": 2019,
+   "distance": 1.982,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Federico Barba",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "5832ebfe",
+   "season": 2020,
+   "distance": 1.994,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Denswil",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2019,
+   "distance": 2.025,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "9b30df1e",
+   "season": 2018,
+   "distance": 2.034,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bartosz Salamon",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "c40b6180",
+   "season": 2020,
+   "distance": 2.11,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Adam Webster",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "857a5abe",
+   "season": 2019,
+   "distance": 2.184,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Stefan Bell",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "312626c1",
+   "season": 2020,
+   "distance": 2.202,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jack O'Connell",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2018,
+   "distance": 2.247,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "22721b88",
+   "season": 2020,
+   "distance": 2.339,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Amavi",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

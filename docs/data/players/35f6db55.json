@@ -26,10 +26,115 @@
   "confidence": 0.36
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1919,
+  "mu": 42.5,
+  "ci80": {
+   "lo": 32.9,
+   "hi": 52.1
+  },
+  "ci50": {
+   "lo": 37.4,
+   "hi": 47.5
+  },
+  "sigma_model": 3.627,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3e1858af",
+   "season": 2018,
+   "distance": 2.055,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexander",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "cfd8dde3",
+   "season": 2018,
+   "distance": 2.275,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Corgnet",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "26e4447b",
+   "season": 2020,
+   "distance": 2.337,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yoann Court",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "0ac94a23",
+   "season": 2020,
+   "distance": 2.343,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Denis Cheryshev",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "49ffe0f2",
+   "season": 2019,
+   "distance": 2.405,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérôme Gondorf",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "1ecb65be",
+   "season": 2018,
+   "distance": 2.431,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Theo Walcott",
+   "squad": "Everton / Arsenal"
+  },
+  {
+   "fbref_id": "1ecb65be",
+   "season": 2019,
+   "distance": 2.436,
+   "survived": 1,
+   "fut_ability_v2": 35.9,
+   "player_name": "Theo Walcott",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "33af5b9e",
+   "season": 2019,
+   "distance": 2.469,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Junior Hoilett",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2019,
+   "distance": 2.602,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Lucas Deaux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "11dbba47",
+   "season": 2018,
+   "distance": 2.616,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Heller",
+   "squad": "Augsburg"
+  }
+ ],
  "low_confidence": false
 }

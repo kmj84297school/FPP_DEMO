@@ -26,10 +26,115 @@
   "confidence": 0.61
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3779,
+  "mu": 44.6,
+  "ci80": {
+   "lo": 35.8,
+   "hi": 53.4
+  },
+  "ci50": {
+   "lo": 39.9,
+   "hi": 49.2
+  },
+  "sigma_model": 2.117,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f352a2db",
+   "season": 2018,
+   "distance": 2.188,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jules Iloki",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "bf13975c",
+   "season": 2020,
+   "distance": 2.259,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Žan Majer",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "98e958af",
+   "season": 2019,
+   "distance": 2.346,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Hiljemark",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "87fdfb9b",
+   "season": 2019,
+   "distance": 2.35,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Kerk",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2020,
+   "distance": 2.416,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2018,
+   "distance": 2.425,
+   "survived": 1,
+   "fut_ability_v2": 36.2,
+   "player_name": "Darko Brašanac",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "cbec1196",
+   "season": 2020,
+   "distance": 2.516,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaromír Zmrhal",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "b2d03887",
+   "season": 2020,
+   "distance": 2.519,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Camarasa",
+   "squad": "Alavés / Crystal Palace"
+  },
+  {
+   "fbref_id": "79135368",
+   "season": 2018,
+   "distance": 2.586,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fayçal Fajr",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2020,
+   "distance": 2.701,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Darko Brašanac",
+   "squad": "Osasuna"
+  }
+ ],
  "low_confidence": false
 }

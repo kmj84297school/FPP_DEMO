@@ -26,10 +26,115 @@
   "confidence": 1.23
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4269,
+  "mu": 50.5,
+  "ci80": {
+   "lo": 41.1,
+   "hi": 59.8
+  },
+  "ci50": {
+   "lo": 45.6,
+   "hi": 55.4
+  },
+  "sigma_model": 3.112,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2020,
+   "distance": 3.367,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Rodrigo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "42276181",
+   "season": 2020,
+   "distance": 3.479,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Kévin Gameiro",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "5370cba7",
+   "season": 2018,
+   "distance": 3.505,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alessio Cerci",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "acc7b7ec",
+   "season": 2018,
+   "distance": 3.575,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fin Bartels",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "a300ac7e",
+   "season": 2018,
+   "distance": 3.748,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Lucas Pérez",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "93b891d1",
+   "season": 2020,
+   "distance": 3.769,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felipe Caicedo",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2019,
+   "distance": 3.821,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Diego Farias",
+   "squad": "Empoli / Cagliari"
+  },
+  {
+   "fbref_id": "88a359d4",
+   "season": 2020,
+   "distance": 3.94,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrián López",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "a300ac7e",
+   "season": 2020,
+   "distance": 4.002,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Lucas Pérez",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "854ee61a",
+   "season": 2020,
+   "distance": 4.053,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Grégoire Defrel",
+   "squad": "Sassuolo"
+  }
+ ],
+ "low_confidence": true
 }

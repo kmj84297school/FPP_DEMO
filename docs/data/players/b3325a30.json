@@ -26,10 +26,115 @@
   "confidence": 1.56
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2693,
+  "mu": 44.1,
+  "ci80": {
+   "lo": 35.3,
+   "hi": 52.9
+  },
+  "ci50": {
+   "lo": 39.5,
+   "hi": 48.7
+  },
+  "sigma_model": 2.041,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b93b7882",
+   "season": 2018,
+   "distance": 1.928,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "6f5ead86",
+   "season": 2020,
+   "distance": 2.397,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hernani",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "f24ea523",
+   "season": 2019,
+   "distance": 2.591,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Genki Haraguchi",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2019,
+   "distance": 2.647,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2019,
+   "distance": 2.689,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "5cec2c74",
+   "season": 2020,
+   "distance": 2.712,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Soualiho Meïté",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "9ceb7642",
+   "season": 2020,
+   "distance": 2.722,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre Kunde",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "0d077b88",
+   "season": 2019,
+   "distance": 2.806,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Bourabia",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "02b29014",
+   "season": 2020,
+   "distance": 2.81,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "ef7cd87a",
+   "season": 2019,
+   "distance": 2.81,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Abdoulaye Touré",
+   "squad": "Nantes"
+  }
+ ],
  "low_confidence": false
 }

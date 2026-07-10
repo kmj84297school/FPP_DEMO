@@ -26,10 +26,115 @@
   "confidence": 0.74
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3782,
+  "mu": 57.2,
+  "ci80": {
+   "lo": 48.1,
+   "hi": 66.2
+  },
+  "ci50": {
+   "lo": 52.4,
+   "hi": 61.9
+  },
+  "sigma_model": 2.56,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3e9e06cb",
+   "season": 2018,
+   "distance": 2.029,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Craig Dawson",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2020,
+   "distance": 2.085,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "080440a4",
+   "season": 2020,
+   "distance": 2.184,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Martin Hinteregger",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2018,
+   "distance": 2.227,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2018,
+   "distance": 2.273,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2018,
+   "distance": 2.279,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "bf97c188",
+   "season": 2018,
+   "distance": 2.288,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Mercado",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "9fbbcf39",
+   "season": 2020,
+   "distance": 2.307,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Romain Saïss",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "1ef37668",
+   "season": 2020,
+   "distance": 2.307,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Erik Pieters",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2019,
+   "distance": 2.36,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  }
+ ],
  "low_confidence": false
 }

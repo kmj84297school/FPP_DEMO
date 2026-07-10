@@ -26,10 +26,115 @@
   "confidence": 0.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2205,
+  "mu": 53.5,
+  "ci80": {
+   "lo": 44.7,
+   "hi": 62.2
+  },
+  "ci50": {
+   "lo": 48.9,
+   "hi": 58.0
+  },
+  "sigma_model": 1.809,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "808d48f3",
+   "season": 2019,
+   "distance": 1.584,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Jaume Costa",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "3535098b",
+   "season": 2018,
+   "distance": 1.778,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Laurini",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "1c529186",
+   "season": 2018,
+   "distance": 1.798,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ignazio Abate",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "808d48f3",
+   "season": 2020,
+   "distance": 1.955,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Jaume Costa",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "25444898",
+   "season": 2018,
+   "distance": 2.102,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Palmieri",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "00b0bb87",
+   "season": 2020,
+   "distance": 2.136,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabrizio Cacciatore",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "b18095b6",
+   "season": 2018,
+   "distance": 2.242,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leighton Baines",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "089550f5",
+   "season": 2018,
+   "distance": 2.253,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kwadwo Asamoah",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "8497faf7",
+   "season": 2018,
+   "distance": 2.262,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto de la Bella",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "94b2001f",
+   "season": 2020,
+   "distance": 2.285,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Danilo",
+   "squad": "Juventus"
+  }
+ ],
  "low_confidence": false
 }

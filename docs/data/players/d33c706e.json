@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3902,
+  "mu": 46.4,
+  "ci80": {
+   "lo": 36.8,
+   "hi": 56.0
+  },
+  "ci50": {
+   "lo": 41.4,
+   "hi": 51.5
+  },
+  "sigma_model": 3.605,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "99b7584f",
+   "season": 2018,
+   "distance": 2.067,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Harnik",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "1e274a0a",
+   "season": 2020,
+   "distance": 2.207,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sven Michel",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "02319ad7",
+   "season": 2020,
+   "distance": 2.22,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaime Mata",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "02319ad7",
+   "season": 2019,
+   "distance": 2.227,
+   "survived": 1,
+   "fut_ability_v2": 33.0,
+   "player_name": "Jaime Mata",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "71a20ce8",
+   "season": 2018,
+   "distance": 2.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gómez",
+   "squad": "Stuttgart / Wolfsburg"
+  },
+  {
+   "fbref_id": "53e07d0b",
+   "season": 2020,
+   "distance": 2.328,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ádám Szalai",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2020,
+   "distance": 2.349,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 2.458,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "8cfc2f69",
+   "season": 2019,
+   "distance": 2.493,
+   "survived": 1,
+   "fut_ability_v2": 32.2,
+   "player_name": "Ángel Rodríguez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "82e34b69",
+   "season": 2019,
+   "distance": 2.54,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Troy Deeney",
+   "squad": "Watford"
+  }
+ ],
  "low_confidence": false
 }

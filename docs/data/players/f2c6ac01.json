@@ -26,10 +26,115 @@
   "confidence": 0.64
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5306,
+  "mu": 44.5,
+  "ci80": {
+   "lo": 35.5,
+   "hi": 53.4
+  },
+  "ci50": {
+   "lo": 39.8,
+   "hi": 49.2
+  },
+  "sigma_model": 2.344,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7c6d6c96",
+   "season": 2019,
+   "distance": 1.573,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Prince-Désir Gouano",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2020,
+   "distance": 1.596,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "7ed4921e",
+   "season": 2020,
+   "distance": 1.665,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "William Troost-Ekong",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "7cab69b5",
+   "season": 2019,
+   "distance": 1.746,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jemerson",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2020,
+   "distance": 1.748,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2018,
+   "distance": 1.749,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Christophe Hérelle",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "27f0ddef",
+   "season": 2018,
+   "distance": 1.771,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Helander",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "d9624b51",
+   "season": 2018,
+   "distance": 1.815,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Federico Ceccherini",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "616aea37",
+   "season": 2019,
+   "distance": 1.851,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2018,
+   "distance": 1.894,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  }
+ ],
  "low_confidence": false
 }

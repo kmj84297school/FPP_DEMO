@@ -26,10 +26,115 @@
   "confidence": 0.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.536,
+  "mu": 45.2,
+  "ci80": {
+   "lo": 36.1,
+   "hi": 54.3
+  },
+  "ci50": {
+   "lo": 40.4,
+   "hi": 50.0
+  },
+  "sigma_model": 2.732,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2020,
+   "distance": 2.358,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2019,
+   "distance": 2.448,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2019,
+   "distance": 2.486,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "46a8347f",
+   "season": 2018,
+   "distance": 2.535,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Šime Vrsaljko",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "e9208654",
+   "season": 2018,
+   "distance": 2.811,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tommy Smith",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2019,
+   "distance": 2.827,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "15e1afd5",
+   "season": 2018,
+   "distance": 2.89,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franck Tabanou",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "5efc5389",
+   "season": 2020,
+   "distance": 2.905,
+   "survived": 1,
+   "fut_ability_v2": 39.1,
+   "player_name": "Charalambos Lykogiannis",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2018,
+   "distance": 2.953,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2019,
+   "distance": 3.011,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Inter"
+  }
+ ],
  "low_confidence": false
 }

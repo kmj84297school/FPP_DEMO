@@ -26,10 +26,115 @@
   "confidence": 1.65
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2497,
+  "mu": 47.4,
+  "ci80": {
+   "lo": 38.0,
+   "hi": 56.7
+  },
+  "ci50": {
+   "lo": 42.4,
+   "hi": 52.3
+  },
+  "sigma_model": 3.221,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1ecb65be",
+   "season": 2018,
+   "distance": 2.796,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Theo Walcott",
+   "squad": "Everton / Arsenal"
+  },
+  {
+   "fbref_id": "d8712bf9",
+   "season": 2019,
+   "distance": 3.193,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bebé",
+   "squad": "Rayo Vallecano / Eibar"
+  },
+  {
+   "fbref_id": "48e89655",
+   "season": 2018,
+   "distance": 3.34,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Piatti",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "b2d0ec1b",
+   "season": 2018,
+   "distance": 3.388,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Nolito",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2020,
+   "distance": 3.498,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "fc647b34",
+   "season": 2019,
+   "distance": 3.498,
+   "survived": 1,
+   "fut_ability_v2": 60.3,
+   "player_name": "Óscar Trejo",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "1ecb65be",
+   "season": 2020,
+   "distance": 3.552,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Theo Walcott",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "c5a500ca",
+   "season": 2020,
+   "distance": 3.622,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Max Gradel",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "c5a500ca",
+   "season": 2018,
+   "distance": 3.641,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Max Gradel",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "0b4d8274",
+   "season": 2019,
+   "distance": 3.728,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Romain Hamouma",
+   "squad": "Saint-Étienne"
+  }
+ ],
+ "low_confidence": true
 }

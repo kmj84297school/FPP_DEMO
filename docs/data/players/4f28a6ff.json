@@ -26,10 +26,115 @@
   "confidence": 0.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.448,
+  "mu": 51.0,
+  "ci80": {
+   "lo": 42.2,
+   "hi": 59.8
+  },
+  "ci50": {
+   "lo": 46.3,
+   "hi": 55.6
+  },
+  "sigma_model": 2.06,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "821233cc",
+   "season": 2018,
+   "distance": 2.084,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Neven Subotić",
+   "squad": "Saint-Étienne / Dortmund"
+  },
+  {
+   "fbref_id": "ad178594",
+   "season": 2018,
+   "distance": 2.331,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl Navas",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2018,
+   "distance": 2.478,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2020,
+   "distance": 2.494,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro González",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "ac861941",
+   "season": 2020,
+   "distance": 2.504,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Eric Dier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "450e277f",
+   "season": 2018,
+   "distance": 2.512,
+   "survived": 1,
+   "fut_ability_v2": 45.6,
+   "player_name": "Mateo Pavlović",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2019,
+   "distance": 2.562,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "864db10a",
+   "season": 2019,
+   "distance": 2.566,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michael Lang",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2019,
+   "distance": 2.575,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "f6ac68c1",
+   "season": 2019,
+   "distance": 2.576,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Stefan Savić",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

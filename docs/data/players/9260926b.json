@@ -26,10 +26,115 @@
   "confidence": 1.79
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.209,
+  "mu": 42.7,
+  "ci80": {
+   "lo": 33.9,
+   "hi": 51.5
+  },
+  "ci50": {
+   "lo": 38.1,
+   "hi": 47.3
+  },
+  "sigma_model": 2.023,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "51e3954c",
+   "season": 2019,
+   "distance": 1.769,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Facundo Roncaglia",
+   "squad": "Celta Vigo / Valencia"
+  },
+  {
+   "fbref_id": "b233e8e4",
+   "season": 2020,
+   "distance": 1.927,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Jeison Murillo",
+   "squad": "Celta Vigo / Sampdoria"
+  },
+  {
+   "fbref_id": "1a2935f6",
+   "season": 2019,
+   "distance": 2.084,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dejan Lovren",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "019f4d0d",
+   "season": 2018,
+   "distance": 2.098,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leandro Castán",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2020,
+   "distance": 2.149,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "3f30b506",
+   "season": 2018,
+   "distance": 2.157,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominic Maroh",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "d7492450",
+   "season": 2019,
+   "distance": 2.2,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Kelly",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "562eed5c",
+   "season": 2018,
+   "distance": 2.218,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Winston Reid",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "f5e6d08d",
+   "season": 2018,
+   "distance": 2.261,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Prödl",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "87935cf3",
+   "season": 2018,
+   "distance": 2.263,
+   "survived": 1,
+   "fut_ability_v2": 39.9,
+   "player_name": "Mamadou Sakho",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

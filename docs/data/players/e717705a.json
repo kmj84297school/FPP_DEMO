@@ -26,10 +26,115 @@
   "confidence": 0.43
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2621,
+  "mu": 43.1,
+  "ci80": {
+   "lo": 34.3,
+   "hi": 51.8
+  },
+  "ci50": {
+   "lo": 38.4,
+   "hi": 47.7
+  },
+  "sigma_model": 1.925,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2019,
+   "distance": 2.04,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Darko Brašanac",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "924f9191",
+   "season": 2020,
+   "distance": 2.068,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Grischa Prömel",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "5bddccc9",
+   "season": 2019,
+   "distance": 2.173,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Elias Kachunga",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2020,
+   "distance": 2.178,
+   "survived": 1,
+   "fut_ability_v2": 26.1,
+   "player_name": "Pere Pons",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2018,
+   "distance": 2.266,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2019,
+   "distance": 2.268,
+   "survived": 1,
+   "fut_ability_v2": 30.9,
+   "player_name": "Pere Pons",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "b0fce72c",
+   "season": 2019,
+   "distance": 2.29,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Mikel Vesga",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "3f79a1c8",
+   "season": 2020,
+   "distance": 2.295,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Gonzalo Escalante",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "664590fa",
+   "season": 2019,
+   "distance": 2.421,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Sobottka",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "2edeb221",
+   "season": 2018,
+   "distance": 2.433,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Büchel",
+   "squad": "Hellas Verona"
+  }
+ ],
  "low_confidence": false
 }

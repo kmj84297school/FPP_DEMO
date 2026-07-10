@@ -26,10 +26,115 @@
   "confidence": 0.39
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2107,
+  "mu": 52.3,
+  "ci80": {
+   "lo": 43.6,
+   "hi": 61.0
+  },
+  "ci50": {
+   "lo": 47.7,
+   "hi": 56.8
+  },
+  "sigma_model": 1.681,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "92232aad",
+   "season": 2020,
+   "distance": 2.342,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "80e4c841",
+   "season": 2020,
+   "distance": 2.359,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aurélien Chedjou",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2019,
+   "distance": 2.376,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "8cea6319",
+   "season": 2018,
+   "distance": 2.484,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Felipe dal Belo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2020,
+   "distance": 2.766,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2018,
+   "distance": 2.772,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2020,
+   "distance": 2.942,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2020,
+   "distance": 2.952,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "6813ac34",
+   "season": 2019,
+   "distance": 2.984,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Zabaleta",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "fed5f993",
+   "season": 2019,
+   "distance": 3.029,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Danilo Larangeira",
+   "squad": "Bologna"
+  }
+ ],
  "low_confidence": false
 }

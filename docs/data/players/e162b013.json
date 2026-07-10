@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2329,
+  "mu": 57.0,
+  "ci80": {
+   "lo": 48.3,
+   "hi": 65.7
+  },
+  "ci50": {
+   "lo": 52.4,
+   "hi": 61.6
+  },
+  "sigma_model": 1.721,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e1b3413d",
+   "season": 2018,
+   "distance": 2.037,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ernest Seka",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2019,
+   "distance": 2.128,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2019,
+   "distance": 2.279,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "e4ed2628",
+   "season": 2018,
+   "distance": 2.285,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filipe Luís",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2018,
+   "distance": 2.309,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "81069528",
+   "season": 2019,
+   "distance": 2.447,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Rosales",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "808d48f3",
+   "season": 2018,
+   "distance": 2.488,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Jaume Costa",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2019,
+   "distance": 2.5,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "bad38a94",
+   "season": 2019,
+   "distance": 2.52,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2020,
+   "distance": 2.545,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

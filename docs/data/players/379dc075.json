@@ -26,10 +26,115 @@
   "confidence": 0.58
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1639,
+  "mu": 42.6,
+  "ci80": {
+   "lo": 33.1,
+   "hi": 52.0
+  },
+  "ci50": {
+   "lo": 37.6,
+   "hi": 47.5
+  },
+  "sigma_model": 3.31,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8f866fe8",
+   "season": 2018,
+   "distance": 1.975,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Manolo Gabbiadini",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "625e41b1",
+   "season": 2020,
+   "distance": 2.322,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Streli Mamba",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "b5cae4e6",
+   "season": 2018,
+   "distance": 2.356,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Paloschi",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "dae8623e",
+   "season": 2020,
+   "distance": 2.379,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mbwana Samatta",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2020,
+   "distance": 2.54,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Borja Iglesias",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "8c44e37b",
+   "season": 2018,
+   "distance": 2.568,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Bastón",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "2e52206e",
+   "season": 2018,
+   "distance": 2.578,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Jeannot",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "5343eb4e",
+   "season": 2018,
+   "distance": 2.777,
+   "survived": 1,
+   "fut_ability_v2": 31.8,
+   "player_name": "Yoshinori Mutō",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "0c3057a9",
+   "season": 2019,
+   "distance": 2.849,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mikael Ishak",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "3aa4a3be",
+   "season": 2019,
+   "distance": 2.891,
+   "survived": 1,
+   "fut_ability_v2": 27.4,
+   "player_name": "Loren Morón",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

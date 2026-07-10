@@ -26,10 +26,115 @@
   "confidence": 0.15
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6865,
+  "mu": 56.7,
+  "ci80": {
+   "lo": 48.0,
+   "hi": 65.4
+  },
+  "ci50": {
+   "lo": 52.1,
+   "hi": 61.2
+  },
+  "sigma_model": 1.638,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "375622c5",
+   "season": 2020,
+   "distance": 2.762,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Jordan Ferri",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "79c0821a",
+   "season": 2019,
+   "distance": 2.806,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Mateo Kovačić",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "3902e91b",
+   "season": 2019,
+   "distance": 2.827,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Gonzalo Melero",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2020,
+   "distance": 2.838,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2020,
+   "distance": 2.888,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Alfred Duncan",
+   "squad": "Fiorentina / Sassuolo"
+  },
+  {
+   "fbref_id": "2acd49b9",
+   "season": 2018,
+   "distance": 2.915,
+   "survived": 1,
+   "fut_ability_v2": 43.8,
+   "player_name": "Moussa Sissoko",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "375622c5",
+   "season": 2019,
+   "distance": 2.961,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Jordan Ferri",
+   "squad": "Nîmes / Lyon"
+  },
+  {
+   "fbref_id": "16657b95",
+   "season": 2020,
+   "distance": 2.961,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Bryan Cristante",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2018,
+   "distance": 3.01,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2018,
+   "distance": 3.017,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Kevin Strootman",
+   "squad": "Roma"
+  }
+ ],
  "low_confidence": false
 }

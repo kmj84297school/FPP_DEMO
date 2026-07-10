@@ -26,10 +26,115 @@
   "confidence": 0.9
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2005,
+  "mu": 46.6,
+  "ci80": {
+   "lo": 37.8,
+   "hi": 55.3
+  },
+  "ci50": {
+   "lo": 42.0,
+   "hi": 51.1
+  },
+  "sigma_model": 1.808,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4a56052c",
+   "season": 2020,
+   "distance": 2.122,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Veretout",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2018,
+   "distance": 2.33,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "16657b95",
+   "season": 2020,
+   "distance": 2.344,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Bryan Cristante",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "909bce7f",
+   "season": 2020,
+   "distance": 2.348,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jacopo Petriccione",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2018,
+   "distance": 2.444,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "375622c5",
+   "season": 2019,
+   "distance": 2.55,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Jordan Ferri",
+   "squad": "Nîmes / Lyon"
+  },
+  {
+   "fbref_id": "6cdd8245",
+   "season": 2018,
+   "distance": 2.558,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Tom Cleverley",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2018,
+   "distance": 2.587,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Kevin Strootman",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "a8748947",
+   "season": 2019,
+   "distance": 2.609,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Cairney",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "10efd0e1",
+   "season": 2019,
+   "distance": 2.659,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean Seri",
+   "squad": "Fulham"
+  }
+ ],
  "low_confidence": false
 }

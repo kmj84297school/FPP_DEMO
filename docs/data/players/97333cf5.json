@@ -26,10 +26,115 @@
   "confidence": 0.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2311,
+  "mu": 48.0,
+  "ci80": {
+   "lo": 39.4,
+   "hi": 56.6
+  },
+  "ci50": {
+   "lo": 43.5,
+   "hi": 52.5
+  },
+  "sigma_model": 1.53,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "719384c1",
+   "season": 2020,
+   "distance": 1.687,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Ángel Montoro",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2019,
+   "distance": 1.901,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Radja Nainggolan",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2020,
+   "distance": 2.16,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paul Lasne",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "ef322658",
+   "season": 2018,
+   "distance": 2.19,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 2.339,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "144607cc",
+   "season": 2020,
+   "distance": 2.41,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jasmin Kurtić",
+   "squad": "Parma / SPAL"
+  },
+  {
+   "fbref_id": "1bcca8b8",
+   "season": 2018,
+   "distance": 2.479,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan de Guzmán",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "6cdd8245",
+   "season": 2020,
+   "distance": 2.486,
+   "survived": 1,
+   "fut_ability_v2": 33.3,
+   "player_name": "Tom Cleverley",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "6992791d",
+   "season": 2019,
+   "distance": 2.488,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Junior Stanislas",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2018,
+   "distance": 2.524,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5132,
+  "mu": 47.5,
+  "ci80": {
+   "lo": 38.9,
+   "hi": 56.2
+  },
+  "ci50": {
+   "lo": 43.0,
+   "hi": 52.1
+  },
+  "sigma_model": 1.562,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2018,
+   "distance": 1.42,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "f9acca3a",
+   "season": 2019,
+   "distance": 1.515,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Wendell",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2020,
+   "distance": 1.622,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "f5b6fb78",
+   "season": 2020,
+   "distance": 1.757,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loris Benito",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2020,
+   "distance": 1.867,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2019,
+   "distance": 1.886,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "20b104bc",
+   "season": 2019,
+   "distance": 1.898,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Smith",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "96e0490d",
+   "season": 2020,
+   "distance": 1.934,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Matteo Darmian",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2018,
+   "distance": 1.964,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "fdd60087",
+   "season": 2019,
+   "distance": 1.985,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santiago Arias",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

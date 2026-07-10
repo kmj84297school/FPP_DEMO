@@ -26,10 +26,115 @@
   "confidence": 0.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6781,
+  "mu": 51.7,
+  "ci80": {
+   "lo": 42.6,
+   "hi": 60.8
+  },
+  "ci50": {
+   "lo": 46.9,
+   "hi": 56.5
+  },
+  "sigma_model": 2.684,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "129af0db",
+   "season": 2020,
+   "distance": 2.309,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Álvaro Morata",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "5eae500a",
+   "season": 2020,
+   "distance": 2.481,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Romelu Lukaku",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2018,
+   "distance": 2.516,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "d14229f3",
+   "season": 2020,
+   "distance": 2.578,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Adrien Hunou",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "43b78598",
+   "season": 2019,
+   "distance": 2.642,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Mauro Icardi",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "c4e87b8b",
+   "season": 2020,
+   "distance": 2.656,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "129af0db",
+   "season": 2018,
+   "distance": 2.682,
+   "survived": 1,
+   "fut_ability_v2": 65.3,
+   "player_name": "Álvaro Morata",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2019,
+   "distance": 2.685,
+   "survived": 1,
+   "fut_ability_v2": 73.1,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "64f69877",
+   "season": 2020,
+   "distance": 2.696,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "5eae500a",
+   "season": 2018,
+   "distance": 2.745,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Romelu Lukaku",
+   "squad": "Manchester Utd"
+  }
+ ],
  "low_confidence": false
 }

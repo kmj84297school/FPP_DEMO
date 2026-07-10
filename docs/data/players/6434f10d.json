@@ -26,10 +26,115 @@
   "confidence": 0.93
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.808,
+  "mu": 62.1,
+  "ci80": {
+   "lo": 53.4,
+   "hi": 70.7
+  },
+  "ci50": {
+   "lo": 57.5,
+   "hi": 66.6
+  },
+  "sigma_model": 1.619,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2020,
+   "distance": 1.888,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "5ce0b5ba",
+   "season": 2018,
+   "distance": 2.111,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Asier Illarramendi",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2018,
+   "distance": 2.142,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2019,
+   "distance": 2.166,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2018,
+   "distance": 2.167,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2019,
+   "distance": 2.209,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "c7526c18",
+   "season": 2018,
+   "distance": 2.233,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Steven Nzonzi",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "c6e5d20f",
+   "season": 2020,
+   "distance": 2.237,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Thiago Mendes",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "33b8d077",
+   "season": 2020,
+   "distance": 2.252,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Marcelo Brozović",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "e61b8aee",
+   "season": 2019,
+   "distance": 2.26,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Granit Xhaka",
+   "squad": "Arsenal"
+  }
+ ],
  "low_confidence": false
 }

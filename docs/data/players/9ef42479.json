@@ -26,10 +26,115 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4811,
+  "mu": 35.4,
+  "ci80": {
+   "lo": 25.7,
+   "hi": 45.1
+  },
+  "ci50": {
+   "lo": 30.3,
+   "hi": 40.5
+  },
+  "sigma_model": 3.77,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "02319ad7",
+   "season": 2020,
+   "distance": 2.296,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaime Mata",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 2.456,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "82e34b69",
+   "season": 2018,
+   "distance": 2.558,
+   "survived": 1,
+   "fut_ability_v2": 43.2,
+   "player_name": "Troy Deeney",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2019,
+   "distance": 2.56,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "9980269a",
+   "season": 2020,
+   "distance": 2.737,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kalifa Coulibaly",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "2691c772",
+   "season": 2018,
+   "distance": 2.836,
+   "survived": 1,
+   "fut_ability_v2": 34.4,
+   "player_name": "Ashley Barnes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2020,
+   "distance": 2.902,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "549c6ba7",
+   "season": 2018,
+   "distance": 2.92,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Di Santo",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2018,
+   "distance": 2.933,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "5d59e0df",
+   "season": 2018,
+   "distance": 2.955,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Sala",
+   "squad": "Nantes"
+  }
+ ],
  "low_confidence": false
 }

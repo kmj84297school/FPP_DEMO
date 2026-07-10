@@ -26,10 +26,115 @@
   "confidence": 0.91
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4016,
+  "mu": 57.0,
+  "ci80": {
+   "lo": 48.1,
+   "hi": 65.9
+  },
+  "ci50": {
+   "lo": 52.4,
+   "hi": 61.7
+  },
+  "sigma_model": 2.218,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bf97c188",
+   "season": 2019,
+   "distance": 1.703,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Mercado",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "f5efb153",
+   "season": 2019,
+   "distance": 1.822,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Laurent Koscielny",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2019,
+   "distance": 1.944,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "e26c4233",
+   "season": 2018,
+   "distance": 1.965,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Russ",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "d2be40f2",
+   "season": 2018,
+   "distance": 2.048,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iván Ramis",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "52105203",
+   "season": 2018,
+   "distance": 2.071,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Scott Dann",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "3b15ef2d",
+   "season": 2018,
+   "distance": 2.097,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Medhi Benatia",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "92b4a127",
+   "season": 2018,
+   "distance": 2.223,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gustavo Cabral",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2020,
+   "distance": 2.223,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "1253a12e",
+   "season": 2019,
+   "distance": 2.237,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ervin Zukanović",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

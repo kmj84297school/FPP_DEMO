@@ -26,10 +26,115 @@
   "confidence": 0.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5157,
+  "mu": 46.1,
+  "ci80": {
+   "lo": 37.1,
+   "hi": 55.1
+  },
+  "ci50": {
+   "lo": 41.3,
+   "hi": 50.8
+  },
+  "sigma_model": 2.5,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d7d32194",
+   "season": 2018,
+   "distance": 2.323,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Mattia Destro",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "6265208f",
+   "season": 2018,
+   "distance": 2.355,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Joselu",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2018,
+   "distance": 2.397,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Ante Budimir",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "8f898ba8",
+   "season": 2020,
+   "distance": 2.472,
+   "survived": 1,
+   "fut_ability_v2": 28.7,
+   "player_name": "Guido Carrillo",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2019,
+   "distance": 2.555,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "fd771f95",
+   "season": 2020,
+   "distance": 2.593,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Braithwaite",
+   "squad": "Leganés / Barcelona"
+  },
+  {
+   "fbref_id": "e5f63987",
+   "season": 2019,
+   "distance": 2.598,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ginczek",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "bb4b1242",
+   "season": 2018,
+   "distance": 2.615,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Sergi Enrich",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "abb3bb95",
+   "season": 2020,
+   "distance": 2.624,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luuk de Jong",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "5046b7d4",
+   "season": 2018,
+   "distance": 2.63,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Stéphane Bahoken",
+   "squad": "Strasbourg"
+  }
+ ],
  "low_confidence": false
 }

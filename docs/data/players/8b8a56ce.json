@@ -26,10 +26,115 @@
   "confidence": 2.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0922,
+  "mu": 49.0,
+  "ci80": {
+   "lo": 40.2,
+   "hi": 57.9
+  },
+  "ci50": {
+   "lo": 44.4,
+   "hi": 53.7
+  },
+  "sigma_model": 2.123,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "314f2124",
+   "season": 2019,
+   "distance": 1.321,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miranda",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "e0314d87",
+   "season": 2020,
+   "distance": 1.337,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Masiello",
+   "squad": "Genoa / Atalanta"
+  },
+  {
+   "fbref_id": "3d936ba9",
+   "season": 2019,
+   "distance": 1.434,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Domenico Maietta",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2019,
+   "distance": 1.466,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "4bd414c1",
+   "season": 2019,
+   "distance": 1.471,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Raúl Albiol",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2020,
+   "distance": 1.89,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "e97150c0",
+   "season": 2019,
+   "distance": 1.945,
+   "survived": 1,
+   "fut_ability_v2": 38.6,
+   "player_name": "Jérémy Morel",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "008a6e6d",
+   "season": 2019,
+   "distance": 1.964,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ragnar Klavan",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "d0d79694",
+   "season": 2018,
+   "distance": 1.974,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thomas Vermaelen",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "ac3fb1be",
+   "season": 2020,
+   "distance": 2.0,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezequiel Garay",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

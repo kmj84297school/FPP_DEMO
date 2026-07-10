@@ -26,10 +26,115 @@
   "confidence": 0.56
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2992,
+  "mu": 38.8,
+  "ci80": {
+   "lo": 29.8,
+   "hi": 47.8
+  },
+  "ci50": {
+   "lo": 34.1,
+   "hi": 43.5
+  },
+  "sigma_model": 2.491,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cbec1196",
+   "season": 2020,
+   "distance": 2.241,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaromír Zmrhal",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "0cc474e7",
+   "season": 2020,
+   "distance": 2.401,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramon Azeez",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "d5575935",
+   "season": 2020,
+   "distance": 2.455,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valon Berisha",
+   "squad": "Düsseldorf / Lazio"
+  },
+  {
+   "fbref_id": "989d5705",
+   "season": 2020,
+   "distance": 2.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "98e958af",
+   "season": 2019,
+   "distance": 2.479,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Hiljemark",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2020,
+   "distance": 2.56,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Darko Brašanac",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "a2d873dd",
+   "season": 2020,
+   "distance": 2.594,
+   "survived": 1,
+   "fut_ability_v2": 29.8,
+   "player_name": "Hwang Ui-jo",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "b2d03887",
+   "season": 2020,
+   "distance": 2.685,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Camarasa",
+   "squad": "Alavés / Crystal Palace"
+  },
+  {
+   "fbref_id": "989d5705",
+   "season": 2019,
+   "distance": 2.728,
+   "survived": 1,
+   "fut_ability_v2": 29.8,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2018,
+   "distance": 2.815,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

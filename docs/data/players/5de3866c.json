@@ -26,10 +26,115 @@
   "confidence": 1.61
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.1952,
+  "mu": 40.6,
+  "ci80": {
+   "lo": 31.8,
+   "hi": 49.3
+  },
+  "ci50": {
+   "lo": 36.0,
+   "hi": 45.2
+  },
+  "sigma_model": 1.864,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2020,
+   "distance": 3.603,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "58027adc",
+   "season": 2019,
+   "distance": 3.844,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ladislav Krejčí",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "3935e52e",
+   "season": 2019,
+   "distance": 4.031,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Sead Kolašinac",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "3b333ac3",
+   "season": 2020,
+   "distance": 4.304,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Hans Hateboer",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 4.312,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 4.315,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "41e7ef1c",
+   "season": 2019,
+   "distance": 4.427,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Layvin Kurzawa",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2020,
+   "distance": 4.609,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "852351df",
+   "season": 2020,
+   "distance": 4.628,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Peres",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "8593f88c",
+   "season": 2020,
+   "distance": 4.639,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Christian Günter",
+   "squad": "Freiburg"
+  }
+ ],
+ "low_confidence": true
 }

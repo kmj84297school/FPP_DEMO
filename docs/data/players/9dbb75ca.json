@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5615,
+  "mu": 64.7,
+  "ci80": {
+   "lo": 55.5,
+   "hi": 74.0
+  },
+  "ci50": {
+   "lo": 59.9,
+   "hi": 69.6
+  },
+  "sigma_model": 2.997,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2019,
+   "distance": 2.476,
+   "survived": 1,
+   "fut_ability_v2": 70.0,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2020,
+   "distance": 2.487,
+   "survived": 1,
+   "fut_ability_v2": 74.1,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "a6154613",
+   "season": 2019,
+   "distance": 2.605,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Luis Suárez",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "7dcf86f6",
+   "season": 2018,
+   "distance": 2.682,
+   "survived": 1,
+   "fut_ability_v2": 63.9,
+   "player_name": "Iago Aspas",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2018,
+   "distance": 2.809,
+   "survived": 1,
+   "fut_ability_v2": 69.4,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ffec9769",
+   "season": 2020,
+   "distance": 3.003,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Islam Slimani",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "70d74ece",
+   "season": 2019,
+   "distance": 3.308,
+   "survived": 1,
+   "fut_ability_v2": 79.7,
+   "player_name": "Karim Benzema",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "4d034881",
+   "season": 2019,
+   "distance": 3.429,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Agüero",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "4d034881",
+   "season": 2018,
+   "distance": 3.487,
+   "survived": 1,
+   "fut_ability_v2": 70.2,
+   "player_name": "Sergio Agüero",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "70d74ece",
+   "season": 2020,
+   "distance": 3.512,
+   "survived": 1,
+   "fut_ability_v2": 81.6,
+   "player_name": "Karim Benzema",
+   "squad": "Real Madrid"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.42
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6371,
+  "mu": 49.4,
+  "ci80": {
+   "lo": 40.7,
+   "hi": 58.0
+  },
+  "ci50": {
+   "lo": 44.8,
+   "hi": 53.9
+  },
+  "sigma_model": 1.575,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2018,
+   "distance": 1.156,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "5ca20b7a",
+   "season": 2018,
+   "distance": 1.36,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Joseba Zaldúa",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2018,
+   "distance": 1.423,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Martín Montoya",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "3a9c4b7b",
+   "season": 2020,
+   "distance": 1.483,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Nacho Vidal",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "de488e56",
+   "season": 2018,
+   "distance": 1.522,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Charles Traore",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "7242b495",
+   "season": 2020,
+   "distance": 1.627,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Niko Gießelmann",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "af69e7f0",
+   "season": 2019,
+   "distance": 1.696,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Bryan",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2018,
+   "distance": 1.714,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "ff16ecad",
+   "season": 2018,
+   "distance": 1.715,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Deplagne",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "0fbb73c2",
+   "season": 2020,
+   "distance": 1.72,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Jans",
+   "squad": "Paderborn 07"
+  }
+ ],
  "low_confidence": false
 }

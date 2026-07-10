@@ -26,10 +26,115 @@
   "confidence": 0.03
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3894,
+  "mu": 43.2,
+  "ci80": {
+   "lo": 34.4,
+   "hi": 51.9
+  },
+  "ci50": {
+   "lo": 38.5,
+   "hi": 47.8
+  },
+  "sigma_model": 1.971,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 1.706,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "2174bc8d",
+   "season": 2018,
+   "distance": 1.792,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Bellugou",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "d4133fa1",
+   "season": 2020,
+   "distance": 1.804,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yann M'Vila",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2020,
+   "distance": 1.841,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2019,
+   "distance": 1.902,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "e54bd0a2",
+   "season": 2019,
+   "distance": 2.005,
+   "survived": 1,
+   "fut_ability_v2": 42.6,
+   "player_name": "Tomás Pina Isla",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "a6951bf8",
+   "season": 2020,
+   "distance": 2.027,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francis Coquelin",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2019,
+   "distance": 2.039,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "cefb32b1",
+   "season": 2018,
+   "distance": 2.051,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vicente Gómez",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "f1cfc209",
+   "season": 2020,
+   "distance": 2.053,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Tomás Rincón",
+   "squad": "Torino"
+  }
+ ],
  "low_confidence": false
 }

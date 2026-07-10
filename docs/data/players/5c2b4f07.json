@@ -26,10 +26,115 @@
   "confidence": 0.62
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.415,
+  "mu": 41.1,
+  "ci80": {
+   "lo": 32.2,
+   "hi": 49.9
+  },
+  "ci50": {
+   "lo": 36.4,
+   "hi": 45.7
+  },
+  "sigma_model": 2.102,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3e87d087",
+   "season": 2019,
+   "distance": 1.467,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emmanuel Imorou",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2018,
+   "distance": 1.849,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "1fe67e86",
+   "season": 2018,
+   "distance": 1.954,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Mikel Balenziaga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "1771f2c1",
+   "season": 2018,
+   "distance": 2.024,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eneko Bóveda",
+   "squad": "La Coruña / Athletic Club"
+  },
+  {
+   "fbref_id": "1a317a1b",
+   "season": 2019,
+   "distance": 2.268,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl García",
+   "squad": "Girona / Leganés"
+  },
+  {
+   "fbref_id": "1a317a1b",
+   "season": 2020,
+   "distance": 2.283,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl García",
+   "squad": "Valladolid / Getafe"
+  },
+  {
+   "fbref_id": "1040e783",
+   "season": 2018,
+   "distance": 2.316,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Romain Genevois",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2020,
+   "distance": 2.326,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "dbe519cf",
+   "season": 2020,
+   "distance": 2.332,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antoñito",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "a6e316c1",
+   "season": 2018,
+   "distance": 2.353,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezequiel Schelotto",
+   "squad": "Brighton"
+  }
+ ],
  "low_confidence": false
 }

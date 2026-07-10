@@ -26,10 +26,115 @@
   "confidence": 0.09
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8288,
+  "mu": 45.4,
+  "ci80": {
+   "lo": 36.4,
+   "hi": 54.3
+  },
+  "ci50": {
+   "lo": 40.7,
+   "hi": 50.1
+  },
+  "sigma_model": 2.372,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7b075c75",
+   "season": 2019,
+   "distance": 1.959,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Adama Soumaoro",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "7ed4921e",
+   "season": 2020,
+   "distance": 1.963,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "William Troost-Ekong",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "7cab69b5",
+   "season": 2019,
+   "distance": 1.991,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jemerson",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "de045b15",
+   "season": 2020,
+   "distance": 2.011,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Vicari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "34b306a1",
+   "season": 2020,
+   "distance": 2.077,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Hoffmann",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "def899bd",
+   "season": 2018,
+   "distance": 2.164,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Phil Jones",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "7c6d6c96",
+   "season": 2019,
+   "distance": 2.192,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Prince-Désir Gouano",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "f35430a4",
+   "season": 2018,
+   "distance": 2.203,
+   "survived": 1,
+   "fut_ability_v2": 55.1,
+   "player_name": "Matija Nastasić",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2019,
+   "distance": 2.264,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "463503e2",
+   "season": 2019,
+   "distance": 2.313,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcin Kamiński",
+   "squad": "Düsseldorf"
+  }
+ ],
  "low_confidence": false
 }

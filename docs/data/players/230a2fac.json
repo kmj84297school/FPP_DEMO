@@ -26,10 +26,115 @@
   "confidence": 0.08
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6077,
+  "mu": 57.3,
+  "ci80": {
+   "lo": 48.6,
+   "hi": 66.0
+  },
+  "ci50": {
+   "lo": 52.7,
+   "hi": 61.8
+  },
+  "sigma_model": 1.678,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4601e194",
+   "season": 2019,
+   "distance": 2.114,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "4601e194",
+   "season": 2018,
+   "distance": 2.126,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2019,
+   "distance": 2.36,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "4601e194",
+   "season": 2020,
+   "distance": 2.36,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "5f09991f",
+   "season": 2019,
+   "distance": 2.867,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Patrick van Aanholt",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "e288d4b3",
+   "season": 2019,
+   "distance": 3.04,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Alessandro Florenzi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "d003e213",
+   "season": 2018,
+   "distance": 3.082,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafinha",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 3.116,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "4958bfb2",
+   "season": 2020,
+   "distance": 3.152,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Dani Carvajal",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2019,
+   "distance": 3.202,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  }
+ ],
  "low_confidence": false
 }

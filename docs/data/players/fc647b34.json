@@ -26,10 +26,115 @@
   "confidence": 0.87
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2392,
+  "mu": 55.1,
+  "ci80": {
+   "lo": 46.4,
+   "hi": 63.8
+  },
+  "ci50": {
+   "lo": 50.5,
+   "hi": 59.7
+  },
+  "sigma_model": 1.821,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4c5b14d2",
+   "season": 2018,
+   "distance": 2.581,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Joaquín",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "6025fab1",
+   "season": 2020,
+   "distance": 3.037,
+   "survived": 1,
+   "fut_ability_v2": 65.9,
+   "player_name": "Luka Modrić",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "c90977db",
+   "season": 2019,
+   "distance": 3.07,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Fabián Orellana",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "c90977db",
+   "season": 2020,
+   "distance": 3.109,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabián Orellana",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "6025fab1",
+   "season": 2019,
+   "distance": 3.199,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Luka Modrić",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "e2e9c250",
+   "season": 2019,
+   "distance": 3.215,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santi Cazorla",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "1c50f354",
+   "season": 2019,
+   "distance": 3.445,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emanuele Giaccherini",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "1c50f354",
+   "season": 2018,
+   "distance": 3.447,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emanuele Giaccherini",
+   "squad": "Chievo / Napoli"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2020,
+   "distance": 3.572,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "2042d931",
+   "season": 2019,
+   "distance": 3.598,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomon Kalou",
+   "squad": "Hertha BSC"
+  }
+ ],
+ "low_confidence": true
 }

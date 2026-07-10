@@ -26,10 +26,115 @@
   "confidence": 0.76
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3329,
+  "mu": 56.2,
+  "ci80": {
+   "lo": 47.5,
+   "hi": 64.9
+  },
+  "ci50": {
+   "lo": 51.6,
+   "hi": 60.7
+  },
+  "sigma_model": 1.712,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1f9328da",
+   "season": 2019,
+   "distance": 2.084,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Radja Nainggolan",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "d995ed27",
+   "season": 2018,
+   "distance": 2.287,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Giacomo Bonaventura",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "dd0daf32",
+   "season": 2020,
+   "distance": 2.357,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Henrikh Mkhitaryan",
+   "squad": "Roma / Arsenal"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2019,
+   "distance": 2.36,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Roberto Soriano",
+   "squad": "Bologna / Torino"
+  },
+  {
+   "fbref_id": "2903a856",
+   "season": 2020,
+   "distance": 2.474,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Jonas Hofmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "dd669209",
+   "season": 2020,
+   "distance": 2.525,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Renato Steffen",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "819aa8e7",
+   "season": 2020,
+   "distance": 2.525,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ayoze Pérez",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "ef619b0b",
+   "season": 2020,
+   "distance": 2.546,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Ramsey",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2020,
+   "distance": 2.622,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "809940aa",
+   "season": 2020,
+   "distance": 2.652,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominick Drexler",
+   "squad": "Köln"
+  }
+ ],
  "low_confidence": false
 }

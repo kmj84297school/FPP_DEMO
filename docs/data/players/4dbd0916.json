@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.5587,
+  "mu": 54.9,
+  "ci80": {
+   "lo": 45.6,
+   "hi": 64.1
+  },
+  "ci50": {
+   "lo": 50.0,
+   "hi": 59.8
+  },
+  "sigma_model": 3.046,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2306bfde",
+   "season": 2019,
+   "distance": 3.181,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Pardo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "e5649a78",
+   "season": 2020,
+   "distance": 3.266,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Kevin Stöger",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "9e61c019",
+   "season": 2018,
+   "distance": 3.373,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guilherme",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2019,
+   "distance": 3.376,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Alfred Duncan",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "92b56413",
+   "season": 2019,
+   "distance": 3.425,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Tristan Dingomé",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "a8748947",
+   "season": 2019,
+   "distance": 3.457,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Cairney",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "909bce7f",
+   "season": 2020,
+   "distance": 3.477,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jacopo Petriccione",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "b825a650",
+   "season": 2018,
+   "distance": 3.563,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Kevin Kampl",
+   "squad": "RB Leipzig / Leverkusen"
+  },
+  {
+   "fbref_id": "79ca3e23",
+   "season": 2020,
+   "distance": 3.578,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Ondrej Duda",
+   "squad": "Norwich City / Hertha BSC"
+  },
+  {
+   "fbref_id": "643b39a6",
+   "season": 2018,
+   "distance": 3.653,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emre Çolak",
+   "squad": "La Coruña"
+  }
+ ],
+ "low_confidence": true
 }

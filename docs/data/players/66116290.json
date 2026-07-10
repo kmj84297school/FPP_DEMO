@@ -26,10 +26,115 @@
   "confidence": 0.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.0539,
+  "mu": 46.3,
+  "ci80": {
+   "lo": 37.3,
+   "hi": 55.3
+  },
+  "ci50": {
+   "lo": 41.5,
+   "hi": 51.0
+  },
+  "sigma_model": 2.557,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "df301450",
+   "season": 2019,
+   "distance": 2.332,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Floccari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2019,
+   "distance": 2.747,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "293211e1",
+   "season": 2018,
+   "distance": 2.995,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aritz Aduriz",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "c58270f8",
+   "season": 2018,
+   "distance": 3.465,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Souleymane Camara",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2020,
+   "distance": 3.777,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "df301450",
+   "season": 2020,
+   "distance": 3.892,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Floccari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2020,
+   "distance": 4.256,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "73d9bdc7",
+   "season": 2018,
+   "distance": 4.332,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Peter Crouch",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "293211e1",
+   "season": 2019,
+   "distance": 4.341,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aritz Aduriz",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "8d8178ac",
+   "season": 2018,
+   "distance": 4.502,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  }
+ ],
+ "low_confidence": true
 }

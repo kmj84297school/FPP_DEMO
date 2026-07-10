@@ -26,10 +26,115 @@
   "confidence": 0.92
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0468,
+  "mu": 50.6,
+  "ci80": {
+   "lo": 41.8,
+   "hi": 59.4
+  },
+  "ci50": {
+   "lo": 46.0,
+   "hi": 55.2
+  },
+  "sigma_model": 1.94,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8c65eb5f",
+   "season": 2020,
+   "distance": 2.936,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mato Jajalo",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "07767f42",
+   "season": 2020,
+   "distance": 2.963,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Magnanelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "ad340e17",
+   "season": 2018,
+   "distance": 3.064,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Aquilani",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "7106f0a0",
+   "season": 2019,
+   "distance": 3.155,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Suárez",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2020,
+   "distance": 3.277,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 3.29,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "563a68ad",
+   "season": 2020,
+   "distance": 3.295,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Gary Medel",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2019,
+   "distance": 3.311,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "7329018e",
+   "season": 2019,
+   "distance": 3.443,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Papakouli Diop",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "5acc4a10",
+   "season": 2020,
+   "distance": 3.479,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Étienne Capoue",
+   "squad": "Watford"
+  }
+ ],
  "low_confidence": false
 }

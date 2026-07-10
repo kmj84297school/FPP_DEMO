@@ -26,10 +26,115 @@
   "confidence": 0.0
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0466,
+  "mu": 42.3,
+  "ci80": {
+   "lo": 33.0,
+   "hi": 51.5
+  },
+  "ci50": {
+   "lo": 37.4,
+   "hi": 47.1
+  },
+  "sigma_model": 3.002,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a3a306f6",
+   "season": 2018,
+   "distance": 1.785,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Lacen",
+   "squad": "Málaga / Getafe"
+  },
+  {
+   "fbref_id": "d3d758d8",
+   "season": 2020,
+   "distance": 2.374,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valon Behrami",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "02b2937c",
+   "season": 2020,
+   "distance": 2.381,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Dessena",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "abb42ce6",
+   "season": 2018,
+   "distance": 2.441,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Lehmann",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "2e8fc160",
+   "season": 2018,
+   "distance": 2.456,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Fuego",
+   "squad": "Espanyol / Villarreal"
+  },
+  {
+   "fbref_id": "677ee102",
+   "season": 2018,
+   "distance": 2.558,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "Yannick Cahuzac",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "ecab64a0",
+   "season": 2020,
+   "distance": 2.589,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "ad340e17",
+   "season": 2018,
+   "distance": 2.875,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Aquilani",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "4dba2a97",
+   "season": 2019,
+   "distance": 2.94,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Rigoni",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "bb8a42fa",
+   "season": 2020,
+   "distance": 3.026,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Bodzek",
+   "squad": "Düsseldorf"
+  }
+ ],
  "low_confidence": false
 }

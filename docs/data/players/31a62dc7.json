@@ -26,10 +26,115 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7216,
+  "mu": 57.1,
+  "ci80": {
+   "lo": 48.3,
+   "hi": 65.9
+  },
+  "ci50": {
+   "lo": 52.5,
+   "hi": 61.7
+  },
+  "sigma_model": 2.053,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "21512407",
+   "season": 2018,
+   "distance": 2.204,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Kieran Trippier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "9fec8860",
+   "season": 2020,
+   "distance": 2.48,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ludwig Augustinsson",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "2ef637bd",
+   "season": 2019,
+   "distance": 2.65,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre-Yves Polomat",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "21512407",
+   "season": 2019,
+   "distance": 2.811,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Kieran Trippier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "fdd60087",
+   "season": 2020,
+   "distance": 2.906,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santiago Arias",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "5c2b4f07",
+   "season": 2018,
+   "distance": 2.924,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Serge Aurier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "4c5b714f",
+   "season": 2019,
+   "distance": 2.965,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Djibril Sidibé",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "5ddb8f9f",
+   "season": 2018,
+   "distance": 2.975,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Danny da Costa",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "f68b64fc",
+   "season": 2018,
+   "distance": 3.032,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Silvan Widmer",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "3dd738a1",
+   "season": 2020,
+   "distance": 3.083,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "Ruben Aguilar",
+   "squad": "Monaco"
+  }
+ ],
  "low_confidence": false
 }

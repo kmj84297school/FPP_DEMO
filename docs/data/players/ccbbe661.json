@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3237,
+  "mu": 40.3,
+  "ci80": {
+   "lo": 31.5,
+   "hi": 49.2
+  },
+  "ci50": {
+   "lo": 35.7,
+   "hi": 45.0
+  },
+  "sigma_model": 2.171,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2e52206e",
+   "season": 2018,
+   "distance": 2.004,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Jeannot",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "11ced928",
+   "season": 2020,
+   "distance": 2.09,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yaya Sanogo",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "4d50454e",
+   "season": 2020,
+   "distance": 2.13,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ben Zolinski",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "625e41b1",
+   "season": 2020,
+   "distance": 2.225,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Streli Mamba",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "bb4b1242",
+   "season": 2018,
+   "distance": 2.232,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Sergi Enrich",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "9853983f",
+   "season": 2019,
+   "distance": 2.331,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bobby Wood",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "6cc47ae1",
+   "season": 2019,
+   "distance": 2.42,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jürgen Locadia",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "8c44e37b",
+   "season": 2018,
+   "distance": 2.448,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Bastón",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "2e52206e",
+   "season": 2019,
+   "distance": 2.471,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Jeannot",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "a1c7b425",
+   "season": 2018,
+   "distance": 2.477,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Pucciarelli",
+   "squad": "Chievo"
+  }
+ ],
  "low_confidence": false
 }

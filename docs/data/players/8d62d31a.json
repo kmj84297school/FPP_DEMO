@@ -26,10 +26,115 @@
   "confidence": 0.67
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4773,
+  "mu": 52.0,
+  "ci80": {
+   "lo": 43.2,
+   "hi": 60.8
+  },
+  "ci50": {
+   "lo": 47.3,
+   "hi": 56.6
+  },
+  "sigma_model": 2.061,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bba30585",
+   "season": 2020,
+   "distance": 1.679,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Diego Llorente",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2019,
+   "distance": 1.765,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "d0d8dd44",
+   "season": 2019,
+   "distance": 1.782,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Stefan de Vrij",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "450e277f",
+   "season": 2018,
+   "distance": 1.853,
+   "survived": 1,
+   "fut_ability_v2": 45.6,
+   "player_name": "Mateo Pavlović",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "6d5701f2",
+   "season": 2020,
+   "distance": 1.887,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yerry Mina",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2018,
+   "distance": 1.918,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "eaeca114",
+   "season": 2020,
+   "distance": 1.934,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Nathan Aké",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "91899ca8",
+   "season": 2019,
+   "distance": 1.951,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateo Musacchio",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2018,
+   "distance": 1.959,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergi Gómez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2018,
+   "distance": 1.975,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Berat Djimsiti",
+   "squad": "Benevento"
+  }
+ ],
  "low_confidence": false
 }

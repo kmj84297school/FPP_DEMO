@@ -26,10 +26,115 @@
   "confidence": 0.99
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2842,
+  "mu": 47.5,
+  "ci80": {
+   "lo": 38.5,
+   "hi": 56.5
+  },
+  "ci50": {
+   "lo": 42.8,
+   "hi": 52.3
+  },
+  "sigma_model": 2.546,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e5f63987",
+   "season": 2019,
+   "distance": 2.466,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ginczek",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "32974271",
+   "season": 2019,
+   "distance": 2.521,
+   "survived": 1,
+   "fut_ability_v2": 36.8,
+   "player_name": "Sergi Guardiola",
+   "squad": "Valladolid / Getafe"
+  },
+  {
+   "fbref_id": "82e34b69",
+   "season": 2018,
+   "distance": 2.545,
+   "survived": 1,
+   "fut_ability_v2": 43.2,
+   "player_name": "Troy Deeney",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2019,
+   "distance": 2.634,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "0a1efd3c",
+   "season": 2018,
+   "distance": 2.653,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrey Galabinov",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "b0547a87",
+   "season": 2018,
+   "distance": 2.736,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Nicolas de Préville",
+   "squad": "Bordeaux / Lille"
+  },
+  {
+   "fbref_id": "99be8fb5",
+   "season": 2020,
+   "distance": 2.8,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Ujah",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "99bebd12",
+   "season": 2018,
+   "distance": 2.875,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Guidetti",
+   "squad": "Alavés / Celta Vigo"
+  },
+  {
+   "fbref_id": "19b776e9",
+   "season": 2018,
+   "distance": 2.903,
+   "survived": 1,
+   "fut_ability_v2": 37.3,
+   "player_name": "Rubén Sobrino",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2018,
+   "distance": 2.923,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Ante Budimir",
+   "squad": "Crotone"
+  }
+ ],
  "low_confidence": false
 }

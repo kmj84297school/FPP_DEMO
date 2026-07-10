@@ -26,10 +26,115 @@
   "confidence": 0.67
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1965,
+  "mu": 48.3,
+  "ci80": {
+   "lo": 38.9,
+   "hi": 57.7
+  },
+  "ci50": {
+   "lo": 43.4,
+   "hi": 53.2
+  },
+  "sigma_model": 3.233,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6421ec64",
+   "season": 2018,
+   "distance": 1.629,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xherdan Shaqiri",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "244f57b9",
+   "season": 2019,
+   "distance": 2.288,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jony",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2019,
+   "distance": 2.32,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "8aec0537",
+   "season": 2019,
+   "distance": 2.405,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Pascal Groß",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "2475dcc6",
+   "season": 2018,
+   "distance": 2.47,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dušan Tadić",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "9d2a3d5f",
+   "season": 2018,
+   "distance": 2.517,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibai Gómez",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "c76b7567",
+   "season": 2019,
+   "distance": 2.622,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Adrien Thomasson",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "f7b1d4e0",
+   "season": 2019,
+   "distance": 2.639,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Saman Ghoddos",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "5b1bf5e3",
+   "season": 2018,
+   "distance": 2.673,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Gaël Kakuta",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "7dfbba27",
+   "season": 2020,
+   "distance": 2.708,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathias Autret",
+   "squad": "Brest"
+  }
+ ],
  "low_confidence": false
 }

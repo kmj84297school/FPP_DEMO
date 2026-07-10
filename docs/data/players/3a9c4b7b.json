@@ -26,10 +26,115 @@
   "confidence": 0.99
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4972,
+  "mu": 50.5,
+  "ci80": {
+   "lo": 41.8,
+   "hi": 59.2
+  },
+  "ci50": {
+   "lo": 46.0,
+   "hi": 55.1
+  },
+  "sigma_model": 1.678,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "22721b88",
+   "season": 2020,
+   "distance": 1.74,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Amavi",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "c8aa95da",
+   "season": 2020,
+   "distance": 1.821,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Fabian Schär",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2019,
+   "distance": 2.004,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2018,
+   "distance": 2.006,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Martín Montoya",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "5ca20b7a",
+   "season": 2018,
+   "distance": 2.012,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Joseba Zaldúa",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2018,
+   "distance": 2.015,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "247accfd",
+   "season": 2018,
+   "distance": 2.129,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Bakaye Dibassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "b99bec05",
+   "season": 2020,
+   "distance": 2.144,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Issiaga Sylla",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "bad38a94",
+   "season": 2019,
+   "distance": 2.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "92d38e6c",
+   "season": 2019,
+   "distance": 2.171,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Dimitris Siovas",
+   "squad": "Leganés"
+  }
+ ],
  "low_confidence": false
 }

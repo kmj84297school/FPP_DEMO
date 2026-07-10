@@ -26,10 +26,115 @@
   "confidence": 0.31
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4385,
+  "mu": 49.9,
+  "ci80": {
+   "lo": 40.8,
+   "hi": 59.1
+  },
+  "ci50": {
+   "lo": 45.1,
+   "hi": 54.8
+  },
+  "sigma_model": 2.838,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6c2f5996",
+   "season": 2018,
+   "distance": 1.621,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Hernández",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "e26bd2f4",
+   "season": 2020,
+   "distance": 1.68,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Panagiotis Tachtsidis",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "c6e5d20f",
+   "season": 2020,
+   "distance": 1.744,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Thiago Mendes",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2020,
+   "distance": 1.827,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "003a5c72",
+   "season": 2018,
+   "distance": 1.863,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mikel San José",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "eb7822d7",
+   "season": 2019,
+   "distance": 1.864,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "Nemanja Matić",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2018,
+   "distance": 1.944,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2020,
+   "distance": 1.985,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Deaux",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "c7526c18",
+   "season": 2018,
+   "distance": 2.006,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Steven Nzonzi",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "f503ea63",
+   "season": 2020,
+   "distance": 2.025,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Albin Ekdal",
+   "squad": "Sampdoria"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.69
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.655,
+  "mu": 55.8,
+  "ci80": {
+   "lo": 46.5,
+   "hi": 65.1
+  },
+  "ci50": {
+   "lo": 50.9,
+   "hi": 60.7
+  },
+  "sigma_model": 3.07,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "462475ed",
+   "season": 2019,
+   "distance": 1.796,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Ludovic Ajorque",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2019,
+   "distance": 1.965,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "84399660",
+   "season": 2019,
+   "distance": 2.011,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Juanmi",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2019,
+   "distance": 2.027,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khouma Babacar",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "fd771f95",
+   "season": 2020,
+   "distance": 2.071,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Braithwaite",
+   "squad": "Leganés / Barcelona"
+  },
+  {
+   "fbref_id": "84399660",
+   "season": 2018,
+   "distance": 2.235,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanmi",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 2.337,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "5046b7d4",
+   "season": 2018,
+   "distance": 2.374,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Stéphane Bahoken",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "b35db3f6",
+   "season": 2018,
+   "distance": 2.391,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Ángel Guerrero",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2020,
+   "distance": 2.451,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khouma Babacar",
+   "squad": "Lecce"
+  }
+ ],
  "low_confidence": false
 }

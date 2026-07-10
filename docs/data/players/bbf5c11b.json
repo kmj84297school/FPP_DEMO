@@ -26,10 +26,115 @@
   "confidence": 1.65
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2741,
+  "mu": 41.9,
+  "ci80": {
+   "lo": 32.2,
+   "hi": 51.6
+  },
+  "ci50": {
+   "lo": 36.8,
+   "hi": 47.0
+  },
+  "sigma_model": 3.713,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8c44e37b",
+   "season": 2019,
+   "distance": 2.485,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Bastón",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "4e9a0555",
+   "season": 2020,
+   "distance": 2.853,
+   "survived": 1,
+   "fut_ability_v2": 24.0,
+   "player_name": "Chris Wood",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "129af0db",
+   "season": 2019,
+   "distance": 2.892,
+   "survived": 1,
+   "fut_ability_v2": 66.9,
+   "player_name": "Álvaro Morata",
+   "squad": "Atlético Madrid / Chelsea"
+  },
+  {
+   "fbref_id": "d14229f3",
+   "season": 2019,
+   "distance": 2.91,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrien Hunou",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "5046b7d4",
+   "season": 2018,
+   "distance": 2.945,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Stéphane Bahoken",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "9001138b",
+   "season": 2019,
+   "distance": 3.117,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Berić",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "2bae5658",
+   "season": 2018,
+   "distance": 3.129,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emmanuel Rivière",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "8ff07990",
+   "season": 2019,
+   "distance": 3.153,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Balotelli",
+   "squad": "Marseille / Nice"
+  },
+  {
+   "fbref_id": "9592289a",
+   "season": 2018,
+   "distance": 3.165,
+   "survived": 1,
+   "fut_ability_v2": 41.3,
+   "player_name": "Simone Zaza",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "d7d32194",
+   "season": 2018,
+   "distance": 3.199,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Mattia Destro",
+   "squad": "Bologna"
+  }
+ ],
  "low_confidence": false
 }

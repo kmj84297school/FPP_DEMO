@@ -26,10 +26,115 @@
   "confidence": 1.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3019,
+  "mu": 47.0,
+  "ci80": {
+   "lo": 38.4,
+   "hi": 55.6
+  },
+  "ci50": {
+   "lo": 42.4,
+   "hi": 51.5
+  },
+  "sigma_model": 1.38,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "282f75f3",
+   "season": 2019,
+   "distance": 1.564,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Lewis Dunk",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "debe38a0",
+   "season": 2020,
+   "distance": 1.616,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Egan",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 1.849,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "32c2d95f",
+   "season": 2019,
+   "distance": 1.869,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Yunis Abdelhamid",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "b96b595c",
+   "season": 2018,
+   "distance": 1.874,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Francesco Acerbi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "b4a014b1",
+   "season": 2020,
+   "distance": 1.907,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Diego Carlos",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "27a013f7",
+   "season": 2020,
+   "distance": 1.912,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Néstor Araujo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "8397a50c",
+   "season": 2020,
+   "distance": 1.946,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Tyrone Mings",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "1633fc8a",
+   "season": 2019,
+   "distance": 1.947,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanpe",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "b857bd29",
+   "season": 2020,
+   "distance": 1.975,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Antonio Raillo",
+   "squad": "Mallorca"
+  }
+ ],
  "low_confidence": false
 }

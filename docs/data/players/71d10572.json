@@ -26,10 +26,115 @@
   "confidence": 1.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2184,
+  "mu": 43.1,
+  "ci80": {
+   "lo": 32.9,
+   "hi": 53.2
+  },
+  "ci50": {
+   "lo": 37.7,
+   "hi": 48.4
+  },
+  "sigma_model": 4.462,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ed0c3318",
+   "season": 2019,
+   "distance": 2.666,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Malik Tchokounté",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "1fdec858",
+   "season": 2020,
+   "distance": 2.674,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dennis Srbeny",
+   "squad": "Paderborn 07 / Norwich City"
+  },
+  {
+   "fbref_id": "909222de",
+   "season": 2018,
+   "distance": 2.831,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuno da Costa",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "af721f98",
+   "season": 2019,
+   "distance": 2.901,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oumar Niasse",
+   "squad": "Cardiff City / Everton"
+  },
+  {
+   "fbref_id": "6c1f7328",
+   "season": 2019,
+   "distance": 2.901,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Inglese",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "6922f806",
+   "season": 2020,
+   "distance": 3.019,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Calleri",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "cd82452e",
+   "season": 2018,
+   "distance": 3.028,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "André Hahn",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "aa5859cb",
+   "season": 2018,
+   "distance": 3.031,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Depoitre",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "0a1efd3c",
+   "season": 2018,
+   "distance": 3.107,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrey Galabinov",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "80dbbd10",
+   "season": 2018,
+   "distance": 3.146,
+   "survived": 1,
+   "fut_ability_v2": 32.0,
+   "player_name": "Simeon Nwankwo",
+   "squad": "Crotone"
+  }
+ ],
  "low_confidence": false
 }

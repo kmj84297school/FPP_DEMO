@@ -26,10 +26,115 @@
   "confidence": 1.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.679,
+  "mu": 62.3,
+  "ci80": {
+   "lo": 53.2,
+   "hi": 71.4
+  },
+  "ci50": {
+   "lo": 57.5,
+   "hi": 67.1
+  },
+  "sigma_model": 2.741,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2018,
+   "distance": 1.837,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "6a99e0b1",
+   "season": 2019,
+   "distance": 2.573,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Iñaki Williams",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "129af0db",
+   "season": 2018,
+   "distance": 2.586,
+   "survived": 1,
+   "fut_ability_v2": 65.3,
+   "player_name": "Álvaro Morata",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2019,
+   "distance": 2.64,
+   "survived": 1,
+   "fut_ability_v2": 73.1,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "07802f7f",
+   "season": 2020,
+   "distance": 2.649,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Danny Ings",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "5eae500a",
+   "season": 2018,
+   "distance": 2.703,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Romelu Lukaku",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "834d0be5",
+   "season": 2018,
+   "distance": 2.718,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Lucas Alario",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "ff182fdc",
+   "season": 2019,
+   "distance": 2.734,
+   "survived": 1,
+   "fut_ability_v2": 40.3,
+   "player_name": "Ishak Belfodil",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2019,
+   "distance": 2.749,
+   "survived": 1,
+   "fut_ability_v2": 36.2,
+   "player_name": "Borja Iglesias",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "9dbb75ca",
+   "season": 2019,
+   "distance": 2.818,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Alexandre Lacazette",
+   "squad": "Arsenal"
+  }
+ ],
  "low_confidence": false
 }

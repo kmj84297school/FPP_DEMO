@@ -26,10 +26,115 @@
   "confidence": 1.54
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5526,
+  "mu": 50.8,
+  "ci80": {
+   "lo": 41.9,
+   "hi": 59.6
+  },
+  "ci50": {
+   "lo": 46.1,
+   "hi": 55.4
+  },
+  "sigma_model": 2.117,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "34b306a1",
+   "season": 2019,
+   "distance": 1.975,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Hoffmann",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "ac7e640b",
+   "season": 2020,
+   "distance": 2.199,
+   "survived": 1,
+   "fut_ability_v2": 51.4,
+   "player_name": "Mattia Caldara",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2020,
+   "distance": 2.212,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "6ec6fde0",
+   "season": 2020,
+   "distance": 2.346,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Kevin Akpoguma",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "79083382",
+   "season": 2018,
+   "distance": 2.413,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Jesus",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "16b9d5cf",
+   "season": 2019,
+   "distance": 2.457,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Nikola Maksimović",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "b0243215",
+   "season": 2019,
+   "distance": 2.48,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Dell'Orco",
+   "squad": "Empoli / Sassuolo"
+  },
+  {
+   "fbref_id": "b233e8e4",
+   "season": 2018,
+   "distance": 2.506,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Jeison Murillo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "def899bd",
+   "season": 2018,
+   "distance": 2.573,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Phil Jones",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "d0dbca9f",
+   "season": 2020,
+   "distance": 2.588,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Alex Ferrari",
+   "squad": "Sampdoria"
+  }
+ ],
  "low_confidence": false
 }

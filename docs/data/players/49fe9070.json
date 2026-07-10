@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.6994,
+  "mu": 61.5,
+  "ci80": {
+   "lo": 51.5,
+   "hi": 71.6
+  },
+  "ci50": {
+   "lo": 56.2,
+   "hi": 66.8
+  },
+  "sigma_model": 4.345,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2019,
+   "distance": 3.002,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Rodrigo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "eb2fe5b6",
+   "season": 2018,
+   "distance": 3.206,
+   "survived": 1,
+   "fut_ability_v2": 82.2,
+   "player_name": "Luis Muriel",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "5ceba7fc",
+   "season": 2019,
+   "distance": 3.268,
+   "survived": 1,
+   "fut_ability_v2": 71.0,
+   "player_name": "Karl Toko Ekambi",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "129af0db",
+   "season": 2018,
+   "distance": 3.397,
+   "survived": 1,
+   "fut_ability_v2": 65.3,
+   "player_name": "Álvaro Morata",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2018,
+   "distance": 3.535,
+   "survived": 1,
+   "fut_ability_v2": 62.5,
+   "player_name": "Rodrigo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "942b4f90",
+   "season": 2019,
+   "distance": 3.554,
+   "survived": 1,
+   "fut_ability_v2": 63.9,
+   "player_name": "Wissam Ben Yedder",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2019,
+   "distance": 3.558,
+   "survived": 1,
+   "fut_ability_v2": 73.1,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "ff182fdc",
+   "season": 2019,
+   "distance": 3.571,
+   "survived": 1,
+   "fut_ability_v2": 40.3,
+   "player_name": "Ishak Belfodil",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2018,
+   "distance": 3.601,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "0fe7f7bc",
+   "season": 2018,
+   "distance": 3.62,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giovanni Sio",
+   "squad": "Montpellier"
+  }
+ ],
+ "low_confidence": true
 }

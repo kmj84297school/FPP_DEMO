@@ -26,10 +26,115 @@
   "confidence": 0.13
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1064,
+  "mu": 44.8,
+  "ci80": {
+   "lo": 36.1,
+   "hi": 53.6
+  },
+  "ci50": {
+   "lo": 40.2,
+   "hi": 49.4
+  },
+  "sigma_model": 1.955,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "756959aa",
+   "season": 2018,
+   "distance": 2.047,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2020,
+   "distance": 2.244,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "ecab64a0",
+   "season": 2019,
+   "distance": 2.366,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "02b2937c",
+   "season": 2020,
+   "distance": 2.504,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Dessena",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "ad1ffcfd",
+   "season": 2019,
+   "distance": 2.51,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Vicente Iborra",
+   "squad": "Villarreal / Leicester City"
+  },
+  {
+   "fbref_id": "4dba2a97",
+   "season": 2018,
+   "distance": 2.573,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Rigoni",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "ad340e17",
+   "season": 2018,
+   "distance": 2.623,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Aquilani",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2019,
+   "distance": 2.631,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "c0cddebe",
+   "season": 2018,
+   "distance": 2.655,
+   "survived": 1,
+   "fut_ability_v2": 39.1,
+   "player_name": "Blaise Matuidi",
+   "squad": "Juventus / Paris S-G"
+  },
+  {
+   "fbref_id": "bc61cc65",
+   "season": 2020,
+   "distance": 2.726,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iñigo Pérez",
+   "squad": "Osasuna"
+  }
+ ],
  "low_confidence": false
 }

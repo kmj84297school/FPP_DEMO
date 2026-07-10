@@ -26,10 +26,115 @@
   "confidence": 2.63
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2623,
+  "mu": 48.0,
+  "ci80": {
+   "lo": 39.3,
+   "hi": 56.7
+  },
+  "ci50": {
+   "lo": 43.5,
+   "hi": 52.6
+  },
+  "sigma_model": 1.701,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5128bde4",
+   "season": 2019,
+   "distance": 2.119,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Darko Lazović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "16e9d0ea",
+   "season": 2020,
+   "distance": 2.491,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Álex Moreno",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "e726e11e",
+   "season": 2018,
+   "distance": 2.721,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Victor Moses",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "4aea5077",
+   "season": 2020,
+   "distance": 2.76,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Stefan Lainer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "aae9d04a",
+   "season": 2020,
+   "distance": 2.798,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Davide Faraoni",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "ef5b337e",
+   "season": 2018,
+   "distance": 2.953,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Borini",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "5128bde4",
+   "season": 2020,
+   "distance": 3.081,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Darko Lazović",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 3.126,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "05439de2",
+   "season": 2019,
+   "distance": 3.169,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "David Alaba",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "5f09991f",
+   "season": 2020,
+   "distance": 3.235,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick van Aanholt",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

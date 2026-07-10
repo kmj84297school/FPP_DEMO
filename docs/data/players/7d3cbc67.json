@@ -26,10 +26,115 @@
   "confidence": 0.48
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3644,
+  "mu": 42.9,
+  "ci80": {
+   "lo": 34.1,
+   "hi": 51.7
+  },
+  "ci50": {
+   "lo": 38.3,
+   "hi": 47.6
+  },
+  "sigma_model": 2.074,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3312f911",
+   "season": 2019,
+   "distance": 1.46,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "9085dd7c",
+   "season": 2019,
+   "distance": 1.773,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Faragò",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "2334478a",
+   "season": 2020,
+   "distance": 1.885,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Stefano Sturaro",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "16569fef",
+   "season": 2020,
+   "distance": 1.895,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitri Bisoli",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "a0666d3e",
+   "season": 2020,
+   "distance": 1.973,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Will Hughes",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "b93b7882",
+   "season": 2018,
+   "distance": 2.014,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "1512328c",
+   "season": 2018,
+   "distance": 2.108,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keko",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "410ab123",
+   "season": 2018,
+   "distance": 2.242,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lewis Holtby",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2018,
+   "distance": 2.338,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "3f79a1c8",
+   "season": 2019,
+   "distance": 2.344,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Gonzalo Escalante",
+   "squad": "Eibar"
+  }
+ ],
  "low_confidence": false
 }

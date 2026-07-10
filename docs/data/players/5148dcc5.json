@@ -26,10 +26,115 @@
   "confidence": 1.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6617,
+  "mu": 61.6,
+  "ci80": {
+   "lo": 52.7,
+   "hi": 70.4
+  },
+  "ci50": {
+   "lo": 56.9,
+   "hi": 66.2
+  },
+  "sigma_model": 2.144,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "819aa8e7",
+   "season": 2018,
+   "distance": 2.831,
+   "survived": 1,
+   "fut_ability_v2": 58.1,
+   "player_name": "Ayoze Pérez",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "2b622f01",
+   "season": 2019,
+   "distance": 2.869,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Lucas Moura",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "4e6dbac4",
+   "season": 2020,
+   "distance": 2.896,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Sergej Milinković-Savić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "819aa8e7",
+   "season": 2020,
+   "distance": 2.93,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ayoze Pérez",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "8e235926",
+   "season": 2019,
+   "distance": 3.006,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Michael Gregoritsch",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "e599253a",
+   "season": 2020,
+   "distance": 3.068,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Mario Pašalić",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "819aa8e7",
+   "season": 2019,
+   "distance": 3.231,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Ayoze Pérez",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "01eb744d",
+   "season": 2020,
+   "distance": 3.256,
+   "survived": 1,
+   "fut_ability_v2": 65.7,
+   "player_name": "Ángel Correa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "aeda1f69",
+   "season": 2018,
+   "distance": 3.33,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felix Klaus",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2020,
+   "distance": 3.337,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Portu",
+   "squad": "Real Sociedad"
+  }
+ ],
  "low_confidence": false
 }

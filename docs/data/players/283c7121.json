@@ -26,10 +26,115 @@
   "confidence": 0.4
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2584,
+  "mu": 46.0,
+  "ci80": {
+   "lo": 37.3,
+   "hi": 54.7
+  },
+  "ci50": {
+   "lo": 41.4,
+   "hi": 50.6
+  },
+  "sigma_model": 1.755,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2019,
+   "distance": 1.345,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "70dcf94d",
+   "season": 2019,
+   "distance": 1.928,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2020,
+   "distance": 1.978,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2018,
+   "distance": 2.102,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "f24ea523",
+   "season": 2019,
+   "distance": 2.169,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Genki Haraguchi",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "495945ef",
+   "season": 2019,
+   "distance": 2.202,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Ashley Westwood",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2019,
+   "distance": 2.204,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "3727dd3c",
+   "season": 2018,
+   "distance": 2.209,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Jonjo Shelvey",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2020,
+   "distance": 2.237,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "20e73fac",
+   "season": 2020,
+   "distance": 2.246,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  }
+ ],
  "low_confidence": false
 }

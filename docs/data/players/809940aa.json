@@ -26,10 +26,115 @@
   "confidence": 0.44
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1436,
+  "mu": 49.1,
+  "ci80": {
+   "lo": 39.9,
+   "hi": 58.2
+  },
+  "ci50": {
+   "lo": 44.2,
+   "hi": 53.9
+  },
+  "sigma_model": 2.797,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cfd8dde3",
+   "season": 2018,
+   "distance": 1.497,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Corgnet",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "d66b9872",
+   "season": 2020,
+   "distance": 1.859,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro León",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "9f4647e9",
+   "season": 2020,
+   "distance": 1.889,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Snodgrass",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "8cc3d96e",
+   "season": 2018,
+   "distance": 1.927,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chory Castro",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "c6637acf",
+   "season": 2019,
+   "distance": 2.09,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Caiuby",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "c27dfb82",
+   "season": 2019,
+   "distance": 2.21,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Gonçalves",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "d733aa38",
+   "season": 2020,
+   "distance": 2.231,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Torres",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "f07be45a",
+   "season": 2018,
+   "distance": 2.296,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wayne Rooney",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "49ffe0f2",
+   "season": 2019,
+   "distance": 2.397,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérôme Gondorf",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "9ab48bde",
+   "season": 2019,
+   "distance": 2.465,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo de Blasis",
+   "squad": "Eibar / Mainz 05"
+  }
+ ],
  "low_confidence": false
 }

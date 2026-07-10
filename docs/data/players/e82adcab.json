@@ -26,10 +26,115 @@
   "confidence": 1.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.3399,
+  "mu": 57.2,
+  "ci80": {
+   "lo": 48.4,
+   "hi": 65.9
+  },
+  "ci50": {
+   "lo": 52.6,
+   "hi": 61.8
+  },
+  "sigma_model": 1.895,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "51c30111",
+   "season": 2019,
+   "distance": 2.76,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Sanjin Prcić",
+   "squad": "Strasbourg / Levante"
+  },
+  {
+   "fbref_id": "4611e028",
+   "season": 2019,
+   "distance": 3.194,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Erick Pulgar",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "7f3b388c",
+   "season": 2019,
+   "distance": 3.367,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Fabinho",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "26db8853",
+   "season": 2020,
+   "distance": 3.376,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Walace",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "2b471f99",
+   "season": 2019,
+   "distance": 3.439,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Mario Lemina",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "e947ee4a",
+   "season": 2020,
+   "distance": 3.449,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Brugman",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "ed45c4a5",
+   "season": 2020,
+   "distance": 3.474,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Valentin Rongier",
+   "squad": "Marseille / Nantes"
+  },
+  {
+   "fbref_id": "ce30bfc8",
+   "season": 2019,
+   "distance": 3.491,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Roberto Gagliardini",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "1b82f8df",
+   "season": 2019,
+   "distance": 3.497,
+   "survived": 1,
+   "fut_ability_v2": 40.7,
+   "player_name": "Lukas Lerager",
+   "squad": "Bordeaux / Genoa"
+  },
+  {
+   "fbref_id": "0fbecd11",
+   "season": 2020,
+   "distance": 3.586,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Dominik Kohr",
+   "squad": "Eint Frankfurt"
+  }
+ ],
+ "low_confidence": true
 }

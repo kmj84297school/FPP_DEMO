@@ -26,10 +26,115 @@
   "confidence": 0.49
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.732,
+  "mu": 53.7,
+  "ci80": {
+   "lo": 44.9,
+   "hi": 62.6
+  },
+  "ci50": {
+   "lo": 49.1,
+   "hi": 58.4
+  },
+  "sigma_model": 2.12,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3376a776",
+   "season": 2020,
+   "distance": 1.775,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Karim Rekik",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2020,
+   "distance": 1.903,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "f2c1300a",
+   "season": 2018,
+   "distance": 1.948,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vitor Hugo",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "c01c66d9",
+   "season": 2018,
+   "distance": 1.984,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bastos",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "def899bd",
+   "season": 2019,
+   "distance": 2.004,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Phil Jones",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2020,
+   "distance": 2.03,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2019,
+   "distance": 2.095,
+   "survived": 1,
+   "fut_ability_v2": 62.5,
+   "player_name": "Berat Djimsiti",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "f35430a4",
+   "season": 2020,
+   "distance": 2.153,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matija Nastasić",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "921f6058",
+   "season": 2018,
+   "distance": 2.185,
+   "survived": 1,
+   "fut_ability_v2": 63.7,
+   "player_name": "José Luis Palomino",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "87935cf3",
+   "season": 2018,
+   "distance": 2.223,
+   "survived": 1,
+   "fut_ability_v2": 39.9,
+   "player_name": "Mamadou Sakho",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

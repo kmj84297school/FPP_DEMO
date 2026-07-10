@@ -26,10 +26,115 @@
   "confidence": 0.47
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8123,
+  "mu": 49.8,
+  "ci80": {
+   "lo": 41.2,
+   "hi": 58.5
+  },
+  "ci50": {
+   "lo": 45.3,
+   "hi": 54.4
+  },
+  "sigma_model": 1.638,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2019,
+   "distance": 1.536,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "0d077b88",
+   "season": 2019,
+   "distance": 1.613,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Bourabia",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2018,
+   "distance": 1.727,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "c2211709",
+   "season": 2020,
+   "distance": 1.732,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Ellyes Skhiri",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2020,
+   "distance": 1.733,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Abeid",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "70dcf94d",
+   "season": 2020,
+   "distance": 1.919,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "3f79a1c8",
+   "season": 2019,
+   "distance": 1.92,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Gonzalo Escalante",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "fe641c1a",
+   "season": 2019,
+   "distance": 1.95,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Thomas Delaney",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2019,
+   "distance": 2.05,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2018,
+   "distance": 2.069,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

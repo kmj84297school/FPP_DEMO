@@ -26,10 +26,115 @@
   "confidence": 2.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2419,
+  "mu": 40.1,
+  "ci80": {
+   "lo": 31.2,
+   "hi": 49.0
+  },
+  "ci50": {
+   "lo": 35.4,
+   "hi": 44.8
+  },
+  "sigma_model": 2.27,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2019,
+   "distance": 2.209,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Coke",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "ad6295d4",
+   "season": 2018,
+   "distance": 2.457,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Layún",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "e94d79e3",
+   "season": 2018,
+   "distance": 2.643,
+   "survived": 1,
+   "fut_ability_v2": 41.7,
+   "player_name": "Martín Cáceres",
+   "squad": "Hellas Verona / Lazio"
+  },
+  {
+   "fbref_id": "dbe519cf",
+   "season": 2019,
+   "distance": 2.753,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antoñito",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "7fd58fe3",
+   "season": 2020,
+   "distance": 2.819,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Senad Lulić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2018,
+   "distance": 2.899,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Coke",
+   "squad": "Levante / Schalke 04"
+  },
+  {
+   "fbref_id": "b3b7f5a6",
+   "season": 2020,
+   "distance": 2.977,
+   "survived": 1,
+   "fut_ability_v2": 38.2,
+   "player_name": "Timothy Chandler",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "652811aa",
+   "season": 2020,
+   "distance": 3.002,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Calderoni",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2020,
+   "distance": 3.027,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2019,
+   "distance": 3.05,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

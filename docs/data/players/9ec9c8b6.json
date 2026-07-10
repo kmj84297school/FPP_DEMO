@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1271,
+  "mu": 41.5,
+  "ci80": {
+   "lo": 32.7,
+   "hi": 50.3
+  },
+  "ci50": {
+   "lo": 36.8,
+   "hi": 46.1
+  },
+  "sigma_model": 2.01,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1a317a1b",
+   "season": 2018,
+   "distance": 1.837,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Raúl García",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "1e12c53b",
+   "season": 2020,
+   "distance": 1.885,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Martella",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "6435e737",
+   "season": 2018,
+   "distance": 1.98,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Konstantin Rausch",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "9ba48d64",
+   "season": 2019,
+   "distance": 2.031,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2020,
+   "distance": 2.222,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2019,
+   "distance": 2.253,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Inter"
+  },
+  {
+   "fbref_id": "d459281d",
+   "season": 2019,
+   "distance": 2.259,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miiko Albornoz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "71ef519e",
+   "season": 2020,
+   "distance": 2.268,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2019,
+   "distance": 2.294,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 2.367,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  }
+ ],
  "low_confidence": false
 }

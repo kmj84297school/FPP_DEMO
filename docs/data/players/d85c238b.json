@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6332,
+  "mu": 55.1,
+  "ci80": {
+   "lo": 46.0,
+   "hi": 64.1
+  },
+  "ci50": {
+   "lo": 50.3,
+   "hi": 59.8
+  },
+  "sigma_model": 2.637,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "854ee61a",
+   "season": 2019,
+   "distance": 1.456,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Grégoire Defrel",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2020,
+   "distance": 1.911,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Antoine Griezmann",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "64f69877",
+   "season": 2018,
+   "distance": 1.996,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2018,
+   "distance": 2.151,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Mark Uth",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2020,
+   "distance": 2.183,
+   "survived": 1,
+   "fut_ability_v2": 38.3,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2019,
+   "distance": 2.21,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "601ef102",
+   "season": 2020,
+   "distance": 2.253,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Okaka",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2018,
+   "distance": 2.281,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Yuya Osako",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 2.285,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2018,
+   "distance": 2.385,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Diego Farias",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

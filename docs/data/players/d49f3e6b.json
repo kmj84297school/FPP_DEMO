@@ -26,10 +26,115 @@
   "confidence": 0.65
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5237,
+  "mu": 43.6,
+  "ci80": {
+   "lo": 34.5,
+   "hi": 52.8
+  },
+  "ci50": {
+   "lo": 38.8,
+   "hi": 48.4
+  },
+  "sigma_model": 2.764,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2019,
+   "distance": 2.785,
+   "survived": 1,
+   "fut_ability_v2": 66.4,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "dd669209",
+   "season": 2019,
+   "distance": 2.829,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Renato Steffen",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "d1491e00",
+   "season": 2018,
+   "distance": 2.848,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Rolán",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2018,
+   "distance": 2.943,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Diego Farias",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "75a63397",
+   "season": 2020,
+   "distance": 2.959,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Opa Nguette",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "854ee61a",
+   "season": 2019,
+   "distance": 3.174,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Grégoire Defrel",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "19b776e9",
+   "season": 2019,
+   "distance": 3.177,
+   "survived": 1,
+   "fut_ability_v2": 37.1,
+   "player_name": "Rubén Sobrino",
+   "squad": "Alavés / Valencia"
+  },
+  {
+   "fbref_id": "ecbb3fdf",
+   "season": 2019,
+   "distance": 3.194,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Schürrle",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "da052c14",
+   "season": 2020,
+   "distance": 3.237,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Jordan Ayew",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2019,
+   "distance": 3.246,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.15
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7749,
+  "mu": 58.6,
+  "ci80": {
+   "lo": 49.8,
+   "hi": 67.4
+  },
+  "ci50": {
+   "lo": 54.0,
+   "hi": 63.3
+  },
+  "sigma_model": 2.032,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "18b896d6",
+   "season": 2019,
+   "distance": 1.459,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Antonio Rüdiger",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "d5f2f82b",
+   "season": 2019,
+   "distance": 1.577,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Marquinhos",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "da974c7b",
+   "season": 2018,
+   "distance": 1.62,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "4f28a6ff",
+   "season": 2020,
+   "distance": 1.77,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Clément Lenglet",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "e27da244",
+   "season": 2019,
+   "distance": 1.773,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "da974c7b",
+   "season": 2019,
+   "distance": 1.795,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2019,
+   "distance": 1.87,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2018,
+   "distance": 1.955,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "fbd6378b",
+   "season": 2018,
+   "distance": 2.007,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Aïssa Mandi",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2018,
+   "distance": 2.022,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Kostas Manolas",
+   "squad": "Roma"
+  }
+ ],
  "low_confidence": false
 }

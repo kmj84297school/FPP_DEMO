@@ -26,10 +26,115 @@
   "confidence": 0.57
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1958,
+  "mu": 53.4,
+  "ci80": {
+   "lo": 44.3,
+   "hi": 62.5
+  },
+  "ci50": {
+   "lo": 48.6,
+   "hi": 58.2
+  },
+  "sigma_model": 2.713,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9ab48bde",
+   "season": 2019,
+   "distance": 2.884,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo de Blasis",
+   "squad": "Eibar / Mainz 05"
+  },
+  {
+   "fbref_id": "c27dfb82",
+   "season": 2018,
+   "distance": 2.905,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Gonçalves",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "b827d5b3",
+   "season": 2019,
+   "distance": 3.116,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Marc Albrighton",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "ad4d0985",
+   "season": 2020,
+   "distance": 3.135,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Sánchez",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "f503ea63",
+   "season": 2018,
+   "distance": 3.14,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Albin Ekdal",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "0e50f929",
+   "season": 2020,
+   "distance": 3.141,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fran Mérida",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "ff45add5",
+   "season": 2020,
+   "distance": 3.242,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfredo Morales",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "eaf71a5e",
+   "season": 2018,
+   "distance": 3.248,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Azamoum",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "5aaef9ef",
+   "season": 2019,
+   "distance": 3.267,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Juraj Kucka",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "42fff925",
+   "season": 2018,
+   "distance": 3.269,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Mora",
+   "squad": "SPAL"
+  }
+ ],
  "low_confidence": false
 }

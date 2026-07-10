@@ -26,10 +26,115 @@
   "confidence": 0.44
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3282,
+  "mu": 50.7,
+  "ci80": {
+   "lo": 41.9,
+   "hi": 59.5
+  },
+  "ci50": {
+   "lo": 46.1,
+   "hi": 55.4
+  },
+  "sigma_model": 2.015,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1cd87320",
+   "season": 2018,
+   "distance": 1.726,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Ostrzolek",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "6873f3bc",
+   "season": 2018,
+   "distance": 1.833,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dennis Diekmeier",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "ec400194",
+   "season": 2019,
+   "distance": 1.917,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oussama Haddadi",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "d9ba39fc",
+   "season": 2020,
+   "distance": 1.945,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Diego Rico",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "ba5004e1",
+   "season": 2018,
+   "distance": 2.057,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Damián Suárez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "3024e383",
+   "season": 2020,
+   "distance": 2.063,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "José Ángel",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "e29d1111",
+   "season": 2019,
+   "distance": 2.073,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Nacho",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "e199d5b0",
+   "season": 2020,
+   "distance": 2.131,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Zimmermann",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2018,
+   "distance": 2.161,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2018,
+   "distance": 2.199,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  }
+ ],
  "low_confidence": false
 }

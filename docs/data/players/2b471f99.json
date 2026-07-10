@@ -26,10 +26,115 @@
   "confidence": 0.81
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2731,
+  "mu": 51.9,
+  "ci80": {
+   "lo": 43.1,
+   "hi": 60.7
+  },
+  "ci50": {
+   "lo": 47.3,
+   "hi": 56.5
+  },
+  "sigma_model": 2.012,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f4081572",
+   "season": 2019,
+   "distance": 1.518,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuri Şahin",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "5ce0b5ba",
+   "season": 2019,
+   "distance": 1.642,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Asier Illarramendi",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2019,
+   "distance": 1.743,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "69374ff5",
+   "season": 2019,
+   "distance": 1.749,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Julian Baumgartlinger",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "4114f306",
+   "season": 2018,
+   "distance": 1.799,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Höger",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "73489527",
+   "season": 2018,
+   "distance": 1.84,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Defour",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "111c3236",
+   "season": 2020,
+   "distance": 1.922,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabian Delph",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "faec2ec4",
+   "season": 2018,
+   "distance": 2.024,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Pizarro",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2020,
+   "distance": 2.029,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Obiang",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "496aeede",
+   "season": 2019,
+   "distance": 2.033,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Christoph Kramer",
+   "squad": "M'Gladbach"
+  }
+ ],
  "low_confidence": false
 }

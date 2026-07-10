@@ -26,10 +26,115 @@
   "confidence": 1.76
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5739,
+  "mu": 45.9,
+  "ci80": {
+   "lo": 37.0,
+   "hi": 54.7
+  },
+  "ci50": {
+   "lo": 41.2,
+   "hi": 50.5
+  },
+  "sigma_model": 2.205,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c067631c",
+   "season": 2019,
+   "distance": 1.783,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Fredericks",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "f2a68b97",
+   "season": 2019,
+   "distance": 2.192,
+   "survived": 1,
+   "fut_ability_v2": 43.3,
+   "player_name": "Carlos Akapo",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "9050ddc4",
+   "season": 2020,
+   "distance": 2.416,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Jetro Willems",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "5efc5389",
+   "season": 2020,
+   "distance": 2.435,
+   "survived": 1,
+   "fut_ability_v2": 39.1,
+   "player_name": "Charalambos Lykogiannis",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "eb5bc3eb",
+   "season": 2018,
+   "distance": 2.494,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enric Saborit",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "46a8347f",
+   "season": 2018,
+   "distance": 2.575,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Šime Vrsaljko",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "2a29eb9b",
+   "season": 2019,
+   "distance": 2.67,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Lukas Kübler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2019,
+   "distance": 2.738,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Inter"
+  },
+  {
+   "fbref_id": "37f1cf47",
+   "season": 2019,
+   "distance": 2.778,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Ander Capa",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "de488e56",
+   "season": 2019,
+   "distance": 2.843,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Charles Traore",
+   "squad": "Nantes"
+  }
+ ],
  "low_confidence": false
 }

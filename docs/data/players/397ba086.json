@@ -26,10 +26,115 @@
   "confidence": 0.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2412,
+  "mu": 38.5,
+  "ci80": {
+   "lo": 29.6,
+   "hi": 47.4
+  },
+  "ci50": {
+   "lo": 33.8,
+   "hi": 43.2
+  },
+  "sigma_model": 2.189,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fd771f95",
+   "season": 2020,
+   "distance": 2.103,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Braithwaite",
+   "squad": "Leganés / Barcelona"
+  },
+  {
+   "fbref_id": "9853983f",
+   "season": 2019,
+   "distance": 2.33,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bobby Wood",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "625e41b1",
+   "season": 2020,
+   "distance": 2.423,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Streli Mamba",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "19b776e9",
+   "season": 2019,
+   "distance": 2.483,
+   "survived": 1,
+   "fut_ability_v2": 37.1,
+   "player_name": "Rubén Sobrino",
+   "squad": "Alavés / Valencia"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2019,
+   "distance": 2.518,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 2.534,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "549c6ba7",
+   "season": 2018,
+   "distance": 2.65,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Di Santo",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "4d50454e",
+   "season": 2020,
+   "distance": 2.671,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ben Zolinski",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "fcbcbd94",
+   "season": 2019,
+   "distance": 2.691,
+   "survived": 1,
+   "fut_ability_v2": 32.0,
+   "player_name": "Moussa Konaté",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2019,
+   "distance": 2.703,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  }
+ ],
  "low_confidence": false
 }

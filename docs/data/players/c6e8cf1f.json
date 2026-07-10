@@ -26,10 +26,115 @@
   "confidence": 0.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7191,
+  "mu": 51.5,
+  "ci80": {
+   "lo": 42.8,
+   "hi": 60.2
+  },
+  "ci50": {
+   "lo": 46.9,
+   "hi": 56.1
+  },
+  "sigma_model": 1.667,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2020,
+   "distance": 1.838,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Abeid",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2019,
+   "distance": 2.215,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "70dcf94d",
+   "season": 2020,
+   "distance": 2.226,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "468fdbad",
+   "season": 2018,
+   "distance": 2.297,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonas Martin",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "a0434482",
+   "season": 2019,
+   "distance": 2.3,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eddy Gnahoré",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2019,
+   "distance": 2.361,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Kevin Strootman",
+   "squad": "Marseille / Roma"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2020,
+   "distance": 2.416,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "bf13975c",
+   "season": 2020,
+   "distance": 2.422,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Žan Majer",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2018,
+   "distance": 2.438,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "0f9b8301",
+   "season": 2020,
+   "distance": 2.444,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Battocchio",
+   "squad": "Brest"
+  }
+ ],
  "low_confidence": false
 }

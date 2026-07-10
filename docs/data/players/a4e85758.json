@@ -26,10 +26,115 @@
   "confidence": 1.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8301,
+  "mu": 54.6,
+  "ci80": {
+   "lo": 45.9,
+   "hi": 63.3
+  },
+  "ci50": {
+   "lo": 50.0,
+   "hi": 59.2
+  },
+  "sigma_model": 1.862,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "18b896d6",
+   "season": 2020,
+   "distance": 1.452,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Antonio Rüdiger",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "b217ef29",
+   "season": 2019,
+   "distance": 1.585,
+   "survived": 1,
+   "fut_ability_v2": 71.2,
+   "player_name": "Joël Matip",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "b217ef29",
+   "season": 2018,
+   "distance": 1.66,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joël Matip",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "463503e2",
+   "season": 2018,
+   "distance": 1.729,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcin Kamiński",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "5832ebfe",
+   "season": 2020,
+   "distance": 1.813,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Denswil",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2020,
+   "distance": 1.831,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2018,
+   "distance": 1.989,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Kostas Manolas",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ce4246f5",
+   "season": 2020,
+   "distance": 2.012,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Kurt Zouma",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "18b896d6",
+   "season": 2018,
+   "distance": 2.026,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Antonio Rüdiger",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "e06683ca",
+   "season": 2018,
+   "distance": 2.158,
+   "survived": 1,
+   "fut_ability_v2": 63.9,
+   "player_name": "Virgil van Dijk",
+   "squad": "Liverpool / Southampton"
+  }
+ ],
  "low_confidence": false
 }

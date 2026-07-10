@@ -26,10 +26,115 @@
   "confidence": 1.21
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1033,
+  "mu": 41.5,
+  "ci80": {
+   "lo": 32.7,
+   "hi": 50.3
+  },
+  "ci50": {
+   "lo": 36.8,
+   "hi": 46.1
+  },
+  "sigma_model": 2.01,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2019,
+   "distance": 1.837,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "6435e737",
+   "season": 2018,
+   "distance": 2.021,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Konstantin Rausch",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2019,
+   "distance": 2.024,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "1a317a1b",
+   "season": 2020,
+   "distance": 2.091,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl García",
+   "squad": "Valladolid / Getafe"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2019,
+   "distance": 2.093,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "00a6485f",
+   "season": 2019,
+   "distance": 2.14,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Beck",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2019,
+   "distance": 2.19,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "15e1afd5",
+   "season": 2018,
+   "distance": 2.254,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franck Tabanou",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "dbe519cf",
+   "season": 2020,
+   "distance": 2.259,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antoñito",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "89d10e53",
+   "season": 2020,
+   "distance": 2.3,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Rose",
+   "squad": "Tottenham / Newcastle Utd"
+  }
+ ],
  "low_confidence": false
 }

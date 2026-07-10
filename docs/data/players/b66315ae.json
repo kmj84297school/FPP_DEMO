@@ -26,10 +26,115 @@
   "confidence": 0.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8088,
+  "mu": 62.9,
+  "ci80": {
+   "lo": 53.9,
+   "hi": 71.9
+  },
+  "ci50": {
+   "lo": 58.2,
+   "hi": 67.7
+  },
+  "sigma_model": 2.523,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4c370d81",
+   "season": 2020,
+   "distance": 2.751,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Roberto Firmino",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "b400bde0",
+   "season": 2020,
+   "distance": 2.762,
+   "survived": 1,
+   "fut_ability_v2": 74.4,
+   "player_name": "Raheem Sterling",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "ff182fdc",
+   "season": 2019,
+   "distance": 2.94,
+   "survived": 1,
+   "fut_ability_v2": 40.3,
+   "player_name": "Ishak Belfodil",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2020,
+   "distance": 3.021,
+   "survived": 1,
+   "fut_ability_v2": 71.1,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2019,
+   "distance": 3.287,
+   "survived": 1,
+   "fut_ability_v2": 74.2,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "d3de9af0",
+   "season": 2019,
+   "distance": 3.289,
+   "survived": 1,
+   "fut_ability_v2": 73.7,
+   "player_name": "Duván Zapata",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "4c370d81",
+   "season": 2019,
+   "distance": 3.41,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Roberto Firmino",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "942b4f90",
+   "season": 2019,
+   "distance": 3.488,
+   "survived": 1,
+   "fut_ability_v2": 63.9,
+   "player_name": "Wissam Ben Yedder",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "9dbb75ca",
+   "season": 2018,
+   "distance": 3.534,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Alexandre Lacazette",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "e342ad68",
+   "season": 2018,
+   "distance": 3.548,
+   "survived": 1,
+   "fut_ability_v2": 73.7,
+   "player_name": "Mohamed Salah",
+   "squad": "Liverpool"
+  }
+ ],
  "low_confidence": false
 }

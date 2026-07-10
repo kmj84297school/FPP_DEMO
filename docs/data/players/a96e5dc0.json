@@ -26,10 +26,115 @@
   "confidence": 0.63
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3979,
+  "mu": 47.9,
+  "ci80": {
+   "lo": 39.1,
+   "hi": 56.6
+  },
+  "ci50": {
+   "lo": 43.3,
+   "hi": 52.5
+  },
+  "sigma_model": 1.844,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2020,
+   "distance": 2.528,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2019,
+   "distance": 2.864,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2018,
+   "distance": 2.908,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "173061c0",
+   "season": 2020,
+   "distance": 2.92,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Riccardo Gagliolo",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 3.008,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2019,
+   "distance": 3.086,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "d1661819",
+   "season": 2020,
+   "distance": 3.088,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Bastian Oczipka",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "0b5a292a",
+   "season": 2018,
+   "distance": 3.09,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Mário Rui",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2019,
+   "distance": 3.106,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2018,
+   "distance": 3.125,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  }
+ ],
  "low_confidence": false
 }

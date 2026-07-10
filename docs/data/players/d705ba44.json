@@ -26,10 +26,115 @@
   "confidence": 1.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1671,
+  "mu": 40.8,
+  "ci80": {
+   "lo": 31.8,
+   "hi": 49.8
+  },
+  "ci50": {
+   "lo": 36.1,
+   "hi": 45.6
+  },
+  "sigma_model": 2.507,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9a104dee",
+   "season": 2018,
+   "distance": 1.66,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cenk Tosun",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2019,
+   "distance": 2.402,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "0af4dcf0",
+   "season": 2018,
+   "distance": 2.488,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Bakambu",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "9a104dee",
+   "season": 2019,
+   "distance": 2.514,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cenk Tosun",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "bb4b1242",
+   "season": 2018,
+   "distance": 2.537,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Sergi Enrich",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "4d50454e",
+   "season": 2020,
+   "distance": 2.586,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ben Zolinski",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2018,
+   "distance": 2.59,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Ante Budimir",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2020,
+   "distance": 2.596,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "9f472354",
+   "season": 2018,
+   "distance": 2.597,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2019,
+   "distance": 2.661,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  }
+ ],
  "low_confidence": false
 }

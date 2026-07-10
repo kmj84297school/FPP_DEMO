@@ -26,10 +26,115 @@
   "confidence": 0.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0628,
+  "mu": 47.5,
+  "ci80": {
+   "lo": 38.7,
+   "hi": 56.3
+  },
+  "ci50": {
+   "lo": 42.9,
+   "hi": 52.1
+  },
+  "sigma_model": 1.982,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2018,
+   "distance": 2.811,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "516dc25b",
+   "season": 2019,
+   "distance": 2.925,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaroslav Plašil",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "43a1bea5",
+   "season": 2018,
+   "distance": 2.926,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Édgar Barreto",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "ad340e17",
+   "season": 2018,
+   "distance": 2.937,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Aquilani",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "4dba2a97",
+   "season": 2019,
+   "distance": 2.963,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Rigoni",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "f3642ba8",
+   "season": 2019,
+   "distance": 3.012,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Bodmer",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "7dbbe367",
+   "season": 2018,
+   "distance": 3.086,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gareth Barry",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2019,
+   "distance": 3.24,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "1c8dc17d",
+   "season": 2018,
+   "distance": 3.258,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michael Krohn-Dehli",
+   "squad": "La Coruña / Sevilla"
+  },
+  {
+   "fbref_id": "a4f94a0d",
+   "season": 2020,
+   "distance": 3.361,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Gentner",
+   "squad": "Union Berlin"
+  }
+ ],
  "low_confidence": false
 }

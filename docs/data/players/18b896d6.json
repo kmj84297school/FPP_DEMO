@@ -26,10 +26,115 @@
   "confidence": 0.48
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4174,
+  "mu": 52.5,
+  "ci80": {
+   "lo": 43.7,
+   "hi": 61.3
+  },
+  "ci50": {
+   "lo": 47.8,
+   "hi": 57.2
+  },
+  "sigma_model": 2.135,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ac3fb1be",
+   "season": 2019,
+   "distance": 1.668,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezequiel Garay",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "89151b16",
+   "season": 2020,
+   "distance": 1.751,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zouhair Feddal",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "0d267745",
+   "season": 2020,
+   "distance": 1.843,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolás Otamendi",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "52ec54d0",
+   "season": 2019,
+   "distance": 1.88,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Leonardo Bonucci",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2020,
+   "distance": 1.932,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2020,
+   "distance": 1.995,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro González",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "ad178594",
+   "season": 2018,
+   "distance": 2.025,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl Navas",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "d0d8dd44",
+   "season": 2020,
+   "distance": 2.031,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Stefan de Vrij",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "450e277f",
+   "season": 2018,
+   "distance": 2.031,
+   "survived": 1,
+   "fut_ability_v2": 45.6,
+   "player_name": "Mateo Pavlović",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2020,
+   "distance": 2.112,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kostas Manolas",
+   "squad": "Napoli"
+  }
+ ],
  "low_confidence": false
 }

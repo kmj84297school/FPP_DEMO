@@ -26,10 +26,115 @@
   "confidence": 0.57
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7417,
+  "mu": 54.7,
+  "ci80": {
+   "lo": 45.8,
+   "hi": 63.6
+  },
+  "ci50": {
+   "lo": 50.0,
+   "hi": 59.4
+  },
+  "sigma_model": 2.267,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "64f69877",
+   "season": 2018,
+   "distance": 1.478,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2019,
+   "distance": 1.533,
+   "survived": 1,
+   "fut_ability_v2": 73.4,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "7cdda3bf",
+   "season": 2019,
+   "distance": 1.704,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Gaëtan Laborde",
+   "squad": "Montpellier / Bordeaux"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2018,
+   "distance": 1.903,
+   "survived": 1,
+   "fut_ability_v2": 71.1,
+   "player_name": "Gerard Moreno",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2019,
+   "distance": 1.93,
+   "survived": 1,
+   "fut_ability_v2": 73.1,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "b561db50",
+   "season": 2019,
+   "distance": 1.945,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2020,
+   "distance": 2.02,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d705ba44",
+   "season": 2020,
+   "distance": 2.057,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Andrea Belotti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "4f16405e",
+   "season": 2018,
+   "distance": 2.083,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niclas Füllkrug",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "7cdda3bf",
+   "season": 2020,
+   "distance": 2.133,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Gaëtan Laborde",
+   "squad": "Montpellier"
+  }
+ ],
  "low_confidence": false
 }

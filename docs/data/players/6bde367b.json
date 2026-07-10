@@ -26,10 +26,115 @@
   "confidence": 1.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3608,
+  "mu": 58.1,
+  "ci80": {
+   "lo": 49.3,
+   "hi": 66.8
+  },
+  "ci50": {
+   "lo": 53.4,
+   "hi": 62.7
+  },
+  "sigma_model": 2.011,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "455a2b79",
+   "season": 2018,
+   "distance": 2.454,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valter Birsa",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2020,
+   "distance": 2.476,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Radja Nainggolan",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2020,
+   "distance": 2.71,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2018,
+   "distance": 2.743,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Radja Nainggolan",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "f09a8b75",
+   "season": 2019,
+   "distance": 2.941,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jimmy Durmaz",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "f7691f63",
+   "season": 2018,
+   "distance": 3.048,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Dimitri Liénard",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2020,
+   "distance": 3.048,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "5f9f0531",
+   "season": 2018,
+   "distance": 3.158,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Hunt",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "9f4647e9",
+   "season": 2019,
+   "distance": 3.182,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Snodgrass",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2020,
+   "distance": 3.203,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Brighton"
+  }
+ ],
  "low_confidence": false
 }

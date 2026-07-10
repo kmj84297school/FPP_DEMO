@@ -26,10 +26,115 @@
   "confidence": 0.9
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3399,
+  "mu": 50.1,
+  "ci80": {
+   "lo": 40.7,
+   "hi": 59.5
+  },
+  "ci50": {
+   "lo": 45.2,
+   "hi": 55.0
+  },
+  "sigma_model": 3.22,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d733aa38",
+   "season": 2020,
+   "distance": 1.994,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Torres",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "c6637acf",
+   "season": 2018,
+   "distance": 2.096,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Caiuby",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "d66b9872",
+   "season": 2020,
+   "distance": 2.305,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro León",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "04965583",
+   "season": 2020,
+   "distance": 2.364,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Aleix Vidal",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "b500b384",
+   "season": 2020,
+   "distance": 2.435,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Admir Mehmedi",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "2c3a6c21",
+   "season": 2020,
+   "distance": 2.469,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Mancosu",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "9f4647e9",
+   "season": 2020,
+   "distance": 2.529,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Snodgrass",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "cfd8dde3",
+   "season": 2018,
+   "distance": 2.549,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Corgnet",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "61bd33d0",
+   "season": 2020,
+   "distance": 2.615,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Takashi Inui",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "9d2a3d5f",
+   "season": 2019,
+   "distance": 2.638,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibai Gómez",
+   "squad": "Alavés / Athletic Club"
+  }
+ ],
  "low_confidence": false
 }

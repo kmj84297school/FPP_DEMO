@@ -26,10 +26,115 @@
   "confidence": 0.66
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2657,
+  "mu": 42.4,
+  "ci80": {
+   "lo": 33.7,
+   "hi": 51.2
+  },
+  "ci50": {
+   "lo": 37.8,
+   "hi": 47.0
+  },
+  "sigma_model": 1.82,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "09a9e921",
+   "season": 2019,
+   "distance": 2.272,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Carlos Bacca",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "c58270f8",
+   "season": 2018,
+   "distance": 2.518,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Souleymane Camara",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "aa51343f",
+   "season": 2019,
+   "distance": 2.589,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Mirallas",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2020,
+   "distance": 2.623,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "53e07d0b",
+   "season": 2020,
+   "distance": 2.75,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ádám Szalai",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "8e87af42",
+   "season": 2018,
+   "distance": 2.76,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Préjuce Nakoulma",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "9f472354",
+   "season": 2018,
+   "distance": 2.828,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "0b4d8274",
+   "season": 2018,
+   "distance": 2.96,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Romain Hamouma",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "f4ec4fd0",
+   "season": 2019,
+   "distance": 2.993,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin-Prince Boateng",
+   "squad": "Sassuolo / Barcelona"
+  },
+  {
+   "fbref_id": "43a2e16c",
+   "season": 2019,
+   "distance": 3.028,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirco Antenucci",
+   "squad": "SPAL"
+  }
+ ],
  "low_confidence": false
 }

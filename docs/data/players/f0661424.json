@@ -26,10 +26,115 @@
   "confidence": 1.0
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4876,
+  "mu": 59.1,
+  "ci80": {
+   "lo": 50.5,
+   "hi": 67.7
+  },
+  "ci50": {
+   "lo": 54.6,
+   "hi": 63.7
+  },
+  "sigma_model": 1.526,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "44eb9093",
+   "season": 2018,
+   "distance": 2.181,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "4601e194",
+   "season": 2018,
+   "distance": 2.282,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "53cad200",
+   "season": 2019,
+   "distance": 2.384,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "César Azpilicueta",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2018,
+   "distance": 2.543,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Nacho Monreal",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "53cad200",
+   "season": 2020,
+   "distance": 2.544,
+   "survived": 1,
+   "fut_ability_v2": 66.7,
+   "player_name": "César Azpilicueta",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2020,
+   "distance": 2.633,
+   "survived": 1,
+   "fut_ability_v2": 64.0,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2019,
+   "distance": 2.679,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "c0e27d1a",
+   "season": 2019,
+   "distance": 2.793,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "David Luiz",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "08511d65",
+   "season": 2018,
+   "distance": 2.877,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Sergio Ramos",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2019,
+   "distance": 2.922,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Nacho Monreal",
+   "squad": "Arsenal"
+  }
+ ],
  "low_confidence": false
 }

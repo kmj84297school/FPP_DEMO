@@ -26,10 +26,115 @@
   "confidence": 1.23
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.738,
+  "mu": 37.7,
+  "ci80": {
+   "lo": 28.7,
+   "hi": 46.7
+  },
+  "ci50": {
+   "lo": 33.0,
+   "hi": 42.5
+  },
+  "sigma_model": 2.493,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5efc5389",
+   "season": 2020,
+   "distance": 1.877,
+   "survived": 1,
+   "fut_ability_v2": 39.1,
+   "player_name": "Charalambos Lykogiannis",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "cfe6238d",
+   "season": 2018,
+   "distance": 2.022,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Moritz Bauer",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "e9208654",
+   "season": 2018,
+   "distance": 2.092,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tommy Smith",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "ae0a7ddf",
+   "season": 2019,
+   "distance": 2.163,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "DeAndre Yedlin",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "46a8347f",
+   "season": 2018,
+   "distance": 2.261,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Šime Vrsaljko",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "2a29eb9b",
+   "season": 2019,
+   "distance": 2.355,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Lukas Kübler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "cf623c78",
+   "season": 2019,
+   "distance": 2.511,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Erik Durm",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "de0f152c",
+   "season": 2020,
+   "distance": 2.534,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "Adam Masina",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2018,
+   "distance": 2.579,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2019,
+   "distance": 2.605,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Inter"
+  }
+ ],
  "low_confidence": false
 }

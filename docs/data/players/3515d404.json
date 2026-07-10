@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4048,
+  "mu": 47.8,
+  "ci80": {
+   "lo": 39.0,
+   "hi": 56.6
+  },
+  "ci50": {
+   "lo": 43.2,
+   "hi": 52.4
+  },
+  "sigma_model": 1.953,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "80f36c88",
+   "season": 2020,
+   "distance": 1.784,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Rudy",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "495945ef",
+   "season": 2020,
+   "distance": 2.043,
+   "survived": 1,
+   "fut_ability_v2": 42.3,
+   "player_name": "Ashley Westwood",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "79135368",
+   "season": 2018,
+   "distance": 2.062,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fayçal Fajr",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "495945ef",
+   "season": 2019,
+   "distance": 2.072,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Ashley Westwood",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "279ddf6a",
+   "season": 2020,
+   "distance": 2.092,
+   "survived": 1,
+   "fut_ability_v2": 36.0,
+   "player_name": "Xavier Chavalerin",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2020,
+   "distance": 2.129,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2018,
+   "distance": 2.149,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2020,
+   "distance": 2.308,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2019,
+   "distance": 2.406,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2018,
+   "distance": 2.449,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Aaron Mooy",
+   "squad": "Huddersfield"
+  }
+ ],
  "low_confidence": false
 }

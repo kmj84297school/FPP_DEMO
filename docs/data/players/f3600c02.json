@@ -26,10 +26,115 @@
   "confidence": 1.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1916,
+  "mu": 48.4,
+  "ci80": {
+   "lo": 39.5,
+   "hi": 57.3
+  },
+  "ci50": {
+   "lo": 43.7,
+   "hi": 53.1
+  },
+  "sigma_model": 2.313,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d4133fa1",
+   "season": 2018,
+   "distance": 2.074,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Yann M'Vila",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "1598599e",
+   "season": 2018,
+   "distance": 2.155,
+   "survived": 1,
+   "fut_ability_v2": 43.0,
+   "player_name": "Nampalys Mendy",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "2f4c5a52",
+   "season": 2018,
+   "distance": 2.371,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Harry Arter",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "3f7cd8f1",
+   "season": 2019,
+   "distance": 2.406,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Philipp Bargfrede",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "023937a9",
+   "season": 2019,
+   "distance": 2.431,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Ivan Radovanović",
+   "squad": "Chievo / Genoa"
+  },
+  {
+   "fbref_id": "e327bd76",
+   "season": 2018,
+   "distance": 2.49,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicola Rigoni",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "7f97771d",
+   "season": 2019,
+   "distance": 2.663,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Martínez",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "51b41c5c",
+   "season": 2020,
+   "distance": 2.691,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Morgan Schneiderlin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "a0434482",
+   "season": 2020,
+   "distance": 2.691,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eddy Gnahoré",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "605873e1",
+   "season": 2019,
+   "distance": 2.718,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Bradarić",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3163,
+  "mu": 59.7,
+  "ci80": {
+   "lo": 50.7,
+   "hi": 68.6
+  },
+  "ci50": {
+   "lo": 55.0,
+   "hi": 64.4
+  },
+  "sigma_model": 2.426,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "dd0daf32",
+   "season": 2020,
+   "distance": 2.614,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Henrikh Mkhitaryan",
+   "squad": "Roma / Arsenal"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2020,
+   "distance": 2.616,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Radja Nainggolan",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "0ab1f153",
+   "season": 2018,
+   "distance": 2.685,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Juan Cuadrado",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2018,
+   "distance": 2.73,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Radja Nainggolan",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2019,
+   "distance": 2.762,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Radja Nainggolan",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "b2d0ec1b",
+   "season": 2018,
+   "distance": 2.762,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Nolito",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "dd0daf32",
+   "season": 2019,
+   "distance": 2.897,
+   "survived": 1,
+   "fut_ability_v2": 65.7,
+   "player_name": "Henrikh Mkhitaryan",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "d995ed27",
+   "season": 2020,
+   "distance": 3.025,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Giacomo Bonaventura",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "7cd6badb",
+   "season": 2020,
+   "distance": 3.06,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Lars Stindl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "dba67bc4",
+   "season": 2018,
+   "distance": 3.247,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zlatko Junuzović",
+   "squad": "Werder Bremen"
+  }
+ ],
  "low_confidence": false
 }

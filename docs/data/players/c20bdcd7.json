@@ -26,10 +26,115 @@
   "confidence": 0.58
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4157,
+  "mu": 47.9,
+  "ci80": {
+   "lo": 39.2,
+   "hi": 56.6
+  },
+  "ci50": {
+   "lo": 43.3,
+   "hi": 52.4
+  },
+  "sigma_model": 1.687,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f7750aa0",
+   "season": 2019,
+   "distance": 1.681,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Denis Odoi",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "321a71a7",
+   "season": 2019,
+   "distance": 1.956,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxime Le Marchand",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "616aea37",
+   "season": 2019,
+   "distance": 2.04,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "0db5d2c8",
+   "season": 2018,
+   "distance": 2.082,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathias Jørgensen",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "8ae9869d",
+   "season": 2019,
+   "distance": 2.101,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christopher Schindler",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "3befc2b6",
+   "season": 2020,
+   "distance": 2.105,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Andrei Girotto",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "0bad4516",
+   "season": 2019,
+   "distance": 2.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Bennett",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "8ae9869d",
+   "season": 2018,
+   "distance": 2.309,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christopher Schindler",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "f2c1300a",
+   "season": 2019,
+   "distance": 2.322,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vitor Hugo",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2018,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  }
+ ],
  "low_confidence": false
 }

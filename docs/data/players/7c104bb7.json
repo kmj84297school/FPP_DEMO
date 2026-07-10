@@ -26,10 +26,115 @@
   "confidence": 0.33
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6281,
+  "mu": 60.1,
+  "ci80": {
+   "lo": 51.2,
+   "hi": 69.1
+  },
+  "ci50": {
+   "lo": 55.4,
+   "hi": 64.9
+  },
+  "sigma_model": 2.475,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bc6bd723",
+   "season": 2020,
+   "distance": 1.97,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Alassane Pléa",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "603cb947",
+   "season": 2018,
+   "distance": 2.279,
+   "survived": 1,
+   "fut_ability_v2": 73.8,
+   "player_name": "Andrej Kramarić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "942b4f90",
+   "season": 2019,
+   "distance": 2.515,
+   "survived": 1,
+   "fut_ability_v2": 63.9,
+   "player_name": "Wissam Ben Yedder",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2019,
+   "distance": 2.538,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Rodrigo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2020,
+   "distance": 2.591,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "64f69877",
+   "season": 2020,
+   "distance": 2.659,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "9efa1d25",
+   "season": 2019,
+   "distance": 2.665,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Götze",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2018,
+   "distance": 2.674,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Antoine Griezmann",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2018,
+   "distance": 2.874,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2018,
+   "distance": 2.936,
+   "survived": 1,
+   "fut_ability_v2": 62.5,
+   "player_name": "Rodrigo",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

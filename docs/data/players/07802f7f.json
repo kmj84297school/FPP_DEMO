@@ -26,10 +26,115 @@
   "confidence": 0.92
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1433,
+  "mu": 43.7,
+  "ci80": {
+   "lo": 34.8,
+   "hi": 52.5
+  },
+  "ci50": {
+   "lo": 39.0,
+   "hi": 48.3
+  },
+  "sigma_model": 2.057,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fd771f95",
+   "season": 2020,
+   "distance": 1.959,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Braithwaite",
+   "squad": "Leganés / Barcelona"
+  },
+  {
+   "fbref_id": "b1236c63",
+   "season": 2020,
+   "distance": 2.169,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ilija Nestorovski",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "601ef102",
+   "season": 2020,
+   "distance": 2.353,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Okaka",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "2ead2809",
+   "season": 2020,
+   "distance": 2.424,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gianluca Lapadula",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2020,
+   "distance": 2.465,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2019,
+   "distance": 2.476,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "5c2da10f",
+   "season": 2020,
+   "distance": 2.496,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Rémy",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "4c7940d6",
+   "season": 2018,
+   "distance": 2.508,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Coda",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "8e87af42",
+   "season": 2018,
+   "distance": 2.515,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Préjuce Nakoulma",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "abb3bb95",
+   "season": 2020,
+   "distance": 2.557,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luuk de Jong",
+   "squad": "Sevilla"
+  }
+ ],
  "low_confidence": false
 }

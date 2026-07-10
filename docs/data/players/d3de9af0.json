@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2701,
+  "mu": 37.4,
+  "ci80": {
+   "lo": 27.7,
+   "hi": 47.1
+  },
+  "ci50": {
+   "lo": 32.3,
+   "hi": 42.5
+  },
+  "sigma_model": 3.816,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a190d597",
+   "season": 2019,
+   "distance": 2.43,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "4cc93246",
+   "season": 2019,
+   "distance": 2.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Ceravolo",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "3071a619",
+   "season": 2019,
+   "distance": 2.804,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nolan Roux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "aa5859cb",
+   "season": 2019,
+   "distance": 2.923,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Depoitre",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "2bcc6d52",
+   "season": 2020,
+   "distance": 2.949,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Burgstaller",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "ad469944",
+   "season": 2018,
+   "distance": 2.95,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxi López",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "ed0c3318",
+   "season": 2019,
+   "distance": 2.971,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Malik Tchokounté",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "2691c772",
+   "season": 2020,
+   "distance": 2.99,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ashley Barnes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "82e9b89d",
+   "season": 2020,
+   "distance": 2.991,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enric Gallego",
+   "squad": "Osasuna / Getafe"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 3.072,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  }
+ ],
  "low_confidence": false
 }

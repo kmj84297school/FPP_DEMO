@@ -26,10 +26,115 @@
   "confidence": 2.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2843,
+  "mu": 51.8,
+  "ci80": {
+   "lo": 43.1,
+   "hi": 60.5
+  },
+  "ci50": {
+   "lo": 47.2,
+   "hi": 56.4
+  },
+  "sigma_model": 1.799,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "89cbc961",
+   "season": 2019,
+   "distance": 1.644,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramiro Funes Mori",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "8df7a2fb",
+   "season": 2018,
+   "distance": 1.647,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Ben Mee",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2018,
+   "distance": 1.832,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Nenad Tomović",
+   "squad": "Chievo / Fiorentina"
+  },
+  {
+   "fbref_id": "821233cc",
+   "season": 2020,
+   "distance": 1.846,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Neven Subotić",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "f25b010f",
+   "season": 2020,
+   "distance": 1.847,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Fernández",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "285a3d44",
+   "season": 2018,
+   "distance": 1.856,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Shawcross",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "ba71d071",
+   "season": 2019,
+   "distance": 1.883,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "Pedro Alcalá",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "3e9e06cb",
+   "season": 2020,
+   "distance": 1.885,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Craig Dawson",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "51a3c4c8",
+   "season": 2020,
+   "distance": 1.947,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Felipe",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "132ac341",
+   "season": 2020,
+   "distance": 1.974,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Aridane Hernández",
+   "squad": "Osasuna"
+  }
+ ],
  "low_confidence": false
 }

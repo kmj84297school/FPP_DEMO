@@ -26,10 +26,115 @@
   "confidence": 0.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2767,
+  "mu": 54.1,
+  "ci80": {
+   "lo": 45.2,
+   "hi": 63.0
+  },
+  "ci50": {
+   "lo": 49.4,
+   "hi": 58.7
+  },
+  "sigma_model": 2.269,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "779847d6",
+   "season": 2019,
+   "distance": 1.304,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Nicolas Pallois",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2018,
+   "distance": 1.543,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "89151b16",
+   "season": 2018,
+   "distance": 1.721,
+   "survived": 1,
+   "fut_ability_v2": 55.1,
+   "player_name": "Zouhair Feddal",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2019,
+   "distance": 1.81,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "1522dab2",
+   "season": 2018,
+   "distance": 1.925,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davide Astori",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2020,
+   "distance": 1.98,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2020,
+   "distance": 1.991,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "960fb42d",
+   "season": 2018,
+   "distance": 2.015,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Gálvez",
+   "squad": "Las Palmas / Eibar"
+  },
+  {
+   "fbref_id": "921f6058",
+   "season": 2018,
+   "distance": 2.024,
+   "survived": 1,
+   "fut_ability_v2": 63.7,
+   "player_name": "José Luis Palomino",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2018,
+   "distance": 2.038,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  }
+ ],
  "low_confidence": false
 }

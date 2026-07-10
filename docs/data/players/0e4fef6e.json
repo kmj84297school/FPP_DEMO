@@ -26,10 +26,115 @@
   "confidence": 1.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1812,
+  "mu": 42.5,
+  "ci80": {
+   "lo": 33.7,
+   "hi": 51.4
+  },
+  "ci50": {
+   "lo": 37.9,
+   "hi": 47.2
+  },
+  "sigma_model": 2.109,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8f4d116f",
+   "season": 2020,
+   "distance": 1.435,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Damien Le Tallec",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "74e12f1e",
+   "season": 2018,
+   "distance": 1.663,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Jack Cork",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "74e12f1e",
+   "season": 2020,
+   "distance": 1.738,
+   "survived": 1,
+   "fut_ability_v2": 35.0,
+   "player_name": "Jack Cork",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "74e12f1e",
+   "season": 2019,
+   "distance": 1.795,
+   "survived": 1,
+   "fut_ability_v2": 38.3,
+   "player_name": "Jack Cork",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "9e27e5de",
+   "season": 2019,
+   "distance": 1.809,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Prince Oniangué",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "e54bd0a2",
+   "season": 2018,
+   "distance": 1.825,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Tomás Pina Isla",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2019,
+   "distance": 1.837,
+   "survived": 1,
+   "fut_ability_v2": 35.8,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2018,
+   "distance": 1.9,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "240d3a0b",
+   "season": 2020,
+   "distance": 1.918,
+   "survived": 1,
+   "fut_ability_v2": 38.6,
+   "player_name": "Dani García",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "b98570d1",
+   "season": 2018,
+   "distance": 1.923,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Jake Livermore",
+   "squad": "West Brom"
+  }
+ ],
  "low_confidence": false
 }

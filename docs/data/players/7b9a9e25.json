@@ -26,10 +26,115 @@
   "confidence": 0.12
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2445,
+  "mu": 43.1,
+  "ci80": {
+   "lo": 33.8,
+   "hi": 52.5
+  },
+  "ci50": {
+   "lo": 38.2,
+   "hi": 48.0
+  },
+  "sigma_model": 3.182,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "67d23ab0",
+   "season": 2018,
+   "distance": 1.641,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Ince",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2018,
+   "distance": 2.017,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "a2d873dd",
+   "season": 2020,
+   "distance": 2.235,
+   "survived": 1,
+   "fut_ability_v2": 29.8,
+   "player_name": "Hwang Ui-jo",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "ca2bc3df",
+   "season": 2018,
+   "distance": 2.387,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Izquierdo",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "862a1c15",
+   "season": 2020,
+   "distance": 2.393,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Miguel Almirón",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "cbec1196",
+   "season": 2020,
+   "distance": 2.493,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaromír Zmrhal",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "91f2da4c",
+   "season": 2019,
+   "distance": 2.498,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Casimir Ninga",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "7961f7aa",
+   "season": 2019,
+   "distance": 2.532,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kwon Chang-hoon",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "62ab9184",
+   "season": 2019,
+   "distance": 2.552,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Yannick Gerhardt",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "8816329f",
+   "season": 2019,
+   "distance": 2.559,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Atsu",
+   "squad": "Newcastle Utd"
+  }
+ ],
  "low_confidence": false
 }

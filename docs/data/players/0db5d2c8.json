@@ -26,10 +26,115 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1779,
+  "mu": 50.5,
+  "ci80": {
+   "lo": 41.8,
+   "hi": 59.3
+  },
+  "ci50": {
+   "lo": 45.9,
+   "hi": 55.2
+  },
+  "sigma_model": 1.985,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d2be40f2",
+   "season": 2018,
+   "distance": 1.582,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iván Ramis",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "8494acc4",
+   "season": 2020,
+   "distance": 1.92,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefan Ilsanker",
+   "squad": "Eint Frankfurt / RB Leipzig"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2019,
+   "distance": 1.959,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2020,
+   "distance": 1.979,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2018,
+   "distance": 2.1,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2019,
+   "distance": 2.166,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2019,
+   "distance": 2.185,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "f5e9a8bd",
+   "season": 2018,
+   "distance": 2.266,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Costa",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "e26c4233",
+   "season": 2018,
+   "distance": 2.392,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Russ",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2020,
+   "distance": 2.455,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.0
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4588,
+  "mu": 49.6,
+  "ci80": {
+   "lo": 40.9,
+   "hi": 58.3
+  },
+  "ci50": {
+   "lo": 45.0,
+   "hi": 54.2
+  },
+  "sigma_model": 1.739,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f24ea523",
+   "season": 2019,
+   "distance": 1.89,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Genki Haraguchi",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "a0434482",
+   "season": 2019,
+   "distance": 1.939,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eddy Gnahoré",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "3902e91b",
+   "season": 2019,
+   "distance": 1.996,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Gonzalo Melero",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2020,
+   "distance": 2.145,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "02b29014",
+   "season": 2020,
+   "distance": 2.295,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "01efac19",
+   "season": 2020,
+   "distance": 2.359,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Antonín Barák",
+   "squad": "Lecce / Udinese"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2018,
+   "distance": 2.41,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "bf13975c",
+   "season": 2020,
+   "distance": 2.435,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Žan Majer",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2019,
+   "distance": 2.446,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2019,
+   "distance": 2.448,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3223,
+  "mu": 48.8,
+  "ci80": {
+   "lo": 40.0,
+   "hi": 57.6
+  },
+  "ci50": {
+   "lo": 44.2,
+   "hi": 53.5
+  },
+  "sigma_model": 2.058,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2020,
+   "distance": 1.636,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Abeid",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "036bba5f",
+   "season": 2020,
+   "distance": 1.811,
+   "survived": 1,
+   "fut_ability_v2": 60.3,
+   "player_name": "Rubén Alcaraz",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2018,
+   "distance": 1.817,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "70dcf94d",
+   "season": 2020,
+   "distance": 1.818,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2018,
+   "distance": 1.897,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2020,
+   "distance": 1.904,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Obiang",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "c2009df3",
+   "season": 2020,
+   "distance": 1.905,
+   "survived": 1,
+   "fut_ability_v2": 64.4,
+   "player_name": "Jonas Hector",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "2ce2508a",
+   "season": 2020,
+   "distance": 1.911,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luka Milivojević",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "8d3c902d",
+   "season": 2019,
+   "distance": 1.915,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Cheikhou Kouyaté",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "036bba5f",
+   "season": 2019,
+   "distance": 1.916,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Rubén Alcaraz",
+   "squad": "Valladolid"
+  }
+ ],
  "low_confidence": false
 }

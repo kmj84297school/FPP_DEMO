@@ -26,10 +26,115 @@
   "confidence": 0.9
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8191,
+  "mu": 59.3,
+  "ci80": {
+   "lo": 50.3,
+   "hi": 68.3
+  },
+  "ci50": {
+   "lo": 54.5,
+   "hi": 64.0
+  },
+  "sigma_model": 2.554,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "64f69877",
+   "season": 2018,
+   "distance": 2.395,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2019,
+   "distance": 2.396,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Rodrigo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "8a08491a",
+   "season": 2018,
+   "distance": 2.426,
+   "survived": 1,
+   "fut_ability_v2": 70.1,
+   "player_name": "Gonzalo Higuaín",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "4c370d81",
+   "season": 2020,
+   "distance": 2.539,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Roberto Firmino",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "bc6bd723",
+   "season": 2019,
+   "distance": 2.573,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Alassane Pléa",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "603cb947",
+   "season": 2018,
+   "distance": 2.603,
+   "survived": 1,
+   "fut_ability_v2": 73.8,
+   "player_name": "Andrej Kramarić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "f9e7c4ac",
+   "season": 2018,
+   "distance": 2.631,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Alfreð Finnbogason",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "9dbb75ca",
+   "season": 2019,
+   "distance": 2.671,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Alexandre Lacazette",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2019,
+   "distance": 2.676,
+   "survived": 1,
+   "fut_ability_v2": 74.2,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "92e7e919",
+   "season": 2019,
+   "distance": 2.712,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "Son Heung-min",
+   "squad": "Tottenham"
+  }
+ ],
  "low_confidence": false
 }

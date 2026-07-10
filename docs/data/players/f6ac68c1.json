@@ -26,10 +26,115 @@
   "confidence": 0.73
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5198,
+  "mu": 50.5,
+  "ci80": {
+   "lo": 41.9,
+   "hi": 59.2
+  },
+  "ci50": {
+   "lo": 46.0,
+   "hi": 55.1
+  },
+  "sigma_model": 1.59,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ba23a904",
+   "season": 2020,
+   "distance": 1.315,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "92b4a127",
+   "season": 2018,
+   "distance": 1.53,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gustavo Cabral",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "ac3fb1be",
+   "season": 2018,
+   "distance": 1.619,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Ezequiel Garay",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "7914b9fe",
+   "season": 2018,
+   "distance": 1.649,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Gary Cahill",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "56400c01",
+   "season": 2018,
+   "distance": 1.675,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Fabio Pisacane",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "117beb8f",
+   "season": 2018,
+   "distance": 1.741,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giancarlo González",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2018,
+   "distance": 1.749,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Nenad Tomović",
+   "squad": "Chievo / Fiorentina"
+  },
+  {
+   "fbref_id": "e1deea75",
+   "season": 2019,
+   "distance": 1.807,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Carriço",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2020,
+   "distance": 1.809,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "16714a62",
+   "season": 2019,
+   "distance": 1.828,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khaled Adénon",
+   "squad": "Amiens"
+  }
+ ],
  "low_confidence": false
 }

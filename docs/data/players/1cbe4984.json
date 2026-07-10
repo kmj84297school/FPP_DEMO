@@ -26,10 +26,115 @@
   "confidence": 0.43
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3932,
+  "mu": 53.3,
+  "ci80": {
+   "lo": 44.6,
+   "hi": 61.9
+  },
+  "ci50": {
+   "lo": 48.7,
+   "hi": 57.8
+  },
+  "sigma_model": 1.609,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5c2b4f07",
+   "season": 2020,
+   "distance": 1.173,
+   "survived": 1,
+   "fut_ability_v2": 62.3,
+   "player_name": "Serge Aurier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2019,
+   "distance": 1.688,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "b0616e3d",
+   "season": 2018,
+   "distance": 1.778,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Escudero",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "7f4c7c9f",
+   "season": 2019,
+   "distance": 1.797,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Jorge Miramón",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2018,
+   "distance": 1.807,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Martín Montoya",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "1f079188",
+   "season": 2020,
+   "distance": 1.941,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Peña",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "4c5b714f",
+   "season": 2020,
+   "distance": 2.11,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Djibril Sidibé",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2018,
+   "distance": 2.131,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "e29d1111",
+   "season": 2019,
+   "distance": 2.135,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Nacho",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "f3cccffe",
+   "season": 2019,
+   "distance": 2.138,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Insúa",
+   "squad": "Stuttgart"
+  }
+ ],
  "low_confidence": false
 }

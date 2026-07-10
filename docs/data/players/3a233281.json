@@ -26,10 +26,115 @@
   "confidence": 0.75
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4221,
+  "mu": 50.3,
+  "ci80": {
+   "lo": 40.9,
+   "hi": 59.6
+  },
+  "ci50": {
+   "lo": 45.3,
+   "hi": 55.2
+  },
+  "sigma_model": 3.227,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9d2a3d5f",
+   "season": 2018,
+   "distance": 1.81,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibai Gómez",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "ed6ea4d9",
+   "season": 2020,
+   "distance": 2.29,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Darwin Machís",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "01eb744d",
+   "season": 2020,
+   "distance": 2.323,
+   "survived": 1,
+   "fut_ability_v2": 65.7,
+   "player_name": "Ángel Correa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2018,
+   "distance": 2.685,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Portu",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "0375723e",
+   "season": 2020,
+   "distance": 2.715,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Verdi",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "ecbb3fdf",
+   "season": 2018,
+   "distance": 2.754,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Schürrle",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "c77a8043",
+   "season": 2020,
+   "distance": 2.755,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Antonio Puertas",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "ab5b7dc1",
+   "season": 2020,
+   "distance": 2.783,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Marius Bülter",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2018,
+   "distance": 2.815,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "8a080a61",
+   "season": 2020,
+   "distance": 2.833,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kai Pröger",
+   "squad": "Paderborn 07"
+  }
+ ],
  "low_confidence": false
 }

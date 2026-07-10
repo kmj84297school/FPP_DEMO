@@ -26,10 +26,115 @@
   "confidence": 0.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4396,
+  "mu": 67.8,
+  "ci80": {
+   "lo": 58.8,
+   "hi": 76.8
+  },
+  "ci50": {
+   "lo": 63.1,
+   "hi": 72.5
+  },
+  "sigma_model": 2.492,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "81f0781e",
+   "season": 2020,
+   "distance": 2.293,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "64f69877",
+   "season": 2020,
+   "distance": 2.425,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "bc6bd723",
+   "season": 2020,
+   "distance": 2.605,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Alassane Pléa",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "a58bb1e1",
+   "season": 2018,
+   "distance": 2.737,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Gareth Bale",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2019,
+   "distance": 2.785,
+   "survived": 1,
+   "fut_ability_v2": 73.1,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2019,
+   "distance": 2.802,
+   "survived": 1,
+   "fut_ability_v2": 73.4,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "849c826a",
+   "season": 2018,
+   "distance": 2.815,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Andriy Yarmolenko",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "07802f7f",
+   "season": 2019,
+   "distance": 2.859,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Danny Ings",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "ff182fdc",
+   "season": 2019,
+   "distance": 2.9,
+   "survived": 1,
+   "fut_ability_v2": 40.3,
+   "player_name": "Ishak Belfodil",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "ff182fdc",
+   "season": 2018,
+   "distance": 2.918,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ishak Belfodil",
+   "squad": "Werder Bremen"
+  }
+ ],
  "low_confidence": false
 }

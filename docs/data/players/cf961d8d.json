@@ -26,10 +26,115 @@
   "confidence": 1.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6905,
+  "mu": 47.0,
+  "ci80": {
+   "lo": 38.3,
+   "hi": 55.7
+  },
+  "ci50": {
+   "lo": 42.4,
+   "hi": 51.6
+  },
+  "sigma_model": 1.794,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "699fb8db",
+   "season": 2019,
+   "distance": 0.983,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Dominique Heintz",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "699fb8db",
+   "season": 2020,
+   "distance": 1.453,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominique Heintz",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "1c344204",
+   "season": 2018,
+   "distance": 1.691,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Yamberé",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "d541e703",
+   "season": 2019,
+   "distance": 1.71,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Freddie Veseli",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "1025db8e",
+   "season": 2018,
+   "distance": 1.724,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Jeffrey Gouweleeuw",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2018,
+   "distance": 1.842,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "b4a014b1",
+   "season": 2019,
+   "distance": 1.851,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Diego Carlos",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "90eb507d",
+   "season": 2020,
+   "distance": 1.927,
+   "survived": 1,
+   "fut_ability_v2": 37.8,
+   "player_name": "Thomas Foket",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "89ac64a6",
+   "season": 2020,
+   "distance": 1.952,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Manuel Akanji",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "d70a2141",
+   "season": 2019,
+   "distance": 1.967,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordi Amat",
+   "squad": "Rayo Vallecano"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3412,
+  "mu": 47.3,
+  "ci80": {
+   "lo": 38.1,
+   "hi": 56.4
+  },
+  "ci50": {
+   "lo": 42.5,
+   "hi": 52.1
+  },
+  "sigma_model": 2.818,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "68829001",
+   "season": 2019,
+   "distance": 1.729,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Gonzalo Castro",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "9ab48bde",
+   "season": 2019,
+   "distance": 1.85,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo de Blasis",
+   "squad": "Eibar / Mainz 05"
+  },
+  {
+   "fbref_id": "ab1ca213",
+   "season": 2019,
+   "distance": 2.032,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Miguel Veloso",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2019,
+   "distance": 2.153,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Paul Lasne",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "c27dfb82",
+   "season": 2018,
+   "distance": 2.162,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Gonçalves",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2020,
+   "distance": 2.196,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "1b17ed86",
+   "season": 2018,
+   "distance": 2.324,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Esteban Granero",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "ae64d449",
+   "season": 2018,
+   "distance": 2.389,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Luca Cigarini",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2020,
+   "distance": 2.407,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paul Lasne",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "f07be45a",
+   "season": 2018,
+   "distance": 2.407,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wayne Rooney",
+   "squad": "Everton"
+  }
+ ],
  "low_confidence": false
 }

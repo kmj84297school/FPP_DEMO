@@ -26,10 +26,115 @@
   "confidence": 0.69
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7137,
+  "mu": 49.0,
+  "ci80": {
+   "lo": 40.3,
+   "hi": 57.7
+  },
+  "ci50": {
+   "lo": 44.4,
+   "hi": 53.6
+  },
+  "sigma_model": 1.824,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1c344204",
+   "season": 2018,
+   "distance": 1.576,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Yamberé",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "ab096c6f",
+   "season": 2019,
+   "distance": 1.656,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Timothée Kolodziejczak",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "699fb8db",
+   "season": 2019,
+   "distance": 1.743,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Dominique Heintz",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2019,
+   "distance": 1.79,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2018,
+   "distance": 1.858,
+   "survived": 1,
+   "fut_ability_v2": 42.7,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "91899ca8",
+   "season": 2019,
+   "distance": 1.97,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateo Musacchio",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "b4a014b1",
+   "season": 2019,
+   "distance": 1.987,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Diego Carlos",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2019,
+   "distance": 1.989,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2018,
+   "distance": 2.022,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "59e4b92e",
+   "season": 2019,
+   "distance": 2.047,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "Rani Khedira",
+   "squad": "Augsburg"
+  }
+ ],
  "low_confidence": false
 }

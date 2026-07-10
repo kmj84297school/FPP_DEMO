@@ -26,10 +26,115 @@
   "confidence": 0.08
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.341,
+  "mu": 47.8,
+  "ci80": {
+   "lo": 38.9,
+   "hi": 56.7
+  },
+  "ci50": {
+   "lo": 43.1,
+   "hi": 52.5
+  },
+  "sigma_model": 2.221,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "070ec0b1",
+   "season": 2019,
+   "distance": 1.499,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Sven Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2018,
+   "distance": 1.722,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Nenad Tomović",
+   "squad": "Chievo / Fiorentina"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2020,
+   "distance": 1.728,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "779847d6",
+   "season": 2020,
+   "distance": 1.729,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Nicolas Pallois",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "92b4a127",
+   "season": 2018,
+   "distance": 1.74,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gustavo Cabral",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "b682dcf6",
+   "season": 2019,
+   "distance": 1.814,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sokratis Papastathopoulos",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2020,
+   "distance": 1.819,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "7914b9fe",
+   "season": 2018,
+   "distance": 1.826,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Gary Cahill",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "1522dab2",
+   "season": 2018,
+   "distance": 1.831,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davide Astori",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2019,
+   "distance": 1.873,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  }
+ ],
  "low_confidence": false
 }

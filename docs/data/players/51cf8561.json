@@ -26,10 +26,115 @@
   "confidence": 0.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4796,
+  "mu": 60.4,
+  "ci80": {
+   "lo": 51.6,
+   "hi": 69.2
+  },
+  "ci50": {
+   "lo": 55.8,
+   "hi": 65.0
+  },
+  "sigma_model": 1.905,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ae4e2852",
+   "season": 2018,
+   "distance": 1.834,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Mattia De Sciglio",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "b6e50615",
+   "season": 2018,
+   "distance": 2.02,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Yuri Berchiche",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "9c94165b",
+   "season": 2020,
+   "distance": 2.323,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Luke Shaw",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2019,
+   "distance": 2.554,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "ae4e2852",
+   "season": 2019,
+   "distance": 2.605,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Mattia De Sciglio",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "94b2001f",
+   "season": 2018,
+   "distance": 2.626,
+   "survived": 1,
+   "fut_ability_v2": 61.9,
+   "player_name": "Danilo",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2018,
+   "distance": 2.706,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Alberto Moreno",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "44781702",
+   "season": 2019,
+   "distance": 2.711,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Ben Davies",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "463503e2",
+   "season": 2018,
+   "distance": 2.791,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcin Kamiński",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "fdd60087",
+   "season": 2019,
+   "distance": 2.798,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santiago Arias",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

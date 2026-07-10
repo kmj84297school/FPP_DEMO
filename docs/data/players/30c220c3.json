@@ -26,10 +26,115 @@
   "confidence": 2.85
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3797,
+  "mu": 53.9,
+  "ci80": {
+   "lo": 45.3,
+   "hi": 62.5
+  },
+  "ci50": {
+   "lo": 49.4,
+   "hi": 58.4
+  },
+  "sigma_model": 1.429,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d1273f09",
+   "season": 2018,
+   "distance": 1.635,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Daniel Caligiuri",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "4aea5077",
+   "season": 2020,
+   "distance": 2.084,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Stefan Lainer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "d557d734",
+   "season": 2019,
+   "distance": 2.162,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Matt Doherty",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2020,
+   "distance": 2.369,
+   "survived": 1,
+   "fut_ability_v2": 61.9,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "c2009df3",
+   "season": 2018,
+   "distance": 2.379,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Jonas Hector",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "9ba48d64",
+   "season": 2018,
+   "distance": 2.412,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2019,
+   "distance": 2.431,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "17d4507a",
+   "season": 2020,
+   "distance": 2.438,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enda Stevens",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "1a4b9094",
+   "season": 2020,
+   "distance": 2.451,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bouna Sarr",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "5c2b4f07",
+   "season": 2020,
+   "distance": 2.467,
+   "survived": 1,
+   "fut_ability_v2": 62.3,
+   "player_name": "Serge Aurier",
+   "squad": "Tottenham"
+  }
+ ],
  "low_confidence": false
 }

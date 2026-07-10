@@ -26,10 +26,115 @@
   "confidence": 0.46
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3182,
+  "mu": 53.2,
+  "ci80": {
+   "lo": 44.5,
+   "hi": 62.0
+  },
+  "ci50": {
+   "lo": 48.6,
+   "hi": 57.9
+  },
+  "sigma_model": 1.995,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2020,
+   "distance": 1.945,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "bd84fc61",
+   "season": 2018,
+   "distance": 2.121,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Pasquale Schiattarella",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "ef322658",
+   "season": 2018,
+   "distance": 2.22,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2018,
+   "distance": 2.258,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "e7f4603c",
+   "season": 2019,
+   "distance": 2.339,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Borja García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "45392b06",
+   "season": 2018,
+   "distance": 2.354,
+   "survived": 1,
+   "fut_ability_v2": 43.1,
+   "player_name": "Nicolas Viola",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "92b56413",
+   "season": 2019,
+   "distance": 2.368,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Tristan Dingomé",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "7c4243d4",
+   "season": 2020,
+   "distance": 2.43,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roque Mesa",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "7e689867",
+   "season": 2018,
+   "distance": 2.43,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Terrazzino",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2020,
+   "distance": 2.499,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  }
+ ],
  "low_confidence": false
 }

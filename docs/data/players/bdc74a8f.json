@@ -26,10 +26,115 @@
   "confidence": 0.4
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1535,
+  "mu": 49.9,
+  "ci80": {
+   "lo": 41.2,
+   "hi": 58.7
+  },
+  "ci50": {
+   "lo": 45.3,
+   "hi": 54.6
+  },
+  "sigma_model": 1.919,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "10650926",
+   "season": 2019,
+   "distance": 1.661,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ismaël Diomandé",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2019,
+   "distance": 1.675,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Darko Brašanac",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "e49ce451",
+   "season": 2020,
+   "distance": 1.731,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Okay Yokuşlu",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "b5dd3469",
+   "season": 2020,
+   "distance": 1.748,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Nemanja Radoja",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "a8797cf1",
+   "season": 2018,
+   "distance": 1.75,
+   "survived": 1,
+   "fut_ability_v2": 47.3,
+   "player_name": "Bongani Zungu",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "31bbb7e2",
+   "season": 2018,
+   "distance": 1.753,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gerónimo Poblete",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "ac861941",
+   "season": 2019,
+   "distance": 1.878,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Eric Dier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "a0434482",
+   "season": 2020,
+   "distance": 1.892,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eddy Gnahoré",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "9260926b",
+   "season": 2018,
+   "distance": 1.93,
+   "survived": 1,
+   "fut_ability_v2": 43.0,
+   "player_name": "Ibrahim Amadou",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "11fd2b75",
+   "season": 2019,
+   "distance": 1.95,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Omar Mascarell",
+   "squad": "Schalke 04"
+  }
+ ],
  "low_confidence": false
 }

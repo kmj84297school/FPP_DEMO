@@ -26,10 +26,115 @@
   "confidence": 0.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3304,
+  "mu": 48.1,
+  "ci80": {
+   "lo": 38.7,
+   "hi": 57.6
+  },
+  "ci50": {
+   "lo": 43.2,
+   "hi": 53.1
+  },
+  "sigma_model": 3.373,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "16569fef",
+   "season": 2020,
+   "distance": 2.12,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitri Bisoli",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "08452314",
+   "season": 2019,
+   "distance": 2.337,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alireza Jahanbakhsh",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "45e17712",
+   "season": 2019,
+   "distance": 2.415,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Dimitri Foulquier",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "c1febb46",
+   "season": 2018,
+   "distance": 2.415,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Somália",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "53538b39",
+   "season": 2018,
+   "distance": 2.536,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "James McClean",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "a0666d3e",
+   "season": 2020,
+   "distance": 2.701,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Will Hughes",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "b93b7882",
+   "season": 2018,
+   "distance": 2.735,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2019,
+   "distance": 2.817,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "b1313ec4",
+   "season": 2018,
+   "distance": 2.9,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Scott Arfield",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "5bddccc9",
+   "season": 2018,
+   "distance": 2.903,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Elias Kachunga",
+   "squad": "Huddersfield"
+  }
+ ],
  "low_confidence": false
 }

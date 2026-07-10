@@ -26,10 +26,115 @@
   "confidence": 0.71
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2903,
+  "mu": 48.5,
+  "ci80": {
+   "lo": 39.8,
+   "hi": 57.3
+  },
+  "ci50": {
+   "lo": 43.9,
+   "hi": 53.1
+  },
+  "sigma_model": 1.87,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "653ee42d",
+   "season": 2020,
+   "distance": 1.465,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dale Stephens",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2018,
+   "distance": 1.659,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "5ab0ea87",
+   "season": 2019,
+   "distance": 1.664,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2019,
+   "distance": 1.726,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "17780d2b",
+   "season": 2019,
+   "distance": 1.739,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Tobias Strobl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 1.801,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "73489527",
+   "season": 2018,
+   "distance": 1.943,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Defour",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "e54bd0a2",
+   "season": 2019,
+   "distance": 1.977,
+   "survived": 1,
+   "fut_ability_v2": 42.6,
+   "player_name": "Tomás Pina Isla",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "5ce0b5ba",
+   "season": 2019,
+   "distance": 1.996,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Asier Illarramendi",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2018,
+   "distance": 2.012,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  }
+ ],
  "low_confidence": false
 }

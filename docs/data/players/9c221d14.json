@@ -26,10 +26,115 @@
   "confidence": 1.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6634,
+  "mu": 51.5,
+  "ci80": {
+   "lo": 42.8,
+   "hi": 60.3
+  },
+  "ci50": {
+   "lo": 46.9,
+   "hi": 56.2
+  },
+  "sigma_model": 1.987,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "92b4758e",
+   "season": 2020,
+   "distance": 1.533,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2020,
+   "distance": 1.572,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "9b30df1e",
+   "season": 2018,
+   "distance": 1.709,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bartosz Salamon",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "3376a776",
+   "season": 2020,
+   "distance": 1.874,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Karim Rekik",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "875898c7",
+   "season": 2019,
+   "distance": 1.875,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Wesley Hoedt",
+   "squad": "Southampton / Celta Vigo"
+  },
+  {
+   "fbref_id": "d9624b51",
+   "season": 2019,
+   "distance": 1.942,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Federico Ceccherini",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "6eaed4eb",
+   "season": 2018,
+   "distance": 1.943,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Florian Lejeune",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "5832ebfe",
+   "season": 2020,
+   "distance": 1.99,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Denswil",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "f2c1300a",
+   "season": 2018,
+   "distance": 2.0,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vitor Hugo",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "93a50d2c",
+   "season": 2020,
+   "distance": 2.018,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kasim Nuhu",
+   "squad": "Düsseldorf"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.71
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1625,
+  "mu": 50.6,
+  "ci80": {
+   "lo": 41.5,
+   "hi": 59.8
+  },
+  "ci50": {
+   "lo": 45.8,
+   "hi": 55.4
+  },
+  "sigma_model": 2.792,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "53de807a",
+   "season": 2018,
+   "distance": 1.696,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "53de807a",
+   "season": 2019,
+   "distance": 1.943,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2018,
+   "distance": 2.007,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "083525e5",
+   "season": 2018,
+   "distance": 2.128,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Papy Djilobodji",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2019,
+   "distance": 2.181,
+   "survived": 1,
+   "fut_ability_v2": 43.8,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2019,
+   "distance": 2.242,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "1522dab2",
+   "season": 2018,
+   "distance": 2.318,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davide Astori",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "e860c42f",
+   "season": 2018,
+   "distance": 2.326,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kyle Naughton",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2019,
+   "distance": 2.338,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "4085f08e",
+   "season": 2020,
+   "distance": 2.353,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Haitam Aleesami",
+   "squad": "Amiens"
+  }
+ ],
  "low_confidence": false
 }

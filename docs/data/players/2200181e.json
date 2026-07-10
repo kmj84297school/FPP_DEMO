@@ -26,10 +26,115 @@
   "confidence": 0.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5492,
+  "mu": 46.7,
+  "ci80": {
+   "lo": 37.6,
+   "hi": 55.7
+  },
+  "ci50": {
+   "lo": 41.9,
+   "hi": 51.4
+  },
+  "sigma_model": 2.599,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "34b306a1",
+   "season": 2019,
+   "distance": 1.769,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Hoffmann",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2019,
+   "distance": 2.344,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "f7c9fcd6",
+   "season": 2018,
+   "distance": 2.407,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Samuel Souprayen",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "616aea37",
+   "season": 2018,
+   "distance": 2.446,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Crotone / Cagliari"
+  },
+  {
+   "fbref_id": "7cab69b5",
+   "season": 2020,
+   "distance": 2.457,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jemerson",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "16b9d5cf",
+   "season": 2019,
+   "distance": 2.463,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Nikola Maksimović",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "8b95acda",
+   "season": 2019,
+   "distance": 2.483,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Omar Colley",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "933d3b51",
+   "season": 2019,
+   "distance": 2.495,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Koffi Djidji",
+   "squad": "Torino / Nantes"
+  },
+  {
+   "fbref_id": "7d45b97a",
+   "season": 2018,
+   "distance": 2.495,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Cordoval",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "2946f9a1",
+   "season": 2019,
+   "distance": 2.503,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Nacho",
+   "squad": "Real Madrid"
+  }
+ ],
  "low_confidence": false
 }

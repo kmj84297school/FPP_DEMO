@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.726,
+  "mu": 51.6,
+  "ci80": {
+   "lo": 42.3,
+   "hi": 61.0
+  },
+  "ci50": {
+   "lo": 46.7,
+   "hi": 56.5
+  },
+  "sigma_model": 3.128,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d14229f3",
+   "season": 2019,
+   "distance": 2.236,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrien Hunou",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "d14229f3",
+   "season": 2020,
+   "distance": 2.653,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Adrien Hunou",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "9a104dee",
+   "season": 2019,
+   "distance": 2.812,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cenk Tosun",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "9001138b",
+   "season": 2019,
+   "distance": 2.875,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Berić",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "e58a03c6",
+   "season": 2018,
+   "distance": 2.9,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dwight Gayle",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "834d0be5",
+   "season": 2019,
+   "distance": 2.988,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Lucas Alario",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "84399660",
+   "season": 2019,
+   "distance": 3.098,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Juanmi",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "a7a9d95a",
+   "season": 2020,
+   "distance": 3.11,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paco Alcácer",
+   "squad": "Villarreal / Dortmund"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2018,
+   "distance": 3.13,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Khouma Babacar",
+   "squad": "Sassuolo / Fiorentina"
+  },
+  {
+   "fbref_id": "8ff07990",
+   "season": 2019,
+   "distance": 3.155,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Balotelli",
+   "squad": "Marseille / Nice"
+  }
+ ],
  "low_confidence": false
 }

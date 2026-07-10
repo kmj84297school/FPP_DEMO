@@ -26,10 +26,115 @@
   "confidence": 1.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3398,
+  "mu": 57.1,
+  "ci80": {
+   "lo": 48.3,
+   "hi": 65.9
+  },
+  "ci50": {
+   "lo": 52.5,
+   "hi": 61.7
+  },
+  "sigma_model": 1.987,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b2d0ec1b",
+   "season": 2020,
+   "distance": 2.805,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Nolito",
+   "squad": "Sevilla / Celta Vigo"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2020,
+   "distance": 2.86,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2019,
+   "distance": 2.916,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Diego Farias",
+   "squad": "Empoli / Cagliari"
+  },
+  {
+   "fbref_id": "9dbb75ca",
+   "season": 2020,
+   "distance": 2.969,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Alexandre Lacazette",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "f9e7c4ac",
+   "season": 2018,
+   "distance": 3.06,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Alfreð Finnbogason",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "93b891d1",
+   "season": 2019,
+   "distance": 3.079,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Felipe Caicedo",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "8a08491a",
+   "season": 2020,
+   "distance": 3.105,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gonzalo Higuaín",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "93b891d1",
+   "season": 2020,
+   "distance": 3.122,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felipe Caicedo",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "7dcf86f6",
+   "season": 2019,
+   "distance": 3.16,
+   "survived": 1,
+   "fut_ability_v2": 69.6,
+   "player_name": "Iago Aspas",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "42276181",
+   "season": 2019,
+   "distance": 3.248,
+   "survived": 1,
+   "fut_ability_v2": 41.9,
+   "player_name": "Kévin Gameiro",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

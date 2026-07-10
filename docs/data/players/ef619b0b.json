@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2223,
+  "mu": 48.5,
+  "ci80": {
+   "lo": 39.8,
+   "hi": 57.2
+  },
+  "ci50": {
+   "lo": 43.9,
+   "hi": 53.1
+  },
+  "sigma_model": 1.689,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "467bae22",
+   "season": 2020,
+   "distance": 2.21,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2018,
+   "distance": 2.589,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "56b2957b",
+   "season": 2020,
+   "distance": 2.854,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Castro",
+   "squad": "Cagliari / SPAL"
+  },
+  {
+   "fbref_id": "4a57580c",
+   "season": 2019,
+   "distance": 2.874,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "6cdd8245",
+   "season": 2020,
+   "distance": 3.191,
+   "survived": 1,
+   "fut_ability_v2": 33.3,
+   "player_name": "Tom Cleverley",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "8011fcf6",
+   "season": 2018,
+   "distance": 3.221,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ledian Memushaj",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2020,
+   "distance": 3.234,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "90b70194",
+   "season": 2018,
+   "distance": 3.236,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Përparim Hetemaj",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2019,
+   "distance": 3.24,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "1b17ed86",
+   "season": 2019,
+   "distance": 3.253,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Esteban Granero",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

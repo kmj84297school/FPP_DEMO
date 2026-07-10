@@ -26,10 +26,115 @@
   "confidence": 0.42
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1574,
+  "mu": 39.9,
+  "ci80": {
+   "lo": 31.0,
+   "hi": 48.8
+  },
+  "ci50": {
+   "lo": 35.2,
+   "hi": 44.5
+  },
+  "sigma_model": 2.209,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8cfc2f69",
+   "season": 2018,
+   "distance": 2.125,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Ángel Rodríguez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "2bae5658",
+   "season": 2018,
+   "distance": 2.186,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emmanuel Rivière",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "45963054",
+   "season": 2019,
+   "distance": 2.262,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Jamie Vardy",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "bef0a7ac",
+   "season": 2020,
+   "distance": 2.389,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Darío Benedetto",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "66116290",
+   "season": 2018,
+   "distance": 2.403,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Radamel Falcao",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "d87e2cae",
+   "season": 2020,
+   "distance": 2.405,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Willian José",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "0a0cc13c",
+   "season": 2018,
+   "distance": 2.418,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio León",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "ea0ff634",
+   "season": 2018,
+   "distance": 2.47,
+   "survived": 1,
+   "fut_ability_v2": 39.9,
+   "player_name": "Valère Germain",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "0ae4e09a",
+   "season": 2020,
+   "distance": 2.497,
+   "survived": 1,
+   "fut_ability_v2": 35.0,
+   "player_name": "Roger Martí",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "0ae4e09a",
+   "season": 2019,
+   "distance": 2.563,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Roger Martí",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

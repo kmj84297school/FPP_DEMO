@@ -26,10 +26,115 @@
   "confidence": 1.79
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2031,
+  "mu": 36.0,
+  "ci80": {
+   "lo": 26.8,
+   "hi": 45.1
+  },
+  "ci50": {
+   "lo": 31.2,
+   "hi": 40.8
+  },
+  "sigma_model": 2.786,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f4ec4fd0",
+   "season": 2019,
+   "distance": 1.989,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin-Prince Boateng",
+   "squad": "Sassuolo / Barcelona"
+  },
+  {
+   "fbref_id": "b1236c63",
+   "season": 2020,
+   "distance": 2.454,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ilija Nestorovski",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "43a2e16c",
+   "season": 2019,
+   "distance": 2.511,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirco Antenucci",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "ad469944",
+   "season": 2018,
+   "distance": 2.539,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxi López",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "88a359d4",
+   "season": 2020,
+   "distance": 2.587,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrián López",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "1ad1f50d",
+   "season": 2018,
+   "distance": 2.634,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Sau",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "8e87af42",
+   "season": 2018,
+   "distance": 2.683,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Préjuce Nakoulma",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "f83c8d6c",
+   "season": 2019,
+   "distance": 2.715,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jimmy Briand",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2019,
+   "distance": 2.743,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "9f472354",
+   "season": 2018,
+   "distance": 2.776,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  }
+ ],
  "low_confidence": false
 }

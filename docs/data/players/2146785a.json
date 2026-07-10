@@ -26,10 +26,115 @@
   "confidence": 0.48
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4216,
+  "mu": 57.0,
+  "ci80": {
+   "lo": 48.3,
+   "hi": 65.6
+  },
+  "ci50": {
+   "lo": 52.4,
+   "hi": 61.5
+  },
+  "sigma_model": 1.656,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4c5b714f",
+   "season": 2020,
+   "distance": 1.589,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Djibril Sidibé",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "b0616e3d",
+   "season": 2018,
+   "distance": 2.408,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Escudero",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "5939baa2",
+   "season": 2018,
+   "distance": 2.487,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "fdd60087",
+   "season": 2019,
+   "distance": 2.532,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santiago Arias",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "4db76f57",
+   "season": 2019,
+   "distance": 2.544,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Muniesa",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2018,
+   "distance": 2.566,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Alberto Moreno",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2018,
+   "distance": 2.573,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Martín Montoya",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "5c2b4f07",
+   "season": 2018,
+   "distance": 2.585,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Serge Aurier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2018,
+   "distance": 2.667,
+   "survived": 1,
+   "fut_ability_v2": 38.9,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "f9acca3a",
+   "season": 2020,
+   "distance": 2.695,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wendell",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

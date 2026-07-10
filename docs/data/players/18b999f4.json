@@ -26,10 +26,115 @@
   "confidence": 0.66
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.145,
+  "mu": 43.1,
+  "ci80": {
+   "lo": 34.2,
+   "hi": 52.0
+  },
+  "ci50": {
+   "lo": 38.4,
+   "hi": 47.8
+  },
+  "sigma_model": 2.208,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "04965583",
+   "season": 2020,
+   "distance": 2.178,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Aleix Vidal",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "b48215cd",
+   "season": 2019,
+   "distance": 2.257,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexander Esswein",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "4a57580c",
+   "season": 2018,
+   "distance": 2.277,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "07abb358",
+   "season": 2019,
+   "distance": 2.491,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rômulo",
+   "squad": "Genoa / Lazio"
+  },
+  {
+   "fbref_id": "6fd1ba62",
+   "season": 2018,
+   "distance": 2.533,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Markel Susaeta",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "809940aa",
+   "season": 2020,
+   "distance": 2.558,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominick Drexler",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "75f2c59f",
+   "season": 2020,
+   "distance": 2.559,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Roberto Pereyra",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "b606638c",
+   "season": 2020,
+   "distance": 2.637,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Stiepermann",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "7c4243d4",
+   "season": 2020,
+   "distance": 2.644,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roque Mesa",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "6fd1ba62",
+   "season": 2019,
+   "distance": 2.663,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Markel Susaeta",
+   "squad": "Athletic Club"
+  }
+ ],
  "low_confidence": false
 }

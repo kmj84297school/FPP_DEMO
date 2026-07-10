@@ -26,10 +26,115 @@
   "confidence": 0.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4906,
+  "mu": 51.1,
+  "ci80": {
+   "lo": 42.4,
+   "hi": 59.8
+  },
+  "ci50": {
+   "lo": 46.5,
+   "hi": 55.7
+  },
+  "sigma_model": 1.799,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a46472d0",
+   "season": 2019,
+   "distance": 1.473,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "f7d50789",
+   "season": 2020,
+   "distance": 1.489,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Toby Alderweireld",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "c0e27d1a",
+   "season": 2020,
+   "distance": 1.497,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Luiz",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2020,
+   "distance": 1.5,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 1.626,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "c6056d58",
+   "season": 2019,
+   "distance": 1.627,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Kamil Glik",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "b7ca5c51",
+   "season": 2020,
+   "distance": 1.649,
+   "survived": 1,
+   "fut_ability_v2": 54.3,
+   "player_name": "Gabriel Paulista",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2018,
+   "distance": 1.651,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "b666421b",
+   "season": 2020,
+   "distance": 1.669,
+   "survived": 1,
+   "fut_ability_v2": 41.0,
+   "player_name": "Ismaël Traoré",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2019,
+   "distance": 1.705,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Álvaro González",
+   "squad": "Villarreal"
+  }
+ ],
  "low_confidence": false
 }

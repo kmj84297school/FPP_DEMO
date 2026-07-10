@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6611,
+  "mu": 49.7,
+  "ci80": {
+   "lo": 40.9,
+   "hi": 58.6
+  },
+  "ci50": {
+   "lo": 45.1,
+   "hi": 54.4
+  },
+  "sigma_model": 2.161,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b0243215",
+   "season": 2019,
+   "distance": 1.752,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Dell'Orco",
+   "squad": "Empoli / Sassuolo"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2018,
+   "distance": 1.889,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "555f3a0b",
+   "season": 2020,
+   "distance": 1.936,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Mario Hermoso",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "4fdf1fd9",
+   "season": 2020,
+   "distance": 2.017,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Björn Engels",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "9b30df1e",
+   "season": 2019,
+   "distance": 2.108,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bartosz Salamon",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "450e277f",
+   "season": 2018,
+   "distance": 2.196,
+   "survived": 1,
+   "fut_ability_v2": 45.6,
+   "player_name": "Mateo Pavlović",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "b233e8e4",
+   "season": 2020,
+   "distance": 2.201,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Jeison Murillo",
+   "squad": "Celta Vigo / Sampdoria"
+  },
+  {
+   "fbref_id": "2990c466",
+   "season": 2020,
+   "distance": 2.228,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kastriot Dermaku",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "d0dbca9f",
+   "season": 2020,
+   "distance": 2.251,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Alex Ferrari",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "3376a776",
+   "season": 2020,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Karim Rekik",
+   "squad": "Hertha BSC"
+  }
+ ],
  "low_confidence": false
 }

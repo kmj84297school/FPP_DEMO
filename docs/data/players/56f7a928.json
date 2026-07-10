@@ -26,10 +26,115 @@
   "confidence": 0.21
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6001,
+  "mu": 52.1,
+  "ci80": {
+   "lo": 43.4,
+   "hi": 60.7
+  },
+  "ci50": {
+   "lo": 47.5,
+   "hi": 56.6
+  },
+  "sigma_model": 1.541,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e61b8aee",
+   "season": 2019,
+   "distance": 1.891,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Granit Xhaka",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2020,
+   "distance": 2.047,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "c6e5d20f",
+   "season": 2019,
+   "distance": 2.081,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Thiago Mendes",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "c6e5d20f",
+   "season": 2020,
+   "distance": 2.249,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Thiago Mendes",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2019,
+   "distance": 2.427,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "4a56052c",
+   "season": 2018,
+   "distance": 2.429,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Jordan Veretout",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "dc3fa3b5",
+   "season": 2019,
+   "distance": 2.43,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Diego Demme",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "33b8d077",
+   "season": 2020,
+   "distance": 2.464,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Marcelo Brozović",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2018,
+   "distance": 2.485,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2018,
+   "distance": 2.506,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  }
+ ],
  "low_confidence": false
 }

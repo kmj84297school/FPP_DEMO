@@ -26,10 +26,115 @@
   "confidence": 0.79
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2852,
+  "mu": 58.7,
+  "ci80": {
+   "lo": 49.9,
+   "hi": 67.5
+  },
+  "ci50": {
+   "lo": 54.1,
+   "hi": 63.3
+  },
+  "sigma_model": 2.027,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2020,
+   "distance": 2.99,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2019,
+   "distance": 3.0,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Celta Vigo / Betis"
+  },
+  {
+   "fbref_id": "9a2e0ccc",
+   "season": 2020,
+   "distance": 3.021,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Emil Forsberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "849c826a",
+   "season": 2020,
+   "distance": 3.027,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andriy Yarmolenko",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "d995ed27",
+   "season": 2020,
+   "distance": 3.199,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Giacomo Bonaventura",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2020,
+   "distance": 3.316,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2018,
+   "distance": 3.326,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "c90977db",
+   "season": 2018,
+   "distance": 3.394,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Fabián Orellana",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2018,
+   "distance": 3.408,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2020,
+   "distance": 3.523,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Radja Nainggolan",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.52
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4279,
+  "mu": 52.0,
+  "ci80": {
+   "lo": 43.2,
+   "hi": 60.7
+  },
+  "ci50": {
+   "lo": 47.3,
+   "hi": 56.6
+  },
+  "sigma_model": 1.909,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "173061c0",
+   "season": 2020,
+   "distance": 1.835,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Riccardo Gagliolo",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "aae9d04a",
+   "season": 2020,
+   "distance": 2.175,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Davide Faraoni",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "5f09991f",
+   "season": 2020,
+   "distance": 2.307,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick van Aanholt",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2019,
+   "distance": 2.335,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2019,
+   "distance": 2.373,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Coke",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2018,
+   "distance": 2.388,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "cacadf4f",
+   "season": 2019,
+   "distance": 2.441,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luis Advíncula",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2020,
+   "distance": 2.475,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Schmid",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2019,
+   "distance": 2.546,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 2.549,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

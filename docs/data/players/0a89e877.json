@@ -26,10 +26,115 @@
   "confidence": 0.64
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3927,
+  "mu": 56.8,
+  "ci80": {
+   "lo": 48.0,
+   "hi": 65.5
+  },
+  "ci50": {
+   "lo": 52.2,
+   "hi": 61.4
+  },
+  "sigma_model": 1.872,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b0616e3d",
+   "season": 2018,
+   "distance": 1.715,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Escudero",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "af69e7f0",
+   "season": 2019,
+   "distance": 1.829,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Bryan",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2018,
+   "distance": 1.883,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2018,
+   "distance": 2.007,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2018,
+   "distance": 2.019,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Martín Montoya",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "22721b88",
+   "season": 2019,
+   "distance": 2.034,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Amavi",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "0ccac09c",
+   "season": 2020,
+   "distance": 2.036,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Sabelli",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "d9ba39fc",
+   "season": 2020,
+   "distance": 2.046,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Diego Rico",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "4c5b714f",
+   "season": 2020,
+   "distance": 2.061,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Djibril Sidibé",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "cb574619",
+   "season": 2018,
+   "distance": 2.102,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  }
+ ],
  "low_confidence": false
 }

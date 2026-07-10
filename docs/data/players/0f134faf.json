@@ -26,10 +26,115 @@
   "confidence": 0.72
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.303,
+  "mu": 47.8,
+  "ci80": {
+   "lo": 38.7,
+   "hi": 56.8
+  },
+  "ci50": {
+   "lo": 43.0,
+   "hi": 52.5
+  },
+  "sigma_model": 2.62,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2019,
+   "distance": 2.292,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2019,
+   "distance": 2.327,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "a25250f8",
+   "season": 2018,
+   "distance": 2.336,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Granell",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "495945ef",
+   "season": 2019,
+   "distance": 2.521,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Ashley Westwood",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "70dcf94d",
+   "season": 2019,
+   "distance": 2.561,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "3727dd3c",
+   "season": 2018,
+   "distance": 2.595,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Jonjo Shelvey",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2018,
+   "distance": 2.647,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Aaron Mooy",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "6bde367b",
+   "season": 2020,
+   "distance": 2.653,
+   "survived": 1,
+   "fut_ability_v2": 62.0,
+   "player_name": "Téji Savanier",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2020,
+   "distance": 2.707,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "71ef519e",
+   "season": 2018,
+   "distance": 2.775,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  }
+ ],
  "low_confidence": false
 }

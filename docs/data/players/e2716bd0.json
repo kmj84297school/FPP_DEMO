@@ -26,10 +26,115 @@
   "confidence": 1.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2342,
+  "mu": 60.7,
+  "ci80": {
+   "lo": 51.9,
+   "hi": 69.4
+  },
+  "ci50": {
+   "lo": 56.0,
+   "hi": 65.3
+  },
+  "sigma_model": 1.949,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4c5b14d2",
+   "season": 2018,
+   "distance": 3.05,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Joaquín",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "75bd85ea",
+   "season": 2020,
+   "distance": 3.219,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Salva Sevilla",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "0e21fc3c",
+   "season": 2020,
+   "distance": 3.306,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Valero",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "e2e9c250",
+   "season": 2020,
+   "distance": 3.422,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santi Cazorla",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "4c5b14d2",
+   "season": 2020,
+   "distance": 4.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joaquín",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "c9e99e49",
+   "season": 2019,
+   "distance": 4.244,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Dani Alves",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "f3642ba8",
+   "season": 2019,
+   "distance": 4.417,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Bodmer",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "516dc25b",
+   "season": 2018,
+   "distance": 4.603,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaroslav Plašil",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "532d2690",
+   "season": 2018,
+   "distance": 4.632,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele De Rossi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ac62861c",
+   "season": 2018,
+   "distance": 4.655,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Féret",
+   "squad": "Caen"
+  }
+ ],
+ "low_confidence": true
 }

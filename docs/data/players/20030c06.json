@@ -26,10 +26,115 @@
   "confidence": 1.37
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4893,
+  "mu": 61.8,
+  "ci80": {
+   "lo": 53.1,
+   "hi": 70.5
+  },
+  "ci50": {
+   "lo": 57.2,
+   "hi": 66.4
+  },
+  "sigma_model": 1.848,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e0314d87",
+   "season": 2018,
+   "distance": 1.703,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Andrea Masiello",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "05d548d8",
+   "season": 2020,
+   "distance": 1.766,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Mats Hummels",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2018,
+   "distance": 1.953,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "da974c7b",
+   "season": 2019,
+   "distance": 1.973,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "e3d0b0c4",
+   "season": 2019,
+   "distance": 2.024,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Marcelo",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "e06683ca",
+   "season": 2019,
+   "distance": 2.037,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Virgil van Dijk",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "c0e27d1a",
+   "season": 2019,
+   "distance": 2.155,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "David Luiz",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "adfc9123",
+   "season": 2019,
+   "distance": 2.181,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Gerard Piqué",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "070ec0b1",
+   "season": 2018,
+   "distance": 2.206,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Sven Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "f8fcd2a5",
+   "season": 2020,
+   "distance": 2.27,
+   "survived": 1,
+   "fut_ability_v2": 63.4,
+   "player_name": "Jonny Evans",
+   "squad": "Leicester City"
+  }
+ ],
  "low_confidence": false
 }

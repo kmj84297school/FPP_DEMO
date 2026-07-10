@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.11,
+  "mu": 49.3,
+  "ci80": {
+   "lo": 40.6,
+   "hi": 58.0
+  },
+  "ci50": {
+   "lo": 44.7,
+   "hi": 53.9
+  },
+  "sigma_model": 1.745,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "be927d03",
+   "season": 2019,
+   "distance": 2.07,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "7391c2d9",
+   "season": 2020,
+   "distance": 2.077,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Markus Suttner",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2020,
+   "distance": 2.17,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "767212e6",
+   "season": 2020,
+   "distance": 2.292,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Faussurier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "cfd8d664",
+   "season": 2019,
+   "distance": 2.321,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "b18095b6",
+   "season": 2018,
+   "distance": 2.343,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leighton Baines",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "35dd6d80",
+   "season": 2020,
+   "distance": 2.389,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Domenico Criscito",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2018,
+   "distance": 2.45,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "12aa7661",
+   "season": 2020,
+   "distance": 2.492,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2019,
+   "distance": 2.496,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  }
+ ],
  "low_confidence": false
 }

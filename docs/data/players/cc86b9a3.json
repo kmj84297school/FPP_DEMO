@@ -26,10 +26,115 @@
   "confidence": 0.21
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5134,
+  "mu": 56.0,
+  "ci80": {
+   "lo": 47.2,
+   "hi": 64.7
+  },
+  "ci50": {
+   "lo": 51.4,
+   "hi": 60.6
+  },
+  "sigma_model": 1.88,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2019,
+   "distance": 2.106,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 2.297,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "ce30bfc8",
+   "season": 2020,
+   "distance": 2.352,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Gagliardini",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2020,
+   "distance": 2.451,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "b8836910",
+   "season": 2018,
+   "distance": 2.465,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Celso Borges",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "410ab123",
+   "season": 2018,
+   "distance": 2.531,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lewis Holtby",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "9085dd7c",
+   "season": 2019,
+   "distance": 2.552,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Faragò",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "ef619b0b",
+   "season": 2020,
+   "distance": 2.567,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Ramsey",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2019,
+   "distance": 2.591,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "c414df9d",
+   "season": 2020,
+   "distance": 2.73,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mattia Valoti",
+   "squad": "SPAL"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7785,
+  "mu": 50.9,
+  "ci80": {
+   "lo": 42.2,
+   "hi": 59.7
+  },
+  "ci50": {
+   "lo": 46.3,
+   "hi": 55.5
+  },
+  "sigma_model": 1.877,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ae4e2852",
+   "season": 2019,
+   "distance": 2.423,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Mattia De Sciglio",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "de7d40d6",
+   "season": 2019,
+   "distance": 2.455,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Juncà",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2019,
+   "distance": 2.484,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "64cd167d",
+   "season": 2020,
+   "distance": 2.549,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Davide Biraschi",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "f2a68b97",
+   "season": 2019,
+   "distance": 2.574,
+   "survived": 1,
+   "fut_ability_v2": 43.3,
+   "player_name": "Carlos Akapo",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "45954ec7",
+   "season": 2018,
+   "distance": 2.61,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Marcel Tisserand",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "ae4e2852",
+   "season": 2018,
+   "distance": 2.617,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Mattia De Sciglio",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "b0243215",
+   "season": 2020,
+   "distance": 2.649,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Dell'Orco",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "3935e52e",
+   "season": 2020,
+   "distance": 2.681,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sead Kolašinac",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "ff0ab48c",
+   "season": 2020,
+   "distance": 2.699,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Leo Dubois",
+   "squad": "Lyon"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1913,
+  "mu": 52.9,
+  "ci80": {
+   "lo": 44.0,
+   "hi": 61.8
+  },
+  "ci50": {
+   "lo": 48.2,
+   "hi": 57.6
+  },
+  "sigma_model": 2.259,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "542cc80f",
+   "season": 2020,
+   "distance": 1.722,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paul Lasne",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "bc61cc65",
+   "season": 2020,
+   "distance": 1.925,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iñigo Pérez",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "35c5f9b1",
+   "season": 2018,
+   "distance": 2.162,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stéphane Sessègnon",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "07abb358",
+   "season": 2020,
+   "distance": 2.221,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rômulo",
+   "squad": "Brescia / Genoa"
+  },
+  {
+   "fbref_id": "07abb358",
+   "season": 2019,
+   "distance": 2.228,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rômulo",
+   "squad": "Genoa / Lazio"
+  },
+  {
+   "fbref_id": "71d4e271",
+   "season": 2018,
+   "distance": 2.26,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Manuel Jurado",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "144607cc",
+   "season": 2020,
+   "distance": 2.261,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jasmin Kurtić",
+   "squad": "Parma / SPAL"
+  },
+  {
+   "fbref_id": "3c05e082",
+   "season": 2019,
+   "distance": 2.288,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koo Ja-cheol",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "ef322658",
+   "season": 2020,
+   "distance": 2.339,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2019,
+   "distance": 2.427,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Radja Nainggolan",
+   "squad": "Inter"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.77
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0931,
+  "mu": 43.7,
+  "ci80": {
+   "lo": 34.9,
+   "hi": 52.6
+  },
+  "ci50": {
+   "lo": 39.1,
+   "hi": 48.4
+  },
+  "sigma_model": 2.17,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "49d53c68",
+   "season": 2018,
+   "distance": 2.15,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Opare",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "6ca88b2a",
+   "season": 2018,
+   "distance": 2.177,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Moubandje",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "cfd5e123",
+   "season": 2019,
+   "distance": 2.187,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Bong",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "3e87d087",
+   "season": 2019,
+   "distance": 2.189,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emmanuel Imorou",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "69cbc8b6",
+   "season": 2020,
+   "distance": 2.291,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Leandro Cabrera",
+   "squad": "Getafe / Espanyol"
+  },
+  {
+   "fbref_id": "1b729ba2",
+   "season": 2018,
+   "distance": 2.312,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleandro Rosi",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "a6e316c1",
+   "season": 2018,
+   "distance": 2.314,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezequiel Schelotto",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "cfd5e123",
+   "season": 2018,
+   "distance": 2.377,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Bong",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "1a317a1b",
+   "season": 2019,
+   "distance": 2.389,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl García",
+   "squad": "Girona / Leganés"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2020,
+   "distance": 2.39,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  }
+ ],
  "low_confidence": false
 }

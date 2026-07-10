@@ -26,10 +26,115 @@
   "confidence": 0.56
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2945,
+  "mu": 64.5,
+  "ci80": {
+   "lo": 55.7,
+   "hi": 73.3
+  },
+  "ci50": {
+   "lo": 59.9,
+   "hi": 69.1
+  },
+  "sigma_model": 1.949,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "86dd77d1",
+   "season": 2018,
+   "distance": 3.302,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Kyle Walker",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "8ff2354e",
+   "season": 2020,
+   "distance": 3.342,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Halstenberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "b6e50615",
+   "season": 2020,
+   "distance": 3.378,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Yuri Berchiche",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "0d82903c",
+   "season": 2018,
+   "distance": 3.46,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Alex Sandro",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "c2009df3",
+   "season": 2018,
+   "distance": 3.521,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Jonas Hector",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "86dd77d1",
+   "season": 2019,
+   "distance": 3.605,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Kyle Walker",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2018,
+   "distance": 3.653,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "1a4b9094",
+   "season": 2019,
+   "distance": 3.661,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bouna Sarr",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "0d82903c",
+   "season": 2020,
+   "distance": 3.761,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Alex Sandro",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "b0616e3d",
+   "season": 2018,
+   "distance": 3.764,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Escudero",
+   "squad": "Sevilla"
+  }
+ ],
+ "low_confidence": true
 }

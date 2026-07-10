@@ -26,10 +26,115 @@
   "confidence": 1.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.7318,
+  "mu": 66.6,
+  "ci80": {
+   "lo": 57.9,
+   "hi": 75.3
+  },
+  "ci50": {
+   "lo": 62.0,
+   "hi": 71.2
+  },
+  "sigma_model": 1.863,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d3aaad90",
+   "season": 2019,
+   "distance": 4.069,
+   "survived": 1,
+   "fut_ability_v2": 69.9,
+   "player_name": "Stephan El Shaarawy",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "bece776f",
+   "season": 2018,
+   "distance": 4.648,
+   "survived": 1,
+   "fut_ability_v2": 63.7,
+   "player_name": "Nabil Fekir",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "0ef89a37",
+   "season": 2020,
+   "distance": 4.823,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Philippe Coutinho",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "a0b4bb3e",
+   "season": 2019,
+   "distance": 4.839,
+   "survived": 1,
+   "fut_ability_v2": 67.6,
+   "player_name": "Isco",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "3bb7af3b",
+   "season": 2020,
+   "distance": 4.951,
+   "survived": 1,
+   "fut_ability_v2": 63.4,
+   "player_name": "Riccardo Saponara",
+   "squad": "Lecce / Genoa"
+  },
+  {
+   "fbref_id": "1a992676",
+   "season": 2019,
+   "distance": 4.995,
+   "survived": 1,
+   "fut_ability_v2": 70.7,
+   "player_name": "Julian Draxler",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2018,
+   "distance": 5.156,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "bb4a42be",
+   "season": 2018,
+   "distance": 5.204,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yannis Salibur",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "bece776f",
+   "season": 2019,
+   "distance": 5.228,
+   "survived": 1,
+   "fut_ability_v2": 68.0,
+   "player_name": "Nabil Fekir",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "3a24769f",
+   "season": 2020,
+   "distance": 5.253,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ross Barkley",
+   "squad": "Chelsea"
+  }
+ ],
+ "low_confidence": true
 }

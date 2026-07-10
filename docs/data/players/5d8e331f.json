@@ -26,10 +26,115 @@
   "confidence": 1.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4293,
+  "mu": 51.7,
+  "ci80": {
+   "lo": 42.9,
+   "hi": 60.5
+  },
+  "ci50": {
+   "lo": 47.0,
+   "hi": 56.3
+  },
+  "sigma_model": 1.983,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0aa874f4",
+   "season": 2019,
+   "distance": 1.795,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alaixys Romao",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "ad1ffcfd",
+   "season": 2020,
+   "distance": 1.894,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Vicente Iborra",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 1.899,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2020,
+   "distance": 1.953,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "f1cfc209",
+   "season": 2020,
+   "distance": 1.968,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Tomás Rincón",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "41f32541",
+   "season": 2020,
+   "distance": 2.112,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Fernando",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "7329018e",
+   "season": 2019,
+   "distance": 2.148,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Papakouli Diop",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "e54bd0a2",
+   "season": 2019,
+   "distance": 2.157,
+   "survived": 1,
+   "fut_ability_v2": 42.6,
+   "player_name": "Tomás Pina Isla",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2018,
+   "distance": 2.163,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Simone Missiroli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "05a4465d",
+   "season": 2019,
+   "distance": 2.168,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Manu García",
+   "squad": "Alavés"
+  }
+ ],
  "low_confidence": false
 }

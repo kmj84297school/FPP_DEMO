@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8119,
+  "mu": 45.7,
+  "ci80": {
+   "lo": 36.8,
+   "hi": 54.6
+  },
+  "ci50": {
+   "lo": 41.0,
+   "hi": 50.4
+  },
+  "sigma_model": 2.216,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d790907f",
+   "season": 2018,
+   "distance": 2.535,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andy King",
+   "squad": "Swansea City / Leicester City"
+  },
+  {
+   "fbref_id": "69374ff5",
+   "season": 2018,
+   "distance": 2.763,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Julian Baumgartlinger",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "960acc0a",
+   "season": 2018,
+   "distance": 2.796,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Badou Ndiaye",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "ebd0a048",
+   "season": 2018,
+   "distance": 2.831,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matty James",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "3f79a1c8",
+   "season": 2019,
+   "distance": 2.848,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Gonzalo Escalante",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "34e393f2",
+   "season": 2020,
+   "distance": 2.884,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Guido Rodríguez",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "1b82f8df",
+   "season": 2020,
+   "distance": 2.892,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lukas Lerager",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "614c38fb",
+   "season": 2018,
+   "distance": 2.894,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joel Obi",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "86695068",
+   "season": 2020,
+   "distance": 2.907,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Dennis Praet",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "ad1ffcfd",
+   "season": 2018,
+   "distance": 2.907,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Vicente Iborra",
+   "squad": "Leicester City"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.87
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.796,
+  "mu": 53.0,
+  "ci80": {
+   "lo": 44.3,
+   "hi": 61.6
+  },
+  "ci50": {
+   "lo": 48.4,
+   "hi": 57.5
+  },
+  "sigma_model": 1.721,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3376a776",
+   "season": 2020,
+   "distance": 1.087,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Karim Rekik",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2020,
+   "distance": 1.452,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2020,
+   "distance": 1.562,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "fbffc4b1",
+   "season": 2018,
+   "distance": 1.563,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Jeffrey Bruma",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "d9624b51",
+   "season": 2019,
+   "distance": 1.643,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Federico Ceccherini",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "bba30585",
+   "season": 2019,
+   "distance": 1.652,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Diego Llorente",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "79083382",
+   "season": 2018,
+   "distance": 1.665,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Jesus",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "aad48be9",
+   "season": 2020,
+   "distance": 1.676,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "f35430a4",
+   "season": 2020,
+   "distance": 1.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matija Nastasić",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "6fd8a334",
+   "season": 2019,
+   "distance": 1.797,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Aleksandar Dragović",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

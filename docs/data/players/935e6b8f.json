@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4328,
+  "mu": 55.2,
+  "ci80": {
+   "lo": 46.2,
+   "hi": 64.1
+  },
+  "ci50": {
+   "lo": 50.5,
+   "hi": 59.9
+  },
+  "sigma_model": 2.399,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bd84fc61",
+   "season": 2019,
+   "distance": 1.913,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Pasquale Schiattarella",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "bd84fc61",
+   "season": 2018,
+   "distance": 2.042,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Pasquale Schiattarella",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2019,
+   "distance": 2.177,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "ae64d449",
+   "season": 2018,
+   "distance": 2.232,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Luca Cigarini",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "ae64d449",
+   "season": 2020,
+   "distance": 2.386,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Cigarini",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "7460ca0d",
+   "season": 2020,
+   "distance": 2.391,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Daniel Parejo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "f5a00fa4",
+   "season": 2018,
+   "distance": 2.43,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "João Moutinho",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "418f8f61",
+   "season": 2019,
+   "distance": 2.501,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Míchel",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2020,
+   "distance": 2.514,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "ae64d449",
+   "season": 2019,
+   "distance": 2.542,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Luca Cigarini",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

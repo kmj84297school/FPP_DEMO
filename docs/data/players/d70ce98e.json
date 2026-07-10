@@ -26,10 +26,115 @@
   "confidence": 0.54
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.7022,
+  "mu": 69.0,
+  "ci80": {
+   "lo": 59.7,
+   "hi": 78.3
+  },
+  "ci50": {
+   "lo": 64.1,
+   "hi": 73.9
+  },
+  "sigma_model": 3.124,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e2716bd0",
+   "season": 2020,
+   "distance": 7.533,
+   "survived": 1,
+   "fut_ability_v2": 69.8,
+   "player_name": "David Silva",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "f61c7c4e",
+   "season": 2019,
+   "distance": 8.05,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Franck Ribéry",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "e2e9c250",
+   "season": 2020,
+   "distance": 8.648,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santi Cazorla",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "e2e9c250",
+   "season": 2019,
+   "distance": 9.201,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santi Cazorla",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "c9e99e49",
+   "season": 2019,
+   "distance": 9.335,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Dani Alves",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "c90977db",
+   "season": 2020,
+   "distance": 9.466,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabián Orellana",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "4c5b14d2",
+   "season": 2018,
+   "distance": 9.546,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Joaquín",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "6025fab1",
+   "season": 2020,
+   "distance": 9.872,
+   "survived": 1,
+   "fut_ability_v2": 65.9,
+   "player_name": "Luka Modrić",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "cfd65a29",
+   "season": 2018,
+   "distance": 10.455,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrés Iniesta",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "1c50f354",
+   "season": 2019,
+   "distance": 10.826,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emanuele Giaccherini",
+   "squad": "Chievo"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 1.67
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4966,
+  "mu": 41.7,
+  "ci80": {
+   "lo": 32.9,
+   "hi": 50.4
+  },
+  "ci50": {
+   "lo": 37.1,
+   "hi": 46.3
+  },
+  "sigma_model": 1.828,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f10983ae",
+   "season": 2020,
+   "distance": 2.276,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Moreira",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 2.498,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "e4b72e34",
+   "season": 2020,
+   "distance": 2.545,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Miguel Trauco",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "c067631c",
+   "season": 2020,
+   "distance": 2.702,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Fredericks",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2018,
+   "distance": 2.716,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "b05e2dbd",
+   "season": 2020,
+   "distance": 2.758,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "José Luis Gayà",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "c8c02ac7",
+   "season": 2018,
+   "distance": 2.759,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Zeffane",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "8ff4872e",
+   "season": 2019,
+   "distance": 2.812,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Ikoko",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "ae0a7ddf",
+   "season": 2019,
+   "distance": 2.875,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "DeAndre Yedlin",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2018,
+   "distance": 2.883,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  }
+ ],
  "low_confidence": false
 }

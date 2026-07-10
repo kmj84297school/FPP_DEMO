@@ -26,10 +26,115 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5874,
+  "mu": 57.6,
+  "ci80": {
+   "lo": 48.9,
+   "hi": 66.3
+  },
+  "ci50": {
+   "lo": 53.1,
+   "hi": 62.2
+  },
+  "sigma_model": 1.699,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2018,
+   "distance": 2.237,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "857a5abe",
+   "season": 2019,
+   "distance": 2.342,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Stefan Bell",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2019,
+   "distance": 2.555,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2020,
+   "distance": 2.678,
+   "survived": 1,
+   "fut_ability_v2": 64.0,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "791abba1",
+   "season": 2018,
+   "distance": 2.706,
+   "survived": 1,
+   "fut_ability_v2": 63.5,
+   "player_name": "Salif Sané",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2018,
+   "distance": 2.769,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "cb574619",
+   "season": 2018,
+   "distance": 2.818,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "080440a4",
+   "season": 2020,
+   "distance": 2.837,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Martin Hinteregger",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2019,
+   "distance": 2.884,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2018,
+   "distance": 2.886,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  }
+ ],
  "low_confidence": false
 }

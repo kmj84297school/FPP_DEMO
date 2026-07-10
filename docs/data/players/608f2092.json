@@ -26,10 +26,115 @@
   "confidence": 1.6
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3222,
+  "mu": 46.0,
+  "ci80": {
+   "lo": 37.2,
+   "hi": 54.8
+  },
+  "ci50": {
+   "lo": 41.4,
+   "hi": 50.6
+  },
+  "sigma_model": 1.949,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2020,
+   "distance": 2.001,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Coke",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "ad6295d4",
+   "season": 2018,
+   "distance": 2.108,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Layún",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "1a317a1b",
+   "season": 2020,
+   "distance": 2.131,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl García",
+   "squad": "Valladolid / Getafe"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2019,
+   "distance": 2.141,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "15e1afd5",
+   "season": 2018,
+   "distance": 2.149,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franck Tabanou",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2018,
+   "distance": 2.189,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "dbe519cf",
+   "season": 2020,
+   "distance": 2.205,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antoñito",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "1fe67e86",
+   "season": 2018,
+   "distance": 2.336,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Mikel Balenziaga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "a6e316c1",
+   "season": 2018,
+   "distance": 2.348,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezequiel Schelotto",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "df525574",
+   "season": 2020,
+   "distance": 2.388,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Peter Ankersen",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

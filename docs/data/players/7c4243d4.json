@@ -26,10 +26,115 @@
   "confidence": 0.52
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.101,
+  "mu": 47.4,
+  "ci80": {
+   "lo": 38.6,
+   "hi": 56.1
+  },
+  "ci50": {
+   "lo": 42.8,
+   "hi": 52.0
+  },
+  "sigma_model": 1.852,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1b17ed86",
+   "season": 2019,
+   "distance": 1.584,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Esteban Granero",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "c3a8bcd8",
+   "season": 2020,
+   "distance": 1.715,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lasse Schöne",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "418f8f61",
+   "season": 2020,
+   "distance": 1.799,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Míchel",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "ab1ca213",
+   "season": 2018,
+   "distance": 1.849,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Miguel Veloso",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2019,
+   "distance": 1.917,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "b037bd4f",
+   "season": 2019,
+   "distance": 1.947,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Beñat Etxebarria",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2019,
+   "distance": 2.011,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ef322658",
+   "season": 2020,
+   "distance": 2.049,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "c0cddebe",
+   "season": 2019,
+   "distance": 2.07,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blaise Matuidi",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "cf15bbb1",
+   "season": 2018,
+   "distance": 2.167,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Davis",
+   "squad": "Southampton"
+  }
+ ],
  "low_confidence": false
 }

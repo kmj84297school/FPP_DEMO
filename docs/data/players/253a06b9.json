@@ -26,10 +26,115 @@
   "confidence": 1.99
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5695,
+  "mu": 47.1,
+  "ci80": {
+   "lo": 37.2,
+   "hi": 57.0
+  },
+  "ci50": {
+   "lo": 41.9,
+   "hi": 52.3
+  },
+  "sigma_model": 4.031,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e5f63987",
+   "season": 2019,
+   "distance": 2.017,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ginczek",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "1e274a0a",
+   "season": 2020,
+   "distance": 2.101,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sven Michel",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2018,
+   "distance": 2.243,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "bf39bdec",
+   "season": 2020,
+   "distance": 2.272,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ernesto Torregrossa",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "4c7940d6",
+   "season": 2018,
+   "distance": 2.415,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Coda",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2020,
+   "distance": 2.477,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "f93e6e94",
+   "season": 2018,
+   "distance": 2.504,
+   "survived": 1,
+   "fut_ability_v2": 41.7,
+   "player_name": "Nils Petersen",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "99be8fb5",
+   "season": 2020,
+   "distance": 2.551,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Ujah",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "02319ad7",
+   "season": 2020,
+   "distance": 2.683,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaime Mata",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "9980269a",
+   "season": 2019,
+   "distance": 2.723,
+   "survived": 1,
+   "fut_ability_v2": 33.7,
+   "player_name": "Kalifa Coulibaly",
+   "squad": "Nantes"
+  }
+ ],
  "low_confidence": false
 }

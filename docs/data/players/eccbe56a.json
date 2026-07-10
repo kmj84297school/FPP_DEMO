@@ -26,10 +26,115 @@
   "confidence": 1.64
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2255,
+  "mu": 47.5,
+  "ci80": {
+   "lo": 38.6,
+   "hi": 56.4
+  },
+  "ci50": {
+   "lo": 42.8,
+   "hi": 52.2
+  },
+  "sigma_model": 2.32,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c650629d",
+   "season": 2019,
+   "distance": 1.916,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "37f96552",
+   "season": 2018,
+   "distance": 2.131,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nabil El Zhar",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "6fd1ba62",
+   "season": 2018,
+   "distance": 2.151,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Markel Susaeta",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2020,
+   "distance": 2.383,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "fc647b34",
+   "season": 2019,
+   "distance": 2.517,
+   "survived": 1,
+   "fut_ability_v2": 60.3,
+   "player_name": "Óscar Trejo",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2018,
+   "distance": 2.537,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "ecd8c01e",
+   "season": 2020,
+   "distance": 2.593,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Rochina",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2019,
+   "distance": 2.621,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "70f8e0bd",
+   "season": 2020,
+   "distance": 2.631,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Dani Rodríguez",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "79135368",
+   "season": 2019,
+   "distance": 2.635,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fayçal Fajr",
+   "squad": "Caen"
+  }
+ ],
  "low_confidence": false
 }

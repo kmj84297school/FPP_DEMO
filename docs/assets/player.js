@@ -55,29 +55,37 @@ function renderPlayer(p) {
   `;
 
   if (!p.eligibility.eligible_for_prediction) {
-    const ageMax = META ? META.pred_age_max : 23;
-    const minMin = META ? META.pred_min_minutes : "?";
     const reasonMap = {
-      over_age: `연령(${ageMax}세 초과)`,
-      under_minutes: `출전시간(${minMin}분 미만)`,
+      under_minutes: "출전시간 기준 미달",
+      too_old_for_model: "검증된 모델의 연령 범위(38세) 밖 — 학습 표본이 너무 적어 신뢰할 수 없음",
+      insufficient_data: "핵심 스탯 데이터 결측으로 현재 능력 자체를 계산할 수 없음",
     };
-    const reasons = (p.eligibility.reason || "").split(";").filter(Boolean).map((r) => reasonMap[r] || r).join(", ");
+    const reasonText = reasonMap[p.eligibility.reason] || "기준 미달";
     html += `
       <div class="panel">
-        <div class="note">예측 모델 적용 대상 아님 — 학습 코호트 기준(${ageMax}세 이하, ${minMin}분 이상) 초과: ${reasons || "기준 미달"}.
-        현재 능력 점수만 제공됩니다.</div>
+        <div class="note">예측 모델 적용 대상 아님 — ${reasonText}. 현재 능력 점수만 제공됩니다.</div>
       </div>`;
   } else {
     const pred = p.prediction;
+    const isGrowth = p.eligibility.kind === "growth";
+    const sectionTitle = isGrowth ? "2~3년 후 성장 예측" : "2~3년 후 전성기 유지 예측";
+    const survivalLabel = isGrowth ? "빅5 잔존확률" : "빅5 현역 유지확률";
+    const regressionNote = isGrowth
+      ? `예측 중심값(mu)이 현재능력보다 낮은 건 평균회귀 때문입니다 — 실제 데이터에서도 현재능력 상위권 선수 상당수가 2~3년 후 다소 낮아지는 경향이 있습니다. 80% 구간(${fmt1(pred.ci80.lo)}~${fmt1(pred.ci80.hi)})에 현재능력(${fmt1(c.ability)})이 포함된다면, 유지 가능성도 충분히 열려 있다는 뜻입니다.`
+      : `예측 중심값(mu)이 현재능력보다 낮은 건 나이에 따른 자연스러운 기량 변화가 반영된 결과입니다. 이 전성기 유지 모델은 검증 결과 성장 예측 모델보다 정확도가 더 높습니다(MAE ${META && META.veteran ? META.veteran.mae : "?"} vs 6.19, GroupKFold 5겹).`;
     html += `
       <div class="grid-2">
         <div class="panel">
-          <div class="section-title">2~3년 후 예측</div>
-          <div class="stat-row"><span class="lbl">빅5 잔존확률</span><span>${(pred.survival_prob * 100).toFixed(1)}%</span></div>
-          <div class="stat-row"><span class="lbl">예측 능력 (mu)</span><span class="badge ${bandcls(pred.mu)}">${fmt1(pred.mu)}</span></div>
+          <div class="section-title">${sectionTitle}</div>
+          <div class="stat-row" style="padding:12px 0;">
+            <span class="lbl">잠재력 상한 (80% 구간 상단)</span>
+            <span class="badge ${bandcls(pred.ci80.hi)}" style="font-size:1.15rem;padding:6px 14px;">${fmt1(pred.ci80.hi)}</span>
+          </div>
+          <div class="stat-row"><span class="lbl">${survivalLabel}</span><span>${(pred.survival_prob * 100).toFixed(1)}%</span></div>
+          <div class="stat-row"><span class="lbl">예측 중심값 (mu)</span><span>${fmt1(pred.mu)}</span></div>
           <div class="stat-row"><span class="lbl">80% 구간</span><span>${fmt1(pred.ci80.lo)} ~ ${fmt1(pred.ci80.hi)}</span></div>
           <div class="stat-row"><span class="lbl">50% 구간</span><span>${fmt1(pred.ci50.lo)} ~ ${fmt1(pred.ci50.hi)}</span></div>
-          ${pred.mu < c.ability ? `<div class="hint" style="margin-top:10px;">예측(mu)이 현재능력보다 낮은 건 평균회귀 때문입니다 — 실제 데이터에서도 현재능력 상위권 선수 상당수가 2~3년 후 다소 낮아지는 경향이 있습니다. 80% 구간(${fmt1(pred.ci80.lo)}~${fmt1(pred.ci80.hi)})에 현재능력(${fmt1(c.ability)})이 포함된다면, 유지 가능성도 충분히 열려 있다는 뜻입니다.</div>` : ""}
+          ${pred.mu < c.ability ? `<div class="hint" style="margin-top:10px;">${regressionNote}</div>` : ""}
           ${p.low_confidence ? '<div class="note" style="margin-top:10px;">유사 선수와의 거리가 멀어 비교 신뢰도가 낮습니다 (아웃라이어 가능성).</div>' : ""}
         </div>
         <div class="panel">

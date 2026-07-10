@@ -26,10 +26,115 @@
   "confidence": 0.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.361,
+  "mu": 55.4,
+  "ci80": {
+   "lo": 46.6,
+   "hi": 64.2
+  },
+  "ci50": {
+   "lo": 50.8,
+   "hi": 60.0
+  },
+  "sigma_model": 1.976,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8c725b43",
+   "season": 2018,
+   "distance": 1.339,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "da974c7b",
+   "season": 2019,
+   "distance": 1.367,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2018,
+   "distance": 1.58,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "1253a12e",
+   "season": 2018,
+   "distance": 1.582,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ervin Zukanović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "4e358a2d",
+   "season": 2018,
+   "distance": 1.614,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Federico Fazio",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2019,
+   "distance": 1.719,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "070ec0b1",
+   "season": 2018,
+   "distance": 1.727,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Sven Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "b5114f85",
+   "season": 2019,
+   "distance": 1.771,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Georg Margreitter",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "05d548d8",
+   "season": 2020,
+   "distance": 1.772,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Mats Hummels",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2019,
+   "distance": 1.82,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  }
+ ],
  "low_confidence": false
 }

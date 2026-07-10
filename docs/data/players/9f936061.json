@@ -26,10 +26,115 @@
   "confidence": 2.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4414,
+  "mu": 52.3,
+  "ci80": {
+   "lo": 43.6,
+   "hi": 60.9
+  },
+  "ci50": {
+   "lo": 47.7,
+   "hi": 56.8
+  },
+  "sigma_model": 1.44,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1a4b9094",
+   "season": 2019,
+   "distance": 1.967,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bouna Sarr",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "30c220c3",
+   "season": 2019,
+   "distance": 2.059,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mitchell Weiser",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2020,
+   "distance": 2.12,
+   "survived": 1,
+   "fut_ability_v2": 61.9,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "5c2b4f07",
+   "season": 2020,
+   "distance": 2.126,
+   "survived": 1,
+   "fut_ability_v2": 62.3,
+   "player_name": "Serge Aurier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "c2009df3",
+   "season": 2018,
+   "distance": 2.136,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Jonas Hector",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "4aea5077",
+   "season": 2020,
+   "distance": 2.146,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Stefan Lainer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "3dd738a1",
+   "season": 2019,
+   "distance": 2.213,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Ruben Aguilar",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "f2571c91",
+   "season": 2019,
+   "distance": 2.236,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tim Leibold",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2019,
+   "distance": 2.251,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "fbbb9269",
+   "season": 2018,
+   "distance": 2.27,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Youssouf Sabaly",
+   "squad": "Bordeaux"
+  }
+ ],
  "low_confidence": false
 }

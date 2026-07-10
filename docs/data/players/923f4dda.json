@@ -26,10 +26,115 @@
   "confidence": 0.33
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2161,
+  "mu": 40.6,
+  "ci80": {
+   "lo": 31.4,
+   "hi": 49.9
+  },
+  "ci50": {
+   "lo": 35.8,
+   "hi": 45.5
+  },
+  "sigma_model": 3.029,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4f16405e",
+   "season": 2019,
+   "distance": 2.286,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niclas Füllkrug",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "bb4b1242",
+   "season": 2018,
+   "distance": 2.288,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Sergi Enrich",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "a39b9ef6",
+   "season": 2018,
+   "distance": 2.365,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Falcinelli",
+   "squad": "Sassuolo / Fiorentina"
+  },
+  {
+   "fbref_id": "1238a3f9",
+   "season": 2020,
+   "distance": 2.392,
+   "survived": 1,
+   "fut_ability_v2": 27.8,
+   "player_name": "Davie Selke",
+   "squad": "Hertha BSC / Werder Bremen"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2018,
+   "distance": 2.398,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "5046b7d4",
+   "season": 2018,
+   "distance": 2.445,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Stéphane Bahoken",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2018,
+   "distance": 2.497,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Ante Budimir",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "8e235926",
+   "season": 2020,
+   "distance": 2.505,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Michael Gregoritsch",
+   "squad": "Schalke 04 / Augsburg"
+  },
+  {
+   "fbref_id": "9a104dee",
+   "season": 2018,
+   "distance": 2.564,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cenk Tosun",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "2ead2809",
+   "season": 2018,
+   "distance": 2.581,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Gianluca Lapadula",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.36
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1063,
+  "mu": 43.6,
+  "ci80": {
+   "lo": 34.9,
+   "hi": 52.4
+  },
+  "ci50": {
+   "lo": 39.0,
+   "hi": 48.2
+  },
+  "sigma_model": 1.846,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "39ee6cb6",
+   "season": 2020,
+   "distance": 1.89,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Rispoli",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "8497faf7",
+   "season": 2018,
+   "distance": 2.112,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto de la Bella",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "22051fbe",
+   "season": 2020,
+   "distance": 2.119,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giulio Donati",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2020,
+   "distance": 2.17,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nenad Tomović",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "ce492295",
+   "season": 2020,
+   "distance": 2.215,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Mexer",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "487d9b09",
+   "season": 2018,
+   "distance": 2.233,
+   "survived": 1,
+   "fut_ability_v2": 40.4,
+   "player_name": "Antonio Barragán",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2019,
+   "distance": 2.251,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2020,
+   "distance": 2.285,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho Monreal",
+   "squad": "Real Sociedad / Arsenal"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2020,
+   "distance": 2.299,
+   "survived": 1,
+   "fut_ability_v2": 38.5,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2019,
+   "distance": 2.311,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  }
+ ],
  "low_confidence": false
 }

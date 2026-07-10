@@ -26,10 +26,115 @@
   "confidence": 1.41
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3479,
+  "mu": 49.6,
+  "ci80": {
+   "lo": 40.7,
+   "hi": 58.4
+  },
+  "ci50": {
+   "lo": 44.9,
+   "hi": 54.2
+  },
+  "sigma_model": 2.166,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "33b554b7",
+   "season": 2018,
+   "distance": 2.212,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "80f36c88",
+   "season": 2020,
+   "distance": 2.213,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Rudy",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2019,
+   "distance": 2.407,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2018,
+   "distance": 2.484,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Aaron Mooy",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "a25250f8",
+   "season": 2019,
+   "distance": 2.56,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Granell",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "f24ea523",
+   "season": 2019,
+   "distance": 2.561,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Genki Haraguchi",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "495945ef",
+   "season": 2019,
+   "distance": 2.652,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Ashley Westwood",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2020,
+   "distance": 2.656,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "43439614",
+   "season": 2020,
+   "distance": 2.7,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oliver Norwood",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "5528407e",
+   "season": 2018,
+   "distance": 2.701,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pirmin Schwegler",
+   "squad": "Hannover 96"
+  }
+ ],
  "low_confidence": false
 }

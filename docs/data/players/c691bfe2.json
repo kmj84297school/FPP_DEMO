@@ -26,10 +26,115 @@
   "confidence": 0.51
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.707,
+  "mu": 65.3,
+  "ci80": {
+   "lo": 56.4,
+   "hi": 74.3
+  },
+  "ci50": {
+   "lo": 60.6,
+   "hi": 70.0
+  },
+  "sigma_model": 2.385,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2019,
+   "distance": 2.766,
+   "survived": 1,
+   "fut_ability_v2": 70.0,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "b561db50",
+   "season": 2020,
+   "distance": 3.123,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2018,
+   "distance": 3.173,
+   "survived": 1,
+   "fut_ability_v2": 69.4,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "a58bb1e1",
+   "season": 2019,
+   "distance": 3.316,
+   "survived": 1,
+   "fut_ability_v2": 71.5,
+   "player_name": "Gareth Bale",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "70d74ece",
+   "season": 2019,
+   "distance": 3.325,
+   "survived": 1,
+   "fut_ability_v2": 79.7,
+   "player_name": "Karim Benzema",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "a6154613",
+   "season": 2019,
+   "distance": 3.339,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Luis Suárez",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "00459419",
+   "season": 2018,
+   "distance": 3.472,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Arnautović",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "4d034881",
+   "season": 2019,
+   "distance": 3.547,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Agüero",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "4431aed2",
+   "season": 2019,
+   "distance": 3.596,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Ciro Immobile",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "8a08491a",
+   "season": 2018,
+   "distance": 3.653,
+   "survived": 1,
+   "fut_ability_v2": 70.1,
+   "player_name": "Gonzalo Higuaín",
+   "squad": "Juventus"
+  }
+ ],
+ "low_confidence": true
 }

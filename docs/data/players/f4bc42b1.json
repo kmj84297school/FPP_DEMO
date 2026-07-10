@@ -26,10 +26,115 @@
   "confidence": 0.81
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2676,
+  "mu": 50.5,
+  "ci80": {
+   "lo": 41.8,
+   "hi": 59.2
+  },
+  "ci50": {
+   "lo": 45.9,
+   "hi": 55.1
+  },
+  "sigma_model": 1.731,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e5649a78",
+   "season": 2020,
+   "distance": 2.625,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Kevin Stöger",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2019,
+   "distance": 2.712,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Alfred Duncan",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "2306bfde",
+   "season": 2019,
+   "distance": 2.721,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Pardo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "9b337c7c",
+   "season": 2018,
+   "distance": 2.789,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jozabed",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "b825a650",
+   "season": 2018,
+   "distance": 2.794,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Kevin Kampl",
+   "squad": "RB Leipzig / Leverkusen"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2020,
+   "distance": 2.807,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "92b56413",
+   "season": 2019,
+   "distance": 2.864,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Tristan Dingomé",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "375622c5",
+   "season": 2019,
+   "distance": 2.874,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Jordan Ferri",
+   "squad": "Nîmes / Lyon"
+  },
+  {
+   "fbref_id": "8b298f56",
+   "season": 2019,
+   "distance": 2.877,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Clément Grenier",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2020,
+   "distance": 2.909,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Brighton"
+  }
+ ],
  "low_confidence": false
 }

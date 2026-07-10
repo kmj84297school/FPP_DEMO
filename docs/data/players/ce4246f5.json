@@ -26,10 +26,115 @@
   "confidence": 1.6
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3023,
+  "mu": 48.3,
+  "ci80": {
+   "lo": 39.1,
+   "hi": 57.5
+  },
+  "ci50": {
+   "lo": 43.5,
+   "hi": 53.1
+  },
+  "sigma_model": 2.859,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b857bd29",
+   "season": 2020,
+   "distance": 1.897,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Antonio Raillo",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "27a013f7",
+   "season": 2019,
+   "distance": 1.931,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Néstor Araujo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 2.054,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "b4a014b1",
+   "season": 2020,
+   "distance": 2.118,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Diego Carlos",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "1f713024",
+   "season": 2018,
+   "distance": 2.161,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bakary Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "debe38a0",
+   "season": 2020,
+   "distance": 2.165,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Egan",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "27a013f7",
+   "season": 2020,
+   "distance": 2.17,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Néstor Araujo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "4242011c",
+   "season": 2018,
+   "distance": 2.189,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Bernardo Espinosa",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "9f8e9423",
+   "season": 2020,
+   "distance": 2.19,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Raphaël Varane",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2020,
+   "distance": 2.22,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro González",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

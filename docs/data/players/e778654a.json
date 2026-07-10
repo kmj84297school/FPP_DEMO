@@ -26,10 +26,115 @@
   "confidence": 0.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4469,
+  "mu": 50.9,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 60.0
+  },
+  "ci50": {
+   "lo": 46.1,
+   "hi": 55.7
+  },
+  "sigma_model": 2.742,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "02c15616",
+   "season": 2020,
+   "distance": 1.296,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Marcos Llorente",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "410ab123",
+   "season": 2018,
+   "distance": 1.642,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lewis Holtby",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2019,
+   "distance": 1.709,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "1a1033a1",
+   "season": 2020,
+   "distance": 1.763,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "João Victor Santos Sá",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "19b8b0b9",
+   "season": 2018,
+   "distance": 1.768,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Collin Quaner",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "ca2bc3df",
+   "season": 2018,
+   "distance": 1.771,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Izquierdo",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2018,
+   "distance": 1.808,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "16daec92",
+   "season": 2020,
+   "distance": 1.817,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mijat Gaćinović",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "2334478a",
+   "season": 2020,
+   "distance": 2.042,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Stefano Sturaro",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2018,
+   "distance": 2.054,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Florent Mollet",
+   "squad": "Metz"
+  }
+ ],
  "low_confidence": false
 }

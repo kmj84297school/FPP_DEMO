@@ -26,10 +26,115 @@
   "confidence": 1.33
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6226,
+  "mu": 51.0,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 60.4
+  },
+  "ci50": {
+   "lo": 46.1,
+   "hi": 55.9
+  },
+  "sigma_model": 3.17,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d33c706e",
+   "season": 2018,
+   "distance": 2.507,
+   "survived": 1,
+   "fut_ability_v2": 68.7,
+   "player_name": "Andy Delort",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "8f866fe8",
+   "season": 2020,
+   "distance": 2.569,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Manolo Gabbiadini",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2019,
+   "distance": 2.784,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Wahbi Khazri",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "2114abf9",
+   "season": 2019,
+   "distance": 2.997,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Camillo Ciano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2018,
+   "distance": 2.997,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Wahbi Khazri",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "bf39bdec",
+   "season": 2020,
+   "distance": 3.234,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ernesto Torregrossa",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "d705ba44",
+   "season": 2020,
+   "distance": 3.383,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Andrea Belotti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "b318a643",
+   "season": 2019,
+   "distance": 3.407,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomón Rondón",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "d33c706e",
+   "season": 2020,
+   "distance": 3.417,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Andy Delort",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "f9446dcd",
+   "season": 2018,
+   "distance": 3.458,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Max Kruse",
+   "squad": "Werder Bremen"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.96
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1197,
+  "mu": 45.0,
+  "ci80": {
+   "lo": 36.2,
+   "hi": 53.7
+  },
+  "ci50": {
+   "lo": 40.4,
+   "hi": 49.6
+  },
+  "sigma_model": 1.893,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5c4d9be7",
+   "season": 2019,
+   "distance": 1.812,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enrico Valentini",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2018,
+   "distance": 2.032,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2019,
+   "distance": 2.106,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "15e1afd5",
+   "season": 2018,
+   "distance": 2.115,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franck Tabanou",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "9ba48d64",
+   "season": 2019,
+   "distance": 2.208,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2020,
+   "distance": 2.228,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Arsenal"
+  },
+  {
+   "fbref_id": "b51242ef",
+   "season": 2018,
+   "distance": 2.241,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Martins Pereira",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2018,
+   "distance": 2.292,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Coke",
+   "squad": "Levante / Schalke 04"
+  },
+  {
+   "fbref_id": "ad6295d4",
+   "season": 2018,
+   "distance": 2.308,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Layún",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2019,
+   "distance": 2.336,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

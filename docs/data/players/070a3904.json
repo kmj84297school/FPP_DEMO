@@ -26,10 +26,115 @@
   "confidence": 0.67
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1598,
+  "mu": 52.9,
+  "ci80": {
+   "lo": 43.8,
+   "hi": 62.0
+  },
+  "ci50": {
+   "lo": 48.1,
+   "hi": 57.7
+  },
+  "sigma_model": 2.795,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "455a2b79",
+   "season": 2018,
+   "distance": 2.193,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valter Birsa",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2020,
+   "distance": 2.298,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "5b1bf5e3",
+   "season": 2018,
+   "distance": 2.4,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Gaël Kakuta",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "5f9f0531",
+   "season": 2018,
+   "distance": 2.45,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Hunt",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2018,
+   "distance": 2.47,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2018,
+   "distance": 2.668,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Radja Nainggolan",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2020,
+   "distance": 2.671,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "79135368",
+   "season": 2019,
+   "distance": 2.741,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fayçal Fajr",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "9f4647e9",
+   "season": 2019,
+   "distance": 2.749,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Snodgrass",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "8b298f56",
+   "season": 2019,
+   "distance": 2.75,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Clément Grenier",
+   "squad": "Rennes"
+  }
+ ],
  "low_confidence": false
 }

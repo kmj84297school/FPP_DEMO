@@ -26,10 +26,115 @@
   "confidence": 0.49
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4858,
+  "mu": 60.0,
+  "ci80": {
+   "lo": 51.3,
+   "hi": 68.6
+  },
+  "ci50": {
+   "lo": 55.4,
+   "hi": 64.5
+  },
+  "sigma_model": 1.624,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6421ec64",
+   "season": 2019,
+   "distance": 2.785,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xherdan Shaqiri",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "e280527c",
+   "season": 2020,
+   "distance": 2.917,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "cc86b9a3",
+   "season": 2020,
+   "distance": 2.929,
+   "survived": 1,
+   "fut_ability_v2": 72.4,
+   "player_name": "Leon Goretzka",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "54b4dc4e",
+   "season": 2020,
+   "distance": 2.932,
+   "survived": 1,
+   "fut_ability_v2": 61.9,
+   "player_name": "Kerem Demirbay",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "ef619b0b",
+   "season": 2019,
+   "distance": 3.153,
+   "survived": 1,
+   "fut_ability_v2": 73.8,
+   "player_name": "Aaron Ramsey",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "54b4dc4e",
+   "season": 2018,
+   "distance": 3.154,
+   "survived": 1,
+   "fut_ability_v2": 62.5,
+   "player_name": "Kerem Demirbay",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "dd669209",
+   "season": 2020,
+   "distance": 3.161,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Renato Steffen",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "97333cf5",
+   "season": 2019,
+   "distance": 3.257,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Stuart Armstrong",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "2903a856",
+   "season": 2019,
+   "distance": 3.283,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Jonas Hofmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "3a24769f",
+   "season": 2019,
+   "distance": 3.287,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Ross Barkley",
+   "squad": "Chelsea"
+  }
+ ],
  "low_confidence": false
 }

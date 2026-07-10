@@ -26,10 +26,115 @@
   "confidence": 1.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.219,
+  "mu": 51.5,
+  "ci80": {
+   "lo": 42.8,
+   "hi": 60.1
+  },
+  "ci50": {
+   "lo": 46.9,
+   "hi": 56.0
+  },
+  "sigma_model": 1.593,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5f09991f",
+   "season": 2020,
+   "distance": 2.367,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick van Aanholt",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "5128bde4",
+   "season": 2019,
+   "distance": 2.389,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Darko Lazović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 2.457,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "05439de2",
+   "season": 2019,
+   "distance": 2.458,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "David Alaba",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "5128bde4",
+   "season": 2020,
+   "distance": 2.583,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Darko Lazović",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "e288d4b3",
+   "season": 2019,
+   "distance": 2.584,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Alessandro Florenzi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "05439de2",
+   "season": 2018,
+   "distance": 2.59,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "David Alaba",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "58027adc",
+   "season": 2019,
+   "distance": 2.593,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ladislav Krejčí",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2019,
+   "distance": 2.668,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "a96e5dc0",
+   "season": 2020,
+   "distance": 2.669,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Jeremy Toljan",
+   "squad": "Sassuolo"
+  }
+ ],
  "low_confidence": false
 }

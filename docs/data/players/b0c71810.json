@@ -26,10 +26,115 @@
   "confidence": 2.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4043,
+  "mu": 58.2,
+  "ci80": {
+   "lo": 49.3,
+   "hi": 67.2
+  },
+  "ci50": {
+   "lo": 53.5,
+   "hi": 63.0
+  },
+  "sigma_model": 2.443,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "68252d6d",
+   "season": 2018,
+   "distance": 2.976,
+   "survived": 1,
+   "fut_ability_v2": 77.7,
+   "player_name": "Josip Iličić",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "2c0f8e9e",
+   "season": 2018,
+   "distance": 3.792,
+   "survived": 1,
+   "fut_ability_v2": 77.3,
+   "player_name": "Alexis Sánchez",
+   "squad": "Arsenal / Manchester Utd"
+  },
+  {
+   "fbref_id": "19cda00b",
+   "season": 2019,
+   "distance": 4.214,
+   "survived": 1,
+   "fut_ability_v2": 76.2,
+   "player_name": "Ángel Di María",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "8b9ebd03",
+   "season": 2018,
+   "distance": 4.237,
+   "survived": 1,
+   "fut_ability_v2": 63.4,
+   "player_name": "Willian",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "6e4df551",
+   "season": 2018,
+   "distance": 4.246,
+   "survived": 1,
+   "fut_ability_v2": 74.8,
+   "player_name": "Papu Gómez",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "bee0bab1",
+   "season": 2018,
+   "distance": 4.57,
+   "survived": 1,
+   "fut_ability_v2": 65.8,
+   "player_name": "Karim Bellarabi",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "c90977db",
+   "season": 2018,
+   "distance": 4.584,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Fabián Orellana",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "efa708aa",
+   "season": 2018,
+   "distance": 4.678,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Viera",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2020,
+   "distance": 4.758,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "356c9002",
+   "season": 2018,
+   "distance": 4.783,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Antonio Candreva",
+   "squad": "Inter"
+  }
+ ],
+ "low_confidence": true
 }

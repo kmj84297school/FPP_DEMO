@@ -26,10 +26,115 @@
   "confidence": 0.74
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.6133,
+  "mu": 65.5,
+  "ci80": {
+   "lo": 56.6,
+   "hi": 74.3
+  },
+  "ci50": {
+   "lo": 60.8,
+   "hi": 70.1
+  },
+  "sigma_model": 2.14,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e2716bd0",
+   "season": 2020,
+   "distance": 4.029,
+   "survived": 1,
+   "fut_ability_v2": 69.8,
+   "player_name": "David Silva",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "e2716bd0",
+   "season": 2019,
+   "distance": 4.416,
+   "survived": 1,
+   "fut_ability_v2": 70.8,
+   "player_name": "David Silva",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "19cda00b",
+   "season": 2019,
+   "distance": 4.494,
+   "survived": 1,
+   "fut_ability_v2": 76.2,
+   "player_name": "Ángel Di María",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "e2e9c250",
+   "season": 2020,
+   "distance": 4.863,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santi Cazorla",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "78841da9",
+   "season": 2019,
+   "distance": 4.994,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "José Callejón",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "33508c78",
+   "season": 2018,
+   "distance": 5.01,
+   "survived": 1,
+   "fut_ability_v2": 64.0,
+   "player_name": "Cesc Fàbregas",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "2f90f6b8",
+   "season": 2019,
+   "distance": 5.067,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "James Milner",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "e2716bd0",
+   "season": 2018,
+   "distance": 5.086,
+   "survived": 1,
+   "fut_ability_v2": 76.2,
+   "player_name": "David Silva",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "6025fab1",
+   "season": 2018,
+   "distance": 5.146,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Luka Modrić",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "e6ad16b2",
+   "season": 2018,
+   "distance": 5.18,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marek Hamšík",
+   "squad": "Napoli"
+  }
+ ],
+ "low_confidence": true
 }

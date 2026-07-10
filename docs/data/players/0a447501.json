@@ -26,10 +26,115 @@
   "confidence": 0.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3732,
+  "mu": 43.5,
+  "ci80": {
+   "lo": 34.6,
+   "hi": 52.4
+  },
+  "ci50": {
+   "lo": 38.8,
+   "hi": 48.2
+  },
+  "sigma_model": 2.267,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 1.713,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "d87e2cae",
+   "season": 2019,
+   "distance": 1.715,
+   "survived": 1,
+   "fut_ability_v2": 40.5,
+   "player_name": "Willian José",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2019,
+   "distance": 1.922,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "d87e2cae",
+   "season": 2018,
+   "distance": 2.01,
+   "survived": 1,
+   "fut_ability_v2": 40.6,
+   "player_name": "Willian José",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2020,
+   "distance": 2.049,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Rodrigo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "854ee61a",
+   "season": 2019,
+   "distance": 2.056,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Grégoire Defrel",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2019,
+   "distance": 2.087,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2018,
+   "distance": 2.109,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Mark Uth",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2019,
+   "distance": 2.177,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2020,
+   "distance": 2.189,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Antoine Griezmann",
+   "squad": "Barcelona"
+  }
+ ],
  "low_confidence": false
 }

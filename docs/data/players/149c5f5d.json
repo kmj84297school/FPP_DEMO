@@ -26,10 +26,115 @@
   "confidence": 0.88
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2398,
+  "mu": 50.8,
+  "ci80": {
+   "lo": 42.1,
+   "hi": 59.6
+  },
+  "ci50": {
+   "lo": 46.2,
+   "hi": 55.5
+  },
+  "sigma_model": 1.972,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ff0ab48c",
+   "season": 2020,
+   "distance": 1.564,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Leo Dubois",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "44781702",
+   "season": 2020,
+   "distance": 1.616,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Ben Davies",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "fdd60087",
+   "season": 2019,
+   "distance": 1.756,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santiago Arias",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "44781702",
+   "season": 2019,
+   "distance": 1.881,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Ben Davies",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "de7d40d6",
+   "season": 2019,
+   "distance": 1.908,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Juncà",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "4db76f57",
+   "season": 2019,
+   "distance": 1.94,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Muniesa",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2019,
+   "distance": 1.986,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2018,
+   "distance": 1.987,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club / Real Sociedad"
+  },
+  {
+   "fbref_id": "e4086af3",
+   "season": 2019,
+   "distance": 2.061,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Baba Rahman",
+   "squad": "Reims / Schalke 04"
+  },
+  {
+   "fbref_id": "ae4e2852",
+   "season": 2019,
+   "distance": 2.062,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Mattia De Sciglio",
+   "squad": "Juventus"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4561,
+  "mu": 52.1,
+  "ci80": {
+   "lo": 42.9,
+   "hi": 61.2
+  },
+  "ci50": {
+   "lo": 47.3,
+   "hi": 56.9
+  },
+  "sigma_model": 2.84,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cac2537b",
+   "season": 2020,
+   "distance": 1.563,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Enis Bardhi",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "a0f9b535",
+   "season": 2018,
+   "distance": 1.919,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Flavien Tait",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "df8e7b62",
+   "season": 2020,
+   "distance": 2.124,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Erik Thommy",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "ab4b3e35",
+   "season": 2020,
+   "distance": 2.258,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bernard",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "33ecf462",
+   "season": 2020,
+   "distance": 2.356,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valerio Verre",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "88615858",
+   "season": 2018,
+   "distance": 2.399,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bryan Pelé",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "ff9fcd4d",
+   "season": 2019,
+   "distance": 2.417,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alex Pritchard",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "635f2732",
+   "season": 2020,
+   "distance": 2.428,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Jean-Paul Boëtius",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "ff9fcd4d",
+   "season": 2018,
+   "distance": 2.464,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alex Pritchard",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "61b62b33",
+   "season": 2020,
+   "distance": 2.494,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro Vadillo",
+   "squad": "Granada"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3434,
+  "mu": 53.8,
+  "ci80": {
+   "lo": 44.7,
+   "hi": 62.8
+  },
+  "ci50": {
+   "lo": 49.0,
+   "hi": 58.5
+  },
+  "sigma_model": 2.549,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2018,
+   "distance": 1.983,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2019,
+   "distance": 2.048,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2020,
+   "distance": 2.105,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "635f2732",
+   "season": 2020,
+   "distance": 2.165,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Jean-Paul Boëtius",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2019,
+   "distance": 2.206,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "e7f4603c",
+   "season": 2019,
+   "distance": 2.236,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Borja García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "b63e789d",
+   "season": 2020,
+   "distance": 2.245,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Fleck",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2018,
+   "distance": 2.26,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Alfred Duncan",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "9ceb7642",
+   "season": 2020,
+   "distance": 2.302,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre Kunde",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "f24ea523",
+   "season": 2019,
+   "distance": 2.372,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Genki Haraguchi",
+   "squad": "Hannover 96"
+  }
+ ],
  "low_confidence": false
 }

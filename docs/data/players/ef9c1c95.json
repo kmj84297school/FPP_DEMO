@@ -26,10 +26,115 @@
   "confidence": 2.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4865,
+  "mu": 55.2,
+  "ci80": {
+   "lo": 46.6,
+   "hi": 63.8
+  },
+  "ci50": {
+   "lo": 50.7,
+   "hi": 59.8
+  },
+  "sigma_model": 1.522,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4c78b5ed",
+   "season": 2018,
+   "distance": 1.67,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Lucas Leiva",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "5ab0ea87",
+   "season": 2020,
+   "distance": 1.893,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "4c78b5ed",
+   "season": 2019,
+   "distance": 1.917,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Lucas Leiva",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "6c2f5996",
+   "season": 2018,
+   "distance": 2.436,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Hernández",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "69374ff5",
+   "season": 2019,
+   "distance": 2.597,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Julian Baumgartlinger",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2020,
+   "distance": 2.616,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Deaux",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "4e7d66f8",
+   "season": 2018,
+   "distance": 2.691,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Renaud Cohade",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "5acc4a10",
+   "season": 2019,
+   "distance": 2.75,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Étienne Capoue",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "101da2b5",
+   "season": 2019,
+   "distance": 2.806,
+   "survived": 1,
+   "fut_ability_v2": 64.9,
+   "player_name": "Fernandinho",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "4c78b5ed",
+   "season": 2020,
+   "distance": 2.875,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Lucas Leiva",
+   "squad": "Lazio"
+  }
+ ],
  "low_confidence": false
 }

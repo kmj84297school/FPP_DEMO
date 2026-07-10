@@ -26,10 +26,115 @@
   "confidence": 0.65
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2282,
+  "mu": 41.5,
+  "ci80": {
+   "lo": 32.2,
+   "hi": 50.8
+  },
+  "ci50": {
+   "lo": 36.6,
+   "hi": 46.4
+  },
+  "sigma_model": 3.113,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4d50454e",
+   "season": 2020,
+   "distance": 2.893,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ben Zolinski",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "1ad1f50d",
+   "season": 2018,
+   "distance": 2.966,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Sau",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "8f866fe8",
+   "season": 2019,
+   "distance": 3.083,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Manolo Gabbiadini",
+   "squad": "Sampdoria / Southampton"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2018,
+   "distance": 3.092,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Yuya Osako",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "5370cba7",
+   "season": 2018,
+   "distance": 3.174,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alessio Cerci",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "a1c7b425",
+   "season": 2018,
+   "distance": 3.188,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Pucciarelli",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2019,
+   "distance": 3.321,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "8e87af42",
+   "season": 2018,
+   "distance": 3.351,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Préjuce Nakoulma",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "b1236c63",
+   "season": 2020,
+   "distance": 3.39,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ilija Nestorovski",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "46907171",
+   "season": 2019,
+   "distance": 3.392,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Abdul Majeed Waris",
+   "squad": "Nantes"
+  }
+ ],
  "low_confidence": false
 }

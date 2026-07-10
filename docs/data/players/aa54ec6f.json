@@ -26,10 +26,115 @@
   "confidence": 0.72
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1563,
+  "mu": 51.2,
+  "ci80": {
+   "lo": 42.5,
+   "hi": 60.0
+  },
+  "ci50": {
+   "lo": 46.6,
+   "hi": 55.9
+  },
+  "sigma_model": 1.877,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "821233cc",
+   "season": 2019,
+   "distance": 1.434,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Neven Subotić",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "45b7edae",
+   "season": 2018,
+   "distance": 1.445,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Holger Badstuber",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "92b4a127",
+   "season": 2018,
+   "distance": 1.465,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gustavo Cabral",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2018,
+   "distance": 1.507,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Nenad Tomović",
+   "squad": "Chievo / Fiorentina"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2018,
+   "distance": 1.603,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "89cbc961",
+   "season": 2019,
+   "distance": 1.651,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramiro Funes Mori",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2020,
+   "distance": 1.665,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 1.679,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "952a03fe",
+   "season": 2018,
+   "distance": 1.692,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Sebastien De Maio",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "ba71d071",
+   "season": 2019,
+   "distance": 1.737,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "Pedro Alcalá",
+   "squad": "Girona"
+  }
+ ],
  "low_confidence": false
 }

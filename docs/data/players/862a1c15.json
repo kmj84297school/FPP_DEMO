@@ -26,10 +26,115 @@
   "confidence": 0.35
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6182,
+  "mu": 55.6,
+  "ci80": {
+   "lo": 46.6,
+   "hi": 64.5
+  },
+  "ci50": {
+   "lo": 50.9,
+   "hi": 60.3
+  },
+  "sigma_model": 2.373,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "854ee61a",
+   "season": 2019,
+   "distance": 2.336,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Grégoire Defrel",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2020,
+   "distance": 2.487,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Antoine Griezmann",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "4c370d81",
+   "season": 2020,
+   "distance": 2.945,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Roberto Firmino",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2020,
+   "distance": 2.974,
+   "survived": 1,
+   "fut_ability_v2": 38.3,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "18ebca4b",
+   "season": 2020,
+   "distance": 3.013,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Charbonnier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2020,
+   "distance": 3.163,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "7cd6badb",
+   "season": 2018,
+   "distance": 3.177,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Lars Stindl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2019,
+   "distance": 3.177,
+   "survived": 1,
+   "fut_ability_v2": 74.2,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2018,
+   "distance": 3.183,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Diego Farias",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "601ef102",
+   "season": 2020,
+   "distance": 3.22,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Okaka",
+   "squad": "Udinese"
+  }
+ ],
  "low_confidence": false
 }

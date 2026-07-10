@@ -26,10 +26,115 @@
   "confidence": 0.58
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4655,
+  "mu": 59.4,
+  "ci80": {
+   "lo": 49.9,
+   "hi": 68.9
+  },
+  "ci50": {
+   "lo": 54.4,
+   "hi": 64.4
+  },
+  "sigma_model": 3.462,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ab070c55",
+   "season": 2020,
+   "distance": 3.619,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "ffec9769",
+   "season": 2020,
+   "distance": 3.63,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Islam Slimani",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "af721f98",
+   "season": 2018,
+   "distance": 3.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oumar Niasse",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "ac05f970",
+   "season": 2020,
+   "distance": 3.832,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Michail Antonio",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "64f69877",
+   "season": 2020,
+   "distance": 3.947,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "1e274a0a",
+   "season": 2020,
+   "distance": 4.17,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sven Michel",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2020,
+   "distance": 4.21,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "bf39bdec",
+   "season": 2020,
+   "distance": 4.232,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ernesto Torregrossa",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "f26834c7",
+   "season": 2020,
+   "distance": 4.24,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Karim Onisiwo",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "849c826a",
+   "season": 2018,
+   "distance": 4.292,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Andriy Yarmolenko",
+   "squad": "Dortmund"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 0.81
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4369,
+  "mu": 53.1,
+  "ci80": {
+   "lo": 44.4,
+   "hi": 61.9
+  },
+  "ci50": {
+   "lo": 48.5,
+   "hi": 57.7
+  },
+  "sigma_model": 1.899,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2018,
+   "distance": 1.937,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "53de807a",
+   "season": 2018,
+   "distance": 1.981,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2018,
+   "distance": 2.097,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2019,
+   "distance": 2.211,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "53cad200",
+   "season": 2019,
+   "distance": 2.269,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "César Azpilicueta",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "86dd77d1",
+   "season": 2019,
+   "distance": 2.318,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Kyle Walker",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "1522dab2",
+   "season": 2018,
+   "distance": 2.331,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davide Astori",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "20b104bc",
+   "season": 2019,
+   "distance": 2.355,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Smith",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "f9acca3a",
+   "season": 2020,
+   "distance": 2.368,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wendell",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "da974c7b",
+   "season": 2020,
+   "distance": 2.391,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
+  }
+ ],
  "low_confidence": false
 }

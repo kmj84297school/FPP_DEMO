@@ -26,10 +26,115 @@
   "confidence": 0.42
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.333,
+  "mu": 42.7,
+  "ci80": {
+   "lo": 33.9,
+   "hi": 51.4
+  },
+  "ci50": {
+   "lo": 38.1,
+   "hi": 47.3
+  },
+  "sigma_model": 1.857,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2020,
+   "distance": 1.556,
+   "survived": 1,
+   "fut_ability_v2": 38.5,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2018,
+   "distance": 1.641,
+   "survived": 1,
+   "fut_ability_v2": 42.7,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2019,
+   "distance": 1.952,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2020,
+   "distance": 2.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2018,
+   "distance": 2.073,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "05384ea1",
+   "season": 2018,
+   "distance": 2.098,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michel",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "9f323c71",
+   "season": 2019,
+   "distance": 2.122,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2020,
+   "distance": 2.129,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2019,
+   "distance": 2.138,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 2.161,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

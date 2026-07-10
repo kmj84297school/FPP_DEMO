@@ -26,10 +26,115 @@
   "confidence": 0.67
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2684,
+  "mu": 44.2,
+  "ci80": {
+   "lo": 35.1,
+   "hi": 53.3
+  },
+  "ci50": {
+   "lo": 39.4,
+   "hi": 49.0
+  },
+  "sigma_model": 2.647,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8d3c902d",
+   "season": 2020,
+   "distance": 2.444,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Cheikhou Kouyaté",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "8d3c902d",
+   "season": 2018,
+   "distance": 2.448,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Cheikhou Kouyaté",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "e2533c20",
+   "season": 2019,
+   "distance": 2.511,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aron Gunnarsson",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "ad4d0985",
+   "season": 2018,
+   "distance": 2.587,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Víctor Sánchez",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2018,
+   "distance": 2.698,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2018,
+   "distance": 2.729,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "eaf71a5e",
+   "season": 2018,
+   "distance": 2.764,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Azamoum",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2019,
+   "distance": 3.033,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "ff45add5",
+   "season": 2019,
+   "distance": 3.156,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfredo Morales",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "2edeb221",
+   "season": 2018,
+   "distance": 3.197,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Büchel",
+   "squad": "Hellas Verona"
+  }
+ ],
  "low_confidence": false
 }

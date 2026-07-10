@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4628,
+  "mu": 56.4,
+  "ci80": {
+   "lo": 47.6,
+   "hi": 65.3
+  },
+  "ci50": {
+   "lo": 51.8,
+   "hi": 61.1
+  },
+  "sigma_model": 2.104,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e0314d87",
+   "season": 2018,
+   "distance": 2.172,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Andrea Masiello",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "05d548d8",
+   "season": 2020,
+   "distance": 2.187,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Mats Hummels",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2018,
+   "distance": 2.218,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "f5efb153",
+   "season": 2018,
+   "distance": 2.303,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Laurent Koscielny",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2019,
+   "distance": 2.306,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2018,
+   "distance": 2.4,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2020,
+   "distance": 2.499,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2018,
+   "distance": 2.527,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Nacho Monreal",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "e3d0b0c4",
+   "season": 2019,
+   "distance": 2.559,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Marcelo",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "1522dab2",
+   "season": 2018,
+   "distance": 2.588,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davide Astori",
+   "squad": "Fiorentina"
+  }
+ ],
  "low_confidence": false
 }

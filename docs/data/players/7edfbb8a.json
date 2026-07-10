@@ -26,10 +26,115 @@
   "confidence": 0.47
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.756,
+  "mu": 49.8,
+  "ci80": {
+   "lo": 41.2,
+   "hi": 58.4
+  },
+  "ci50": {
+   "lo": 45.3,
+   "hi": 54.3
+  },
+  "sigma_model": 1.412,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3681cfff",
+   "season": 2019,
+   "distance": 1.236,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Christophe Hérelle",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2018,
+   "distance": 1.393,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergi Gómez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2019,
+   "distance": 1.566,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2018,
+   "distance": 1.573,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Kostas Manolas",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "fbd6378b",
+   "season": 2018,
+   "distance": 1.592,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Aïssa Mandi",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "b4a014b1",
+   "season": 2019,
+   "distance": 1.669,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Diego Carlos",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2020,
+   "distance": 1.669,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Berat Djimsiti",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "5832ebfe",
+   "season": 2020,
+   "distance": 1.682,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Denswil",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2018,
+   "distance": 1.684,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "d9764034",
+   "season": 2020,
+   "distance": 1.726,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Guillermo Maripán",
+   "squad": "Monaco / Alavés"
+  }
+ ],
  "low_confidence": false
 }

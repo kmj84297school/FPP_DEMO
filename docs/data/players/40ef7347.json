@@ -26,10 +26,115 @@
   "confidence": 0.82
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5155,
+  "mu": 54.8,
+  "ci80": {
+   "lo": 46.0,
+   "hi": 63.6
+  },
+  "ci50": {
+   "lo": 50.2,
+   "hi": 59.4
+  },
+  "sigma_model": 1.987,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "56b2957b",
+   "season": 2018,
+   "distance": 2.418,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Lucas Castro",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "c414df9d",
+   "season": 2020,
+   "distance": 2.573,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mattia Valoti",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "dd669209",
+   "season": 2020,
+   "distance": 2.725,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Renato Steffen",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "410ab123",
+   "season": 2018,
+   "distance": 2.79,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lewis Holtby",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "2b622f01",
+   "season": 2020,
+   "distance": 3.054,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Lucas Moura",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "2b622f01",
+   "season": 2019,
+   "distance": 3.08,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Lucas Moura",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "ecd8c01e",
+   "season": 2020,
+   "distance": 3.107,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Rochina",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "90f91999",
+   "season": 2020,
+   "distance": 3.172,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "John McGinn",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "b93b7882",
+   "season": 2019,
+   "distance": 3.243,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "635f2732",
+   "season": 2019,
+   "distance": 3.284,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Jean-Paul Boëtius",
+   "squad": "Mainz 05"
+  }
+ ],
  "low_confidence": false
 }

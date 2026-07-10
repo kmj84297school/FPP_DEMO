@@ -26,10 +26,115 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3014,
+  "mu": 39.4,
+  "ci80": {
+   "lo": 30.2,
+   "hi": 48.5
+  },
+  "ci50": {
+   "lo": 34.6,
+   "hi": 44.2
+  },
+  "sigma_model": 2.792,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "def69cd0",
+   "season": 2018,
+   "distance": 2.077,
+   "survived": 1,
+   "fut_ability_v2": 37.4,
+   "player_name": "Mikel Rico",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2018,
+   "distance": 2.501,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "7329018e",
+   "season": 2018,
+   "distance": 2.619,
+   "survived": 1,
+   "fut_ability_v2": 42.5,
+   "player_name": "Papakouli Diop",
+   "squad": "Eibar / Espanyol"
+  },
+  {
+   "fbref_id": "2ff964a0",
+   "season": 2019,
+   "distance": 2.639,
+   "survived": 1,
+   "fut_ability_v2": 29.4,
+   "player_name": "Aaron Lennon",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "90b70194",
+   "season": 2019,
+   "distance": 2.763,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Përparim Hetemaj",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "1c8dc17d",
+   "season": 2018,
+   "distance": 2.822,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michael Krohn-Dehli",
+   "squad": "La Coruña / Sevilla"
+  },
+  {
+   "fbref_id": "a64cbd35",
+   "season": 2020,
+   "distance": 2.845,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonino Barillà",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "02b2937c",
+   "season": 2020,
+   "distance": 2.913,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Dessena",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "07abb358",
+   "season": 2020,
+   "distance": 2.934,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rômulo",
+   "squad": "Brescia / Genoa"
+  },
+  {
+   "fbref_id": "71d4e271",
+   "season": 2018,
+   "distance": 2.985,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Manuel Jurado",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

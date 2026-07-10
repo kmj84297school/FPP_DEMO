@@ -26,10 +26,115 @@
   "confidence": 1.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4545,
+  "mu": 47.5,
+  "ci80": {
+   "lo": 38.6,
+   "hi": 56.4
+  },
+  "ci50": {
+   "lo": 42.9,
+   "hi": 52.2
+  },
+  "sigma_model": 2.261,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bad38a94",
+   "season": 2020,
+   "distance": 2.293,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "1aa84968",
+   "season": 2020,
+   "distance": 2.389,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Basham",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "92d38e6c",
+   "season": 2019,
+   "distance": 2.404,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Dimitris Siovas",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2018,
+   "distance": 2.487,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "97572117",
+   "season": 2020,
+   "distance": 2.538,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Allan Nyom",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "92d38e6c",
+   "season": 2020,
+   "distance": 2.651,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitris Siovas",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "3831b9fe",
+   "season": 2018,
+   "distance": 2.655,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stephen Ward",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "1ae30132",
+   "season": 2019,
+   "distance": 2.732,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Phil Bardsley",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "cfd5e123",
+   "season": 2018,
+   "distance": 2.737,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Bong",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2018,
+   "distance": 2.775,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  }
+ ],
  "low_confidence": false
 }

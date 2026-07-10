@@ -26,10 +26,115 @@
   "confidence": 0.09
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1395,
+  "mu": 53.8,
+  "ci80": {
+   "lo": 44.5,
+   "hi": 63.1
+  },
+  "ci50": {
+   "lo": 48.9,
+   "hi": 58.7
+  },
+  "sigma_model": 3.015,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1c8c5aed",
+   "season": 2018,
+   "distance": 1.861,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Molinaro",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "53de807a",
+   "season": 2019,
+   "distance": 1.879,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2019,
+   "distance": 2.122,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2019,
+   "distance": 2.221,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "80e4c841",
+   "season": 2020,
+   "distance": 2.224,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aurélien Chedjou",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2019,
+   "distance": 2.23,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2018,
+   "distance": 2.242,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2019,
+   "distance": 2.263,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "1c529186",
+   "season": 2019,
+   "distance": 2.267,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ignazio Abate",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "1e0b6a73",
+   "season": 2018,
+   "distance": 2.287,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Simon Francis",
+   "squad": "Bournemouth"
+  }
+ ],
  "low_confidence": false
 }

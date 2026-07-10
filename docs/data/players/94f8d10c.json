@@ -26,10 +26,115 @@
   "confidence": 0.57
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7111,
+  "mu": 50.6,
+  "ci80": {
+   "lo": 41.6,
+   "hi": 59.7
+  },
+  "ci50": {
+   "lo": 45.9,
+   "hi": 55.4
+  },
+  "sigma_model": 2.619,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b0243215",
+   "season": 2019,
+   "distance": 1.725,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Dell'Orco",
+   "squad": "Empoli / Sassuolo"
+  },
+  {
+   "fbref_id": "34b306a1",
+   "season": 2019,
+   "distance": 1.945,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Hoffmann",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "d0dbca9f",
+   "season": 2020,
+   "distance": 2.371,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Alex Ferrari",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2020,
+   "distance": 2.46,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "b233e8e4",
+   "season": 2020,
+   "distance": 2.495,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Jeison Murillo",
+   "squad": "Celta Vigo / Sampdoria"
+  },
+  {
+   "fbref_id": "6ec6fde0",
+   "season": 2020,
+   "distance": 2.53,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Kevin Akpoguma",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "c3725db2",
+   "season": 2018,
+   "distance": 2.546,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yoann Salmier",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "79083382",
+   "season": 2018,
+   "distance": 2.559,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Jesus",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "79083382",
+   "season": 2019,
+   "distance": 2.595,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Juan Jesus",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "8b95acda",
+   "season": 2019,
+   "distance": 2.636,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Omar Colley",
+   "squad": "Sampdoria"
+  }
+ ],
  "low_confidence": false
 }

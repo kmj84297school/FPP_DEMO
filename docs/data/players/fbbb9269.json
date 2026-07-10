@@ -26,10 +26,115 @@
   "confidence": 1.12
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1296,
+  "mu": 51.5,
+  "ci80": {
+   "lo": 42.6,
+   "hi": 60.4
+  },
+  "ci50": {
+   "lo": 46.8,
+   "hi": 56.2
+  },
+  "sigma_model": 2.218,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "111c3236",
+   "season": 2018,
+   "distance": 3.03,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Fabian Delph",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "3535098b",
+   "season": 2018,
+   "distance": 3.054,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Laurini",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "808d48f3",
+   "season": 2019,
+   "distance": 3.068,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Jaume Costa",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2019,
+   "distance": 3.136,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "d4ef9ac5",
+   "season": 2020,
+   "distance": 3.255,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Toño",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2020,
+   "distance": 3.277,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Alberto Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "25444898",
+   "season": 2018,
+   "distance": 3.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Palmieri",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "808d48f3",
+   "season": 2020,
+   "distance": 3.292,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Jaume Costa",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "20b104bc",
+   "season": 2019,
+   "distance": 3.346,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Smith",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "7d45b97a",
+   "season": 2018,
+   "distance": 3.353,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Cordoval",
+   "squad": "Troyes"
+  }
+ ],
  "low_confidence": false
 }

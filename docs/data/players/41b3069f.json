@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3508,
+  "mu": 41.9,
+  "ci80": {
+   "lo": 33.1,
+   "hi": 50.8
+  },
+  "ci50": {
+   "lo": 37.3,
+   "hi": 46.6
+  },
+  "sigma_model": 2.186,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "61b3978f",
+   "season": 2020,
+   "distance": 1.539,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "5939baa2",
+   "season": 2019,
+   "distance": 1.54,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "b82880c6",
+   "season": 2018,
+   "distance": 1.594,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Falette",
+   "squad": "Eint Frankfurt / Metz"
+  },
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2020,
+   "distance": 1.611,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "5832ebfe",
+   "season": 2020,
+   "distance": 1.658,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Denswil",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "616aea37",
+   "season": 2019,
+   "distance": 1.663,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "9b30df1e",
+   "season": 2018,
+   "distance": 1.71,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bartosz Salamon",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2018,
+   "distance": 1.771,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "faf55ce4",
+   "season": 2019,
+   "distance": 1.785,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Wimmer",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "cb574619",
+   "season": 2020,
+   "distance": 1.848,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  }
+ ],
  "low_confidence": false
 }

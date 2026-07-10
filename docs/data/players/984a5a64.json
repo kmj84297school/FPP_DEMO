@@ -26,10 +26,115 @@
   "confidence": 2.13
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4464,
+  "mu": 49.9,
+  "ci80": {
+   "lo": 41.3,
+   "hi": 58.6
+  },
+  "ci50": {
+   "lo": 45.4,
+   "hi": 54.5
+  },
+  "sigma_model": 1.566,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f26e3c59",
+   "season": 2018,
+   "distance": 1.8,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Laxalt",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 1.809,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2019,
+   "distance": 1.844,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "5c2b4f07",
+   "season": 2020,
+   "distance": 1.925,
+   "survived": 1,
+   "fut_ability_v2": 62.3,
+   "player_name": "Serge Aurier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "1a4b9094",
+   "season": 2020,
+   "distance": 1.946,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bouna Sarr",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "37f1cf47",
+   "season": 2020,
+   "distance": 2.032,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ander Capa",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "4aea5077",
+   "season": 2020,
+   "distance": 2.084,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Stefan Lainer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "4e0afc5d",
+   "season": 2020,
+   "distance": 2.114,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Arnaud Souquet",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "bbd86530",
+   "season": 2020,
+   "distance": 2.149,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christopher Lenz",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "608f2092",
+   "season": 2018,
+   "distance": 2.184,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Johan Mojica",
+   "squad": "Girona"
+  }
+ ],
  "low_confidence": false
 }

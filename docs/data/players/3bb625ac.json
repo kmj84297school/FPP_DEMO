@@ -26,10 +26,115 @@
   "confidence": 0.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2846,
+  "mu": 46.7,
+  "ci80": {
+   "lo": 38.0,
+   "hi": 55.4
+  },
+  "ci50": {
+   "lo": 42.1,
+   "hi": 51.3
+  },
+  "sigma_model": 1.777,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2e3406ae",
+   "season": 2020,
+   "distance": 0.984,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fran Gámez",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2020,
+   "distance": 1.6,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Arsenal"
+  },
+  {
+   "fbref_id": "2a29eb9b",
+   "season": 2019,
+   "distance": 1.624,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Lukas Kübler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2018,
+   "distance": 1.655,
+   "survived": 1,
+   "fut_ability_v2": 38.9,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "541cdd20",
+   "season": 2018,
+   "distance": 1.743,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oliver Sorg",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "5d8d7454",
+   "season": 2020,
+   "distance": 1.761,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Frederic Guilbert",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2018,
+   "distance": 1.812,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "758dd7f0",
+   "season": 2019,
+   "distance": 1.862,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Javier Manquillo",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2019,
+   "distance": 1.871,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Inter"
+  },
+  {
+   "fbref_id": "9f29c204",
+   "season": 2018,
+   "distance": 1.893,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oualid El Hajjam",
+   "squad": "Amiens"
+  }
+ ],
  "low_confidence": false
 }

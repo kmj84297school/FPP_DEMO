@@ -26,10 +26,115 @@
   "confidence": 0.82
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5009,
+  "mu": 47.4,
+  "ci80": {
+   "lo": 38.6,
+   "hi": 56.2
+  },
+  "ci50": {
+   "lo": 42.8,
+   "hi": 52.0
+  },
+  "sigma_model": 1.951,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "07767f42",
+   "season": 2019,
+   "distance": 1.678,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Magnanelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "ecab64a0",
+   "season": 2019,
+   "distance": 1.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2018,
+   "distance": 1.938,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ad340e17",
+   "season": 2018,
+   "distance": 2.049,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Aquilani",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "653ee42d",
+   "season": 2020,
+   "distance": 2.089,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dale Stephens",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2018,
+   "distance": 2.205,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "65d750b5",
+   "season": 2018,
+   "distance": 2.206,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabi",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "82671804",
+   "season": 2019,
+   "distance": 2.214,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luiz Gustavo",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "e8c930bb",
+   "season": 2020,
+   "distance": 2.241,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Milan Badelj",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "5ab0ea87",
+   "season": 2019,
+   "distance": 2.317,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  }
+ ],
  "low_confidence": false
 }

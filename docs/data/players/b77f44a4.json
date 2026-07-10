@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4938,
+  "mu": 50.1,
+  "ci80": {
+   "lo": 41.4,
+   "hi": 58.9
+  },
+  "ci50": {
+   "lo": 45.5,
+   "hi": 54.7
+  },
+  "sigma_model": 1.896,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6d5701f2",
+   "season": 2020,
+   "distance": 1.388,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yerry Mina",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "1900032e",
+   "season": 2020,
+   "distance": 1.877,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jannik Vestergaard",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2019,
+   "distance": 1.884,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "20030c06",
+   "season": 2018,
+   "distance": 1.989,
+   "survived": 1,
+   "fut_ability_v2": 69.0,
+   "player_name": "Willi Orban",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2020,
+   "distance": 1.999,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kostas Manolas",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "821233cc",
+   "season": 2018,
+   "distance": 2.011,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Neven Subotić",
+   "squad": "Saint-Étienne / Dortmund"
+  },
+  {
+   "fbref_id": "3376a776",
+   "season": 2020,
+   "distance": 2.028,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Karim Rekik",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "89cbc961",
+   "season": 2019,
+   "distance": 2.044,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramiro Funes Mori",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2020,
+   "distance": 2.073,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2020,
+   "distance": 2.076,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Berat Djimsiti",
+   "squad": "Atalanta"
+  }
+ ],
  "low_confidence": false
 }

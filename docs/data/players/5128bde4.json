@@ -26,10 +26,115 @@
   "confidence": 1.9
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3329,
+  "mu": 49.8,
+  "ci80": {
+   "lo": 41.0,
+   "hi": 58.6
+  },
+  "ci50": {
+   "lo": 45.2,
+   "hi": 54.4
+  },
+  "sigma_model": 2.002,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e74f0e59",
+   "season": 2019,
+   "distance": 2.571,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Lorenzo De Silvestri",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "9ab48bde",
+   "season": 2020,
+   "distance": 2.624,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo de Blasis",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2019,
+   "distance": 2.859,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "ba5004e1",
+   "season": 2020,
+   "distance": 2.946,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Damián Suárez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "767212e6",
+   "season": 2020,
+   "distance": 3.006,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Faussurier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "7fd58fe3",
+   "season": 2018,
+   "distance": 3.088,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Senad Lulić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "00b0bb87",
+   "season": 2018,
+   "distance": 3.093,
+   "survived": 1,
+   "fut_ability_v2": 43.2,
+   "player_name": "Fabrizio Cacciatore",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2019,
+   "distance": 3.13,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Coke",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2020,
+   "distance": 3.133,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Ashley Young",
+   "squad": "Inter / Manchester Utd"
+  },
+  {
+   "fbref_id": "eda40760",
+   "season": 2020,
+   "distance": 3.181,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  }
+ ],
  "low_confidence": false
 }

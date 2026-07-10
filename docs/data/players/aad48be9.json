@@ -26,10 +26,115 @@
   "confidence": 0.84
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6797,
+  "mu": 55.1,
+  "ci80": {
+   "lo": 46.1,
+   "hi": 64.1
+  },
+  "ci50": {
+   "lo": 50.4,
+   "hi": 59.8
+  },
+  "sigma_model": 2.494,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "54c356b0",
+   "season": 2019,
+   "distance": 1.345,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolò Brighenti",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "4db76f57",
+   "season": 2019,
+   "distance": 1.644,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Muniesa",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "4db76f57",
+   "season": 2018,
+   "distance": 1.694,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Muniesa",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "c20bdcd7",
+   "season": 2020,
+   "distance": 1.893,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Reinildo Mandava",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "960fb42d",
+   "season": 2018,
+   "distance": 2.072,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Gálvez",
+   "squad": "Las Palmas / Eibar"
+  },
+  {
+   "fbref_id": "8fef5412",
+   "season": 2020,
+   "distance": 2.115,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Conti",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "5939baa2",
+   "season": 2019,
+   "distance": 2.157,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "ee923664",
+   "season": 2020,
+   "distance": 2.2,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Kevin Vázquez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "0442183b",
+   "season": 2019,
+   "distance": 2.212,
+   "survived": 1,
+   "fut_ability_v2": 35.0,
+   "player_name": "Nathaniel Clyne",
+   "squad": "Bournemouth / Liverpool"
+  },
+  {
+   "fbref_id": "541cdd20",
+   "season": 2018,
+   "distance": 2.258,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oliver Sorg",
+   "squad": "Hannover 96"
+  }
+ ],
  "low_confidence": false
 }

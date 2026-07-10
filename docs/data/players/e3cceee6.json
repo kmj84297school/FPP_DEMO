@@ -26,10 +26,115 @@
   "confidence": 2.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6478,
+  "mu": 55.1,
+  "ci80": {
+   "lo": 46.1,
+   "hi": 64.1
+  },
+  "ci50": {
+   "lo": 50.4,
+   "hi": 59.8
+  },
+  "sigma_model": 2.436,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3e5e4e63",
+   "season": 2018,
+   "distance": 1.917,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Steve Cook",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "0821331c",
+   "season": 2019,
+   "distance": 1.919,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Mattia Bani",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "857a5abe",
+   "season": 2018,
+   "distance": 1.96,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Stefan Bell",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "282f75f3",
+   "season": 2019,
+   "distance": 1.985,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Lewis Dunk",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "25f50295",
+   "season": 2018,
+   "distance": 2.054,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Mike van der Hoorn",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "0821331c",
+   "season": 2020,
+   "distance": 2.142,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Mattia Bani",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "c5b7c315",
+   "season": 2018,
+   "distance": 2.153,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "c5b7c315",
+   "season": 2019,
+   "distance": 2.219,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2020,
+   "distance": 2.226,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "914ab9a1",
+   "season": 2018,
+   "distance": 2.231,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Christian Kabasele",
+   "squad": "Watford"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.74
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3023,
+  "mu": 49.7,
+  "ci80": {
+   "lo": 40.9,
+   "hi": 58.5
+  },
+  "ci50": {
+   "lo": 45.1,
+   "hi": 54.3
+  },
+  "sigma_model": 1.951,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5ca20b7a",
+   "season": 2020,
+   "distance": 1.459,
+   "survived": 1,
+   "fut_ability_v2": 44.1,
+   "player_name": "Joseba Zaldúa",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "20b104bc",
+   "season": 2020,
+   "distance": 1.494,
+   "survived": 1,
+   "fut_ability_v2": 36.7,
+   "player_name": "Adam Smith",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "20b104bc",
+   "season": 2019,
+   "distance": 1.576,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Smith",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "39ee6cb6",
+   "season": 2020,
+   "distance": 1.598,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Rispoli",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2020,
+   "distance": 1.604,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "6ca88b2a",
+   "season": 2019,
+   "distance": 1.633,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Moubandje",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "21d4e122",
+   "season": 2018,
+   "distance": 1.69,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dani Castellano",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "4085f08e",
+   "season": 2020,
+   "distance": 1.7,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Haitam Aleesami",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "cb574619",
+   "season": 2020,
+   "distance": 1.703,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "96e0490d",
+   "season": 2020,
+   "distance": 1.74,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Matteo Darmian",
+   "squad": "Parma"
+  }
+ ],
  "low_confidence": false
 }

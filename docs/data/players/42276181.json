@@ -26,10 +26,115 @@
   "confidence": 0.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.218,
+  "mu": 48.2,
+  "ci80": {
+   "lo": 39.0,
+   "hi": 57.4
+  },
+  "ci50": {
+   "lo": 43.4,
+   "hi": 53.0
+  },
+  "sigma_model": 2.857,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "43a2e16c",
+   "season": 2019,
+   "distance": 2.0,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirco Antenucci",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "293211e1",
+   "season": 2018,
+   "distance": 2.986,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aritz Aduriz",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2019,
+   "distance": 3.128,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2018,
+   "distance": 3.221,
+   "survived": 1,
+   "fut_ability_v2": 29.4,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "df301450",
+   "season": 2019,
+   "distance": 3.23,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Floccari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "ee4f2f3b",
+   "season": 2020,
+   "distance": 3.254,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Fabio Quagliarella",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "df301450",
+   "season": 2020,
+   "distance": 3.304,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Floccari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "9d66fbe3",
+   "season": 2020,
+   "distance": 3.367,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Soldado",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "ad469944",
+   "season": 2018,
+   "distance": 3.463,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxi López",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "d711d04f",
+   "season": 2020,
+   "distance": 3.464,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.54
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4343,
+  "mu": 55.8,
+  "ci80": {
+   "lo": 47.1,
+   "hi": 64.5
+  },
+  "ci50": {
+   "lo": 51.2,
+   "hi": 60.4
+  },
+  "sigma_model": 1.843,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ef322658",
+   "season": 2018,
+   "distance": 1.617,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "ad6df2d5",
+   "season": 2018,
+   "distance": 1.835,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Miralem Pjanić",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2019,
+   "distance": 1.991,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2020,
+   "distance": 2.017,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2018,
+   "distance": 2.028,
+   "survived": 1,
+   "fut_ability_v2": 49.9,
+   "player_name": "Daniel Wass",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "10efd0e1",
+   "season": 2019,
+   "distance": 2.047,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean Seri",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "ad6df2d5",
+   "season": 2020,
+   "distance": 2.139,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miralem Pjanić",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2020,
+   "distance": 2.166,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "e7f4603c",
+   "season": 2018,
+   "distance": 2.28,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Borja García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "68829001",
+   "season": 2018,
+   "distance": 2.363,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Gonzalo Castro",
+   "squad": "Dortmund"
+  }
+ ],
  "low_confidence": false
 }

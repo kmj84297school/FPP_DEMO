@@ -26,10 +26,115 @@
   "confidence": 0.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2044,
+  "mu": 41.0,
+  "ci80": {
+   "lo": 32.2,
+   "hi": 49.8
+  },
+  "ci50": {
+   "lo": 36.4,
+   "hi": 45.7
+  },
+  "sigma_model": 2.038,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "54073b28",
+   "season": 2018,
+   "distance": 2.086,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Recio",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "468fdbad",
+   "season": 2018,
+   "distance": 2.103,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonas Martin",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "471f16b3",
+   "season": 2020,
+   "distance": 2.115,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Kenny McLean",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2018,
+   "distance": 2.184,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "d7bf3d19",
+   "season": 2018,
+   "distance": 2.202,
+   "survived": 1,
+   "fut_ability_v2": 41.5,
+   "player_name": "Romain Amalfitano",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2020,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "279ddf6a",
+   "season": 2019,
+   "distance": 2.261,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Xavier Chavalerin",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2019,
+   "distance": 2.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2018,
+   "distance": 2.326,
+   "survived": 1,
+   "fut_ability_v2": 35.8,
+   "player_name": "Pere Pons",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2020,
+   "distance": 2.329,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Abeid",
+   "squad": "Nantes"
+  }
+ ],
  "low_confidence": false
 }

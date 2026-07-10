@@ -26,10 +26,115 @@
   "confidence": 0.94
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6782,
+  "mu": 50.2,
+  "ci80": {
+   "lo": 40.6,
+   "hi": 59.8
+  },
+  "ci50": {
+   "lo": 45.2,
+   "hi": 55.3
+  },
+  "sigma_model": 3.646,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c4e87b8b",
+   "season": 2020,
+   "distance": 2.187,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "9980269a",
+   "season": 2019,
+   "distance": 2.424,
+   "survived": 1,
+   "fut_ability_v2": 33.7,
+   "player_name": "Kalifa Coulibaly",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "129af0db",
+   "season": 2020,
+   "distance": 2.484,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Álvaro Morata",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "d33c706e",
+   "season": 2020,
+   "distance": 2.531,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Andy Delort",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "d3de9af0",
+   "season": 2018,
+   "distance": 2.547,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Duván Zapata",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "07802f7f",
+   "season": 2020,
+   "distance": 2.584,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Danny Ings",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "0fe7f7bc",
+   "season": 2018,
+   "distance": 2.78,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giovanni Sio",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "b318a643",
+   "season": 2019,
+   "distance": 2.857,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomón Rondón",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "02319ad7",
+   "season": 2019,
+   "distance": 2.884,
+   "survived": 1,
+   "fut_ability_v2": 33.0,
+   "player_name": "Jaime Mata",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "df85d472",
+   "season": 2019,
+   "distance": 2.887,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Santander",
+   "squad": "Bologna"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1245,
+  "mu": 33.8,
+  "ci80": {
+   "lo": 24.7,
+   "hi": 42.8
+  },
+  "ci50": {
+   "lo": 29.0,
+   "hi": 38.5
+  },
+  "sigma_model": 2.668,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2e52206e",
+   "season": 2018,
+   "distance": 2.104,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Jeannot",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "625e41b1",
+   "season": 2020,
+   "distance": 2.191,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Streli Mamba",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "9853983f",
+   "season": 2019,
+   "distance": 2.194,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bobby Wood",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "b35db3f6",
+   "season": 2018,
+   "distance": 2.224,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Ángel Guerrero",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2020,
+   "distance": 2.288,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Borja Iglesias",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "4d50454e",
+   "season": 2020,
+   "distance": 2.307,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ben Zolinski",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "dae8623e",
+   "season": 2020,
+   "distance": 2.355,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mbwana Samatta",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "549c6ba7",
+   "season": 2018,
+   "distance": 2.396,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Di Santo",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "11ced928",
+   "season": 2020,
+   "distance": 2.443,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yaya Sanogo",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "a1c7b425",
+   "season": 2018,
+   "distance": 2.461,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Pucciarelli",
+   "squad": "Chievo"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.64
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.321,
+  "mu": 50.2,
+  "ci80": {
+   "lo": 41.6,
+   "hi": 58.8
+  },
+  "ci50": {
+   "lo": 45.7,
+   "hi": 54.7
+  },
+  "sigma_model": 1.348,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2019,
+   "distance": 1.656,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2019,
+   "distance": 2.106,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2018,
+   "distance": 2.156,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2020,
+   "distance": 2.262,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2020,
+   "distance": 2.272,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "3727dd3c",
+   "season": 2018,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Jonjo Shelvey",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "2258c078",
+   "season": 2018,
+   "distance": 2.35,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Viviani",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2020,
+   "distance": 2.361,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "70dcf94d",
+   "season": 2019,
+   "distance": 2.512,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "86695068",
+   "season": 2019,
+   "distance": 2.53,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Dennis Praet",
+   "squad": "Sampdoria"
+  }
+ ],
  "low_confidence": false
 }

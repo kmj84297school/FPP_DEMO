@@ -26,10 +26,115 @@
   "confidence": 1.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3469,
+  "mu": 50.9,
+  "ci80": {
+   "lo": 41.9,
+   "hi": 59.9
+  },
+  "ci50": {
+   "lo": 46.1,
+   "hi": 55.6
+  },
+  "sigma_model": 2.539,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8efa621b",
+   "season": 2020,
+   "distance": 1.545,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Lucioni",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 1.547,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "72b07a9c",
+   "season": 2020,
+   "distance": 1.563,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kiko Olivas",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "c0e27d1a",
+   "season": 2020,
+   "distance": 1.596,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Luiz",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "45b7edae",
+   "season": 2018,
+   "distance": 1.672,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Holger Badstuber",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "e7ca0439",
+   "season": 2019,
+   "distance": 1.708,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "James Tomkins",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "b666421b",
+   "season": 2020,
+   "distance": 1.746,
+   "survived": 1,
+   "fut_ability_v2": 41.0,
+   "player_name": "Ismaël Traoré",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "47a500ae",
+   "season": 2018,
+   "distance": 1.748,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Luca Rossettini",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "4a895384",
+   "season": 2019,
+   "distance": 1.761,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xabier Etxeita",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2020,
+   "distance": 1.831,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kostas Manolas",
+   "squad": "Napoli"
+  }
+ ],
  "low_confidence": false
 }

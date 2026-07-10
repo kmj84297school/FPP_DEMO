@@ -26,10 +26,115 @@
   "confidence": 0.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2149,
+  "mu": 44.7,
+  "ci80": {
+   "lo": 35.9,
+   "hi": 53.6
+  },
+  "ci50": {
+   "lo": 40.1,
+   "hi": 49.4
+  },
+  "sigma_model": 2.106,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "88895312",
+   "season": 2018,
+   "distance": 1.803,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Bessa",
+   "squad": "Hellas Verona / Genoa"
+  },
+  {
+   "fbref_id": "810e3c74",
+   "season": 2019,
+   "distance": 1.848,
+   "survived": 1,
+   "fut_ability_v2": 64.9,
+   "player_name": "Jesse Lingard",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2018,
+   "distance": 2.076,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Florent Mollet",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "5a626448",
+   "season": 2020,
+   "distance": 2.176,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Moi Gómez",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "75f2c59f",
+   "season": 2020,
+   "distance": 2.201,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Roberto Pereyra",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "9b337c7c",
+   "season": 2018,
+   "distance": 2.223,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jozabed",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2018,
+   "distance": 2.27,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "4a57580c",
+   "season": 2018,
+   "distance": 2.368,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "0000acda",
+   "season": 2020,
+   "distance": 2.458,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Benassi",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "33ecf462",
+   "season": 2020,
+   "distance": 2.469,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valerio Verre",
+   "squad": "Hellas Verona"
+  }
+ ],
  "low_confidence": false
 }

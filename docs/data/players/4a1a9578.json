@@ -26,10 +26,115 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.748,
+  "mu": 64.0,
+  "ci80": {
+   "lo": 55.1,
+   "hi": 72.9
+  },
+  "ci50": {
+   "lo": 59.3,
+   "hi": 68.7
+  },
+  "sigma_model": 2.194,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "157d29b6",
+   "season": 2018,
+   "distance": 2.914,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Diego Farias",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "d3aaad90",
+   "season": 2018,
+   "distance": 2.942,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stephan El Shaarawy",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "4c370d81",
+   "season": 2020,
+   "distance": 2.967,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Roberto Firmino",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2018,
+   "distance": 3.094,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "eb2fe5b6",
+   "season": 2018,
+   "distance": 3.145,
+   "survived": 1,
+   "fut_ability_v2": 82.2,
+   "player_name": "Luis Muriel",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "92e7e919",
+   "season": 2019,
+   "distance": 3.19,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "Son Heung-min",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2019,
+   "distance": 3.195,
+   "survived": 1,
+   "fut_ability_v2": 74.2,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "4c370d81",
+   "season": 2019,
+   "distance": 3.292,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Roberto Firmino",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "9dbb75ca",
+   "season": 2019,
+   "distance": 3.334,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Alexandre Lacazette",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "a08b974a",
+   "season": 2020,
+   "distance": 3.39,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Lucas Ocampos",
+   "squad": "Sevilla"
+  }
+ ],
  "low_confidence": false
 }

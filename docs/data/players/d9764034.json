@@ -26,10 +26,115 @@
   "confidence": 1.03
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4494,
+  "mu": 54.4,
+  "ci80": {
+   "lo": 45.6,
+   "hi": 63.1
+  },
+  "ci50": {
+   "lo": 49.8,
+   "hi": 59.0
+  },
+  "sigma_model": 1.881,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "821233cc",
+   "season": 2018,
+   "distance": 1.46,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Neven Subotić",
+   "squad": "Saint-Étienne / Dortmund"
+  },
+  {
+   "fbref_id": "960fb42d",
+   "season": 2019,
+   "distance": 1.614,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Gálvez",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "8b8a56ce",
+   "season": 2018,
+   "distance": 1.672,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Simon Kjær",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "87935cf3",
+   "season": 2018,
+   "distance": 1.692,
+   "survived": 1,
+   "fut_ability_v2": 39.9,
+   "player_name": "Mamadou Sakho",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "2515040a",
+   "season": 2018,
+   "distance": 1.757,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Paul Baysse",
+   "squad": "Málaga / Bordeaux"
+  },
+  {
+   "fbref_id": "1a2935f6",
+   "season": 2019,
+   "distance": 1.852,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dejan Lovren",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "ba71d071",
+   "season": 2019,
+   "distance": 1.864,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "Pedro Alcalá",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "f8fcd2a5",
+   "season": 2018,
+   "distance": 1.907,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Jonny Evans",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "52105203",
+   "season": 2018,
+   "distance": 1.927,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Scott Dann",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "caffaf5a",
+   "season": 2018,
+   "distance": 1.939,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Maya Yoshida",
+   "squad": "Southampton"
+  }
+ ],
  "low_confidence": false
 }

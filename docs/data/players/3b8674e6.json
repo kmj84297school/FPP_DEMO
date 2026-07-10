@@ -26,10 +26,115 @@
   "confidence": 0.9
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7276,
+  "mu": 56.8,
+  "ci80": {
+   "lo": 48.1,
+   "hi": 65.5
+  },
+  "ci50": {
+   "lo": 52.2,
+   "hi": 61.4
+  },
+  "sigma_model": 1.617,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c2211709",
+   "season": 2020,
+   "distance": 1.281,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Ellyes Skhiri",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "cce181df",
+   "season": 2018,
+   "distance": 1.289,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Geoffrey Kondogbia",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "02b29014",
+   "season": 2018,
+   "distance": 1.524,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2018,
+   "distance": 1.685,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "4d224fe8",
+   "season": 2018,
+   "distance": 1.846,
+   "survived": 1,
+   "fut_ability_v2": 63.3,
+   "player_name": "Casemiro",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "fe641c1a",
+   "season": 2019,
+   "distance": 1.886,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Thomas Delaney",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "9feb8f24",
+   "season": 2018,
+   "distance": 1.887,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Allen",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2019,
+   "distance": 1.903,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "4d224fe8",
+   "season": 2020,
+   "distance": 1.94,
+   "survived": 1,
+   "fut_ability_v2": 66.4,
+   "player_name": "Casemiro",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2019,
+   "distance": 1.97,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  }
+ ],
  "low_confidence": false
 }

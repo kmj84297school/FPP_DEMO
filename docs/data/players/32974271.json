@@ -26,10 +26,115 @@
   "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1985,
+  "mu": 34.9,
+  "ci80": {
+   "lo": 25.5,
+   "hi": 44.2
+  },
+  "ci50": {
+   "lo": 29.9,
+   "hi": 39.8
+  },
+  "sigma_model": 3.196,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2ec0f902",
+   "season": 2019,
+   "distance": 2.757,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Riccardo Meggiorini",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "8d228291",
+   "season": 2019,
+   "distance": 2.893,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charlie Austin",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "aa5859cb",
+   "season": 2019,
+   "distance": 3.223,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Depoitre",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "82e9b89d",
+   "season": 2020,
+   "distance": 3.229,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enric Gallego",
+   "squad": "Osasuna / Getafe"
+  },
+  {
+   "fbref_id": "7f4f3e49",
+   "season": 2018,
+   "distance": 3.299,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mame Biram Diouf",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "4ab53cdb",
+   "season": 2020,
+   "distance": 3.302,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Jay Rodriguez",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "82e9b89d",
+   "season": 2019,
+   "distance": 3.329,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enric Gallego",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "2691c772",
+   "season": 2020,
+   "distance": 3.354,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ashley Barnes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2018,
+   "distance": 3.367,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "9f472354",
+   "season": 2019,
+   "distance": 3.367,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  }
+ ],
  "low_confidence": false
 }

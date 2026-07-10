@@ -26,10 +26,115 @@
   "confidence": 0.76
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4687,
+  "mu": 47.6,
+  "ci80": {
+   "lo": 39.1,
+   "hi": 56.2
+  },
+  "ci50": {
+   "lo": 43.1,
+   "hi": 52.1
+  },
+  "sigma_model": 1.262,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "529f49ab",
+   "season": 2018,
+   "distance": 1.582,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2019,
+   "distance": 1.666,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2018,
+   "distance": 1.773,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "496aeede",
+   "season": 2018,
+   "distance": 1.782,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Christoph Kramer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2020,
+   "distance": 1.812,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Obiang",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "4114f306",
+   "season": 2018,
+   "distance": 1.883,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Höger",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "b98570d1",
+   "season": 2018,
+   "distance": 1.927,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Jake Livermore",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "02febfdc",
+   "season": 2019,
+   "distance": 1.934,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raffaele Maiello",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2018,
+   "distance": 1.942,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "c75b6a02",
+   "season": 2018,
+   "distance": 1.958,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Bertolacci",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

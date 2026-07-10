@@ -26,10 +26,115 @@
   "confidence": 0.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3802,
+  "mu": 59.0,
+  "ci80": {
+   "lo": 50.3,
+   "hi": 67.7
+  },
+  "ci50": {
+   "lo": 54.4,
+   "hi": 63.6
+  },
+  "sigma_model": 1.659,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "980522ec",
+   "season": 2019,
+   "distance": 1.993,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Christian Eriksen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2018,
+   "distance": 2.046,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Radja Nainggolan",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2018,
+   "distance": 2.247,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "dba67bc4",
+   "season": 2018,
+   "distance": 2.429,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zlatko Junuzović",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "5f9f0531",
+   "season": 2018,
+   "distance": 2.44,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Hunt",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "f7691f63",
+   "season": 2018,
+   "distance": 2.498,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Dimitri Liénard",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "8b298f56",
+   "season": 2019,
+   "distance": 2.537,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Clément Grenier",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2019,
+   "distance": 2.571,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2020,
+   "distance": 2.591,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "5c96b017",
+   "season": 2020,
+   "distance": 2.601,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Rubén García",
+   "squad": "Osasuna"
+  }
+ ],
  "low_confidence": false
 }

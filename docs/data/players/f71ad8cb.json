@@ -26,10 +26,115 @@
   "confidence": 0.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3536,
+  "mu": 41.6,
+  "ci80": {
+   "lo": 32.8,
+   "hi": 50.3
+  },
+  "ci50": {
+   "lo": 37.0,
+   "hi": 46.2
+  },
+  "sigma_model": 1.853,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "070a3904",
+   "season": 2020,
+   "distance": 1.953,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2020,
+   "distance": 1.981,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Darko Brašanac",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "0df2b165",
+   "season": 2020,
+   "distance": 2.0,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Lundstram",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "62ab9184",
+   "season": 2019,
+   "distance": 2.002,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Yannick Gerhardt",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2018,
+   "distance": 2.263,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "bf13975c",
+   "season": 2020,
+   "distance": 2.311,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Žan Majer",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "3902e91b",
+   "season": 2020,
+   "distance": 2.326,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Gonzalo Melero",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "989d5705",
+   "season": 2019,
+   "distance": 2.332,
+   "survived": 1,
+   "fut_ability_v2": 29.8,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "0f9b8301",
+   "season": 2020,
+   "distance": 2.416,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Battocchio",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2019,
+   "distance": 2.431,
+   "survived": 1,
+   "fut_ability_v2": 35.8,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

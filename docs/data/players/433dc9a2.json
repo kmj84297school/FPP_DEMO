@@ -26,10 +26,115 @@
   "confidence": 1.46
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4332,
+  "mu": 46.7,
+  "ci80": {
+   "lo": 38.1,
+   "hi": 55.4
+  },
+  "ci50": {
+   "lo": 42.2,
+   "hi": 51.3
+  },
+  "sigma_model": 1.661,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "44eb9093",
+   "season": 2020,
+   "distance": 2.66,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2020,
+   "distance": 2.946,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Alberto Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "b6e50615",
+   "season": 2018,
+   "distance": 3.121,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Yuri Berchiche",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "2946f9a1",
+   "season": 2018,
+   "distance": 3.182,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Nacho",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2020,
+   "distance": 3.211,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "89151b16",
+   "season": 2020,
+   "distance": 3.257,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zouhair Feddal",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "08511d65",
+   "season": 2018,
+   "distance": 3.269,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Sergio Ramos",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "52105203",
+   "season": 2018,
+   "distance": 3.3,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Scott Dann",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2019,
+   "distance": 3.33,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2019,
+   "distance": 3.358,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  }
+ ],
  "low_confidence": false
 }

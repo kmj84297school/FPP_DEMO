@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2204,
+  "mu": 59.6,
+  "ci80": {
+   "lo": 50.8,
+   "hi": 68.4
+  },
+  "ci50": {
+   "lo": 54.9,
+   "hi": 64.2
+  },
+  "sigma_model": 2.121,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7cd6badb",
+   "season": 2019,
+   "distance": 2.067,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Lars Stindl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2020,
+   "distance": 2.233,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "78841da9",
+   "season": 2018,
+   "distance": 2.374,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "José Callejón",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "7dcf86f6",
+   "season": 2020,
+   "distance": 2.38,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Iago Aspas",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "18ebca4b",
+   "season": 2020,
+   "distance": 2.389,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Charbonnier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2020,
+   "distance": 2.438,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Antoine Griezmann",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "f9446dcd",
+   "season": 2018,
+   "distance": 2.44,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Max Kruse",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "7cd6badb",
+   "season": 2018,
+   "distance": 2.579,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Lars Stindl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "aa51343f",
+   "season": 2019,
+   "distance": 2.661,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Mirallas",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "b2d0ec1b",
+   "season": 2020,
+   "distance": 2.691,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Nolito",
+   "squad": "Sevilla / Celta Vigo"
+  }
+ ],
  "low_confidence": false
 }

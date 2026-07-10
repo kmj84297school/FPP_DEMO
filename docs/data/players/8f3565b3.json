@@ -26,10 +26,115 @@
   "confidence": 0.15
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0927,
+  "mu": 41.4,
+  "ci80": {
+   "lo": 31.3,
+   "hi": 51.5
+  },
+  "ci50": {
+   "lo": 36.1,
+   "hi": 46.7
+  },
+  "sigma_model": 4.336,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9f472354",
+   "season": 2019,
+   "distance": 1.935,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "aa5859cb",
+   "season": 2019,
+   "distance": 1.994,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Depoitre",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "2bcc6d52",
+   "season": 2019,
+   "distance": 2.015,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Burgstaller",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "71a20ce8",
+   "season": 2018,
+   "distance": 2.064,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gómez",
+   "squad": "Stuttgart / Wolfsburg"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 2.242,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "e897d8ba",
+   "season": 2020,
+   "distance": 2.263,
+   "survived": 1,
+   "fut_ability_v2": 42.1,
+   "player_name": "Kike",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "863ff1ee",
+   "season": 2018,
+   "distance": 2.315,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Terodde",
+   "squad": "Köln / Stuttgart"
+  },
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2018,
+   "distance": 2.383,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "53e07d0b",
+   "season": 2020,
+   "distance": 2.409,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ádám Szalai",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "3071a619",
+   "season": 2019,
+   "distance": 2.42,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nolan Roux",
+   "squad": "Guingamp"
+  }
+ ],
  "low_confidence": false
 }

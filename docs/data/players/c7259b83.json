@@ -26,10 +26,115 @@
   "confidence": 0.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4917,
+  "mu": 49.7,
+  "ci80": {
+   "lo": 41.1,
+   "hi": 58.3
+  },
+  "ci50": {
+   "lo": 45.2,
+   "hi": 54.2
+  },
+  "sigma_model": 1.479,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2018,
+   "distance": 1.81,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Kevin Strootman",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2018,
+   "distance": 1.882,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "16657b95",
+   "season": 2020,
+   "distance": 2.127,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Bryan Cristante",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "98d2c2c4",
+   "season": 2020,
+   "distance": 2.162,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Remo Freuler",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "3e092724",
+   "season": 2020,
+   "distance": 2.204,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Wylan Cyprien",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "3902e91b",
+   "season": 2019,
+   "distance": 2.267,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Gonzalo Melero",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2019,
+   "distance": 2.272,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2018,
+   "distance": 2.276,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "9b337c7c",
+   "season": 2018,
+   "distance": 2.29,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jozabed",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "20e73fac",
+   "season": 2020,
+   "distance": 2.302,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  }
+ ],
  "low_confidence": false
 }

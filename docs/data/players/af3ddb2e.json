@@ -26,10 +26,115 @@
   "confidence": 1.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2026,
+  "mu": 34.3,
+  "ci80": {
+   "lo": 25.2,
+   "hi": 43.3
+  },
+  "ci50": {
+   "lo": 29.5,
+   "hi": 39.0
+  },
+  "sigma_model": 2.569,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "625e41b1",
+   "season": 2020,
+   "distance": 1.737,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Streli Mamba",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "2e52206e",
+   "season": 2018,
+   "distance": 2.177,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Jeannot",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "09538fdb",
+   "season": 2019,
+   "distance": 2.263,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Kevin Lasagna",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "3071a619",
+   "season": 2018,
+   "distance": 2.325,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nolan Roux",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "ea0ff634",
+   "season": 2019,
+   "distance": 2.365,
+   "survived": 1,
+   "fut_ability_v2": 32.5,
+   "player_name": "Valère Germain",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "5343eb4e",
+   "season": 2018,
+   "distance": 2.394,
+   "survived": 1,
+   "fut_ability_v2": 31.8,
+   "player_name": "Yoshinori Mutō",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2020,
+   "distance": 2.41,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Borja Iglesias",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "bb4b1242",
+   "season": 2020,
+   "distance": 2.422,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergi Enrich",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "b35db3f6",
+   "season": 2018,
+   "distance": 2.48,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Ángel Guerrero",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "5046b7d4",
+   "season": 2018,
+   "distance": 2.496,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Stéphane Bahoken",
+   "squad": "Strasbourg"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.272,
+  "mu": 67.1,
+  "ci80": {
+   "lo": 58.3,
+   "hi": 76.0
+  },
+  "ci50": {
+   "lo": 62.5,
+   "hi": 71.8
+  },
+  "sigma_model": 2.034,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ffec9769",
+   "season": 2020,
+   "distance": 3.093,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Islam Slimani",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "89b2c8a9",
+   "season": 2019,
+   "distance": 4.1,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Dries Mertens",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "89b2c8a9",
+   "season": 2020,
+   "distance": 4.473,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Dries Mertens",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "70d74ece",
+   "season": 2020,
+   "distance": 4.904,
+   "survived": 1,
+   "fut_ability_v2": 81.6,
+   "player_name": "Karim Benzema",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "a6154613",
+   "season": 2019,
+   "distance": 4.926,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Luis Suárez",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2019,
+   "distance": 4.954,
+   "survived": 1,
+   "fut_ability_v2": 70.0,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2020,
+   "distance": 4.976,
+   "survived": 1,
+   "fut_ability_v2": 74.1,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "78841da9",
+   "season": 2020,
+   "distance": 5.039,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "José Callejón",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "09586899",
+   "season": 2018,
+   "distance": 5.137,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Arjen Robben",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "8a08491a",
+   "season": 2020,
+   "distance": 5.213,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gonzalo Higuaín",
+   "squad": "Juventus"
+  }
+ ],
+ "low_confidence": true
 }

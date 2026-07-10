@@ -26,10 +26,115 @@
   "confidence": 0.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5342,
+  "mu": 49.2,
+  "ci80": {
+   "lo": 40.5,
+   "hi": 57.8
+  },
+  "ci50": {
+   "lo": 44.6,
+   "hi": 53.7
+  },
+  "sigma_model": 1.504,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2019,
+   "distance": 2.003,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Nacho Monreal",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "e94d79e3",
+   "season": 2020,
+   "distance": 2.116,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Martín Cáceres",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2019,
+   "distance": 2.128,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "7f4c7c9f",
+   "season": 2020,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Jorge Miramón",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "2946f9a1",
+   "season": 2019,
+   "distance": 2.276,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Nacho",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "e0314d87",
+   "season": 2019,
+   "distance": 2.315,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Andrea Masiello",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "96e0490d",
+   "season": 2020,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Matteo Darmian",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "53de807a",
+   "season": 2020,
+   "distance": 2.371,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2020,
+   "distance": 2.376,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "f7d50789",
+   "season": 2019,
+   "distance": 2.377,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Toby Alderweireld",
+   "squad": "Tottenham"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.689,
+  "mu": 55.7,
+  "ci80": {
+   "lo": 47.0,
+   "hi": 64.4
+  },
+  "ci50": {
+   "lo": 51.2,
+   "hi": 60.3
+  },
+  "sigma_model": 1.67,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2019,
+   "distance": 1.455,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2020,
+   "distance": 1.727,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2019,
+   "distance": 1.739,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "8b95acda",
+   "season": 2020,
+   "distance": 1.869,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Omar Colley",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2018,
+   "distance": 1.886,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "b82880c6",
+   "season": 2018,
+   "distance": 1.959,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Falette",
+   "squad": "Eint Frankfurt / Metz"
+  },
+  {
+   "fbref_id": "c40b6180",
+   "season": 2020,
+   "distance": 1.979,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Adam Webster",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "89cbc961",
+   "season": 2019,
+   "distance": 2.018,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramiro Funes Mori",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2018,
+   "distance": 2.082,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "5832ebfe",
+   "season": 2020,
+   "distance": 2.122,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Denswil",
+   "squad": "Bologna"
+  }
+ ],
  "low_confidence": false
 }

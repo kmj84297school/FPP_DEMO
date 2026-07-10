@@ -26,10 +26,115 @@
   "confidence": 0.09
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.04,
+  "mu": 43.3,
+  "ci80": {
+   "lo": 34.4,
+   "hi": 52.2
+  },
+  "ci50": {
+   "lo": 38.6,
+   "hi": 47.9
+  },
+  "sigma_model": 2.255,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2018,
+   "distance": 2.064,
+   "survived": 1,
+   "fut_ability_v2": 43.0,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2020,
+   "distance": 2.236,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "b09a3ecc",
+   "season": 2019,
+   "distance": 2.298,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ciofani",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "c58270f8",
+   "season": 2018,
+   "distance": 2.318,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Souleymane Camara",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "9f472354",
+   "season": 2019,
+   "distance": 2.373,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "71a20ce8",
+   "season": 2018,
+   "distance": 2.434,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gómez",
+   "squad": "Stuttgart / Wolfsburg"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2018,
+   "distance": 2.461,
+   "survived": 1,
+   "fut_ability_v2": 29.4,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2020,
+   "distance": 2.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "5c2da10f",
+   "season": 2019,
+   "distance": 2.586,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Rémy",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "09a9e921",
+   "season": 2019,
+   "distance": 2.595,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Carlos Bacca",
+   "squad": "Villarreal"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.58
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5793,
+  "mu": 47.2,
+  "ci80": {
+   "lo": 38.5,
+   "hi": 55.9
+  },
+  "ci50": {
+   "lo": 42.6,
+   "hi": 51.7
+  },
+  "sigma_model": 1.727,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4a56052c",
+   "season": 2020,
+   "distance": 1.718,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Veretout",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "468fdbad",
+   "season": 2018,
+   "distance": 2.071,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonas Martin",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2020,
+   "distance": 2.091,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2018,
+   "distance": 2.193,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "b86fe156",
+   "season": 2018,
+   "distance": 2.249,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giannelli Imbula",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "5a626448",
+   "season": 2019,
+   "distance": 2.371,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Moi Gómez",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "eb58eef0",
+   "season": 2019,
+   "distance": 2.421,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Georginio Wijnaldum",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "5a1900a4",
+   "season": 2018,
+   "distance": 2.485,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Carroll",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2019,
+   "distance": 2.502,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2019,
+   "distance": 2.554,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

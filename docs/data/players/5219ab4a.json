@@ -26,10 +26,115 @@
   "confidence": 1.86
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4282,
+  "mu": 57.3,
+  "ci80": {
+   "lo": 48.4,
+   "hi": 66.1
+  },
+  "ci50": {
+   "lo": 52.6,
+   "hi": 61.9
+  },
+  "sigma_model": 2.097,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "356c9002",
+   "season": 2020,
+   "distance": 2.561,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Antonio Candreva",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "5128bde4",
+   "season": 2020,
+   "distance": 2.894,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Darko Lazović",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "4601e194",
+   "season": 2019,
+   "distance": 3.195,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2019,
+   "distance": 3.202,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "eda40760",
+   "season": 2019,
+   "distance": 3.325,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "4601e194",
+   "season": 2018,
+   "distance": 3.448,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "5f09991f",
+   "season": 2020,
+   "distance": 3.502,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick van Aanholt",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "7fd58fe3",
+   "season": 2018,
+   "distance": 3.517,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Senad Lulić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "603116a7",
+   "season": 2019,
+   "distance": 3.547,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Marcelo",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "d1661819",
+   "season": 2018,
+   "distance": 3.561,
+   "survived": 1,
+   "fut_ability_v2": 50.1,
+   "player_name": "Bastian Oczipka",
+   "squad": "Schalke 04"
+  }
+ ],
+ "low_confidence": true
 }

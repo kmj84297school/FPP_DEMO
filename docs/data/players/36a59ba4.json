@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4226,
+  "mu": 50.3,
+  "ci80": {
+   "lo": 41.0,
+   "hi": 59.6
+  },
+  "ci50": {
+   "lo": 45.4,
+   "hi": 55.2
+  },
+  "sigma_model": 3.069,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "33ecf462",
+   "season": 2020,
+   "distance": 2.49,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valerio Verre",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "cac2537b",
+   "season": 2020,
+   "distance": 2.509,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Enis Bardhi",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "88895312",
+   "season": 2018,
+   "distance": 2.569,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Bessa",
+   "squad": "Hellas Verona / Genoa"
+  },
+  {
+   "fbref_id": "88615858",
+   "season": 2018,
+   "distance": 2.589,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bryan Pelé",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2019,
+   "distance": 2.613,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Alfred Duncan",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "7e689867",
+   "season": 2018,
+   "distance": 2.634,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Terrazzino",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "643b39a6",
+   "season": 2018,
+   "distance": 2.759,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emre Çolak",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "8aec0537",
+   "season": 2019,
+   "distance": 2.767,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Pascal Groß",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "58a9a4d9",
+   "season": 2020,
+   "distance": 2.771,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Óliver Torres",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "9e61c019",
+   "season": 2018,
+   "distance": 2.788,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guilherme",
+   "squad": "Benevento"
+  }
+ ],
  "low_confidence": false
 }

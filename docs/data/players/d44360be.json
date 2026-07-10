@@ -26,10 +26,115 @@
   "confidence": 0.54
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3427,
+  "mu": 47.2,
+  "ci80": {
+   "lo": 38.1,
+   "hi": 56.2
+  },
+  "ci50": {
+   "lo": 42.4,
+   "hi": 51.9
+  },
+  "sigma_model": 2.617,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7c388b20",
+   "season": 2019,
+   "distance": 1.783,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "aec0fb6f",
+   "season": 2018,
+   "distance": 1.955,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javier Eraso",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2018,
+   "distance": 2.084,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2020,
+   "distance": 2.119,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "26e4447b",
+   "season": 2020,
+   "distance": 2.139,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yoann Court",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "04965583",
+   "season": 2020,
+   "distance": 2.176,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Aleix Vidal",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2020,
+   "distance": 2.218,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "71ef519e",
+   "season": 2018,
+   "distance": 2.35,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "b63e789d",
+   "season": 2020,
+   "distance": 2.365,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Fleck",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "7c388b20",
+   "season": 2020,
+   "distance": 2.38,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  }
+ ],
  "low_confidence": false
 }

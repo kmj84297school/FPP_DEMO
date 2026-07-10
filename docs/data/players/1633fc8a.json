@@ -26,10 +26,115 @@
   "confidence": 0.61
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.165,
+  "mu": 52.3,
+  "ci80": {
+   "lo": 43.6,
+   "hi": 61.0
+  },
+  "ci50": {
+   "lo": 47.7,
+   "hi": 56.9
+  },
+  "sigma_model": 1.74,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ad178594",
+   "season": 2018,
+   "distance": 1.505,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl Navas",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2019,
+   "distance": 1.532,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "5d311e8d",
+   "season": 2019,
+   "distance": 1.726,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Héctor Moreno",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2018,
+   "distance": 1.728,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "4bd414c1",
+   "season": 2019,
+   "distance": 1.787,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Raúl Albiol",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "51e3954c",
+   "season": 2018,
+   "distance": 1.824,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Facundo Roncaglia",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "b3dc6eca",
+   "season": 2019,
+   "distance": 1.91,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Víctor Ruiz",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2020,
+   "distance": 2.008,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nenad Tomović",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "53de807a",
+   "season": 2020,
+   "distance": 2.024,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2018,
+   "distance": 2.029,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  }
+ ],
  "low_confidence": false
 }

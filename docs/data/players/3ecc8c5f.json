@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4808,
+  "mu": 53.1,
+  "ci80": {
+   "lo": 44.4,
+   "hi": 61.7
+  },
+  "ci50": {
+   "lo": 48.5,
+   "hi": 57.6
+  },
+  "sigma_model": 1.606,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "699fb8db",
+   "season": 2019,
+   "distance": 1.136,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Dominique Heintz",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "89ac64a6",
+   "season": 2020,
+   "distance": 1.468,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Manuel Akanji",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2019,
+   "distance": 1.613,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "b4a014b1",
+   "season": 2019,
+   "distance": 1.625,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Diego Carlos",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "fbd6378b",
+   "season": 2018,
+   "distance": 1.657,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Aïssa Mandi",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "699fb8db",
+   "season": 2020,
+   "distance": 1.709,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominique Heintz",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2018,
+   "distance": 1.832,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "fbd6378b",
+   "season": 2019,
+   "distance": 1.841,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Aïssa Mandi",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "1c344204",
+   "season": 2018,
+   "distance": 1.841,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Yamberé",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2018,
+   "distance": 1.854,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergi Gómez",
+   "squad": "Celta Vigo"
+  }
+ ],
  "low_confidence": false
 }

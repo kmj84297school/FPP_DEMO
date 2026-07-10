@@ -26,10 +26,115 @@
   "confidence": 0.09
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.0615,
+  "mu": 47.0,
+  "ci80": {
+   "lo": 38.3,
+   "hi": 55.8
+  },
+  "ci50": {
+   "lo": 42.4,
+   "hi": 51.6
+  },
+  "sigma_model": 1.937,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "12aa7661",
+   "season": 2020,
+   "distance": 2.092,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "edd6c8e9",
+   "season": 2019,
+   "distance": 2.899,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Darijo Srna",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "635b0bae",
+   "season": 2018,
+   "distance": 3.028,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Gobbi",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "1c8c5aed",
+   "season": 2019,
+   "distance": 3.139,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Molinaro",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "99b1d0e6",
+   "season": 2020,
+   "distance": 3.369,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stephan Lichtsteiner",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "78803d03",
+   "season": 2018,
+   "distance": 3.412,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "5a3f6fae",
+   "season": 2018,
+   "distance": 3.417,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fernando Navarro",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "635b0bae",
+   "season": 2019,
+   "distance": 3.709,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Gobbi",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "c4bbea9f",
+   "season": 2018,
+   "distance": 3.827,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Vitorino Hilton",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "78803d03",
+   "season": 2019,
+   "distance": 3.859,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno",
+   "squad": "Brighton"
+  }
+ ],
+ "low_confidence": true
 }

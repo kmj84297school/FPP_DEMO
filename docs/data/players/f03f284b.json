@@ -26,10 +26,115 @@
   "confidence": 0.23
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1497,
+  "mu": 48.5,
+  "ci80": {
+   "lo": 39.6,
+   "hi": 57.5
+  },
+  "ci50": {
+   "lo": 43.8,
+   "hi": 53.2
+  },
+  "sigma_model": 2.355,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2019,
+   "distance": 1.694,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "4e358a2d",
+   "season": 2020,
+   "distance": 1.747,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Federico Fazio",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ac3fb1be",
+   "season": 2020,
+   "distance": 1.84,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezequiel Garay",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "b682dcf6",
+   "season": 2020,
+   "distance": 1.88,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sokratis Papastathopoulos",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "8cea6319",
+   "season": 2020,
+   "distance": 1.92,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felipe dal Belo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2020,
+   "distance": 2.027,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "52105203",
+   "season": 2020,
+   "distance": 2.076,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Scott Dann",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "0d267745",
+   "season": 2020,
+   "distance": 2.166,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolás Otamendi",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "47a500ae",
+   "season": 2018,
+   "distance": 2.182,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Luca Rossettini",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "bf97c188",
+   "season": 2019,
+   "distance": 2.225,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Mercado",
+   "squad": "Sevilla"
+  }
+ ],
  "low_confidence": false
 }

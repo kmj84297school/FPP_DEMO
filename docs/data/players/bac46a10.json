@@ -26,10 +26,115 @@
   "confidence": 1.13
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5259,
+  "mu": 51.5,
+  "ci80": {
+   "lo": 42.8,
+   "hi": 60.1
+  },
+  "ci50": {
+   "lo": 46.9,
+   "hi": 56.0
+  },
+  "sigma_model": 1.598,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "616aea37",
+   "season": 2019,
+   "distance": 1.642,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2018,
+   "distance": 1.774,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2020,
+   "distance": 1.804,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "d70a2141",
+   "season": 2019,
+   "distance": 1.827,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordi Amat",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "27f0ddef",
+   "season": 2018,
+   "distance": 1.833,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Helander",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "f1f1f238",
+   "season": 2020,
+   "distance": 1.842,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Koray Günter",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2019,
+   "distance": 1.864,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Sergi Gómez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2019,
+   "distance": 1.868,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2020,
+   "distance": 2.004,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "699fb8db",
+   "season": 2020,
+   "distance": 2.021,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominique Heintz",
+   "squad": "Freiburg"
+  }
+ ],
  "low_confidence": false
 }

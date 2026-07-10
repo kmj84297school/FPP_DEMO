@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.526,
+  "mu": 36.3,
+  "ci80": {
+   "lo": 26.8,
+   "hi": 45.9
+  },
+  "ci50": {
+   "lo": 31.3,
+   "hi": 41.3
+  },
+  "sigma_model": 3.524,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "43a2e16c",
+   "season": 2019,
+   "distance": 2.904,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirco Antenucci",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "9d66fbe3",
+   "season": 2020,
+   "distance": 2.965,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Soldado",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "ad469944",
+   "season": 2018,
+   "distance": 2.994,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxi López",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "293211e1",
+   "season": 2019,
+   "distance": 3.496,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aritz Aduriz",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "f83c8d6c",
+   "season": 2020,
+   "distance": 3.631,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jimmy Briand",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2020,
+   "distance": 3.643,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2019,
+   "distance": 3.787,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "b09a3ecc",
+   "season": 2019,
+   "distance": 3.904,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ciofani",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "df301450",
+   "season": 2020,
+   "distance": 3.926,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Floccari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "293211e1",
+   "season": 2018,
+   "distance": 4.058,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aritz Aduriz",
+   "squad": "Athletic Club"
+  }
+ ],
+ "low_confidence": true
 }

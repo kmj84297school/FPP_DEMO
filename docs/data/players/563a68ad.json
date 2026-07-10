@@ -26,10 +26,115 @@
   "confidence": 0.56
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5613,
+  "mu": 52.3,
+  "ci80": {
+   "lo": 43.3,
+   "hi": 61.3
+  },
+  "ci50": {
+   "lo": 47.5,
+   "hi": 57.0
+  },
+  "sigma_model": 2.518,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2020,
+   "distance": 1.754,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "9ab16552",
+   "season": 2019,
+   "distance": 1.946,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Makoto Hasebe",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "9ab16552",
+   "season": 2018,
+   "distance": 2.151,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Makoto Hasebe",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "9ab16552",
+   "season": 2020,
+   "distance": 2.173,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Makoto Hasebe",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2019,
+   "distance": 2.228,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "fd2bc67d",
+   "season": 2019,
+   "distance": 2.261,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Dante",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "e97150c0",
+   "season": 2020,
+   "distance": 2.325,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Morel",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2020,
+   "distance": 2.336,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "fed5f993",
+   "season": 2020,
+   "distance": 2.373,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Larangeira",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "008a6e6d",
+   "season": 2020,
+   "distance": 2.377,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ragnar Klavan",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

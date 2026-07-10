@@ -26,10 +26,115 @@
   "confidence": 0.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2353,
+  "mu": 51.4,
+  "ci80": {
+   "lo": 42.4,
+   "hi": 60.5
+  },
+  "ci50": {
+   "lo": 46.7,
+   "hi": 56.2
+  },
+  "sigma_model": 2.544,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4c5b14d2",
+   "season": 2018,
+   "distance": 3.943,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Joaquín",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "d054d8b0",
+   "season": 2018,
+   "distance": 4.221,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xabi Prieto",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "6025fab1",
+   "season": 2020,
+   "distance": 4.388,
+   "survived": 1,
+   "fut_ability_v2": 65.9,
+   "player_name": "Luka Modrić",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "e2e9c250",
+   "season": 2020,
+   "distance": 4.486,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santi Cazorla",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "35c5f9b1",
+   "season": 2018,
+   "distance": 4.638,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stéphane Sessègnon",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "c90977db",
+   "season": 2020,
+   "distance": 4.763,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabián Orellana",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "0e21fc3c",
+   "season": 2020,
+   "distance": 4.823,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Valero",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "1c50f354",
+   "season": 2018,
+   "distance": 4.982,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emanuele Giaccherini",
+   "squad": "Chievo / Napoli"
+  },
+  {
+   "fbref_id": "2042d931",
+   "season": 2019,
+   "distance": 4.994,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomon Kalou",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "c90977db",
+   "season": 2019,
+   "distance": 4.997,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Fabián Orellana",
+   "squad": "Eibar"
+  }
+ ],
+ "low_confidence": true
 }

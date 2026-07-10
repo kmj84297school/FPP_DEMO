@@ -26,10 +26,115 @@
   "confidence": 1.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3922,
+  "mu": 44.1,
+  "ci80": {
+   "lo": 35.4,
+   "hi": 52.9
+  },
+  "ci50": {
+   "lo": 39.5,
+   "hi": 48.7
+  },
+  "sigma_model": 1.964,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "65c75ea8",
+   "season": 2018,
+   "distance": 2.13,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Nalini",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "3ae14ed1",
+   "season": 2020,
+   "distance": 2.135,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Trézéguet",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "bb5fbd2b",
+   "season": 2019,
+   "distance": 2.187,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Solly March",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "acdad0aa",
+   "season": 2018,
+   "distance": 2.356,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcello Trotta",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "ffa90327",
+   "season": 2020,
+   "distance": 2.439,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anwar El Ghazi",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "ecbb3fdf",
+   "season": 2019,
+   "distance": 2.496,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Schürrle",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "909222de",
+   "season": 2018,
+   "distance": 2.504,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuno da Costa",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "19b776e9",
+   "season": 2018,
+   "distance": 2.572,
+   "survived": 1,
+   "fut_ability_v2": 37.3,
+   "player_name": "Rubén Sobrino",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "909222de",
+   "season": 2019,
+   "distance": 2.6,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuno da Costa",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "cba16a46",
+   "season": 2019,
+   "distance": 2.61,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Kubo",
+   "squad": "Nürnberg"
+  }
+ ],
  "low_confidence": false
 }

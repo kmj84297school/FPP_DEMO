@@ -26,10 +26,115 @@
   "confidence": 0.03
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.329,
+  "mu": 45.7,
+  "ci80": {
+   "lo": 36.9,
+   "hi": 54.6
+  },
+  "ci50": {
+   "lo": 41.1,
+   "hi": 50.4
+  },
+  "sigma_model": 2.062,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "afa0d4e0",
+   "season": 2018,
+   "distance": 2.579,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Mandžukić",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "afa0d4e0",
+   "season": 2019,
+   "distance": 2.648,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Mandžukić",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "78841da9",
+   "season": 2018,
+   "distance": 2.794,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "José Callejón",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "18ebca4b",
+   "season": 2020,
+   "distance": 2.861,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Charbonnier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "00459419",
+   "season": 2019,
+   "distance": 2.908,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Marko Arnautović",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "f83c8d6c",
+   "season": 2018,
+   "distance": 3.001,
+   "survived": 1,
+   "fut_ability_v2": 28.5,
+   "player_name": "Jimmy Briand",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "601ef102",
+   "season": 2020,
+   "distance": 3.062,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Okaka",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "d5dd5f1f",
+   "season": 2020,
+   "distance": 3.085,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Pierre-Emerick Aubameyang",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "7dcf86f6",
+   "season": 2020,
+   "distance": 3.139,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Iago Aspas",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "5bd72174",
+   "season": 2019,
+   "distance": 3.254,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Francesco Caputo",
+   "squad": "Empoli"
+  }
+ ],
  "low_confidence": false
 }

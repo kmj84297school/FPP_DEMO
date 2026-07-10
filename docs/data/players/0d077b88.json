@@ -26,10 +26,115 @@
   "confidence": 0.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1586,
+  "mu": 47.4,
+  "ci80": {
+   "lo": 38.8,
+   "hi": 56.1
+  },
+  "ci50": {
+   "lo": 42.9,
+   "hi": 52.0
+  },
+  "sigma_model": 1.582,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f1cfc209",
+   "season": 2019,
+   "distance": 1.368,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Tomás Rincón",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "f1cfc209",
+   "season": 2018,
+   "distance": 1.652,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Tomás Rincón",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "f1cfc209",
+   "season": 2020,
+   "distance": 1.73,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Tomás Rincón",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "431c837b",
+   "season": 2020,
+   "distance": 1.844,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Klaus Gjasula",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2018,
+   "distance": 1.884,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Simone Missiroli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2019,
+   "distance": 1.945,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "07767f42",
+   "season": 2018,
+   "distance": 2.125,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Francesco Magnanelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "5528407e",
+   "season": 2019,
+   "distance": 2.17,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pirmin Schwegler",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "f503ea63",
+   "season": 2020,
+   "distance": 2.221,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Albin Ekdal",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "184e4970",
+   "season": 2018,
+   "distance": 2.245,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Darren Fletcher",
+   "squad": "Stoke City"
+  }
+ ],
  "low_confidence": false
 }

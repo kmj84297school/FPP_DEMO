@@ -26,10 +26,115 @@
   "confidence": 0.83
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.5376,
+  "mu": 66.9,
+  "ci80": {
+   "lo": 58.1,
+   "hi": 75.6
+  },
+  "ci50": {
+   "lo": 62.3,
+   "hi": 71.5
+  },
+  "sigma_model": 1.879,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "dd0daf32",
+   "season": 2020,
+   "distance": 2.632,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Henrikh Mkhitaryan",
+   "squad": "Roma / Arsenal"
+  },
+  {
+   "fbref_id": "d995ed27",
+   "season": 2020,
+   "distance": 2.767,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Giacomo Bonaventura",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "0ab1f153",
+   "season": 2018,
+   "distance": 3.407,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Juan Cuadrado",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2019,
+   "distance": 3.599,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Radja Nainggolan",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "6025fab1",
+   "season": 2020,
+   "distance": 3.687,
+   "survived": 1,
+   "fut_ability_v2": 65.9,
+   "player_name": "Luka Modrić",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "29733c72",
+   "season": 2019,
+   "distance": 3.783,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Mata",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "16380240",
+   "season": 2020,
+   "distance": 3.81,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mesut Özil",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "36a3ff67",
+   "season": 2020,
+   "distance": 3.845,
+   "survived": 1,
+   "fut_ability_v2": 69.2,
+   "player_name": "Marco Reus",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "db750822",
+   "season": 2020,
+   "distance": 3.898,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vitolo",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "b2d0ec1b",
+   "season": 2018,
+   "distance": 3.918,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Nolito",
+   "squad": "Sevilla"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 0.51
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2796,
+  "mu": 47.3,
+  "ci80": {
+   "lo": 38.5,
+   "hi": 56.1
+  },
+  "ci50": {
+   "lo": 42.7,
+   "hi": 51.9
+  },
+  "sigma_model": 2.034,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c53083ad",
+   "season": 2018,
+   "distance": 2.374,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Bryan Dabo",
+   "squad": "Saint-Étienne / Fiorentina"
+  },
+  {
+   "fbref_id": "98e958af",
+   "season": 2019,
+   "distance": 2.551,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Hiljemark",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2018,
+   "distance": 2.614,
+   "survived": 1,
+   "fut_ability_v2": 36.2,
+   "player_name": "Darko Brašanac",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "cbec1196",
+   "season": 2020,
+   "distance": 2.886,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaromír Zmrhal",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "b93b7882",
+   "season": 2018,
+   "distance": 2.988,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2020,
+   "distance": 2.998,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "b86fe156",
+   "season": 2018,
+   "distance": 3.099,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giannelli Imbula",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2018,
+   "distance": 3.13,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Roberto Soriano",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "b5dd3469",
+   "season": 2018,
+   "distance": 3.141,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Nemanja Radoja",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "02c15616",
+   "season": 2020,
+   "distance": 3.276,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Marcos Llorente",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

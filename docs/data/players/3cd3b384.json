@@ -26,10 +26,115 @@
   "confidence": 0.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1845,
+  "mu": 42.8,
+  "ci80": {
+   "lo": 34.0,
+   "hi": 51.6
+  },
+  "ci50": {
+   "lo": 38.2,
+   "hi": 47.5
+  },
+  "sigma_model": 2.122,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e3e05edf",
+   "season": 2020,
+   "distance": 1.431,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ambroise Oyongo",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2019,
+   "distance": 1.974,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2018,
+   "distance": 1.977,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "00a6485f",
+   "season": 2018,
+   "distance": 1.999,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Beck",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "4f974391",
+   "season": 2020,
+   "distance": 2.116,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2020,
+   "distance": 2.16,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "1cd87320",
+   "season": 2018,
+   "distance": 2.162,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Ostrzolek",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "7fecbcdb",
+   "season": 2019,
+   "distance": 2.192,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Abdoulaye Bamba",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "2f72f79e",
+   "season": 2018,
+   "distance": 2.21,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Olsson",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2020,
+   "distance": 2.214,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  }
+ ],
  "low_confidence": false
 }

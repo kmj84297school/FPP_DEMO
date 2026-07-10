@@ -26,10 +26,115 @@
   "confidence": 2.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3489,
+  "mu": 45.8,
+  "ci80": {
+   "lo": 37.0,
+   "hi": 54.7
+  },
+  "ci50": {
+   "lo": 41.2,
+   "hi": 50.5
+  },
+  "sigma_model": 2.183,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ed239245",
+   "season": 2019,
+   "distance": 2.039,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "9050ddc4",
+   "season": 2020,
+   "distance": 2.051,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Jetro Willems",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2019,
+   "distance": 2.208,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Inter"
+  },
+  {
+   "fbref_id": "45e17712",
+   "season": 2018,
+   "distance": 2.253,
+   "survived": 1,
+   "fut_ability_v2": 37.4,
+   "player_name": "Dimitri Foulquier",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2020,
+   "distance": 2.365,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "2ef637bd",
+   "season": 2019,
+   "distance": 2.373,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre-Yves Polomat",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "1e12c53b",
+   "season": 2020,
+   "distance": 2.411,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Martella",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "861e0116",
+   "season": 2019,
+   "distance": 2.463,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Kostas Stafylidis",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "9fec8860",
+   "season": 2020,
+   "distance": 2.512,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ludwig Augustinsson",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "33a61a52",
+   "season": 2020,
+   "distance": 2.524,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Carlos Clerc",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

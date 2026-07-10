@@ -26,10 +26,115 @@
   "confidence": 1.23
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2915,
+  "mu": 57.8,
+  "ci80": {
+   "lo": 48.9,
+   "hi": 66.6
+  },
+  "ci50": {
+   "lo": 53.1,
+   "hi": 62.4
+  },
+  "sigma_model": 2.122,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c76b7567",
+   "season": 2020,
+   "distance": 1.965,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Adrien Thomasson",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "440c84ed",
+   "season": 2018,
+   "distance": 2.608,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iago Falque",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "9744ff80",
+   "season": 2018,
+   "distance": 2.688,
+   "survived": 1,
+   "fut_ability_v2": 70.3,
+   "player_name": "Pablo Sarabia",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "36a3ff67",
+   "season": 2019,
+   "distance": 2.791,
+   "survived": 1,
+   "fut_ability_v2": 68.9,
+   "player_name": "Marco Reus",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "2475dcc6",
+   "season": 2018,
+   "distance": 2.833,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dušan Tadić",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "2b9fdeea",
+   "season": 2019,
+   "distance": 2.93,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Florian Thauvin",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2018,
+   "distance": 2.968,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Portu",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "7eb97a8e",
+   "season": 2020,
+   "distance": 2.982,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicola Sansone",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2019,
+   "distance": 3.01,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Portu",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "f3722c97",
+   "season": 2018,
+   "distance": 3.012,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yunus Mallı",
+   "squad": "Wolfsburg"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0642,
+  "mu": 45.3,
+  "ci80": {
+   "lo": 36.6,
+   "hi": 54.0
+  },
+  "ci50": {
+   "lo": 40.7,
+   "hi": 49.9
+  },
+  "sigma_model": 1.762,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "12aa7661",
+   "season": 2020,
+   "distance": 2.345,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "00b0bb87",
+   "season": 2020,
+   "distance": 2.471,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabrizio Cacciatore",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "7391c2d9",
+   "season": 2020,
+   "distance": 2.531,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Markus Suttner",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2020,
+   "distance": 2.59,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Coke",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "93390969",
+   "season": 2019,
+   "distance": 2.728,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcello Gazzola",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2019,
+   "distance": 2.788,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2020,
+   "distance": 2.793,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "1c8c5aed",
+   "season": 2019,
+   "distance": 2.816,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Molinaro",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "5eb72339",
+   "season": 2019,
+   "distance": 2.821,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Padoin",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "7cefa219",
+   "season": 2019,
+   "distance": 2.962,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tito",
+   "squad": "Rayo Vallecano"
+  }
+ ],
  "low_confidence": false
 }

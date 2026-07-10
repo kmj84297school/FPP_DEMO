@@ -26,10 +26,115 @@
   "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4896,
+  "mu": 42.7,
+  "ci80": {
+   "lo": 33.4,
+   "hi": 52.0
+  },
+  "ci50": {
+   "lo": 37.8,
+   "hi": 47.6
+  },
+  "sigma_model": 3.158,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "106bca06",
+   "season": 2020,
+   "distance": 2.06,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Alessandro Schöpf",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "6dfd5af0",
+   "season": 2018,
+   "distance": 2.134,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nathan Dyer",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "75f2c59f",
+   "season": 2020,
+   "distance": 2.198,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Roberto Pereyra",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2018,
+   "distance": 2.425,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Roberto Soriano",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "b606638c",
+   "season": 2020,
+   "distance": 2.471,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Stiepermann",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "d7403bd5",
+   "season": 2019,
+   "distance": 2.57,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Afriyie Acquah",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "eb3dd471",
+   "season": 2020,
+   "distance": 2.645,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Luis Rioja",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "aa5a409a",
+   "season": 2019,
+   "distance": 2.715,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raman Chibsah",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "b59e02da",
+   "season": 2020,
+   "distance": 2.754,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Tabanelli",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2020,
+   "distance": 2.769,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Darko Brašanac",
+   "squad": "Osasuna"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.21
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2668,
+  "mu": 52.5,
+  "ci80": {
+   "lo": 43.8,
+   "hi": 61.1
+  },
+  "ci50": {
+   "lo": 47.9,
+   "hi": 57.0
+  },
+  "sigma_model": 1.46,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "08aa17d0",
+   "season": 2018,
+   "distance": 2.206,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Valencia",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2019,
+   "distance": 2.27,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "00844823",
+   "season": 2018,
+   "distance": 2.44,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Niklas Moisander",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2020,
+   "distance": 2.445,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "a7f00c8c",
+   "season": 2018,
+   "distance": 2.528,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luisinho",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "00844823",
+   "season": 2020,
+   "distance": 2.542,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niklas Moisander",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2020,
+   "distance": 2.551,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2018,
+   "distance": 2.655,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "8cea6319",
+   "season": 2018,
+   "distance": 2.678,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Felipe dal Belo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "9ab16552",
+   "season": 2019,
+   "distance": 2.714,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Makoto Hasebe",
+   "squad": "Eint Frankfurt"
+  }
+ ],
  "low_confidence": false
 }

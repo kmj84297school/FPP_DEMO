@@ -26,10 +26,115 @@
   "confidence": 0.84
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4764,
+  "mu": 47.4,
+  "ci80": {
+   "lo": 38.7,
+   "hi": 56.2
+  },
+  "ci50": {
+   "lo": 42.8,
+   "hi": 52.0
+  },
+  "sigma_model": 1.899,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "16b9d5cf",
+   "season": 2019,
+   "distance": 1.606,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Nikola Maksimović",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "bba30585",
+   "season": 2019,
+   "distance": 1.661,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Diego Llorente",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "79083382",
+   "season": 2018,
+   "distance": 1.693,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Jesus",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "8b28686a",
+   "season": 2019,
+   "distance": 1.851,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gen Shoji",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "34b306a1",
+   "season": 2019,
+   "distance": 1.86,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Hoffmann",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "8db394aa",
+   "season": 2018,
+   "distance": 1.866,
+   "survived": 1,
+   "fut_ability_v2": 40.0,
+   "player_name": "Ximo Navarro",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2020,
+   "distance": 1.868,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "6ec6fde0",
+   "season": 2020,
+   "distance": 1.887,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Kevin Akpoguma",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "7cab69b5",
+   "season": 2019,
+   "distance": 1.904,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jemerson",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "1d8e9add",
+   "season": 2020,
+   "distance": 1.912,
+   "survived": 1,
+   "fut_ability_v2": 46.9,
+   "player_name": "Kevin Vogt",
+   "squad": "Werder Bremen / Hoffenheim"
+  }
+ ],
  "low_confidence": false
 }

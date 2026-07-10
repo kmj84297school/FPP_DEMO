@@ -26,10 +26,115 @@
   "confidence": 0.92
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.5934,
+  "mu": 63.3,
+  "ci80": {
+   "lo": 54.1,
+   "hi": 72.5
+  },
+  "ci50": {
+   "lo": 58.5,
+   "hi": 68.1
+  },
+  "sigma_model": 2.87,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "dea698d9",
+   "season": 2018,
+   "distance": 2.549,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Cristiano Ronaldo",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2020,
+   "distance": 3.214,
+   "survived": 1,
+   "fut_ability_v2": 74.1,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "a6154613",
+   "season": 2020,
+   "distance": 3.655,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Luis Suárez",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "dea698d9",
+   "season": 2019,
+   "distance": 4.029,
+   "survived": 1,
+   "fut_ability_v2": 68.1,
+   "player_name": "Cristiano Ronaldo",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2019,
+   "distance": 4.057,
+   "survived": 1,
+   "fut_ability_v2": 70.0,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "dea698d9",
+   "season": 2020,
+   "distance": 4.133,
+   "survived": 1,
+   "fut_ability_v2": 64.6,
+   "player_name": "Cristiano Ronaldo",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "ee4f2f3b",
+   "season": 2018,
+   "distance": 5.055,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Fabio Quagliarella",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "ee4f2f3b",
+   "season": 2019,
+   "distance": 5.116,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Fabio Quagliarella",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2019,
+   "distance": 5.271,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "45963054",
+   "season": 2020,
+   "distance": 5.357,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Jamie Vardy",
+   "squad": "Leicester City"
+  }
+ ],
+ "low_confidence": true
 }

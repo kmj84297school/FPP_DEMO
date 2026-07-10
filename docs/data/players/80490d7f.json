@@ -26,10 +26,115 @@
   "confidence": 1.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5241,
+  "mu": 51.6,
+  "ci80": {
+   "lo": 42.8,
+   "hi": 60.4
+  },
+  "ci50": {
+   "lo": 47.0,
+   "hi": 56.2
+  },
+  "sigma_model": 1.94,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "616aea37",
+   "season": 2019,
+   "distance": 1.17,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "bba30585",
+   "season": 2019,
+   "distance": 1.468,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Diego Llorente",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2019,
+   "distance": 1.495,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "5832ebfe",
+   "season": 2020,
+   "distance": 1.575,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Denswil",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "faf55ce4",
+   "season": 2019,
+   "distance": 1.663,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Wimmer",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "f35430a4",
+   "season": 2018,
+   "distance": 1.7,
+   "survived": 1,
+   "fut_ability_v2": 55.1,
+   "player_name": "Matija Nastasić",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2018,
+   "distance": 1.716,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "7cab69b5",
+   "season": 2019,
+   "distance": 1.759,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jemerson",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2019,
+   "distance": 1.776,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Sergi Gómez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "9b30df1e",
+   "season": 2018,
+   "distance": 1.786,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bartosz Salamon",
+   "squad": "SPAL"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.53
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.34,
+  "mu": 50.2,
+  "ci80": {
+   "lo": 40.3,
+   "hi": 60.0
+  },
+  "ci50": {
+   "lo": 45.0,
+   "hi": 55.3
+  },
+  "sigma_model": 3.973,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "01eb744d",
+   "season": 2020,
+   "distance": 2.48,
+   "survived": 1,
+   "fut_ability_v2": 65.7,
+   "player_name": "Ángel Correa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "536cebe5",
+   "season": 2020,
+   "distance": 2.627,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ante Rebić",
+   "squad": "Milan / Eint Frankfurt"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2020,
+   "distance": 2.652,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Wahbi Khazri",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "5f3eaaf5",
+   "season": 2020,
+   "distance": 3.114,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Moses Simon",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "2b9fdeea",
+   "season": 2019,
+   "distance": 3.187,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Florian Thauvin",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2018,
+   "distance": 3.203,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Portu",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "ecbb3fdf",
+   "season": 2018,
+   "distance": 3.303,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Schürrle",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "ed6ea4d9",
+   "season": 2020,
+   "distance": 3.317,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Darwin Machís",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2019,
+   "distance": 3.34,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Portu",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "92e7e919",
+   "season": 2020,
+   "distance": 3.534,
+   "survived": 1,
+   "fut_ability_v2": 58.1,
+   "player_name": "Son Heung-min",
+   "squad": "Tottenham"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3352,
+  "mu": 46.3,
+  "ci80": {
+   "lo": 36.9,
+   "hi": 55.8
+  },
+  "ci50": {
+   "lo": 41.3,
+   "hi": 51.3
+  },
+  "sigma_model": 3.429,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "eaf71a5e",
+   "season": 2018,
+   "distance": 2.49,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Azamoum",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2018,
+   "distance": 2.497,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "45e17712",
+   "season": 2019,
+   "distance": 2.837,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Dimitri Foulquier",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "cd82452e",
+   "season": 2019,
+   "distance": 2.844,
+   "survived": 1,
+   "fut_ability_v2": 37.6,
+   "player_name": "André Hahn",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "16569fef",
+   "season": 2020,
+   "distance": 2.87,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitri Bisoli",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "1512328c",
+   "season": 2018,
+   "distance": 2.948,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keko",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "e2533c20",
+   "season": 2019,
+   "distance": 3.039,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aron Gunnarsson",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2018,
+   "distance": 3.066,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "9085dd7c",
+   "season": 2019,
+   "distance": 3.102,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Faragò",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2019,
+   "distance": 3.154,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Lucas Deaux",
+   "squad": "Guingamp"
+  }
+ ],
  "low_confidence": false
 }

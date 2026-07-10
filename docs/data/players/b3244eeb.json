@@ -26,10 +26,115 @@
   "confidence": 0.19
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4326,
+  "mu": 46.1,
+  "ci80": {
+   "lo": 37.3,
+   "hi": 54.9
+  },
+  "ci50": {
+   "lo": 41.5,
+   "hi": 50.7
+  },
+  "sigma_model": 1.972,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cc2d7ad5",
+   "season": 2020,
+   "distance": 1.348,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Charlie Taylor",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "6ca88b2a",
+   "season": 2018,
+   "distance": 1.588,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Moubandje",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2020,
+   "distance": 1.678,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "ab096c6f",
+   "season": 2020,
+   "distance": 1.782,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Timothée Kolodziejczak",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "0fbb73c2",
+   "season": 2020,
+   "distance": 1.849,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Jans",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "32c0491f",
+   "season": 2019,
+   "distance": 1.864,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristiano Piccini",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "64cd167d",
+   "season": 2020,
+   "distance": 1.87,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Davide Biraschi",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "b2d31e83",
+   "season": 2020,
+   "distance": 1.873,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Dan Burn",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "c3e4ecbb",
+   "season": 2019,
+   "distance": 1.875,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Lefort",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "6b994195",
+   "season": 2018,
+   "distance": 1.905,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Théophile-Catherine",
+   "squad": "Saint-Étienne"
+  }
+ ],
  "low_confidence": false
 }

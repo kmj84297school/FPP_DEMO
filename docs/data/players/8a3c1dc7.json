@@ -26,10 +26,115 @@
   "confidence": 1.52
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4607,
+  "mu": 43.0,
+  "ci80": {
+   "lo": 34.3,
+   "hi": 51.8
+  },
+  "ci50": {
+   "lo": 38.4,
+   "hi": 47.6
+  },
+  "sigma_model": 1.838,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "394854c4",
+   "season": 2020,
+   "distance": 1.676,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "George Baldock",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "4e0afc5d",
+   "season": 2020,
+   "distance": 1.842,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Arnaud Souquet",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2020,
+   "distance": 1.844,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "4cee5954",
+   "season": 2020,
+   "distance": 1.993,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Olaza",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "46ee5234",
+   "season": 2018,
+   "distance": 2.046,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kieran Gibbs",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "de488e56",
+   "season": 2018,
+   "distance": 2.077,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Charles Traore",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2018,
+   "distance": 2.098,
+   "survived": 1,
+   "fut_ability_v2": 42.7,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "4f974391",
+   "season": 2018,
+   "distance": 2.098,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "247accfd",
+   "season": 2018,
+   "distance": 2.1,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Bakaye Dibassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 2.16,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  }
+ ],
  "low_confidence": false
 }

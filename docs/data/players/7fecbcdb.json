@@ -26,10 +26,115 @@
   "confidence": 0.46
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.268,
+  "mu": 46.5,
+  "ci80": {
+   "lo": 37.7,
+   "hi": 55.2
+  },
+  "ci50": {
+   "lo": 41.8,
+   "hi": 51.1
+  },
+  "sigma_model": 1.91,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ffad706e",
+   "season": 2020,
+   "distance": 2.015,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "dbe519cf",
+   "season": 2020,
+   "distance": 2.084,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antoñito",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "ffad706e",
+   "season": 2018,
+   "distance": 2.113,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Javi López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "1a160ea3",
+   "season": 2018,
+   "distance": 2.121,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Geoff Cameron",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "1ae30132",
+   "season": 2019,
+   "distance": 2.246,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Phil Bardsley",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2018,
+   "distance": 2.31,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "51e3954c",
+   "season": 2020,
+   "distance": 2.372,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Facundo Roncaglia",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2020,
+   "distance": 2.427,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "f5e9a8bd",
+   "season": 2018,
+   "distance": 2.488,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Costa",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "1ef37668",
+   "season": 2020,
+   "distance": 2.494,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Erik Pieters",
+   "squad": "Burnley"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2224,
+  "mu": 47.6,
+  "ci80": {
+   "lo": 38.0,
+   "hi": 57.2
+  },
+  "ci50": {
+   "lo": 42.5,
+   "hi": 52.7
+  },
+  "sigma_model": 3.661,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1bda5842",
+   "season": 2020,
+   "distance": 2.244,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Portu",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "b500b384",
+   "season": 2020,
+   "distance": 2.319,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Admir Mehmedi",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "4a57580c",
+   "season": 2018,
+   "distance": 2.373,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2018,
+   "distance": 2.385,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "5c96b017",
+   "season": 2020,
+   "distance": 2.449,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Rubén García",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "9d2a3d5f",
+   "season": 2019,
+   "distance": 2.486,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibai Gómez",
+   "squad": "Alavés / Athletic Club"
+  },
+  {
+   "fbref_id": "04965583",
+   "season": 2020,
+   "distance": 2.507,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Aleix Vidal",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "aec0fb6f",
+   "season": 2018,
+   "distance": 2.514,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javier Eraso",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "b48215cd",
+   "season": 2019,
+   "distance": 2.596,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexander Esswein",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "d733aa38",
+   "season": 2020,
+   "distance": 2.652,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Torres",
+   "squad": "Osasuna"
+  }
+ ],
  "low_confidence": false
 }

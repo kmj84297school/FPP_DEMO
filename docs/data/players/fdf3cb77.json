@@ -26,10 +26,115 @@
   "confidence": 0.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2444,
+  "mu": 47.4,
+  "ci80": {
+   "lo": 38.7,
+   "hi": 56.1
+  },
+  "ci50": {
+   "lo": 42.8,
+   "hi": 52.0
+  },
+  "sigma_model": 1.703,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "eacb45fd",
+   "season": 2018,
+   "distance": 1.543,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Avelar",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2019,
+   "distance": 1.78,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "3024e383",
+   "season": 2020,
+   "distance": 1.804,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "José Ángel",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "45da6694",
+   "season": 2019,
+   "distance": 1.928,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daryl Janmaat",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2020,
+   "distance": 2.012,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "3e4f735d",
+   "season": 2018,
+   "distance": 2.05,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vitorino Antunes",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "5c4d9be7",
+   "season": 2019,
+   "distance": 2.105,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enrico Valentini",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2018,
+   "distance": 2.132,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "3624ce4c",
+   "season": 2020,
+   "distance": 2.163,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Víctor Díaz",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "3831b9fe",
+   "season": 2018,
+   "distance": 2.195,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stephen Ward",
+   "squad": "Burnley"
+  }
+ ],
  "low_confidence": false
 }

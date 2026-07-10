@@ -26,10 +26,115 @@
   "confidence": 0.54
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2709,
+  "mu": 48.8,
+  "ci80": {
+   "lo": 39.5,
+   "hi": 58.0
+  },
+  "ci50": {
+   "lo": 43.9,
+   "hi": 53.7
+  },
+  "sigma_model": 3.002,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2019,
+   "distance": 1.981,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2020,
+   "distance": 2.061,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2018,
+   "distance": 2.083,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "e5f63987",
+   "season": 2019,
+   "distance": 2.143,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ginczek",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2019,
+   "distance": 2.19,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "4c7940d6",
+   "season": 2018,
+   "distance": 2.204,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Coda",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2018,
+   "distance": 2.208,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Wahbi Khazri",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "07802f7f",
+   "season": 2019,
+   "distance": 2.266,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Danny Ings",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2019,
+   "distance": 2.269,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2020,
+   "distance": 2.32,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

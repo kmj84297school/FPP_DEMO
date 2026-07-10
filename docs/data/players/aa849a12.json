@@ -26,10 +26,115 @@
   "confidence": 1.21
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5282,
+  "mu": 50.5,
+  "ci80": {
+   "lo": 41.5,
+   "hi": 59.4
+  },
+  "ci50": {
+   "lo": 45.8,
+   "hi": 55.2
+  },
+  "sigma_model": 2.414,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2c851997",
+   "season": 2018,
+   "distance": 2.012,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "0375723e",
+   "season": 2020,
+   "distance": 2.275,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Verdi",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "df8e7b62",
+   "season": 2020,
+   "distance": 2.276,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Erik Thommy",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "5b1bf5e3",
+   "season": 2018,
+   "distance": 2.29,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Gaël Kakuta",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "2e0367a6",
+   "season": 2018,
+   "distance": 2.339,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Naïm Sliti",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "ab651565",
+   "season": 2019,
+   "distance": 2.36,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Nathan Redmond",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "8a080a61",
+   "season": 2020,
+   "distance": 2.384,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kai Pröger",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "30395d3b",
+   "season": 2019,
+   "distance": 2.464,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolas Benezet",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "7eb97a8e",
+   "season": 2020,
+   "distance": 2.538,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicola Sansone",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "9d2a3d5f",
+   "season": 2018,
+   "distance": 2.552,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibai Gómez",
+   "squad": "Alavés"
+  }
+ ],
  "low_confidence": false
 }

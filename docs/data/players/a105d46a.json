@@ -26,10 +26,115 @@
   "confidence": 0.77
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2481,
+  "mu": 44.1,
+  "ci80": {
+   "lo": 35.4,
+   "hi": 52.8
+  },
+  "ci50": {
+   "lo": 39.5,
+   "hi": 48.7
+  },
+  "sigma_model": 1.795,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5efc5389",
+   "season": 2020,
+   "distance": 1.602,
+   "survived": 1,
+   "fut_ability_v2": 39.1,
+   "player_name": "Charalambos Lykogiannis",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2019,
+   "distance": 1.607,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Inter"
+  },
+  {
+   "fbref_id": "e9208654",
+   "season": 2018,
+   "distance": 1.679,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tommy Smith",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "33a61a52",
+   "season": 2020,
+   "distance": 1.71,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Carlos Clerc",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "46a8347f",
+   "season": 2018,
+   "distance": 1.882,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Šime Vrsaljko",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2019,
+   "distance": 1.884,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2019,
+   "distance": 1.93,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2019,
+   "distance": 1.939,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "6ca88b2a",
+   "season": 2019,
+   "distance": 1.947,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Moubandje",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "cc2d7ad5",
+   "season": 2020,
+   "distance": 1.953,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Charlie Taylor",
+   "squad": "Burnley"
+  }
+ ],
  "low_confidence": false
 }

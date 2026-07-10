@@ -26,10 +26,115 @@
   "confidence": 0.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4499,
+  "mu": 53.2,
+  "ci80": {
+   "lo": 44.4,
+   "hi": 62.0
+  },
+  "ci50": {
+   "lo": 48.6,
+   "hi": 57.8
+  },
+  "sigma_model": 1.925,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "55126f3b",
+   "season": 2019,
+   "distance": 2.102,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2019,
+   "distance": 2.163,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Joan Jordán",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2020,
+   "distance": 2.491,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "c6e5d20f",
+   "season": 2019,
+   "distance": 2.501,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Thiago Mendes",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2018,
+   "distance": 2.708,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "b853e0ad",
+   "season": 2020,
+   "distance": 2.754,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Fred",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "4611e028",
+   "season": 2019,
+   "distance": 2.957,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Erick Pulgar",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "4a56052c",
+   "season": 2019,
+   "distance": 3.002,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Jordan Veretout",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "ed45c4a5",
+   "season": 2020,
+   "distance": 3.041,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Valentin Rongier",
+   "squad": "Marseille / Nantes"
+  },
+  {
+   "fbref_id": "70dcf94d",
+   "season": 2019,
+   "distance": 3.049,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  }
+ ],
  "low_confidence": false
 }

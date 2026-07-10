@@ -26,10 +26,115 @@
   "confidence": 1.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2526,
+  "mu": 51.1,
+  "ci80": {
+   "lo": 42.3,
+   "hi": 59.9
+  },
+  "ci50": {
+   "lo": 46.5,
+   "hi": 55.7
+  },
+  "sigma_model": 2.057,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "615ef733",
+   "season": 2020,
+   "distance": 2.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ahmed Elmohamady",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "e29d1111",
+   "season": 2020,
+   "distance": 2.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "cfd8d664",
+   "season": 2019,
+   "distance": 2.277,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2020,
+   "distance": 2.686,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2020,
+   "distance": 2.713,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Ashley Young",
+   "squad": "Inter / Manchester Utd"
+  },
+  {
+   "fbref_id": "b18095b6",
+   "season": 2018,
+   "distance": 2.813,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leighton Baines",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2018,
+   "distance": 2.963,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2019,
+   "distance": 2.974,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "00b0bb87",
+   "season": 2019,
+   "distance": 3.186,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabrizio Cacciatore",
+   "squad": "Cagliari / Chievo"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2018,
+   "distance": 3.199,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  }
+ ],
  "low_confidence": false
 }

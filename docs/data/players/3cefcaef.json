@@ -26,10 +26,115 @@
   "confidence": 0.75
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3582,
+  "mu": 52.1,
+  "ci80": {
+   "lo": 43.5,
+   "hi": 60.8
+  },
+  "ci50": {
+   "lo": 47.6,
+   "hi": 56.7
+  },
+  "sigma_model": 1.592,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "433dc9a2",
+   "season": 2019,
+   "distance": 2.495,
+   "survived": 1,
+   "fut_ability_v2": 45.1,
+   "player_name": "Juan Bernat",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "22051fbe",
+   "season": 2020,
+   "distance": 2.606,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giulio Donati",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "335fa267",
+   "season": 2019,
+   "distance": 2.795,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Sergi Roberto",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "089550f5",
+   "season": 2018,
+   "distance": 2.8,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kwadwo Asamoah",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "b6e50615",
+   "season": 2018,
+   "distance": 2.938,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Yuri Berchiche",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2020,
+   "distance": 2.946,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Alberto Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d4535821",
+   "season": 2019,
+   "distance": 2.963,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Adam Marušić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "4958bfb2",
+   "season": 2019,
+   "distance": 3.005,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Dani Carvajal",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "94b2001f",
+   "season": 2020,
+   "distance": 3.098,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Danilo",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2020,
+   "distance": 3.147,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  }
+ ],
  "low_confidence": false
 }

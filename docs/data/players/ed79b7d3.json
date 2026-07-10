@@ -26,10 +26,115 @@
   "confidence": 1.12
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5276,
+  "mu": 46.4,
+  "ci80": {
+   "lo": 36.9,
+   "hi": 55.9
+  },
+  "ci50": {
+   "lo": 41.4,
+   "hi": 51.4
+  },
+  "sigma_model": 3.461,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b1cd37e6",
+   "season": 2018,
+   "distance": 1.882,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Filip Kostić",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "05816e19",
+   "season": 2020,
+   "distance": 3.126,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Ferney Otero",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "ab5b7dc1",
+   "season": 2020,
+   "distance": 3.128,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Marius Bülter",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "7bb5f40e",
+   "season": 2018,
+   "distance": 3.306,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Matt Phillips",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "819aa8e7",
+   "season": 2018,
+   "distance": 3.361,
+   "survived": 1,
+   "fut_ability_v2": 58.1,
+   "player_name": "Ayoze Pérez",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "45e17712",
+   "season": 2019,
+   "distance": 3.408,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Dimitri Foulquier",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "8e235926",
+   "season": 2019,
+   "distance": 3.414,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Michael Gregoritsch",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "90bbd822",
+   "season": 2019,
+   "distance": 3.432,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Álvaro García",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "8816329f",
+   "season": 2018,
+   "distance": 3.534,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Atsu",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "1512328c",
+   "season": 2019,
+   "distance": 3.555,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keko",
+   "squad": "Valladolid"
+  }
+ ],
  "low_confidence": false
 }

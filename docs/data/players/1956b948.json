@@ -26,10 +26,115 @@
   "confidence": 0.89
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.343,
+  "mu": 45.8,
+  "ci80": {
+   "lo": 36.9,
+   "hi": 54.6
+  },
+  "ci50": {
+   "lo": 41.1,
+   "hi": 50.4
+  },
+  "sigma_model": 2.126,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5dbefa9d",
+   "season": 2018,
+   "distance": 2.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Ayew",
+   "squad": "Swansea City / West Ham"
+  },
+  {
+   "fbref_id": "67d23ab0",
+   "season": 2018,
+   "distance": 2.606,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Ince",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "b59e02da",
+   "season": 2020,
+   "distance": 2.825,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Tabanelli",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "91f2da4c",
+   "season": 2019,
+   "distance": 2.849,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Casimir Ninga",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "ca2bc3df",
+   "season": 2018,
+   "distance": 2.864,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Izquierdo",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "360d70f8",
+   "season": 2020,
+   "distance": 2.88,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lago Junior",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2018,
+   "distance": 2.885,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Roberto Soriano",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2019,
+   "distance": 2.945,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "75f2c59f",
+   "season": 2020,
+   "distance": 2.978,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Roberto Pereyra",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "a2d873dd",
+   "season": 2020,
+   "distance": 3.021,
+   "survived": 1,
+   "fut_ability_v2": 29.8,
+   "player_name": "Hwang Ui-jo",
+   "squad": "Bordeaux"
+  }
+ ],
  "low_confidence": false
 }

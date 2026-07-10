@@ -26,10 +26,115 @@
   "confidence": 0.39
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0654,
+  "mu": 60.4,
+  "ci80": {
+   "lo": 51.5,
+   "hi": 69.3
+  },
+  "ci50": {
+   "lo": 55.7,
+   "hi": 65.1
+  },
+  "sigma_model": 2.344,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8cea6319",
+   "season": 2018,
+   "distance": 1.86,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Felipe dal Belo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2020,
+   "distance": 2.118,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2019,
+   "distance": 2.121,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2020,
+   "distance": 2.234,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2020,
+   "distance": 2.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho Monreal",
+   "squad": "Real Sociedad / Arsenal"
+  },
+  {
+   "fbref_id": "fc4f85b1",
+   "season": 2020,
+   "distance": 2.414,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Godín",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2020,
+   "distance": 2.457,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2020,
+   "distance": 2.46,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "80e4c841",
+   "season": 2020,
+   "distance": 2.659,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aurélien Chedjou",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2019,
+   "distance": 2.68,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.03
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1277,
+  "mu": 51.3,
+  "ci80": {
+   "lo": 42.5,
+   "hi": 60.1
+  },
+  "ci50": {
+   "lo": 46.7,
+   "hi": 55.9
+  },
+  "sigma_model": 1.923,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d054d8b0",
+   "season": 2018,
+   "distance": 2.53,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xabi Prieto",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "35c5f9b1",
+   "season": 2018,
+   "distance": 2.756,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stéphane Sessègnon",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "ef322658",
+   "season": 2020,
+   "distance": 3.019,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "0e21fc3c",
+   "season": 2020,
+   "distance": 3.038,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Valero",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2019,
+   "distance": 3.24,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "07abb358",
+   "season": 2020,
+   "distance": 3.278,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rômulo",
+   "squad": "Brescia / Genoa"
+  },
+  {
+   "fbref_id": "f3642ba8",
+   "season": 2019,
+   "distance": 3.289,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Bodmer",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "c3a8bcd8",
+   "season": 2020,
+   "distance": 3.342,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lasse Schöne",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "75bd85ea",
+   "season": 2020,
+   "distance": 3.433,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Salva Sevilla",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "1c50f354",
+   "season": 2018,
+   "distance": 3.446,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emanuele Giaccherini",
+   "squad": "Chievo / Napoli"
+  }
+ ],
  "low_confidence": false
 }

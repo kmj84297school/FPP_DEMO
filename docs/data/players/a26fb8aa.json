@@ -26,10 +26,115 @@
   "confidence": 0.67
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4153,
+  "mu": 54.3,
+  "ci80": {
+   "lo": 45.2,
+   "hi": 63.4
+  },
+  "ci50": {
+   "lo": 49.5,
+   "hi": 59.1
+  },
+  "sigma_model": 2.678,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "02b29014",
+   "season": 2020,
+   "distance": 1.738,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "20e73fac",
+   "season": 2020,
+   "distance": 1.922,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2018,
+   "distance": 2.069,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "15fd5593",
+   "season": 2019,
+   "distance": 2.114,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Klaassen",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2019,
+   "distance": 2.121,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2020,
+   "distance": 2.229,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "86e119e0",
+   "season": 2019,
+   "distance": 2.26,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Maximilian Arnold",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "3727dd3c",
+   "season": 2018,
+   "distance": 2.272,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Jonjo Shelvey",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "6f5ead86",
+   "season": 2020,
+   "distance": 2.34,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hernani",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "4e6dbac4",
+   "season": 2020,
+   "distance": 2.348,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Sergej Milinković-Savić",
+   "squad": "Lazio"
+  }
+ ],
  "low_confidence": false
 }

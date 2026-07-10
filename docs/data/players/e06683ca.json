@@ -26,10 +26,115 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4381,
+  "mu": 58.0,
+  "ci80": {
+   "lo": 49.3,
+   "hi": 66.7
+  },
+  "ci50": {
+   "lo": 53.4,
+   "hi": 62.5
+  },
+  "sigma_model": 1.728,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b96b595c",
+   "season": 2020,
+   "distance": 1.545,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Francesco Acerbi",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "adfc9123",
+   "season": 2020,
+   "distance": 1.69,
+   "survived": 1,
+   "fut_ability_v2": 65.3,
+   "player_name": "Gerard Piqué",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "4e358a2d",
+   "season": 2018,
+   "distance": 1.73,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Federico Fazio",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "e3d0b0c4",
+   "season": 2018,
+   "distance": 1.735,
+   "survived": 1,
+   "fut_ability_v2": 64.9,
+   "player_name": "Marcelo",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "f8fcd2a5",
+   "season": 2020,
+   "distance": 1.774,
+   "survived": 1,
+   "fut_ability_v2": 63.4,
+   "player_name": "Jonny Evans",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "adfc9123",
+   "season": 2018,
+   "distance": 1.785,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Gerard Piqué",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "adfc9123",
+   "season": 2019,
+   "distance": 1.84,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Gerard Piqué",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "e3d0b0c4",
+   "season": 2019,
+   "distance": 1.865,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Marcelo",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "08511d65",
+   "season": 2019,
+   "distance": 1.992,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "Sergio Ramos",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "4bd414c1",
+   "season": 2018,
+   "distance": 2.061,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Raúl Albiol",
+   "squad": "Napoli"
+  }
+ ],
  "low_confidence": false
 }

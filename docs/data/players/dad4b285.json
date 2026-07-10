@@ -26,10 +26,115 @@
   "confidence": 0.47
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2658,
+  "mu": 55.3,
+  "ci80": {
+   "lo": 46.6,
+   "hi": 64.0
+  },
+  "ci50": {
+   "lo": 50.7,
+   "hi": 59.9
+  },
+  "sigma_model": 1.808,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "96e0490d",
+   "season": 2020,
+   "distance": 1.473,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Matteo Darmian",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "083525e5",
+   "season": 2018,
+   "distance": 1.683,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Papy Djilobodji",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "1253a12e",
+   "season": 2018,
+   "distance": 1.971,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ervin Zukanović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2019,
+   "distance": 2.028,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "b5114f85",
+   "season": 2019,
+   "distance": 2.033,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Georg Margreitter",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2020,
+   "distance": 2.063,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2018,
+   "distance": 2.075,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2019,
+   "distance": 2.078,
+   "survived": 1,
+   "fut_ability_v2": 43.8,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2018,
+   "distance": 2.093,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2018,
+   "distance": 2.096,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  }
+ ],
  "low_confidence": false
 }

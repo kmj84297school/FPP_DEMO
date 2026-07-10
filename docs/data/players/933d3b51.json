@@ -26,10 +26,115 @@
   "confidence": 0.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2475,
+  "mu": 46.5,
+  "ci80": {
+   "lo": 37.9,
+   "hi": 55.2
+  },
+  "ci50": {
+   "lo": 42.0,
+   "hi": 51.1
+  },
+  "sigma_model": 1.585,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6690ef25",
+   "season": 2019,
+   "distance": 1.59,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "1ad8cb67",
+   "season": 2019,
+   "distance": 1.603,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Martinez",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "2946f9a1",
+   "season": 2018,
+   "distance": 1.724,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Nacho",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "779847d6",
+   "season": 2020,
+   "distance": 1.862,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Nicolas Pallois",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "f7d50789",
+   "season": 2019,
+   "distance": 1.862,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Toby Alderweireld",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2018,
+   "distance": 1.866,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2018,
+   "distance": 1.88,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Álvaro González",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "247accfd",
+   "season": 2020,
+   "distance": 1.921,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bakaye Dibassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2018,
+   "distance": 1.954,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "91899ca8",
+   "season": 2019,
+   "distance": 1.975,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateo Musacchio",
+   "squad": "Milan"
+  }
+ ],
  "low_confidence": false
 }

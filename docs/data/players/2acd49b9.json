@@ -26,10 +26,115 @@
   "confidence": 0.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1928,
+  "mu": 45.6,
+  "ci80": {
+   "lo": 36.7,
+   "hi": 54.6
+  },
+  "ci50": {
+   "lo": 40.9,
+   "hi": 50.3
+  },
+  "sigma_model": 2.32,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "756959aa",
+   "season": 2018,
+   "distance": 2.04,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "7106f0a0",
+   "season": 2019,
+   "distance": 2.046,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Suárez",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2019,
+   "distance": 2.142,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "5aaef9ef",
+   "season": 2019,
+   "distance": 2.567,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Juraj Kucka",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "a64cbd35",
+   "season": 2020,
+   "distance": 2.57,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonino Barillà",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "7329018e",
+   "season": 2019,
+   "distance": 2.604,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Papakouli Diop",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "a4f94a0d",
+   "season": 2019,
+   "distance": 2.65,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Christian Gentner",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 2.696,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "000b3da6",
+   "season": 2018,
+   "distance": 2.711,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Iturra",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "05a4465d",
+   "season": 2019,
+   "distance": 2.758,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Manu García",
+   "squad": "Alavés"
+  }
+ ],
  "low_confidence": false
 }

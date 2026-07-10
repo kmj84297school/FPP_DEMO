@@ -26,10 +26,115 @@
   "confidence": 0.52
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1765,
+  "mu": 47.8,
+  "ci80": {
+   "lo": 38.9,
+   "hi": 56.7
+  },
+  "ci50": {
+   "lo": 43.1,
+   "hi": 52.4
+  },
+  "sigma_model": 2.277,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ac3fb1be",
+   "season": 2019,
+   "distance": 1.56,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezequiel Garay",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "7aac47fe",
+   "season": 2020,
+   "distance": 1.702,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ermin Bičakčić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2020,
+   "distance": 1.759,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kostas Manolas",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2019,
+   "distance": 1.766,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2018,
+   "distance": 1.838,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "5d311e8d",
+   "season": 2019,
+   "distance": 1.883,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Héctor Moreno",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2020,
+   "distance": 1.919,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "b5114f85",
+   "season": 2019,
+   "distance": 1.921,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Georg Margreitter",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "ad178594",
+   "season": 2018,
+   "distance": 1.932,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl Navas",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "89151b16",
+   "season": 2020,
+   "distance": 1.941,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zouhair Feddal",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

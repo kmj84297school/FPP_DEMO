@@ -26,10 +26,115 @@
   "confidence": 2.81
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4017,
+  "mu": 44.7,
+  "ci80": {
+   "lo": 35.8,
+   "hi": 53.6
+  },
+  "ci50": {
+   "lo": 40.0,
+   "hi": 49.4
+  },
+  "sigma_model": 2.177,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e5b98a70",
+   "season": 2019,
+   "distance": 2.164,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Paganini",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "19a12bed",
+   "season": 2019,
+   "distance": 2.181,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Hassane Kamara",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "e4b72e34",
+   "season": 2020,
+   "distance": 2.686,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Miguel Trauco",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "f874dd44",
+   "season": 2020,
+   "distance": 2.723,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Héctor Bellerín",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "9050ddc4",
+   "season": 2020,
+   "distance": 2.77,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Jetro Willems",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "d4535821",
+   "season": 2019,
+   "distance": 2.939,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Adam Marušić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "b05e2dbd",
+   "season": 2020,
+   "distance": 3.004,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "José Luis Gayà",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "1f079188",
+   "season": 2018,
+   "distance": 3.062,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Rubén Peña",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "ef5b337e",
+   "season": 2018,
+   "distance": 3.063,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Borini",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "e726e11e",
+   "season": 2018,
+   "distance": 3.064,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Victor Moses",
+   "squad": "Chelsea"
+  }
+ ],
  "low_confidence": false
 }

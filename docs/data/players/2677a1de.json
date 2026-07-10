@@ -26,10 +26,115 @@
   "confidence": 0.76
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2006,
+  "mu": 43.8,
+  "ci80": {
+   "lo": 35.0,
+   "hi": 52.6
+  },
+  "ci50": {
+   "lo": 39.2,
+   "hi": 48.4
+  },
+  "sigma_model": 2.019,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "61bd33d0",
+   "season": 2019,
+   "distance": 2.133,
+   "survived": 1,
+   "fut_ability_v2": 33.8,
+   "player_name": "Takashi Inui",
+   "squad": "Alavés / Betis"
+  },
+  {
+   "fbref_id": "37f96552",
+   "season": 2018,
+   "distance": 2.221,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nabil El Zhar",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "61bd33d0",
+   "season": 2020,
+   "distance": 2.313,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Takashi Inui",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "2c3a6c21",
+   "season": 2020,
+   "distance": 2.355,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Mancosu",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "1ecb65be",
+   "season": 2019,
+   "distance": 2.361,
+   "survived": 1,
+   "fut_ability_v2": 35.9,
+   "player_name": "Theo Walcott",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "07abb358",
+   "season": 2020,
+   "distance": 2.367,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rômulo",
+   "squad": "Brescia / Genoa"
+  },
+  {
+   "fbref_id": "9aacb284",
+   "season": 2018,
+   "distance": 2.381,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Pugh",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "5e1df051",
+   "season": 2019,
+   "distance": 2.481,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolai Müller",
+   "squad": "Hannover 96 / Eint Frankfurt"
+  },
+  {
+   "fbref_id": "3c05e082",
+   "season": 2019,
+   "distance": 2.49,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koo Ja-cheol",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "2042d931",
+   "season": 2018,
+   "distance": 2.502,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomon Kalou",
+   "squad": "Hertha BSC"
+  }
+ ],
  "low_confidence": false
 }

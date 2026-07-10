@@ -26,10 +26,115 @@
   "confidence": 0.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2452,
+  "mu": 40.6,
+  "ci80": {
+   "lo": 31.8,
+   "hi": 49.3
+  },
+  "ci50": {
+   "lo": 36.0,
+   "hi": 45.2
+  },
+  "sigma_model": 1.885,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2018,
+   "distance": 1.693,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "e29d1111",
+   "season": 2019,
+   "distance": 1.88,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Nacho",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "1cd87320",
+   "season": 2018,
+   "distance": 2.006,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Ostrzolek",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "3e4f735d",
+   "season": 2018,
+   "distance": 2.061,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vitorino Antunes",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "71ef519e",
+   "season": 2019,
+   "distance": 2.107,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "81069528",
+   "season": 2018,
+   "distance": 2.124,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "Roberto Rosales",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "ba5004e1",
+   "season": 2018,
+   "distance": 2.144,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Damián Suárez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "cb574619",
+   "season": 2019,
+   "distance": 2.151,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "ba5004e1",
+   "season": 2019,
+   "distance": 2.202,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Damián Suárez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "4aea5077",
+   "season": 2020,
+   "distance": 2.289,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Stefan Lainer",
+   "squad": "M'Gladbach"
+  }
+ ],
  "low_confidence": false
 }

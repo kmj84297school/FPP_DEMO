@@ -26,10 +26,115 @@
   "confidence": 1.92
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3769,
+  "mu": 50.1,
+  "ci80": {
+   "lo": 41.2,
+   "hi": 59.0
+  },
+  "ci50": {
+   "lo": 45.4,
+   "hi": 54.8
+  },
+  "sigma_model": 2.241,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2019,
+   "distance": 1.394,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Álvaro González",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "f7d50789",
+   "season": 2020,
+   "distance": 1.415,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Toby Alderweireld",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2020,
+   "distance": 1.839,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2019,
+   "distance": 1.92,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2019,
+   "distance": 1.959,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "463503e2",
+   "season": 2019,
+   "distance": 1.978,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcin Kamiński",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2019,
+   "distance": 2.042,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "e3d0b0c4",
+   "season": 2018,
+   "distance": 2.047,
+   "survived": 1,
+   "fut_ability_v2": 64.9,
+   "player_name": "Marcelo",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "89cbc961",
+   "season": 2019,
+   "distance": 2.1,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramiro Funes Mori",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "1ad8cb67",
+   "season": 2019,
+   "distance": 2.108,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Martinez",
+   "squad": "Strasbourg"
+  }
+ ],
  "low_confidence": false
 }

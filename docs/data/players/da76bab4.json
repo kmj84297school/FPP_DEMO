@@ -26,10 +26,115 @@
   "confidence": 0.4
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2572,
+  "mu": 38.2,
+  "ci80": {
+   "lo": 29.3,
+   "hi": 47.1
+  },
+  "ci50": {
+   "lo": 33.5,
+   "hi": 42.9
+  },
+  "sigma_model": 2.301,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "09538fdb",
+   "season": 2019,
+   "distance": 2.356,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Kevin Lasagna",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "5046b7d4",
+   "season": 2019,
+   "distance": 2.393,
+   "survived": 1,
+   "fut_ability_v2": 38.1,
+   "player_name": "Stéphane Bahoken",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "6c1f7328",
+   "season": 2018,
+   "distance": 2.446,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Inglese",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "fcbcbd94",
+   "season": 2018,
+   "distance": 2.518,
+   "survived": 1,
+   "fut_ability_v2": 32.0,
+   "player_name": "Moussa Konaté",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "2054d037",
+   "season": 2020,
+   "distance": 2.548,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "M'Baye Niang",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "9853983f",
+   "season": 2018,
+   "distance": 2.653,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bobby Wood",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "6a99e0b1",
+   "season": 2020,
+   "distance": 2.674,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Iñaki Williams",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "0c3057a9",
+   "season": 2019,
+   "distance": 2.706,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mikael Ishak",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "fcbcbd94",
+   "season": 2019,
+   "distance": 2.732,
+   "survived": 1,
+   "fut_ability_v2": 32.0,
+   "player_name": "Moussa Konaté",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2020,
+   "distance": 2.778,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Borja Iglesias",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

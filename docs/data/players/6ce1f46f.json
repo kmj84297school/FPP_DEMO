@@ -26,10 +26,115 @@
   "confidence": 0.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.6077,
+  "mu": 58.7,
+  "ci80": {
+   "lo": 49.7,
+   "hi": 67.7
+  },
+  "ci50": {
+   "lo": 53.9,
+   "hi": 63.4
+  },
+  "sigma_model": 2.476,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "33508c78",
+   "season": 2020,
+   "distance": 2.879,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cesc Fàbregas",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "7460ca0d",
+   "season": 2020,
+   "distance": 3.071,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Daniel Parejo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "33508c78",
+   "season": 2019,
+   "distance": 3.234,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cesc Fàbregas",
+   "squad": "Monaco / Chelsea"
+  },
+  {
+   "fbref_id": "f5a00fa4",
+   "season": 2018,
+   "distance": 3.407,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "João Moutinho",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "fa937f7a",
+   "season": 2019,
+   "distance": 3.63,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Éver Banega",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "2f90f6b8",
+   "season": 2018,
+   "distance": 3.656,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "James Milner",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2020,
+   "distance": 3.67,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "bd84fc61",
+   "season": 2019,
+   "distance": 3.694,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Pasquale Schiattarella",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "532d2690",
+   "season": 2018,
+   "distance": 3.743,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele De Rossi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "6025fab1",
+   "season": 2018,
+   "distance": 3.747,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Luka Modrić",
+   "squad": "Real Madrid"
+  }
+ ],
+ "low_confidence": true
 }

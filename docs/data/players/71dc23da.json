@@ -26,10 +26,115 @@
   "confidence": 1.69
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2861,
+  "mu": 39.8,
+  "ci80": {
+   "lo": 30.8,
+   "hi": 48.8
+  },
+  "ci50": {
+   "lo": 35.1,
+   "hi": 44.5
+  },
+  "sigma_model": 2.45,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6435e737",
+   "season": 2018,
+   "distance": 2.663,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Konstantin Rausch",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "cfe6238d",
+   "season": 2018,
+   "distance": 2.932,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Moritz Bauer",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "6a189491",
+   "season": 2020,
+   "distance": 3.042,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Barreca",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "1e12c53b",
+   "season": 2020,
+   "distance": 3.098,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Martella",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "b3b7f5a6",
+   "season": 2018,
+   "distance": 3.109,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Timothy Chandler",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "6873f3bc",
+   "season": 2018,
+   "distance": 3.271,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dennis Diekmeier",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "912e63b5",
+   "season": 2019,
+   "distance": 3.273,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean Zimmer",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "9aa186b2",
+   "season": 2019,
+   "distance": 3.401,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Florent Hadergjonaj",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2018,
+   "distance": 3.421,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "5efc5389",
+   "season": 2020,
+   "distance": 3.464,
+   "survived": 1,
+   "fut_ability_v2": 39.1,
+   "player_name": "Charalambos Lykogiannis",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

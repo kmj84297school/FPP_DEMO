@@ -26,10 +26,115 @@
   "confidence": 0.12
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.156,
+  "mu": 63.4,
+  "ci80": {
+   "lo": 54.2,
+   "hi": 72.5
+  },
+  "ci50": {
+   "lo": 58.6,
+   "hi": 68.2
+  },
+  "sigma_model": 2.828,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2019,
+   "distance": 3.628,
+   "survived": 1,
+   "fut_ability_v2": 70.0,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ac05f970",
+   "season": 2020,
+   "distance": 3.895,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Michail Antonio",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2018,
+   "distance": 4.155,
+   "survived": 1,
+   "fut_ability_v2": 69.4,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "a58bb1e1",
+   "season": 2018,
+   "distance": 4.183,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Gareth Bale",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "a58bb1e1",
+   "season": 2019,
+   "distance": 4.288,
+   "survived": 1,
+   "fut_ability_v2": 71.5,
+   "player_name": "Gareth Bale",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2020,
+   "distance": 4.407,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "ffec9769",
+   "season": 2020,
+   "distance": 4.461,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Islam Slimani",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "93b891d1",
+   "season": 2019,
+   "distance": 4.495,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Felipe Caicedo",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2018,
+   "distance": 4.532,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "00459419",
+   "season": 2018,
+   "distance": 4.546,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Arnautović",
+   "squad": "West Ham"
+  }
+ ],
+ "low_confidence": true
 }

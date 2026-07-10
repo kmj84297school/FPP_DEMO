@@ -26,10 +26,115 @@
   "confidence": 0.37
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0697,
+  "mu": 48.5,
+  "ci80": {
+   "lo": 39.8,
+   "hi": 57.2
+  },
+  "ci50": {
+   "lo": 43.9,
+   "hi": 53.0
+  },
+  "sigma_model": 1.739,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "635b0bae",
+   "season": 2018,
+   "distance": 2.126,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Gobbi",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "5eb72339",
+   "season": 2019,
+   "distance": 2.136,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Padoin",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "1c8c5aed",
+   "season": 2019,
+   "distance": 2.15,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Molinaro",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2020,
+   "distance": 2.377,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Ashley Young",
+   "squad": "Inter / Manchester Utd"
+  },
+  {
+   "fbref_id": "635b0bae",
+   "season": 2019,
+   "distance": 2.524,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Gobbi",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "12aa7661",
+   "season": 2020,
+   "distance": 2.778,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "edd6c8e9",
+   "season": 2019,
+   "distance": 2.864,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Darijo Srna",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "548902cc",
+   "season": 2019,
+   "distance": 3.276,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Pasqual",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "6ef56efd",
+   "season": 2018,
+   "distance": 3.3,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bacary Sagna",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "78803d03",
+   "season": 2019,
+   "distance": 3.358,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno",
+   "squad": "Brighton"
+  }
+ ],
  "low_confidence": false
 }

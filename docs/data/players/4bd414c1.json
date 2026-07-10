@@ -26,10 +26,115 @@
   "confidence": 0.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3592,
+  "mu": 51.0,
+  "ci80": {
+   "lo": 42.1,
+   "hi": 59.9
+  },
+  "ci50": {
+   "lo": 46.3,
+   "hi": 55.7
+  },
+  "sigma_model": 2.294,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "55667895",
+   "season": 2019,
+   "distance": 1.917,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Moretti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "fed5f993",
+   "season": 2020,
+   "distance": 2.069,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Larangeira",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "9ab16552",
+   "season": 2020,
+   "distance": 2.371,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Makoto Hasebe",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "3d936ba9",
+   "season": 2019,
+   "distance": 2.41,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Domenico Maietta",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "585a73a8",
+   "season": 2020,
+   "distance": 2.508,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Alves",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "90f87966",
+   "season": 2020,
+   "distance": 2.613,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "José Fonte",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "7c0000fd",
+   "season": 2018,
+   "distance": 2.718,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Barzagli",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "55667895",
+   "season": 2018,
+   "distance": 2.753,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Moretti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "fd2bc67d",
+   "season": 2020,
+   "distance": 2.958,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Dante",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "e97150c0",
+   "season": 2020,
+   "distance": 2.969,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Morel",
+   "squad": "Rennes"
+  }
+ ],
  "low_confidence": false
 }

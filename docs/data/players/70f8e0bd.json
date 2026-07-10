@@ -26,10 +26,115 @@
   "confidence": 0.97
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1122,
+  "mu": 46.3,
+  "ci80": {
+   "lo": 37.6,
+   "hi": 55.1
+  },
+  "ci50": {
+   "lo": 41.7,
+   "hi": 50.9
+  },
+  "sigma_model": 1.942,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ef322658",
+   "season": 2020,
+   "distance": 2.435,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2020,
+   "distance": 2.765,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "75d97aa6",
+   "season": 2018,
+   "distance": 2.817,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stéphane Darbion",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "1c50f354",
+   "season": 2019,
+   "distance": 3.098,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emanuele Giaccherini",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "def69cd0",
+   "season": 2018,
+   "distance": 3.112,
+   "survived": 1,
+   "fut_ability_v2": 37.4,
+   "player_name": "Mikel Rico",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2020,
+   "distance": 3.186,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "c3a8bcd8",
+   "season": 2020,
+   "distance": 3.2,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lasse Schöne",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "ec7e6ad1",
+   "season": 2018,
+   "distance": 3.209,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Brunt",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "1c50f354",
+   "season": 2018,
+   "distance": 3.222,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emanuele Giaccherini",
+   "squad": "Chievo / Napoli"
+  },
+  {
+   "fbref_id": "ab1ca213",
+   "season": 2019,
+   "distance": 3.227,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Miguel Veloso",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

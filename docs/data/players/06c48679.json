@@ -26,10 +26,115 @@
   "confidence": 0.39
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3883,
+  "mu": 51.0,
+  "ci80": {
+   "lo": 42.3,
+   "hi": 59.7
+  },
+  "ci50": {
+   "lo": 46.4,
+   "hi": 55.6
+  },
+  "sigma_model": 1.836,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f7d50789",
+   "season": 2018,
+   "distance": 2.324,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Toby Alderweireld",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "d003e213",
+   "season": 2018,
+   "distance": 2.552,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafinha",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "111c3236",
+   "season": 2018,
+   "distance": 2.639,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Fabian Delph",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "94b2001f",
+   "season": 2020,
+   "distance": 2.643,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Danilo",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "74d70fb5",
+   "season": 2019,
+   "distance": 2.68,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Langkamp",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "808d48f3",
+   "season": 2019,
+   "distance": 2.78,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Jaume Costa",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "91899ca8",
+   "season": 2020,
+   "distance": 2.816,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateo Musacchio",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "008a6e6d",
+   "season": 2018,
+   "distance": 2.855,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Ragnar Klavan",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "6cafd68d",
+   "season": 2018,
+   "distance": 2.86,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Håvard Nordtveit",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "1c529186",
+   "season": 2019,
+   "distance": 2.867,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ignazio Abate",
+   "squad": "Milan"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4128,
+  "mu": 54.0,
+  "ci80": {
+   "lo": 45.1,
+   "hi": 62.9
+  },
+  "ci50": {
+   "lo": 49.3,
+   "hi": 58.7
+  },
+  "sigma_model": 2.247,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d711d04f",
+   "season": 2019,
+   "distance": 2.426,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "d711d04f",
+   "season": 2018,
+   "distance": 3.053,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "2bee98fd",
+   "season": 2018,
+   "distance": 3.066,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio García",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "d711d04f",
+   "season": 2020,
+   "distance": 3.27,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "4d3ab428",
+   "season": 2018,
+   "distance": 3.524,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cyril Théréau",
+   "squad": "Fiorentina / Udinese"
+  },
+  {
+   "fbref_id": "e8c9f4e9",
+   "season": 2020,
+   "distance": 3.718,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Billy Sharp",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "df301450",
+   "season": 2020,
+   "distance": 3.933,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Floccari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "8d8178ac",
+   "season": 2019,
+   "distance": 4.001,
+   "survived": 1,
+   "fut_ability_v2": 64.4,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "4c5b14d2",
+   "season": 2019,
+   "distance": 4.008,
+   "survived": 1,
+   "fut_ability_v2": 63.1,
+   "player_name": "Joaquín",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "8d8178ac",
+   "season": 2020,
+   "distance": 4.109,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 1.46
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.0775,
+  "mu": 50.9,
+  "ci80": {
+   "lo": 41.8,
+   "hi": 59.9
+  },
+  "ci50": {
+   "lo": 46.1,
+   "hi": 55.6
+  },
+  "sigma_model": 2.556,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2bee98fd",
+   "season": 2019,
+   "distance": 3.229,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio García",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "d711d04f",
+   "season": 2018,
+   "distance": 3.252,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "4d3ab428",
+   "season": 2018,
+   "distance": 3.475,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cyril Théréau",
+   "squad": "Fiorentina / Udinese"
+  },
+  {
+   "fbref_id": "43f71e77",
+   "season": 2020,
+   "distance": 3.476,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Jorge Molina",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "8d8178ac",
+   "season": 2018,
+   "distance": 3.521,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "d711d04f",
+   "season": 2019,
+   "distance": 3.542,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "43a2e16c",
+   "season": 2019,
+   "distance": 3.666,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirco Antenucci",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "8d8178ac",
+   "season": 2019,
+   "distance": 3.693,
+   "survived": 1,
+   "fut_ability_v2": 64.4,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "2bee98fd",
+   "season": 2018,
+   "distance": 3.698,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio García",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "d711d04f",
+   "season": 2020,
+   "distance": 3.782,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  }
+ ],
+ "low_confidence": true
 }

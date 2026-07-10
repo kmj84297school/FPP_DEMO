@@ -26,10 +26,115 @@
   "confidence": 0.71
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1142,
+  "mu": 45.4,
+  "ci80": {
+   "lo": 36.7,
+   "hi": 54.2
+  },
+  "ci50": {
+   "lo": 40.8,
+   "hi": 50.0
+  },
+  "sigma_model": 1.819,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "edd1466a",
+   "season": 2019,
+   "distance": 1.648,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2019,
+   "distance": 1.667,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "97572117",
+   "season": 2019,
+   "distance": 1.787,
+   "survived": 1,
+   "fut_ability_v2": 37.4,
+   "player_name": "Allan Nyom",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2019,
+   "distance": 1.846,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2020,
+   "distance": 1.968,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "00a6485f",
+   "season": 2019,
+   "distance": 1.973,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Beck",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "81069528",
+   "season": 2020,
+   "distance": 2.035,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Rosales",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "05384ea1",
+   "season": 2018,
+   "distance": 2.039,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michel",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "33a61a52",
+   "season": 2020,
+   "distance": 2.039,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Carlos Clerc",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2019,
+   "distance": 2.061,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  }
+ ],
  "low_confidence": false
 }

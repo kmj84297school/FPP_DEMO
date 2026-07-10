@@ -26,10 +26,115 @@
   "confidence": 0.66
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.1518,
+  "mu": 61.4,
+  "ci80": {
+   "lo": 52.4,
+   "hi": 70.4
+  },
+  "ci50": {
+   "lo": 56.7,
+   "hi": 66.1
+  },
+  "sigma_model": 2.435,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "be927d03",
+   "season": 2020,
+   "distance": 3.104,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Ashley Young",
+   "squad": "Inter / Manchester Utd"
+  },
+  {
+   "fbref_id": "c9e99e49",
+   "season": 2018,
+   "distance": 3.91,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dani Alves",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "edd6c8e9",
+   "season": 2019,
+   "distance": 4.391,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Darijo Srna",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "635b0bae",
+   "season": 2018,
+   "distance": 4.701,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Gobbi",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "12aa7661",
+   "season": 2020,
+   "distance": 4.938,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "548902cc",
+   "season": 2019,
+   "distance": 5.124,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Pasqual",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "1c8c5aed",
+   "season": 2019,
+   "distance": 5.251,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Molinaro",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2020,
+   "distance": 5.264,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "12aa7661",
+   "season": 2019,
+   "distance": 5.436,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "1c8c5aed",
+   "season": 2018,
+   "distance": 5.507,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Molinaro",
+   "squad": "Torino"
+  }
+ ],
+ "low_confidence": true
 }

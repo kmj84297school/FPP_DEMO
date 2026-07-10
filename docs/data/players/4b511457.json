@@ -26,10 +26,115 @@
   "confidence": 0.73
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5249,
+  "mu": 50.8,
+  "ci80": {
+   "lo": 42.1,
+   "hi": 59.5
+  },
+  "ci50": {
+   "lo": 46.2,
+   "hi": 55.4
+  },
+  "sigma_model": 1.689,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 0.995,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "c0cddebe",
+   "season": 2018,
+   "distance": 1.327,
+   "survived": 1,
+   "fut_ability_v2": 39.1,
+   "player_name": "Blaise Matuidi",
+   "squad": "Juventus / Paris S-G"
+  },
+  {
+   "fbref_id": "f503ea63",
+   "season": 2020,
+   "distance": 1.47,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Albin Ekdal",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "2acd49b9",
+   "season": 2020,
+   "distance": 1.544,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Moussa Sissoko",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "c0cddebe",
+   "season": 2019,
+   "distance": 1.622,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blaise Matuidi",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "e54bd0a2",
+   "season": 2019,
+   "distance": 1.642,
+   "survived": 1,
+   "fut_ability_v2": 42.6,
+   "player_name": "Tomás Pina Isla",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2018,
+   "distance": 1.649,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ad340e17",
+   "season": 2018,
+   "distance": 1.669,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Aquilani",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "69374ff5",
+   "season": 2018,
+   "distance": 1.676,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Julian Baumgartlinger",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "b3fd7075",
+   "season": 2020,
+   "distance": 1.706,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Poli",
+   "squad": "Bologna"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 2.89
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.431,
+  "mu": 52.6,
+  "ci80": {
+   "lo": 43.9,
+   "hi": 61.3
+  },
+  "ci50": {
+   "lo": 48.0,
+   "hi": 57.1
+  },
+  "sigma_model": 1.622,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4601e194",
+   "season": 2019,
+   "distance": 2.654,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2019,
+   "distance": 2.664,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "eda40760",
+   "season": 2020,
+   "distance": 2.851,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "356c9002",
+   "season": 2020,
+   "distance": 3.063,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Antonio Candreva",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "eda40760",
+   "season": 2019,
+   "distance": 3.122,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "4601e194",
+   "season": 2020,
+   "distance": 3.153,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 3.184,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "7fd58fe3",
+   "season": 2018,
+   "distance": 3.257,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Senad Lulić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "3f10bd22",
+   "season": 2019,
+   "distance": 3.629,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Jesús Navas",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2019,
+   "distance": 3.777,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

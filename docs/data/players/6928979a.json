@@ -26,10 +26,115 @@
   "confidence": 0.09
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6293,
+  "mu": 61.8,
+  "ci80": {
+   "lo": 53.1,
+   "hi": 70.5
+  },
+  "ci50": {
+   "lo": 57.2,
+   "hi": 66.4
+  },
+  "sigma_model": 1.786,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c6e5d20f",
+   "season": 2018,
+   "distance": 2.232,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Thiago Mendes",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "4e6dbac4",
+   "season": 2020,
+   "distance": 2.386,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Sergej Milinković-Savić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "e280527c",
+   "season": 2020,
+   "distance": 2.623,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "3e092724",
+   "season": 2020,
+   "distance": 2.868,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Wylan Cyprien",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2018,
+   "distance": 2.868,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2020,
+   "distance": 2.897,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "867239d3",
+   "season": 2019,
+   "distance": 2.907,
+   "survived": 1,
+   "fut_ability_v2": 68.5,
+   "player_name": "Paul Pogba",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "b825a650",
+   "season": 2019,
+   "distance": 2.987,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Kevin Kampl",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2019,
+   "distance": 2.987,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Joan Jordán",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "86e119e0",
+   "season": 2020,
+   "distance": 3.03,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Maximilian Arnold",
+   "squad": "Wolfsburg"
+  }
+ ],
  "low_confidence": false
 }

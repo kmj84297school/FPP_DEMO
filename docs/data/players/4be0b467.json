@@ -26,10 +26,115 @@
   "confidence": 0.58
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0915,
+  "mu": 43.4,
+  "ci80": {
+   "lo": 34.5,
+   "hi": 52.3
+  },
+  "ci50": {
+   "lo": 38.7,
+   "hi": 48.1
+  },
+  "sigma_model": 2.373,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8e87af42",
+   "season": 2018,
+   "distance": 2.228,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Préjuce Nakoulma",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 2.244,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "b1236c63",
+   "season": 2020,
+   "distance": 2.309,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ilija Nestorovski",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "8a08491a",
+   "season": 2019,
+   "distance": 2.504,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gonzalo Higuaín",
+   "squad": "Milan / Chelsea"
+  },
+  {
+   "fbref_id": "fd771f95",
+   "season": 2020,
+   "distance": 2.52,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Braithwaite",
+   "squad": "Leganés / Barcelona"
+  },
+  {
+   "fbref_id": "d87e2cae",
+   "season": 2020,
+   "distance": 2.53,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Willian José",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "2ead2809",
+   "season": 2020,
+   "distance": 2.56,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gianluca Lapadula",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "09a9e921",
+   "season": 2019,
+   "distance": 2.592,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Carlos Bacca",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "fd771f95",
+   "season": 2019,
+   "distance": 2.634,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Martin Braithwaite",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "863ff1ee",
+   "season": 2018,
+   "distance": 2.654,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Terodde",
+   "squad": "Köln / Stuttgart"
+  }
+ ],
  "low_confidence": false
 }

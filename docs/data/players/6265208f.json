@@ -26,10 +26,115 @@
   "confidence": 0.64
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4998,
+  "mu": 48.4,
+  "ci80": {
+   "lo": 38.7,
+   "hi": 58.2
+  },
+  "ci50": {
+   "lo": 43.3,
+   "hi": 53.6
+  },
+  "sigma_model": 3.815,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "02319ad7",
+   "season": 2020,
+   "distance": 2.705,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaime Mata",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2018,
+   "distance": 2.721,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 2.765,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "99b7584f",
+   "season": 2018,
+   "distance": 2.843,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Harnik",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "71a20ce8",
+   "season": 2019,
+   "distance": 2.917,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gómez",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2020,
+   "distance": 2.99,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "220c11f1",
+   "season": 2019,
+   "distance": 3.148,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristhian Stuani",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "d5dd5f1f",
+   "season": 2020,
+   "distance": 3.16,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Pierre-Emerick Aubameyang",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "4ab53cdb",
+   "season": 2020,
+   "distance": 3.201,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Jay Rodriguez",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2019,
+   "distance": 3.209,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.0
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3048,
+  "mu": 47.9,
+  "ci80": {
+   "lo": 39.0,
+   "hi": 56.8
+  },
+  "ci50": {
+   "lo": 43.2,
+   "hi": 52.6
+  },
+  "sigma_model": 2.256,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b63e789d",
+   "season": 2020,
+   "distance": 1.972,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Fleck",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "ef345601",
+   "season": 2018,
+   "distance": 2.032,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tana",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2019,
+   "distance": 2.092,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Alfred Duncan",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "e7f4603c",
+   "season": 2019,
+   "distance": 2.204,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Borja García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "75f2c59f",
+   "season": 2020,
+   "distance": 2.208,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Roberto Pereyra",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "33ecf462",
+   "season": 2020,
+   "distance": 2.279,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valerio Verre",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "7c4243d4",
+   "season": 2019,
+   "distance": 2.29,
+   "survived": 1,
+   "fut_ability_v2": 44.9,
+   "player_name": "Roque Mesa",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "88895312",
+   "season": 2019,
+   "distance": 2.292,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Bessa",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "8e010ff4",
+   "season": 2018,
+   "distance": 2.341,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francisco Portillo",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "5a626448",
+   "season": 2020,
+   "distance": 2.356,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Moi Gómez",
+   "squad": "Villarreal"
+  }
+ ],
  "low_confidence": false
 }

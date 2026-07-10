@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1554,
+  "mu": 39.6,
+  "ci80": {
+   "lo": 30.3,
+   "hi": 48.8
+  },
+  "ci50": {
+   "lo": 34.7,
+   "hi": 44.4
+  },
+  "sigma_model": 2.942,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2018,
+   "distance": 2.103,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 2.163,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2019,
+   "distance": 2.277,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "2ec0f902",
+   "season": 2019,
+   "distance": 2.296,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Riccardo Meggiorini",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "3071a619",
+   "season": 2019,
+   "distance": 2.354,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nolan Roux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "9f472354",
+   "season": 2019,
+   "distance": 2.45,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "4ab53cdb",
+   "season": 2020,
+   "distance": 2.456,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Jay Rodriguez",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "b09a3ecc",
+   "season": 2019,
+   "distance": 2.652,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ciofani",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "82e9b89d",
+   "season": 2019,
+   "distance": 2.684,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enric Gallego",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "34e4343c",
+   "season": 2020,
+   "distance": 2.711,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Anthony Modeste",
+   "squad": "Köln"
+  }
+ ],
  "low_confidence": false
 }

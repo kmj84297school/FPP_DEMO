@@ -26,10 +26,115 @@
   "confidence": 0.53
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2152,
+  "mu": 44.3,
+  "ci80": {
+   "lo": 35.6,
+   "hi": 53.1
+  },
+  "ci50": {
+   "lo": 39.8,
+   "hi": 48.9
+  },
+  "sigma_model": 1.777,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c0cddebe",
+   "season": 2018,
+   "distance": 1.789,
+   "survived": 1,
+   "fut_ability_v2": 39.1,
+   "player_name": "Blaise Matuidi",
+   "squad": "Juventus / Paris S-G"
+  },
+  {
+   "fbref_id": "c0cddebe",
+   "season": 2019,
+   "distance": 1.956,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blaise Matuidi",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 2.047,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "2acd49b9",
+   "season": 2020,
+   "distance": 2.084,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Moussa Sissoko",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "f1cfc209",
+   "season": 2020,
+   "distance": 2.123,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Tomás Rincón",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "f1cfc209",
+   "season": 2018,
+   "distance": 2.155,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Tomás Rincón",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2020,
+   "distance": 2.256,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2019,
+   "distance": 2.292,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "d7bf3d19",
+   "season": 2020,
+   "distance": 2.308,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Romain Amalfitano",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "c0cddebe",
+   "season": 2020,
+   "distance": 2.327,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blaise Matuidi",
+   "squad": "Juventus"
+  }
+ ],
  "low_confidence": false
 }

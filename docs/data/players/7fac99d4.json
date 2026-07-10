@@ -26,10 +26,115 @@
   "confidence": 0.71
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.44,
+  "mu": 49.1,
+  "ci80": {
+   "lo": 40.2,
+   "hi": 57.9
+  },
+  "ci50": {
+   "lo": 44.4,
+   "hi": 53.7
+  },
+  "sigma_model": 2.145,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "070a3904",
+   "season": 2020,
+   "distance": 2.107,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "471f16b3",
+   "season": 2020,
+   "distance": 2.207,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Kenny McLean",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "84d94b91",
+   "season": 2020,
+   "distance": 2.286,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Thomas Monconduit",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2018,
+   "distance": 2.403,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "ef7cd87a",
+   "season": 2019,
+   "distance": 2.431,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Abdoulaye Touré",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "f24ea523",
+   "season": 2019,
+   "distance": 2.444,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Genki Haraguchi",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "bf13975c",
+   "season": 2020,
+   "distance": 2.454,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Žan Majer",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "ef7cd87a",
+   "season": 2020,
+   "distance": 2.459,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Abdoulaye Touré",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "6dce77a5",
+   "season": 2018,
+   "distance": 2.528,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ander Iturraspe",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "98e958af",
+   "season": 2019,
+   "distance": 2.556,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Hiljemark",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.65
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4482,
+  "mu": 47.9,
+  "ci80": {
+   "lo": 39.3,
+   "hi": 56.6
+  },
+  "ci50": {
+   "lo": 43.4,
+   "hi": 52.5
+  },
+  "sigma_model": 1.678,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "72b07a9c",
+   "season": 2019,
+   "distance": 1.54,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kiko Olivas",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "89e4b358",
+   "season": 2019,
+   "distance": 1.646,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Craig Cathcart",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "f25b010f",
+   "season": 2018,
+   "distance": 1.647,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Federico Fernández",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2019,
+   "distance": 1.663,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Sergi Gómez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 1.688,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "27a013f7",
+   "season": 2020,
+   "distance": 1.702,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Néstor Araujo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "0bad4516",
+   "season": 2019,
+   "distance": 1.775,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Bennett",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2018,
+   "distance": 1.808,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "93cf32a8",
+   "season": 2018,
+   "distance": 1.835,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Nicolas Nkoulou",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "b857bd29",
+   "season": 2020,
+   "distance": 1.841,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Antonio Raillo",
+   "squad": "Mallorca"
+  }
+ ],
  "low_confidence": false
 }

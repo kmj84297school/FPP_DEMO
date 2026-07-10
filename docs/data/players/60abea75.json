@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0868,
+  "mu": 40.6,
+  "ci80": {
+   "lo": 31.8,
+   "hi": 49.5
+  },
+  "ci50": {
+   "lo": 36.0,
+   "hi": 45.3
+  },
+  "sigma_model": 2.183,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "04c11885",
+   "season": 2019,
+   "distance": 1.793,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "9a506145",
+   "season": 2019,
+   "distance": 2.094,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rene Krhin",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "84d94b91",
+   "season": 2020,
+   "distance": 2.142,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Thomas Monconduit",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "50b51fac",
+   "season": 2018,
+   "distance": 2.162,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Carlos Sánchez",
+   "squad": "Espanyol / Fiorentina"
+  },
+  {
+   "fbref_id": "de343d38",
+   "season": 2018,
+   "distance": 2.17,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Georges Mandjeck",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "ff45add5",
+   "season": 2019,
+   "distance": 2.195,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfredo Morales",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "cefb32b1",
+   "season": 2018,
+   "distance": 2.241,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vicente Gómez",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "1d8c99b0",
+   "season": 2019,
+   "distance": 2.302,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ki Sung-yueng",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2018,
+   "distance": 2.324,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "ad4d0985",
+   "season": 2019,
+   "distance": 2.334,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Sánchez",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.65
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8326,
+  "mu": 55.0,
+  "ci80": {
+   "lo": 46.3,
+   "hi": 63.6
+  },
+  "ci50": {
+   "lo": 50.4,
+   "hi": 59.5
+  },
+  "sigma_model": 1.713,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b6e50615",
+   "season": 2018,
+   "distance": 2.14,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Yuri Berchiche",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "e06683ca",
+   "season": 2018,
+   "distance": 2.357,
+   "survived": 1,
+   "fut_ability_v2": 63.9,
+   "player_name": "Virgil van Dijk",
+   "squad": "Liverpool / Southampton"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2020,
+   "distance": 2.519,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2019,
+   "distance": 2.523,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "5832ebfe",
+   "season": 2020,
+   "distance": 2.562,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Denswil",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "463503e2",
+   "season": 2018,
+   "distance": 2.612,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcin Kamiński",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "18b896d6",
+   "season": 2020,
+   "distance": 2.682,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Antonio Rüdiger",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "6fd8a334",
+   "season": 2019,
+   "distance": 2.686,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Aleksandar Dragović",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2019,
+   "distance": 2.691,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2020,
+   "distance": 2.71,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Christophe Hérelle",
+   "squad": "Nice"
+  }
+ ],
  "low_confidence": false
 }

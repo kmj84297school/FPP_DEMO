@@ -26,10 +26,115 @@
   "confidence": 0.5
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4598,
+  "mu": 58.4,
+  "ci80": {
+   "lo": 49.8,
+   "hi": 67.1
+  },
+  "ci50": {
+   "lo": 53.9,
+   "hi": 63.0
+  },
+  "sigma_model": 1.56,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "56413b1f",
+   "season": 2019,
+   "distance": 2.264,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "89f951b5",
+   "season": 2018,
+   "distance": 2.266,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Ivan Rakitić",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "fa937f7a",
+   "season": 2019,
+   "distance": 2.276,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Éver Banega",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "7460ca0d",
+   "season": 2020,
+   "distance": 2.325,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Daniel Parejo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2018,
+   "distance": 2.423,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Kevin Strootman",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "b825a650",
+   "season": 2019,
+   "distance": 2.747,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Kevin Kampl",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "bd84fc61",
+   "season": 2018,
+   "distance": 2.812,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Pasquale Schiattarella",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 2.881,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "98d2c2c4",
+   "season": 2020,
+   "distance": 2.892,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Remo Freuler",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2018,
+   "distance": 2.933,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

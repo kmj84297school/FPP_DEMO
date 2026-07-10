@@ -26,10 +26,115 @@
   "confidence": 0.59
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5769,
+  "mu": 55.5,
+  "ci80": {
+   "lo": 46.8,
+   "hi": 64.1
+  },
+  "ci50": {
+   "lo": 50.9,
+   "hi": 60.0
+  },
+  "sigma_model": 1.661,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "070ec0b1",
+   "season": 2018,
+   "distance": 1.68,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Sven Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "7aac47fe",
+   "season": 2019,
+   "distance": 1.708,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ermin Bičakčić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2020,
+   "distance": 1.821,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "da974c7b",
+   "season": 2019,
+   "distance": 1.994,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2020,
+   "distance": 2.04,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "1a2935f6",
+   "season": 2018,
+   "distance": 2.067,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dejan Lovren",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "6fd8a334",
+   "season": 2019,
+   "distance": 2.106,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Aleksandar Dragović",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "da974c7b",
+   "season": 2020,
+   "distance": 2.14,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "05d548d8",
+   "season": 2020,
+   "distance": 2.154,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Mats Hummels",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "c5fd13e9",
+   "season": 2018,
+   "distance": 2.185,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Ömer Toprak",
+   "squad": "Dortmund"
+  }
+ ],
  "low_confidence": false
 }

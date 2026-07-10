@@ -26,10 +26,115 @@
   "confidence": 1.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4766,
+  "mu": 50.6,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 59.4
+  },
+  "ci50": {
+   "lo": 45.9,
+   "hi": 55.2
+  },
+  "sigma_model": 2.08,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3eed9821",
+   "season": 2019,
+   "distance": 2.012,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Samuel Umtiti",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2020,
+   "distance": 2.202,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Christophe Hérelle",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "fbffc4b1",
+   "season": 2018,
+   "distance": 2.369,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Jeffrey Bruma",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2018,
+   "distance": 2.408,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "339c6ed4",
+   "season": 2018,
+   "distance": 2.42,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vasco Regini",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "6cafd68d",
+   "season": 2018,
+   "distance": 2.463,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Håvard Nordtveit",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2020,
+   "distance": 2.485,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2020,
+   "distance": 2.496,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "b0243215",
+   "season": 2019,
+   "distance": 2.51,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Dell'Orco",
+   "squad": "Empoli / Sassuolo"
+  },
+  {
+   "fbref_id": "6fd8a334",
+   "season": 2019,
+   "distance": 2.522,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Aleksandar Dragović",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

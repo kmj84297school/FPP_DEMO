@@ -26,10 +26,115 @@
   "confidence": 0.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4289,
+  "mu": 47.5,
+  "ci80": {
+   "lo": 38.5,
+   "hi": 56.6
+  },
+  "ci50": {
+   "lo": 42.7,
+   "hi": 52.3
+  },
+  "sigma_model": 2.626,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2019,
+   "distance": 2.404,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2019,
+   "distance": 2.845,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "462475ed",
+   "season": 2019,
+   "distance": 2.903,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Ludovic Ajorque",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2018,
+   "distance": 3.011,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Khouma Babacar",
+   "squad": "Sassuolo / Fiorentina"
+  },
+  {
+   "fbref_id": "834d0be5",
+   "season": 2019,
+   "distance": 3.075,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Lucas Alario",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "6cc47ae1",
+   "season": 2019,
+   "distance": 3.246,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jürgen Locadia",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2020,
+   "distance": 3.254,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khouma Babacar",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2019,
+   "distance": 3.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khouma Babacar",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "85613cf0",
+   "season": 2020,
+   "distance": 3.284,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Arkadiusz Milik",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "84399660",
+   "season": 2018,
+   "distance": 3.306,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanmi",
+   "squad": "Real Sociedad"
+  }
+ ],
  "low_confidence": false
 }

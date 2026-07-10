@@ -26,10 +26,115 @@
   "confidence": 0.57
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4392,
+  "mu": 58.7,
+  "ci80": {
+   "lo": 48.7,
+   "hi": 68.6
+  },
+  "ci50": {
+   "lo": 53.4,
+   "hi": 63.9
+  },
+  "sigma_model": 4.19,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4a478107",
+   "season": 2020,
+   "distance": 2.318,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "José Luis Morales",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "4a478107",
+   "season": 2019,
+   "distance": 2.424,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "José Luis Morales",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "02319ad7",
+   "season": 2020,
+   "distance": 2.725,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaime Mata",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "2bcc6d52",
+   "season": 2018,
+   "distance": 2.878,
+   "survived": 1,
+   "fut_ability_v2": 35.8,
+   "player_name": "Guido Burgstaller",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "b318a643",
+   "season": 2019,
+   "distance": 2.92,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomón Rondón",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "086d7db3",
+   "season": 2018,
+   "distance": 3.139,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ivan Santini",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "b561db50",
+   "season": 2020,
+   "distance": 3.15,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "601ef102",
+   "season": 2020,
+   "distance": 3.184,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Okaka",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "4c7940d6",
+   "season": 2018,
+   "distance": 3.256,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Coda",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2020,
+   "distance": 3.261,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  }
+ ],
  "low_confidence": false
 }

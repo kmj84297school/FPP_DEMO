@@ -26,10 +26,115 @@
   "confidence": 0.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3469,
+  "mu": 51.6,
+  "ci80": {
+   "lo": 43.0,
+   "hi": 60.2
+  },
+  "ci50": {
+   "lo": 47.1,
+   "hi": 56.1
+  },
+  "sigma_model": 1.513,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "839c14e1",
+   "season": 2018,
+   "distance": 1.964,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "872cd68c",
+   "season": 2018,
+   "distance": 2.079,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yoann Andreu",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2019,
+   "distance": 2.121,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "e29d1111",
+   "season": 2019,
+   "distance": 2.171,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Nacho",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "808d48f3",
+   "season": 2018,
+   "distance": 2.181,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Jaume Costa",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "e199d5b0",
+   "season": 2020,
+   "distance": 2.187,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Zimmermann",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "ec400194",
+   "season": 2018,
+   "distance": 2.23,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oussama Haddadi",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "e199d5b0",
+   "season": 2019,
+   "distance": 2.24,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Zimmermann",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "f9acca3a",
+   "season": 2019,
+   "distance": 2.253,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Wendell",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "b0616e3d",
+   "season": 2018,
+   "distance": 2.259,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Escudero",
+   "squad": "Sevilla"
+  }
+ ],
  "low_confidence": false
 }

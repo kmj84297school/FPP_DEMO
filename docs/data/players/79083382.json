@@ -26,10 +26,115 @@
   "confidence": 0.62
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1825,
+  "mu": 51.6,
+  "ci80": {
+   "lo": 42.7,
+   "hi": 60.5
+  },
+  "ci50": {
+   "lo": 46.9,
+   "hi": 56.3
+  },
+  "sigma_model": 2.366,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e26c4233",
+   "season": 2018,
+   "distance": 1.561,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Russ",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "1a2935f6",
+   "season": 2019,
+   "distance": 1.618,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dejan Lovren",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "8494acc4",
+   "season": 2020,
+   "distance": 1.959,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefan Ilsanker",
+   "squad": "Eint Frankfurt / RB Leipzig"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2020,
+   "distance": 2.092,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nenad Tomović",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2020,
+   "distance": 2.133,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "b1deecf8",
+   "season": 2018,
+   "distance": 2.14,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Cristián Zapata",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "d2bff301",
+   "season": 2018,
+   "distance": 2.141,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Kompany",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "d2be40f2",
+   "season": 2018,
+   "distance": 2.203,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iván Ramis",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "74d70fb5",
+   "season": 2018,
+   "distance": 2.218,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Langkamp",
+   "squad": "Hertha BSC / Werder Bremen"
+  },
+  {
+   "fbref_id": "b14d0c5d",
+   "season": 2020,
+   "distance": 2.301,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sidnei",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

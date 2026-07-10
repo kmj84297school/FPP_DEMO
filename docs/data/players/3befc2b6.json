@@ -26,10 +26,115 @@
   "confidence": 1.5
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3612,
+  "mu": 50.4,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 59.0
+  },
+  "ci50": {
+   "lo": 45.8,
+   "hi": 54.9
+  },
+  "sigma_model": 1.646,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2019,
+   "distance": 1.972,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "f7750aa0",
+   "season": 2019,
+   "distance": 2.07,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Denis Odoi",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "0db5d2c8",
+   "season": 2019,
+   "distance": 2.118,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathias Jørgensen",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "e0314d87",
+   "season": 2018,
+   "distance": 2.242,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Andrea Masiello",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "53cad200",
+   "season": 2019,
+   "distance": 2.305,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "César Azpilicueta",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "321a71a7",
+   "season": 2019,
+   "distance": 2.306,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxime Le Marchand",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "1253a12e",
+   "season": 2018,
+   "distance": 2.323,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ervin Zukanović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2018,
+   "distance": 2.357,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2018,
+   "distance": 2.371,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "779847d6",
+   "season": 2019,
+   "distance": 2.408,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Nicolas Pallois",
+   "squad": "Nantes"
+  }
+ ],
  "low_confidence": false
 }

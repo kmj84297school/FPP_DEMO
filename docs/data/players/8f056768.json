@@ -26,10 +26,115 @@
   "confidence": 0.4
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2813,
+  "mu": 47.3,
+  "ci80": {
+   "lo": 38.1,
+   "hi": 56.5
+  },
+  "ci50": {
+   "lo": 42.5,
+   "hi": 52.2
+  },
+  "sigma_model": 2.899,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1598599e",
+   "season": 2019,
+   "distance": 1.954,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "Nampalys Mendy",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "e1cbb531",
+   "season": 2020,
+   "distance": 2.25,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Stanislav Lobotka",
+   "squad": "Celta Vigo / Napoli"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2018,
+   "distance": 2.288,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "9b337c7c",
+   "season": 2019,
+   "distance": 2.349,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jozabed",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "d7403bd5",
+   "season": 2018,
+   "distance": 2.452,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Afriyie Acquah",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "87882adc",
+   "season": 2018,
+   "distance": 2.547,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Torres",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2019,
+   "distance": 2.632,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "aa5a409a",
+   "season": 2018,
+   "distance": 2.745,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raman Chibsah",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "2f4c5a52",
+   "season": 2018,
+   "distance": 2.765,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Harry Arter",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "4442fbcd",
+   "season": 2020,
+   "distance": 2.87,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nikola Vukčević",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

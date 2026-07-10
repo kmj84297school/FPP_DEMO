@@ -26,10 +26,115 @@
   "confidence": 0.68
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3798,
+  "mu": 51.4,
+  "ci80": {
+   "lo": 42.2,
+   "hi": 60.7
+  },
+  "ci50": {
+   "lo": 46.6,
+   "hi": 56.3
+  },
+  "sigma_model": 3.043,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2020,
+   "distance": 2.615,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Florent Mollet",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "ee93c1a9",
+   "season": 2020,
+   "distance": 2.786,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Federico Bernardeschi",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "849c826a",
+   "season": 2020,
+   "distance": 2.817,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andriy Yarmolenko",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "980522ec",
+   "season": 2020,
+   "distance": 2.898,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Christian Eriksen",
+   "squad": "Tottenham / Inter"
+  },
+  {
+   "fbref_id": "810e3c74",
+   "season": 2020,
+   "distance": 3.068,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jesse Lingard",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "d995ed27",
+   "season": 2020,
+   "distance": 3.172,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Giacomo Bonaventura",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "9a2e0ccc",
+   "season": 2020,
+   "distance": 3.335,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Emil Forsberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2018,
+   "distance": 3.34,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Florent Mollet",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "29733c72",
+   "season": 2018,
+   "distance": 3.364,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Mata",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "810e3c74",
+   "season": 2019,
+   "distance": 3.404,
+   "survived": 1,
+   "fut_ability_v2": 64.9,
+   "player_name": "Jesse Lingard",
+   "squad": "Manchester Utd"
+  }
+ ],
  "low_confidence": false
 }

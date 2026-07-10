@@ -26,10 +26,115 @@
   "confidence": 0.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3953,
+  "mu": 48.1,
+  "ci80": {
+   "lo": 39.3,
+   "hi": 56.8
+  },
+  "ci50": {
+   "lo": 43.4,
+   "hi": 52.7
+  },
+  "sigma_model": 1.932,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "375622c5",
+   "season": 2019,
+   "distance": 1.688,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Jordan Ferri",
+   "squad": "Nîmes / Lyon"
+  },
+  {
+   "fbref_id": "e5649a78",
+   "season": 2020,
+   "distance": 1.905,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Kevin Stöger",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "4db2157a",
+   "season": 2019,
+   "distance": 1.99,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ole Selnæs",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2018,
+   "distance": 2.123,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2020,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Alfred Duncan",
+   "squad": "Fiorentina / Sassuolo"
+  },
+  {
+   "fbref_id": "16657b95",
+   "season": 2020,
+   "distance": 2.262,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Bryan Cristante",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "58a9a4d9",
+   "season": 2020,
+   "distance": 2.338,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Óliver Torres",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2019,
+   "distance": 2.358,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2020,
+   "distance": 2.368,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "79ca3e23",
+   "season": 2020,
+   "distance": 2.38,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Ondrej Duda",
+   "squad": "Norwich City / Hertha BSC"
+  }
+ ],
  "low_confidence": false
 }

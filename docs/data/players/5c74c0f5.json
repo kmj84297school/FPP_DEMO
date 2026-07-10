@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4665,
+  "mu": 50.6,
+  "ci80": {
+   "lo": 42.0,
+   "hi": 59.2
+  },
+  "ci50": {
+   "lo": 46.1,
+   "hi": 55.2
+  },
+  "sigma_model": 1.47,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2019,
+   "distance": 1.521,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2018,
+   "distance": 1.975,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Alfred Duncan",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "3727dd3c",
+   "season": 2018,
+   "distance": 2.067,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Jonjo Shelvey",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "70dcf94d",
+   "season": 2019,
+   "distance": 2.117,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "20e73fac",
+   "season": 2020,
+   "distance": 2.247,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2019,
+   "distance": 2.251,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Joan Jordán",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "4e6dbac4",
+   "season": 2020,
+   "distance": 2.27,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Sergej Milinković-Savić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2020,
+   "distance": 2.359,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "02b29014",
+   "season": 2020,
+   "distance": 2.361,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "6f5ead86",
+   "season": 2020,
+   "distance": 2.374,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hernani",
+   "squad": "Parma"
+  }
+ ],
  "low_confidence": false
 }

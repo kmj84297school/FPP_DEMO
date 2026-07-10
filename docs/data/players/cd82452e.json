@@ -26,10 +26,115 @@
   "confidence": 1.19
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2124,
+  "mu": 42.7,
+  "ci80": {
+   "lo": 33.2,
+   "hi": 52.3
+  },
+  "ci50": {
+   "lo": 37.7,
+   "hi": 47.8
+  },
+  "sigma_model": 3.553,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b418dbd4",
+   "season": 2020,
+   "distance": 3.811,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Raúl García",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "f1b2365a",
+   "season": 2019,
+   "distance": 4.055,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cheikh N'Doye",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "26679cdf",
+   "season": 2019,
+   "distance": 4.118,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Beram Kayal",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "04a65a8f",
+   "season": 2018,
+   "distance": 4.242,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Markel Bergara",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "482b70ad",
+   "season": 2018,
+   "distance": 4.282,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mike Frantz",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "5aaef9ef",
+   "season": 2019,
+   "distance": 4.345,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Juraj Kucka",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "b418dbd4",
+   "season": 2018,
+   "distance": 4.375,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Raúl García",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "b418dbd4",
+   "season": 2019,
+   "distance": 4.433,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Raúl García",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "cfd8dde3",
+   "season": 2018,
+   "distance": 4.526,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Corgnet",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "11dbba47",
+   "season": 2018,
+   "distance": 4.554,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Heller",
+   "squad": "Augsburg"
+  }
+ ],
+ "low_confidence": true
 }

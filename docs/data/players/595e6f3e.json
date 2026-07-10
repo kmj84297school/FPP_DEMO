@@ -26,10 +26,115 @@
   "confidence": 0.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.468,
+  "mu": 39.9,
+  "ci80": {
+   "lo": 31.0,
+   "hi": 48.8
+  },
+  "ci50": {
+   "lo": 35.2,
+   "hi": 44.6
+  },
+  "sigma_model": 2.364,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2018,
+   "distance": 1.949,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Ante Budimir",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "6922f806",
+   "season": 2020,
+   "distance": 2.325,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Calleri",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "ba115a40",
+   "season": 2020,
+   "distance": 2.518,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sébastien Haller",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ca618d23",
+   "season": 2020,
+   "distance": 2.61,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Lucas Höler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2018,
+   "distance": 2.712,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "35f6db55",
+   "season": 2018,
+   "distance": 2.751,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Léo Baptistão",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "d7d32194",
+   "season": 2018,
+   "distance": 2.757,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Mattia Destro",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "cd82452e",
+   "season": 2018,
+   "distance": 2.806,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "André Hahn",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "80dbbd10",
+   "season": 2018,
+   "distance": 2.85,
+   "survived": 1,
+   "fut_ability_v2": 32.0,
+   "player_name": "Simeon Nwankwo",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "09538fdb",
+   "season": 2019,
+   "distance": 2.924,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Kevin Lasagna",
+   "squad": "Udinese"
+  }
+ ],
  "low_confidence": false
 }

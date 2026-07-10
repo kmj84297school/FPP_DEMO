@@ -26,10 +26,115 @@
   "confidence": 0.84
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4401,
+  "mu": 52.3,
+  "ci80": {
+   "lo": 43.5,
+   "hi": 61.0
+  },
+  "ci50": {
+   "lo": 47.7,
+   "hi": 56.8
+  },
+  "sigma_model": 1.798,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "eda40760",
+   "season": 2020,
+   "distance": 2.578,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "eda40760",
+   "season": 2019,
+   "distance": 2.608,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2019,
+   "distance": 2.653,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 2.677,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "d1661819",
+   "season": 2019,
+   "distance": 2.977,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Bastian Oczipka",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "356c9002",
+   "season": 2020,
+   "distance": 2.992,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Antonio Candreva",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2019,
+   "distance": 3.03,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2020,
+   "distance": 3.085,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "767212e6",
+   "season": 2020,
+   "distance": 3.09,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Faussurier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "e29d1111",
+   "season": 2020,
+   "distance": 3.108,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho",
+   "squad": "Valladolid"
+  }
+ ],
  "low_confidence": false
 }

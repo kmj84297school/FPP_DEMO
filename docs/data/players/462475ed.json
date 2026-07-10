@@ -26,10 +26,115 @@
   "confidence": 0.69
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5645,
+  "mu": 47.0,
+  "ci80": {
+   "lo": 37.7,
+   "hi": 56.2
+  },
+  "ci50": {
+   "lo": 42.1,
+   "hi": 51.8
+  },
+  "sigma_model": 2.958,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2019,
+   "distance": 1.544,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "b1236c63",
+   "season": 2020,
+   "distance": 1.968,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ilija Nestorovski",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "a190d597",
+   "season": 2020,
+   "distance": 2.032,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "863ff1ee",
+   "season": 2018,
+   "distance": 2.065,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Terodde",
+   "squad": "Köln / Stuttgart"
+  },
+  {
+   "fbref_id": "8e87af42",
+   "season": 2018,
+   "distance": 2.075,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Préjuce Nakoulma",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "4c7940d6",
+   "season": 2018,
+   "distance": 2.104,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Coda",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2020,
+   "distance": 2.124,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khouma Babacar",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "0ae4e09a",
+   "season": 2018,
+   "distance": 2.146,
+   "survived": 1,
+   "fut_ability_v2": 38.2,
+   "player_name": "Roger Martí",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "0af4dcf0",
+   "season": 2018,
+   "distance": 2.156,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Bakambu",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 2.217,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

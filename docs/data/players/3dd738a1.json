@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3997,
+  "mu": 53.3,
+  "ci80": {
+   "lo": 44.3,
+   "hi": 62.3
+  },
+  "ci50": {
+   "lo": 48.5,
+   "hi": 58.0
+  },
+  "sigma_model": 2.532,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "541cdd20",
+   "season": 2019,
+   "distance": 2.736,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oliver Sorg",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "8617e3d9",
+   "season": 2018,
+   "distance": 2.862,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Aguirregaray",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "54c356b0",
+   "season": 2019,
+   "distance": 2.901,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolò Brighenti",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "25444898",
+   "season": 2018,
+   "distance": 3.109,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Palmieri",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "808d48f3",
+   "season": 2019,
+   "distance": 3.251,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Jaume Costa",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "7d45b97a",
+   "season": 2018,
+   "distance": 3.306,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Cordoval",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "52e2ef8f",
+   "season": 2018,
+   "distance": 3.351,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ivan Strinić",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "89d10e53",
+   "season": 2020,
+   "distance": 3.412,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Rose",
+   "squad": "Tottenham / Newcastle Utd"
+  },
+  {
+   "fbref_id": "7af0e1f8",
+   "season": 2018,
+   "distance": 3.433,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Rivierez",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "0442183b",
+   "season": 2019,
+   "distance": 3.451,
+   "survived": 1,
+   "fut_ability_v2": 35.0,
+   "player_name": "Nathaniel Clyne",
+   "squad": "Bournemouth / Liverpool"
+  }
+ ],
  "low_confidence": false
 }

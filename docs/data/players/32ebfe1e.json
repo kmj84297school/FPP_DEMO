@@ -26,10 +26,115 @@
   "confidence": 0.41
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1758,
+  "mu": 44.6,
+  "ci80": {
+   "lo": 36.0,
+   "hi": 53.3
+  },
+  "ci50": {
+   "lo": 40.1,
+   "hi": 49.2
+  },
+  "sigma_model": 1.607,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e947ee4a",
+   "season": 2020,
+   "distance": 2.278,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Brugman",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "ad4d0985",
+   "season": 2019,
+   "distance": 2.351,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Sánchez",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "c53083ad",
+   "season": 2020,
+   "distance": 2.377,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bryan Dabo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "1d8c99b0",
+   "season": 2019,
+   "distance": 2.397,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ki Sung-yueng",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "80f36c88",
+   "season": 2019,
+   "distance": 2.409,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Sebastian Rudy",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2020,
+   "distance": 2.461,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "46291841",
+   "season": 2019,
+   "distance": 2.516,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Bostock",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "580d52dd",
+   "season": 2018,
+   "distance": 2.517,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Grzegorz Krychowiak",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2019,
+   "distance": 2.545,
+   "survived": 1,
+   "fut_ability_v2": 54.3,
+   "player_name": "Pedro Obiang",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2018,
+   "distance": 2.555,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Recio",
+   "squad": "Málaga"
+  }
+ ],
  "low_confidence": false
 }

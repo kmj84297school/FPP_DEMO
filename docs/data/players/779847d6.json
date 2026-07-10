@@ -26,10 +26,115 @@
   "confidence": 1.12
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1141,
+  "mu": 54.6,
+  "ci80": {
+   "lo": 45.8,
+   "hi": 63.4
+  },
+  "ci50": {
+   "lo": 50.0,
+   "hi": 59.2
+  },
+  "sigma_model": 1.999,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "80e4c841",
+   "season": 2020,
+   "distance": 2.408,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aurélien Chedjou",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2020,
+   "distance": 2.609,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "3233eefd",
+   "season": 2018,
+   "distance": 2.888,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Phil Jagielka",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "55667895",
+   "season": 2018,
+   "distance": 2.89,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Moretti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2020,
+   "distance": 3.042,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "fed5f993",
+   "season": 2020,
+   "distance": 3.074,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Larangeira",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "fd2bc67d",
+   "season": 2019,
+   "distance": 3.086,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Dante",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "7adea561",
+   "season": 2018,
+   "distance": 3.092,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Toulalan",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2019,
+   "distance": 3.105,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "fed5f993",
+   "season": 2019,
+   "distance": 3.325,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Danilo Larangeira",
+   "squad": "Bologna"
+  }
+ ],
  "low_confidence": false
 }

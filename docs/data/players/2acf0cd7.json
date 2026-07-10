@@ -26,10 +26,115 @@
   "confidence": 0.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4801,
+  "mu": 49.2,
+  "ci80": {
+   "lo": 39.9,
+   "hi": 58.5
+  },
+  "ci50": {
+   "lo": 44.3,
+   "hi": 54.1
+  },
+  "sigma_model": 3.134,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2018,
+   "distance": 2.201,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "9085dd7c",
+   "season": 2019,
+   "distance": 2.232,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Faragò",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "16569fef",
+   "season": 2020,
+   "distance": 2.302,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitri Bisoli",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "a0666d3e",
+   "season": 2020,
+   "distance": 2.384,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Will Hughes",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "d557d734",
+   "season": 2020,
+   "distance": 2.443,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matt Doherty",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2019,
+   "distance": 2.468,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "fe641c1a",
+   "season": 2018,
+   "distance": 2.477,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Thomas Delaney",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "b93b7882",
+   "season": 2018,
+   "distance": 2.562,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "c414df9d",
+   "season": 2020,
+   "distance": 2.604,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mattia Valoti",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2019,
+   "distance": 2.615,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  }
+ ],
  "low_confidence": false
 }

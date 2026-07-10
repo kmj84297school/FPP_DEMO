@@ -26,10 +26,115 @@
   "confidence": 3.08
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2144,
+  "mu": 46.3,
+  "ci80": {
+   "lo": 37.4,
+   "hi": 55.2
+  },
+  "ci50": {
+   "lo": 41.6,
+   "hi": 51.0
+  },
+  "sigma_model": 2.27,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "19a12bed",
+   "season": 2019,
+   "distance": 1.953,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Hassane Kamara",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "57df7a11",
+   "season": 2020,
+   "distance": 3.019,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Arthur Masuaku",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "9050ddc4",
+   "season": 2020,
+   "distance": 3.072,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Jetro Willems",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "e4b72e34",
+   "season": 2020,
+   "distance": 3.121,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Miguel Trauco",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "f1bed920",
+   "season": 2020,
+   "distance": 3.291,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Rodrigues",
+   "squad": "Leganés / Real Sociedad"
+  },
+  {
+   "fbref_id": "493924a7",
+   "season": 2020,
+   "distance": 3.306,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Kevin Mbabu",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "fba81826",
+   "season": 2020,
+   "distance": 3.338,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Mattiello",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "1f079188",
+   "season": 2018,
+   "distance": 3.339,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Rubén Peña",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "45e17712",
+   "season": 2018,
+   "distance": 3.376,
+   "survived": 1,
+   "fut_ability_v2": 37.4,
+   "player_name": "Dimitri Foulquier",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "8ff4872e",
+   "season": 2019,
+   "distance": 3.423,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Ikoko",
+   "squad": "Guingamp"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1655,
+  "mu": 49.3,
+  "ci80": {
+   "lo": 40.3,
+   "hi": 58.2
+  },
+  "ci50": {
+   "lo": 44.5,
+   "hi": 54.0
+  },
+  "sigma_model": 2.427,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8aa5f52c",
+   "season": 2018,
+   "distance": 1.702,
+   "survived": 1,
+   "fut_ability_v2": 35.6,
+   "player_name": "Adrian Mariappa",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "f7750aa0",
+   "season": 2019,
+   "distance": 1.707,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Denis Odoi",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "779847d6",
+   "season": 2020,
+   "distance": 1.767,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Nicolas Pallois",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "1ad8cb67",
+   "season": 2020,
+   "distance": 1.769,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Martinez",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2018,
+   "distance": 1.774,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "80e4c841",
+   "season": 2020,
+   "distance": 1.777,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aurélien Chedjou",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2020,
+   "distance": 1.792,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "3201b03d",
+   "season": 2018,
+   "distance": 1.811,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Simpson",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2018,
+   "distance": 1.831,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "8cea6319",
+   "season": 2018,
+   "distance": 1.835,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Felipe dal Belo",
+   "squad": "SPAL"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.41
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4074,
+  "mu": 49.0,
+  "ci80": {
+   "lo": 40.4,
+   "hi": 57.7
+  },
+  "ci50": {
+   "lo": 44.5,
+   "hi": 53.6
+  },
+  "sigma_model": 1.628,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "008a6e6d",
+   "season": 2020,
+   "distance": 1.551,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ragnar Klavan",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "fd2bc67d",
+   "season": 2019,
+   "distance": 1.606,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Dante",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "314f2124",
+   "season": 2018,
+   "distance": 1.751,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miranda",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "f5efb153",
+   "season": 2020,
+   "distance": 1.777,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Laurent Koscielny",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "9ab16552",
+   "season": 2018,
+   "distance": 1.824,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Makoto Hasebe",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "4bd414c1",
+   "season": 2019,
+   "distance": 1.918,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Raúl Albiol",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "16714a62",
+   "season": 2019,
+   "distance": 1.949,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khaled Adénon",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "fd2bc67d",
+   "season": 2018,
+   "distance": 1.955,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Dante",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2020,
+   "distance": 1.997,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2020,
+   "distance": 2.011,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  }
+ ],
  "low_confidence": false
 }

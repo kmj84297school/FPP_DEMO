@@ -26,10 +26,115 @@
   "confidence": 1.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4199,
+  "mu": 48.9,
+  "ci80": {
+   "lo": 40.0,
+   "hi": 57.7
+  },
+  "ci50": {
+   "lo": 44.2,
+   "hi": 53.5
+  },
+  "sigma_model": 2.108,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "05384ea1",
+   "season": 2018,
+   "distance": 1.807,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michel",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2020,
+   "distance": 1.836,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Alberto Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "b05e2dbd",
+   "season": 2020,
+   "distance": 1.848,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "José Luis Gayà",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "c8c02ac7",
+   "season": 2019,
+   "distance": 1.863,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Zeffane",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "d459281d",
+   "season": 2019,
+   "distance": 1.951,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miiko Albornoz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "d4535821",
+   "season": 2019,
+   "distance": 2.002,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Adam Marušić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "d4ef9ac5",
+   "season": 2018,
+   "distance": 2.058,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Toño",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "0a3065c8",
+   "season": 2020,
+   "distance": 2.086,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mitchell Dijks",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2018,
+   "distance": 2.088,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "861e0116",
+   "season": 2019,
+   "distance": 2.129,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Kostas Stafylidis",
+   "squad": "Augsburg"
+  }
+ ],
  "low_confidence": false
 }

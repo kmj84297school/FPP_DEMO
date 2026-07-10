@@ -26,10 +26,115 @@
   "confidence": 0.98
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.107,
+  "mu": 36.1,
+  "ci80": {
+   "lo": 27.1,
+   "hi": 45.1
+  },
+  "ci50": {
+   "lo": 31.4,
+   "hi": 40.9
+  },
+  "sigma_model": 2.52,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3aa4a3be",
+   "season": 2019,
+   "distance": 1.666,
+   "survived": 1,
+   "fut_ability_v2": 27.4,
+   "player_name": "Loren Morón",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "e58a03c6",
+   "season": 2018,
+   "distance": 1.865,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dwight Gayle",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "84399660",
+   "season": 2018,
+   "distance": 1.893,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanmi",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "625e41b1",
+   "season": 2020,
+   "distance": 1.896,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Streli Mamba",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2019,
+   "distance": 2.056,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khouma Babacar",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "5343eb4e",
+   "season": 2018,
+   "distance": 2.098,
+   "survived": 1,
+   "fut_ability_v2": 31.8,
+   "player_name": "Yoshinori Mutō",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "5046b7d4",
+   "season": 2018,
+   "distance": 2.142,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Stéphane Bahoken",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "d14229f3",
+   "season": 2019,
+   "distance": 2.258,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrien Hunou",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "09538fdb",
+   "season": 2020,
+   "distance": 2.337,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Kevin Lasagna",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "09538fdb",
+   "season": 2019,
+   "distance": 2.388,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Kevin Lasagna",
+   "squad": "Udinese"
+  }
+ ],
  "low_confidence": false
 }

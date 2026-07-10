@@ -26,10 +26,115 @@
   "confidence": 1.86
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4613,
+  "mu": 51.6,
+  "ci80": {
+   "lo": 42.7,
+   "hi": 60.4
+  },
+  "ci50": {
+   "lo": 46.9,
+   "hi": 56.2
+  },
+  "sigma_model": 2.258,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 1.752,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "c6056d58",
+   "season": 2020,
+   "distance": 1.892,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kamil Glik",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "fc4f85b1",
+   "season": 2018,
+   "distance": 2.052,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "Diego Godín",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "861227d2",
+   "season": 2020,
+   "distance": 2.068,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Boye",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2020,
+   "distance": 2.07,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "275e2c51",
+   "season": 2019,
+   "distance": 2.071,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Romain Thomas",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "80c31c97",
+   "season": 2018,
+   "distance": 2.106,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wes Morgan",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "72a0fb65",
+   "season": 2020,
+   "distance": 2.107,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Ecuele Manga",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "4bd414c1",
+   "season": 2020,
+   "distance": 2.111,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Raúl Albiol",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "8dbff17c",
+   "season": 2018,
+   "distance": 2.206,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adil Rami",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

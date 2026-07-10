@@ -26,10 +26,115 @@
   "confidence": 0.73
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8773,
+  "mu": 55.2,
+  "ci80": {
+   "lo": 46.6,
+   "hi": 63.9
+  },
+  "ci50": {
+   "lo": 50.7,
+   "hi": 59.8
+  },
+  "sigma_model": 1.578,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2020,
+   "distance": 1.428,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Berat Djimsiti",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "d8931174",
+   "season": 2020,
+   "distance": 1.49,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Harry Maguire",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "d0d8dd44",
+   "season": 2018,
+   "distance": 1.8,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Stefan de Vrij",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2019,
+   "distance": 1.814,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Christophe Hérelle",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2018,
+   "distance": 1.832,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Kostas Manolas",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "1900032e",
+   "season": 2018,
+   "distance": 1.873,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Jannik Vestergaard",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "e27da244",
+   "season": 2019,
+   "distance": 1.892,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2018,
+   "distance": 1.921,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Berat Djimsiti",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "18b896d6",
+   "season": 2019,
+   "distance": 2.026,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Antonio Rüdiger",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2019,
+   "distance": 2.026,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  }
+ ],
  "low_confidence": false
 }

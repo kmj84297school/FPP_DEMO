@@ -26,10 +26,115 @@
   "confidence": 0.69
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0512,
+  "mu": 44.2,
+  "ci80": {
+   "lo": 35.4,
+   "hi": 52.9
+  },
+  "ci50": {
+   "lo": 39.6,
+   "hi": 48.8
+  },
+  "sigma_model": 1.826,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f261abcb",
+   "season": 2020,
+   "distance": 1.567,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Baier",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "184e4970",
+   "season": 2018,
+   "distance": 1.58,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Darren Fletcher",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "ecab64a0",
+   "season": 2020,
+   "distance": 1.828,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "7329018e",
+   "season": 2020,
+   "distance": 1.845,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Papakouli Diop",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 1.96,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "f1cfc209",
+   "season": 2020,
+   "distance": 2.021,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Tomás Rincón",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "000b3da6",
+   "season": 2018,
+   "distance": 2.053,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Iturra",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2020,
+   "distance": 2.143,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "bb8a42fa",
+   "season": 2020,
+   "distance": 2.235,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Bodzek",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "90b70194",
+   "season": 2019,
+   "distance": 2.243,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Përparim Hetemaj",
+   "squad": "Chievo"
+  }
+ ],
  "low_confidence": false
 }

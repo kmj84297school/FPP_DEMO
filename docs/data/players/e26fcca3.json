@@ -26,10 +26,115 @@
   "confidence": 0.92
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5941,
+  "mu": 51.0,
+  "ci80": {
+   "lo": 41.9,
+   "hi": 60.1
+  },
+  "ci50": {
+   "lo": 46.2,
+   "hi": 55.8
+  },
+  "sigma_model": 2.67,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6cdd8245",
+   "season": 2018,
+   "distance": 1.392,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Tom Cleverley",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "0fbecd11",
+   "season": 2020,
+   "distance": 2.002,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Dominik Kohr",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2020,
+   "distance": 2.038,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "0d077b88",
+   "season": 2020,
+   "distance": 2.14,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Mehdi Bourabia",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2018,
+   "distance": 2.188,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Recio",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "dc3fa3b5",
+   "season": 2019,
+   "distance": 2.206,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Diego Demme",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2018,
+   "distance": 2.208,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2019,
+   "distance": 2.212,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "4db2157a",
+   "season": 2019,
+   "distance": 2.229,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ole Selnæs",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "e12b0b5b",
+   "season": 2019,
+   "distance": 2.253,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Sebastian Rode",
+   "squad": "Eint Frankfurt"
+  }
+ ],
  "low_confidence": false
 }

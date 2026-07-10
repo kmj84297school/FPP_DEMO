@@ -26,10 +26,115 @@
   "confidence": 0.08
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2592,
+  "mu": 41.6,
+  "ci80": {
+   "lo": 32.6,
+   "hi": 50.6
+  },
+  "ci50": {
+   "lo": 36.8,
+   "hi": 46.3
+  },
+  "sigma_model": 2.473,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f352a2db",
+   "season": 2018,
+   "distance": 2.458,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jules Iloki",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "ee93c1a9",
+   "season": 2020,
+   "distance": 2.652,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Federico Bernardeschi",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2018,
+   "distance": 2.829,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Florent Mollet",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "b6a6e0a7",
+   "season": 2019,
+   "distance": 2.83,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Zuber",
+   "squad": "Stuttgart / Hoffenheim"
+  },
+  {
+   "fbref_id": "b48215cd",
+   "season": 2019,
+   "distance": 2.873,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexander Esswein",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "7e689867",
+   "season": 2018,
+   "distance": 2.883,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Terrazzino",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "9d2a3d5f",
+   "season": 2019,
+   "distance": 2.89,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibai Gómez",
+   "squad": "Alavés / Athletic Club"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2018,
+   "distance": 2.907,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "29f7cfd9",
+   "season": 2018,
+   "distance": 2.922,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Zoller",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2019,
+   "distance": 2.97,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  }
+ ],
  "low_confidence": false
 }

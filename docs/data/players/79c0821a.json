@@ -26,10 +26,115 @@
   "confidence": 0.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3285,
+  "mu": 54.1,
+  "ci80": {
+   "lo": 45.3,
+   "hi": 62.8
+  },
+  "ci50": {
+   "lo": 49.5,
+   "hi": 58.7
+  },
+  "sigma_model": 1.952,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2018,
+   "distance": 2.44,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Kevin Strootman",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "6cdd8245",
+   "season": 2018,
+   "distance": 2.458,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Tom Cleverley",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2019,
+   "distance": 2.517,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2019,
+   "distance": 2.544,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2020,
+   "distance": 2.564,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "dc3fa3b5",
+   "season": 2020,
+   "distance": 2.597,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Demme",
+   "squad": "RB Leipzig / Napoli"
+  },
+  {
+   "fbref_id": "375622c5",
+   "season": 2019,
+   "distance": 2.728,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Jordan Ferri",
+   "squad": "Nîmes / Lyon"
+  },
+  {
+   "fbref_id": "dc3fa3b5",
+   "season": 2019,
+   "distance": 2.78,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Diego Demme",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "45db685d",
+   "season": 2020,
+   "distance": 2.788,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Jorginho",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "80f36c88",
+   "season": 2018,
+   "distance": 2.809,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Sebastian Rudy",
+   "squad": "Bayern Munich"
+  }
+ ],
  "low_confidence": false
 }

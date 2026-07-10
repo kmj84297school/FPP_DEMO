@@ -26,10 +26,115 @@
   "confidence": 0.39
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5096,
+  "mu": 57.3,
+  "ci80": {
+   "lo": 48.4,
+   "hi": 66.2
+  },
+  "ci50": {
+   "lo": 52.6,
+   "hi": 62.0
+  },
+  "sigma_model": 2.346,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b14d0c5d",
+   "season": 2019,
+   "distance": 1.501,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sidnei",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "d70a2141",
+   "season": 2018,
+   "distance": 1.653,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordi Amat",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "79083382",
+   "season": 2018,
+   "distance": 2.048,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Jesus",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "16b9d5cf",
+   "season": 2019,
+   "distance": 2.113,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Nikola Maksimović",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2019,
+   "distance": 2.228,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "91899ca8",
+   "season": 2020,
+   "distance": 2.291,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateo Musacchio",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2020,
+   "distance": 2.348,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Christophe Hérelle",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "6fd8a334",
+   "season": 2019,
+   "distance": 2.385,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Aleksandar Dragović",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "2946f9a1",
+   "season": 2019,
+   "distance": 2.432,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Nacho",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "f7d50789",
+   "season": 2018,
+   "distance": 2.484,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Toby Alderweireld",
+   "squad": "Tottenham"
+  }
+ ],
  "low_confidence": false
 }

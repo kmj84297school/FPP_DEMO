@@ -26,10 +26,115 @@
   "confidence": 1.4
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3596,
+  "mu": 62.0,
+  "ci80": {
+   "lo": 53.0,
+   "hi": 70.9
+  },
+  "ci50": {
+   "lo": 57.3,
+   "hi": 66.7
+  },
+  "sigma_model": 2.355,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "44f8c299",
+   "season": 2020,
+   "distance": 2.378,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Deaux",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "7106f0a0",
+   "season": 2019,
+   "distance": 2.865,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Suárez",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "e26bd2f4",
+   "season": 2020,
+   "distance": 2.875,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Panagiotis Tachtsidis",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "6c2f5996",
+   "season": 2018,
+   "distance": 2.922,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Hernández",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "67cdbc0e",
+   "season": 2019,
+   "distance": 2.954,
+   "survived": 1,
+   "fut_ability_v2": 66.9,
+   "player_name": "Arturo Vidal",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "5aaef9ef",
+   "season": 2019,
+   "distance": 2.993,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Juraj Kucka",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "b8836910",
+   "season": 2018,
+   "distance": 3.018,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Celso Borges",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "7fec31a0",
+   "season": 2019,
+   "distance": 3.025,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dan Gosling",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "c5fa58ea",
+   "season": 2018,
+   "distance": 3.116,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Pedro Mosquera",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2020,
+   "distance": 3.143,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1972,
+  "mu": 45.9,
+  "ci80": {
+   "lo": 37.3,
+   "hi": 54.6
+  },
+  "ci50": {
+   "lo": 41.4,
+   "hi": 50.5
+  },
+  "sigma_model": 1.59,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "542cc80f",
+   "season": 2020,
+   "distance": 1.833,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paul Lasne",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "1b17ed86",
+   "season": 2018,
+   "distance": 1.98,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Esteban Granero",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "144607cc",
+   "season": 2020,
+   "distance": 1.981,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jasmin Kurtić",
+   "squad": "Parma / SPAL"
+  },
+  {
+   "fbref_id": "c3a8bcd8",
+   "season": 2020,
+   "distance": 2.237,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lasse Schöne",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2020,
+   "distance": 2.296,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "d6f88a1d",
+   "season": 2020,
+   "distance": 2.376,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Adrien Silva",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "d054d8b0",
+   "season": 2018,
+   "distance": 2.533,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xabi Prieto",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "ab1ca213",
+   "season": 2018,
+   "distance": 2.544,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Miguel Veloso",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2020,
+   "distance": 2.559,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "ab1ca213",
+   "season": 2019,
+   "distance": 2.603,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Miguel Veloso",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.49
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3493,
+  "mu": 57.1,
+  "ci80": {
+   "lo": 48.4,
+   "hi": 65.8
+  },
+  "ci50": {
+   "lo": 52.5,
+   "hi": 61.7
+  },
+  "sigma_model": 1.657,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c2009df3",
+   "season": 2018,
+   "distance": 2.065,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Jonas Hector",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "c50281a0",
+   "season": 2018,
+   "distance": 2.224,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Lars Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "21512407",
+   "season": 2018,
+   "distance": 2.33,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Kieran Trippier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "9a1f2e1c",
+   "season": 2018,
+   "distance": 2.374,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafael",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "4c5b714f",
+   "season": 2019,
+   "distance": 2.449,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Djibril Sidibé",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "3dd738a1",
+   "season": 2020,
+   "distance": 2.511,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "Ruben Aguilar",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "9085dd7c",
+   "season": 2020,
+   "distance": 2.511,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Faragò",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2019,
+   "distance": 2.629,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "fdd60087",
+   "season": 2020,
+   "distance": 2.668,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santiago Arias",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2020,
+   "distance": 2.698,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martín Montoya",
+   "squad": "Brighton"
+  }
+ ],
  "low_confidence": false
 }

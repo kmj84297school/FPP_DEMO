@@ -26,10 +26,115 @@
   "confidence": 0.65
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0995,
+  "mu": 51.6,
+  "ci80": {
+   "lo": 42.9,
+   "hi": 60.3
+  },
+  "ci50": {
+   "lo": 47.0,
+   "hi": 56.2
+  },
+  "sigma_model": 1.705,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "331c0a43",
+   "season": 2020,
+   "distance": 2.346,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "7329018e",
+   "season": 2019,
+   "distance": 2.432,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Papakouli Diop",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "516dc25b",
+   "season": 2019,
+   "distance": 2.625,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaroslav Plašil",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2019,
+   "distance": 2.636,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "41f32541",
+   "season": 2020,
+   "distance": 2.716,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Fernando",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2019,
+   "distance": 2.872,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "ad340e17",
+   "season": 2018,
+   "distance": 2.928,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Aquilani",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "7dbbe367",
+   "season": 2018,
+   "distance": 2.952,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gareth Barry",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2020,
+   "distance": 2.964,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "0aa874f4",
+   "season": 2020,
+   "distance": 3.0,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alaixys Romao",
+   "squad": "Reims"
+  }
+ ],
  "low_confidence": false
 }

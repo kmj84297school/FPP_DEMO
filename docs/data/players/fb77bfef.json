@@ -26,10 +26,115 @@
   "confidence": 0.46
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3145,
+  "mu": 49.2,
+  "ci80": {
+   "lo": 40.1,
+   "hi": 58.3
+  },
+  "ci50": {
+   "lo": 44.4,
+   "hi": 54.0
+  },
+  "sigma_model": 2.688,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "79083382",
+   "season": 2018,
+   "distance": 2.505,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Jesus",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "b0243215",
+   "season": 2019,
+   "distance": 2.552,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Dell'Orco",
+   "squad": "Empoli / Sassuolo"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2020,
+   "distance": 2.627,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "c8c02ac7",
+   "season": 2018,
+   "distance": 2.681,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Zeffane",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2019,
+   "distance": 2.697,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "b14d0c5d",
+   "season": 2019,
+   "distance": 2.704,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sidnei",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "7d45b97a",
+   "season": 2018,
+   "distance": 2.725,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Cordoval",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "d70a2141",
+   "season": 2018,
+   "distance": 2.763,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordi Amat",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "34b306a1",
+   "season": 2019,
+   "distance": 2.799,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Hoffmann",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2018,
+   "distance": 2.807,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2511,
+  "mu": 58.0,
+  "ci80": {
+   "lo": 49.4,
+   "hi": 66.7
+  },
+  "ci50": {
+   "lo": 53.5,
+   "hi": 62.6
+  },
+  "sigma_model": 1.549,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "efa708aa",
+   "season": 2018,
+   "distance": 3.242,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Viera",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "a6de370d",
+   "season": 2019,
+   "distance": 3.256,
+   "survived": 1,
+   "fut_ability_v2": 65.6,
+   "player_name": "Sergio Canales",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "a6de370d",
+   "season": 2020,
+   "distance": 3.265,
+   "survived": 1,
+   "fut_ability_v2": 69.4,
+   "player_name": "Sergio Canales",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "9a2e0ccc",
+   "season": 2020,
+   "distance": 3.328,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Emil Forsberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2020,
+   "distance": 3.382,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Radja Nainggolan",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2018,
+   "distance": 3.448,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Radja Nainggolan",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2020,
+   "distance": 3.465,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "0375723e",
+   "season": 2020,
+   "distance": 3.509,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Verdi",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "440c84ed",
+   "season": 2018,
+   "distance": 3.548,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iago Falque",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "f09a8b75",
+   "season": 2019,
+   "distance": 3.578,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jimmy Durmaz",
+   "squad": "Toulouse"
+  }
+ ],
+ "low_confidence": true
 }

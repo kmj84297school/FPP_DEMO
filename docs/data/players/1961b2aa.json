@@ -26,10 +26,115 @@
   "confidence": 0.37
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0739,
+  "mu": 48.1,
+  "ci80": {
+   "lo": 39.3,
+   "hi": 56.9
+  },
+  "ci50": {
+   "lo": 43.5,
+   "hi": 52.7
+  },
+  "sigma_model": 1.928,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0e50f929",
+   "season": 2020,
+   "distance": 1.749,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fran Mérida",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "8c65eb5f",
+   "season": 2020,
+   "distance": 1.949,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mato Jajalo",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "e8c930bb",
+   "season": 2020,
+   "distance": 2.042,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Milan Badelj",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "c53083ad",
+   "season": 2020,
+   "distance": 2.089,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bryan Dabo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2019,
+   "distance": 2.095,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Paul Lasne",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "111c3236",
+   "season": 2020,
+   "distance": 2.112,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabian Delph",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2020,
+   "distance": 2.165,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2018,
+   "distance": 2.265,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "375622c5",
+   "season": 2020,
+   "distance": 2.283,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Jordan Ferri",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "468fdbad",
+   "season": 2019,
+   "distance": 2.284,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Jonas Martin",
+   "squad": "Strasbourg"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.8
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3948,
+  "mu": 40.3,
+  "ci80": {
+   "lo": 31.4,
+   "hi": 49.2
+  },
+  "ci50": {
+   "lo": 35.6,
+   "hi": 45.0
+  },
+  "sigma_model": 2.328,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "070a3904",
+   "season": 2020,
+   "distance": 2.497,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "aa5a409a",
+   "season": 2019,
+   "distance": 2.504,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raman Chibsah",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "9ceb7642",
+   "season": 2020,
+   "distance": 2.552,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre Kunde",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "67d23ab0",
+   "season": 2018,
+   "distance": 2.565,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Ince",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "ef7cd87a",
+   "season": 2019,
+   "distance": 2.583,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Abdoulaye Touré",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "b86fe156",
+   "season": 2018,
+   "distance": 2.583,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giannelli Imbula",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2018,
+   "distance": 2.59,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "862a1c15",
+   "season": 2020,
+   "distance": 2.637,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Miguel Almirón",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "a2d873dd",
+   "season": 2020,
+   "distance": 2.661,
+   "survived": 1,
+   "fut_ability_v2": 29.8,
+   "player_name": "Hwang Ui-jo",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "d7403bd5",
+   "season": 2019,
+   "distance": 2.676,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Afriyie Acquah",
+   "squad": "Empoli"
+  }
+ ],
  "low_confidence": false
 }

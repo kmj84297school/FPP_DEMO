@@ -26,10 +26,115 @@
   "confidence": 0.8
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1615,
+  "mu": 43.3,
+  "ci80": {
+   "lo": 34.3,
+   "hi": 52.3
+  },
+  "ci50": {
+   "lo": 38.6,
+   "hi": 48.0
+  },
+  "sigma_model": 2.441,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "360d70f8",
+   "season": 2020,
+   "distance": 2.033,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lago Junior",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "b59e02da",
+   "season": 2020,
+   "distance": 2.365,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Tabanelli",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "61bd33d0",
+   "season": 2020,
+   "distance": 2.539,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Takashi Inui",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "9aacb284",
+   "season": 2018,
+   "distance": 2.63,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Pugh",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "4a57580c",
+   "season": 2019,
+   "distance": 2.709,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "144607cc",
+   "season": 2018,
+   "distance": 2.735,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Jasmin Kurtić",
+   "squad": "SPAL / Atalanta"
+  },
+  {
+   "fbref_id": "c1febb46",
+   "season": 2018,
+   "distance": 2.752,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Somália",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2020,
+   "distance": 2.759,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "1ecb65be",
+   "season": 2019,
+   "distance": 2.76,
+   "survived": 1,
+   "fut_ability_v2": 35.9,
+   "player_name": "Theo Walcott",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "33af5b9e",
+   "season": 2019,
+   "distance": 2.765,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Junior Hoilett",
+   "squad": "Cardiff City"
+  }
+ ],
  "low_confidence": false
 }

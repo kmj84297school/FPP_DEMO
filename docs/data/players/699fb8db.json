@@ -26,10 +26,115 @@
   "confidence": 0.66
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1182,
+  "mu": 40.2,
+  "ci80": {
+   "lo": 31.2,
+   "hi": 49.2
+  },
+  "ci50": {
+   "lo": 35.5,
+   "hi": 44.9
+  },
+  "sigma_model": 2.44,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "87935cf3",
+   "season": 2020,
+   "distance": 2.329,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Mamadou Sakho",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2019,
+   "distance": 2.446,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "c2f9d19f",
+   "season": 2020,
+   "distance": 2.488,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Neil Taylor",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "e94d79e3",
+   "season": 2019,
+   "distance": 2.509,
+   "survived": 1,
+   "fut_ability_v2": 38.7,
+   "player_name": "Martín Cáceres",
+   "squad": "Juventus / Lazio"
+  },
+  {
+   "fbref_id": "68b78c2a",
+   "season": 2019,
+   "distance": 2.742,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lorenzo Ariaudo",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "d0d79694",
+   "season": 2018,
+   "distance": 2.831,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thomas Vermaelen",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "b233e8e4",
+   "season": 2020,
+   "distance": 2.849,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Jeison Murillo",
+   "squad": "Celta Vigo / Sampdoria"
+  },
+  {
+   "fbref_id": "caffaf5a",
+   "season": 2020,
+   "distance": 2.861,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Maya Yoshida",
+   "squad": "Sampdoria / Southampton"
+  },
+  {
+   "fbref_id": "79083382",
+   "season": 2019,
+   "distance": 2.867,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Juan Jesus",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "32d1c24f",
+   "season": 2018,
+   "distance": 2.876,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thomas Heurtaux",
+   "squad": "Hellas Verona"
+  }
+ ],
  "low_confidence": false
 }

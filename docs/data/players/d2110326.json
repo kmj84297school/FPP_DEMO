@@ -26,10 +26,115 @@
   "confidence": 0.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4119,
+  "mu": 51.0,
+  "ci80": {
+   "lo": 42.1,
+   "hi": 59.8
+  },
+  "ci50": {
+   "lo": 46.3,
+   "hi": 55.6
+  },
+  "sigma_model": 2.195,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d9764034",
+   "season": 2020,
+   "distance": 1.971,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Guillermo Maripán",
+   "squad": "Monaco / Alavés"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2019,
+   "distance": 2.037,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "1c344204",
+   "season": 2018,
+   "distance": 2.076,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Yamberé",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2019,
+   "distance": 2.113,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "18b896d6",
+   "season": 2018,
+   "distance": 2.125,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Antonio Rüdiger",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2019,
+   "distance": 2.162,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "aad48be9",
+   "season": 2020,
+   "distance": 2.174,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "1025db8e",
+   "season": 2018,
+   "distance": 2.175,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Jeffrey Gouweleeuw",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2018,
+   "distance": 2.23,
+   "survived": 1,
+   "fut_ability_v2": 42.7,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "6d5701f2",
+   "season": 2020,
+   "distance": 2.244,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yerry Mina",
+   "squad": "Everton"
+  }
+ ],
  "low_confidence": false
 }

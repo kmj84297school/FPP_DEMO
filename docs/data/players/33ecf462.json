@@ -26,10 +26,115 @@
   "confidence": 0.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3994,
+  "mu": 54.3,
+  "ci80": {
+   "lo": 45.5,
+   "hi": 63.1
+  },
+  "ci50": {
+   "lo": 49.7,
+   "hi": 58.9
+  },
+  "sigma_model": 2.002,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6bde367b",
+   "season": 2020,
+   "distance": 2.523,
+   "survived": 1,
+   "fut_ability_v2": 62.0,
+   "player_name": "Téji Savanier",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "375622c5",
+   "season": 2020,
+   "distance": 2.915,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Jordan Ferri",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "0e50f929",
+   "season": 2020,
+   "distance": 2.925,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fran Mérida",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "56b2957b",
+   "season": 2020,
+   "distance": 2.999,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Castro",
+   "squad": "Cagliari / SPAL"
+  },
+  {
+   "fbref_id": "56b2957b",
+   "season": 2018,
+   "distance": 3.032,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Lucas Castro",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "b9fbae28",
+   "season": 2020,
+   "distance": 3.112,
+   "survived": 1,
+   "fut_ability_v2": 66.6,
+   "player_name": "N'Golo Kanté",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "8011fcf6",
+   "season": 2018,
+   "distance": 3.21,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ledian Memushaj",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2018,
+   "distance": 3.244,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "e12b0b5b",
+   "season": 2019,
+   "distance": 3.25,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Sebastian Rode",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "375622c5",
+   "season": 2019,
+   "distance": 3.25,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Jordan Ferri",
+   "squad": "Nîmes / Lyon"
+  }
+ ],
  "low_confidence": false
 }

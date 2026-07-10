@@ -26,10 +26,115 @@
   "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1323,
+  "mu": 55.7,
+  "ci80": {
+   "lo": 46.9,
+   "hi": 64.5
+  },
+  "ci50": {
+   "lo": 51.0,
+   "hi": 60.3
+  },
+  "sigma_model": 2.037,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "719384c1",
+   "season": 2020,
+   "distance": 2.357,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Ángel Montoro",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "bc61cc65",
+   "season": 2020,
+   "distance": 2.359,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iñigo Pérez",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "07abb358",
+   "season": 2019,
+   "distance": 2.42,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rômulo",
+   "squad": "Genoa / Lazio"
+  },
+  {
+   "fbref_id": "0e21fc3c",
+   "season": 2020,
+   "distance": 2.778,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Valero",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "ef322658",
+   "season": 2020,
+   "distance": 2.817,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "75d97aa6",
+   "season": 2018,
+   "distance": 2.96,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stéphane Darbion",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "71d4e271",
+   "season": 2018,
+   "distance": 2.975,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Manuel Jurado",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "1b17ed86",
+   "season": 2019,
+   "distance": 3.037,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Esteban Granero",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "68829001",
+   "season": 2019,
+   "distance": 3.07,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Gonzalo Castro",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "def69cd0",
+   "season": 2018,
+   "distance": 3.12,
+   "survived": 1,
+   "fut_ability_v2": 37.4,
+   "player_name": "Mikel Rico",
+   "squad": "Athletic Club"
+  }
+ ],
  "low_confidence": false
 }

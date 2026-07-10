@@ -26,10 +26,115 @@
   "confidence": 2.13
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4697,
+  "mu": 46.1,
+  "ci80": {
+   "lo": 37.1,
+   "hi": 55.1
+  },
+  "ci50": {
+   "lo": 41.4,
+   "hi": 50.8
+  },
+  "sigma_model": 2.425,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d1491e00",
+   "season": 2018,
+   "distance": 1.944,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Rolán",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "03f946ed",
+   "season": 2020,
+   "distance": 2.594,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Petagna",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "5ceba7fc",
+   "season": 2019,
+   "distance": 2.675,
+   "survived": 1,
+   "fut_ability_v2": 71.0,
+   "player_name": "Karl Toko Ekambi",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "75a63397",
+   "season": 2020,
+   "distance": 2.682,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Opa Nguette",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "43458538",
+   "season": 2019,
+   "distance": 2.8,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "6a99e0b1",
+   "season": 2020,
+   "distance": 2.866,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Iñaki Williams",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "6a99e0b1",
+   "season": 2019,
+   "distance": 2.926,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Iñaki Williams",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "a08b974a",
+   "season": 2020,
+   "distance": 2.934,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Lucas Ocampos",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "64f69877",
+   "season": 2018,
+   "distance": 2.938,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "43458538",
+   "season": 2018,
+   "distance": 2.971,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.33
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3117,
+  "mu": 40.8,
+  "ci80": {
+   "lo": 32.0,
+   "hi": 49.6
+  },
+  "ci50": {
+   "lo": 36.2,
+   "hi": 45.4
+  },
+  "sigma_model": 2.071,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d2ac648c",
+   "season": 2018,
+   "distance": 1.783,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaku Shibasaki",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "0000acda",
+   "season": 2020,
+   "distance": 1.784,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Benassi",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "d5575935",
+   "season": 2020,
+   "distance": 1.81,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valon Berisha",
+   "squad": "Düsseldorf / Lazio"
+  },
+  {
+   "fbref_id": "86695068",
+   "season": 2020,
+   "distance": 2.088,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Dennis Praet",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "bf13975c",
+   "season": 2020,
+   "distance": 2.114,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Žan Majer",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2018,
+   "distance": 2.13,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Roberto Soriano",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "3faa1780",
+   "season": 2020,
+   "distance": 2.183,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lukas Rupp",
+   "squad": "Norwich City / Hoffenheim"
+  },
+  {
+   "fbref_id": "92b56413",
+   "season": 2018,
+   "distance": 2.25,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tristan Dingomé",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "98e958af",
+   "season": 2019,
+   "distance": 2.258,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Hiljemark",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "a1d04509",
+   "season": 2019,
+   "distance": 2.286,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yacine Bammou",
+   "squad": "Caen"
+  }
+ ],
  "low_confidence": false
 }

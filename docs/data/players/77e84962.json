@@ -26,10 +26,115 @@
   "confidence": 0.4
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3496,
+  "mu": 56.8,
+  "ci80": {
+   "lo": 47.8,
+   "hi": 65.7
+  },
+  "ci50": {
+   "lo": 52.0,
+   "hi": 61.5
+  },
+  "sigma_model": 2.474,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b746d309",
+   "season": 2018,
+   "distance": 1.978,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Riccardo Montolivo",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "5710a281",
+   "season": 2018,
+   "distance": 2.089,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Biglia",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "bd84fc61",
+   "season": 2019,
+   "distance": 2.365,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Pasquale Schiattarella",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2019,
+   "distance": 2.442,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ae64d449",
+   "season": 2019,
+   "distance": 2.465,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Luca Cigarini",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "cf15bbb1",
+   "season": 2018,
+   "distance": 2.467,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Davis",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "d6f88a1d",
+   "season": 2020,
+   "distance": 2.477,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Adrien Silva",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2019,
+   "distance": 2.488,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Paul Lasne",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "2f90f6b8",
+   "season": 2020,
+   "distance": 2.489,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "James Milner",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "023937a9",
+   "season": 2020,
+   "distance": 2.505,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Ivan Radovanović",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3993,
+  "mu": 43.6,
+  "ci80": {
+   "lo": 34.3,
+   "hi": 52.9
+  },
+  "ci50": {
+   "lo": 38.7,
+   "hi": 48.5
+  },
+  "sigma_model": 3.124,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1fca9171",
+   "season": 2019,
+   "distance": 2.054,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Federico Di Francesco",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "1fca9171",
+   "season": 2020,
+   "distance": 2.207,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Federico Di Francesco",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "2513a588",
+   "season": 2019,
+   "distance": 2.433,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luciano Vietto",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "8f866fe8",
+   "season": 2019,
+   "distance": 2.672,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Manolo Gabbiadini",
+   "squad": "Sampdoria / Southampton"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2020,
+   "distance": 2.674,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria / Parma"
+  },
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2019,
+   "distance": 2.927,
+   "survived": 1,
+   "fut_ability_v2": 66.4,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "833fb62e",
+   "season": 2020,
+   "distance": 3.058,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Sandro Ramírez",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2020,
+   "distance": 3.109,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khouma Babacar",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "19b776e9",
+   "season": 2018,
+   "distance": 3.198,
+   "survived": 1,
+   "fut_ability_v2": 37.3,
+   "player_name": "Rubén Sobrino",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "a1c7b425",
+   "season": 2018,
+   "distance": 3.199,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Pucciarelli",
+   "squad": "Chievo"
+  }
+ ],
  "low_confidence": false
 }

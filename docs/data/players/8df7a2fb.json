@@ -26,10 +26,115 @@
   "confidence": 1.03
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1555,
+  "mu": 59.0,
+  "ci80": {
+   "lo": 50.1,
+   "hi": 67.9
+  },
+  "ci50": {
+   "lo": 54.3,
+   "hi": 63.6
+  },
+  "sigma_model": 2.245,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fc4f85b1",
+   "season": 2019,
+   "distance": 1.843,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Diego Godín",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "8cea6319",
+   "season": 2018,
+   "distance": 1.951,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Felipe dal Belo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "4e358a2d",
+   "season": 2019,
+   "distance": 2.212,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Federico Fazio",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "80c31c97",
+   "season": 2019,
+   "distance": 2.272,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wes Morgan",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "dbb10755",
+   "season": 2018,
+   "distance": 2.341,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kader Mangane",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2018,
+   "distance": 2.416,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "1aa84968",
+   "season": 2020,
+   "distance": 2.484,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Basham",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2019,
+   "distance": 2.596,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "779847d6",
+   "season": 2020,
+   "distance": 2.633,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Nicolas Pallois",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2019,
+   "distance": 2.639,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  }
+ ],
  "low_confidence": false
 }

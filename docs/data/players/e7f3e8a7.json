@@ -26,10 +26,115 @@
   "confidence": 1.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.5531,
+  "mu": 52.2,
+  "ci80": {
+   "lo": 43.3,
+   "hi": 61.1
+  },
+  "ci50": {
+   "lo": 47.5,
+   "hi": 56.9
+  },
+  "sigma_model": 2.215,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "75a63397",
+   "season": 2020,
+   "distance": 4.27,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Opa Nguette",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "b2bc3b1f",
+   "season": 2020,
+   "distance": 4.508,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Wilfried Zaha",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "e0921a4f",
+   "season": 2019,
+   "distance": 4.698,
+   "survived": 1,
+   "fut_ability_v2": 70.7,
+   "player_name": "Paulo Dybala",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "43458538",
+   "season": 2018,
+   "distance": 4.824,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "d1491e00",
+   "season": 2018,
+   "distance": 4.986,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Rolán",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2019,
+   "distance": 4.997,
+   "survived": 1,
+   "fut_ability_v2": 66.4,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2019,
+   "distance": 5.18,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "a53b661f",
+   "season": 2020,
+   "distance": 5.284,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Ihlas Bebou",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2019,
+   "distance": 5.304,
+   "survived": 1,
+   "fut_ability_v2": 73.4,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "a08b974a",
+   "season": 2020,
+   "distance": 5.419,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Lucas Ocampos",
+   "squad": "Sevilla"
+  }
+ ],
+ "low_confidence": true
 }

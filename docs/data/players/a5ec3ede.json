@@ -26,10 +26,115 @@
   "confidence": 0.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2546,
+  "mu": 52.0,
+  "ci80": {
+   "lo": 43.1,
+   "hi": 60.8
+  },
+  "ci50": {
+   "lo": 47.3,
+   "hi": 56.6
+  },
+  "sigma_model": 2.145,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "de488e56",
+   "season": 2020,
+   "distance": 1.124,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles Traore",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "5939baa2",
+   "season": 2019,
+   "distance": 1.272,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2020,
+   "distance": 1.603,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "8a7ff278",
+   "season": 2020,
+   "distance": 1.606,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Joel Ward",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "cb574619",
+   "season": 2020,
+   "distance": 1.645,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "feb5d3ab",
+   "season": 2020,
+   "distance": 1.741,
+   "survived": 1,
+   "fut_ability_v2": 38.7,
+   "player_name": "Dennis Appiah",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2018,
+   "distance": 1.818,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "f3112790",
+   "season": 2020,
+   "distance": 1.859,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Unai Bustinza",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "541cdd20",
+   "season": 2018,
+   "distance": 1.88,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oliver Sorg",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "8a7ff278",
+   "season": 2018,
+   "distance": 1.9,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Joel Ward",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

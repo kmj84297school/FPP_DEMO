@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2114,
+  "mu": 55.3,
+  "ci80": {
+   "lo": 46.6,
+   "hi": 64.1
+  },
+  "ci50": {
+   "lo": 50.7,
+   "hi": 60.0
+  },
+  "sigma_model": 1.989,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6b200d45",
+   "season": 2020,
+   "distance": 1.58,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "e0314d87",
+   "season": 2019,
+   "distance": 1.724,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Andrea Masiello",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "56400c01",
+   "season": 2018,
+   "distance": 1.767,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Fabio Pisacane",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2018,
+   "distance": 1.854,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "779847d6",
+   "season": 2020,
+   "distance": 1.863,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Nicolas Pallois",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2020,
+   "distance": 1.867,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2018,
+   "distance": 1.916,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "7adea561",
+   "season": 2018,
+   "distance": 1.926,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Toulalan",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "53de807a",
+   "season": 2020,
+   "distance": 1.946,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "4bd414c1",
+   "season": 2019,
+   "distance": 1.952,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Raúl Albiol",
+   "squad": "Napoli"
+  }
+ ],
  "low_confidence": false
 }

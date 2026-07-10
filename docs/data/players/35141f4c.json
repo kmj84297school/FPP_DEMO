@@ -26,10 +26,115 @@
   "confidence": 1.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4263,
+  "mu": 46.1,
+  "ci80": {
+   "lo": 37.5,
+   "hi": 54.7
+  },
+  "ci50": {
+   "lo": 41.6,
+   "hi": 50.6
+  },
+  "sigma_model": 1.533,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6adbc307",
+   "season": 2019,
+   "distance": 1.672,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "25f50295",
+   "season": 2018,
+   "distance": 1.717,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Mike van der Hoorn",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2019,
+   "distance": 1.824,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "aad48be9",
+   "season": 2020,
+   "distance": 1.922,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "6adbc307",
+   "season": 2020,
+   "distance": 1.942,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "8db394aa",
+   "season": 2018,
+   "distance": 1.956,
+   "survived": 1,
+   "fut_ability_v2": 40.0,
+   "player_name": "Ximo Navarro",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "b14d0c5d",
+   "season": 2018,
+   "distance": 1.964,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Sidnei",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "7f9111ea",
+   "season": 2018,
+   "distance": 1.987,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steeve Yago",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2020,
+   "distance": 1.997,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "06c48679",
+   "season": 2019,
+   "distance": 1.998,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Jonathan Gradit",
+   "squad": "Caen"
+  }
+ ],
  "low_confidence": false
 }

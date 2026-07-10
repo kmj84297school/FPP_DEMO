@@ -26,10 +26,115 @@
   "confidence": 0.7
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4955,
+  "mu": 49.8,
+  "ci80": {
+   "lo": 41.1,
+   "hi": 58.6
+  },
+  "ci50": {
+   "lo": 45.2,
+   "hi": 54.4
+  },
+  "sigma_model": 1.884,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "20b104bc",
+   "season": 2018,
+   "distance": 2.161,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Adam Smith",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "e4b72e34",
+   "season": 2020,
+   "distance": 2.222,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Miguel Trauco",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2019,
+   "distance": 2.326,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2018,
+   "distance": 2.446,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "7af0e1f8",
+   "season": 2018,
+   "distance": 2.451,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Rivierez",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "872cd68c",
+   "season": 2018,
+   "distance": 2.456,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yoann Andreu",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "2e3406ae",
+   "season": 2020,
+   "distance": 2.488,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fran Gámez",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2020,
+   "distance": 2.527,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Alberto Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2020,
+   "distance": 2.537,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "c8c02ac7",
+   "season": 2018,
+   "distance": 2.566,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Zeffane",
+   "squad": "Rennes"
+  }
+ ],
  "low_confidence": false
 }

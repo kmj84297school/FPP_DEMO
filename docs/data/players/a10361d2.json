@@ -26,10 +26,115 @@
   "confidence": 1.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3758,
+  "mu": 53.5,
+  "ci80": {
+   "lo": 44.9,
+   "hi": 62.2
+  },
+  "ci50": {
+   "lo": 49.0,
+   "hi": 58.1
+  },
+  "sigma_model": 1.542,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4611e028",
+   "season": 2020,
+   "distance": 2.08,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Erick Pulgar",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "86e119e0",
+   "season": 2020,
+   "distance": 2.226,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Maximilian Arnold",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2019,
+   "distance": 2.317,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2020,
+   "distance": 2.421,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2019,
+   "distance": 2.565,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Joan Jordán",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "10efd0e1",
+   "season": 2019,
+   "distance": 2.631,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean Seri",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "ad6df2d5",
+   "season": 2018,
+   "distance": 2.706,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Miralem Pjanić",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "3e092724",
+   "season": 2020,
+   "distance": 2.86,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Wylan Cyprien",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "10efd0e1",
+   "season": 2018,
+   "distance": 2.893,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean Seri",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2018,
+   "distance": 2.894,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

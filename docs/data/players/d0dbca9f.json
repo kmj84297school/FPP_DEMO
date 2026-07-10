@@ -26,10 +26,115 @@
   "confidence": 0.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3719,
+  "mu": 44.5,
+  "ci80": {
+   "lo": 35.7,
+   "hi": 53.2
+  },
+  "ci50": {
+   "lo": 39.9,
+   "hi": 49.1
+  },
+  "sigma_model": 1.873,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9b30df1e",
+   "season": 2019,
+   "distance": 1.529,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bartosz Salamon",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2019,
+   "distance": 1.674,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "2515040a",
+   "season": 2019,
+   "distance": 1.7,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Paul Baysse",
+   "squad": "Caen / Bordeaux"
+  },
+  {
+   "fbref_id": "616aea37",
+   "season": 2019,
+   "distance": 1.716,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "117beb8f",
+   "season": 2018,
+   "distance": 1.74,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giancarlo González",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "ac3fb1be",
+   "season": 2018,
+   "distance": 1.784,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Ezequiel Garay",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "14e8e9d7",
+   "season": 2020,
+   "distance": 1.795,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolas Isimat-Mirin",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "e1deea75",
+   "season": 2019,
+   "distance": 1.796,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Carriço",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "8b8a56ce",
+   "season": 2019,
+   "distance": 1.883,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Simon Kjær",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2018,
+   "distance": 1.936,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  }
+ ],
  "low_confidence": false
 }

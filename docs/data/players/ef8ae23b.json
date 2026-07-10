@@ -26,10 +26,115 @@
   "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0577,
+  "mu": 48.0,
+  "ci80": {
+   "lo": 39.3,
+   "hi": 56.8
+  },
+  "ci50": {
+   "lo": 43.4,
+   "hi": 52.6
+  },
+  "sigma_model": 1.904,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "516dc25b",
+   "season": 2018,
+   "distance": 2.061,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaroslav Plašil",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "4e7bfc23",
+   "season": 2019,
+   "distance": 2.086,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Florent Balmont",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "1c8dc17d",
+   "season": 2018,
+   "distance": 2.335,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michael Krohn-Dehli",
+   "squad": "La Coruña / Sevilla"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2018,
+   "distance": 2.513,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "516dc25b",
+   "season": 2019,
+   "distance": 2.64,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaroslav Plašil",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "0aa874f4",
+   "season": 2020,
+   "distance": 2.681,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alaixys Romao",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "65d750b5",
+   "season": 2018,
+   "distance": 2.688,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabi",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "532d2690",
+   "season": 2018,
+   "distance": 2.911,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele De Rossi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "abb42ce6",
+   "season": 2018,
+   "distance": 3.09,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Lehmann",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2019,
+   "distance": 3.102,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  }
+ ],
  "low_confidence": false
 }

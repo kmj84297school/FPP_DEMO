@@ -26,10 +26,115 @@
   "confidence": 1.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3142,
+  "mu": 49.2,
+  "ci80": {
+   "lo": 40.3,
+   "hi": 58.1
+  },
+  "ci50": {
+   "lo": 44.5,
+   "hi": 53.9
+  },
+  "sigma_model": 2.286,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1900032e",
+   "season": 2019,
+   "distance": 1.614,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Jannik Vestergaard",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "25f50295",
+   "season": 2018,
+   "distance": 1.84,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Mike van der Hoorn",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2018,
+   "distance": 1.843,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Armando Izzo",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "6adbc307",
+   "season": 2019,
+   "distance": 1.893,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "27f0ddef",
+   "season": 2019,
+   "distance": 1.948,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Helander",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "a8fbae1d",
+   "season": 2018,
+   "distance": 2.101,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Paulo Oliveira",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "0821331c",
+   "season": 2019,
+   "distance": 2.232,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Mattia Bani",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "3fe6bd8c",
+   "season": 2018,
+   "distance": 2.315,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Paul Dummett",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "3fe6bd8c",
+   "season": 2019,
+   "distance": 2.329,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Paul Dummett",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "c3e4ecbb",
+   "season": 2019,
+   "distance": 2.341,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Lefort",
+   "squad": "Amiens"
+  }
+ ],
  "low_confidence": false
 }

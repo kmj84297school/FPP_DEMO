@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3166,
+  "mu": 46.2,
+  "ci80": {
+   "lo": 37.5,
+   "hi": 55.0
+  },
+  "ci50": {
+   "lo": 41.6,
+   "hi": 50.9
+  },
+  "sigma_model": 1.991,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "542cc80f",
+   "season": 2019,
+   "distance": 1.397,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Paul Lasne",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "b037bd4f",
+   "season": 2019,
+   "distance": 1.416,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Beñat Etxebarria",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2019,
+   "distance": 1.503,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2018,
+   "distance": 1.519,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Paul Lasne",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "ab1ca213",
+   "season": 2018,
+   "distance": 1.561,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Miguel Veloso",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 1.589,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "418f8f61",
+   "season": 2020,
+   "distance": 1.701,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Míchel",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2019,
+   "distance": 1.738,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Kevin Strootman",
+   "squad": "Marseille / Roma"
+  },
+  {
+   "fbref_id": "bd84fc61",
+   "season": 2019,
+   "distance": 1.767,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Pasquale Schiattarella",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "f503ea63",
+   "season": 2020,
+   "distance": 1.901,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Albin Ekdal",
+   "squad": "Sampdoria"
+  }
+ ],
  "low_confidence": false
 }

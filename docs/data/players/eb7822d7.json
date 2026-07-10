@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1425,
+  "mu": 54.3,
+  "ci80": {
+   "lo": 45.6,
+   "hi": 63.0
+  },
+  "ci50": {
+   "lo": 49.7,
+   "hi": 58.9
+  },
+  "sigma_model": 1.604,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "516dc25b",
+   "season": 2019,
+   "distance": 1.719,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaroslav Plašil",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "ad340e17",
+   "season": 2018,
+   "distance": 2.0,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Aquilani",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "0aa874f4",
+   "season": 2020,
+   "distance": 2.095,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alaixys Romao",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "cf15bbb1",
+   "season": 2018,
+   "distance": 2.109,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Davis",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2019,
+   "distance": 2.111,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2018,
+   "distance": 2.147,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2019,
+   "distance": 2.341,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "7dbbe367",
+   "season": 2018,
+   "distance": 2.363,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gareth Barry",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "43a1bea5",
+   "season": 2018,
+   "distance": 2.464,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Édgar Barreto",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "65d750b5",
+   "season": 2018,
+   "distance": 2.471,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabi",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

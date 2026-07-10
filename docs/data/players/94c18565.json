@@ -26,10 +26,115 @@
   "confidence": 0.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.441,
+  "mu": 52.7,
+  "ci80": {
+   "lo": 43.7,
+   "hi": 61.7
+  },
+  "ci50": {
+   "lo": 48.0,
+   "hi": 57.5
+  },
+  "sigma_model": 2.509,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1f9328da",
+   "season": 2020,
+   "distance": 3.364,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Radja Nainggolan",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "455a2b79",
+   "season": 2018,
+   "distance": 3.489,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valter Birsa",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "6421dd73",
+   "season": 2018,
+   "distance": 3.604,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Mathieu Dossevi",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "c90977db",
+   "season": 2018,
+   "distance": 3.638,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Fabián Orellana",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2020,
+   "distance": 3.761,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2020,
+   "distance": 3.777,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "b2d0ec1b",
+   "season": 2018,
+   "distance": 3.819,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Nolito",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "4a478107",
+   "season": 2018,
+   "distance": 3.844,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "José Luis Morales",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "6421dd73",
+   "season": 2020,
+   "distance": 3.987,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Dossevi",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2018,
+   "distance": 3.99,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  }
+ ],
+ "low_confidence": true
 }

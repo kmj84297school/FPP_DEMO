@@ -26,10 +26,115 @@
   "confidence": 1.57
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4472,
+  "mu": 49.6,
+  "ci80": {
+   "lo": 41.0,
+   "hi": 58.2
+  },
+  "ci50": {
+   "lo": 45.1,
+   "hi": 54.2
+  },
+  "sigma_model": 1.432,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d4535821",
+   "season": 2019,
+   "distance": 1.941,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Adam Marušić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "394854c4",
+   "season": 2020,
+   "distance": 2.129,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "George Baldock",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 2.14,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "f26e3c59",
+   "season": 2018,
+   "distance": 2.225,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Laxalt",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "f2571c91",
+   "season": 2019,
+   "distance": 2.416,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tim Leibold",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2019,
+   "distance": 2.491,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "4cee5954",
+   "season": 2020,
+   "distance": 2.529,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Olaza",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2018,
+   "distance": 2.536,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "90eb507d",
+   "season": 2020,
+   "distance": 2.557,
+   "survived": 1,
+   "fut_ability_v2": 37.8,
+   "player_name": "Thomas Foket",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "3a9c4b7b",
+   "season": 2020,
+   "distance": 2.584,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Nacho Vidal",
+   "squad": "Osasuna"
+  }
+ ],
  "low_confidence": false
 }

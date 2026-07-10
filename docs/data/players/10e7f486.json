@@ -26,10 +26,115 @@
   "confidence": 0.94
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4273,
+  "mu": 41.4,
+  "ci80": {
+   "lo": 32.6,
+   "hi": 50.1
+  },
+  "ci50": {
+   "lo": 36.8,
+   "hi": 46.0
+  },
+  "sigma_model": 1.887,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "90eb507d",
+   "season": 2020,
+   "distance": 1.717,
+   "survived": 1,
+   "fut_ability_v2": 37.8,
+   "player_name": "Thomas Foket",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "ec400194",
+   "season": 2018,
+   "distance": 2.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oussama Haddadi",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "7f78ad23",
+   "season": 2018,
+   "distance": 2.253,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Ricardo Rodríguez",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "7f78ad23",
+   "season": 2019,
+   "distance": 2.264,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Ricardo Rodríguez",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "4cee5954",
+   "season": 2020,
+   "distance": 2.292,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Olaza",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "b92edde2",
+   "season": 2019,
+   "distance": 2.305,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxime Poundjé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "cee88597",
+   "season": 2018,
+   "distance": 2.309,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iván Balliu",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "b05e2dbd",
+   "season": 2020,
+   "distance": 2.415,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "José Luis Gayà",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2020,
+   "distance": 2.422,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "9fec8860",
+   "season": 2019,
+   "distance": 2.445,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Ludwig Augustinsson",
+   "squad": "Werder Bremen"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7093,
+  "mu": 57.1,
+  "ci80": {
+   "lo": 48.0,
+   "hi": 66.1
+  },
+  "ci50": {
+   "lo": 52.3,
+   "hi": 61.9
+  },
+  "sigma_model": 2.611,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4d034881",
+   "season": 2019,
+   "distance": 2.416,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Agüero",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "a6154613",
+   "season": 2020,
+   "distance": 2.491,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Luis Suárez",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "09a9e921",
+   "season": 2018,
+   "distance": 2.581,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Carlos Bacca",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "42276181",
+   "season": 2019,
+   "distance": 2.78,
+   "survived": 1,
+   "fut_ability_v2": 41.9,
+   "player_name": "Kévin Gameiro",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2018,
+   "distance": 2.912,
+   "survived": 1,
+   "fut_ability_v2": 69.4,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ee4f2f3b",
+   "season": 2018,
+   "distance": 2.92,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Fabio Quagliarella",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "53e07d0b",
+   "season": 2019,
+   "distance": 2.958,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ádám Szalai",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "5bd72174",
+   "season": 2019,
+   "distance": 3.034,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Francesco Caputo",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "89b2c8a9",
+   "season": 2018,
+   "distance": 3.049,
+   "survived": 1,
+   "fut_ability_v2": 71.6,
+   "player_name": "Dries Mertens",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "70d74ece",
+   "season": 2019,
+   "distance": 3.13,
+   "survived": 1,
+   "fut_ability_v2": 79.7,
+   "player_name": "Karim Benzema",
+   "squad": "Real Madrid"
+  }
+ ],
  "low_confidence": false
 }

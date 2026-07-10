@@ -26,10 +26,115 @@
   "confidence": 1.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2297,
+  "mu": 57.0,
+  "ci80": {
+   "lo": 47.9,
+   "hi": 66.1
+  },
+  "ci50": {
+   "lo": 52.2,
+   "hi": 61.8
+  },
+  "sigma_model": 2.722,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8b298f56",
+   "season": 2019,
+   "distance": 1.952,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Clément Grenier",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "e7f4603c",
+   "season": 2018,
+   "distance": 1.966,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Borja García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2020,
+   "distance": 2.014,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "455a2b79",
+   "season": 2018,
+   "distance": 2.033,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valter Birsa",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2019,
+   "distance": 2.151,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Florent Mollet",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "79135368",
+   "season": 2019,
+   "distance": 2.218,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fayçal Fajr",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2018,
+   "distance": 2.239,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Radja Nainggolan",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "5f9f0531",
+   "season": 2018,
+   "distance": 2.295,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Hunt",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "6fd1ba62",
+   "season": 2018,
+   "distance": 2.522,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Markel Susaeta",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "ef322658",
+   "season": 2018,
+   "distance": 2.556,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

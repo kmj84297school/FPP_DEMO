@@ -26,10 +26,115 @@
   "confidence": 0.83
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5442,
+  "mu": 40.3,
+  "ci80": {
+   "lo": 31.5,
+   "hi": 49.2
+  },
+  "ci50": {
+   "lo": 35.7,
+   "hi": 45.0
+  },
+  "sigma_model": 2.163,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "de5b5570",
+   "season": 2020,
+   "distance": 2.362,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Marvelous Nakamba",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "4442fbcd",
+   "season": 2020,
+   "distance": 2.385,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nikola Vukčević",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "7c4243d4",
+   "season": 2018,
+   "distance": 2.483,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Roque Mesa",
+   "squad": "Swansea City / Sevilla"
+  },
+  {
+   "fbref_id": "1d8c99b0",
+   "season": 2018,
+   "distance": 2.714,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ki Sung-yueng",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2019,
+   "distance": 2.718,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "0d2158d5",
+   "season": 2018,
+   "distance": 2.758,
+   "survived": 1,
+   "fut_ability_v2": 37.8,
+   "player_name": "Jordan Marié",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "1598599e",
+   "season": 2019,
+   "distance": 2.785,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "Nampalys Mendy",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "ec9a28ce",
+   "season": 2018,
+   "distance": 2.845,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Williams",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "664590fa",
+   "season": 2019,
+   "distance": 2.853,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Sobottka",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "0076ab7f",
+   "season": 2020,
+   "distance": 2.868,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Nemanja Gudelj",
+   "squad": "Sevilla"
+  }
+ ],
  "low_confidence": false
 }

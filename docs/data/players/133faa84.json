@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5419,
+  "mu": 47.2,
+  "ci80": {
+   "lo": 38.2,
+   "hi": 56.1
+  },
+  "ci50": {
+   "lo": 42.4,
+   "hi": 51.9
+  },
+  "sigma_model": 2.447,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "42b1a58a",
+   "season": 2020,
+   "distance": 1.765,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nehuén Paz",
+   "squad": "Lecce / Bologna"
+  },
+  {
+   "fbref_id": "fbffc4b1",
+   "season": 2018,
+   "distance": 1.814,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Jeffrey Bruma",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "7b075c75",
+   "season": 2018,
+   "distance": 1.878,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Adama Soumaoro",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "555f3a0b",
+   "season": 2020,
+   "distance": 1.901,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Mario Hermoso",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "616aea37",
+   "season": 2018,
+   "distance": 1.965,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Crotone / Cagliari"
+  },
+  {
+   "fbref_id": "4fdf1fd9",
+   "season": 2020,
+   "distance": 2.013,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Björn Engels",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "1d8e9add",
+   "season": 2020,
+   "distance": 2.051,
+   "survived": 1,
+   "fut_ability_v2": 46.9,
+   "player_name": "Kevin Vogt",
+   "squad": "Werder Bremen / Hoffenheim"
+  },
+  {
+   "fbref_id": "3376a776",
+   "season": 2020,
+   "distance": 2.055,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Karim Rekik",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "2990c466",
+   "season": 2020,
+   "distance": 2.074,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kastriot Dermaku",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2018,
+   "distance": 2.09,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  }
+ ],
  "low_confidence": false
 }

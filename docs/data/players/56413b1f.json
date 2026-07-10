@@ -26,10 +26,115 @@
   "confidence": 0.89
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1347,
+  "mu": 48.8,
+  "ci80": {
+   "lo": 39.8,
+   "hi": 57.8
+  },
+  "ci50": {
+   "lo": 44.0,
+   "hi": 53.5
+  },
+  "sigma_model": 2.539,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2018,
+   "distance": 2.488,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "ad340e17",
+   "season": 2018,
+   "distance": 2.523,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Aquilani",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "ecab64a0",
+   "season": 2019,
+   "distance": 2.624,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "cf15bbb1",
+   "season": 2018,
+   "distance": 2.689,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Davis",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "43a1bea5",
+   "season": 2018,
+   "distance": 2.698,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Édgar Barreto",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "a4f94a0d",
+   "season": 2018,
+   "distance": 2.708,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Christian Gentner",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "1b17ed86",
+   "season": 2019,
+   "distance": 2.805,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Esteban Granero",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2019,
+   "distance": 2.826,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "0aa874f4",
+   "season": 2020,
+   "distance": 2.829,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alaixys Romao",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2019,
+   "distance": 2.878,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  }
+ ],
  "low_confidence": false
 }

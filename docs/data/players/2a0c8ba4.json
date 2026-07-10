@@ -26,10 +26,115 @@
   "confidence": 0.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3836,
+  "mu": 44.7,
+  "ci80": {
+   "lo": 35.7,
+   "hi": 53.7
+  },
+  "ci50": {
+   "lo": 40.0,
+   "hi": 49.4
+  },
+  "sigma_model": 2.496,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "54073b28",
+   "season": 2020,
+   "distance": 1.552,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "cefb32b1",
+   "season": 2018,
+   "distance": 1.651,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vicente Gómez",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "1d8c99b0",
+   "season": 2019,
+   "distance": 1.754,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ki Sung-yueng",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2020,
+   "distance": 1.763,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "1d8c99b0",
+   "season": 2018,
+   "distance": 1.862,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ki Sung-yueng",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2019,
+   "distance": 1.865,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2019,
+   "distance": 1.951,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Darko Brašanac",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "98e958af",
+   "season": 2019,
+   "distance": 1.952,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Hiljemark",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "2f4c5a52",
+   "season": 2018,
+   "distance": 2.105,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Harry Arter",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "46291841",
+   "season": 2019,
+   "distance": 2.115,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Bostock",
+   "squad": "Toulouse"
+  }
+ ],
  "low_confidence": false
 }

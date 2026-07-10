@@ -26,10 +26,115 @@
   "confidence": 0.61
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4124,
+  "mu": 54.5,
+  "ci80": {
+   "lo": 45.5,
+   "hi": 63.4
+  },
+  "ci50": {
+   "lo": 49.7,
+   "hi": 59.2
+  },
+  "sigma_model": 2.481,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d33c706e",
+   "season": 2020,
+   "distance": 1.853,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Andy Delort",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "5eae500a",
+   "season": 2020,
+   "distance": 2.244,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Romelu Lukaku",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2019,
+   "distance": 2.306,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Wahbi Khazri",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "0b4d8274",
+   "season": 2018,
+   "distance": 2.361,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Romain Hamouma",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2018,
+   "distance": 2.44,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Wahbi Khazri",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "d33c706e",
+   "season": 2019,
+   "distance": 2.462,
+   "survived": 1,
+   "fut_ability_v2": 67.3,
+   "player_name": "Andy Delort",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "64f69877",
+   "season": 2019,
+   "distance": 2.569,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "b561db50",
+   "season": 2019,
+   "distance": 2.58,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2019,
+   "distance": 2.616,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Antoine Griezmann",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "82e34b69",
+   "season": 2019,
+   "distance": 2.685,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Troy Deeney",
+   "squad": "Watford"
+  }
+ ],
  "low_confidence": false
 }

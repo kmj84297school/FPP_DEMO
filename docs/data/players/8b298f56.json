@@ -26,10 +26,115 @@
   "confidence": 0.64
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1626,
+  "mu": 45.0,
+  "ci80": {
+   "lo": 36.0,
+   "hi": 54.0
+  },
+  "ci50": {
+   "lo": 40.3,
+   "hi": 49.8
+  },
+  "sigma_model": 2.541,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4a57580c",
+   "season": 2019,
+   "distance": 2.785,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "68829001",
+   "season": 2019,
+   "distance": 2.821,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Gonzalo Castro",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "f7691f63",
+   "season": 2019,
+   "distance": 2.845,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Dimitri Liénard",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "bc61cc65",
+   "season": 2020,
+   "distance": 2.96,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iñigo Pérez",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "07abb358",
+   "season": 2019,
+   "distance": 2.961,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rômulo",
+   "squad": "Genoa / Lazio"
+  },
+  {
+   "fbref_id": "49ffe0f2",
+   "season": 2019,
+   "distance": 2.979,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérôme Gondorf",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "7c4243d4",
+   "season": 2020,
+   "distance": 3.035,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roque Mesa",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "ea164f99",
+   "season": 2019,
+   "distance": 3.038,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matteo Scozzarella",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "26e4447b",
+   "season": 2020,
+   "distance": 3.085,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yoann Court",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "7c4243d4",
+   "season": 2019,
+   "distance": 3.088,
+   "survived": 1,
+   "fut_ability_v2": 44.9,
+   "player_name": "Roque Mesa",
+   "squad": "Sevilla"
+  }
+ ],
  "low_confidence": false
 }

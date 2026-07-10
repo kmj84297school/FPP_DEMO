@@ -26,10 +26,115 @@
   "confidence": 0.74
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3343,
+  "mu": 53.6,
+  "ci80": {
+   "lo": 45.1,
+   "hi": 62.2
+  },
+  "ci50": {
+   "lo": 49.1,
+   "hi": 58.1
+  },
+  "sigma_model": 1.221,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 1.297,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "93cf32a8",
+   "season": 2018,
+   "distance": 1.407,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Nicolas Nkoulou",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "27a013f7",
+   "season": 2020,
+   "distance": 1.536,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Néstor Araujo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2018,
+   "distance": 1.539,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "f25b010f",
+   "season": 2018,
+   "distance": 1.634,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Federico Fernández",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "89e4b358",
+   "season": 2019,
+   "distance": 1.73,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Craig Cathcart",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "b96b595c",
+   "season": 2019,
+   "distance": 1.741,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Francesco Acerbi",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2018,
+   "distance": 1.757,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2020,
+   "distance": 1.776,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "0bad4516",
+   "season": 2019,
+   "distance": 1.785,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Bennett",
+   "squad": "Wolves"
+  }
+ ],
  "low_confidence": false
 }

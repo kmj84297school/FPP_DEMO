@@ -26,10 +26,115 @@
   "confidence": 0.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5373,
+  "mu": 42.3,
+  "ci80": {
+   "lo": 33.2,
+   "hi": 51.5
+  },
+  "ci50": {
+   "lo": 37.5,
+   "hi": 47.1
+  },
+  "sigma_model": 2.751,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "253a06b9",
+   "season": 2020,
+   "distance": 2.379,
+   "survived": 1,
+   "fut_ability_v2": 41.2,
+   "player_name": "Ezequiel Ávila",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "f26834c7",
+   "season": 2019,
+   "distance": 2.55,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Karim Onisiwo",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "d2416c2e",
+   "season": 2020,
+   "distance": 2.754,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Yussuf Poulsen",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2018,
+   "distance": 2.834,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Ante Budimir",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "07802f7f",
+   "season": 2019,
+   "distance": 2.866,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Danny Ings",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "253a06b9",
+   "season": 2019,
+   "distance": 2.878,
+   "survived": 1,
+   "fut_ability_v2": 41.2,
+   "player_name": "Ezequiel Ávila",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "129af0db",
+   "season": 2020,
+   "distance": 2.905,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Álvaro Morata",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "c693347d",
+   "season": 2020,
+   "distance": 2.911,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Cornelius",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "d3de9af0",
+   "season": 2018,
+   "distance": 2.916,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Duván Zapata",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2019,
+   "distance": 2.998,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 2.83
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5565,
+  "mu": 48.0,
+  "ci80": {
+   "lo": 39.1,
+   "hi": 56.8
+  },
+  "ci50": {
+   "lo": 43.3,
+   "hi": 52.6
+  },
+  "sigma_model": 2.103,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d4535821",
+   "season": 2019,
+   "distance": 1.792,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Adam Marušić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "f26e3c59",
+   "season": 2018,
+   "distance": 1.909,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Laxalt",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "cacadf4f",
+   "season": 2019,
+   "distance": 1.985,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luis Advíncula",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "e726e11e",
+   "season": 2018,
+   "distance": 2.081,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Victor Moses",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 2.089,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "16e9d0ea",
+   "season": 2020,
+   "distance": 2.189,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Álex Moreno",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "1a4b9094",
+   "season": 2020,
+   "distance": 2.191,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bouna Sarr",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2019,
+   "distance": 2.215,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "608f2092",
+   "season": 2018,
+   "distance": 2.245,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Johan Mojica",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "37f1cf47",
+   "season": 2020,
+   "distance": 2.246,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ander Capa",
+   "squad": "Athletic Club"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.36
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5345,
+  "mu": 50.0,
+  "ci80": {
+   "lo": 41.3,
+   "hi": 58.7
+  },
+  "ci50": {
+   "lo": 45.4,
+   "hi": 54.6
+  },
+  "sigma_model": 1.801,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2020,
+   "distance": 1.64,
+   "survived": 1,
+   "fut_ability_v2": 38.5,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2020,
+   "distance": 1.8,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2019,
+   "distance": 1.937,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "7f4c7c9f",
+   "season": 2020,
+   "distance": 2.043,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Jorge Miramón",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "9f323c71",
+   "season": 2019,
+   "distance": 2.076,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "9d107085",
+   "season": 2018,
+   "distance": 2.131,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charlie Daniels",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2019,
+   "distance": 2.152,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2019,
+   "distance": 2.155,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "1253a12e",
+   "season": 2018,
+   "distance": 2.179,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ervin Zukanović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "96e0490d",
+   "season": 2020,
+   "distance": 2.194,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Matteo Darmian",
+   "squad": "Parma"
+  }
+ ],
  "low_confidence": false
 }

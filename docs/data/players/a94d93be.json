@@ -26,10 +26,115 @@
   "confidence": 1.37
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0328,
+  "mu": 45.7,
+  "ci80": {
+   "lo": 36.9,
+   "hi": 54.6
+  },
+  "ci50": {
+   "lo": 41.1,
+   "hi": 50.4
+  },
+  "sigma_model": 2.204,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9417f322",
+   "season": 2018,
+   "distance": 2.35,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolás Burdisso",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "80c31c97",
+   "season": 2019,
+   "distance": 2.5,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wes Morgan",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "8cea6319",
+   "season": 2020,
+   "distance": 2.619,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felipe dal Belo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "dc709ab5",
+   "season": 2019,
+   "distance": 2.737,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hervé Lybohy",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "9a560ebe",
+   "season": 2018,
+   "distance": 2.792,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolás Spolli",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "c1d18f10",
+   "season": 2019,
+   "distance": 2.806,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Boštjan Cesar",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "585a73a8",
+   "season": 2019,
+   "distance": 2.971,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Bruno Alves",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "46ed55b6",
+   "season": 2018,
+   "distance": 3.013,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Cannavaro",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "e97150c0",
+   "season": 2020,
+   "distance": 3.041,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Morel",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "fed5f993",
+   "season": 2020,
+   "distance": 3.052,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Larangeira",
+   "squad": "Bologna"
+  }
+ ],
  "low_confidence": false
 }

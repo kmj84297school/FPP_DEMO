@@ -26,10 +26,115 @@
   "confidence": 2.92
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4644,
+  "mu": 58.6,
+  "ci80": {
+   "lo": 49.9,
+   "hi": 67.4
+  },
+  "ci50": {
+   "lo": 54.0,
+   "hi": 63.3
+  },
+  "sigma_model": 1.987,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9a1f2e1c",
+   "season": 2018,
+   "distance": 3.092,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafael",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "5c2b4f07",
+   "season": 2018,
+   "distance": 3.115,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Serge Aurier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "d6a889ea",
+   "season": 2018,
+   "distance": 3.315,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Malcuit",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "1a4b9094",
+   "season": 2018,
+   "distance": 3.316,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Bouna Sarr",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "3dd738a1",
+   "season": 2020,
+   "distance": 3.409,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "Ruben Aguilar",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "493924a7",
+   "season": 2020,
+   "distance": 3.64,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Kevin Mbabu",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "d6a889ea",
+   "season": 2019,
+   "distance": 3.708,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Malcuit",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "2b5527c4",
+   "season": 2019,
+   "distance": 3.714,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joshua Brenet",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "4c5b714f",
+   "season": 2020,
+   "distance": 3.715,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Djibril Sidibé",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "30c220c3",
+   "season": 2019,
+   "distance": 3.717,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mitchell Weiser",
+   "squad": "Leverkusen"
+  }
+ ],
+ "low_confidence": true
 }

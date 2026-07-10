@@ -26,10 +26,115 @@
   "confidence": 0.83
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6459,
+  "mu": 47.6,
+  "ci80": {
+   "lo": 38.7,
+   "hi": 56.4
+  },
+  "ci50": {
+   "lo": 42.9,
+   "hi": 52.2
+  },
+  "sigma_model": 2.097,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f7d50789",
+   "season": 2019,
+   "distance": 1.774,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Toby Alderweireld",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "9ab16552",
+   "season": 2018,
+   "distance": 2.139,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Makoto Hasebe",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "53de807a",
+   "season": 2020,
+   "distance": 2.409,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2020,
+   "distance": 2.437,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "008a6e6d",
+   "season": 2020,
+   "distance": 2.444,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ragnar Klavan",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "c6056d58",
+   "season": 2019,
+   "distance": 2.477,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Kamil Glik",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "52ec54d0",
+   "season": 2019,
+   "distance": 2.518,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Leonardo Bonucci",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "1ad8cb67",
+   "season": 2019,
+   "distance": 2.558,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Martinez",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "5d311e8d",
+   "season": 2019,
+   "distance": 2.611,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Héctor Moreno",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "4bd414c1",
+   "season": 2019,
+   "distance": 2.698,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Raúl Albiol",
+   "squad": "Napoli"
+  }
+ ],
  "low_confidence": false
 }

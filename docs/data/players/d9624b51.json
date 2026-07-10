@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2326,
+  "mu": 48.8,
+  "ci80": {
+   "lo": 40.1,
+   "hi": 57.5
+  },
+  "ci50": {
+   "lo": 44.2,
+   "hi": 53.4
+  },
+  "sigma_model": 1.79,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "39ee6cb6",
+   "season": 2020,
+   "distance": 1.527,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Rispoli",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "cb574619",
+   "season": 2020,
+   "distance": 1.612,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "4f974391",
+   "season": 2019,
+   "distance": 1.672,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "1fe67e86",
+   "season": 2018,
+   "distance": 1.692,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Mikel Balenziaga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "8497faf7",
+   "season": 2018,
+   "distance": 1.696,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto de la Bella",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2019,
+   "distance": 1.726,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2020,
+   "distance": 1.75,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "6ca88b2a",
+   "season": 2019,
+   "distance": 1.883,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Moubandje",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2019,
+   "distance": 1.955,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "89d10e53",
+   "season": 2020,
+   "distance": 1.968,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Rose",
+   "squad": "Tottenham / Newcastle Utd"
+  }
+ ],
  "low_confidence": false
 }

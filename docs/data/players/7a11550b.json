@@ -26,10 +26,115 @@
   "confidence": 0.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5567,
+  "mu": 56.0,
+  "ci80": {
+   "lo": 47.3,
+   "hi": 64.8
+  },
+  "ci50": {
+   "lo": 51.4,
+   "hi": 60.6
+  },
+  "sigma_model": 1.885,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2020,
+   "distance": 1.378,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "1025db8e",
+   "season": 2019,
+   "distance": 1.71,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Jeffrey Gouweleeuw",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "5939baa2",
+   "season": 2019,
+   "distance": 1.792,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2018,
+   "distance": 1.873,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "5939baa2",
+   "season": 2018,
+   "distance": 1.979,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2018,
+   "distance": 2.054,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "1025db8e",
+   "season": 2018,
+   "distance": 2.186,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Jeffrey Gouweleeuw",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "de488e56",
+   "season": 2020,
+   "distance": 2.204,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles Traore",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2020,
+   "distance": 2.26,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "f9acca3a",
+   "season": 2020,
+   "distance": 2.271,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wendell",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

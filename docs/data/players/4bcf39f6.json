@@ -26,10 +26,115 @@
   "confidence": 0.35
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6168,
+  "mu": 41.0,
+  "ci80": {
+   "lo": 31.9,
+   "hi": 50.1
+  },
+  "ci50": {
+   "lo": 36.2,
+   "hi": 45.8
+  },
+  "sigma_model": 2.673,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "84399660",
+   "season": 2018,
+   "distance": 1.76,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanmi",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "625e41b1",
+   "season": 2020,
+   "distance": 2.227,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Streli Mamba",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "5343eb4e",
+   "season": 2018,
+   "distance": 2.298,
+   "survived": 1,
+   "fut_ability_v2": 31.8,
+   "player_name": "Yoshinori Mutō",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "8c44e37b",
+   "season": 2018,
+   "distance": 2.31,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Bastón",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "d14229f3",
+   "season": 2019,
+   "distance": 2.368,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrien Hunou",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "84399660",
+   "season": 2019,
+   "distance": 2.404,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Juanmi",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2019,
+   "distance": 2.433,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khouma Babacar",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "b35db3f6",
+   "season": 2018,
+   "distance": 2.45,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Ángel Guerrero",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "3aa4a3be",
+   "season": 2019,
+   "distance": 2.468,
+   "survived": 1,
+   "fut_ability_v2": 27.4,
+   "player_name": "Loren Morón",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "2e52206e",
+   "season": 2018,
+   "distance": 2.549,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Jeannot",
+   "squad": "Dijon"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.23
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3887,
+  "mu": 49.4,
+  "ci80": {
+   "lo": 40.8,
+   "hi": 58.1
+  },
+  "ci50": {
+   "lo": 44.9,
+   "hi": 54.0
+  },
+  "sigma_model": 1.641,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5c2b4f07",
+   "season": 2020,
+   "distance": 1.429,
+   "survived": 1,
+   "fut_ability_v2": 62.3,
+   "player_name": "Serge Aurier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2018,
+   "distance": 1.447,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Martín Montoya",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "bbd86530",
+   "season": 2020,
+   "distance": 1.513,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christopher Lenz",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2019,
+   "distance": 1.618,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "4e0afc5d",
+   "season": 2020,
+   "distance": 1.667,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Arnaud Souquet",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "3a9c4b7b",
+   "season": 2020,
+   "distance": 1.667,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Nacho Vidal",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "22051fbe",
+   "season": 2018,
+   "distance": 1.694,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Giulio Donati",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "ff16ecad",
+   "season": 2018,
+   "distance": 1.697,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Deplagne",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "46ee5234",
+   "season": 2018,
+   "distance": 1.73,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kieran Gibbs",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "5ca20b7a",
+   "season": 2018,
+   "distance": 1.786,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Joseba Zaldúa",
+   "squad": "Leganés"
+  }
+ ],
  "low_confidence": false
 }

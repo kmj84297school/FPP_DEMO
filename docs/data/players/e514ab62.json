@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2369,
+  "mu": 47.7,
+  "ci80": {
+   "lo": 39.0,
+   "hi": 56.4
+  },
+  "ci50": {
+   "lo": 43.1,
+   "hi": 52.3
+  },
+  "sigma_model": 1.828,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3535098b",
+   "season": 2019,
+   "distance": 1.947,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Laurini",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "3dffff26",
+   "season": 2019,
+   "distance": 2.16,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Korb",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "9fec8860",
+   "season": 2020,
+   "distance": 2.234,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ludwig Augustinsson",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "fdd60087",
+   "season": 2019,
+   "distance": 2.353,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santiago Arias",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "45da6694",
+   "season": 2019,
+   "distance": 2.449,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daryl Janmaat",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "8494acc4",
+   "season": 2018,
+   "distance": 2.451,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Stefan Ilsanker",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "5c4d9be7",
+   "season": 2019,
+   "distance": 2.477,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enrico Valentini",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "4f974391",
+   "season": 2019,
+   "distance": 2.479,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "9ae9eaea",
+   "season": 2018,
+   "distance": 2.51,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fernando Marçal",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "3535098b",
+   "season": 2018,
+   "distance": 2.522,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Laurini",
+   "squad": "Fiorentina"
+  }
+ ],
  "low_confidence": false
 }

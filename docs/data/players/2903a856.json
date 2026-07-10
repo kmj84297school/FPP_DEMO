@@ -26,10 +26,115 @@
   "confidence": 0.46
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5369,
+  "mu": 53.4,
+  "ci80": {
+   "lo": 44.4,
+   "hi": 62.4
+  },
+  "ci50": {
+   "lo": 48.6,
+   "hi": 58.2
+  },
+  "sigma_model": 2.572,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b0547a87",
+   "season": 2020,
+   "distance": 2.878,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Nicolas de Préville",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "8aec0537",
+   "season": 2020,
+   "distance": 2.905,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Pascal Groß",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "78841da9",
+   "season": 2019,
+   "distance": 2.916,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "José Callejón",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "5f9f0531",
+   "season": 2018,
+   "distance": 3.065,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Hunt",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2019,
+   "distance": 3.092,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "455a2b79",
+   "season": 2018,
+   "distance": 3.244,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valter Birsa",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "7dfbba27",
+   "season": 2020,
+   "distance": 3.306,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathias Autret",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "9f4647e9",
+   "season": 2019,
+   "distance": 3.376,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Snodgrass",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "dba67bc4",
+   "season": 2018,
+   "distance": 3.381,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zlatko Junuzović",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2018,
+   "distance": 3.447,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Radja Nainggolan",
+   "squad": "Roma"
+  }
+ ],
  "low_confidence": false
 }

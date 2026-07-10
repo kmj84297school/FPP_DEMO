@@ -26,10 +26,115 @@
   "confidence": 0.5
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6114,
+  "mu": 44.8,
+  "ci80": {
+   "lo": 35.3,
+   "hi": 54.2
+  },
+  "ci50": {
+   "lo": 39.8,
+   "hi": 49.7
+  },
+  "sigma_model": 3.305,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d3de9af0",
+   "season": 2018,
+   "distance": 2.315,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Duván Zapata",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "d33c706e",
+   "season": 2020,
+   "distance": 2.404,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Andy Delort",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "9980269a",
+   "season": 2019,
+   "distance": 2.521,
+   "survived": 1,
+   "fut_ability_v2": 33.7,
+   "player_name": "Kalifa Coulibaly",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "07802f7f",
+   "season": 2020,
+   "distance": 2.641,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Danny Ings",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "02319ad7",
+   "season": 2019,
+   "distance": 2.645,
+   "survived": 1,
+   "fut_ability_v2": 33.0,
+   "player_name": "Jaime Mata",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "00459419",
+   "season": 2018,
+   "distance": 2.668,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Arnautović",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "c4e87b8b",
+   "season": 2020,
+   "distance": 2.695,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "f93e6e94",
+   "season": 2018,
+   "distance": 2.767,
+   "survived": 1,
+   "fut_ability_v2": 41.7,
+   "player_name": "Nils Petersen",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2018,
+   "distance": 2.802,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "d33c706e",
+   "season": 2019,
+   "distance": 2.806,
+   "survived": 1,
+   "fut_ability_v2": 67.3,
+   "player_name": "Andy Delort",
+   "squad": "Montpellier"
+  }
+ ],
  "low_confidence": false
 }

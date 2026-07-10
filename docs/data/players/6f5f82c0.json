@@ -26,10 +26,115 @@
   "confidence": 0.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.582,
+  "mu": 46.4,
+  "ci80": {
+   "lo": 37.7,
+   "hi": 55.2
+  },
+  "ci50": {
+   "lo": 41.8,
+   "hi": 51.0
+  },
+  "sigma_model": 1.892,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2946f9a1",
+   "season": 2018,
+   "distance": 1.901,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Nacho",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2020,
+   "distance": 2.056,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Alberto Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "c8c02ac7",
+   "season": 2018,
+   "distance": 2.117,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Zeffane",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2019,
+   "distance": 2.211,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "861e0116",
+   "season": 2019,
+   "distance": 2.221,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Kostas Stafylidis",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2019,
+   "distance": 2.256,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "c8c02ac7",
+   "season": 2019,
+   "distance": 2.287,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Zeffane",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "05384ea1",
+   "season": 2018,
+   "distance": 2.306,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michel",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "d70a2141",
+   "season": 2018,
+   "distance": 2.339,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordi Amat",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2018,
+   "distance": 2.377,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.83
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0559,
+  "mu": 48.0,
+  "ci80": {
+   "lo": 39.3,
+   "hi": 56.7
+  },
+  "ci50": {
+   "lo": 43.4,
+   "hi": 52.6
+  },
+  "sigma_model": 1.756,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "35dd6d80",
+   "season": 2020,
+   "distance": 1.829,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Domenico Criscito",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "ffad706e",
+   "season": 2019,
+   "distance": 1.853,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2020,
+   "distance": 1.897,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "1e0b6a73",
+   "season": 2019,
+   "distance": 1.928,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Francis",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "ffad706e",
+   "season": 2020,
+   "distance": 2.003,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "a60823a4",
+   "season": 2018,
+   "distance": 2.05,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Pedro López Muñoz",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "5eb72339",
+   "season": 2019,
+   "distance": 2.056,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Padoin",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "1c8c5aed",
+   "season": 2019,
+   "distance": 2.17,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Molinaro",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "12aa7661",
+   "season": 2020,
+   "distance": 2.186,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "99b1d0e6",
+   "season": 2020,
+   "distance": 2.193,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stephan Lichtsteiner",
+   "squad": "Augsburg"
+  }
+ ],
  "low_confidence": false
 }

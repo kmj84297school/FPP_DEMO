@@ -26,10 +26,115 @@
   "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2448,
+  "mu": 56.2,
+  "ci80": {
+   "lo": 47.5,
+   "hi": 64.9
+  },
+  "ci50": {
+   "lo": 51.7,
+   "hi": 60.8
+  },
+  "sigma_model": 1.746,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fe2db476",
+   "season": 2019,
+   "distance": 2.294,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "8497faf7",
+   "season": 2018,
+   "distance": 2.594,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto de la Bella",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "35dd6d80",
+   "season": 2020,
+   "distance": 2.766,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Domenico Criscito",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "b51242ef",
+   "season": 2018,
+   "distance": 2.801,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Martins Pereira",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2020,
+   "distance": 2.819,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "46d50339",
+   "season": 2018,
+   "distance": 2.824,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christophe Jallet",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "fc4f85b1",
+   "season": 2020,
+   "distance": 2.839,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Godín",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2018,
+   "distance": 2.854,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2019,
+   "distance": 2.897,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "1e0b6a73",
+   "season": 2019,
+   "distance": 2.916,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Francis",
+   "squad": "Bournemouth"
+  }
+ ],
  "low_confidence": false
 }

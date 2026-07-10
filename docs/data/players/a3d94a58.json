@@ -26,10 +26,115 @@
   "confidence": 1.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7348,
+  "mu": 59.3,
+  "ci80": {
+   "lo": 50.6,
+   "hi": 68.0
+  },
+  "ci50": {
+   "lo": 54.7,
+   "hi": 63.9
+  },
+  "sigma_model": 1.721,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b742cc0d",
+   "season": 2018,
+   "distance": 1.798,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Marc Bartra",
+   "squad": "Betis / Dortmund"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2018,
+   "distance": 2.129,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2019,
+   "distance": 2.232,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "d8931174",
+   "season": 2019,
+   "distance": 2.246,
+   "survived": 1,
+   "fut_ability_v2": 65.7,
+   "player_name": "Harry Maguire",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "45954ec7",
+   "season": 2020,
+   "distance": 2.262,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Tisserand",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "a5ec3ede",
+   "season": 2019,
+   "distance": 2.265,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Alexander Hack",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "b217ef29",
+   "season": 2018,
+   "distance": 2.318,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joël Matip",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "857a5abe",
+   "season": 2019,
+   "distance": 2.381,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Stefan Bell",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2018,
+   "distance": 2.411,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "30c220c3",
+   "season": 2020,
+   "distance": 2.479,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Mitchell Weiser",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

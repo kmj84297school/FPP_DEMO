@@ -26,10 +26,115 @@
   "confidence": 0.66
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5051,
+  "mu": 57.9,
+  "ci80": {
+   "lo": 49.1,
+   "hi": 66.7
+  },
+  "ci50": {
+   "lo": 53.3,
+   "hi": 62.6
+  },
+  "sigma_model": 2.063,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f5044e54",
+   "season": 2020,
+   "distance": 2.881,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2018,
+   "distance": 2.935,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "fb59286d",
+   "season": 2018,
+   "distance": 2.946,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miloš Jojić",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "e280527c",
+   "season": 2020,
+   "distance": 3.054,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2019,
+   "distance": 3.093,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2018,
+   "distance": 3.097,
+   "survived": 1,
+   "fut_ability_v2": 49.9,
+   "player_name": "Daniel Wass",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2018,
+   "distance": 3.104,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Radja Nainggolan",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ecd8c01e",
+   "season": 2020,
+   "distance": 3.113,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Rochina",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2019,
+   "distance": 3.117,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "f7691f63",
+   "season": 2018,
+   "distance": 3.192,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Dimitri Liénard",
+   "squad": "Strasbourg"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.0731,
+  "mu": 43.8,
+  "ci80": {
+   "lo": 34.7,
+   "hi": 52.9
+  },
+  "ci50": {
+   "lo": 39.0,
+   "hi": 48.6
+  },
+  "sigma_model": 2.712,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f3642ba8",
+   "season": 2019,
+   "distance": 3.28,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Bodmer",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "316162b6",
+   "season": 2019,
+   "distance": 4.317,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oliver Fink",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "ac62861c",
+   "season": 2018,
+   "distance": 4.519,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Féret",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2019,
+   "distance": 4.6,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "4c5b14d2",
+   "season": 2018,
+   "distance": 4.63,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Joaquín",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "75bd85ea",
+   "season": 2020,
+   "distance": 4.679,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Salva Sevilla",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "7dbbe367",
+   "season": 2018,
+   "distance": 4.874,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gareth Barry",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "4c5b14d2",
+   "season": 2020,
+   "distance": 5.311,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joaquín",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "516dc25b",
+   "season": 2019,
+   "distance": 5.443,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaroslav Plašil",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "f261abcb",
+   "season": 2020,
+   "distance": 5.471,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Baier",
+   "squad": "Augsburg"
+  }
+ ],
+ "low_confidence": true
 }

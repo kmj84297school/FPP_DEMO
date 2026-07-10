@@ -26,10 +26,115 @@
   "confidence": 0.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7222,
+  "mu": 58.9,
+  "ci80": {
+   "lo": 50.1,
+   "hi": 67.6
+  },
+  "ci50": {
+   "lo": 54.3,
+   "hi": 63.5
+  },
+  "sigma_model": 1.934,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "89976232",
+   "season": 2019,
+   "distance": 1.663,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "a4ac4b8f",
+   "season": 2019,
+   "distance": 2.003,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Willy Boly",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2018,
+   "distance": 2.031,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2018,
+   "distance": 2.191,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2019,
+   "distance": 2.391,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "43e7a164",
+   "season": 2020,
+   "distance": 2.399,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Alexander Djiku",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2018,
+   "distance": 2.584,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "d8931174",
+   "season": 2018,
+   "distance": 2.627,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Harry Maguire",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2018,
+   "distance": 2.833,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2018,
+   "distance": 2.854,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  }
+ ],
  "low_confidence": false
 }

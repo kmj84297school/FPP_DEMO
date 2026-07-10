@@ -26,10 +26,115 @@
   "confidence": 1.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7636,
+  "mu": 51.1,
+  "ci80": {
+   "lo": 42.4,
+   "hi": 59.8
+  },
+  "ci50": {
+   "lo": 46.5,
+   "hi": 55.7
+  },
+  "sigma_model": 1.814,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2018,
+   "distance": 1.407,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Berat Djimsiti",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2019,
+   "distance": 1.414,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2018,
+   "distance": 1.487,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergi Gómez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2019,
+   "distance": 1.57,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Sergi Gómez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "bba30585",
+   "season": 2020,
+   "distance": 1.597,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Diego Llorente",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "fbd6378b",
+   "season": 2020,
+   "distance": 1.608,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Aïssa Mandi",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "d0d8dd44",
+   "season": 2020,
+   "distance": 1.622,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Stefan de Vrij",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "3ead85f9",
+   "season": 2020,
+   "distance": 1.648,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Alessio Romagnoli",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "b4a014b1",
+   "season": 2019,
+   "distance": 1.655,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Diego Carlos",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2018,
+   "distance": 1.676,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.67
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5618,
+  "mu": 55.7,
+  "ci80": {
+   "lo": 47.0,
+   "hi": 64.4
+  },
+  "ci50": {
+   "lo": 51.2,
+   "hi": 60.3
+  },
+  "sigma_model": 1.745,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "92b4758e",
+   "season": 2020,
+   "distance": 1.419,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "f2c1300a",
+   "season": 2018,
+   "distance": 1.512,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vitor Hugo",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "921f6058",
+   "season": 2018,
+   "distance": 1.586,
+   "survived": 1,
+   "fut_ability_v2": 63.7,
+   "player_name": "José Luis Palomino",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "9b30df1e",
+   "season": 2018,
+   "distance": 1.68,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bartosz Salamon",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2020,
+   "distance": 1.789,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "def899bd",
+   "season": 2019,
+   "distance": 1.824,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Phil Jones",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "f35430a4",
+   "season": 2020,
+   "distance": 1.877,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matija Nastasić",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "93a50d2c",
+   "season": 2020,
+   "distance": 1.916,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kasim Nuhu",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "6eaed4eb",
+   "season": 2018,
+   "distance": 1.938,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Florian Lejeune",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "87935cf3",
+   "season": 2018,
+   "distance": 1.951,
+   "survived": 1,
+   "fut_ability_v2": 39.9,
+   "player_name": "Mamadou Sakho",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

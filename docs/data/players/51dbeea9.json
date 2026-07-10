@@ -26,10 +26,115 @@
   "confidence": 0.23
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5552,
+  "mu": 45.1,
+  "ci80": {
+   "lo": 36.3,
+   "hi": 53.9
+  },
+  "ci50": {
+   "lo": 40.5,
+   "hi": 49.7
+  },
+  "sigma_model": 2.071,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d541e703",
+   "season": 2019,
+   "distance": 1.475,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Freddie Veseli",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2018,
+   "distance": 1.565,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "91899ca8",
+   "season": 2019,
+   "distance": 1.592,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateo Musacchio",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "d70a2141",
+   "season": 2018,
+   "distance": 1.892,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordi Amat",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "1c344204",
+   "season": 2018,
+   "distance": 1.931,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Yamberé",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2018,
+   "distance": 2.073,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Álvaro González",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "2946f9a1",
+   "season": 2018,
+   "distance": 2.08,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Nacho",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2019,
+   "distance": 2.147,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "1c344204",
+   "season": 2019,
+   "distance": 2.203,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Yamberé",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "fbd6378b",
+   "season": 2020,
+   "distance": 2.217,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Aïssa Mandi",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

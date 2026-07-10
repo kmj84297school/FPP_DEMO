@@ -26,10 +26,115 @@
   "confidence": 1.0
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4502,
+  "mu": 52.4,
+  "ci80": {
+   "lo": 43.6,
+   "hi": 61.3
+  },
+  "ci50": {
+   "lo": 47.8,
+   "hi": 57.1
+  },
+  "sigma_model": 2.179,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2020,
+   "distance": 1.209,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro González",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2018,
+   "distance": 1.416,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergi Gómez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "fbd6378b",
+   "season": 2020,
+   "distance": 1.462,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Aïssa Mandi",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2018,
+   "distance": 1.49,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Álvaro González",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "91899ca8",
+   "season": 2019,
+   "distance": 1.605,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateo Musacchio",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "bba30585",
+   "season": 2020,
+   "distance": 1.619,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Diego Llorente",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "d0d8dd44",
+   "season": 2019,
+   "distance": 1.642,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Stefan de Vrij",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "34b306a1",
+   "season": 2020,
+   "distance": 1.668,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Hoffmann",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "e7ca0439",
+   "season": 2019,
+   "distance": 1.76,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "James Tomkins",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2018,
+   "distance": 1.774,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5186,
+  "mu": 50.7,
+  "ci80": {
+   "lo": 41.9,
+   "hi": 59.5
+  },
+  "ci50": {
+   "lo": 46.1,
+   "hi": 55.3
+  },
+  "sigma_model": 1.992,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0df2b165",
+   "season": 2020,
+   "distance": 1.923,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Lundstram",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2020,
+   "distance": 2.046,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "3902e91b",
+   "season": 2020,
+   "distance": 2.255,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Gonzalo Melero",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "bf13975c",
+   "season": 2020,
+   "distance": 2.612,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Žan Majer",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2019,
+   "distance": 2.681,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "7fec31a0",
+   "season": 2020,
+   "distance": 2.715,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dan Gosling",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2019,
+   "distance": 2.741,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Kevin Strootman",
+   "squad": "Marseille / Roma"
+  },
+  {
+   "fbref_id": "7c388b20",
+   "season": 2019,
+   "distance": 2.744,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2019,
+   "distance": 2.779,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Lucas Deaux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 2.853,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  }
+ ],
  "low_confidence": false
 }

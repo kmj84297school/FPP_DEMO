@@ -26,10 +26,115 @@
   "confidence": 1.44
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1918,
+  "mu": 51.9,
+  "ci80": {
+   "lo": 43.2,
+   "hi": 60.5
+  },
+  "ci50": {
+   "lo": 47.3,
+   "hi": 56.4
+  },
+  "sigma_model": 1.682,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d4ef9ac5",
+   "season": 2020,
+   "distance": 2.076,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Toño",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "d4ef9ac5",
+   "season": 2019,
+   "distance": 2.568,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Toño",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "dbe519cf",
+   "season": 2019,
+   "distance": 2.633,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antoñito",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 2.647,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "cacadf4f",
+   "season": 2019,
+   "distance": 2.666,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luis Advíncula",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "3dd45b70",
+   "season": 2018,
+   "distance": 2.705,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Gaetano Letizia",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "f3cccffe",
+   "season": 2019,
+   "distance": 2.713,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Insúa",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "e3e05edf",
+   "season": 2020,
+   "distance": 2.787,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ambroise Oyongo",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "5f09991f",
+   "season": 2020,
+   "distance": 2.806,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick van Aanholt",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2018,
+   "distance": 2.806,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  }
+ ],
  "low_confidence": false
 }

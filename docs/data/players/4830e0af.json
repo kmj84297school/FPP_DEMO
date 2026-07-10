@@ -26,10 +26,115 @@
   "confidence": 0.39
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5109,
+  "mu": 49.8,
+  "ci80": {
+   "lo": 41.0,
+   "hi": 58.6
+  },
+  "ci50": {
+   "lo": 45.2,
+   "hi": 54.5
+  },
+  "sigma_model": 2.04,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "528492ea",
+   "season": 2018,
+   "distance": 1.992,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Alfred Duncan",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "005c0807",
+   "season": 2020,
+   "distance": 2.258,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zinedine Ferhat",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "fa661778",
+   "season": 2020,
+   "distance": 2.412,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Marius Wolf",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "90f91999",
+   "season": 2020,
+   "distance": 2.453,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "John McGinn",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "94c18565",
+   "season": 2018,
+   "distance": 2.483,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Florian Kainz",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "0a3f6cde",
+   "season": 2020,
+   "distance": 2.535,
+   "survived": 1,
+   "fut_ability_v2": 34.1,
+   "player_name": "Christopher Antwi-Adjei",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "5b1bf5e3",
+   "season": 2018,
+   "distance": 2.553,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Gaël Kakuta",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "b93b7882",
+   "season": 2018,
+   "distance": 2.56,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "e68f2cb4",
+   "season": 2019,
+   "distance": 2.643,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stiven Mendoza",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "6c679c6d",
+   "season": 2018,
+   "distance": 2.703,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Knockaert",
+   "squad": "Brighton"
+  }
+ ],
  "low_confidence": false
 }

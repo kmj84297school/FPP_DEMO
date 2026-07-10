@@ -26,10 +26,115 @@
   "confidence": 0.77
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2608,
+  "mu": 51.1,
+  "ci80": {
+   "lo": 42.4,
+   "hi": 59.8
+  },
+  "ci50": {
+   "lo": 46.5,
+   "hi": 55.7
+  },
+  "sigma_model": 1.697,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ed5886d2",
+   "season": 2018,
+   "distance": 2.056,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Marco Parolo",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "c0cddebe",
+   "season": 2019,
+   "distance": 2.082,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blaise Matuidi",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2020,
+   "distance": 2.142,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "89f951b5",
+   "season": 2020,
+   "distance": 2.219,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Ivan Rakitić",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "c3a8bcd8",
+   "season": 2020,
+   "distance": 2.292,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lasse Schöne",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2019,
+   "distance": 2.401,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "1b17ed86",
+   "season": 2019,
+   "distance": 2.425,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Esteban Granero",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "67cdbc0e",
+   "season": 2020,
+   "distance": 2.431,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Arturo Vidal",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "ef322658",
+   "season": 2020,
+   "distance": 2.574,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "69374ff5",
+   "season": 2020,
+   "distance": 2.62,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Baumgartlinger",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

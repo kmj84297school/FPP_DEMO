@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4227,
+  "mu": 58.1,
+  "ci80": {
+   "lo": 49.4,
+   "hi": 66.9
+  },
+  "ci50": {
+   "lo": 53.6,
+   "hi": 62.7
+  },
+  "sigma_model": 1.815,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2019,
+   "distance": 2.389,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Nacho Monreal",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "08511d65",
+   "season": 2018,
+   "distance": 2.506,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Sergio Ramos",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2020,
+   "distance": 2.846,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2018,
+   "distance": 3.065,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Nacho Monreal",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "94b2001f",
+   "season": 2020,
+   "distance": 3.191,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Danilo",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "c50281a0",
+   "season": 2020,
+   "distance": 3.29,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lars Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "8494acc4",
+   "season": 2020,
+   "distance": 3.309,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefan Ilsanker",
+   "squad": "Eint Frankfurt / RB Leipzig"
+  },
+  {
+   "fbref_id": "4601e194",
+   "season": 2018,
+   "distance": 3.319,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2020,
+   "distance": 3.409,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "c18d22f5",
+   "season": 2018,
+   "distance": 3.478,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Peter Pekarík",
+   "squad": "Hertha BSC"
+  }
+ ],
  "low_confidence": false
 }

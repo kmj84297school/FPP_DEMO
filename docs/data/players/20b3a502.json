@@ -26,10 +26,115 @@
   "confidence": 0.65
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4117,
+  "mu": 50.9,
+  "ci80": {
+   "lo": 42.1,
+   "hi": 59.8
+  },
+  "ci50": {
+   "lo": 46.3,
+   "hi": 55.6
+  },
+  "sigma_model": 2.186,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f5044e54",
+   "season": 2019,
+   "distance": 1.135,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2018,
+   "distance": 1.465,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2020,
+   "distance": 1.539,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Abeid",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2018,
+   "distance": 1.577,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Recio",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "20e73fac",
+   "season": 2020,
+   "distance": 1.656,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2018,
+   "distance": 1.769,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2018,
+   "distance": 1.8,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2020,
+   "distance": 1.875,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "70dcf94d",
+   "season": 2020,
+   "distance": 1.917,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "5a1900a4",
+   "season": 2018,
+   "distance": 2.002,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Carroll",
+   "squad": "Swansea City"
+  }
+ ],
  "low_confidence": false
 }

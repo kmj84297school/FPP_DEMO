@@ -26,10 +26,115 @@
   "confidence": 0.88
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.5093,
+  "mu": 66.4,
+  "ci80": {
+   "lo": 57.4,
+   "hi": 75.3
+  },
+  "ci50": {
+   "lo": 61.7,
+   "hi": 71.1
+  },
+  "sigma_model": 2.353,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9744ff80",
+   "season": 2019,
+   "distance": 3.036,
+   "survived": 1,
+   "fut_ability_v2": 75.8,
+   "player_name": "Pablo Sarabia",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "3c6089ab",
+   "season": 2019,
+   "distance": 3.305,
+   "survived": 1,
+   "fut_ability_v2": 70.2,
+   "player_name": "Thomas Müller",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "fd51b456",
+   "season": 2018,
+   "distance": 3.385,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Lucas Vázquez",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "36a3ff67",
+   "season": 2019,
+   "distance": 3.497,
+   "survived": 1,
+   "fut_ability_v2": 68.9,
+   "player_name": "Marco Reus",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "50871bcc",
+   "season": 2020,
+   "distance": 3.507,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Thorgan Hazard",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2018,
+   "distance": 3.528,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "9a2e0ccc",
+   "season": 2019,
+   "distance": 3.697,
+   "survived": 1,
+   "fut_ability_v2": 62.9,
+   "player_name": "Emil Forsberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "8b9ebd03",
+   "season": 2018,
+   "distance": 3.714,
+   "survived": 1,
+   "fut_ability_v2": 63.4,
+   "player_name": "Willian",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "3c6089ab",
+   "season": 2018,
+   "distance": 3.724,
+   "survived": 1,
+   "fut_ability_v2": 71.9,
+   "player_name": "Thomas Müller",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "440c84ed",
+   "season": 2018,
+   "distance": 3.788,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iago Falque",
+   "squad": "Torino"
+  }
+ ],
+ "low_confidence": true
 }

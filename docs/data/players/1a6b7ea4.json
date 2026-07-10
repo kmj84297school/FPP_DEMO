@@ -26,10 +26,115 @@
   "confidence": 0.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8057,
+  "mu": 50.9,
+  "ci80": {
+   "lo": 42.2,
+   "hi": 59.7
+  },
+  "ci50": {
+   "lo": 46.3,
+   "hi": 55.5
+  },
+  "sigma_model": 1.784,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2020,
+   "distance": 1.625,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Obiang",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "b5dd3469",
+   "season": 2018,
+   "distance": 1.716,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Nemanja Radoja",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2018,
+   "distance": 1.775,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "c53083ad",
+   "season": 2020,
+   "distance": 1.841,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bryan Dabo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "a0434482",
+   "season": 2020,
+   "distance": 1.842,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eddy Gnahoré",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "2f4c5a52",
+   "season": 2018,
+   "distance": 1.847,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Harry Arter",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "ac861941",
+   "season": 2019,
+   "distance": 1.884,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Eric Dier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "46291841",
+   "season": 2019,
+   "distance": 1.889,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Bostock",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "31bbb7e2",
+   "season": 2018,
+   "distance": 1.952,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gerónimo Poblete",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2019,
+   "distance": 1.966,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  }
+ ],
  "low_confidence": false
 }

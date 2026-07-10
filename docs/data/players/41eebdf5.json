@@ -26,10 +26,115 @@
   "confidence": 1.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2179,
+  "mu": 50.3,
+  "ci80": {
+   "lo": 41.6,
+   "hi": 59.1
+  },
+  "ci50": {
+   "lo": 45.7,
+   "hi": 54.9
+  },
+  "sigma_model": 1.82,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "89151b16",
+   "season": 2019,
+   "distance": 1.598,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zouhair Feddal",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2018,
+   "distance": 1.717,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2019,
+   "distance": 1.838,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2020,
+   "distance": 1.88,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2020,
+   "distance": 1.897,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nenad Tomović",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2020,
+   "distance": 1.901,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2019,
+   "distance": 1.907,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "1a2935f6",
+   "season": 2018,
+   "distance": 1.914,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dejan Lovren",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "1522dab2",
+   "season": 2018,
+   "distance": 1.92,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davide Astori",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "89cbc961",
+   "season": 2019,
+   "distance": 1.943,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramiro Funes Mori",
+   "squad": "Villarreal"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.52
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4638,
+  "mu": 45.8,
+  "ci80": {
+   "lo": 36.4,
+   "hi": 55.1
+  },
+  "ci50": {
+   "lo": 40.8,
+   "hi": 50.7
+  },
+  "sigma_model": 3.179,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c693347d",
+   "season": 2020,
+   "distance": 2.454,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Cornelius",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "462475ed",
+   "season": 2019,
+   "distance": 2.482,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Ludovic Ajorque",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "fd771f95",
+   "season": 2020,
+   "distance": 2.56,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Braithwaite",
+   "squad": "Leganés / Barcelona"
+  },
+  {
+   "fbref_id": "9f381d8b",
+   "season": 2020,
+   "distance": 2.614,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jhon Córdoba",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "834d0be5",
+   "season": 2020,
+   "distance": 2.663,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Alario",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "129af0db",
+   "season": 2019,
+   "distance": 2.665,
+   "survived": 1,
+   "fut_ability_v2": 66.9,
+   "player_name": "Álvaro Morata",
+   "squad": "Atlético Madrid / Chelsea"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2019,
+   "distance": 2.749,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khouma Babacar",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "5ceba7fc",
+   "season": 2019,
+   "distance": 2.776,
+   "survived": 1,
+   "fut_ability_v2": 71.0,
+   "player_name": "Karl Toko Ekambi",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "8ff07990",
+   "season": 2019,
+   "distance": 2.783,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Balotelli",
+   "squad": "Marseille / Nice"
+  },
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2019,
+   "distance": 2.795,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

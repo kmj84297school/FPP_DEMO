@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1974,
+  "mu": 43.0,
+  "ci80": {
+   "lo": 34.3,
+   "hi": 51.7
+  },
+  "ci50": {
+   "lo": 38.5,
+   "hi": 47.6
+  },
+  "sigma_model": 1.727,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2019,
+   "distance": 1.314,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2020,
+   "distance": 1.353,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "80f36c88",
+   "season": 2019,
+   "distance": 1.421,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Sebastian Rudy",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2018,
+   "distance": 1.527,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2019,
+   "distance": 1.543,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 1.647,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "73489527",
+   "season": 2018,
+   "distance": 1.753,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Defour",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "1d8c99b0",
+   "season": 2018,
+   "distance": 1.819,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ki Sung-yueng",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "563a68ad",
+   "season": 2020,
+   "distance": 1.848,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Gary Medel",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "ecab64a0",
+   "season": 2019,
+   "distance": 1.862,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  }
+ ],
  "low_confidence": false
 }

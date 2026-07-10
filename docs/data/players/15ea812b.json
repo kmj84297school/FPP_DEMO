@@ -26,10 +26,115 @@
   "confidence": 2.08
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3679,
+  "mu": 50.7,
+  "ci80": {
+   "lo": 42.0,
+   "hi": 59.3
+  },
+  "ci50": {
+   "lo": 46.1,
+   "hi": 55.2
+  },
+  "sigma_model": 1.554,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "89cbc961",
+   "season": 2019,
+   "distance": 1.425,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramiro Funes Mori",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2020,
+   "distance": 1.454,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2019,
+   "distance": 1.537,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2020,
+   "distance": 1.557,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "b96b595c",
+   "season": 2019,
+   "distance": 1.594,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Francesco Acerbi",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "4e358a2d",
+   "season": 2019,
+   "distance": 1.782,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Federico Fazio",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "92d38e6c",
+   "season": 2019,
+   "distance": 1.805,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Dimitris Siovas",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2019,
+   "distance": 1.826,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "b96b595c",
+   "season": 2018,
+   "distance": 1.838,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Francesco Acerbi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "b742cc0d",
+   "season": 2020,
+   "distance": 1.84,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Marc Bartra",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

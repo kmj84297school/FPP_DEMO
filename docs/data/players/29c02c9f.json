@@ -26,10 +26,115 @@
   "confidence": 2.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4826,
+  "mu": 52.2,
+  "ci80": {
+   "lo": 43.5,
+   "hi": 60.9
+  },
+  "ci50": {
+   "lo": 47.6,
+   "hi": 56.8
+  },
+  "sigma_model": 1.812,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fbbb9269",
+   "season": 2020,
+   "distance": 2.559,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Youssouf Sabaly",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2018,
+   "distance": 2.568,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Alberto Moreno",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2018,
+   "distance": 2.568,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "20b104bc",
+   "season": 2018,
+   "distance": 2.634,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Adam Smith",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "1a4b9094",
+   "season": 2019,
+   "distance": 2.635,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bouna Sarr",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "3dd738a1",
+   "season": 2020,
+   "distance": 2.711,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "Ruben Aguilar",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "fba81826",
+   "season": 2020,
+   "distance": 2.8,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Mattiello",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "2ef637bd",
+   "season": 2019,
+   "distance": 2.924,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre-Yves Polomat",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "fdd60087",
+   "season": 2019,
+   "distance": 2.955,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santiago Arias",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "de7d40d6",
+   "season": 2019,
+   "distance": 2.99,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Juncà",
+   "squad": "Celta Vigo"
+  }
+ ],
  "low_confidence": false
 }

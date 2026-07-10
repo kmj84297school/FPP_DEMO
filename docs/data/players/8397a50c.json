@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4931,
+  "mu": 51.2,
+  "ci80": {
+   "lo": 42.5,
+   "hi": 59.9
+  },
+  "ci50": {
+   "lo": 46.7,
+   "hi": 55.8
+  },
+  "sigma_model": 1.748,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2019,
+   "distance": 1.474,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Álvaro González",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2018,
+   "distance": 1.684,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2020,
+   "distance": 1.75,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "5ca20b7a",
+   "season": 2020,
+   "distance": 1.849,
+   "survived": 1,
+   "fut_ability_v2": 44.1,
+   "player_name": "Joseba Zaldúa",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2019,
+   "distance": 1.873,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2018,
+   "distance": 1.923,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2020,
+   "distance": 1.951,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "b5114f85",
+   "season": 2019,
+   "distance": 1.959,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Georg Margreitter",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "b3dc6eca",
+   "season": 2019,
+   "distance": 1.959,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Víctor Ruiz",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2018,
+   "distance": 1.968,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

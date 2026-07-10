@@ -26,10 +26,115 @@
   "confidence": 0.82
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3248,
+  "mu": 45.1,
+  "ci80": {
+   "lo": 36.2,
+   "hi": 53.9
+  },
+  "ci50": {
+   "lo": 40.4,
+   "hi": 49.7
+  },
+  "sigma_model": 2.133,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b2d03887",
+   "season": 2019,
+   "distance": 1.194,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Camarasa",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "7c388b20",
+   "season": 2019,
+   "distance": 1.326,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "20e73fac",
+   "season": 2019,
+   "distance": 1.436,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "b63e789d",
+   "season": 2020,
+   "distance": 1.612,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Fleck",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "aeda1f69",
+   "season": 2018,
+   "distance": 1.755,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felix Klaus",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2018,
+   "distance": 1.799,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "62ab9184",
+   "season": 2019,
+   "distance": 1.802,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Yannick Gerhardt",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "0a3f6cde",
+   "season": 2020,
+   "distance": 1.96,
+   "survived": 1,
+   "fut_ability_v2": 34.1,
+   "player_name": "Christopher Antwi-Adjei",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "aec0fb6f",
+   "season": 2018,
+   "distance": 1.982,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javier Eraso",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2020,
+   "distance": 2.003,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  }
+ ],
  "low_confidence": false
 }

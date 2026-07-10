@@ -26,10 +26,115 @@
   "confidence": 0.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1677,
+  "mu": 42.2,
+  "ci80": {
+   "lo": 33.5,
+   "hi": 51.0
+  },
+  "ci50": {
+   "lo": 37.6,
+   "hi": 46.8
+  },
+  "sigma_model": 1.881,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cfd5e123",
+   "season": 2018,
+   "distance": 1.117,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Bong",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2018,
+   "distance": 1.5,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "1a160ea3",
+   "season": 2018,
+   "distance": 1.557,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Geoff Cameron",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "8a7ff278",
+   "season": 2020,
+   "distance": 1.611,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Joel Ward",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "1fe67e86",
+   "season": 2018,
+   "distance": 1.622,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Mikel Balenziaga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "dc936144",
+   "season": 2019,
+   "distance": 1.67,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Bennett",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2018,
+   "distance": 1.679,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "97572117",
+   "season": 2018,
+   "distance": 1.816,
+   "survived": 1,
+   "fut_ability_v2": 37.3,
+   "player_name": "Allan Nyom",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "8db394aa",
+   "season": 2020,
+   "distance": 1.816,
+   "survived": 1,
+   "fut_ability_v2": 37.2,
+   "player_name": "Ximo Navarro",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "3e87d087",
+   "season": 2019,
+   "distance": 1.844,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emmanuel Imorou",
+   "squad": "Caen"
+  }
+ ],
  "low_confidence": false
 }

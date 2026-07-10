@@ -26,10 +26,115 @@
   "confidence": 1.99
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.6153,
+  "mu": 55.5,
+  "ci80": {
+   "lo": 46.7,
+   "hi": 64.4
+  },
+  "ci50": {
+   "lo": 50.9,
+   "hi": 60.2
+  },
+  "sigma_model": 2.169,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ef5b337e",
+   "season": 2018,
+   "distance": 2.821,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Borini",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "58027adc",
+   "season": 2019,
+   "distance": 2.863,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ladislav Krejčí",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "e288d4b3",
+   "season": 2019,
+   "distance": 3.294,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Alessandro Florenzi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2020,
+   "distance": 3.302,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "a96e5dc0",
+   "season": 2020,
+   "distance": 3.369,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Jeremy Toljan",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 3.387,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "0b5a292a",
+   "season": 2018,
+   "distance": 3.442,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Mário Rui",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "2b5527c4",
+   "season": 2019,
+   "distance": 3.478,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joshua Brenet",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "05439de2",
+   "season": 2018,
+   "distance": 3.539,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "David Alaba",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "f7223718",
+   "season": 2019,
+   "distance": 3.548,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Patric",
+   "squad": "Lazio"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 0.88
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5222,
+  "mu": 57.8,
+  "ci80": {
+   "lo": 49.1,
+   "hi": 66.5
+  },
+  "ci50": {
+   "lo": 53.3,
+   "hi": 62.4
+  },
+  "sigma_model": 1.743,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4d224fe8",
+   "season": 2018,
+   "distance": 2.233,
+   "survived": 1,
+   "fut_ability_v2": 63.3,
+   "player_name": "Casemiro",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2019,
+   "distance": 2.251,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "5ab0ea87",
+   "season": 2018,
+   "distance": 2.343,
+   "survived": 1,
+   "fut_ability_v2": 63.4,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "c6e5d20f",
+   "season": 2020,
+   "distance": 2.349,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Thiago Mendes",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "e6c43eec",
+   "season": 2018,
+   "distance": 2.386,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Josuha Guilavogui",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "4d224fe8",
+   "season": 2020,
+   "distance": 2.388,
+   "survived": 1,
+   "fut_ability_v2": 66.4,
+   "player_name": "Casemiro",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "4b511457",
+   "season": 2018,
+   "distance": 2.461,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Oriol Romeu",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2018,
+   "distance": 2.475,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "4d224fe8",
+   "season": 2019,
+   "distance": 2.518,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Casemiro",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "2ce2508a",
+   "season": 2018,
+   "distance": 2.525,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Luka Milivojević",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

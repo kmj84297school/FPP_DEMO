@@ -26,10 +26,115 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2691,
+  "mu": 48.6,
+  "ci80": {
+   "lo": 39.9,
+   "hi": 57.3
+  },
+  "ci50": {
+   "lo": 44.0,
+   "hi": 53.1
+  },
+  "sigma_model": 1.717,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "22051fbe",
+   "season": 2020,
+   "distance": 2.138,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giulio Donati",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2020,
+   "distance": 2.21,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2020,
+   "distance": 2.215,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Alberto Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d003e213",
+   "season": 2018,
+   "distance": 2.26,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafinha",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "f5b6fb78",
+   "season": 2020,
+   "distance": 2.325,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loris Benito",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "52ec54d0",
+   "season": 2019,
+   "distance": 2.34,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Leonardo Bonucci",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "52ec54d0",
+   "season": 2018,
+   "distance": 2.362,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Leonardo Bonucci",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 2.384,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2018,
+   "distance": 2.401,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2020,
+   "distance": 2.449,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

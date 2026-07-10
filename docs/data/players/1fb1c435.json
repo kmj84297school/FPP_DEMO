@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3702,
+  "mu": 49.8,
+  "ci80": {
+   "lo": 40.7,
+   "hi": 59.0
+  },
+  "ci50": {
+   "lo": 45.0,
+   "hi": 54.7
+  },
+  "sigma_model": 2.784,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d5dd5f1f",
+   "season": 2019,
+   "distance": 1.909,
+   "survived": 1,
+   "fut_ability_v2": 49.9,
+   "player_name": "Pierre-Emerick Aubameyang",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "f9e7c4ac",
+   "season": 2019,
+   "distance": 2.003,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfreð Finnbogason",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "a58bb1e1",
+   "season": 2019,
+   "distance": 2.343,
+   "survived": 1,
+   "fut_ability_v2": 71.5,
+   "player_name": "Gareth Bale",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "8cfc2f69",
+   "season": 2018,
+   "distance": 2.393,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Ángel Rodríguez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "53e07d0b",
+   "season": 2019,
+   "distance": 2.399,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ádám Szalai",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "d5dd5f1f",
+   "season": 2020,
+   "distance": 2.434,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Pierre-Emerick Aubameyang",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "8cfc2f69",
+   "season": 2019,
+   "distance": 2.463,
+   "survived": 1,
+   "fut_ability_v2": 32.2,
+   "player_name": "Ángel Rodríguez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "68796d61",
+   "season": 2018,
+   "distance": 2.565,
+   "survived": 1,
+   "fut_ability_v2": 18.0,
+   "player_name": "Shinji Okazaki",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "66116290",
+   "season": 2018,
+   "distance": 2.604,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Radamel Falcao",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "99b7584f",
+   "season": 2018,
+   "distance": 2.653,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Harnik",
+   "squad": "Hannover 96"
+  }
+ ],
  "low_confidence": false
 }

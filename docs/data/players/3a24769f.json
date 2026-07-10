@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1666,
+  "mu": 46.1,
+  "ci80": {
+   "lo": 37.3,
+   "hi": 55.0
+  },
+  "ci50": {
+   "lo": 41.5,
+   "hi": 50.8
+  },
+  "sigma_model": 2.104,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9a2e0ccc",
+   "season": 2020,
+   "distance": 2.449,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Emil Forsberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2020,
+   "distance": 2.501,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "9e61c019",
+   "season": 2018,
+   "distance": 2.504,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guilherme",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2019,
+   "distance": 2.645,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Celta Vigo / Betis"
+  },
+  {
+   "fbref_id": "2903a856",
+   "season": 2020,
+   "distance": 2.673,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Jonas Hofmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "61fc9685",
+   "season": 2018,
+   "distance": 2.702,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexandru Maxim",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "36d5469c",
+   "season": 2019,
+   "distance": 2.783,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Gallar",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "980522ec",
+   "season": 2020,
+   "distance": 2.818,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Christian Eriksen",
+   "squad": "Tottenham / Inter"
+  },
+  {
+   "fbref_id": "1001ae82",
+   "season": 2018,
+   "distance": 2.839,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Ryad Boudebouz",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "6992791d",
+   "season": 2018,
+   "distance": 2.852,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Junior Stanislas",
+   "squad": "Bournemouth"
+  }
+ ],
  "low_confidence": false
 }

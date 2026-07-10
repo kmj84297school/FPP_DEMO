@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.739,
+  "mu": 51.8,
+  "ci80": {
+   "lo": 43.1,
+   "hi": 60.4
+  },
+  "ci50": {
+   "lo": 47.2,
+   "hi": 56.3
+  },
+  "sigma_model": 1.703,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2020,
+   "distance": 1.199,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "f35430a4",
+   "season": 2019,
+   "distance": 1.39,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Matija Nastasić",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2018,
+   "distance": 1.409,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Christophe Hérelle",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2018,
+   "distance": 1.473,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergi Gómez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2018,
+   "distance": 1.474,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2018,
+   "distance": 1.505,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Berat Djimsiti",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2019,
+   "distance": 1.543,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Sergi Gómez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2019,
+   "distance": 1.547,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "d70a2141",
+   "season": 2019,
+   "distance": 1.633,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordi Amat",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2020,
+   "distance": 1.648,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

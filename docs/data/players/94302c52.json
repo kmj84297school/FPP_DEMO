@@ -26,10 +26,115 @@
   "confidence": 1.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6632,
+  "mu": 54.4,
+  "ci80": {
+   "lo": 45.7,
+   "hi": 63.1
+  },
+  "ci50": {
+   "lo": 49.8,
+   "hi": 58.9
+  },
+  "sigma_model": 1.672,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "616aea37",
+   "season": 2019,
+   "distance": 0.955,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "27f0ddef",
+   "season": 2018,
+   "distance": 1.495,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Helander",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "87935cf3",
+   "season": 2019,
+   "distance": 1.504,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Mamadou Sakho",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2018,
+   "distance": 1.56,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2020,
+   "distance": 1.61,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2020,
+   "distance": 1.629,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2019,
+   "distance": 1.687,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "0bad4516",
+   "season": 2019,
+   "distance": 1.689,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Bennett",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "c5b7c315",
+   "season": 2018,
+   "distance": 1.747,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "7cab69b5",
+   "season": 2019,
+   "distance": 1.751,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jemerson",
+   "squad": "Monaco"
+  }
+ ],
  "low_confidence": false
 }

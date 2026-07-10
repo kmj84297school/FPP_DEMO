@@ -26,10 +26,115 @@
   "confidence": 1.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3683,
+  "mu": 47.6,
+  "ci80": {
+   "lo": 38.7,
+   "hi": 56.4
+  },
+  "ci50": {
+   "lo": 42.9,
+   "hi": 52.2
+  },
+  "sigma_model": 2.184,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c53083ad",
+   "season": 2018,
+   "distance": 2.426,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Bryan Dabo",
+   "squad": "Saint-Étienne / Fiorentina"
+  },
+  {
+   "fbref_id": "5cec2c74",
+   "season": 2020,
+   "distance": 2.845,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Soualiho Meïté",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "106bca06",
+   "season": 2019,
+   "distance": 2.926,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Alessandro Schöpf",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "3cefa66a",
+   "season": 2018,
+   "distance": 2.965,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leroy Fer",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2019,
+   "distance": 3.016,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "0d077b88",
+   "season": 2019,
+   "distance": 3.021,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Bourabia",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "b6b2b820",
+   "season": 2020,
+   "distance": 3.03,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Rog",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "2b471f99",
+   "season": 2019,
+   "distance": 3.034,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Mario Lemina",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "08452314",
+   "season": 2019,
+   "distance": 3.048,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alireza Jahanbakhsh",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "86695068",
+   "season": 2020,
+   "distance": 3.085,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Dennis Praet",
+   "squad": "Leicester City"
+  }
+ ],
  "low_confidence": false
 }

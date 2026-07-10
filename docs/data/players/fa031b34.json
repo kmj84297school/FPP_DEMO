@@ -26,10 +26,115 @@
   "confidence": 0.59
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8904,
+  "mu": 59.8,
+  "ci80": {
+   "lo": 50.8,
+   "hi": 68.7
+  },
+  "ci50": {
+   "lo": 55.0,
+   "hi": 64.5
+  },
+  "sigma_model": 2.412,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "abe66106",
+   "season": 2019,
+   "distance": 2.79,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Érik Lamela",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "0ac94a23",
+   "season": 2018,
+   "distance": 2.91,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Denis Cheryshev",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "130a7a3f",
+   "season": 2020,
+   "distance": 2.961,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Samu Castillejo",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "2903a856",
+   "season": 2018,
+   "distance": 2.964,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Jonas Hofmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2020,
+   "distance": 2.98,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Mark Uth",
+   "squad": "Köln / Schalke 04"
+  },
+  {
+   "fbref_id": "819aa8e7",
+   "season": 2020,
+   "distance": 3.07,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ayoze Pérez",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "0ac94a23",
+   "season": 2019,
+   "distance": 3.153,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Denis Cheryshev",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "dc62fbee",
+   "season": 2019,
+   "distance": 3.221,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Leonardo Bittencourt",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "f72293fc",
+   "season": 2019,
+   "distance": 3.283,
+   "survived": 1,
+   "fut_ability_v2": 37.3,
+   "player_name": "Jóhann Berg Guðmundsson",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "6992791d",
+   "season": 2018,
+   "distance": 3.342,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Junior Stanislas",
+   "squad": "Bournemouth"
+  }
+ ],
  "low_confidence": false
 }

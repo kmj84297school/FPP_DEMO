@@ -26,10 +26,115 @@
   "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1892,
+  "mu": 40.0,
+  "ci80": {
+   "lo": 31.0,
+   "hi": 49.0
+  },
+  "ci50": {
+   "lo": 35.2,
+   "hi": 44.8
+  },
+  "sigma_model": 2.597,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "75f2c59f",
+   "season": 2020,
+   "distance": 2.28,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Roberto Pereyra",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "71d4e271",
+   "season": 2018,
+   "distance": 2.578,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Manuel Jurado",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "7c4243d4",
+   "season": 2020,
+   "distance": 2.679,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roque Mesa",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "f98b15f0",
+   "season": 2020,
+   "distance": 2.701,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Romain Philippoteaux",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "92b56413",
+   "season": 2019,
+   "distance": 2.804,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Tristan Dingomé",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "61bd33d0",
+   "season": 2018,
+   "distance": 2.909,
+   "survived": 1,
+   "fut_ability_v2": 36.8,
+   "player_name": "Takashi Inui",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "bc61cc65",
+   "season": 2020,
+   "distance": 2.989,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iñigo Pérez",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "b606638c",
+   "season": 2020,
+   "distance": 3.011,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Stiepermann",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "8e010ff4",
+   "season": 2019,
+   "distance": 3.04,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francisco Portillo",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "8802c1d5",
+   "season": 2018,
+   "distance": 3.045,
+   "survived": 1,
+   "fut_ability_v2": 41.3,
+   "player_name": "Frédéric Sammaritano",
+   "squad": "Dijon"
+  }
+ ],
  "low_confidence": false
 }

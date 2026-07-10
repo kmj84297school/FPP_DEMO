@@ -26,10 +26,115 @@
   "confidence": 0.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6685,
+  "mu": 58.9,
+  "ci80": {
+   "lo": 50.3,
+   "hi": 67.6
+  },
+  "ci50": {
+   "lo": 54.4,
+   "hi": 63.5
+  },
+  "sigma_model": 1.646,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5939baa2",
+   "season": 2018,
+   "distance": 2.18,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "f9acca3a",
+   "season": 2020,
+   "distance": 2.181,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wendell",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2018,
+   "distance": 2.246,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "f9acca3a",
+   "season": 2019,
+   "distance": 2.252,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Wendell",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2018,
+   "distance": 2.388,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "fbd6378b",
+   "season": 2018,
+   "distance": 2.399,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Aïssa Mandi",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "d5f2f82b",
+   "season": 2019,
+   "distance": 2.401,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Marquinhos",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "1025db8e",
+   "season": 2018,
+   "distance": 2.404,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Jeffrey Gouweleeuw",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "f521b80a",
+   "season": 2020,
+   "distance": 2.415,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Matthias Ginter",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2019,
+   "distance": 2.44,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Christophe Hérelle",
+   "squad": "Nice"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.84
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5083,
+  "mu": 40.9,
+  "ci80": {
+   "lo": 32.2,
+   "hi": 49.7
+  },
+  "ci50": {
+   "lo": 36.3,
+   "hi": 45.5
+  },
+  "sigma_model": 1.851,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ed239245",
+   "season": 2018,
+   "distance": 1.835,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "cf623c78",
+   "season": 2019,
+   "distance": 1.873,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Erik Durm",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "ae0a7ddf",
+   "season": 2019,
+   "distance": 1.879,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "DeAndre Yedlin",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "e9208654",
+   "season": 2018,
+   "distance": 2.042,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tommy Smith",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "9f29c204",
+   "season": 2018,
+   "distance": 2.045,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oualid El Hajjam",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "c067631c",
+   "season": 2020,
+   "distance": 2.102,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Fredericks",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "5d8d7454",
+   "season": 2020,
+   "distance": 2.18,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Frederic Guilbert",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2018,
+   "distance": 2.19,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "bbd86530",
+   "season": 2020,
+   "distance": 2.28,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christopher Lenz",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2020,
+   "distance": 2.308,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 2.41
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3988,
+  "mu": 59.2,
+  "ci80": {
+   "lo": 50.6,
+   "hi": 67.9
+  },
+  "ci50": {
+   "lo": 54.7,
+   "hi": 63.8
+  },
+  "sigma_model": 1.566,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a4ac4b8f",
+   "season": 2019,
+   "distance": 1.446,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Willy Boly",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2019,
+   "distance": 1.638,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "43e7a164",
+   "season": 2020,
+   "distance": 1.88,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Alexander Djiku",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2019,
+   "distance": 1.887,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2019,
+   "distance": 1.907,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "3e5e4e63",
+   "season": 2019,
+   "distance": 1.919,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steve Cook",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2018,
+   "distance": 1.957,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "c5b7c315",
+   "season": 2019,
+   "distance": 1.968,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2018,
+   "distance": 1.986,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "8b95acda",
+   "season": 2020,
+   "distance": 2.0,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Omar Colley",
+   "squad": "Sampdoria"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.4
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3627,
+  "mu": 52.1,
+  "ci80": {
+   "lo": 43.5,
+   "hi": 60.7
+  },
+  "ci50": {
+   "lo": 47.5,
+   "hi": 56.6
+  },
+  "sigma_model": 1.368,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "468fdbad",
+   "season": 2019,
+   "distance": 1.445,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Jonas Martin",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2019,
+   "distance": 1.605,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "5ab0ea87",
+   "season": 2018,
+   "distance": 1.686,
+   "survived": 1,
+   "fut_ability_v2": 63.4,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2020,
+   "distance": 1.781,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2018,
+   "distance": 1.816,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Lucas Deaux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2018,
+   "distance": 1.854,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Kevin Strootman",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "6c2f5996",
+   "season": 2018,
+   "distance": 1.861,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Hernández",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2018,
+   "distance": 1.99,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "f503ea63",
+   "season": 2020,
+   "distance": 1.997,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Albin Ekdal",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "5ab0ea87",
+   "season": 2020,
+   "distance": 2.0,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.65
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5953,
+  "mu": 63.7,
+  "ci80": {
+   "lo": 54.7,
+   "hi": 72.6
+  },
+  "ci50": {
+   "lo": 59.0,
+   "hi": 68.4
+  },
+  "sigma_model": 2.424,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "603cb947",
+   "season": 2020,
+   "distance": 2.727,
+   "survived": 1,
+   "fut_ability_v2": 67.2,
+   "player_name": "Andrej Kramarić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "92e7e919",
+   "season": 2019,
+   "distance": 2.759,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "Son Heung-min",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "9dbb75ca",
+   "season": 2018,
+   "distance": 2.842,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Alexandre Lacazette",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2018,
+   "distance": 3.047,
+   "survived": 1,
+   "fut_ability_v2": 78.3,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "93b891d1",
+   "season": 2019,
+   "distance": 3.05,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Felipe Caicedo",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2019,
+   "distance": 3.102,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Diego Farias",
+   "squad": "Empoli / Cagliari"
+  },
+  {
+   "fbref_id": "4d034881",
+   "season": 2018,
+   "distance": 3.121,
+   "survived": 1,
+   "fut_ability_v2": 70.2,
+   "player_name": "Sergio Agüero",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "4c370d81",
+   "season": 2019,
+   "distance": 3.13,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Roberto Firmino",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "eb2fe5b6",
+   "season": 2018,
+   "distance": 3.143,
+   "survived": 1,
+   "fut_ability_v2": 82.2,
+   "player_name": "Luis Muriel",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "a58bb1e1",
+   "season": 2018,
+   "distance": 3.197,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Gareth Bale",
+   "squad": "Real Madrid"
+  }
+ ],
  "low_confidence": false
 }

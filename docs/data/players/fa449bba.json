@@ -26,10 +26,115 @@
   "confidence": 0.53
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.22,
+  "mu": 39.4,
+  "ci80": {
+   "lo": 30.3,
+   "hi": 48.5
+  },
+  "ci50": {
+   "lo": 34.6,
+   "hi": 44.2
+  },
+  "sigma_model": 2.667,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7c388b20",
+   "season": 2020,
+   "distance": 1.682,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2020,
+   "distance": 2.048,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Darko Brašanac",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "33af5b9e",
+   "season": 2019,
+   "distance": 2.05,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Junior Hoilett",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "b5b27493",
+   "season": 2018,
+   "distance": 2.109,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcus Rohdén",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "62ab9184",
+   "season": 2019,
+   "distance": 2.123,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Yannick Gerhardt",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "989d5705",
+   "season": 2019,
+   "distance": 2.23,
+   "survived": 1,
+   "fut_ability_v2": 29.8,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "67d23ab0",
+   "season": 2018,
+   "distance": 2.332,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Ince",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "d2ac648c",
+   "season": 2018,
+   "distance": 2.34,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaku Shibasaki",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "5bddccc9",
+   "season": 2018,
+   "distance": 2.387,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Elias Kachunga",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "b1313ec4",
+   "season": 2018,
+   "distance": 2.406,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Scott Arfield",
+   "squad": "Burnley"
+  }
+ ],
  "low_confidence": false
 }

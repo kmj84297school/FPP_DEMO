@@ -26,10 +26,115 @@
   "confidence": 0.6
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2201,
+  "mu": 50.4,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 59.2
+  },
+  "ci50": {
+   "lo": 45.8,
+   "hi": 55.0
+  },
+  "sigma_model": 1.875,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bf97c188",
+   "season": 2018,
+   "distance": 1.838,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Mercado",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "1fe67e86",
+   "season": 2018,
+   "distance": 1.923,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Mikel Balenziaga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "f5e9a8bd",
+   "season": 2018,
+   "distance": 1.999,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Costa",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "1ef37668",
+   "season": 2020,
+   "distance": 2.022,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Erik Pieters",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "caffaf5a",
+   "season": 2019,
+   "distance": 2.052,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Maya Yoshida",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2018,
+   "distance": 2.09,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "de164de6",
+   "season": 2019,
+   "distance": 2.137,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felipe",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "8494acc4",
+   "season": 2019,
+   "distance": 2.152,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Stefan Ilsanker",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "9c2394c9",
+   "season": 2020,
+   "distance": 2.156,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Strohdiek",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "92d38e6c",
+   "season": 2020,
+   "distance": 2.312,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitris Siovas",
+   "squad": "Leganés"
+  }
+ ],
  "low_confidence": false
 }

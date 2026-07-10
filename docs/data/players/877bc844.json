@@ -26,10 +26,115 @@
   "confidence": 0.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2263,
+  "mu": 40.6,
+  "ci80": {
+   "lo": 31.4,
+   "hi": 49.8
+  },
+  "ci50": {
+   "lo": 35.8,
+   "hi": 45.4
+  },
+  "sigma_model": 2.853,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "02319ad7",
+   "season": 2020,
+   "distance": 2.12,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaime Mata",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2020,
+   "distance": 2.164,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "82e34b69",
+   "season": 2020,
+   "distance": 2.41,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Troy Deeney",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "82e34b69",
+   "season": 2018,
+   "distance": 2.439,
+   "survived": 1,
+   "fut_ability_v2": 43.2,
+   "player_name": "Troy Deeney",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2019,
+   "distance": 2.528,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "e5f63987",
+   "season": 2019,
+   "distance": 2.532,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ginczek",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "549c6ba7",
+   "season": 2018,
+   "distance": 2.55,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Di Santo",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 2.569,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "82e34b69",
+   "season": 2019,
+   "distance": 2.645,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Troy Deeney",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "f93e6e94",
+   "season": 2018,
+   "distance": 2.705,
+   "survived": 1,
+   "fut_ability_v2": 41.7,
+   "player_name": "Nils Petersen",
+   "squad": "Freiburg"
+  }
+ ],
  "low_confidence": false
 }

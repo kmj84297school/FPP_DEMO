@@ -26,10 +26,115 @@
   "confidence": 1.19
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2361,
+  "mu": 46.7,
+  "ci80": {
+   "lo": 38.0,
+   "hi": 55.5
+  },
+  "ci50": {
+   "lo": 42.1,
+   "hi": 51.3
+  },
+  "sigma_model": 1.86,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "eb58eef0",
+   "season": 2018,
+   "distance": 1.944,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Georginio Wijnaldum",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "6c679c6d",
+   "season": 2018,
+   "distance": 2.073,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Knockaert",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "c414df9d",
+   "season": 2020,
+   "distance": 2.279,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mattia Valoti",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "4a57580c",
+   "season": 2019,
+   "distance": 2.289,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2019,
+   "distance": 2.41,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2019,
+   "distance": 2.554,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "aa5a409a",
+   "season": 2019,
+   "distance": 2.597,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raman Chibsah",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "3c05e082",
+   "season": 2019,
+   "distance": 2.608,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koo Ja-cheol",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "97333cf5",
+   "season": 2020,
+   "distance": 2.624,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Stuart Armstrong",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "7c4243d4",
+   "season": 2019,
+   "distance": 2.629,
+   "survived": 1,
+   "fut_ability_v2": 44.9,
+   "player_name": "Roque Mesa",
+   "squad": "Sevilla"
+  }
+ ],
  "low_confidence": false
 }

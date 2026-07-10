@@ -26,10 +26,115 @@
   "confidence": 0.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2128,
+  "mu": 40.9,
+  "ci80": {
+   "lo": 32.0,
+   "hi": 49.8
+  },
+  "ci50": {
+   "lo": 36.2,
+   "hi": 45.6
+  },
+  "sigma_model": 2.265,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2018,
+   "distance": 2.24,
+   "survived": 1,
+   "fut_ability_v2": 43.0,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "2691c772",
+   "season": 2020,
+   "distance": 2.301,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ashley Barnes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "71a20ce8",
+   "season": 2018,
+   "distance": 2.424,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gómez",
+   "squad": "Stuttgart / Wolfsburg"
+  },
+  {
+   "fbref_id": "9f472354",
+   "season": 2019,
+   "distance": 2.481,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "34e4343c",
+   "season": 2020,
+   "distance": 2.522,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Anthony Modeste",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "8cfc2f69",
+   "season": 2018,
+   "distance": 2.556,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Ángel Rodríguez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2018,
+   "distance": 2.665,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "71a20ce8",
+   "season": 2019,
+   "distance": 2.681,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gómez",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "4ab53cdb",
+   "season": 2020,
+   "distance": 2.707,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Jay Rodriguez",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "99b7584f",
+   "season": 2018,
+   "distance": 2.769,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Harnik",
+   "squad": "Hannover 96"
+  }
+ ],
  "low_confidence": false
 }

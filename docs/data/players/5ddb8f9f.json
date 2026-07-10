@@ -26,10 +26,115 @@
   "confidence": 1.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1389,
+  "mu": 49.4,
+  "ci80": {
+   "lo": 40.6,
+   "hi": 58.3
+  },
+  "ci50": {
+   "lo": 44.8,
+   "hi": 54.1
+  },
+  "sigma_model": 2.138,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5c4d9be7",
+   "season": 2019,
+   "distance": 2.383,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enrico Valentini",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "6873f3bc",
+   "season": 2018,
+   "distance": 2.742,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dennis Diekmeier",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "5b5724d2",
+   "season": 2020,
+   "distance": 2.79,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lionel Carole",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "9d107085",
+   "season": 2019,
+   "distance": 2.805,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charlie Daniels",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "5b5724d2",
+   "season": 2019,
+   "distance": 2.853,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Lionel Carole",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2019,
+   "distance": 2.861,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2018,
+   "distance": 2.915,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "d3ce9f1f",
+   "season": 2018,
+   "distance": 2.949,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ludovic Baal",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "d4ef9ac5",
+   "season": 2018,
+   "distance": 2.954,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Toño",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "9a1f2e1c",
+   "season": 2019,
+   "distance": 2.954,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafael",
+   "squad": "Lyon"
+  }
+ ],
  "low_confidence": false
 }

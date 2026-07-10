@@ -26,10 +26,115 @@
   "confidence": 0.21
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5616,
+  "mu": 46.7,
+  "ci80": {
+   "lo": 37.9,
+   "hi": 55.5
+  },
+  "ci50": {
+   "lo": 42.1,
+   "hi": 51.3
+  },
+  "sigma_model": 2.057,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c067631c",
+   "season": 2019,
+   "distance": 1.872,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Fredericks",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "eb5bc3eb",
+   "season": 2018,
+   "distance": 1.879,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enric Saborit",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "2a29eb9b",
+   "season": 2018,
+   "distance": 2.116,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lukas Kübler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "6adbc307",
+   "season": 2019,
+   "distance": 2.299,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "b0243215",
+   "season": 2020,
+   "distance": 2.312,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Dell'Orco",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "46a8347f",
+   "season": 2018,
+   "distance": 2.351,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Šime Vrsaljko",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "cc2d7ad5",
+   "season": 2020,
+   "distance": 2.376,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Charlie Taylor",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "01a49bd2",
+   "season": 2020,
+   "distance": 2.403,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lisandro Magallán",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "de488e56",
+   "season": 2019,
+   "distance": 2.423,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Charles Traore",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2019,
+   "distance": 2.424,
+   "survived": 1,
+   "fut_ability_v2": 53.7,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante / Valencia"
+  }
+ ],
  "low_confidence": false
 }

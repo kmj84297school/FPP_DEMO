@@ -26,10 +26,115 @@
   "confidence": 0.72
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3988,
+  "mu": 46.1,
+  "ci80": {
+   "lo": 37.3,
+   "hi": 54.8
+  },
+  "ci50": {
+   "lo": 41.5,
+   "hi": 50.7
+  },
+  "sigma_model": 1.896,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b3b7f5a6",
+   "season": 2020,
+   "distance": 1.923,
+   "survived": 1,
+   "fut_ability_v2": 38.2,
+   "player_name": "Timothy Chandler",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "e94d79e3",
+   "season": 2018,
+   "distance": 1.938,
+   "survived": 1,
+   "fut_ability_v2": 41.7,
+   "player_name": "Martín Cáceres",
+   "squad": "Hellas Verona / Lazio"
+  },
+  {
+   "fbref_id": "ad6295d4",
+   "season": 2018,
+   "distance": 2.22,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Layún",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2019,
+   "distance": 2.447,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2019,
+   "distance": 2.541,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Coke",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2018,
+   "distance": 2.75,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Coke",
+   "squad": "Levante / Schalke 04"
+  },
+  {
+   "fbref_id": "e74f0e59",
+   "season": 2019,
+   "distance": 2.769,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Lorenzo De Silvestri",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "1b729ba2",
+   "season": 2018,
+   "distance": 2.846,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleandro Rosi",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "e74f0e59",
+   "season": 2020,
+   "distance": 2.94,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Lorenzo De Silvestri",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "5890cef1",
+   "season": 2018,
+   "distance": 2.968,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aday",
+   "squad": "Girona"
+  }
+ ],
  "low_confidence": false
 }

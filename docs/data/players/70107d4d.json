@@ -26,10 +26,115 @@
   "confidence": 1.12
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2418,
+  "mu": 43.2,
+  "ci80": {
+   "lo": 34.2,
+   "hi": 52.3
+  },
+  "ci50": {
+   "lo": 38.5,
+   "hi": 48.0
+  },
+  "sigma_model": 2.64,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "47dc80f5",
+   "season": 2018,
+   "distance": 2.947,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adel Taarabt",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "791af558",
+   "season": 2018,
+   "distance": 2.998,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raffael",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "e468c053",
+   "season": 2019,
+   "distance": 3.284,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Gervinho",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "1ad1f50d",
+   "season": 2018,
+   "distance": 3.493,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Sau",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "b28bbd58",
+   "season": 2020,
+   "distance": 3.525,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Andros Townsend",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2019,
+   "distance": 3.643,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "1cac99dc",
+   "season": 2019,
+   "distance": 3.651,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Siligardi",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "5370cba7",
+   "season": 2018,
+   "distance": 3.688,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alessio Cerci",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "854ee61a",
+   "season": 2020,
+   "distance": 3.71,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Grégoire Defrel",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "43a2e16c",
+   "season": 2018,
+   "distance": 3.755,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirco Antenucci",
+   "squad": "SPAL"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 0.75
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1228,
+  "mu": 50.2,
+  "ci80": {
+   "lo": 41.2,
+   "hi": 59.2
+  },
+  "ci50": {
+   "lo": 45.5,
+   "hi": 55.0
+  },
+  "sigma_model": 2.498,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "74e0a984",
+   "season": 2019,
+   "distance": 1.573,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Damián Musto",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "ed5886d2",
+   "season": 2020,
+   "distance": 1.671,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Parolo",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "677ee102",
+   "season": 2019,
+   "distance": 1.731,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "Yannick Cahuzac",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "ecab64a0",
+   "season": 2020,
+   "distance": 1.815,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "d3d758d8",
+   "season": 2020,
+   "distance": 1.88,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valon Behrami",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "000b3da6",
+   "season": 2018,
+   "distance": 1.965,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Iturra",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "2e8fc160",
+   "season": 2018,
+   "distance": 1.972,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Fuego",
+   "squad": "Espanyol / Villarreal"
+  },
+  {
+   "fbref_id": "677ee102",
+   "season": 2018,
+   "distance": 2.0,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "Yannick Cahuzac",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "a3a306f6",
+   "season": 2018,
+   "distance": 2.153,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Lacen",
+   "squad": "Málaga / Getafe"
+  },
+  {
+   "fbref_id": "e54bd0a2",
+   "season": 2020,
+   "distance": 2.241,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Tomás Pina Isla",
+   "squad": "Alavés"
+  }
+ ],
  "low_confidence": false
 }

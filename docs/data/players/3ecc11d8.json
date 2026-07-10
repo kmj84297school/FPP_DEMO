@@ -26,10 +26,115 @@
   "confidence": 0.47
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4831,
+  "mu": 55.5,
+  "ci80": {
+   "lo": 46.8,
+   "hi": 64.3
+  },
+  "ci50": {
+   "lo": 50.9,
+   "hi": 60.2
+  },
+  "sigma_model": 1.985,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b82880c6",
+   "season": 2018,
+   "distance": 1.513,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Falette",
+   "squad": "Eint Frankfurt / Metz"
+  },
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2018,
+   "distance": 1.644,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "1025db8e",
+   "season": 2019,
+   "distance": 1.765,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Jeffrey Gouweleeuw",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "857a5abe",
+   "season": 2019,
+   "distance": 1.823,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Stefan Bell",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2019,
+   "distance": 1.828,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2020,
+   "distance": 1.834,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "083525e5",
+   "season": 2018,
+   "distance": 1.981,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Papy Djilobodji",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "5939baa2",
+   "season": 2019,
+   "distance": 1.989,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "44781702",
+   "season": 2019,
+   "distance": 2.015,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Ben Davies",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "5832ebfe",
+   "season": 2020,
+   "distance": 2.055,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Denswil",
+   "squad": "Bologna"
+  }
+ ],
  "low_confidence": false
 }

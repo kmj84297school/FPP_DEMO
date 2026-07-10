@@ -26,10 +26,115 @@
   "confidence": 1.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3381,
+  "mu": 43.4,
+  "ci80": {
+   "lo": 34.6,
+   "hi": 52.2
+  },
+  "ci50": {
+   "lo": 38.7,
+   "hi": 48.0
+  },
+  "sigma_model": 2.049,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6adbc307",
+   "season": 2019,
+   "distance": 1.964,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "25f50295",
+   "season": 2018,
+   "distance": 2.281,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Mike van der Hoorn",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "de0f152c",
+   "season": 2019,
+   "distance": 2.291,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "Adam Masina",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "d0dbca9f",
+   "season": 2020,
+   "distance": 2.311,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Alex Ferrari",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "4db76f57",
+   "season": 2018,
+   "distance": 2.339,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Muniesa",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "7f203b54",
+   "season": 2019,
+   "distance": 2.38,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chema",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "88d91621",
+   "season": 2019,
+   "distance": 2.406,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Sergio Álvarez",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "c067631c",
+   "season": 2019,
+   "distance": 2.407,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Fredericks",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2018,
+   "distance": 2.457,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Armando Izzo",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "3767b3b7",
+   "season": 2019,
+   "distance": 2.469,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Edgar Ié",
+   "squad": "Nantes / Lille"
+  }
+ ],
  "low_confidence": false
 }

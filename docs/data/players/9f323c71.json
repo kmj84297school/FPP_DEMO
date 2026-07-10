@@ -26,10 +26,115 @@
   "confidence": 0.09
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1216,
+  "mu": 54.0,
+  "ci80": {
+   "lo": 45.3,
+   "hi": 62.7
+  },
+  "ci50": {
+   "lo": 49.4,
+   "hi": 58.6
+  },
+  "sigma_model": 1.808,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "eda40760",
+   "season": 2020,
+   "distance": 2.384,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "767212e6",
+   "season": 2020,
+   "distance": 2.445,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Faussurier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2019,
+   "distance": 2.492,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "eda40760",
+   "season": 2019,
+   "distance": 2.494,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2019,
+   "distance": 2.557,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2020,
+   "distance": 2.718,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "ba5004e1",
+   "season": 2020,
+   "distance": 2.731,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Damián Suárez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "97655ccd",
+   "season": 2018,
+   "distance": 2.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paul Verhaegh",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "35dd6d80",
+   "season": 2019,
+   "distance": 2.831,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Domenico Criscito",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "b18095b6",
+   "season": 2018,
+   "distance": 2.876,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leighton Baines",
+   "squad": "Everton"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3631,
+  "mu": 55.2,
+  "ci80": {
+   "lo": 46.5,
+   "hi": 63.9
+  },
+  "ci50": {
+   "lo": 50.6,
+   "hi": 59.8
+  },
+  "sigma_model": 1.716,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "44781702",
+   "season": 2018,
+   "distance": 2.641,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Ben Davies",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "2e4f5f03",
+   "season": 2020,
+   "distance": 2.794,
+   "survived": 1,
+   "fut_ability_v2": 65.9,
+   "player_name": "Andrew Robertson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "e288d4b3",
+   "season": 2018,
+   "distance": 2.797,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Alessandro Florenzi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "0f52f925",
+   "season": 2019,
+   "distance": 2.891,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Lima",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "4c5b714f",
+   "season": 2019,
+   "distance": 3.142,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Djibril Sidibé",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "770d7eb8",
+   "season": 2019,
+   "distance": 3.273,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Kenny Lala",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "4c5b714f",
+   "season": 2018,
+   "distance": 3.466,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Djibril Sidibé",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "05439de2",
+   "season": 2019,
+   "distance": 3.519,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "David Alaba",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "8ff2354e",
+   "season": 2019,
+   "distance": 3.521,
+   "survived": 1,
+   "fut_ability_v2": 65.7,
+   "player_name": "Marcel Halstenberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2018,
+   "distance": 3.6,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Montpellier"
+  }
+ ],
  "low_confidence": false
 }

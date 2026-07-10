@@ -26,10 +26,115 @@
   "confidence": 1.83
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1737,
+  "mu": 51.9,
+  "ci80": {
+   "lo": 43.1,
+   "hi": 60.8
+  },
+  "ci50": {
+   "lo": 47.3,
+   "hi": 56.6
+  },
+  "sigma_model": 2.117,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2018,
+   "distance": 2.122,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "857a5abe",
+   "season": 2019,
+   "distance": 2.281,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Stefan Bell",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "89565ac5",
+   "season": 2018,
+   "distance": 2.403,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Schmelzer",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "321a71a7",
+   "season": 2018,
+   "distance": 2.491,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxime Le Marchand",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "53de807a",
+   "season": 2018,
+   "distance": 2.541,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2020,
+   "distance": 2.596,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2019,
+   "distance": 2.614,
+   "survived": 1,
+   "fut_ability_v2": 43.8,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "e1b3413d",
+   "season": 2018,
+   "distance": 2.615,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ernest Seka",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "8494acc4",
+   "season": 2018,
+   "distance": 2.634,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Stefan Ilsanker",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "b0616e3d",
+   "season": 2018,
+   "distance": 2.755,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Escudero",
+   "squad": "Sevilla"
+  }
+ ],
  "low_confidence": false
 }

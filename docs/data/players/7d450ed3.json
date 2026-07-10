@@ -26,10 +26,115 @@
   "confidence": 1.08
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5575,
+  "mu": 48.1,
+  "ci80": {
+   "lo": 39.2,
+   "hi": 57.1
+  },
+  "ci50": {
+   "lo": 43.4,
+   "hi": 52.9
+  },
+  "sigma_model": 2.432,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 1.512,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "f45f9427",
+   "season": 2020,
+   "distance": 1.53,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Dalbert Henrique",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "8593f88c",
+   "season": 2018,
+   "distance": 1.939,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Christian Günter",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2019,
+   "distance": 1.952,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2020,
+   "distance": 2.08,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "3dffff26",
+   "season": 2018,
+   "distance": 2.084,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Korb",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "4aea5077",
+   "season": 2020,
+   "distance": 2.087,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Stefan Lainer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 2.094,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "3dd738a1",
+   "season": 2018,
+   "distance": 2.124,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Ruben Aguilar",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "4c5b714f",
+   "season": 2019,
+   "distance": 2.191,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Djibril Sidibé",
+   "squad": "Monaco"
+  }
+ ],
  "low_confidence": false
 }

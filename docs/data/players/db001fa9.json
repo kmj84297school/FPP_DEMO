@@ -26,10 +26,115 @@
   "confidence": 1.03
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.365,
+  "mu": 44.1,
+  "ci80": {
+   "lo": 35.4,
+   "hi": 52.9
+  },
+  "ci50": {
+   "lo": 39.5,
+   "hi": 48.8
+  },
+  "sigma_model": 1.895,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bad38a94",
+   "season": 2020,
+   "distance": 1.874,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "3e4f735d",
+   "season": 2018,
+   "distance": 2.132,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vitorino Antunes",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "2e3406ae",
+   "season": 2020,
+   "distance": 2.24,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fran Gámez",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "173061c0",
+   "season": 2019,
+   "distance": 2.288,
+   "survived": 1,
+   "fut_ability_v2": 55.1,
+   "player_name": "Riccardo Gagliolo",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2018,
+   "distance": 2.292,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "a7f00c8c",
+   "season": 2018,
+   "distance": 2.338,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luisinho",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "cfd5e123",
+   "season": 2018,
+   "distance": 2.366,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Bong",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2018,
+   "distance": 2.373,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "7f4c7c9f",
+   "season": 2019,
+   "distance": 2.385,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Jorge Miramón",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "1ef37668",
+   "season": 2018,
+   "distance": 2.403,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Erik Pieters",
+   "squad": "Stoke City"
+  }
+ ],
  "low_confidence": false
 }

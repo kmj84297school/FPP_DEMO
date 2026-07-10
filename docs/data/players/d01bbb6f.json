@@ -26,10 +26,115 @@
   "confidence": 1.03
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6119,
+  "mu": 46.7,
+  "ci80": {
+   "lo": 37.6,
+   "hi": 55.8
+  },
+  "ci50": {
+   "lo": 41.9,
+   "hi": 51.5
+  },
+  "sigma_model": 2.749,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "819aa8e7",
+   "season": 2019,
+   "distance": 2.375,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Ayoze Pérez",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "819aa8e7",
+   "season": 2020,
+   "distance": 2.484,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ayoze Pérez",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "819aa8e7",
+   "season": 2018,
+   "distance": 2.51,
+   "survived": 1,
+   "fut_ability_v2": 58.1,
+   "player_name": "Ayoze Pérez",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "ab651565",
+   "season": 2020,
+   "distance": 2.519,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Nathan Redmond",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "a08b974a",
+   "season": 2019,
+   "distance": 2.574,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Lucas Ocampos",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "ab651565",
+   "season": 2019,
+   "distance": 2.617,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Nathan Redmond",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "df8e7b62",
+   "season": 2020,
+   "distance": 2.678,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Erik Thommy",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "01eb744d",
+   "season": 2020,
+   "distance": 2.778,
+   "survived": 1,
+   "fut_ability_v2": 65.7,
+   "player_name": "Ángel Correa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "cac2537b",
+   "season": 2020,
+   "distance": 2.792,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Enis Bardhi",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "2b622f01",
+   "season": 2020,
+   "distance": 2.802,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Lucas Moura",
+   "squad": "Tottenham"
+  }
+ ],
  "low_confidence": false
 }

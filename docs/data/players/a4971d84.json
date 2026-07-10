@@ -26,10 +26,115 @@
   "confidence": 0.98
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3062,
+  "mu": 42.9,
+  "ci80": {
+   "lo": 33.9,
+   "hi": 51.8
+  },
+  "ci50": {
+   "lo": 38.1,
+   "hi": 47.6
+  },
+  "sigma_model": 2.462,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "474ecac8",
+   "season": 2020,
+   "distance": 1.636,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "72b07a9c",
+   "season": 2020,
+   "distance": 1.687,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kiko Olivas",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "47a500ae",
+   "season": 2018,
+   "distance": 1.809,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Luca Rossettini",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "b666421b",
+   "season": 2020,
+   "distance": 1.939,
+   "survived": 1,
+   "fut_ability_v2": 41.0,
+   "player_name": "Ismaël Traoré",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "89e4b358",
+   "season": 2020,
+   "distance": 2.033,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Craig Cathcart",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "56400c01",
+   "season": 2019,
+   "distance": 2.044,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Pisacane",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "63071a3f",
+   "season": 2020,
+   "distance": 2.061,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Iacoponi",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "13d820de",
+   "season": 2018,
+   "distance": 2.082,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Andreolli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "72b07a9c",
+   "season": 2019,
+   "distance": 2.086,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kiko Olivas",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2018,
+   "distance": 2.101,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

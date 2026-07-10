@@ -26,10 +26,115 @@
   "confidence": 0.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.524,
+  "mu": 44.8,
+  "ci80": {
+   "lo": 35.4,
+   "hi": 54.2
+  },
+  "ci50": {
+   "lo": 39.8,
+   "hi": 49.7
+  },
+  "sigma_model": 3.295,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "04c11885",
+   "season": 2018,
+   "distance": 2.435,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "eaf71a5e",
+   "season": 2018,
+   "distance": 2.614,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Azamoum",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2018,
+   "distance": 2.859,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "59e4b92e",
+   "season": 2020,
+   "distance": 3.069,
+   "survived": 1,
+   "fut_ability_v2": 35.7,
+   "player_name": "Rani Khedira",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "989d5705",
+   "season": 2019,
+   "distance": 3.256,
+   "survived": 1,
+   "fut_ability_v2": 29.8,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2020,
+   "distance": 3.328,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2019,
+   "distance": 3.338,
+   "survived": 1,
+   "fut_ability_v2": 30.9,
+   "player_name": "Pere Pons",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "471f16b3",
+   "season": 2020,
+   "distance": 3.401,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Kenny McLean",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "00b28772",
+   "season": 2020,
+   "distance": 3.431,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Nemanja Maksimović",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "b0fce72c",
+   "season": 2019,
+   "distance": 3.436,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Mikel Vesga",
+   "squad": "Leganés"
+  }
+ ],
  "low_confidence": false
 }

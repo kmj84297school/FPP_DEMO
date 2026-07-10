@@ -26,10 +26,115 @@
   "confidence": 1.92
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2645,
+  "mu": 49.5,
+  "ci80": {
+   "lo": 40.2,
+   "hi": 58.7
+  },
+  "ci50": {
+   "lo": 44.6,
+   "hi": 54.3
+  },
+  "sigma_model": 2.982,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3e87d087",
+   "season": 2019,
+   "distance": 2.065,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emmanuel Imorou",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "a6e316c1",
+   "season": 2018,
+   "distance": 2.087,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezequiel Schelotto",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "8494acc4",
+   "season": 2019,
+   "distance": 2.169,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Stefan Ilsanker",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "0bad4516",
+   "season": 2020,
+   "distance": 2.336,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Bennett",
+   "squad": "Wolves / Leicester City"
+  },
+  {
+   "fbref_id": "8db394aa",
+   "season": 2020,
+   "distance": 2.344,
+   "survived": 1,
+   "fut_ability_v2": 37.2,
+   "player_name": "Ximo Navarro",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "1a317a1b",
+   "season": 2019,
+   "distance": 2.401,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl García",
+   "squad": "Girona / Leganés"
+  },
+  {
+   "fbref_id": "0eb5720b",
+   "season": 2018,
+   "distance": 2.421,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mërgim Mavraj",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "92d38e6c",
+   "season": 2020,
+   "distance": 2.448,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitris Siovas",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "f6ac68c1",
+   "season": 2019,
+   "distance": 2.497,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Stefan Savić",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "d7492450",
+   "season": 2020,
+   "distance": 2.523,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Kelly",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

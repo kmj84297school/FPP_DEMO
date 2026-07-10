@@ -26,10 +26,115 @@
   "confidence": 0.6
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4016,
+  "mu": 53.5,
+  "ci80": {
+   "lo": 44.8,
+   "hi": 62.2
+  },
+  "ci50": {
+   "lo": 48.9,
+   "hi": 58.0
+  },
+  "sigma_model": 1.713,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "92b4a127",
+   "season": 2018,
+   "distance": 1.493,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gustavo Cabral",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "b682dcf6",
+   "season": 2019,
+   "distance": 1.545,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sokratis Papastathopoulos",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "fc4f85b1",
+   "season": 2018,
+   "distance": 1.59,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "Diego Godín",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "45b7edae",
+   "season": 2018,
+   "distance": 1.593,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Holger Badstuber",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 1.61,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "b3dc6eca",
+   "season": 2018,
+   "distance": 1.672,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Víctor Ruiz",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2020,
+   "distance": 1.723,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kostas Manolas",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "f25b010f",
+   "season": 2018,
+   "distance": 1.761,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Federico Fernández",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "7c473e12",
+   "season": 2020,
+   "distance": 1.767,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Dedryck Boyata",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2020,
+   "distance": 1.772,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro González",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

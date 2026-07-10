@@ -26,10 +26,115 @@
   "confidence": 0.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1115,
+  "mu": 36.1,
+  "ci80": {
+   "lo": 27.2,
+   "hi": 44.9
+  },
+  "ci50": {
+   "lo": 31.4,
+   "hi": 40.7
+  },
+  "sigma_model": 2.106,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7c388b20",
+   "season": 2020,
+   "distance": 1.743,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "a64cbd35",
+   "season": 2019,
+   "distance": 2.0,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonino Barillà",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "7c388b20",
+   "season": 2019,
+   "distance": 2.083,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "61bd33d0",
+   "season": 2020,
+   "distance": 2.137,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Takashi Inui",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "aec0fb6f",
+   "season": 2018,
+   "distance": 2.261,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javier Eraso",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "f4ec4fd0",
+   "season": 2018,
+   "distance": 2.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin-Prince Boateng",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "33af5b9e",
+   "season": 2019,
+   "distance": 2.353,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Junior Hoilett",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "77b41ac0",
+   "season": 2019,
+   "distance": 2.364,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hanno Behrens",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "c77a8043",
+   "season": 2020,
+   "distance": 2.378,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Antonio Puertas",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "61bd33d0",
+   "season": 2018,
+   "distance": 2.39,
+   "survived": 1,
+   "fut_ability_v2": 36.8,
+   "player_name": "Takashi Inui",
+   "squad": "Eibar"
+  }
+ ],
  "low_confidence": false
 }

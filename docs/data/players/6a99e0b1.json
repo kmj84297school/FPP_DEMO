@@ -26,10 +26,115 @@
   "confidence": 0.09
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5905,
+  "mu": 49.4,
+  "ci80": {
+   "lo": 40.2,
+   "hi": 58.6
+  },
+  "ci50": {
+   "lo": 44.6,
+   "hi": 54.3
+  },
+  "sigma_model": 2.9,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2bcc6d52",
+   "season": 2018,
+   "distance": 1.764,
+   "survived": 1,
+   "fut_ability_v2": 35.8,
+   "player_name": "Guido Burgstaller",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "b318a643",
+   "season": 2019,
+   "distance": 1.915,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomón Rondón",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2020,
+   "distance": 2.027,
+   "survived": 1,
+   "fut_ability_v2": 69.6,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "601ef102",
+   "season": 2020,
+   "distance": 2.101,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Okaka",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "d3de9af0",
+   "season": 2018,
+   "distance": 2.111,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Duván Zapata",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "43458538",
+   "season": 2019,
+   "distance": 2.123,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 2.142,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "b318a643",
+   "season": 2018,
+   "distance": 2.169,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomón Rondón",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "b561db50",
+   "season": 2020,
+   "distance": 2.242,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "5d59e0df",
+   "season": 2018,
+   "distance": 2.288,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Sala",
+   "squad": "Nantes"
+  }
+ ],
  "low_confidence": false
 }

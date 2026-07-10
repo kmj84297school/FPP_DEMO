@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3718,
+  "mu": 54.3,
+  "ci80": {
+   "lo": 45.6,
+   "hi": 62.9
+  },
+  "ci50": {
+   "lo": 49.7,
+   "hi": 58.8
+  },
+  "sigma_model": 1.444,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "86dd77d1",
+   "season": 2019,
+   "distance": 1.642,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Kyle Walker",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "487d9b09",
+   "season": 2018,
+   "distance": 1.865,
+   "survived": 1,
+   "fut_ability_v2": 40.4,
+   "player_name": "Antonio Barragán",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2020,
+   "distance": 2.026,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2018,
+   "distance": 2.117,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "2db2fd7b",
+   "season": 2018,
+   "distance": 2.161,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Jérôme Boateng",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2018,
+   "distance": 2.193,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "d003e213",
+   "season": 2018,
+   "distance": 2.194,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafinha",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2019,
+   "distance": 2.195,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Nacho Monreal",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "53cad200",
+   "season": 2019,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "César Azpilicueta",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "08511d65",
+   "season": 2018,
+   "distance": 2.258,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Sergio Ramos",
+   "squad": "Real Madrid"
+  }
+ ],
  "low_confidence": false
 }

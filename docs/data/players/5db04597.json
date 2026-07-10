@@ -26,10 +26,115 @@
   "confidence": 1.7
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4261,
+  "mu": 40.7,
+  "ci80": {
+   "lo": 31.9,
+   "hi": 49.6
+  },
+  "ci50": {
+   "lo": 36.1,
+   "hi": 45.4
+  },
+  "sigma_model": 2.216,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "394854c4",
+   "season": 2020,
+   "distance": 1.229,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "George Baldock",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2020,
+   "distance": 1.568,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 1.597,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "4e0afc5d",
+   "season": 2020,
+   "distance": 1.852,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Arnaud Souquet",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "4cee5954",
+   "season": 2020,
+   "distance": 1.928,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Olaza",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "f26e3c59",
+   "season": 2018,
+   "distance": 1.976,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Laxalt",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "4f974391",
+   "season": 2018,
+   "distance": 2.026,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ae0a7ddf",
+   "season": 2019,
+   "distance": 2.069,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "DeAndre Yedlin",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "46ee5234",
+   "season": 2018,
+   "distance": 2.077,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kieran Gibbs",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "8e45910b",
+   "season": 2019,
+   "distance": 2.19,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Zampano",
+   "squad": "Frosinone"
+  }
+ ],
  "low_confidence": false
 }

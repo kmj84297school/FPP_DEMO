@@ -26,10 +26,115 @@
   "confidence": 0.54
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.1207,
+  "mu": 52.6,
+  "ci80": {
+   "lo": 43.9,
+   "hi": 61.4
+  },
+  "ci50": {
+   "lo": 48.0,
+   "hi": 57.2
+  },
+  "sigma_model": 1.804,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0e21fc3c",
+   "season": 2020,
+   "distance": 2.738,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Valero",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "0e21fc3c",
+   "season": 2018,
+   "distance": 3.231,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Borja Valero",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "35c5f9b1",
+   "season": 2018,
+   "distance": 3.346,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stéphane Sessègnon",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "75bd85ea",
+   "season": 2020,
+   "distance": 3.373,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Salva Sevilla",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "6025fab1",
+   "season": 2020,
+   "distance": 3.544,
+   "survived": 1,
+   "fut_ability_v2": 65.9,
+   "player_name": "Luka Modrić",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "57ef0d97",
+   "season": 2018,
+   "distance": 3.667,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Motta",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "6025fab1",
+   "season": 2019,
+   "distance": 3.782,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Luka Modrić",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2020,
+   "distance": 3.784,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "532d2690",
+   "season": 2019,
+   "distance": 3.852,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele De Rossi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ef322658",
+   "season": 2020,
+   "distance": 3.92,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  }
+ ],
+ "low_confidence": true
 }

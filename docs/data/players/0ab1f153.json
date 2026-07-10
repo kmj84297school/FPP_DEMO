@@ -26,10 +26,115 @@
   "confidence": 0.61
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.3507,
+  "mu": 56.9,
+  "ci80": {
+   "lo": 48.2,
+   "hi": 65.6
+  },
+  "ci50": {
+   "lo": 52.3,
+   "hi": 61.5
+  },
+  "sigma_model": 1.776,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "eda40760",
+   "season": 2020,
+   "distance": 2.565,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2020,
+   "distance": 2.874,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Ashley Young",
+   "squad": "Inter / Manchester Utd"
+  },
+  {
+   "fbref_id": "eda40760",
+   "season": 2019,
+   "distance": 2.972,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "356c9002",
+   "season": 2020,
+   "distance": 3.001,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Antonio Candreva",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "c9e99e49",
+   "season": 2018,
+   "distance": 3.338,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dani Alves",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "b18095b6",
+   "season": 2018,
+   "distance": 3.487,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leighton Baines",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2018,
+   "distance": 3.503,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "cfd8d664",
+   "season": 2019,
+   "distance": 3.582,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "767212e6",
+   "season": 2020,
+   "distance": 3.673,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Faussurier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2020,
+   "distance": 3.676,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  }
+ ],
+ "low_confidence": true
 }

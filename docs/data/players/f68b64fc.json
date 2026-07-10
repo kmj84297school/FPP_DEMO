@@ -26,10 +26,115 @@
   "confidence": 0.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2617,
+  "mu": 43.3,
+  "ci80": {
+   "lo": 34.2,
+   "hi": 52.4
+  },
+  "ci50": {
+   "lo": 38.5,
+   "hi": 48.1
+  },
+  "sigma_model": 2.716,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2019,
+   "distance": 2.017,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Coke",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "173061c0",
+   "season": 2020,
+   "distance": 2.307,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Riccardo Gagliolo",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "e74f0e59",
+   "season": 2020,
+   "distance": 2.435,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Lorenzo De Silvestri",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "1b729ba2",
+   "season": 2018,
+   "distance": 2.522,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleandro Rosi",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2018,
+   "distance": 2.592,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2020,
+   "distance": 2.664,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Schmid",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "e94d79e3",
+   "season": 2018,
+   "distance": 2.738,
+   "survived": 1,
+   "fut_ability_v2": 41.7,
+   "player_name": "Martín Cáceres",
+   "squad": "Hellas Verona / Lazio"
+  },
+  {
+   "fbref_id": "652811aa",
+   "season": 2020,
+   "distance": 2.752,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Calderoni",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "9f323c71",
+   "season": 2019,
+   "distance": 2.758,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "aae9d04a",
+   "season": 2020,
+   "distance": 2.764,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Davide Faraoni",
+   "squad": "Hellas Verona"
+  }
+ ],
  "low_confidence": false
 }

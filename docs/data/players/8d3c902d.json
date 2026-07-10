@@ -26,10 +26,115 @@
   "confidence": 0.57
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2908,
+  "mu": 43.4,
+  "ci80": {
+   "lo": 34.3,
+   "hi": 52.4
+  },
+  "ci50": {
+   "lo": 38.6,
+   "hi": 48.1
+  },
+  "sigma_model": 2.646,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e54bd0a2",
+   "season": 2020,
+   "distance": 2.224,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Tomás Pina Isla",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "000b3da6",
+   "season": 2018,
+   "distance": 2.307,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Iturra",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "05a4465d",
+   "season": 2019,
+   "distance": 2.478,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Manu García",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "ad4d0985",
+   "season": 2019,
+   "distance": 2.536,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Sánchez",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "7106f0a0",
+   "season": 2019,
+   "distance": 2.54,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Suárez",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "ad1ffcfd",
+   "season": 2019,
+   "distance": 2.552,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Vicente Iborra",
+   "squad": "Villarreal / Leicester City"
+  },
+  {
+   "fbref_id": "a64cbd35",
+   "season": 2020,
+   "distance": 2.56,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonino Barillà",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "05a4465d",
+   "season": 2020,
+   "distance": 2.624,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manu García",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "7329018e",
+   "season": 2020,
+   "distance": 2.63,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Papakouli Diop",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "466824fb",
+   "season": 2020,
+   "distance": 2.733,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oier Sanjurjo",
+   "squad": "Osasuna"
+  }
+ ],
  "low_confidence": false
 }

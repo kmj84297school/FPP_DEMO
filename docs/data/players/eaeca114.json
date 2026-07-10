@@ -26,10 +26,115 @@
   "confidence": 0.87
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5699,
+  "mu": 53.2,
+  "ci80": {
+   "lo": 44.5,
+   "hi": 61.9
+  },
+  "ci50": {
+   "lo": 48.6,
+   "hi": 57.8
+  },
+  "sigma_model": 1.63,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "16b9d5cf",
+   "season": 2020,
+   "distance": 1.583,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Nikola Maksimović",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "6fd8a334",
+   "season": 2019,
+   "distance": 1.613,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Aleksandar Dragović",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "463503e2",
+   "season": 2018,
+   "distance": 1.785,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcin Kamiński",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "322ba2df",
+   "season": 2018,
+   "distance": 1.818,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alin Toșca",
+   "squad": "Benevento / Betis"
+  },
+  {
+   "fbref_id": "91899ca8",
+   "season": 2020,
+   "distance": 1.82,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateo Musacchio",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "6fd8a334",
+   "season": 2020,
+   "distance": 1.874,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Dragović",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2019,
+   "distance": 1.894,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "8cc29864",
+   "season": 2019,
+   "distance": 1.912,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Lorenzo Tonelli",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "6cafd68d",
+   "season": 2018,
+   "distance": 1.967,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Håvard Nordtveit",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "34b54da7",
+   "season": 2019,
+   "distance": 2.104,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tony Jantschke",
+   "squad": "M'Gladbach"
+  }
+ ],
  "low_confidence": false
 }

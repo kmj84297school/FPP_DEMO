@@ -26,10 +26,115 @@
   "confidence": 0.66
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5064,
+  "mu": 55.1,
+  "ci80": {
+   "lo": 46.2,
+   "hi": 64.0
+  },
+  "ci50": {
+   "lo": 50.4,
+   "hi": 59.7
+  },
+  "sigma_model": 2.269,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "aad48be9",
+   "season": 2020,
+   "distance": 1.411,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "d9764034",
+   "season": 2020,
+   "distance": 1.477,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Guillermo Maripán",
+   "squad": "Monaco / Alavés"
+  },
+  {
+   "fbref_id": "bba30585",
+   "season": 2020,
+   "distance": 1.488,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Diego Llorente",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2018,
+   "distance": 1.669,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "79083382",
+   "season": 2018,
+   "distance": 1.669,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Jesus",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2020,
+   "distance": 1.698,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2019,
+   "distance": 1.745,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2018,
+   "distance": 1.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergi Gómez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "16324e1d",
+   "season": 2020,
+   "distance": 1.782,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Briançon",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "b0243215",
+   "season": 2019,
+   "distance": 1.782,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Dell'Orco",
+   "squad": "Empoli / Sassuolo"
+  }
+ ],
  "low_confidence": false
 }

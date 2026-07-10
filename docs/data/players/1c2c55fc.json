@@ -26,10 +26,115 @@
   "confidence": 1.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0861,
+  "mu": 45.9,
+  "ci80": {
+   "lo": 37.0,
+   "hi": 54.7
+  },
+  "ci50": {
+   "lo": 41.2,
+   "hi": 50.5
+  },
+  "sigma_model": 2.131,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8cea6319",
+   "season": 2020,
+   "distance": 1.723,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felipe dal Belo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "446aa6e1",
+   "season": 2018,
+   "distance": 2.073,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oswaldo Vizcarrondo",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "47a500ae",
+   "season": 2018,
+   "distance": 2.154,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Luca Rossettini",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "dc709ab5",
+   "season": 2019,
+   "distance": 2.229,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hervé Lybohy",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "52105203",
+   "season": 2020,
+   "distance": 2.252,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Scott Dann",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "952a03fe",
+   "season": 2020,
+   "distance": 2.293,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastien De Maio",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "4e358a2d",
+   "season": 2020,
+   "distance": 2.304,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Federico Fazio",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "4f2908e5",
+   "season": 2019,
+   "distance": 2.335,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Peluso",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "ac3fb1be",
+   "season": 2020,
+   "distance": 2.369,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezequiel Garay",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "4ffb647d",
+   "season": 2018,
+   "distance": 2.393,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martín Mantovani",
+   "squad": "Leganés"
+  }
+ ],
  "low_confidence": false
 }

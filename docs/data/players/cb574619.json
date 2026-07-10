@@ -26,10 +26,115 @@
   "confidence": 0.73
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3093,
+  "mu": 54.1,
+  "ci80": {
+   "lo": 45.5,
+   "hi": 62.7
+  },
+  "ci50": {
+   "lo": 49.6,
+   "hi": 58.6
+  },
+  "sigma_model": 1.435,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9d107085",
+   "season": 2018,
+   "distance": 1.651,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charlie Daniels",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2019,
+   "distance": 1.725,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2018,
+   "distance": 1.731,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "4f974391",
+   "season": 2020,
+   "distance": 1.93,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2020,
+   "distance": 2.005,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2020,
+   "distance": 2.006,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2019,
+   "distance": 2.016,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2018,
+   "distance": 2.024,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "487d9b09",
+   "season": 2018,
+   "distance": 2.028,
+   "survived": 1,
+   "fut_ability_v2": 40.4,
+   "player_name": "Antonio Barragán",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "b6e50615",
+   "season": 2020,
+   "distance": 2.036,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Yuri Berchiche",
+   "squad": "Athletic Club"
+  }
+ ],
  "low_confidence": false
 }

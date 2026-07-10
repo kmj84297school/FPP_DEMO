@@ -26,10 +26,115 @@
   "confidence": 0.89
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4262,
+  "mu": 51.1,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 60.5
+  },
+  "ci50": {
+   "lo": 46.1,
+   "hi": 56.0
+  },
+  "sigma_model": 3.316,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "16569fef",
+   "season": 2020,
+   "distance": 1.969,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitri Bisoli",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "1512328c",
+   "season": 2018,
+   "distance": 2.425,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keko",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "9085dd7c",
+   "season": 2019,
+   "distance": 2.463,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Faragò",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "3730fcbc",
+   "season": 2019,
+   "distance": 2.578,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Ralls",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "a0666d3e",
+   "season": 2020,
+   "distance": 2.645,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Will Hughes",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "2334478a",
+   "season": 2020,
+   "distance": 2.675,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Stefano Sturaro",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2018,
+   "distance": 2.692,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "eaf71a5e",
+   "season": 2018,
+   "distance": 2.708,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Azamoum",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "05816e19",
+   "season": 2020,
+   "distance": 2.772,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Ferney Otero",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "45e17712",
+   "season": 2019,
+   "distance": 2.822,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Dimitri Foulquier",
+   "squad": "Getafe"
+  }
+ ],
  "low_confidence": false
 }

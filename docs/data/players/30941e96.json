@@ -26,10 +26,115 @@
   "confidence": 0.48
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3986,
+  "mu": 44.2,
+  "ci80": {
+   "lo": 35.3,
+   "hi": 53.1
+  },
+  "ci50": {
+   "lo": 39.5,
+   "hi": 48.9
+  },
+  "sigma_model": 2.329,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f2308b33",
+   "season": 2019,
+   "distance": 1.632,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 1.753,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "826e8b63",
+   "season": 2019,
+   "distance": 1.804,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Philipp Max",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "826e8b63",
+   "season": 2020,
+   "distance": 1.866,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Philipp Max",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "912e63b5",
+   "season": 2019,
+   "distance": 1.956,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean Zimmer",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "8593f88c",
+   "season": 2019,
+   "distance": 2.036,
+   "survived": 1,
+   "fut_ability_v2": 44.7,
+   "player_name": "Christian Günter",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2020,
+   "distance": 2.091,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "8593f88c",
+   "season": 2018,
+   "distance": 2.135,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Christian Günter",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "1770bd68",
+   "season": 2020,
+   "distance": 2.258,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ken Sema",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "f45f9427",
+   "season": 2020,
+   "distance": 2.321,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Dalbert Henrique",
+   "squad": "Fiorentina"
+  }
+ ],
  "low_confidence": false
 }

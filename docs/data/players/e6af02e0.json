@@ -26,10 +26,115 @@
   "confidence": 0.15
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.479,
+  "mu": 47.6,
+  "ci80": {
+   "lo": 38.8,
+   "hi": 56.4
+  },
+  "ci50": {
+   "lo": 42.9,
+   "hi": 52.2
+  },
+  "sigma_model": 2.023,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "02b29014",
+   "season": 2020,
+   "distance": 1.566,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "6c679c6d",
+   "season": 2018,
+   "distance": 1.587,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Knockaert",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2020,
+   "distance": 1.608,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2019,
+   "distance": 1.92,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "02c15616",
+   "season": 2020,
+   "distance": 1.987,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Marcos Llorente",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "62ab9184",
+   "season": 2019,
+   "distance": 2.016,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Yannick Gerhardt",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "90f91999",
+   "season": 2020,
+   "distance": 2.017,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "John McGinn",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2019,
+   "distance": 2.07,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2020,
+   "distance": 2.079,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "5cec2c74",
+   "season": 2019,
+   "distance": 2.082,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Soualiho Meïté",
+   "squad": "Torino"
+  }
+ ],
  "low_confidence": false
 }

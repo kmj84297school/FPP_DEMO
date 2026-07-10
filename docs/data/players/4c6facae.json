@@ -26,10 +26,115 @@
   "confidence": 0.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6016,
+  "mu": 45.5,
+  "ci80": {
+   "lo": 36.8,
+   "hi": 54.2
+  },
+  "ci50": {
+   "lo": 40.9,
+   "hi": 50.1
+  },
+  "sigma_model": 1.812,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2020,
+   "distance": 1.38,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "c75b6a02",
+   "season": 2018,
+   "distance": 1.536,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Bertolacci",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2018,
+   "distance": 1.557,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2018,
+   "distance": 1.681,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "e61b8aee",
+   "season": 2020,
+   "distance": 1.751,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Granit Xhaka",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "468fdbad",
+   "season": 2018,
+   "distance": 1.896,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonas Martin",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "471f16b3",
+   "season": 2020,
+   "distance": 1.941,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Kenny McLean",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2019,
+   "distance": 1.992,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "02febfdc",
+   "season": 2019,
+   "distance": 2.115,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raffaele Maiello",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "84d94b91",
+   "season": 2019,
+   "distance": 2.124,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Thomas Monconduit",
+   "squad": "Amiens"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.83
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3678,
+  "mu": 46.9,
+  "ci80": {
+   "lo": 37.9,
+   "hi": 55.8
+  },
+  "ci50": {
+   "lo": 42.2,
+   "hi": 51.6
+  },
+  "sigma_model": 2.362,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1c344204",
+   "season": 2019,
+   "distance": 1.797,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Yamberé",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "7cab69b5",
+   "season": 2018,
+   "distance": 1.843,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Jemerson",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2020,
+   "distance": 2.046,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2018,
+   "distance": 2.046,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Christophe Hérelle",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "1c344204",
+   "season": 2018,
+   "distance": 2.075,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Yamberé",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2018,
+   "distance": 2.081,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Álvaro González",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "99d8fc35",
+   "season": 2018,
+   "distance": 2.098,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Caracciolo",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2018,
+   "distance": 2.117,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "f25b010f",
+   "season": 2018,
+   "distance": 2.141,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Federico Fernández",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "b857bd29",
+   "season": 2020,
+   "distance": 2.145,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Antonio Raillo",
+   "squad": "Mallorca"
+  }
+ ],
  "low_confidence": false
 }

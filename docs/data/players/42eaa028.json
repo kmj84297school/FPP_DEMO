@@ -26,10 +26,115 @@
   "confidence": 0.92
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5371,
+  "mu": 42.9,
+  "ci80": {
+   "lo": 33.7,
+   "hi": 52.0
+  },
+  "ci50": {
+   "lo": 38.1,
+   "hi": 47.7
+  },
+  "sigma_model": 2.849,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1fca9171",
+   "season": 2019,
+   "distance": 2.77,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Federico Di Francesco",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "989d5705",
+   "season": 2018,
+   "distance": 2.936,
+   "survived": 1,
+   "fut_ability_v2": 28.4,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "833fb62e",
+   "season": 2020,
+   "distance": 3.037,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Sandro Ramírez",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "d1491e00",
+   "season": 2018,
+   "distance": 3.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Rolán",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "9853983f",
+   "season": 2019,
+   "distance": 3.144,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bobby Wood",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "02ef8778",
+   "season": 2020,
+   "distance": 3.174,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Raúl de Tomás",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "dd669209",
+   "season": 2019,
+   "distance": 3.251,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Renato Steffen",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "a1c7b425",
+   "season": 2018,
+   "distance": 3.32,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Pucciarelli",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "7280b54f",
+   "season": 2018,
+   "distance": 3.325,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryder Matos",
+   "squad": "Hellas Verona / Udinese"
+  },
+  {
+   "fbref_id": "1fca9171",
+   "season": 2020,
+   "distance": 3.411,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Federico Di Francesco",
+   "squad": "SPAL"
+  }
+ ],
  "low_confidence": false
 }

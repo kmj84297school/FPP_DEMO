@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3266,
+  "mu": 59.7,
+  "ci80": {
+   "lo": 51.0,
+   "hi": 68.4
+  },
+  "ci50": {
+   "lo": 55.1,
+   "hi": 64.3
+  },
+  "sigma_model": 1.787,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ae64d449",
+   "season": 2018,
+   "distance": 3.018,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Luca Cigarini",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2019,
+   "distance": 3.049,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "a25250f8",
+   "season": 2019,
+   "distance": 3.108,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Granell",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "bd84fc61",
+   "season": 2018,
+   "distance": 3.116,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Pasquale Schiattarella",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2019,
+   "distance": 3.153,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "1bcca8b8",
+   "season": 2018,
+   "distance": 3.206,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan de Guzmán",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "68829001",
+   "season": 2018,
+   "distance": 3.31,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Gonzalo Castro",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "f4081572",
+   "season": 2018,
+   "distance": 3.361,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Nuri Şahin",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "1bcca8b8",
+   "season": 2019,
+   "distance": 3.388,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan de Guzmán",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "33508c78",
+   "season": 2019,
+   "distance": 3.389,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cesc Fàbregas",
+   "squad": "Monaco / Chelsea"
+  }
+ ],
  "low_confidence": false
 }

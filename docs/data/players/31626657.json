@@ -26,10 +26,115 @@
   "confidence": 0.75
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4295,
+  "mu": 45.0,
+  "ci80": {
+   "lo": 36.3,
+   "hi": 53.7
+  },
+  "ci50": {
+   "lo": 40.4,
+   "hi": 49.6
+  },
+  "sigma_model": 1.864,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ff527768",
+   "season": 2018,
+   "distance": 1.321,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "653ee42d",
+   "season": 2020,
+   "distance": 1.457,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dale Stephens",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "653ee42d",
+   "season": 2018,
+   "distance": 1.755,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Dale Stephens",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "73489527",
+   "season": 2018,
+   "distance": 1.794,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Defour",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "653ee42d",
+   "season": 2019,
+   "distance": 1.825,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dale Stephens",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "92cd4bef",
+   "season": 2020,
+   "distance": 1.938,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "William Vainqueur",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "240d3a0b",
+   "season": 2018,
+   "distance": 1.955,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Dani García",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "5ab0ea87",
+   "season": 2019,
+   "distance": 2.001,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "69374ff5",
+   "season": 2018,
+   "distance": 2.019,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Julian Baumgartlinger",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2019,
+   "distance": 2.041,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  }
+ ],
  "low_confidence": false
 }

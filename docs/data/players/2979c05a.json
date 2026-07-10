@@ -26,10 +26,115 @@
   "confidence": 0.03
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4731,
+  "mu": 46.7,
+  "ci80": {
+   "lo": 36.9,
+   "hi": 56.5
+  },
+  "ci50": {
+   "lo": 41.5,
+   "hi": 51.8
+  },
+  "sigma_model": 3.908,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ab5b7dc1",
+   "season": 2020,
+   "distance": 2.268,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Marius Bülter",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "c77a8043",
+   "season": 2020,
+   "distance": 2.395,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Antonio Puertas",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "7bb5f40e",
+   "season": 2018,
+   "distance": 2.532,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Matt Phillips",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "ac05f970",
+   "season": 2018,
+   "distance": 2.571,
+   "survived": 1,
+   "fut_ability_v2": 65.1,
+   "player_name": "Michail Antonio",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "8816329f",
+   "season": 2018,
+   "distance": 2.651,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Atsu",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2020,
+   "distance": 2.718,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "cd82452e",
+   "season": 2019,
+   "distance": 2.719,
+   "survived": 1,
+   "fut_ability_v2": 37.6,
+   "player_name": "André Hahn",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "1a1033a1",
+   "season": 2020,
+   "distance": 2.79,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "João Victor Santos Sá",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "1512328c",
+   "season": 2019,
+   "distance": 2.802,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keko",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "c6637acf",
+   "season": 2018,
+   "distance": 2.81,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Caiuby",
+   "squad": "Augsburg"
+  }
+ ],
  "low_confidence": false
 }

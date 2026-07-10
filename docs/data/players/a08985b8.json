@@ -26,10 +26,115 @@
   "confidence": 0.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4253,
+  "mu": 52.7,
+  "ci80": {
+   "lo": 44.2,
+   "hi": 61.3
+  },
+  "ci50": {
+   "lo": 48.2,
+   "hi": 57.2
+  },
+  "sigma_model": 1.231,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2018,
+   "distance": 1.632,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2018,
+   "distance": 1.649,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2020,
+   "distance": 1.708,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2019,
+   "distance": 1.762,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2020,
+   "distance": 1.954,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2020,
+   "distance": 1.987,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2018,
+   "distance": 2.0,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Paul Lasne",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "c75b6a02",
+   "season": 2018,
+   "distance": 2.054,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Bertolacci",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2018,
+   "distance": 2.111,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Kevin Strootman",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "02b29014",
+   "season": 2018,
+   "distance": 2.137,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  }
+ ],
  "low_confidence": false
 }

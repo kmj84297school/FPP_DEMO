@@ -26,10 +26,115 @@
   "confidence": 0.87
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2509,
+  "mu": 48.1,
+  "ci80": {
+   "lo": 39.3,
+   "hi": 56.9
+  },
+  "ci50": {
+   "lo": 43.4,
+   "hi": 52.7
+  },
+  "sigma_model": 2.075,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "36d5469c",
+   "season": 2019,
+   "distance": 1.913,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Gallar",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "bb4a42be",
+   "season": 2018,
+   "distance": 2.237,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yannis Salibur",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2020,
+   "distance": 2.616,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2020,
+   "distance": 2.672,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "3a24769f",
+   "season": 2020,
+   "distance": 2.773,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ross Barkley",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2018,
+   "distance": 2.778,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "9a2e0ccc",
+   "season": 2020,
+   "distance": 2.79,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Emil Forsberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "d3aaad90",
+   "season": 2019,
+   "distance": 2.859,
+   "survived": 1,
+   "fut_ability_v2": 69.9,
+   "player_name": "Stephan El Shaarawy",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ee93c1a9",
+   "season": 2020,
+   "distance": 2.878,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Federico Bernardeschi",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "ecbb3fdf",
+   "season": 2018,
+   "distance": 2.9,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Schürrle",
+   "squad": "Dortmund"
+  }
+ ],
  "low_confidence": false
 }

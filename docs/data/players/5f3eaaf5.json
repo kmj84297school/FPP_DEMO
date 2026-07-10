@@ -26,10 +26,115 @@
   "confidence": 0.92
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.54,
+  "mu": 49.9,
+  "ci80": {
+   "lo": 40.3,
+   "hi": 59.5
+  },
+  "ci50": {
+   "lo": 44.9,
+   "hi": 55.0
+  },
+  "sigma_model": 3.584,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1bda5842",
+   "season": 2018,
+   "distance": 2.167,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Portu",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2020,
+   "distance": 2.397,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Wahbi Khazri",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2020,
+   "distance": 2.471,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Portu",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "ed6ea4d9",
+   "season": 2020,
+   "distance": 2.488,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Darwin Machís",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2019,
+   "distance": 2.493,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Portu",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "9d2a3d5f",
+   "season": 2018,
+   "distance": 2.497,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibai Gómez",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "2475dcc6",
+   "season": 2018,
+   "distance": 2.566,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dušan Tadić",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "0a3f6cde",
+   "season": 2020,
+   "distance": 2.585,
+   "survived": 1,
+   "fut_ability_v2": 34.1,
+   "player_name": "Christopher Antwi-Adjei",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "c76b7567",
+   "season": 2020,
+   "distance": 2.745,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Adrien Thomasson",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "88a359d4",
+   "season": 2018,
+   "distance": 2.754,
+   "survived": 1,
+   "fut_ability_v2": 40.7,
+   "player_name": "Adrián López",
+   "squad": "La Coruña"
+  }
+ ],
  "low_confidence": false
 }

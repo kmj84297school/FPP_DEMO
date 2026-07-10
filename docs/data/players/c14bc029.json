@@ -26,10 +26,115 @@
   "confidence": 2.29
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5449,
+  "mu": 47.4,
+  "ci80": {
+   "lo": 38.5,
+   "hi": 56.4
+  },
+  "ci50": {
+   "lo": 42.7,
+   "hi": 52.1
+  },
+  "sigma_model": 2.432,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "999908af",
+   "season": 2018,
+   "distance": 2.211,
+   "survived": 1,
+   "fut_ability_v2": 40.1,
+   "player_name": "Wakaso",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "3cefa66a",
+   "season": 2018,
+   "distance": 2.526,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leroy Fer",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "960acc0a",
+   "season": 2018,
+   "distance": 2.644,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Badou Ndiaye",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2018,
+   "distance": 2.865,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Pedro Obiang",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "999908af",
+   "season": 2020,
+   "distance": 2.89,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wakaso",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "3befc2b6",
+   "season": 2018,
+   "distance": 2.997,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Andrei Girotto",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "b0fce72c",
+   "season": 2020,
+   "distance": 3.018,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Mikel Vesga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "9fbbcf39",
+   "season": 2019,
+   "distance": 3.183,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Romain Saïss",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "580d52dd",
+   "season": 2018,
+   "distance": 3.185,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Grzegorz Krychowiak",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "5acc4a10",
+   "season": 2018,
+   "distance": 3.224,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Étienne Capoue",
+   "squad": "Watford"
+  }
+ ],
  "low_confidence": false
 }

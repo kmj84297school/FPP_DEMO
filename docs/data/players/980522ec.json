@@ -26,10 +26,115 @@
   "confidence": 0.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1598,
+  "mu": 50.3,
+  "ci80": {
+   "lo": 41.5,
+   "hi": 59.2
+  },
+  "ci50": {
+   "lo": 45.7,
+   "hi": 55.0
+  },
+  "sigma_model": 2.158,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2018,
+   "distance": 2.012,
+   "survived": 1,
+   "fut_ability_v2": 49.9,
+   "player_name": "Daniel Wass",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "04965583",
+   "season": 2020,
+   "distance": 2.108,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Aleix Vidal",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "2c3a6c21",
+   "season": 2020,
+   "distance": 2.151,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Mancosu",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "f07be45a",
+   "season": 2018,
+   "distance": 2.155,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wayne Rooney",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "f4ec4fd0",
+   "season": 2018,
+   "distance": 2.32,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin-Prince Boateng",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2019,
+   "distance": 2.334,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Radja Nainggolan",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "d733aa38",
+   "season": 2020,
+   "distance": 2.351,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Torres",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "b500b384",
+   "season": 2020,
+   "distance": 2.368,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Admir Mehmedi",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "4a57580c",
+   "season": 2018,
+   "distance": 2.382,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "76dd1480",
+   "season": 2020,
+   "distance": 2.397,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gylfi Sigurðsson",
+   "squad": "Everton"
+  }
+ ],
  "low_confidence": false
 }

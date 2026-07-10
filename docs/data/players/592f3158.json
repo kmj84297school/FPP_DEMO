@@ -26,10 +26,115 @@
   "confidence": 1.08
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3553,
+  "mu": 53.9,
+  "ci80": {
+   "lo": 45.0,
+   "hi": 62.7
+  },
+  "ci50": {
+   "lo": 49.2,
+   "hi": 58.5
+  },
+  "sigma_model": 2.138,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2020,
+   "distance": 1.637,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Benjamin André",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "4b511457",
+   "season": 2019,
+   "distance": 1.653,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Oriol Romeu",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "72c812f3",
+   "season": 2018,
+   "distance": 1.795,
+   "survived": 1,
+   "fut_ability_v2": 66.8,
+   "player_name": "Idrissa Gana Gueye",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "5acc4a10",
+   "season": 2018,
+   "distance": 1.853,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Étienne Capoue",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "2ce2508a",
+   "season": 2018,
+   "distance": 1.919,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Luka Milivojević",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "3f7cd8f1",
+   "season": 2018,
+   "distance": 1.92,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Philipp Bargfrede",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "faec2ec4",
+   "season": 2018,
+   "distance": 1.936,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Pizarro",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "9306d5ea",
+   "season": 2019,
+   "distance": 1.936,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Hogg",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "5acc4a10",
+   "season": 2019,
+   "distance": 2.031,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Étienne Capoue",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "e947ee4a",
+   "season": 2020,
+   "distance": 2.062,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Brugman",
+   "squad": "Parma"
+  }
+ ],
  "low_confidence": false
 }

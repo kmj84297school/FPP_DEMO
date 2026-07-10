@@ -26,10 +26,115 @@
   "confidence": 0.54
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3516,
+  "mu": 40.4,
+  "ci80": {
+   "lo": 30.9,
+   "hi": 49.9
+  },
+  "ci50": {
+   "lo": 35.4,
+   "hi": 45.4
+  },
+  "sigma_model": 3.384,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a2d873dd",
+   "season": 2020,
+   "distance": 2.832,
+   "survived": 1,
+   "fut_ability_v2": 29.8,
+   "player_name": "Hwang Ui-jo",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "9e27e5de",
+   "season": 2018,
+   "distance": 2.851,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Prince Oniangué",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "29f7cfd9",
+   "season": 2018,
+   "distance": 2.947,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Zoller",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "5dbefa9d",
+   "season": 2018,
+   "distance": 2.954,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Ayew",
+   "squad": "Swansea City / West Ham"
+  },
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2020,
+   "distance": 2.981,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "67d23ab0",
+   "season": 2018,
+   "distance": 3.251,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Ince",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2018,
+   "distance": 3.306,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Florent Mollet",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2020,
+   "distance": 3.327,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "0cc474e7",
+   "season": 2020,
+   "distance": 3.359,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramon Azeez",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2018,
+   "distance": 3.437,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

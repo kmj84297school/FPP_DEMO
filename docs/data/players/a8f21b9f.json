@@ -26,10 +26,115 @@
   "confidence": 0.66
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2825,
+  "mu": 38.9,
+  "ci80": {
+   "lo": 29.9,
+   "hi": 47.9
+  },
+  "ci50": {
+   "lo": 34.2,
+   "hi": 43.6
+  },
+  "sigma_model": 2.416,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "989d5705",
+   "season": 2018,
+   "distance": 2.323,
+   "survived": 1,
+   "fut_ability_v2": 28.4,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "a1c7b425",
+   "season": 2018,
+   "distance": 2.497,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Pucciarelli",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "7280b54f",
+   "season": 2018,
+   "distance": 2.765,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryder Matos",
+   "squad": "Hellas Verona / Udinese"
+  },
+  {
+   "fbref_id": "cba16a46",
+   "season": 2019,
+   "distance": 2.875,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Kubo",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "dd669209",
+   "season": 2019,
+   "distance": 2.877,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Renato Steffen",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2019,
+   "distance": 3.008,
+   "survived": 1,
+   "fut_ability_v2": 66.4,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "1fca9171",
+   "season": 2019,
+   "distance": 3.048,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Federico Di Francesco",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "0f7533cd",
+   "season": 2019,
+   "distance": 3.088,
+   "survived": 1,
+   "fut_ability_v2": 39.7,
+   "player_name": "Bobby Reid",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "1fca9171",
+   "season": 2020,
+   "distance": 3.208,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Federico Di Francesco",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "833fb62e",
+   "season": 2020,
+   "distance": 3.323,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Sandro Ramírez",
+   "squad": "Valladolid"
+  }
+ ],
  "low_confidence": false
 }

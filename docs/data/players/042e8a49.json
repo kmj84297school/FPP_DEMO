@@ -26,10 +26,115 @@
   "confidence": 1.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.7103,
+  "mu": 62.3,
+  "ci80": {
+   "lo": 53.6,
+   "hi": 71.0
+  },
+  "ci50": {
+   "lo": 57.8,
+   "hi": 66.9
+  },
+  "sigma_model": 1.661,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bece776f",
+   "season": 2019,
+   "distance": 3.46,
+   "survived": 1,
+   "fut_ability_v2": 68.0,
+   "player_name": "Nabil Fekir",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "fd51b456",
+   "season": 2018,
+   "distance": 3.538,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Lucas Vázquez",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "36d5469c",
+   "season": 2019,
+   "distance": 3.707,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Gallar",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "9a2e0ccc",
+   "season": 2019,
+   "distance": 3.751,
+   "survived": 1,
+   "fut_ability_v2": 62.9,
+   "player_name": "Emil Forsberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "48d5bd33",
+   "season": 2020,
+   "distance": 3.763,
+   "survived": 1,
+   "fut_ability_v2": 72.6,
+   "player_name": "Ruslan Malinovskyi",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "8b9ebd03",
+   "season": 2018,
+   "distance": 3.832,
+   "survived": 1,
+   "fut_ability_v2": 63.4,
+   "player_name": "Willian",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "3a24769f",
+   "season": 2020,
+   "distance": 3.872,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ross Barkley",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "d3aaad90",
+   "season": 2019,
+   "distance": 3.928,
+   "survived": 1,
+   "fut_ability_v2": 69.9,
+   "player_name": "Stephan El Shaarawy",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2020,
+   "distance": 3.952,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "3bb7af3b",
+   "season": 2018,
+   "distance": 4.058,
+   "survived": 1,
+   "fut_ability_v2": 71.8,
+   "player_name": "Riccardo Saponara",
+   "squad": "Fiorentina"
+  }
+ ],
+ "low_confidence": true
 }

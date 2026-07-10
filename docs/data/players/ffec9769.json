@@ -26,10 +26,115 @@
   "confidence": 1.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0373,
+  "mu": 35.2,
+  "ci80": {
+   "lo": 26.0,
+   "hi": 44.4
+  },
+  "ci50": {
+   "lo": 30.4,
+   "hi": 40.0
+  },
+  "sigma_model": 2.887,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "43a2e16c",
+   "season": 2019,
+   "distance": 2.33,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirco Antenucci",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "df301450",
+   "season": 2019,
+   "distance": 2.682,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Floccari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "293211e1",
+   "season": 2018,
+   "distance": 2.777,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aritz Aduriz",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "9d66fbe3",
+   "season": 2020,
+   "distance": 2.952,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Soldado",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "f83c8d6c",
+   "season": 2019,
+   "distance": 2.969,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jimmy Briand",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "ad469944",
+   "season": 2018,
+   "distance": 3.011,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxi López",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "b09a3ecc",
+   "season": 2019,
+   "distance": 3.035,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ciofani",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "c58270f8",
+   "season": 2018,
+   "distance": 3.037,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Souleymane Camara",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2020,
+   "distance": 3.067,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2019,
+   "distance": 3.252,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  }
+ ],
  "low_confidence": false
 }

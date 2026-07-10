@@ -26,10 +26,115 @@
   "confidence": 1.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7403,
+  "mu": 60.5,
+  "ci80": {
+   "lo": 51.8,
+   "hi": 69.2
+  },
+  "ci50": {
+   "lo": 55.9,
+   "hi": 65.0
+  },
+  "sigma_model": 1.748,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c5b7c315",
+   "season": 2020,
+   "distance": 1.524,
+   "survived": 1,
+   "fut_ability_v2": 53.7,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2019,
+   "distance": 1.529,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2020,
+   "distance": 1.533,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Berat Djimsiti",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "18b896d6",
+   "season": 2018,
+   "distance": 1.656,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Antonio Rüdiger",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "c5b7c315",
+   "season": 2019,
+   "distance": 1.821,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2019,
+   "distance": 1.834,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Christophe Hérelle",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "6d5701f2",
+   "season": 2020,
+   "distance": 1.835,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yerry Mina",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2018,
+   "distance": 1.869,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "d0d8dd44",
+   "season": 2020,
+   "distance": 1.891,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Stefan de Vrij",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2019,
+   "distance": 1.914,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.57
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4093,
+  "mu": 55.3,
+  "ci80": {
+   "lo": 46.5,
+   "hi": 64.0
+  },
+  "ci50": {
+   "lo": 50.7,
+   "hi": 59.9
+  },
+  "sigma_model": 1.847,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f521b80a",
+   "season": 2020,
+   "distance": 0.941,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Matthias Ginter",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2019,
+   "distance": 1.122,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2019,
+   "distance": 1.379,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Álvaro González",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2019,
+   "distance": 1.415,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "e27da244",
+   "season": 2019,
+   "distance": 1.453,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2020,
+   "distance": 1.526,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "b5114f85",
+   "season": 2019,
+   "distance": 1.527,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Georg Margreitter",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "da974c7b",
+   "season": 2019,
+   "distance": 1.635,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2018,
+   "distance": 1.77,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "791abba1",
+   "season": 2019,
+   "distance": 1.804,
+   "survived": 1,
+   "fut_ability_v2": 66.0,
+   "player_name": "Salif Sané",
+   "squad": "Schalke 04"
+  }
+ ],
  "low_confidence": false
 }

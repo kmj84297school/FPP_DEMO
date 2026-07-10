@@ -26,10 +26,115 @@
   "confidence": 0.43
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4988,
+  "mu": 52.6,
+  "ci80": {
+   "lo": 44.0,
+   "hi": 61.3
+  },
+  "ci50": {
+   "lo": 48.1,
+   "hi": 57.2
+  },
+  "sigma_model": 1.645,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0fbecd11",
+   "season": 2020,
+   "distance": 2.249,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Dominik Kohr",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "c414df9d",
+   "season": 2020,
+   "distance": 2.326,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mattia Valoti",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2018,
+   "distance": 2.333,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Lucas Deaux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "cce181df",
+   "season": 2019,
+   "distance": 2.407,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Geoffrey Kondogbia",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2019,
+   "distance": 2.452,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "9ceb7642",
+   "season": 2020,
+   "distance": 2.568,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre Kunde",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2019,
+   "distance": 2.573,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "59bf127b",
+   "season": 2020,
+   "distance": 2.673,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tiemoué Bakayoko",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2019,
+   "distance": 2.685,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2018,
+   "distance": 2.699,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.5
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2117,
+  "mu": 50.1,
+  "ci80": {
+   "lo": 41.3,
+   "hi": 58.9
+  },
+  "ci50": {
+   "lo": 45.5,
+   "hi": 54.7
+  },
+  "sigma_model": 1.994,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f261abcb",
+   "season": 2018,
+   "distance": 1.977,
+   "survived": 1,
+   "fut_ability_v2": 35.3,
+   "player_name": "Daniel Baier",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "532d2690",
+   "season": 2018,
+   "distance": 2.062,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele De Rossi",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "65d750b5",
+   "season": 2018,
+   "distance": 2.291,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabi",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "07767f42",
+   "season": 2018,
+   "distance": 2.499,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Francesco Magnanelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2019,
+   "distance": 2.645,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "f261abcb",
+   "season": 2019,
+   "distance": 2.695,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Baier",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2019,
+   "distance": 2.751,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "101da2b5",
+   "season": 2019,
+   "distance": 2.837,
+   "survived": 1,
+   "fut_ability_v2": 64.9,
+   "player_name": "Fernandinho",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "ae64d449",
+   "season": 2019,
+   "distance": 2.939,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Luca Cigarini",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "7dbbe367",
+   "season": 2018,
+   "distance": 2.993,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gareth Barry",
+   "squad": "West Brom"
+  }
+ ],
  "low_confidence": false
 }

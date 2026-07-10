@@ -26,10 +26,115 @@
   "confidence": 0.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3603,
+  "mu": 43.3,
+  "ci80": {
+   "lo": 34.4,
+   "hi": 52.1
+  },
+  "ci50": {
+   "lo": 38.6,
+   "hi": 47.9
+  },
+  "sigma_model": 2.15,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3312f911",
+   "season": 2019,
+   "distance": 1.755,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "b93b7882",
+   "season": 2018,
+   "distance": 1.815,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "1a1033a1",
+   "season": 2020,
+   "distance": 1.835,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "João Victor Santos Sá",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "0e6bc38c",
+   "season": 2018,
+   "distance": 2.094,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eric Maxim Choupo-Moting",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "360d70f8",
+   "season": 2020,
+   "distance": 2.153,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lago Junior",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "2b622f01",
+   "season": 2019,
+   "distance": 2.307,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Lucas Moura",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "02b29014",
+   "season": 2020,
+   "distance": 2.411,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "a08b974a",
+   "season": 2019,
+   "distance": 2.412,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Lucas Ocampos",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "02c15616",
+   "season": 2020,
+   "distance": 2.422,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Marcos Llorente",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "05816e19",
+   "season": 2020,
+   "distance": 2.439,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Ferney Otero",
+   "squad": "Amiens"
+  }
+ ],
  "low_confidence": false
 }

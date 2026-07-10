@@ -26,10 +26,115 @@
   "confidence": 0.89
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2899,
+  "mu": 47.9,
+  "ci80": {
+   "lo": 38.4,
+   "hi": 57.5
+  },
+  "ci50": {
+   "lo": 42.9,
+   "hi": 53.0
+  },
+  "sigma_model": 3.584,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d56543a0",
+   "season": 2020,
+   "distance": 2.132,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Ryan Fraser",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "c76b7567",
+   "season": 2020,
+   "distance": 2.262,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Adrien Thomasson",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "6421ec64",
+   "season": 2018,
+   "distance": 2.334,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xherdan Shaqiri",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "d3096421",
+   "season": 2018,
+   "distance": 2.348,
+   "survived": 1,
+   "fut_ability_v2": 67.2,
+   "player_name": "Daniel Didavi",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "33ecf462",
+   "season": 2020,
+   "distance": 2.515,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valerio Verre",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "2475dcc6",
+   "season": 2018,
+   "distance": 2.531,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dušan Tadić",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "0a3f6cde",
+   "season": 2020,
+   "distance": 2.56,
+   "survived": 1,
+   "fut_ability_v2": 34.1,
+   "player_name": "Christopher Antwi-Adjei",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "04965583",
+   "season": 2020,
+   "distance": 2.577,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Aleix Vidal",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "ff9fcd4d",
+   "season": 2019,
+   "distance": 2.632,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alex Pritchard",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "b500b384",
+   "season": 2020,
+   "distance": 2.662,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Admir Mehmedi",
+   "squad": "Wolfsburg"
+  }
+ ],
  "low_confidence": false
 }

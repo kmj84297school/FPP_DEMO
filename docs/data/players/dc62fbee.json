@@ -26,10 +26,115 @@
   "confidence": 0.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1751,
+  "mu": 46.7,
+  "ci80": {
+   "lo": 38.0,
+   "hi": 55.4
+  },
+  "ci50": {
+   "lo": 42.1,
+   "hi": 51.2
+  },
+  "sigma_model": 1.738,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "79b2399c",
+   "season": 2018,
+   "distance": 1.686,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "56b2957b",
+   "season": 2020,
+   "distance": 1.9,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Castro",
+   "squad": "Cagliari / SPAL"
+  },
+  {
+   "fbref_id": "97333cf5",
+   "season": 2019,
+   "distance": 2.1,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Stuart Armstrong",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2018,
+   "distance": 2.14,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Roberto Soriano",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2020,
+   "distance": 2.153,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2020,
+   "distance": 2.19,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Alfred Duncan",
+   "squad": "Fiorentina / Sassuolo"
+  },
+  {
+   "fbref_id": "bf13975c",
+   "season": 2020,
+   "distance": 2.201,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Žan Majer",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "f7691f63",
+   "season": 2019,
+   "distance": 2.244,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Dimitri Liénard",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2019,
+   "distance": 2.283,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Paul Lasne",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "1b17ed86",
+   "season": 2018,
+   "distance": 2.284,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Esteban Granero",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

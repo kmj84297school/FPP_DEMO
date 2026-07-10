@@ -26,10 +26,115 @@
   "confidence": 0.23
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1664,
+  "mu": 55.9,
+  "ci80": {
+   "lo": 46.9,
+   "hi": 64.8
+  },
+  "ci50": {
+   "lo": 51.1,
+   "hi": 60.6
+  },
+  "sigma_model": 2.462,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cf15bbb1",
+   "season": 2018,
+   "distance": 2.621,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Davis",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2019,
+   "distance": 2.981,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "0e21fc3c",
+   "season": 2020,
+   "distance": 3.192,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Valero",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "ab1ca213",
+   "season": 2019,
+   "distance": 3.221,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Miguel Veloso",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "f3642ba8",
+   "season": 2019,
+   "distance": 3.252,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Bodmer",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "b746d309",
+   "season": 2018,
+   "distance": 3.298,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Riccardo Montolivo",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "ae64d449",
+   "season": 2020,
+   "distance": 3.31,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Cigarini",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "c3a8bcd8",
+   "season": 2020,
+   "distance": 3.335,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lasse Schöne",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "516dc25b",
+   "season": 2018,
+   "distance": 3.352,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaroslav Plašil",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "c27dfb82",
+   "season": 2019,
+   "distance": 3.386,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Gonçalves",
+   "squad": "Strasbourg"
+  }
+ ],
  "low_confidence": false
 }

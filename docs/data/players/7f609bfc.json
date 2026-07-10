@@ -26,10 +26,115 @@
   "confidence": 0.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8019,
+  "mu": 43.7,
+  "ci80": {
+   "lo": 34.8,
+   "hi": 52.6
+  },
+  "ci50": {
+   "lo": 39.0,
+   "hi": 48.4
+  },
+  "sigma_model": 2.311,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2019,
+   "distance": 2.085,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2019,
+   "distance": 2.207,
+   "survived": 1,
+   "fut_ability_v2": 53.7,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante / Valencia"
+  },
+  {
+   "fbref_id": "46a8347f",
+   "season": 2018,
+   "distance": 2.232,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Šime Vrsaljko",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "5efc5389",
+   "season": 2020,
+   "distance": 2.249,
+   "survived": 1,
+   "fut_ability_v2": 39.1,
+   "player_name": "Charalambos Lykogiannis",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "c067631c",
+   "season": 2019,
+   "distance": 2.268,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Fredericks",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2020,
+   "distance": 2.299,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Arsenal"
+  },
+  {
+   "fbref_id": "c8c02ac7",
+   "season": 2018,
+   "distance": 2.403,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Zeffane",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "861e0116",
+   "season": 2019,
+   "distance": 2.45,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Kostas Stafylidis",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2019,
+   "distance": 2.45,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Inter"
+  },
+  {
+   "fbref_id": "eb5bc3eb",
+   "season": 2018,
+   "distance": 2.454,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enric Saborit",
+   "squad": "Athletic Club"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.43
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7227,
+  "mu": 57.9,
+  "ci80": {
+   "lo": 49.3,
+   "hi": 66.5
+  },
+  "ci50": {
+   "lo": 53.4,
+   "hi": 62.5
+  },
+  "sigma_model": 1.528,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c05dfb74",
+   "season": 2019,
+   "distance": 2.44,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "Iker Muniain",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2018,
+   "distance": 2.818,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "d995ed27",
+   "season": 2018,
+   "distance": 2.839,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Giacomo Bonaventura",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "1f9328da",
+   "season": 2018,
+   "distance": 3.136,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Radja Nainggolan",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "c05dfb74",
+   "season": 2020,
+   "distance": 3.137,
+   "survived": 1,
+   "fut_ability_v2": 63.8,
+   "player_name": "Iker Muniain",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2020,
+   "distance": 3.166,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Roberto Soriano",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "9d4c45d6",
+   "season": 2019,
+   "distance": 3.255,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Roberto Soriano",
+   "squad": "Bologna / Torino"
+  },
+  {
+   "fbref_id": "3a24769f",
+   "season": 2020,
+   "distance": 3.262,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ross Barkley",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "e7f4603c",
+   "season": 2018,
+   "distance": 3.264,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Borja García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "6ce1f46f",
+   "season": 2020,
+   "distance": 3.296,
+   "survived": 1,
+   "fut_ability_v2": 63.8,
+   "player_name": "Toni Kroos",
+   "squad": "Real Madrid"
+  }
+ ],
  "low_confidence": false
 }

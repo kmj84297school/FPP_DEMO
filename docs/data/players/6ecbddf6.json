@@ -26,10 +26,115 @@
   "confidence": 0.62
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5655,
+  "mu": 53.1,
+  "ci80": {
+   "lo": 43.4,
+   "hi": 62.8
+  },
+  "ci50": {
+   "lo": 48.0,
+   "hi": 58.2
+  },
+  "sigma_model": 3.708,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ba5a9545",
+   "season": 2020,
+   "distance": 2.805,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Hervías",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "7bb5f40e",
+   "season": 2018,
+   "distance": 2.877,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Matt Phillips",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "45e17712",
+   "season": 2019,
+   "distance": 3.058,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Dimitri Foulquier",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "b93b7882",
+   "season": 2018,
+   "distance": 3.067,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "fa661778",
+   "season": 2020,
+   "distance": 3.071,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Marius Wolf",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "2979c05a",
+   "season": 2020,
+   "distance": 3.167,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Gerrit Holtmann",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "1512328c",
+   "season": 2018,
+   "distance": 3.213,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keko",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "bb5fbd2b",
+   "season": 2020,
+   "distance": 3.26,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Solly March",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "1512328c",
+   "season": 2019,
+   "distance": 3.27,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keko",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2018,
+   "distance": 3.286,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Alfred Duncan",
+   "squad": "Sassuolo"
+  }
+ ],
  "low_confidence": false
 }

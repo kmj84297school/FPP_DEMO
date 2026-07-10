@@ -26,10 +26,115 @@
   "confidence": 0.33
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7929,
+  "mu": 45.8,
+  "ci80": {
+   "lo": 36.9,
+   "hi": 54.6
+  },
+  "ci50": {
+   "lo": 41.1,
+   "hi": 50.4
+  },
+  "sigma_model": 2.053,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a8797cf1",
+   "season": 2018,
+   "distance": 1.567,
+   "survived": 1,
+   "fut_ability_v2": 47.3,
+   "player_name": "Bongani Zungu",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "31bbb7e2",
+   "season": 2018,
+   "distance": 1.688,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gerónimo Poblete",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "e49ce451",
+   "season": 2020,
+   "distance": 1.783,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Okay Yokuşlu",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "a0434482",
+   "season": 2020,
+   "distance": 1.789,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eddy Gnahoré",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "b5dd3469",
+   "season": 2018,
+   "distance": 1.838,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Nemanja Radoja",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "8754c7ca",
+   "season": 2018,
+   "distance": 1.86,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guilherme",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "b5dd3469",
+   "season": 2020,
+   "distance": 1.865,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Nemanja Radoja",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2019,
+   "distance": 1.873,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Darko Brašanac",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "9260926b",
+   "season": 2018,
+   "distance": 1.884,
+   "survived": 1,
+   "fut_ability_v2": 43.0,
+   "player_name": "Ibrahim Amadou",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "ac861941",
+   "season": 2019,
+   "distance": 1.912,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Eric Dier",
+   "squad": "Tottenham"
+  }
+ ],
  "low_confidence": false
 }

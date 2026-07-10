@@ -26,10 +26,115 @@
   "confidence": 1.96
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6931,
+  "mu": 53.4,
+  "ci80": {
+   "lo": 44.5,
+   "hi": 62.2
+  },
+  "ci50": {
+   "lo": 48.7,
+   "hi": 58.0
+  },
+  "sigma_model": 2.132,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5313ed43",
+   "season": 2020,
+   "distance": 2.281,
+   "survived": 1,
+   "fut_ability_v2": 59.1,
+   "player_name": "Seko Fofana",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "bece776f",
+   "season": 2020,
+   "distance": 2.766,
+   "survived": 1,
+   "fut_ability_v2": 69.7,
+   "player_name": "Nabil Fekir",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "ab651565",
+   "season": 2020,
+   "distance": 2.852,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Nathan Redmond",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "c05dfb74",
+   "season": 2019,
+   "distance": 3.012,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "Iker Muniain",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "6c679c6d",
+   "season": 2018,
+   "distance": 3.02,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Knockaert",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "2b622f01",
+   "season": 2020,
+   "distance": 3.054,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Lucas Moura",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "3a24769f",
+   "season": 2020,
+   "distance": 3.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ross Barkley",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "90f91999",
+   "season": 2020,
+   "distance": 3.061,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "John McGinn",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "f4bc42b1",
+   "season": 2020,
+   "distance": 3.065,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Sada Thioub",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "dc1c2fce",
+   "season": 2020,
+   "distance": 3.079,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Álex Berenguer",
+   "squad": "Torino"
+  }
+ ],
  "low_confidence": false
 }

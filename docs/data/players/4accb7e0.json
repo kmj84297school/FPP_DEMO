@@ -26,10 +26,115 @@
   "confidence": 0.31
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5083,
+  "mu": 44.9,
+  "ci80": {
+   "lo": 36.2,
+   "hi": 53.6
+  },
+  "ci50": {
+   "lo": 40.3,
+   "hi": 49.5
+  },
+  "sigma_model": 1.795,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3c05e082",
+   "season": 2018,
+   "distance": 2.034,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koo Ja-cheol",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "8d3c902d",
+   "season": 2019,
+   "distance": 2.165,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Cheikhou Kouyaté",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "ad1ffcfd",
+   "season": 2019,
+   "distance": 2.193,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Vicente Iborra",
+   "squad": "Villarreal / Leicester City"
+  },
+  {
+   "fbref_id": "144607cc",
+   "season": 2018,
+   "distance": 2.233,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Jasmin Kurtić",
+   "squad": "SPAL / Atalanta"
+  },
+  {
+   "fbref_id": "cee31595",
+   "season": 2018,
+   "distance": 2.369,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "James McArthur",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "90b70194",
+   "season": 2018,
+   "distance": 2.399,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Përparim Hetemaj",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "4a57580c",
+   "season": 2019,
+   "distance": 2.409,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Monnet-Paquet",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "a64cbd35",
+   "season": 2020,
+   "distance": 2.447,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonino Barillà",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2020,
+   "distance": 2.451,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "7fec31a0",
+   "season": 2020,
+   "distance": 2.483,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dan Gosling",
+   "squad": "Bournemouth"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5725,
+  "mu": 49.0,
+  "ci80": {
+   "lo": 40.1,
+   "hi": 57.9
+  },
+  "ci50": {
+   "lo": 44.3,
+   "hi": 53.6
+  },
+  "sigma_model": 2.227,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e947ee4a",
+   "season": 2020,
+   "distance": 1.317,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Brugman",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "80f36c88",
+   "season": 2019,
+   "distance": 1.427,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Sebastian Rudy",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "46291841",
+   "season": 2019,
+   "distance": 1.479,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Bostock",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "1d8c99b0",
+   "season": 2019,
+   "distance": 1.842,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ki Sung-yueng",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "496aeede",
+   "season": 2020,
+   "distance": 1.897,
+   "survived": 1,
+   "fut_ability_v2": 41.0,
+   "player_name": "Christoph Kramer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2019,
+   "distance": 1.928,
+   "survived": 1,
+   "fut_ability_v2": 54.3,
+   "player_name": "Pedro Obiang",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "4b511457",
+   "season": 2020,
+   "distance": 1.941,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Oriol Romeu",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "02febfdc",
+   "season": 2019,
+   "distance": 1.988,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raffaele Maiello",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "6dce77a5",
+   "season": 2018,
+   "distance": 1.997,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ander Iturraspe",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2019,
+   "distance": 1.999,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  }
+ ],
  "low_confidence": false
 }

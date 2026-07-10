@@ -26,10 +26,115 @@
   "confidence": 0.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0819,
+  "mu": 45.2,
+  "ci80": {
+   "lo": 36.4,
+   "hi": 53.9
+  },
+  "ci50": {
+   "lo": 40.6,
+   "hi": 49.8
+  },
+  "sigma_model": 1.836,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "331c0a43",
+   "season": 2019,
+   "distance": 1.864,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "f261abcb",
+   "season": 2018,
+   "distance": 2.155,
+   "survived": 1,
+   "fut_ability_v2": 35.3,
+   "player_name": "Daniel Baier",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "f261abcb",
+   "season": 2019,
+   "distance": 2.173,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Baier",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "0aa874f4",
+   "season": 2020,
+   "distance": 2.256,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alaixys Romao",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "07767f42",
+   "season": 2018,
+   "distance": 2.32,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Francesco Magnanelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "7329018e",
+   "season": 2019,
+   "distance": 2.323,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Papakouli Diop",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2020,
+   "distance": 2.368,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "65d750b5",
+   "season": 2018,
+   "distance": 2.39,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabi",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2019,
+   "distance": 2.488,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "7dbbe367",
+   "season": 2018,
+   "distance": 2.502,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gareth Barry",
+   "squad": "West Brom"
+  }
+ ],
  "low_confidence": false
 }

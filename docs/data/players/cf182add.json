@@ -26,10 +26,115 @@
   "confidence": 0.78
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4687,
+  "mu": 57.7,
+  "ci80": {
+   "lo": 49.1,
+   "hi": 66.3
+  },
+  "ci50": {
+   "lo": 53.2,
+   "hi": 62.2
+  },
+  "sigma_model": 1.515,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fe2db476",
+   "season": 2018,
+   "distance": 2.0,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2019,
+   "distance": 2.133,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "00b0bb87",
+   "season": 2018,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 43.2,
+   "player_name": "Fabrizio Cacciatore",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "eda40760",
+   "season": 2020,
+   "distance": 2.573,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2019,
+   "distance": 2.604,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2019,
+   "distance": 2.604,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "487d9b09",
+   "season": 2018,
+   "distance": 2.661,
+   "survived": 1,
+   "fut_ability_v2": 40.4,
+   "player_name": "Antonio Barragán",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "08511d65",
+   "season": 2018,
+   "distance": 2.69,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Sergio Ramos",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "99de6b6f",
+   "season": 2020,
+   "distance": 2.762,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Hübner",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2019,
+   "distance": 2.829,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

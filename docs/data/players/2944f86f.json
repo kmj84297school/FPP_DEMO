@@ -26,10 +26,115 @@
   "confidence": 0.86
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5628,
+  "mu": 47.9,
+  "ci80": {
+   "lo": 38.9,
+   "hi": 56.9
+  },
+  "ci50": {
+   "lo": 43.2,
+   "hi": 52.6
+  },
+  "sigma_model": 2.506,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1512328c",
+   "season": 2018,
+   "distance": 2.338,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keko",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2018,
+   "distance": 2.405,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "2334478a",
+   "season": 2020,
+   "distance": 2.427,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Stefano Sturaro",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "86695068",
+   "season": 2020,
+   "distance": 2.443,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Dennis Praet",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "19b8b0b9",
+   "season": 2018,
+   "distance": 2.451,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Collin Quaner",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "79ca3e23",
+   "season": 2020,
+   "distance": 2.592,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Ondrej Duda",
+   "squad": "Norwich City / Hertha BSC"
+  },
+  {
+   "fbref_id": "106bca06",
+   "season": 2019,
+   "distance": 2.685,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Alessandro Schöpf",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "02c15616",
+   "season": 2020,
+   "distance": 2.747,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Marcos Llorente",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2020,
+   "distance": 2.751,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2018,
+   "distance": 2.757,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Recio",
+   "squad": "Málaga"
+  }
+ ],
  "low_confidence": false
 }

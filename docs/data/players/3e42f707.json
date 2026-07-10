@@ -26,10 +26,115 @@
   "confidence": 0.43
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4794,
+  "mu": 50.0,
+  "ci80": {
+   "lo": 41.1,
+   "hi": 58.9
+  },
+  "ci50": {
+   "lo": 45.3,
+   "hi": 54.7
+  },
+  "sigma_model": 2.276,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2019,
+   "distance": 1.214,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "e1deea75",
+   "season": 2019,
+   "distance": 1.358,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Carriço",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2018,
+   "distance": 1.413,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "8aa5f52c",
+   "season": 2018,
+   "distance": 1.526,
+   "survived": 1,
+   "fut_ability_v2": 35.6,
+   "player_name": "Adrian Mariappa",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "616aea37",
+   "season": 2019,
+   "distance": 1.546,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "247accfd",
+   "season": 2020,
+   "distance": 1.624,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bakaye Dibassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2020,
+   "distance": 1.639,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2019,
+   "distance": 1.734,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "1ad8cb67",
+   "season": 2020,
+   "distance": 1.745,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Martinez",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "b0a0698b",
+   "season": 2020,
+   "distance": 1.746,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Rafael Czichos",
+   "squad": "Köln"
+  }
+ ],
  "low_confidence": false
 }

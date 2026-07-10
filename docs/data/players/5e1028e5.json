@@ -26,10 +26,115 @@
   "confidence": 0.13
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3445,
+  "mu": 39.5,
+  "ci80": {
+   "lo": 30.7,
+   "hi": 48.3
+  },
+  "ci50": {
+   "lo": 34.9,
+   "hi": 44.1
+  },
+  "sigma_model": 2.034,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c1febb46",
+   "season": 2018,
+   "distance": 1.658,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Somália",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "a64cbd35",
+   "season": 2019,
+   "distance": 2.426,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonino Barillà",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "53538b39",
+   "season": 2018,
+   "distance": 2.454,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "James McClean",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "90b70194",
+   "season": 2018,
+   "distance": 2.463,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Përparim Hetemaj",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "33af5b9e",
+   "season": 2019,
+   "distance": 2.526,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Junior Hoilett",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "cee31595",
+   "season": 2018,
+   "distance": 2.529,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "James McArthur",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2019,
+   "distance": 2.584,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "cee31595",
+   "season": 2019,
+   "distance": 2.647,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "James McArthur",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2018,
+   "distance": 2.65,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Recio",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "26e4447b",
+   "season": 2020,
+   "distance": 2.681,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yoann Court",
+   "squad": "Brest"
+  }
+ ],
  "low_confidence": false
 }

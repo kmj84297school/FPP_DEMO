@@ -26,10 +26,115 @@
   "confidence": 0.21
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5231,
+  "mu": 47.6,
+  "ci80": {
+   "lo": 38.8,
+   "hi": 56.4
+  },
+  "ci50": {
+   "lo": 43.0,
+   "hi": 52.2
+  },
+  "sigma_model": 1.895,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ffad706e",
+   "season": 2020,
+   "distance": 1.261,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "1a160ea3",
+   "season": 2018,
+   "distance": 1.269,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Geoff Cameron",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "1fe67e86",
+   "season": 2018,
+   "distance": 1.364,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Mikel Balenziaga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "51e3954c",
+   "season": 2020,
+   "distance": 1.553,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Facundo Roncaglia",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "cfd5e123",
+   "season": 2018,
+   "distance": 1.675,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Bong",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "3e87d087",
+   "season": 2019,
+   "distance": 1.749,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emmanuel Imorou",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "1ae30132",
+   "season": 2019,
+   "distance": 1.798,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Phil Bardsley",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "8db394aa",
+   "season": 2020,
+   "distance": 1.855,
+   "survived": 1,
+   "fut_ability_v2": 37.2,
+   "player_name": "Ximo Navarro",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "8a7ff278",
+   "season": 2020,
+   "distance": 1.889,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Joel Ward",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2020,
+   "distance": 1.922,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  }
+ ],
  "low_confidence": false
 }

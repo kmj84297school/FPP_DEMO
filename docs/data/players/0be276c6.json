@@ -26,10 +26,115 @@
   "confidence": 1.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2475,
+  "mu": 51.3,
+  "ci80": {
+   "lo": 42.5,
+   "hi": 60.0
+  },
+  "ci50": {
+   "lo": 46.6,
+   "hi": 55.9
+  },
+  "sigma_model": 1.93,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "070ec0b1",
+   "season": 2019,
+   "distance": 1.254,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Sven Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "1522dab2",
+   "season": 2018,
+   "distance": 1.46,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davide Astori",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2020,
+   "distance": 1.513,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2018,
+   "distance": 1.551,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "87935cf3",
+   "season": 2019,
+   "distance": 1.66,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Mamadou Sakho",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "f5efb153",
+   "season": 2018,
+   "distance": 1.724,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Laurent Koscielny",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2020,
+   "distance": 1.731,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "b0a0698b",
+   "season": 2020,
+   "distance": 1.801,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Rafael Czichos",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2019,
+   "distance": 1.806,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "1ad8cb67",
+   "season": 2019,
+   "distance": 1.856,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Martinez",
+   "squad": "Strasbourg"
+  }
+ ],
  "low_confidence": false
 }

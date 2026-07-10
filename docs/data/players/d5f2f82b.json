@@ -26,10 +26,115 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6654,
+  "mu": 53.0,
+  "ci80": {
+   "lo": 44.4,
+   "hi": 61.7
+  },
+  "ci50": {
+   "lo": 48.5,
+   "hi": 57.6
+  },
+  "sigma_model": 1.594,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d0d8dd44",
+   "season": 2020,
+   "distance": 1.53,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Stefan de Vrij",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "282f75f3",
+   "season": 2020,
+   "distance": 1.797,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Lewis Dunk",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "070ec0b1",
+   "season": 2018,
+   "distance": 1.8,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Sven Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "d0d8dd44",
+   "season": 2019,
+   "distance": 1.807,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Stefan de Vrij",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2020,
+   "distance": 1.89,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kostas Manolas",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "fbd6378b",
+   "season": 2020,
+   "distance": 2.08,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Aïssa Mandi",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "b96b595c",
+   "season": 2019,
+   "distance": 2.084,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Francesco Acerbi",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "1ad8cb67",
+   "season": 2019,
+   "distance": 2.19,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Martinez",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "6bd5cd5d",
+   "season": 2019,
+   "distance": 2.238,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Robin Knoche",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "c5b7c315",
+   "season": 2020,
+   "distance": 2.239,
+   "survived": 1,
+   "fut_ability_v2": 53.7,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  }
+ ],
  "low_confidence": false
 }

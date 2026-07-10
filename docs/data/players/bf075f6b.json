@@ -26,10 +26,115 @@
   "confidence": 1.5
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2865,
+  "mu": 52.6,
+  "ci80": {
+   "lo": 42.9,
+   "hi": 62.2
+  },
+  "ci50": {
+   "lo": 47.5,
+   "hi": 57.6
+  },
+  "sigma_model": 3.682,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b93b7882",
+   "season": 2019,
+   "distance": 2.043,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "29f7cfd9",
+   "season": 2018,
+   "distance": 2.684,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Zoller",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "16daec92",
+   "season": 2020,
+   "distance": 2.918,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mijat Gaćinović",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "2b622f01",
+   "season": 2019,
+   "distance": 2.92,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Lucas Moura",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "7961f7aa",
+   "season": 2019,
+   "distance": 2.941,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kwon Chang-hoon",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "6c679c6d",
+   "season": 2019,
+   "distance": 3.101,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Knockaert",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "aeda1f69",
+   "season": 2018,
+   "distance": 3.15,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felix Klaus",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "b6a6e0a7",
+   "season": 2019,
+   "distance": 3.194,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Zuber",
+   "squad": "Stuttgart / Hoffenheim"
+  },
+  {
+   "fbref_id": "ac05f970",
+   "season": 2018,
+   "distance": 3.236,
+   "survived": 1,
+   "fut_ability_v2": 65.1,
+   "player_name": "Michail Antonio",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "8816329f",
+   "season": 2018,
+   "distance": 3.278,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Atsu",
+   "squad": "Newcastle Utd"
+  }
+ ],
  "low_confidence": false
 }

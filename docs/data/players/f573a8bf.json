@@ -26,10 +26,115 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3532,
+  "mu": 44.5,
+  "ci80": {
+   "lo": 34.1,
+   "hi": 55.0
+  },
+  "ci50": {
+   "lo": 39.0,
+   "hi": 50.0
+  },
+  "sigma_model": 4.848,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "91f2da4c",
+   "season": 2018,
+   "distance": 2.641,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Casimir Ninga",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "32974271",
+   "season": 2019,
+   "distance": 2.812,
+   "survived": 1,
+   "fut_ability_v2": 36.8,
+   "player_name": "Sergi Guardiola",
+   "squad": "Valladolid / Getafe"
+  },
+  {
+   "fbref_id": "46907171",
+   "season": 2019,
+   "distance": 2.815,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Abdul Majeed Waris",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "9853983f",
+   "season": 2018,
+   "distance": 2.982,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bobby Wood",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "ffa90327",
+   "season": 2020,
+   "distance": 2.995,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anwar El Ghazi",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "8f0f2230",
+   "season": 2020,
+   "distance": 3.008,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kenan Karaman",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "4f16405e",
+   "season": 2019,
+   "distance": 3.033,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niclas Füllkrug",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "0a1efd3c",
+   "season": 2018,
+   "distance": 3.043,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrey Galabinov",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "4c7940d6",
+   "season": 2018,
+   "distance": 3.048,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Coda",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "549c6ba7",
+   "season": 2018,
+   "distance": 3.051,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Di Santo",
+   "squad": "Schalke 04"
+  }
+ ],
  "low_confidence": false
 }

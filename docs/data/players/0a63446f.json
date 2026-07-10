@@ -26,10 +26,115 @@
   "confidence": 0.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0416,
+  "mu": 50.1,
+  "ci80": {
+   "lo": 41.4,
+   "hi": 58.9
+  },
+  "ci50": {
+   "lo": 45.5,
+   "hi": 54.8
+  },
+  "sigma_model": 1.934,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a67a09fb",
+   "season": 2018,
+   "distance": 1.96,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Fuchs",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "46f5c54d",
+   "season": 2020,
+   "distance": 2.138,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Cionek",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "1e0b6a73",
+   "season": 2019,
+   "distance": 2.262,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Francis",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2020,
+   "distance": 2.532,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "9d107085",
+   "season": 2019,
+   "distance": 2.569,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charlie Daniels",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "35dd6d80",
+   "season": 2020,
+   "distance": 2.576,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Domenico Criscito",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "12aa7661",
+   "season": 2018,
+   "distance": 2.58,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2019,
+   "distance": 2.681,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "3831b9fe",
+   "season": 2018,
+   "distance": 2.685,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stephen Ward",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "ffad706e",
+   "season": 2018,
+   "distance": 2.695,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Javi López",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

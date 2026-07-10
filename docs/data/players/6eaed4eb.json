@@ -26,10 +26,115 @@
   "confidence": 1.42
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3753,
+  "mu": 48.8,
+  "ci80": {
+   "lo": 40.0,
+   "hi": 57.6
+  },
+  "ci50": {
+   "lo": 44.2,
+   "hi": 53.4
+  },
+  "sigma_model": 1.985,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8cea6319",
+   "season": 2018,
+   "distance": 1.602,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Felipe dal Belo",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "c0e27d1a",
+   "season": 2020,
+   "distance": 1.623,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Luiz",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2020,
+   "distance": 1.624,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho Monreal",
+   "squad": "Real Sociedad / Arsenal"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2019,
+   "distance": 1.799,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "952a03fe",
+   "season": 2018,
+   "distance": 1.803,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Sebastien De Maio",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "e94d79e3",
+   "season": 2020,
+   "distance": 1.847,
+   "survived": 1,
+   "fut_ability_v2": 39.4,
+   "player_name": "Martín Cáceres",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "ac3fb1be",
+   "season": 2019,
+   "distance": 1.862,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezequiel Garay",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "275e2c51",
+   "season": 2018,
+   "distance": 1.894,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Romain Thomas",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "b0a0698b",
+   "season": 2020,
+   "distance": 1.939,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Rafael Czichos",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "adfc9123",
+   "season": 2018,
+   "distance": 1.943,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Gerard Piqué",
+   "squad": "Barcelona"
+  }
+ ],
  "low_confidence": false
 }

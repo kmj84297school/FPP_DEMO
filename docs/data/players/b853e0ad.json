@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.28,
+  "mu": 56.9,
+  "ci80": {
+   "lo": 48.1,
+   "hi": 65.7
+  },
+  "ci50": {
+   "lo": 52.3,
+   "hi": 61.5
+  },
+  "sigma_model": 1.997,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2903a856",
+   "season": 2020,
+   "distance": 2.45,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Jonas Hofmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "dba67bc4",
+   "season": 2018,
+   "distance": 2.631,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zlatko Junuzović",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "ef619b0b",
+   "season": 2019,
+   "distance": 2.761,
+   "survived": 1,
+   "fut_ability_v2": 73.8,
+   "player_name": "Aaron Ramsey",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "68829001",
+   "season": 2018,
+   "distance": 2.85,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Gonzalo Castro",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2020,
+   "distance": 2.93,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "719384c1",
+   "season": 2020,
+   "distance": 2.942,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Ángel Montoro",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "b037bd4f",
+   "season": 2018,
+   "distance": 2.946,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Beñat Etxebarria",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "f7691f63",
+   "season": 2020,
+   "distance": 2.978,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Dimitri Liénard",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "dd0daf32",
+   "season": 2020,
+   "distance": 3.012,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Henrikh Mkhitaryan",
+   "squad": "Roma / Arsenal"
+  },
+  {
+   "fbref_id": "980522ec",
+   "season": 2020,
+   "distance": 3.097,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Christian Eriksen",
+   "squad": "Tottenham / Inter"
+  }
+ ],
  "low_confidence": false
 }

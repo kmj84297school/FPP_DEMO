@@ -26,10 +26,115 @@
   "confidence": 0.33
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1865,
+  "mu": 52.8,
+  "ci80": {
+   "lo": 44.2,
+   "hi": 61.5
+  },
+  "ci50": {
+   "lo": 48.3,
+   "hi": 57.4
+  },
+  "sigma_model": 1.538,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "46d50339",
+   "season": 2018,
+   "distance": 1.712,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christophe Jallet",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "808d48f3",
+   "season": 2019,
+   "distance": 1.848,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Jaume Costa",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2019,
+   "distance": 1.901,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Nacho Monreal",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "1c529186",
+   "season": 2018,
+   "distance": 2.081,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ignazio Abate",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "d003e213",
+   "season": 2019,
+   "distance": 2.16,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafinha",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "d003e213",
+   "season": 2018,
+   "distance": 2.176,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafinha",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "487d9b09",
+   "season": 2018,
+   "distance": 2.237,
+   "survived": 1,
+   "fut_ability_v2": 40.4,
+   "player_name": "Antonio Barragán",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "fc4f85b1",
+   "season": 2020,
+   "distance": 2.333,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Godín",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "8497faf7",
+   "season": 2018,
+   "distance": 2.342,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto de la Bella",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "00844823",
+   "season": 2020,
+   "distance": 2.36,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niklas Moisander",
+   "squad": "Werder Bremen"
+  }
+ ],
  "low_confidence": false
 }

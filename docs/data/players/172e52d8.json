@@ -26,10 +26,115 @@
   "confidence": 1.69
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4719,
+  "mu": 48.9,
+  "ci80": {
+   "lo": 40.1,
+   "hi": 57.7
+  },
+  "ci50": {
+   "lo": 44.3,
+   "hi": 53.6
+  },
+  "sigma_model": 2.068,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "117beb8f",
+   "season": 2018,
+   "distance": 1.618,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giancarlo González",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "0eb5720b",
+   "season": 2018,
+   "distance": 1.672,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mërgim Mavraj",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "008a6e6d",
+   "season": 2019,
+   "distance": 1.814,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ragnar Klavan",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "019f4d0d",
+   "season": 2018,
+   "distance": 1.862,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leandro Castán",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "13d820de",
+   "season": 2018,
+   "distance": 1.868,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Andreolli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2020,
+   "distance": 1.869,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "a2609621",
+   "season": 2020,
+   "distance": 1.941,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Naldo",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "ce492295",
+   "season": 2020,
+   "distance": 1.945,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Mexer",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "e1deea75",
+   "season": 2019,
+   "distance": 1.953,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Carriço",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "ad178594",
+   "season": 2019,
+   "distance": 1.98,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl Navas",
+   "squad": "Real Sociedad"
+  }
+ ],
  "low_confidence": false
 }

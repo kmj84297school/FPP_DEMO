@@ -26,10 +26,115 @@
   "confidence": 1.03
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8507,
+  "mu": 51.3,
+  "ci80": {
+   "lo": 42.6,
+   "hi": 59.9
+  },
+  "ci50": {
+   "lo": 46.7,
+   "hi": 55.8
+  },
+  "sigma_model": 1.592,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "19a12bed",
+   "season": 2019,
+   "distance": 2.407,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Hassane Kamara",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "57df7a11",
+   "season": 2020,
+   "distance": 2.53,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Arthur Masuaku",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "493924a7",
+   "season": 2020,
+   "distance": 2.567,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Kevin Mbabu",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "30c220c3",
+   "season": 2020,
+   "distance": 2.902,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Mitchell Weiser",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "1a4b9094",
+   "season": 2019,
+   "distance": 3.049,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bouna Sarr",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "8abd0c03",
+   "season": 2018,
+   "distance": 3.079,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Marvin Zeegelaar",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "5c2b4f07",
+   "season": 2020,
+   "distance": 3.115,
+   "survived": 1,
+   "fut_ability_v2": 62.3,
+   "player_name": "Serge Aurier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "dc6f5bdd",
+   "season": 2020,
+   "distance": 3.124,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Calum Chambers",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "f2a68b97",
+   "season": 2019,
+   "distance": 3.178,
+   "survived": 1,
+   "fut_ability_v2": 43.3,
+   "player_name": "Carlos Akapo",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2018,
+   "distance": 3.19,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Martín Montoya",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3566,
+  "mu": 43.9,
+  "ci80": {
+   "lo": 35.3,
+   "hi": 52.6
+  },
+  "ci50": {
+   "lo": 39.4,
+   "hi": 48.5
+  },
+  "sigma_model": 1.674,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e1deea75",
+   "season": 2019,
+   "distance": 1.825,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Carriço",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "13d820de",
+   "season": 2018,
+   "distance": 1.977,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Andreolli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "74b2cd7e",
+   "season": 2018,
+   "distance": 1.999,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Angelo Ogbonna",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ce492295",
+   "season": 2020,
+   "distance": 2.032,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Mexer",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "56400c01",
+   "season": 2019,
+   "distance": 2.06,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Pisacane",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "117beb8f",
+   "season": 2018,
+   "distance": 2.062,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giancarlo González",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2020,
+   "distance": 2.067,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "821233cc",
+   "season": 2020,
+   "distance": 2.101,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Neven Subotić",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "2515040a",
+   "season": 2019,
+   "distance": 2.105,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Paul Baysse",
+   "squad": "Caen / Bordeaux"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2020,
+   "distance": 2.111,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  }
+ ],
  "low_confidence": false
 }

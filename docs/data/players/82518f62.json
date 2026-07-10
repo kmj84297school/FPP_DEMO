@@ -26,10 +26,115 @@
   "confidence": 0.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7238,
+  "mu": 55.3,
+  "ci80": {
+   "lo": 46.7,
+   "hi": 63.9
+  },
+  "ci50": {
+   "lo": 50.7,
+   "hi": 59.8
+  },
+  "sigma_model": 1.563,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e5649a78",
+   "season": 2020,
+   "distance": 1.882,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Kevin Stöger",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2019,
+   "distance": 1.928,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "e5649a78",
+   "season": 2019,
+   "distance": 2.098,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Stöger",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "b853e0ad",
+   "season": 2020,
+   "distance": 2.117,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Fred",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2018,
+   "distance": 2.285,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "0fbecd11",
+   "season": 2020,
+   "distance": 2.339,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Dominik Kohr",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2019,
+   "distance": 2.339,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Joan Jordán",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2020,
+   "distance": 2.363,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2018,
+   "distance": 2.404,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "c6e5d20f",
+   "season": 2019,
+   "distance": 2.434,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Thiago Mendes",
+   "squad": "Lille"
+  }
+ ],
  "low_confidence": false
 }

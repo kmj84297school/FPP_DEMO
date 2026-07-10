@@ -26,10 +26,115 @@
   "confidence": 0.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3522,
+  "mu": 35.3,
+  "ci80": {
+   "lo": 26.3,
+   "hi": 44.3
+  },
+  "ci50": {
+   "lo": 30.6,
+   "hi": 40.0
+  },
+  "sigma_model": 2.463,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "625e41b1",
+   "season": 2020,
+   "distance": 2.006,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Streli Mamba",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "5343eb4e",
+   "season": 2018,
+   "distance": 2.126,
+   "survived": 1,
+   "fut_ability_v2": 31.8,
+   "player_name": "Yoshinori Mutō",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "09538fdb",
+   "season": 2019,
+   "distance": 2.21,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Kevin Lasagna",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2020,
+   "distance": 2.215,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Borja Iglesias",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 2.23,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2019,
+   "distance": 2.27,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2020,
+   "distance": 2.361,
+   "survived": 1,
+   "fut_ability_v2": 38.3,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "2e52206e",
+   "season": 2018,
+   "distance": 2.369,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Jeannot",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "b35db3f6",
+   "season": 2018,
+   "distance": 2.37,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Ángel Guerrero",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "6a99e0b1",
+   "season": 2020,
+   "distance": 2.4,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Iñaki Williams",
+   "squad": "Athletic Club"
+  }
+ ],
  "low_confidence": false
 }

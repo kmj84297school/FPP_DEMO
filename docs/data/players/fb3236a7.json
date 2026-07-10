@@ -26,10 +26,115 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4359,
+  "mu": 45.4,
+  "ci80": {
+   "lo": 36.6,
+   "hi": 54.2
+  },
+  "ci50": {
+   "lo": 40.8,
+   "hi": 50.0
+  },
+  "sigma_model": 2.012,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b0fce72c",
+   "season": 2020,
+   "distance": 1.786,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Mikel Vesga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "3cefa66a",
+   "season": 2018,
+   "distance": 1.865,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leroy Fer",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "ebd0a048",
+   "season": 2018,
+   "distance": 1.914,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matty James",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2019,
+   "distance": 1.95,
+   "survived": 1,
+   "fut_ability_v2": 54.3,
+   "player_name": "Pedro Obiang",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "34e393f2",
+   "season": 2020,
+   "distance": 1.994,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Guido Rodríguez",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "3befc2b6",
+   "season": 2018,
+   "distance": 2.067,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Andrei Girotto",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "a0434482",
+   "season": 2020,
+   "distance": 2.085,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eddy Gnahoré",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "e6c43eec",
+   "season": 2019,
+   "distance": 2.111,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Josuha Guilavogui",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "c414df9d",
+   "season": 2019,
+   "distance": 2.133,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mattia Valoti",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "987718f5",
+   "season": 2018,
+   "distance": 2.14,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sam Clucas",
+   "squad": "Swansea City"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1306,
+  "mu": 42.0,
+  "ci80": {
+   "lo": 33.0,
+   "hi": 50.9
+  },
+  "ci50": {
+   "lo": 37.3,
+   "hi": 46.6
+  },
+  "sigma_model": 2.291,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6b99d135",
+   "season": 2019,
+   "distance": 2.469,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Biabiany",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "9ab48bde",
+   "season": 2018,
+   "distance": 2.589,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Pablo de Blasis",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "ea0ff634",
+   "season": 2020,
+   "distance": 2.824,
+   "survived": 1,
+   "fut_ability_v2": 32.5,
+   "player_name": "Valère Germain",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "1cac99dc",
+   "season": 2019,
+   "distance": 3.02,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Siligardi",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "afa0d4e0",
+   "season": 2018,
+   "distance": 3.211,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Mandžukić",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "18ebca4b",
+   "season": 2020,
+   "distance": 3.264,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Charbonnier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "7cd6badb",
+   "season": 2019,
+   "distance": 3.352,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Lars Stindl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "9f472354",
+   "season": 2018,
+   "distance": 3.502,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "b1236c63",
+   "season": 2020,
+   "distance": 3.565,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ilija Nestorovski",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "2ec0f902",
+   "season": 2019,
+   "distance": 3.568,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Riccardo Meggiorini",
+   "squad": "Chievo"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.98
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4521,
+  "mu": 53.5,
+  "ci80": {
+   "lo": 44.6,
+   "hi": 62.4
+  },
+  "ci50": {
+   "lo": 48.8,
+   "hi": 58.2
+  },
+  "sigma_model": 2.236,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "854ee61a",
+   "season": 2019,
+   "distance": 2.862,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Grégoire Defrel",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2018,
+   "distance": 3.211,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Diego Farias",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "b561db50",
+   "season": 2020,
+   "distance": 3.365,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "00459419",
+   "season": 2018,
+   "distance": 3.391,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Arnautović",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "601ef102",
+   "season": 2020,
+   "distance": 3.419,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Okaka",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2020,
+   "distance": 3.451,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Antoine Griezmann",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "afa0d4e0",
+   "season": 2018,
+   "distance": 3.481,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Mandžukić",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "43458538",
+   "season": 2020,
+   "distance": 3.486,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "18ebca4b",
+   "season": 2020,
+   "distance": 3.492,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Charbonnier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "909222de",
+   "season": 2019,
+   "distance": 3.507,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuno da Costa",
+   "squad": "Strasbourg"
+  }
+ ],
+ "low_confidence": true
 }

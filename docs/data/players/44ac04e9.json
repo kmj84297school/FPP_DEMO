@@ -26,10 +26,115 @@
   "confidence": 0.48
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1323,
+  "mu": 44.7,
+  "ci80": {
+   "lo": 36.0,
+   "hi": 53.5
+  },
+  "ci50": {
+   "lo": 40.1,
+   "hi": 49.4
+  },
+  "sigma_model": 1.926,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ad1ffcfd",
+   "season": 2019,
+   "distance": 1.693,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Vicente Iborra",
+   "squad": "Villarreal / Leicester City"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 1.862,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "4dba2a97",
+   "season": 2019,
+   "distance": 1.955,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Rigoni",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "ad1ffcfd",
+   "season": 2018,
+   "distance": 2.069,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Vicente Iborra",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "9e27e5de",
+   "season": 2019,
+   "distance": 2.089,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Prince Oniangué",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "c0cddebe",
+   "season": 2018,
+   "distance": 2.165,
+   "survived": 1,
+   "fut_ability_v2": 39.1,
+   "player_name": "Blaise Matuidi",
+   "squad": "Juventus / Paris S-G"
+  },
+  {
+   "fbref_id": "4dba2a97",
+   "season": 2018,
+   "distance": 2.172,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Rigoni",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "57ebd662",
+   "season": 2018,
+   "distance": 2.18,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrián González",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2018,
+   "distance": 2.198,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "02b2937c",
+   "season": 2020,
+   "distance": 2.252,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Dessena",
+   "squad": "Brescia"
+  }
+ ],
  "low_confidence": false
 }

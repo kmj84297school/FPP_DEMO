@@ -26,10 +26,115 @@
   "confidence": 0.97
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2269,
+  "mu": 52.7,
+  "ci80": {
+   "lo": 44.1,
+   "hi": 61.4
+  },
+  "ci50": {
+   "lo": 48.2,
+   "hi": 57.3
+  },
+  "sigma_model": 1.684,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ad1ffcfd",
+   "season": 2018,
+   "distance": 1.955,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Vicente Iborra",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "3befc2b6",
+   "season": 2019,
+   "distance": 2.074,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Andrei Girotto",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "4d224fe8",
+   "season": 2019,
+   "distance": 2.115,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Casemiro",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "7fec31a0",
+   "season": 2019,
+   "distance": 2.25,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dan Gosling",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "cce181df",
+   "season": 2020,
+   "distance": 2.254,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Geoffrey Kondogbia",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "69374ff5",
+   "season": 2018,
+   "distance": 2.26,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Julian Baumgartlinger",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "7f97771d",
+   "season": 2019,
+   "distance": 2.262,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Martínez",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2018,
+   "distance": 2.269,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Lucas Deaux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "496aeede",
+   "season": 2018,
+   "distance": 2.29,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Christoph Kramer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "614c38fb",
+   "season": 2018,
+   "distance": 2.341,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joel Obi",
+   "squad": "Torino"
+  }
+ ],
  "low_confidence": false
 }

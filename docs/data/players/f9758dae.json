@@ -26,10 +26,115 @@
   "confidence": 0.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.5509,
+  "mu": 36.9,
+  "ci80": {
+   "lo": 27.4,
+   "hi": 46.5
+  },
+  "ci50": {
+   "lo": 31.9,
+   "hi": 42.0
+  },
+  "sigma_model": 3.536,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ea0ff634",
+   "season": 2019,
+   "distance": 2.964,
+   "survived": 1,
+   "fut_ability_v2": 32.5,
+   "player_name": "Valère Germain",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "bb4b1242",
+   "season": 2020,
+   "distance": 3.16,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergi Enrich",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2020,
+   "distance": 3.166,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Borja Iglesias",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "ea0ff634",
+   "season": 2020,
+   "distance": 3.302,
+   "survived": 1,
+   "fut_ability_v2": 32.5,
+   "player_name": "Valère Germain",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "a1c7b425",
+   "season": 2018,
+   "distance": 3.386,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Pucciarelli",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "b5cae4e6",
+   "season": 2018,
+   "distance": 3.433,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Paloschi",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "32974271",
+   "season": 2020,
+   "distance": 3.652,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "Sergi Guardiola",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "da052c14",
+   "season": 2020,
+   "distance": 3.665,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Jordan Ayew",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "3071a619",
+   "season": 2018,
+   "distance": 3.673,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nolan Roux",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "dae8623e",
+   "season": 2020,
+   "distance": 3.7,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mbwana Samatta",
+   "squad": "Aston Villa"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 1.64
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1882,
+  "mu": 55.7,
+  "ci80": {
+   "lo": 46.5,
+   "hi": 64.9
+  },
+  "ci50": {
+   "lo": 50.8,
+   "hi": 60.6
+  },
+  "sigma_model": 2.993,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "acc7b7ec",
+   "season": 2018,
+   "distance": 2.779,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fin Bartels",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2019,
+   "distance": 2.856,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Wahbi Khazri",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "bf39bdec",
+   "season": 2020,
+   "distance": 2.951,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ernesto Torregrossa",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "f26834c7",
+   "season": 2020,
+   "distance": 3.016,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Karim Onisiwo",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "2114abf9",
+   "season": 2019,
+   "distance": 3.084,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Camillo Ciano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "43458538",
+   "season": 2020,
+   "distance": 3.181,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "1e274a0a",
+   "season": 2020,
+   "distance": 3.199,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sven Michel",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "5370cba7",
+   "season": 2018,
+   "distance": 3.243,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alessio Cerci",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2020,
+   "distance": 3.259,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "0b4d8274",
+   "season": 2018,
+   "distance": 3.294,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Romain Hamouma",
+   "squad": "Saint-Étienne"
+  }
+ ],
  "low_confidence": false
 }

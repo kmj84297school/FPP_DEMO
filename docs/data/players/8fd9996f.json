@@ -26,10 +26,115 @@
   "confidence": 0.33
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.313,
+  "mu": 55.5,
+  "ci80": {
+   "lo": 46.6,
+   "hi": 64.4
+  },
+  "ci50": {
+   "lo": 50.8,
+   "hi": 60.1
+  },
+  "sigma_model": 2.265,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7aac47fe",
+   "season": 2020,
+   "distance": 1.957,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ermin Bičakčić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "d2bff301",
+   "season": 2018,
+   "distance": 1.976,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Kompany",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "f42456eb",
+   "season": 2020,
+   "distance": 2.065,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Uwe Hünemeier",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "74d70fb5",
+   "season": 2019,
+   "distance": 2.175,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Langkamp",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "89151b16",
+   "season": 2019,
+   "distance": 2.203,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zouhair Feddal",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "08511d65",
+   "season": 2019,
+   "distance": 2.214,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "Sergio Ramos",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "d2bff301",
+   "season": 2019,
+   "distance": 2.228,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Kompany",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2018,
+   "distance": 2.228,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "00844823",
+   "season": 2020,
+   "distance": 2.263,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niklas Moisander",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "89151b16",
+   "season": 2020,
+   "distance": 2.277,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zouhair Feddal",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.4
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4176,
+  "mu": 50.1,
+  "ci80": {
+   "lo": 41.4,
+   "hi": 58.8
+  },
+  "ci50": {
+   "lo": 45.6,
+   "hi": 54.7
+  },
+  "sigma_model": 1.685,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "31223bcf",
+   "season": 2019,
+   "distance": 2.486,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro Medrán",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "79c0821a",
+   "season": 2019,
+   "distance": 2.569,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Mateo Kovačić",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2020,
+   "distance": 2.648,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "3902e91b",
+   "season": 2019,
+   "distance": 2.719,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Gonzalo Melero",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "c6e5d20f",
+   "season": 2018,
+   "distance": 2.753,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Thiago Mendes",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "b6b2b820",
+   "season": 2020,
+   "distance": 2.949,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Rog",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2019,
+   "distance": 2.963,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "528492ea",
+   "season": 2020,
+   "distance": 3.022,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Alfred Duncan",
+   "squad": "Fiorentina / Sassuolo"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2018,
+   "distance": 3.073,
+   "survived": 1,
+   "fut_ability_v2": 36.2,
+   "player_name": "Darko Brašanac",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "51c30111",
+   "season": 2019,
+   "distance": 3.158,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Sanjin Prcić",
+   "squad": "Strasbourg / Levante"
+  }
+ ],
  "low_confidence": false
 }

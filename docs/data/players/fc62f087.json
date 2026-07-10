@@ -26,10 +26,115 @@
   "confidence": 0.42
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3332,
+  "mu": 54.5,
+  "ci80": {
+   "lo": 45.5,
+   "hi": 63.5
+  },
+  "ci50": {
+   "lo": 49.7,
+   "hi": 59.2
+  },
+  "sigma_model": 2.535,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c01c66d9",
+   "season": 2019,
+   "distance": 1.966,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bastos",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "45954ec7",
+   "season": 2018,
+   "distance": 2.063,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Marcel Tisserand",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "f874dd44",
+   "season": 2020,
+   "distance": 2.115,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Héctor Bellerín",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "93a50d2c",
+   "season": 2020,
+   "distance": 2.306,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kasim Nuhu",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "b0243215",
+   "season": 2019,
+   "distance": 2.373,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Dell'Orco",
+   "squad": "Empoli / Sassuolo"
+  },
+  {
+   "fbref_id": "3935e52e",
+   "season": 2020,
+   "distance": 2.383,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sead Kolašinac",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "864db10a",
+   "season": 2019,
+   "distance": 2.395,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michael Lang",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "339c6ed4",
+   "season": 2018,
+   "distance": 2.437,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vasco Regini",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2020,
+   "distance": 2.442,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2020,
+   "distance": 2.465,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Alberto Moreno",
+   "squad": "Villarreal"
+  }
+ ],
  "low_confidence": false
 }

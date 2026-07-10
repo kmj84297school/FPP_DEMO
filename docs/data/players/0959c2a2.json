@@ -26,10 +26,115 @@
   "confidence": 1.08
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.6616,
+  "mu": 56.0,
+  "ci80": {
+   "lo": 47.1,
+   "hi": 64.9
+  },
+  "ci50": {
+   "lo": 51.3,
+   "hi": 60.7
+  },
+  "sigma_model": 2.219,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2677a1de",
+   "season": 2018,
+   "distance": 4.011,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Wahbi Khazri",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "b182a240",
+   "season": 2019,
+   "distance": 4.252,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Quincy Promes",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "d87e2cae",
+   "season": 2018,
+   "distance": 4.281,
+   "survived": 1,
+   "fut_ability_v2": 40.6,
+   "player_name": "Willian José",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "d87e2cae",
+   "season": 2019,
+   "distance": 4.289,
+   "survived": 1,
+   "fut_ability_v2": 40.5,
+   "player_name": "Willian José",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2018,
+   "distance": 4.34,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Antoine Griezmann",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "79c90e45",
+   "season": 2018,
+   "distance": 4.407,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Pavel Kadeřábek",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2018,
+   "distance": 4.458,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Mark Uth",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "e0921a4f",
+   "season": 2019,
+   "distance": 4.483,
+   "survived": 1,
+   "fut_ability_v2": 70.7,
+   "player_name": "Paulo Dybala",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "dd669209",
+   "season": 2019,
+   "distance": 4.538,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Renato Steffen",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "d3aaad90",
+   "season": 2018,
+   "distance": 4.543,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stephan El Shaarawy",
+   "squad": "Roma"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4396,
+  "mu": 45.8,
+  "ci80": {
+   "lo": 35.6,
+   "hi": 56.1
+  },
+  "ci50": {
+   "lo": 40.4,
+   "hi": 51.2
+  },
+  "sigma_model": 4.566,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "11ced928",
+   "season": 2018,
+   "distance": 2.25,
+   "survived": 1,
+   "fut_ability_v2": 35.0,
+   "player_name": "Yaya Sanogo",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "7ffaf233",
+   "season": 2018,
+   "distance": 2.537,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Suk Hyun-jun",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "9980269a",
+   "season": 2019,
+   "distance": 2.657,
+   "survived": 1,
+   "fut_ability_v2": 33.7,
+   "player_name": "Kalifa Coulibaly",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "09538fdb",
+   "season": 2018,
+   "distance": 2.897,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Kevin Lasagna",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "11ced928",
+   "season": 2019,
+   "distance": 3.058,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yaya Sanogo",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "d7d32194",
+   "season": 2018,
+   "distance": 3.095,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Mattia Destro",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "129af0db",
+   "season": 2019,
+   "distance": 3.131,
+   "survived": 1,
+   "fut_ability_v2": 66.9,
+   "player_name": "Álvaro Morata",
+   "squad": "Atlético Madrid / Chelsea"
+  },
+  {
+   "fbref_id": "4be0b467",
+   "season": 2019,
+   "distance": 3.154,
+   "survived": 1,
+   "fut_ability_v2": 30.8,
+   "player_name": "Lois Diony",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "4e9a0555",
+   "season": 2018,
+   "distance": 3.161,
+   "survived": 1,
+   "fut_ability_v2": 41.9,
+   "player_name": "Chris Wood",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "5eae500a",
+   "season": 2019,
+   "distance": 3.178,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Romelu Lukaku",
+   "squad": "Manchester Utd"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.15
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5084,
+  "mu": 49.7,
+  "ci80": {
+   "lo": 39.9,
+   "hi": 59.4
+  },
+  "ci50": {
+   "lo": 44.6,
+   "hi": 54.8
+  },
+  "sigma_model": 3.816,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "05816e19",
+   "season": 2020,
+   "distance": 2.219,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Ferney Otero",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "b1cd37e6",
+   "season": 2018,
+   "distance": 2.597,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Filip Kostić",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "29f7cfd9",
+   "season": 2018,
+   "distance": 2.62,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Zoller",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2018,
+   "distance": 2.625,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2020,
+   "distance": 2.671,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "b93b7882",
+   "season": 2019,
+   "distance": 2.781,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "5bddccc9",
+   "season": 2018,
+   "distance": 2.813,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Elias Kachunga",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "16daec92",
+   "season": 2020,
+   "distance": 2.886,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mijat Gaćinović",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "8e235926",
+   "season": 2019,
+   "distance": 2.904,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Michael Gregoritsch",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "8816329f",
+   "season": 2018,
+   "distance": 2.908,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Atsu",
+   "squad": "Newcastle Utd"
+  }
+ ],
  "low_confidence": false
 }

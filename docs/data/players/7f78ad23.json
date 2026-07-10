@@ -26,10 +26,115 @@
   "confidence": 0.83
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.377,
+  "mu": 49.1,
+  "ci80": {
+   "lo": 40.4,
+   "hi": 57.8
+  },
+  "ci50": {
+   "lo": 44.5,
+   "hi": 53.6
+  },
+  "sigma_model": 1.661,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "96e0490d",
+   "season": 2020,
+   "distance": 1.54,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Matteo Darmian",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "e0314d87",
+   "season": 2019,
+   "distance": 1.651,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Andrea Masiello",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "1253a12e",
+   "season": 2018,
+   "distance": 1.693,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ervin Zukanović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2018,
+   "distance": 1.723,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "53de807a",
+   "season": 2018,
+   "distance": 1.803,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2020,
+   "distance": 1.845,
+   "survived": 1,
+   "fut_ability_v2": 42.6,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "53de807a",
+   "season": 2020,
+   "distance": 1.876,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2020,
+   "distance": 1.909,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2020,
+   "distance": 1.945,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "070ec0b1",
+   "season": 2018,
+   "distance": 1.947,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Sven Bender",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

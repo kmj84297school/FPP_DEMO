@@ -26,10 +26,115 @@
   "confidence": 0.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2009,
+  "mu": 44.6,
+  "ci80": {
+   "lo": 35.9,
+   "hi": 53.3
+  },
+  "ci50": {
+   "lo": 40.0,
+   "hi": 49.2
+  },
+  "sigma_model": 1.777,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "44f8c299",
+   "season": 2018,
+   "distance": 1.439,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Lucas Deaux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2019,
+   "distance": 1.6,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "b98570d1",
+   "season": 2018,
+   "distance": 1.908,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Jake Livermore",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "4114f306",
+   "season": 2018,
+   "distance": 1.922,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Höger",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "003a5c72",
+   "season": 2018,
+   "distance": 1.939,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mikel San José",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2020,
+   "distance": 1.966,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Strootman",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "f4081572",
+   "season": 2019,
+   "distance": 1.977,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuri Şahin",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2020,
+   "distance": 1.996,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Obiang",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 2.005,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "5ce0b5ba",
+   "season": 2019,
+   "distance": 2.008,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Asier Illarramendi",
+   "squad": "Real Sociedad"
+  }
+ ],
  "low_confidence": false
 }

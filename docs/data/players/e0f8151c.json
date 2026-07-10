@@ -26,10 +26,115 @@
   "confidence": 1.48
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6429,
+  "mu": 60.8,
+  "ci80": {
+   "lo": 52.0,
+   "hi": 69.5
+  },
+  "ci50": {
+   "lo": 56.2,
+   "hi": 65.4
+  },
+  "sigma_model": 1.899,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8c725b43",
+   "season": 2018,
+   "distance": 1.743,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2020,
+   "distance": 1.84,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Berat Djimsiti",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "da974c7b",
+   "season": 2019,
+   "distance": 1.869,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2019,
+   "distance": 1.915,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Christophe Hérelle",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "18b896d6",
+   "season": 2018,
+   "distance": 2.03,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Antonio Rüdiger",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "e06683ca",
+   "season": 2019,
+   "distance": 2.038,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Virgil van Dijk",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "20030c06",
+   "season": 2018,
+   "distance": 2.051,
+   "survived": 1,
+   "fut_ability_v2": 69.0,
+   "player_name": "Willi Orban",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "5832ebfe",
+   "season": 2020,
+   "distance": 2.077,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Denswil",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "c40b6180",
+   "season": 2020,
+   "distance": 2.153,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Adam Webster",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "d8931174",
+   "season": 2019,
+   "distance": 2.162,
+   "survived": 1,
+   "fut_ability_v2": 65.7,
+   "player_name": "Harry Maguire",
+   "squad": "Leicester City"
+  }
+ ],
  "low_confidence": false
 }

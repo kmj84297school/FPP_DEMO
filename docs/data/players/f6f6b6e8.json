@@ -26,10 +26,115 @@
   "confidence": 2.12
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.149,
+  "mu": 45.7,
+  "ci80": {
+   "lo": 36.8,
+   "hi": 54.5
+  },
+  "ci50": {
+   "lo": 41.0,
+   "hi": 50.3
+  },
+  "sigma_model": 2.179,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2515040a",
+   "season": 2018,
+   "distance": 1.896,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Paul Baysse",
+   "squad": "Málaga / Bordeaux"
+  },
+  {
+   "fbref_id": "74d70fb5",
+   "season": 2018,
+   "distance": 1.923,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Langkamp",
+   "squad": "Hertha BSC / Werder Bremen"
+  },
+  {
+   "fbref_id": "1a2935f6",
+   "season": 2019,
+   "distance": 2.032,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dejan Lovren",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "b14d0c5d",
+   "season": 2020,
+   "distance": 2.037,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sidnei",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "b1deecf8",
+   "season": 2019,
+   "distance": 2.048,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Cristián Zapata",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "78cd577c",
+   "season": 2019,
+   "distance": 2.113,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ewerton",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "ba23a904",
+   "season": 2020,
+   "distance": 2.119,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Vertonghen",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "3f30b506",
+   "season": 2018,
+   "distance": 2.125,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominic Maroh",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "4e358a2d",
+   "season": 2020,
+   "distance": 2.23,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Federico Fazio",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "364445b2",
+   "season": 2020,
+   "distance": 2.242,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Toni Leistner",
+   "squad": "Köln"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.719,
+  "mu": 46.7,
+  "ci80": {
+   "lo": 37.8,
+   "hi": 55.5
+  },
+  "ci50": {
+   "lo": 42.0,
+   "hi": 51.3
+  },
+  "sigma_model": 2.079,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2019,
+   "distance": 1.634,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Darko Brašanac",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "11fd2b75",
+   "season": 2019,
+   "distance": 1.64,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Omar Mascarell",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "39bec070",
+   "season": 2018,
+   "distance": 1.891,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Fossati",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "46291841",
+   "season": 2019,
+   "distance": 1.898,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Bostock",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "a8797cf1",
+   "season": 2020,
+   "distance": 1.973,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bongani Zungu",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "0d2158d5",
+   "season": 2019,
+   "distance": 2.002,
+   "survived": 1,
+   "fut_ability_v2": 37.8,
+   "player_name": "Jordan Marié",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2018,
+   "distance": 2.04,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "924f9191",
+   "season": 2020,
+   "distance": 2.064,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Grischa Prömel",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "1598599e",
+   "season": 2019,
+   "distance": 2.106,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "Nampalys Mendy",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "664590fa",
+   "season": 2019,
+   "distance": 2.155,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Sobottka",
+   "squad": "Düsseldorf"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.96
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1713,
+  "mu": 52.8,
+  "ci80": {
+   "lo": 44.2,
+   "hi": 61.4
+  },
+  "ci50": {
+   "lo": 48.2,
+   "hi": 57.3
+  },
+  "sigma_model": 1.412,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cb574619",
+   "season": 2020,
+   "distance": 1.248,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "4f974391",
+   "season": 2019,
+   "distance": 1.266,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "45da6694",
+   "season": 2019,
+   "distance": 1.532,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daryl Janmaat",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "8497faf7",
+   "season": 2018,
+   "distance": 1.651,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto de la Bella",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2019,
+   "distance": 1.765,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "9d107085",
+   "season": 2019,
+   "distance": 1.768,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charlie Daniels",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "5939baa2",
+   "season": 2019,
+   "distance": 1.84,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "8a7ff278",
+   "season": 2018,
+   "distance": 1.843,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Joel Ward",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "4085f08e",
+   "season": 2020,
+   "distance": 1.886,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Haitam Aleesami",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2020,
+   "distance": 1.946,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

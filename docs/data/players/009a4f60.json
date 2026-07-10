@@ -26,10 +26,115 @@
   "confidence": 1.72
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4699,
+  "mu": 44.2,
+  "ci80": {
+   "lo": 35.2,
+   "hi": 53.2
+  },
+  "ci50": {
+   "lo": 39.5,
+   "hi": 48.9
+  },
+  "sigma_model": 2.479,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e4b72e34",
+   "season": 2020,
+   "distance": 1.642,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Miguel Trauco",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 1.834,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "8e45910b",
+   "season": 2019,
+   "distance": 2.105,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Zampano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "1f079188",
+   "season": 2018,
+   "distance": 2.149,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Rubén Peña",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "9050ddc4",
+   "season": 2020,
+   "distance": 2.213,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Jetro Willems",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2018,
+   "distance": 2.254,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "8ff4872e",
+   "season": 2019,
+   "distance": 2.298,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Ikoko",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "f26e3c59",
+   "season": 2018,
+   "distance": 2.317,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Laxalt",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "f1bed920",
+   "season": 2020,
+   "distance": 2.317,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Rodrigues",
+   "squad": "Leganés / Real Sociedad"
+  },
+  {
+   "fbref_id": "3a9c4b7b",
+   "season": 2020,
+   "distance": 2.342,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Nacho Vidal",
+   "squad": "Osasuna"
+  }
+ ],
  "low_confidence": false
 }

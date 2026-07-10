@@ -26,10 +26,115 @@
   "confidence": 0.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.423,
+  "mu": 57.9,
+  "ci80": {
+   "lo": 49.1,
+   "hi": 66.7
+  },
+  "ci50": {
+   "lo": 53.3,
+   "hi": 62.5
+  },
+  "sigma_model": 2.013,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4db76f57",
+   "season": 2019,
+   "distance": 1.921,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Muniesa",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "5939baa2",
+   "season": 2019,
+   "distance": 1.93,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2019,
+   "distance": 2.023,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "45954ec7",
+   "season": 2020,
+   "distance": 2.024,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Tisserand",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "de488e56",
+   "season": 2020,
+   "distance": 2.072,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles Traore",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "8abd0c03",
+   "season": 2018,
+   "distance": 2.119,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Marvin Zeegelaar",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "c20bdcd7",
+   "season": 2020,
+   "distance": 2.183,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Reinildo Mandava",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "e860c42f",
+   "season": 2018,
+   "distance": 2.233,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kyle Naughton",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "c8aa95da",
+   "season": 2020,
+   "distance": 2.235,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Fabian Schär",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "5939baa2",
+   "season": 2018,
+   "distance": 2.245,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  }
+ ],
  "low_confidence": false
 }

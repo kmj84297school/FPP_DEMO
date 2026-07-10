@@ -26,10 +26,115 @@
   "confidence": 0.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4138,
+  "mu": 52.5,
+  "ci80": {
+   "lo": 43.9,
+   "hi": 61.1
+  },
+  "ci50": {
+   "lo": 47.9,
+   "hi": 57.0
+  },
+  "sigma_model": 1.534,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "11b9265b",
+   "season": 2018,
+   "distance": 1.846,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Alberto Moreno",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "f9acca3a",
+   "season": 2019,
+   "distance": 2.006,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Wendell",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "b6e50615",
+   "season": 2018,
+   "distance": 2.067,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Yuri Berchiche",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2019,
+   "distance": 2.088,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "22051fbe",
+   "season": 2020,
+   "distance": 2.104,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giulio Donati",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2018,
+   "distance": 2.145,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "fbbb9269",
+   "season": 2020,
+   "distance": 2.27,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Youssouf Sabaly",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 2.303,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "0b5a292a",
+   "season": 2018,
+   "distance": 2.363,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Mário Rui",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "fdd60087",
+   "season": 2020,
+   "distance": 2.41,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santiago Arias",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0617,
+  "mu": 47.5,
+  "ci80": {
+   "lo": 38.8,
+   "hi": 56.3
+  },
+  "ci50": {
+   "lo": 42.9,
+   "hi": 52.2
+  },
+  "sigma_model": 1.922,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "edd1466a",
+   "season": 2019,
+   "distance": 1.957,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "b18095b6",
+   "season": 2018,
+   "distance": 1.998,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leighton Baines",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "5eb72339",
+   "season": 2019,
+   "distance": 2.018,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Padoin",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "cfd8d664",
+   "season": 2018,
+   "distance": 2.11,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "8497faf7",
+   "season": 2018,
+   "distance": 2.156,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto de la Bella",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "a7f00c8c",
+   "season": 2018,
+   "distance": 2.26,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luisinho",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "cfd8d664",
+   "season": 2019,
+   "distance": 2.309,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "ffad706e",
+   "season": 2019,
+   "distance": 2.32,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2020,
+   "distance": 2.352,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2020,
+   "distance": 2.37,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  }
+ ],
  "low_confidence": false
 }

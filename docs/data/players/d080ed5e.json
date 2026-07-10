@@ -26,10 +26,115 @@
   "confidence": 1.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7283,
+  "mu": 57.0,
+  "ci80": {
+   "lo": 48.2,
+   "hi": 65.7
+  },
+  "ci50": {
+   "lo": 52.4,
+   "hi": 61.6
+  },
+  "sigma_model": 1.904,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4e6dbac4",
+   "season": 2020,
+   "distance": 1.707,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Sergej Milinković-Savić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2020,
+   "distance": 2.552,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "02b29014",
+   "season": 2019,
+   "distance": 2.657,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2019,
+   "distance": 2.787,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2019,
+   "distance": 2.942,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Joan Jordán",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "3515d404",
+   "season": 2020,
+   "distance": 2.991,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "James Ward-Prowse",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "d557d734",
+   "season": 2020,
+   "distance": 3.034,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matt Doherty",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2019,
+   "distance": 3.155,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2020,
+   "distance": 3.161,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2019,
+   "distance": 3.172,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  }
+ ],
  "low_confidence": false
 }

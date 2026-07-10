@@ -26,10 +26,115 @@
   "confidence": 0.79
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1712,
+  "mu": 44.6,
+  "ci80": {
+   "lo": 35.9,
+   "hi": 53.4
+  },
+  "ci50": {
+   "lo": 40.0,
+   "hi": 49.2
+  },
+  "sigma_model": 1.784,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bad38a94",
+   "season": 2020,
+   "distance": 1.378,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "6ca88b2a",
+   "season": 2019,
+   "distance": 1.385,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Moubandje",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "20b104bc",
+   "season": 2020,
+   "distance": 1.395,
+   "survived": 1,
+   "fut_ability_v2": 36.7,
+   "player_name": "Adam Smith",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "2e3406ae",
+   "season": 2020,
+   "distance": 1.437,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fran Gámez",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "45da6694",
+   "season": 2019,
+   "distance": 1.628,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daryl Janmaat",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "cb574619",
+   "season": 2020,
+   "distance": 1.735,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "1fe67e86",
+   "season": 2018,
+   "distance": 1.861,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Mikel Balenziaga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "9d107085",
+   "season": 2019,
+   "distance": 1.876,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charlie Daniels",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "850c0a0d",
+   "season": 2019,
+   "distance": 1.893,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "7f4c7c9f",
+   "season": 2019,
+   "distance": 1.896,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Jorge Miramón",
+   "squad": "Huesca"
+  }
+ ],
  "low_confidence": false
 }

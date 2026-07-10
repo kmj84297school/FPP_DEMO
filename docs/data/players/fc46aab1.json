@@ -26,10 +26,115 @@
   "confidence": 0.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7139,
+  "mu": 60.6,
+  "ci80": {
+   "lo": 51.7,
+   "hi": 69.6
+  },
+  "ci50": {
+   "lo": 55.9,
+   "hi": 65.3
+  },
+  "sigma_model": 2.377,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "643b39a6",
+   "season": 2018,
+   "distance": 1.926,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emre Çolak",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "ab4b3e35",
+   "season": 2020,
+   "distance": 2.304,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bernard",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "9e61c019",
+   "season": 2018,
+   "distance": 2.346,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guilherme",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "f0021247",
+   "season": 2018,
+   "distance": 2.592,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "João Mário",
+   "squad": "West Ham / Inter"
+  },
+  {
+   "fbref_id": "ee93c1a9",
+   "season": 2019,
+   "distance": 2.634,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Federico Bernardeschi",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "26f6dca8",
+   "season": 2020,
+   "distance": 2.823,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Manuel Lanzini",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "9efa1d25",
+   "season": 2018,
+   "distance": 2.928,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Götze",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "75f2c59f",
+   "season": 2018,
+   "distance": 2.933,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Roberto Pereyra",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2018,
+   "distance": 2.943,
+   "survived": 1,
+   "fut_ability_v2": 62.5,
+   "player_name": "Filip Đuričić",
+   "squad": "Benevento / Sampdoria"
+  },
+  {
+   "fbref_id": "26f6dca8",
+   "season": 2018,
+   "distance": 2.947,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Manuel Lanzini",
+   "squad": "West Ham"
+  }
+ ],
  "low_confidence": false
 }

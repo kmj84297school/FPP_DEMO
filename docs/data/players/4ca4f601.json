@@ -26,10 +26,115 @@
   "confidence": 0.56
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0888,
+  "mu": 46.3,
+  "ci80": {
+   "lo": 37.7,
+   "hi": 55.0
+  },
+  "ci50": {
+   "lo": 41.8,
+   "hi": 50.9
+  },
+  "sigma_model": 1.558,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "542cc80f",
+   "season": 2020,
+   "distance": 2.032,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paul Lasne",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "bc61cc65",
+   "season": 2020,
+   "distance": 2.194,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iñigo Pérez",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2018,
+   "distance": 2.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "3c05e082",
+   "season": 2019,
+   "distance": 2.294,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koo Ja-cheol",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "6cdd8245",
+   "season": 2020,
+   "distance": 2.488,
+   "survived": 1,
+   "fut_ability_v2": 33.3,
+   "player_name": "Tom Cleverley",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "f4ec4fd0",
+   "season": 2018,
+   "distance": 2.5,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin-Prince Boateng",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "c0cddebe",
+   "season": 2019,
+   "distance": 2.53,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blaise Matuidi",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "07abb358",
+   "season": 2020,
+   "distance": 2.542,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rômulo",
+   "squad": "Brescia / Genoa"
+  },
+  {
+   "fbref_id": "61bd33d0",
+   "season": 2020,
+   "distance": 2.55,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Takashi Inui",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "f07be45a",
+   "season": 2018,
+   "distance": 2.562,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wayne Rooney",
+   "squad": "Everton"
+  }
+ ],
  "low_confidence": false
 }

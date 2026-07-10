@@ -26,10 +26,115 @@
   "confidence": 0.91
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.0949,
+  "mu": 49.8,
+  "ci80": {
+   "lo": 40.4,
+   "hi": 59.3
+  },
+  "ci50": {
+   "lo": 44.9,
+   "hi": 54.8
+  },
+  "sigma_model": 3.381,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ae64d449",
+   "season": 2020,
+   "distance": 3.256,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Cigarini",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "ac62861c",
+   "season": 2018,
+   "distance": 3.475,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Féret",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "ab1ca213",
+   "season": 2020,
+   "distance": 3.55,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "Miguel Veloso",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "c710f7d5",
+   "season": 2020,
+   "distance": 3.751,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirko Valdifiori",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "f3642ba8",
+   "season": 2019,
+   "distance": 4.486,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Bodmer",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "c3a8bcd8",
+   "season": 2020,
+   "distance": 4.617,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lasse Schöne",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2019,
+   "distance": 4.663,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "d054d8b0",
+   "season": 2018,
+   "distance": 4.715,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xabi Prieto",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "f261abcb",
+   "season": 2018,
+   "distance": 4.717,
+   "survived": 1,
+   "fut_ability_v2": 35.3,
+   "player_name": "Daniel Baier",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "7dbbe367",
+   "season": 2018,
+   "distance": 5.015,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gareth Barry",
+   "squad": "West Brom"
+  }
+ ],
+ "low_confidence": true
 }

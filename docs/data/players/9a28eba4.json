@@ -26,10 +26,115 @@
   "confidence": 2.21
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2224,
+  "mu": 52.4,
+  "ci80": {
+   "lo": 42.8,
+   "hi": 61.9
+  },
+  "ci50": {
+   "lo": 47.3,
+   "hi": 57.4
+  },
+  "sigma_model": 3.489,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ac05f970",
+   "season": 2018,
+   "distance": 2.816,
+   "survived": 1,
+   "fut_ability_v2": 65.1,
+   "player_name": "Michail Antonio",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "d8712bf9",
+   "season": 2019,
+   "distance": 2.944,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bebé",
+   "squad": "Rayo Vallecano / Eibar"
+  },
+  {
+   "fbref_id": "9d2a3d5f",
+   "season": 2019,
+   "distance": 2.999,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibai Gómez",
+   "squad": "Alavés / Athletic Club"
+  },
+  {
+   "fbref_id": "7bb5f40e",
+   "season": 2018,
+   "distance": 3.058,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Matt Phillips",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "e68f2cb4",
+   "season": 2019,
+   "distance": 3.135,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stiven Mendoza",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "c650629d",
+   "season": 2019,
+   "distance": 3.157,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Younousse Sankharé",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "b93b7882",
+   "season": 2018,
+   "distance": 3.226,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "b93b7882",
+   "season": 2019,
+   "distance": 3.23,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathew Leckie",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "fa661778",
+   "season": 2020,
+   "distance": 3.257,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Marius Wolf",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "6c679c6d",
+   "season": 2019,
+   "distance": 3.42,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Knockaert",
+   "squad": "Brighton"
+  }
+ ],
  "low_confidence": false
 }

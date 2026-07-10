@@ -26,10 +26,115 @@
   "confidence": 0.68
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2702,
+  "mu": 37.0,
+  "ci80": {
+   "lo": 27.5,
+   "hi": 46.5
+  },
+  "ci50": {
+   "lo": 32.0,
+   "hi": 42.0
+  },
+  "sigma_model": 3.461,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "dae8623e",
+   "season": 2020,
+   "distance": 1.888,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mbwana Samatta",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "8f866fe8",
+   "season": 2018,
+   "distance": 2.091,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Manolo Gabbiadini",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "2e52206e",
+   "season": 2018,
+   "distance": 2.288,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Jeannot",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "625e41b1",
+   "season": 2020,
+   "distance": 2.51,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Streli Mamba",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "0c3057a9",
+   "season": 2019,
+   "distance": 2.597,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mikael Ishak",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "0f7533cd",
+   "season": 2019,
+   "distance": 2.645,
+   "survived": 1,
+   "fut_ability_v2": 39.7,
+   "player_name": "Bobby Reid",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "867501bf",
+   "season": 2020,
+   "distance": 2.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benito Raman",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "5343eb4e",
+   "season": 2018,
+   "distance": 2.8,
+   "survived": 1,
+   "fut_ability_v2": 31.8,
+   "player_name": "Yoshinori Mutō",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2020,
+   "distance": 2.94,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Borja Iglesias",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "4be0b467",
+   "season": 2018,
+   "distance": 2.949,
+   "survived": 1,
+   "fut_ability_v2": 30.8,
+   "player_name": "Lois Diony",
+   "squad": "Saint-Étienne"
+  }
+ ],
  "low_confidence": false
 }

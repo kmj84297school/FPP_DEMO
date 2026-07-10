@@ -26,10 +26,115 @@
   "confidence": 0.47
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3328,
+  "mu": 60.4,
+  "ci80": {
+   "lo": 51.8,
+   "hi": 69.0
+  },
+  "ci50": {
+   "lo": 55.9,
+   "hi": 65.0
+  },
+  "sigma_model": 1.462,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "35dd6d80",
+   "season": 2019,
+   "distance": 2.301,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Domenico Criscito",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "7fd58fe3",
+   "season": 2019,
+   "distance": 2.633,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Senad Lulić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2019,
+   "distance": 2.679,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2019,
+   "distance": 2.744,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2018,
+   "distance": 2.953,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2020,
+   "distance": 3.026,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "d1273f09",
+   "season": 2019,
+   "distance": 3.208,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Daniel Caligiuri",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "e1b3413d",
+   "season": 2018,
+   "distance": 3.371,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ernest Seka",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2019,
+   "distance": 3.42,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "ba5004e1",
+   "season": 2019,
+   "distance": 3.431,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Damián Suárez",
+   "squad": "Getafe"
+  }
+ ],
  "low_confidence": false
 }

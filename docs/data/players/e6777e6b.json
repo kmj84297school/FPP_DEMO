@@ -26,10 +26,115 @@
   "confidence": 2.03
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1148,
+  "mu": 44.7,
+  "ci80": {
+   "lo": 35.6,
+   "hi": 53.8
+  },
+  "ci50": {
+   "lo": 39.9,
+   "hi": 49.5
+  },
+  "sigma_model": 2.727,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "89e4b358",
+   "season": 2020,
+   "distance": 1.905,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Craig Cathcart",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "47a500ae",
+   "season": 2018,
+   "distance": 2.01,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Luca Rossettini",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "13d820de",
+   "season": 2018,
+   "distance": 2.011,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Andreolli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "56400c01",
+   "season": 2019,
+   "distance": 2.011,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Pisacane",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2020,
+   "distance": 2.087,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "72b07a9c",
+   "season": 2020,
+   "distance": 2.144,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kiko Olivas",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "446aa6e1",
+   "season": 2018,
+   "distance": 2.207,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oswaldo Vizcarrondo",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "b666421b",
+   "season": 2020,
+   "distance": 2.231,
+   "survived": 1,
+   "fut_ability_v2": 41.0,
+   "player_name": "Ismaël Traoré",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "ea9b2ef9",
+   "season": 2020,
+   "distance": 2.337,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Germán Sánchez",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "16714a62",
+   "season": 2018,
+   "distance": 2.387,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khaled Adénon",
+   "squad": "Amiens"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.95
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.148,
+  "mu": 48.7,
+  "ci80": {
+   "lo": 39.9,
+   "hi": 57.4
+  },
+  "ci50": {
+   "lo": 44.1,
+   "hi": 53.3
+  },
+  "sigma_model": 1.869,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2020,
+   "distance": 2.077,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "8754c7ca",
+   "season": 2018,
+   "distance": 2.187,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guilherme",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "e6c43eec",
+   "season": 2020,
+   "distance": 2.235,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Josuha Guilavogui",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "8d3c902d",
+   "season": 2018,
+   "distance": 2.285,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Cheikhou Kouyaté",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "b98570d1",
+   "season": 2018,
+   "distance": 2.311,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Jake Livermore",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "51b41c5c",
+   "season": 2018,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Morgan Schneiderlin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "72c812f3",
+   "season": 2018,
+   "distance": 2.33,
+   "survived": 1,
+   "fut_ability_v2": 66.8,
+   "player_name": "Idrissa Gana Gueye",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "e6c43eec",
+   "season": 2019,
+   "distance": 2.342,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Josuha Guilavogui",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "243f4a0b",
+   "season": 2020,
+   "distance": 2.345,
+   "survived": 1,
+   "fut_ability_v2": 42.9,
+   "player_name": "Otávio",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2020,
+   "distance": 2.367,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Benjamin André",
+   "squad": "Lille"
+  }
+ ],
  "low_confidence": false
 }

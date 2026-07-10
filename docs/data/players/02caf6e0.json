@@ -26,10 +26,115 @@
   "confidence": 1.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7208,
+  "mu": 42.5,
+  "ci80": {
+   "lo": 33.5,
+   "hi": 51.6
+  },
+  "ci50": {
+   "lo": 37.7,
+   "hi": 47.3
+  },
+  "sigma_model": 2.602,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "474ecac8",
+   "season": 2018,
+   "distance": 2.196,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2019,
+   "distance": 2.484,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "8db394aa",
+   "season": 2018,
+   "distance": 2.693,
+   "survived": 1,
+   "fut_ability_v2": 40.0,
+   "player_name": "Ximo Navarro",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "2946f9a1",
+   "season": 2018,
+   "distance": 2.767,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Nacho",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "1c344204",
+   "season": 2019,
+   "distance": 2.814,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Yamberé",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "1c344204",
+   "season": 2018,
+   "distance": 2.925,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Yamberé",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "91899ca8",
+   "season": 2019,
+   "distance": 2.978,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateo Musacchio",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "247accfd",
+   "season": 2020,
+   "distance": 2.994,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bakaye Dibassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2019,
+   "distance": 3.051,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "7af0e1f8",
+   "season": 2018,
+   "distance": 3.096,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Rivierez",
+   "squad": "Metz"
+  }
+ ],
  "low_confidence": false
 }

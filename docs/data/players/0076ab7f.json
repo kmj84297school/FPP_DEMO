@@ -26,10 +26,115 @@
   "confidence": 1.41
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2484,
+  "mu": 46.3,
+  "ci80": {
+   "lo": 37.4,
+   "hi": 55.2
+  },
+  "ci50": {
+   "lo": 41.6,
+   "hi": 51.0
+  },
+  "sigma_model": 2.298,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2020,
+   "distance": 0.978,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro González",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 1.595,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "275e2c51",
+   "season": 2019,
+   "distance": 1.658,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Romain Thomas",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2020,
+   "distance": 1.66,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kostas Manolas",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "b682dcf6",
+   "season": 2019,
+   "distance": 1.674,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sokratis Papastathopoulos",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "c6056d58",
+   "season": 2020,
+   "distance": 1.689,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kamil Glik",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "b682dcf6",
+   "season": 2020,
+   "distance": 1.872,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sokratis Papastathopoulos",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "b1deecf8",
+   "season": 2020,
+   "distance": 1.897,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristián Zapata",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "92b4a127",
+   "season": 2018,
+   "distance": 1.942,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gustavo Cabral",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "8dbff17c",
+   "season": 2018,
+   "distance": 1.949,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adil Rami",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

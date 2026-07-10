@@ -26,10 +26,115 @@
   "confidence": 0.44
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5266,
+  "mu": 46.9,
+  "ci80": {
+   "lo": 38.1,
+   "hi": 55.8
+  },
+  "ci50": {
+   "lo": 42.3,
+   "hi": 51.6
+  },
+  "sigma_model": 2.223,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e3e05edf",
+   "season": 2019,
+   "distance": 1.812,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ambroise Oyongo",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "3dffff26",
+   "season": 2018,
+   "distance": 1.915,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Korb",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "1cd87320",
+   "season": 2018,
+   "distance": 2.05,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Ostrzolek",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2020,
+   "distance": 2.054,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 2.112,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "d459281d",
+   "season": 2019,
+   "distance": 2.176,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miiko Albornoz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2018,
+   "distance": 2.215,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2018,
+   "distance": 2.233,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "8e45910b",
+   "season": 2019,
+   "distance": 2.242,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Zampano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "1f079188",
+   "season": 2018,
+   "distance": 2.31,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Rubén Peña",
+   "squad": "Eibar"
+  }
+ ],
  "low_confidence": false
 }

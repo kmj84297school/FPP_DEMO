@@ -26,10 +26,115 @@
   "confidence": 0.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5668,
+  "mu": 56.6,
+  "ci80": {
+   "lo": 47.9,
+   "hi": 65.4
+  },
+  "ci50": {
+   "lo": 52.0,
+   "hi": 61.2
+  },
+  "sigma_model": 1.856,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d8931174",
+   "season": 2018,
+   "distance": 1.501,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Harry Maguire",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "c40b6180",
+   "season": 2020,
+   "distance": 1.625,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Adam Webster",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "791abba1",
+   "season": 2018,
+   "distance": 1.633,
+   "survived": 1,
+   "fut_ability_v2": 63.5,
+   "player_name": "Salif Sané",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2018,
+   "distance": 1.689,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2019,
+   "distance": 1.736,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "857a5abe",
+   "season": 2019,
+   "distance": 1.76,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Stefan Bell",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2019,
+   "distance": 1.866,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "b18a3023",
+   "season": 2018,
+   "distance": 1.903,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júnior Alonso",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "4b3e1a38",
+   "season": 2020,
+   "distance": 1.904,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Amir Rrahmani",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "22721b88",
+   "season": 2020,
+   "distance": 1.915,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Amavi",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

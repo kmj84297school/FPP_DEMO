@@ -26,10 +26,115 @@
   "confidence": 1.4
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6794,
+  "mu": 49.3,
+  "ci80": {
+   "lo": 40.6,
+   "hi": 58.1
+  },
+  "ci50": {
+   "lo": 44.7,
+   "hi": 54.0
+  },
+  "sigma_model": 1.964,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "433dc9a2",
+   "season": 2019,
+   "distance": 2.649,
+   "survived": 1,
+   "fut_ability_v2": 45.1,
+   "player_name": "Juan Bernat",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2020,
+   "distance": 2.759,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "58027adc",
+   "season": 2019,
+   "distance": 2.887,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ladislav Krejčí",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 2.942,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2018,
+   "distance": 3.099,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 3.126,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "433dc9a2",
+   "season": 2020,
+   "distance": 3.148,
+   "survived": 1,
+   "fut_ability_v2": 45.1,
+   "player_name": "Juan Bernat",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2019,
+   "distance": 3.278,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2019,
+   "distance": 3.314,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "852351df",
+   "season": 2020,
+   "distance": 3.324,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Peres",
+   "squad": "Roma"
+  }
+ ],
  "low_confidence": false
 }

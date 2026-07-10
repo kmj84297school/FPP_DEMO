@@ -26,10 +26,115 @@
   "confidence": 0.35
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2506,
+  "mu": 54.9,
+  "ci80": {
+   "lo": 45.5,
+   "hi": 64.3
+  },
+  "ci50": {
+   "lo": 50.0,
+   "hi": 59.9
+  },
+  "sigma_model": 3.274,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ad6295d4",
+   "season": 2018,
+   "distance": 1.961,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Layún",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "9f323c71",
+   "season": 2019,
+   "distance": 1.986,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "e74f0e59",
+   "season": 2019,
+   "distance": 2.002,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Lorenzo De Silvestri",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2019,
+   "distance": 2.005,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Coke",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "b3b7f5a6",
+   "season": 2020,
+   "distance": 2.069,
+   "survived": 1,
+   "fut_ability_v2": 38.2,
+   "player_name": "Timothy Chandler",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "7391c2d9",
+   "season": 2020,
+   "distance": 2.075,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Markus Suttner",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2020,
+   "distance": 2.081,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2019,
+   "distance": 2.104,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "00a6485f",
+   "season": 2018,
+   "distance": 2.167,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Beck",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2018,
+   "distance": 2.169,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  }
+ ],
  "low_confidence": false
 }

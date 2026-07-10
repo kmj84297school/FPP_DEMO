@@ -26,10 +26,115 @@
   "confidence": 0.65
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.754,
+  "mu": 67.0,
+  "ci80": {
+   "lo": 58.1,
+   "hi": 76.0
+  },
+  "ci50": {
+   "lo": 62.3,
+   "hi": 71.8
+  },
+  "sigma_model": 2.473,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d3aaad90",
+   "season": 2018,
+   "distance": 2.593,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stephan El Shaarawy",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "603cb947",
+   "season": 2018,
+   "distance": 2.64,
+   "survived": 1,
+   "fut_ability_v2": 73.8,
+   "player_name": "Andrej Kramarić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2018,
+   "distance": 2.661,
+   "survived": 1,
+   "fut_ability_v2": 62.5,
+   "player_name": "Rodrigo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2019,
+   "distance": 2.666,
+   "survived": 1,
+   "fut_ability_v2": 74.2,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "4c370d81",
+   "season": 2019,
+   "distance": 2.689,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Roberto Firmino",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "8ff07990",
+   "season": 2018,
+   "distance": 2.739,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Mario Balotelli",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "5eae500a",
+   "season": 2020,
+   "distance": 2.889,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Romelu Lukaku",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2018,
+   "distance": 3.029,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Antoine Griezmann",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2019,
+   "distance": 3.095,
+   "survived": 1,
+   "fut_ability_v2": 73.1,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "bc6bd723",
+   "season": 2018,
+   "distance": 3.194,
+   "survived": 1,
+   "fut_ability_v2": 68.7,
+   "player_name": "Alassane Pléa",
+   "squad": "Nice"
+  }
+ ],
  "low_confidence": false
 }

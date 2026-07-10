@@ -26,10 +26,115 @@
   "confidence": 0.94
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2787,
+  "mu": 47.1,
+  "ci80": {
+   "lo": 37.3,
+   "hi": 57.0
+  },
+  "ci50": {
+   "lo": 42.0,
+   "hi": 52.3
+  },
+  "sigma_model": 3.968,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6922f806",
+   "season": 2020,
+   "distance": 2.575,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Calleri",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "cd82452e",
+   "season": 2018,
+   "distance": 2.596,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "André Hahn",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "1238a3f9",
+   "season": 2020,
+   "distance": 2.754,
+   "survived": 1,
+   "fut_ability_v2": 27.8,
+   "player_name": "Davie Selke",
+   "squad": "Hertha BSC / Werder Bremen"
+  },
+  {
+   "fbref_id": "e5f63987",
+   "season": 2019,
+   "distance": 2.8,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ginczek",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "1fdec858",
+   "season": 2020,
+   "distance": 2.89,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dennis Srbeny",
+   "squad": "Paderborn 07 / Norwich City"
+  },
+  {
+   "fbref_id": "6265208f",
+   "season": 2018,
+   "distance": 2.932,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Joselu",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "bb4b1242",
+   "season": 2018,
+   "distance": 2.975,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Sergi Enrich",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2018,
+   "distance": 2.985,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Ante Budimir",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "65c75ea8",
+   "season": 2018,
+   "distance": 3.046,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Nalini",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "8e235926",
+   "season": 2020,
+   "distance": 3.065,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Michael Gregoritsch",
+   "squad": "Schalke 04 / Augsburg"
+  }
+ ],
  "low_confidence": false
 }

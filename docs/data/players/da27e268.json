@@ -26,10 +26,115 @@
   "confidence": 0.33
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4027,
+  "mu": 51.8,
+  "ci80": {
+   "lo": 43.1,
+   "hi": 60.5
+  },
+  "ci50": {
+   "lo": 47.2,
+   "hi": 56.4
+  },
+  "sigma_model": 1.703,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2020,
+   "distance": 2.128,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2019,
+   "distance": 2.267,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "c75b6a02",
+   "season": 2018,
+   "distance": 2.314,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Bertolacci",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "84d94b91",
+   "season": 2019,
+   "distance": 2.369,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Thomas Monconduit",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2020,
+   "distance": 2.389,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2018,
+   "distance": 2.454,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2019,
+   "distance": 2.495,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2018,
+   "distance": 2.539,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2019,
+   "distance": 2.566,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2018,
+   "distance": 2.567,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Kevin Strootman",
+   "squad": "Roma"
+  }
+ ],
  "low_confidence": false
 }

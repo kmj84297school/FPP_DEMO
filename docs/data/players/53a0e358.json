@@ -26,10 +26,115 @@
   "confidence": 0.9
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2215,
+  "mu": 63.0,
+  "ci80": {
+   "lo": 53.8,
+   "hi": 72.1
+  },
+  "ci50": {
+   "lo": 58.2,
+   "hi": 67.8
+  },
+  "sigma_model": 2.836,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d3096421",
+   "season": 2019,
+   "distance": 2.856,
+   "survived": 1,
+   "fut_ability_v2": 67.2,
+   "player_name": "Daniel Didavi",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2020,
+   "distance": 3.544,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria / Parma"
+  },
+  {
+   "fbref_id": "440c84ed",
+   "season": 2019,
+   "distance": 3.874,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iago Falque",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "acc7b7ec",
+   "season": 2018,
+   "distance": 3.887,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fin Bartels",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "2c0f8e9e",
+   "season": 2020,
+   "distance": 3.908,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexis Sánchez",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "47dc80f5",
+   "season": 2018,
+   "distance": 3.971,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adel Taarabt",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "f9446dcd",
+   "season": 2018,
+   "distance": 4.048,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Max Kruse",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "9efa1d25",
+   "season": 2019,
+   "distance": 4.085,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Götze",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "aa51343f",
+   "season": 2019,
+   "distance": 4.16,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Mirallas",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "b500b384",
+   "season": 2019,
+   "distance": 4.185,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Admir Mehmedi",
+   "squad": "Wolfsburg"
+  }
+ ],
+ "low_confidence": true
 }

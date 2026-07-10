@@ -26,10 +26,115 @@
   "confidence": 0.31
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5726,
+  "mu": 47.9,
+  "ci80": {
+   "lo": 39.0,
+   "hi": 56.8
+  },
+  "ci50": {
+   "lo": 43.2,
+   "hi": 52.6
+  },
+  "sigma_model": 2.31,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7cdda3bf",
+   "season": 2020,
+   "distance": 1.234,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Gaëtan Laborde",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "b561db50",
+   "season": 2019,
+   "distance": 1.68,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "4f16405e",
+   "season": 2018,
+   "distance": 1.708,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niclas Füllkrug",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "d705ba44",
+   "season": 2019,
+   "distance": 1.735,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Andrea Belotti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "35f6db55",
+   "season": 2018,
+   "distance": 1.874,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Léo Baptistão",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "d33c706e",
+   "season": 2020,
+   "distance": 1.936,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Andy Delort",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "d2416c2e",
+   "season": 2019,
+   "distance": 2.031,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Yussuf Poulsen",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "d705ba44",
+   "season": 2020,
+   "distance": 2.078,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Andrea Belotti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "b318a643",
+   "season": 2019,
+   "distance": 2.171,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomón Rondón",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "ba115a40",
+   "season": 2020,
+   "distance": 2.187,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sébastien Haller",
+   "squad": "West Ham"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.69
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2382,
+  "mu": 45.9,
+  "ci80": {
+   "lo": 37.0,
+   "hi": 54.7
+  },
+  "ci50": {
+   "lo": 41.2,
+   "hi": 50.5
+  },
+  "sigma_model": 2.12,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ce492295",
+   "season": 2020,
+   "distance": 1.344,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Mexer",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2019,
+   "distance": 1.65,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2020,
+   "distance": 1.888,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "952a03fe",
+   "season": 2018,
+   "distance": 1.903,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Sebastien De Maio",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "821233cc",
+   "season": 2019,
+   "distance": 1.932,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Neven Subotić",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "47a500ae",
+   "season": 2018,
+   "distance": 1.977,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Luca Rossettini",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "4e358a2d",
+   "season": 2020,
+   "distance": 2.011,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Federico Fazio",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ad178594",
+   "season": 2018,
+   "distance": 2.019,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl Navas",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "a2609621",
+   "season": 2020,
+   "distance": 2.031,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Naldo",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "92b4a127",
+   "season": 2018,
+   "distance": 2.032,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gustavo Cabral",
+   "squad": "Celta Vigo"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6615,
+  "mu": 54.9,
+  "ci80": {
+   "lo": 46.2,
+   "hi": 63.7
+  },
+  "ci50": {
+   "lo": 50.3,
+   "hi": 59.5
+  },
+  "sigma_model": 1.83,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "dd669209",
+   "season": 2020,
+   "distance": 1.992,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Renato Steffen",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "2903a856",
+   "season": 2020,
+   "distance": 2.025,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Jonas Hofmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "819aa8e7",
+   "season": 2020,
+   "distance": 2.192,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ayoze Pérez",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "ef619b0b",
+   "season": 2019,
+   "distance": 2.307,
+   "survived": 1,
+   "fut_ability_v2": 73.8,
+   "player_name": "Aaron Ramsey",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "20e73fac",
+   "season": 2019,
+   "distance": 2.314,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "810e3c74",
+   "season": 2018,
+   "distance": 2.315,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Jesse Lingard",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "cc86b9a3",
+   "season": 2020,
+   "distance": 2.363,
+   "survived": 1,
+   "fut_ability_v2": 72.4,
+   "player_name": "Leon Goretzka",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "ca2bc3df",
+   "season": 2018,
+   "distance": 2.375,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Izquierdo",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2018,
+   "distance": 2.391,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "e599253a",
+   "season": 2020,
+   "distance": 2.41,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Mario Pašalić",
+   "squad": "Atalanta"
+  }
+ ],
  "low_confidence": false
 }

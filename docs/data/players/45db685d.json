@@ -26,10 +26,115 @@
   "confidence": 0.85
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5052,
+  "mu": 50.6,
+  "ci80": {
+   "lo": 41.9,
+   "hi": 59.2
+  },
+  "ci50": {
+   "lo": 46.0,
+   "hi": 55.1
+  },
+  "sigma_model": 1.587,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "653ee42d",
+   "season": 2020,
+   "distance": 1.577,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dale Stephens",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2019,
+   "distance": 1.757,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "5ab0ea87",
+   "season": 2019,
+   "distance": 1.764,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "07767f42",
+   "season": 2018,
+   "distance": 1.772,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Francesco Magnanelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "5ab0ea87",
+   "season": 2018,
+   "distance": 1.83,
+   "survived": 1,
+   "fut_ability_v2": 63.4,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "69374ff5",
+   "season": 2019,
+   "distance": 1.9,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Julian Baumgartlinger",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2019,
+   "distance": 1.913,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2019,
+   "distance": 1.922,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Missiroli",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2018,
+   "distance": 1.928,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "5710a281",
+   "season": 2018,
+   "distance": 1.938,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Biglia",
+   "squad": "Milan"
+  }
+ ],
  "low_confidence": false
 }

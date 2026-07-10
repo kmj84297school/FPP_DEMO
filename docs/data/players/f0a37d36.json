@@ -26,10 +26,115 @@
   "confidence": 0.09
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2369,
+  "mu": 39.2,
+  "ci80": {
+   "lo": 30.5,
+   "hi": 48.0
+  },
+  "ci50": {
+   "lo": 34.6,
+   "hi": 43.8
+  },
+  "sigma_model": 1.882,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c6896eab",
+   "season": 2019,
+   "distance": 1.695,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "cf623c78",
+   "season": 2019,
+   "distance": 1.712,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Erik Durm",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "7fecbcdb",
+   "season": 2019,
+   "distance": 1.788,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Abdoulaye Bamba",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "46ee5234",
+   "season": 2018,
+   "distance": 1.835,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kieran Gibbs",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "bad38a94",
+   "season": 2020,
+   "distance": 1.841,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2018,
+   "distance": 1.879,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "cfd5e123",
+   "season": 2018,
+   "distance": 1.892,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Bong",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "cfd5e123",
+   "season": 2019,
+   "distance": 1.898,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Bong",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "22051fbe",
+   "season": 2018,
+   "distance": 1.904,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Giulio Donati",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2018,
+   "distance": 1.914,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  }
+ ],
  "low_confidence": false
 }

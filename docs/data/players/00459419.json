@@ -26,10 +26,115 @@
   "confidence": 1.64
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2863,
+  "mu": 48.2,
+  "ci80": {
+   "lo": 39.0,
+   "hi": 57.3
+  },
+  "ci50": {
+   "lo": 43.4,
+   "hi": 53.0
+  },
+  "sigma_model": 2.811,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4a478107",
+   "season": 2020,
+   "distance": 1.996,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "José Luis Morales",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "43a2e16c",
+   "season": 2018,
+   "distance": 2.197,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirco Antenucci",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "f83c8d6c",
+   "season": 2019,
+   "distance": 2.294,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jimmy Briand",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "8d8178ac",
+   "season": 2018,
+   "distance": 2.3,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "43a2e16c",
+   "season": 2019,
+   "distance": 2.482,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mirco Antenucci",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "f83c8d6c",
+   "season": 2018,
+   "distance": 2.494,
+   "survived": 1,
+   "fut_ability_v2": 28.5,
+   "player_name": "Jimmy Briand",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "43f71e77",
+   "season": 2018,
+   "distance": 2.652,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jorge Molina",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "88a359d4",
+   "season": 2020,
+   "distance": 2.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrián López",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "7dcf86f6",
+   "season": 2020,
+   "distance": 2.748,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Iago Aspas",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "09a9e921",
+   "season": 2019,
+   "distance": 2.779,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Carlos Bacca",
+   "squad": "Villarreal"
+  }
+ ],
  "low_confidence": false
 }

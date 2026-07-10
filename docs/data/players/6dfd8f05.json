@@ -26,10 +26,115 @@
   "confidence": 2.49
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4615,
+  "mu": 44.1,
+  "ci80": {
+   "lo": 35.3,
+   "hi": 52.8
+  },
+  "ci50": {
+   "lo": 39.5,
+   "hi": 48.7
+  },
+  "sigma_model": 1.882,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f1bed920",
+   "season": 2020,
+   "distance": 2.429,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Rodrigues",
+   "squad": "Leganés / Real Sociedad"
+  },
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2020,
+   "distance": 2.826,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 2.905,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "fba81826",
+   "season": 2020,
+   "distance": 2.922,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Mattiello",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2019,
+   "distance": 2.932,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "c067631c",
+   "season": 2020,
+   "distance": 2.961,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Fredericks",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "5f09991f",
+   "season": 2018,
+   "distance": 2.966,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Patrick van Aanholt",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "20b104bc",
+   "season": 2018,
+   "distance": 2.988,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Adam Smith",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "060606ec",
+   "season": 2019,
+   "distance": 2.997,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco D'Alessandro",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "d459281d",
+   "season": 2019,
+   "distance": 3.05,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miiko Albornoz",
+   "squad": "Hannover 96"
+  }
+ ],
  "low_confidence": false
 }

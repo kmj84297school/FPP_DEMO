@@ -26,10 +26,115 @@
   "confidence": 0.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2515,
+  "mu": 37.2,
+  "ci80": {
+   "lo": 28.5,
+   "hi": 46.0
+  },
+  "ci50": {
+   "lo": 32.6,
+   "hi": 41.8
+  },
+  "sigma_model": 1.938,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1d8c99b0",
+   "season": 2018,
+   "distance": 1.895,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ki Sung-yueng",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "b3fd7075",
+   "season": 2019,
+   "distance": 2.064,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Poli",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2018,
+   "distance": 2.163,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Mehdi Abeid",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2020,
+   "distance": 2.2,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "b3fd7075",
+   "season": 2018,
+   "distance": 2.209,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Andrea Poli",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2018,
+   "distance": 2.22,
+   "survived": 1,
+   "fut_ability_v2": 35.8,
+   "player_name": "Pere Pons",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "0f9b8301",
+   "season": 2020,
+   "distance": 2.283,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Battocchio",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "0d2158d5",
+   "season": 2018,
+   "distance": 2.339,
+   "survived": 1,
+   "fut_ability_v2": 37.8,
+   "player_name": "Jordan Marié",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2020,
+   "distance": 2.345,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Darko Brašanac",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "987718f5",
+   "season": 2018,
+   "distance": 2.403,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sam Clucas",
+   "squad": "Swansea City"
+  }
+ ],
  "low_confidence": false
 }

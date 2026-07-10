@@ -26,10 +26,115 @@
   "confidence": 0.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3205,
+  "mu": 46.8,
+  "ci80": {
+   "lo": 37.6,
+   "hi": 55.9
+  },
+  "ci50": {
+   "lo": 41.9,
+   "hi": 51.6
+  },
+  "sigma_model": 2.881,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2019,
+   "distance": 2.151,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "84d94b91",
+   "season": 2019,
+   "distance": 2.478,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Thomas Monconduit",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2019,
+   "distance": 2.511,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "3c7bc9bd",
+   "season": 2018,
+   "distance": 2.557,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "Rubén Pérez",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "431c837b",
+   "season": 2020,
+   "distance": 2.619,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Klaus Gjasula",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2020,
+   "distance": 2.636,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2019,
+   "distance": 2.642,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "7fec31a0",
+   "season": 2018,
+   "distance": 2.644,
+   "survived": 1,
+   "fut_ability_v2": 41.9,
+   "player_name": "Dan Gosling",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2020,
+   "distance": 2.645,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Benjamin André",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "2ce2508a",
+   "season": 2018,
+   "distance": 2.647,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Luka Milivojević",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

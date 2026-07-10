@@ -26,10 +26,115 @@
   "confidence": 1.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1683,
+  "mu": 47.6,
+  "ci80": {
+   "lo": 38.8,
+   "hi": 56.4
+  },
+  "ci50": {
+   "lo": 43.0,
+   "hi": 52.3
+  },
+  "sigma_model": 1.99,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bf97c188",
+   "season": 2019,
+   "distance": 1.882,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Mercado",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "f5efb153",
+   "season": 2019,
+   "distance": 2.206,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Laurent Koscielny",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "2b91cf8e",
+   "season": 2020,
+   "distance": 2.283,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Ciaran Clark",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "960fb42d",
+   "season": 2019,
+   "distance": 2.311,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Gálvez",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "8b8a56ce",
+   "season": 2018,
+   "distance": 2.336,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Simon Kjær",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "68b78c2a",
+   "season": 2019,
+   "distance": 2.412,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lorenzo Ariaudo",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "a498e276",
+   "season": 2018,
+   "distance": 2.433,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ashley Williams",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "8aa5f52c",
+   "season": 2019,
+   "distance": 2.463,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrian Mariappa",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2020,
+   "distance": 2.465,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2019,
+   "distance": 2.478,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

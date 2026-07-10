@@ -26,10 +26,115 @@
   "confidence": 1.0
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3061,
+  "mu": 53.8,
+  "ci80": {
+   "lo": 45.2,
+   "hi": 62.5
+  },
+  "ci50": {
+   "lo": 49.3,
+   "hi": 58.4
+  },
+  "sigma_model": 1.622,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "13203c45",
+   "season": 2018,
+   "distance": 2.697,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "0f52f925",
+   "season": 2019,
+   "distance": 2.742,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Lima",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "912e63b5",
+   "season": 2019,
+   "distance": 2.796,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean Zimmer",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "8ff2354e",
+   "season": 2019,
+   "distance": 2.838,
+   "survived": 1,
+   "fut_ability_v2": 65.7,
+   "player_name": "Marcel Halstenberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "5ddb8f9f",
+   "season": 2020,
+   "distance": 2.974,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny da Costa",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "79c90e45",
+   "season": 2019,
+   "distance": 3.092,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Pavel Kadeřábek",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2019,
+   "distance": 3.184,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "4c5b714f",
+   "season": 2019,
+   "distance": 3.204,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Djibril Sidibé",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "44781702",
+   "season": 2018,
+   "distance": 3.222,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Ben Davies",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "b500b384",
+   "season": 2018,
+   "distance": 3.223,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Admir Mehmedi",
+   "squad": "Leverkusen / Wolfsburg"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3832,
+  "mu": 42.2,
+  "ci80": {
+   "lo": 33.4,
+   "hi": 50.9
+  },
+  "ci50": {
+   "lo": 37.6,
+   "hi": 46.8
+  },
+  "sigma_model": 1.919,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2018,
+   "distance": 1.483,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2018,
+   "distance": 1.65,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "c951a6df",
+   "season": 2020,
+   "distance": 1.82,
+   "survived": 1,
+   "fut_ability_v2": 41.1,
+   "player_name": "Isaac Hayden",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "3c05e082",
+   "season": 2018,
+   "distance": 1.851,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koo Ja-cheol",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "eaf71a5e",
+   "season": 2018,
+   "distance": 1.869,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Azamoum",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "8d3c902d",
+   "season": 2018,
+   "distance": 1.879,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Cheikhou Kouyaté",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "a0666d3e",
+   "season": 2020,
+   "distance": 1.884,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Will Hughes",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "fe641c1a",
+   "season": 2018,
+   "distance": 2.075,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Thomas Delaney",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2019,
+   "distance": 2.103,
+   "survived": 1,
+   "fut_ability_v2": 30.9,
+   "player_name": "Pere Pons",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "b0fce72c",
+   "season": 2019,
+   "distance": 2.141,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Mikel Vesga",
+   "squad": "Leganés"
+  }
+ ],
  "low_confidence": false
 }

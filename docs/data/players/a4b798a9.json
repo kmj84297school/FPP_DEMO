@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0797,
+  "mu": 45.9,
+  "ci80": {
+   "lo": 37.2,
+   "hi": 54.5
+  },
+  "ci50": {
+   "lo": 41.3,
+   "hi": 50.4
+  },
+  "sigma_model": 1.73,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ecab64a0",
+   "season": 2018,
+   "distance": 1.672,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "e54bd0a2",
+   "season": 2018,
+   "distance": 1.713,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Tomás Pina Isla",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "653ee42d",
+   "season": 2018,
+   "distance": 1.814,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Dale Stephens",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "8f4d116f",
+   "season": 2020,
+   "distance": 1.83,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Damien Le Tallec",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "6e5b5a45",
+   "season": 2020,
+   "distance": 1.856,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wesley Lautoa",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "240d3a0b",
+   "season": 2020,
+   "distance": 1.936,
+   "survived": 1,
+   "fut_ability_v2": 38.6,
+   "player_name": "Dani García",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "3f7cd8f1",
+   "season": 2018,
+   "distance": 1.966,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Philipp Bargfrede",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "3c7bc9bd",
+   "season": 2019,
+   "distance": 1.974,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Pérez",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2020,
+   "distance": 1.996,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "653ee42d",
+   "season": 2019,
+   "distance": 2.043,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dale Stephens",
+   "squad": "Brighton"
+  }
+ ],
  "low_confidence": false
 }

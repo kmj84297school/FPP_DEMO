@@ -26,10 +26,115 @@
   "confidence": 0.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5417,
+  "mu": 35.4,
+  "ci80": {
+   "lo": 26.2,
+   "hi": 44.5
+  },
+  "ci50": {
+   "lo": 30.6,
+   "hi": 40.2
+  },
+  "sigma_model": 2.803,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "81255c03",
+   "season": 2019,
+   "distance": 2.221,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "8f0f2230",
+   "season": 2020,
+   "distance": 2.292,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kenan Karaman",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2018,
+   "distance": 2.314,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "ba115a40",
+   "season": 2020,
+   "distance": 2.37,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sébastien Haller",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ffa90327",
+   "season": 2020,
+   "distance": 2.389,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anwar El Ghazi",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2018,
+   "distance": 2.482,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Ante Budimir",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "6922f806",
+   "season": 2020,
+   "distance": 2.482,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Calleri",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "09538fdb",
+   "season": 2019,
+   "distance": 2.496,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Kevin Lasagna",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "ca618d23",
+   "season": 2020,
+   "distance": 2.539,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Lucas Höler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "4f16405e",
+   "season": 2018,
+   "distance": 2.605,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niclas Füllkrug",
+   "squad": "Hannover 96"
+  }
+ ],
  "low_confidence": false
 }

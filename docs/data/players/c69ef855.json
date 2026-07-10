@@ -26,10 +26,115 @@
   "confidence": 0.92
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1677,
+  "mu": 44.0,
+  "ci80": {
+   "lo": 35.2,
+   "hi": 52.8
+  },
+  "ci50": {
+   "lo": 39.4,
+   "hi": 48.6
+  },
+  "sigma_model": 2.037,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ec9a28ce",
+   "season": 2018,
+   "distance": 1.722,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Williams",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "664590fa",
+   "season": 2019,
+   "distance": 1.804,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Sobottka",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "de5b5570",
+   "season": 2020,
+   "distance": 1.895,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Marvelous Nakamba",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "88d91621",
+   "season": 2020,
+   "distance": 1.987,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Álvarez",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2019,
+   "distance": 2.018,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "11fd2b75",
+   "season": 2019,
+   "distance": 2.221,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Omar Mascarell",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "c1c2c925",
+   "season": 2018,
+   "distance": 2.229,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sandro",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2019,
+   "distance": 2.26,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Darko Brašanac",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "9260926b",
+   "season": 2020,
+   "distance": 2.295,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibrahim Amadou",
+   "squad": "Leganés / Norwich City"
+  },
+  {
+   "fbref_id": "4442fbcd",
+   "season": 2020,
+   "distance": 2.314,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nikola Vukčević",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

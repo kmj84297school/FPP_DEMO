@@ -26,10 +26,115 @@
   "confidence": 0.61
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4212,
+  "mu": 46.5,
+  "ci80": {
+   "lo": 37.7,
+   "hi": 55.2
+  },
+  "ci50": {
+   "lo": 41.9,
+   "hi": 51.1
+  },
+  "sigma_model": 1.804,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "aa5a409a",
+   "season": 2019,
+   "distance": 1.763,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raman Chibsah",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "d7bf3d19",
+   "season": 2018,
+   "distance": 1.951,
+   "survived": 1,
+   "fut_ability_v2": 41.5,
+   "player_name": "Romain Amalfitano",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "ef7cd87a",
+   "season": 2019,
+   "distance": 1.989,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Abdoulaye Touré",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "9ceb7642",
+   "season": 2020,
+   "distance": 2.059,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre Kunde",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "1961b2aa",
+   "season": 2019,
+   "distance": 2.095,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "André Gomes",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2018,
+   "distance": 2.373,
+   "survived": 1,
+   "fut_ability_v2": 35.8,
+   "player_name": "Pere Pons",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2018,
+   "distance": 2.419,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "8e010ff4",
+   "season": 2018,
+   "distance": 2.492,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francisco Portillo",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2020,
+   "distance": 2.504,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "e7f4603c",
+   "season": 2019,
+   "distance": 2.52,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Borja García",
+   "squad": "Girona"
+  }
+ ],
  "low_confidence": false
 }

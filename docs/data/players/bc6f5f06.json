@@ -26,10 +26,115 @@
   "confidence": 0.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3047,
+  "mu": 45.1,
+  "ci80": {
+   "lo": 36.1,
+   "hi": 54.0
+  },
+  "ci50": {
+   "lo": 40.4,
+   "hi": 49.8
+  },
+  "sigma_model": 2.315,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "47a500ae",
+   "season": 2018,
+   "distance": 1.488,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Luca Rossettini",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2020,
+   "distance": 1.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2018,
+   "distance": 1.802,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2019,
+   "distance": 1.817,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "4bd414c1",
+   "season": 2019,
+   "distance": 1.82,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Raúl Albiol",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "5d311e8d",
+   "season": 2019,
+   "distance": 1.866,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Héctor Moreno",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "314f2124",
+   "season": 2018,
+   "distance": 1.928,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miranda",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "ac3fb1be",
+   "season": 2020,
+   "distance": 1.93,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezequiel Garay",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "c6056d58",
+   "season": 2019,
+   "distance": 1.945,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Kamil Glik",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2020,
+   "distance": 1.949,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  }
+ ],
  "low_confidence": false
 }

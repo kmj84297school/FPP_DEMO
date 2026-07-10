@@ -26,10 +26,115 @@
   "confidence": 0.23
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5958,
+  "mu": 40.5,
+  "ci80": {
+   "lo": 31.4,
+   "hi": 49.5
+  },
+  "ci50": {
+   "lo": 35.7,
+   "hi": 45.2
+  },
+  "sigma_model": 2.579,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0c3057a9",
+   "season": 2019,
+   "distance": 1.95,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mikael Ishak",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2020,
+   "distance": 2.067,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Borja Iglesias",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "6a99e0b1",
+   "season": 2020,
+   "distance": 2.3,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Iñaki Williams",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "5343eb4e",
+   "season": 2018,
+   "distance": 2.608,
+   "survived": 1,
+   "fut_ability_v2": 31.8,
+   "player_name": "Yoshinori Mutō",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "b5cae4e6",
+   "season": 2018,
+   "distance": 2.628,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Paloschi",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "5046b7d4",
+   "season": 2019,
+   "distance": 2.638,
+   "survived": 1,
+   "fut_ability_v2": 38.1,
+   "player_name": "Stéphane Bahoken",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "09538fdb",
+   "season": 2019,
+   "distance": 2.727,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Kevin Lasagna",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "fcbcbd94",
+   "season": 2018,
+   "distance": 2.779,
+   "survived": 1,
+   "fut_ability_v2": 32.0,
+   "player_name": "Moussa Konaté",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "9853983f",
+   "season": 2018,
+   "distance": 2.816,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bobby Wood",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "fcbcbd94",
+   "season": 2019,
+   "distance": 2.824,
+   "survived": 1,
+   "fut_ability_v2": 32.0,
+   "player_name": "Moussa Konaté",
+   "squad": "Amiens"
+  }
+ ],
  "low_confidence": false
 }

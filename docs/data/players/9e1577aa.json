@@ -26,10 +26,115 @@
   "confidence": 0.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.181,
+  "mu": 49.4,
+  "ci80": {
+   "lo": 40.6,
+   "hi": 58.1
+  },
+  "ci50": {
+   "lo": 44.8,
+   "hi": 54.0
+  },
+  "sigma_model": 1.913,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2020,
+   "distance": 2.847,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "21512407",
+   "season": 2020,
+   "distance": 3.089,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Kieran Trippier",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "eda40760",
+   "season": 2019,
+   "distance": 3.155,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "d1661819",
+   "season": 2019,
+   "distance": 3.449,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Bastian Oczipka",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "d1661819",
+   "season": 2018,
+   "distance": 3.547,
+   "survived": 1,
+   "fut_ability_v2": 50.1,
+   "player_name": "Bastian Oczipka",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "eda40760",
+   "season": 2018,
+   "distance": 3.673,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Aleksandar Kolarov",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2019,
+   "distance": 3.76,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "71ef519e",
+   "season": 2020,
+   "distance": 3.821,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "356c9002",
+   "season": 2020,
+   "distance": 3.858,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Antonio Candreva",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2019,
+   "distance": 3.884,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  }
+ ],
+ "low_confidence": true
 }

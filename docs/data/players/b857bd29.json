@@ -26,10 +26,115 @@
   "confidence": 1.46
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1882,
+  "mu": 45.1,
+  "ci80": {
+   "lo": 36.2,
+   "hi": 54.1
+  },
+  "ci50": {
+   "lo": 40.4,
+   "hi": 49.8
+  },
+  "sigma_model": 2.386,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "63071a3f",
+   "season": 2020,
+   "distance": 1.687,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Iacoponi",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "e6777e6b",
+   "season": 2020,
+   "distance": 1.725,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Stefan Mitrović",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "72b07a9c",
+   "season": 2020,
+   "distance": 1.752,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kiko Olivas",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "72b07a9c",
+   "season": 2019,
+   "distance": 1.782,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kiko Olivas",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "008a6e6d",
+   "season": 2020,
+   "distance": 1.783,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ragnar Klavan",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "8efa621b",
+   "season": 2020,
+   "distance": 1.834,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Lucioni",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "b666421b",
+   "season": 2020,
+   "distance": 1.869,
+   "survived": 1,
+   "fut_ability_v2": 41.0,
+   "player_name": "Ismaël Traoré",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "56400c01",
+   "season": 2020,
+   "distance": 1.958,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Pisacane",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "b6ca47a2",
+   "season": 2019,
+   "distance": 1.98,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Silvestre",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "275e2c51",
+   "season": 2020,
+   "distance": 1.994,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Romain Thomas",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

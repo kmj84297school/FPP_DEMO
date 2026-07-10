@@ -26,10 +26,115 @@
   "confidence": 1.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0548,
+  "mu": 45.0,
+  "ci80": {
+   "lo": 36.1,
+   "hi": 53.9
+  },
+  "ci50": {
+   "lo": 40.3,
+   "hi": 49.7
+  },
+  "sigma_model": 2.16,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2e8fc160",
+   "season": 2018,
+   "distance": 1.883,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Fuego",
+   "squad": "Espanyol / Villarreal"
+  },
+  {
+   "fbref_id": "023937a9",
+   "season": 2019,
+   "distance": 1.929,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Ivan Radovanović",
+   "squad": "Chievo / Genoa"
+  },
+  {
+   "fbref_id": "677ee102",
+   "season": 2018,
+   "distance": 1.957,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "Yannick Cahuzac",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "7329018e",
+   "season": 2020,
+   "distance": 1.99,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Papakouli Diop",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "bb8a42fa",
+   "season": 2020,
+   "distance": 2.004,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Bodzek",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "3c7bc9bd",
+   "season": 2020,
+   "distance": 2.027,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Pérez",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "a3a306f6",
+   "season": 2018,
+   "distance": 2.042,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Lacen",
+   "squad": "Málaga / Getafe"
+  },
+  {
+   "fbref_id": "ecab64a0",
+   "season": 2020,
+   "distance": 2.054,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "2174bc8d",
+   "season": 2018,
+   "distance": 2.13,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Bellugou",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "d9bda115",
+   "season": 2018,
+   "distance": 2.145,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zurutuza",
+   "squad": "Real Sociedad"
+  }
+ ],
  "low_confidence": false
 }

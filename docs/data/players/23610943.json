@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.405,
+  "mu": 40.1,
+  "ci80": {
+   "lo": 31.1,
+   "hi": 49.2
+  },
+  "ci50": {
+   "lo": 35.4,
+   "hi": 44.9
+  },
+  "sigma_model": 2.573,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8e45910b",
+   "season": 2019,
+   "distance": 1.362,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Zampano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2020,
+   "distance": 1.784,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "3dffff26",
+   "season": 2018,
+   "distance": 1.848,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Korb",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 1.904,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "ec400194",
+   "season": 2018,
+   "distance": 1.916,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oussama Haddadi",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 1.921,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "ed239245",
+   "season": 2018,
+   "distance": 1.938,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "9aa186b2",
+   "season": 2019,
+   "distance": 2.06,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Florent Hadergjonaj",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "1f079188",
+   "season": 2018,
+   "distance": 2.148,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Rubén Peña",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "394854c4",
+   "season": 2020,
+   "distance": 2.216,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "George Baldock",
+   "squad": "Sheffield Utd"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2345,
+  "mu": 55.0,
+  "ci80": {
+   "lo": 46.1,
+   "hi": 63.9
+  },
+  "ci50": {
+   "lo": 50.3,
+   "hi": 59.7
+  },
+  "sigma_model": 2.301,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 1.769,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "9f323c71",
+   "season": 2018,
+   "distance": 2.441,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "4601e194",
+   "season": 2020,
+   "distance": 2.555,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "05439de2",
+   "season": 2019,
+   "distance": 2.562,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "David Alaba",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2019,
+   "distance": 2.613,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2019,
+   "distance": 2.637,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "5f09991f",
+   "season": 2020,
+   "distance": 2.677,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick van Aanholt",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 2.743,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "79c90e45",
+   "season": 2019,
+   "distance": 2.76,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Pavel Kadeřábek",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "335fa267",
+   "season": 2019,
+   "distance": 2.761,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Sergi Roberto",
+   "squad": "Barcelona"
+  }
+ ],
  "low_confidence": false
 }

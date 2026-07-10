@@ -26,10 +26,115 @@
   "confidence": 1.83
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4837,
+  "mu": 49.5,
+  "ci80": {
+   "lo": 40.6,
+   "hi": 58.4
+  },
+  "ci50": {
+   "lo": 44.8,
+   "hi": 54.2
+  },
+  "sigma_model": 2.162,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c76b7567",
+   "season": 2020,
+   "distance": 1.504,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Adrien Thomasson",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "c76b7567",
+   "season": 2019,
+   "distance": 2.019,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Adrien Thomasson",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "75f2c59f",
+   "season": 2019,
+   "distance": 2.335,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Roberto Pereyra",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2018,
+   "distance": 2.42,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Portu",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2019,
+   "distance": 2.517,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Portu",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "0a3f6cde",
+   "season": 2020,
+   "distance": 2.576,
+   "survived": 1,
+   "fut_ability_v2": 34.1,
+   "player_name": "Christopher Antwi-Adjei",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "d3096421",
+   "season": 2018,
+   "distance": 2.581,
+   "survived": 1,
+   "fut_ability_v2": 67.2,
+   "player_name": "Daniel Didavi",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "c05dfb74",
+   "season": 2020,
+   "distance": 2.612,
+   "survived": 1,
+   "fut_ability_v2": 63.8,
+   "player_name": "Iker Muniain",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "01eb744d",
+   "season": 2020,
+   "distance": 2.65,
+   "survived": 1,
+   "fut_ability_v2": 65.7,
+   "player_name": "Ángel Correa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "92e7e919",
+   "season": 2020,
+   "distance": 2.696,
+   "survived": 1,
+   "fut_ability_v2": 58.1,
+   "player_name": "Son Heung-min",
+   "squad": "Tottenham"
+  }
+ ],
  "low_confidence": false
 }

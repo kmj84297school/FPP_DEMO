@@ -26,10 +26,115 @@
   "confidence": 0.58
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1171,
+  "mu": 47.6,
+  "ci80": {
+   "lo": 39.0,
+   "hi": 56.3
+  },
+  "ci50": {
+   "lo": 43.1,
+   "hi": 52.2
+  },
+  "sigma_model": 1.594,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f503ea63",
+   "season": 2018,
+   "distance": 1.183,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Albin Ekdal",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "c5fa58ea",
+   "season": 2018,
+   "distance": 1.505,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Pedro Mosquera",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "003a5c72",
+   "season": 2018,
+   "distance": 1.652,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mikel San José",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2019,
+   "distance": 1.671,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Paul Lasne",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "ea06dd97",
+   "season": 2020,
+   "distance": 1.758,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Baselli",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "8d3c902d",
+   "season": 2019,
+   "distance": 1.783,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Cheikhou Kouyaté",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "e8c930bb",
+   "season": 2020,
+   "distance": 1.798,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Milan Badelj",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "3cefa66a",
+   "season": 2018,
+   "distance": 1.809,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leroy Fer",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "ad4d0985",
+   "season": 2020,
+   "distance": 1.828,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Sánchez",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "580d52dd",
+   "season": 2018,
+   "distance": 1.881,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Grzegorz Krychowiak",
+   "squad": "West Brom"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.12
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5421,
+  "mu": 50.9,
+  "ci80": {
+   "lo": 41.4,
+   "hi": 60.4
+  },
+  "ci50": {
+   "lo": 45.9,
+   "hi": 55.9
+  },
+  "sigma_model": 3.407,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9085dd7c",
+   "season": 2019,
+   "distance": 2.861,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Faragò",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "16569fef",
+   "season": 2020,
+   "distance": 2.936,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitri Bisoli",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "eaf71a5e",
+   "season": 2018,
+   "distance": 3.067,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Azamoum",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "a0666d3e",
+   "season": 2020,
+   "distance": 3.09,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Will Hughes",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "6f5ead86",
+   "season": 2020,
+   "distance": 3.169,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hernani",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "1512328c",
+   "season": 2018,
+   "distance": 3.269,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keko",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "e0b113a7",
+   "season": 2020,
+   "distance": 3.273,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Robert Andrich",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "71ef519e",
+   "season": 2018,
+   "distance": 3.333,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "70dcf94d",
+   "season": 2019,
+   "distance": 3.354,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "3730fcbc",
+   "season": 2019,
+   "distance": 3.419,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Ralls",
+   "squad": "Cardiff City"
+  }
+ ],
  "low_confidence": false
 }

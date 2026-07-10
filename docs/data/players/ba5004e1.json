@@ -26,10 +26,115 @@
   "confidence": 0.13
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.0626,
+  "mu": 49.6,
+  "ci80": {
+   "lo": 40.9,
+   "hi": 58.3
+  },
+  "ci50": {
+   "lo": 45.0,
+   "hi": 54.2
+  },
+  "sigma_model": 1.773,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "be927d03",
+   "season": 2019,
+   "distance": 2.761,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2019,
+   "distance": 2.945,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "12aa7661",
+   "season": 2020,
+   "distance": 3.066,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "fe2db476",
+   "season": 2018,
+   "distance": 3.119,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Łukasz Piszczek",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "7fd58fe3",
+   "season": 2019,
+   "distance": 3.162,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Senad Lulić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "12aa7661",
+   "season": 2018,
+   "distance": 3.216,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "edd6c8e9",
+   "season": 2019,
+   "distance": 3.405,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Darijo Srna",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2020,
+   "distance": 3.498,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "12aa7661",
+   "season": 2019,
+   "distance": 3.501,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "7391c2d9",
+   "season": 2020,
+   "distance": 3.541,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Markus Suttner",
+   "squad": "Düsseldorf"
+  }
+ ],
+ "low_confidence": true
 }

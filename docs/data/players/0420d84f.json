@@ -26,10 +26,115 @@
   "confidence": 0.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1183,
+  "mu": 45.6,
+  "ci80": {
+   "lo": 36.8,
+   "hi": 54.4
+  },
+  "ci50": {
+   "lo": 41.0,
+   "hi": 50.2
+  },
+  "sigma_model": 1.929,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7cefa219",
+   "season": 2019,
+   "distance": 2.106,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tito",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "51e3954c",
+   "season": 2020,
+   "distance": 2.218,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Facundo Roncaglia",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "78803d03",
+   "season": 2018,
+   "distance": 2.313,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "a1017967",
+   "season": 2018,
+   "distance": 2.359,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Issa Cissokho",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "933e8c8a",
+   "season": 2019,
+   "distance": 2.395,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Moyano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "5a3f6fae",
+   "season": 2018,
+   "distance": 2.459,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fernando Navarro",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "a60823a4",
+   "season": 2018,
+   "distance": 2.468,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Pedro López Muñoz",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "99b1d0e6",
+   "season": 2019,
+   "distance": 2.556,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stephan Lichtsteiner",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "ffad706e",
+   "season": 2020,
+   "distance": 2.637,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi López",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "933e8c8a",
+   "season": 2020,
+   "distance": 2.663,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Moyano",
+   "squad": "Valladolid"
+  }
+ ],
  "low_confidence": false
 }

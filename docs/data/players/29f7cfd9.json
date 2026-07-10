@@ -26,10 +26,115 @@
   "confidence": 0.63
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1169,
+  "mu": 39.9,
+  "ci80": {
+   "lo": 30.5,
+   "hi": 49.2
+  },
+  "ci50": {
+   "lo": 34.9,
+   "hi": 44.8
+  },
+  "sigma_model": 3.213,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2018,
+   "distance": 1.983,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "4ab53cdb",
+   "season": 2020,
+   "distance": 2.402,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Jay Rodriguez",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "220c11f1",
+   "season": 2018,
+   "distance": 2.426,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristhian Stuani",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "e897d8ba",
+   "season": 2020,
+   "distance": 2.477,
+   "survived": 1,
+   "fut_ability_v2": 42.1,
+   "player_name": "Kike",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "2691c772",
+   "season": 2020,
+   "distance": 2.506,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ashley Barnes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2019,
+   "distance": 2.531,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "2bcc6d52",
+   "season": 2019,
+   "distance": 2.598,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Burgstaller",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "71a20ce8",
+   "season": 2019,
+   "distance": 2.622,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gómez",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 2.622,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "220c11f1",
+   "season": 2019,
+   "distance": 2.626,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristhian Stuani",
+   "squad": "Girona"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.56
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2725,
+  "mu": 42.5,
+  "ci80": {
+   "lo": 33.6,
+   "hi": 51.4
+  },
+  "ci50": {
+   "lo": 37.8,
+   "hi": 47.2
+  },
+  "sigma_model": 2.306,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7d45b97a",
+   "season": 2018,
+   "distance": 1.966,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Cordoval",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "541cdd20",
+   "season": 2019,
+   "distance": 2.588,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oliver Sorg",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "7af0e1f8",
+   "season": 2018,
+   "distance": 2.589,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Rivierez",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "ae0a7ddf",
+   "season": 2020,
+   "distance": 2.945,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "DeAndre Yedlin",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "ee923664",
+   "season": 2020,
+   "distance": 3.093,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Kevin Vázquez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "2a29eb9b",
+   "season": 2019,
+   "distance": 3.2,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Lukas Kübler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "758dd7f0",
+   "season": 2020,
+   "distance": 3.271,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Javier Manquillo",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "1771f2c1",
+   "season": 2018,
+   "distance": 3.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eneko Bóveda",
+   "squad": "La Coruña / Athletic Club"
+  },
+  {
+   "fbref_id": "c067631c",
+   "season": 2020,
+   "distance": 3.295,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Fredericks",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "cf623c78",
+   "season": 2019,
+   "distance": 3.325,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Erik Durm",
+   "squad": "Huddersfield"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.62
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5674,
+  "mu": 57.0,
+  "ci80": {
+   "lo": 48.2,
+   "hi": 65.9
+  },
+  "ci50": {
+   "lo": 52.4,
+   "hi": 61.7
+  },
+  "sigma_model": 2.14,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "84d94b91",
+   "season": 2018,
+   "distance": 1.471,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "Thomas Monconduit",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "e6c43eec",
+   "season": 2018,
+   "distance": 1.595,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Josuha Guilavogui",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "c2211709",
+   "season": 2020,
+   "distance": 1.655,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Ellyes Skhiri",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2018,
+   "distance": 1.773,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2020,
+   "distance": 1.774,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "4b511457",
+   "season": 2018,
+   "distance": 1.789,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Oriol Romeu",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "7f3b388c",
+   "season": 2020,
+   "distance": 1.842,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Fabinho",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2018,
+   "distance": 1.858,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "2a1beb34",
+   "season": 2018,
+   "distance": 1.881,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marten de Roon",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "7f3b388c",
+   "season": 2019,
+   "distance": 1.902,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Fabinho",
+   "squad": "Liverpool"
+  }
+ ],
  "low_confidence": false
 }

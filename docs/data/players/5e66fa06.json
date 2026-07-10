@@ -26,10 +26,115 @@
   "confidence": 1.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.43,
+  "mu": 58.7,
+  "ci80": {
+   "lo": 49.3,
+   "hi": 68.1
+  },
+  "ci50": {
+   "lo": 53.7,
+   "hi": 63.6
+  },
+  "sigma_model": 3.29,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "61b3978f",
+   "season": 2020,
+   "distance": 1.736,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2020,
+   "distance": 1.771,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "b2d31e83",
+   "season": 2020,
+   "distance": 1.798,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Dan Burn",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "1025db8e",
+   "season": 2018,
+   "distance": 1.813,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Jeffrey Gouweleeuw",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "247accfd",
+   "season": 2018,
+   "distance": 1.827,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Bakaye Dibassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2020,
+   "distance": 1.867,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "c010b898",
+   "season": 2019,
+   "distance": 1.877,
+   "survived": 1,
+   "fut_ability_v2": 39.2,
+   "player_name": "Federico Barba",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2019,
+   "distance": 1.907,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2019,
+   "distance": 1.929,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "080440a4",
+   "season": 2018,
+   "distance": 1.94,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Martin Hinteregger",
+   "squad": "Augsburg"
+  }
+ ],
  "low_confidence": false
 }

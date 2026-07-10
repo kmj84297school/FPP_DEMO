@@ -26,10 +26,115 @@
   "confidence": 0.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5559,
+  "mu": 38.8,
+  "ci80": {
+   "lo": 29.8,
+   "hi": 47.7
+  },
+  "ci50": {
+   "lo": 34.1,
+   "hi": 43.5
+  },
+  "sigma_model": 2.401,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "833fb62e",
+   "season": 2020,
+   "distance": 1.915,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Sandro Ramírez",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "74c7c2db",
+   "season": 2019,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "Robin Quaison",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2018,
+   "distance": 2.439,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Yuya Osako",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "46907171",
+   "season": 2019,
+   "distance": 2.658,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Abdul Majeed Waris",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "03f946ed",
+   "season": 2020,
+   "distance": 2.814,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Petagna",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "1fca9171",
+   "season": 2019,
+   "distance": 2.909,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Federico Di Francesco",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "d1491e00",
+   "season": 2018,
+   "distance": 2.918,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Rolán",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 2.933,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "867501bf",
+   "season": 2020,
+   "distance": 2.977,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benito Raman",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "1fca9171",
+   "season": 2020,
+   "distance": 3.029,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Federico Di Francesco",
+   "squad": "SPAL"
+  }
+ ],
  "low_confidence": false
 }

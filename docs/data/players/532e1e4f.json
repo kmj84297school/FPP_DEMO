@@ -26,10 +26,115 @@
   "confidence": 0.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5561,
+  "mu": 53.4,
+  "ci80": {
+   "lo": 44.6,
+   "hi": 62.2
+  },
+  "ci50": {
+   "lo": 48.7,
+   "hi": 58.0
+  },
+  "sigma_model": 2.081,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7f78ad23",
+   "season": 2019,
+   "distance": 1.913,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Ricardo Rodríguez",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "7f78ad23",
+   "season": 2018,
+   "distance": 2.077,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Ricardo Rodríguez",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "2200181e",
+   "season": 2020,
+   "distance": 2.144,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Kaan Ayhan",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "f521b80a",
+   "season": 2020,
+   "distance": 2.225,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Matthias Ginter",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "f5b6fb78",
+   "season": 2020,
+   "distance": 2.37,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loris Benito",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "699fb8db",
+   "season": 2019,
+   "distance": 2.386,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Dominique Heintz",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "ab096c6f",
+   "season": 2019,
+   "distance": 2.45,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Timothée Kolodziejczak",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "30f5ffa9",
+   "season": 2020,
+   "distance": 2.463,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Milan Škriniar",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "1d8e9add",
+   "season": 2018,
+   "distance": 2.466,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Kevin Vogt",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "fbd6378b",
+   "season": 2019,
+   "distance": 2.539,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Aïssa Mandi",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

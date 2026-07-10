@@ -26,10 +26,115 @@
   "confidence": 0.31
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1028,
+  "mu": 36.7,
+  "ci80": {
+   "lo": 27.6,
+   "hi": 45.8
+  },
+  "ci50": {
+   "lo": 31.9,
+   "hi": 41.5
+  },
+  "sigma_model": 2.67,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "eb3dd471",
+   "season": 2020,
+   "distance": 2.453,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Luis Rioja",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "cbec1196",
+   "season": 2020,
+   "distance": 2.809,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jaromír Zmrhal",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "d5575935",
+   "season": 2020,
+   "distance": 2.813,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valon Berisha",
+   "squad": "Düsseldorf / Lazio"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2018,
+   "distance": 2.964,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "b5b27493",
+   "season": 2018,
+   "distance": 2.971,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcus Rohdén",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "d2ac648c",
+   "season": 2018,
+   "distance": 3.066,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaku Shibasaki",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "989d5705",
+   "season": 2019,
+   "distance": 3.109,
+   "survived": 1,
+   "fut_ability_v2": 29.8,
+   "player_name": "Jeff Hendrick",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "b2d03887",
+   "season": 2020,
+   "distance": 3.155,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Camarasa",
+   "squad": "Alavés / Crystal Palace"
+  },
+  {
+   "fbref_id": "98e958af",
+   "season": 2019,
+   "distance": 3.209,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Hiljemark",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "0cc474e7",
+   "season": 2020,
+   "distance": 3.342,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ramon Azeez",
+   "squad": "Granada"
+  }
+ ],
  "low_confidence": false
 }

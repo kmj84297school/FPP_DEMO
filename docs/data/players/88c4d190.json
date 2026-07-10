@@ -26,10 +26,115 @@
   "confidence": 0.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4856,
+  "mu": 46.3,
+  "ci80": {
+   "lo": 37.1,
+   "hi": 55.4
+  },
+  "ci50": {
+   "lo": 41.5,
+   "hi": 51.1
+  },
+  "sigma_model": 2.796,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d14229f3",
+   "season": 2019,
+   "distance": 2.337,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrien Hunou",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "129af0db",
+   "season": 2019,
+   "distance": 2.484,
+   "survived": 1,
+   "fut_ability_v2": 66.9,
+   "player_name": "Álvaro Morata",
+   "squad": "Atlético Madrid / Chelsea"
+  },
+  {
+   "fbref_id": "84399660",
+   "season": 2019,
+   "distance": 3.234,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Juanmi",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "3aa4a3be",
+   "season": 2019,
+   "distance": 3.248,
+   "survived": 1,
+   "fut_ability_v2": 27.4,
+   "player_name": "Loren Morón",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "9592289a",
+   "season": 2018,
+   "distance": 3.313,
+   "survived": 1,
+   "fut_ability_v2": 41.3,
+   "player_name": "Simone Zaza",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "834d0be5",
+   "season": 2018,
+   "distance": 3.343,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Lucas Alario",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "e58a03c6",
+   "season": 2018,
+   "distance": 3.494,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dwight Gayle",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2019,
+   "distance": 3.496,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khouma Babacar",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "834d0be5",
+   "season": 2020,
+   "distance": 3.503,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Alario",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "dc008610",
+   "season": 2018,
+   "distance": 3.503,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Florin Andone",
+   "squad": "La Coruña"
+  }
+ ],
  "low_confidence": false
 }

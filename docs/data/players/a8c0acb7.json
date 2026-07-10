@@ -26,10 +26,115 @@
   "confidence": 0.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4976,
+  "mu": 47.2,
+  "ci80": {
+   "lo": 38.2,
+   "hi": 56.3
+  },
+  "ci50": {
+   "lo": 42.5,
+   "hi": 52.0
+  },
+  "sigma_model": 2.641,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "77cf6852",
+   "season": 2020,
+   "distance": 1.694,
+   "survived": 1,
+   "fut_ability_v2": 42.7,
+   "player_name": "Emil Krafth",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "616aea37",
+   "season": 2018,
+   "distance": 1.788,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Crotone / Cagliari"
+  },
+  {
+   "fbref_id": "be3a0121",
+   "season": 2019,
+   "distance": 2.116,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonás Ramalho",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "555f3a0b",
+   "season": 2020,
+   "distance": 2.228,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Mario Hermoso",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "6ba71da5",
+   "season": 2018,
+   "distance": 2.255,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jimmy Giraudon",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "e7ab4179",
+   "season": 2020,
+   "distance": 2.36,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Erick Cabaco",
+   "squad": "Levante / Getafe"
+  },
+  {
+   "fbref_id": "174f09a6",
+   "season": 2018,
+   "distance": 2.428,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ignasi Miquel",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "7cab69b5",
+   "season": 2020,
+   "distance": 2.457,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jemerson",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "2a29eb9b",
+   "season": 2018,
+   "distance": 2.461,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lukas Kübler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "88d91621",
+   "season": 2019,
+   "distance": 2.471,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Sergio Álvarez",
+   "squad": "Eibar"
+  }
+ ],
  "low_confidence": false
 }

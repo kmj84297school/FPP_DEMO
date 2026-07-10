@@ -26,10 +26,115 @@
   "confidence": 0.83
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.626,
+  "mu": 50.2,
+  "ci80": {
+   "lo": 41.6,
+   "hi": 58.8
+  },
+  "ci50": {
+   "lo": 45.6,
+   "hi": 54.7
+  },
+  "sigma_model": 1.489,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5939baa2",
+   "season": 2018,
+   "distance": 1.196,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2018,
+   "distance": 1.881,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "f9acca3a",
+   "season": 2020,
+   "distance": 1.948,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wendell",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2018,
+   "distance": 2.185,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Martín Montoya",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2018,
+   "distance": 2.191,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "4e0afc5d",
+   "season": 2018,
+   "distance": 2.203,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Arnaud Souquet",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "e199d5b0",
+   "season": 2019,
+   "distance": 2.542,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Zimmermann",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "4db76f57",
+   "season": 2019,
+   "distance": 2.622,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Muniesa",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "ff16ecad",
+   "season": 2018,
+   "distance": 2.623,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Deplagne",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "33a95e0a",
+   "season": 2020,
+   "distance": 2.7,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jamilu Collins",
+   "squad": "Paderborn 07"
+  }
+ ],
  "low_confidence": false
 }

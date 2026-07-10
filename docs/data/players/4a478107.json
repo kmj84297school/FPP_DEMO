@@ -26,10 +26,115 @@
   "confidence": 0.63
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.3426,
+  "mu": 51.9,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 62.0
+  },
+  "ci50": {
+   "lo": 46.5,
+   "hi": 57.2
+  },
+  "sigma_model": 4.468,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bdf7b97d",
+   "season": 2018,
+   "distance": 2.442,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fernando Torres",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "293211e1",
+   "season": 2018,
+   "distance": 3.304,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aritz Aduriz",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2018,
+   "distance": 3.451,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "73d9bdc7",
+   "season": 2018,
+   "distance": 3.536,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Peter Crouch",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "c58270f8",
+   "season": 2018,
+   "distance": 3.566,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Souleymane Camara",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2020,
+   "distance": 3.574,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2018,
+   "distance": 3.616,
+   "survived": 1,
+   "fut_ability_v2": 29.4,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "71a20ce8",
+   "season": 2019,
+   "distance": 3.641,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gómez",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2019,
+   "distance": 3.715,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "43f71e77",
+   "season": 2018,
+   "distance": 3.763,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Jorge Molina",
+   "squad": "Getafe"
+  }
+ ],
+ "low_confidence": true
 }

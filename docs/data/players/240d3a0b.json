@@ -26,10 +26,115 @@
   "confidence": 0.5
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4978,
+  "mu": 44.6,
+  "ci80": {
+   "lo": 35.8,
+   "hi": 53.4
+  },
+  "ci50": {
+   "lo": 39.9,
+   "hi": 49.3
+  },
+  "sigma_model": 2.14,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ecab64a0",
+   "season": 2019,
+   "distance": 1.67,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "ad340e17",
+   "season": 2018,
+   "distance": 1.717,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Aquilani",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "d2aa8ac0",
+   "season": 2018,
+   "distance": 1.765,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Étienne Didot",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "7329018e",
+   "season": 2018,
+   "distance": 2.099,
+   "survived": 1,
+   "fut_ability_v2": 42.5,
+   "player_name": "Papakouli Diop",
+   "squad": "Eibar / Espanyol"
+  },
+  {
+   "fbref_id": "abb42ce6",
+   "season": 2018,
+   "distance": 2.101,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Lehmann",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "e8c930bb",
+   "season": 2020,
+   "distance": 2.108,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Milan Badelj",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2018,
+   "distance": 2.21,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "023937a9",
+   "season": 2020,
+   "distance": 2.388,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Ivan Radovanović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "a3a306f6",
+   "season": 2018,
+   "distance": 2.401,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Lacen",
+   "squad": "Málaga / Getafe"
+  },
+  {
+   "fbref_id": "07767f42",
+   "season": 2019,
+   "distance": 2.421,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Magnanelli",
+   "squad": "Sassuolo"
+  }
+ ],
  "low_confidence": false
 }

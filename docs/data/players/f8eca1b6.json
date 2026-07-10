@@ -26,10 +26,115 @@
   "confidence": 0.54
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.699,
+  "mu": 39.3,
+  "ci80": {
+   "lo": 30.2,
+   "hi": 48.4
+  },
+  "ci50": {
+   "lo": 34.5,
+   "hi": 44.1
+  },
+  "sigma_model": 2.674,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "09538fdb",
+   "season": 2019,
+   "distance": 2.206,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Kevin Lasagna",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "6c1f7328",
+   "season": 2018,
+   "distance": 2.227,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Inglese",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "6a99e0b1",
+   "season": 2020,
+   "distance": 2.337,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Iñaki Williams",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "4e9a0555",
+   "season": 2019,
+   "distance": 2.387,
+   "survived": 1,
+   "fut_ability_v2": 34.0,
+   "player_name": "Chris Wood",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "6922f806",
+   "season": 2019,
+   "distance": 2.419,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Jonathan Calleri",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "462475ed",
+   "season": 2020,
+   "distance": 2.421,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Ludovic Ajorque",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "2054d037",
+   "season": 2020,
+   "distance": 2.491,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "M'Baye Niang",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "6605d143",
+   "season": 2020,
+   "distance": 2.506,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Habib Diallo",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "2691c772",
+   "season": 2018,
+   "distance": 2.518,
+   "survived": 1,
+   "fut_ability_v2": 34.4,
+   "player_name": "Ashley Barnes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "35f6db55",
+   "season": 2018,
+   "distance": 2.523,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Léo Baptistão",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

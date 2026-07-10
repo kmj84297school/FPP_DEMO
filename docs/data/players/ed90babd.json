@@ -26,10 +26,115 @@
   "confidence": 2.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4352,
+  "mu": 61.0,
+  "ci80": {
+   "lo": 52.2,
+   "hi": 69.8
+  },
+  "ci50": {
+   "lo": 56.4,
+   "hi": 65.6
+  },
+  "sigma_model": 2.015,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "48d5bd33",
+   "season": 2020,
+   "distance": 3.327,
+   "survived": 1,
+   "fut_ability_v2": 72.6,
+   "player_name": "Ruslan Malinovskyi",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "dc1c2fce",
+   "season": 2020,
+   "distance": 3.904,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Álex Berenguer",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "2e0367a6",
+   "season": 2019,
+   "distance": 3.93,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Naïm Sliti",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "2e0367a6",
+   "season": 2018,
+   "distance": 4.0,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Naïm Sliti",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "32f3d97e",
+   "season": 2020,
+   "distance": 4.062,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Abdoul Kader Bamba",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "0c2ac3cb",
+   "season": 2018,
+   "distance": 4.096,
+   "survived": 1,
+   "fut_ability_v2": 65.4,
+   "player_name": "Rafinha",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "36d5469c",
+   "season": 2019,
+   "distance": 4.11,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Gallar",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "9f1893b9",
+   "season": 2020,
+   "distance": 4.146,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Felipe Anderson",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2018,
+   "distance": 4.177,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "a0f9b535",
+   "season": 2019,
+   "distance": 4.283,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Flavien Tait",
+   "squad": "Angers"
+  }
+ ],
+ "low_confidence": true
 }

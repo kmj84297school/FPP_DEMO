@@ -26,10 +26,115 @@
   "confidence": 1.41
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6368,
+  "mu": 56.8,
+  "ci80": {
+   "lo": 47.9,
+   "hi": 65.6
+  },
+  "ci50": {
+   "lo": 52.1,
+   "hi": 61.4
+  },
+  "sigma_model": 2.075,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "16b9d5cf",
+   "season": 2020,
+   "distance": 1.548,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Nikola Maksimović",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "463503e2",
+   "season": 2018,
+   "distance": 1.838,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcin Kamiński",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "d9624b51",
+   "season": 2019,
+   "distance": 1.878,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Federico Ceccherini",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "6fd8a334",
+   "season": 2019,
+   "distance": 1.926,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Aleksandar Dragović",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "3376a776",
+   "season": 2020,
+   "distance": 1.927,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Karim Rekik",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "79083382",
+   "season": 2018,
+   "distance": 2.061,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Jesus",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "fbffc4b1",
+   "season": 2018,
+   "distance": 2.078,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Jeffrey Bruma",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "339c6ed4",
+   "season": 2018,
+   "distance": 2.178,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vasco Regini",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "ae4e2852",
+   "season": 2019,
+   "distance": 2.193,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Mattia De Sciglio",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "322ba2df",
+   "season": 2018,
+   "distance": 2.232,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alin Toșca",
+   "squad": "Benevento / Betis"
+  }
+ ],
  "low_confidence": false
 }

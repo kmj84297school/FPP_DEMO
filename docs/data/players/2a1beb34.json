@@ -26,10 +26,115 @@
   "confidence": 0.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2825,
+  "mu": 46.4,
+  "ci80": {
+   "lo": 37.5,
+   "hi": 55.3
+  },
+  "ci50": {
+   "lo": 41.7,
+   "hi": 51.1
+  },
+  "sigma_model": 2.211,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8f4d116f",
+   "season": 2020,
+   "distance": 2.05,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Damien Le Tallec",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "7329018e",
+   "season": 2020,
+   "distance": 2.129,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Papakouli Diop",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "e54bd0a2",
+   "season": 2018,
+   "distance": 2.224,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Tomás Pina Isla",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "3c7bc9bd",
+   "season": 2020,
+   "distance": 2.257,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Pérez",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "05a4465d",
+   "season": 2019,
+   "distance": 2.286,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Manu García",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "3c7bc9bd",
+   "season": 2019,
+   "distance": 2.313,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Pérez",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "240d3a0b",
+   "season": 2020,
+   "distance": 2.364,
+   "survived": 1,
+   "fut_ability_v2": 38.6,
+   "player_name": "Dani García",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "184e4970",
+   "season": 2018,
+   "distance": 2.424,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Darren Fletcher",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "74e12f1e",
+   "season": 2019,
+   "distance": 2.452,
+   "survived": 1,
+   "fut_ability_v2": 38.3,
+   "player_name": "Jack Cork",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "8d3c902d",
+   "season": 2020,
+   "distance": 2.466,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Cheikhou Kouyaté",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

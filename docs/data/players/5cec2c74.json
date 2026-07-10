@@ -26,10 +26,115 @@
   "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1438,
+  "mu": 40.9,
+  "ci80": {
+   "lo": 32.0,
+   "hi": 49.7
+  },
+  "ci50": {
+   "lo": 36.2,
+   "hi": 45.5
+  },
+  "sigma_model": 2.057,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2019,
+   "distance": 1.774,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Darko Brašanac",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "b0fce72c",
+   "season": 2020,
+   "distance": 1.996,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Mikel Vesga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2019,
+   "distance": 2.042,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "2edeb221",
+   "season": 2018,
+   "distance": 2.108,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Büchel",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2020,
+   "distance": 2.24,
+   "survived": 1,
+   "fut_ability_v2": 26.1,
+   "player_name": "Pere Pons",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "ebd0a048",
+   "season": 2018,
+   "distance": 2.293,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matty James",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "8d3c902d",
+   "season": 2019,
+   "distance": 2.303,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Cheikhou Kouyaté",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "9a506145",
+   "season": 2019,
+   "distance": 2.366,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rene Krhin",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "ff45add5",
+   "season": 2019,
+   "distance": 2.379,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfredo Morales",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "3cefa66a",
+   "season": 2018,
+   "distance": 2.423,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leroy Fer",
+   "squad": "Swansea City"
+  }
+ ],
  "low_confidence": false
 }

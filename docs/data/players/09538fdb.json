@@ -26,10 +26,115 @@
   "confidence": 1.43
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2836,
+  "mu": 39.7,
+  "ci80": {
+   "lo": 29.6,
+   "hi": 49.8
+  },
+  "ci50": {
+   "lo": 34.4,
+   "hi": 45.0
+  },
+  "sigma_model": 4.303,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2691c772",
+   "season": 2019,
+   "distance": 2.745,
+   "survived": 1,
+   "fut_ability_v2": 37.0,
+   "player_name": "Ashley Barnes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "8cfc2f69",
+   "season": 2018,
+   "distance": 2.77,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Ángel Rodríguez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "2bcc6d52",
+   "season": 2019,
+   "distance": 2.897,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Burgstaller",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "8cfc2f69",
+   "season": 2020,
+   "distance": 3.071,
+   "survived": 1,
+   "fut_ability_v2": 36.4,
+   "player_name": "Ángel Rodríguez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "2691c772",
+   "season": 2020,
+   "distance": 3.105,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ashley Barnes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "9592289a",
+   "season": 2020,
+   "distance": 3.19,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Zaza",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "9f472354",
+   "season": 2019,
+   "distance": 3.285,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "0a0cc13c",
+   "season": 2018,
+   "distance": 3.305,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio León",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 3.355,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "34e4343c",
+   "season": 2020,
+   "distance": 3.376,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Anthony Modeste",
+   "squad": "Köln"
+  }
+ ],
  "low_confidence": false
 }

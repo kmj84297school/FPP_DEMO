@@ -26,10 +26,115 @@
   "confidence": 1.64
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2928,
+  "mu": 50.1,
+  "ci80": {
+   "lo": 41.4,
+   "hi": 58.9
+  },
+  "ci50": {
+   "lo": 45.5,
+   "hi": 54.7
+  },
+  "sigma_model": 1.835,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d003e213",
+   "season": 2019,
+   "distance": 2.362,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafinha",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "86e7deaf",
+   "season": 2019,
+   "distance": 2.753,
+   "survived": 1,
+   "fut_ability_v2": 64.1,
+   "player_name": "Thiago Silva",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "2db2fd7b",
+   "season": 2020,
+   "distance": 2.999,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Jérôme Boateng",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2018,
+   "distance": 3.315,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "46d50339",
+   "season": 2018,
+   "distance": 3.352,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christophe Jallet",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "d003e213",
+   "season": 2018,
+   "distance": 3.412,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafinha",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "4bd414c1",
+   "season": 2018,
+   "distance": 3.424,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Raúl Albiol",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "00844823",
+   "season": 2019,
+   "distance": 3.434,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Niklas Moisander",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "00844823",
+   "season": 2020,
+   "distance": 3.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niklas Moisander",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "487d9b09",
+   "season": 2018,
+   "distance": 3.476,
+   "survived": 1,
+   "fut_ability_v2": 40.4,
+   "player_name": "Antonio Barragán",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

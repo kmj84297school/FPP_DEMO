@@ -26,10 +26,115 @@
   "confidence": 0.82
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2811,
+  "mu": 48.1,
+  "ci80": {
+   "lo": 39.4,
+   "hi": 56.8
+  },
+  "ci50": {
+   "lo": 43.5,
+   "hi": 52.7
+  },
+  "sigma_model": 1.719,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2020,
+   "distance": 1.26,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2019,
+   "distance": 1.393,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "1253a12e",
+   "season": 2018,
+   "distance": 1.428,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ervin Zukanović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "1ad8cb67",
+   "season": 2020,
+   "distance": 1.52,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Martinez",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2018,
+   "distance": 1.536,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "a46472d0",
+   "season": 2020,
+   "distance": 1.558,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "b0a0698b",
+   "season": 2020,
+   "distance": 1.591,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Rafael Czichos",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2019,
+   "distance": 1.617,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Álvaro González",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "f7d50789",
+   "season": 2020,
+   "distance": 1.621,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Toby Alderweireld",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "565bf0da",
+   "season": 2018,
+   "distance": 1.663,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "David Abraham",
+   "squad": "Eint Frankfurt"
+  }
+ ],
  "low_confidence": false
 }

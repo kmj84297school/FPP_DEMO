@@ -26,10 +26,115 @@
   "confidence": 0.46
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3322,
+  "mu": 47.3,
+  "ci80": {
+   "lo": 38.3,
+   "hi": 56.3
+  },
+  "ci50": {
+   "lo": 42.6,
+   "hi": 52.0
+  },
+  "sigma_model": 2.489,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8ff07990",
+   "season": 2019,
+   "distance": 1.989,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Balotelli",
+   "squad": "Marseille / Nice"
+  },
+  {
+   "fbref_id": "0af4dcf0",
+   "season": 2018,
+   "distance": 2.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Bakambu",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "fd771f95",
+   "season": 2018,
+   "distance": 2.089,
+   "survived": 1,
+   "fut_ability_v2": 42.3,
+   "player_name": "Martin Braithwaite",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "189cee7b",
+   "season": 2019,
+   "distance": 2.337,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javier Hernández",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "42276181",
+   "season": 2018,
+   "distance": 2.393,
+   "survived": 1,
+   "fut_ability_v2": 35.2,
+   "player_name": "Kévin Gameiro",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "e3fabb0a",
+   "season": 2019,
+   "distance": 2.399,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2019,
+   "distance": 2.407,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "fd771f95",
+   "season": 2020,
+   "distance": 2.413,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Braithwaite",
+   "squad": "Leganés / Barcelona"
+  },
+  {
+   "fbref_id": "e58a03c6",
+   "season": 2018,
+   "distance": 2.544,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dwight Gayle",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "b35db3f6",
+   "season": 2018,
+   "distance": 2.562,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Ángel Guerrero",
+   "squad": "Leganés"
+  }
+ ],
  "low_confidence": false
 }

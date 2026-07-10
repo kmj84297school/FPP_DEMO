@@ -26,10 +26,115 @@
   "confidence": 0.54
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.4619,
+  "mu": 71.1,
+  "ci80": {
+   "lo": 62.1,
+   "hi": 80.1
+  },
+  "ci50": {
+   "lo": 66.3,
+   "hi": 75.8
+  },
+  "sigma_model": 2.469,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "892d5bb1",
+   "season": 2020,
+   "distance": 4.305,
+   "survived": 1,
+   "fut_ability_v2": 77.7,
+   "player_name": "Riyad Mahrez",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "2c0f8e9e",
+   "season": 2020,
+   "distance": 4.607,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexis Sánchez",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "849c826a",
+   "season": 2018,
+   "distance": 5.12,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Andriy Yarmolenko",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "eb2fe5b6",
+   "season": 2020,
+   "distance": 5.182,
+   "survived": 1,
+   "fut_ability_v2": 77.4,
+   "player_name": "Luis Muriel",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "d3096421",
+   "season": 2019,
+   "distance": 5.544,
+   "survived": 1,
+   "fut_ability_v2": 67.2,
+   "player_name": "Daniel Didavi",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "2f557579",
+   "season": 2020,
+   "distance": 5.59,
+   "survived": 1,
+   "fut_ability_v2": 72.2,
+   "player_name": "Lorenzo Insigne",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "8b9ebd03",
+   "season": 2019,
+   "distance": 5.78,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Willian",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "8b9ebd03",
+   "season": 2020,
+   "distance": 5.854,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Willian",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "bee0bab1",
+   "season": 2019,
+   "distance": 5.917,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Bellarabi",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "fd51b456",
+   "season": 2019,
+   "distance": 5.93,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Lucas Vázquez",
+   "squad": "Real Madrid"
+  }
+ ],
+ "low_confidence": true
 }

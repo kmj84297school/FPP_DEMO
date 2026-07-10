@@ -26,10 +26,115 @@
   "confidence": 0.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4175,
+  "mu": 51.9,
+  "ci80": {
+   "lo": 43.0,
+   "hi": 60.7
+  },
+  "ci50": {
+   "lo": 47.2,
+   "hi": 56.5
+  },
+  "sigma_model": 2.229,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2020,
+   "distance": 1.91,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "8593f88c",
+   "season": 2020,
+   "distance": 2.394,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Christian Günter",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "826e8b63",
+   "season": 2020,
+   "distance": 2.718,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Philipp Max",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "826e8b63",
+   "season": 2019,
+   "distance": 2.74,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Philipp Max",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "912e63b5",
+   "season": 2019,
+   "distance": 2.853,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean Zimmer",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 2.857,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "0f52f925",
+   "season": 2018,
+   "distance": 2.957,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Lima",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2019,
+   "distance": 2.959,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "3935e52e",
+   "season": 2019,
+   "distance": 3.049,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Sead Kolašinac",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "58027adc",
+   "season": 2019,
+   "distance": 3.104,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ladislav Krejčí",
+   "squad": "Bologna"
+  }
+ ],
  "low_confidence": false
 }

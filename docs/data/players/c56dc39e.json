@@ -26,10 +26,115 @@
   "confidence": 0.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1652,
+  "mu": 45.7,
+  "ci80": {
+   "lo": 36.4,
+   "hi": 55.0
+  },
+  "ci50": {
+   "lo": 40.8,
+   "hi": 50.6
+  },
+  "sigma_model": 3.074,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "92232aad",
+   "season": 2019,
+   "distance": 1.913,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2018,
+   "distance": 2.231,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "1ef37668",
+   "season": 2020,
+   "distance": 2.237,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Erik Pieters",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "92232aad",
+   "season": 2020,
+   "distance": 2.24,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "12aa7661",
+   "season": 2019,
+   "distance": 2.58,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Holebas",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "9c2394c9",
+   "season": 2020,
+   "distance": 2.583,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Strohdiek",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "bf97c188",
+   "season": 2018,
+   "distance": 2.663,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Mercado",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "bad38a94",
+   "season": 2020,
+   "distance": 2.78,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "c18d22f5",
+   "season": 2018,
+   "distance": 2.792,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Peter Pekarík",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2018,
+   "distance": 2.865,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  }
+ ],
  "low_confidence": false
 }

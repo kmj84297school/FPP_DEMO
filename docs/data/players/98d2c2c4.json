@@ -26,10 +26,115 @@
   "confidence": 0.42
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.427,
+  "mu": 45.8,
+  "ci80": {
+   "lo": 36.8,
+   "hi": 54.7
+  },
+  "ci50": {
+   "lo": 41.0,
+   "hi": 50.5
+  },
+  "sigma_model": 2.445,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ecab64a0",
+   "season": 2020,
+   "distance": 1.659,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "2174bc8d",
+   "season": 2018,
+   "distance": 1.718,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Bellugou",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "677ee102",
+   "season": 2018,
+   "distance": 1.881,
+   "survived": 1,
+   "fut_ability_v2": 44.5,
+   "player_name": "Yannick Cahuzac",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2019,
+   "distance": 1.92,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "cefb32b1",
+   "season": 2018,
+   "distance": 1.992,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vicente Gómez",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "9a506145",
+   "season": 2019,
+   "distance": 2.188,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rene Krhin",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "74e12f1e",
+   "season": 2020,
+   "distance": 2.193,
+   "survived": 1,
+   "fut_ability_v2": 35.0,
+   "player_name": "Jack Cork",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2020,
+   "distance": 2.234,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2020,
+   "distance": 2.241,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "bb8a42fa",
+   "season": 2019,
+   "distance": 2.251,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Bodzek",
+   "squad": "Düsseldorf"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1956,
+  "mu": 44.7,
+  "ci80": {
+   "lo": 35.9,
+   "hi": 53.5
+  },
+  "ci50": {
+   "lo": 40.1,
+   "hi": 49.4
+  },
+  "sigma_model": 2.075,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b69261a0",
+   "season": 2019,
+   "distance": 1.38,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2020,
+   "distance": 1.754,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2020,
+   "distance": 1.849,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "767212e6",
+   "season": 2020,
+   "distance": 1.873,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Faussurier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2019,
+   "distance": 1.938,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 2.031,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "d1661819",
+   "season": 2020,
+   "distance": 2.1,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Bastian Oczipka",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "00b0bb87",
+   "season": 2018,
+   "distance": 2.127,
+   "survived": 1,
+   "fut_ability_v2": 43.2,
+   "player_name": "Fabrizio Cacciatore",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2018,
+   "distance": 2.138,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "5f09991f",
+   "season": 2020,
+   "distance": 2.151,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick van Aanholt",
+   "squad": "Crystal Palace"
+  }
+ ],
  "low_confidence": false
 }

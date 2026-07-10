@@ -26,10 +26,115 @@
   "confidence": 0.12
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1481,
+  "mu": 37.2,
+  "ci80": {
+   "lo": 28.1,
+   "hi": 46.4
+  },
+  "ci50": {
+   "lo": 32.4,
+   "hi": 42.1
+  },
+  "sigma_model": 2.82,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2018,
+   "distance": 2.746,
+   "survived": 1,
+   "fut_ability_v2": 43.0,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "189cee7b",
+   "season": 2019,
+   "distance": 2.861,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javier Hernández",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "58d97e77",
+   "season": 2018,
+   "distance": 2.878,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alessandro Matri",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2019,
+   "distance": 2.883,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "bdf7b97d",
+   "season": 2018,
+   "distance": 2.912,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fernando Torres",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "68796d61",
+   "season": 2018,
+   "distance": 2.915,
+   "survived": 1,
+   "fut_ability_v2": 18.0,
+   "player_name": "Shinji Okazaki",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "8cfc2f69",
+   "season": 2018,
+   "distance": 3.027,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Ángel Rodríguez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2018,
+   "distance": 3.23,
+   "survived": 1,
+   "fut_ability_v2": 29.4,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "16ceb862",
+   "season": 2020,
+   "distance": 3.299,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Olivier Giroud",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "9f472354",
+   "season": 2019,
+   "distance": 3.334,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Shane Long",
+   "squad": "Southampton"
+  }
+ ],
  "low_confidence": false
 }

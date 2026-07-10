@@ -26,10 +26,115 @@
   "confidence": 1.41
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7807,
+  "mu": 49.3,
+  "ci80": {
+   "lo": 40.5,
+   "hi": 58.1
+  },
+  "ci50": {
+   "lo": 44.6,
+   "hi": 53.9
+  },
+  "sigma_model": 2.106,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3cefa66a",
+   "season": 2018,
+   "distance": 1.985,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leroy Fer",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "e49ce451",
+   "season": 2019,
+   "distance": 2.075,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Okay Yokuşlu",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "b0fce72c",
+   "season": 2019,
+   "distance": 2.144,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Mikel Vesga",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "b0fce72c",
+   "season": 2020,
+   "distance": 2.211,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Mikel Vesga",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "e49ce451",
+   "season": 2020,
+   "distance": 2.258,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Okay Yokuşlu",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "c951a6df",
+   "season": 2020,
+   "distance": 2.268,
+   "survived": 1,
+   "fut_ability_v2": 41.1,
+   "player_name": "Isaac Hayden",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "4accb7e0",
+   "season": 2019,
+   "distance": 2.271,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Darko Brašanac",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "29b61deb",
+   "season": 2019,
+   "distance": 2.28,
+   "survived": 1,
+   "fut_ability_v2": 30.9,
+   "player_name": "Pere Pons",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "3f79a1c8",
+   "season": 2019,
+   "distance": 2.281,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Gonzalo Escalante",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "3f79a1c8",
+   "season": 2018,
+   "distance": 2.286,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Gonzalo Escalante",
+   "squad": "Eibar"
+  }
+ ],
  "low_confidence": false
 }

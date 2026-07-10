@@ -26,10 +26,115 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4515,
+  "mu": 43.7,
+  "ci80": {
+   "lo": 34.8,
+   "hi": 52.7
+  },
+  "ci50": {
+   "lo": 39.0,
+   "hi": 48.4
+  },
+  "sigma_model": 2.338,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2018,
+   "distance": 1.607,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2018,
+   "distance": 1.628,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "ff45add5",
+   "season": 2020,
+   "distance": 1.631,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfredo Morales",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "471f16b3",
+   "season": 2020,
+   "distance": 1.911,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Kenny McLean",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "eaf71a5e",
+   "season": 2018,
+   "distance": 1.914,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Azamoum",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "90b70194",
+   "season": 2018,
+   "distance": 2.092,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Përparim Hetemaj",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "003a5c72",
+   "season": 2018,
+   "distance": 2.133,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mikel San José",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "8d3c902d",
+   "season": 2019,
+   "distance": 2.147,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Cheikhou Kouyaté",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "3c05e082",
+   "season": 2018,
+   "distance": 2.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koo Ja-cheol",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "3f79a1c8",
+   "season": 2020,
+   "distance": 2.168,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Gonzalo Escalante",
+   "squad": "Eibar"
+  }
+ ],
  "low_confidence": false
 }

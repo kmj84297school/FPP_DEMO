@@ -26,10 +26,115 @@
   "confidence": 0.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1797,
+  "mu": 39.8,
+  "ci80": {
+   "lo": 30.7,
+   "hi": 48.8
+  },
+  "ci50": {
+   "lo": 35.0,
+   "hi": 44.5
+  },
+  "sigma_model": 2.613,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "38ac43d3",
+   "season": 2018,
+   "distance": 1.798,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sami Khedira",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "9e27e5de",
+   "season": 2018,
+   "distance": 2.205,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Prince Oniangué",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "1d8c99b0",
+   "season": 2018,
+   "distance": 2.609,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ki Sung-yueng",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "02b2937c",
+   "season": 2020,
+   "distance": 2.684,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Dessena",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "d790907f",
+   "season": 2018,
+   "distance": 2.723,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andy King",
+   "squad": "Swansea City / Leicester City"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2020,
+   "distance": 2.723,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Recio",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "cefb32b1",
+   "season": 2018,
+   "distance": 2.739,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vicente Gómez",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2020,
+   "distance": 2.748,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "482b70ad",
+   "season": 2019,
+   "distance": 2.78,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mike Frantz",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "4dba2a97",
+   "season": 2018,
+   "distance": 2.923,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Rigoni",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

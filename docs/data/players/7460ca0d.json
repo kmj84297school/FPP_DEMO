@@ -26,10 +26,115 @@
   "confidence": 0.95
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3157,
+  "mu": 55.4,
+  "ci80": {
+   "lo": 46.5,
+   "hi": 64.4
+  },
+  "ci50": {
+   "lo": 50.7,
+   "hi": 60.2
+  },
+  "sigma_model": 2.421,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "75bd85ea",
+   "season": 2020,
+   "distance": 1.871,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Salva Sevilla",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2020,
+   "distance": 2.148,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "f5a00fa4",
+   "season": 2020,
+   "distance": 2.219,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "João Moutinho",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2020,
+   "distance": 2.272,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "c3a8bcd8",
+   "season": 2020,
+   "distance": 2.402,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lasse Schöne",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "ab1ca213",
+   "season": 2020,
+   "distance": 2.652,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "Miguel Veloso",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "ae64d449",
+   "season": 2018,
+   "distance": 2.659,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Luca Cigarini",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "ff527768",
+   "season": 2019,
+   "distance": 2.685,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ac62861c",
+   "season": 2018,
+   "distance": 2.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Féret",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2019,
+   "distance": 2.755,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

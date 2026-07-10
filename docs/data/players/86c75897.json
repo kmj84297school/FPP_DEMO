@@ -26,10 +26,115 @@
   "confidence": 3.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1428,
+  "mu": 47.2,
+  "ci80": {
+   "lo": 38.5,
+   "hi": 55.8
+  },
+  "ci50": {
+   "lo": 42.6,
+   "hi": 51.7
+  },
+  "sigma_model": 1.542,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8a7ff278",
+   "season": 2020,
+   "distance": 1.781,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Joel Ward",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "0eb5720b",
+   "season": 2018,
+   "distance": 1.836,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mërgim Mavraj",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "a4ac4b8f",
+   "season": 2020,
+   "distance": 1.909,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Willy Boly",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "8aa5f52c",
+   "season": 2018,
+   "distance": 1.93,
+   "survived": 1,
+   "fut_ability_v2": 35.6,
+   "player_name": "Adrian Mariappa",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "8db394aa",
+   "season": 2020,
+   "distance": 1.935,
+   "survived": 1,
+   "fut_ability_v2": 37.2,
+   "player_name": "Ximo Navarro",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "92d38e6c",
+   "season": 2020,
+   "distance": 2.061,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitris Siovas",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2018,
+   "distance": 2.107,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Nenad Tomović",
+   "squad": "Chievo / Fiorentina"
+  },
+  {
+   "fbref_id": "1aa84968",
+   "season": 2020,
+   "distance": 2.256,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Basham",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "f8fcd2a5",
+   "season": 2019,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Jonny Evans",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "e1deea75",
+   "season": 2019,
+   "distance": 2.271,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Carriço",
+   "squad": "Sevilla"
+  }
+ ],
  "low_confidence": false
 }

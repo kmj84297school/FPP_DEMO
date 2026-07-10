@@ -26,10 +26,115 @@
   "confidence": 0.49
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7509,
+  "mu": 58.6,
+  "ci80": {
+   "lo": 50.0,
+   "hi": 67.3
+  },
+  "ci50": {
+   "lo": 54.1,
+   "hi": 63.2
+  },
+  "sigma_model": 1.649,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3681cfff",
+   "season": 2020,
+   "distance": 2.24,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Christophe Hérelle",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2019,
+   "distance": 2.329,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "b6e50615",
+   "season": 2018,
+   "distance": 2.522,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Yuri Berchiche",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2020,
+   "distance": 2.535,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "2db2fd7b",
+   "season": 2018,
+   "distance": 2.565,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Jérôme Boateng",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2020,
+   "distance": 2.622,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "6fd8a334",
+   "season": 2019,
+   "distance": 2.656,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Aleksandar Dragović",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "89151b16",
+   "season": 2019,
+   "distance": 2.657,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zouhair Feddal",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "5d311e8d",
+   "season": 2018,
+   "distance": 2.759,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Héctor Moreno",
+   "squad": "Real Sociedad / Roma"
+  },
+  {
+   "fbref_id": "463503e2",
+   "season": 2018,
+   "distance": 2.766,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcin Kamiński",
+   "squad": "Stuttgart"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.48
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3432,
+  "mu": 46.9,
+  "ci80": {
+   "lo": 38.2,
+   "hi": 55.7
+  },
+  "ci50": {
+   "lo": 42.3,
+   "hi": 51.5
+  },
+  "sigma_model": 1.791,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "79c90e45",
+   "season": 2020,
+   "distance": 1.776,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Pavel Kadeřábek",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "9f323c71",
+   "season": 2018,
+   "distance": 1.857,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "b3b7f5a6",
+   "season": 2018,
+   "distance": 1.971,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Timothy Chandler",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2019,
+   "distance": 2.135,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "ef5b337e",
+   "season": 2018,
+   "distance": 2.149,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Borini",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "5f09991f",
+   "season": 2020,
+   "distance": 2.317,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick van Aanholt",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "e726e11e",
+   "season": 2018,
+   "distance": 2.359,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Victor Moses",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "9038c2a1",
+   "season": 2019,
+   "distance": 2.388,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jason",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "f45f9427",
+   "season": 2020,
+   "distance": 2.41,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Dalbert Henrique",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2018,
+   "distance": 2.41,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Jonathan Schmid",
+   "squad": "Augsburg"
+  }
+ ],
  "low_confidence": false
 }

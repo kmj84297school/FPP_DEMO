@@ -26,10 +26,115 @@
   "confidence": 2.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4335,
+  "mu": 64.1,
+  "ci80": {
+   "lo": 55.1,
+   "hi": 73.2
+  },
+  "ci50": {
+   "lo": 59.4,
+   "hi": 68.9
+  },
+  "sigma_model": 2.673,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "36a3ff67",
+   "season": 2019,
+   "distance": 2.397,
+   "survived": 1,
+   "fut_ability_v2": 68.9,
+   "player_name": "Marco Reus",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2020,
+   "distance": 2.837,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "9744ff80",
+   "season": 2019,
+   "distance": 3.009,
+   "survived": 1,
+   "fut_ability_v2": 75.8,
+   "player_name": "Pablo Sarabia",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "d3aaad90",
+   "season": 2019,
+   "distance": 3.057,
+   "survived": 1,
+   "fut_ability_v2": 69.9,
+   "player_name": "Stephan El Shaarawy",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "3c6089ab",
+   "season": 2019,
+   "distance": 3.115,
+   "survived": 1,
+   "fut_ability_v2": 70.2,
+   "player_name": "Thomas Müller",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "467bae22",
+   "season": 2018,
+   "distance": 3.117,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Franco Vázquez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "603cb947",
+   "season": 2019,
+   "distance": 3.271,
+   "survived": 1,
+   "fut_ability_v2": 71.2,
+   "player_name": "Andrej Kramarić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "36a3ff67",
+   "season": 2018,
+   "distance": 3.286,
+   "survived": 1,
+   "fut_ability_v2": 65.4,
+   "player_name": "Marco Reus",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "849c826a",
+   "season": 2020,
+   "distance": 3.466,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andriy Yarmolenko",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "3c6089ab",
+   "season": 2018,
+   "distance": 3.497,
+   "survived": 1,
+   "fut_ability_v2": 71.9,
+   "player_name": "Thomas Müller",
+   "squad": "Bayern Munich"
+  }
+ ],
  "low_confidence": false
 }

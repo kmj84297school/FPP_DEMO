@@ -26,10 +26,115 @@
   "confidence": 0.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.221,
+  "mu": 37.2,
+  "ci80": {
+   "lo": 28.1,
+   "hi": 46.4
+  },
+  "ci50": {
+   "lo": 32.4,
+   "hi": 42.1
+  },
+  "sigma_model": 2.856,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2020,
+   "distance": 2.079,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Ante Budimir",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2019,
+   "distance": 2.08,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2018,
+   "distance": 2.101,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Ante Budimir",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "9980269a",
+   "season": 2020,
+   "distance": 2.164,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kalifa Coulibaly",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "4207e578",
+   "season": 2019,
+   "distance": 2.174,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Chavarría",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "4e9a0555",
+   "season": 2019,
+   "distance": 2.27,
+   "survived": 1,
+   "fut_ability_v2": 34.0,
+   "player_name": "Chris Wood",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "b4cf5806",
+   "season": 2020,
+   "distance": 2.272,
+   "survived": 1,
+   "fut_ability_v2": 35.4,
+   "player_name": "Sebastian Andersson",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "6265208f",
+   "season": 2018,
+   "distance": 2.272,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Joselu",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "2691c772",
+   "season": 2018,
+   "distance": 2.289,
+   "survived": 1,
+   "fut_ability_v2": 34.4,
+   "player_name": "Ashley Barnes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "d37b0350",
+   "season": 2018,
+   "distance": 2.352,
+   "survived": 1,
+   "fut_ability_v2": 39.7,
+   "player_name": "Leonardo Pavoletti",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

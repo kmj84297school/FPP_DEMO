@@ -26,10 +26,115 @@
   "confidence": 0.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.0951,
+  "mu": 44.8,
+  "ci80": {
+   "lo": 36.1,
+   "hi": 53.5
+  },
+  "ci50": {
+   "lo": 40.2,
+   "hi": 49.4
+  },
+  "sigma_model": 1.636,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f07be45a",
+   "season": 2018,
+   "distance": 1.567,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wayne Rooney",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "144607cc",
+   "season": 2018,
+   "distance": 1.713,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Jasmin Kurtić",
+   "squad": "SPAL / Atalanta"
+  },
+  {
+   "fbref_id": "756959aa",
+   "season": 2018,
+   "distance": 1.86,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Blerim Džemaili",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2020,
+   "distance": 1.91,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paul Lasne",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "3c05e082",
+   "season": 2019,
+   "distance": 1.949,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koo Ja-cheol",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "9ab48bde",
+   "season": 2019,
+   "distance": 2.138,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo de Blasis",
+   "squad": "Eibar / Mainz 05"
+  },
+  {
+   "fbref_id": "cfd8dde3",
+   "season": 2018,
+   "distance": 2.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Corgnet",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "7fec31a0",
+   "season": 2020,
+   "distance": 2.164,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dan Gosling",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "61bd33d0",
+   "season": 2020,
+   "distance": 2.171,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Takashi Inui",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2020,
+   "distance": 2.189,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

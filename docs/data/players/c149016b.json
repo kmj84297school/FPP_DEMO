@@ -26,10 +26,115 @@
   "confidence": 0.58
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5887,
+  "mu": 49.7,
+  "ci80": {
+   "lo": 40.6,
+   "hi": 58.8
+  },
+  "ci50": {
+   "lo": 44.9,
+   "hi": 54.5
+  },
+  "sigma_model": 2.672,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b8836910",
+   "season": 2018,
+   "distance": 1.962,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Celso Borges",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "331c0a43",
+   "season": 2018,
+   "distance": 2.066,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Simone Missiroli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "90b70194",
+   "season": 2018,
+   "distance": 2.199,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Përparim Hetemaj",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "cee31595",
+   "season": 2019,
+   "distance": 2.3,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "James McArthur",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "f1cfc209",
+   "season": 2019,
+   "distance": 2.336,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Tomás Rincón",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "d557d734",
+   "season": 2020,
+   "distance": 2.38,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matt Doherty",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2018,
+   "distance": 2.441,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2019,
+   "distance": 2.475,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2018,
+   "distance": 2.5,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "eaf71a5e",
+   "season": 2018,
+   "distance": 2.534,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Azamoum",
+   "squad": "Troyes"
+  }
+ ],
  "low_confidence": false
 }

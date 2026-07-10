@@ -26,10 +26,115 @@
   "confidence": 0.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2969,
+  "mu": 38.6,
+  "ci80": {
+   "lo": 29.8,
+   "hi": 47.4
+  },
+  "ci50": {
+   "lo": 34.0,
+   "hi": 43.2
+  },
+  "sigma_model": 2.077,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2019,
+   "distance": 1.949,
+   "survived": 1,
+   "fut_ability_v2": 35.8,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "77b41ac0",
+   "season": 2019,
+   "distance": 2.004,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hanno Behrens",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "0df2b165",
+   "season": 2020,
+   "distance": 2.048,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Lundstram",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "7c388b20",
+   "season": 2020,
+   "distance": 2.066,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "3c05e082",
+   "season": 2018,
+   "distance": 2.132,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koo Ja-cheol",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "cedb3e36",
+   "season": 2018,
+   "distance": 2.248,
+   "survived": 1,
+   "fut_ability_v2": 39.5,
+   "player_name": "Artur Ioniță",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2020,
+   "distance": 2.276,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "02b29014",
+   "season": 2020,
+   "distance": 2.293,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "fe641c1a",
+   "season": 2018,
+   "distance": 2.302,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Thomas Delaney",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "7c388b20",
+   "season": 2019,
+   "distance": 2.365,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.99
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2316,
+  "mu": 40.7,
+  "ci80": {
+   "lo": 32.0,
+   "hi": 49.3
+  },
+  "ci50": {
+   "lo": 36.1,
+   "hi": 45.2
+  },
+  "sigma_model": 1.665,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "edd1466a",
+   "season": 2019,
+   "distance": 2.049,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "f3cccffe",
+   "season": 2018,
+   "distance": 2.154,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Insúa",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2019,
+   "distance": 2.268,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2018,
+   "distance": 2.304,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "1a317a1b",
+   "season": 2020,
+   "distance": 2.385,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl García",
+   "squad": "Valladolid / Getafe"
+  },
+  {
+   "fbref_id": "5890cef1",
+   "season": 2018,
+   "distance": 2.424,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aday",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "15e1afd5",
+   "season": 2018,
+   "distance": 2.425,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franck Tabanou",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "21d4e122",
+   "season": 2018,
+   "distance": 2.435,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dani Castellano",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "00a6485f",
+   "season": 2019,
+   "distance": 2.443,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Beck",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "00a6485f",
+   "season": 2018,
+   "distance": 2.445,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Beck",
+   "squad": "Stuttgart"
+  }
+ ],
  "low_confidence": false
 }

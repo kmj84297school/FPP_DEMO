@@ -26,10 +26,115 @@
   "confidence": 1.83
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4353,
+  "mu": 50.8,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 59.9
+  },
+  "ci50": {
+   "lo": 46.0,
+   "hi": 55.6
+  },
+  "sigma_model": 2.728,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2018,
+   "distance": 2.02,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Pedro Obiang",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "580d52dd",
+   "season": 2018,
+   "distance": 2.254,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Grzegorz Krychowiak",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "64b08de7",
+   "season": 2020,
+   "distance": 2.494,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "James McCarthy",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "17cddb4d",
+   "season": 2018,
+   "distance": 2.537,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Zuculini",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "3befc2b6",
+   "season": 2019,
+   "distance": 2.542,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Andrei Girotto",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "999908af",
+   "season": 2018,
+   "distance": 2.594,
+   "survived": 1,
+   "fut_ability_v2": 40.1,
+   "player_name": "Wakaso",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "e947ee4a",
+   "season": 2020,
+   "distance": 2.612,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Brugman",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "960acc0a",
+   "season": 2018,
+   "distance": 2.619,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Badou Ndiaye",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "51b41c5c",
+   "season": 2018,
+   "distance": 2.699,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Morgan Schneiderlin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "72c812f3",
+   "season": 2018,
+   "distance": 2.747,
+   "survived": 1,
+   "fut_ability_v2": 66.8,
+   "player_name": "Idrissa Gana Gueye",
+   "squad": "Everton"
+  }
+ ],
  "low_confidence": false
 }

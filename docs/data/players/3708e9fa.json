@@ -26,10 +26,115 @@
   "confidence": 0.67
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.491,
+  "mu": 60.5,
+  "ci80": {
+   "lo": 51.8,
+   "hi": 69.2
+  },
+  "ci50": {
+   "lo": 55.9,
+   "hi": 65.0
+  },
+  "sigma_model": 1.661,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "90f91999",
+   "season": 2020,
+   "distance": 2.111,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "John McGinn",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "5c96b017",
+   "season": 2020,
+   "distance": 2.3,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Rubén García",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "94c18565",
+   "season": 2018,
+   "distance": 2.312,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Florian Kainz",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "e280527c",
+   "season": 2019,
+   "distance": 2.408,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "dd669209",
+   "season": 2020,
+   "distance": 2.459,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Renato Steffen",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "635f2732",
+   "season": 2019,
+   "distance": 2.49,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Jean-Paul Boëtius",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "97333cf5",
+   "season": 2019,
+   "distance": 2.531,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Stuart Armstrong",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "635f2732",
+   "season": 2020,
+   "distance": 2.636,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Jean-Paul Boëtius",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2020,
+   "distance": 2.642,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "e280527c",
+   "season": 2020,
+   "distance": 2.679,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 0.57
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2575,
+  "mu": 46.0,
+  "ci80": {
+   "lo": 37.2,
+   "hi": 54.7
+  },
+  "ci50": {
+   "lo": 41.3,
+   "hi": 50.6
+  },
+  "sigma_model": 2.006,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ee93c1a9",
+   "season": 2020,
+   "distance": 2.361,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Federico Bernardeschi",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "b500b384",
+   "season": 2020,
+   "distance": 2.43,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Admir Mehmedi",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "6c679c6d",
+   "season": 2019,
+   "distance": 2.45,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Knockaert",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "9d2a3d5f",
+   "season": 2019,
+   "distance": 2.496,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibai Gómez",
+   "squad": "Alavés / Athletic Club"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2018,
+   "distance": 2.551,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Florent Mollet",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "97333cf5",
+   "season": 2019,
+   "distance": 2.711,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Stuart Armstrong",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "b6a6e0a7",
+   "season": 2019,
+   "distance": 2.799,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Zuber",
+   "squad": "Stuttgart / Hoffenheim"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2019,
+   "distance": 2.831,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "f352a2db",
+   "season": 2018,
+   "distance": 2.854,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jules Iloki",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "72a99e38",
+   "season": 2018,
+   "distance": 2.861,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Cristian Tello",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

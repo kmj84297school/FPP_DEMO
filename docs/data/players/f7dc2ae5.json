@@ -26,10 +26,115 @@
   "confidence": 0.61
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.318,
+  "mu": 49.3,
+  "ci80": {
+   "lo": 40.4,
+   "hi": 58.1
+  },
+  "ci50": {
+   "lo": 44.6,
+   "hi": 53.9
+  },
+  "sigma_model": 2.15,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bf97c188",
+   "season": 2018,
+   "distance": 1.566,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Mercado",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "3935e52e",
+   "season": 2020,
+   "distance": 1.756,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sead Kolašinac",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2020,
+   "distance": 1.796,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2020,
+   "distance": 1.797,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "20b104bc",
+   "season": 2020,
+   "distance": 1.812,
+   "survived": 1,
+   "fut_ability_v2": 36.7,
+   "player_name": "Adam Smith",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "c18d22f5",
+   "season": 2018,
+   "distance": 1.846,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Peter Pekarík",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2019,
+   "distance": 1.859,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2019,
+   "distance": 1.94,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2020,
+   "distance": 1.946,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "f03f284b",
+   "season": 2020,
+   "distance": 1.962,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David López",
+   "squad": "Espanyol"
+  }
+ ],
  "low_confidence": false
 }

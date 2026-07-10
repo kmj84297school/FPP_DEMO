@@ -2,14 +2,14 @@ const MAX_ROWS = 200;
 
 const SORT_MODES = {
   ability: { label: "현재능력순", key: "ability", col: "현재능력", requiresEligible: false },
-  mu: { label: "예측 잠재력순", key: "mu", col: "예측 잠재력", requiresEligible: true },
-  delta: { label: "성장 예상순", key: "delta", col: "성장폭", requiresEligible: true },
+  ceiling: { label: "잠재력 상한순", key: "ceiling", col: "잠재력 상한(80%)", requiresEligible: true },
+  headroom: { label: "성장 여력순", key: "headroom", col: "성장 여력", requiresEligible: true },
 };
 
 const SORT_HINTS = {
   ability: "",
-  mu: "예측 대상(연령·출전시간 기준 충족) 선수만 표시됩니다. 참고: 이 모델은 극단적으로 높은 현재 능력을 실제 데이터 패턴에 따라 다소 보수적으로 조정합니다(평균회귀) — 상위권 선수 상당수가 이런 경향을 보이며, 그래도 이 목록은 예측 잠재력이 가장 높게 나온 순서입니다.",
-  delta: "예측 잠재력에서 현재 능력을 뺀 값(성장 예상폭)입니다. 예측 대상 선수만 표시됩니다. 값이 클수록 모델이 현재보다 더 성장할 것으로 보는 선수입니다.",
+  ceiling: "23세 이하 성장 예측 + 24세 이상 전성기 유지 예측 대상만 표시됩니다. '잠재력 상한'은 80% 신뢰구간의 상단값입니다 (실제 계산된 구간이며, 임의로 올린 숫자가 아닙니다).",
+  headroom: "잠재력 상한(80% 구간 상단)에서 현재 능력을 뺀 값입니다. 값이 클수록 모델이 현재보다 더 성장/개선될 여지가 있다고 보는 선수입니다.",
 };
 
 let INDEX = [];
@@ -22,13 +22,19 @@ function deltaCls(v) {
   return "band-ok";
 }
 
+function kindTag(kind) {
+  if (kind === "growth") return '<span class="badge tag small">성장 예측</span>';
+  if (kind === "peak") return '<span class="badge tag small">전성기 유지 예측</span>';
+  return "";
+}
+
 function valueCell(p, mode) {
-  if (mode === "delta") {
-    const v = p.delta;
+  if (mode === "headroom") {
+    const v = p.headroom;
     const sign = v > 0 ? "+" : "";
     return `<span class="badge ${deltaCls(v)}">${sign}${fmt1(v)}</span>`;
   }
-  const v = mode === "mu" ? p.mu : p.ability;
+  const v = mode === "ceiling" ? p.ceiling : p.ability;
   return `<span class="badge ${bandcls(v)}">${fmt1(v)}</span>`;
 }
 
@@ -61,7 +67,7 @@ function render(rows, mode) {
       <td class="muted">${p.age ?? "—"}</td>
       <td class="muted">${p.style || "—"}</td>
       <td>${valueCell(p, mode)}</td>
-      <td>${p.eligible ? '<span class="badge tag small">잠재력 예측</span>' : ""}</td>
+      <td>${kindTag(p.kind)}</td>
     `;
     frag.appendChild(tr);
   });
@@ -113,7 +119,9 @@ fetch("data/meta.json")
     const partialNote = meta.is_partial_season
       ? ` (${meta.target_year}시즌은 데이터 수집 시점상 부분 시즌이라, 원래 기준(${meta.original_pred_min_minutes}분)을 실제 관측된 최대 출전시간(${meta.season_max_minutes}분) 대비 동일 비율로 환산했습니다.)`
       : "";
-    document.getElementById("eligibilityHint").textContent =
-      `현재능력 점수는 전체 검색 대상에게, 잔존확률·미래잠재력·유사선수 비교는 만 ${meta.pred_age_max}세 이하·${meta.pred_min_minutes}분 이상 출전 선수에게만 제공됩니다.${partialNote}`;
+    document.getElementById("eligibilityHint").innerHTML =
+      `현재능력 점수는 전체 검색 대상에게 제공됩니다. 만 ${meta.pred_age_max}세 이하·${meta.pred_min_minutes}분 이상은 <b>성장 예측</b>(2~3년 후 능력), ` +
+      `만 ${meta.veteran.age_min}~${meta.veteran.age_max}세·${meta.veteran.pred_min_minutes}분 이상은 <b>전성기 유지 예측</b>을 받습니다.${partialNote} ` +
+      `<br>전성기 유지 예측은 검증 결과 성장 예측보다 정확도가 더 높습니다 (MAE ${meta.veteran.mae} vs 6.19, R² ${meta.veteran.r2} vs 0.231, GroupKFold 5겹 검증).`;
   })
   .catch(() => {});

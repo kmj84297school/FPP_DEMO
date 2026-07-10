@@ -26,10 +26,115 @@
   "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6372,
+  "mu": 54.6,
+  "ci80": {
+   "lo": 45.6,
+   "hi": 63.6
+  },
+  "ci50": {
+   "lo": 49.9,
+   "hi": 59.4
+  },
+  "sigma_model": 2.543,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f7223718",
+   "season": 2019,
+   "distance": 2.733,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Patric",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "d459281d",
+   "season": 2019,
+   "distance": 2.735,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miiko Albornoz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "cee88597",
+   "season": 2018,
+   "distance": 2.929,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iván Balliu",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "ef5b337e",
+   "season": 2018,
+   "distance": 3.143,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Borini",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "c8c02ac7",
+   "season": 2018,
+   "distance": 3.15,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Zeffane",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "0b5a292a",
+   "season": 2018,
+   "distance": 3.317,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Mário Rui",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "e4b72e34",
+   "season": 2020,
+   "distance": 3.326,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Miguel Trauco",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "e4086af3",
+   "season": 2019,
+   "distance": 3.341,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Baba Rahman",
+   "squad": "Reims / Schalke 04"
+  },
+  {
+   "fbref_id": "6435e737",
+   "season": 2018,
+   "distance": 3.379,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Konstantin Rausch",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2018,
+   "distance": 3.387,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  }
+ ],
  "low_confidence": false
 }

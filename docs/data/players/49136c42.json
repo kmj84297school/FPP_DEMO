@@ -26,10 +26,115 @@
   "confidence": 0.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3408,
+  "mu": 47.7,
+  "ci80": {
+   "lo": 39.0,
+   "hi": 56.5
+  },
+  "ci50": {
+   "lo": 43.1,
+   "hi": 52.3
+  },
+  "sigma_model": 1.873,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1025db8e",
+   "season": 2018,
+   "distance": 1.721,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Jeffrey Gouweleeuw",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "6adbc307",
+   "season": 2020,
+   "distance": 1.911,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "080440a4",
+   "season": 2018,
+   "distance": 1.932,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Martin Hinteregger",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "b82880c6",
+   "season": 2018,
+   "distance": 1.938,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Falette",
+   "squad": "Eint Frankfurt / Metz"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2019,
+   "distance": 1.94,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "3a9c4b7b",
+   "season": 2020,
+   "distance": 1.945,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Nacho Vidal",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "080440a4",
+   "season": 2020,
+   "distance": 2.022,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Martin Hinteregger",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "4b029b31",
+   "season": 2019,
+   "distance": 2.066,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Edoardo Goldaniga",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "c8e25f78",
+   "season": 2018,
+   "distance": 2.088,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gōtoku Sakai",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "de488e56",
+   "season": 2018,
+   "distance": 2.228,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Charles Traore",
+   "squad": "Troyes"
+  }
+ ],
  "low_confidence": false
 }

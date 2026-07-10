@@ -26,10 +26,115 @@
   "confidence": 0.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1318,
+  "mu": 55.1,
+  "ci80": {
+   "lo": 46.4,
+   "hi": 63.8
+  },
+  "ci50": {
+   "lo": 50.5,
+   "hi": 59.7
+  },
+  "sigma_model": 1.826,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6b200d45",
+   "season": 2020,
+   "distance": 1.534,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "e3d0b0c4",
+   "season": 2020,
+   "distance": 1.636,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Marcelo",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2018,
+   "distance": 1.751,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2020,
+   "distance": 1.755,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "55667895",
+   "season": 2018,
+   "distance": 1.775,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Moretti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "80e4c841",
+   "season": 2020,
+   "distance": 1.813,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aurélien Chedjou",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "e0314d87",
+   "season": 2019,
+   "distance": 1.856,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Andrea Masiello",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "fd2bc67d",
+   "season": 2020,
+   "distance": 1.938,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Dante",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "16714a62",
+   "season": 2019,
+   "distance": 1.988,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khaled Adénon",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "6b200d45",
+   "season": 2019,
+   "distance": 2.007,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  }
+ ],
  "low_confidence": false
 }

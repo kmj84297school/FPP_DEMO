@@ -26,10 +26,115 @@
   "confidence": 1.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.8398,
+  "mu": 65.0,
+  "ci80": {
+   "lo": 56.2,
+   "hi": 73.8
+  },
+  "ci50": {
+   "lo": 60.4,
+   "hi": 69.6
+  },
+  "sigma_model": 1.984,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e0921a4f",
+   "season": 2020,
+   "distance": 2.878,
+   "survived": 1,
+   "fut_ability_v2": 70.3,
+   "player_name": "Paulo Dybala",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "9efa1d25",
+   "season": 2019,
+   "distance": 3.428,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Götze",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "8f696594",
+   "season": 2019,
+   "distance": 3.589,
+   "survived": 1,
+   "fut_ability_v2": 72.8,
+   "player_name": "Memphis Depay",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "849c826a",
+   "season": 2018,
+   "distance": 3.851,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Andriy Yarmolenko",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "2f557579",
+   "season": 2019,
+   "distance": 3.919,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Lorenzo Insigne",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2018,
+   "distance": 4.043,
+   "survived": 1,
+   "fut_ability_v2": 78.3,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "8f696594",
+   "season": 2020,
+   "distance": 4.115,
+   "survived": 1,
+   "fut_ability_v2": 72.2,
+   "player_name": "Memphis Depay",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "603cb947",
+   "season": 2018,
+   "distance": 4.142,
+   "survived": 1,
+   "fut_ability_v2": 73.8,
+   "player_name": "Andrej Kramarić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "5294a83f",
+   "season": 2018,
+   "distance": 4.181,
+   "survived": 1,
+   "fut_ability_v2": 69.7,
+   "player_name": "Luis Alberto",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2020,
+   "distance": 4.188,
+   "survived": 1,
+   "fut_ability_v2": 71.1,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 0.63
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1411,
+  "mu": 41.4,
+  "ci80": {
+   "lo": 32.4,
+   "hi": 50.5
+  },
+  "ci50": {
+   "lo": 36.7,
+   "hi": 46.2
+  },
+  "sigma_model": 2.612,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "51e3954c",
+   "season": 2019,
+   "distance": 2.348,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Facundo Roncaglia",
+   "squad": "Celta Vigo / Valencia"
+  },
+  {
+   "fbref_id": "960fb42d",
+   "season": 2019,
+   "distance": 2.491,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álex Gálvez",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2019,
+   "distance": 2.506,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "8aa5f52c",
+   "season": 2018,
+   "distance": 2.589,
+   "survived": 1,
+   "fut_ability_v2": 35.6,
+   "player_name": "Adrian Mariappa",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "019f4d0d",
+   "season": 2018,
+   "distance": 2.61,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leandro Castán",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2020,
+   "distance": 2.612,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "7d45b97a",
+   "season": 2018,
+   "distance": 2.643,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Cordoval",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "f7c9fcd6",
+   "season": 2018,
+   "distance": 2.659,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Samuel Souprayen",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "b14d0c5d",
+   "season": 2018,
+   "distance": 2.685,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Sidnei",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "1025db8e",
+   "season": 2020,
+   "distance": 2.709,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Jeffrey Gouweleeuw",
+   "squad": "Augsburg"
+  }
+ ],
  "low_confidence": false
 }

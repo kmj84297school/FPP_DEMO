@@ -26,10 +26,115 @@
   "confidence": 0.59
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3845,
+  "mu": 49.5,
+  "ci80": {
+   "lo": 40.7,
+   "hi": 58.3
+  },
+  "ci50": {
+   "lo": 44.9,
+   "hi": 54.2
+  },
+  "sigma_model": 2.064,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b6ca47a2",
+   "season": 2018,
+   "distance": 1.356,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Silvestre",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "c6056d58",
+   "season": 2019,
+   "distance": 1.403,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Kamil Glik",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "8efa621b",
+   "season": 2020,
+   "distance": 1.608,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Lucioni",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "c0e27d1a",
+   "season": 2020,
+   "distance": 1.693,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Luiz",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 1.738,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "8dbff17c",
+   "season": 2018,
+   "distance": 1.849,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adil Rami",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "72b07a9c",
+   "season": 2020,
+   "distance": 1.85,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kiko Olivas",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "63071a3f",
+   "season": 2020,
+   "distance": 1.851,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Iacoponi",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "f7d50789",
+   "season": 2019,
+   "distance": 1.883,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Toby Alderweireld",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "1ad8cb67",
+   "season": 2019,
+   "distance": 1.92,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Martinez",
+   "squad": "Strasbourg"
+  }
+ ],
  "low_confidence": false
 }

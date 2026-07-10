@@ -26,10 +26,115 @@
   "confidence": 0.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4827,
+  "mu": 41.3,
+  "ci80": {
+   "lo": 32.2,
+   "hi": 50.5
+  },
+  "ci50": {
+   "lo": 36.5,
+   "hi": 46.1
+  },
+  "sigma_model": 2.752,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3ae14ed1",
+   "season": 2020,
+   "distance": 1.68,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Trézéguet",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "b318a643",
+   "season": 2018,
+   "distance": 1.696,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomón Rondón",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "909222de",
+   "season": 2018,
+   "distance": 1.906,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuno da Costa",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "6922f806",
+   "season": 2019,
+   "distance": 1.951,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Jonathan Calleri",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "909222de",
+   "season": 2019,
+   "distance": 2.132,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuno da Costa",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "acdad0aa",
+   "season": 2018,
+   "distance": 2.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcello Trotta",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "ca618d23",
+   "season": 2020,
+   "distance": 2.19,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Lucas Höler",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "beae3a73",
+   "season": 2020,
+   "distance": 2.279,
+   "survived": 1,
+   "fut_ability_v2": 40.8,
+   "player_name": "Renaud Ripart",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "35f6db55",
+   "season": 2018,
+   "distance": 2.331,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Léo Baptistão",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "ba115a40",
+   "season": 2020,
+   "distance": 2.339,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sébastien Haller",
+   "squad": "West Ham"
+  }
+ ],
  "low_confidence": false
 }

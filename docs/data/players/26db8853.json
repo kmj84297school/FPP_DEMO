@@ -26,10 +26,115 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6134,
+  "mu": 45.6,
+  "ci80": {
+   "lo": 36.8,
+   "hi": 54.3
+  },
+  "ci50": {
+   "lo": 41.0,
+   "hi": 50.1
+  },
+  "sigma_model": 1.801,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "036bba5f",
+   "season": 2019,
+   "distance": 1.273,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Rubén Alcaraz",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "240d3a0b",
+   "season": 2018,
+   "distance": 1.476,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Dani García",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2019,
+   "distance": 1.493,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "885b7aa7",
+   "season": 2020,
+   "distance": 1.553,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Didier Ibrahim Ndong",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "b98570d1",
+   "season": 2018,
+   "distance": 1.587,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Jake Livermore",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "3c7bc9bd",
+   "season": 2019,
+   "distance": 1.635,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Pérez",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "e54bd0a2",
+   "season": 2018,
+   "distance": 1.678,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Tomás Pina Isla",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "74e12f1e",
+   "season": 2018,
+   "distance": 1.715,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Jack Cork",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "653ee42d",
+   "season": 2018,
+   "distance": 1.772,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Dale Stephens",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "c75b6a02",
+   "season": 2018,
+   "distance": 1.78,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Bertolacci",
+   "squad": "Genoa"
+  }
+ ],
  "low_confidence": false
 }

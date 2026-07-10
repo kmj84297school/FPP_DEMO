@@ -26,10 +26,115 @@
   "confidence": 1.42
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4876,
+  "mu": 56.2,
+  "ci80": {
+   "lo": 47.5,
+   "hi": 64.8
+  },
+  "ci50": {
+   "lo": 51.6,
+   "hi": 60.7
+  },
+  "sigma_model": 1.507,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "44eb9093",
+   "season": 2018,
+   "distance": 2.008,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "53cad200",
+   "season": 2019,
+   "distance": 2.097,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "César Azpilicueta",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "86dd77d1",
+   "season": 2018,
+   "distance": 2.101,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Kyle Walker",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2018,
+   "distance": 2.152,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2020,
+   "distance": 2.179,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "b0616e3d",
+   "season": 2018,
+   "distance": 2.193,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Escudero",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2018,
+   "distance": 2.207,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Martín Montoya",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2018,
+   "distance": 2.277,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2019,
+   "distance": 2.291,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "857a5abe",
+   "season": 2019,
+   "distance": 2.326,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Stefan Bell",
+   "squad": "Mainz 05"
+  }
+ ],
  "low_confidence": false
 }

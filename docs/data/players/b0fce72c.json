@@ -26,10 +26,115 @@
   "confidence": 0.75
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1584,
+  "mu": 52.7,
+  "ci80": {
+   "lo": 44.1,
+   "hi": 61.3
+  },
+  "ci50": {
+   "lo": 48.1,
+   "hi": 57.2
+  },
+  "sigma_model": 1.436,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "542cc80f",
+   "season": 2019,
+   "distance": 1.641,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Paul Lasne",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "e26bd2f4",
+   "season": 2020,
+   "distance": 1.683,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Panagiotis Tachtsidis",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2019,
+   "distance": 1.908,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2019,
+   "distance": 1.94,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2018,
+   "distance": 1.949,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "6cdd8245",
+   "season": 2018,
+   "distance": 2.017,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Tom Cleverley",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2018,
+   "distance": 2.053,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Kevin Strootman",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "7fec31a0",
+   "season": 2018,
+   "distance": 2.118,
+   "survived": 1,
+   "fut_ability_v2": 41.9,
+   "player_name": "Dan Gosling",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2018,
+   "distance": 2.12,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Lucas Deaux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "542cc80f",
+   "season": 2018,
+   "distance": 2.141,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Paul Lasne",
+   "squad": "Montpellier"
+  }
+ ],
  "low_confidence": false
 }

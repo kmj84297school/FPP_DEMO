@@ -26,10 +26,115 @@
   "confidence": 0.73
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4815,
+  "mu": 50.1,
+  "ci80": {
+   "lo": 41.3,
+   "hi": 58.9
+  },
+  "ci50": {
+   "lo": 45.4,
+   "hi": 54.7
+  },
+  "sigma_model": 2.07,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "05439de2",
+   "season": 2018,
+   "distance": 2.394,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "David Alaba",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "9f323c71",
+   "season": 2018,
+   "distance": 2.592,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "ad6295d4",
+   "season": 2018,
+   "distance": 2.657,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Layún",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "d4535821",
+   "season": 2019,
+   "distance": 2.774,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Adam Marušić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "e288d4b3",
+   "season": 2020,
+   "distance": 2.887,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Alessandro Florenzi",
+   "squad": "Roma / Valencia"
+  },
+  {
+   "fbref_id": "b6e50615",
+   "season": 2018,
+   "distance": 2.896,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Yuri Berchiche",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2019,
+   "distance": 2.945,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "41e7ef1c",
+   "season": 2019,
+   "distance": 2.963,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Layvin Kurzawa",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "c8c02ac7",
+   "season": 2019,
+   "distance": 2.979,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Zeffane",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "f7223718",
+   "season": 2019,
+   "distance": 2.986,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Patric",
+   "squad": "Lazio"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,115 @@
   "confidence": 1.08
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3705,
+  "mu": 53.5,
+  "ci80": {
+   "lo": 44.8,
+   "hi": 62.3
+  },
+  "ci50": {
+   "lo": 48.9,
+   "hi": 58.2
+  },
+  "sigma_model": 1.874,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2ef637bd",
+   "season": 2019,
+   "distance": 2.358,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre-Yves Polomat",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "ef5b337e",
+   "season": 2018,
+   "distance": 2.793,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Borini",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2020,
+   "distance": 2.822,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "912e63b5",
+   "season": 2019,
+   "distance": 2.853,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean Zimmer",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "3935e52e",
+   "season": 2019,
+   "distance": 2.882,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Sead Kolašinac",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "fbbb9269",
+   "season": 2020,
+   "distance": 2.987,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Youssouf Sabaly",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "433dc9a2",
+   "season": 2019,
+   "distance": 3.055,
+   "survived": 1,
+   "fut_ability_v2": 45.1,
+   "player_name": "Juan Bernat",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "5128bde4",
+   "season": 2018,
+   "distance": 3.124,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Darko Lazović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "f45f9427",
+   "season": 2020,
+   "distance": 3.127,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Dalbert Henrique",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "3b333ac3",
+   "season": 2020,
+   "distance": 3.135,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Hans Hateboer",
+   "squad": "Atalanta"
+  }
+ ],
  "low_confidence": false
 }

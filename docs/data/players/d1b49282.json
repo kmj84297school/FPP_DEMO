@@ -26,10 +26,115 @@
   "confidence": 1.72
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4229,
+  "mu": 38.4,
+  "ci80": {
+   "lo": 29.2,
+   "hi": 47.5
+  },
+  "ci50": {
+   "lo": 33.6,
+   "hi": 43.2
+  },
+  "sigma_model": 2.774,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "29b61deb",
+   "season": 2020,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 26.1,
+   "player_name": "Pere Pons",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "5bddccc9",
+   "season": 2018,
+   "distance": 2.481,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Elias Kachunga",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "b1313ec4",
+   "season": 2018,
+   "distance": 2.525,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Scott Arfield",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2019,
+   "distance": 2.528,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "3f79a1c8",
+   "season": 2018,
+   "distance": 2.657,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Gonzalo Escalante",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "ff45add5",
+   "season": 2019,
+   "distance": 2.671,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfredo Morales",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "6613c819",
+   "season": 2020,
+   "distance": 2.701,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Tomáš Souček",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "5bddccc9",
+   "season": 2019,
+   "distance": 2.702,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Elias Kachunga",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "924f9191",
+   "season": 2020,
+   "distance": 2.742,
+   "survived": 1,
+   "fut_ability_v2": 38.0,
+   "player_name": "Grischa Prömel",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "04c11885",
+   "season": 2018,
+   "distance": 2.751,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
+  }
+ ],
  "low_confidence": false
 }

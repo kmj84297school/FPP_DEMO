@@ -26,10 +26,115 @@
   "confidence": 1.15
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5515,
+  "mu": 48.8,
+  "ci80": {
+   "lo": 40.2,
+   "hi": 57.4
+  },
+  "ci50": {
+   "lo": 44.3,
+   "hi": 53.3
+  },
+  "sigma_model": 1.397,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d4535821",
+   "season": 2019,
+   "distance": 1.229,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Adam Marušić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "3935e52e",
+   "season": 2020,
+   "distance": 2.029,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sead Kolašinac",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2018,
+   "distance": 2.038,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "de7d40d6",
+   "season": 2019,
+   "distance": 2.121,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Juncà",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "433dc9a2",
+   "season": 2019,
+   "distance": 2.184,
+   "survived": 1,
+   "fut_ability_v2": 45.1,
+   "player_name": "Juan Bernat",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "fbbb9269",
+   "season": 2020,
+   "distance": 2.203,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Youssouf Sabaly",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "ec400194",
+   "season": 2018,
+   "distance": 2.295,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oussama Haddadi",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2018,
+   "distance": 2.306,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2018,
+   "distance": 2.315,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Martín Montoya",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "fdd60087",
+   "season": 2019,
+   "distance": 2.32,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santiago Arias",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

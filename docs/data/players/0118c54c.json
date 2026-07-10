@@ -26,10 +26,115 @@
   "confidence": 1.74
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.413,
+  "mu": 52.2,
+  "ci80": {
+   "lo": 43.2,
+   "hi": 61.2
+  },
+  "ci50": {
+   "lo": 47.5,
+   "hi": 56.9
+  },
+  "sigma_model": 2.452,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e4086af3",
+   "season": 2019,
+   "distance": 1.991,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Baba Rahman",
+   "squad": "Reims / Schalke 04"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2020,
+   "distance": 2.221,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Arsenal"
+  },
+  {
+   "fbref_id": "fba81826",
+   "season": 2020,
+   "distance": 2.401,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Mattiello",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2018,
+   "distance": 2.425,
+   "survived": 1,
+   "fut_ability_v2": 38.9,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "5ddb8f9f",
+   "season": 2018,
+   "distance": 2.497,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Danny da Costa",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "3dffff26",
+   "season": 2019,
+   "distance": 2.514,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Korb",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "4c5b714f",
+   "season": 2020,
+   "distance": 2.524,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Djibril Sidibé",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2019,
+   "distance": 2.573,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "aae9d04a",
+   "season": 2018,
+   "distance": 2.584,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Davide Faraoni",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "c8c02ac7",
+   "season": 2018,
+   "distance": 2.586,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Zeffane",
+   "squad": "Rennes"
+  }
+ ],
  "low_confidence": false
 }

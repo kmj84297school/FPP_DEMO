@@ -26,10 +26,115 @@
   "confidence": 1.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.6767,
+  "mu": 73.9,
+  "ci80": {
+   "lo": 64.8,
+   "hi": 82.9
+  },
+  "ci50": {
+   "lo": 69.1,
+   "hi": 78.6
+  },
+  "sigma_model": 2.658,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "849c826a",
+   "season": 2018,
+   "distance": 4.695,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Andriy Yarmolenko",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "8f696594",
+   "season": 2019,
+   "distance": 5.22,
+   "survived": 1,
+   "fut_ability_v2": 72.8,
+   "player_name": "Memphis Depay",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "e0921a4f",
+   "season": 2020,
+   "distance": 5.256,
+   "survived": 1,
+   "fut_ability_v2": 70.3,
+   "player_name": "Paulo Dybala",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "892d5bb1",
+   "season": 2019,
+   "distance": 5.391,
+   "survived": 1,
+   "fut_ability_v2": 76.5,
+   "player_name": "Riyad Mahrez",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2018,
+   "distance": 5.396,
+   "survived": 1,
+   "fut_ability_v2": 78.3,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "4c370d81",
+   "season": 2018,
+   "distance": 5.45,
+   "survived": 1,
+   "fut_ability_v2": 71.1,
+   "player_name": "Roberto Firmino",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2020,
+   "distance": 5.465,
+   "survived": 1,
+   "fut_ability_v2": 71.1,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "bc6bd723",
+   "season": 2020,
+   "distance": 5.622,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Alassane Pléa",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "b400bde0",
+   "season": 2020,
+   "distance": 5.661,
+   "survived": 1,
+   "fut_ability_v2": 74.4,
+   "player_name": "Raheem Sterling",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "4c370d81",
+   "season": 2019,
+   "distance": 5.693,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Roberto Firmino",
+   "squad": "Liverpool"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,115 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7026,
+  "mu": 52.0,
+  "ci80": {
+   "lo": 43.1,
+   "hi": 60.8
+  },
+  "ci50": {
+   "lo": 47.3,
+   "hi": 56.6
+  },
+  "sigma_model": 2.062,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f5b6fb78",
+   "season": 2020,
+   "distance": 1.779,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loris Benito",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2018,
+   "distance": 1.918,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "86dd77d1",
+   "season": 2018,
+   "distance": 1.929,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Kyle Walker",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "f9acca3a",
+   "season": 2019,
+   "distance": 1.976,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Wendell",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "44781702",
+   "season": 2019,
+   "distance": 2.037,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Ben Davies",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "fdd60087",
+   "season": 2019,
+   "distance": 2.124,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santiago Arias",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "7f78ad23",
+   "season": 2019,
+   "distance": 2.15,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Ricardo Rodríguez",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2018,
+   "distance": 2.184,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2018,
+   "distance": 2.191,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2018,
+   "distance": 2.192,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

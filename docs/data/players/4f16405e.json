@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2923,
+  "mu": 56.1,
+  "ci80": {
+   "lo": 46.8,
+   "hi": 65.5
+  },
+  "ci50": {
+   "lo": 51.2,
+   "hi": 61.1
+  },
+  "sigma_model": 3.202,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d33c706e",
+   "season": 2020,
+   "distance": 1.929,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Andy Delort",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "82e34b69",
+   "season": 2019,
+   "distance": 2.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Troy Deeney",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "1f8c7aa9",
+   "season": 2018,
+   "distance": 2.542,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ronny Rodelin",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "b561db50",
+   "season": 2020,
+   "distance": 2.752,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "b561db50",
+   "season": 2019,
+   "distance": 2.783,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "b318a643",
+   "season": 2019,
+   "distance": 2.861,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomón Rondón",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2018,
+   "distance": 2.943,
+   "survived": 1,
+   "fut_ability_v2": 69.4,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2020,
+   "distance": 3.004,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2020,
+   "distance": 3.067,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "bf39bdec",
+   "season": 2020,
+   "distance": 3.158,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ernesto Torregrossa",
+   "squad": "Brescia"
+  }
+ ],
  "low_confidence": false
 }

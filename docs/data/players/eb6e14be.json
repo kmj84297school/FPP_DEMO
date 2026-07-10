@@ -26,10 +26,115 @@
   "confidence": 2.64
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.5733,
+  "mu": 48.6,
+  "ci80": {
+   "lo": 39.1,
+   "hi": 58.1
+  },
+  "ci50": {
+   "lo": 43.6,
+   "hi": 53.6
+  },
+  "sigma_model": 3.47,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d33c706e",
+   "season": 2018,
+   "distance": 2.729,
+   "survived": 1,
+   "fut_ability_v2": 68.7,
+   "player_name": "Andy Delort",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "253a06b9",
+   "season": 2019,
+   "distance": 2.881,
+   "survived": 1,
+   "fut_ability_v2": 41.2,
+   "player_name": "Ezequiel Ávila",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "6922f806",
+   "season": 2020,
+   "distance": 3.055,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Calleri",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "253a06b9",
+   "season": 2020,
+   "distance": 3.193,
+   "survived": 1,
+   "fut_ability_v2": 41.2,
+   "player_name": "Ezequiel Ávila",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2018,
+   "distance": 3.492,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "ba115a40",
+   "season": 2019,
+   "distance": 3.717,
+   "survived": 1,
+   "fut_ability_v2": 40.7,
+   "player_name": "Sébastien Haller",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "f26834c7",
+   "season": 2019,
+   "distance": 3.809,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Karim Onisiwo",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "d2416c2e",
+   "season": 2019,
+   "distance": 3.815,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Yussuf Poulsen",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2018,
+   "distance": 3.834,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Ante Budimir",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "cd82452e",
+   "season": 2018,
+   "distance": 3.846,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "André Hahn",
+   "squad": "Hamburger SV"
+  }
+ ],
+ "low_confidence": true
 }

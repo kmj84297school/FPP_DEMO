@@ -26,10 +26,115 @@
   "confidence": 0.73
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5331,
+  "mu": 44.8,
+  "ci80": {
+   "lo": 35.6,
+   "hi": 54.0
+  },
+  "ci50": {
+   "lo": 40.0,
+   "hi": 49.7
+  },
+  "sigma_model": 2.946,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8c44e37b",
+   "season": 2018,
+   "distance": 2.535,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Bastón",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "8f866fe8",
+   "season": 2018,
+   "distance": 2.635,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Manolo Gabbiadini",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "dae8623e",
+   "season": 2020,
+   "distance": 2.644,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mbwana Samatta",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "fd771f95",
+   "season": 2019,
+   "distance": 2.707,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Martin Braithwaite",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "625e41b1",
+   "season": 2020,
+   "distance": 2.888,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Streli Mamba",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "b5cae4e6",
+   "season": 2018,
+   "distance": 2.946,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberto Paloschi",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2020,
+   "distance": 2.964,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Borja Iglesias",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "2e52206e",
+   "season": 2018,
+   "distance": 2.982,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Jeannot",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2019,
+   "distance": 3.263,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khouma Babacar",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "8ff07990",
+   "season": 2019,
+   "distance": 3.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Balotelli",
+   "squad": "Marseille / Nice"
+  }
+ ],
  "low_confidence": false
 }

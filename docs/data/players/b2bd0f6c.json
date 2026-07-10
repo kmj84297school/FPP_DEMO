@@ -26,10 +26,115 @@
   "confidence": 0.27
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6548,
+  "mu": 57.6,
+  "ci80": {
+   "lo": 48.7,
+   "hi": 66.5
+  },
+  "ci50": {
+   "lo": 52.9,
+   "hi": 62.3
+  },
+  "sigma_model": 2.207,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e280527c",
+   "season": 2020,
+   "distance": 1.936,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "53a0e358",
+   "season": 2020,
+   "distance": 2.252,
+   "survived": 1,
+   "fut_ability_v2": 72.4,
+   "player_name": "Domenico Berardi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "50871bcc",
+   "season": 2018,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 67.5,
+   "player_name": "Thorgan Hazard",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "817c6964",
+   "season": 2019,
+   "distance": 2.275,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Rade Krunić",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "c76b7567",
+   "season": 2020,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Adrien Thomasson",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "440c84ed",
+   "season": 2018,
+   "distance": 2.352,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iago Falque",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "cd0fa27b",
+   "season": 2020,
+   "distance": 2.411,
+   "survived": 1,
+   "fut_ability_v2": 65.6,
+   "player_name": "Hakan Çalhanoğlu",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "50871bcc",
+   "season": 2020,
+   "distance": 2.452,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Thorgan Hazard",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "9744ff80",
+   "season": 2018,
+   "distance": 2.509,
+   "survived": 1,
+   "fut_ability_v2": 70.3,
+   "player_name": "Pablo Sarabia",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "e280527c",
+   "season": 2019,
+   "distance": 2.509,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  }
+ ],
  "low_confidence": false
 }

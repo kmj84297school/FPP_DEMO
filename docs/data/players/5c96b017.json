@@ -26,10 +26,115 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.2624,
+  "mu": 51.6,
+  "ci80": {
+   "lo": 42.7,
+   "hi": 60.5
+  },
+  "ci50": {
+   "lo": 47.0,
+   "hi": 56.3
+  },
+  "sigma_model": 2.263,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "980522ec",
+   "season": 2020,
+   "distance": 2.665,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Christian Eriksen",
+   "squad": "Tottenham / Inter"
+  },
+  {
+   "fbref_id": "8aec0537",
+   "season": 2020,
+   "distance": 3.109,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Pascal Groß",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "dba67bc4",
+   "season": 2018,
+   "distance": 3.144,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zlatko Junuzović",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "d995ed27",
+   "season": 2020,
+   "distance": 3.338,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Giacomo Bonaventura",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "7cd6badb",
+   "season": 2020,
+   "distance": 3.345,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Lars Stindl",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "7dfbba27",
+   "season": 2020,
+   "distance": 3.386,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mathias Autret",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "dd0daf32",
+   "season": 2020,
+   "distance": 3.413,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Henrikh Mkhitaryan",
+   "squad": "Roma / Arsenal"
+  },
+  {
+   "fbref_id": "2c851997",
+   "season": 2020,
+   "distance": 3.598,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Ramírez",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "2903a856",
+   "season": 2020,
+   "distance": 3.616,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Jonas Hofmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "9a2e0ccc",
+   "season": 2020,
+   "distance": 3.629,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Emil Forsberg",
+   "squad": "RB Leipzig"
+  }
+ ],
+ "low_confidence": true
 }

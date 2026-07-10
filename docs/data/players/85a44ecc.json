@@ -26,10 +26,115 @@
   "confidence": 0.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4856,
+  "mu": 40.1,
+  "ci80": {
+   "lo": 31.2,
+   "hi": 49.0
+  },
+  "ci50": {
+   "lo": 35.4,
+   "hi": 44.8
+  },
+  "sigma_model": 2.263,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5cec2c74",
+   "season": 2019,
+   "distance": 2.039,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Soualiho Meïté",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "b6b2b820",
+   "season": 2020,
+   "distance": 2.095,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Rog",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "8da74c05",
+   "season": 2019,
+   "distance": 2.175,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Adrien Tameze",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "9feb8f24",
+   "season": 2018,
+   "distance": 2.295,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Allen",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "5cec2c74",
+   "season": 2020,
+   "distance": 2.323,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Soualiho Meïté",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2019,
+   "distance": 2.337,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "ef7cd87a",
+   "season": 2019,
+   "distance": 2.351,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Abdoulaye Touré",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "cce181df",
+   "season": 2018,
+   "distance": 2.353,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Geoffrey Kondogbia",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2019,
+   "distance": 2.357,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "529f49ab",
+   "season": 2018,
+   "distance": 2.405,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Thomas Partey",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

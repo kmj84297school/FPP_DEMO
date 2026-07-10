@@ -26,10 +26,115 @@
   "confidence": 0.92
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4726,
+  "mu": 41.7,
+  "ci80": {
+   "lo": 32.9,
+   "hi": 50.5
+  },
+  "ci50": {
+   "lo": 37.0,
+   "hi": 46.3
+  },
+  "sigma_model": 2.042,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "05384ea1",
+   "season": 2018,
+   "distance": 1.742,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michel",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2019,
+   "distance": 1.902,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "ae0a7ddf",
+   "season": 2018,
+   "distance": 1.905,
+   "survived": 1,
+   "fut_ability_v2": 35.1,
+   "player_name": "DeAndre Yedlin",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2020,
+   "distance": 2.065,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "f10983ae",
+   "season": 2020,
+   "distance": 2.07,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Moreira",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2019,
+   "distance": 2.076,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "5ca20b7a",
+   "season": 2020,
+   "distance": 2.209,
+   "survived": 1,
+   "fut_ability_v2": 44.1,
+   "player_name": "Joseba Zaldúa",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2019,
+   "distance": 2.209,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martín Montoya",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "e9208654",
+   "season": 2019,
+   "distance": 2.247,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tommy Smith",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "0fbb73c2",
+   "season": 2020,
+   "distance": 2.25,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Jans",
+   "squad": "Paderborn 07"
+  }
+ ],
  "low_confidence": false
 }

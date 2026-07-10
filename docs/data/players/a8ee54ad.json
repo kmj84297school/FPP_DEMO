@@ -26,10 +26,115 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4839,
+  "mu": 44.7,
+  "ci80": {
+   "lo": 35.8,
+   "hi": 53.5
+  },
+  "ci50": {
+   "lo": 40.0,
+   "hi": 49.3
+  },
+  "sigma_model": 2.146,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3a9c4b7b",
+   "season": 2020,
+   "distance": 1.569,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Nacho Vidal",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2018,
+   "distance": 1.656,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "4e0afc5d",
+   "season": 2020,
+   "distance": 1.696,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Arnaud Souquet",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "1e12c53b",
+   "season": 2018,
+   "distance": 1.827,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Bruno Martella",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "c8e25f78",
+   "season": 2018,
+   "distance": 1.9,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gōtoku Sakai",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "d459281d",
+   "season": 2019,
+   "distance": 1.905,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miiko Albornoz",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "e4b72e34",
+   "season": 2020,
+   "distance": 1.916,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Miguel Trauco",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "5f09991f",
+   "season": 2018,
+   "distance": 1.962,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Patrick van Aanholt",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2018,
+   "distance": 1.975,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "1cd87320",
+   "season": 2018,
+   "distance": 1.978,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthias Ostrzolek",
+   "squad": "Hannover 96"
+  }
+ ],
  "low_confidence": false
 }

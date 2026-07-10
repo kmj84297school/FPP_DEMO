@@ -26,10 +26,115 @@
   "confidence": 0.09
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7899,
+  "mu": 59.7,
+  "ci80": {
+   "lo": 50.9,
+   "hi": 68.4
+  },
+  "ci50": {
+   "lo": 55.1,
+   "hi": 64.2
+  },
+  "sigma_model": 1.808,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4c5b714f",
+   "season": 2018,
+   "distance": 2.605,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Djibril Sidibé",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "21512407",
+   "season": 2019,
+   "distance": 2.718,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Kieran Trippier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "c50281a0",
+   "season": 2018,
+   "distance": 2.777,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Lars Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "4601e194",
+   "season": 2018,
+   "distance": 2.873,
+   "survived": 1,
+   "fut_ability_v2": 59.7,
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "21512407",
+   "season": 2018,
+   "distance": 2.966,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Kieran Trippier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "4958bfb2",
+   "season": 2018,
+   "distance": 3.1,
+   "survived": 1,
+   "fut_ability_v2": 66.0,
+   "player_name": "Dani Carvajal",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2019,
+   "distance": 3.183,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "53cad200",
+   "season": 2018,
+   "distance": 3.186,
+   "survived": 1,
+   "fut_ability_v2": 66.8,
+   "player_name": "César Azpilicueta",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "3935e52e",
+   "season": 2018,
+   "distance": 3.218,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Sead Kolašinac",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "44781702",
+   "season": 2018,
+   "distance": 3.225,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Ben Davies",
+   "squad": "Tottenham"
+  }
+ ],
  "low_confidence": false
 }

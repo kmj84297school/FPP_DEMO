@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5715,
+  "mu": 46.7,
+  "ci80": {
+   "lo": 37.4,
+   "hi": 56.1
+  },
+  "ci50": {
+   "lo": 41.8,
+   "hi": 51.6
+  },
+  "sigma_model": 3.187,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2020,
+   "distance": 1.633,
+   "survived": 1,
+   "fut_ability_v2": 69.6,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "09538fdb",
+   "season": 2020,
+   "distance": 1.699,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Kevin Lasagna",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "bdedd861",
+   "season": 2020,
+   "distance": 1.84,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Alioui",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2019,
+   "distance": 1.891,
+   "survived": 1,
+   "fut_ability_v2": 36.2,
+   "player_name": "Borja Iglesias",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "e897d8ba",
+   "season": 2018,
+   "distance": 1.903,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Kike",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "b318a643",
+   "season": 2019,
+   "distance": 1.916,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salomón Rondón",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "d87e2cae",
+   "season": 2020,
+   "distance": 1.927,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Willian José",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "fcbcbd94",
+   "season": 2018,
+   "distance": 1.942,
+   "survived": 1,
+   "fut_ability_v2": 32.0,
+   "player_name": "Moussa Konaté",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "6605d143",
+   "season": 2020,
+   "distance": 1.945,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Habib Diallo",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "c596fcb0",
+   "season": 2018,
+   "distance": 1.982,
+   "survived": 1,
+   "fut_ability_v2": 38.2,
+   "player_name": "Callum Wilson",
+   "squad": "Bournemouth"
+  }
+ ],
  "low_confidence": false
 }

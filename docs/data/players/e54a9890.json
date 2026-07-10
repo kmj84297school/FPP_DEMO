@@ -26,10 +26,115 @@
   "confidence": 0.5
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4238,
+  "mu": 50.5,
+  "ci80": {
+   "lo": 41.1,
+   "hi": 60.0
+  },
+  "ci50": {
+   "lo": 45.6,
+   "hi": 55.5
+  },
+  "sigma_model": 3.409,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9038c2a1",
+   "season": 2020,
+   "distance": 2.482,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jason",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2018,
+   "distance": 2.549,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "87fdfb9b",
+   "season": 2019,
+   "distance": 2.635,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Kerk",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "f7b1d4e0",
+   "season": 2019,
+   "distance": 2.728,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Saman Ghoddos",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "db8f0eba",
+   "season": 2019,
+   "distance": 2.778,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Adri Embarba",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "ff9fcd4d",
+   "season": 2018,
+   "distance": 2.806,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alex Pritchard",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "6c679c6d",
+   "season": 2019,
+   "distance": 2.858,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Knockaert",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "05816e19",
+   "season": 2020,
+   "distance": 2.876,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Ferney Otero",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "19b8b0b9",
+   "season": 2018,
+   "distance": 2.882,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Collin Quaner",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "b2d03887",
+   "season": 2019,
+   "distance": 2.904,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Camarasa",
+   "squad": "Cardiff City"
+  }
+ ],
  "low_confidence": false
 }

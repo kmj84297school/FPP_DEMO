@@ -26,10 +26,115 @@
   "confidence": 1.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4195,
+  "mu": 44.7,
+  "ci80": {
+   "lo": 35.9,
+   "hi": 53.5
+  },
+  "ci50": {
+   "lo": 40.0,
+   "hi": 49.3
+  },
+  "sigma_model": 2.03,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1d8c99b0",
+   "season": 2019,
+   "distance": 2.029,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ki Sung-yueng",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "bf13975c",
+   "season": 2020,
+   "distance": 2.165,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Žan Majer",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "54073b28",
+   "season": 2018,
+   "distance": 2.307,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Recio",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "b2d03887",
+   "season": 2020,
+   "distance": 2.343,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Camarasa",
+   "squad": "Alavés / Crystal Palace"
+  },
+  {
+   "fbref_id": "92b56413",
+   "season": 2018,
+   "distance": 2.434,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tristan Dingomé",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "0f9b8301",
+   "season": 2020,
+   "distance": 2.455,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Battocchio",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "6cdd8245",
+   "season": 2018,
+   "distance": 2.458,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Tom Cleverley",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "a4c3f7af",
+   "season": 2020,
+   "distance": 2.466,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Abeid",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "1d8c99b0",
+   "season": 2018,
+   "distance": 2.521,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ki Sung-yueng",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2019,
+   "distance": 2.532,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Kevin Strootman",
+   "squad": "Marseille / Roma"
+  }
+ ],
  "low_confidence": false
 }

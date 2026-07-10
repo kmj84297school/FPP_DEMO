@@ -26,10 +26,115 @@
   "confidence": 0.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.435,
+  "mu": 47.5,
+  "ci80": {
+   "lo": 38.8,
+   "hi": 56.1
+  },
+  "ci50": {
+   "lo": 42.9,
+   "hi": 52.0
+  },
+  "sigma_model": 1.629,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5ca20b7a",
+   "season": 2018,
+   "distance": 1.22,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Joseba Zaldúa",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "af69e7f0",
+   "season": 2019,
+   "distance": 1.6,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Bryan",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2018,
+   "distance": 1.652,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Martín Montoya",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "541cdd20",
+   "season": 2018,
+   "distance": 1.747,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oliver Sorg",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "bbd86530",
+   "season": 2020,
+   "distance": 1.758,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christopher Lenz",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "5d8d7454",
+   "season": 2020,
+   "distance": 1.769,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Frederic Guilbert",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "de488e56",
+   "season": 2018,
+   "distance": 1.814,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Charles Traore",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2018,
+   "distance": 1.835,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "76b2817e",
+   "season": 2020,
+   "distance": 1.888,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kingsley Ehizibue",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "de488e56",
+   "season": 2020,
+   "distance": 1.908,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles Traore",
+   "squad": "Nantes"
+  }
+ ],
  "low_confidence": false
 }

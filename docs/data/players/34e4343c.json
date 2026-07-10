@@ -26,10 +26,115 @@
   "confidence": 0.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.1542,
+  "mu": 39.2,
+  "ci80": {
+   "lo": 30.1,
+   "hi": 48.2
+  },
+  "ci50": {
+   "lo": 34.4,
+   "hi": 43.9
+  },
+  "sigma_model": 2.604,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2018,
+   "distance": 2.021,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "71a20ce8",
+   "season": 2019,
+   "distance": 2.316,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gómez",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "f2f29dda",
+   "season": 2019,
+   "distance": 2.49,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Glenn Murray",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "71a20ce8",
+   "season": 2018,
+   "distance": 2.552,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gómez",
+   "squad": "Stuttgart / Wolfsburg"
+  },
+  {
+   "fbref_id": "b09a3ecc",
+   "season": 2019,
+   "distance": 2.597,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ciofani",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2018,
+   "distance": 2.733,
+   "survived": 1,
+   "fut_ability_v2": 43.0,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "c4b8bcf4",
+   "season": 2020,
+   "distance": 2.877,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "c3fd9887",
+   "season": 2020,
+   "distance": 2.881,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vedad Ibišević",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "293211e1",
+   "season": 2018,
+   "distance": 2.945,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aritz Aduriz",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "9d66fbe3",
+   "season": 2020,
+   "distance": 3.071,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Soldado",
+   "squad": "Granada"
+  }
+ ],
  "low_confidence": false
 }

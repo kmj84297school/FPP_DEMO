@@ -26,10 +26,115 @@
   "confidence": 0.16
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.52,
+  "mu": 49.9,
+  "ci80": {
+   "lo": 41.1,
+   "hi": 58.7
+  },
+  "ci50": {
+   "lo": 45.2,
+   "hi": 54.5
+  },
+  "sigma_model": 2.087,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "33b8d077",
+   "season": 2020,
+   "distance": 1.509,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Marcelo Brozović",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "e61b8aee",
+   "season": 2019,
+   "distance": 1.878,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Granit Xhaka",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2018,
+   "distance": 1.987,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Kevin Strootman",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ad6df2d5",
+   "season": 2020,
+   "distance": 1.991,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miralem Pjanić",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2019,
+   "distance": 2.005,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "e8c930bb",
+   "season": 2018,
+   "distance": 2.015,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Milan Badelj",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "c6e5d20f",
+   "season": 2019,
+   "distance": 2.123,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Thiago Mendes",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "7460ca0d",
+   "season": 2018,
+   "distance": 2.161,
+   "survived": 1,
+   "fut_ability_v2": 59.1,
+   "player_name": "Daniel Parejo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "33b8d077",
+   "season": 2019,
+   "distance": 2.177,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Marcelo Brozović",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "55126f3b",
+   "season": 2019,
+   "distance": 2.238,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

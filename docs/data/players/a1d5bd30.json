@@ -26,10 +26,115 @@
   "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "over_age"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4167,
+  "mu": 50.7,
+  "ci80": {
+   "lo": 41.8,
+   "hi": 59.6
+  },
+  "ci50": {
+   "lo": 46.0,
+   "hi": 55.4
+  },
+  "sigma_model": 2.255,
+  "sigma_residual": 6.562
+ },
+ "neighbors": [
+  {
+   "fbref_id": "64f69877",
+   "season": 2018,
+   "distance": 1.429,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Kevin Volland",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2019,
+   "distance": 1.963,
+   "survived": 1,
+   "fut_ability_v2": 73.1,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "5ceba7fc",
+   "season": 2019,
+   "distance": 2.109,
+   "survived": 1,
+   "fut_ability_v2": 71.0,
+   "player_name": "Karl Toko Ekambi",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "7cdda3bf",
+   "season": 2019,
+   "distance": 2.138,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Gaëtan Laborde",
+   "squad": "Montpellier / Bordeaux"
+  },
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2019,
+   "distance": 2.139,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Rodrigo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2018,
+   "distance": 2.154,
+   "survived": 1,
+   "fut_ability_v2": 62.5,
+   "player_name": "Rodrigo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2018,
+   "distance": 2.159,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Mark Uth",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "5eae500a",
+   "season": 2018,
+   "distance": 2.184,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Romelu Lukaku",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "bc6bd723",
+   "season": 2019,
+   "distance": 2.227,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Alassane Pléa",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "eb2fe5b6",
+   "season": 2018,
+   "distance": 2.229,
+   "survived": 1,
+   "fut_ability_v2": 82.2,
+   "player_name": "Luis Muriel",
+   "squad": "Sevilla"
+  }
+ ],
  "low_confidence": false
 }
