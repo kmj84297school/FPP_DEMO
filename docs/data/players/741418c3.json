@@ -32,5 +32,156 @@
  },
  "prediction": null,
  "neighbors": [],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 99.1
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 97.3
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 94.5
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 87.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 81.2
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 80.9
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 80.2
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 0.9
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 2.4
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 5.5
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 5.8
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 9.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 0.9
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 53.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 81.2
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 52.9
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 49.8
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 MF",
+    "fit_z": 0.31
+   },
+   {
+    "style": "수비형 파괴자",
+    "fit_z": 0.24
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": 0.06
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "슈팅 비중",
+     "z": 0.66
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.29
+    }
+   ],
+   "bottom": [
+    {
+     "label": "박스 터치 비중",
+     "z": -0.03
+    }
+   ]
+  },
+  "coaching": [
+   "슈팅 창출(SCA) 강화 여지 — 난이도를 높인 반복 훈련 (현재 53퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 54퍼센타일)",
+   "비페널티 xG 강화 여지 — 난이도를 높인 반복 훈련 (현재 56퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "슈팅 창출(SCA) 기초 교정",
+    "kpi": "슈팅 창출(SCA): 53 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 54 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "비페널티 xG: 56 → 70 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Alexis Claude-Maurice(MF)의 현재 능력 점수는 46.4점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 어시스트, 공중볼 승률, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 전진 패스 거리이다.",
+  "potential": null
+ }
 }

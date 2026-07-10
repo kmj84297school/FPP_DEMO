@@ -136,5 +136,161 @@
    "squad": "Paris S-G"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 98.5
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 95.7
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 83.0
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 79.7
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 78.2
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 77.5
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 74.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 9.9
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 21.0
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 26.6
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 28.1
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 34.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 98.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 34.2
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 36.3
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 28.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 79.7
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 21.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": -0.01
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.37
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.49
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공중볼 경합량",
+     "z": 1.66
+    },
+    {
+     "label": "클리어링량",
+     "z": -0.58
+    }
+   ],
+   "bottom": [
+    {
+     "label": "자책 박스 활동 비중",
+     "z": -1.13
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 2퍼센타일)",
+   "클리어링 개선 필요 — 기초 반복 훈련 권장 (현재 하위 34퍼센타일)",
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 17퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "클리어링 기초 교정",
+    "kpi": "클리어링: 34 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "공중볼 승리 실전 적용 반복",
+    "kpi": "공중볼 승리: 83 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "태클+인터셉트: 이미 상위 2퍼센타일 — 유지"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Wesley Fofana(DF)의 현재 능력 점수는 55.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 태클+인터셉트, 최종 3분의1 패스, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 블록이다.",
+  "potential": "Wesley Fofana의 2~3년 후 성장 예측 중심값은 55.7점, 80% 구간 상단(잠재력 상한)은 66.6점이다. 빅5 잔존확률은 94.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

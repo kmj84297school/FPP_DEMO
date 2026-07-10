@@ -136,5 +136,151 @@
    "squad": "Huddersfield"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 85.8
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 78.7
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 77.9
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 75.2
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 74.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 69.5
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 68.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 10.6
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 12.8
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 14.2
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 14.9
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 28.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 68.8
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 14.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 59.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 78.7
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 58.2
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "박스 포처",
+    "fit_z": 1.21
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": 0.6
+   },
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 0.19
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "박스 터치 비중",
+     "z": 1.7
+    },
+    {
+     "label": "슈팅 비중",
+     "z": 0.73
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "비페널티 xG 강화 여지 — 난이도를 높인 반복 훈련 (현재 69퍼센타일)",
+   "유효슈팅 이미 강점 — 유지 및 응용 훈련 (상위 14퍼센타일)",
+   "박스 터치 이미 강점 — 유지 및 응용 훈련 (상위 21퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "비페널티 xG 기초 교정",
+    "kpi": "비페널티 xG: 69 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "박스 터치 실전 적용 반복",
+    "kpi": "박스 터치: 79 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "유효슈팅: 86 → 90 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Alexander Isak(FW)의 현재 능력 점수는 50.3점이다. 플레이스타일은 '박스 포처'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 유효슈팅, 박스 터치, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 골 창출(GCA)이다.",
+  "potential": "Alexander Isak의 2~3년 후 성장 예측 중심값은 48.0점, 80% 구간 상단(잠재력 상한)은 59.3점이다. 빅5 잔존확률은 92.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

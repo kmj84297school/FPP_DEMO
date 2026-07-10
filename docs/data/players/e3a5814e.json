@@ -32,5 +32,156 @@
  },
  "prediction": null,
  "neighbors": [],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 100.0
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 93.9
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 92.7
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 88.4
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 86.0
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 61.1
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 49.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 0.0
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 0.3
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 0.6
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 0.9
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 1.8
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 4.6
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 0.9
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 61.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 0.0
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 88.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "수비형 파괴자",
+    "fit_z": 0.4
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.06
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.72
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 1.87
+    },
+    {
+     "label": "태클량",
+     "z": 0.11
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": -0.78
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 강화 여지 — 난이도를 높인 반복 훈련 (현재 61퍼센타일)",
+   "블록 이미 강점 — 유지 및 응용 훈련 (상위 14퍼센타일)",
+   "볼 리커버리 개선 필요 — 기초 반복 훈련 권장 (현재 하위 20퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "볼 리커버리 기초 교정",
+    "kpi": "볼 리커버리: 20 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "태클+인터셉트 실전 적용 반복",
+    "kpi": "태클+인터셉트: 61 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "블록: 86 → 90 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Ainsley Maitland-Niles(MF)의 현재 능력 점수는 39.3점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 클리어링, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 전진 패스 수신이다.",
+  "potential": null
+ }
 }

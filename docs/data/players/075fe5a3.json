@@ -136,5 +136,155 @@
    "squad": "Inter"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 94.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 89.1
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 76.7
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 69.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 68.8
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 66.8
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 50.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 2.8
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 4.1
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 5.3
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 10.1
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 13.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 2.8
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 38.5
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 68.8
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 26.8
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 89.1
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 10.1
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.71
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": 0.01
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.75
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "패스 관여도",
+     "z": 0.85
+    },
+    {
+     "label": "롱패스 비중",
+     "z": 0.58
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 27퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 11퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 패스 기초 교정",
+    "kpi": "전진 패스: 27 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "패스 성공률 실전 적용 반복",
+    "kpi": "패스 성공률: 89 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "패스 성공률: 89 → 90 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Srđan Babić(DF)의 현재 능력 점수는 41.3점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 패스 성공률, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 볼 리커버리이다.",
+  "potential": "Srđan Babić의 2~3년 후 전성기 유지 예측 중심값은 48.5점, 80% 구간 상단(잠재력 상한)은 58.0점이다. 빅5 현역 유지확률은 51.8%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

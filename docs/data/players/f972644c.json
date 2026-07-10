@@ -32,5 +32,140 @@
  },
  "prediction": null,
  "neighbors": [],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 99.4
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 99.1
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 98.5
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 97.6
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 93.6
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 90.0
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 82.4
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 0.6
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 3.6
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 5.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 5.5
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 9.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 13.4
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 5.5
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 54.4
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 38.3
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 0.6
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "볼 운반형",
+    "fit_z": 2.55
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": 2.16
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.06
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 2.55
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 6퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 이미 상위 6퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 이미 상위 6퍼센타일 — 유지"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Marco Richter(MF)의 현재 능력 점수는 46.0점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 유효슈팅, 슈팅 시도, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 최종 3분의1 패스이다.",
+  "potential": null
+ }
 }

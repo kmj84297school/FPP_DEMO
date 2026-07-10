@@ -136,5 +136,156 @@
    "squad": "Huddersfield"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 92.7
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 81.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 70.2
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 66.9
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 59.6
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 59.0
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 56.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 8.2
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 9.4
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 10.0
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 11.9
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 14.0
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 11.9
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 59.0
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 15.2
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 31.6
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 20.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 MF",
+    "fit_z": 0.53
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.08
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.1
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "슈팅 비중",
+     "z": 1.04
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.37
+    }
+   ],
+   "bottom": [
+    {
+     "label": "박스 터치 비중",
+     "z": 0.17
+    }
+   ]
+  },
+  "coaching": [
+   "슈팅 창출(SCA) 개선 필요 — 기초 반복 훈련 권장 (현재 하위 32퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 59퍼센타일)",
+   "비페널티 xG 안정화 단계 — 상황별 반복 훈련 (현재 41퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "슈팅 창출(SCA) 기초 교정",
+    "kpi": "슈팅 창출(SCA): 32 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "비페널티 xG 실전 적용 반복",
+    "kpi": "비페널티 xG: 41 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 59 → 70 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Arne Maier(MF)의 현재 능력 점수는 36.7점이다. 플레이스타일은 '공격형 MF'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 슈팅 시도, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 실책이다.",
+  "potential": "Arne Maier의 2~3년 후 성장 예측 중심값은 50.9점, 80% 구간 상단(잠재력 상한)은 62.4점이다. 빅5 잔존확률은 78.2%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

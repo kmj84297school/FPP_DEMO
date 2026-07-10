@@ -136,5 +136,160 @@
    "squad": "Freiburg"
   }
  ],
- "low_confidence": true
+ "low_confidence": true,
+ "report": {
+  "strengths": [
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 100.0
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 98.5
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 97.5
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 97.0
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 95.9
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 91.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 90.4
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 0.0
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 0.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 1.8
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 4.6
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 5.3
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 1.8
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 0.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 5.8
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 11.6
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 54.4
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 17.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 1.01
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.6
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -1.76
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 2.02
+    },
+    {
+     "label": "크로스 비중",
+     "z": 0.67
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.32
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 개선 필요 — 기초 반복 훈련 권장 (현재 하위 18퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 9퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 18 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 이미 상위 9퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 이미 상위 9퍼센타일 — 유지"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Patrick Ciurria(DF)의 현재 능력 점수는 42.9점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 슈팅 시도, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 태클 성공률이다.",
+  "potential": "Patrick Ciurria의 2~3년 후 전성기 유지 예측 중심값은 43.8점, 80% 구간 상단(잠재력 상한)은 53.2점이다. 빅5 현역 유지확률은 19.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

@@ -32,5 +32,151 @@
  },
  "prediction": null,
  "neighbors": [],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 96.5
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 94.3
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 92.9
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 89.4
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 75.9
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 64.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 63.1
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 0.0
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 1.4
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 6.4
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 7.8
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 8.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 89.4
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 7.8
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 75.9
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 31.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 39.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "연결형 공격수",
+    "fit_z": 1.18
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": 0.8
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": 0.49
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "중원 활동 비중",
+     "z": 1.19
+    },
+    {
+     "label": "키패스 비중",
+     "z": 1.18
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "키패스 안정화 단계 — 상황별 반복 훈련 (현재 39퍼센타일)",
+   "슈팅 창출(SCA) 개선 필요 — 기초 반복 훈련 권장 (현재 하위 8퍼센타일)",
+   "전진 패스 수신 개선 필요 — 기초 반복 훈련 권장 (현재 하위 9퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "슈팅 창출(SCA) 기초 교정",
+    "kpi": "슈팅 창출(SCA): 8 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 패스 수신 실전 적용 반복",
+    "kpi": "전진 패스 수신: 9 → 60 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 39 → 60 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Joshua Zirkzee(FW)의 현재 능력 점수는 42.5점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 도움 기대값(xAG), 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 박스 진입 패스이다.",
+  "potential": null
+ }
 }

@@ -32,5 +32,151 @@
  },
  "prediction": null,
  "neighbors": [],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 100.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 93.6
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 78.7
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 77.3
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 56.7
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 55.3
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 45.4
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 0.0
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 0.0
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 0.0
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 0.0
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 0.0
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 56.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 0.0
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 41.1
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 2.8
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 0.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "타겟맨",
+    "fit_z": -0.22
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": -0.64
+   },
+   {
+    "style": "돌파형 윙어",
+    "fit_z": -0.7
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공중볼 경합량",
+     "z": 0.16
+    },
+    {
+     "label": "박스 터치 비중",
+     "z": -0.61
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 23퍼센타일)",
+   "무페널티 득점 안정화 단계 — 상황별 반복 훈련 (현재 45퍼센타일)",
+   "박스 터치 개선 필요 — 기초 반복 훈련 권장 (현재 하위 3퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "박스 터치 기초 교정",
+    "kpi": "박스 터치: 3 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "무페널티 득점 실전 적용 반복",
+    "kpi": "무페널티 득점: 45 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "공중볼 승리: 77 → 90 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Dominic Calvert-Lewin(FW)의 현재 능력 점수는 27.0점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 공중볼 승률, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 전진 패스이다.",
+  "potential": null
+ }
 }

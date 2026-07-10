@@ -19,8 +19,20 @@ function groupBarsHtml(groups) {
   }).join("");
 }
 
+function metricBarsHtml(items) {
+  if (!items || items.length === 0) return '<div class="hint">표시할 항목이 없습니다.</div>';
+  return items.map((it) => `
+    <div class="stat-row">
+      <span class="lbl">${it.label}</span>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <div class="bar-track"><div class="bar-fill ${bandcls(it.percentile)}" style="width:${Math.max(0, Math.min(100, it.percentile))}%"></div></div>
+        <span>${fmt1(it.percentile)}</span>
+      </div>
+    </div>`).join("");
+}
+
 function renderNotFound() {
-  document.getElementById("content").innerHTML = `<div class="empty-state">선수를 찾을 수 없습니다. (검색 대상은 2023시즌 600분 이상 출전 선수만 포함됩니다)</div>`;
+  document.getElementById("content").innerHTML = `<div class="empty-state">선수를 찾을 수 없습니다. (검색 페이지에서 이름으로 찾아주세요 — 2023시즌 출전시간이 너무 적은 선수는 포함되지 않습니다)</div>`;
 }
 
 let META = null;
@@ -50,6 +62,34 @@ function renderPlayer(p) {
       <div class="panel">
         <div class="section-title">능력 그룹 레이더</div>
         <canvas id="radarChart" height="220"></canvas>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <div class="section-title">Top Strengths</div>
+        ${metricBarsHtml(p.report.strengths)}
+      </div>
+      <div class="panel">
+        <div class="section-title">Weaknesses (포지션 고려)</div>
+        ${metricBarsHtml(p.report.weaknesses)}
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <div class="section-title">Playstyle Engine</div>
+        <div class="stat-row"><span class="lbl">대표 스타일</span><span class="badge tag small">${p.style.primary || "—"}</span></div>
+        <div class="stat-row" style="align-items:flex-start;">
+          <span class="lbl">Top 3 후보</span>
+          <span>${p.report.top3_styles.map((s) => `${s.style} (z=${s.fit_z})`).join(" · ") || "—"}</span>
+        </div>
+        ${p.report.style_evidence.top.length ? `<div class="stat-row" style="align-items:flex-start;"><span class="lbl">판단 근거</span><span>${p.report.style_evidence.top.map((e) => `${e.label}(z=${e.z})`).join(", ")}</span></div>` : ""}
+        ${p.report.style_evidence.bottom.length ? `<div class="stat-row" style="align-items:flex-start;"><span class="lbl">개선 필요</span><span>${p.report.style_evidence.bottom.map((e) => `${e.label}(z=${e.z})`).join(", ")}</span></div>` : ""}
+      </div>
+      <div class="panel">
+        <div class="section-title">포지션 핵심지표 레이더</div>
+        <canvas id="positionRadarChart" height="220"></canvas>
       </div>
     </div>
   `;
@@ -114,6 +154,38 @@ function renderPlayer(p) {
     `;
   }
 
+  if (p.narrative.current || p.narrative.potential) {
+    html += `
+      <div class="panel">
+        <div class="section-title">Narrative Report</div>
+        ${p.narrative.current ? `<p>${p.narrative.current}</p>` : ""}
+        ${p.narrative.potential ? `<p>${p.narrative.potential}</p>` : ""}
+      </div>
+    `;
+  }
+
+  if (p.report.coaching.length || p.report.roadmap.length) {
+    html += `
+      <div class="grid-2">
+        <div class="panel">
+          <div class="section-title">Coaching 추천</div>
+          <div class="hint" style="margin-bottom:8px;">규칙 기반 제안입니다 — 검증된 예측이 아니라, 현재 퍼센타일을 근거로 한 참고용 훈련 방향입니다.</div>
+          <ul style="margin:0;padding-left:18px;">
+            ${p.report.coaching.map((t) => `<li style="margin-bottom:6px;">${t}</li>`).join("")}
+          </ul>
+        </div>
+        <div class="panel">
+          <div class="section-title">Growth Roadmap</div>
+          ${p.report.roadmap.map((r) => `
+            <div class="stat-row" style="align-items:flex-start;">
+              <span class="lbl">${r.phase}</span>
+              <span>${r.focus}<br><span class="muted">${r.kpi}</span></span>
+            </div>`).join("")}
+        </div>
+      </div>
+    `;
+  }
+
   document.getElementById("content").innerHTML = html;
 
   new Chart(document.getElementById("radarChart"), {
@@ -141,6 +213,35 @@ function renderPlayer(p) {
       plugins: { legend: { display: false } },
     },
   });
+
+  const posRadarEl = document.getElementById("positionRadarChart");
+  if (posRadarEl && p.report.position_radar.length) {
+    new Chart(posRadarEl, {
+      type: "radar",
+      data: {
+        labels: p.report.position_radar.map((s) => s.label),
+        datasets: [{
+          label: "포지션 핵심지표 퍼센타일",
+          data: p.report.position_radar.map((s) => s.percentile),
+          backgroundColor: "rgba(255,215,0,0.15)",
+          borderColor: "#ffd700",
+          pointBackgroundColor: "#ffd700",
+        }],
+      },
+      options: {
+        scales: {
+          r: {
+            min: 0, max: 100,
+            ticks: { color: "#7e8a97", backdropColor: "transparent" },
+            grid: { color: "#232a33" },
+            angleLines: { color: "#232a33" },
+            pointLabels: { color: "#e9eef5", font: { size: 10 } },
+          },
+        },
+        plugins: { legend: { display: false } },
+      },
+    });
+  }
 
   if (p.eligibility.eligible_for_prediction) {
     const pred = p.prediction;

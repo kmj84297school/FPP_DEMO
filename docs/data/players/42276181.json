@@ -136,5 +136,150 @@
    "squad": "Genoa"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 81.6
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 77.9
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 74.5
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 74.5
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 69.5
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 66.7
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 61.0
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 14.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 19.9
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 22.0
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 33.3
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 35.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 41.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 35.5
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 53.9
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 36.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 19.9
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "돌파형 윙어",
+    "fit_z": -0.42
+   },
+   {
+    "style": "연결형 공격수",
+    "fit_z": -0.46
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -0.87
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "크로스 비중",
+     "z": -0.37
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": -0.46
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 54퍼센타일)",
+   "키패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 20퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 20 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 54 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 54 → 70 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Kévin Gameiro(FW)의 현재 능력 점수는 49.4점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 패스 성공률, 태클 성공률, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 키패스이다.",
+  "potential": "Kévin Gameiro의 2~3년 후 전성기 유지 예측 중심값은 52.0점, 80% 구간 상단(잠재력 상한)은 61.9점이다. 빅5 현역 유지확률은 21.8%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

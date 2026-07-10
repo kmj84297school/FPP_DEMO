@@ -136,5 +136,160 @@
    "squad": "Rayo Vallecano"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 89.9
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 76.5
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 73.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 72.9
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 72.7
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 68.1
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 67.6
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 0.0
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 9.1
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 9.4
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 26.6
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 32.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 0.0
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 55.7
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 41.1
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 59.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 9.1
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 32.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.01
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.03
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.03
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.46
+    },
+    {
+     "label": "크로스 비중",
+     "z": -0.18
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": -0.3
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 64퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 64 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 73 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 73 → 80 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Lorenzo De Silvestri(DF)의 현재 능력 점수는 49.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 유효슈팅, 비페널티 xG, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 패스 성공률이다.",
+  "potential": "Lorenzo De Silvestri의 2~3년 후 전성기 유지 예측 중심값은 48.9점, 80% 구간 상단(잠재력 상한)은 58.3점이다. 빅5 현역 유지확률은 6.4%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

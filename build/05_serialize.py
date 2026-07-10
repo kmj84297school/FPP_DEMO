@@ -16,6 +16,7 @@ mu/ci/실제 미래능력)는 전 시즌·전 코호트를 통틀어 가장 높�
 """
 import json
 import pathlib
+import sys
 import unicodedata
 
 import pandas as pd
@@ -25,6 +26,9 @@ DATA = ROOT / "data"
 CACHE = ROOT / "build" / "_cache"
 DOCS_DATA = ROOT / "docs" / "data"
 TARGET_YEAR = 2023
+
+sys.path.insert(0, str(ROOT / "build" / "lib"))
+from report_extras import narrative_current, narrative_potential
 
 
 def ascii_fold(s):
@@ -72,6 +76,9 @@ if __name__ == "__main__":
 
     u23_train = pd.read_csv(DATA / "fpp_train_matrix_v2.csv")
     veteran_train = pd.read_csv(DATA / "fpp_train_matrix_veteran.csv")
+
+    with open(CACHE / "report_extras_2023.json", encoding="utf-8") as f:
+        report_extras = json.load(f)
 
     # ── 재조정 기준(SCALE) 산출: 전 시즌 능력 복합점수 + 예측치 + 실제 라벨 결과 통틀어 최댓값 ──
     composite_max = max(
@@ -161,6 +168,8 @@ if __name__ == "__main__":
             "prediction": None,
             "neighbors": [],
             "low_confidence": False,
+            "report": report_extras.get(fid, {"strengths": [], "weaknesses": [], "top3_styles": [], "style_evidence": {"top": [], "bottom": []}, "coaching": [], "roadmap": []}),
+            "narrative": {"current": None, "potential": None},
         }
 
         if kind == "growth":
@@ -173,6 +182,20 @@ if __name__ == "__main__":
             if fid in peak_knn:
                 player["neighbors"] = scaled_neighbors(peak_knn[fid]["neighbors"])
                 player["low_confidence"] = peak_knn[fid]["low_confidence"]
+
+        if player["current"]["ability"] is not None:
+            player["narrative"]["current"] = narrative_current(
+                row["Player"], row["pos_primary"], player["current"]["ability"],
+                player["current"]["groups"], player["style"]["primary"],
+                player["report"]["strengths"], player["report"]["weaknesses"],
+            )
+        if player["prediction"] is not None:
+            ceiling = player["prediction"]["ci80"]["hi"]
+            headroom = round(ceiling - player["current"]["ability"], 1) if player["current"]["ability"] is not None else None
+            player["narrative"]["potential"] = narrative_potential(
+                row["Player"], kind, player["prediction"]["mu"], ceiling,
+                player["prediction"]["survival_prob"], headroom,
+            )
 
         with open(DOCS_DATA / "players" / f"{fid}.json", "w", encoding="utf-8") as f:
             json.dump(player, f, ensure_ascii=False, indent=1, allow_nan=False)

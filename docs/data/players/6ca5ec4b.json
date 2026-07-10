@@ -136,5 +136,156 @@
    "squad": "Girona"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 96.0
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 83.3
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 79.3
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 70.8
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 70.2
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 67.8
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 67.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 4.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 9.1
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 9.4
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 13.1
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 20.8
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 47.7
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 79.3
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 45.6
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 38.3
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 49.8
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.46
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": 0.24
+   },
+   {
+    "style": "수비형 파괴자",
+    "fit_z": -0.28
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "키패스 비중",
+     "z": 0.81
+    },
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 0.44
+    }
+   ],
+   "bottom": [
+    {
+     "label": "롱패스 비중",
+     "z": 0.14
+    }
+   ]
+  },
+  "coaching": [
+   "전진 패스 안정화 단계 — 상황별 반복 훈련 (현재 48퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 21퍼센타일)",
+   "박스 진입 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 63퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 패스 기초 교정",
+    "kpi": "전진 패스: 48 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "박스 진입 패스 실전 적용 반복",
+    "kpi": "박스 진입 패스: 63 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 79 → 90 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Alex Iwobi(MF)의 현재 능력 점수는 50.5점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 볼 리커버리, 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
+  "potential": "Alex Iwobi의 2~3년 후 전성기 유지 예측 중심값은 54.3점, 80% 구간 상단(잠재력 상한)은 63.8점이다. 빅5 현역 유지확률은 39.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

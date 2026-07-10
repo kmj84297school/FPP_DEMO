@@ -136,5 +136,156 @@
    "squad": "Real Sociedad"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 98.8
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 91.5
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 88.8
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 82.4
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 74.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 59.9
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 58.4
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 0.9
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 1.8
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 2.7
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 3.3
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 5.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 26.1
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 0.9
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 47.4
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 2.7
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 59.9
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "수비형 파괴자",
+    "fit_z": 1.04
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.02
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": -0.92
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 2.47
+    },
+    {
+     "label": "공중볼 경합량",
+     "z": 0.8
+    }
+   ],
+   "bottom": [
+    {
+     "label": "태클량",
+     "z": -0.15
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 안정화 단계 — 상황별 반복 훈련 (현재 47퍼센타일)",
+   "블록 이미 강점 — 유지 및 응용 훈련 (상위 8퍼센타일)",
+   "볼 리커버리 개선 필요 — 기초 반복 훈련 권장 (현재 하위 24퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "볼 리커버리 기초 교정",
+    "kpi": "볼 리커버리: 24 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "태클+인터셉트 실전 적용 반복",
+    "kpi": "태클+인터셉트: 47 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "블록: 이미 상위 8퍼센타일 — 유지"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Rodrigo Battaglia(MF)의 현재 능력 점수는 44.0점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 블록, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 도움 기대값(xAG)이다.",
+  "potential": "Rodrigo Battaglia의 2~3년 후 전성기 유지 예측 중심값은 48.5점, 80% 구간 상단(잠재력 상한)은 58.1점이다. 빅5 현역 유지확률은 5.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

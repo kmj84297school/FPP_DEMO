@@ -136,5 +136,156 @@
    "squad": "Dijon"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 68.8
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 64.4
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 56.8
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 55.6
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 54.7
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 54.4
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 52.0
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 1.2
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 2.1
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 3.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 3.6
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 9.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 25.5
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 55.6
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 2.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 52.0
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 56.8
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 MF",
+    "fit_z": 0.14
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.12
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.61
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.4
+    },
+    {
+     "label": "슈팅 비중",
+     "z": 0.04
+    }
+   ],
+   "bottom": [
+    {
+     "label": "박스 터치 비중",
+     "z": -0.01
+    }
+   ]
+  },
+  "coaching": [
+   "슈팅 창출(SCA) 강화 여지 — 난이도를 높인 반복 훈련 (현재 52퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 56퍼센타일)",
+   "비페널티 xG 강화 여지 — 난이도를 높인 반복 훈련 (현재 54퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "슈팅 창출(SCA) 기초 교정",
+    "kpi": "슈팅 창출(SCA): 52 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "비페널티 xG 실전 적용 반복",
+    "kpi": "비페널티 xG: 54 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 56 → 70 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Jesse Lingard(MF)의 현재 능력 점수는 42.1점이다. 플레이스타일은 '공격형 MF'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 전진 패스 수신, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 태클+인터셉트이다.",
+  "potential": "Jesse Lingard의 2~3년 후 전성기 유지 예측 중심값은 43.1점, 80% 구간 상단(잠재력 상한)은 52.9점이다. 빅5 현역 유지확률은 18.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

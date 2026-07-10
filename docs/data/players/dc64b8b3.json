@@ -136,5 +136,161 @@
    "squad": "Leganés"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 85.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 83.5
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 81.0
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 76.7
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 75.4
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 69.6
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 68.1
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 10.1
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 13.2
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 14.9
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 17.5
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 26.6
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 83.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 44.3
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 57.6
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 13.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 27.3
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 10.1
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 0.36
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.24
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.84
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공중볼 경합량",
+     "z": 1.25
+    },
+    {
+     "label": "자책 박스 활동 비중",
+     "z": 0.1
+    }
+   ],
+   "bottom": [
+    {
+     "label": "클리어링량",
+     "z": -0.28
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 16퍼센타일)",
+   "클리어링 안정화 단계 — 상황별 반복 훈련 (현재 44퍼센타일)",
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 14퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "클리어링 기초 교정",
+    "kpi": "클리어링: 44 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "태클+인터셉트 실전 적용 반복",
+    "kpi": "태클+인터셉트: 84 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "공중볼 승리: 86 → 90 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Liam Cooper(DF)의 현재 능력 점수는 47.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승리, 태클+인터셉트, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 전진 패스이다.",
+  "potential": "Liam Cooper의 2~3년 후 전성기 유지 예측 중심값은 54.4점, 80% 구간 상단(잠재력 상한)은 63.9점이다. 빅5 현역 유지확률은 22.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

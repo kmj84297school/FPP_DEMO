@@ -136,5 +136,151 @@
    "squad": "Real Madrid"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 95.0
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 92.9
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 90.8
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 89.4
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 88.7
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 88.7
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 87.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 45.4
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 66.0
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 68.1
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 77.3
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 79.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 87.9
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 87.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 68.1
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 87.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 88.7
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "박스 포처",
+    "fit_z": 0.46
+   },
+   {
+    "style": "연결형 공격수",
+    "fit_z": 0.08
+   },
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 0.08
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "슈팅 비중",
+     "z": 0.49
+    },
+    {
+     "label": "박스 터치 비중",
+     "z": 0.43
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 12퍼센타일)",
+   "유효슈팅 이미 강점 — 유지 및 응용 훈련 (상위 7퍼센타일)",
+   "박스 터치 이미 강점 — 유지 및 응용 훈련 (상위 13퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "박스 터치 기초 교정",
+    "kpi": "박스 터치: 87 → 90 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "비페널티 xG 실전 적용 반복",
+    "kpi": "비페널티 xG: 88 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "유효슈팅: 이미 상위 7퍼센타일 — 유지"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Alexandre Lacazette(FW)의 현재 능력 점수는 78.3점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 태클+인터셉트, 유효슈팅, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 슈팅당 기대득점이다.",
+  "potential": "Alexandre Lacazette의 2~3년 후 전성기 유지 예측 중심값은 69.8점, 80% 구간 상단(잠재력 상한)은 79.8점이다. 빅5 현역 유지확률은 56.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

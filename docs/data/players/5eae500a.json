@@ -32,5 +32,151 @@
  },
  "prediction": null,
  "neighbors": [],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 100.0
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 98.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 95.0
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 93.6
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 91.5
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 90.8
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 89.4
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 0.7
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 4.3
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 6.4
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 27.0
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 44.7
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 80.9
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 44.7
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 45.4
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 95.0
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 27.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "박스 포처",
+    "fit_z": 2.3
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": 1.94
+   },
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 0.15
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "박스 터치 비중",
+     "z": 3.36
+    },
+    {
+     "label": "슈팅 비중",
+     "z": 1.23
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 19퍼센타일)",
+   "유효슈팅 강화 여지 — 난이도를 높인 반복 훈련 (현재 66퍼센타일)",
+   "박스 터치 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "유효슈팅 기초 교정",
+    "kpi": "유효슈팅: 66 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "비페널티 xG 실전 적용 반복",
+    "kpi": "비페널티 xG: 81 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "박스 터치: 이미 상위 5퍼센타일 — 유지"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Romelu Lukaku(FW)의 현재 능력 점수는 60.1점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클 성공률, 골 창출(GCA), 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 도움 기대값(xAG)이다.",
+  "potential": null
+ }
 }

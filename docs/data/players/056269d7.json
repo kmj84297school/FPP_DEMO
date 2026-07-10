@@ -32,5 +32,155 @@
  },
  "prediction": null,
  "neighbors": [],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 100.0
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 92.7
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 92.2
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 86.6
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 86.3
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 85.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 83.0
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 4.1
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 11.6
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 17.0
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 17.5
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 22.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 83.0
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 4.1
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 36.0
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 51.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 40.0
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 11.6
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.8
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.11
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -1.29
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "패스 관여도",
+     "z": 1.44
+    },
+    {
+     "label": "롱패스 비중",
+     "z": 0.16
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 51퍼센타일)",
+   "패스 성공률 안정화 단계 — 상황별 반복 훈련 (현재 40퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "패스 성공률 기초 교정",
+    "kpi": "패스 성공률: 40 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 51 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 패스: 51 → 70 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Óscar Mingueza(DF)의 현재 능력 점수는 52.4점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 태클 성공률, 볼 리커버리, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 블록이다.",
+  "potential": null
+ }
 }

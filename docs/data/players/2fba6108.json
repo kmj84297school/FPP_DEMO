@@ -32,5 +32,140 @@
  },
  "prediction": null,
  "neighbors": [],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 92.4
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 91.2
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 91.2
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 90.0
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 81.0
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 75.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 70.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 1.5
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 2.1
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 2.4
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 4.6
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 5.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 1.5
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 75.7
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 2.4
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 70.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 21.3
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "볼 운반형",
+    "fit_z": 2.05
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": 1.24
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.07
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 2.05
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 30퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 70 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 70 → 80 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Anthony Elanga(MF)의 현재 능력 점수는 47.5점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승리, 도움 기대값(xAG), 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 최종 3분의1 패스이다.",
+  "potential": null
+ }
 }

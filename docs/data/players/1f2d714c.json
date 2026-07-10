@@ -32,5 +32,140 @@
  },
  "prediction": null,
  "neighbors": [],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 96.7
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 90.9
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 86.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 80.5
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 77.8
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 76.9
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 74.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 0.0
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 0.3
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 1.2
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 6.7
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 13.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 45.3
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 61.4
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 1.2
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 62.3
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 47.1
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "볼 운반형",
+    "fit_z": 2.16
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": 0.26
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.55
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 2.16
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 20퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 80 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 80 → 90 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Ajdin Hrustic(MF)의 현재 능력 점수는 52.8점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 도움 기대값(xAG), 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 최종 3분의1 패스이다.",
+  "potential": null
+ }
 }

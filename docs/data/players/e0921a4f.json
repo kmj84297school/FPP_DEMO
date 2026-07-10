@@ -136,5 +136,156 @@
    "squad": "Torino"
   }
  ],
- "low_confidence": true
+ "low_confidence": true,
+ "report": {
+  "strengths": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 99.7
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 99.1
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 98.8
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 98.5
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 98.2
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 97.9
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 96.4
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 5.8
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 8.5
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 9.4
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 15.2
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 20.1
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 70.8
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 98.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 15.2
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 94.8
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 52.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 MF",
+    "fit_z": 1.48
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.6
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": 0.46
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "슈팅 비중",
+     "z": 2.1
+    },
+    {
+     "label": "박스 터치 비중",
+     "z": 1.49
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.84
+    }
+   ]
+  },
+  "coaching": [
+   "슈팅 창출(SCA) 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 1퍼센타일)",
+   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 0퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "슈팅 창출(SCA) 기초 교정",
+    "kpi": "슈팅 창출(SCA): 이미 상위 5퍼센타일 — 유지"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 이미 상위 1퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "비페널티 xG: 이미 상위 0퍼센타일 — 유지"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Paulo Dybala(MF)의 현재 능력 점수는 75.6점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 슈팅 시도, 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 블록이다.",
+  "potential": "Paulo Dybala의 2~3년 후 전성기 유지 예측 중심값은 71.6점, 80% 구간 상단(잠재력 상한)은 81.2점이다. 빅5 현역 유지확률은 50.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

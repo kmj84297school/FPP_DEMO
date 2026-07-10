@@ -136,5 +136,160 @@
    "squad": "Dijon"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 98.0
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 94.2
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 93.9
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 89.9
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 86.3
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 85.1
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 84.3
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 10.1
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 19.5
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 21.5
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 26.6
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 30.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 21.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 46.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 79.2
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 89.9
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 35.9
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 46.6
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.7
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.59
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.4
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "크로스 비중",
+     "z": 1.74
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.92
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": -0.57
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 안정화 단계 — 상황별 반복 훈련 (현재 40퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 2퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 40 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 이미 상위 2퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 이미 상위 2퍼센타일 — 유지"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Aaron Cresswell(DF)의 현재 능력 점수는 56.9점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 도움 기대값(xAG), 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 박스 터치이다.",
+  "potential": "Aaron Cresswell의 2~3년 후 전성기 유지 예측 중심값은 55.6점, 80% 구간 상단(잠재력 상한)은 65.0점이다. 빅5 현역 유지확률은 18.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

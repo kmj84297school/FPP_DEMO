@@ -136,5 +136,156 @@
    "squad": "Bologna"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 97.3
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 92.7
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 90.6
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 84.5
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 77.2
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 71.1
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 66.6
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 6.4
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 7.3
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 8.2
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 9.4
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 10.9
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 34.7
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 38.6
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 84.5
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 13.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 46.8
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.86
+   },
+   {
+    "style": "수비형 파괴자",
+    "fit_z": 0.65
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.85
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 1.69
+    },
+    {
+     "label": "롱패스 비중",
+     "z": 1.05
+    }
+   ],
+   "bottom": [
+    {
+     "label": "키패스 비중",
+     "z": -0.14
+    }
+   ]
+  },
+  "coaching": [
+   "전진 패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 35퍼센타일)",
+   "키패스 안정화 단계 — 상황별 반복 훈련 (현재 39퍼센타일)",
+   "박스 진입 패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 15퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "박스 진입 패스 기초 교정",
+    "kpi": "박스 진입 패스: 15 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 35 → 60 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 39 → 60 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Morten Hjulmand(MF)의 현재 능력 점수는 39.1점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 태클 성공률, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
+  "potential": "Morten Hjulmand의 2~3년 후 성장 예측 중심값은 38.9점, 80% 구간 상단(잠재력 상한)은 49.6점이다. 빅5 잔존확률은 72.4%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

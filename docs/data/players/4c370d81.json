@@ -136,5 +136,151 @@
    "squad": "Real Madrid"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 99.3
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 98.6
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 98.6
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 95.7
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 95.0
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 92.2
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 91.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 15.6
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 68.8
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 74.5
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 80.1
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 80.9
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 81.6
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 80.1
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 15.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 84.4
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 80.9
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "연결형 공격수",
+    "fit_z": 0.3
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -0.26
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": -0.44
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "중원 활동 비중",
+     "z": 1.12
+    },
+    {
+     "label": "키패스 비중",
+     "z": -0.52
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 19퍼센타일)",
+   "슈팅 창출(SCA) 이미 강점 — 유지 및 응용 훈련 (상위 20퍼센타일)",
+   "전진 패스 수신 강화 여지 — 난이도를 높인 반복 훈련 (현재 69퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 패스 수신 기초 교정",
+    "kpi": "전진 패스 수신: 69 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "슈팅 창출(SCA) 실전 적용 반복",
+    "kpi": "슈팅 창출(SCA): 80 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 81 → 90 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Roberto Firmino(FW)의 현재 능력 점수는 82.2점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 전진 패스 거리, 전진 패스, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 패스 수신이다.",
+  "potential": "Roberto Firmino의 2~3년 후 전성기 유지 예측 중심값은 69.1점, 80% 구간 상단(잠재력 상한)은 78.6점이다. 빅5 현역 유지확률은 59.6%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

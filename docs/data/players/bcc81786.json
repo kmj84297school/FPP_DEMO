@@ -32,5 +32,160 @@
  },
  "prediction": null,
  "neighbors": [],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 100.0
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 98.5
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 98.2
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 97.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 97.7
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 94.7
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 94.2
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 0.0
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 4.3
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 18.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 18.7
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 20.0
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 18.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 43.8
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 42.9
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 73.7
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 18.7
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 4.3
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.9
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": 0.36
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.25
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 2.44
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.53
+    }
+   ],
+   "bottom": [
+    {
+     "label": "크로스 비중",
+     "z": -0.28
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 7퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 이미 상위 7퍼센타일 — 유지"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 이미 상위 5퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 이미 상위 5퍼센타일 — 유지"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Kelvin Amian(DF)의 현재 능력 점수는 59.5점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클 성공률, 슈팅 시도, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 블록이다.",
+  "potential": null
+ }
 }

@@ -32,5 +32,160 @@
  },
  "prediction": null,
  "neighbors": [],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 98.5
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 98.2
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 68.1
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 66.8
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 59.5
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 43.8
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 42.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 0.0
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 0.0
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 0.0
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 1.8
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 2.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 98.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 3.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 36.0
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 0.0
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 2.5
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 98.2
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.68
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.98
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -1.53
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "크로스 비중",
+     "z": 1.39
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.82
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": -0.17
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 개선 필요 — 기초 반복 훈련 권장 (현재 하위 18퍼센타일)",
+   "키패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 9퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 9 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 18 → 60 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 18 → 60 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Lucas Oliveira Rosa(DF)의 현재 능력 점수는 29.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 블록, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 전진 패스 거리이다.",
+  "potential": null
+ }
 }

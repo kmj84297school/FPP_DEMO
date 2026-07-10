@@ -136,5 +136,156 @@
    "squad": "Sampdoria"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 99.4
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 97.9
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 96.4
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 93.3
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 84.5
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 79.0
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 74.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 9.1
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 9.4
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 11.3
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 13.7
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 17.6
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 74.8
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 17.6
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 61.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 38.0
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 65.7
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.23
+   },
+   {
+    "style": "수비형 파괴자",
+    "fit_z": -0.09
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": -0.61
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "롱패스 비중",
+     "z": 1.18
+    },
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 0.65
+    }
+   ],
+   "bottom": [
+    {
+     "label": "키패스 비중",
+     "z": -1.15
+    }
+   ]
+  },
+  "coaching": [
+   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 25퍼센타일)",
+   "키패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 18퍼센타일)",
+   "박스 진입 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 60퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 18 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "박스 진입 패스 실전 적용 반복",
+    "kpi": "박스 진입 패스: 60 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 패스: 75 → 80 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Sanjin Prcić(MF)의 현재 능력 점수는 51.9점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클 성공률, 공중볼 승률, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 실책이다.",
+  "potential": "Sanjin Prcić의 2~3년 후 전성기 유지 예측 중심값은 53.8점, 80% 구간 상단(잠재력 상한)은 63.8점이다. 빅5 현역 유지확률은 43.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

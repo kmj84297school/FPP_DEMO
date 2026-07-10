@@ -136,5 +136,150 @@
    "squad": "Valencia"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 85.8
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 84.4
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 77.9
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 71.6
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 70.2
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 51.8
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 42.6
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 0.7
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 2.8
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 2.8
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 3.5
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 9.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 22.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 27.7
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 27.0
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 2.8
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 9.2
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 1.44
+   },
+   {
+    "style": "연결형 공격수",
+    "fit_z": -0.63
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -1.36
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "크로스 비중",
+     "z": 3.67
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": -0.79
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "성공 드리블 개선 필요 — 기초 반복 훈련 권장 (현재 하위 27퍼센타일)",
+   "키패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 9퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 9 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 27 → 60 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 27 → 60 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Lucas Pérez(FW)의 현재 능력 점수는 31.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 패스 거리, 최종 3분의1 패스, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 도움 기대값(xAG)이다.",
+  "potential": "Lucas Pérez의 2~3년 후 전성기 유지 예측 중심값은 41.0점, 80% 구간 상단(잠재력 상한)은 50.9점이다. 빅5 현역 유지확률은 20.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

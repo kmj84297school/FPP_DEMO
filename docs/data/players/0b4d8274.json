@@ -136,5 +136,150 @@
    "squad": "Genoa"
   }
  ],
- "low_confidence": true
+ "low_confidence": true,
+ "report": {
+  "strengths": [
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 97.9
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 96.5
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 96.5
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 84.4
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 80.1
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 73.0
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 65.2
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 5.0
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 7.1
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 8.5
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 15.6
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 17.7
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 5.0
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 65.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 84.4
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 8.5
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 62.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 1.69
+   },
+   {
+    "style": "연결형 공격수",
+    "fit_z": 0.24
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -1.12
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "크로스 비중",
+     "z": 2.81
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.58
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 16퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 62퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 62 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 84 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 84 → 90 퍼센타일"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Romain Hamouma(FW)의 현재 능력 점수는 48.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 최종 3분의1 패스, 전진 패스, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 유효슈팅이다.",
+  "potential": "Romain Hamouma의 2~3년 후 전성기 유지 예측 중심값은 54.9점, 80% 구간 상단(잠재력 상한)은 64.6점이다. 빅5 현역 유지확률은 7.8%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }

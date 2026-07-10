@@ -136,5 +136,161 @@
    "squad": "Betis"
   }
  ],
- "low_confidence": false
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 99.2
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 98.7
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 98.0
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 93.2
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 90.1
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 78.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 78.2
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 13.2
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 14.9
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 17.5
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 26.6
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 43.8
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 72.7
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 54.7
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 99.2
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 47.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 78.2
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 98.7
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 0.12
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.5
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.87
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공중볼 경합량",
+     "z": 0.63
+    },
+    {
+     "label": "클리어링량",
+     "z": 0.04
+    }
+   ],
+   "bottom": [
+    {
+     "label": "자책 박스 활동 비중",
+     "z": -0.3
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)",
+   "클리어링 강화 여지 — 난이도를 높인 반복 훈련 (현재 55퍼센타일)",
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 7퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "클리어링 기초 교정",
+    "kpi": "클리어링: 55 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "태클+인터셉트 실전 적용 반복",
+    "kpi": "태클+인터셉트: 73 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "공중볼 승리: 이미 상위 7퍼센타일 — 유지"
+   }
+  ]
+ },
+ "narrative": {
+  "current": "Juan Jesus(DF)의 현재 능력 점수는 63.0점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승률, 블록, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 전진 패스 수신이다.",
+  "potential": "Juan Jesus의 2~3년 후 전성기 유지 예측 중심값은 55.7점, 80% 구간 상단(잠재력 상한)은 65.3점이다. 빅5 현역 유지확률은 18.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
 }
