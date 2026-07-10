@@ -1,4 +1,5 @@
 const MAX_ROWS = 200;
+const HIGHLIGHT_ROWS = 5;
 
 const SORT_MODES = {
   ability: { label: "현재능력순", key: "ability", col: "현재능력", requiresEligible: false },
@@ -14,6 +15,7 @@ const SORT_HINTS = {
 
 let INDEX = [];
 let currentSort = "ability";
+let hasInteracted = false;
 
 function deltaCls(v) {
   if (v === null || v === undefined || isNaN(v)) return "band-mid";
@@ -54,10 +56,15 @@ function render(rows, mode) {
   }
   empty.style.display = "none";
   const scopeNote = SORT_MODES[mode].requiresEligible ? " (예측 대상만)" : "";
-  count.textContent = `${rows.length}명 표시${scopeNote} · ${SORT_MODES[mode].label}`;
+  const limit = hasInteracted ? MAX_ROWS : HIGHLIGHT_ROWS;
+  if (hasInteracted) {
+    count.textContent = `${rows.length}명 표시${scopeNote} · ${SORT_MODES[mode].label}`;
+  } else {
+    count.textContent = `대표 선수 ${Math.min(limit, rows.length)}명 · ${SORT_MODES[mode].label} — 검색하거나 정렬 탭을 누르면 전체 목록이 표시됩니다`;
+  }
 
   const frag = document.createDocumentFragment();
-  rows.slice(0, MAX_ROWS).forEach((p) => {
+  rows.slice(0, limit).forEach((p) => {
     const tr = document.createElement("tr");
     tr.onclick = () => { window.location.href = `player.html?id=${p.fbref_id}`; };
     tr.innerHTML = `
@@ -92,6 +99,7 @@ function search(q) {
 document.getElementById("sortTabs").addEventListener("click", (e) => {
   const btn = e.target.closest(".sort-tab");
   if (!btn) return;
+  hasInteracted = true;
   currentSort = btn.dataset.sort;
   document.querySelectorAll(".sort-tab").forEach((b) => b.classList.toggle("active", b === btn));
   const hintEl = document.getElementById("sortHint");
@@ -106,7 +114,10 @@ fetch("data/index.json")
   .then((data) => {
     INDEX = data;
     search("");
-    document.getElementById("searchInput").addEventListener("input", (e) => search(e.target.value));
+    document.getElementById("searchInput").addEventListener("input", (e) => {
+      hasInteracted = true;
+      search(e.target.value);
+    });
   })
   .catch((err) => {
     document.getElementById("resultCount").textContent = "데이터 로드 실패";
@@ -122,6 +133,6 @@ fetch("data/meta.json")
     document.getElementById("eligibilityHint").innerHTML =
       `현재능력 점수는 전체 검색 대상에게 제공됩니다. 만 ${meta.pred_age_max}세 이하·${meta.pred_min_minutes}분 이상은 <b>성장 예측</b>(2~3년 후 능력), ` +
       `만 ${meta.veteran.age_min}~${meta.veteran.age_max}세·${meta.veteran.pred_min_minutes}분 이상은 <b>전성기 유지 예측</b>을 받습니다.${partialNote} ` +
-      `<br>전성기 유지 예측은 검증 결과 성장 예측보다 정확도가 더 높습니다 (MAE ${meta.veteran.mae} vs 6.19, R² ${meta.veteran.r2} vs 0.231, GroupKFold 5겹 검증).`;
+      `<br>전성기 유지 예측은 검증 결과 성장 예측보다 정확도가 더 높습니다 (MAE ${meta.veteran.mae} vs ${meta.u23_mae}, R² ${meta.veteran.r2} vs ${meta.u23_r2}, GroupKFold 5겹 검증).`;
   })
   .catch(() => {});

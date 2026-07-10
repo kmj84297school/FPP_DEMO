@@ -72,7 +72,7 @@ function renderPlayer(p) {
     const survivalLabel = isGrowth ? "빅5 잔존확률" : "빅5 현역 유지확률";
     const regressionNote = isGrowth
       ? `예측 중심값(mu)이 현재능력보다 낮은 건 평균회귀 때문입니다 — 실제 데이터에서도 현재능력 상위권 선수 상당수가 2~3년 후 다소 낮아지는 경향이 있습니다. 80% 구간(${fmt1(pred.ci80.lo)}~${fmt1(pred.ci80.hi)})에 현재능력(${fmt1(c.ability)})이 포함된다면, 유지 가능성도 충분히 열려 있다는 뜻입니다.`
-      : `예측 중심값(mu)이 현재능력보다 낮은 건 나이에 따른 자연스러운 기량 변화가 반영된 결과입니다. 이 전성기 유지 모델은 검증 결과 성장 예측 모델보다 정확도가 더 높습니다(MAE ${META && META.veteran ? META.veteran.mae : "?"} vs 6.19, GroupKFold 5겹).`;
+      : `예측 중심값(mu)이 현재능력보다 낮은 건 나이에 따른 자연스러운 기량 변화가 반영된 결과입니다. 이 전성기 유지 모델은 검증 결과 성장 예측 모델보다 정확도가 더 높습니다(MAE ${META && META.veteran ? META.veteran.mae : "?"} vs ${META ? META.u23_mae : "?"}, GroupKFold 5겹).`;
     html += `
       <div class="grid-2">
         <div class="panel">
