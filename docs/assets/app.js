@@ -1,11 +1,44 @@
 const MAX_ROWS = 200;
 
-let INDEX = [];
+const SORT_MODES = {
+  ability: { label: "현재능력순", key: "ability", col: "현재능력", requiresEligible: false },
+  mu: { label: "예측 잠재력순", key: "mu", col: "예측 잠재력", requiresEligible: true },
+  delta: { label: "성장 예상순", key: "delta", col: "성장폭", requiresEligible: true },
+};
 
-function render(rows) {
+const SORT_HINTS = {
+  ability: "",
+  mu: "예측 대상(연령·출전시간 기준 충족) 선수만 표시됩니다. 참고: 이 모델은 극단적으로 높은 현재 능력을 실제 데이터 패턴에 따라 다소 보수적으로 조정합니다(평균회귀) — 상위권 선수 상당수가 이런 경향을 보이며, 그래도 이 목록은 예측 잠재력이 가장 높게 나온 순서입니다.",
+  delta: "예측 잠재력에서 현재 능력을 뺀 값(성장 예상폭)입니다. 예측 대상 선수만 표시됩니다. 값이 클수록 모델이 현재보다 더 성장할 것으로 보는 선수입니다.",
+};
+
+let INDEX = [];
+let currentSort = "ability";
+
+function deltaCls(v) {
+  if (v === null || v === undefined || isNaN(v)) return "band-mid";
+  if (v > 0) return "band-great";
+  if (v < 0) return "band-bad";
+  return "band-ok";
+}
+
+function valueCell(p, mode) {
+  if (mode === "delta") {
+    const v = p.delta;
+    const sign = v > 0 ? "+" : "";
+    return `<span class="badge ${deltaCls(v)}">${sign}${fmt1(v)}</span>`;
+  }
+  const v = mode === "mu" ? p.mu : p.ability;
+  return `<span class="badge ${bandcls(v)}">${fmt1(v)}</span>`;
+}
+
+function render(rows, mode) {
   const body = document.getElementById("rosterBody");
   const empty = document.getElementById("emptyState");
   const count = document.getElementById("resultCount");
+  const headValueCol = document.getElementById("headValueCol");
+
+  headValueCol.textContent = SORT_MODES[mode].col;
 
   body.innerHTML = "";
   if (rows.length === 0) {
@@ -14,7 +47,8 @@ function render(rows) {
     return;
   }
   empty.style.display = "none";
-  count.textContent = `${rows.length}명 표시 (전체 ${INDEX.length}명 중, 능력점수 내림차순)`;
+  const scopeNote = SORT_MODES[mode].requiresEligible ? " (예측 대상만)" : "";
+  count.textContent = `${rows.length}명 표시${scopeNote} · ${SORT_MODES[mode].label}`;
 
   const frag = document.createDocumentFragment();
   rows.slice(0, MAX_ROWS).forEach((p) => {
@@ -26,7 +60,7 @@ function render(rows) {
       <td class="muted">${p.pos_primary}</td>
       <td class="muted">${p.age ?? "—"}</td>
       <td class="muted">${p.style || "—"}</td>
-      <td><span class="badge ${bandcls(p.ability)}">${fmt1(p.ability)}</span></td>
+      <td>${valueCell(p, mode)}</td>
       <td>${p.eligible ? '<span class="badge tag small">잠재력 예측</span>' : ""}</td>
     `;
     frag.appendChild(tr);
@@ -35,17 +69,31 @@ function render(rows) {
 }
 
 function search(q) {
+  const mode = SORT_MODES[currentSort];
   const query = asciiFold(q.trim());
-  if (!query) {
-    render([...INDEX].sort((a, b) => (b.ability ?? 0) - (a.ability ?? 0)));
-    return;
+
+  let pool = INDEX;
+  if (mode.requiresEligible) {
+    pool = pool.filter((p) => p.eligible && p[mode.key] !== null && p[mode.key] !== undefined);
   }
-  const matched = INDEX.filter(
-    (p) => p.name_ascii.includes(query) || asciiFold(p.squad || "").includes(query)
-  );
-  matched.sort((a, b) => (b.ability ?? 0) - (a.ability ?? 0));
-  render(matched);
+  if (query) {
+    pool = pool.filter((p) => p.name_ascii.includes(query) || asciiFold(p.squad || "").includes(query));
+  }
+  pool = [...pool].sort((a, b) => (b[mode.key] ?? -999) - (a[mode.key] ?? -999));
+  render(pool, currentSort);
 }
+
+document.getElementById("sortTabs").addEventListener("click", (e) => {
+  const btn = e.target.closest(".sort-tab");
+  if (!btn) return;
+  currentSort = btn.dataset.sort;
+  document.querySelectorAll(".sort-tab").forEach((b) => b.classList.toggle("active", b === btn));
+  const hintEl = document.getElementById("sortHint");
+  const hint = SORT_HINTS[currentSort];
+  hintEl.style.display = hint ? "block" : "none";
+  hintEl.textContent = hint;
+  search(document.getElementById("searchInput").value);
+});
 
 fetch("data/index.json")
   .then((r) => r.json())

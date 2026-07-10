@@ -77,6 +77,7 @@ function renderPlayer(p) {
           <div class="stat-row"><span class="lbl">예측 능력 (mu)</span><span class="badge ${bandcls(pred.mu)}">${fmt1(pred.mu)}</span></div>
           <div class="stat-row"><span class="lbl">80% 구간</span><span>${fmt1(pred.ci80.lo)} ~ ${fmt1(pred.ci80.hi)}</span></div>
           <div class="stat-row"><span class="lbl">50% 구간</span><span>${fmt1(pred.ci50.lo)} ~ ${fmt1(pred.ci50.hi)}</span></div>
+          ${pred.mu < c.ability ? `<div class="hint" style="margin-top:10px;">예측(mu)이 현재능력보다 낮은 건 평균회귀 때문입니다 — 실제 데이터에서도 현재능력 상위권 선수 상당수가 2~3년 후 다소 낮아지는 경향이 있습니다. 80% 구간(${fmt1(pred.ci80.lo)}~${fmt1(pred.ci80.hi)})에 현재능력(${fmt1(c.ability)})이 포함된다면, 유지 가능성도 충분히 열려 있다는 뜻입니다.</div>` : ""}
           ${p.low_confidence ? '<div class="note" style="margin-top:10px;">유사 선수와의 거리가 멀어 비교 신뢰도가 낮습니다 (아웃라이어 가능성).</div>' : ""}
         </div>
         <div class="panel">

@@ -21,10 +21,19 @@
   </div>
 
   <div class="panel">
+    <div class="sort-tabs" id="sortTabs">
+      <button class="sort-tab active" data-sort="ability">현재능력순</button>
+      <button class="sort-tab" data-sort="mu">예측 잠재력순</button>
+      <button class="sort-tab" data-sort="delta">성장 예상순</button>
+    </div>
+    <div class="hint" id="sortHint" style="display:none;"></div>
+  </div>
+
+  <div class="panel">
     <div class="section-title" id="resultCount">로딩 중…</div>
     <table class="roster">
-      <thead>
-        <tr><th>선수</th><th>클럽</th><th>포지션</th><th>나이</th><th>스타일</th><th>현재능력</th><th></th></tr>
+      <thead id="rosterHead">
+        <tr><th>선수</th><th>클럽</th><th>포지션</th><th>나이</th><th>스타일</th><th id="headValueCol">현재능력</th><th></th></tr>
       </thead>
       <tbody id="rosterBody"></tbody>
     </table>

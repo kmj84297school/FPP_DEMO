@@ -108,6 +108,7 @@ if __name__ == "__main__":
         with open(DOCS_DATA / "players" / f"{fid}.json", "w", encoding="utf-8") as f:
             json.dump(player, f, ensure_ascii=False, indent=1)
 
+        mu = player["prediction"]["mu"] if player["prediction"] else None
         index_entries.append({
             "fbref_id": fid,
             "name": row["Player"],
@@ -118,6 +119,8 @@ if __name__ == "__main__":
             "ability": to_native(row["ability"]),
             "style": player["style"]["primary"],
             "eligible": eligible,
+            "mu": mu,
+            "delta": round(mu - row["ability"], 1) if mu is not None else None,
         })
 
     with open(DOCS_DATA / "index.json", "w", encoding="utf-8") as f:

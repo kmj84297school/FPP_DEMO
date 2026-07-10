@@ -75,6 +75,25 @@ header.top .tagline { color: var(--muted); font-size: 0.85rem; }
 
 .hint { color: var(--muted); font-size: 0.8rem; margin-top: 8px; }
 
+.sort-tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+.sort-tab {
+  background: var(--panel2);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+.sort-tab:hover { color: var(--ink); }
+.sort-tab.active {
+  background: rgba(0,255,133,0.12);
+  border-color: var(--accent2);
+  color: var(--accent2);
+  font-weight: 600;
+}
+
 table.roster {
   width: 100%;
   border-collapse: collapse;
