@@ -26,10 +26,114 @@
   "confidence": 2.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8666,
+  "mu": 51.0,
+  "ci80": {
+   "lo": 40.9,
+   "hi": 61.1
+  },
+  "ci50": {
+   "lo": 45.7,
+   "hi": 56.3
+  },
+  "sigma_model": 2.502,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ce4246f5",
+   "season": 2019,
+   "distance": 1.97,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Kurt Zouma",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "815c314f",
+   "season": 2019,
+   "distance": 1.973,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "Marc-Oliver Kempf",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "fb77bfef",
+   "season": 2020,
+   "distance": 2.016,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "Kevin Bonifazi",
+   "squad": "SPAL / Torino"
+  },
+  {
+   "fbref_id": "da7b447d",
+   "season": 2019,
+   "distance": 2.024,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Davinson Sánchez",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "d0042ab9",
+   "season": 2020,
+   "distance": 2.168,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Mason Holgate",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "6adbc307",
+   "season": 2018,
+   "distance": 2.258,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "5fd5ed86",
+   "season": 2020,
+   "distance": 2.312,
+   "survived": 1,
+   "fut_ability_v2": 61.9,
+   "player_name": "Gleison Bremer",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "f0da930c",
+   "season": 2018,
+   "distance": 2.333,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "José María Giménez",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2019,
+   "distance": 2.358,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "aad48be9",
+   "season": 2019,
+   "distance": 2.364,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  }
+ ],
  "low_confidence": false
 }

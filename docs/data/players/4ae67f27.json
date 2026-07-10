@@ -26,10 +26,114 @@
   "confidence": 1.14
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8467,
+  "mu": 54.5,
+  "ci80": {
+   "lo": 44.5,
+   "hi": 64.5
+  },
+  "ci50": {
+   "lo": 49.2,
+   "hi": 59.7
+  },
+  "sigma_model": 2.179,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "815c314f",
+   "season": 2019,
+   "distance": 1.585,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "Marc-Oliver Kempf",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2018,
+   "distance": 1.647,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "ce4246f5",
+   "season": 2019,
+   "distance": 1.7,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Kurt Zouma",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "aad48be9",
+   "season": 2019,
+   "distance": 1.835,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2018,
+   "distance": 1.965,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Rúben Vezo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2019,
+   "distance": 2.005,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "19e4eab9",
+   "season": 2020,
+   "distance": 2.09,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Rodrigo Becão",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "cfbf9881",
+   "season": 2018,
+   "distance": 2.189,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Ibrahima Mbaye",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "64c07ae1",
+   "season": 2018,
+   "distance": 2.217,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Carlos Salcedo",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "bd7d2e6d",
+   "season": 2019,
+   "distance": 2.233,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Timo Baumgartl",
+   "squad": "Stuttgart"
+  }
+ ],
  "low_confidence": false
 }

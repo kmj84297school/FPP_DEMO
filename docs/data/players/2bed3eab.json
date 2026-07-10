@@ -26,10 +26,114 @@
   "confidence": 1.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6637,
+  "mu": 56.2,
+  "ci80": {
+   "lo": 45.9,
+   "hi": 66.6
+  },
+  "ci50": {
+   "lo": 50.8,
+   "hi": 61.7
+  },
+  "sigma_model": 3.082,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "51dbeea9",
+   "season": 2019,
+   "distance": 1.976,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Thilo Kehrer",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "a5ae8f8e",
+   "season": 2019,
+   "distance": 2.217,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Miloš Veljković",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "7f609bfc",
+   "season": 2019,
+   "distance": 2.312,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Stefan Posch",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "e33c06cf",
+   "season": 2018,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Niklas Süle",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "2a6cd437",
+   "season": 2020,
+   "distance": 2.444,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marin Pongračić",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "48035304",
+   "season": 2019,
+   "distance": 2.502,
+   "survived": 1,
+   "fut_ability_v2": 65.8,
+   "player_name": "Nico Elvedi",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "15d0c248",
+   "season": 2020,
+   "distance": 2.511,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Luiz Felipe",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "f820504e",
+   "season": 2019,
+   "distance": 2.576,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tin Jedvaj",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "5aa53281",
+   "season": 2019,
+   "distance": 2.597,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Gianluca Mancini",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "67ac5bb8",
+   "season": 2020,
+   "distance": 2.623,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Gabriel Dos Santos",
+   "squad": "Lille"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,114 @@
   "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8475,
+  "mu": 37.9,
+  "ci80": {
+   "lo": 27.4,
+   "hi": 48.3
+  },
+  "ci50": {
+   "lo": 32.3,
+   "hi": 43.4
+  },
+  "sigma_model": 3.282,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 1.899,
+   "survived": 1,
+   "fut_ability_v2": 35.7,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "e77dc3b2",
+   "season": 2020,
+   "distance": 1.906,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominic Solanke",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2019,
+   "distance": 1.945,
+   "survived": 1,
+   "fut_ability_v2": 36.5,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "08aa9cd1",
+   "season": 2020,
+   "distance": 1.959,
+   "survived": 1,
+   "fut_ability_v2": 35.8,
+   "player_name": "Andrea Pinamonti",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "bfae110f",
+   "season": 2020,
+   "distance": 2.185,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wesley Moraes",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "19ba6c6d",
+   "season": 2018,
+   "distance": 2.195,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Steve Mounié",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "718b8afd",
+   "season": 2020,
+   "distance": 2.217,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Florian Ayé",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "59e6e5bf",
+   "season": 2019,
+   "distance": 2.401,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Dominic Calvert-Lewin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "04e17fd5",
+   "season": 2018,
+   "distance": 2.421,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Youssef En-Nesyri",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "43a166b4",
+   "season": 2018,
+   "distance": 2.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Divock Origi",
+   "squad": "Wolfsburg / Liverpool"
+  }
+ ],
  "low_confidence": false
 }

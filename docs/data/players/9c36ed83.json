@@ -26,10 +26,114 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7146,
+  "mu": 49.0,
+  "ci80": {
+   "lo": 39.0,
+   "hi": 59.0
+  },
+  "ci50": {
+   "lo": 43.7,
+   "hi": 54.2
+  },
+  "sigma_model": 2.184,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8c3c640c",
+   "season": 2018,
+   "distance": 1.722,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Mikel Oyarzabal",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "e5a35ae9",
+   "season": 2019,
+   "distance": 2.001,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Waldschmidt",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "3effaa34",
+   "season": 2019,
+   "distance": 2.047,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "André Silva",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "244bc2c8",
+   "season": 2020,
+   "distance": 2.252,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Boulaye Dia",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "5148dcc5",
+   "season": 2018,
+   "distance": 2.289,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Martin Terrier",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "178ae8f8",
+   "season": 2019,
+   "distance": 2.436,
+   "survived": 1,
+   "fut_ability_v2": 73.1,
+   "player_name": "Diogo Jota",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "a1d5bd30",
+   "season": 2019,
+   "distance": 2.44,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Marcus Rashford",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "d571df78",
+   "season": 2019,
+   "distance": 2.506,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Johannes Eggestein",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "57e3f0c7",
+   "season": 2018,
+   "distance": 2.528,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Nicolas Pépé",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "8696bc90",
+   "season": 2018,
+   "distance": 2.605,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Munir El Haddadi",
+   "squad": "Alavés"
+  }
+ ],
  "low_confidence": false
 }

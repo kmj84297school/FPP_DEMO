@@ -26,10 +26,114 @@
   "confidence": 0.55
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8121,
+  "mu": 47.6,
+  "ci80": {
+   "lo": 37.4,
+   "hi": 57.8
+  },
+  "ci50": {
+   "lo": 42.2,
+   "hi": 53.0
+  },
+  "sigma_model": 2.748,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fb14aa28",
+   "season": 2020,
+   "distance": 1.962,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "Mama Samba Baldé",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "0b0cbe5b",
+   "season": 2019,
+   "distance": 2.095,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Denis Bouanga",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "867501bf",
+   "season": 2019,
+   "distance": 2.172,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "Benito Raman",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "7c2965bb",
+   "season": 2018,
+   "distance": 2.244,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Rony Lopes",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "bfdb33aa",
+   "season": 2020,
+   "distance": 2.44,
+   "survived": 1,
+   "fut_ability_v2": 42.6,
+   "player_name": "Ismaila Sarr",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "cea4ee8f",
+   "season": 2020,
+   "distance": 2.452,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Dele Alli",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "fa031b34",
+   "season": 2019,
+   "distance": 2.499,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Richarlison",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "7961f7aa",
+   "season": 2018,
+   "distance": 2.526,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kwon Chang-hoon",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "0c61c77c",
+   "season": 2020,
+   "distance": 2.599,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Dodi Lukebakio",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "a08b974a",
+   "season": 2018,
+   "distance": 2.613,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Lucas Ocampos",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

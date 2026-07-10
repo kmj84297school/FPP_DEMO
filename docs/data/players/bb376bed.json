@@ -26,10 +26,114 @@
   "confidence": 0.82
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.864,
+  "mu": 48.4,
+  "ci80": {
+   "lo": 38.2,
+   "hi": 58.6
+  },
+  "ci50": {
+   "lo": 43.0,
+   "hi": 53.8
+  },
+  "sigma_model": 2.708,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d97f2e8d",
+   "season": 2020,
+   "distance": 2.115,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Depaoli",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "1daec722",
+   "season": 2020,
+   "distance": 2.618,
+   "survived": 1,
+   "fut_ability_v2": 64.1,
+   "player_name": "Marc Cucurella",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "ce218223",
+   "season": 2018,
+   "distance": 2.674,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iver Fossum",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "80556f08",
+   "season": 2019,
+   "distance": 2.963,
+   "survived": 1,
+   "fut_ability_v2": 39.0,
+   "player_name": "Toma Bašić",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "1daec722",
+   "season": 2019,
+   "distance": 3.019,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Marc Cucurella",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "c9e39d91",
+   "season": 2020,
+   "distance": 3.069,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Brais Méndez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "8846a40f",
+   "season": 2020,
+   "distance": 3.079,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Mathias Pereira Lage",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "e1df6989",
+   "season": 2020,
+   "distance": 3.131,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Imran Louza",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "1ae836b1",
+   "season": 2019,
+   "distance": 3.142,
+   "survived": 1,
+   "fut_ability_v2": 32.0,
+   "player_name": "Elvis Rexhbeçaj",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "aaf1bf05",
+   "season": 2019,
+   "distance": 3.154,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juninho Bacuna",
+   "squad": "Huddersfield"
+  }
+ ],
  "low_confidence": false
 }

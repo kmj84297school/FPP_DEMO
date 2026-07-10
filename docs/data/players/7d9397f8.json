@@ -26,10 +26,114 @@
   "confidence": 0.03
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.948,
+  "mu": 59.0,
+  "ci80": {
+   "lo": 48.8,
+   "hi": 69.1
+  },
+  "ci50": {
+   "lo": 53.6,
+   "hi": 64.3
+  },
+  "sigma_model": 2.498,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a8a874f1",
+   "season": 2020,
+   "distance": 2.046,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Manuel Locatelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "56f7a928",
+   "season": 2020,
+   "distance": 2.532,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Youri Tielemans",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "5a2cb25d",
+   "season": 2020,
+   "distance": 2.671,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Sofyan Amrabat",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "6928979a",
+   "season": 2020,
+   "distance": 2.672,
+   "survived": 1,
+   "fut_ability_v2": 68.8,
+   "player_name": "Nicolò Barella",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "1bacc518",
+   "season": 2020,
+   "distance": 2.717,
+   "survived": 1,
+   "fut_ability_v2": 65.1,
+   "player_name": "Frenkie de Jong",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "a10361d2",
+   "season": 2019,
+   "distance": 2.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleix García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "05e19d6a",
+   "season": 2020,
+   "distance": 2.769,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Franck Kessié",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "ba3d3bea",
+   "season": 2018,
+   "distance": 2.79,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Cataldi",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "379652be",
+   "season": 2019,
+   "distance": 2.814,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Óscar Melendo",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "a8a874f1",
+   "season": 2019,
+   "distance": 2.888,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Manuel Locatelli",
+   "squad": "Sassuolo"
+  }
+ ],
  "low_confidence": false
 }

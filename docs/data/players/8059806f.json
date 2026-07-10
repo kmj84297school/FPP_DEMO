@@ -26,10 +26,114 @@
   "confidence": 1.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.513,
+  "mu": 39.7,
+  "ci80": {
+   "lo": 29.4,
+   "hi": 49.9
+  },
+  "ci50": {
+   "lo": 34.3,
+   "hi": 45.1
+  },
+  "sigma_model": 2.833,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b3325a30",
+   "season": 2019,
+   "distance": 1.901,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Suat Serdar",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "b3325a30",
+   "season": 2020,
+   "distance": 1.901,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "Suat Serdar",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "b3325a30",
+   "season": 2018,
+   "distance": 2.22,
+   "survived": 1,
+   "fut_ability_v2": 40.1,
+   "player_name": "Suat Serdar",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "8f056768",
+   "season": 2020,
+   "distance": 2.698,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Xaver Schlager",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "384d58d9",
+   "season": 2019,
+   "distance": 2.718,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Denis Zakaria",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "3010aefb",
+   "season": 2018,
+   "distance": 2.724,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Marcus Coco",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "f124b4c9",
+   "season": 2018,
+   "distance": 2.764,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristiano Lombardi",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "cc86b9a3",
+   "season": 2018,
+   "distance": 2.835,
+   "survived": 1,
+   "fut_ability_v2": 72.6,
+   "player_name": "Leon Goretzka",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "16daec92",
+   "season": 2018,
+   "distance": 2.852,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Mijat Gaćinović",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "8846a40f",
+   "season": 2020,
+   "distance": 2.855,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Mathias Pereira Lage",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

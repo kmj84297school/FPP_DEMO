@@ -26,10 +26,114 @@
   "confidence": 2.32
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.5969,
+  "mu": 45.1,
+  "ci80": {
+   "lo": 34.9,
+   "hi": 55.4
+  },
+  "ci50": {
+   "lo": 39.7,
+   "hi": 50.5
+  },
+  "sigma_model": 2.792,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d0643f8f",
+   "season": 2018,
+   "distance": 2.016,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enrico Brignola",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "58eee997",
+   "season": 2020,
+   "distance": 2.713,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Mason Greenwood",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "6aa3e78b",
+   "season": 2019,
+   "distance": 2.725,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Ryan Sessegnon",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "16aa3654",
+   "season": 2020,
+   "distance": 2.845,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Takefusa Kubo",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "fc15fb84",
+   "season": 2019,
+   "distance": 3.198,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Dwight McNeil",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "fed7cb61",
+   "season": 2018,
+   "distance": 3.314,
+   "survived": 1,
+   "fut_ability_v2": 62.5,
+   "player_name": "Kai Havertz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "5722eced",
+   "season": 2018,
+   "distance": 3.824,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Mickaël Cuisance",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "570bb4b9",
+   "season": 2019,
+   "distance": 4.043,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Hamed Junior Traorè",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "01c3aff5",
+   "season": 2018,
+   "distance": 5.296,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Weston McKennie",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "ab700320",
+   "season": 2018,
+   "distance": 5.61,
+   "survived": 1,
+   "fut_ability_v2": 39.3,
+   "player_name": "Arne Maier",
+   "squad": "Hertha BSC"
+  }
+ ],
+ "low_confidence": true
 }

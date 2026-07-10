@@ -26,10 +26,114 @@
   "confidence": 0.82
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.987,
+  "mu": 70.7,
+  "ci80": {
+   "lo": 60.5,
+   "hi": 80.8
+  },
+  "ci50": {
+   "lo": 65.3,
+   "hi": 76.0
+  },
+  "sigma_model": 2.617,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fed7cb61",
+   "season": 2020,
+   "distance": 2.661,
+   "survived": 1,
+   "fut_ability_v2": 66.4,
+   "player_name": "Kai Havertz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "e5bf73f3",
+   "season": 2020,
+   "distance": 3.274,
+   "survived": 1,
+   "fut_ability_v2": 65.6,
+   "player_name": "Musa Barrow",
+   "squad": "Bologna / Atalanta"
+  },
+  {
+   "fbref_id": "3a233281",
+   "season": 2018,
+   "distance": 3.418,
+   "survived": 1,
+   "fut_ability_v2": 66.3,
+   "player_name": "Leon Bailey",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "ed1e53f3",
+   "season": 2020,
+   "distance": 3.79,
+   "survived": 1,
+   "fut_ability_v2": 73.6,
+   "player_name": "Phil Foden",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "e6bc67d7",
+   "season": 2018,
+   "distance": 3.951,
+   "survived": 1,
+   "fut_ability_v2": 54.3,
+   "player_name": "Gonçalo Guedes",
+   "squad": "Valencia / Paris S-G"
+  },
+  {
+   "fbref_id": "9674002f",
+   "season": 2020,
+   "distance": 4.021,
+   "survived": 1,
+   "fut_ability_v2": 70.9,
+   "player_name": "Mason Mount",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "dbf053da",
+   "season": 2020,
+   "distance": 4.169,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Jadon Sancho",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "9907b1c8",
+   "season": 2020,
+   "distance": 4.19,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Nicolò Zaniolo",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "b0f7e36c",
+   "season": 2018,
+   "distance": 4.231,
+   "survived": 1,
+   "fut_ability_v2": 67.9,
+   "player_name": "Federico Chiesa",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "570bb4b9",
+   "season": 2020,
+   "distance": 4.28,
+   "survived": 1,
+   "fut_ability_v2": 64.9,
+   "player_name": "Hamed Junior Traorè",
+   "squad": "Sassuolo"
+  }
+ ],
+ "low_confidence": true
 }

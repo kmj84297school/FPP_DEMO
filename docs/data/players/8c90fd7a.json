@@ -26,10 +26,114 @@
   "confidence": 1.9
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8521,
+  "mu": 47.8,
+  "ci80": {
+   "lo": 36.4,
+   "hi": 59.2
+  },
+  "ci50": {
+   "lo": 41.8,
+   "hi": 53.8
+  },
+  "sigma_model": 4.796,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e7986081",
+   "season": 2019,
+   "distance": 2.083,
+   "survived": 1,
+   "fut_ability_v2": 65.4,
+   "player_name": "Moussa Dembélé",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "17f3620a",
+   "season": 2019,
+   "distance": 2.546,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "Krzysztof Piątek",
+   "squad": "Genoa / Milan"
+  },
+  {
+   "fbref_id": "5c4dc0ff",
+   "season": 2018,
+   "distance": 2.72,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mariano",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "5d4f7d61",
+   "season": 2020,
+   "distance": 2.962,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Patrik Schick",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "2973d8ff",
+   "season": 2018,
+   "distance": 2.971,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michy Batshuayi",
+   "squad": "Dortmund / Chelsea"
+  },
+  {
+   "fbref_id": "3effaa34",
+   "season": 2019,
+   "distance": 3.049,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "André Silva",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "5d4f7d61",
+   "season": 2019,
+   "distance": 3.099,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Patrik Schick",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "59e6e5bf",
+   "season": 2020,
+   "distance": 3.145,
+   "survived": 1,
+   "fut_ability_v2": 37.8,
+   "player_name": "Dominic Calvert-Lewin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "3eaf8817",
+   "season": 2020,
+   "distance": 3.229,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lebo Mothiba",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "0b90bb97",
+   "season": 2019,
+   "distance": 3.388,
+   "survived": 1,
+   "fut_ability_v2": 38.7,
+   "player_name": "Santi Mina",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

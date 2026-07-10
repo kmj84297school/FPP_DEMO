@@ -26,10 +26,114 @@
   "confidence": 0.58
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9535,
+  "mu": 53.0,
+  "ci80": {
+   "lo": 43.1,
+   "hi": 63.0
+  },
+  "ci50": {
+   "lo": 47.8,
+   "hi": 58.2
+  },
+  "sigma_model": 2.068,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "bba30585",
+   "season": 2018,
+   "distance": 1.299,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Diego Llorente",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "48035304",
+   "season": 2019,
+   "distance": 1.758,
+   "survived": 1,
+   "fut_ability_v2": 65.8,
+   "player_name": "Nico Elvedi",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "532e1e4f",
+   "season": 2020,
+   "distance": 1.841,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Pau Torres",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "2200181e",
+   "season": 2019,
+   "distance": 1.913,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Kaan Ayhan",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "ad82197c",
+   "season": 2020,
+   "distance": 1.927,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Axel Disasi",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "9a64e67e",
+   "season": 2020,
+   "distance": 1.958,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Robin Le Normand",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "51dbeea9",
+   "season": 2019,
+   "distance": 2.002,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Thilo Kehrer",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "94f8d10c",
+   "season": 2020,
+   "distance": 2.009,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Duje Ćaleta-Car",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "47af88b8",
+   "season": 2019,
+   "distance": 2.015,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Jason Denayer",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "3eed9821",
+   "season": 2018,
+   "distance": 2.021,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Samuel Umtiti",
+   "squad": "Barcelona"
+  }
+ ],
  "low_confidence": false
 }

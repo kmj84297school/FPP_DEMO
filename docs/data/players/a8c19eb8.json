@@ -26,10 +26,114 @@
   "confidence": 0.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9309,
+  "mu": 51.5,
+  "ci80": {
+   "lo": 41.5,
+   "hi": 61.6
+  },
+  "ci50": {
+   "lo": 46.3,
+   "hi": 56.8
+  },
+  "sigma_model": 2.336,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "346d51d9",
+   "season": 2019,
+   "distance": 1.692,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Weigl",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "7a11550b",
+   "season": 2020,
+   "distance": 1.738,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Gomez",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "4315f30d",
+   "season": 2020,
+   "distance": 1.851,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Malang Sarr",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "e34fc66d",
+   "season": 2019,
+   "distance": 1.904,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Joachim Andersen",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "0cbc8baa",
+   "season": 2020,
+   "distance": 1.979,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Jean-Kevin Duverne",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "aef6e670",
+   "season": 2019,
+   "distance": 1.984,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Presnel Kimpembe",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "a5ae8f8e",
+   "season": 2019,
+   "distance": 2.024,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Miloš Veljković",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "cdf65d12",
+   "season": 2018,
+   "distance": 2.024,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Marlon",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "89ac64a6",
+   "season": 2018,
+   "distance": 2.061,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Manuel Akanji",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "fb77bfef",
+   "season": 2019,
+   "distance": 2.105,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Kevin Bonifazi",
+   "squad": "SPAL"
+  }
+ ],
  "low_confidence": false
 }

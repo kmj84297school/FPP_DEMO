@@ -26,10 +26,114 @@
   "confidence": 1.61
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.913,
+  "mu": 44.5,
+  "ci80": {
+   "lo": 33.0,
+   "hi": 56.0
+  },
+  "ci50": {
+   "lo": 38.5,
+   "hi": 50.5
+  },
+  "sigma_model": 4.92,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "50e6dc35",
+   "season": 2019,
+   "distance": 2.257,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Jean-Philippe Mateta",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "f586779e",
+   "season": 2020,
+   "distance": 2.528,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Tammy Abraham",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "5c4dc0ff",
+   "season": 2018,
+   "distance": 2.588,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mariano",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "59e6e5bf",
+   "season": 2020,
+   "distance": 2.729,
+   "survived": 1,
+   "fut_ability_v2": 37.8,
+   "player_name": "Dominic Calvert-Lewin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "3effaa34",
+   "season": 2019,
+   "distance": 2.755,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "André Silva",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "49fe9070",
+   "season": 2018,
+   "distance": 2.819,
+   "survived": 1,
+   "fut_ability_v2": 72.4,
+   "player_name": "Timo Werner",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "e7986081",
+   "season": 2019,
+   "distance": 2.905,
+   "survived": 1,
+   "fut_ability_v2": 65.4,
+   "player_name": "Moussa Dembélé",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "343c0d52",
+   "season": 2018,
+   "distance": 2.991,
+   "survived": 1,
+   "fut_ability_v2": 38.7,
+   "player_name": "Giovanni Simeone",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "17f3620a",
+   "season": 2019,
+   "distance": 3.054,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "Krzysztof Piątek",
+   "squad": "Genoa / Milan"
+  },
+  {
+   "fbref_id": "0b90bb97",
+   "season": 2019,
+   "distance": 3.145,
+   "survived": 1,
+   "fut_ability_v2": 38.7,
+   "player_name": "Santi Mina",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

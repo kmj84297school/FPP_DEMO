@@ -26,10 +26,114 @@
   "confidence": 0.21
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5816,
+  "mu": 41.7,
+  "ci80": {
+   "lo": 31.1,
+   "hi": 52.3
+  },
+  "ci50": {
+   "lo": 36.1,
+   "hi": 47.3
+  },
+  "sigma_model": 3.495,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 2.088,
+   "survived": 1,
+   "fut_ability_v2": 35.7,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "7cdda3bf",
+   "season": 2018,
+   "distance": 2.347,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Gaëtan Laborde",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "1238a3f9",
+   "season": 2018,
+   "distance": 2.409,
+   "survived": 1,
+   "fut_ability_v2": 26.9,
+   "player_name": "Davie Selke",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "74c7c2db",
+   "season": 2018,
+   "distance": 2.449,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Robin Quaison",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "21f8d950",
+   "season": 2020,
+   "distance": 2.505,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Efthimis Koulouris",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "269b4638",
+   "season": 2018,
+   "distance": 2.59,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stipe Perica",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "7b536033",
+   "season": 2019,
+   "distance": 2.591,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mariusz Stępiński",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "9453d2f4",
+   "season": 2019,
+   "distance": 2.669,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Baptiste Guillaume",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "5d4f7d61",
+   "season": 2019,
+   "distance": 2.67,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Patrik Schick",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "0b90bb97",
+   "season": 2020,
+   "distance": 2.683,
+   "survived": 1,
+   "fut_ability_v2": 40.0,
+   "player_name": "Santi Mina",
+   "squad": "Celta Vigo"
+  }
+ ],
  "low_confidence": false
 }

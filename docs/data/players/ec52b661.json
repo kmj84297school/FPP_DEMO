@@ -26,10 +26,114 @@
   "confidence": 1.68
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4291,
+  "mu": 44.4,
+  "ci80": {
+   "lo": 34.4,
+   "hi": 54.4
+  },
+  "ci50": {
+   "lo": 39.1,
+   "hi": 49.7
+  },
+  "sigma_model": 2.28,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9aa186b2",
+   "season": 2018,
+   "distance": 2.523,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Florent Hadergjonaj",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "f9acf8bf",
+   "season": 2020,
+   "distance": 2.75,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joan Sastre Vanrell",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "bfcef334",
+   "season": 2019,
+   "distance": 2.775,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cheick Traoré",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "71dc23da",
+   "season": 2020,
+   "distance": 2.834,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Ghiglione",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "00528660",
+   "season": 2018,
+   "distance": 2.898,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filippo Costa",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "438dfc6a",
+   "season": 2019,
+   "distance": 2.931,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Beghetto",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "c2846353",
+   "season": 2018,
+   "distance": 2.946,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Navarro",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "b7a5bc86",
+   "season": 2019,
+   "distance": 2.954,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Mohamed Fares",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "fba81826",
+   "season": 2019,
+   "distance": 3.074,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Mattiello",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "e514ab62",
+   "season": 2020,
+   "distance": 3.232,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Matt Targett",
+   "squad": "Aston Villa"
+  }
+ ],
  "low_confidence": false
 }

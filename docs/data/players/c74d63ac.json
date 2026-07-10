@@ -26,10 +26,114 @@
   "confidence": 0.31
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2548,
+  "mu": 47.7,
+  "ci80": {
+   "lo": 37.8,
+   "hi": 57.6
+  },
+  "ci50": {
+   "lo": 42.5,
+   "hi": 52.9
+  },
+  "sigma_model": 1.931,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b99bec05",
+   "season": 2018,
+   "distance": 1.9,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Issiaga Sylla",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "073b1b37",
+   "season": 2020,
+   "distance": 2.016,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lumor Agbenyenu",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "97fb4608",
+   "season": 2018,
+   "distance": 2.054,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Théo Pellenard",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "e514ab62",
+   "season": 2020,
+   "distance": 2.124,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Matt Targett",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "958a601f",
+   "season": 2019,
+   "distance": 2.141,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paweł Jaroszyński",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "d183e9d6",
+   "season": 2018,
+   "distance": 2.208,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Nicola Murru",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "f1bed920",
+   "season": 2018,
+   "distance": 2.312,
+   "survived": 1,
+   "fut_ability_v2": 42.9,
+   "player_name": "Kévin Rodrigues",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "868ce848",
+   "season": 2020,
+   "distance": 2.316,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro Tejero",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "276cce2e",
+   "season": 2018,
+   "distance": 2.344,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Rebocho",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "00528660",
+   "season": 2018,
+   "distance": 2.369,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filippo Costa",
+   "squad": "SPAL"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,114 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9523,
+  "mu": 48.5,
+  "ci80": {
+   "lo": 38.4,
+   "hi": 58.6
+  },
+  "ci50": {
+   "lo": 43.2,
+   "hi": 53.8
+  },
+  "sigma_model": 2.516,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4c6facae",
+   "season": 2020,
+   "distance": 1.801,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Djibril Sow",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "3bb625ac",
+   "season": 2019,
+   "distance": 1.917,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Edimilson Fernandes",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2018,
+   "distance": 2.248,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "cc86b9a3",
+   "season": 2018,
+   "distance": 2.263,
+   "survived": 1,
+   "fut_ability_v2": 72.6,
+   "player_name": "Leon Goretzka",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "ba3d3bea",
+   "season": 2018,
+   "distance": 2.291,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Cataldi",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "ed45c4a5",
+   "season": 2018,
+   "distance": 2.299,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Valentin Rongier",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "7d937aa1",
+   "season": 2019,
+   "distance": 2.363,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Antonin Bobichon",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "0f8418aa",
+   "season": 2019,
+   "distance": 2.393,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Ibrahima Sissoko",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "10f0fdd3",
+   "season": 2020,
+   "distance": 2.413,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Jean-Ricner Bellegarde",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "e1df6989",
+   "season": 2020,
+   "distance": 2.42,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Imran Louza",
+   "squad": "Nantes"
+  }
+ ],
  "low_confidence": false
 }

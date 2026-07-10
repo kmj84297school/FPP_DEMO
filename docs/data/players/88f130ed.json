@@ -26,10 +26,114 @@
   "confidence": 0.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9632,
+  "mu": 53.0,
+  "ci80": {
+   "lo": 43.0,
+   "hi": 63.1
+  },
+  "ci50": {
+   "lo": 47.8,
+   "hi": 58.3
+  },
+  "sigma_model": 2.241,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "346d51d9",
+   "season": 2019,
+   "distance": 1.899,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Weigl",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "7a11550b",
+   "season": 2020,
+   "distance": 1.955,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Gomez",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "0cbc8baa",
+   "season": 2020,
+   "distance": 2.024,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Jean-Kevin Duverne",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "30f5ffa9",
+   "season": 2019,
+   "distance": 2.044,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Milan Škriniar",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "e34fc66d",
+   "season": 2019,
+   "distance": 2.127,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Joachim Andersen",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "a5ae8f8e",
+   "season": 2019,
+   "distance": 2.195,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Miloš Veljković",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "3eed9821",
+   "season": 2018,
+   "distance": 2.279,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Samuel Umtiti",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "bd142efb",
+   "season": 2020,
+   "distance": 2.292,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Jonathan Tah",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "aef6e670",
+   "season": 2019,
+   "distance": 2.324,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Presnel Kimpembe",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "89ac64a6",
+   "season": 2019,
+   "distance": 2.332,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Manuel Akanji",
+   "squad": "Dortmund"
+  }
+ ],
  "low_confidence": false
 }

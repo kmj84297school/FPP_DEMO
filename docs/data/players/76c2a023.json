@@ -26,10 +26,114 @@
   "confidence": 0.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2834,
+  "mu": 43.9,
+  "ci80": {
+   "lo": 34.0,
+   "hi": 53.8
+  },
+  "ci50": {
+   "lo": 38.7,
+   "hi": 49.1
+  },
+  "sigma_model": 1.84,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9b5ce51a",
+   "season": 2018,
+   "distance": 1.911,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Jefferson Lerma",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "0f8418aa",
+   "season": 2020,
+   "distance": 1.916,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Ibrahima Sissoko",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "e778654a",
+   "season": 2020,
+   "distance": 2.088,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Yangel Herrera",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "8b04d6c1",
+   "season": 2018,
+   "distance": 2.213,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Pierre Højbjerg",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "e778654a",
+   "season": 2019,
+   "distance": 2.284,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Yangel Herrera",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "5e22e2a4",
+   "season": 2018,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Baptiste Santamaria",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "99f7e9aa",
+   "season": 2018,
+   "distance": 2.373,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Pascal Stenzel",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "44bfb6c5",
+   "season": 2019,
+   "distance": 2.438,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Rúben Neves",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "6bd603db",
+   "season": 2018,
+   "distance": 2.455,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean-Philippe Gbamin",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "346d51d9",
+   "season": 2018,
+   "distance": 2.532,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Julian Weigl",
+   "squad": "Dortmund"
+  }
+ ],
  "low_confidence": false
 }

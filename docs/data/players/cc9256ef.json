@@ -26,10 +26,114 @@
   "confidence": 0.86
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5774,
+  "mu": 46.5,
+  "ci80": {
+   "lo": 36.3,
+   "hi": 56.8
+  },
+  "ci50": {
+   "lo": 41.1,
+   "hi": 51.9
+  },
+  "sigma_model": 2.815,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e77dc3b2",
+   "season": 2020,
+   "distance": 2.319,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominic Solanke",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2019,
+   "distance": 2.508,
+   "survived": 1,
+   "fut_ability_v2": 36.5,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "46faabfa",
+   "season": 2020,
+   "distance": 2.548,
+   "survived": 1,
+   "fut_ability_v2": 23.2,
+   "player_name": "Ibrahima Niane",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "71b47ab9",
+   "season": 2020,
+   "distance": 2.646,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Cucho",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 2.656,
+   "survived": 1,
+   "fut_ability_v2": 35.7,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "66385c46",
+   "season": 2018,
+   "distance": 2.826,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Levin Öztunalı",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "43a166b4",
+   "season": 2018,
+   "distance": 2.874,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Divock Origi",
+   "squad": "Wolfsburg / Liverpool"
+  },
+  {
+   "fbref_id": "59e6e5bf",
+   "season": 2018,
+   "distance": 3.003,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Dominic Calvert-Lewin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "0b4f388a",
+   "season": 2018,
+   "distance": 3.097,
+   "survived": 1,
+   "fut_ability_v2": 64.1,
+   "player_name": "Breel Embolo",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "23c63b7f",
+   "season": 2020,
+   "distance": 3.107,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Ignatius Ganago",
+   "squad": "Nice"
+  }
+ ],
  "low_confidence": false
 }

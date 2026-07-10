@@ -26,10 +26,114 @@
   "confidence": 0.18
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2735,
+  "mu": 49.5,
+  "ci80": {
+   "lo": 39.6,
+   "hi": 59.4
+  },
+  "ci50": {
+   "lo": 44.3,
+   "hi": 54.7
+  },
+  "sigma_model": 1.881,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d183e9d6",
+   "season": 2018,
+   "distance": 2.264,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Nicola Murru",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "f1bed920",
+   "season": 2018,
+   "distance": 2.327,
+   "survived": 1,
+   "fut_ability_v2": 42.9,
+   "player_name": "Kévin Rodrigues",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "7a11550b",
+   "season": 2020,
+   "distance": 2.35,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Gomez",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "15d0c248",
+   "season": 2020,
+   "distance": 2.406,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Luiz Felipe",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "0557ff4f",
+   "season": 2020,
+   "distance": 2.435,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Barbosa",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "d61b3354",
+   "season": 2018,
+   "distance": 2.466,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wallace",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "119b9a8e",
+   "season": 2018,
+   "distance": 2.487,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Aymeric Laporte",
+   "squad": "Athletic Club / Manchester City"
+  },
+  {
+   "fbref_id": "868ce848",
+   "season": 2020,
+   "distance": 2.546,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro Tejero",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "2f3452eb",
+   "season": 2018,
+   "distance": 2.573,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Elseid Hysaj",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "97fb4608",
+   "season": 2018,
+   "distance": 2.603,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Théo Pellenard",
+   "squad": "Bordeaux"
+  }
+ ],
  "low_confidence": false
 }

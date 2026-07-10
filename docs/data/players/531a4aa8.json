@@ -26,10 +26,114 @@
   "confidence": 1.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7255,
+  "mu": 40.9,
+  "ci80": {
+   "lo": 31.0,
+   "hi": 50.8
+  },
+  "ci50": {
+   "lo": 35.7,
+   "hi": 46.1
+  },
+  "sigma_model": 1.83,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "64cd167d",
+   "season": 2018,
+   "distance": 1.771,
+   "survived": 1,
+   "fut_ability_v2": 43.1,
+   "player_name": "Davide Biraschi",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "355c883a",
+   "season": 2020,
+   "distance": 1.987,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Martin Agirregabiria",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "558807c0",
+   "season": 2020,
+   "distance": 2.103,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jack Stacey",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "77cf6852",
+   "season": 2018,
+   "distance": 2.232,
+   "survived": 1,
+   "fut_ability_v2": 36.0,
+   "player_name": "Emil Krafth",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "758dd7f0",
+   "season": 2018,
+   "distance": 2.282,
+   "survived": 1,
+   "fut_ability_v2": 38.2,
+   "player_name": "Javier Manquillo",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "cfbf9881",
+   "season": 2019,
+   "distance": 2.293,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibrahima Mbaye",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "92948149",
+   "season": 2020,
+   "distance": 2.302,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lukas Klünter",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "555f3a0b",
+   "season": 2018,
+   "distance": 2.364,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Mario Hermoso",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "4ac7608e",
+   "season": 2018,
+   "distance": 2.482,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Diego González",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "fce2302c",
+   "season": 2020,
+   "distance": 2.523,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Kieran Tierney",
+   "squad": "Arsenal"
+  }
+ ],
  "low_confidence": false
 }

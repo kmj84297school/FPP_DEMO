@@ -26,10 +26,114 @@
   "confidence": 0.19
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9077,
+  "mu": 53.1,
+  "ci80": {
+   "lo": 42.9,
+   "hi": 63.2
+  },
+  "ci50": {
+   "lo": 47.7,
+   "hi": 58.4
+  },
+  "sigma_model": 2.525,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "aad48be9",
+   "season": 2018,
+   "distance": 1.807,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "302527b2",
+   "season": 2020,
+   "distance": 1.933,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Philipp Lienhart",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "c00097d2",
+   "season": 2019,
+   "distance": 1.947,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Rober",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2019,
+   "distance": 1.948,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "18abe173",
+   "season": 2020,
+   "distance": 1.953,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Joseph Aidoo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "9f7c837d",
+   "season": 2020,
+   "distance": 1.985,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Ben Godfrey",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "555f3a0b",
+   "season": 2019,
+   "distance": 2.06,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Mario Hermoso",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "da7b447d",
+   "season": 2020,
+   "distance": 2.08,
+   "survived": 1,
+   "fut_ability_v2": 63.4,
+   "player_name": "Davinson Sánchez",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "70d8e84c",
+   "season": 2020,
+   "distance": 2.113,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chidozie Awaziem",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "00242715",
+   "season": 2018,
+   "distance": 2.129,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Moussa Niakhate",
+   "squad": "Metz"
+  }
+ ],
  "low_confidence": false
 }

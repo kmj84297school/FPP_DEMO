@@ -26,10 +26,114 @@
   "confidence": 1.88
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.68,
+  "mu": 50.9,
+  "ci80": {
+   "lo": 41.0,
+   "hi": 60.7
+  },
+  "ci50": {
+   "lo": 45.7,
+   "hi": 56.1
+  },
+  "sigma_model": 1.798,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ff800ed8",
+   "season": 2019,
+   "distance": 2.324,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Pol Lirola",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "ff800ed8",
+   "season": 2020,
+   "distance": 2.325,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Pol Lirola",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "1d1691ad",
+   "season": 2018,
+   "distance": 2.624,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro Odriozola",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "59d53e8a",
+   "season": 2019,
+   "distance": 2.746,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francis Guerrero",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "6dfd8f05",
+   "season": 2020,
+   "distance": 2.784,
+   "survived": 1,
+   "fut_ability_v2": 41.9,
+   "player_name": "Romain Perraud",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "10e7f486",
+   "season": 2019,
+   "distance": 2.943,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Rogério",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "31a62dc7",
+   "season": 2019,
+   "distance": 3.03,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Zeki Çelik",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "2f3e911a",
+   "season": 2019,
+   "distance": 3.075,
+   "survived": 1,
+   "fut_ability_v2": 40.5,
+   "player_name": "Aarón Martín",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "71dc23da",
+   "season": 2020,
+   "distance": 3.134,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Ghiglione",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "2f3e911a",
+   "season": 2020,
+   "distance": 3.137,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Aarón Martín",
+   "squad": "Mainz 05"
+  }
+ ],
  "low_confidence": false
 }

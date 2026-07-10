@@ -26,10 +26,114 @@
   "confidence": 0.15
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8021,
+  "mu": 50.2,
+  "ci80": {
+   "lo": 40.2,
+   "hi": 60.3
+  },
+  "ci50": {
+   "lo": 44.9,
+   "hi": 55.5
+  },
+  "sigma_model": 2.389,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cfbf9881",
+   "season": 2018,
+   "distance": 1.802,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Ibrahima Mbaye",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "64cd167d",
+   "season": 2018,
+   "distance": 2.023,
+   "survived": 1,
+   "fut_ability_v2": 43.1,
+   "player_name": "Davide Biraschi",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "aad48be9",
+   "season": 2018,
+   "distance": 2.023,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "15d0c248",
+   "season": 2020,
+   "distance": 2.047,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Luiz Felipe",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2018,
+   "distance": 2.058,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "6adbc307",
+   "season": 2018,
+   "distance": 2.069,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2018,
+   "distance": 2.079,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "7f609bfc",
+   "season": 2020,
+   "distance": 2.171,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Stefan Posch",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "ce4246f5",
+   "season": 2019,
+   "distance": 2.182,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Kurt Zouma",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "deb748c9",
+   "season": 2020,
+   "distance": 2.22,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleš Matějů",
+   "squad": "Brescia"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,114 @@
   "confidence": 0.02
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8406,
+  "mu": 64.0,
+  "ci80": {
+   "lo": 54.0,
+   "hi": 74.1
+  },
+  "ci50": {
+   "lo": 58.8,
+   "hi": 69.3
+  },
+  "sigma_model": 2.211,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e7d59f4f",
+   "season": 2020,
+   "distance": 2.449,
+   "survived": 1,
+   "fut_ability_v2": 65.4,
+   "player_name": "Amine Harit",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "82927de4",
+   "season": 2019,
+   "distance": 2.524,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Pablo Fornals",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "e6bc67d7",
+   "season": 2018,
+   "distance": 2.676,
+   "survived": 1,
+   "fut_ability_v2": 54.3,
+   "player_name": "Gonçalo Guedes",
+   "squad": "Valencia / Paris S-G"
+  },
+  {
+   "fbref_id": "4dbd0916",
+   "season": 2018,
+   "distance": 2.786,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Thomas Lemar",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "4dbd0916",
+   "season": 2019,
+   "distance": 2.797,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Thomas Lemar",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "555d5edd",
+   "season": 2020,
+   "distance": 2.829,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Nadiem Amiri",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "9674002f",
+   "season": 2020,
+   "distance": 2.922,
+   "survived": 1,
+   "fut_ability_v2": 70.9,
+   "player_name": "Mason Mount",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "36a59ba4",
+   "season": 2019,
+   "distance": 2.948,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Florian Neuhaus",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "42eaa028",
+   "season": 2020,
+   "distance": 2.961,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Jonathan Ikone",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "4b96c347",
+   "season": 2018,
+   "distance": 2.963,
+   "survived": 1,
+   "fut_ability_v2": 64.0,
+   "player_name": "Angelo Fulgini",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

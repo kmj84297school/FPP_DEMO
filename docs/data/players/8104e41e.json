@@ -26,10 +26,114 @@
   "confidence": 0.6
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8283,
+  "mu": 50.4,
+  "ci80": {
+   "lo": 40.3,
+   "hi": 60.6
+  },
+  "ci50": {
+   "lo": 45.1,
+   "hi": 55.8
+  },
+  "sigma_model": 2.58,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5148dcc5",
+   "season": 2020,
+   "distance": 1.768,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Martin Terrier",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "780e3631",
+   "season": 2020,
+   "distance": 1.844,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Matteo Pessina",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2018,
+   "distance": 1.926,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Joan Jordán",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "c9e39d91",
+   "season": 2020,
+   "distance": 2.024,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Brais Méndez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "c6dc9ecd",
+   "season": 2020,
+   "distance": 2.167,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Harry Wilson",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "01efac19",
+   "season": 2018,
+   "distance": 2.172,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Antonín Barák",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "5313ed43",
+   "season": 2018,
+   "distance": 2.257,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Seko Fofana",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "e599253a",
+   "season": 2019,
+   "distance": 2.301,
+   "survived": 1,
+   "fut_ability_v2": 70.8,
+   "player_name": "Mario Pašalić",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "cc86b9a3",
+   "season": 2018,
+   "distance": 2.313,
+   "survived": 1,
+   "fut_ability_v2": 72.6,
+   "player_name": "Leon Goretzka",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "0557ff4f",
+   "season": 2019,
+   "distance": 2.545,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Barbosa",
+   "squad": "Nice"
+  }
+ ],
  "low_confidence": false
 }

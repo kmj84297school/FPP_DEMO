@@ -26,10 +26,114 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6587,
+  "mu": 42.6,
+  "ci80": {
+   "lo": 31.4,
+   "hi": 53.7
+  },
+  "ci50": {
+   "lo": 36.7,
+   "hi": 48.4
+  },
+  "sigma_model": 4.407,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 1.645,
+   "survived": 1,
+   "fut_ability_v2": 35.7,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "19ba6c6d",
+   "season": 2019,
+   "distance": 1.818,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Steve Mounié",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "19ba6c6d",
+   "season": 2018,
+   "distance": 2.031,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Steve Mounié",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "aa1a8c7e",
+   "season": 2018,
+   "distance": 2.07,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Isaac Mbenza",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "1238a3f9",
+   "season": 2018,
+   "distance": 2.118,
+   "survived": 1,
+   "fut_ability_v2": 26.9,
+   "player_name": "Davie Selke",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "923f4dda",
+   "season": 2020,
+   "distance": 2.194,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "59e6e5bf",
+   "season": 2019,
+   "distance": 2.242,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Dominic Calvert-Lewin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "923f4dda",
+   "season": 2019,
+   "distance": 2.325,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "04e17fd5",
+   "season": 2019,
+   "distance": 2.366,
+   "survived": 1,
+   "fut_ability_v2": 43.0,
+   "player_name": "Youssef En-Nesyri",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "6922f806",
+   "season": 2018,
+   "distance": 2.396,
+   "survived": 1,
+   "fut_ability_v2": 40.5,
+   "player_name": "Jonathan Calleri",
+   "squad": "Las Palmas"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,114 @@
   "confidence": 0.33
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8924,
+  "mu": 41.8,
+  "ci80": {
+   "lo": 31.8,
+   "hi": 51.8
+  },
+  "ci50": {
+   "lo": 36.5,
+   "hi": 47.0
+  },
+  "sigma_model": 2.101,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "384dd218",
+   "season": 2018,
+   "distance": 1.818,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Godfred Donsah",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "6f7d826d",
+   "season": 2020,
+   "distance": 1.882,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Douglas Luiz",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "9228b07c",
+   "season": 2018,
+   "distance": 2.104,
+   "survived": 1,
+   "fut_ability_v2": 40.9,
+   "player_name": "Tom Davies",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "0f8418aa",
+   "season": 2019,
+   "distance": 2.123,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Ibrahima Sissoko",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "8f056768",
+   "season": 2020,
+   "distance": 2.298,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Xaver Schlager",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "beb882a8",
+   "season": 2018,
+   "distance": 2.391,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Maximilian Eggestein",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "d3112d86",
+   "season": 2020,
+   "distance": 2.398,
+   "survived": 1,
+   "fut_ability_v2": 37.0,
+   "player_name": "Sebastian Vasiliadis",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "c69ef855",
+   "season": 2018,
+   "distance": 2.4,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Alexis Blin",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "384d58d9",
+   "season": 2019,
+   "distance": 2.453,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Denis Zakaria",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "8ef81d2d",
+   "season": 2019,
+   "distance": 2.464,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Rivera",
+   "squad": "Huesca"
+  }
+ ],
  "low_confidence": false
 }

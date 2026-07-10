@@ -26,10 +26,114 @@
   "confidence": 0.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.829,
+  "mu": 53.2,
+  "ci80": {
+   "lo": 42.7,
+   "hi": 63.7
+  },
+  "ci50": {
+   "lo": 47.7,
+   "hi": 58.7
+  },
+  "sigma_model": 3.26,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "061e8e23",
+   "season": 2018,
+   "distance": 2.644,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Maximilian Philipp",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "0b90bb97",
+   "season": 2018,
+   "distance": 2.893,
+   "survived": 1,
+   "fut_ability_v2": 43.5,
+   "player_name": "Santi Mina",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "3effaa34",
+   "season": 2019,
+   "distance": 2.993,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "André Silva",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "0a447501",
+   "season": 2020,
+   "distance": 3.04,
+   "survived": 1,
+   "fut_ability_v2": 38.7,
+   "player_name": "Antonio Sanabria",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "e7986081",
+   "season": 2019,
+   "distance": 3.087,
+   "survived": 1,
+   "fut_ability_v2": 65.4,
+   "player_name": "Moussa Dembélé",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "0b4f388a",
+   "season": 2020,
+   "distance": 3.197,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Breel Embolo",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "8696bc90",
+   "season": 2019,
+   "distance": 3.21,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Munir El Haddadi",
+   "squad": "Sevilla / Barcelona"
+  },
+  {
+   "fbref_id": "e5a35ae9",
+   "season": 2019,
+   "distance": 3.235,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Waldschmidt",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "3eaf8817",
+   "season": 2020,
+   "distance": 3.273,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lebo Mothiba",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "64e8ed6d",
+   "season": 2020,
+   "distance": 3.363,
+   "survived": 1,
+   "fut_ability_v2": 31.3,
+   "player_name": "Borja Mayoral",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

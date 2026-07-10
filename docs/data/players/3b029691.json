@@ -26,10 +26,114 @@
   "confidence": 0.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.9195,
+  "mu": 58.5,
+  "ci80": {
+   "lo": 48.4,
+   "hi": 68.7
+  },
+  "ci50": {
+   "lo": 53.2,
+   "hi": 63.9
+  },
+  "sigma_model": 2.521,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2f7acede",
+   "season": 2020,
+   "distance": 3.471,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Harry Winks",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "6928979a",
+   "season": 2020,
+   "distance": 3.481,
+   "survived": 1,
+   "fut_ability_v2": 68.8,
+   "player_name": "Nicolò Barella",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "0557ff4f",
+   "season": 2019,
+   "distance": 3.519,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Barbosa",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "0959c2a2",
+   "season": 2020,
+   "distance": 3.553,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Federico Valverde",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "05e19d6a",
+   "season": 2020,
+   "distance": 3.647,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Franck Kessié",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "b579e83d",
+   "season": 2018,
+   "distance": 3.665,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oghenekaro Etebo",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "6bb2c084",
+   "season": 2020,
+   "distance": 3.681,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Andre-Frank Zambo Anguissa",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "ce30bfc8",
+   "season": 2018,
+   "distance": 3.775,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Roberto Gagliardini",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "6434f10d",
+   "season": 2020,
+   "distance": 3.806,
+   "survived": 1,
+   "fut_ability_v2": 65.8,
+   "player_name": "Rodri",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "1bacc518",
+   "season": 2020,
+   "distance": 3.818,
+   "survived": 1,
+   "fut_ability_v2": 65.1,
+   "player_name": "Frenkie de Jong",
+   "squad": "Barcelona"
+  }
+ ],
+ "low_confidence": true
 }

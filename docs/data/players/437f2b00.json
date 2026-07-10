@@ -26,10 +26,114 @@
   "confidence": 0.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9048,
+  "mu": 50.5,
+  "ci80": {
+   "lo": 40.4,
+   "hi": 60.5
+  },
+  "ci50": {
+   "lo": 45.2,
+   "hi": 55.8
+  },
+  "sigma_model": 2.298,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cea4ee8f",
+   "season": 2020,
+   "distance": 1.897,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Dele Alli",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "b2bd0f6c",
+   "season": 2019,
+   "distance": 2.255,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Jonathan Bamba",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "79ca3e23",
+   "season": 2019,
+   "distance": 2.279,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Ondrej Duda",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "16daec92",
+   "season": 2018,
+   "distance": 2.304,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Mijat Gaćinović",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "fa661778",
+   "season": 2018,
+   "distance": 2.338,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Marius Wolf",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "0b0cbe5b",
+   "season": 2019,
+   "distance": 2.413,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Denis Bouanga",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "c6dc9ecd",
+   "season": 2020,
+   "distance": 2.424,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Harry Wilson",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "66385c46",
+   "season": 2020,
+   "distance": 2.459,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Levin Öztunalı",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "8c3c640c",
+   "season": 2020,
+   "distance": 2.479,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Mikel Oyarzabal",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "6e7f1353",
+   "season": 2018,
+   "distance": 2.551,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Morgan Sanson",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

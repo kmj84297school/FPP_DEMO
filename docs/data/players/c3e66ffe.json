@@ -26,10 +26,114 @@
   "confidence": 1.59
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6344,
+  "mu": 52.1,
+  "ci80": {
+   "lo": 42.1,
+   "hi": 62.0
+  },
+  "ci50": {
+   "lo": 46.8,
+   "hi": 57.3
+  },
+  "sigma_model": 2.003,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5e74d6c8",
+   "season": 2020,
+   "distance": 2.039,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Brandon Williams",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "24f59bb2",
+   "season": 2018,
+   "distance": 2.365,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Junior Firpo",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "1295552e",
+   "season": 2020,
+   "distance": 2.634,
+   "survived": 1,
+   "fut_ability_v2": 50.0,
+   "player_name": "Mert Müldür",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "df8b52a5",
+   "season": 2020,
+   "distance": 2.682,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Emerson",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "3b61c9ec",
+   "season": 2020,
+   "distance": 2.691,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Luca Pellegrini",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "10e7f486",
+   "season": 2019,
+   "distance": 2.719,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Rogério",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "d4c9725f",
+   "season": 2019,
+   "distance": 2.759,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Theo Hernández",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "2146785a",
+   "season": 2018,
+   "distance": 2.878,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Davide Calabria",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "1265a93a",
+   "season": 2020,
+   "distance": 2.887,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Reece James",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "ce5b170a",
+   "season": 2018,
+   "distance": 2.903,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Claud Adjapong",
+   "squad": "Sassuolo"
+  }
+ ],
  "low_confidence": false
 }

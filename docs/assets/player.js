@@ -23,6 +23,8 @@ function renderNotFound() {
   document.getElementById("content").innerHTML = `<div class="empty-state">선수를 찾을 수 없습니다. (검색 대상은 2023시즌 600분 이상 출전 선수만 포함됩니다)</div>`;
 }
 
+let META = null;
+
 function renderPlayer(p) {
   const m = p.meta;
   const c = p.current;
@@ -53,11 +55,16 @@ function renderPlayer(p) {
   `;
 
   if (!p.eligibility.eligible_for_prediction) {
-    const reasonMap = { over_age: "연령(23세 초과)", under_minutes: "출전시간(900분 미만)" };
+    const ageMax = META ? META.pred_age_max : 23;
+    const minMin = META ? META.pred_min_minutes : "?";
+    const reasonMap = {
+      over_age: `연령(${ageMax}세 초과)`,
+      under_minutes: `출전시간(${minMin}분 미만)`,
+    };
     const reasons = (p.eligibility.reason || "").split(";").filter(Boolean).map((r) => reasonMap[r] || r).join(", ");
     html += `
       <div class="panel">
-        <div class="note">예측 모델 적용 대상 아님 — 학습 코호트 기준(23세 이하, 900분 이상) 초과: ${reasons || "기준 미달"}.
+        <div class="note">예측 모델 적용 대상 아님 — 학습 코호트 기준(${ageMax}세 이하, ${minMin}분 이상) 초과: ${reasons || "기준 미달"}.
         현재 능력 점수만 제공됩니다.</div>
       </div>`;
   } else {
@@ -174,8 +181,15 @@ const id = qs("id");
 if (!id) {
   renderNotFound();
 } else {
-  fetch(`data/players/${id}.json`)
-    .then((r) => { if (!r.ok) throw new Error("not found"); return r.json(); })
-    .then(renderPlayer)
+  const metaFetch = fetch("data/meta.json").then((r) => r.json()).catch(() => null);
+  const playerFetch = fetch(`data/players/${id}.json`).then((r) => {
+    if (!r.ok) throw new Error("not found");
+    return r.json();
+  });
+  Promise.all([metaFetch, playerFetch])
+    .then(([meta, player]) => {
+      META = meta;
+      renderPlayer(player);
+    })
     .catch(renderNotFound);
 }

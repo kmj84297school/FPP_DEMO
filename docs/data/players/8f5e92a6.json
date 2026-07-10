@@ -26,10 +26,114 @@
   "confidence": 0.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.9923,
+  "mu": 64.9,
+  "ci80": {
+   "lo": 54.3,
+   "hi": 75.4
+  },
+  "ci50": {
+   "lo": 59.3,
+   "hi": 70.4
+  },
+  "sigma_model": 3.427,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b400bde0",
+   "season": 2018,
+   "distance": 3.462,
+   "survived": 1,
+   "fut_ability_v2": 73.7,
+   "player_name": "Raheem Sterling",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "2b114be3",
+   "season": 2019,
+   "distance": 3.585,
+   "survived": 1,
+   "fut_ability_v2": 68.4,
+   "player_name": "Leroy Sané",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "2b114be3",
+   "season": 2018,
+   "distance": 3.664,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "Leroy Sané",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "88e357ef",
+   "season": 2018,
+   "distance": 3.816,
+   "survived": 1,
+   "fut_ability_v2": 71.3,
+   "player_name": "Serge Gnabry",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "c17bfb65",
+   "season": 2019,
+   "distance": 3.972,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Joelinton",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "4737cebe",
+   "season": 2018,
+   "distance": 4.024,
+   "survived": 1,
+   "fut_ability_v2": 63.8,
+   "player_name": "Adnan Januzaj",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "0b4f388a",
+   "season": 2020,
+   "distance": 4.233,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Breel Embolo",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "20730eae",
+   "season": 2020,
+   "distance": 4.351,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Rafael Leão",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "1bf33a9a",
+   "season": 2020,
+   "distance": 4.375,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Christian Pulisic",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "b0f7e36c",
+   "season": 2020,
+   "distance": 4.436,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Chiesa",
+   "squad": "Fiorentina"
+  }
+ ],
+ "low_confidence": true
 }

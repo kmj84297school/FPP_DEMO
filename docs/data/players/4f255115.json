@@ -26,10 +26,114 @@
   "confidence": 1.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9646,
+  "mu": 61.3,
+  "ci80": {
+   "lo": 51.5,
+   "hi": 71.2
+  },
+  "ci50": {
+   "lo": 56.1,
+   "hi": 66.5
+  },
+  "sigma_model": 1.831,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "59bf127b",
+   "season": 2019,
+   "distance": 1.888,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Tiemoué Bakayoko",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "6bb2c084",
+   "season": 2018,
+   "distance": 2.054,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Andre-Frank Zambo Anguissa",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "7f3b388c",
+   "season": 2018,
+   "distance": 2.106,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Fabinho",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "a65ce836",
+   "season": 2018,
+   "distance": 2.17,
+   "survived": 1,
+   "fut_ability_v2": 64.9,
+   "player_name": "Emre Can",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "ffbbc83b",
+   "season": 2019,
+   "distance": 2.308,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "Florian Grillitsch",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "a8a874f1",
+   "season": 2020,
+   "distance": 2.317,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Manuel Locatelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "c0c7ff58",
+   "season": 2018,
+   "distance": 2.384,
+   "survived": 1,
+   "fut_ability_v2": 68.2,
+   "player_name": "Fabián Ruiz Peña",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "ffbbc83b",
+   "season": 2020,
+   "distance": 2.409,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Florian Grillitsch",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "16657b95",
+   "season": 2019,
+   "distance": 2.433,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Bryan Cristante",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ffbbc83b",
+   "season": 2018,
+   "distance": 2.443,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Florian Grillitsch",
+   "squad": "Hoffenheim"
+  }
+ ],
  "low_confidence": false
 }

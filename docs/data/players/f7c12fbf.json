@@ -26,10 +26,114 @@
   "confidence": 0.62
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6036,
+  "mu": 49.7,
+  "ci80": {
+   "lo": 39.6,
+   "hi": 59.8
+  },
+  "ci50": {
+   "lo": 44.4,
+   "hi": 55.0
+  },
+  "sigma_model": 2.46,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "56f7a928",
+   "season": 2020,
+   "distance": 1.948,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Youri Tielemans",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "86e119e0",
+   "season": 2018,
+   "distance": 2.147,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Maximilian Arnold",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "88050721",
+   "season": 2020,
+   "distance": 2.405,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Unai López",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "ba3d3bea",
+   "season": 2018,
+   "distance": 2.498,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Cataldi",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "a10361d2",
+   "season": 2019,
+   "distance": 2.53,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleix García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "ce218223",
+   "season": 2018,
+   "distance": 2.6,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iver Fossum",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "8827bf46",
+   "season": 2019,
+   "distance": 2.613,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Gerson",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "beb882a8",
+   "season": 2020,
+   "distance": 2.691,
+   "survived": 1,
+   "fut_ability_v2": 51.4,
+   "player_name": "Maximilian Eggestein",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "3e092724",
+   "season": 2019,
+   "distance": 2.694,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Wylan Cyprien",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2019,
+   "distance": 2.696,
+   "survived": 1,
+   "fut_ability_v2": 35.6,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  }
+ ],
  "low_confidence": false
 }

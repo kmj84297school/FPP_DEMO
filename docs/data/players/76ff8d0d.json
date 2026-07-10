@@ -26,10 +26,114 @@
   "confidence": 0.66
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7404,
+  "mu": 48.3,
+  "ci80": {
+   "lo": 38.2,
+   "hi": 58.4
+  },
+  "ci50": {
+   "lo": 43.0,
+   "hi": 53.6
+  },
+  "sigma_model": 2.461,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cc86b9a3",
+   "season": 2018,
+   "distance": 2.284,
+   "survived": 1,
+   "fut_ability_v2": 72.6,
+   "player_name": "Leon Goretzka",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "c6dc9ecd",
+   "season": 2020,
+   "distance": 2.352,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Harry Wilson",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "01efac19",
+   "season": 2018,
+   "distance": 2.388,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Antonín Barák",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "5148dcc5",
+   "season": 2020,
+   "distance": 2.546,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Martin Terrier",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "ea02beaf",
+   "season": 2020,
+   "distance": 2.593,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Remi Oudin",
+   "squad": "Reims / Bordeaux"
+  },
+  {
+   "fbref_id": "c9e39d91",
+   "season": 2020,
+   "distance": 2.642,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Brais Méndez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "d080ed5e",
+   "season": 2019,
+   "distance": 2.699,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Mikel Merino",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "7cf431a5",
+   "season": 2020,
+   "distance": 2.747,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "James Lea Siliki",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "780e3631",
+   "season": 2020,
+   "distance": 2.751,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Matteo Pessina",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "49ea92be",
+   "season": 2020,
+   "distance": 2.79,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iñigo Córdoba",
+   "squad": "Athletic Club"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,114 @@
   "confidence": 0.39
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6173,
+  "mu": 50.7,
+  "ci80": {
+   "lo": 40.8,
+   "hi": 60.6
+  },
+  "ci50": {
+   "lo": 45.5,
+   "hi": 55.9
+  },
+  "sigma_model": 1.955,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e1df6989",
+   "season": 2020,
+   "distance": 2.408,
+   "survived": 1,
+   "fut_ability_v2": 41.6,
+   "player_name": "Imran Louza",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "a10361d2",
+   "season": 2019,
+   "distance": 2.414,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleix García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "a8a874f1",
+   "season": 2019,
+   "distance": 2.472,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Manuel Locatelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2018,
+   "distance": 2.569,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "379652be",
+   "season": 2019,
+   "distance": 2.6,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Óscar Melendo",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "ba3d3bea",
+   "season": 2018,
+   "distance": 2.644,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Cataldi",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "ce218223",
+   "season": 2018,
+   "distance": 2.687,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iver Fossum",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "fed17f5a",
+   "season": 2018,
+   "distance": 2.728,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Carlos Soler",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "b70bde8f",
+   "season": 2018,
+   "distance": 2.751,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Sensi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "4c6facae",
+   "season": 2020,
+   "distance": 2.804,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Djibril Sow",
+   "squad": "Eint Frankfurt"
+  }
+ ],
  "low_confidence": false
 }

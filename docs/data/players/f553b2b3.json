@@ -26,10 +26,114 @@
   "confidence": 0.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6069,
+  "mu": 38.1,
+  "ci80": {
+   "lo": 26.9,
+   "hi": 49.3
+  },
+  "ci50": {
+   "lo": 32.2,
+   "hi": 44.0
+  },
+  "sigma_model": 4.52,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "19ba6c6d",
+   "season": 2018,
+   "distance": 2.145,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Steve Mounié",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "4c2e9442",
+   "season": 2020,
+   "distance": 2.284,
+   "survived": 1,
+   "fut_ability_v2": 30.4,
+   "player_name": "Maxi Gómez",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "19ba6c6d",
+   "season": 2019,
+   "distance": 2.444,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Steve Mounié",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "1238a3f9",
+   "season": 2018,
+   "distance": 2.506,
+   "survived": 1,
+   "fut_ability_v2": 26.9,
+   "player_name": "Davie Selke",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "bfae110f",
+   "season": 2020,
+   "distance": 2.511,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wesley Moraes",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "74c7c2db",
+   "season": 2018,
+   "distance": 2.624,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Robin Quaison",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 2.625,
+   "survived": 1,
+   "fut_ability_v2": 35.7,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "9453d2f4",
+   "season": 2019,
+   "distance": 2.645,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Baptiste Guillaume",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "59e6e5bf",
+   "season": 2019,
+   "distance": 2.687,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Dominic Calvert-Lewin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "04e17fd5",
+   "season": 2020,
+   "distance": 2.692,
+   "survived": 1,
+   "fut_ability_v2": 37.5,
+   "player_name": "Youssef En-Nesyri",
+   "squad": "Leganés / Sevilla"
+  }
+ ],
  "low_confidence": false
 }

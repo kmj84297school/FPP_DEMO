@@ -26,10 +26,114 @@
   "confidence": 1.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9664,
+  "mu": 52.1,
+  "ci80": {
+   "lo": 41.6,
+   "hi": 62.7
+  },
+  "ci50": {
+   "lo": 46.6,
+   "hi": 57.7
+  },
+  "sigma_model": 3.361,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6e7f1353",
+   "season": 2018,
+   "distance": 1.724,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Morgan Sanson",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2018,
+   "distance": 1.888,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Joan Jordán",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "b2bd0f6c",
+   "season": 2019,
+   "distance": 1.972,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Jonathan Bamba",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "c76b7567",
+   "season": 2018,
+   "distance": 1.982,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Adrien Thomasson",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "e280527c",
+   "season": 2018,
+   "distance": 2.027,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "cea4ee8f",
+   "season": 2019,
+   "distance": 2.138,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Dele Alli",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "0000acda",
+   "season": 2018,
+   "distance": 2.139,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Marco Benassi",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "8c3c640c",
+   "season": 2020,
+   "distance": 2.228,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Mikel Oyarzabal",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "82927de4",
+   "season": 2019,
+   "distance": 2.263,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Pablo Fornals",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "79ca3e23",
+   "season": 2019,
+   "distance": 2.274,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Ondrej Duda",
+   "squad": "Hertha BSC"
+  }
+ ],
  "low_confidence": false
 }

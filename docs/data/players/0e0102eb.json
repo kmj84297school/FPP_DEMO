@@ -26,10 +26,114 @@
   "confidence": 0.42
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9131,
+  "mu": 56.5,
+  "ci80": {
+   "lo": 45.9,
+   "hi": 67.1
+  },
+  "ci50": {
+   "lo": 50.9,
+   "hi": 62.1
+  },
+  "sigma_model": 3.523,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2054d037",
+   "season": 2018,
+   "distance": 2.829,
+   "survived": 1,
+   "fut_ability_v2": 35.5,
+   "player_name": "M'Baye Niang",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "62437b4f",
+   "season": 2019,
+   "distance": 3.028,
+   "survived": 1,
+   "fut_ability_v2": 54.3,
+   "player_name": "Ignacio Pussetto",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "d2416c2e",
+   "season": 2018,
+   "distance": 3.04,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "Yussuf Poulsen",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "2054d037",
+   "season": 2019,
+   "distance": 3.131,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "M'Baye Niang",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "ba115a40",
+   "season": 2018,
+   "distance": 3.136,
+   "survived": 1,
+   "fut_ability_v2": 44.9,
+   "player_name": "Sébastien Haller",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "2979c05a",
+   "season": 2018,
+   "distance": 3.319,
+   "survived": 1,
+   "fut_ability_v2": 41.1,
+   "player_name": "Gerrit Holtmann",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "78b8ac63",
+   "season": 2020,
+   "distance": 3.335,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oliver McBurnie",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 3.383,
+   "survived": 1,
+   "fut_ability_v2": 35.7,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "176674ab",
+   "season": 2018,
+   "distance": 3.463,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ndombe Mubele",
+   "squad": "Rennes / Toulouse"
+  },
+  {
+   "fbref_id": "fa031b34",
+   "season": 2020,
+   "distance": 3.468,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Richarlison",
+   "squad": "Everton"
+  }
+ ],
  "low_confidence": false
 }

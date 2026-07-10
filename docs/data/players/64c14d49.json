@@ -26,10 +26,114 @@
   "confidence": 0.13
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7407,
+  "mu": 48.0,
+  "ci80": {
+   "lo": 37.9,
+   "hi": 58.1
+  },
+  "ci50": {
+   "lo": 42.7,
+   "hi": 53.3
+  },
+  "sigma_model": 2.486,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6f7d826d",
+   "season": 2019,
+   "distance": 1.553,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Douglas Luiz",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "15413fa5",
+   "season": 2018,
+   "distance": 1.921,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Salih Özcan",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "822d51d7",
+   "season": 2020,
+   "distance": 1.957,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Youssouf Fofana",
+   "squad": "Strasbourg / Monaco"
+  },
+  {
+   "fbref_id": "3b8674e6",
+   "season": 2019,
+   "distance": 1.975,
+   "survived": 1,
+   "fut_ability_v2": 61.9,
+   "player_name": "Rodrigo Bentancur",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "b579e83d",
+   "season": 2018,
+   "distance": 1.997,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oghenekaro Etebo",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "91e58f66",
+   "season": 2019,
+   "distance": 2.049,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Maia",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "ffbbc83b",
+   "season": 2018,
+   "distance": 2.147,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Florian Grillitsch",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "4f255115",
+   "season": 2020,
+   "distance": 2.195,
+   "survived": 1,
+   "fut_ability_v2": 64.6,
+   "player_name": "Aurélien Tchouaméni",
+   "squad": "Bordeaux / Monaco"
+  },
+  {
+   "fbref_id": "0f8418aa",
+   "season": 2020,
+   "distance": 2.203,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Ibrahima Sissoko",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "8b04d6c1",
+   "season": 2018,
+   "distance": 2.216,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Pierre Højbjerg",
+   "squad": "Southampton"
+  }
+ ],
  "low_confidence": false
 }

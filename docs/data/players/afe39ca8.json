@@ -26,10 +26,114 @@
   "confidence": 0.28
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8645,
+  "mu": 43.7,
+  "ci80": {
+   "lo": 33.9,
+   "hi": 53.5
+  },
+  "ci50": {
+   "lo": 38.5,
+   "hi": 48.9
+  },
+  "sigma_model": 1.566,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "822d51d7",
+   "season": 2019,
+   "distance": 1.894,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Youssouf Fofana",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "384d58d9",
+   "season": 2019,
+   "distance": 1.914,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Denis Zakaria",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "8ef81d2d",
+   "season": 2019,
+   "distance": 1.932,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Rivera",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "c69ef855",
+   "season": 2018,
+   "distance": 2.067,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Alexis Blin",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "8f056768",
+   "season": 2020,
+   "distance": 2.159,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Xaver Schlager",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "9228b07c",
+   "season": 2019,
+   "distance": 2.178,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "Tom Davies",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "7f622eef",
+   "season": 2018,
+   "distance": 2.207,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Assane Dioussé",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "9228b07c",
+   "season": 2018,
+   "distance": 2.23,
+   "survived": 1,
+   "fut_ability_v2": 40.9,
+   "player_name": "Tom Davies",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "384dd218",
+   "season": 2018,
+   "distance": 2.239,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Godfred Donsah",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "6f7d826d",
+   "season": 2020,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Douglas Luiz",
+   "squad": "Aston Villa"
+  }
+ ],
  "low_confidence": false
 }

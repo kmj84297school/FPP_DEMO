@@ -26,10 +26,114 @@
   "confidence": 0.34
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.935,
+  "mu": 49.1,
+  "ci80": {
+   "lo": 38.9,
+   "hi": 59.3
+  },
+  "ci50": {
+   "lo": 43.7,
+   "hi": 54.5
+  },
+  "sigma_model": 2.755,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "677da306",
+   "season": 2018,
+   "distance": 1.875,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Ohis Felix Uduokhai",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "9f979eb2",
+   "season": 2018,
+   "distance": 1.88,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Jorge Meré",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "4315f30d",
+   "season": 2020,
+   "distance": 1.957,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Malang Sarr",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "8f325097",
+   "season": 2019,
+   "distance": 2.134,
+   "survived": 1,
+   "fut_ability_v2": 41.9,
+   "player_name": "Nicolas Cozza",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "cdf65d12",
+   "season": 2018,
+   "distance": 2.142,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Marlon",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "a4e85758",
+   "season": 2020,
+   "distance": 2.148,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Igor",
+   "squad": "SPAL / Fiorentina"
+  },
+  {
+   "fbref_id": "15d0c248",
+   "season": 2019,
+   "distance": 2.183,
+   "survived": 1,
+   "fut_ability_v2": 50.1,
+   "player_name": "Luiz Felipe",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "217875a4",
+   "season": 2020,
+   "distance": 2.208,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Walukiewicz",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "21166ff4",
+   "season": 2018,
+   "distance": 2.321,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Çağlar Söyüncü",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "0eb03d5b",
+   "season": 2018,
+   "distance": 2.462,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vukašin Jovanović",
+   "squad": "Bordeaux"
+  }
+ ],
  "low_confidence": false
 }

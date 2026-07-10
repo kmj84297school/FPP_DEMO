@@ -26,10 +26,114 @@
   "confidence": 0.86
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9016,
+  "mu": 54.6,
+  "ci80": {
+   "lo": 44.3,
+   "hi": 64.8
+  },
+  "ci50": {
+   "lo": 49.2,
+   "hi": 60.0
+  },
+  "sigma_model": 2.809,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8c3c640c",
+   "season": 2018,
+   "distance": 2.161,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Mikel Oyarzabal",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "5148dcc5",
+   "season": 2018,
+   "distance": 2.392,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Martin Terrier",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "b2bd0f6c",
+   "season": 2018,
+   "distance": 2.637,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Jonathan Bamba",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "fa031b34",
+   "season": 2020,
+   "distance": 2.772,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Richarlison",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "58e933d2",
+   "season": 2019,
+   "distance": 2.79,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Christian Kouamé",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "66385c46",
+   "season": 2018,
+   "distance": 2.829,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Levin Öztunalı",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "0b4f388a",
+   "season": 2019,
+   "distance": 2.938,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Breel Embolo",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "beb391dd",
+   "season": 2020,
+   "distance": 3.033,
+   "survived": 1,
+   "fut_ability_v2": 41.2,
+   "player_name": "Maxwel Cornet",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "71b47ab9",
+   "season": 2020,
+   "distance": 3.047,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Cucho",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "178ae8f8",
+   "season": 2019,
+   "distance": 3.05,
+   "survived": 1,
+   "fut_ability_v2": 73.1,
+   "player_name": "Diogo Jota",
+   "squad": "Wolves"
+  }
+ ],
  "low_confidence": false
 }

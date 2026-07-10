@@ -26,10 +26,114 @@
   "confidence": 0.58
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.9451,
+  "mu": 59.4,
+  "ci80": {
+   "lo": 49.3,
+   "hi": 69.4
+  },
+  "ci50": {
+   "lo": 54.1,
+   "hi": 64.7
+  },
+  "sigma_model": 2.345,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cd0fa27b",
+   "season": 2018,
+   "distance": 3.329,
+   "survived": 1,
+   "fut_ability_v2": 70.5,
+   "player_name": "Hakan Çalhanoğlu",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "0be95d34",
+   "season": 2020,
+   "distance": 3.718,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Romain Del Castillo",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "88e357ef",
+   "season": 2018,
+   "distance": 3.803,
+   "survived": 1,
+   "fut_ability_v2": 71.3,
+   "player_name": "Serge Gnabry",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "45b9b619",
+   "season": 2019,
+   "distance": 3.956,
+   "survived": 1,
+   "fut_ability_v2": 68.7,
+   "player_name": "Joaquín Correa",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "dc1c2fce",
+   "season": 2018,
+   "distance": 3.964,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Álex Berenguer",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "beb391dd",
+   "season": 2020,
+   "distance": 4.204,
+   "survived": 1,
+   "fut_ability_v2": 41.2,
+   "player_name": "Maxwel Cornet",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "ed90babd",
+   "season": 2020,
+   "distance": 4.206,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Ounas",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "8b788c01",
+   "season": 2019,
+   "distance": 4.244,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Anthony Martial",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "53a0e358",
+   "season": 2018,
+   "distance": 4.304,
+   "survived": 1,
+   "fut_ability_v2": 70.7,
+   "player_name": "Domenico Berardi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "4737cebe",
+   "season": 2018,
+   "distance": 4.404,
+   "survived": 1,
+   "fut_ability_v2": 63.8,
+   "player_name": "Adnan Januzaj",
+   "squad": "Real Sociedad"
+  }
+ ],
+ "low_confidence": true
 }

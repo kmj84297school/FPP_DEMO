@@ -26,10 +26,114 @@
   "confidence": 1.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.9763,
+  "mu": 62.8,
+  "ci80": {
+   "lo": 52.5,
+   "hi": 73.0
+  },
+  "ci50": {
+   "lo": 57.4,
+   "hi": 68.2
+  },
+  "sigma_model": 2.784,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2b114be3",
+   "season": 2018,
+   "distance": 3.009,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "Leroy Sané",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "2b114be3",
+   "season": 2019,
+   "distance": 3.625,
+   "survived": 1,
+   "fut_ability_v2": 68.4,
+   "player_name": "Leroy Sané",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "c17bfb65",
+   "season": 2019,
+   "distance": 3.7,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Joelinton",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "6f8cd6d0",
+   "season": 2020,
+   "distance": 3.752,
+   "survived": 1,
+   "fut_ability_v2": 62.0,
+   "player_name": "Marcus Thuram",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "88e357ef",
+   "season": 2018,
+   "distance": 3.921,
+   "survived": 1,
+   "fut_ability_v2": 71.3,
+   "player_name": "Serge Gnabry",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "b400bde0",
+   "season": 2018,
+   "distance": 4.001,
+   "survived": 1,
+   "fut_ability_v2": 73.7,
+   "player_name": "Raheem Sterling",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "b2bd0f6c",
+   "season": 2018,
+   "distance": 4.196,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Jonathan Bamba",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "4737cebe",
+   "season": 2018,
+   "distance": 4.227,
+   "survived": 1,
+   "fut_ability_v2": 63.8,
+   "player_name": "Adnan Januzaj",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "20730eae",
+   "season": 2020,
+   "distance": 4.296,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Rafael Leão",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "178ae8f8",
+   "season": 2019,
+   "distance": 4.429,
+   "survived": 1,
+   "fut_ability_v2": 73.1,
+   "player_name": "Diogo Jota",
+   "squad": "Wolves"
+  }
+ ],
+ "low_confidence": true
 }

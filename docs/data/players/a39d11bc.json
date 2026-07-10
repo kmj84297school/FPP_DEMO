@@ -26,10 +26,114 @@
   "confidence": 1.91
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8379,
+  "mu": 43.4,
+  "ci80": {
+   "lo": 32.9,
+   "hi": 53.9
+  },
+  "ci50": {
+   "lo": 37.9,
+   "hi": 48.9
+  },
+  "sigma_model": 3.244,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c3ee18ef",
+   "season": 2018,
+   "distance": 2.652,
+   "survived": 1,
+   "fut_ability_v2": 67.8,
+   "player_name": "Lucas Hernández",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "5e66fa06",
+   "season": 2018,
+   "distance": 2.708,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Waldemar Anton",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "167d5018",
+   "season": 2019,
+   "distance": 2.777,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Félix Eboa Eboa",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "5ed9b537",
+   "season": 2019,
+   "distance": 2.858,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Ibrahima Konaté",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "a3d94a58",
+   "season": 2019,
+   "distance": 2.864,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Cristian Romero",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "b5bf1770",
+   "season": 2019,
+   "distance": 2.872,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Lyanco",
+   "squad": "Bologna / Torino"
+  },
+  {
+   "fbref_id": "167d5018",
+   "season": 2018,
+   "distance": 2.93,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Félix Eboa Eboa",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "6e33125f",
+   "season": 2019,
+   "distance": 2.98,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Kevin Danso",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "70d8e84c",
+   "season": 2018,
+   "distance": 2.989,
+   "survived": 1,
+   "fut_ability_v2": 41.3,
+   "player_name": "Chidozie Awaziem",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "2d61d13a",
+   "season": 2020,
+   "distance": 3.177,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Ozan Kabak",
+   "squad": "Schalke 04"
+  }
+ ],
  "low_confidence": false
 }

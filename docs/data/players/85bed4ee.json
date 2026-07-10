@@ -26,10 +26,114 @@
   "confidence": 0.09
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9389,
+  "mu": 50.7,
+  "ci80": {
+   "lo": 40.2,
+   "hi": 61.2
+  },
+  "ci50": {
+   "lo": 45.1,
+   "hi": 56.2
+  },
+  "sigma_model": 3.324,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ba3d3bea",
+   "season": 2018,
+   "distance": 2.809,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Cataldi",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "22bfb57e",
+   "season": 2020,
+   "distance": 2.846,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Jean-Victor Makengo",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "e1cbb531",
+   "season": 2019,
+   "distance": 2.85,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Stanislav Lobotka",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "0000acda",
+   "season": 2019,
+   "distance": 2.987,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Benassi",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "ed45c4a5",
+   "season": 2018,
+   "distance": 3.056,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Valentin Rongier",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "38126309",
+   "season": 2020,
+   "distance": 3.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleix Febas",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "5313ed43",
+   "season": 2018,
+   "distance": 3.117,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Seko Fofana",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "96960855",
+   "season": 2020,
+   "distance": 3.149,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Cassata",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "48b3dd60",
+   "season": 2019,
+   "distance": 3.204,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Arthur Melo",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "82927de4",
+   "season": 2020,
+   "distance": 3.225,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Pablo Fornals",
+   "squad": "West Ham"
+  }
+ ],
  "low_confidence": false
 }

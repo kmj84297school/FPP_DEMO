@@ -26,10 +26,114 @@
   "confidence": 0.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7767,
+  "mu": 58.3,
+  "ci80": {
+   "lo": 48.2,
+   "hi": 68.4
+  },
+  "ci50": {
+   "lo": 53.0,
+   "hi": 63.6
+  },
+  "sigma_model": 2.493,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "36a59ba4",
+   "season": 2020,
+   "distance": 1.947,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Florian Neuhaus",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "56f7a928",
+   "season": 2020,
+   "distance": 1.954,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Youri Tielemans",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2018,
+   "distance": 1.982,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Joan Jordán",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "e280527c",
+   "season": 2018,
+   "distance": 2.087,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "cea4ee8f",
+   "season": 2019,
+   "distance": 2.14,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Dele Alli",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "b2bd0f6c",
+   "season": 2020,
+   "distance": 2.253,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Jonathan Bamba",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "c9e39d91",
+   "season": 2019,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Brais Méndez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "b2bd0f6c",
+   "season": 2019,
+   "distance": 2.349,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Jonathan Bamba",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "a167537f",
+   "season": 2020,
+   "distance": 2.396,
+   "survived": 1,
+   "fut_ability_v2": 69.7,
+   "player_name": "Julian Brandt",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "fed17f5a",
+   "season": 2019,
+   "distance": 2.406,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Carlos Soler",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

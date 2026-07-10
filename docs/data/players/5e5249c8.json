@@ -26,10 +26,114 @@
   "confidence": 0.38
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6498,
+  "mu": 48.6,
+  "ci80": {
+   "lo": 38.8,
+   "hi": 58.5
+  },
+  "ci50": {
+   "lo": 43.5,
+   "hi": 53.8
+  },
+  "sigma_model": 1.75,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3010aefb",
+   "season": 2018,
+   "distance": 2.13,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Marcus Coco",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "5eebbfdf",
+   "season": 2019,
+   "distance": 2.135,
+   "survived": 1,
+   "fut_ability_v2": 36.6,
+   "player_name": "Kenedy",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "be5e1c4c",
+   "season": 2020,
+   "distance": 2.239,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dawid Kownacki",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "bb5fbd2b",
+   "season": 2018,
+   "distance": 2.273,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Solly March",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "16daec92",
+   "season": 2018,
+   "distance": 2.274,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Mijat Gaćinović",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "66385c46",
+   "season": 2020,
+   "distance": 2.367,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Levin Öztunalı",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "49ea92be",
+   "season": 2019,
+   "distance": 2.424,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iñigo Córdoba",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "a0666d3e",
+   "season": 2019,
+   "distance": 2.457,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Will Hughes",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "3010aefb",
+   "season": 2019,
+   "distance": 2.548,
+   "survived": 1,
+   "fut_ability_v2": 41.4,
+   "player_name": "Marcus Coco",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "8846a40f",
+   "season": 2020,
+   "distance": 2.565,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Mathias Pereira Lage",
+   "squad": "Angers"
+  }
+ ],
  "low_confidence": false
 }

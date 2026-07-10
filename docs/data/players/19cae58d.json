@@ -26,10 +26,114 @@
   "confidence": 0.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.9824,
+  "mu": 59.2,
+  "ci80": {
+   "lo": 49.0,
+   "hi": 69.4
+  },
+  "ci50": {
+   "lo": 53.8,
+   "hi": 64.6
+  },
+  "sigma_model": 2.685,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0db169ae",
+   "season": 2020,
+   "distance": 3.619,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Sandro Tonali",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "fed7cb61",
+   "season": 2018,
+   "distance": 3.696,
+   "survived": 1,
+   "fut_ability_v2": 62.5,
+   "player_name": "Kai Havertz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "9be4ee80",
+   "season": 2018,
+   "distance": 3.765,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrija Balić",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "a5db0bec",
+   "season": 2018,
+   "distance": 3.896,
+   "survived": 1,
+   "fut_ability_v2": 67.8,
+   "player_name": "Houssem Aouar",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "37f606f0",
+   "season": 2018,
+   "distance": 3.936,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Dennis Geiger",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "15413fa5",
+   "season": 2018,
+   "distance": 4.055,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Salih Özcan",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "ab700320",
+   "season": 2019,
+   "distance": 4.144,
+   "survived": 1,
+   "fut_ability_v2": 41.0,
+   "player_name": "Arne Maier",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "5722eced",
+   "season": 2018,
+   "distance": 4.174,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Mickaël Cuisance",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "bced0375",
+   "season": 2018,
+   "distance": 4.249,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Ibrahim Sangaré",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "26777636",
+   "season": 2020,
+   "distance": 4.254,
+   "survived": 1,
+   "fut_ability_v2": 60.3,
+   "player_name": "Yacine Adli",
+   "squad": "Bordeaux"
+  }
+ ],
+ "low_confidence": true
 }

@@ -26,10 +26,114 @@
   "confidence": 1.68
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6188,
+  "mu": 46.0,
+  "ci80": {
+   "lo": 36.0,
+   "hi": 56.0
+  },
+  "ci50": {
+   "lo": 40.7,
+   "hi": 51.2
+  },
+  "sigma_model": 2.174,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d97f2e8d",
+   "season": 2019,
+   "distance": 2.004,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Fabio Depaoli",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "b7a5bc86",
+   "season": 2019,
+   "distance": 2.019,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Mohamed Fares",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "442b56fa",
+   "season": 2020,
+   "distance": 2.047,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Ridle Baku",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "31a62dc7",
+   "season": 2019,
+   "distance": 2.156,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Zeki Çelik",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "8954fddc",
+   "season": 2020,
+   "distance": 2.358,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mohamed Dräger",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "6dfd8f05",
+   "season": 2020,
+   "distance": 2.368,
+   "survived": 1,
+   "fut_ability_v2": 41.9,
+   "player_name": "Romain Perraud",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "674cfc5a",
+   "season": 2020,
+   "distance": 2.371,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Strefezza",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "8ff4872e",
+   "season": 2018,
+   "distance": 2.381,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Ikoko",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "ed9f7cfe",
+   "season": 2020,
+   "distance": 2.409,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Renan Lodi",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "57df7a11",
+   "season": 2018,
+   "distance": 2.43,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Arthur Masuaku",
+   "squad": "West Ham"
+  }
+ ],
  "low_confidence": false
 }

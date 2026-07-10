@@ -26,10 +26,114 @@
   "confidence": 1.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5368,
+  "mu": 39.1,
+  "ci80": {
+   "lo": 28.6,
+   "hi": 49.6
+  },
+  "ci50": {
+   "lo": 33.6,
+   "hi": 44.6
+  },
+  "sigma_model": 3.281,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "923f4dda",
+   "season": 2020,
+   "distance": 2.28,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "bfae110f",
+   "season": 2020,
+   "distance": 2.508,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wesley Moraes",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "7b536033",
+   "season": 2019,
+   "distance": 2.515,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mariusz Stępiński",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "1fca9171",
+   "season": 2018,
+   "distance": 2.517,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Federico Di Francesco",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 2.519,
+   "survived": 1,
+   "fut_ability_v2": 35.7,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "03f946ed",
+   "season": 2019,
+   "distance": 2.599,
+   "survived": 1,
+   "fut_ability_v2": 65.7,
+   "player_name": "Andrea Petagna",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "74c7c2db",
+   "season": 2018,
+   "distance": 2.614,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Robin Quaison",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "21f8d950",
+   "season": 2020,
+   "distance": 2.639,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Efthimis Koulouris",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "718b8afd",
+   "season": 2020,
+   "distance": 2.732,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Florian Ayé",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "c17bfb65",
+   "season": 2020,
+   "distance": 2.786,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Joelinton",
+   "squad": "Newcastle Utd"
+  }
+ ],
  "low_confidence": false
 }

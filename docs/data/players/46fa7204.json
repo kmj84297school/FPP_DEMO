@@ -26,10 +26,114 @@
   "confidence": 0.85
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7586,
+  "mu": 42.9,
+  "ci80": {
+   "lo": 32.5,
+   "hi": 53.2
+  },
+  "ci50": {
+   "lo": 37.4,
+   "hi": 48.3
+  },
+  "sigma_model": 2.981,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "16daec92",
+   "season": 2019,
+   "distance": 2.489,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mijat Gaćinović",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "bb5fbd2b",
+   "season": 2018,
+   "distance": 2.502,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Solly March",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "5eebbfdf",
+   "season": 2019,
+   "distance": 2.528,
+   "survived": 1,
+   "fut_ability_v2": 36.6,
+   "player_name": "Kenedy",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "66385c46",
+   "season": 2019,
+   "distance": 2.564,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Levin Öztunalı",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "96960855",
+   "season": 2020,
+   "distance": 2.629,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Cassata",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "392d98fc",
+   "season": 2018,
+   "distance": 2.706,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Harrison Manzala",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "796b1c41",
+   "season": 2019,
+   "distance": 2.715,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Saîf-Eddine Khaoui",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "10e25802",
+   "season": 2019,
+   "distance": 2.874,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Esteban Rolón",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "a0666d3e",
+   "season": 2019,
+   "distance": 2.887,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Will Hughes",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "58afe001",
+   "season": 2019,
+   "distance": 2.901,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Mauro Arambarri",
+   "squad": "Getafe"
+  }
+ ],
  "low_confidence": false
 }

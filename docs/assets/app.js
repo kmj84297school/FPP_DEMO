@@ -58,3 +58,14 @@ fetch("data/index.json")
     document.getElementById("resultCount").textContent = "데이터 로드 실패";
     console.error(err);
   });
+
+fetch("data/meta.json")
+  .then((r) => r.json())
+  .then((meta) => {
+    const partialNote = meta.is_partial_season
+      ? ` (${meta.target_year}시즌은 데이터 수집 시점상 부분 시즌이라, 원래 기준(${meta.original_pred_min_minutes}분)을 실제 관측된 최대 출전시간(${meta.season_max_minutes}분) 대비 동일 비율로 환산했습니다.)`
+      : "";
+    document.getElementById("eligibilityHint").textContent =
+      `현재능력 점수는 전체 검색 대상에게, 잔존확률·미래잠재력·유사선수 비교는 만 ${meta.pred_age_max}세 이하·${meta.pred_min_minutes}분 이상 출전 선수에게만 제공됩니다.${partialNote}`;
+  })
+  .catch(() => {});

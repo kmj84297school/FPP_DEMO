@@ -26,10 +26,114 @@
   "confidence": 0.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7343,
+  "mu": 46.7,
+  "ci80": {
+   "lo": 36.8,
+   "hi": 56.7
+  },
+  "ci50": {
+   "lo": 41.5,
+   "hi": 52.0
+  },
+  "sigma_model": 1.979,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "af0c835b",
+   "season": 2019,
+   "distance": 1.481,
+   "survived": 1,
+   "fut_ability_v2": 41.4,
+   "player_name": "Samuel Moutoussamy",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "ec3efd7f",
+   "season": 2018,
+   "distance": 2.212,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zakaria Bakkali",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "f63d8a4b",
+   "season": 2020,
+   "distance": 2.218,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Todd Cantwell",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "96960855",
+   "season": 2019,
+   "distance": 2.229,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Cassata",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "3010aefb",
+   "season": 2018,
+   "distance": 2.254,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Marcus Coco",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "fed17f5a",
+   "season": 2019,
+   "distance": 2.319,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Carlos Soler",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "7cf431a5",
+   "season": 2018,
+   "distance": 2.33,
+   "survived": 1,
+   "fut_ability_v2": 35.8,
+   "player_name": "James Lea Siliki",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "6191093d",
+   "season": 2020,
+   "distance": 2.332,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Ludovic Blas",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "9907b1c8",
+   "season": 2019,
+   "distance": 2.42,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Nicolò Zaniolo",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "31114001",
+   "season": 2018,
+   "distance": 2.457,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Berkay Özcan",
+   "squad": "Stuttgart"
+  }
+ ],
  "low_confidence": false
 }

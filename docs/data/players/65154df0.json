@@ -26,10 +26,114 @@
   "confidence": 1.68
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7507,
+  "mu": 43.7,
+  "ci80": {
+   "lo": 33.6,
+   "hi": 53.8
+  },
+  "ci50": {
+   "lo": 38.4,
+   "hi": 49.0
+  },
+  "sigma_model": 2.509,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4468ec10",
+   "season": 2019,
+   "distance": 2.097,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Demarai Gray",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "0000acda",
+   "season": 2019,
+   "distance": 2.213,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Benassi",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "fa18c72e",
+   "season": 2018,
+   "distance": 2.258,
+   "survived": 1,
+   "fut_ability_v2": 59.6,
+   "player_name": "Luiz Araújo",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "d2448564",
+   "season": 2020,
+   "distance": 2.342,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Samuel Grandsir",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "d3298c99",
+   "season": 2018,
+   "distance": 2.447,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Daniele Verde",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "9e90fb5d",
+   "season": 2020,
+   "distance": 2.459,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nikolas Špalek",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "81d3318f",
+   "season": 2019,
+   "distance": 2.627,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Kamano",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "05816e19",
+   "season": 2019,
+   "distance": 2.692,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Ferney Otero",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "82927de4",
+   "season": 2020,
+   "distance": 2.722,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Pablo Fornals",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "392d98fc",
+   "season": 2018,
+   "distance": 2.726,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Harrison Manzala",
+   "squad": "Amiens"
+  }
+ ],
  "low_confidence": false
 }

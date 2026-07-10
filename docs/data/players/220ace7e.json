@@ -26,10 +26,114 @@
   "confidence": 0.75
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3455,
+  "mu": 50.4,
+  "ci80": {
+   "lo": 40.4,
+   "hi": 60.4
+  },
+  "ci50": {
+   "lo": 45.1,
+   "hi": 55.6
+  },
+  "sigma_model": 2.115,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "95facda1",
+   "season": 2020,
+   "distance": 1.924,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Nahitan Nández",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "c9e39d91",
+   "season": 2020,
+   "distance": 1.976,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Brais Méndez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "d97f2e8d",
+   "season": 2020,
+   "distance": 1.996,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Depaoli",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "16daec92",
+   "season": 2019,
+   "distance": 2.212,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mijat Gaćinović",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "ce218223",
+   "season": 2018,
+   "distance": 2.242,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iver Fossum",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "6ca5ec4b",
+   "season": 2020,
+   "distance": 2.317,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Alex Iwobi",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2018,
+   "distance": 2.363,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "70678132",
+   "season": 2019,
+   "distance": 2.387,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Eduard Löwen",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2018,
+   "distance": 2.388,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Joan Jordán",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "6928979a",
+   "season": 2019,
+   "distance": 2.415,
+   "survived": 1,
+   "fut_ability_v2": 68.7,
+   "player_name": "Nicolò Barella",
+   "squad": "Cagliari"
+  }
+ ],
  "low_confidence": false
 }

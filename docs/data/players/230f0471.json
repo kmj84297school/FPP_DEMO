@@ -26,10 +26,114 @@
   "confidence": 1.12
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7035,
+  "mu": 41.4,
+  "ci80": {
+   "lo": 31.1,
+   "hi": 51.7
+  },
+  "ci50": {
+   "lo": 36.0,
+   "hi": 46.8
+  },
+  "sigma_model": 2.839,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fba81826",
+   "season": 2018,
+   "distance": 1.956,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Federico Mattiello",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "c3ee18ef",
+   "season": 2018,
+   "distance": 2.529,
+   "survived": 1,
+   "fut_ability_v2": 67.8,
+   "player_name": "Lucas Hernández",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "1fe0492d",
+   "season": 2018,
+   "distance": 2.573,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Rubén Duarte",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "ed9f7cfe",
+   "season": 2020,
+   "distance": 2.688,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Renan Lodi",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "f99fe221",
+   "season": 2020,
+   "distance": 2.736,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hamza Mendyl",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "cfbf9881",
+   "season": 2018,
+   "distance": 2.737,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Ibrahima Mbaye",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "099e666f",
+   "season": 2018,
+   "distance": 2.812,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Jonjoe Kenny",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "e54a9890",
+   "season": 2020,
+   "distance": 2.878,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Faitout Maouassa",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "41c12f75",
+   "season": 2020,
+   "distance": 2.887,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Mathías Olivera",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "13c44fc5",
+   "season": 2018,
+   "distance": 2.904,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jorge",
+   "squad": "Monaco"
+  }
+ ],
  "low_confidence": false
 }

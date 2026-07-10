@@ -26,10 +26,114 @@
   "confidence": 0.79
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9618,
+  "mu": 59.1,
+  "ci80": {
+   "lo": 49.0,
+   "hi": 69.3
+  },
+  "ci50": {
+   "lo": 53.8,
+   "hi": 64.5
+  },
+  "sigma_model": 2.532,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "51dbeea9",
+   "season": 2019,
+   "distance": 1.992,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Thilo Kehrer",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "7f609bfc",
+   "season": 2020,
+   "distance": 2.014,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Stefan Posch",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "67ac5bb8",
+   "season": 2020,
+   "distance": 2.081,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Gabriel Dos Santos",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "bee704fc",
+   "season": 2019,
+   "distance": 2.142,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Nikola Milenković",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "5aa53281",
+   "season": 2019,
+   "distance": 2.181,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Gianluca Mancini",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "cfbf9881",
+   "season": 2018,
+   "distance": 2.223,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Ibrahima Mbaye",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "be170419",
+   "season": 2018,
+   "distance": 2.262,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Unai Núñez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "e33c06cf",
+   "season": 2018,
+   "distance": 2.339,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Niklas Süle",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "5e66fa06",
+   "season": 2018,
+   "distance": 2.352,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Waldemar Anton",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "48035304",
+   "season": 2019,
+   "distance": 2.353,
+   "survived": 1,
+   "fut_ability_v2": 65.8,
+   "player_name": "Nico Elvedi",
+   "squad": "M'Gladbach"
+  }
+ ],
  "low_confidence": false
 }

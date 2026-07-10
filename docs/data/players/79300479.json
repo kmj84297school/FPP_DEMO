@@ -26,10 +26,114 @@
   "confidence": 0.99
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9518,
+  "mu": 58.9,
+  "ci80": {
+   "lo": 48.9,
+   "hi": 69.0
+  },
+  "ci50": {
+   "lo": 53.7,
+   "hi": 64.2
+  },
+  "sigma_model": 2.351,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a167537f",
+   "season": 2020,
+   "distance": 2.365,
+   "survived": 1,
+   "fut_ability_v2": 69.7,
+   "player_name": "Julian Brandt",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "e280527c",
+   "season": 2018,
+   "distance": 2.548,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "4e6dbac4",
+   "season": 2018,
+   "distance": 2.669,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "Sergej Milinković-Savić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "b2bd0f6c",
+   "season": 2020,
+   "distance": 2.732,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Jonathan Bamba",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "4e6dbac4",
+   "season": 2019,
+   "distance": 2.751,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Sergej Milinković-Savić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "cea4ee8f",
+   "season": 2019,
+   "distance": 2.782,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Dele Alli",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "82927de4",
+   "season": 2019,
+   "distance": 2.793,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Pablo Fornals",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "e7d59f4f",
+   "season": 2020,
+   "distance": 2.848,
+   "survived": 1,
+   "fut_ability_v2": 65.4,
+   "player_name": "Amine Harit",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "b2bd0f6c",
+   "season": 2019,
+   "distance": 2.88,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Jonathan Bamba",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "36a59ba4",
+   "season": 2020,
+   "distance": 2.91,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Florian Neuhaus",
+   "squad": "M'Gladbach"
+  }
+ ],
  "low_confidence": false
 }

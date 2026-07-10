@@ -26,10 +26,114 @@
   "confidence": 1.13
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4055,
+  "mu": 42.1,
+  "ci80": {
+   "lo": 32.1,
+   "hi": 52.0
+  },
+  "ci50": {
+   "lo": 36.8,
+   "hi": 47.3
+  },
+  "sigma_model": 2.007,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "58afe001",
+   "season": 2019,
+   "distance": 2.341,
+   "survived": 1,
+   "fut_ability_v2": 39.6,
+   "player_name": "Mauro Arambarri",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "7cf431a5",
+   "season": 2020,
+   "distance": 2.346,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "James Lea Siliki",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "283c7121",
+   "season": 2020,
+   "distance": 2.387,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Edu Expósito",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "26db8853",
+   "season": 2019,
+   "distance": 2.418,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Walace",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "d328a254",
+   "season": 2020,
+   "distance": 2.514,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Philip Billing",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "d1b49282",
+   "season": 2020,
+   "distance": 2.599,
+   "survived": 1,
+   "fut_ability_v2": 38.6,
+   "player_name": "Morten Thorsby",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "bb5fbd2b",
+   "season": 2018,
+   "distance": 2.608,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Solly March",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "3189f61a",
+   "season": 2019,
+   "distance": 2.62,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Nabil Bentaleb",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "bfd381b3",
+   "season": 2020,
+   "distance": 2.653,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Iddrisu Baba",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "6bd603db",
+   "season": 2019,
+   "distance": 2.663,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean-Philippe Gbamin",
+   "squad": "Mainz 05"
+  }
+ ],
  "low_confidence": false
 }

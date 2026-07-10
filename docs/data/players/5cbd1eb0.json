@@ -26,10 +26,114 @@
   "confidence": 0.36
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5873,
+  "mu": 45.9,
+  "ci80": {
+   "lo": 35.9,
+   "hi": 55.8
+  },
+  "ci50": {
+   "lo": 40.6,
+   "hi": 51.1
+  },
+  "sigma_model": 2.16,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "073b1b37",
+   "season": 2020,
+   "distance": 1.922,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lumor Agbenyenu",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "9b88e120",
+   "season": 2019,
+   "distance": 2.017,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Bauer",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "355c883a",
+   "season": 2019,
+   "distance": 2.085,
+   "survived": 1,
+   "fut_ability_v2": 42.6,
+   "player_name": "Martin Agirregabiria",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "099e666f",
+   "season": 2020,
+   "distance": 2.085,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Jonjoe Kenny",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "8ff4872e",
+   "season": 2018,
+   "distance": 2.233,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Ikoko",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "19f8e480",
+   "season": 2019,
+   "distance": 2.33,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergi Palencia",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "276cce2e",
+   "season": 2018,
+   "distance": 2.351,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Rebocho",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "b66d1d8a",
+   "season": 2020,
+   "distance": 2.415,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Florian Miguel",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "8746d5d0",
+   "season": 2020,
+   "distance": 2.419,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Burner",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "90eb507d",
+   "season": 2019,
+   "distance": 2.474,
+   "survived": 1,
+   "fut_ability_v2": 40.8,
+   "player_name": "Thomas Foket",
+   "squad": "Reims"
+  }
+ ],
  "low_confidence": false
 }

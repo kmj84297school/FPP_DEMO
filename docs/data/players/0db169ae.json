@@ -26,10 +26,114 @@
   "confidence": 1.12
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8083,
+  "mu": 46.9,
+  "ci80": {
+   "lo": 36.7,
+   "hi": 57.2
+  },
+  "ci50": {
+   "lo": 41.5,
+   "hi": 52.3
+  },
+  "sigma_model": 2.851,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d56543a0",
+   "season": 2018,
+   "distance": 2.553,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Ryan Fraser",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "1daec722",
+   "season": 2020,
+   "distance": 2.57,
+   "survived": 1,
+   "fut_ability_v2": 64.1,
+   "player_name": "Marc Cucurella",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "c9e39d91",
+   "season": 2019,
+   "distance": 2.584,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Brais Méndez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "0000acda",
+   "season": 2018,
+   "distance": 2.594,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Marco Benassi",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "56f7a928",
+   "season": 2020,
+   "distance": 2.615,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Youri Tielemans",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "fed17f5a",
+   "season": 2019,
+   "distance": 2.683,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Carlos Soler",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "1ea5f91c",
+   "season": 2018,
+   "distance": 2.699,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Jakub Jankto",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "c76b7567",
+   "season": 2018,
+   "distance": 2.721,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Adrien Thomasson",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "8846a40f",
+   "season": 2020,
+   "distance": 2.722,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Mathias Pereira Lage",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "e280527c",
+   "season": 2018,
+   "distance": 2.728,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  }
+ ],
  "low_confidence": false
 }

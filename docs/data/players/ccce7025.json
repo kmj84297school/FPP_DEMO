@@ -26,10 +26,114 @@
   "confidence": 0.6
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9583,
+  "mu": 51.9,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 62.1
+  },
+  "ci50": {
+   "lo": 46.5,
+   "hi": 57.3
+  },
+  "sigma_model": 2.753,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ca8033cb",
+   "season": 2018,
+   "distance": 1.882,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Lukas Klostermann",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "ea6bc03a",
+   "season": 2020,
+   "distance": 2.223,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "Robin Koch",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "45a03961",
+   "season": 2019,
+   "distance": 2.275,
+   "survived": 1,
+   "fut_ability_v2": 66.3,
+   "player_name": "Benjamin Pavard",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "5aa53281",
+   "season": 2020,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Gianluca Mancini",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "fb77bfef",
+   "season": 2019,
+   "distance": 2.396,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Kevin Bonifazi",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "00242715",
+   "season": 2020,
+   "distance": 2.416,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Moussa Niakhate",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "aad48be9",
+   "season": 2018,
+   "distance": 2.446,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "ca8033cb",
+   "season": 2020,
+   "distance": 2.458,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Lukas Klostermann",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "4fdf1fd9",
+   "season": 2019,
+   "distance": 2.473,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Björn Engels",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "bd142efb",
+   "season": 2018,
+   "distance": 2.474,
+   "survived": 1,
+   "fut_ability_v2": 64.0,
+   "player_name": "Jonathan Tah",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,114 @@
   "confidence": 0.45
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6575,
+  "mu": 61.2,
+  "ci80": {
+   "lo": 51.2,
+   "hi": 71.1
+  },
+  "ci50": {
+   "lo": 55.9,
+   "hi": 66.4
+  },
+  "sigma_model": 2.1,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "79300479",
+   "season": 2020,
+   "distance": 2.934,
+   "survived": 1,
+   "fut_ability_v2": 66.6,
+   "player_name": "Martin Ødegaard",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "a5db0bec",
+   "season": 2019,
+   "distance": 3.016,
+   "survived": 1,
+   "fut_ability_v2": 69.0,
+   "player_name": "Houssem Aouar",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "555d5edd",
+   "season": 2018,
+   "distance": 3.106,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Nadiem Amiri",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "379652be",
+   "season": 2019,
+   "distance": 3.144,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Óscar Melendo",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "e6bc67d7",
+   "season": 2018,
+   "distance": 3.203,
+   "survived": 1,
+   "fut_ability_v2": 54.3,
+   "player_name": "Gonçalo Guedes",
+   "squad": "Valencia / Paris S-G"
+  },
+  {
+   "fbref_id": "9674002f",
+   "season": 2020,
+   "distance": 3.395,
+   "survived": 1,
+   "fut_ability_v2": 70.9,
+   "player_name": "Mason Mount",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "fed7cb61",
+   "season": 2018,
+   "distance": 3.443,
+   "survived": 1,
+   "fut_ability_v2": 62.5,
+   "player_name": "Kai Havertz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "4b96c347",
+   "season": 2018,
+   "distance": 3.465,
+   "survived": 1,
+   "fut_ability_v2": 64.0,
+   "player_name": "Angelo Fulgini",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "a8a874f1",
+   "season": 2019,
+   "distance": 3.49,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Manuel Locatelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "a5db0bec",
+   "season": 2018,
+   "distance": 3.497,
+   "survived": 1,
+   "fut_ability_v2": 67.8,
+   "player_name": "Houssem Aouar",
+   "squad": "Lyon"
+  }
+ ],
  "low_confidence": false
 }

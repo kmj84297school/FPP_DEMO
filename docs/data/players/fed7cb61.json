@@ -26,10 +26,114 @@
   "confidence": 0.8
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9664,
+  "mu": 49.7,
+  "ci80": {
+   "lo": 38.7,
+   "hi": 60.8
+  },
+  "ci50": {
+   "lo": 43.9,
+   "hi": 55.5
+  },
+  "sigma_model": 4.272,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c17bfb65",
+   "season": 2020,
+   "distance": 3.052,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Joelinton",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "78b8ac63",
+   "season": 2020,
+   "distance": 3.2,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oliver McBurnie",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "e5a35ae9",
+   "season": 2019,
+   "distance": 3.228,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Waldschmidt",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "8696bc90",
+   "season": 2020,
+   "distance": 3.262,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Munir El Haddadi",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "0a447501",
+   "season": 2020,
+   "distance": 3.292,
+   "survived": 1,
+   "fut_ability_v2": 38.7,
+   "player_name": "Antonio Sanabria",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "923f4dda",
+   "season": 2020,
+   "distance": 3.347,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "90fcf472",
+   "season": 2019,
+   "distance": 3.493,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wesley Saïd",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "0b90bb97",
+   "season": 2020,
+   "distance": 3.503,
+   "survived": 1,
+   "fut_ability_v2": 40.0,
+   "player_name": "Santi Mina",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "2054d037",
+   "season": 2018,
+   "distance": 3.517,
+   "survived": 1,
+   "fut_ability_v2": 35.5,
+   "player_name": "M'Baye Niang",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "2054d037",
+   "season": 2019,
+   "distance": 3.532,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "M'Baye Niang",
+   "squad": "Rennes"
+  }
+ ],
  "low_confidence": false
 }

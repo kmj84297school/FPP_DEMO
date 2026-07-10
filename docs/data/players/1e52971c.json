@@ -26,10 +26,114 @@
   "confidence": 0.33
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8357,
+  "mu": 49.6,
+  "ci80": {
+   "lo": 39.8,
+   "hi": 59.5
+  },
+  "ci50": {
+   "lo": 44.4,
+   "hi": 54.8
+  },
+  "sigma_model": 1.698,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c46fa34c",
+   "season": 2018,
+   "distance": 2.075,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Youssef Aït Bennasser",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "db092d3b",
+   "season": 2020,
+   "distance": 2.145,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Ismaël Bennacer",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "91e58f66",
+   "season": 2018,
+   "distance": 2.19,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Maia",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "ae59b359",
+   "season": 2020,
+   "distance": 2.452,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Boubakary Soumaré",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "6f7d826d",
+   "season": 2019,
+   "distance": 2.582,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Douglas Luiz",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "db092d3b",
+   "season": 2019,
+   "distance": 2.618,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Ismaël Bennacer",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "4f255115",
+   "season": 2020,
+   "distance": 2.674,
+   "survived": 1,
+   "fut_ability_v2": 64.6,
+   "player_name": "Aurélien Tchouaméni",
+   "squad": "Bordeaux / Monaco"
+  },
+  {
+   "fbref_id": "2afc7272",
+   "season": 2018,
+   "distance": 2.8,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Lewis Cook",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "bced0375",
+   "season": 2019,
+   "distance": 2.859,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibrahim Sangaré",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "ffbbc83b",
+   "season": 2018,
+   "distance": 2.876,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Florian Grillitsch",
+   "squad": "Hoffenheim"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,114 @@
   "confidence": 2.25
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9487,
+  "mu": 43.7,
+  "ci80": {
+   "lo": 33.7,
+   "hi": 53.8
+  },
+  "ci50": {
+   "lo": 38.5,
+   "hi": 49.0
+  },
+  "sigma_model": 2.229,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0118c54c",
+   "season": 2019,
+   "distance": 1.963,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Anthony Caci",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "c3ee18ef",
+   "season": 2018,
+   "distance": 1.991,
+   "survived": 1,
+   "fut_ability_v2": 67.8,
+   "player_name": "Lucas Hernández",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "bcc81786",
+   "season": 2019,
+   "distance": 2.002,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Kelvin Amian",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "64ba07c0",
+   "season": 2018,
+   "distance": 2.063,
+   "survived": 1,
+   "fut_ability_v2": 51.4,
+   "player_name": "Ronaël Pierre-Gabriel",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "f449640d",
+   "season": 2018,
+   "distance": 2.093,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Fodé Ballo-Touré",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "a9142dc3",
+   "season": 2018,
+   "distance": 2.14,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Timothy Fosu-Mensah",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "efb9215a",
+   "season": 2020,
+   "distance": 2.143,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jamal Lewis",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "8f325097",
+   "season": 2019,
+   "distance": 2.298,
+   "survived": 1,
+   "fut_ability_v2": 41.9,
+   "player_name": "Nicolas Cozza",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "e3a5814e",
+   "season": 2020,
+   "distance": 2.347,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ainsley Maitland-Niles",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "f99fe221",
+   "season": 2020,
+   "distance": 2.383,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hamza Mendyl",
+   "squad": "Dijon"
+  }
+ ],
  "low_confidence": false
 }

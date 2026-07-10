@@ -26,10 +26,114 @@
   "confidence": 0.6
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7976,
+  "mu": 49.9,
+  "ci80": {
+   "lo": 40.0,
+   "hi": 59.8
+  },
+  "ci50": {
+   "lo": 44.7,
+   "hi": 55.1
+  },
+  "sigma_model": 1.848,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "deb748c9",
+   "season": 2020,
+   "distance": 1.931,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleš Matějů",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "6ec6fde0",
+   "season": 2018,
+   "distance": 2.178,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Kevin Akpoguma",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "a5ae8f8e",
+   "season": 2020,
+   "distance": 2.179,
+   "survived": 1,
+   "fut_ability_v2": 43.0,
+   "player_name": "Miloš Veljković",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "45a03961",
+   "season": 2019,
+   "distance": 2.249,
+   "survived": 1,
+   "fut_ability_v2": 66.3,
+   "player_name": "Benjamin Pavard",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "983ff2c7",
+   "season": 2018,
+   "distance": 2.329,
+   "survived": 1,
+   "fut_ability_v2": 36.0,
+   "player_name": "Lorenzo Venuti",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2018,
+   "distance": 2.345,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "fe6a7685",
+   "season": 2020,
+   "distance": 2.347,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Cistana",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "15d0c248",
+   "season": 2020,
+   "distance": 2.361,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Luiz Felipe",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "fb77bfef",
+   "season": 2019,
+   "distance": 2.37,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Kevin Bonifazi",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "c00097d2",
+   "season": 2019,
+   "distance": 2.417,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Rober",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false
 }

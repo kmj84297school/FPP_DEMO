@@ -26,10 +26,114 @@
   "confidence": 0.53
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9225,
+  "mu": 55.7,
+  "ci80": {
+   "lo": 45.6,
+   "hi": 65.7
+  },
+  "ci50": {
+   "lo": 50.3,
+   "hi": 61.0
+  },
+  "sigma_model": 2.399,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "36a59ba4",
+   "season": 2019,
+   "distance": 1.929,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Florian Neuhaus",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "15b287da",
+   "season": 2020,
+   "distance": 2.557,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Daichi Kamada",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "b2bd0f6c",
+   "season": 2020,
+   "distance": 2.607,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Jonathan Bamba",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "81d3318f",
+   "season": 2019,
+   "distance": 2.733,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Kamano",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "f63d8a4b",
+   "season": 2020,
+   "distance": 2.785,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Todd Cantwell",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "3708e9fa",
+   "season": 2019,
+   "distance": 2.789,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Aleksandr Golovin",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "c9e39d91",
+   "season": 2019,
+   "distance": 2.856,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Brais Méndez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "42eaa028",
+   "season": 2020,
+   "distance": 2.891,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Jonathan Ikone",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "5148dcc5",
+   "season": 2019,
+   "distance": 2.917,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "Martin Terrier",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "6e7f1353",
+   "season": 2018,
+   "distance": 2.919,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Morgan Sanson",
+   "squad": "Marseille"
+  }
+ ],
  "low_confidence": false
 }

@@ -123,4 +123,9 @@ if __name__ == "__main__":
     with open(DOCS_DATA / "index.json", "w", encoding="utf-8") as f:
         json.dump(index_entries, f, ensure_ascii=False, indent=1)
 
+    with open(CACHE / "eligibility_meta.json", encoding="utf-8") as f:
+        meta = json.load(f)
+    with open(DOCS_DATA / "meta.json", "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=1)
+
     print(f"저장 완료: {len(index_entries)}명 -> {DOCS_DATA}")

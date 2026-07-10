@@ -26,10 +26,114 @@
   "confidence": 0.24
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9425,
+  "mu": 57.3,
+  "ci80": {
+   "lo": 47.3,
+   "hi": 67.3
+  },
+  "ci50": {
+   "lo": 52.0,
+   "hi": 62.6
+  },
+  "sigma_model": 2.247,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a8a874f1",
+   "season": 2020,
+   "distance": 2.042,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Manuel Locatelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "5cdddffa",
+   "season": 2019,
+   "distance": 2.462,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Tanguy Ndombele",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "86695068",
+   "season": 2018,
+   "distance": 2.903,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Dennis Praet",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "6928979a",
+   "season": 2020,
+   "distance": 2.952,
+   "survived": 1,
+   "fut_ability_v2": 68.8,
+   "player_name": "Nicolò Barella",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "c0c7ff58",
+   "season": 2020,
+   "distance": 2.988,
+   "survived": 1,
+   "fut_ability_v2": 65.9,
+   "player_name": "Fabián Ruiz Peña",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "c0617e2b",
+   "season": 2020,
+   "distance": 3.111,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dani Ceballos",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "56f7a928",
+   "season": 2020,
+   "distance": 3.114,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Youri Tielemans",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "b70bde8f",
+   "season": 2018,
+   "distance": 3.216,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Sensi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "a10361d2",
+   "season": 2019,
+   "distance": 3.216,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleix García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "c0c7ff58",
+   "season": 2018,
+   "distance": 3.232,
+   "survived": 1,
+   "fut_ability_v2": 68.2,
+   "player_name": "Fabián Ruiz Peña",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

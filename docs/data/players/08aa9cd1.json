@@ -26,10 +26,114 @@
   "confidence": 0.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7907,
+  "mu": 39.6,
+  "ci80": {
+   "lo": 28.8,
+   "hi": 50.4
+  },
+  "ci50": {
+   "lo": 33.9,
+   "hi": 45.3
+  },
+  "sigma_model": 3.865,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6922f806",
+   "season": 2018,
+   "distance": 2.425,
+   "survived": 1,
+   "fut_ability_v2": 40.5,
+   "player_name": "Jonathan Calleri",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 2.846,
+   "survived": 1,
+   "fut_ability_v2": 35.7,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "7b536033",
+   "season": 2019,
+   "distance": 3.083,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mariusz Stępiński",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "923f4dda",
+   "season": 2020,
+   "distance": 3.175,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "1238a3f9",
+   "season": 2018,
+   "distance": 3.184,
+   "survived": 1,
+   "fut_ability_v2": 26.9,
+   "player_name": "Davie Selke",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "e7986081",
+   "season": 2020,
+   "distance": 3.228,
+   "survived": 1,
+   "fut_ability_v2": 65.4,
+   "player_name": "Moussa Dembélé",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "06f33dc8",
+   "season": 2019,
+   "distance": 3.267,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enzo Crivelli",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "19ba6c6d",
+   "season": 2018,
+   "distance": 3.291,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Steve Mounié",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "343c0d52",
+   "season": 2019,
+   "distance": 3.33,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Giovanni Simeone",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "4c2e9442",
+   "season": 2020,
+   "distance": 3.342,
+   "survived": 1,
+   "fut_ability_v2": 30.4,
+   "player_name": "Maxi Gómez",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false
 }

@@ -26,10 +26,114 @@
   "confidence": 0.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3273,
+  "mu": 46.9,
+  "ci80": {
+   "lo": 36.9,
+   "hi": 56.9
+  },
+  "ci50": {
+   "lo": 41.7,
+   "hi": 52.2
+  },
+  "sigma_model": 2.173,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4bf69118",
+   "season": 2020,
+   "distance": 2.023,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Enock Kwateng",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "cfbf9881",
+   "season": 2018,
+   "distance": 2.058,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Ibrahima Mbaye",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "099e666f",
+   "season": 2018,
+   "distance": 2.085,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Jonjoe Kenny",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "c3ee18ef",
+   "season": 2018,
+   "distance": 2.093,
+   "survived": 1,
+   "fut_ability_v2": 67.8,
+   "player_name": "Lucas Hernández",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "f86ad3f5",
+   "season": 2020,
+   "distance": 2.363,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Marco Friedl",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "fba81826",
+   "season": 2018,
+   "distance": 2.425,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Federico Mattiello",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "d183e9d6",
+   "season": 2018,
+   "distance": 2.462,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Nicola Murru",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "1fe0492d",
+   "season": 2018,
+   "distance": 2.473,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Rubén Duarte",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "7f609bfc",
+   "season": 2020,
+   "distance": 2.524,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Stefan Posch",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "ed9f7cfe",
+   "season": 2020,
+   "distance": 2.568,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Renan Lodi",
+   "squad": "Atlético Madrid"
+  }
+ ],
  "low_confidence": false
 }

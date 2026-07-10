@@ -26,10 +26,114 @@
   "confidence": 2.65
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8122,
+  "mu": 47.6,
+  "ci80": {
+   "lo": 37.2,
+   "hi": 58.0
+  },
+  "ci50": {
+   "lo": 42.1,
+   "hi": 53.0
+  },
+  "sigma_model": 3.117,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "677da306",
+   "season": 2018,
+   "distance": 1.908,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Ohis Felix Uduokhai",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "5f26e0c5",
+   "season": 2020,
+   "distance": 1.915,
+   "survived": 1,
+   "fut_ability_v2": 45.6,
+   "player_name": "Harold Moukoudi",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "b5bf1770",
+   "season": 2019,
+   "distance": 2.129,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Lyanco",
+   "squad": "Bologna / Torino"
+  },
+  {
+   "fbref_id": "21166ff4",
+   "season": 2018,
+   "distance": 2.199,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Çağlar Söyüncü",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "c3ee18ef",
+   "season": 2018,
+   "distance": 2.219,
+   "survived": 1,
+   "fut_ability_v2": 67.8,
+   "player_name": "Lucas Hernández",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "677da306",
+   "season": 2020,
+   "distance": 2.228,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ohis Felix Uduokhai",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "f86cabbd",
+   "season": 2020,
+   "distance": 2.261,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Torunarigha",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "fed96827",
+   "season": 2020,
+   "distance": 2.264,
+   "survived": 1,
+   "fut_ability_v2": 40.0,
+   "player_name": "Chris Mepham",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "a40819d9",
+   "season": 2020,
+   "distance": 2.295,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Marash Kumbulla",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "7edfbb8a",
+   "season": 2020,
+   "distance": 2.325,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Fikayo Tomori",
+   "squad": "Chelsea"
+  }
+ ],
  "low_confidence": false
 }

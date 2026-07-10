@@ -26,10 +26,114 @@
   "confidence": 0.23
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9156,
+  "mu": 54.2,
+  "ci80": {
+   "lo": 44.1,
+   "hi": 64.3
+  },
+  "ci50": {
+   "lo": 48.9,
+   "hi": 59.5
+  },
+  "sigma_model": 2.348,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "441197b8",
+   "season": 2020,
+   "distance": 1.542,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Obite N'Dicka",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "ca8033cb",
+   "season": 2018,
+   "distance": 1.758,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Lukas Klostermann",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "e54a9890",
+   "season": 2020,
+   "distance": 1.927,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Faitout Maouassa",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "ed9f7cfe",
+   "season": 2020,
+   "distance": 2.069,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Renan Lodi",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "f86ad3f5",
+   "season": 2020,
+   "distance": 2.155,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Marco Friedl",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "5ed9b537",
+   "season": 2019,
+   "distance": 2.219,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Ibrahima Konaté",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "9b6d9b53",
+   "season": 2019,
+   "distance": 2.275,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Valentin Rosier",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "fc62f087",
+   "season": 2018,
+   "distance": 2.296,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Abdou Diallo",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "10e7f486",
+   "season": 2019,
+   "distance": 2.424,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Rogério",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "bee704fc",
+   "season": 2019,
+   "distance": 2.466,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Nikola Milenković",
+   "squad": "Fiorentina"
+  }
+ ],
  "low_confidence": false
 }

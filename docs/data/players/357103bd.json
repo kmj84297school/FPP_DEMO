@@ -26,10 +26,114 @@
   "confidence": 0.5
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.8738,
+  "mu": 46.1,
+  "ci80": {
+   "lo": 35.7,
+   "hi": 56.6
+  },
+  "ci50": {
+   "lo": 40.6,
+   "hi": 51.6
+  },
+  "sigma_model": 3.269,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5148dcc5",
+   "season": 2018,
+   "distance": 2.581,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Martin Terrier",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "8c3c640c",
+   "season": 2018,
+   "distance": 3.33,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Mikel Oyarzabal",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "71b47ab9",
+   "season": 2020,
+   "distance": 3.374,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Cucho",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "58e933d2",
+   "season": 2019,
+   "distance": 3.531,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Christian Kouamé",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "2374aaca",
+   "season": 2019,
+   "distance": 3.571,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "Nicolás González",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "71b47ab9",
+   "season": 2019,
+   "distance": 3.897,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Cucho",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "59e6e5bf",
+   "season": 2018,
+   "distance": 3.987,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Dominic Calvert-Lewin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "3a233281",
+   "season": 2019,
+   "distance": 4.179,
+   "survived": 1,
+   "fut_ability_v2": 70.8,
+   "player_name": "Leon Bailey",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "a8d4428b",
+   "season": 2020,
+   "distance": 4.225,
+   "survived": 1,
+   "fut_ability_v2": 26.2,
+   "player_name": "Josh Sargent",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "6f8cd6d0",
+   "season": 2018,
+   "distance": 4.236,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Marcus Thuram",
+   "squad": "Guingamp"
+  }
+ ],
+ "low_confidence": true
 }

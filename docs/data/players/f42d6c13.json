@@ -26,10 +26,114 @@
   "confidence": 0.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9327,
+  "mu": 51.9,
+  "ci80": {
+   "lo": 41.1,
+   "hi": 62.6
+  },
+  "ci50": {
+   "lo": 46.2,
+   "hi": 57.5
+  },
+  "sigma_model": 3.842,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7d9b37bf",
+   "season": 2018,
+   "distance": 2.312,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Corentin Jean",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "96960855",
+   "season": 2020,
+   "distance": 2.533,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Cassata",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "c9e39d91",
+   "season": 2020,
+   "distance": 2.542,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Brais Méndez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "d2448564",
+   "season": 2020,
+   "distance": 2.549,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Samuel Grandsir",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "7958dc65",
+   "season": 2019,
+   "distance": 2.58,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Sangalli",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "cac2537b",
+   "season": 2018,
+   "distance": 2.64,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Enis Bardhi",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "82927de4",
+   "season": 2020,
+   "distance": 2.652,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Pablo Fornals",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "0000acda",
+   "season": 2019,
+   "distance": 2.694,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Benassi",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "05816e19",
+   "season": 2019,
+   "distance": 2.713,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juan Ferney Otero",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "6ca5ec4b",
+   "season": 2020,
+   "distance": 2.721,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Alex Iwobi",
+   "squad": "Everton"
+  }
+ ],
  "low_confidence": false
 }

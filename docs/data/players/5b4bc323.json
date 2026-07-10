@@ -26,10 +26,114 @@
   "confidence": 0.3
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6827,
+  "mu": 50.8,
+  "ci80": {
+   "lo": 40.8,
+   "hi": 60.9
+  },
+  "ci50": {
+   "lo": 45.5,
+   "hi": 56.1
+  },
+  "sigma_model": 2.327,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d4d0a9ad",
+   "season": 2018,
+   "distance": 1.825,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "William",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "6b2c894b",
+   "season": 2020,
+   "distance": 2.017,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Ghislain Konan",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "13c44fc5",
+   "season": 2018,
+   "distance": 2.093,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jorge",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "2146785a",
+   "season": 2019,
+   "distance": 2.199,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Davide Calabria",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "9e525177",
+   "season": 2020,
+   "distance": 2.363,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Aaron Wan-Bissaka",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "f99fe221",
+   "season": 2020,
+   "distance": 2.468,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hamza Mendyl",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "e6eadfb8",
+   "season": 2019,
+   "distance": 2.472,
+   "survived": 1,
+   "fut_ability_v2": 44.9,
+   "player_name": "Youssouf Koné",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "5314e067",
+   "season": 2020,
+   "distance": 2.504,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sofiane Alakouch",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "c50e5bba",
+   "season": 2018,
+   "distance": 2.569,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Douglas Santos",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "4bf69118",
+   "season": 2019,
+   "distance": 2.612,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Enock Kwateng",
+   "squad": "Nantes"
+  }
+ ],
  "low_confidence": false
 }

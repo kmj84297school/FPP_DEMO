@@ -26,10 +26,114 @@
   "confidence": 0.76
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9527,
+  "mu": 50.5,
+  "ci80": {
+   "lo": 40.6,
+   "hi": 60.5
+  },
+  "ci50": {
+   "lo": 45.3,
+   "hi": 55.8
+  },
+  "sigma_model": 1.929,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f1bed920",
+   "season": 2018,
+   "distance": 1.677,
+   "survived": 1,
+   "fut_ability_v2": 42.9,
+   "player_name": "Kévin Rodrigues",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "f449640d",
+   "season": 2020,
+   "distance": 1.832,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fodé Ballo-Touré",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "378825c7",
+   "season": 2019,
+   "distance": 1.946,
+   "survived": 1,
+   "fut_ability_v2": 63.8,
+   "player_name": "Ramy Bensebaini",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "62ab9184",
+   "season": 2018,
+   "distance": 1.984,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Yannick Gerhardt",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "0a483542",
+   "season": 2020,
+   "distance": 2.02,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Giorgos Kyriakopoulos",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "9fec8860",
+   "season": 2018,
+   "distance": 2.142,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Ludwig Augustinsson",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "b05e2dbd",
+   "season": 2019,
+   "distance": 2.152,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "José Luis Gayà",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "99f7e9aa",
+   "season": 2019,
+   "distance": 2.169,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Pascal Stenzel",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "8ff4872e",
+   "season": 2018,
+   "distance": 2.178,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Ikoko",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "8954fddc",
+   "season": 2020,
+   "distance": 2.218,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mohamed Dräger",
+   "squad": "Paderborn 07"
+  }
+ ],
  "low_confidence": false
 }

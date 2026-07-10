@@ -26,10 +26,114 @@
   "confidence": 1.63
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8564,
+  "mu": 52.6,
+  "ci80": {
+   "lo": 42.4,
+   "hi": 62.7
+  },
+  "ci50": {
+   "lo": 47.2,
+   "hi": 57.9
+  },
+  "sigma_model": 2.57,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2146785a",
+   "season": 2019,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Davide Calabria",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "88d4144a",
+   "season": 2020,
+   "distance": 2.546,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "Maximilian Mittelstädt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "d4d0a9ad",
+   "season": 2018,
+   "distance": 2.595,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "William",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "7a11550b",
+   "season": 2018,
+   "distance": 2.635,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Joe Gomez",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "ac73ec79",
+   "season": 2020,
+   "distance": 2.683,
+   "survived": 1,
+   "fut_ability_v2": 55.1,
+   "player_name": "Nordi Mukiele",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "9e525177",
+   "season": 2020,
+   "distance": 2.741,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Aaron Wan-Bissaka",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "4bf69118",
+   "season": 2019,
+   "distance": 2.825,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Enock Kwateng",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "ac73ec79",
+   "season": 2019,
+   "distance": 2.879,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Nordi Mukiele",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "17370b95",
+   "season": 2018,
+   "distance": 2.916,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bernardo",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "2146785a",
+   "season": 2018,
+   "distance": 2.953,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Davide Calabria",
+   "squad": "Milan"
+  }
+ ],
  "low_confidence": false
 }

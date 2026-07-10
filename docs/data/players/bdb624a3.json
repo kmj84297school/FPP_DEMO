@@ -26,10 +26,114 @@
   "confidence": 0.06
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9579,
+  "mu": 57.0,
+  "ci80": {
+   "lo": 46.5,
+   "hi": 67.4
+  },
+  "ci50": {
+   "lo": 51.5,
+   "hi": 62.5
+  },
+  "sigma_model": 3.186,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5313ed43",
+   "season": 2018,
+   "distance": 1.821,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Seko Fofana",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2018,
+   "distance": 2.255,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Joan Jordán",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "05e19d6a",
+   "season": 2020,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Franck Kessié",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "0557ff4f",
+   "season": 2019,
+   "distance": 2.341,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Barbosa",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "7d937aa1",
+   "season": 2019,
+   "distance": 2.359,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Antonin Bobichon",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "0959c2a2",
+   "season": 2020,
+   "distance": 2.452,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Federico Valverde",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "ba3d3bea",
+   "season": 2018,
+   "distance": 2.491,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Cataldi",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "5148dcc5",
+   "season": 2020,
+   "distance": 2.65,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Martin Terrier",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "01efac19",
+   "season": 2018,
+   "distance": 2.686,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Antonín Barák",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "b2d03887",
+   "season": 2018,
+   "distance": 2.692,
+   "survived": 1,
+   "fut_ability_v2": 35.6,
+   "player_name": "Víctor Camarasa",
+   "squad": "Betis"
+  }
+ ],
  "low_confidence": false
 }

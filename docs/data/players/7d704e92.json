@@ -26,10 +26,114 @@
   "confidence": 1.37
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8739,
+  "mu": 49.7,
+  "ci80": {
+   "lo": 39.1,
+   "hi": 60.2
+  },
+  "ci50": {
+   "lo": 44.1,
+   "hi": 55.2
+  },
+  "sigma_model": 3.386,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6adbc307",
+   "season": 2018,
+   "distance": 1.998,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "d0042ab9",
+   "season": 2020,
+   "distance": 2.369,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Mason Holgate",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "16324e1d",
+   "season": 2019,
+   "distance": 2.443,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Anthony Briançon",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "ce4246f5",
+   "season": 2019,
+   "distance": 2.469,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Kurt Zouma",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "ac7e640b",
+   "season": 2018,
+   "distance": 2.471,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Mattia Caldara",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "5fd5ed86",
+   "season": 2020,
+   "distance": 2.532,
+   "survived": 1,
+   "fut_ability_v2": 61.9,
+   "player_name": "Gleison Bremer",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "a3d94a58",
+   "season": 2020,
+   "distance": 2.58,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "Cristian Romero",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "167d5018",
+   "season": 2019,
+   "distance": 2.597,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Félix Eboa Eboa",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "aad48be9",
+   "season": 2018,
+   "distance": 2.682,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "2200181e",
+   "season": 2019,
+   "distance": 2.737,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Kaan Ayhan",
+   "squad": "Düsseldorf"
+  }
+ ],
  "low_confidence": false
 }

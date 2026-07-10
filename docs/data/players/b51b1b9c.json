@@ -26,10 +26,114 @@
   "confidence": 0.44
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8334,
+  "mu": 48.1,
+  "ci80": {
+   "lo": 38.1,
+   "hi": 58.1
+  },
+  "ci50": {
+   "lo": 42.8,
+   "hi": 53.4
+  },
+  "sigma_model": 2.297,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0f8418aa",
+   "season": 2019,
+   "distance": 1.346,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Ibrahima Sissoko",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "b3325a30",
+   "season": 2018,
+   "distance": 1.665,
+   "survived": 1,
+   "fut_ability_v2": 40.1,
+   "player_name": "Suat Serdar",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "6928979a",
+   "season": 2018,
+   "distance": 2.277,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Nicolò Barella",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "e2f9bb5f",
+   "season": 2020,
+   "distance": 2.333,
+   "survived": 1,
+   "fut_ability_v2": 45.3,
+   "player_name": "Zaydou Youssouf",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "1daec722",
+   "season": 2019,
+   "distance": 2.359,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Marc Cucurella",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "7d3cbc67",
+   "season": 2019,
+   "distance": 2.454,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Léris",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "0959c2a2",
+   "season": 2018,
+   "distance": 2.456,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Federico Valverde",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "15413fa5",
+   "season": 2018,
+   "distance": 2.474,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Salih Özcan",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "6191093d",
+   "season": 2019,
+   "distance": 2.492,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Ludovic Blas",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "56f7a928",
+   "season": 2018,
+   "distance": 2.519,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Youri Tielemans",
+   "squad": "Monaco"
+  }
+ ],
  "low_confidence": false
 }

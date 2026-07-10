@@ -26,10 +26,114 @@
   "confidence": 0.17
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.7799,
+  "mu": 52.6,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 63.5
+  },
+  "ci50": {
+   "lo": 46.9,
+   "hi": 58.3
+  },
+  "sigma_model": 4.045,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "03f946ed",
+   "season": 2018,
+   "distance": 2.809,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Andrea Petagna",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "536cebe5",
+   "season": 2018,
+   "distance": 2.887,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "Ante Rebić",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "1238a3f9",
+   "season": 2019,
+   "distance": 3.005,
+   "survived": 1,
+   "fut_ability_v2": 27.8,
+   "player_name": "Davie Selke",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "6c6a3300",
+   "season": 2019,
+   "distance": 3.044,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Milot Rashica",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "5e861944",
+   "season": 2018,
+   "distance": 3.342,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "Matteo Politano",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "176674ab",
+   "season": 2018,
+   "distance": 3.534,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ndombe Mubele",
+   "squad": "Rennes / Toulouse"
+  },
+  {
+   "fbref_id": "d2416c2e",
+   "season": 2018,
+   "distance": 3.626,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "Yussuf Poulsen",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "fa031b34",
+   "season": 2020,
+   "distance": 3.672,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Richarlison",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "3effaa34",
+   "season": 2020,
+   "distance": 3.688,
+   "survived": 1,
+   "fut_ability_v2": 56.0,
+   "player_name": "André Silva",
+   "squad": "Eint Frankfurt / Milan"
+  },
+  {
+   "fbref_id": "6c6a3300",
+   "season": 2020,
+   "distance": 3.711,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Milot Rashica",
+   "squad": "Werder Bremen"
+  }
+ ],
  "low_confidence": false
 }

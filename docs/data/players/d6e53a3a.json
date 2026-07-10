@@ -26,10 +26,114 @@
   "confidence": 1.4
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.908,
+  "mu": 56.8,
+  "ci80": {
+   "lo": 46.7,
+   "hi": 66.9
+  },
+  "ci50": {
+   "lo": 51.5,
+   "hi": 62.1
+  },
+  "sigma_model": 2.453,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a5ae8f8e",
+   "season": 2019,
+   "distance": 1.475,
+   "survived": 1,
+   "fut_ability_v2": 39.8,
+   "player_name": "Miloš Veljković",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "9a64e67e",
+   "season": 2020,
+   "distance": 1.995,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Robin Le Normand",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "e34fc66d",
+   "season": 2019,
+   "distance": 2.051,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Joachim Andersen",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "e34fc66d",
+   "season": 2020,
+   "distance": 2.058,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Joachim Andersen",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "119b9a8e",
+   "season": 2018,
+   "distance": 2.061,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Aymeric Laporte",
+   "squad": "Athletic Club / Manchester City"
+  },
+  {
+   "fbref_id": "bd142efb",
+   "season": 2020,
+   "distance": 2.114,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Jonathan Tah",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "30f5ffa9",
+   "season": 2019,
+   "distance": 2.136,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Milan Škriniar",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "e33c06cf",
+   "season": 2019,
+   "distance": 2.144,
+   "survived": 1,
+   "fut_ability_v2": 66.8,
+   "player_name": "Niklas Süle",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "3eed9821",
+   "season": 2018,
+   "distance": 2.145,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Samuel Umtiti",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "bd142efb",
+   "season": 2019,
+   "distance": 2.275,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Jonathan Tah",
+   "squad": "Leverkusen"
+  }
+ ],
  "low_confidence": false
 }

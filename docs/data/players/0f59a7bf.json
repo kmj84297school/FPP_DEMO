@@ -26,10 +26,114 @@
   "confidence": 0.13
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.791,
+  "mu": 54.4,
+  "ci80": {
+   "lo": 44.3,
+   "hi": 64.5
+  },
+  "ci50": {
+   "lo": 49.1,
+   "hi": 59.7
+  },
+  "sigma_model": 2.412,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "66385c46",
+   "season": 2020,
+   "distance": 2.291,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Levin Öztunalı",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "d080ed5e",
+   "season": 2019,
+   "distance": 2.404,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Mikel Merino",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "01efac19",
+   "season": 2018,
+   "distance": 2.801,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Antonín Barák",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "e280527c",
+   "season": 2018,
+   "distance": 2.89,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Marcel Sabitzer",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "16daec92",
+   "season": 2018,
+   "distance": 2.932,
+   "survived": 1,
+   "fut_ability_v2": 45.8,
+   "player_name": "Mijat Gaćinović",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "16657b95",
+   "season": 2018,
+   "distance": 2.953,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Bryan Cristante",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "0000acda",
+   "season": 2018,
+   "distance": 2.973,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Marco Benassi",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "0d10333c",
+   "season": 2018,
+   "distance": 2.975,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "8846a40f",
+   "season": 2020,
+   "distance": 3.049,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Mathias Pereira Lage",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "16657b95",
+   "season": 2019,
+   "distance": 3.063,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Bryan Cristante",
+   "squad": "Roma"
+  }
+ ],
  "low_confidence": false
 }

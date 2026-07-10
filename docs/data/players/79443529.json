@@ -26,10 +26,114 @@
   "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8635,
+  "mu": 47.0,
+  "ci80": {
+   "lo": 36.4,
+   "hi": 57.6
+  },
+  "ci50": {
+   "lo": 41.4,
+   "hi": 52.6
+  },
+  "sigma_model": 3.44,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5e080f73",
+   "season": 2020,
+   "distance": 1.876,
+   "survived": 1,
+   "fut_ability_v2": 40.0,
+   "player_name": "Irvin Cardona",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "0b90bb97",
+   "season": 2020,
+   "distance": 2.116,
+   "survived": 1,
+   "fut_ability_v2": 40.0,
+   "player_name": "Santi Mina",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "3effaa34",
+   "season": 2019,
+   "distance": 2.156,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "André Silva",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "e5a35ae9",
+   "season": 2019,
+   "distance": 2.365,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Waldschmidt",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 2.372,
+   "survived": 1,
+   "fut_ability_v2": 35.7,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "aa1a8c7e",
+   "season": 2018,
+   "distance": 2.489,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Isaac Mbenza",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "d705ba44",
+   "season": 2018,
+   "distance": 2.523,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Andrea Belotti",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "57e3f0c7",
+   "season": 2018,
+   "distance": 2.607,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Nicolas Pépé",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "2054d037",
+   "season": 2019,
+   "distance": 2.649,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "M'Baye Niang",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "923f4dda",
+   "season": 2020,
+   "distance": 2.702,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Amiens"
+  }
+ ],
  "low_confidence": false
 }

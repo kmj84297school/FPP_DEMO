@@ -26,10 +26,114 @@
   "confidence": 0.53
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9833,
+  "mu": 64.7,
+  "ci80": {
+   "lo": 54.2,
+   "hi": 75.2
+  },
+  "ci50": {
+   "lo": 59.2,
+   "hi": 70.2
+  },
+  "sigma_model": 3.274,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "57e3f0c7",
+   "season": 2019,
+   "distance": 2.708,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Nicolas Pépé",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "c47541e0",
+   "season": 2019,
+   "distance": 3.259,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Bertrand Traoré",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "e0921a4f",
+   "season": 2018,
+   "distance": 3.299,
+   "survived": 1,
+   "fut_ability_v2": 74.5,
+   "player_name": "Paulo Dybala",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "15b287da",
+   "season": 2020,
+   "distance": 3.299,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Daichi Kamada",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "8f696594",
+   "season": 2018,
+   "distance": 3.498,
+   "survived": 1,
+   "fut_ability_v2": 72.8,
+   "player_name": "Memphis Depay",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "e14ec482",
+   "season": 2020,
+   "distance": 3.665,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Riccardo Orsolini",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "a167537f",
+   "season": 2019,
+   "distance": 3.69,
+   "survived": 1,
+   "fut_ability_v2": 68.5,
+   "player_name": "Julian Brandt",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "cea4ee8f",
+   "season": 2019,
+   "distance": 3.722,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Dele Alli",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "c47541e0",
+   "season": 2020,
+   "distance": 3.801,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bertrand Traoré",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "45b9b619",
+   "season": 2018,
+   "distance": 3.821,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Joaquín Correa",
+   "squad": "Sevilla"
+  }
+ ],
  "low_confidence": false
 }

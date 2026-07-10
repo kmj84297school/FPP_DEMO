@@ -26,10 +26,114 @@
   "confidence": 1.8
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8872,
+  "mu": 55.6,
+  "ci80": {
+   "lo": 45.5,
+   "hi": 65.6
+  },
+  "ci50": {
+   "lo": 50.3,
+   "hi": 60.9
+  },
+  "sigma_model": 2.326,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f874dd44",
+   "season": 2018,
+   "distance": 2.668,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Héctor Bellerín",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "197640fd",
+   "season": 2020,
+   "distance": 2.67,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Timothy Castagne",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "197640fd",
+   "season": 2019,
+   "distance": 3.139,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Timothy Castagne",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "3353737a",
+   "season": 2020,
+   "distance": 3.363,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Sergio Reguilón",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "ff0ab48c",
+   "season": 2019,
+   "distance": 3.44,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Leo Dubois",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "b05e2dbd",
+   "season": 2018,
+   "distance": 3.479,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "José Luis Gayà",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "9c94165b",
+   "season": 2019,
+   "distance": 3.491,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Luke Shaw",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "3cefcaef",
+   "season": 2018,
+   "distance": 3.529,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Ferland Mendy",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "2e4f5f03",
+   "season": 2018,
+   "distance": 3.793,
+   "survived": 1,
+   "fut_ability_v2": 64.0,
+   "player_name": "Andrew Robertson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "f874dd44",
+   "season": 2019,
+   "distance": 3.816,
+   "survived": 1,
+   "fut_ability_v2": 53.0,
+   "player_name": "Héctor Bellerín",
+   "squad": "Arsenal"
+  }
+ ],
  "low_confidence": false
 }

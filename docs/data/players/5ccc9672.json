@@ -26,10 +26,114 @@
   "confidence": 0.88
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
- "low_confidence": false
+ "prediction": {
+  "survival_prob": 0.9409,
+  "mu": 47.8,
+  "ci80": {
+   "lo": 37.6,
+   "hi": 58.0
+  },
+  "ci50": {
+   "lo": 42.4,
+   "hi": 53.2
+  },
+  "sigma_model": 2.717,
+  "sigma_residual": 7.489
+ },
+ "neighbors": [
+  {
+   "fbref_id": "29c02c9f",
+   "season": 2019,
+   "distance": 3.145,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Colin Dagba",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "4c700f46",
+   "season": 2018,
+   "distance": 3.519,
+   "survived": 1,
+   "fut_ability_v2": 44.2,
+   "player_name": "Jérémy Gélin",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "774cf58b",
+   "season": 2020,
+   "distance": 3.599,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Max Aarons",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "f449640d",
+   "season": 2018,
+   "distance": 3.786,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Fodé Ballo-Touré",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "10e7f486",
+   "season": 2019,
+   "distance": 3.79,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Rogério",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "2f3e911a",
+   "season": 2018,
+   "distance": 3.805,
+   "survived": 1,
+   "fut_ability_v2": 40.9,
+   "player_name": "Aarón Martín",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "cc77354e",
+   "season": 2019,
+   "distance": 3.891,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Boubacar Kamara",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "8bbe2df5",
+   "season": 2020,
+   "distance": 3.951,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Domagoj Bradarić",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "cc77354e",
+   "season": 2020,
+   "distance": 3.965,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Boubacar Kamara",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "441197b8",
+   "season": 2020,
+   "distance": 3.968,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Obite N'Dicka",
+   "squad": "Eint Frankfurt"
+  }
+ ],
+ "low_confidence": true
 }
