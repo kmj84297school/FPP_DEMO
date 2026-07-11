@@ -80,6 +80,9 @@ if __name__ == "__main__":
     with open(CACHE / "report_extras_2023.json", encoding="utf-8") as f:
         report_extras = json.load(f)
 
+    with open(CACHE / "qualitative_2023.json", encoding="utf-8") as f:
+        qualitative = json.load(f)
+
     # ── 재조정 기준(SCALE) 산출: 전 시즌 능력 복합점수 + 예측치 + 실제 라벨 결과 통틀어 최댓값 ──
     composite_max = max(
         ability_df[["ability", "score_position", "score_style"]].max().max(),
@@ -169,8 +172,13 @@ if __name__ == "__main__":
             "neighbors": [],
             "low_confidence": False,
             "report": report_extras.get(fid, {"strengths": [], "weaknesses": [], "top3_styles": [], "style_evidence": {"top": [], "bottom": []}, "coaching": [], "roadmap": []}),
+            "qualitative": qualitative.get(fid),
             "narrative": {"current": None, "potential": None},
         }
+        if player["qualitative"] and player["qualitative"]["consistency"]["ability_std"] is not None:
+            # ability_std는 능력 복합점수 스케일 — 표시 스케일로 함께 재조정
+            player["qualitative"]["consistency"]["ability_std"] = round(
+                player["qualitative"]["consistency"]["ability_std"] * SCALE, 1)
 
         if kind == "growth":
             player["prediction"] = prediction_block(growth_pred.loc[fid])

@@ -114,6 +114,40 @@ function renderPlayer(p) {
     </div>
   `;
 
+  if (p.qualitative) {
+    const q = p.qualitative;
+    const consStd = q.consistency.ability_std;
+    const consTxt = consStd === null ? "—"
+      : consStd <= 3 ? `매우 꾸준 (시즌 간 ±${consStd})`
+      : consStd <= 6 ? `보통 (시즌 간 ±${consStd})`
+      : `기복 있음 (시즌 간 ±${consStd})`;
+    html += `
+      <div class="panel">
+        <div class="section-title">정성 시그널 (경기 기록 기반)</div>
+        <div class="grid-2">
+          <div>
+            <div class="stat-row"><span class="lbl">경고 (per90)</span><span>${q.discipline.yellows_per90 ?? "—"}</span></div>
+            <div class="stat-row"><span class="lbl">파울 (per90)</span><span>${q.discipline.fouls_per90 ?? "—"}</span></div>
+            <div class="stat-row"><span class="lbl">퇴장 (2023시즌)</span><span>${q.discipline.reds_total_2023 ?? 0}회</span></div>
+            <div class="stat-row"><span class="lbl">클린플레이 지수 (카드)</span><span class="badge ${bandcls(q.discipline.clean_pctl_cards)}">${fmt1(q.discipline.clean_pctl_cards)}</span></div>
+            <div class="stat-row"><span class="lbl">클린플레이 지수 (파울)</span><span class="badge ${bandcls(q.discipline.clean_pctl_fouls)}">${fmt1(q.discipline.clean_pctl_fouls)}</span></div>
+          </div>
+          <div>
+            <div class="stat-row"><span class="lbl">평균 팀 출전시간 점유율</span><span class="badge ${bandcls(q.availability.minpct_mean)}">${fmt1(q.availability.minpct_mean)}%</span></div>
+            <div class="stat-row"><span class="lbl">관측 시즌 수</span><span>${q.availability.n_seasons}시즌</span></div>
+            <div class="stat-row"><span class="lbl">꾸준함</span><span>${consTxt}</span></div>
+          </div>
+        </div>
+        <div class="hint" style="margin-top:10px;">
+          이 항목은 경기 기록에서 측정 가능한 대리 지표만 표시합니다. 클린플레이 지수는 같은 포지션 대비
+          경고·파울이 적을수록 높습니다(높을수록 클린). 출전시간 점유율은 부상 빈도의 간접 지표이지만
+          로테이션·이적과 부상을 구분하지 못하며, 실제 부상 기록·언론 평판·구단 내부 태도는 이 데이터셋에
+          존재하지 않아 측정하지 않습니다.
+        </div>
+      </div>
+    `;
+  }
+
   if (!p.eligibility.eligible_for_prediction) {
     const reasonMap = {
       under_minutes: "출전시간 기준 미달",
