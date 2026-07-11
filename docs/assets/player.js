@@ -37,15 +37,35 @@ function renderNotFound() {
 
 let META = null;
 
+// FBref 헤드샷 CDN 패턴 — legacy가 og:image로 추출하던 것과 동일한 이미지.
+// 방문자 브라우저가 직접 요청하며(핫링크), 없거나 차단되면 onerror로 이니셜 아바타 대체.
+const HEADSHOT_URL = (fbrefId) => `https://fbref.com/req/202302030/images/headshots/${fbrefId}_2022.jpg`;
+
+function initialsOf(name) {
+  if (!name) return "?";
+  const parts = name.trim().split(/\s+/);
+  const first = parts[0] ? parts[0][0] : "";
+  const last = parts.length > 1 ? parts[parts.length - 1][0] : "";
+  return (first + last).toUpperCase();
+}
+
 function renderPlayer(p) {
   const m = p.meta;
   const c = p.current;
 
   let html = `
     <div class="panel player-head">
-      <div>
-        <h1>${m.player_name}</h1>
-        <div class="sub">${m.squad || "—"} · ${m.comps || "—"} · ${m.pos_primary} · ${m.nation || "—"} · 만 ${m.age_years}세 · 2023시즌 ${m.minutes_2023}분</div>
+      <div style="display:flex;align-items:center;gap:16px;">
+        <div class="avatar-wrap">
+          <img class="avatar-img" src="${HEADSHOT_URL(m.fbref_id)}" alt=""
+               referrerpolicy="no-referrer" loading="lazy"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="avatar-fallback" style="display:none;">${initialsOf(m.player_name)}</div>
+        </div>
+        <div>
+          <h1>${m.player_name}</h1>
+          <div class="sub">${m.squad || "—"} · ${m.comps || "—"} · ${m.pos_primary} · ${m.nation || "—"} · 만 ${m.age_years}세 · 2023시즌 ${m.minutes_2023}분</div>
+        </div>
       </div>
       <span class="badge ${bandcls(c.ability)}" style="font-size:1.3rem;padding:8px 16px;">${fmt1(c.ability)}</span>
     </div>
