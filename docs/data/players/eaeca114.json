@@ -3,305 +3,202 @@
   "fbref_id": "eaeca114",
   "player_name": "Nathan Aké",
   "nation": "NED",
-  "age_years": 27.0,
+  "age_years": 29.0,
   "squad": "Manchester City",
   "comps": "Premier League",
   "pos_primary": "DF",
-  "minutes_2023": 481.0
+  "minutes_season": 678.0
  },
  "current": {
-  "ability": 60.2,
-  "score_position": 57.8,
-  "score_style": 62.6,
+  "ability": 54.7,
+  "score_position": 52.4,
+  "score_style": 56.9,
   "groups": {
-   "prod": 43.8,
-   "progress": 70.6,
-   "chance": 30.8,
-   "stability": 62.5,
-   "defense": 46.4
+   "prod": 32.3,
+   "progress": 65.3,
+   "chance": 23.9,
+   "stability": 57.5,
+   "defense": 42.8
   }
  },
  "style": {
   "primary": "빌드업 수비수",
-  "confidence": 0.87
+  "confidence": 1.68
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.5699,
-  "mu": 57.4,
-  "ci80": {
-   "lo": 48.0,
-   "hi": 66.8
-  },
-  "ci50": {
-   "lo": 52.4,
-   "hi": 62.4
-  },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "16b9d5cf",
-   "season": 2020,
-   "distance": 1.583,
-   "survived": 1,
-   "fut_ability_v2": 57.6,
-   "player_name": "Nikola Maksimović",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "6fd8a334",
-   "season": 2019,
-   "distance": 1.613,
-   "survived": 1,
-   "fut_ability_v2": 70.3,
-   "player_name": "Aleksandar Dragović",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "463503e2",
-   "season": 2018,
-   "distance": 1.785,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marcin Kamiński",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "322ba2df",
-   "season": 2018,
-   "distance": 1.818,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alin Toșca",
-   "squad": "Benevento / Betis"
-  },
-  {
-   "fbref_id": "91899ca8",
-   "season": 2020,
-   "distance": 1.82,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mateo Musacchio",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "6fd8a334",
-   "season": 2020,
-   "distance": 1.874,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aleksandar Dragović",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "f03f284b",
-   "season": 2019,
-   "distance": 1.894,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "David López",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "8cc29864",
-   "season": 2019,
-   "distance": 1.912,
-   "survived": 1,
-   "fut_ability_v2": 49.0,
-   "player_name": "Lorenzo Tonelli",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "6cafd68d",
-   "season": 2018,
-   "distance": 1.967,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Håvard Nordtveit",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "34b54da7",
-   "season": 2019,
-   "distance": 2.104,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Tony Jantschke",
-   "squad": "M'Gladbach"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 100.0
-   },
-   {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 99.2
-   },
-   {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 98.5
+    "percentile": 99.3
    },
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 87.1
-   },
-   {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 82.5
-   },
-   {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 82.3
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 99.0
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 76.5
+    "percentile": 96.6
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 93.0
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 89.1
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 82.7
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 71.3
    }
   ],
   "weaknesses": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 6.6
-   },
-   {
-    "key": "Clr",
-    "label": "클리어링",
-    "percentile": 7.3
-   },
-   {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 17.5
-   },
-   {
-    "key": "Recov",
-    "label": "볼 리커버리",
-    "percentile": 17.7
+    "percentile": 5.0
    },
    {
     "key": "Err",
     "label": "실책",
-    "percentile": 26.6
+    "percentile": 16.3
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 23.3
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 23.9
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 24.6
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 6.6
+    "percentile": 5.0
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 7.3
+    "percentile": 29.4
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 66.8
+    "percentile": 82.7
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 76.5
+    "percentile": 96.6
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 98.5
+    "percentile": 99.3
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 56.7
+    "percentile": 23.9
    }
   ],
   "top3_styles": [
    {
     "style": "빌드업 수비수",
-    "fit_z": 0.45
+    "fit_z": 1.52
    },
    {
     "style": "스토퍼",
-    "fit_z": -0.42
+    "fit_z": -0.17
    },
    {
     "style": "공격형 풀백",
-    "fit_z": -0.79
+    "fit_z": -0.71
    }
   ],
   "style_evidence": {
    "top": [
     {
      "label": "패스 관여도",
-     "z": 2.45
+     "z": 1.77
     },
     {
-     "label": "롱패스 비중",
-     "z": -1.55
+     "label": "운반 비중",
+     "z": 1.26
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 24퍼센타일)",
-   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 2퍼센타일)"
+   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 3퍼센타일)",
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 67퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 1퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "전진 패스 기초 교정",
-    "kpi": "전진 패스: 76 → 90 퍼센타일"
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 67 → 80 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "패스 성공률 실전 적용 반복",
-    "kpi": "패스 성공률: 이미 상위 2퍼센타일 — 유지"
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 이미 상위 3퍼센타일 — 유지"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "패스 성공률: 이미 상위 2퍼센타일 — 유지"
+    "kpi": "패스 성공률: 이미 상위 1퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
    "yellows_per90": 0.0,
-   "fouls_per90": 0.19,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 84.3,
-   "clean_pctl_fouls": 99.2
+   "fouls_per90": 0.27,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 94.9,
+   "clean_pctl_fouls": 99.1
   },
   "availability": {
-   "minpct_mean": 61.6,
-   "n_seasons": 6
+   "minpct_mean": 55.7,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 3.9,
-   "n_rated_seasons": 6
+   "ability_std": 4.2,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Nathan Aké(DF)의 현재 능력 점수는 60.2점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 패스 거리, 최종 3분의1 패스, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 클리어링이다.",
-  "potential": "Nathan Aké의 2~3년 후 전성기 유지 예측 중심값은 57.4점, 80% 구간 상단(잠재력 상한)은 66.8점이다. 빅5 현역 유지확률은 57.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Nathan Aké(DF)의 현재 능력 점수는 54.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 패스 성공률, 전진 운반 거리, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 실책이다.",
+  "potential": null
  }
 }

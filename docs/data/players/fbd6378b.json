@@ -3,201 +3,306 @@
   "fbref_id": "fbd6378b",
   "player_name": "Aïssa Mandi",
   "nation": "ALG",
-  "age_years": 31.0,
-  "squad": "Villarreal",
-  "comps": "La Liga",
+  "age_years": 32.0,
+  "squad": "Lille",
+  "comps": "Ligue 1",
   "pos_primary": "DF",
-  "minutes_2023": 261.0
+  "minutes_season": 1733.0
  },
  "current": {
-  "ability": 48.0,
-  "score_position": 48.8,
-  "score_style": 47.2,
+  "ability": 59.4,
+  "score_position": 57.4,
+  "score_style": 61.5,
   "groups": {
-   "prod": 43.4,
-   "progress": 33.3,
-   "chance": 45.2,
-   "stability": 54.7,
-   "defense": 45.5
+   "prod": 32.7,
+   "progress": 57.5,
+   "chance": 43.5,
+   "stability": 74.6,
+   "defense": 42.7
   }
  },
  "style": {
   "primary": "빌드업 수비수",
-  "confidence": 0.46
+  "confidence": 0.72
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3736,
+  "mu": 54.2,
+  "ci80": {
+   "lo": 44.9,
+   "hi": 63.4
+  },
+  "ci50": {
+   "lo": 49.3,
+   "hi": 59.0
+  },
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4bd414c1",
+   "season": 2019,
+   "distance": 1.293,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Raúl Albiol",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "53de807a",
+   "season": 2020,
+   "distance": 1.616,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "e0314d87",
+   "season": 2020,
+   "distance": 1.641,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Masiello",
+   "squad": "Genoa / Atalanta"
+  },
+  {
+   "fbref_id": "16714a62",
+   "season": 2019,
+   "distance": 1.823,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khaled Adénon",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "e85fb9b8",
+   "season": 2018,
+   "distance": 1.842,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "314f2124",
+   "season": 2019,
+   "distance": 1.868,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miranda",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "9ab16552",
+   "season": 2018,
+   "distance": 1.938,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Makoto Hasebe",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "5d311e8d",
+   "season": 2019,
+   "distance": 1.966,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Héctor Moreno",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "3f5b4635",
+   "season": 2020,
+   "distance": 1.978,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "ad178594",
+   "season": 2019,
+   "distance": 1.979,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl Navas",
+   "squad": "Real Sociedad"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 92.9
+   },
+   {
     "key": "TklPct",
     "label": "태클 성공률",
-    "percentile": 100.0
+    "percentile": 84.9
    },
    {
-    "key": "npxG_Sh",
-    "label": "슈팅당 기대득점",
-    "percentile": 100.0
-   },
-   {
-    "key": "AerPct",
-    "label": "공중볼 승률",
-    "percentile": 100.0
-   },
-   {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 92.7
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 84.4
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 82.8
+    "percentile": 82.5
    },
    {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 77.7
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 74.7
    },
    {
-    "key": "np_G",
-    "label": "무페널티 득점",
-    "percentile": 68.1
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 73.3
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 67.9
    }
   ],
   "weaknesses": [
    {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 20.3
+   },
+   {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 0.0
-   },
-   {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 1.8
-   },
-   {
-    "key": "Recov",
-    "label": "볼 리커버리",
-    "percentile": 1.8
-   },
-   {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 3.0
+    "percentile": 26.1
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 17.5
+    "percentile": 29.0
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 30.5
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 32.1
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 77.7
+    "percentile": 32.1
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 0.0
+    "percentile": 26.1
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 100.0
+    "percentile": 47.7
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 39.2
+    "percentile": 74.7
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 82.8
+    "percentile": 82.5
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 3.0
+    "percentile": 53.0
    }
   ],
   "top3_styles": [
    {
     "style": "빌드업 수비수",
-    "fit_z": 0.3
-   },
-   {
-    "style": "공격형 풀백",
-    "fit_z": -0.16
+    "fit_z": 0.11
    },
    {
     "style": "스토퍼",
-    "fit_z": -1.59
+    "fit_z": -0.61
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.62
    }
   ],
   "style_evidence": {
    "top": [
     {
      "label": "패스 관여도",
-     "z": 1.44
+     "z": 1.39
     },
     {
-     "label": "롱패스 비중",
-     "z": -0.83
+     "label": "운반 비중",
+     "z": -1.17
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "전진 패스 안정화 단계 — 상황별 반복 훈련 (현재 39퍼센타일)",
-   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 17퍼센타일)"
+   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 25퍼센타일)",
+   "전진 운반 개선 필요 — 기초 반복 훈련 권장 (현재 하위 30퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 18퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "전진 패스 기초 교정",
-    "kpi": "전진 패스: 39 → 60 퍼센타일"
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 30 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "패스 성공률 실전 적용 반복",
-    "kpi": "패스 성공률: 83 → 90 퍼센타일"
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 75 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "패스 성공률: 83 → 90 퍼센타일"
+    "kpi": "패스 성공률: 82 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.0,
-   "fouls_per90": 1.03,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 84.3,
-   "clean_pctl_fouls": 34.9
+   "yellows_per90": 0.16,
+   "fouls_per90": 0.36,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 60.5,
+   "clean_pctl_fouls": 97.4
   },
   "availability": {
-   "minpct_mean": 63.4,
-   "n_seasons": 6
+   "minpct_mean": 62.4,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 4.0,
-   "n_rated_seasons": 6
+   "ability_std": 4.3,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Aïssa Mandi(DF)의 현재 능력 점수는 48.0점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 슈팅당 기대득점, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 박스 터치이다.",
-  "potential": null
+  "current": "Aïssa Mandi(DF)의 현재 능력 점수는 59.4점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 최종 3분의1 패스, 태클 성공률, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 클리어링이다.",
+  "potential": "Aïssa Mandi의 2~3년 후 전성기 유지 예측 중심값은 54.2점, 80% 구간 상단(잠재력 상한)은 63.4점이다. 빅5 현역 유지확률은 37.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

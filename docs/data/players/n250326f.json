@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n250326f",
+  "player_name": "Wes Burns",
+  "nation": "WAL",
+  "age_years": 29.0,
+  "squad": "Ipswich Town",
+  "comps": "Premier League",
+  "pos_primary": "FW",
+  "minutes_season": 926.0
+ },
+ "current": {
+  "ability": 32.8,
+  "score_position": 31.2,
+  "score_style": 34.4,
+  "groups": {
+   "prod": 16.5,
+   "progress": 37.8,
+   "chance": 26.1,
+   "stability": 30.1,
+   "defense": 64.8
+  }
+ },
+ "style": {
+  "primary": "돌파형 윙어",
+  "confidence": 1.4
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.1682,
+  "mu": 42.5,
+  "ci80": {
+   "lo": 32.8,
+   "hi": 52.1
+  },
+  "ci50": {
+   "lo": 37.4,
+   "hi": 47.6
+  },
+  "sigma_model": 2.6,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1cac99dc",
+   "season": 2019,
+   "distance": 3.227,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Siligardi",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "b28bbd58",
+   "season": 2020,
+   "distance": 3.37,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Andros Townsend",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "ecbb3fdf",
+   "season": 2019,
+   "distance": 3.462,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Schürrle",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "65c75ea8",
+   "season": 2018,
+   "distance": 3.533,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Nalini",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "6b99d135",
+   "season": 2019,
+   "distance": 3.739,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Biabiany",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "88a359d4",
+   "season": 2020,
+   "distance": 3.829,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrián López",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "549c6ba7",
+   "season": 2018,
+   "distance": 3.886,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Di Santo",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "5370cba7",
+   "season": 2018,
+   "distance": 3.933,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alessio Cerci",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "ed0c3318",
+   "season": 2019,
+   "distance": 4.018,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Malik Tchokounté",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "ef5b337e",
+   "season": 2019,
+   "distance": 4.126,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Borini",
+   "squad": "Milan"
+  }
+ ],
+ "low_confidence": true,
+ "report": {
+  "strengths": [
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 95.3
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 88.3
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 83.2
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 82.3
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 80.7
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 60.8
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 56.6
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 0.5
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 0.5
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 0.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 1.2
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 2.8
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 0.5
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 11.7
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 43.6
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 80.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 1.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 38.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 0.85
+   },
+   {
+    "style": "연결형 공격수",
+    "fit_z": -0.55
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -0.89
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "크로스 비중",
+     "z": 2.11
+    },
+    {
+     "label": "운반 비중",
+     "z": 0.51
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": -0.07
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 안정화 단계 — 상황별 반복 훈련 (현재 44퍼센타일)",
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 19퍼센타일)",
+   "키패스 안정화 단계 — 상황별 반복 훈련 (현재 38퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 38 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 44 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 81 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.1,
+   "fouls_per90": 0.39,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 66.4,
+   "clean_pctl_fouls": 96.5
+  },
+  "availability": {
+   "minpct_mean": 27.1,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Wes Burns(FW)의 현재 능력 점수는 32.8점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 태클+인터셉트, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 유효슈팅이다.",
+  "potential": "Wes Burns의 2~3년 후 전성기 유지 예측 중심값은 42.5점, 80% 구간 상단(잠재력 상한)은 52.1점이다. 빅5 현역 유지확률은 16.8%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

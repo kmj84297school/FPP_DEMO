@@ -3,305 +3,202 @@
   "fbref_id": "c40b6180",
   "player_name": "Adam Webster",
   "nation": "ENG",
-  "age_years": 27.0,
+  "age_years": 29.0,
   "squad": "Brighton",
   "comps": "Premier League",
   "pos_primary": "DF",
-  "minutes_2023": 1080.0
+  "minutes_season": 887.0
  },
  "current": {
-  "ability": 55.7,
-  "score_position": 55.7,
-  "score_style": 55.6,
+  "ability": 61.9,
+  "score_position": 61.2,
+  "score_style": 62.7,
   "groups": {
-   "prod": 60.4,
-   "progress": 62.6,
-   "chance": 38.0,
-   "stability": 37.7,
-   "defense": 57.1
+   "prod": 40.0,
+   "progress": 67.4,
+   "chance": 55.9,
+   "stability": 51.8,
+   "defense": 56.6
   }
  },
  "style": {
   "primary": "빌드업 수비수",
-  "confidence": 0.57
+  "confidence": 0.02
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.4093,
-  "mu": 59.7,
-  "ci80": {
-   "lo": 50.2,
-   "hi": 69.0
-  },
-  "ci50": {
-   "lo": 54.7,
-   "hi": 64.6
-  },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "f521b80a",
-   "season": 2020,
-   "distance": 0.941,
-   "survived": 1,
-   "fut_ability_v2": 62.8,
-   "player_name": "Matthias Ginter",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "8650af85",
-   "season": 2019,
-   "distance": 1.122,
-   "survived": 1,
-   "fut_ability_v2": 62.1,
-   "player_name": "Gian Marco Ferrari",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "42dcf26d",
-   "season": 2019,
-   "distance": 1.379,
-   "survived": 1,
-   "fut_ability_v2": 60.0,
-   "player_name": "Álvaro González",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "6bd5cd5d",
-   "season": 2019,
-   "distance": 1.415,
-   "survived": 1,
-   "fut_ability_v2": 55.2,
-   "player_name": "Robin Knoche",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "e27da244",
-   "season": 2019,
-   "distance": 1.453,
-   "survived": 1,
-   "fut_ability_v2": 67.7,
-   "player_name": "John Brooks",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "3fc45c73",
-   "season": 2020,
-   "distance": 1.526,
-   "survived": 1,
-   "fut_ability_v2": 62.4,
-   "player_name": "Iñigo Martínez",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "b5114f85",
-   "season": 2019,
-   "distance": 1.527,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Georg Margreitter",
-   "squad": "Nürnberg"
-  },
-  {
-   "fbref_id": "da974c7b",
-   "season": 2019,
-   "distance": 1.635,
-   "survived": 1,
-   "fut_ability_v2": 60.5,
-   "player_name": "Kalidou Koulibaly",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "8c725b43",
-   "season": 2018,
-   "distance": 1.77,
-   "survived": 1,
-   "fut_ability_v2": 52.3,
-   "player_name": "Germán Pezzella",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "791abba1",
-   "season": 2019,
-   "distance": 1.804,
-   "survived": 1,
-   "fut_ability_v2": 71.2,
-   "player_name": "Salif Sané",
-   "squad": "Schalke 04"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 93.7
-   },
-   {
     "key": "PrgDistP",
     "label": "전진 패스 거리",
-    "percentile": 87.6
+    "percentile": 96.6
    },
    {
-    "key": "Recov",
-    "label": "볼 리커버리",
-    "percentile": 87.6
-   },
-   {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 86.8
-   },
-   {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 84.3
-   },
-   {
-    "key": "AerPct",
-    "label": "공중볼 승률",
-    "percentile": 82.5
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 96.6
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 80.0
+    "percentile": 96.0
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 94.6
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 92.8
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 86.1
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 83.5
    }
   ],
   "weaknesses": [
    {
     "key": "Err",
     "label": "실책",
-    "percentile": 2.3
-   },
-   {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 14.2
-   },
-   {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 20.5
+    "percentile": 5.1
    },
    {
     "key": "TklPct",
     "label": "태클 성공률",
-    "percentile": 37.2
+    "percentile": 6.4
    },
    {
-    "key": "Clr",
-    "label": "클리어링",
-    "percentile": 37.2
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 16.3
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 23.3
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 37.4
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 14.2
+    "percentile": 63.2
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 37.2
+    "percentile": 61.8
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 82.5
+    "percentile": 57.7
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 80.0
+    "percentile": 96.0
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 73.2
+    "percentile": 76.1
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 54.4
+    "percentile": 86.1
    }
   ],
   "top3_styles": [
    {
     "style": "빌드업 수비수",
-    "fit_z": 0.56
+    "fit_z": 0.53
    },
    {
     "style": "스토퍼",
-    "fit_z": -0.01
+    "fit_z": 0.51
    },
    {
     "style": "공격형 풀백",
-    "fit_z": -0.56
+    "fit_z": -0.8
    }
   ],
   "style_evidence": {
    "top": [
     {
      "label": "패스 관여도",
-     "z": 1.39
+     "z": 1.14
     },
     {
-     "label": "롱패스 비중",
-     "z": -0.28
+     "label": "운반 비중",
+     "z": -0.08
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 20퍼센타일)",
-   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)"
+   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 4퍼센타일)",
+   "전진 운반 안정화 단계 — 상황별 반복 훈련 (현재 41퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 24퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "패스 성공률 기초 교정",
-    "kpi": "패스 성공률: 73 → 80 퍼센타일"
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 41 → 70 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "전진 패스 실전 적용 반복",
-    "kpi": "전진 패스: 80 → 90 퍼센타일"
+    "focus": "패스 성공률 실전 적용 반복",
+    "kpi": "패스 성공률: 76 → 90 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "전진 패스: 80 → 90 퍼센타일"
+    "kpi": "전진 패스: 이미 상위 4퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.08,
-   "fouls_per90": 0.42,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 80.8,
-   "clean_pctl_fouls": 87.6
+   "yellows_per90": 0.1,
+   "fouls_per90": 0.71,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 81.0,
+   "clean_pctl_fouls": 76.8
   },
   "availability": {
-   "minpct_mean": 73.9,
-   "n_seasons": 4
+   "minpct_mean": 64.3,
+   "n_seasons": 5
   },
   "consistency": {
-   "ability_std": 6.0,
-   "n_rated_seasons": 4
+   "ability_std": 5.3,
+   "n_rated_seasons": 5
   }
  },
  "narrative": {
-  "current": "Adam Webster(DF)의 현재 능력 점수는 55.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 최종 3분의1 패스, 전진 패스 거리, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 태클+인터셉트이다.",
-  "potential": "Adam Webster의 2~3년 후 전성기 유지 예측 중심값은 59.7점, 80% 구간 상단(잠재력 상한)은 69.0점이다. 빅5 현역 유지확률은 40.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Adam Webster(DF)의 현재 능력 점수는 61.9점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 패스 거리, 최종 3분의1 패스, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 태클 성공률이다.",
+  "potential": null
  }
 }

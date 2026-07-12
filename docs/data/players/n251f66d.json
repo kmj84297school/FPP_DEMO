@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "n251f66d",
+  "player_name": "Archie Gray",
+  "nation": "ENG",
+  "age_years": 18.0,
+  "squad": "Tottenham",
+  "comps": "Premier League",
+  "pos_primary": "DF",
+  "minutes_season": 1751.0
+ },
+ "current": {
+  "ability": 33.7,
+  "score_position": 32.0,
+  "score_style": 35.3,
+  "groups": {
+   "prod": 19.0,
+   "progress": 33.5,
+   "chance": 11.1,
+   "stability": 48.2,
+   "defense": 22.2
+  }
+ },
+ "style": {
+  "primary": "빌드업 수비수",
+  "confidence": 1.06
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.5704,
+  "mu": 49.4,
+  "ci80": {
+   "lo": 38.3,
+   "hi": 60.5
+  },
+  "ci50": {
+   "lo": 43.6,
+   "hi": 55.3
+  },
+  "sigma_model": 3.1,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4195b8b6",
+   "season": 2020,
+   "distance": 2.279,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Papetti",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "217875a4",
+   "season": 2020,
+   "distance": 2.308,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Walukiewicz",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "75b86fb3",
+   "season": 2019,
+   "distance": 2.777,
+   "survived": 1,
+   "fut_ability_v2": 61.9,
+   "player_name": "Alessandro Bastoni",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "8f325097",
+   "season": 2019,
+   "distance": 3.101,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Nicolas Cozza",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "677da306",
+   "season": 2018,
+   "distance": 3.107,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Ohis Felix Uduokhai",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "bcc81786",
+   "season": 2018,
+   "distance": 3.441,
+   "survived": 1,
+   "fut_ability_v2": 36.9,
+   "player_name": "Kelvin Amian",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "88f130ed",
+   "season": 2019,
+   "distance": 3.444,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "Jean-Clair Todibo",
+   "squad": "Toulouse / Barcelona"
+  },
+  {
+   "fbref_id": "610aa1e9",
+   "season": 2020,
+   "distance": 3.471,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Luca Kilian",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "f0797d57",
+   "season": 2018,
+   "distance": 3.489,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rick van Drongelen",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "1c7012b8",
+   "season": 2018,
+   "distance": 3.539,
+   "survived": 1,
+   "fut_ability_v2": 60.3,
+   "player_name": "Declan Rice",
+   "squad": "West Ham"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 73.0
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 55.7
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 55.3
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 54.3
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 48.9
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 47.6
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 46.6
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 1.3
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 5.0
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 9.5
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 10.4
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 12.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 9.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 21.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 25.3
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 10.4
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 73.0
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 45.2
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.59
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.47
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.51
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "패스 관여도",
+     "z": 1.37
+    },
+    {
+     "label": "운반 비중",
+     "z": -0.18
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 10퍼센타일)",
+   "전진 운반 개선 필요 — 기초 반복 훈련 권장 (현재 하위 16퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 패스 기초 교정",
+    "kpi": "전진 패스: 10 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 16 → 60 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "패스 성공률: 73 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.05,
+   "fouls_per90": 0.87,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 91.9,
+   "clean_pctl_fouls": 58.9
+  },
+  "availability": {
+   "minpct_mean": 51.2,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Archie Gray(DF)의 현재 능력 점수는 33.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 패스 성공률, 성공 드리블, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 태클 성공률이다.",
+  "potential": "Archie Gray의 2~3년 후 성장 예측 중심값은 49.4점, 80% 구간 상단(잠재력 상한)은 60.5점이다. 빅5 잔존확률은 57.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

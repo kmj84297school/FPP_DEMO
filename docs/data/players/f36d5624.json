@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "f36d5624",
+  "player_name": "Luis Henrique",
+  "nation": "BRA",
+  "age_years": 22.0,
+  "squad": "Marseille",
+  "comps": "Ligue 1",
+  "pos_primary": "DF",
+  "minutes_season": 2613.0
+ },
+ "current": {
+  "ability": 63.8,
+  "score_position": 54.2,
+  "score_style": 73.4,
+  "groups": {
+   "prod": 94.2,
+   "progress": 76.7,
+   "chance": 96.9,
+   "stability": 44.0,
+   "defense": 23.5
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 0.74
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.7245,
+  "mu": 65.3,
+  "ci80": {
+   "lo": 54.4,
+   "hi": 76.3
+  },
+  "ci50": {
+   "lo": 59.5,
+   "hi": 71.1
+  },
+  "sigma_model": 2.8,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ff800ed8",
+   "season": 2020,
+   "distance": 3.096,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Pol Lirola",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "ff98492b",
+   "season": 2020,
+   "distance": 3.179,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Skov",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "016ff750",
+   "season": 2019,
+   "distance": 3.372,
+   "survived": 1,
+   "fut_ability_v2": 50.1,
+   "player_name": "Valentino Lazaro",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "1d1691ad",
+   "season": 2018,
+   "distance": 3.484,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro Odriozola",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "0cd0e21b",
+   "season": 2018,
+   "distance": 3.72,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Lukaku",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "2f3e911a",
+   "season": 2019,
+   "distance": 3.743,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Aarón Martín",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "30c220c3",
+   "season": 2018,
+   "distance": 3.785,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Mitchell Weiser",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "674cfc5a",
+   "season": 2020,
+   "distance": 3.824,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Strefezza",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "02caf6e0",
+   "season": 2018,
+   "distance": 3.919,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Manuel Lazzari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "f874dd44",
+   "season": 2018,
+   "distance": 4.01,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Héctor Bellerín",
+   "squad": "Arsenal"
+  }
+ ],
+ "low_confidence": true,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 99.4
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 99.0
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 98.6
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 98.4
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 97.9
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 97.2
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 97.2
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 0.3
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 0.3
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 0.3
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 1.3
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 3.0
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 0.3
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 1.3
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 0.3
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 84.7
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 37.6
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 3.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 1.99
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 1.25
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -1.78
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 2.56
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 2.42
+    }
+   ],
+   "bottom": [
+    {
+     "label": "크로스 비중",
+     "z": 0.99
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 7퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 2퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 3퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 이미 상위 7퍼센타일 — 유지"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 이미 상위 3퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 이미 상위 2퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.0,
+   "fouls_per90": 0.28,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 94.9,
+   "clean_pctl_fouls": 99.0
+  },
+  "availability": {
+   "minpct_mean": 41.8,
+   "n_seasons": 3
+  },
+  "consistency": {
+   "ability_std": 15.3,
+   "n_rated_seasons": 3
+  }
+ },
+ "narrative": {
+  "current": "Luis Henrique(DF)의 현재 능력 점수는 63.8점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클 성공률, 전진 패스 수신, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 공중볼 승리이다.",
+  "potential": "Luis Henrique의 2~3년 후 성장 예측 중심값은 65.3점, 80% 구간 상단(잠재력 상한)은 76.3점이다. 빅5 잔존확률은 72.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

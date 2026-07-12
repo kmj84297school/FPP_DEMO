@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "0ccac09c",
+  "player_name": "Stefano Sabelli",
+  "nation": "ITA",
+  "age_years": 31.0,
+  "squad": "Genoa",
+  "comps": "Serie A",
+  "pos_primary": "DF",
+  "minutes_season": 2058.0
+ },
+ "current": {
+  "ability": 50.2,
+  "score_position": 46.9,
+  "score_style": 53.4,
+  "groups": {
+   "prod": 33.9,
+   "progress": 52.6,
+   "chance": 68.3,
+   "stability": 38.9,
+   "defense": 36.9
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 0.31
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.2274,
+  "mu": 50.9,
+  "ci80": {
+   "lo": 41.6,
+   "hi": 60.2
+  },
+  "ci50": {
+   "lo": 46.0,
+   "hi": 55.8
+  },
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "edd1466a",
+   "season": 2018,
+   "distance": 1.991,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "00a6485f",
+   "season": 2018,
+   "distance": 2.051,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Beck",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "a60823a4",
+   "season": 2018,
+   "distance": 2.059,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Pedro López Muñoz",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "bad38a94",
+   "season": 2020,
+   "distance": 2.251,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "e29d1111",
+   "season": 2020,
+   "distance": 2.297,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "7f4c7c9f",
+   "season": 2020,
+   "distance": 2.334,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Jorge Miramón",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "81069528",
+   "season": 2020,
+   "distance": 2.386,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Rosales",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "a1017967",
+   "season": 2018,
+   "distance": 2.402,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Issa Cissokho",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2019,
+   "distance": 2.43,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2019,
+   "distance": 2.437,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 91.2
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 80.8
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 78.7
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 73.7
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 73.3
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 72.9
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 67.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 2.8
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 3.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 8.2
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 12.1
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 19.7
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 80.8
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 27.3
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 8.2
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 63.8
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 2.8
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 57.5
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.07
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.24
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.8
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "크로스 비중",
+     "z": 0.5
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.13
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": -0.41
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 66퍼센타일)",
+   "성공 드리블 개선 필요 — 기초 반복 훈련 권장 (현재 하위 32퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 32 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 66 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 73 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.13,
+   "fouls_per90": 1.09,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 70.7,
+   "clean_pctl_fouls": 37.2
+  },
+  "availability": {
+   "minpct_mean": 54.3,
+   "n_seasons": 3
+  },
+  "consistency": {
+   "ability_std": 8.3,
+   "n_rated_seasons": 2
+  }
+ },
+ "narrative": {
+  "current": "Stefano Sabelli(DF)의 현재 능력 점수는 50.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 태클+인터셉트, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 태클 성공률이다.",
+  "potential": "Stefano Sabelli의 2~3년 후 전성기 유지 예측 중심값은 50.9점, 80% 구간 상단(잠재력 상한)은 60.2점이다. 빅5 현역 유지확률은 22.7%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

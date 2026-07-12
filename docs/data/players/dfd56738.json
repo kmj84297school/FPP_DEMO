@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "dfd56738",
+  "player_name": "Marco Brescianini",
+  "nation": "ITA",
+  "age_years": 24.0,
+  "squad": "Atalanta",
+  "comps": "Serie A",
+  "pos_primary": "MF",
+  "minutes_season": 991.0
+ },
+ "current": {
+  "ability": 61.5,
+  "score_position": 61.5,
+  "score_style": 61.4,
+  "groups": {
+   "prod": 82.4,
+   "progress": 59.3,
+   "chance": 52.9,
+   "stability": 36.3,
+   "defense": 59.7
+  }
+ },
+ "style": {
+  "primary": "볼 운반형",
+  "confidence": 0.32
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.5493,
+  "mu": 59.1,
+  "ci80": {
+   "lo": 49.7,
+   "hi": 68.5
+  },
+  "ci50": {
+   "lo": 54.2,
+   "hi": 64.1
+  },
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "01efac19",
+   "season": 2020,
+   "distance": 2.477,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Antonín Barák",
+   "squad": "Lecce / Udinese"
+  },
+  {
+   "fbref_id": "bb5fbd2b",
+   "season": 2020,
+   "distance": 2.975,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Solly March",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "44ac04e9",
+   "season": 2019,
+   "distance": 3.318,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matías Vecino",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "410ab123",
+   "season": 2018,
+   "distance": 3.367,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lewis Holtby",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "3902e91b",
+   "season": 2019,
+   "distance": 3.389,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Gonzalo Melero",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "ce5143da",
+   "season": 2018,
+   "distance": 3.412,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Danny Welbeck",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2019,
+   "distance": 3.424,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "ce30bfc8",
+   "season": 2020,
+   "distance": 3.447,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Gagliardini",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "3a24769f",
+   "season": 2019,
+   "distance": 3.525,
+   "survived": 1,
+   "fut_ability_v2": 68.2,
+   "player_name": "Ross Barkley",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2018,
+   "distance": 3.575,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Florent Mollet",
+   "squad": "Metz"
+  }
+ ],
+ "low_confidence": true,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 99.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 99.1
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 97.0
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 96.1
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 94.1
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 93.4
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 88.7
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 8.2
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 12.7
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 14.1
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 16.1
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 22.0
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 24.0
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 22.0
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 16.1
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 97.0
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 46.7
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 40.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "볼 운반형",
+    "fit_z": 1.26
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": 0.94
+   },
+   {
+    "style": "수비형 파괴자",
+    "fit_z": -0.5
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "운반 비중",
+     "z": 2.08
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.44
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 3퍼센타일)",
+   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 52퍼센타일)",
+   "전진 운반 거리 이미 강점 — 유지 및 응용 훈련 (상위 14퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 52 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 거리 실전 적용 반복",
+    "kpi": "전진 운반 거리: 86 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 이미 상위 3퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.09,
+   "fouls_per90": 2.0,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 85.0,
+   "clean_pctl_fouls": 12.5
+  },
+  "availability": {
+   "minpct_mean": 14.8,
+   "n_seasons": 2
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Marco Brescianini(MF)의 현재 능력 점수는 61.5점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 태클 성공률, 공중볼 승률, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 클리어링이다.",
+  "potential": "Marco Brescianini의 2~3년 후 전성기 유지 예측 중심값은 59.1점, 80% 구간 상단(잠재력 상한)은 68.5점이다. 빅5 현역 유지확률은 54.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

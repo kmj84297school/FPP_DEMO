@@ -3,306 +3,202 @@
   "fbref_id": "5a626448",
   "player_name": "Moi Gómez",
   "nation": "ESP",
-  "age_years": 28.0,
+  "age_years": 30.0,
   "squad": "Osasuna",
   "comps": "La Liga",
   "pos_primary": "MF",
-  "minutes_2023": 967.0
+  "minutes_season": 796.0
  },
  "current": {
-  "ability": 54.7,
-  "score_position": 54.4,
-  "score_style": 55.0,
+  "ability": 52.2,
+  "score_position": 51.0,
+  "score_style": 53.5,
   "groups": {
-   "prod": 49.7,
-   "progress": 57.2,
-   "chance": 85.7,
-   "stability": 25.2,
-   "defense": 23.8
+   "prod": 32.2,
+   "progress": 56.7,
+   "chance": 48.2,
+   "stability": 41.3,
+   "defense": 50.3
   }
  },
  "style": {
-  "primary": "딥 플레이메이커",
-  "confidence": 1.18
+  "primary": "볼 운반형",
+  "confidence": 0.08
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.2297,
-  "mu": 61.5,
-  "ci80": {
-   "lo": 51.7,
-   "hi": 71.3
-  },
-  "ci50": {
-   "lo": 56.3,
-   "hi": 66.7
-  },
-  "sigma_model": 2.9,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "8b298f56",
-   "season": 2019,
-   "distance": 1.952,
-   "survived": 1,
-   "fut_ability_v2": 72.7,
-   "player_name": "Clément Grenier",
-   "squad": "Rennes"
-  },
-  {
-   "fbref_id": "e7f4603c",
-   "season": 2018,
-   "distance": 1.966,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Borja García",
-   "squad": "Girona"
-  },
-  {
-   "fbref_id": "1001ae82",
-   "season": 2020,
-   "distance": 2.014,
-   "survived": 1,
-   "fut_ability_v2": 58.7,
-   "player_name": "Ryad Boudebouz",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "455a2b79",
-   "season": 2018,
-   "distance": 2.033,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Valter Birsa",
-   "squad": "Chievo"
-  },
-  {
-   "fbref_id": "7e82a78f",
-   "season": 2019,
-   "distance": 2.151,
-   "survived": 1,
-   "fut_ability_v2": 51.8,
-   "player_name": "Florent Mollet",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "79135368",
-   "season": 2019,
-   "distance": 2.218,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fayçal Fajr",
-   "squad": "Caen"
-  },
-  {
-   "fbref_id": "1f9328da",
-   "season": 2018,
-   "distance": 2.239,
-   "survived": 1,
-   "fut_ability_v2": 57.8,
-   "player_name": "Radja Nainggolan",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "5f9f0531",
-   "season": 2018,
-   "distance": 2.295,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aaron Hunt",
-   "squad": "Hamburger SV"
-  },
-  {
-   "fbref_id": "6fd1ba62",
-   "season": 2018,
-   "distance": 2.522,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Markel Susaeta",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "ef322658",
-   "season": 2018,
-   "distance": 2.556,
-   "survived": 1,
-   "fut_ability_v2": 51.2,
-   "player_name": "Andrés Guardado",
-   "squad": "Betis"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 92.1
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 99.1
    },
    {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 89.7
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 89.8
    },
    {
     "key": "PPA",
     "label": "박스 진입 패스",
-    "percentile": 86.3
-   },
-   {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 84.5
-   },
-   {
-    "key": "npxG_Sh",
-    "label": "슈팅당 기대득점",
-    "percentile": 77.7
+    "percentile": 86.4
    },
    {
     "key": "F3Pass",
     "label": "최종 3분의1 패스",
-    "percentile": 76.6
-   },
-   {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 74.8
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 4.3
-   },
-   {
-    "key": "Clr",
-    "label": "클리어링",
-    "percentile": 6.4
-   },
-   {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 9.4
-   },
-   {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 13.4
+    "percentile": 81.8
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 16.7
+    "percentile": 80.1
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 74.8
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 68.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 6.1
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 7.3
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 14.5
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 16.3
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 19.3
    }
   ],
   "position_radar": [
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 69.0
+    "percentile": 74.8
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 92.1
+    "percentile": 62.1
    },
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 4.3
+    "percentile": 27.7
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 53.0
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 89.7
+    "percentile": 38.3
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 41.0
+    "percentile": 46.5
    }
   ],
   "top3_styles": [
    {
-    "style": "딥 플레이메이커",
-    "fit_z": 0.78
-   },
-   {
-    "style": "공격형 MF",
-    "fit_z": -0.4
-   },
-   {
     "style": "볼 운반형",
-    "fit_z": -0.62
+    "fit_z": -0.27
+   },
+   {
+    "style": "수비형 파괴자",
+    "fit_z": -0.36
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.39
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "롱패스 비중",
-     "z": 1.91
+     "label": "드리블 시도 비중",
+     "z": 0.37
     },
     {
-     "label": "키패스 비중",
-     "z": 1.31
+     "label": "운반 비중",
+     "z": -0.91
     }
    ],
-   "bottom": [
-    {
-     "label": "수비 3분의1 활동 비중",
-     "z": -0.87
-    }
-   ]
+   "bottom": []
   },
   "coaching": [
-   "전진 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 69퍼센타일)",
-   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 8퍼센타일)",
-   "박스 진입 패스 이미 강점 — 유지 및 응용 훈련 (상위 14퍼센타일)"
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 53퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 10퍼센타일)",
+   "전진 운반 거리 개선 필요 — 기초 반복 훈련 권장 (현재 하위 30퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "전진 패스 기초 교정",
-    "kpi": "전진 패스: 69 → 80 퍼센타일"
+    "focus": "전진 운반 거리 기초 교정",
+    "kpi": "전진 운반 거리: 30 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "박스 진입 패스 실전 적용 반복",
-    "kpi": "박스 진입 패스: 86 → 90 퍼센타일"
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 53 → 70 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "키패스: 이미 상위 8퍼센타일 — 유지"
+    "kpi": "성공 드리블: 90 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.19,
-   "fouls_per90": 0.47,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 48.3,
-   "clean_pctl_fouls": 92.4
+   "yellows_per90": 0.11,
+   "fouls_per90": 1.58,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 78.5,
+   "clean_pctl_fouls": 31.3
   },
   "availability": {
-   "minpct_mean": 71.7,
-   "n_seasons": 5
+   "minpct_mean": 63.6,
+   "n_seasons": 6
   },
   "consistency": {
-   "ability_std": 5.2,
-   "n_rated_seasons": 5
+   "ability_std": 4.9,
+   "n_rated_seasons": 6
   }
  },
  "narrative": {
-  "current": "Moi Gómez(MF)의 현재 능력 점수는 54.7점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 슈팅 창출(SCA), 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 클리어링이다.",
-  "potential": "Moi Gómez의 2~3년 후 전성기 유지 예측 중심값은 61.5점, 80% 구간 상단(잠재력 상한)은 71.3점이다. 빅5 현역 유지확률은 23.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Moi Gómez(MF)의 현재 능력 점수는 52.2점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 리커버리, 성공 드리블, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 블록이다.",
+  "potential": null
  }
 }

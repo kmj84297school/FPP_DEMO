@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n25499d1",
+  "player_name": "Abde Ezzalzouli",
+  "nation": "MAR",
+  "age_years": 22.0,
+  "squad": "Betis",
+  "comps": "La Liga",
+  "pos_primary": "FW",
+  "minutes_season": 1984.0
+ },
+ "current": {
+  "ability": 66.5,
+  "score_position": 62.9,
+  "score_style": 69.9,
+  "groups": {
+   "prod": 49.9,
+   "progress": 85.7,
+   "chance": 53.6,
+   "stability": 31.4,
+   "defense": 73.4
+  }
+ },
+ "style": {
+  "primary": "돌파형 윙어",
+  "confidence": 0.54
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.9069,
+  "mu": 68.4,
+  "ci80": {
+   "lo": 57.5,
+   "hi": 79.2
+  },
+  "ci50": {
+   "lo": 62.6,
+   "hi": 74.1
+  },
+  "sigma_model": 2.6,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2054d037",
+   "season": 2018,
+   "distance": 2.844,
+   "survived": 1,
+   "fut_ability_v2": 38.3,
+   "player_name": "M'Baye Niang",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "178ae8f8",
+   "season": 2020,
+   "distance": 2.959,
+   "survived": 1,
+   "fut_ability_v2": 81.8,
+   "player_name": "Diogo Jota",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "178ae8f8",
+   "season": 2019,
+   "distance": 3.088,
+   "survived": 1,
+   "fut_ability_v2": 78.9,
+   "player_name": "Diogo Jota",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "c47541e0",
+   "season": 2018,
+   "distance": 3.169,
+   "survived": 1,
+   "fut_ability_v2": 63.5,
+   "player_name": "Bertrand Traoré",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "8b788c01",
+   "season": 2019,
+   "distance": 3.401,
+   "survived": 1,
+   "fut_ability_v2": 67.3,
+   "player_name": "Anthony Martial",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "81d3318f",
+   "season": 2018,
+   "distance": 3.406,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Kamano",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "62437b4f",
+   "season": 2019,
+   "distance": 3.667,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Ignacio Pussetto",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "53a0e358",
+   "season": 2019,
+   "distance": 3.731,
+   "survived": 1,
+   "fut_ability_v2": 78.1,
+   "player_name": "Domenico Berardi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "741418c3",
+   "season": 2020,
+   "distance": 3.771,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexis Claude-Maurice",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "57e3f0c7",
+   "season": 2018,
+   "distance": 3.797,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Nicolas Pépé",
+   "squad": "Lille"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 94.9
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 94.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 93.7
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 92.3
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 88.6
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 88.6
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 88.3
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 10.5
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 28.4
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 34.3
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 49.9
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 51.7
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 68.8
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 59.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 88.6
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 94.9
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 93.7
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 53.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 0.62
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": 0.08
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": 0.07
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "운반 비중",
+     "z": 1.17
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.72
+    }
+   ],
+   "bottom": [
+    {
+     "label": "크로스 비중",
+     "z": -0.03
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 11퍼센타일)",
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 53퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 53 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 89 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 이미 상위 5퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.09,
+   "fouls_per90": 1.04,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 70.9,
+   "clean_pctl_fouls": 58.5
+  },
+  "availability": {
+   "minpct_mean": 58.0,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Abde Ezzalzouli(FW)의 현재 능력 점수는 66.5점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반, 전진 운반 거리, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 도움 기대값(xAG)이다.",
+  "potential": "Abde Ezzalzouli의 2~3년 후 성장 예측 중심값은 68.4점, 80% 구간 상단(잠재력 상한)은 79.2점이다. 빅5 잔존확률은 90.7%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

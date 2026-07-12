@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "a0255c67",
+  "player_name": "Manu Morlanes",
+  "nation": "ESP",
+  "age_years": 25.0,
+  "squad": "Mallorca",
+  "comps": "La Liga",
+  "pos_primary": "MF",
+  "minutes_season": 1338.0
+ },
+ "current": {
+  "ability": 60.4,
+  "score_position": 53.4,
+  "score_style": 67.4,
+  "groups": {
+   "prod": 19.4,
+   "progress": 49.3,
+   "chance": 29.6,
+   "stability": 80.6,
+   "defense": 64.9
+  }
+ },
+ "style": {
+  "primary": "수비형 파괴자",
+  "confidence": 0.76
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.7631,
+  "mu": 57.0,
+  "ci80": {
+   "lo": 47.8,
+   "hi": 66.2
+  },
+  "ci50": {
+   "lo": 52.1,
+   "hi": 61.9
+  },
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e327bd76",
+   "season": 2018,
+   "distance": 2.077,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicola Rigoni",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "7f3b388c",
+   "season": 2020,
+   "distance": 2.307,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "Fabinho",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "39bec070",
+   "season": 2018,
+   "distance": 2.381,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Fossati",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "605873e1",
+   "season": 2019,
+   "distance": 2.502,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Bradarić",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "2f4c5a52",
+   "season": 2018,
+   "distance": 2.52,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Harry Arter",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "ba1e04b3",
+   "season": 2020,
+   "distance": 2.561,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Obiang",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "496aeede",
+   "season": 2019,
+   "distance": 2.564,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Christoph Kramer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "dc3fa3b5",
+   "season": 2020,
+   "distance": 2.571,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Demme",
+   "squad": "RB Leipzig / Napoli"
+  },
+  {
+   "fbref_id": "cce181df",
+   "season": 2020,
+   "distance": 2.64,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Geoffrey Kondogbia",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "a8797cf1",
+   "season": 2020,
+   "distance": 2.691,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bongani Zungu",
+   "squad": "Amiens"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 95.3
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 91.8
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 89.8
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 87.8
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 86.0
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 79.2
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 74.1
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 5.5
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 6.1
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 7.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 8.4
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 12.3
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 79.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 24.9
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 95.3
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 32.4
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 46.3
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 89.8
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "수비형 파괴자",
+    "fit_z": 0.4
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.36
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.75
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "태클량",
+     "z": 1.33
+    },
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 0.11
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": -0.25
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)",
+   "블록 강화 여지 — 난이도를 높인 반복 훈련 (현재 68퍼센타일)",
+   "볼 리커버리 이미 강점 — 유지 및 응용 훈련 (상위 26퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "블록 기초 교정",
+    "kpi": "블록: 68 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "볼 리커버리 실전 적용 반복",
+    "kpi": "볼 리커버리: 74 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "태클+인터셉트: 이미 상위 5퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.47,
+   "fouls_per90": 1.01,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 3.9,
+   "clean_pctl_fouls": 70.1
+  },
+  "availability": {
+   "minpct_mean": 22.4,
+   "n_seasons": 5
+  },
+  "consistency": {
+   "ability_std": 2.0,
+   "n_rated_seasons": 3
+  }
+ },
+ "narrative": {
+  "current": "Manu Morlanes(MF)의 현재 능력 점수는 60.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 태클+인터셉트, 볼 손실(미스+파울), 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 골 창출(GCA)이다.",
+  "potential": "Manu Morlanes의 2~3년 후 전성기 유지 예측 중심값은 57.0점, 80% 구간 상단(잠재력 상한)은 66.2점이다. 빅5 현역 유지확률은 76.3%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

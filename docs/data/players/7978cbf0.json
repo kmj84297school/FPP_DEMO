@@ -2,187 +2,307 @@
  "meta": {
   "fbref_id": "7978cbf0",
   "player_name": "Himad Abdelli",
-  "nation": "FRA",
-  "age_years": 22.0,
+  "nation": "ALG",
+  "age_years": 24.0,
   "squad": "Angers",
   "comps": "Ligue 1",
   "pos_primary": "MF",
-  "minutes_2023": 214.0
+  "minutes_season": 2842.0
  },
  "current": {
-  "ability": 53.8,
-  "score_position": 52.4,
-  "score_style": 55.2,
+  "ability": 62.6,
+  "score_position": 59.4,
+  "score_style": 65.8,
   "groups": {
-   "prod": 49.3,
-   "progress": 57.5,
-   "chance": 58.2,
-   "stability": 33.9,
-   "defense": 36.7
+   "prod": 49.0,
+   "progress": 79.0,
+   "chance": 58.6,
+   "stability": 37.9,
+   "defense": 32.0
   }
  },
  "style": {
   "primary": "볼 운반형",
-  "confidence": 0.22
+  "confidence": 1.2
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8401,
+  "mu": 61.9,
+  "ci80": {
+   "lo": 52.6,
+   "hi": 71.1
+  },
+  "ci50": {
+   "lo": 57.0,
+   "hi": 66.8
+  },
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "cc700722",
+   "season": 2018,
+   "distance": 2.328,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Allan",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2019,
+   "distance": 2.759,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2019,
+   "distance": 2.913,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "f4bc42b1",
+   "season": 2020,
+   "distance": 2.962,
+   "survived": 1,
+   "fut_ability_v2": 48.5,
+   "player_name": "Sada Thioub",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "6481421d",
+   "season": 2020,
+   "distance": 2.964,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Moussa Doumbia",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "26f6dca8",
+   "season": 2018,
+   "distance": 2.987,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Manuel Lanzini",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2020,
+   "distance": 3.006,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "635f2732",
+   "season": 2020,
+   "distance": 3.006,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Jean-Paul Boëtius",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "c05dfb74",
+   "season": 2019,
+   "distance": 3.029,
+   "survived": 1,
+   "fut_ability_v2": 69.9,
+   "player_name": "Iker Muniain",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "ab651565",
+   "season": 2020,
+   "distance": 3.034,
+   "survived": 1,
+   "fut_ability_v2": 61.3,
+   "player_name": "Nathan Redmond",
+   "squad": "Southampton"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 100.0
-   },
-   {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 96.7
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 74.8
-   },
-   {
-    "key": "AerPct",
-    "label": "공중볼 승률",
-    "percentile": 65.3
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 96.2
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 65.3
+    "percentile": 93.9
    },
    {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 64.7
-   },
-   {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 60.2
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 0.0
-   },
-   {
-    "key": "Clr",
-    "label": "클리어링",
-    "percentile": 1.5
-   },
-   {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 9.4
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 93.4
    },
    {
     "key": "Recov",
     "label": "볼 리커버리",
-    "percentile": 12.8
+    "percentile": 90.3
    },
    {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 15.5
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 86.8
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 84.3
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 77.3
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 9.5
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 18.1
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 19.0
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 20.6
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 22.5
    }
   ],
   "position_radar": [
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 46.5
+    "percentile": 86.8
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 96.7
+    "percentile": 61.7
    },
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 49.8
+    "percentile": 36.0
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 93.4
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 64.7
+    "percentile": 63.0
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 58.4
+    "percentile": 54.6
    }
   ],
   "top3_styles": [
    {
     "style": "볼 운반형",
-    "fit_z": 0.65
-   },
-   {
-    "style": "딥 플레이메이커",
-    "fit_z": 0.43
+    "fit_z": 0.94
    },
    {
     "style": "공격형 MF",
-    "fit_z": -0.13
+    "fit_z": -0.26
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.46
    }
   ],
   "style_evidence": {
    "top": [
     {
+     "label": "운반 비중",
+     "z": 0.97
+    },
+    {
      "label": "드리블 시도 비중",
-     "z": 0.65
+     "z": 0.92
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 65퍼센타일)"
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 7퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 6퍼센타일)",
+   "전진 운반 거리 이미 강점 — 유지 및 응용 훈련 (상위 4퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "성공 드리블 기초 교정",
-    "kpi": "성공 드리블: 65 → 80 퍼센타일"
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 이미 상위 7퍼센타일 — 유지"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 이미 상위 6퍼센타일 — 유지"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "성공 드리블: 65 → 80 퍼센타일"
+    "kpi": "전진 운반 거리: 이미 상위 4퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.0,
-   "fouls_per90": 0.84,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 81.8,
-   "clean_pctl_fouls": 73.3
+   "yellows_per90": 0.13,
+   "fouls_per90": 1.52,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 75.7,
+   "clean_pctl_fouls": 34.7
   },
   "availability": {
-   "minpct_mean": 13.1,
-   "n_seasons": 1
+   "minpct_mean": 53.0,
+   "n_seasons": 2
   },
   "consistency": {
-   "ability_std": null,
-   "n_rated_seasons": 1
+   "ability_std": 6.1,
+   "n_rated_seasons": 2
   }
  },
  "narrative": {
-  "current": "Himad Abdelli(MF)의 현재 능력 점수는 53.8점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 키패스, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 클리어링이다.",
-  "potential": null
+  "current": "Himad Abdelli(MF)의 현재 능력 점수는 62.6점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반 거리, 성공 드리블, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 블록이다.",
+  "potential": "Himad Abdelli의 2~3년 후 전성기 유지 예측 중심값은 61.9점, 80% 구간 상단(잠재력 상한)은 71.1점이다. 빅5 현역 유지확률은 84.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

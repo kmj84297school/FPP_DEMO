@@ -3,305 +3,207 @@
   "fbref_id": "be170419",
   "player_name": "Unai Núñez",
   "nation": "ESP",
-  "age_years": 25.0,
-  "squad": "Celta Vigo",
+  "age_years": 27.0,
+  "squad": "Athletic Club",
   "comps": "La Liga",
   "pos_primary": "DF",
-  "minutes_2023": 990.0
+  "minutes_season": 645.0
  },
  "current": {
-  "ability": 47.1,
-  "score_position": 45.7,
-  "score_style": 48.5,
+  "ability": 52.9,
+  "score_position": 49.4,
+  "score_style": 56.3,
   "groups": {
-   "prod": 47.8,
-   "progress": 45.7,
-   "chance": 30.4,
-   "stability": 55.2,
-   "defense": 35.2
+   "prod": 38.9,
+   "progress": 34.1,
+   "chance": 14.3,
+   "stability": 48.9,
+   "defense": 58.6
   }
  },
  "style": {
-  "primary": "빌드업 수비수",
-  "confidence": 0.15
+  "primary": "스토퍼",
+  "confidence": 1.89
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.6016,
-  "mu": 56.0,
-  "ci80": {
-   "lo": 46.7,
-   "hi": 65.4
-  },
-  "ci50": {
-   "lo": 51.1,
-   "hi": 60.9
-  },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "91899ca8",
-   "season": 2019,
-   "distance": 1.327,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mateo Musacchio",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "d70a2141",
-   "season": 2018,
-   "distance": 1.507,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jordi Amat",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "fbd6378b",
-   "season": 2018,
-   "distance": 1.558,
-   "survived": 1,
-   "fut_ability_v2": 55.6,
-   "player_name": "Aïssa Mandi",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "30f5ffa9",
-   "season": 2020,
-   "distance": 1.6,
-   "survived": 1,
-   "fut_ability_v2": 51.9,
-   "player_name": "Milan Škriniar",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "bc6f5f06",
-   "season": 2018,
-   "distance": 1.603,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sergi Gómez",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "89ac64a6",
-   "season": 2020,
-   "distance": 1.607,
-   "survived": 1,
-   "fut_ability_v2": 67.3,
-   "player_name": "Manuel Akanji",
-   "squad": "Dortmund"
-  },
-  {
-   "fbref_id": "d541e703",
-   "season": 2019,
-   "distance": 1.664,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Freddie Veseli",
-   "squad": "Empoli"
-  },
-  {
-   "fbref_id": "1c344204",
-   "season": 2018,
-   "distance": 1.684,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Cédric Yamberé",
-   "squad": "Dijon"
-  },
-  {
-   "fbref_id": "fbd6378b",
-   "season": 2019,
-   "distance": 1.687,
-   "survived": 1,
-   "fut_ability_v2": 52.4,
-   "player_name": "Aïssa Mandi",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "fbd6378b",
-   "season": 2020,
-   "distance": 1.687,
-   "survived": 1,
-   "fut_ability_v2": 48.3,
-   "player_name": "Aïssa Mandi",
-   "squad": "Betis"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 92.7
-   },
-   {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 81.3
-   },
-   {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 68.1
-   },
-   {
-    "key": "np_G",
-    "label": "무페널티 득점",
-    "percentile": 68.1
-   },
-   {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 66.8
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 97.3
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 63.5
+    "percentile": 92.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 87.6
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 77.0
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 71.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 71.0
    },
    {
     "key": "AerWon",
     "label": "공중볼 승리",
-    "percentile": 54.7
+    "percentile": 65.5
    }
   ],
   "weaknesses": [
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 2.3
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 3.3
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 10.1
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 14.9
-   },
-   {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 17.7
+    "percentile": 3.4
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 23.5
+    "percentile": 4.5
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 11.5
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 13.8
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 40.5
+    "percentile": 87.6
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 63.5
+    "percentile": 92.8
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 24.6
+    "percentile": 71.0
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 44.3
+    "percentile": 58.4
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 92.7
+    "percentile": 71.0
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 10.1
+    "percentile": 3.4
    }
   ],
   "top3_styles": [
    {
-    "style": "빌드업 수비수",
-    "fit_z": 0.58
-   },
-   {
     "style": "스토퍼",
-    "fit_z": 0.43
+    "fit_z": 1.02
    },
    {
     "style": "공격형 풀백",
-    "fit_z": -0.79
+    "fit_z": -0.87
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.9
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "패스 관여도",
-     "z": 0.79
+     "label": "클리어링량",
+     "z": 1.61
     },
     {
-     "label": "롱패스 비중",
-     "z": 0.38
+     "label": "자책 박스 활동 비중",
+     "z": 0.88
     }
    ],
-   "bottom": []
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": 0.57
+    }
+   ]
   },
   "coaching": [
-   "전진 패스 안정화 단계 — 상황별 반복 훈련 (현재 44퍼센타일)",
-   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 7퍼센타일)"
+   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 12퍼센타일)",
+   "클리어링 이미 강점 — 유지 및 응용 훈련 (상위 7퍼센타일)",
+   "공중볼 승리 강화 여지 — 난이도를 높인 반복 훈련 (현재 66퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "전진 패스 기초 교정",
-    "kpi": "전진 패스: 44 → 70 퍼센타일"
+    "focus": "공중볼 승리 기초 교정",
+    "kpi": "공중볼 승리: 66 → 80 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "패스 성공률 실전 적용 반복",
-    "kpi": "패스 성공률: 이미 상위 7퍼센타일 — 유지"
+    "focus": "태클+인터셉트 실전 적용 반복",
+    "kpi": "태클+인터셉트: 88 → 90 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "패스 성공률: 이미 상위 7퍼센타일 — 유지"
+    "kpi": "클리어링: 이미 상위 7퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.27,
-   "fouls_per90": 1.09,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 28.1,
-   "clean_pctl_fouls": 30.1
+   "yellows_per90": 0.56,
+   "fouls_per90": 1.4,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 0.6,
+   "clean_pctl_fouls": 19.0
   },
   "availability": {
-   "minpct_mean": 55.6,
-   "n_seasons": 6
+   "minpct_mean": 50.4,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 9.3,
-   "n_rated_seasons": 6
+   "ability_std": 8.7,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Unai Núñez(DF)의 현재 능력 점수는 47.1점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 패스 성공률, 전진 패스 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 블록이다.",
-  "potential": "Unai Núñez의 2~3년 후 전성기 유지 예측 중심값은 56.0점, 80% 구간 상단(잠재력 상한)은 65.4점이다. 빅5 현역 유지확률은 60.2%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Unai Núñez(DF)의 현재 능력 점수는 52.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 클리어링, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 블록이다.",
+  "potential": null
  }
 }

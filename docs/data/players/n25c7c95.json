@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n25c7c95",
+  "player_name": "Patrick Dorgu",
+  "nation": "DEN",
+  "age_years": 19.0,
+  "squad": "Manchester Utd / Lecce",
+  "comps": "Premier League / Serie A",
+  "pos_primary": "DF",
+  "minutes_season": 2682.0
+ },
+ "current": {
+  "ability": 58.4,
+  "score_position": 52.1,
+  "score_style": 64.6,
+  "groups": {
+   "prod": 78.5,
+   "progress": 62.3,
+   "chance": 85.3,
+   "stability": 15.0,
+   "defense": 49.0
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 0.47
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.8793,
+  "mu": 60.0,
+  "ci80": {
+   "lo": 49.4,
+   "hi": 70.6
+  },
+  "ci50": {
+   "lo": 54.4,
+   "hi": 65.5
+  },
+  "sigma_model": 1.6,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d4c9725f",
+   "season": 2019,
+   "distance": 2.41,
+   "survived": 1,
+   "fut_ability_v2": 67.3,
+   "player_name": "Theo Hernández",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "3b61c9ec",
+   "season": 2020,
+   "distance": 2.42,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Luca Pellegrini",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "0a89e877",
+   "season": 2018,
+   "distance": 2.614,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Henrichs",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "ce5b170a",
+   "season": 2018,
+   "distance": 2.625,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Claud Adjapong",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "d2424d1b",
+   "season": 2018,
+   "distance": 2.716,
+   "survived": 1,
+   "fut_ability_v2": 68.0,
+   "player_name": "Ben Chilwell",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "27d0a506",
+   "season": 2019,
+   "distance": 2.764,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Porro",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "5e74d6c8",
+   "season": 2020,
+   "distance": 2.906,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Brandon Williams",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "df8b52a5",
+   "season": 2020,
+   "distance": 2.973,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Emerson",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "1295552e",
+   "season": 2020,
+   "distance": 3.091,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Mert Müldür",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "e3a5814e",
+   "season": 2019,
+   "distance": 3.127,
+   "survived": 1,
+   "fut_ability_v2": 42.5,
+   "player_name": "Ainsley Maitland-Niles",
+   "squad": "Arsenal"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 98.4
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 97.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 95.6
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 95.3
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 95.0
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 94.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 91.2
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 2.0
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 3.6
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 13.5
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 15.3
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 26.6
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 73.9
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 13.5
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 35.5
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 37.6
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 27.7
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 51.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 1.24
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.77
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.74
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 1.57
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": 1.27
+    }
+   ],
+   "bottom": [
+    {
+     "label": "크로스 비중",
+     "z": 0.87
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 2퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 29퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 18퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 71 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 82 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 이미 상위 2퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.17,
+   "fouls_per90": 1.38,
+   "reds_total_season": 2.0,
+   "clean_pctl_cards": 55.1,
+   "clean_pctl_fouls": 20.2
+  },
+  "availability": {
+   "minpct_mean": 44.6,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Patrick Dorgu(DF)의 현재 능력 점수는 58.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 시도, 전진 운반, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 전진 패스 거리이다.",
+  "potential": "Patrick Dorgu의 2~3년 후 성장 예측 중심값은 60.0점, 80% 구간 상단(잠재력 상한)은 70.6점이다. 빅5 잔존확률은 87.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

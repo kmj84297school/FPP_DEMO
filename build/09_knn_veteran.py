@@ -1,4 +1,4 @@
-"""베테랑(24세+) 2023 선수마다 실제 결과가 있는 과거 베테랑 선수(k=10) 검색."""
+"""베테랑(24세+) 대상 시즌 선수마다 실제 결과가 있는 과거 베테랑 선수(k=10) 검색."""
 import sys, json, pathlib
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "build" / "lib"))
@@ -6,22 +6,20 @@ sys.path.insert(0, str(ROOT / "build" / "lib"))
 import pandas as pd
 
 from knn import find_neighbors, DIST_COLS
-
-DATA = ROOT / "data"
-CACHE = ROOT / "build" / "_cache"
+from config import DATA, ABILITY_CSV, FEATURES_CURRENT_CSV, PRED_PEAK_CSV, KNN_PEAK_JSON
 
 if __name__ == "__main__":
-    preds = pd.read_csv(CACHE / "predictions_veteran_2023.csv")
+    preds = pd.read_csv(PRED_PEAK_CSV)
     eligible_ids = preds["fbref_id"]
 
-    feat_all = pd.read_csv(CACHE / "features_2023_all.csv", index_col=0)
+    feat_all = pd.read_csv(FEATURES_CURRENT_CSV, index_col=0)
     query = feat_all.loc[feat_all.index.intersection(eligible_ids), DIST_COLS + ["pos_primary", "age_y"]].copy()
 
     pool = pd.read_csv(DATA / "fpp_train_matrix_veteran.csv")
 
     neighbors, low_conf = find_neighbors(pool, query, k=10, age_tol=2)
 
-    labeled = pd.read_csv(DATA / "fpp_ability_v1_2018_2023.csv", low_memory=False)
+    labeled = pd.read_csv(ABILITY_CSV, low_memory=False)
     name_lookup = labeled.set_index(["fbref_id", "Season_End_Year"])[["Player", "Squads"]]
 
     out = {}
@@ -38,6 +36,6 @@ if __name__ == "__main__":
             enriched.append({**r, "player_name": name, "squad": squad})
         out[fbref_id] = {"neighbors": enriched, "low_confidence": bool(low_conf.get(fbref_id, False))}
 
-    with open(CACHE / "knn_veteran_2023.json", "w", encoding="utf-8") as f:
+    with open(KNN_PEAK_JSON, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print("저장 완료:", len(out), "명 ->", CACHE / "knn_veteran_2023.json")
+    print("저장 완료:", len(out), "명 ->", KNN_PEAK_JSON)

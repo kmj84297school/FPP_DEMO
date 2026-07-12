@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n2580bef",
+  "player_name": "Hamza Rafia",
+  "nation": "TUN",
+  "age_years": 25.0,
+  "squad": "Lecce",
+  "comps": "Serie A",
+  "pos_primary": "MF",
+  "minutes_season": 1058.0
+ },
+ "current": {
+  "ability": 44.3,
+  "score_position": 45.1,
+  "score_style": 43.6,
+  "groups": {
+   "prod": 30.3,
+   "progress": 47.7,
+   "chance": 55.2,
+   "stability": 25.6,
+   "defense": 45.1
+  }
+ },
+ "style": {
+  "primary": "수비형 파괴자",
+  "confidence": 0.53
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.3255,
+  "mu": 48.8,
+  "ci80": {
+   "lo": 39.5,
+   "hi": 58.1
+  },
+  "ci50": {
+   "lo": 43.9,
+   "hi": 53.7
+  },
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "54073b28",
+   "season": 2018,
+   "distance": 2.622,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Recio",
+   "squad": "Málaga"
+  },
+  {
+   "fbref_id": "92b56413",
+   "season": 2019,
+   "distance": 2.664,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Tristan Dingomé",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "106bca06",
+   "season": 2019,
+   "distance": 2.697,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Alessandro Schöpf",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "d2ac648c",
+   "season": 2018,
+   "distance": 2.714,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaku Shibasaki",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "3c05c659",
+   "season": 2020,
+   "distance": 2.715,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastián Cristóforo",
+   "squad": "Eibar / Fiorentina"
+  },
+  {
+   "fbref_id": "47b7e3af",
+   "season": 2019,
+   "distance": 2.729,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "79ca3e23",
+   "season": 2020,
+   "distance": 2.772,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Ondrej Duda",
+   "squad": "Norwich City / Hertha BSC"
+  },
+  {
+   "fbref_id": "86695068",
+   "season": 2020,
+   "distance": 2.81,
+   "survived": 1,
+   "fut_ability_v2": 53.7,
+   "player_name": "Dennis Praet",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2020,
+   "distance": 2.884,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "1512328c",
+   "season": 2018,
+   "distance": 2.965,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keko",
+   "squad": "Málaga"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 90.0
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 80.0
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 72.3
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 69.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 65.8
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 64.6
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 64.0
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 6.1
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 8.2
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 12.2
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 19.9
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 21.3
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 49.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 69.1
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 90.0
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 34.9
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 65.8
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 30.6
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "수비형 파괴자",
+    "fit_z": 0.73
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.2
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.48
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "태클량",
+     "z": 2.52
+    },
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 0.1
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": -0.43
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 10퍼센타일)",
+   "블록 개선 필요 — 기초 반복 훈련 권장 (현재 하위 8퍼센타일)",
+   "볼 리커버리 이미 강점 — 유지 및 응용 훈련 (상위 28퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "블록 기초 교정",
+    "kpi": "블록: 8 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "볼 리커버리 실전 적용 반복",
+    "kpi": "볼 리커버리: 72 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "태클+인터셉트: 이미 상위 10퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.34,
+   "fouls_per90": 2.21,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 19.3,
+   "clean_pctl_fouls": 7.2
+  },
+  "availability": {
+   "minpct_mean": 30.9,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Hamza Rafia(MF)의 현재 능력 점수는 44.3점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 박스 진입 패스, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 블록이다.",
+  "potential": "Hamza Rafia의 2~3년 후 전성기 유지 예측 중심값은 48.8점, 80% 구간 상단(잠재력 상한)은 58.1점이다. 빅5 현역 유지확률은 32.6%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

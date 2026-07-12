@@ -2,307 +2,203 @@
  "meta": {
   "fbref_id": "b2bd0f6c",
   "player_name": "Jonathan Bamba",
-  "nation": "FRA",
-  "age_years": 26.0,
-  "squad": "Lille",
-  "comps": "Ligue 1",
-  "pos_primary": "MF",
-  "minutes_2023": 1082.0
+  "nation": "CIV",
+  "age_years": 28.0,
+  "squad": "Celta Vigo",
+  "comps": "La Liga",
+  "pos_primary": "FW",
+  "minutes_season": 811.0
  },
  "current": {
-  "ability": 71.7,
-  "score_position": 65.4,
-  "score_style": 78.1,
+  "ability": 57.0,
+  "score_position": 53.3,
+  "score_style": 60.6,
   "groups": {
-   "prod": 87.5,
-   "progress": 64.7,
-   "chance": 84.8,
-   "stability": 24.6,
-   "defense": 41.3
+   "prod": 25.0,
+   "progress": 70.9,
+   "chance": 69.1,
+   "stability": 59.3,
+   "defense": 54.9
   }
  },
  "style": {
-  "primary": "공격형 MF",
-  "confidence": 0.27
+  "primary": "연결형 공격수",
+  "confidence": 0.14
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.6548,
-  "mu": 62.1,
-  "ci80": {
-   "lo": 52.5,
-   "hi": 71.7
-  },
-  "ci50": {
-   "lo": 57.1,
-   "hi": 67.2
-  },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "e280527c",
-   "season": 2020,
-   "distance": 1.936,
-   "survived": 1,
-   "fut_ability_v2": 66.0,
-   "player_name": "Marcel Sabitzer",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "53a0e358",
-   "season": 2020,
-   "distance": 2.252,
-   "survived": 1,
-   "fut_ability_v2": 78.1,
-   "player_name": "Domenico Berardi",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "50871bcc",
-   "season": 2018,
-   "distance": 2.256,
-   "survived": 1,
-   "fut_ability_v2": 72.8,
-   "player_name": "Thorgan Hazard",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "817c6964",
-   "season": 2019,
-   "distance": 2.275,
-   "survived": 1,
-   "fut_ability_v2": 51.8,
-   "player_name": "Rade Krunić",
-   "squad": "Empoli"
-  },
-  {
-   "fbref_id": "c76b7567",
-   "season": 2020,
-   "distance": 2.322,
-   "survived": 1,
-   "fut_ability_v2": 67.5,
-   "player_name": "Adrien Thomasson",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "440c84ed",
-   "season": 2018,
-   "distance": 2.352,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Iago Falque",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "cd0fa27b",
-   "season": 2020,
-   "distance": 2.411,
-   "survived": 1,
-   "fut_ability_v2": 70.8,
-   "player_name": "Hakan Çalhanoğlu",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "50871bcc",
-   "season": 2020,
-   "distance": 2.452,
-   "survived": 1,
-   "fut_ability_v2": 61.8,
-   "player_name": "Thorgan Hazard",
-   "squad": "Dortmund"
-  },
-  {
-   "fbref_id": "9744ff80",
-   "season": 2018,
-   "distance": 2.509,
-   "survived": 1,
-   "fut_ability_v2": 75.8,
-   "player_name": "Pablo Sarabia",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "e280527c",
-   "season": 2019,
-   "distance": 2.509,
-   "survived": 1,
-   "fut_ability_v2": 66.7,
-   "player_name": "Marcel Sabitzer",
-   "squad": "RB Leipzig"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 99.4
-   },
-   {
-    "key": "PPA",
-    "label": "박스 진입 패스",
-    "percentile": 91.5
-   },
-   {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 90.9
-   },
-   {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 90.6
-   },
-   {
-    "key": "np_G",
-    "label": "무페널티 득점",
-    "percentile": 90.6
-   },
-   {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 89.7
-   },
-   {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 89.1
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 9.4
-   },
-   {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 23.7
-   },
-   {
-    "key": "Clr",
-    "label": "클리어링",
-    "percentile": 25.5
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 99.5
    },
    {
     "key": "F3Pass",
     "label": "최종 3분의1 패스",
-    "percentile": 31.6
-   },
-   {
-    "key": "AerPct",
-    "label": "공중볼 승률",
-    "percentile": 37.1
-   }
-  ],
-  "position_radar": [
-   {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 59.0
-   },
-   {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 69.3
-   },
-   {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 23.7
-   },
-   {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 88.8
+    "percentile": 86.9
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 39.8
+    "percentile": 85.3
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 84.6
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 81.6
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 79.5
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 78.6
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 2.6
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 4.4
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 5.8
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 6.5
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 10.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 2.6
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 64.1
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 79.5
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 76.9
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 6.5
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 60.8
    }
   ],
   "top3_styles": [
    {
-    "style": "공격형 MF",
-    "fit_z": 1.0
+    "style": "연결형 공격수",
+    "fit_z": 0.23
    },
    {
-    "style": "볼 운반형",
-    "fit_z": 0.72
+    "style": "돌파형 윙어",
+    "fit_z": 0.09
    },
    {
-    "style": "수비형 파괴자",
-    "fit_z": -0.65
+    "style": "타겟맨",
+    "fit_z": -1.17
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "공격 3분의1 활동 비중",
-     "z": 1.42
+     "label": "중원 활동 비중",
+     "z": 1.36
     },
     {
-     "label": "박스 터치 비중",
-     "z": 0.87
+     "label": "키패스 비중",
+     "z": -0.9
     }
    ],
-   "bottom": [
-    {
-     "label": "슈팅 비중",
-     "z": 0.7
-    }
-   ]
+   "bottom": []
   },
   "coaching": [
-   "슈팅 창출(SCA) 이미 강점 — 유지 및 응용 훈련 (상위 11퍼센타일)",
-   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 69퍼센타일)",
-   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 9퍼센타일)"
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 61퍼센타일)",
+   "슈팅 창출(SCA) 강화 여지 — 난이도를 높인 반복 훈련 (현재 64퍼센타일)",
+   "전진 패스 수신 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
     "focus": "키패스 기초 교정",
-    "kpi": "키패스: 69 → 80 퍼센타일"
+    "kpi": "키패스: 61 → 80 퍼센타일"
    },
    {
     "phase": "6~12주",
     "focus": "슈팅 창출(SCA) 실전 적용 반복",
-    "kpi": "슈팅 창출(SCA): 89 → 90 퍼센타일"
+    "kpi": "슈팅 창출(SCA): 64 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "비페널티 xG: 이미 상위 9퍼센타일 — 유지"
+    "kpi": "전진 패스 수신: 73 → 80 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.17,
-   "fouls_per90": 1.41,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 53.8,
-   "clean_pctl_fouls": 30.1
+   "yellows_per90": 0.11,
+   "fouls_per90": 0.78,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 61.3,
+   "clean_pctl_fouls": 78.6
   },
   "availability": {
-   "minpct_mean": 82.7,
-   "n_seasons": 6
+   "minpct_mean": 74.3,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 4.4,
-   "n_rated_seasons": 6
+   "ability_std": 4.7,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Jonathan Bamba(MF)의 현재 능력 점수는 71.7점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 전진 패스 수신, 박스 진입 패스, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 태클+인터셉트이다.",
-  "potential": "Jonathan Bamba의 2~3년 후 전성기 유지 예측 중심값은 62.1점, 80% 구간 상단(잠재력 상한)은 71.7점이다. 빅5 현역 유지확률은 65.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Jonathan Bamba(FW)의 현재 능력 점수는 57.0점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 볼 리커버리, 최종 3분의1 패스, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 무페널티 득점이다.",
+  "potential": null
  }
 }

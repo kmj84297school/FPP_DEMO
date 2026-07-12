@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "9bc9a519",
+  "player_name": "Djed Spence",
+  "nation": "ENG",
+  "age_years": 23.0,
+  "squad": "Tottenham",
+  "comps": "Premier League",
+  "pos_primary": "DF",
+  "minutes_season": 1792.0
+ },
+ "current": {
+  "ability": 67.1,
+  "score_position": 64.8,
+  "score_style": 69.3,
+  "groups": {
+   "prod": 56.5,
+   "progress": 75.8,
+   "chance": 70.0,
+   "stability": 30.5,
+   "defense": 68.6
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 0.15
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.7858,
+  "mu": 63.6,
+  "ci80": {
+   "lo": 53.0,
+   "hi": 74.3
+  },
+  "ci50": {
+   "lo": 58.0,
+   "hi": 69.3
+  },
+  "sigma_model": 2.0,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "378825c7",
+   "season": 2019,
+   "distance": 2.218,
+   "survived": 1,
+   "fut_ability_v2": 68.8,
+   "player_name": "Ramy Bensebaini",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "246d153b",
+   "season": 2020,
+   "distance": 2.41,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Ola Aina",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "17370b95",
+   "season": 2018,
+   "distance": 2.595,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bernardo",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "f449640d",
+   "season": 2020,
+   "distance": 2.668,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fodé Ballo-Touré",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "22721b88",
+   "season": 2018,
+   "distance": 2.694,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Jordan Amavi",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "de0f152c",
+   "season": 2018,
+   "distance": 2.742,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Adam Masina",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "6b2c894b",
+   "season": 2020,
+   "distance": 2.81,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Ghislain Konan",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "88d4144a",
+   "season": 2020,
+   "distance": 2.823,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Maximilian Mittelstädt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "f1bed920",
+   "season": 2018,
+   "distance": 2.861,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Kévin Rodrigues",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "c50e5bba",
+   "season": 2018,
+   "distance": 2.864,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Douglas Santos",
+   "squad": "Hamburger SV"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 99.4
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 94.0
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 93.0
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 91.5
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 88.5
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 84.2
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 82.4
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 2.8
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 28.0
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 29.7
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 36.2
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 51.6
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 77.8
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 51.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 57.7
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 88.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 59.1
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 72.3
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.87
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.72
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.54
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 2.42
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.45
+    }
+   ],
+   "bottom": [
+    {
+     "label": "크로스 비중",
+     "z": -0.26
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 6퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 1퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 62퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 62 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 이미 상위 6퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 이미 상위 1퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.2,
+   "fouls_per90": 1.05,
+   "reds_total_season": 2.0,
+   "clean_pctl_cards": 45.0,
+   "clean_pctl_fouls": 41.3
+  },
+  "availability": {
+   "minpct_mean": 26.4,
+   "n_seasons": 2
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Djed Spence(DF)의 현재 능력 점수는 67.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 성공 드리블, 전진 운반, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 전진 패스 거리이다.",
+  "potential": "Djed Spence의 2~3년 후 성장 예측 중심값은 63.6점, 80% 구간 상단(잠재력 상한)은 74.3점이다. 빅5 잔존확률은 78.6%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

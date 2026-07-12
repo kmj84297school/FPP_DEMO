@@ -3,301 +3,202 @@
   "fbref_id": "9250bcff",
   "player_name": "Christian Gytkjær",
   "nation": "DEN",
-  "age_years": 32.0,
-  "squad": "Monza",
+  "age_years": 34.0,
+  "squad": "Venezia",
   "comps": "Serie A",
   "pos_primary": "FW",
-  "minutes_2023": 324.0
+  "minutes_season": 754.0
  },
  "current": {
-  "ability": 47.2,
-  "score_position": 44.8,
-  "score_style": 49.6,
+  "ability": 32.0,
+  "score_position": 28.8,
+  "score_style": 35.3,
   "groups": {
-   "prod": 58.5,
-   "progress": 23.4,
-   "chance": 39.0,
-   "stability": 18.8,
-   "defense": 37.8
+   "prod": 27.3,
+   "progress": 11.2,
+   "chance": 22.8,
+   "stability": 36.1,
+   "defense": 53.4
   }
  },
  "style": {
-  "primary": "박스 포처",
-  "confidence": 0.12
+  "primary": "타겟맨",
+  "confidence": 0.34
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.1481,
-  "mu": 40.1,
-  "ci80": {
-   "lo": 30.3,
-   "hi": 50.1
-  },
-  "ci50": {
-   "lo": 35.0,
-   "hi": 45.4
-  },
-  "sigma_model": 3.0,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "c3fd9887",
-   "season": 2018,
-   "distance": 2.746,
-   "survived": 1,
-   "fut_ability_v2": 46.4,
-   "player_name": "Vedad Ibišević",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "189cee7b",
-   "season": 2019,
-   "distance": 2.861,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Javier Hernández",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "58d97e77",
-   "season": 2018,
-   "distance": 2.878,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alessandro Matri",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "c3fd9887",
-   "season": 2019,
-   "distance": 2.883,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vedad Ibišević",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "bdf7b97d",
-   "season": 2018,
-   "distance": 2.912,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fernando Torres",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "68796d61",
-   "season": 2018,
-   "distance": 2.915,
-   "survived": 1,
-   "fut_ability_v2": 19.4,
-   "player_name": "Shinji Okazaki",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "8cfc2f69",
-   "season": 2018,
-   "distance": 3.027,
-   "survived": 1,
-   "fut_ability_v2": 45.1,
-   "player_name": "Ángel Rodríguez",
-   "squad": "Getafe"
-  },
-  {
-   "fbref_id": "c4b8bcf4",
-   "season": 2018,
-   "distance": 3.23,
-   "survived": 1,
-   "fut_ability_v2": 31.7,
-   "player_name": "Charles",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "16ceb862",
-   "season": 2020,
-   "distance": 3.299,
-   "survived": 1,
-   "fut_ability_v2": 58.3,
-   "player_name": "Olivier Giroud",
-   "squad": "Chelsea"
-  },
-  {
-   "fbref_id": "9f472354",
-   "season": 2019,
-   "distance": 3.334,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Shane Long",
-   "squad": "Southampton"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "npxG_Sh",
-    "label": "슈팅당 기대득점",
-    "percentile": 100.0
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 95.3
    },
    {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 94.3
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 84.4
    },
    {
     "key": "TklPct",
     "label": "태클 성공률",
-    "percentile": 90.4
+    "percentile": 81.4
    },
    {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 87.9
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 76.2
    },
    {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 83.7
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 69.0
    },
    {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 66.7
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 48.5
    },
    {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 59.6
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 46.2
    }
   ],
   "weaknesses": [
    {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 2.1
-   },
-   {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 9.9
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 0.9
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 11.3
+    "percentile": 1.6
    },
    {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 13.5
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 2.1
    },
    {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 17.0
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 2.3
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 5.4
    }
   ],
   "position_radar": [
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 94.3
+    "percentile": 28.0
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 18.4
+    "percentile": 14.5
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 11.3
+    "percentile": 1.6
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 2.1
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 24.8
+    "percentile": 18.6
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 13.5
+    "percentile": 26.1
    }
   ],
   "top3_styles": [
    {
-    "style": "박스 포처",
-    "fit_z": 0.69
+    "style": "타겟맨",
+    "fit_z": 1.01
    },
    {
     "style": "연결형 공격수",
-    "fit_z": 0.58
+    "fit_z": 0.67
    },
    {
-    "style": "타겟맨",
-    "fit_z": 0.17
+    "style": "박스 포처",
+    "fit_z": 0.03
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "슈팅 비중",
-     "z": 1.1
+     "label": "공중볼 경합량",
+     "z": 2.14
     },
     {
      "label": "박스 터치 비중",
-     "z": 0.28
+     "z": -0.12
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 6퍼센타일)",
-   "유효슈팅 강화 여지 — 난이도를 높인 반복 훈련 (현재 67퍼센타일)",
-   "박스 터치 개선 필요 — 기초 반복 훈련 권장 (현재 하위 25퍼센타일)"
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 16퍼센타일)",
+   "무페널티 득점 개선 필요 — 기초 반복 훈련 권장 (현재 하위 17퍼센타일)",
+   "박스 터치 개선 필요 — 기초 반복 훈련 권장 (현재 하위 19퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "박스 터치 기초 교정",
-    "kpi": "박스 터치: 25 → 60 퍼센타일"
+    "focus": "무페널티 득점 기초 교정",
+    "kpi": "무페널티 득점: 17 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "유효슈팅 실전 적용 반복",
-    "kpi": "유효슈팅: 67 → 80 퍼센타일"
+    "focus": "박스 터치 실전 적용 반복",
+    "kpi": "박스 터치: 19 → 60 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "비페널티 xG: 이미 상위 6퍼센타일 — 유지"
+    "kpi": "공중볼 승리: 84 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
    "yellows_per90": 0.0,
-   "fouls_per90": 1.94,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 74.5,
-   "clean_pctl_fouls": 6.4
+   "fouls_per90": 1.31,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 90.2,
+   "clean_pctl_fouls": 45.0
   },
   "availability": {
-   "minpct_mean": 31.6,
-   "n_seasons": 1
+   "minpct_mean": 26.8,
+   "n_seasons": 2
   },
   "consistency": {
-   "ability_std": null,
-   "n_rated_seasons": 1
+   "ability_std": 10.8,
+   "n_rated_seasons": 2
   }
  },
  "narrative": {
-  "current": "Christian Gytkjær(FW)의 현재 능력 점수는 47.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스 거리이다.",
-  "potential": "Christian Gytkjær의 2~3년 후 전성기 유지 예측 중심값은 40.1점, 80% 구간 상단(잠재력 상한)은 50.1점이다. 빅5 현역 유지확률은 14.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Christian Gytkjær(FW)의 현재 능력 점수는 32.0점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승률, 공중볼 승리, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 성공 드리블이다.",
+  "potential": null
  }
 }

@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "1c772b46",
+  "player_name": "Alfon",
+  "nation": "ESP",
+  "age_years": 25.0,
+  "squad": "Celta Vigo",
+  "comps": "La Liga",
+  "pos_primary": "FW",
+  "minutes_season": 1371.0
+ },
+ "current": {
+  "ability": 62.8,
+  "score_position": 62.2,
+  "score_style": 63.2,
+  "groups": {
+   "prod": 64.1,
+   "progress": 62.5,
+   "chance": 65.2,
+   "stability": 43.0,
+   "defense": 22.3
+  }
+ },
+ "style": {
+  "primary": "돌파형 윙어",
+  "confidence": 0.2
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.6323,
+  "mu": 65.3,
+  "ci80": {
+   "lo": 55.4,
+   "hi": 75.2
+  },
+  "ci50": {
+   "lo": 60.1,
+   "hi": 70.4
+  },
+  "sigma_model": 3.0,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a69e4806",
+   "season": 2020,
+   "distance": 3.123,
+   "survived": 1,
+   "fut_ability_v2": 71.7,
+   "player_name": "Hirving Lozano",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "d9a5d930",
+   "season": 2018,
+   "distance": 3.312,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yevhen Konoplyanka",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "39583cfd",
+   "season": 2019,
+   "distance": 3.357,
+   "survived": 1,
+   "fut_ability_v2": 74.2,
+   "player_name": "Gerard Deulofeu",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "5e861944",
+   "season": 2020,
+   "distance": 3.743,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Matteo Politano",
+   "squad": "Napoli / Inter"
+  },
+  {
+   "fbref_id": "45b9b619",
+   "season": 2020,
+   "distance": 3.97,
+   "survived": 1,
+   "fut_ability_v2": 76.7,
+   "player_name": "Joaquín Correa",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "8f696594",
+   "season": 2020,
+   "distance": 4.111,
+   "survived": 1,
+   "fut_ability_v2": 77.9,
+   "player_name": "Memphis Depay",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "92e7e919",
+   "season": 2019,
+   "distance": 4.127,
+   "survived": 1,
+   "fut_ability_v2": 64.6,
+   "player_name": "Son Heung-min",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "849c826a",
+   "season": 2018,
+   "distance": 4.194,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Andriy Yarmolenko",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2018,
+   "distance": 4.213,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "603cb947",
+   "season": 2018,
+   "distance": 4.408,
+   "survived": 1,
+   "fut_ability_v2": 79.6,
+   "player_name": "Andrej Kramarić",
+   "squad": "Hoffenheim"
+  }
+ ],
+ "low_confidence": true,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 97.2
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 96.7
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 93.9
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 85.5
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 84.6
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 84.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 83.2
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 8.6
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 20.0
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 20.5
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 26.8
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 33.3
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 60.8
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 83.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 78.6
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 97.2
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 96.7
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 75.5
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 1.53
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": 1.33
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": 0.51
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "운반 비중",
+     "z": 2.57
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": 1.29
+    }
+   ],
+   "bottom": [
+    {
+     "label": "크로스 비중",
+     "z": 0.73
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 21퍼센타일)",
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 3퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 24퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 76 → 90 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 79 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 이미 상위 3퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.07,
+   "fouls_per90": 0.98,
+   "reds_total_season": 1.0,
+   "clean_pctl_cards": 81.8,
+   "clean_pctl_fouls": 64.3
+  },
+  "availability": {
+   "minpct_mean": 20.6,
+   "n_seasons": 2
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Alfon(FW)의 현재 능력 점수는 62.8점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 박스 터치, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스 거리이다.",
+  "potential": "Alfon의 2~3년 후 전성기 유지 예측 중심값은 65.3점, 80% 구간 상단(잠재력 상한)은 75.2점이다. 빅5 현역 유지확률은 63.2%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

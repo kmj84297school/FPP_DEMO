@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "5c899683",
+  "player_name": "Felix Passlack",
+  "nation": "GER",
+  "age_years": 26.0,
+  "squad": "Bochum",
+  "comps": "Bundesliga",
+  "pos_primary": "DF",
+  "minutes_season": 2334.0
+ },
+ "current": {
+  "ability": 52.3,
+  "score_position": 47.2,
+  "score_style": 57.4,
+  "groups": {
+   "prod": 71.0,
+   "progress": 45.9,
+   "chance": 79.7,
+   "stability": 32.4,
+   "defense": 37.6
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 1.99
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.5241,
+  "mu": 52.5,
+  "ci80": {
+   "lo": 43.3,
+   "hi": 61.8
+  },
+  "ci50": {
+   "lo": 47.6,
+   "hi": 57.4
+  },
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "71ef519e",
+   "season": 2019,
+   "distance": 2.01,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2019,
+   "distance": 2.088,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "f2308b33",
+   "season": 2020,
+   "distance": 2.233,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2018,
+   "distance": 2.305,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "f1bed920",
+   "season": 2020,
+   "distance": 2.328,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Rodrigues",
+   "squad": "Leganés / Real Sociedad"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 2.366,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "ae0a7ddf",
+   "season": 2019,
+   "distance": 2.374,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "DeAndre Yedlin",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "3dffff26",
+   "season": 2018,
+   "distance": 2.406,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Korb",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "e3e05edf",
+   "season": 2019,
+   "distance": 2.41,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ambroise Oyongo",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 2.435,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 95.6
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 90.6
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 89.8
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 85.9
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 84.9
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 84.8
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 81.1
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 1.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 4.1
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 5.1
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 6.7
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 8.7
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 49.7
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 18.2
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 4.1
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 22.9
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 1.6
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 85.9
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 1.38
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.61
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.92
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "크로스 비중",
+     "z": 2.21
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 1.37
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.55
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 69퍼센타일)",
+   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 65퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 21퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 65 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 69 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 79 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.15,
+   "fouls_per90": 1.12,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 61.2,
+   "clean_pctl_fouls": 35.1
+  },
+  "availability": {
+   "minpct_mean": 21.5,
+   "n_seasons": 5
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Felix Passlack(DF)의 현재 능력 점수는 52.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 도움 기대값(xAG), 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 공중볼 승률이다.",
+  "potential": "Felix Passlack의 2~3년 후 전성기 유지 예측 중심값은 52.5점, 80% 구간 상단(잠재력 상한)은 61.8점이다. 빅5 현역 유지확률은 52.4%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

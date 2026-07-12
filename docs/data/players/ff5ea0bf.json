@@ -3,207 +3,306 @@
   "fbref_id": "ff5ea0bf",
   "player_name": "Malick Thiaw",
   "nation": "GER",
-  "age_years": 21.0,
-  "squad": "Schalke 04 / Milan",
-  "comps": "Bundesliga / Serie A",
+  "age_years": 22.0,
+  "squad": "Milan",
+  "comps": "Serie A",
   "pos_primary": "DF",
-  "minutes_2023": 278.0
+  "minutes_season": 1806.0
  },
  "current": {
-  "ability": 56.1,
-  "score_position": 51.8,
-  "score_style": 60.5,
+  "ability": 58.0,
+  "score_position": 56.7,
+  "score_style": 59.3,
   "groups": {
-   "prod": 66.6,
-   "progress": 30.6,
-   "chance": 18.9,
-   "stability": 34.9,
-   "defense": 69.9
+   "prod": 34.7,
+   "progress": 52.1,
+   "chance": 25.0,
+   "stability": 77.6,
+   "defense": 46.3
   }
  },
  "style": {
-  "primary": "스토퍼",
-  "confidence": 4.04
+  "primary": "빌드업 수비수",
+  "confidence": 0.15
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5961,
+  "mu": 61.1,
+  "ci80": {
+   "lo": 50.6,
+   "hi": 71.6
+  },
+  "ci50": {
+   "lo": 55.6,
+   "hi": 66.7
+  },
+  "sigma_model": 1.5,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e34fc66d",
+   "season": 2020,
+   "distance": 1.228,
+   "survived": 1,
+   "fut_ability_v2": 59.0,
+   "player_name": "Joachim Andersen",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "cdf65d12",
+   "season": 2018,
+   "distance": 1.64,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Marlon",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "9a64e67e",
+   "season": 2020,
+   "distance": 1.728,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Robin Le Normand",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "3ead85f9",
+   "season": 2018,
+   "distance": 1.793,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Alessio Romagnoli",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "1cb49278",
+   "season": 2020,
+   "distance": 1.943,
+   "survived": 1,
+   "fut_ability_v2": 73.6,
+   "player_name": "Andreas Christensen",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "346d51d9",
+   "season": 2019,
+   "distance": 1.945,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julian Weigl",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "aad48be9",
+   "season": 2019,
+   "distance": 1.974,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "1cb49278",
+   "season": 2018,
+   "distance": 1.976,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Andreas Christensen",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "119b9a8e",
+   "season": 2018,
+   "distance": 1.989,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Aymeric Laporte",
+   "squad": "Athletic Club / Manchester City"
+  },
+  {
+   "fbref_id": "7a11550b",
+   "season": 2020,
+   "distance": 2.041,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Gomez",
+   "squad": "Liverpool"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "Clr",
-    "label": "클리어링",
-    "percentile": 100.0
-   },
-   {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 98.5
-   },
-   {
-    "key": "Blocks",
-    "label": "블록",
+    "key": "PassPct",
+    "label": "패스 성공률",
     "percentile": 97.0
-   },
-   {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 87.8
-   },
-   {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 87.3
-   },
-   {
-    "key": "npxG_Sh",
-    "label": "슈팅당 기대득점",
-    "percentile": 81.8
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 75.1
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 0.0
+    "percentile": 95.3
    },
    {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 3.0
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 88.4
    },
    {
-    "key": "Recov",
-    "label": "볼 리커버리",
-    "percentile": 8.4
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 83.7
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 81.7
    },
    {
     "key": "F3Pass",
     "label": "최종 3분의1 패스",
-    "percentile": 9.6
+    "percentile": 80.8
    },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 77.8
+   }
+  ],
+  "weaknesses": [
    {
     "key": "PrgRec",
     "label": "전진 패스 수신",
-    "percentile": 14.9
+    "percentile": 5.5
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 7.1
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 13.8
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 25.4
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 27.6
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 87.8
+    "percentile": 13.8
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 100.0
+    "percentile": 53.4
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 75.1
+    "percentile": 95.3
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 3.0
+    "percentile": 77.8
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 69.9
+    "percentile": 97.0
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 97.0
+    "percentile": 7.1
    }
   ],
   "top3_styles": [
    {
+    "style": "빌드업 수비수",
+    "fit_z": 0.41
+   },
+   {
     "style": "스토퍼",
-    "fit_z": 3.39
+    "fit_z": 0.26
    },
    {
     "style": "공격형 풀백",
-    "fit_z": -0.65
-   },
-   {
-    "style": "빌드업 수비수",
-    "fit_z": -1.87
+    "fit_z": -0.87
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "클리어링량",
-     "z": 4.67
+     "label": "패스 관여도",
+     "z": 1.28
     },
     {
-     "label": "공중볼 경합량",
-     "z": 2.76
+     "label": "운반 비중",
+     "z": -0.45
     }
    ],
-   "bottom": [
-    {
-     "label": "자책 박스 활동 비중",
-     "z": 2.73
-    }
-   ]
+   "bottom": []
   },
   "coaching": [
-   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 12퍼센타일)",
-   "클리어링 이미 강점 — 유지 및 응용 훈련 (상위 0퍼센타일)",
-   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 2퍼센타일)"
+   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 22퍼센타일)",
+   "전진 운반 개선 필요 — 기초 반복 훈련 권장 (현재 하위 29퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 3퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "태클+인터셉트 기초 교정",
-    "kpi": "태클+인터셉트: 88 → 90 퍼센타일"
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 29 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "공중볼 승리 실전 적용 반복",
-    "kpi": "공중볼 승리: 이미 상위 2퍼센타일 — 유지"
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 78 → 90 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "클리어링: 이미 상위 0퍼센타일 — 유지"
+    "kpi": "패스 성공률: 이미 상위 3퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.65,
-   "fouls_per90": 0.97,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 0.3,
-   "clean_pctl_fouls": 41.5
+   "yellows_per90": 0.1,
+   "fouls_per90": 1.2,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 81.7,
+   "clean_pctl_fouls": 29.1
   },
   "availability": {
-   "minpct_mean": 25.5,
-   "n_seasons": 3
+   "minpct_mean": 32.3,
+   "n_seasons": 4
   },
   "consistency": {
-   "ability_std": 0.6,
-   "n_rated_seasons": 2
+   "ability_std": 1.4,
+   "n_rated_seasons": 3
   }
  },
  "narrative": {
-  "current": "Malick Thiaw(DF)의 현재 능력 점수는 56.1점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 공중볼 승리, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 패스이다.",
-  "potential": null
+  "current": "Malick Thiaw(DF)의 현재 능력 점수는 58.0점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 공중볼 승률, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 블록이다.",
+  "potential": "Malick Thiaw의 2~3년 후 성장 예측 중심값은 61.1점, 80% 구간 상단(잠재력 상한)은 71.6점이다. 빅5 잔존확률은 59.6%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

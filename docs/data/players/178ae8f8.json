@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "178ae8f8",
+  "player_name": "Diogo Jota",
+  "nation": "POR",
+  "age_years": 27.0,
+  "squad": "Liverpool",
+  "comps": "Premier League",
+  "pos_primary": "FW",
+  "minutes_season": 1196.0
+ },
+ "current": {
+  "ability": 67.3,
+  "score_position": 65.6,
+  "score_style": 68.9,
+  "groups": {
+   "prod": 77.9,
+   "progress": 63.1,
+   "chance": 44.5,
+   "stability": 30.9,
+   "defense": 49.9
+  }
+ },
+ "style": {
+  "primary": "박스 포처",
+  "confidence": 0.71
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.6602,
+  "mu": 63.6,
+  "ci80": {
+   "lo": 54.4,
+   "hi": 72.9
+  },
+  "ci50": {
+   "lo": 58.7,
+   "hi": 68.5
+  },
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a58bb1e1",
+   "season": 2019,
+   "distance": 2.84,
+   "survived": 1,
+   "fut_ability_v2": 77.1,
+   "player_name": "Gareth Bale",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "eb2fe5b6",
+   "season": 2018,
+   "distance": 2.941,
+   "survived": 1,
+   "fut_ability_v2": 88.7,
+   "player_name": "Luis Muriel",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "0fe7f7bc",
+   "season": 2018,
+   "distance": 2.975,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giovanni Sio",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "f9e7c4ac",
+   "season": 2019,
+   "distance": 2.981,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfreð Finnbogason",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "af721f98",
+   "season": 2018,
+   "distance": 2.999,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oumar Niasse",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "129af0db",
+   "season": 2020,
+   "distance": 3.067,
+   "survived": 1,
+   "fut_ability_v2": 66.0,
+   "player_name": "Álvaro Morata",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "d2416c2e",
+   "season": 2020,
+   "distance": 3.068,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Yussuf Poulsen",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2019,
+   "distance": 3.105,
+   "survived": 1,
+   "fut_ability_v2": 78.9,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "c693347d",
+   "season": 2020,
+   "distance": 3.145,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Cornelius",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "d3de9af0",
+   "season": 2018,
+   "distance": 3.175,
+   "survived": 1,
+   "fut_ability_v2": 79.1,
+   "player_name": "Duván Zapata",
+   "squad": "Sampdoria"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 96.0
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 95.6
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 95.3
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 93.0
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 85.8
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 83.9
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 78.3
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 8.6
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 24.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 41.7
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 51.0
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 51.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 95.3
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 52.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 41.7
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 62.5
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 96.0
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 24.2
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "박스 포처",
+    "fit_z": 1.67
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": 0.96
+   },
+   {
+    "style": "돌파형 윙어",
+    "fit_z": -0.25
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "박스 터치 비중",
+     "z": 1.74
+    },
+    {
+     "label": "슈팅 비중",
+     "z": 1.6
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)",
+   "유효슈팅 강화 여지 — 난이도를 높인 반복 훈련 (현재 64퍼센타일)",
+   "박스 터치 이미 강점 — 유지 및 응용 훈련 (상위 4퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "유효슈팅 기초 교정",
+    "kpi": "유효슈팅: 64 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "비페널티 xG 실전 적용 반복",
+    "kpi": "비페널티 xG: 이미 상위 5퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "박스 터치: 이미 상위 4퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.15,
+   "fouls_per90": 1.73,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 47.3,
+   "clean_pctl_fouls": 21.7
+  },
+  "availability": {
+   "minpct_mean": 48.7,
+   "n_seasons": 6
+  },
+  "consistency": {
+   "ability_std": 7.0,
+   "n_rated_seasons": 5
+  }
+ },
+ "narrative": {
+  "current": "Diogo Jota(FW)의 현재 능력 점수는 67.3점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 박스 터치, 슈팅 시도, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 키패스이다.",
+  "potential": "Diogo Jota의 2~3년 후 전성기 유지 예측 중심값은 63.6점, 80% 구간 상단(잠재력 상한)은 72.9점이다. 빅5 현역 유지확률은 66.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

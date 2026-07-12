@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n25a6a65",
+  "player_name": "David Zec",
+  "nation": "SVN",
+  "age_years": 24.0,
+  "squad": "Holstein Kiel",
+  "comps": "Bundesliga",
+  "pos_primary": "DF",
+  "minutes_season": 1541.0
+ },
+ "current": {
+  "ability": 60.5,
+  "score_position": 56.5,
+  "score_style": 64.5,
+  "groups": {
+   "prod": 69.2,
+   "progress": 32.0,
+   "chance": 26.9,
+   "stability": 46.6,
+   "defense": 70.5
+  }
+ },
+ "style": {
+  "primary": "스토퍼",
+  "confidence": 2.35
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.363,
+  "mu": 58.7,
+  "ci80": {
+   "lo": 49.4,
+   "hi": 68.0
+  },
+  "ci50": {
+   "lo": 53.8,
+   "hi": 63.5
+  },
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d9764034",
+   "season": 2019,
+   "distance": 1.626,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Guillermo Maripán",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "1900032e",
+   "season": 2020,
+   "distance": 1.637,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jannik Vestergaard",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2019,
+   "distance": 1.814,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Berat Djimsiti",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "08082af0",
+   "season": 2019,
+   "distance": 1.849,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Loïck Landre",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "25f50295",
+   "season": 2018,
+   "distance": 1.899,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Mike van der Hoorn",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "857a5abe",
+   "season": 2018,
+   "distance": 1.917,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "Stefan Bell",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "27f0ddef",
+   "season": 2019,
+   "distance": 1.924,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Helander",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "ac861941",
+   "season": 2020,
+   "distance": 1.926,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Eric Dier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "b4a014b1",
+   "season": 2018,
+   "distance": 1.942,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Diego Carlos",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2019,
+   "distance": 2.003,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante / Valencia"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 94.6
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 88.9
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 85.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 83.0
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 78.6
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 77.3
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 76.6
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 5.8
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 8.0
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 8.4
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 9.2
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 13.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 29.4
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 83.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 76.6
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 9.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 75.3
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 94.6
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 1.6
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.75
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.81
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "자책 박스 활동 비중",
+     "z": 2.25
+    },
+    {
+     "label": "공중볼 경합량",
+     "z": 1.57
+    }
+   ],
+   "bottom": [
+    {
+     "label": "클리어링량",
+     "z": 0.99
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 개선 필요 — 기초 반복 훈련 권장 (현재 하위 29퍼센타일)",
+   "클리어링 이미 강점 — 유지 및 응용 훈련 (상위 17퍼센타일)",
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 29 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "공중볼 승리 실전 적용 반복",
+    "kpi": "공중볼 승리: 73 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "클리어링: 83 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.29,
+   "fouls_per90": 1.23,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 17.8,
+   "clean_pctl_fouls": 27.0
+  },
+  "availability": {
+   "minpct_mean": 50.4,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "David Zec(DF)의 현재 능력 점수는 60.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 무페널티 득점, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 최종 3분의1 패스이다.",
+  "potential": "David Zec의 2~3년 후 전성기 유지 예측 중심값은 58.7점, 80% 구간 상단(잠재력 상한)은 68.0점이다. 빅5 현역 유지확률은 36.3%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

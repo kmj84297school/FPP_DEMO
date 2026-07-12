@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "n2504080",
+  "player_name": "Sorba Thomas",
+  "nation": "WAL",
+  "age_years": 24.0,
+  "squad": "Nantes",
+  "comps": "Ligue 1",
+  "pos_primary": "FW",
+  "minutes_season": 1321.0
+ },
+ "current": {
+  "ability": 58.5,
+  "score_position": 55.8,
+  "score_style": 61.3,
+  "groups": {
+   "prod": 37.1,
+   "progress": 53.0,
+   "chance": 81.7,
+   "stability": 33.6,
+   "defense": 65.7
+  }
+ },
+ "style": {
+  "primary": "연결형 공격수",
+  "confidence": 0.47
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.3568,
+  "mu": 51.6,
+  "ci80": {
+   "lo": 42.2,
+   "hi": 60.9
+  },
+  "ci50": {
+   "lo": 46.6,
+   "hi": 56.5
+  },
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "2677a1de",
+   "season": 2018,
+   "distance": 3.18,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Wahbi Khazri",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "bb5fbd2b",
+   "season": 2019,
+   "distance": 3.253,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Solly March",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "8aec0537",
+   "season": 2018,
+   "distance": 3.261,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Pascal Groß",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "ccee698e",
+   "season": 2019,
+   "distance": 3.426,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Limbombe",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "ffa90327",
+   "season": 2020,
+   "distance": 3.475,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anwar El Ghazi",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "2513a588",
+   "season": 2019,
+   "distance": 3.644,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luciano Vietto",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "f13d02a6",
+   "season": 2019,
+   "distance": 3.771,
+   "survived": 1,
+   "fut_ability_v2": 41.4,
+   "player_name": "Hélder Costa",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "b0547a87",
+   "season": 2018,
+   "distance": 3.791,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Nicolas de Préville",
+   "squad": "Bordeaux / Lille"
+  },
+  {
+   "fbref_id": "dc62fbee",
+   "season": 2020,
+   "distance": 3.895,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leonardo Bittencourt",
+   "squad": "Werder Bremen / Hoffenheim"
+  },
+  {
+   "fbref_id": "a53b661f",
+   "season": 2020,
+   "distance": 3.99,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Ihlas Bebou",
+   "squad": "Hoffenheim"
+  }
+ ],
+ "low_confidence": true,
+ "report": {
+  "strengths": [
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 97.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 96.0
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 94.4
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 89.5
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 88.6
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 88.6
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 86.0
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 0.2
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 0.2
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 0.5
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 4.7
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 7.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 4.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 77.4
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 26.3
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 62.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 0.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 96.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "연결형 공격수",
+    "fit_z": 0.68
+   },
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 0.2
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -1.34
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "키패스 비중",
+     "z": 1.39
+    },
+    {
+     "label": "중원 활동 비중",
+     "z": -0.04
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 4퍼센타일)",
+   "슈팅 창출(SCA) 이미 강점 — 유지 및 응용 훈련 (상위 23퍼센타일)",
+   "전진 패스 수신 안정화 단계 — 상황별 반복 훈련 (현재 48퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 패스 수신 기초 교정",
+    "kpi": "전진 패스 수신: 48 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "슈팅 창출(SCA) 실전 적용 반복",
+    "kpi": "슈팅 창출(SCA): 77 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 이미 상위 4퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.2,
+   "fouls_per90": 0.89,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 31.7,
+   "clean_pctl_fouls": 71.8
+  },
+  "availability": {
+   "minpct_mean": 43.2,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Sorba Thomas(FW)의 현재 능력 점수는 58.5점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 클리어링, 키패스, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 박스 터치이다.",
+  "potential": "Sorba Thomas의 2~3년 후 전성기 유지 예측 중심값은 51.6점, 80% 구간 상단(잠재력 상한)은 60.9점이다. 빅5 현역 유지확률은 35.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

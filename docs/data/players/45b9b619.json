@@ -3,22 +3,22 @@
   "fbref_id": "45b9b619",
   "player_name": "Joaquín Correa",
   "nation": "ARG",
-  "age_years": 28.0,
+  "age_years": 29.0,
   "squad": "Inter",
   "comps": "Serie A",
   "pos_primary": "FW",
-  "minutes_2023": 315.0
+  "minutes_season": 731.0
  },
  "current": {
-  "ability": 52.8,
-  "score_position": 54.8,
-  "score_style": 50.7,
+  "ability": 68.7,
+  "score_position": 66.8,
+  "score_style": 70.7,
   "groups": {
-   "prod": 69.9,
-   "progress": 35.2,
-   "chance": 50.4,
-   "stability": 19.9,
-   "defense": 37.6
+   "prod": 57.1,
+   "progress": 68.0,
+   "chance": 69.5,
+   "stability": 74.8,
+   "defense": 41.1
   }
  },
  "style": {
@@ -26,278 +26,179 @@
   "confidence": 0.43
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.2353,
-  "mu": 51.9,
-  "ci80": {
-   "lo": 41.0,
-   "hi": 62.9
-  },
-  "ci50": {
-   "lo": 46.2,
-   "hi": 57.7
-  },
-  "sigma_model": 4.8,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "f9e7c4ac",
-   "season": 2019,
-   "distance": 2.226,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alfreð Finnbogason",
-   "squad": "Augsburg"
-  },
-  {
-   "fbref_id": "8ff07990",
-   "season": 2019,
-   "distance": 2.271,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mario Balotelli",
-   "squad": "Marseille / Nice"
-  },
-  {
-   "fbref_id": "9001138b",
-   "season": 2019,
-   "distance": 2.335,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Robert Berić",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "d6862409",
-   "season": 2019,
-   "distance": 2.372,
-   "survived": 1,
-   "fut_ability_v2": 51.2,
-   "player_name": "Florian Niederlechner",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "0af4dcf0",
-   "season": 2018,
-   "distance": 2.523,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Cédric Bakambu",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "d5dd5f1f",
-   "season": 2018,
-   "distance": 2.53,
-   "survived": 1,
-   "fut_ability_v2": 54.3,
-   "player_name": "Pierre-Emerick Aubameyang",
-   "squad": "Dortmund / Arsenal"
-  },
-  {
-   "fbref_id": "61b0b44d",
-   "season": 2018,
-   "distance": 2.724,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sandro Wagner",
-   "squad": "Hoffenheim / Bayern Munich"
-  },
-  {
-   "fbref_id": "9a104dee",
-   "season": 2019,
-   "distance": 2.728,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Cenk Tosun",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "53e07d0b",
-   "season": 2019,
-   "distance": 2.767,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ádám Szalai",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "5ceba7fc",
-   "season": 2020,
-   "distance": 2.768,
-   "survived": 1,
-   "fut_ability_v2": 70.1,
-   "player_name": "Karl Toko Ekambi",
-   "squad": "Villarreal / Lyon"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "npxG_Sh",
-    "label": "슈팅당 기대득점",
-    "percentile": 100.0
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 98.1
    },
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 100.0
-   },
-   {
-    "key": "np_G",
-    "label": "무페널티 득점",
-    "percentile": 97.2
-   },
-   {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 95.7
-   },
-   {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 91.5
-   },
-   {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 85.8
-   },
-   {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 70.2
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "PPA",
-    "label": "박스 진입 패스",
-    "percentile": 1.4
-   },
-   {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 2.1
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 96.0
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 7.8
+    "percentile": 95.1
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 93.9
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 89.3
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 87.6
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 82.1
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 19.3
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 35.4
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 11.3
+    "percentile": 37.3
    },
    {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 14.2
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 39.2
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 47.3
    }
   ],
   "position_radar": [
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 91.5
+    "percentile": 49.7
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 65.2
+    "percentile": 63.4
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 11.3
+    "percentile": 37.3
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 61.1
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 14.2
+    "percentile": 63.9
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 39.0
+    "percentile": 53.8
    }
   ],
   "top3_styles": [
    {
     "style": "연결형 공격수",
-    "fit_z": 0.47
-   },
-   {
-    "style": "돌파형 윙어",
-    "fit_z": 0.04
+    "fit_z": -0.02
    },
    {
     "style": "타겟맨",
-    "fit_z": -0.58
+    "fit_z": -0.45
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": -0.95
    }
   ],
   "style_evidence": {
    "top": [
     {
      "label": "중원 활동 비중",
-     "z": 1.26
+     "z": 1.22
     },
     {
      "label": "키패스 비중",
-     "z": -0.32
+     "z": -1.27
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "키패스 안정화 단계 — 상황별 반복 훈련 (현재 39퍼센타일)",
-   "슈팅 창출(SCA) 강화 여지 — 난이도를 높인 반복 훈련 (현재 65퍼센타일)",
-   "전진 패스 수신 강화 여지 — 난이도를 높인 반복 훈련 (현재 70퍼센타일)"
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 54퍼센타일)",
+   "슈팅 창출(SCA) 강화 여지 — 난이도를 높인 반복 훈련 (현재 63퍼센타일)",
+   "전진 패스 수신 안정화 단계 — 상황별 반복 훈련 (현재 35퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "키패스 기초 교정",
-    "kpi": "키패스: 39 → 60 퍼센타일"
+    "focus": "전진 패스 수신 기초 교정",
+    "kpi": "전진 패스 수신: 35 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "슈팅 창출(SCA) 실전 적용 반복",
-    "kpi": "슈팅 창출(SCA): 65 → 80 퍼센타일"
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 54 → 70 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "전진 패스 수신: 70 → 80 퍼센타일"
+    "kpi": "슈팅 창출(SCA): 63 → 80 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.29,
-   "fouls_per90": 0.86,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 20.6,
-   "clean_pctl_fouls": 63.8
+   "yellows_per90": 0.37,
+   "fouls_per90": 0.98,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 9.8,
+   "clean_pctl_fouls": 64.1
   },
   "availability": {
-   "minpct_mean": 44.3,
-   "n_seasons": 6
+   "minpct_mean": 41.0,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 11.4,
-   "n_rated_seasons": 6
+   "ability_std": 10.5,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Joaquín Correa(FW)의 현재 능력 점수는 52.8점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 태클 성공률, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 슈팅 시도이다.",
-  "potential": "Joaquín Correa의 2~3년 후 전성기 유지 예측 중심값은 51.9점, 80% 구간 상단(잠재력 상한)은 62.9점이다. 빅5 현역 유지확률은 23.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Joaquín Correa(FW)의 현재 능력 점수는 68.7점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 볼 손실(미스+파울), 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 전진 패스 수신이다.",
+  "potential": null
  }
 }

@@ -3,197 +3,306 @@
   "fbref_id": "5eae500a",
   "player_name": "Romelu Lukaku",
   "nation": "BEL",
-  "age_years": 29.0,
-  "squad": "Inter",
+  "age_years": 31.0,
+  "squad": "Napoli",
   "comps": "Serie A",
   "pos_primary": "FW",
-  "minutes_2023": 248.0
+  "minutes_season": 2843.0
  },
  "current": {
-  "ability": 60.1,
-  "score_position": 59.3,
-  "score_style": 60.8,
+  "ability": 50.3,
+  "score_position": 48.0,
+  "score_style": 52.6,
   "groups": {
-   "prod": 63.8,
-   "progress": 49.2,
-   "chance": 64.9,
-   "stability": 26.6,
-   "defense": 40.3
+   "prod": 58.2,
+   "progress": 21.5,
+   "chance": 45.6,
+   "stability": 49.0,
+   "defense": 29.3
   }
  },
  "style": {
   "primary": "박스 포처",
-  "confidence": 0.36
+  "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5156,
+  "mu": 46.2,
+  "ci80": {
+   "lo": 36.6,
+   "hi": 55.7
+  },
+  "ci50": {
+   "lo": 41.1,
+   "hi": 51.1
+  },
+  "sigma_model": 2.4,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d520120b",
+   "season": 2020,
+   "distance": 2.56,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "71a20ce8",
+   "season": 2019,
+   "distance": 2.653,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gómez",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "45963054",
+   "season": 2020,
+   "distance": 3.027,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Jamie Vardy",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2019,
+   "distance": 3.072,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "bef0a7ac",
+   "season": 2020,
+   "distance": 3.09,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Darío Benedetto",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "45963054",
+   "season": 2019,
+   "distance": 3.119,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Jamie Vardy",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "45963054",
+   "season": 2018,
+   "distance": 3.121,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Jamie Vardy",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "17611373",
+   "season": 2019,
+   "distance": 3.142,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rouwen Hennings",
+   "squad": "Düsseldorf"
+  },
+  {
+   "fbref_id": "220c11f1",
+   "season": 2019,
+   "distance": 3.192,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristhian Stuani",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "17611373",
+   "season": 2020,
+   "distance": 3.207,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rouwen Hennings",
+   "squad": "Düsseldorf"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 100.0
-   },
-   {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 98.6
-   },
-   {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 95.0
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 93.6
-   },
-   {
     "key": "Ast",
     "label": "어시스트",
-    "percentile": 91.5
+    "percentile": 91.8
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 91.4
    },
    {
     "key": "npxG_Sh",
     "label": "슈팅당 기대득점",
-    "percentile": 90.8
+    "percentile": 82.1
    },
    {
-    "key": "PPA",
-    "label": "박스 진입 패스",
-    "percentile": 89.4
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 81.1
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 70.6
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 70.4
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 63.6
    }
   ],
   "weaknesses": [
    {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 0.7
-   },
-   {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 4.3
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 3.0
    },
    {
     "key": "PrgDistP",
     "label": "전진 패스 거리",
-    "percentile": 6.4
+    "percentile": 5.6
    },
    {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 27.0
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 7.0
    },
    {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 44.7
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 10.3
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 12.4
    }
   ],
   "position_radar": [
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 80.9
+    "percentile": 63.6
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 44.7
+    "percentile": 38.0
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 45.4
+    "percentile": 3.0
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 17.5
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 95.0
+    "percentile": 56.9
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 27.0
+    "percentile": 45.7
    }
   ],
   "top3_styles": [
    {
     "style": "박스 포처",
-    "fit_z": 2.3
+    "fit_z": 1.21
+   },
+   {
+    "style": "연결형 공격수",
+    "fit_z": 0.95
    },
    {
     "style": "타겟맨",
-    "fit_z": 1.94
-   },
-   {
-    "style": "돌파형 윙어",
-    "fit_z": 0.15
+    "fit_z": 0.76
    }
   ],
   "style_evidence": {
    "top": [
     {
      "label": "박스 터치 비중",
-     "z": 3.36
+     "z": 1.68
     },
     {
      "label": "슈팅 비중",
-     "z": 1.23
+     "z": 0.74
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 19퍼센타일)",
-   "유효슈팅 강화 여지 — 난이도를 높인 반복 훈련 (현재 66퍼센타일)",
-   "박스 터치 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)"
+   "비페널티 xG 강화 여지 — 난이도를 높인 반복 훈련 (현재 64퍼센타일)",
+   "유효슈팅 개선 필요 — 기초 반복 훈련 권장 (현재 하위 25퍼센타일)",
+   "박스 터치 강화 여지 — 난이도를 높인 반복 훈련 (현재 57퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
     "focus": "유효슈팅 기초 교정",
-    "kpi": "유효슈팅: 66 → 80 퍼센타일"
+    "kpi": "유효슈팅: 25 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "비페널티 xG 실전 적용 반복",
-    "kpi": "비페널티 xG: 81 → 90 퍼센타일"
+    "focus": "박스 터치 실전 적용 반복",
+    "kpi": "박스 터치: 57 → 70 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "박스 터치: 이미 상위 5퍼센타일 — 유지"
+    "kpi": "비페널티 xG: 64 → 80 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.0,
-   "fouls_per90": 0.36,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 74.5,
-   "clean_pctl_fouls": 92.9
+   "yellows_per90": 0.13,
+   "fouls_per90": 1.49,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 55.0,
+   "clean_pctl_fouls": 33.3
   },
   "availability": {
-   "minpct_mean": 64.5,
-   "n_seasons": 6
+   "minpct_mean": 67.1,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 10.0,
-   "n_rated_seasons": 6
+   "ability_std": 10.5,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Romelu Lukaku(FW)의 현재 능력 점수는 60.1점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클 성공률, 골 창출(GCA), 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 도움 기대값(xAG)이다.",
-  "potential": null
+  "current": "Romelu Lukaku(FW)의 현재 능력 점수는 50.3점이다. 플레이스타일은 '박스 포처'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 어시스트, 공중볼 승률, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 패스 거리이다.",
+  "potential": "Romelu Lukaku의 2~3년 후 전성기 유지 예측 중심값은 46.2점, 80% 구간 상단(잠재력 상한)은 55.7점이다. 빅5 현역 유지확률은 51.6%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

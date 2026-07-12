@@ -3,27 +3,27 @@
   "fbref_id": "a8748947",
   "player_name": "Tom Cairney",
   "nation": "SCO",
-  "age_years": 31.0,
+  "age_years": 33.0,
   "squad": "Fulham",
   "comps": "Premier League",
   "pos_primary": "MF",
-  "minutes_2023": 239.0
+  "minutes_season": 628.0
  },
  "current": {
-  "ability": 73.1,
-  "score_position": 72.9,
-  "score_style": 73.4,
+  "ability": 73.0,
+  "score_position": 77.5,
+  "score_style": 68.6,
   "groups": {
-   "prod": 51.5,
-   "progress": 85.3,
-   "chance": 78.6,
-   "stability": 41.9,
-   "defense": 68.0
+   "prod": 64.6,
+   "progress": 83.1,
+   "chance": 79.9,
+   "stability": 63.9,
+   "defense": 55.9
   }
  },
  "style": {
-  "primary": "공격형 MF",
-  "confidence": 0.18
+  "primary": "수비형 파괴자",
+  "confidence": 0.02
  },
  "eligibility": {
   "eligible_for_prediction": false,
@@ -36,169 +36,174 @@
  "report": {
   "strengths": [
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 100.0
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 98.9
    },
    {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 98.8
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 98.0
    },
    {
-    "key": "PPA",
-    "label": "박스 진입 패스",
-    "percentile": 97.3
-   },
-   {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 96.7
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 97.0
    },
    {
     "key": "F3Pass",
     "label": "최종 3분의1 패스",
-    "percentile": 94.8
+    "percentile": 96.2
    },
    {
-    "key": "AerPct",
-    "label": "공중볼 승률",
-    "percentile": 90.6
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 95.2
    },
    {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 87.8
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 94.5
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 92.8
    }
   ],
   "weaknesses": [
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 1.5
+    "percentile": 8.4
    },
    {
     "key": "Err",
     "label": "실책",
-    "percentile": 9.4
+    "percentile": 9.1
    },
    {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 13.4
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 24.2
    },
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 40.1
+    "percentile": 39.7
    },
    {
-    "key": "np_G",
-    "label": "무페널티 득점",
-    "percentile": 40.7
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 41.0
    }
   ],
   "position_radar": [
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 96.7
+    "percentile": 94.5
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 55.6
+    "percentile": 77.3
    },
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 40.1
+    "percentile": 39.7
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 85.2
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 86.9
+    "percentile": 95.2
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 74.5
+    "percentile": 97.0
    }
   ],
   "top3_styles": [
    {
-    "style": "공격형 MF",
-    "fit_z": -0.02
-   },
-   {
     "style": "수비형 파괴자",
-    "fit_z": -0.2
+    "fit_z": -0.12
    },
    {
     "style": "볼 운반형",
-    "fit_z": -0.2
+    "fit_z": -0.14
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": -0.19
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "공격 3분의1 활동 비중",
-     "z": 0.42
+     "label": "공중볼 경합량",
+     "z": -0.03
     },
     {
-     "label": "슈팅 비중",
-     "z": -0.24
+     "label": "태클량",
+     "z": -0.1
     }
    ],
    "bottom": [
     {
-     "label": "박스 터치 비중",
-     "z": -0.24
+     "label": "수비 3분의1 활동 비중",
+     "z": -0.23
     }
    ]
   },
   "coaching": [
-   "슈팅 창출(SCA) 이미 강점 — 유지 및 응용 훈련 (상위 13퍼센타일)",
-   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 56퍼센타일)",
-   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 30퍼센타일)"
+   "태클+인터셉트 안정화 단계 — 상황별 반복 훈련 (현재 40퍼센타일)",
+   "블록 안정화 단계 — 상황별 반복 훈련 (현재 41퍼센타일)",
+   "볼 리커버리 이미 강점 — 유지 및 응용 훈련 (상위 1퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "키패스 기초 교정",
-    "kpi": "키패스: 56 → 70 퍼센타일"
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 40 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "비페널티 xG 실전 적용 반복",
-    "kpi": "비페널티 xG: 70 → 80 퍼센타일"
+    "focus": "블록 실전 적용 반복",
+    "kpi": "블록: 41 → 70 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "슈팅 창출(SCA): 87 → 90 퍼센타일"
+    "kpi": "볼 리커버리: 이미 상위 1퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.0,
-   "fouls_per90": 0.38,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 81.8,
-   "clean_pctl_fouls": 95.4
+   "yellows_per90": 0.43,
+   "fouls_per90": 1.15,
+   "reds_total_season": 1.0,
+   "clean_pctl_cards": 7.7,
+   "clean_pctl_fouls": 60.6
   },
   "availability": {
-   "minpct_mean": 35.7,
-   "n_seasons": 3
+   "minpct_mean": 31.4,
+   "n_seasons": 4
   },
   "consistency": {
-   "ability_std": 7.4,
-   "n_rated_seasons": 3
+   "ability_std": 7.2,
+   "n_rated_seasons": 4
   }
  },
  "narrative": {
-  "current": "Tom Cairney(MF)의 현재 능력 점수는 73.1점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 태클 성공률, 블록, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 실책이다.",
+  "current": "Tom Cairney(MF)의 현재 능력 점수는 73.0점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 볼 리커버리, 전진 운반 거리, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 실책이다.",
   "potential": null
  }
 }

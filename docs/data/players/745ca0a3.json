@@ -3,27 +3,27 @@
   "fbref_id": "745ca0a3",
   "player_name": "Romain Faivre",
   "nation": "FRA",
-  "age_years": 24.0,
-  "squad": "Lyon",
+  "age_years": 26.0,
+  "squad": "Brest",
   "comps": "Ligue 1",
   "pos_primary": "MF",
-  "minutes_2023": 248.0
+  "minutes_season": 899.0
  },
  "current": {
-  "ability": 59.1,
-  "score_position": 57.5,
-  "score_style": 60.6,
+  "ability": 65.4,
+  "score_position": 64.3,
+  "score_style": 66.3,
   "groups": {
-   "prod": 46.6,
-   "progress": 60.7,
-   "chance": 70.5,
-   "stability": 48.5,
-   "defense": 28.6
+   "prod": 82.3,
+   "progress": 67.4,
+   "chance": 63.1,
+   "stability": 45.1,
+   "defense": 35.5
   }
  },
  "style": {
   "primary": "볼 운반형",
-  "confidence": 0.69
+  "confidence": 0.51
  },
  "eligibility": {
   "eligible_for_prediction": false,
@@ -36,153 +36,169 @@
  "report": {
   "strengths": [
    {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 93.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 91.1
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 85.3
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 83.4
+   },
+   {
     "key": "Ast",
     "label": "어시스트",
-    "percentile": 94.8
+    "percentile": 82.8
    },
    {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 89.1
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 81.8
    },
    {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 87.5
-   },
-   {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 75.4
-   },
-   {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 73.3
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 71.4
-   },
-   {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 70.8
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 81.0
    }
   ],
   "weaknesses": [
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 1.5
+    "percentile": 3.9
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 13.4
    },
    {
     "key": "Err",
     "label": "실책",
-    "percentile": 9.4
+    "percentile": 19.9
    },
    {
-    "key": "npxG_Sh",
-    "label": "슈팅당 기대득점",
-    "percentile": 11.3
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 22.0
    },
    {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 19.8
-   },
-   {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 21.6
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 28.1
    }
   ],
   "position_radar": [
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 75.4
+    "percentile": 51.7
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 70.8
+    "percentile": 49.4
    },
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 23.1
+    "percentile": 13.4
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 81.0
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 89.1
+    "percentile": 73.2
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 87.5
+    "percentile": 54.0
    }
   ],
   "top3_styles": [
    {
     "style": "볼 운반형",
-    "fit_z": 0.86
+    "fit_z": 1.49
    },
    {
     "style": "공격형 MF",
-    "fit_z": 0.16
+    "fit_z": 0.98
    },
    {
     "style": "딥 플레이메이커",
-    "fit_z": -0.72
+    "fit_z": -0.55
    }
   ],
   "style_evidence": {
    "top": [
     {
      "label": "드리블 시도 비중",
-     "z": 0.86
+     "z": 1.89
+    },
+    {
+     "label": "운반 비중",
+     "z": 1.09
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "성공 드리블 개선 필요 — 기초 반복 훈련 권장 (현재 하위 27퍼센타일)"
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 19퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 9퍼센타일)",
+   "전진 운반 거리 이미 강점 — 유지 및 응용 훈련 (상위 25퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "성공 드리블 기초 교정",
-    "kpi": "성공 드리블: 27 → 60 퍼센타일"
+    "focus": "전진 운반 거리 기초 교정",
+    "kpi": "전진 운반 거리: 75 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 81 → 90 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "성공 드리블: 27 → 60 퍼센타일"
+    "kpi": "성공 드리블: 이미 상위 9퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.0,
-   "fouls_per90": 1.45,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 81.8,
-   "clean_pctl_fouls": 29.8
+   "yellows_per90": 0.2,
+   "fouls_per90": 0.6,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 52.8,
+   "clean_pctl_fouls": 93.0
   },
   "availability": {
-   "minpct_mean": 38.0,
-   "n_seasons": 4
+   "minpct_mean": 36.3,
+   "n_seasons": 5
   },
   "consistency": {
-   "ability_std": 6.3,
-   "n_rated_seasons": 3
+   "ability_std": 5.2,
+   "n_rated_seasons": 4
   }
  },
  "narrative": {
-  "current": "Romain Faivre(MF)의 현재 능력 점수는 59.1점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 슈팅 창출(SCA), 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 실책이다.",
+  "current": "Romain Faivre(MF)의 현재 능력 점수는 65.4점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 유효슈팅, 성공 드리블, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 태클+인터셉트이다.",
   "potential": null
  }
 }

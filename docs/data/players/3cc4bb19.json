@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "3cc4bb19",
+  "player_name": "Fali Candé",
+  "nation": "GNB",
+  "age_years": 26.0,
+  "squad": "Venezia",
+  "comps": "Serie A",
+  "pos_primary": "DF",
+  "minutes_season": 1530.0
+ },
+ "current": {
+  "ability": 57.8,
+  "score_position": 54.7,
+  "score_style": 60.8,
+  "groups": {
+   "prod": 59.4,
+   "progress": 38.6,
+   "chance": 38.5,
+   "stability": 34.1,
+   "defense": 69.0
+  }
+ },
+ "style": {
+  "primary": "스토퍼",
+  "confidence": 1.66
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.2153,
+  "mu": 57.8,
+  "ci80": {
+   "lo": 48.5,
+   "hi": 67.0
+  },
+  "ci50": {
+   "lo": 53.0,
+   "hi": 62.7
+  },
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "27f0ddef",
+   "season": 2019,
+   "distance": 1.515,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filip Helander",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "1900032e",
+   "season": 2020,
+   "distance": 1.815,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jannik Vestergaard",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "bf8fad51",
+   "season": 2020,
+   "distance": 1.841,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kortney Hause",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "b14d0c5d",
+   "season": 2018,
+   "distance": 1.882,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Sidnei",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "ac861941",
+   "season": 2020,
+   "distance": 1.94,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Eric Dier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "25f50295",
+   "season": 2018,
+   "distance": 1.948,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Mike van der Hoorn",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "cd387ff4",
+   "season": 2018,
+   "distance": 1.966,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fallou Diagne",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "080440a4",
+   "season": 2019,
+   "distance": 2.006,
+   "survived": 1,
+   "fut_ability_v2": 68.2,
+   "player_name": "Martin Hinteregger",
+   "squad": "Augsburg / Eint Frankfurt"
+  },
+  {
+   "fbref_id": "b4a014b1",
+   "season": 2018,
+   "distance": 2.011,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Diego Carlos",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "01a49bd2",
+   "season": 2020,
+   "distance": 2.066,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lisandro Magallán",
+   "squad": "Alavés"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 97.6
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 81.4
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 80.3
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 77.7
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 77.4
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 77.1
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 75.6
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 12.1
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 13.8
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 20.2
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 21.0
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 24.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 30.0
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 81.4
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 77.4
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 31.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 37.8
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 59.2
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 1.16
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.5
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.65
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공중볼 경합량",
+     "z": 1.42
+    },
+    {
+     "label": "자책 박스 활동 비중",
+     "z": 1.15
+    }
+   ],
+   "bottom": [
+    {
+     "label": "클리어링량",
+     "z": 0.9
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 개선 필요 — 기초 반복 훈련 권장 (현재 하위 30퍼센타일)",
+   "클리어링 이미 강점 — 유지 및 응용 훈련 (상위 19퍼센타일)",
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 23퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 30 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "공중볼 승리 실전 적용 반복",
+    "kpi": "공중볼 승리: 77 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "클리어링: 81 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.24,
+   "fouls_per90": 1.41,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 34.1,
+   "clean_pctl_fouls": 17.5
+  },
+  "availability": {
+   "minpct_mean": 36.6,
+   "n_seasons": 2
+  },
+  "consistency": {
+   "ability_std": 8.0,
+   "n_rated_seasons": 2
+  }
+ },
+ "narrative": {
+  "current": "Fali Candé(DF)의 현재 능력 점수는 57.8점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 슈팅당 기대득점, 클리어링, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 박스 터치이다.",
+  "potential": "Fali Candé의 2~3년 후 전성기 유지 예측 중심값은 57.8점, 80% 구간 상단(잠재력 상한)은 67.0점이다. 빅5 현역 유지확률은 21.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

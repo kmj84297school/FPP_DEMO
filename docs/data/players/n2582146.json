@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n2582146",
+  "player_name": "Kike Salas",
+  "nation": "ESP",
+  "age_years": 22.0,
+  "squad": "Sevilla",
+  "comps": "La Liga",
+  "pos_primary": "DF",
+  "minutes_season": 2238.0
+ },
+ "current": {
+  "ability": 61.2,
+  "score_position": 58.5,
+  "score_style": 63.9,
+  "groups": {
+   "prod": 71.8,
+   "progress": 35.9,
+   "chance": 33.7,
+   "stability": 57.8,
+   "defense": 63.9
+  }
+ },
+ "style": {
+  "primary": "스토퍼",
+  "confidence": 1.62
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.943,
+  "mu": 58.3,
+  "ci80": {
+   "lo": 47.7,
+   "hi": 68.8
+  },
+  "ci50": {
+   "lo": 52.8,
+   "hi": 63.9
+  },
+  "sigma_model": 1.7,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6adbc307",
+   "season": 2018,
+   "distance": 1.324,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "167d5018",
+   "season": 2019,
+   "distance": 1.52,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Félix Eboa Eboa",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "16324e1d",
+   "season": 2019,
+   "distance": 1.583,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Anthony Briançon",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "aad48be9",
+   "season": 2018,
+   "distance": 1.678,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "d0042ab9",
+   "season": 2020,
+   "distance": 1.683,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Mason Holgate",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2019,
+   "distance": 1.778,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "ce4246f5",
+   "season": 2019,
+   "distance": 1.798,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Kurt Zouma",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "815c314f",
+   "season": 2019,
+   "distance": 1.822,
+   "survived": 1,
+   "fut_ability_v2": 67.6,
+   "player_name": "Marc-Oliver Kempf",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "5fd5ed86",
+   "season": 2020,
+   "distance": 1.835,
+   "survived": 1,
+   "fut_ability_v2": 66.8,
+   "player_name": "Gleison Bremer",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "b77f44a4",
+   "season": 2020,
+   "distance": 1.868,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Marvin Friedrich",
+   "squad": "Union Berlin"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 93.6
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 89.8
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 87.8
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 86.6
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 82.8
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 79.5
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 78.6
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 11.8
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 14.9
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 19.6
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 22.0
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 25.9
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 69.0
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 87.8
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 69.0
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 19.6
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 25.9
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 37.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 0.94
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.68
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.72
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공중볼 경합량",
+     "z": 1.29
+    },
+    {
+     "label": "클리어링량",
+     "z": 1.26
+    }
+   ],
+   "bottom": [
+    {
+     "label": "자책 박스 활동 비중",
+     "z": 0.26
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 강화 여지 — 난이도를 높인 반복 훈련 (현재 69퍼센타일)",
+   "클리어링 이미 강점 — 유지 및 응용 훈련 (상위 12퍼센타일)",
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 6퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 69 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "클리어링 실전 적용 반복",
+    "kpi": "클리어링: 88 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "공중볼 승리: 이미 상위 6퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.24,
+   "fouls_per90": 0.84,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 31.8,
+   "clean_pctl_fouls": 62.1
+  },
+  "availability": {
+   "minpct_mean": 65.4,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Kike Salas(DF)의 현재 능력 점수는 61.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승리, 무페널티 득점, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
+  "potential": "Kike Salas의 2~3년 후 성장 예측 중심값은 58.3점, 80% 구간 상단(잠재력 상한)은 68.8점이다. 빅5 잔존확률은 94.3%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

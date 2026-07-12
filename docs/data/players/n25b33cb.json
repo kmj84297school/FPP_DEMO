@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n25b33cb",
+  "player_name": "Aleksandar Pavlovic",
+  "nation": "GER",
+  "age_years": 20.0,
+  "squad": "Bayern Munich",
+  "comps": "Bundesliga",
+  "pos_primary": "MF",
+  "minutes_season": 1451.0
+ },
+ "current": {
+  "ability": 61.6,
+  "score_position": 57.8,
+  "score_style": 65.4,
+  "groups": {
+   "prod": 25.4,
+   "progress": 60.1,
+   "chance": 32.2,
+   "stability": 85.6,
+   "defense": 54.6
+  }
+ },
+ "style": {
+  "primary": "수비형 파괴자",
+  "confidence": 0.47
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.6918,
+  "mu": 60.3,
+  "ci80": {
+   "lo": 49.7,
+   "hi": 70.9
+  },
+  "ci50": {
+   "lo": 54.7,
+   "hi": 65.9
+  },
+  "sigma_model": 1.8,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4f255115",
+   "season": 2020,
+   "distance": 2.748,
+   "survived": 1,
+   "fut_ability_v2": 69.7,
+   "player_name": "Aurélien Tchouaméni",
+   "squad": "Bordeaux / Monaco"
+  },
+  {
+   "fbref_id": "ae59b359",
+   "season": 2020,
+   "distance": 2.77,
+   "survived": 1,
+   "fut_ability_v2": 45.1,
+   "player_name": "Boubakary Soumaré",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "9a493fb7",
+   "season": 2018,
+   "distance": 3.011,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Koziello",
+   "squad": "Nice / Köln"
+  },
+  {
+   "fbref_id": "5ea8ef20",
+   "season": 2020,
+   "distance": 3.075,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "Mattéo Guendouzi",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "91e58f66",
+   "season": 2018,
+   "distance": 3.119,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Maia",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "da27e268",
+   "season": 2019,
+   "distance": 3.188,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Roca",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "91e58f66",
+   "season": 2019,
+   "distance": 3.236,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Maia",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "c46fa34c",
+   "season": 2018,
+   "distance": 3.294,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Youssef Aït Bennasser",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "6f7d826d",
+   "season": 2019,
+   "distance": 3.3,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Douglas Luiz",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "7f622eef",
+   "season": 2018,
+   "distance": 3.383,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Assane Dioussé",
+   "squad": "Saint-Étienne"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 99.6
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 99.1
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 97.0
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 96.8
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 95.7
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 95.2
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 92.1
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 2.0
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 9.1
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 13.6
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 16.3
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 18.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 95.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 9.1
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 48.8
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 24.9
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 27.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 99.6
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "수비형 파괴자",
+    "fit_z": -0.38
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.85
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": -0.92
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "태클량",
+     "z": 0.59
+    },
+    {
+     "label": "공중볼 경합량",
+     "z": -0.57
+    }
+   ],
+   "bottom": [
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": -1.16
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 안정화 단계 — 상황별 반복 훈련 (현재 49퍼센타일)",
+   "블록 강화 여지 — 난이도를 높인 반복 훈련 (현재 53퍼센타일)",
+   "볼 리커버리 안정화 단계 — 상황별 반복 훈련 (현재 43퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "볼 리커버리 기초 교정",
+    "kpi": "볼 리커버리: 43 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "태클+인터셉트 실전 적용 반복",
+    "kpi": "태클+인터셉트: 49 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "블록: 53 → 70 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.12,
+   "fouls_per90": 1.05,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 76.4,
+   "clean_pctl_fouls": 66.7
+  },
+  "availability": {
+   "minpct_mean": 47.4,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Aleksandar Pavlovic(MF)의 현재 능력 점수는 61.6점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 최종 3분의1 패스, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 키패스이다.",
+  "potential": "Aleksandar Pavlovic의 2~3년 후 성장 예측 중심값은 60.3점, 80% 구간 상단(잠재력 상한)은 70.9점이다. 빅5 잔존확률은 69.2%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

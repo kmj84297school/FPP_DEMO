@@ -3,290 +3,202 @@
   "fbref_id": "9907b1c8",
   "player_name": "Nicolò Zaniolo",
   "nation": "ITA",
-  "age_years": 23.0,
-  "squad": "Roma",
+  "age_years": 25.0,
+  "squad": "Fiorentina / Atalanta",
   "comps": "Serie A",
-  "pos_primary": "MF",
-  "minutes_2023": 510.0
+  "pos_primary": "FW",
+  "minutes_season": 699.0
  },
  "current": {
-  "ability": 41.9,
-  "score_position": 41.4,
-  "score_style": 42.2,
+  "ability": 54.4,
+  "score_position": 52.9,
+  "score_style": 55.9,
   "groups": {
-   "prod": 73.0,
-   "progress": 45.0,
-   "chance": 31.6,
-   "stability": 8.7,
-   "defense": 39.2
+   "prod": 48.8,
+   "progress": 54.9,
+   "chance": 62.7,
+   "stability": 37.3,
+   "defense": 22.5
   }
  },
  "style": {
-  "primary": "볼 운반형",
-  "confidence": 2.46
+  "primary": "연결형 공격수",
+  "confidence": 0.39
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "growth",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.7305,
-  "mu": 52.0,
-  "ci80": {
-   "lo": 40.1,
-   "hi": 64.0
-  },
-  "ci50": {
-   "lo": 45.7,
-   "hi": 58.4
-  },
-  "sigma_model": 4.7,
-  "sigma_residual": 8.1
- },
- "neighbors": [
-  {
-   "fbref_id": "bf075f6b",
-   "season": 2020,
-   "distance": 1.702,
-   "survived": 1,
-   "fut_ability_v2": 61.2,
-   "player_name": "Roland Sallai",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "be5e1c4c",
-   "season": 2020,
-   "distance": 2.299,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Dawid Kownacki",
-   "squad": "Düsseldorf"
-  },
-  {
-   "fbref_id": "509a4ccb",
-   "season": 2018,
-   "distance": 2.374,
-   "survived": 1,
-   "fut_ability_v2": 68.7,
-   "player_name": "Keita Baldé",
-   "squad": "Monaco"
-  },
-  {
-   "fbref_id": "debc2f28",
-   "season": 2018,
-   "distance": 2.456,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Chadrac Akolo",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "f3b1d9a2",
-   "season": 2019,
-   "distance": 2.584,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Amath",
-   "squad": "Getafe"
-  },
-  {
-   "fbref_id": "f631c17f",
-   "season": 2020,
-   "distance": 2.658,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Oliver Burke",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "05816e19",
-   "season": 2019,
-   "distance": 2.708,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Juan Ferney Otero",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "4468ec10",
-   "season": 2019,
-   "distance": 2.732,
-   "survived": 1,
-   "fut_ability_v2": 57.2,
-   "player_name": "Demarai Gray",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "ea02beaf",
-   "season": 2020,
-   "distance": 2.784,
-   "survived": 1,
-   "fut_ability_v2": 58.5,
-   "player_name": "Remi Oudin",
-   "squad": "Reims / Bordeaux"
-  },
-  {
-   "fbref_id": "271b8617",
-   "season": 2020,
-   "distance": 2.843,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marcus Ingvartsen",
-   "squad": "Union Berlin"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 98.2
-   },
-   {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 95.4
-   },
-   {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 91.5
-   },
-   {
-    "key": "npxG_Sh",
-    "label": "슈팅당 기대득점",
-    "percentile": 86.2
-   },
-   {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 85.4
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 84.5
-   },
-   {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 82.4
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 0.0
-   },
-   {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 0.9
-   },
-   {
-    "key": "Clr",
-    "label": "클리어링",
-    "percentile": 1.5
-   },
-   {
-    "key": "Recov",
-    "label": "볼 리커버리",
-    "percentile": 1.8
-   },
-   {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 2.1
-   }
-  ],
-  "position_radar": [
-   {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 0.9
-   },
-   {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 31.6
-   },
-   {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 2.1
-   },
-   {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 61.7
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 83.9
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 7.9
+    "percentile": 81.1
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 74.1
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 73.2
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 69.7
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 68.8
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 66.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 13.1
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 28.2
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 28.7
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 44.5
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 44.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 28.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 66.9
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 74.1
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 44.5
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 62.9
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 73.2
    }
   ],
   "top3_styles": [
    {
-    "style": "볼 운반형",
-    "fit_z": 4.88
+    "style": "연결형 공격수",
+    "fit_z": 0.87
    },
    {
-    "style": "공격형 MF",
-    "fit_z": 2.43
+    "style": "돌파형 윙어",
+    "fit_z": 0.48
    },
    {
-    "style": "딥 플레이메이커",
-    "fit_z": -0.38
+    "style": "박스 포처",
+    "fit_z": 0.24
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "드리블 시도 비중",
-     "z": 4.88
+     "label": "키패스 비중",
+     "z": 1.58
+    },
+    {
+     "label": "중원 활동 비중",
+     "z": 0.16
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 15퍼센타일)"
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)",
+   "슈팅 창출(SCA) 강화 여지 — 난이도를 높인 반복 훈련 (현재 67퍼센타일)",
+   "전진 패스 수신 강화 여지 — 난이도를 높인 반복 훈련 (현재 57퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "성공 드리블 기초 교정",
-    "kpi": "성공 드리블: 85 → 90 퍼센타일"
+    "focus": "전진 패스 수신 기초 교정",
+    "kpi": "전진 패스 수신: 57 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "슈팅 창출(SCA) 실전 적용 반복",
+    "kpi": "슈팅 창출(SCA): 67 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "성공 드리블: 85 → 90 퍼센타일"
+    "kpi": "키패스: 73 → 80 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.35,
-   "fouls_per90": 1.94,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 21.0,
-   "clean_pctl_fouls": 10.0
+   "yellows_per90": 0.77,
+   "fouls_per90": 2.58,
+   "reds_total_season": 1.0,
+   "clean_pctl_cards": 0.7,
+   "clean_pctl_fouls": 3.7
   },
   "availability": {
-   "minpct_mean": 49.8,
-   "n_seasons": 4
+   "minpct_mean": 41.8,
+   "n_seasons": 5
   },
   "consistency": {
-   "ability_std": 9.4,
-   "n_rated_seasons": 4
+   "ability_std": 8.2,
+   "n_rated_seasons": 5
   }
  },
  "narrative": {
-  "current": "Nicolò Zaniolo(MF)의 현재 능력 점수는 41.9점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 슈팅 시도, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 전진 패스이다.",
-  "potential": "Nicolò Zaniolo의 2~3년 후 성장 예측 중심값은 52.0점, 80% 구간 상단(잠재력 상한)은 64.0점이다. 빅5 잔존확률은 73.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Nicolò Zaniolo(FW)의 현재 능력 점수는 54.4점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 패스 성공률, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 도움 기대값(xAG)이다.",
+  "potential": null
  }
 }

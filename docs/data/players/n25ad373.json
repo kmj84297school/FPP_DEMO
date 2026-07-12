@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "n25ad373",
+  "player_name": "Julio Enciso",
+  "nation": "PAR",
+  "age_years": 20.0,
+  "squad": "Ipswich Town / Brighton",
+  "comps": "Premier League",
+  "pos_primary": "MF",
+  "minutes_season": 1163.0
+ },
+ "current": {
+  "ability": 57.6,
+  "score_position": 56.3,
+  "score_style": 58.9,
+  "groups": {
+   "prod": 76.4,
+   "progress": 60.1,
+   "chance": 66.6,
+   "stability": 22.1,
+   "defense": 32.9
+  }
+ },
+ "style": {
+  "primary": "볼 운반형",
+  "confidence": 0.65
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.5289,
+  "mu": 61.8,
+  "ci80": {
+   "lo": 51.1,
+   "hi": 72.4
+  },
+  "ci50": {
+   "lo": 56.2,
+   "hi": 67.3
+  },
+  "sigma_model": 2.0,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "3a233281",
+   "season": 2020,
+   "distance": 2.354,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leon Bailey",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "d4a2533d",
+   "season": 2018,
+   "distance": 2.668,
+   "survived": 1,
+   "fut_ability_v2": 69.8,
+   "player_name": "Josip Brekalo",
+   "squad": "Wolfsburg / Stuttgart"
+  },
+  {
+   "fbref_id": "b8a642fc",
+   "season": 2019,
+   "distance": 2.827,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Samuel Chukwueze",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "24eb7ed6",
+   "season": 2019,
+   "distance": 2.945,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Junior Sambia",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "dc62b55d",
+   "season": 2020,
+   "distance": 2.976,
+   "survived": 1,
+   "fut_ability_v2": 70.8,
+   "player_name": "Matheus Cunha",
+   "squad": "Hertha BSC / RB Leipzig"
+  },
+  {
+   "fbref_id": "f972644c",
+   "season": 2019,
+   "distance": 3.078,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Marco Richter",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "19709006",
+   "season": 2020,
+   "distance": 3.128,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Óscar Rodríguez Arnaiz",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "7b9a9e25",
+   "season": 2019,
+   "distance": 3.128,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Arnaud Nordin",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "31114001",
+   "season": 2018,
+   "distance": 3.139,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Berkay Özcan",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "34a0f5ff",
+   "season": 2020,
+   "distance": 3.19,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Javairô Dilrosun",
+   "squad": "Hertha BSC"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 100.0
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 100.0
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 99.6
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 88.6
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 87.1
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 85.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 84.6
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 1.4
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 2.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 4.5
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 8.4
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 12.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 23.1
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 71.6
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 2.5
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 85.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 69.6
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 4.5
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "볼 운반형",
+    "fit_z": 2.79
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": 2.13
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.05
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 3.9
+    },
+    {
+     "label": "운반 비중",
+     "z": 1.67
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 14퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 0퍼센타일)",
+   "전진 운반 거리 이미 강점 — 유지 및 응용 훈련 (상위 26퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 거리 기초 교정",
+    "kpi": "전진 운반 거리: 74 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 86 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 이미 상위 0퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.23,
+   "fouls_per90": 0.93,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 44.0,
+   "clean_pctl_fouls": 77.5
+  },
+  "availability": {
+   "minpct_mean": 21.2,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Julio Enciso(MF)의 현재 능력 점수는 57.6점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅 시도, 유효슈팅, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 태클+인터셉트이다.",
+  "potential": "Julio Enciso의 2~3년 후 성장 예측 중심값은 61.8점, 80% 구간 상단(잠재력 상한)은 72.4점이다. 빅5 잔존확률은 52.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

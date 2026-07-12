@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "6db116ec",
+  "player_name": "Pablo Durán",
+  "nation": "ESP",
+  "age_years": 23.0,
+  "squad": "Celta Vigo",
+  "comps": "La Liga",
+  "pos_primary": "FW",
+  "minutes_season": 1394.0
+ },
+ "current": {
+  "ability": 47.9,
+  "score_position": 49.4,
+  "score_style": 46.4,
+  "groups": {
+   "prod": 50.5,
+   "progress": 45.9,
+   "chance": 35.7,
+   "stability": 40.9,
+   "defense": 51.9
+  }
+ },
+ "style": {
+  "primary": "연결형 공격수",
+  "confidence": 0.27
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.687,
+  "mu": 50.8,
+  "ci80": {
+   "lo": 40.2,
+   "hi": 61.4
+  },
+  "ci50": {
+   "lo": 45.2,
+   "hi": 56.4
+  },
+  "sigma_model": 1.8,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0b90bb97",
+   "season": 2020,
+   "distance": 1.891,
+   "survived": 1,
+   "fut_ability_v2": 43.1,
+   "player_name": "Santi Mina",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "0a447501",
+   "season": 2020,
+   "distance": 1.978,
+   "survived": 1,
+   "fut_ability_v2": 41.7,
+   "player_name": "Antonio Sanabria",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "061e8e23",
+   "season": 2018,
+   "distance": 2.049,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Maximilian Philipp",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "74c7c2db",
+   "season": 2018,
+   "distance": 2.151,
+   "survived": 1,
+   "fut_ability_v2": 45.3,
+   "player_name": "Robin Quaison",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "2054d037",
+   "season": 2019,
+   "distance": 2.231,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "M'Baye Niang",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 2.259,
+   "survived": 1,
+   "fut_ability_v2": 38.5,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "0b90bb97",
+   "season": 2019,
+   "distance": 2.413,
+   "survived": 1,
+   "fut_ability_v2": 41.7,
+   "player_name": "Santi Mina",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "5d4f7d61",
+   "season": 2019,
+   "distance": 2.463,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Patrik Schick",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "3aa4a3be",
+   "season": 2018,
+   "distance": 2.519,
+   "survived": 1,
+   "fut_ability_v2": 35.1,
+   "player_name": "Loren Morón",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "244bc2c8",
+   "season": 2020,
+   "distance": 2.606,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Boulaye Dia",
+   "squad": "Reims"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 84.6
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 77.9
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 74.8
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 71.3
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 68.3
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 65.3
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 60.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 17.7
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 20.5
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 23.1
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 34.7
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 35.0
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 41.3
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 23.1
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 39.6
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 35.0
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 44.5
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 44.8
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "연결형 공격수",
+    "fit_z": 0.1
+   },
+   {
+    "style": "돌파형 윙어",
+    "fit_z": -0.17
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -0.24
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "중원 활동 비중",
+     "z": 0.42
+    },
+    {
+     "label": "키패스 비중",
+     "z": -0.22
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "키패스 안정화 단계 — 상황별 반복 훈련 (현재 45퍼센타일)",
+   "슈팅 창출(SCA) 개선 필요 — 기초 반복 훈련 권장 (현재 하위 23퍼센타일)",
+   "전진 패스 수신 이미 강점 — 유지 및 응용 훈련 (상위 25퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "슈팅 창출(SCA) 기초 교정",
+    "kpi": "슈팅 창출(SCA): 23 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 45 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 패스 수신: 75 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.19,
+   "fouls_per90": 2.07,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 34.7,
+   "clean_pctl_fouls": 12.1
+  },
+  "availability": {
+   "minpct_mean": 40.8,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Pablo Durán(FW)의 현재 능력 점수는 47.9점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 어시스트, 클리어링, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 유효슈팅이다.",
+  "potential": "Pablo Durán의 2~3년 후 성장 예측 중심값은 50.8점, 80% 구간 상단(잠재력 상한)은 61.4점이다. 빅5 잔존확률은 68.7%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

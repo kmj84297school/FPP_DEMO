@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "f4d60499",
+  "player_name": "Morten Frendrup",
+  "nation": "DEN",
+  "age_years": 23.0,
+  "squad": "Genoa",
+  "comps": "Serie A",
+  "pos_primary": "MF",
+  "minutes_season": 3103.0
+ },
+ "current": {
+  "ability": 47.8,
+  "score_position": 37.3,
+  "score_style": 58.3,
+  "groups": {
+   "prod": 27.5,
+   "progress": 15.5,
+   "chance": 13.1,
+   "stability": 66.5,
+   "defense": 66.1
+  }
+ },
+ "style": {
+  "primary": "수비형 파괴자",
+  "confidence": 0.82
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.7901,
+  "mu": 52.3,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 62.9
+  },
+  "ci50": {
+   "lo": 46.7,
+   "hi": 57.8
+  },
+  "sigma_model": 1.7,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5e22e2a4",
+   "season": 2019,
+   "distance": 1.748,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Baptiste Santamaria",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "48b28bfd",
+   "season": 2018,
+   "distance": 1.923,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Jean-Eudes Aholou",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "c2211709",
+   "season": 2018,
+   "distance": 2.312,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Ellyes Skhiri",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "c69ef855",
+   "season": 2020,
+   "distance": 2.373,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexis Blin",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "a2e7de6f",
+   "season": 2018,
+   "distance": 2.417,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gideon Jung",
+   "squad": "Hamburger SV"
+  },
+  {
+   "fbref_id": "283c7121",
+   "season": 2020,
+   "distance": 2.44,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Edu Expósito",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "71ec39ef",
+   "season": 2020,
+   "distance": 2.441,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Lucas Tousart",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "6b47c5db",
+   "season": 2020,
+   "distance": 2.472,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Wilfred Ndidi",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "9b5ce51a",
+   "season": 2019,
+   "distance": 2.509,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jefferson Lerma",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "5e22e2a4",
+   "season": 2018,
+   "distance": 2.525,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Baptiste Santamaria",
+   "squad": "Angers"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 93.0
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 92.8
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 74.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 72.6
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 70.5
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 66.5
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 60.3
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 8.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 8.2
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 9.8
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 10.7
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 11.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 19.7
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 8.2
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 92.8
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 15.4
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 12.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 72.6
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "수비형 파괴자",
+    "fit_z": 0.75
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.07
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.39
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "태클량",
+     "z": 1.43
+    },
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 0.91
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": -0.08
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 7퍼센타일)",
+   "블록 이미 강점 — 유지 및 응용 훈련 (상위 7퍼센타일)",
+   "볼 리커버리 이미 강점 — 유지 및 응용 훈련 (상위 26퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "볼 리커버리 기초 교정",
+    "kpi": "볼 리커버리: 74 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "태클+인터셉트 실전 적용 반복",
+    "kpi": "태클+인터셉트: 이미 상위 7퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "블록: 이미 상위 7퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.15,
+   "fouls_per90": 1.48,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 69.1,
+   "clean_pctl_fouls": 37.0
+  },
+  "availability": {
+   "minpct_mean": 55.5,
+   "n_seasons": 2
+  },
+  "consistency": {
+   "ability_std": 4.9,
+   "n_rated_seasons": 2
+  }
+ },
+ "narrative": {
+  "current": "Morten Frendrup(MF)의 현재 능력 점수는 47.8점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 블록, 태클+인터셉트, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 키패스이다.",
+  "potential": "Morten Frendrup의 2~3년 후 성장 예측 중심값은 52.3점, 80% 구간 상단(잠재력 상한)은 62.9점이다. 빅5 잔존확률은 79.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n259ca78",
+  "player_name": "Sávio",
+  "nation": "BRA",
+  "age_years": 20.0,
+  "squad": "Manchester City",
+  "comps": "Premier League",
+  "pos_primary": "FW",
+  "minutes_season": 1766.0
+ },
+ "current": {
+  "ability": 78.4,
+  "score_position": 75.3,
+  "score_style": 81.6,
+  "groups": {
+   "prod": 60.3,
+   "progress": 84.3,
+   "chance": 96.6,
+   "stability": 51.7,
+   "defense": 43.1
+  }
+ },
+ "style": {
+  "primary": "돌파형 윙어",
+  "confidence": 1.13
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.9399,
+  "mu": 79.9,
+  "ci80": {
+   "lo": 69.1,
+   "hi": 90.7
+  },
+  "ci50": {
+   "lo": 74.3,
+   "hi": 85.5
+  },
+  "sigma_model": 2.3,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b19db005",
+   "season": 2019,
+   "distance": 2.71,
+   "survived": 1,
+   "fut_ability_v2": 77.2,
+   "player_name": "Ousmane Dembélé",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "1bf33a9a",
+   "season": 2020,
+   "distance": 3.525,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Christian Pulisic",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "2b114be3",
+   "season": 2018,
+   "distance": 3.745,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Leroy Sané",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "df3cda47",
+   "season": 2020,
+   "distance": 3.747,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Dejan Kulusevski",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "7111d552",
+   "season": 2020,
+   "distance": 3.759,
+   "survived": 1,
+   "fut_ability_v2": 84.9,
+   "player_name": "Vinicius Júnior",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "6853490f",
+   "season": 2018,
+   "distance": 3.845,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Malcom",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "b0f7e36c",
+   "season": 2020,
+   "distance": 4.114,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Chiesa",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "7ba2eaa9",
+   "season": 2020,
+   "distance": 4.191,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Neto",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "2b16cb1a",
+   "season": 2018,
+   "distance": 4.254,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Allan Saint-Maximin",
+   "squad": "Nice / Monaco"
+  },
+  {
+   "fbref_id": "20730eae",
+   "season": 2020,
+   "distance": 4.364,
+   "survived": 1,
+   "fut_ability_v2": 74.0,
+   "player_name": "Rafael Leão",
+   "squad": "Milan"
+  }
+ ],
+ "low_confidence": true,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 99.3
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 99.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 97.7
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 97.4
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 97.2
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 97.2
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 97.2
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 5.4
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 24.0
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 34.0
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 48.0
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 70.9
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 48.0
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 97.7
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 97.0
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 99.1
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 97.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 95.3
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 1.09
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": -0.04
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -0.39
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "운반 비중",
+     "z": 1.74
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.96
+    }
+   ],
+   "bottom": [
+    {
+     "label": "크로스 비중",
+     "z": 0.58
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 3퍼센타일)",
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 1퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 이미 상위 5퍼센타일 — 유지"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 이미 상위 3퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 이미 상위 1퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.15,
+   "fouls_per90": 0.87,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 45.9,
+   "clean_pctl_fouls": 73.4
+  },
+  "availability": {
+   "minpct_mean": 51.6,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Sávio(FW)의 현재 능력 점수는 78.4점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반 거리, 전진 운반, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 슈팅당 기대득점이다.",
+  "potential": "Sávio의 2~3년 후 성장 예측 중심값은 79.9점, 80% 구간 상단(잠재력 상한)은 90.7점이다. 빅5 잔존확률은 94.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

@@ -3,197 +3,306 @@
   "fbref_id": "59e6e5bf",
   "player_name": "Dominic Calvert-Lewin",
   "nation": "ENG",
-  "age_years": 25.0,
+  "age_years": 27.0,
   "squad": "Everton",
   "comps": "Premier League",
   "pos_primary": "FW",
-  "minutes_2023": 279.0
+  "minutes_season": 1609.0
  },
  "current": {
-  "ability": 27.0,
-  "score_position": 23.8,
-  "score_style": 30.1,
+  "ability": 41.4,
+  "score_position": 38.2,
+  "score_style": 44.8,
   "groups": {
-   "prod": 31.2,
-   "progress": 8.2,
-   "chance": 14.2,
-   "stability": 7.8,
-   "defense": 43.4
+   "prod": 49.3,
+   "progress": 31.1,
+   "chance": 13.1,
+   "stability": 15.3,
+   "defense": 53.3
   }
  },
  "style": {
   "primary": "타겟맨",
-  "confidence": 0.42
+  "confidence": 0.4
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3635,
+  "mu": 45.2,
+  "ci80": {
+   "lo": 35.7,
+   "hi": 54.7
+  },
+  "ci50": {
+   "lo": 40.2,
+   "hi": 50.2
+  },
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9980269a",
+   "season": 2020,
+   "distance": 2.193,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kalifa Coulibaly",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "1d6ac165",
+   "season": 2018,
+   "distance": 2.675,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sam Vokes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "9592289a",
+   "season": 2020,
+   "distance": 2.68,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Zaza",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "e897d8ba",
+   "season": 2020,
+   "distance": 2.706,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Kike",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "7ffaf233",
+   "season": 2018,
+   "distance": 2.732,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Suk Hyun-jun",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "d7d32194",
+   "season": 2018,
+   "distance": 2.841,
+   "survived": 1,
+   "fut_ability_v2": 42.1,
+   "player_name": "Mattia Destro",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "4e9a0555",
+   "season": 2018,
+   "distance": 2.883,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Chris Wood",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "0a1efd3c",
+   "season": 2018,
+   "distance": 2.901,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrey Galabinov",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "80dbbd10",
+   "season": 2018,
+   "distance": 2.906,
+   "survived": 1,
+   "fut_ability_v2": 34.5,
+   "player_name": "Simeon Nwankwo",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "aa5859cb",
+   "season": 2019,
+   "distance": 2.914,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Depoitre",
+   "squad": "Huddersfield"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 100.0
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 95.6
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 93.6
+    "percentile": 94.9
    },
    {
-    "key": "npxG_Sh",
-    "label": "슈팅당 기대득점",
-    "percentile": 78.7
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 83.7
    },
    {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 77.3
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 77.6
    },
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 56.7
+    "percentile": 77.2
    },
    {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 55.3
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 72.3
    },
    {
-    "key": "np_G",
-    "label": "무페널티 득점",
-    "percentile": 45.4
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 67.6
    }
   ],
   "weaknesses": [
    {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 0.0
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 2.3
    },
    {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 0.0
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 5.1
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 0.0
+    "percentile": 8.6
    },
    {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 0.0
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 11.7
    },
    {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 0.0
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 12.4
    }
   ],
   "position_radar": [
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 56.7
+    "percentile": 77.2
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 0.0
+    "percentile": 8.6
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 41.1
+    "percentile": 22.6
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 27.0
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 2.8
+    "percentile": 67.6
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 0.0
+    "percentile": 2.3
    }
   ],
   "top3_styles": [
    {
     "style": "타겟맨",
-    "fit_z": -0.22
+    "fit_z": 1.56
    },
    {
     "style": "박스 포처",
-    "fit_z": -0.64
+    "fit_z": 1.16
    },
    {
     "style": "돌파형 윙어",
-    "fit_z": -0.7
+    "fit_z": -0.51
    }
   ],
   "style_evidence": {
    "top": [
     {
      "label": "공중볼 경합량",
-     "z": 0.16
+     "z": 2.05
     },
     {
      "label": "박스 터치 비중",
-     "z": -0.61
+     "z": 1.07
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 23퍼센타일)",
-   "무페널티 득점 안정화 단계 — 상황별 반복 훈련 (현재 45퍼센타일)",
-   "박스 터치 개선 필요 — 기초 반복 훈련 권장 (현재 하위 3퍼센타일)"
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 4퍼센타일)",
+   "무페널티 득점 개선 필요 — 기초 반복 훈련 권장 (현재 하위 28퍼센타일)",
+   "박스 터치 강화 여지 — 난이도를 높인 반복 훈련 (현재 68퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "박스 터치 기초 교정",
-    "kpi": "박스 터치: 3 → 60 퍼센타일"
+    "focus": "무페널티 득점 기초 교정",
+    "kpi": "무페널티 득점: 28 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "무페널티 득점 실전 적용 반복",
-    "kpi": "무페널티 득점: 45 → 70 퍼센타일"
+    "focus": "박스 터치 실전 적용 반복",
+    "kpi": "박스 터치: 68 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "공중볼 승리: 77 → 90 퍼센타일"
+    "kpi": "공중볼 승리: 이미 상위 4퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.32,
-   "fouls_per90": 1.29,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 15.6,
-   "clean_pctl_fouls": 36.9
+   "yellows_per90": 0.11,
+   "fouls_per90": 1.51,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 59.9,
+   "clean_pctl_fouls": 31.7
   },
   "availability": {
-   "minpct_mean": 53.8,
-   "n_seasons": 6
+   "minpct_mean": 52.8,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 9.3,
-   "n_rated_seasons": 6
+   "ability_std": 8.5,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Dominic Calvert-Lewin(FW)의 현재 능력 점수는 27.0점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 공중볼 승률, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 전진 패스이다.",
-  "potential": null
+  "current": "Dominic Calvert-Lewin(FW)의 현재 능력 점수는 41.4점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 공중볼 승률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 도움 기대값(xAG)이다.",
+  "potential": "Dominic Calvert-Lewin의 2~3년 후 전성기 유지 예측 중심값은 45.2점, 80% 구간 상단(잠재력 상한)은 54.7점이다. 빅5 현역 유지확률은 36.4%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

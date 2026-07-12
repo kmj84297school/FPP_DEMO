@@ -102,11 +102,16 @@ FPP_V2/
   `TemplateResponse(request, "x.html", ctx)` 순서
 - 배포 목표: Render (기존 서비스 FPP_PROTOTYPE / fpp-prototype.onrender.com 계정 존재)
 
-### C. 최신 시즌 데이터 보충
-- 현 데이터는 2023 시즌에서 끝남 (Yamal 부재)
-- Kaggle: hubertsidorowicz의 Football Players Stats (2024-25, 2025-26) — FBref 동일
-  출처 250+ 컬럼. 컬럼 매핑 + fbref_id 확보 방안 필요 (URL 또는 이름+생년 매칭)
-- 2023 사망 컬럼 20개 목록은 coverage_by_year.csv 참고 (압박·운반 세부 계열)
+### C. 최신 시즌 데이터 보충 — 2026-07 부분 완료
+- **완료**: Kaggle hubertsidorowicz 2024-25 반입 (build/12_import_kaggle_2025.py) →
+  `fpp_features_clean_2018_2025.csv` (16,855행). Yamal 포함 2,499명 필드플레이어.
+  fbref_id는 (정규화 이름, 생년) 매칭: 1,518 기존 연결 / 981 신규(합성 id n25xxxxx) /
+  모호 0. 다중클럽 합산·비율 재계산은 원 전처리 명세와 동일 규칙.
+- **미해결 공백**: 2024 시즌(2023-24) 공개 소스 미확보 — Δ피처가 2025 스냅샷에서
+  전량 결측(has_prev=0, XGBoost 결측 처리 위임). 2025-26 파일은 고급지표(포제션·
+  수비·GCA 계열) 자체가 없어 반입 불가.
+- **2025 결손 컬럼**: pas_Att_Long 부재 → shape_long 판별축 1개 결측 (스타일 판별은
+  나머지 축으로 진행). 2023 사망 컬럼 20개 목록은 coverage_by_year.csv 참고.
 
 ### D. 백로그 (착수 전 소유자와 상의)
 - 능력점수 v2: 박스 포처 저평가(그룹 내 균등가중 한계), 수비수 팀 강도 편향,

@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n2518c77",
+  "player_name": "Luke Woolfenden",
+  "nation": "ENG",
+  "age_years": 25.0,
+  "squad": "Ipswich Town",
+  "comps": "Premier League",
+  "pos_primary": "DF",
+  "minutes_season": 1187.0
+ },
+ "current": {
+  "ability": 51.6,
+  "score_position": 48.2,
+  "score_style": 55.0,
+  "groups": {
+   "prod": 17.7,
+   "progress": 21.4,
+   "chance": 7.0,
+   "stability": 80.5,
+   "defense": 46.7
+  }
+ },
+ "style": {
+  "primary": "스토퍼",
+  "confidence": 1.03
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.3953,
+  "mu": 53.8,
+  "ci80": {
+   "lo": 44.1,
+   "hi": 63.4
+  },
+  "ci50": {
+   "lo": 48.8,
+   "hi": 58.9
+  },
+  "sigma_model": 2.5,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "7b075c75",
+   "season": 2018,
+   "distance": 1.85,
+   "survived": 1,
+   "fut_ability_v2": 66.3,
+   "player_name": "Adama Soumaoro",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "b233e8e4",
+   "season": 2018,
+   "distance": 1.876,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Jeison Murillo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "b233e8e4",
+   "season": 2020,
+   "distance": 2.042,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Jeison Murillo",
+   "squad": "Celta Vigo / Sampdoria"
+  },
+  {
+   "fbref_id": "7b075c75",
+   "season": 2019,
+   "distance": 2.053,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Adama Soumaoro",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "1d8e9add",
+   "season": 2020,
+   "distance": 2.09,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Kevin Vogt",
+   "squad": "Werder Bremen / Hoffenheim"
+  },
+  {
+   "fbref_id": "9b30df1e",
+   "season": 2019,
+   "distance": 2.154,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bartosz Salamon",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "616aea37",
+   "season": 2018,
+   "distance": 2.205,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Crotone / Cagliari"
+  },
+  {
+   "fbref_id": "def899bd",
+   "season": 2018,
+   "distance": 2.24,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Phil Jones",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "f0da930c",
+   "season": 2020,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "José María Giménez",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "79083382",
+   "season": 2019,
+   "distance": 2.366,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Juan Jesus",
+   "squad": "Roma"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 94.6
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 87.1
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 84.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 79.1
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 76.6
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 67.9
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 63.1
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 0.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 2.8
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 3.3
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 4.0
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 7.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 20.9
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 87.1
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 76.6
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 0.7
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 79.1
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 84.5
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 1.14
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.11
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -1.0
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "자책 박스 활동 비중",
+     "z": 2.58
+    },
+    {
+     "label": "클리어링량",
+     "z": 1.2
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": -0.37
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 개선 필요 — 기초 반복 훈련 권장 (현재 하위 21퍼센타일)",
+   "클리어링 이미 강점 — 유지 및 응용 훈련 (상위 13퍼센타일)",
+   "공중볼 승리 안정화 단계 — 상황별 반복 훈련 (현재 39퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 21 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "공중볼 승리 실전 적용 반복",
+    "kpi": "공중볼 승리: 39 → 60 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "클리어링: 87 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.15,
+   "fouls_per90": 0.38,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 62.5,
+   "clean_pctl_fouls": 96.7
+  },
+  "availability": {
+   "minpct_mean": 34.7,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Luke Woolfenden(DF)의 현재 능력 점수는 51.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 클리어링, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 박스 터치이다.",
+  "potential": "Luke Woolfenden의 2~3년 후 전성기 유지 예측 중심값은 53.8점, 80% 구간 상단(잠재력 상한)은 63.4점이다. 빅5 현역 유지확률은 39.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

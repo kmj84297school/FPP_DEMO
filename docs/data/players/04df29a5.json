@@ -3,197 +3,306 @@
   "fbref_id": "04df29a5",
   "player_name": "Lorenzo Colombo",
   "nation": "ITA",
-  "age_years": 20.0,
-  "squad": "Lecce",
+  "age_years": 22.0,
+  "squad": "Empoli",
   "comps": "Serie A",
   "pos_primary": "FW",
-  "minutes_2023": 246.0
+  "minutes_season": 2233.0
  },
  "current": {
-  "ability": 32.3,
-  "score_position": 28.2,
-  "score_style": 36.4,
+  "ability": 34.3,
+  "score_position": 36.2,
+  "score_style": 32.4,
   "groups": {
-   "prod": 31.9,
-   "progress": 21.6,
-   "chance": 3.5,
-   "stability": 26.6,
-   "defense": 56.7
+   "prod": 36.0,
+   "progress": 31.0,
+   "chance": 24.9,
+   "stability": 20.6,
+   "defense": 59.1
   }
  },
  "style": {
-  "primary": "타겟맨",
-  "confidence": 1.08
+  "primary": "연결형 공격수",
+  "confidence": 0.11
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6238,
+  "mu": 50.3,
+  "ci80": {
+   "lo": 39.6,
+   "hi": 61.1
+  },
+  "ci50": {
+   "lo": 44.7,
+   "hi": 56.0
+  },
+  "sigma_model": 2.2,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 1.889,
+   "survived": 1,
+   "fut_ability_v2": 38.5,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "19ba6c6d",
+   "season": 2018,
+   "distance": 1.891,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Steve Mounié",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "19ba6c6d",
+   "season": 2019,
+   "distance": 2.228,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Steve Mounié",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "59e6e5bf",
+   "season": 2019,
+   "distance": 2.277,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Dominic Calvert-Lewin",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "ba115a40",
+   "season": 2018,
+   "distance": 2.37,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Sébastien Haller",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "6922f806",
+   "season": 2018,
+   "distance": 2.409,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Jonathan Calleri",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "923f4dda",
+   "season": 2020,
+   "distance": 2.414,
+   "survived": 1,
+   "fut_ability_v2": 55.1,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "04e17fd5",
+   "season": 2019,
+   "distance": 2.463,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Youssef En-Nesyri",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "1238a3f9",
+   "season": 2018,
+   "distance": 2.464,
+   "survived": 1,
+   "fut_ability_v2": 29.0,
+   "player_name": "Davie Selke",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "923f4dda",
+   "season": 2019,
+   "distance": 2.516,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Amiens"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 95.0
-   },
-   {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 77.9
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 92.8
    },
    {
     "key": "AerWon",
     "label": "공중볼 승리",
-    "percentile": 73.0
+    "percentile": 76.2
    },
    {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 66.0
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 66.9
    },
    {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 65.2
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 51.0
    },
    {
     "key": "Sh",
     "label": "슈팅 시도",
-    "percentile": 59.6
+    "percentile": 48.5
    },
    {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 55.3
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 47.8
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 45.9
    }
   ],
   "weaknesses": [
    {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 0.0
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 11.4
    },
    {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 0.0
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 19.3
    },
    {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 0.7
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 21.4
    },
    {
-    "key": "npxG_Sh",
-    "label": "슈팅당 기대득점",
-    "percentile": 0.7
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 22.4
    },
    {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 0.7
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 26.1
    }
   ],
   "position_radar": [
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 8.5
+    "percentile": 31.0
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 0.0
+    "percentile": 31.7
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 15.6
+    "percentile": 47.8
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 21.4
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 55.3
+    "percentile": 22.4
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 0.0
+    "percentile": 27.5
    }
   ],
   "top3_styles": [
    {
+    "style": "연결형 공격수",
+    "fit_z": 0.5
+   },
+   {
     "style": "타겟맨",
-    "fit_z": 1.14
+    "fit_z": 0.38
    },
    {
     "style": "박스 포처",
-    "fit_z": 0.05
-   },
-   {
-    "style": "연결형 공격수",
-    "fit_z": -1.09
+    "fit_z": -0.19
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "공중볼 경합량",
-     "z": 2.34
+     "label": "중원 활동 비중",
+     "z": 1.3
     },
     {
-     "label": "박스 터치 비중",
-     "z": -0.07
+     "label": "키패스 비중",
+     "z": -0.31
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)",
-   "무페널티 득점 강화 여지 — 난이도를 높인 반복 훈련 (현재 55퍼센타일)",
-   "박스 터치 강화 여지 — 난이도를 높인 반복 훈련 (현재 55퍼센타일)"
+   "키패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 28퍼센타일)",
+   "슈팅 창출(SCA) 개선 필요 — 기초 반복 훈련 권장 (현재 하위 32퍼센타일)",
+   "전진 패스 수신 개선 필요 — 기초 반복 훈련 권장 (현재 하위 19퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "무페널티 득점 기초 교정",
-    "kpi": "무페널티 득점: 55 → 70 퍼센타일"
+    "focus": "전진 패스 수신 기초 교정",
+    "kpi": "전진 패스 수신: 19 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "박스 터치 실전 적용 반복",
-    "kpi": "박스 터치: 55 → 70 퍼센타일"
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 28 → 60 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "공중볼 승리: 73 → 80 퍼센타일"
+    "kpi": "슈팅 창출(SCA): 32 → 60 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.73,
-   "fouls_per90": 3.29,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 0.0,
-   "clean_pctl_fouls": 0.0
+   "yellows_per90": 0.2,
+   "fouls_per90": 1.85,
+   "reds_total_season": 2.0,
+   "clean_pctl_cards": 33.1,
+   "clean_pctl_fouls": 17.7
   },
   "availability": {
-   "minpct_mean": 9.0,
-   "n_seasons": 3
+   "minpct_mean": 23.0,
+   "n_seasons": 4
   },
   "consistency": {
-   "ability_std": null,
-   "n_rated_seasons": 1
+   "ability_std": 1.4,
+   "n_rated_seasons": 2
   }
  },
  "narrative": {
-  "current": "Lorenzo Colombo(FW)의 현재 능력 점수는 32.3점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 태클 성공률, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 키패스이다.",
-  "potential": null
+  "current": "Lorenzo Colombo(FW)의 현재 능력 점수는 34.3점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 블록, 공중볼 승리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 전진 패스 수신이다.",
+  "potential": "Lorenzo Colombo의 2~3년 후 성장 예측 중심값은 50.3점, 80% 구간 상단(잠재력 상한)은 61.1점이다. 빅5 잔존확률은 62.4%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

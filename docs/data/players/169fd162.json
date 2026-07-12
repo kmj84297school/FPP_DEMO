@@ -3,27 +3,27 @@
   "fbref_id": "169fd162",
   "player_name": "Hwang Hee-chan",
   "nation": "KOR",
-  "age_years": 26.0,
+  "age_years": 28.0,
   "squad": "Wolves",
   "comps": "Premier League",
-  "pos_primary": "FW",
-  "minutes_2023": 258.0
+  "pos_primary": "MF",
+  "minutes_season": 661.0
  },
  "current": {
-  "ability": 51.3,
-  "score_position": 50.3,
-  "score_style": 52.3,
+  "ability": 38.0,
+  "score_position": 38.5,
+  "score_style": 37.5,
   "groups": {
-   "prod": 43.6,
-   "progress": 50.5,
-   "chance": 56.0,
-   "stability": 39.0,
-   "defense": 40.2
+   "prod": 50.6,
+   "progress": 36.3,
+   "chance": 17.4,
+   "stability": 44.3,
+   "defense": 32.4
   }
  },
  "style": {
-  "primary": "돌파형 윙어",
-  "confidence": 0.08
+  "primary": "볼 운반형",
+  "confidence": 0.33
  },
  "eligibility": {
   "eligible_for_prediction": false,
@@ -36,163 +36,169 @@
  "report": {
   "strengths": [
    {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 91.5
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 95.3
    },
-   {
-    "key": "Recov",
-    "label": "볼 리커버리",
-    "percentile": 91.5
-   },
-   {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 88.7
-   },
-   {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 78.7
-   },
-   {
-    "key": "PPA",
-    "label": "박스 진입 패스",
-    "percentile": 75.2
-   },
-   {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 72.3
-   },
-   {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 67.4
-   }
-  ],
-  "weaknesses": [
    {
     "key": "np_G",
     "label": "무페널티 득점",
-    "percentile": 5.0
+    "percentile": 91.8
    },
    {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 7.8
-   },
-   {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 22.7
-   },
-   {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 25.5
-   },
-   {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 26.2
-   }
-  ],
-  "position_radar": [
-   {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 7.8
-   },
-   {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 64.5
-   },
-   {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 67.4
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 83.7
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 48.2
+    "percentile": 83.4
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 69.6
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 62.8
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 61.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 2.1
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 2.3
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 2.3
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 2.3
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 3.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 2.3
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 25.5
+    "percentile": 8.4
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 3.2
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 69.6
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 5.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 49.6
    }
   ],
   "top3_styles": [
    {
-    "style": "돌파형 윙어",
-    "fit_z": 0.09
+    "style": "볼 운반형",
+    "fit_z": 1.24
    },
    {
-    "style": "타겟맨",
-    "fit_z": 0.0
+    "style": "공격형 MF",
+    "fit_z": 0.91
    },
    {
-    "style": "박스 포처",
-    "fit_z": -0.53
+    "style": "딥 플레이메이커",
+    "fit_z": -0.7
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "드리블 시도 비중",
-     "z": 0.42
+     "label": "운반 비중",
+     "z": 1.9
     },
     {
-     "label": "크로스 비중",
-     "z": -0.24
+     "label": "드리블 시도 비중",
+     "z": 0.59
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 67퍼센타일)",
-   "키패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 26퍼센타일)"
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 70퍼센타일)",
+   "성공 드리블 개선 필요 — 기초 반복 훈련 권장 (현재 하위 14퍼센타일)",
+   "전진 운반 거리 개선 필요 — 기초 반복 훈련 권장 (현재 하위 33퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "키패스 기초 교정",
-    "kpi": "키패스: 26 → 60 퍼센타일"
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 14 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "성공 드리블 실전 적용 반복",
-    "kpi": "성공 드리블: 67 → 80 퍼센타일"
+    "focus": "전진 운반 거리 실전 적용 반복",
+    "kpi": "전진 운반 거리: 33 → 60 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "성공 드리블: 67 → 80 퍼센타일"
+    "kpi": "전진 운반: 70 → 80 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
    "yellows_per90": 0.0,
-   "fouls_per90": 1.05,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 74.5,
-   "clean_pctl_fouls": 53.2
+   "fouls_per90": 0.82,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 95.3,
+   "clean_pctl_fouls": 84.3
   },
   "availability": {
-   "minpct_mean": 30.2,
-   "n_seasons": 3
+   "minpct_mean": 27.5,
+   "n_seasons": 4
   },
   "consistency": {
-   "ability_std": 6.0,
-   "n_rated_seasons": 2
+   "ability_std": 6.8,
+   "n_rated_seasons": 3
   }
  },
  "narrative": {
-  "current": "Hwang Hee-chan(FW)의 현재 능력 점수는 51.3점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 어시스트, 볼 리커버리, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 비페널티 xG이다.",
+  "current": "Hwang Hee-chan(MF)의 현재 능력 점수는 38.0점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 무페널티 득점, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 전진 패스이다.",
   "potential": null
  }
 }

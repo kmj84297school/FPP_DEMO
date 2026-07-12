@@ -3,305 +3,207 @@
   "fbref_id": "41b3069f",
   "player_name": "Fernando Calero",
   "nation": "ESP",
-  "age_years": 27.0,
+  "age_years": 28.0,
   "squad": "Espanyol",
   "comps": "La Liga",
   "pos_primary": "DF",
-  "minutes_2023": 693.0
+  "minutes_season": 715.0
  },
  "current": {
-  "ability": 52.9,
-  "score_position": 55.6,
-  "score_style": 50.1,
+  "ability": 58.5,
+  "score_position": 53.7,
+  "score_style": 63.2,
   "groups": {
-   "prod": 40.8,
-   "progress": 43.0,
-   "chance": 43.0,
-   "stability": 38.2,
-   "defense": 67.6
+   "prod": 49.2,
+   "progress": 21.9,
+   "chance": 27.2,
+   "stability": 47.9,
+   "defense": 70.7
   }
  },
  "style": {
-  "primary": "빌드업 수비수",
-  "confidence": 0.06
+  "primary": "스토퍼",
+  "confidence": 1.9
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.3508,
-  "mu": 45.2,
-  "ci80": {
-   "lo": 35.7,
-   "hi": 54.8
-  },
-  "ci50": {
-   "lo": 40.2,
-   "hi": 50.3
-  },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "61b3978f",
-   "season": 2020,
-   "distance": 1.539,
-   "survived": 1,
-   "fut_ability_v2": 52.9,
-   "player_name": "Bartosz Bereszyński",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "5939baa2",
-   "season": 2019,
-   "distance": 1.54,
-   "survived": 1,
-   "fut_ability_v2": 55.0,
-   "player_name": "Benjamin Stambouli",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "b82880c6",
-   "season": 2018,
-   "distance": 1.594,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simon Falette",
-   "squad": "Eint Frankfurt / Metz"
-  },
-  {
-   "fbref_id": "6bd5cd5d",
-   "season": 2020,
-   "distance": 1.611,
-   "survived": 1,
-   "fut_ability_v2": 47.5,
-   "player_name": "Robin Knoche",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "5832ebfe",
-   "season": 2020,
-   "distance": 1.658,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Stefano Denswil",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "616aea37",
-   "season": 2019,
-   "distance": 1.663,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marco Capuano",
-   "squad": "Frosinone"
-  },
-  {
-   "fbref_id": "9b30df1e",
-   "season": 2018,
-   "distance": 1.71,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bartosz Salamon",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "d63e2912",
-   "season": 2018,
-   "distance": 1.771,
-   "survived": 1,
-   "fut_ability_v2": 60.9,
-   "player_name": "Hiroki Sakai",
-   "squad": "Marseille"
-  },
-  {
-   "fbref_id": "faf55ce4",
-   "season": 2019,
-   "distance": 1.785,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kevin Wimmer",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "cb574619",
-   "season": 2020,
-   "distance": 1.848,
-   "survived": 1,
-   "fut_ability_v2": 64.7,
-   "player_name": "Hugo Mallo",
-   "squad": "Celta Vigo"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 99.5
-   },
-   {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 77.5
+    "percentile": 97.3
    },
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 75.2
+    "percentile": 95.2
    },
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 72.2
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 92.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 91.9
    },
    {
     "key": "np_G",
     "label": "무페널티 득점",
-    "percentile": 68.1
+    "percentile": 91.1
    },
    {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 66.8
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 72.9
    },
    {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 65.1
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 71.3
    }
   ],
   "weaknesses": [
    {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 14.9
-   },
-   {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 17.5
-   },
-   {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 26.6
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 0.9
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 28.9
+    "percentile": 4.1
    },
    {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 49.9
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 7.2
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 12.6
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 18.3
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 75.2
+    "percentile": 95.2
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 54.2
+    "percentile": 91.9
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 51.0
+    "percentile": 57.7
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 62.5
+    "percentile": 12.6
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 49.9
+    "percentile": 58.0
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 99.5
+    "percentile": 97.3
    }
   ],
   "top3_styles": [
    {
-    "style": "빌드업 수비수",
-    "fit_z": 0.15
-   },
-   {
     "style": "스토퍼",
-    "fit_z": 0.09
+    "fit_z": 1.04
    },
    {
     "style": "공격형 풀백",
-    "fit_z": -0.6
+    "fit_z": -0.86
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -1.22
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "롱패스 비중",
-     "z": 0.85
+     "label": "클리어링량",
+     "z": 1.53
     },
     {
-     "label": "패스 관여도",
-     "z": -0.56
+     "label": "자책 박스 활동 비중",
+     "z": 0.88
     }
    ],
-   "bottom": []
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": 0.69
+    }
+   ]
   },
   "coaching": [
-   "전진 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 62퍼센타일)",
-   "패스 성공률 안정화 단계 — 상황별 반복 훈련 (현재 50퍼센타일)"
+   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)",
+   "클리어링 이미 강점 — 유지 및 응용 훈련 (상위 8퍼센타일)",
+   "공중볼 승리 강화 여지 — 난이도를 높인 반복 훈련 (현재 54퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "패스 성공률 기초 교정",
-    "kpi": "패스 성공률: 50 → 70 퍼센타일"
+    "focus": "공중볼 승리 기초 교정",
+    "kpi": "공중볼 승리: 54 → 70 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "전진 패스 실전 적용 반복",
-    "kpi": "전진 패스: 62 → 80 퍼센타일"
+    "focus": "클리어링 실전 적용 반복",
+    "kpi": "클리어링: 이미 상위 8퍼센타일 — 유지"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "전진 패스: 62 → 80 퍼센타일"
+    "kpi": "태클+인터셉트: 이미 상위 5퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
    "yellows_per90": 0.13,
-   "fouls_per90": 0.78,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 64.6,
-   "clean_pctl_fouls": 57.5
+   "fouls_per90": 0.76,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 73.2,
+   "clean_pctl_fouls": 71.9
   },
   "availability": {
-   "minpct_mean": 56.0,
-   "n_seasons": 4
+   "minpct_mean": 49.0,
+   "n_seasons": 5
   },
   "consistency": {
-   "ability_std": 3.0,
-   "n_rated_seasons": 4
+   "ability_std": 4.6,
+   "n_rated_seasons": 5
   }
  },
  "narrative": {
-  "current": "Fernando Calero(DF)의 현재 능력 점수는 52.9점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 최종 3분의1 패스, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 성공 드리블이다.",
-  "potential": "Fernando Calero의 2~3년 후 전성기 유지 예측 중심값은 45.2점, 80% 구간 상단(잠재력 상한)은 54.8점이다. 빅5 현역 유지확률은 35.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Fernando Calero(DF)의 현재 능력 점수는 58.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 태클+인터셉트, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 박스 터치이다.",
+  "potential": null
  }
 }

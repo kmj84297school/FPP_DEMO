@@ -3,310 +3,202 @@
   "fbref_id": "4958bfb2",
   "player_name": "Dani Carvajal",
   "nation": "ESP",
-  "age_years": 30.0,
+  "age_years": 32.0,
   "squad": "Real Madrid",
   "comps": "La Liga",
   "pos_primary": "DF",
-  "minutes_2023": 788.0
+  "minutes_season": 609.0
  },
  "current": {
-  "ability": 52.1,
-  "score_position": 50.4,
-  "score_style": 53.8,
+  "ability": 54.8,
+  "score_position": 54.4,
+  "score_style": 55.3,
   "groups": {
-   "prod": 50.8,
-   "progress": 46.5,
-   "chance": 60.6,
-   "stability": 52.4,
-   "defense": 39.4
+   "prod": 67.9,
+   "progress": 61.4,
+   "chance": 74.3,
+   "stability": 30.6,
+   "defense": 49.1
   }
  },
  "style": {
-  "primary": "공격형 풀백",
-  "confidence": 0.29
+  "primary": "빌드업 수비수",
+  "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.5342,
-  "mu": 53.1,
-  "ci80": {
-   "lo": 43.7,
-   "hi": 62.4
-  },
-  "ci50": {
-   "lo": 48.1,
-   "hi": 57.9
-  },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "d4cb83cc",
-   "season": 2019,
-   "distance": 2.003,
-   "survived": 1,
-   "fut_ability_v2": 47.5,
-   "player_name": "Nacho Monreal",
-   "squad": "Arsenal"
-  },
-  {
-   "fbref_id": "e94d79e3",
-   "season": 2020,
-   "distance": 2.116,
-   "survived": 1,
-   "fut_ability_v2": 42.5,
-   "player_name": "Martín Cáceres",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "f03f284b",
-   "season": 2019,
-   "distance": 2.128,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "David López",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "7f4c7c9f",
-   "season": 2020,
-   "distance": 2.256,
-   "survived": 1,
-   "fut_ability_v2": 47.5,
-   "player_name": "Jorge Miramón",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "2946f9a1",
-   "season": 2019,
-   "distance": 2.276,
-   "survived": 1,
-   "fut_ability_v2": 52.6,
-   "player_name": "Nacho",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "e0314d87",
-   "season": 2019,
-   "distance": 2.315,
-   "survived": 1,
-   "fut_ability_v2": 51.8,
-   "player_name": "Andrea Masiello",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "96e0490d",
-   "season": 2020,
-   "distance": 2.322,
-   "survived": 1,
-   "fut_ability_v2": 52.3,
-   "player_name": "Matteo Darmian",
-   "squad": "Parma"
-  },
-  {
-   "fbref_id": "53de807a",
-   "season": 2020,
-   "distance": 2.371,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ștefan Radu",
-   "squad": "Lazio"
-  },
-  {
-   "fbref_id": "fb5d47b3",
-   "season": 2020,
-   "distance": 2.376,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mario Gaspar",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "f7d50789",
-   "season": 2019,
-   "distance": 2.377,
-   "survived": 1,
-   "fut_ability_v2": 59.7,
-   "player_name": "Toby Alderweireld",
-   "squad": "Tottenham"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 85.8
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 99.9
    },
    {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 80.8
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 99.3
    },
    {
     "key": "PrgRec",
     "label": "전진 패스 수신",
-    "percentile": 80.8
-   },
-   {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 78.2
+    "percentile": 95.6
    },
    {
     "key": "np_G",
     "label": "무페널티 득점",
-    "percentile": 68.1
+    "percentile": 93.5
    },
    {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 65.8
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 90.6
    },
    {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 64.1
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 87.2
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 82.7
    }
   ],
   "weaknesses": [
    {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 11.9
-   },
-   {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 12.7
-   },
-   {
-    "key": "AerPct",
-    "label": "공중볼 승률",
-    "percentile": 21.8
-   },
-   {
     "key": "Err",
     "label": "실책",
-    "percentile": 26.6
+    "percentile": 12.2
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 15.9
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 19.7
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 25.7
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 27.3
+    "percentile": 26.3
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 51.9
+    "percentile": 72.2
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 27.3
+    "percentile": 26.3
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 21.8
+    "percentile": 47.7
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 30.4
+    "percentile": 67.9
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 78.2
+    "percentile": 63.8
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 47.1
+    "percentile": 52.1
    }
   ],
   "top3_styles": [
    {
-    "style": "공격형 풀백",
-    "fit_z": 0.08
+    "style": "빌드업 수비수",
+    "fit_z": 0.58
    },
    {
-    "style": "빌드업 수비수",
-    "fit_z": -0.21
+    "style": "공격형 풀백",
+    "fit_z": 0.31
    },
    {
     "style": "스토퍼",
-    "fit_z": -0.87
+    "fit_z": -0.78
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "공격 3분의1 활동 비중",
-     "z": 0.84
+     "label": "패스 관여도",
+     "z": 0.94
     },
     {
-     "label": "크로스 비중",
-     "z": -0.15
+     "label": "운반 비중",
+     "z": 0.22
     }
    ],
-   "bottom": [
-    {
-     "label": "드리블 시도 비중",
-     "z": -0.44
-    }
-   ]
+   "bottom": []
   },
   "coaching": [
-   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 64퍼센타일)",
-   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 66퍼센타일)"
+   "전진 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 68퍼센타일)",
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 23퍼센타일)",
+   "패스 성공률 강화 여지 — 난이도를 높인 반복 훈련 (현재 64퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "성공 드리블 기초 교정",
-    "kpi": "성공 드리블: 64 → 80 퍼센타일"
+    "focus": "패스 성공률 기초 교정",
+    "kpi": "패스 성공률: 64 → 80 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "키패스 실전 적용 반복",
-    "kpi": "키패스: 66 → 80 퍼센타일"
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 68 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "키패스: 66 → 80 퍼센타일"
+    "kpi": "전진 운반: 77 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.23,
-   "fouls_per90": 0.69,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 39.5,
-   "clean_pctl_fouls": 66.3
+   "yellows_per90": 0.15,
+   "fouls_per90": 0.44,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 64.1,
+   "clean_pctl_fouls": 93.5
   },
   "availability": {
-   "minpct_mean": 58.4,
-   "n_seasons": 6
+   "minpct_mean": 52.6,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 7.7,
-   "n_rated_seasons": 6
+   "ability_std": 8.0,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Dani Carvajal(DF)의 현재 능력 점수는 52.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 어시스트, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 공중볼 승리이다.",
-  "potential": "Dani Carvajal의 2~3년 후 전성기 유지 예측 중심값은 53.1점, 80% 구간 상단(잠재력 상한)은 62.4점이다. 빅5 현역 유지확률은 53.4%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Dani Carvajal(DF)의 현재 능력 점수는 54.8점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 볼 손실(미스+파울)이다.",
+  "potential": null
  }
 }

@@ -3,301 +3,202 @@
   "fbref_id": "ca45605e",
   "player_name": "Patson Daka",
   "nation": "ZAM",
-  "age_years": 24.0,
+  "age_years": 25.0,
   "squad": "Leicester City",
   "comps": "Premier League",
   "pos_primary": "FW",
-  "minutes_2023": 505.0
+  "minutes_season": 736.0
  },
  "current": {
-  "ability": 53.9,
-  "score_position": 57.0,
-  "score_style": 50.8,
+  "ability": 27.0,
+  "score_position": 23.0,
+  "score_style": 31.0,
   "groups": {
-   "prod": 68.7,
-   "progress": 35.0,
-   "chance": 49.1,
-   "stability": 14.5,
-   "defense": 70.6
+   "prod": 15.8,
+   "progress": 18.7,
+   "chance": 4.5,
+   "stability": 44.2,
+   "defense": 59.2
   }
  },
  "style": {
-  "primary": "연결형 공격수",
-  "confidence": 0.14
+  "primary": "타겟맨",
+  "confidence": 0.27
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.5373,
-  "mu": 45.6,
-  "ci80": {
-   "lo": 35.8,
-   "hi": 55.6
-  },
-  "ci50": {
-   "lo": 40.5,
-   "hi": 50.8
-  },
-  "sigma_model": 3.0,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "253a06b9",
-   "season": 2020,
-   "distance": 2.379,
-   "survived": 1,
-   "fut_ability_v2": 44.4,
-   "player_name": "Ezequiel Ávila",
-   "squad": "Osasuna"
-  },
-  {
-   "fbref_id": "f26834c7",
-   "season": 2019,
-   "distance": 2.55,
-   "survived": 1,
-   "fut_ability_v2": 56.4,
-   "player_name": "Karim Onisiwo",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "d2416c2e",
-   "season": 2020,
-   "distance": 2.754,
-   "survived": 1,
-   "fut_ability_v2": 61.7,
-   "player_name": "Yussuf Poulsen",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "8f3565b3",
-   "season": 2018,
-   "distance": 2.834,
-   "survived": 1,
-   "fut_ability_v2": 43.4,
-   "player_name": "Ante Budimir",
-   "squad": "Crotone"
-  },
-  {
-   "fbref_id": "07802f7f",
-   "season": 2019,
-   "distance": 2.866,
-   "survived": 1,
-   "fut_ability_v2": 52.2,
-   "player_name": "Danny Ings",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "253a06b9",
-   "season": 2019,
-   "distance": 2.878,
-   "survived": 1,
-   "fut_ability_v2": 44.4,
-   "player_name": "Ezequiel Ávila",
-   "squad": "Huesca"
-  },
-  {
-   "fbref_id": "129af0db",
-   "season": 2020,
-   "distance": 2.905,
-   "survived": 1,
-   "fut_ability_v2": 66.0,
-   "player_name": "Álvaro Morata",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "c693347d",
-   "season": 2020,
-   "distance": 2.911,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andreas Cornelius",
-   "squad": "Parma"
-  },
-  {
-   "fbref_id": "d3de9af0",
-   "season": 2018,
-   "distance": 2.916,
-   "survived": 1,
-   "fut_ability_v2": 79.1,
-   "player_name": "Duván Zapata",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "e3fabb0a",
-   "season": 2019,
-   "distance": 2.998,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wu Lei",
-   "squad": "Espanyol"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 91.5
-   },
-   {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 90.1
-   },
-   {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 89.4
-   },
-   {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 80.9
+    "percentile": 92.3
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 80.9
+    "percentile": 90.2
    },
    {
-    "key": "np_G",
-    "label": "무페널티 득점",
-    "percentile": 78.0
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 66.9
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 57.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 51.5
    },
    {
     "key": "TklPct",
     "label": "태클 성공률",
-    "percentile": 77.9
+    "percentile": 50.8
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 50.8
    }
   ],
   "weaknesses": [
    {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 27.0
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 0.2
    },
    {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 27.0
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 0.2
    },
    {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 29.8
-   },
-   {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 30.5
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 2.6
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 31.2
+    "percentile": 3.7
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 4.4
    }
   ],
   "position_radar": [
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 51.8
+    "percentile": 18.4
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 31.2
+    "percentile": 3.7
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 29.8
+    "percentile": 4.4
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 27.5
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 27.0
+    "percentile": 29.1
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 53.9
+    "percentile": 0.2
    }
   ],
   "top3_styles": [
    {
-    "style": "연결형 공격수",
-    "fit_z": -0.06
-   },
-   {
     "style": "타겟맨",
-    "fit_z": -0.2
+    "fit_z": 0.13
    },
    {
     "style": "박스 포처",
-    "fit_z": -0.36
+    "fit_z": -0.14
+   },
+   {
+    "style": "돌파형 윙어",
+    "fit_z": -0.17
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "키패스 비중",
-     "z": 0.19
+     "label": "공중볼 경합량",
+     "z": 0.38
     },
     {
-     "label": "중원 활동 비중",
-     "z": -0.31
+     "label": "박스 터치 비중",
+     "z": -0.12
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 54퍼센타일)",
-   "슈팅 창출(SCA) 개선 필요 — 기초 반복 훈련 권장 (현재 하위 31퍼센타일)",
-   "전진 패스 수신 강화 여지 — 난이도를 높인 반복 훈련 (현재 64퍼센타일)"
+   "공중볼 승리 강화 여지 — 난이도를 높인 반복 훈련 (현재 57퍼센타일)",
+   "무페널티 득점 개선 필요 — 기초 반복 훈련 권장 (현재 하위 18퍼센타일)",
+   "박스 터치 개선 필요 — 기초 반복 훈련 권장 (현재 하위 29퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "슈팅 창출(SCA) 기초 교정",
-    "kpi": "슈팅 창출(SCA): 31 → 60 퍼센타일"
+    "focus": "무페널티 득점 기초 교정",
+    "kpi": "무페널티 득점: 18 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "키패스 실전 적용 반복",
-    "kpi": "키패스: 54 → 70 퍼센타일"
+    "focus": "박스 터치 실전 적용 반복",
+    "kpi": "박스 터치: 29 → 60 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "전진 패스 수신: 64 → 80 퍼센타일"
+    "kpi": "공중볼 승리: 57 → 70 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.36,
-   "fouls_per90": 1.6,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 9.9,
-   "clean_pctl_fouls": 22.0
+   "yellows_per90": 0.0,
+   "fouls_per90": 1.83,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 90.2,
+   "clean_pctl_fouls": 18.6
   },
   "availability": {
-   "minpct_mean": 39.5,
-   "n_seasons": 2
+   "minpct_mean": 33.5,
+   "n_seasons": 3
   },
   "consistency": {
-   "ability_std": 3.7,
-   "n_rated_seasons": 2
+   "ability_std": 14.3,
+   "n_rated_seasons": 3
   }
  },
  "narrative": {
-  "current": "Patson Daka(FW)의 현재 능력 점수는 53.9점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 도움 기대값(xAG), 태클+인터셉트, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 최종 3분의1 패스이다.",
-  "potential": "Patson Daka의 2~3년 후 전성기 유지 예측 중심값은 45.6점, 80% 구간 상단(잠재력 상한)은 55.6점이다. 빅5 현역 유지확률은 53.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Patson Daka(FW)의 현재 능력 점수는 27.0점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 클리어링, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 키패스이다.",
+  "potential": null
  }
 }

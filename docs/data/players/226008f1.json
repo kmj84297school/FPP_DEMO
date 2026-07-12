@@ -3,311 +3,202 @@
   "fbref_id": "226008f1",
   "player_name": "Luca Caldirola",
   "nation": "ITA",
-  "age_years": 31.0,
+  "age_years": 33.0,
   "squad": "Monza",
   "comps": "Serie A",
   "pos_primary": "DF",
-  "minutes_2023": 624.0
+  "minutes_season": 876.0
  },
  "current": {
-  "ability": 57.2,
-  "score_position": 57.2,
-  "score_style": 57.1,
+  "ability": 49.6,
+  "score_position": 48.5,
+  "score_style": 50.6,
   "groups": {
-   "prod": 55.2,
-   "progress": 53.5,
-   "chance": 51.6,
-   "stability": 53.2,
-   "defense": 52.7
+   "prod": 44.3,
+   "progress": 40.3,
+   "chance": 16.9,
+   "stability": 70.6,
+   "defense": 38.5
   }
  },
  "style": {
-  "primary": "스토퍼",
-  "confidence": 0.42
+  "primary": "빌드업 수비수",
+  "confidence": 0.08
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.161,
-  "mu": 51.2,
-  "ci80": {
-   "lo": 42.0,
-   "hi": 60.5
-  },
-  "ci50": {
-   "lo": 46.4,
-   "hi": 56.2
-  },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "e85fb9b8",
-   "season": 2018,
-   "distance": 0.938,
-   "survived": 1,
-   "fut_ability_v2": 59.0,
-   "player_name": "Giorgio Chiellini",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "e0314d87",
-   "season": 2019,
-   "distance": 1.006,
-   "survived": 1,
-   "fut_ability_v2": 51.8,
-   "player_name": "Andrea Masiello",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "e85fb9b8",
-   "season": 2019,
-   "distance": 1.306,
-   "survived": 1,
-   "fut_ability_v2": 62.6,
-   "player_name": "Giorgio Chiellini",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "6aafdc27",
-   "season": 2020,
-   "distance": 1.344,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Nenad Tomović",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "1253a12e",
-   "season": 2019,
-   "distance": 1.348,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ervin Zukanović",
-   "squad": "Genoa"
-  },
-  {
-   "fbref_id": "b5114f85",
-   "season": 2019,
-   "distance": 1.437,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Georg Margreitter",
-   "squad": "Nürnberg"
-  },
-  {
-   "fbref_id": "a46472d0",
-   "season": 2019,
-   "distance": 1.447,
-   "survived": 1,
-   "fut_ability_v2": 49.1,
-   "player_name": "Lamine Koné",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "b3dc6eca",
-   "season": 2019,
-   "distance": 1.475,
-   "survived": 1,
-   "fut_ability_v2": 61.5,
-   "player_name": "Víctor Ruiz",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "ad178594",
-   "season": 2018,
-   "distance": 1.504,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Raúl Navas",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "1522dab2",
-   "season": 2018,
-   "distance": 1.559,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Davide Astori",
-   "squad": "Fiorentina"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 94.3
+   },
+   {
     "key": "PrgDistP",
     "label": "전진 패스 거리",
-    "percentile": 89.9
-   },
-   {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 87.8
-   },
-   {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 87.1
-   },
-   {
-    "key": "AerPct",
-    "label": "공중볼 승률",
-    "percentile": 80.2
+    "percentile": 92.9
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 79.7
+    "percentile": 89.1
    },
    {
-    "key": "npxG_Sh",
-    "label": "슈팅당 기대득점",
-    "percentile": 79.7
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 85.1
    },
    {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 70.4
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 71.0
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 70.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 66.1
    }
   ],
   "weaknesses": [
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 12.4
-   },
-   {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 17.5
-   },
-   {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 26.6
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 29.6
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 0.6
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 32.9
+    "percentile": 9.9
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 16.1
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 16.8
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 23.3
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 40.3
+    "percentile": 27.1
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 50.6
+    "percentile": 66.1
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 80.2
+    "percentile": 71.0
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 63.5
+    "percentile": 16.1
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 79.7
+    "percentile": 89.1
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 60.0
+    "percentile": 23.3
    }
   ],
   "top3_styles": [
    {
-    "style": "스토퍼",
-    "fit_z": 0.39
+    "style": "빌드업 수비수",
+    "fit_z": 0.4
    },
    {
-    "style": "빌드업 수비수",
-    "fit_z": -0.03
+    "style": "스토퍼",
+    "fit_z": 0.32
    },
    {
     "style": "공격형 풀백",
-    "fit_z": -0.76
+    "fit_z": -0.91
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "공중볼 경합량",
-     "z": 0.93
+     "label": "패스 관여도",
+     "z": 1.14
     },
     {
-     "label": "자책 박스 활동 비중",
-     "z": 0.34
+     "label": "운반 비중",
+     "z": -0.34
     }
    ],
-   "bottom": [
-    {
-     "label": "클리어링량",
-     "z": -0.09
-    }
-   ]
+   "bottom": []
   },
   "coaching": [
-   "태클+인터셉트 안정화 단계 — 상황별 반복 훈련 (현재 40퍼센타일)",
-   "클리어링 강화 여지 — 난이도를 높인 반복 훈련 (현재 51퍼센타일)",
-   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 13퍼센타일)"
+   "전진 패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 16퍼센타일)",
+   "전진 운반 개선 필요 — 기초 반복 훈련 권장 (현재 하위 24퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 11퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "태클+인터셉트 기초 교정",
-    "kpi": "태클+인터셉트: 40 → 70 퍼센타일"
+    "focus": "전진 패스 기초 교정",
+    "kpi": "전진 패스: 16 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "클리어링 실전 적용 반복",
-    "kpi": "클리어링: 51 → 70 퍼센타일"
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 24 → 60 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "공중볼 승리: 87 → 90 퍼센타일"
+    "kpi": "패스 성공률: 89 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.43,
-   "fouls_per90": 1.44,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 7.1,
-   "clean_pctl_fouls": 12.4
+   "yellows_per90": 0.51,
+   "fouls_per90": 1.85,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 1.1,
+   "clean_pctl_fouls": 3.4
   },
   "availability": {
-   "minpct_mean": 37.3,
-   "n_seasons": 3
+   "minpct_mean": 34.4,
+   "n_seasons": 4
   },
   "consistency": {
-   "ability_std": 8.6,
-   "n_rated_seasons": 2
+   "ability_std": 6.1,
+   "n_rated_seasons": 3
   }
  },
  "narrative": {
-  "current": "Luca Caldirola(DF)의 현재 능력 점수는 57.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 패스 거리, 최종 3분의1 패스, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 성공 드리블이다.",
-  "potential": "Luca Caldirola의 2~3년 후 전성기 유지 예측 중심값은 51.2점, 80% 구간 상단(잠재력 상한)은 60.5점이다. 빅5 현역 유지확률은 16.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Luca Caldirola(DF)의 현재 능력 점수는 49.6점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 전진 패스 거리, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 박스 터치이다.",
+  "potential": null
  }
 }

@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "b026bbf6",
+  "player_name": "Lorenz Assignon",
+  "nation": "TOG",
+  "age_years": 24.0,
+  "squad": "Rennes",
+  "comps": "Ligue 1",
+  "pos_primary": "DF",
+  "minutes_season": 2357.0
+ },
+ "current": {
+  "ability": 62.1,
+  "score_position": 54.4,
+  "score_style": 70.0,
+  "groups": {
+   "prod": 81.8,
+   "progress": 76.3,
+   "chance": 87.6,
+   "stability": 30.8,
+   "defense": 36.4
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 0.97
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.7978,
+  "mu": 60.3,
+  "ci80": {
+   "lo": 51.1,
+   "hi": 69.6
+  },
+  "ci50": {
+   "lo": 55.4,
+   "hi": 65.2
+  },
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "16e9d0ea",
+   "season": 2020,
+   "distance": 1.924,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Álex Moreno",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "e726e11e",
+   "season": 2018,
+   "distance": 1.968,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Victor Moses",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2019,
+   "distance": 2.03,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "6213fd82",
+   "season": 2020,
+   "distance": 2.107,
+   "survived": 1,
+   "fut_ability_v2": 45.3,
+   "player_name": "Arkadiusz Reca",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "f26e3c59",
+   "season": 2018,
+   "distance": 2.138,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Laxalt",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "16e9d0ea",
+   "season": 2019,
+   "distance": 2.203,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Álex Moreno",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "608f2092",
+   "season": 2018,
+   "distance": 2.226,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Johan Mojica",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "30c220c3",
+   "season": 2019,
+   "distance": 2.27,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mitchell Weiser",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "f4290206",
+   "season": 2018,
+   "distance": 2.274,
+   "survived": 1,
+   "fut_ability_v2": 66.6,
+   "player_name": "Marcos Alonso",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "3b333ac3",
+   "season": 2019,
+   "distance": 2.284,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Hans Hateboer",
+   "squad": "Atalanta"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 97.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 97.6
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 96.6
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 93.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 92.8
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 89.1
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 88.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 0.9
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 6.8
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 12.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 23.6
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 24.6
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 54.3
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 27.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 35.4
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 77.4
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 23.6
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 12.1
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 1.42
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.45
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.71
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 2.02
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 1.63
+    }
+   ],
+   "bottom": [
+    {
+     "label": "크로스 비중",
+     "z": 0.61
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 2퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 7퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 14퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 86 → 90 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 이미 상위 7퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 이미 상위 2퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.34,
+   "fouls_per90": 1.99,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 9.8,
+   "clean_pctl_fouls": 2.1
+  },
+  "availability": {
+   "minpct_mean": 37.2,
+   "n_seasons": 3
+  },
+  "consistency": {
+   "ability_std": 0.4,
+   "n_rated_seasons": 2
+  }
+ },
+ "narrative": {
+  "current": "Lorenz Assignon(DF)의 현재 능력 점수는 62.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 박스 터치, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 태클 성공률이다.",
+  "potential": "Lorenz Assignon의 2~3년 후 전성기 유지 예측 중심값은 60.3점, 80% 구간 상단(잠재력 상한)은 69.6점이다. 빅5 현역 유지확률은 79.8%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

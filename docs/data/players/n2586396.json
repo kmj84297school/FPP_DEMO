@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "n2586396",
+  "player_name": "Manuel Fuster",
+  "nation": "ESP",
+  "age_years": 26.0,
+  "squad": "Las Palmas",
+  "comps": "La Liga",
+  "pos_primary": "FW",
+  "minutes_season": 1003.0
+ },
+ "current": {
+  "ability": 62.9,
+  "score_position": 57.5,
+  "score_style": 68.3,
+  "groups": {
+   "prod": 24.2,
+   "progress": 61.2,
+   "chance": 93.0,
+   "stability": 60.9,
+   "defense": 66.6
+  }
+ },
+ "style": {
+  "primary": "연결형 공격수",
+  "confidence": 1.32
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.3665,
+  "mu": 58.4,
+  "ci80": {
+   "lo": 48.8,
+   "hi": 68.0
+  },
+  "ci50": {
+   "lo": 53.3,
+   "hi": 63.4
+  },
+  "sigma_model": 2.4,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d3096421",
+   "season": 2019,
+   "distance": 2.854,
+   "survived": 1,
+   "fut_ability_v2": 72.5,
+   "player_name": "Daniel Didavi",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "dfb6490a",
+   "season": 2019,
+   "distance": 3.035,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Herrmann",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "fa274d97",
+   "season": 2018,
+   "distance": 3.38,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nico Schulz",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "4e219ad2",
+   "season": 2020,
+   "distance": 3.467,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Suso",
+   "squad": "Milan / Sevilla"
+  },
+  {
+   "fbref_id": "2513a588",
+   "season": 2019,
+   "distance": 3.562,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luciano Vietto",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "b500b384",
+   "season": 2019,
+   "distance": 3.582,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Admir Mehmedi",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "dc62fbee",
+   "season": 2020,
+   "distance": 3.604,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leonardo Bittencourt",
+   "squad": "Werder Bremen / Hoffenheim"
+  },
+  {
+   "fbref_id": "1a6f2a66",
+   "season": 2020,
+   "distance": 3.644,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adama Traoré",
+   "squad": "Metz / Monaco"
+  },
+  {
+   "fbref_id": "eccbe56a",
+   "season": 2019,
+   "distance": 3.826,
+   "survived": 1,
+   "fut_ability_v2": 71.6,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "8aec0537",
+   "season": 2018,
+   "distance": 3.926,
+   "survived": 1,
+   "fut_ability_v2": 60.4,
+   "player_name": "Pascal Groß",
+   "squad": "Brighton"
+  }
+ ],
+ "low_confidence": true,
+ "report": {
+  "strengths": [
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 99.5
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 99.1
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 98.6
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 97.0
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 96.5
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 95.3
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 94.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 0.5
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 0.9
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 3.3
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 15.4
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 16.1
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 0.9
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 95.3
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 16.1
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 46.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 3.3
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 96.5
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "연결형 공격수",
+    "fit_z": 0.56
+   },
+   {
+    "style": "돌파형 윙어",
+    "fit_z": -0.76
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -1.36
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "중원 활동 비중",
+     "z": 1.18
+    },
+    {
+     "label": "키패스 비중",
+     "z": -0.06
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 4퍼센타일)",
+   "슈팅 창출(SCA) 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)",
+   "전진 패스 수신 강화 여지 — 난이도를 높인 반복 훈련 (현재 55퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 패스 수신 기초 교정",
+    "kpi": "전진 패스 수신: 55 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "슈팅 창출(SCA) 실전 적용 반복",
+    "kpi": "슈팅 창출(SCA): 이미 상위 5퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 이미 상위 4퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.18,
+   "fouls_per90": 1.08,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 38.0,
+   "clean_pctl_fouls": 57.3
+  },
+  "availability": {
+   "minpct_mean": 29.3,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Manuel Fuster(FW)의 현재 능력 점수는 62.9점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 최종 3분의1 패스, 볼 리커버리, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
+  "potential": "Manuel Fuster의 2~3년 후 전성기 유지 예측 중심값은 58.4점, 80% 구간 상단(잠재력 상한)은 68.0점이다. 빅5 현역 유지확률은 36.6%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

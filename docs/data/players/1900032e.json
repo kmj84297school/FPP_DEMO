@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "1900032e",
+  "player_name": "Jannik Vestergaard",
+  "nation": "DEN",
+  "age_years": 31.0,
+  "squad": "Leicester City",
+  "comps": "Premier League",
+  "pos_primary": "DF",
+  "minutes_season": 1391.0
+ },
+ "current": {
+  "ability": 57.5,
+  "score_position": 54.6,
+  "score_style": 60.4,
+  "groups": {
+   "prod": 25.6,
+   "progress": 34.6,
+   "chance": 14.7,
+   "stability": 78.6,
+   "defense": 53.1
+  }
+ },
+ "style": {
+  "primary": "스토퍼",
+  "confidence": 0.67
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.2193,
+  "mu": 55.4,
+  "ci80": {
+   "lo": 46.2,
+   "hi": 64.8
+  },
+  "ci50": {
+   "lo": 50.6,
+   "hi": 60.4
+  },
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "314f2124",
+   "season": 2019,
+   "distance": 1.588,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miranda",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "8b8a56ce",
+   "season": 2020,
+   "distance": 1.625,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Kjær",
+   "squad": "Milan / Atalanta"
+  },
+  {
+   "fbref_id": "ac3fb1be",
+   "season": 2018,
+   "distance": 1.639,
+   "survived": 1,
+   "fut_ability_v2": 52.6,
+   "player_name": "Ezequiel Garay",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "28b40c9c",
+   "season": 2019,
+   "distance": 1.644,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tim Ream",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "4e358a2d",
+   "season": 2020,
+   "distance": 1.672,
+   "survived": 1,
+   "fut_ability_v2": 70.1,
+   "player_name": "Federico Fazio",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "16714a62",
+   "season": 2019,
+   "distance": 1.69,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khaled Adénon",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "b14d0c5d",
+   "season": 2020,
+   "distance": 1.691,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sidnei",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "b1deecf8",
+   "season": 2019,
+   "distance": 1.81,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Cristián Zapata",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "a63a995f",
+   "season": 2019,
+   "distance": 1.93,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabian Lustenberger",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "1bab7b66",
+   "season": 2020,
+   "distance": 1.944,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stoppila Sunzu",
+   "squad": "Metz"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 99.4
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 89.9
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 86.8
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 73.2
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 71.0
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 68.2
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 62.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 6.7
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 10.9
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 14.8
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 16.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 24.0
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 35.8
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 73.2
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 71.0
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 10.9
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 89.9
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 68.2
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 0.86
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.19
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.89
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "자책 박스 활동 비중",
+     "z": 1.89
+    },
+    {
+     "label": "클리어링량",
+     "z": 0.58
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": 0.12
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 안정화 단계 — 상황별 반복 훈련 (현재 36퍼센타일)",
+   "클리어링 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)",
+   "공중볼 승리 강화 여지 — 난이도를 높인 반복 훈련 (현재 62퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 36 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "공중볼 승리 실전 적용 반복",
+    "kpi": "공중볼 승리: 62 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "클리어링: 73 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.32,
+   "fouls_per90": 0.78,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 13.5,
+   "clean_pctl_fouls": 69.6
+  },
+  "availability": {
+   "minpct_mean": 55.0,
+   "n_seasons": 6
+  },
+  "consistency": {
+   "ability_std": 6.0,
+   "n_rated_seasons": 5
+  }
+ },
+ "narrative": {
+  "current": "Jannik Vestergaard(DF)의 현재 능력 점수는 57.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 패스 성공률, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 패스이다.",
+  "potential": "Jannik Vestergaard의 2~3년 후 전성기 유지 예측 중심값은 55.4점, 80% 구간 상단(잠재력 상한)은 64.8점이다. 빅5 현역 유지확률은 21.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

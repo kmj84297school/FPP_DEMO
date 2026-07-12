@@ -3,206 +3,311 @@
   "fbref_id": "45e17712",
   "player_name": "Dimitri Foulquier",
   "nation": "FRA",
-  "age_years": 29.0,
+  "age_years": 31.0,
   "squad": "Valencia",
   "comps": "La Liga",
   "pos_primary": "DF",
-  "minutes_2023": 265.0
+  "minutes_season": 2299.0
  },
  "current": {
-  "ability": 46.8,
-  "score_position": 41.5,
-  "score_style": 52.0,
+  "ability": 49.0,
+  "score_position": 46.0,
+  "score_style": 51.9,
   "groups": {
-   "prod": 50.7,
-   "progress": 48.0,
-   "chance": 74.9,
-   "stability": 23.9,
-   "defense": 32.3
+   "prod": 38.3,
+   "progress": 56.4,
+   "chance": 58.5,
+   "stability": 37.0,
+   "defense": 35.7
   }
  },
  "style": {
   "primary": "공격형 풀백",
-  "confidence": 1.05
+  "confidence": 0.04
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.2252,
+  "mu": 47.1,
+  "ci80": {
+   "lo": 38.0,
+   "hi": 56.4
+  },
+  "ci50": {
+   "lo": 42.3,
+   "hi": 52.0
+  },
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "96e0490d",
+   "season": 2020,
+   "distance": 1.493,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Matteo Darmian",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "21d4e122",
+   "season": 2018,
+   "distance": 1.601,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dani Castellano",
+   "squad": "Las Palmas"
+  },
+  {
+   "fbref_id": "00a6485f",
+   "season": 2018,
+   "distance": 1.635,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Beck",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "bad38a94",
+   "season": 2020,
+   "distance": 1.658,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2020,
+   "distance": 1.727,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "933e8c8a",
+   "season": 2019,
+   "distance": 1.898,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javi Moyano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "7f4c7c9f",
+   "season": 2020,
+   "distance": 1.9,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Jorge Miramón",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2019,
+   "distance": 1.953,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "a60823a4",
+   "season": 2018,
+   "distance": 2.054,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Pedro López Muñoz",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "808d48f3",
+   "season": 2020,
+   "distance": 2.082,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Jaume Costa",
+   "squad": "Valencia"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 100.0
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 76.4
    },
    {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 97.2
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 71.3
    },
    {
     "key": "GCA",
     "label": "골 창출(GCA)",
-    "percentile": 92.4
+    "percentile": 66.1
    },
    {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 92.2
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 62.5
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 60.9
    },
    {
     "key": "PrgRec",
     "label": "전진 패스 수신",
-    "percentile": 85.1
+    "percentile": 60.8
    },
    {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 72.7
-   },
-   {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 69.6
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 60.7
    }
   ],
   "weaknesses": [
    {
-    "key": "Clr",
-    "label": "클리어링",
-    "percentile": 2.0
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 9.4
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 2.8
+    "percentile": 15.6
    },
    {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 3.5
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 23.2
    },
    {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 4.8
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 24.7
    },
    {
-    "key": "Recov",
-    "label": "볼 리커버리",
-    "percentile": 11.9
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 27.8
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 4.8
+    "percentile": 37.9
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 2.0
+    "percentile": 41.2
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 52.8
+    "percentile": 24.7
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 50.4
+    "percentile": 62.5
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 21.3
+    "percentile": 27.8
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 2.8
+    "percentile": 15.6
    }
   ],
   "top3_styles": [
    {
     "style": "공격형 풀백",
-    "fit_z": 0.77
+    "fit_z": 0.38
    },
    {
     "style": "빌드업 수비수",
-    "fit_z": -0.29
+    "fit_z": 0.34
    },
    {
     "style": "스토퍼",
-    "fit_z": -1.08
+    "fit_z": -0.84
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "공격 3분의1 활동 비중",
-     "z": 1.67
+     "label": "드리블 시도 비중",
+     "z": 0.39
     },
     {
-     "label": "드리블 시도 비중",
-     "z": 0.81
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.39
     }
    ],
    "bottom": [
     {
      "label": "크로스 비중",
-     "z": -0.19
+     "z": 0.36
     }
    ]
   },
   "coaching": [
-   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 64퍼센타일)",
-   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)"
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 24퍼센타일)",
+   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 50퍼센타일)",
+   "키패스 안정화 단계 — 상황별 반복 훈련 (현재 48퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "성공 드리블 기초 교정",
-    "kpi": "성공 드리블: 64 → 80 퍼센타일"
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 48 → 70 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "키패스 실전 적용 반복",
-    "kpi": "키패스: 73 → 80 퍼센타일"
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 50 → 70 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "키패스: 73 → 80 퍼센타일"
+    "kpi": "전진 운반: 76 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.68,
-   "fouls_per90": 1.7,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 0.3,
-   "clean_pctl_fouls": 5.1
+   "yellows_per90": 0.23,
+   "fouls_per90": 0.94,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 34.2,
+   "clean_pctl_fouls": 51.4
   },
   "availability": {
-   "minpct_mean": 46.6,
-   "n_seasons": 6
+   "minpct_mean": 49.5,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 5.0,
-   "n_rated_seasons": 6
+   "ability_std": 5.3,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Dimitri Foulquier(DF)의 현재 능력 점수는 46.8점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클 성공률, 어시스트, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 블록이다.",
-  "potential": null
+  "current": "Dimitri Foulquier(DF)의 현재 능력 점수는 49.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 운반, 태클 성공률, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 블록이다.",
+  "potential": "Dimitri Foulquier의 2~3년 후 전성기 유지 예측 중심값은 47.1점, 80% 구간 상단(잠재력 상한)은 56.4점이다. 빅5 현역 유지확률은 22.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

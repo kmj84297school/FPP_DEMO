@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "ec7c84c2",
+  "player_name": "Javier Muñoz",
+  "nation": "ESP",
+  "age_years": 29.0,
+  "squad": "Las Palmas",
+  "comps": "La Liga",
+  "pos_primary": "MF",
+  "minutes_season": 2588.0
+ },
+ "current": {
+  "ability": 47.7,
+  "score_position": 46.8,
+  "score_style": 48.4,
+  "groups": {
+   "prod": 34.6,
+   "progress": 45.6,
+   "chance": 53.7,
+   "stability": 44.1,
+   "defense": 33.4
+  }
+ },
+ "style": {
+  "primary": "딥 플레이메이커",
+  "confidence": 0.28
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.2775,
+  "mu": 50.1,
+  "ci80": {
+   "lo": 40.9,
+   "hi": 59.2
+  },
+  "ci50": {
+   "lo": 45.2,
+   "hi": 54.9
+  },
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "d7bf3d19",
+   "season": 2018,
+   "distance": 1.824,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Romain Amalfitano",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "e7f4603c",
+   "season": 2019,
+   "distance": 1.982,
+   "survived": 1,
+   "fut_ability_v2": 49.9,
+   "player_name": "Borja García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "70f8e0bd",
+   "season": 2020,
+   "distance": 1.996,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Dani Rodríguez",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "b63e789d",
+   "season": 2020,
+   "distance": 2.066,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Fleck",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "d7bf3d19",
+   "season": 2019,
+   "distance": 2.112,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Romain Amalfitano",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "07abb358",
+   "season": 2018,
+   "distance": 2.113,
+   "survived": 1,
+   "fut_ability_v2": 39.3,
+   "player_name": "Rômulo",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "8e010ff4",
+   "season": 2018,
+   "distance": 2.121,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francisco Portillo",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "0f9b8301",
+   "season": 2020,
+   "distance": 2.124,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Battocchio",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "7c4243d4",
+   "season": 2020,
+   "distance": 2.138,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roque Mesa",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "a64cbd35",
+   "season": 2019,
+   "distance": 2.181,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonino Barillà",
+   "squad": "Parma"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 81.4
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 72.3
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 64.9
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 59.0
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 58.1
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 55.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 55.3
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 15.2
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 18.4
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 23.3
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 24.0
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 24.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 35.6
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 50.3
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 47.0
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 44.2
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 33.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 32.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.08
+   },
+   {
+    "style": "수비형 파괴자",
+    "fit_z": -0.36
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": -0.43
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": -0.05
+    },
+    {
+     "label": "키패스 비중",
+     "z": -0.11
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 패스 안정화 단계 — 상황별 반복 훈련 (현재 36퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 50퍼센타일)",
+   "박스 진입 패스 이미 강점 — 유지 및 응용 훈련 (상위 28퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 패스 기초 교정",
+    "kpi": "전진 패스: 36 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 50 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "박스 진입 패스: 72 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.17,
+   "fouls_per90": 1.04,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 60.1,
+   "clean_pctl_fouls": 67.4
+  },
+  "availability": {
+   "minpct_mean": 38.6,
+   "n_seasons": 2
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Javier Muñoz(MF)의 현재 능력 점수는 47.7점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 박스 진입 패스, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 실책이다.",
+  "potential": "Javier Muñoz의 2~3년 후 전성기 유지 예측 중심값은 50.1점, 80% 구간 상단(잠재력 상한)은 59.2점이다. 빅5 현역 유지확률은 27.8%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

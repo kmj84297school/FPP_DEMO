@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n25ff7c8",
+  "player_name": "Lamine Camara",
+  "nation": "SEN",
+  "age_years": 20.0,
+  "squad": "Monaco",
+  "comps": "Ligue 1",
+  "pos_primary": "MF",
+  "minutes_season": 2054.0
+ },
+ "current": {
+  "ability": 68.6,
+  "score_position": 68.6,
+  "score_style": 68.5,
+  "groups": {
+   "prod": 65.3,
+   "progress": 56.7,
+   "chance": 83.3,
+   "stability": 46.5,
+   "defense": 71.9
+  }
+ },
+ "style": {
+  "primary": "수비형 파괴자",
+  "confidence": 0.38
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.9867,
+  "mu": 60.0,
+  "ci80": {
+   "lo": 49.3,
+   "hi": 70.8
+  },
+  "ci50": {
+   "lo": 54.4,
+   "hi": 65.7
+  },
+  "sigma_model": 2.2,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a8a874f1",
+   "season": 2019,
+   "distance": 2.411,
+   "survived": 1,
+   "fut_ability_v2": 67.5,
+   "player_name": "Manuel Locatelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "a8a874f1",
+   "season": 2020,
+   "distance": 2.844,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Manuel Locatelli",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "4a5a45c7",
+   "season": 2018,
+   "distance": 2.972,
+   "survived": 1,
+   "fut_ability_v2": 74.6,
+   "player_name": "Lorenzo Pellegrini",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "ffbbc83b",
+   "season": 2018,
+   "distance": 3.003,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Florian Grillitsch",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "a10361d2",
+   "season": 2019,
+   "distance": 3.01,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleix García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "e1df6989",
+   "season": 2020,
+   "distance": 3.113,
+   "survived": 1,
+   "fut_ability_v2": 44.9,
+   "player_name": "Imran Louza",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "beb882a8",
+   "season": 2019,
+   "distance": 3.19,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Maximilian Eggestein",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "b70bde8f",
+   "season": 2018,
+   "distance": 3.227,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Sensi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "8827bf46",
+   "season": 2019,
+   "distance": 3.3,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Gerson",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "75e60d75",
+   "season": 2020,
+   "distance": 3.317,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ronaldo Vieira",
+   "squad": "Sampdoria"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 96.1
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 94.8
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 92.5
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 91.8
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 90.9
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 88.4
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 87.7
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 19.1
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 34.0
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 34.5
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 34.7
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 37.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 83.7
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 88.4
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 91.8
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 34.0
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 80.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 58.3
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "수비형 파괴자",
+    "fit_z": 0.15
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.23
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": -0.65
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "태클량",
+     "z": 1.33
+    },
+    {
+     "label": "공중볼 경합량",
+     "z": -0.17
+    }
+   ],
+   "bottom": [
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": -0.71
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 8퍼센타일)",
+   "블록 이미 강점 — 유지 및 응용 훈련 (상위 29퍼센타일)",
+   "볼 리커버리 이미 강점 — 유지 및 응용 훈련 (상위 4퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "블록 기초 교정",
+    "kpi": "블록: 71 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "태클+인터셉트 실전 적용 반복",
+    "kpi": "태클+인터셉트: 이미 상위 8퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "볼 리커버리: 이미 상위 4퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.44,
+   "fouls_per90": 1.97,
+   "reds_total_season": 2.0,
+   "clean_pctl_cards": 6.6,
+   "clean_pctl_fouls": 13.4
+  },
+  "availability": {
+   "minpct_mean": 67.1,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Lamine Camara(MF)의 현재 능력 점수는 68.6점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 볼 리커버리, 어시스트, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 운반이다.",
+  "potential": "Lamine Camara의 2~3년 후 성장 예측 중심값은 60.0점, 80% 구간 상단(잠재력 상한)은 70.8점이다. 빅5 잔존확률은 98.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

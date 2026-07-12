@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n258c379",
+  "player_name": "Benedict Hollerbach",
+  "nation": "GER",
+  "age_years": 23.0,
+  "squad": "Union Berlin",
+  "comps": "Bundesliga",
+  "pos_primary": "FW",
+  "minutes_season": 2540.0
+ },
+ "current": {
+  "ability": 50.2,
+  "score_position": 47.9,
+  "score_style": 52.4,
+  "groups": {
+   "prod": 41.5,
+   "progress": 60.8,
+   "chance": 41.8,
+   "stability": 15.9,
+   "defense": 57.1
+  }
+ },
+ "style": {
+  "primary": "돌파형 윙어",
+  "confidence": 0.94
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.9224,
+  "mu": 57.2,
+  "ci80": {
+   "lo": 46.4,
+   "hi": 67.9
+  },
+  "ci50": {
+   "lo": 51.5,
+   "hi": 62.8
+  },
+  "sigma_model": 2.2,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "fa031b34",
+   "season": 2020,
+   "distance": 2.588,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Richarlison",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 2.881,
+   "survived": 1,
+   "fut_ability_v2": 38.5,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "2054d037",
+   "season": 2019,
+   "distance": 2.949,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "M'Baye Niang",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "2054d037",
+   "season": 2018,
+   "distance": 2.984,
+   "survived": 1,
+   "fut_ability_v2": 38.3,
+   "player_name": "M'Baye Niang",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "ba115a40",
+   "season": 2018,
+   "distance": 3.182,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Sébastien Haller",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "923f4dda",
+   "season": 2020,
+   "distance": 3.214,
+   "survived": 1,
+   "fut_ability_v2": 55.1,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "57e3f0c7",
+   "season": 2018,
+   "distance": 3.221,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Nicolas Pépé",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "d2416c2e",
+   "season": 2018,
+   "distance": 3.221,
+   "survived": 1,
+   "fut_ability_v2": 64.6,
+   "player_name": "Yussuf Poulsen",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "62437b4f",
+   "season": 2019,
+   "distance": 3.225,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Ignacio Pussetto",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "6c6a3300",
+   "season": 2020,
+   "distance": 3.275,
+   "survived": 1,
+   "fut_ability_v2": 42.9,
+   "player_name": "Milot Rashica",
+   "squad": "Werder Bremen"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 89.5
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 80.0
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 76.9
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 74.6
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 73.9
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 72.5
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 69.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 10.5
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 17.0
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 25.6
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 26.6
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 33.1
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 45.2
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 53.1
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 72.5
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 80.0
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 66.9
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 33.1
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 1.07
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": 0.13
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -0.0
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "운반 비중",
+     "z": 1.47
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.96
+    }
+   ],
+   "bottom": [
+    {
+     "label": "크로스 비중",
+     "z": 0.77
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 28퍼센타일)",
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 20퍼센타일)",
+   "키패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 33퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 33 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 72 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 80 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.11,
+   "fouls_per90": 1.49,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 63.6,
+   "clean_pctl_fouls": 33.1
+  },
+  "availability": {
+   "minpct_mean": 83.0,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Benedict Hollerbach(FW)의 현재 능력 점수는 50.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 블록, 전진 운반, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 어시스트이다.",
+  "potential": "Benedict Hollerbach의 2~3년 후 성장 예측 중심값은 57.2점, 80% 구간 상단(잠재력 상한)은 67.9점이다. 빅5 잔존확률은 92.2%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

@@ -2,203 +2,312 @@
  "meta": {
   "fbref_id": "0f8418aa",
   "player_name": "Ibrahima Sissoko",
-  "nation": "FRA",
-  "age_years": 25.0,
-  "squad": "Strasbourg",
-  "comps": "Ligue 1",
+  "nation": "MLI",
+  "age_years": 26.0,
+  "squad": "Bochum",
+  "comps": "Bundesliga",
   "pos_primary": "MF",
-  "minutes_2023": 225.0
+  "minutes_season": 2610.0
  },
  "current": {
-  "ability": 38.4,
-  "score_position": 39.3,
-  "score_style": 37.5,
+  "ability": 57.5,
+  "score_position": 49.1,
+  "score_style": 65.9,
   "groups": {
-   "prod": 37.0,
-   "progress": 36.1,
-   "chance": 31.3,
-   "stability": 20.2,
-   "defense": 64.7
+   "prod": 34.9,
+   "progress": 43.1,
+   "chance": 33.5,
+   "stability": 42.0,
+   "defense": 81.4
   }
  },
  "style": {
-  "primary": "공격형 MF",
-  "confidence": 0.24
+  "primary": "수비형 파괴자",
+  "confidence": 0.73
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.6529,
+  "mu": 54.7,
+  "ci80": {
+   "lo": 45.5,
+   "hi": 63.9
+  },
+  "ci50": {
+   "lo": 49.8,
+   "hi": 59.5
+  },
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "6f5ead86",
+   "season": 2020,
+   "distance": 1.608,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hernani",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "e0b113a7",
+   "season": 2020,
+   "distance": 1.744,
+   "survived": 1,
+   "fut_ability_v2": 63.9,
+   "player_name": "Robert Andrich",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "fdd85f94",
+   "season": 2018,
+   "distance": 1.762,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "84d94b91",
+   "season": 2018,
+   "distance": 1.907,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Thomas Monconduit",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "a0666d3e",
+   "season": 2020,
+   "distance": 2.007,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Will Hughes",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2018,
+   "distance": 2.027,
+   "survived": 1,
+   "fut_ability_v2": 63.1,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "c14bc029",
+   "season": 2020,
+   "distance": 2.094,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Saúl Ñíguez",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "9feb8f24",
+   "season": 2018,
+   "distance": 2.104,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joe Allen",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "33b554b7",
+   "season": 2018,
+   "distance": 2.158,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Danny Latza",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "ef9c1c95",
+   "season": 2019,
+   "distance": 2.164,
+   "survived": 1,
+   "fut_ability_v2": 62.9,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
     "key": "AerWon",
     "label": "공중볼 승리",
-    "percentile": 89.4
-   },
-   {
-    "key": "Recov",
-    "label": "볼 리커버리",
-    "percentile": 88.8
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 84.5
+    "percentile": 97.5
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 76.6
+    "percentile": 96.1
    },
    {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 72.6
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 84.6
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 76.4
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 74.8
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 65.0
+    "percentile": 74.2
    },
    {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 62.6
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 73.3
    }
   ],
   "weaknesses": [
    {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 3.3
-   },
-   {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 9.4
-   },
-   {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 13.4
-   },
-   {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 14.0
-   },
-   {
     "key": "GCA",
     "label": "골 창출(GCA)",
-    "percentile": 15.5
+    "percentile": 17.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 20.8
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 22.0
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 25.2
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 26.7
    }
   ],
   "position_radar": [
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 31.9
+    "percentile": 32.6
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 38.6
+    "percentile": 44.7
    },
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 18.5
+    "percentile": 74.8
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 41.1
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 49.5
+    "percentile": 41.9
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 31.0
+    "percentile": 20.8
    }
   ],
   "top3_styles": [
    {
-    "style": "공격형 MF",
-    "fit_z": 0.14
+    "style": "수비형 파괴자",
+    "fit_z": 1.14
    },
    {
-    "style": "수비형 파괴자",
-    "fit_z": -0.1
+    "style": "딥 플레이메이커",
+    "fit_z": 0.41
    },
    {
     "style": "볼 운반형",
-    "fit_z": -0.2
+    "fit_z": -0.14
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "슈팅 비중",
-     "z": 0.26
+     "label": "공중볼 경합량",
+     "z": 2.06
     },
     {
-     "label": "공격 3분의1 활동 비중",
-     "z": 0.16
+     "label": "수비 3분의1 활동 비중",
+     "z": 0.89
     }
    ],
    "bottom": [
     {
-     "label": "박스 터치 비중",
-     "z": -0.01
+     "label": "태클량",
+     "z": 0.48
     }
    ]
   },
   "coaching": [
-   "슈팅 창출(SCA) 안정화 단계 — 상황별 반복 훈련 (현재 50퍼센타일)",
-   "키패스 안정화 단계 — 상황별 반복 훈련 (현재 39퍼센타일)",
-   "비페널티 xG 안정화 단계 — 상황별 반복 훈련 (현재 47퍼센타일)"
+   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 25퍼센타일)",
+   "블록 이미 강점 — 유지 및 응용 훈련 (상위 26퍼센타일)",
+   "볼 리커버리 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "키패스 기초 교정",
-    "kpi": "키패스: 39 → 60 퍼센타일"
+    "focus": "볼 리커버리 기초 교정",
+    "kpi": "볼 리커버리: 73 → 80 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "비페널티 xG 실전 적용 반복",
-    "kpi": "비페널티 xG: 47 → 70 퍼센타일"
+    "focus": "블록 실전 적용 반복",
+    "kpi": "블록: 74 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "슈팅 창출(SCA): 50 → 70 퍼센타일"
+    "kpi": "태클+인터셉트: 75 → 80 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.0,
-   "fouls_per90": 3.6,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 81.8,
-   "clean_pctl_fouls": 0.3
+   "yellows_per90": 0.38,
+   "fouls_per90": 2.59,
+   "reds_total_season": 2.0,
+   "clean_pctl_cards": 13.4,
+   "clean_pctl_fouls": 1.8
   },
   "availability": {
-   "minpct_mean": 61.5,
-   "n_seasons": 5
+   "minpct_mean": 65.4,
+   "n_seasons": 6
   },
   "consistency": {
-   "ability_std": 8.4,
-   "n_rated_seasons": 5
+   "ability_std": 7.9,
+   "n_rated_seasons": 6
   }
  },
  "narrative": {
-  "current": "Ibrahima Sissoko(MF)의 현재 능력 점수는 38.4점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 볼 리커버리, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 실책이다.",
-  "potential": null
+  "current": "Ibrahima Sissoko(MF)의 현재 능력 점수는 57.5점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 공중볼 승률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 패스 성공률이다.",
+  "potential": "Ibrahima Sissoko의 2~3년 후 전성기 유지 예측 중심값은 54.7점, 80% 구간 상단(잠재력 상한)은 63.9점이다. 빅5 현역 유지확률은 65.3%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

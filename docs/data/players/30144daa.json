@@ -3,186 +3,311 @@
   "fbref_id": "30144daa",
   "player_name": "Stephy Mavididi",
   "nation": "ENG",
-  "age_years": 24.0,
-  "squad": "Montpellier",
-  "comps": "Ligue 1",
-  "pos_primary": "MF",
-  "minutes_2023": 259.0
+  "age_years": 26.0,
+  "squad": "Leicester City",
+  "comps": "Premier League",
+  "pos_primary": "FW",
+  "minutes_season": 1615.0
  },
  "current": {
-  "ability": 37.2,
-  "score_position": 36.4,
-  "score_style": 38.1,
+  "ability": 54.5,
+  "score_position": 49.8,
+  "score_style": 59.1,
   "groups": {
-   "prod": 47.1,
-   "progress": 44.2,
-   "chance": 22.0,
-   "stability": 22.0,
-   "defense": 30.4
+   "prod": 21.1,
+   "progress": 73.4,
+   "chance": 62.4,
+   "stability": 46.5,
+   "defense": 59.5
   }
  },
  "style": {
-  "primary": "볼 운반형",
-  "confidence": 0.93
+  "primary": "돌파형 윙어",
+  "confidence": 1.69
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.5505,
+  "mu": 57.0,
+  "ci80": {
+   "lo": 47.5,
+   "hi": 66.6
+  },
+  "ci50": {
+   "lo": 52.0,
+   "hi": 62.0
+  },
+  "sigma_model": 2.3,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "b28bbd58",
+   "season": 2020,
+   "distance": 2.737,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Andros Townsend",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "f13d02a6",
+   "season": 2019,
+   "distance": 2.898,
+   "survived": 1,
+   "fut_ability_v2": 41.4,
+   "player_name": "Hélder Costa",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "fa274d97",
+   "season": 2018,
+   "distance": 3.023,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nico Schulz",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "fd51b456",
+   "season": 2019,
+   "distance": 3.04,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Lucas Vázquez",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "db750822",
+   "season": 2018,
+   "distance": 3.057,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Vitolo",
+   "squad": "Las Palmas / Atlético Madrid"
+  },
+  {
+   "fbref_id": "47dc80f5",
+   "season": 2018,
+   "distance": 3.161,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adel Taarabt",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "a0b4bb3e",
+   "season": 2020,
+   "distance": 3.248,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Isco",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "b28bbd58",
+   "season": 2019,
+   "distance": 3.277,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Andros Townsend",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "b28bbd58",
+   "season": 2018,
+   "distance": 3.376,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Andros Townsend",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "eb2fe5b6",
+   "season": 2019,
+   "distance": 3.522,
+   "survived": 1,
+   "fut_ability_v2": 89.0,
+   "player_name": "Luis Muriel",
+   "squad": "Fiorentina / Sevilla"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 96.7
-   },
-   {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 90.6
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 85.4
-   },
-   {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 85.4
-   },
-   {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 84.5
-   },
-   {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 82.4
-   },
-   {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 71.7
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 0.3
-   },
-   {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 0.9
-   },
-   {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 1.8
-   },
-   {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 2.1
-   },
-   {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 2.1
-   }
-  ],
-  "position_radar": [
-   {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 2.1
-   },
-   {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 0.9
+    "percentile": 95.3
    },
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 4.9
+    "percentile": 93.7
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 93.5
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 92.3
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 92.1
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 87.2
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 78.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 4.4
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 6.1
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 8.9
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 10.7
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 19.3
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 4.4
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 12.8
+    "percentile": 52.7
    },
    {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 34.7
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 87.2
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 93.5
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 23.8
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 53.6
    }
   ],
   "top3_styles": [
    {
-    "style": "볼 운반형",
-    "fit_z": 2.85
+    "style": "돌파형 윙어",
+    "fit_z": 1.09
    },
    {
-    "style": "공격형 MF",
-    "fit_z": 1.92
+    "style": "연결형 공격수",
+    "fit_z": -0.6
    },
    {
-    "style": "수비형 파괴자",
-    "fit_z": -0.72
+    "style": "타겟맨",
+    "fit_z": -0.94
    }
   ],
   "style_evidence": {
    "top": [
     {
+     "label": "운반 비중",
+     "z": 1.28
+    },
+    {
      "label": "드리블 시도 비중",
-     "z": 2.85
+     "z": 1.16
     }
    ],
-   "bottom": []
+   "bottom": [
+    {
+     "label": "크로스 비중",
+     "z": 0.85
+    }
+   ]
   },
   "coaching": [
-   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 16퍼센타일)"
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 13퍼센타일)",
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 6퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 54퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "성공 드리블 기초 교정",
-    "kpi": "성공 드리블: 84 → 90 퍼센타일"
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 54 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 87 → 90 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "성공 드리블: 84 → 90 퍼센타일"
+    "kpi": "전진 운반: 이미 상위 6퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.0,
-   "fouls_per90": 1.39,
-   "reds_total_2023": 1.0,
-   "clean_pctl_cards": 81.8,
-   "clean_pctl_fouls": 31.0
+   "yellows_per90": 0.11,
+   "fouls_per90": 1.0,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 60.6,
+   "clean_pctl_fouls": 62.5
   },
   "availability": {
-   "minpct_mean": 41.3,
-   "n_seasons": 5
+   "minpct_mean": 42.3,
+   "n_seasons": 6
   },
   "consistency": {
-   "ability_std": 4.2,
-   "n_rated_seasons": 4
+   "ability_std": 7.2,
+   "n_rated_seasons": 5
   }
  },
  "narrative": {
-  "current": "Stephy Mavididi(MF)의 현재 능력 점수는 37.2점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 블록, 박스 터치, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 키패스이다.",
-  "potential": null
+  "current": "Stephy Mavididi(FW)의 현재 능력 점수는 54.5점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 블록, 태클+인터셉트, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 유효슈팅이다.",
+  "potential": "Stephy Mavididi의 2~3년 후 전성기 유지 예측 중심값은 57.0점, 80% 구간 상단(잠재력 상한)은 66.6점이다. 빅5 현역 유지확률은 55.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

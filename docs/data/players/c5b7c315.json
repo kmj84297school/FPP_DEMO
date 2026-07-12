@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "c5b7c315",
+  "player_name": "Michael Keane",
+  "nation": "ENG",
+  "age_years": 31.0,
+  "squad": "Everton",
+  "comps": "Premier League",
+  "pos_primary": "DF",
+  "minutes_season": 1049.0
+ },
+ "current": {
+  "ability": 46.2,
+  "score_position": 43.1,
+  "score_style": 49.1,
+  "groups": {
+   "prod": 61.9,
+   "progress": 19.1,
+   "chance": 13.5,
+   "stability": 49.1,
+   "defense": 48.7
+  }
+ },
+ "style": {
+  "primary": "스토퍼",
+  "confidence": 2.35
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.1298,
+  "mu": 48.3,
+  "ci80": {
+   "lo": 38.9,
+   "hi": 57.7
+  },
+  "ci50": {
+   "lo": 43.4,
+   "hi": 53.3
+  },
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a2609621",
+   "season": 2019,
+   "distance": 1.049,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Naldo",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "2b91cf8e",
+   "season": 2020,
+   "distance": 1.241,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Ciaran Clark",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2020,
+   "distance": 1.37,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "952a03fe",
+   "season": 2020,
+   "distance": 1.571,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastien De Maio",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "2515040a",
+   "season": 2018,
+   "distance": 1.595,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Paul Baysse",
+   "squad": "Málaga / Bordeaux"
+  },
+  {
+   "fbref_id": "4ffb647d",
+   "season": 2018,
+   "distance": 1.616,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martín Mantovani",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "c61f1719",
+   "season": 2018,
+   "distance": 1.624,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "James Collins",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ba06950a",
+   "season": 2018,
+   "distance": 1.783,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jagoš Vuković",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "bf97c188",
+   "season": 2019,
+   "distance": 1.817,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Mercado",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "952a03fe",
+   "season": 2019,
+   "distance": 1.908,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastien De Maio",
+   "squad": "Udinese / Bologna"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 99.0
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 92.3
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 91.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 84.7
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 82.4
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 78.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 74.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 0.4
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 0.9
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 2.0
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 2.0
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 7.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 33.0
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 84.7
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 64.8
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 0.9
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 46.0
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 54.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 1.49
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.86
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -2.01
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "자책 박스 활동 비중",
+     "z": 2.47
+    },
+    {
+     "label": "클리어링량",
+     "z": 1.08
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": 0.92
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 개선 필요 — 기초 반복 훈련 권장 (현재 하위 33퍼센타일)",
+   "클리어링 이미 강점 — 유지 및 응용 훈련 (상위 15퍼센타일)",
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 21퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 33 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "공중볼 승리 실전 적용 반복",
+    "kpi": "공중볼 승리: 79 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "클리어링: 85 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.43,
+   "fouls_per90": 0.77,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 3.1,
+   "clean_pctl_fouls": 69.9
+  },
+  "availability": {
+   "minpct_mean": 62.6,
+   "n_seasons": 7
+  },
+  "consistency": {
+   "ability_std": 7.8,
+   "n_rated_seasons": 6
+  }
+ },
+ "narrative": {
+  "current": "Michael Keane(DF)의 현재 능력 점수는 46.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 볼 손실(미스+파울), 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 패스이다.",
+  "potential": "Michael Keane의 2~3년 후 전성기 유지 예측 중심값은 48.3점, 80% 구간 상단(잠재력 상한)은 57.7점이다. 빅5 현역 유지확률은 13.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

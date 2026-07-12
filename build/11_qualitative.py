@@ -18,11 +18,12 @@ import numpy as np
 import pandas as pd
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-DATA = ROOT / "data"
-CACHE = ROOT / "build" / "_cache"
-TARGET_YEAR = 2023
+import sys
+sys.path.insert(0, str(ROOT / "build" / "lib"))
+from config import FEATURES_CSV, ABILITY_CSV, ELIGIBILITY_CSV, QUALITATIVE_JSON, TARGET_YEAR
+
 MIN_POOL = 600          # 분위 풀 자격(scoring_v1과 동일)
-CONSISTENCY_MIN = {2023: 205}  # 부분 시즌은 재환산 기준(205분) 적용, 그 외 600분
+CONSISTENCY_MIN = {2023: 205}  # 2023은 부분 시즌이라 재환산 기준(205분), 그 외 600분
 DEFAULT_CONSISTENCY_MIN = 600
 
 DISC_COLS = ["std_CrdY", "std_CrdR", "msc_2CrdY", "msc_Fls"]
@@ -30,11 +31,11 @@ DISC_COLS = ["std_CrdY", "std_CrdR", "msc_2CrdY", "msc_Fls"]
 if __name__ == "__main__":
     usecols = ["fbref_id", "Season_End_Year", "pos_primary", "std_Min_Playing",
                "pt_Min_percent_Playing_Time"] + DISC_COLS
-    feat = pd.read_csv(DATA / "fpp_features_clean_2018_2023.csv", usecols=usecols, low_memory=False)
-    ability = pd.read_csv(DATA / "fpp_ability_v1_2018_2023.csv",
+    feat = pd.read_csv(FEATURES_CSV, usecols=usecols, low_memory=False)
+    ability = pd.read_csv(ABILITY_CSV,
                           usecols=["fbref_id", "Season_End_Year", "std_Min_Playing", "ability"], low_memory=False)
 
-    elig = pd.read_csv(CACHE / "eligibility_2023.csv").set_index("fbref_id")
+    elig = pd.read_csv(ELIGIBILITY_CSV).set_index("fbref_id")
     searchable_ids = set(elig.index[elig["searchable"]])
 
     cur = feat[feat["Season_End_Year"] == TARGET_YEAR].set_index("fbref_id", drop=False)
@@ -86,7 +87,7 @@ if __name__ == "__main__":
             "discipline": {
                 "yellows_per90": nn(row["crdy90"], 2),
                 "fouls_per90": nn(row["fls90"], 2),
-                "reds_total_2023": nn(row["reds_total"], 0),
+                "reds_total_season": nn(row["reds_total"], 0),
                 "clean_pctl_cards": nn(row["crdy90_pctl"]),
                 "clean_pctl_fouls": nn(row["fls90_pctl"]),
             },
@@ -100,6 +101,6 @@ if __name__ == "__main__":
             },
         }
 
-    with open(CACHE / "qualitative_2023.json", "w", encoding="utf-8") as f:
+    with open(QUALITATIVE_JSON, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print("저장 완료:", len(out), "명 ->", CACHE / "qualitative_2023.json")
+    print("저장 완료:", len(out), "명 ->", QUALITATIVE_JSON)

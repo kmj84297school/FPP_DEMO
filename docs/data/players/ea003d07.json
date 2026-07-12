@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "ea003d07",
+  "player_name": "Joel Pohjanpalo",
+  "nation": "FIN",
+  "age_years": 29.0,
+  "squad": "Venezia",
+  "comps": "Serie A",
+  "pos_primary": "FW",
+  "minutes_season": 1603.0
+ },
+ "current": {
+  "ability": 35.8,
+  "score_position": 33.9,
+  "score_style": 37.6,
+  "groups": {
+   "prod": 35.2,
+   "progress": 22.5,
+   "chance": 21.4,
+   "stability": 44.8,
+   "defense": 40.6
+  }
+ },
+ "style": {
+  "primary": "타겟맨",
+  "confidence": 0.09
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.0787,
+  "mu": 43.7,
+  "ci80": {
+   "lo": 34.0,
+   "hi": 53.3
+  },
+  "ci50": {
+   "lo": 38.6,
+   "hi": 48.7
+  },
+  "sigma_model": 2.5,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "34e4343c",
+   "season": 2020,
+   "distance": 2.323,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Anthony Modeste",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "3071a619",
+   "season": 2019,
+   "distance": 2.437,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nolan Roux",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2019,
+   "distance": 2.493,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2018,
+   "distance": 2.548,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "1d6ac165",
+   "season": 2019,
+   "distance": 2.645,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sam Vokes",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "8ca253a3",
+   "season": 2018,
+   "distance": 2.823,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Claudio Beauvue",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "549c6ba7",
+   "season": 2018,
+   "distance": 2.825,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Di Santo",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "863ff1ee",
+   "season": 2018,
+   "distance": 2.842,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Terodde",
+   "squad": "Köln / Stuttgart"
+  },
+  {
+   "fbref_id": "bb4b1242",
+   "season": 2018,
+   "distance": 2.911,
+   "survived": 1,
+   "fut_ability_v2": 42.1,
+   "player_name": "Sergi Enrich",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "1d6ac165",
+   "season": 2018,
+   "distance": 2.911,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sam Vokes",
+   "squad": "Burnley"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 98.1
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 88.6
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 87.2
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 82.5
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 63.4
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 60.4
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 44.1
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 2.8
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 5.4
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 9.3
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 9.8
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 16.1
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 44.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 20.3
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 2.8
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 5.4
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 32.4
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 27.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "타겟맨",
+    "fit_z": 0.57
+   },
+   {
+    "style": "연결형 공격수",
+    "fit_z": 0.48
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": 0.26
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공중볼 경합량",
+     "z": 0.83
+    },
+    {
+     "label": "박스 터치 비중",
+     "z": 0.31
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 18퍼센타일)",
+   "무페널티 득점 개선 필요 — 기초 반복 훈련 권장 (현재 하위 29퍼센타일)",
+   "박스 터치 개선 필요 — 기초 반복 훈련 권장 (현재 하위 32퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "무페널티 득점 기초 교정",
+    "kpi": "무페널티 득점: 29 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "박스 터치 실전 적용 반복",
+    "kpi": "박스 터치: 32 → 60 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "공중볼 승리: 82 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.06,
+   "fouls_per90": 0.67,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 83.2,
+   "clean_pctl_fouls": 85.5
+  },
+  "availability": {
+   "minpct_mean": 13.2,
+   "n_seasons": 6
+  },
+  "consistency": {
+   "ability_std": 18.1,
+   "n_rated_seasons": 2
+  }
+ },
+ "narrative": {
+  "current": "Joel Pohjanpalo(FW)의 현재 능력 점수는 35.8점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 공중볼 승률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 운반이다.",
+  "potential": "Joel Pohjanpalo의 2~3년 후 전성기 유지 예측 중심값은 43.7점, 80% 구간 상단(잠재력 상한)은 53.3점이다. 빅5 현역 유지확률은 7.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "288e1e13",
+  "player_name": "Nayef Aguerd",
+  "nation": "MAR",
+  "age_years": 28.0,
+  "squad": "Real Sociedad",
+  "comps": "La Liga",
+  "pos_primary": "DF",
+  "minutes_season": 1760.0
+ },
+ "current": {
+  "ability": 66.3,
+  "score_position": 66.2,
+  "score_style": 66.5,
+  "groups": {
+   "prod": 64.4,
+   "progress": 60.2,
+   "chance": 27.6,
+   "stability": 73.7,
+   "defense": 62.5
+  }
+ },
+ "style": {
+  "primary": "빌드업 수비수",
+  "confidence": 0.31
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.5214,
+  "mu": 57.8,
+  "ci80": {
+   "lo": 48.4,
+   "hi": 67.1
+  },
+  "ci50": {
+   "lo": 52.9,
+   "hi": 62.7
+  },
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c707411f",
+   "season": 2018,
+   "distance": 1.307,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Kostas Manolas",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "18b896d6",
+   "season": 2020,
+   "distance": 1.447,
+   "survived": 1,
+   "fut_ability_v2": 67.5,
+   "player_name": "Antonio Rüdiger",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "7aac47fe",
+   "season": 2020,
+   "distance": 1.6,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ermin Bičakčić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "b5114f85",
+   "season": 2019,
+   "distance": 1.64,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Georg Margreitter",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "8cc29864",
+   "season": 2019,
+   "distance": 1.684,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Lorenzo Tonelli",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "89151b16",
+   "season": 2019,
+   "distance": 1.691,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zouhair Feddal",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "51e3954c",
+   "season": 2018,
+   "distance": 1.718,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Facundo Roncaglia",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "3b15ef2d",
+   "season": 2018,
+   "distance": 1.754,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Medhi Benatia",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "7d50454d",
+   "season": 2019,
+   "distance": 1.797,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Luca Ceppitelli",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "070ec0b1",
+   "season": 2018,
+   "distance": 1.8,
+   "survived": 1,
+   "fut_ability_v2": 67.0,
+   "player_name": "Sven Bender",
+   "squad": "Leverkusen"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 98.6
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 95.2
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 93.9
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 93.7
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 93.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 92.9
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 82.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 5.7
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 23.9
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 37.8
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 39.9
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 42.3
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 23.9
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 69.2
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 92.9
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 63.4
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 72.3
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 39.9
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.93
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": 0.62
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.8
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "패스 관여도",
+     "z": 0.96
+    },
+    {
+     "label": "운반 비중",
+     "z": 0.9
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 63퍼센타일)",
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 58퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 28퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 58 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 63 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "패스 성공률: 72 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.26,
+   "fouls_per90": 0.56,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 27.6,
+   "clean_pctl_fouls": 87.8
+  },
+  "availability": {
+   "minpct_mean": 58.4,
+   "n_seasons": 5
+  },
+  "consistency": {
+   "ability_std": 7.0,
+   "n_rated_seasons": 5
+  }
+ },
+ "narrative": {
+  "current": "Nayef Aguerd(DF)의 현재 능력 점수는 66.3점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 운반 거리, 비페널티 xG, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 태클+인터셉트이다.",
+  "potential": "Nayef Aguerd의 2~3년 후 전성기 유지 예측 중심값은 57.8점, 80% 구간 상단(잠재력 상한)은 67.1점이다. 빅5 현역 유지확률은 52.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

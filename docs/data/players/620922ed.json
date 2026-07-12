@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "620922ed",
+  "player_name": "Radu Drăgușin",
+  "nation": "ROU",
+  "age_years": 22.0,
+  "squad": "Tottenham",
+  "comps": "Premier League",
+  "pos_primary": "DF",
+  "minutes_season": 1252.0
+ },
+ "current": {
+  "ability": 48.9,
+  "score_position": 47.4,
+  "score_style": 50.4,
+  "groups": {
+   "prod": 28.8,
+   "progress": 44.8,
+   "chance": 27.1,
+   "stability": 42.7,
+   "defense": 50.2
+  }
+ },
+ "style": {
+  "primary": "스토퍼",
+  "confidence": 0.24
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.3646,
+  "mu": 52.4,
+  "ci80": {
+   "lo": 41.7,
+   "hi": 63.1
+  },
+  "ci50": {
+   "lo": 46.8,
+   "hi": 58.0
+  },
+  "sigma_model": 2.0,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a4e85758",
+   "season": 2020,
+   "distance": 1.738,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Igor",
+   "squad": "SPAL / Fiorentina"
+  },
+  {
+   "fbref_id": "33914f14",
+   "season": 2020,
+   "distance": 1.806,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimiliano Mangraviti",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "b5bf1770",
+   "season": 2020,
+   "distance": 1.847,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Lyanco",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "77cf6852",
+   "season": 2018,
+   "distance": 1.888,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "Emil Krafth",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "b871bf55",
+   "season": 2020,
+   "distance": 1.944,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicholas Opoku",
+   "squad": "Amiens / Udinese"
+  },
+  {
+   "fbref_id": "228b0d9d",
+   "season": 2020,
+   "distance": 2.085,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Aihen Muñoz",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2018,
+   "distance": 2.102,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Rúben Vezo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "be170419",
+   "season": 2020,
+   "distance": 2.117,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Unai Núñez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "cce9f582",
+   "season": 2019,
+   "distance": 2.127,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Giangiacomo Magnani",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "70d8e84c",
+   "season": 2020,
+   "distance": 2.164,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chidozie Awaziem",
+   "squad": "Leganés"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 87.4
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 83.8
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 82.5
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 81.5
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 78.8
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 72.4
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 69.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 0.7
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 7.2
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 9.4
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 16.6
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 16.9
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 9.4
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 47.3
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 78.8
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 27.6
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 57.4
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 83.8
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 0.68
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.44
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.9
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "자책 박스 활동 비중",
+     "z": 1.34
+    },
+    {
+     "label": "공중볼 경합량",
+     "z": 0.93
+    }
+   ],
+   "bottom": [
+    {
+     "label": "클리어링량",
+     "z": -0.23
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 개선 필요 — 기초 반복 훈련 권장 (현재 하위 9퍼센타일)",
+   "클리어링 안정화 단계 — 상황별 반복 훈련 (현재 47퍼센타일)",
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 18퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 9 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "클리어링 실전 적용 반복",
+    "kpi": "클리어링: 47 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "공중볼 승리: 82 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.07,
+   "fouls_per90": 0.43,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 87.8,
+   "clean_pctl_fouls": 94.3
+  },
+  "availability": {
+   "minpct_mean": 17.7,
+   "n_seasons": 3
+  },
+  "consistency": {
+   "ability_std": 3.1,
+   "n_rated_seasons": 2
+  }
+ },
+ "narrative": {
+  "current": "Radu Drăgușin(DF)의 현재 능력 점수는 48.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 패스 거리, 블록, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 성공 드리블이다.",
+  "potential": "Radu Drăgușin의 2~3년 후 성장 예측 중심값은 52.4점, 80% 구간 상단(잠재력 상한)은 63.1점이다. 빅5 잔존확률은 36.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

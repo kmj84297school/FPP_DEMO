@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "n25b31ea",
+  "player_name": "Shuto Machino",
+  "nation": "JPN",
+  "age_years": 24.0,
+  "squad": "Holstein Kiel",
+  "comps": "Bundesliga",
+  "pos_primary": "FW",
+  "minutes_season": 1953.0
+ },
+ "current": {
+  "ability": 54.8,
+  "score_position": 53.9,
+  "score_style": 55.6,
+  "groups": {
+   "prod": 50.8,
+   "progress": 43.4,
+   "chance": 62.2,
+   "stability": 40.6,
+   "defense": 45.5
+  }
+ },
+ "style": {
+  "primary": "연결형 공격수",
+  "confidence": 0.51
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.413,
+  "mu": 53.1,
+  "ci80": {
+   "lo": 43.7,
+   "hi": 62.5
+  },
+  "ci50": {
+   "lo": 48.1,
+   "hi": 58.0
+  },
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ffa90327",
+   "season": 2020,
+   "distance": 2.158,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anwar El Ghazi",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2018,
+   "distance": 2.276,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Wahbi Khazri",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "81255c03",
+   "season": 2019,
+   "distance": 2.425,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "d87e2cae",
+   "season": 2019,
+   "distance": 2.431,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Willian José",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2018,
+   "distance": 2.439,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "d33c706e",
+   "season": 2018,
+   "distance": 2.456,
+   "survived": 1,
+   "fut_ability_v2": 74.1,
+   "player_name": "Andy Delort",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "4f16405e",
+   "season": 2018,
+   "distance": 2.479,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niclas Füllkrug",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "d87e2cae",
+   "season": 2018,
+   "distance": 2.575,
+   "survived": 1,
+   "fut_ability_v2": 43.8,
+   "player_name": "Willian José",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "4f16405e",
+   "season": 2019,
+   "distance": 2.627,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niclas Füllkrug",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "ba115a40",
+   "season": 2020,
+   "distance": 2.646,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sébastien Haller",
+   "squad": "West Ham"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 88.1
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 83.9
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 82.8
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 80.2
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 72.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 71.8
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 68.1
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 12.8
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 17.5
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 24.7
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 29.4
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 35.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 38.9
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 71.8
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 17.5
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 29.4
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 12.8
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 54.8
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "연결형 공격수",
+    "fit_z": -0.11
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -0.62
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": -0.73
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "중원 활동 비중",
+     "z": 0.31
+    },
+    {
+     "label": "키패스 비중",
+     "z": -0.53
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 55퍼센타일)",
+   "슈팅 창출(SCA) 이미 강점 — 유지 및 응용 훈련 (상위 28퍼센타일)",
+   "전진 패스 수신 개선 필요 — 기초 반복 훈련 권장 (현재 하위 25퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 패스 수신 기초 교정",
+    "kpi": "전진 패스 수신: 25 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 55 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "슈팅 창출(SCA): 72 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.09,
+   "fouls_per90": 0.88,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 70.2,
+   "clean_pctl_fouls": 73.0
+  },
+  "availability": {
+   "minpct_mean": 63.8,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Shuto Machino(FW)의 현재 능력 점수는 54.8점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 거리, 클리어링, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 성공 드리블이다.",
+  "potential": "Shuto Machino의 2~3년 후 전성기 유지 예측 중심값은 53.1점, 80% 구간 상단(잠재력 상한)은 62.5점이다. 빅5 현역 유지확률은 41.3%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

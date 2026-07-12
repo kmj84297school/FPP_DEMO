@@ -3,197 +3,306 @@
   "fbref_id": "50e6dc35",
   "player_name": "Jean-Philippe Mateta",
   "nation": "FRA",
-  "age_years": 25.0,
+  "age_years": 27.0,
   "squad": "Crystal Palace",
   "comps": "Premier League",
   "pos_primary": "FW",
-  "minutes_2023": 251.0
+  "minutes_season": 2648.0
  },
  "current": {
-  "ability": 54.4,
-  "score_position": 51.6,
-  "score_style": 57.2,
+  "ability": 46.9,
+  "score_position": 49.0,
+  "score_style": 44.9,
   "groups": {
-   "prod": 67.1,
-   "progress": 34.5,
-   "chance": 28.7,
-   "stability": 21.3,
-   "defense": 61.9
+   "prod": 61.5,
+   "progress": 28.2,
+   "chance": 39.0,
+   "stability": 32.1,
+   "defense": 41.9
   }
  },
  "style": {
-  "primary": "박스 포처",
-  "confidence": 0.37
+  "primary": "연결형 공격수",
+  "confidence": 0.52
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.4154,
+  "mu": 43.0,
+  "ci80": {
+   "lo": 33.3,
+   "hi": 52.6
+  },
+  "ci50": {
+   "lo": 38.0,
+   "hi": 48.1
+  },
+  "sigma_model": 2.6,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5eae500a",
+   "season": 2019,
+   "distance": 2.23,
+   "survived": 1,
+   "fut_ability_v2": 67.0,
+   "player_name": "Romelu Lukaku",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "c4e87b8b",
+   "season": 2019,
+   "distance": 2.405,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2018,
+   "distance": 2.41,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2019,
+   "distance": 2.42,
+   "survived": 1,
+   "fut_ability_v2": 39.1,
+   "player_name": "Borja Iglesias",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "d520120b",
+   "season": 2018,
+   "distance": 2.435,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Júlio Tavares",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "462475ed",
+   "season": 2020,
+   "distance": 2.479,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Ludovic Ajorque",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "5046b7d4",
+   "season": 2018,
+   "distance": 2.561,
+   "survived": 1,
+   "fut_ability_v2": 42.7,
+   "player_name": "Stéphane Bahoken",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "bef0a7ac",
+   "season": 2020,
+   "distance": 2.569,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Darío Benedetto",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "c4e87b8b",
+   "season": 2020,
+   "distance": 2.583,
+   "survived": 1,
+   "fut_ability_v2": 47.0,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "0fe7f7bc",
+   "season": 2018,
+   "distance": 2.624,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giovanni Sio",
+   "squad": "Montpellier"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "Clr",
-    "label": "클리어링",
-    "percentile": 100.0
-   },
-   {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 96.5
-   },
-   {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 89.4
-   },
-   {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 80.9
-   },
-   {
-    "key": "AerPct",
-    "label": "공중볼 승률",
-    "percentile": 80.1
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 88.3
    },
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 79.4
+    "percentile": 80.4
    },
    {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 78.0
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 79.5
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 76.5
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 71.8
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 65.3
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 55.5
    }
   ],
   "weaknesses": [
    {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 0.0
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 11.9
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 17.9
    },
    {
     "key": "PrgDistP",
     "label": "전진 패스 거리",
-    "percentile": 0.0
+    "percentile": 21.0
    },
    {
-    "key": "PPA",
-    "label": "박스 진입 패스",
-    "percentile": 1.4
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 23.8
    },
    {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 12.8
-   },
-   {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 22.7
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 27.5
    }
   ],
   "position_radar": [
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 79.4
+    "percentile": 80.4
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 22.7
+    "percentile": 31.5
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 45.4
+    "percentile": 31.0
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 34.3
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 74.5
+    "percentile": 17.9
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 78.0
+    "percentile": 39.2
    }
   ],
   "top3_styles": [
    {
+    "style": "연결형 공격수",
+    "fit_z": 1.14
+   },
+   {
     "style": "박스 포처",
-    "fit_z": 0.73
+    "fit_z": 0.62
    },
    {
     "style": "타겟맨",
-    "fit_z": 0.37
-   },
-   {
-    "style": "연결형 공격수",
-    "fit_z": 0.18
+    "fit_z": 0.47
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "슈팅 비중",
-     "z": 1.37
+     "label": "키패스 비중",
+     "z": 1.35
     },
     {
-     "label": "박스 터치 비중",
-     "z": 0.1
+     "label": "중원 활동 비중",
+     "z": 0.93
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 21퍼센타일)",
-   "유효슈팅 이미 강점 — 유지 및 응용 훈련 (상위 11퍼센타일)",
-   "박스 터치 이미 강점 — 유지 및 응용 훈련 (상위 26퍼센타일)"
+   "키패스 안정화 단계 — 상황별 반복 훈련 (현재 39퍼센타일)",
+   "슈팅 창출(SCA) 개선 필요 — 기초 반복 훈련 권장 (현재 하위 32퍼센타일)",
+   "전진 패스 수신 개선 필요 — 기초 반복 훈련 권장 (현재 하위 12퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "박스 터치 기초 교정",
-    "kpi": "박스 터치: 74 → 80 퍼센타일"
+    "focus": "전진 패스 수신 기초 교정",
+    "kpi": "전진 패스 수신: 12 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "비페널티 xG 실전 적용 반복",
-    "kpi": "비페널티 xG: 79 → 90 퍼센타일"
+    "focus": "슈팅 창출(SCA) 실전 적용 반복",
+    "kpi": "슈팅 창출(SCA): 32 → 60 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "유효슈팅: 89 → 90 퍼센타일"
+    "kpi": "키패스: 39 → 60 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.72,
-   "fouls_per90": 2.51,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 0.0,
-   "clean_pctl_fouls": 0.7
+   "yellows_per90": 0.07,
+   "fouls_per90": 0.92,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 80.9,
+   "clean_pctl_fouls": 69.9
   },
   "availability": {
-   "minpct_mean": 40.5,
-   "n_seasons": 5
+   "minpct_mean": 46.6,
+   "n_seasons": 6
   },
   "consistency": {
-   "ability_std": 5.3,
-   "n_rated_seasons": 5
+   "ability_std": 4.9,
+   "n_rated_seasons": 6
   }
  },
  "narrative": {
-  "current": "Jean-Philippe Mateta(FW)의 현재 능력 점수는 54.4점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 클리어링, 슈팅 시도, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 전진 패스 거리이다.",
-  "potential": null
+  "current": "Jean-Philippe Mateta(FW)의 현재 능력 점수는 46.9점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 박스 터치이다.",
+  "potential": "Jean-Philippe Mateta의 2~3년 후 전성기 유지 예측 중심값은 43.0점, 80% 구간 상단(잠재력 상한)은 52.6점이다. 빅5 현역 유지확률은 41.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

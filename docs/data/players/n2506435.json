@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n2506435",
+  "player_name": "Yukinari Sugawara",
+  "nation": "JPN",
+  "age_years": 24.0,
+  "squad": "Southampton",
+  "comps": "Premier League",
+  "pos_primary": "DF",
+  "minutes_season": 1557.0
+ },
+ "current": {
+  "ability": 49.0,
+  "score_position": 42.7,
+  "score_style": 55.3,
+  "groups": {
+   "prod": 61.1,
+   "progress": 61.5,
+   "chance": 69.7,
+   "stability": 26.3,
+   "defense": 26.6
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 0.54
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.2873,
+  "mu": 51.7,
+  "ci80": {
+   "lo": 42.4,
+   "hi": 60.9
+  },
+  "ci50": {
+   "lo": 46.8,
+   "hi": 56.5
+  },
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a96e5dc0",
+   "season": 2020,
+   "distance": 1.733,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Jeremy Toljan",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 1.798,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "e4b72e34",
+   "season": 2020,
+   "distance": 2.012,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Miguel Trauco",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "2ef637bd",
+   "season": 2019,
+   "distance": 2.058,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre-Yves Polomat",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "fbbb9269",
+   "season": 2019,
+   "distance": 2.148,
+   "survived": 1,
+   "fut_ability_v2": 60.3,
+   "player_name": "Youssouf Sabaly",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "8e45910b",
+   "season": 2019,
+   "distance": 2.178,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Zampano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "1e12c53b",
+   "season": 2020,
+   "distance": 2.191,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Martella",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "0a3065c8",
+   "season": 2020,
+   "distance": 2.206,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mitchell Dijks",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "1f079188",
+   "season": 2018,
+   "distance": 2.277,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Rubén Peña",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2018,
+   "distance": 2.303,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 86.6
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 85.9
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 84.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 83.1
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 80.4
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 80.3
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 79.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 3.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 4.3
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 6.1
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 8.7
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 22.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 33.9
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 34.1
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 4.3
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 72.4
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 32.4
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 55.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.9
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.36
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.87
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "크로스 비중",
+     "z": 1.28
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 1.22
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.21
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 23퍼센타일)",
+   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 70퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 20퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 70 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 77 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 80 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.23,
+   "fouls_per90": 0.87,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 35.9,
+   "clean_pctl_fouls": 60.2
+  },
+  "availability": {
+   "minpct_mean": 45.5,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Yukinari Sugawara(DF)의 현재 능력 점수는 49.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 도움 기대값(xAG), 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
+  "potential": "Yukinari Sugawara의 2~3년 후 전성기 유지 예측 중심값은 51.7점, 80% 구간 상단(잠재력 상한)은 60.9점이다. 빅5 현역 유지확률은 28.7%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

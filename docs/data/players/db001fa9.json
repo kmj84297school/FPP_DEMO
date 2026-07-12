@@ -3,310 +3,207 @@
   "fbref_id": "db001fa9",
   "player_name": "Alfonso Espino",
   "nation": "URU",
-  "age_years": 30.0,
-  "squad": "Cádiz",
+  "age_years": 32.0,
+  "squad": "Rayo Vallecano",
   "comps": "La Liga",
   "pos_primary": "DF",
-  "minutes_2023": 962.0
+  "minutes_season": 833.0
  },
  "current": {
-  "ability": 46.1,
-  "score_position": 43.9,
-  "score_style": 48.2,
+  "ability": 56.3,
+  "score_position": 54.3,
+  "score_style": 58.3,
   "groups": {
-   "prod": 50.4,
-   "progress": 46.6,
-   "chance": 54.5,
-   "stability": 14.6,
-   "defense": 49.4
+   "prod": 61.9,
+   "progress": 60.3,
+   "chance": 58.3,
+   "stability": 17.7,
+   "defense": 62.3
   }
  },
  "style": {
   "primary": "공격형 풀백",
-  "confidence": 1.03
+  "confidence": 0.77
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.365,
-  "mu": 47.6,
-  "ci80": {
-   "lo": 38.2,
-   "hi": 57.1
-  },
-  "ci50": {
-   "lo": 42.6,
-   "hi": 52.6
-  },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "bad38a94",
-   "season": 2020,
-   "distance": 1.874,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Dídac Vilà",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "3e4f735d",
-   "season": 2018,
-   "distance": 2.132,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vitorino Antunes",
-   "squad": "Getafe"
-  },
-  {
-   "fbref_id": "2e3406ae",
-   "season": 2020,
-   "distance": 2.24,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fran Gámez",
-   "squad": "Mallorca"
-  },
-  {
-   "fbref_id": "173061c0",
-   "season": 2019,
-   "distance": 2.288,
-   "survived": 1,
-   "fut_ability_v2": 59.4,
-   "player_name": "Riccardo Gagliolo",
-   "squad": "Parma"
-  },
-  {
-   "fbref_id": "9a9c05db",
-   "season": 2018,
-   "distance": 2.292,
-   "survived": 1,
-   "fut_ability_v2": 52.0,
-   "player_name": "Matthew Lowton",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "a7f00c8c",
-   "season": 2018,
-   "distance": 2.338,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luisinho",
-   "squad": "La Coruña"
-  },
-  {
-   "fbref_id": "cfd5e123",
-   "season": 2018,
-   "distance": 2.366,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gaëtan Bong",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "c26a3918",
-   "season": 2018,
-   "distance": 2.373,
-   "survived": 1,
-   "fut_ability_v2": 50.4,
-   "player_name": "Vincent Manceau",
-   "squad": "Angers"
-  },
-  {
-   "fbref_id": "7f4c7c9f",
-   "season": 2019,
-   "distance": 2.385,
-   "survived": 1,
-   "fut_ability_v2": 55.2,
-   "player_name": "Jorge Miramón",
-   "squad": "Huesca"
-  },
-  {
-   "fbref_id": "1ef37668",
-   "season": 2018,
-   "distance": 2.403,
-   "survived": 1,
-   "fut_ability_v2": 51.5,
-   "player_name": "Erik Pieters",
-   "squad": "Stoke City"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 96.7
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 99.4
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 91.6
-   },
-   {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 87.6
+    "percentile": 97.9
    },
    {
     "key": "Recov",
     "label": "볼 리커버리",
-    "percentile": 81.0
+    "percentile": 97.6
    },
    {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 78.5
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 92.8
    },
    {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 78.0
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 81.4
    },
    {
-    "key": "np_G",
-    "label": "무페널티 득점",
-    "percentile": 68.1
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 73.7
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 73.6
    }
   ],
   "weaknesses": [
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 2.5
+    "percentile": 12.1
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 11.2
+    "percentile": 12.9
    },
    {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 14.9
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 16.2
    },
    {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 15.7
+    "key": "Err",
+    "label": "실책",
+    "percentile": 24.9
    },
    {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 25.3
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 28.8
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 87.6
+    "percentile": 99.4
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 33.2
+    "percentile": 45.0
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 11.2
+    "percentile": 12.9
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 35.2
+    "percentile": 73.3
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 2.5
+    "percentile": 12.1
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 91.6
+    "percentile": 97.9
    }
   ],
   "top3_styles": [
    {
     "style": "공격형 풀백",
-    "fit_z": 0.57
-   },
-   {
-    "style": "빌드업 수비수",
-    "fit_z": -0.46
+    "fit_z": 0.45
    },
    {
     "style": "스토퍼",
-    "fit_z": -0.6
+    "fit_z": -0.32
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.86
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "공격 3분의1 활동 비중",
-     "z": 0.65
+     "label": "크로스 비중",
+     "z": 0.48
     },
     {
-     "label": "드리블 시도 비중",
-     "z": 0.58
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.46
     }
    ],
    "bottom": [
     {
-     "label": "크로스 비중",
-     "z": 0.48
+     "label": "드리블 시도 비중",
+     "z": 0.41
     }
    ]
   },
   "coaching": [
-   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 22퍼센타일)",
-   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 51퍼센타일)"
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 52퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 28퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 61퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "키패스 기초 교정",
-    "kpi": "키패스: 51 → 70 퍼센타일"
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 52 → 70 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "성공 드리블 실전 적용 반복",
-    "kpi": "성공 드리블: 78 → 90 퍼센타일"
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 61 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "성공 드리블: 78 → 90 퍼센타일"
+    "kpi": "성공 드리블: 72 → 80 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.28,
-   "fouls_per90": 1.5,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 26.3,
-   "clean_pctl_fouls": 8.4
+   "yellows_per90": 0.43,
+   "fouls_per90": 1.94,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 2.8,
+   "clean_pctl_fouls": 2.3
   },
   "availability": {
-   "minpct_mean": 87.2,
-   "n_seasons": 3
+   "minpct_mean": 71.5,
+   "n_seasons": 4
   },
   "consistency": {
-   "ability_std": 5.3,
-   "n_rated_seasons": 3
+   "ability_std": 5.8,
+   "n_rated_seasons": 4
   }
  },
  "narrative": {
-  "current": "Alfonso Espino(DF)의 현재 능력 점수는 46.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 어시스트, 블록, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 공중볼 승률이다.",
-  "potential": "Alfonso Espino의 2~3년 후 전성기 유지 예측 중심값은 47.6점, 80% 구간 상단(잠재력 상한)은 57.1점이다. 빅5 현역 유지확률은 36.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Alfonso Espino(DF)의 현재 능력 점수는 56.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 블록, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 공중볼 승률이다.",
+  "potential": null
  }
 }

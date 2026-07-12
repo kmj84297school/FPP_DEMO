@@ -3,306 +3,207 @@
   "fbref_id": "f9c927de",
   "player_name": "Michel Aebischer",
   "nation": "SUI",
-  "age_years": 25.0,
+  "age_years": 27.0,
   "squad": "Bologna",
   "comps": "Serie A",
   "pos_primary": "MF",
-  "minutes_2023": 501.0
+  "minutes_season": 724.0
  },
  "current": {
-  "ability": 35.4,
-  "score_position": 34.2,
-  "score_style": 36.7,
+  "ability": 53.5,
+  "score_position": 50.7,
+  "score_style": 56.4,
   "groups": {
-   "prod": 43.3,
-   "progress": 26.1,
-   "chance": 32.4,
-   "stability": 33.7,
-   "defense": 27.5
+   "prod": 35.4,
+   "progress": 43.2,
+   "chance": 32.9,
+   "stability": 75.3,
+   "defense": 47.2
   }
  },
  "style": {
-  "primary": "공격형 MF",
-  "confidence": 0.56
+  "primary": "수비형 파괴자",
+  "confidence": 0.25
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.2992,
-  "mu": 41.9,
-  "ci80": {
-   "lo": 32.1,
-   "hi": 51.6
-  },
-  "ci50": {
-   "lo": 36.8,
-   "hi": 46.9
-  },
-  "sigma_model": 2.7,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "cbec1196",
-   "season": 2020,
-   "distance": 2.241,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jaromír Zmrhal",
-   "squad": "Brescia"
-  },
-  {
-   "fbref_id": "0cc474e7",
-   "season": 2020,
-   "distance": 2.401,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ramon Azeez",
-   "squad": "Granada"
-  },
-  {
-   "fbref_id": "d5575935",
-   "season": 2020,
-   "distance": 2.455,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Valon Berisha",
-   "squad": "Düsseldorf / Lazio"
-  },
-  {
-   "fbref_id": "989d5705",
-   "season": 2020,
-   "distance": 2.474,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jeff Hendrick",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "98e958af",
-   "season": 2019,
-   "distance": 2.479,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Oscar Hiljemark",
-   "squad": "Genoa"
-  },
-  {
-   "fbref_id": "4accb7e0",
-   "season": 2020,
-   "distance": 2.56,
-   "survived": 1,
-   "fut_ability_v2": 41.4,
-   "player_name": "Darko Brašanac",
-   "squad": "Osasuna"
-  },
-  {
-   "fbref_id": "a2d873dd",
-   "season": 2020,
-   "distance": 2.594,
-   "survived": 1,
-   "fut_ability_v2": 32.1,
-   "player_name": "Hwang Ui-jo",
-   "squad": "Bordeaux"
-  },
-  {
-   "fbref_id": "b2d03887",
-   "season": 2020,
-   "distance": 2.685,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Víctor Camarasa",
-   "squad": "Alavés / Crystal Palace"
-  },
-  {
-   "fbref_id": "989d5705",
-   "season": 2019,
-   "distance": 2.728,
-   "survived": 1,
-   "fut_ability_v2": 32.1,
-   "player_name": "Jeff Hendrick",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "81255c03",
-   "season": 2018,
-   "distance": 2.815,
-   "survived": 1,
-   "fut_ability_v2": 51.2,
-   "player_name": "João Pedro",
-   "squad": "Cagliari"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 72.9
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 97.7
    },
    {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 67.8
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 83.4
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 58.1
+    "percentile": 82.3
    },
    {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 55.9
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 81.0
    },
    {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 55.0
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 80.5
    },
    {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 53.5
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 67.1
    },
    {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 51.1
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 63.3
    }
   ],
   "weaknesses": [
    {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 0.0
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 5.0
    },
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 1.2
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 6.1
    },
    {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 2.4
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 10.9
    },
    {
-    "key": "PPA",
-    "label": "박스 진입 패스",
-    "percentile": 2.4
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 19.9
    },
    {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 9.4
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 20.8
    }
   ],
   "position_radar": [
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 2.4
+    "percentile": 43.8
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 19.8
+    "percentile": 48.5
    },
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 0.0
+    "percentile": 63.3
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 28.6
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 34.7
+    "percentile": 41.5
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 58.1
+    "percentile": 82.3
    }
   ],
   "top3_styles": [
    {
+    "style": "수비형 파괴자",
+    "fit_z": -0.16
+   },
+   {
     "style": "공격형 MF",
-    "fit_z": 0.31
+    "fit_z": -0.41
    },
    {
     "style": "딥 플레이메이커",
-    "fit_z": -0.25
-   },
-   {
-    "style": "수비형 파괴자",
-    "fit_z": -0.51
+    "fit_z": -0.57
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "슈팅 비중",
-     "z": 0.8
+     "label": "태클량",
+     "z": 0.42
     },
     {
-     "label": "박스 터치 비중",
-     "z": 0.2
+     "label": "공중볼 경합량",
+     "z": -0.25
     }
    ],
    "bottom": [
     {
-     "label": "공격 3분의1 활동 비중",
-     "z": -0.06
+     "label": "수비 3분의1 활동 비중",
+     "z": -0.64
     }
    ]
   },
   "coaching": [
-   "슈팅 창출(SCA) 개선 필요 — 기초 반복 훈련 권장 (현재 하위 35퍼센타일)",
-   "키패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 20퍼센타일)",
-   "비페널티 xG 강화 여지 — 난이도를 높인 반복 훈련 (현재 56퍼센타일)"
+   "태클+인터셉트 강화 여지 — 난이도를 높인 반복 훈련 (현재 63퍼센타일)",
+   "블록 개선 필요 — 기초 반복 훈련 권장 (현재 하위 5퍼센타일)",
+   "볼 리커버리 안정화 단계 — 상황별 반복 훈련 (현재 39퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "키패스 기초 교정",
-    "kpi": "키패스: 20 → 60 퍼센타일"
+    "focus": "블록 기초 교정",
+    "kpi": "블록: 5 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "슈팅 창출(SCA) 실전 적용 반복",
-    "kpi": "슈팅 창출(SCA): 35 → 60 퍼센타일"
+    "focus": "볼 리커버리 실전 적용 반복",
+    "kpi": "볼 리커버리: 39 → 60 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "비페널티 xG: 56 → 70 퍼센타일"
+    "kpi": "태클+인터셉트: 63 → 80 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.36,
-   "fouls_per90": 0.72,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 20.4,
-   "clean_pctl_fouls": 79.3
+   "yellows_per90": 0.25,
+   "fouls_per90": 1.99,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 38.5,
+   "clean_pctl_fouls": 12.9
   },
   "availability": {
-   "minpct_mean": 28.6,
-   "n_seasons": 2
+   "minpct_mean": 26.2,
+   "n_seasons": 3
   },
   "consistency": {
-   "ability_std": null,
-   "n_rated_seasons": 1
+   "ability_std": 12.8,
+   "n_rated_seasons": 2
   }
  },
  "narrative": {
-  "current": "Michel Aebischer(MF)의 현재 능력 점수는 35.4점이다. 플레이스타일은 '공격형 MF'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 골 창출(GCA), 슈팅 시도, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 태클 성공률이다.",
-  "potential": "Michel Aebischer의 2~3년 후 전성기 유지 예측 중심값은 41.9점, 80% 구간 상단(잠재력 상한)은 51.6점이다. 빅5 현역 유지확률은 29.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Michel Aebischer(MF)의 현재 능력 점수는 53.5점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 태클 성공률, 볼 손실(미스+파울), 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 골 창출(GCA)이다.",
+  "potential": null
  }
 }

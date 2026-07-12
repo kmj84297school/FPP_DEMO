@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n2565d49",
+  "player_name": "Josip Juranović",
+  "nation": "CRO",
+  "age_years": 28.0,
+  "squad": "Union Berlin",
+  "comps": "Bundesliga",
+  "pos_primary": "DF",
+  "minutes_season": 1159.0
+ },
+ "current": {
+  "ability": 47.7,
+  "score_position": 40.1,
+  "score_style": 55.2,
+  "groups": {
+   "prod": 51.1,
+   "progress": 51.7,
+   "chance": 90.1,
+   "stability": 18.6,
+   "defense": 26.6
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 2.07
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.1696,
+  "mu": 47.6,
+  "ci80": {
+   "lo": 38.1,
+   "hi": 57.2
+  },
+  "ci50": {
+   "lo": 42.6,
+   "hi": 52.6
+  },
+  "sigma_model": 2.3,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "244f57b9",
+   "season": 2020,
+   "distance": 2.434,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jony",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "9ba48d64",
+   "season": 2019,
+   "distance": 2.5,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2020,
+   "distance": 2.769,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "71ef519e",
+   "season": 2020,
+   "distance": 2.906,
+   "survived": 1,
+   "fut_ability_v2": 50.1,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "e3e05edf",
+   "season": 2019,
+   "distance": 2.945,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ambroise Oyongo",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "f7aa75bd",
+   "season": 2019,
+   "distance": 2.946,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "1e12c53b",
+   "season": 2020,
+   "distance": 2.948,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Martella",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "81069528",
+   "season": 2020,
+   "distance": 3.03,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Rosales",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "21512407",
+   "season": 2020,
+   "distance": 3.121,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Kieran Trippier",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "140afefb",
+   "season": 2018,
+   "distance": 3.206,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Risse",
+   "squad": "Köln"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 99.1
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 99.0
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 97.0
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 88.5
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 87.2
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 83.7
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 69.7
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 0.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 1.4
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 3.8
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 4.0
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 11.1
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 22.7
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 38.2
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 1.4
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 69.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 0.6
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 32.2
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 1.71
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.36
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.9
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "크로스 비중",
+     "z": 2.74
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 1.22
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 1.18
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 62퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 13퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 1퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 62 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 87 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 이미 상위 1퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.31,
+   "fouls_per90": 0.62,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 15.1,
+   "clean_pctl_fouls": 83.5
+  },
+  "availability": {
+   "minpct_mean": 37.9,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Josip Juranović(DF)의 현재 능력 점수는 47.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 창출(SCA), 키패스, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 공중볼 승률이다.",
+  "potential": "Josip Juranović의 2~3년 후 전성기 유지 예측 중심값은 47.6점, 80% 구간 상단(잠재력 상한)은 57.2점이다. 빅5 현역 유지확률은 17.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

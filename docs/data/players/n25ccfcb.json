@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n25ccfcb",
+  "player_name": "Marco Grüll",
+  "nation": "AUT",
+  "age_years": 26.0,
+  "squad": "Werder Bremen",
+  "comps": "Bundesliga",
+  "pos_primary": "FW",
+  "minutes_season": 1181.0
+ },
+ "current": {
+  "ability": 55.2,
+  "score_position": 54.8,
+  "score_style": 55.8,
+  "groups": {
+   "prod": 53.3,
+   "progress": 54.6,
+   "chance": 53.7,
+   "stability": 37.8,
+   "defense": 40.1
+  }
+ },
+ "style": {
+  "primary": "돌파형 윙어",
+  "confidence": 0.15
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.3907,
+  "mu": 55.0,
+  "ci80": {
+   "lo": 45.5,
+   "hi": 64.5
+  },
+  "ci50": {
+   "lo": 50.1,
+   "hi": 60.0
+  },
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "833fb62e",
+   "season": 2020,
+   "distance": 1.836,
+   "survived": 1,
+   "fut_ability_v2": 39.3,
+   "player_name": "Sandro Ramírez",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "99bebd12",
+   "season": 2018,
+   "distance": 1.953,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Guidetti",
+   "squad": "Alavés / Celta Vigo"
+  },
+  {
+   "fbref_id": "4c7940d6",
+   "season": 2018,
+   "distance": 2.049,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Coda",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "8f866fe8",
+   "season": 2019,
+   "distance": 2.1,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "Manolo Gabbiadini",
+   "squad": "Sampdoria / Southampton"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2019,
+   "distance": 2.104,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2018,
+   "distance": 2.161,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Diego Farias",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2018,
+   "distance": 2.202,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Yuya Osako",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "0af4dcf0",
+   "season": 2018,
+   "distance": 2.212,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Bakambu",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "422ec08a",
+   "season": 2020,
+   "distance": 2.238,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khouma Babacar",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2019,
+   "distance": 2.283,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 84.6
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 83.0
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 79.0
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 77.9
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 75.5
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 69.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 65.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 26.6
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 26.8
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 27.3
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 41.5
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 41.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 61.3
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 65.5
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 49.4
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 42.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 41.5
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 26.6
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "돌파형 윙어",
+    "fit_z": -0.1
+   },
+   {
+    "style": "연결형 공격수",
+    "fit_z": -0.26
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": -0.4
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.23
+    },
+    {
+     "label": "크로스 비중",
+     "z": -0.04
+    }
+   ],
+   "bottom": [
+    {
+     "label": "운반 비중",
+     "z": -0.51
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 안정화 단계 — 상황별 반복 훈련 (현재 49퍼센타일)",
+   "전진 운반 안정화 단계 — 상황별 반복 훈련 (현재 43퍼센타일)",
+   "키패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 27퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 27 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 43 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 49 → 70 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.08,
+   "fouls_per90": 1.68,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 76.2,
+   "clean_pctl_fouls": 23.8
+  },
+  "availability": {
+   "minpct_mean": 38.6,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Marco Grüll(FW)의 현재 능력 점수는 55.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 무페널티 득점, 블록, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 어시스트이다.",
+  "potential": "Marco Grüll의 2~3년 후 전성기 유지 예측 중심값은 55.0점, 80% 구간 상단(잠재력 상한)은 64.5점이다. 빅5 현역 유지확률은 39.1%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

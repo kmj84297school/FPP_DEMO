@@ -1,0 +1,204 @@
+{
+ "meta": {
+  "fbref_id": "n25d1087",
+  "player_name": "Fer López",
+  "nation": null,
+  "age_years": null,
+  "squad": "Celta Vigo",
+  "comps": "La Liga",
+  "pos_primary": "FW",
+  "minutes_season": 671.0
+ },
+ "current": {
+  "ability": 71.0,
+  "score_position": 69.1,
+  "score_style": 72.8,
+  "groups": {
+   "prod": 57.6,
+   "progress": 81.6,
+   "chance": 80.4,
+   "stability": 43.0,
+   "defense": 43.1
+  }
+ },
+ "style": {
+  "primary": "연결형 공격수",
+  "confidence": 0.59
+ },
+ "eligibility": {
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "too_old_for_model"
+ },
+ "prediction": null,
+ "neighbors": [],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 97.2
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 96.0
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 93.7
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 93.0
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 91.8
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 89.5
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 86.2
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 16.1
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 29.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 49.7
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 52.9
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 66.0
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 76.0
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 85.5
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 93.7
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 79.3
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 49.7
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 85.5
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "연결형 공격수",
+    "fit_z": 0.53
+   },
+   {
+    "style": "돌파형 윙어",
+    "fit_z": -0.07
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": -0.53
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "키패스 비중",
+     "z": 0.57
+    },
+    {
+     "label": "중원 활동 비중",
+     "z": 0.48
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 14퍼센타일)",
+   "슈팅 창출(SCA) 이미 강점 — 유지 및 응용 훈련 (상위 14퍼센타일)",
+   "전진 패스 수신 이미 강점 — 유지 및 응용 훈련 (상위 28퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 패스 수신 기초 교정",
+    "kpi": "전진 패스 수신: 72 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 86 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "슈팅 창출(SCA): 86 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.27,
+   "fouls_per90": 1.74,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 20.0,
+   "clean_pctl_fouls": 21.2
+  },
+  "availability": {
+   "minpct_mean": 19.6,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Fer López(FW)의 현재 능력 점수는 71.0점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 패스 성공률, 전진 패스, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 어시스트, 유효슈팅이다.",
+  "potential": null
+ }
+}

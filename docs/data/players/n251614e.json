@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n251614e",
+  "player_name": "Jon Aramburu",
+  "nation": "VEN",
+  "age_years": 22.0,
+  "squad": "Real Sociedad",
+  "comps": "La Liga",
+  "pos_primary": "DF",
+  "minutes_season": 2460.0
+ },
+ "current": {
+  "ability": 53.7,
+  "score_position": 55.3,
+  "score_style": 52.0,
+  "groups": {
+   "prod": 37.4,
+   "progress": 44.4,
+   "chance": 49.2,
+   "stability": 39.8,
+   "defense": 64.2
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 0.46
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.8683,
+  "mu": 54.9,
+  "ci80": {
+   "lo": 44.2,
+   "hi": 65.5
+  },
+  "ci50": {
+   "lo": 49.3,
+   "hi": 60.5
+  },
+  "sigma_model": 1.9,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "34bb6fbd",
+   "season": 2020,
+   "distance": 1.755,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Arturo Calabresi",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "c3ee18ef",
+   "season": 2018,
+   "distance": 1.827,
+   "survived": 1,
+   "fut_ability_v2": 73.1,
+   "player_name": "Lucas Hernández",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "d0dbca9f",
+   "season": 2018,
+   "distance": 1.83,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Alex Ferrari",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "5d8d7454",
+   "season": 2019,
+   "distance": 1.886,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Frederic Guilbert",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "90eb507d",
+   "season": 2019,
+   "distance": 2.0,
+   "survived": 1,
+   "fut_ability_v2": 44.0,
+   "player_name": "Thomas Foket",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "875898c7",
+   "season": 2018,
+   "distance": 2.139,
+   "survived": 1,
+   "fut_ability_v2": 65.3,
+   "player_name": "Wesley Hoedt",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "17370b95",
+   "season": 2019,
+   "distance": 2.139,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bernardo",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "1fe0492d",
+   "season": 2019,
+   "distance": 2.194,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Rubén Duarte",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "9b88e120",
+   "season": 2019,
+   "distance": 2.215,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Bauer",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "1fe0492d",
+   "season": 2018,
+   "distance": 2.229,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Rubén Duarte",
+   "squad": "Alavés"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 98.7
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 80.1
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 77.0
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 67.9
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 66.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 61.5
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 56.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 12.6
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 24.7
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 26.8
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 27.0
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 31.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 98.7
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 48.3
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 27.0
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 56.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 24.7
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 77.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.12
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.34
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.8
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.26
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.14
+    }
+   ],
+   "bottom": [
+    {
+     "label": "크로스 비중",
+     "z": -0.04
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 안정화 단계 — 상황별 반복 훈련 (현재 47퍼센타일)",
+   "성공 드리블 안정화 단계 — 상황별 반복 훈련 (현재 48퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 62퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 47 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 48 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 62 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.29,
+   "fouls_per90": 1.83,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 17.6,
+   "clean_pctl_fouls": 4.1
+  },
+  "availability": {
+   "minpct_mean": 71.9,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Jon Aramburu(DF)의 현재 능력 점수는 53.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 볼 리커버리, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 패스 성공률이다.",
+  "potential": "Jon Aramburu의 2~3년 후 성장 예측 중심값은 54.9점, 80% 구간 상단(잠재력 상한)은 65.5점이다. 빅5 잔존확률은 86.8%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

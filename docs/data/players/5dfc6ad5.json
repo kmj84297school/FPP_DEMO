@@ -3,311 +3,207 @@
   "fbref_id": "5dfc6ad5",
   "player_name": "Axel Witsel",
   "nation": "BEL",
-  "age_years": 33.0,
+  "age_years": 35.0,
   "squad": "Atlético Madrid",
   "comps": "La Liga",
   "pos_primary": "DF",
-  "minutes_2023": 952.0
+  "minutes_season": 852.0
  },
  "current": {
-  "ability": 52.0,
-  "score_position": 51.0,
-  "score_style": 53.0,
+  "ability": 61.8,
+  "score_position": 57.4,
+  "score_style": 66.2,
   "groups": {
-   "prod": 44.0,
-   "progress": 37.4,
-   "chance": 34.2,
-   "stability": 63.0,
-   "defense": 46.1
+   "prod": 30.2,
+   "progress": 30.8,
+   "chance": 28.9,
+   "stability": 57.2,
+   "defense": 70.8
   }
  },
  "style": {
   "primary": "스토퍼",
-  "confidence": 0.41
+  "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.4074,
-  "mu": 52.9,
-  "ci80": {
-   "lo": 43.6,
-   "hi": 62.2
-  },
-  "ci50": {
-   "lo": 48.0,
-   "hi": 57.8
-  },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "008a6e6d",
-   "season": 2020,
-   "distance": 1.551,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ragnar Klavan",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "fd2bc67d",
-   "season": 2019,
-   "distance": 1.606,
-   "survived": 1,
-   "fut_ability_v2": 65.6,
-   "player_name": "Dante",
-   "squad": "Nice"
-  },
-  {
-   "fbref_id": "314f2124",
-   "season": 2018,
-   "distance": 1.751,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Miranda",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "f5efb153",
-   "season": 2020,
-   "distance": 1.777,
-   "survived": 1,
-   "fut_ability_v2": 55.7,
-   "player_name": "Laurent Koscielny",
-   "squad": "Bordeaux"
-  },
-  {
-   "fbref_id": "9ab16552",
-   "season": 2018,
-   "distance": 1.824,
-   "survived": 1,
-   "fut_ability_v2": 59.8,
-   "player_name": "Makoto Hasebe",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "4bd414c1",
-   "season": 2019,
-   "distance": 1.918,
-   "survived": 1,
-   "fut_ability_v2": 54.8,
-   "player_name": "Raúl Albiol",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "16714a62",
-   "season": 2019,
-   "distance": 1.949,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Khaled Adénon",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "fd2bc67d",
-   "season": 2018,
-   "distance": 1.955,
-   "survived": 1,
-   "fut_ability_v2": 71.4,
-   "player_name": "Dante",
-   "squad": "Nice"
-  },
-  {
-   "fbref_id": "6b200d45",
-   "season": 2020,
-   "distance": 1.997,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Loïc Perrin",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "3f5b4635",
-   "season": 2020,
-   "distance": 2.011,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Daniel Congré",
-   "squad": "Montpellier"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 99.5
-   },
-   {
     "key": "TklPct",
     "label": "태클 성공률",
-    "percentile": 92.7
+    "percentile": 98.9
    },
    {
-    "key": "np_G",
-    "label": "무페널티 득점",
-    "percentile": 68.1
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 94.3
    },
    {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 66.8
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 89.6
    },
    {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 57.2
-   },
-   {
-    "key": "Recov",
-    "label": "볼 리커버리",
-    "percentile": 53.9
-   },
-   {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 52.9
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 19.7
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 20.3
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 85.4
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 21.3
+    "percentile": 84.1
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 83.2
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 83.1
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 7.4
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 24.8
+    "percentile": 11.1
    },
    {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 26.6
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 11.6
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 14.5
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 15.1
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 19.7
+    "percentile": 55.8
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 46.1
+    "percentile": 48.9
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 43.7
+    "percentile": 94.3
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 32.9
+    "percentile": 14.5
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 99.5
+    "percentile": 89.6
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 21.3
+    "percentile": 84.1
    }
   ],
   "top3_styles": [
    {
     "style": "스토퍼",
-    "fit_z": -0.08
+    "fit_z": 0.55
    },
    {
     "style": "빌드업 수비수",
-    "fit_z": -0.49
+    "fit_z": 0.29
    },
    {
     "style": "공격형 풀백",
-    "fit_z": -0.71
+    "fit_z": -0.91
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "자책 박스 활동 비중",
-     "z": 0.13
+     "label": "공중볼 경합량",
+     "z": 1.06
     },
     {
-     "label": "공중볼 경합량",
-     "z": -0.18
+     "label": "자책 박스 활동 비중",
+     "z": 0.77
     }
    ],
    "bottom": [
     {
      "label": "클리어링량",
-     "z": -0.2
+     "z": -0.18
     }
    ]
   },
   "coaching": [
-   "태클+인터셉트 개선 필요 — 기초 반복 훈련 권장 (현재 하위 20퍼센타일)",
-   "클리어링 안정화 단계 — 상황별 반복 훈련 (현재 46퍼센타일)",
-   "공중볼 승리 안정화 단계 — 상황별 반복 훈련 (현재 45퍼센타일)"
+   "태클+인터셉트 강화 여지 — 난이도를 높인 반복 훈련 (현재 56퍼센타일)",
+   "클리어링 안정화 단계 — 상황별 반복 훈련 (현재 49퍼센타일)",
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 17퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "태클+인터셉트 기초 교정",
-    "kpi": "태클+인터셉트: 20 → 60 퍼센타일"
+    "focus": "클리어링 기초 교정",
+    "kpi": "클리어링: 49 → 70 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "공중볼 승리 실전 적용 반복",
-    "kpi": "공중볼 승리: 45 → 70 퍼센타일"
+    "focus": "태클+인터셉트 실전 적용 반복",
+    "kpi": "태클+인터셉트: 56 → 70 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "클리어링: 46 → 70 퍼센타일"
+    "kpi": "공중볼 승리: 83 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.19,
-   "fouls_per90": 0.85,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 46.3,
-   "clean_pctl_fouls": 52.2
+   "yellows_per90": 0.11,
+   "fouls_per90": 0.42,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 79.3,
+   "clean_pctl_fouls": 94.9
   },
   "availability": {
-   "minpct_mean": 70.9,
-   "n_seasons": 5
+   "minpct_mean": 63.3,
+   "n_seasons": 6
   },
   "consistency": {
    "ability_std": 4.3,
-   "n_rated_seasons": 5
+   "n_rated_seasons": 6
   }
  },
  "narrative": {
-  "current": "Axel Witsel(DF)의 현재 능력 점수는 52.0점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 태클 성공률, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 전진 패스 수신이다.",
-  "potential": "Axel Witsel의 2~3년 후 전성기 유지 예측 중심값은 52.9점, 80% 구간 상단(잠재력 상한)은 62.2점이다. 빅5 현역 유지확률은 40.7%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Axel Witsel(DF)의 현재 능력 점수는 61.8점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클 성공률, 공중볼 승률, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 박스 터치이다.",
+  "potential": null
  }
 }

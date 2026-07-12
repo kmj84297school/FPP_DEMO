@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n259ddcf",
+  "player_name": "Ali Abdi",
+  "nation": "TUN",
+  "age_years": 30.0,
+  "squad": "Nice",
+  "comps": "Ligue 1",
+  "pos_primary": "DF",
+  "minutes_season": 1393.0
+ },
+ "current": {
+  "ability": 63.0,
+  "score_position": 58.1,
+  "score_style": 67.9,
+  "groups": {
+   "prod": 94.2,
+   "progress": 53.9,
+   "chance": 86.9,
+   "stability": 27.3,
+   "defense": 57.3
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 1.78
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.5925,
+  "mu": 56.1,
+  "ci80": {
+   "lo": 46.6,
+   "hi": 65.5
+  },
+  "ci50": {
+   "lo": 51.1,
+   "hi": 61.1
+  },
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "92232aad",
+   "season": 2018,
+   "distance": 2.594,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Mathieu Debuchy",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2019,
+   "distance": 2.675,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2018,
+   "distance": 3.125,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Coke",
+   "squad": "Levante / Schalke 04"
+  },
+  {
+   "fbref_id": "9ab48bde",
+   "season": 2020,
+   "distance": 3.279,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo de Blasis",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "bad38a94",
+   "season": 2019,
+   "distance": 3.289,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "c50281a0",
+   "season": 2018,
+   "distance": 3.312,
+   "survived": 1,
+   "fut_ability_v2": 68.0,
+   "player_name": "Lars Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "1ef37668",
+   "season": 2019,
+   "distance": 3.351,
+   "survived": 1,
+   "fut_ability_v2": 49.4,
+   "player_name": "Erik Pieters",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "89d10e53",
+   "season": 2019,
+   "distance": 3.408,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Rose",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2018,
+   "distance": 3.475,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2020,
+   "distance": 3.488,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martín Montoya",
+   "squad": "Brighton"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 100.0
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 99.7
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 99.4
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 99.3
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 98.3
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 94.3
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 92.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 3.1
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 4.0
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 10.9
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 12.8
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 17.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 92.9
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 17.5
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 33.7
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 29.7
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 10.9
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 62.9
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 1.28
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.5
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.67
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 1.56
+    },
+    {
+     "label": "크로스 비중",
+     "z": 1.19
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 1.1
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 15퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 16퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 11퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 84 → 90 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 85 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 89 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.13,
+   "fouls_per90": 1.74,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 71.6,
+   "clean_pctl_fouls": 6.1
+  },
+  "availability": {
+   "minpct_mean": 45.5,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Ali Abdi(DF)의 현재 능력 점수는 63.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 무페널티 득점, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 최종 3분의1 패스이다.",
+  "potential": "Ali Abdi의 2~3년 후 전성기 유지 예측 중심값은 56.1점, 80% 구간 상단(잠재력 상한)은 65.5점이다. 빅5 현역 유지확률은 59.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

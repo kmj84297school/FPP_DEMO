@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "5ed9b537",
+  "player_name": "Ibrahima Konaté",
+  "nation": "FRA",
+  "age_years": 25.0,
+  "squad": "Liverpool",
+  "comps": "Premier League",
+  "pos_primary": "DF",
+  "minutes_season": 2560.0
+ },
+ "current": {
+  "ability": 64.5,
+  "score_position": 64.4,
+  "score_style": 64.6,
+  "groups": {
+   "prod": 58.6,
+   "progress": 55.3,
+   "chance": 53.2,
+   "stability": 68.8,
+   "defense": 58.0
+  }
+ },
+ "style": {
+  "primary": "빌드업 수비수",
+  "confidence": 0.01
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.7323,
+  "mu": 60.6,
+  "ci80": {
+   "lo": 51.2,
+   "hi": 69.9
+  },
+  "ci50": {
+   "lo": 55.7,
+   "hi": 65.5
+  },
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "5832ebfe",
+   "season": 2020,
+   "distance": 1.28,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Denswil",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "6eee05f1",
+   "season": 2020,
+   "distance": 1.346,
+   "survived": 1,
+   "fut_ability_v2": 66.0,
+   "player_name": "Berat Djimsiti",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "c707411f",
+   "season": 2018,
+   "distance": 1.515,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Kostas Manolas",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "d0d8dd44",
+   "season": 2020,
+   "distance": 1.667,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Stefan de Vrij",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "e27da244",
+   "season": 2019,
+   "distance": 1.679,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "b4a014b1",
+   "season": 2019,
+   "distance": 1.712,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Diego Carlos",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "9f8e9423",
+   "season": 2018,
+   "distance": 1.725,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Raphaël Varane",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "20030c06",
+   "season": 2018,
+   "distance": 1.729,
+   "survived": 1,
+   "fut_ability_v2": 74.4,
+   "player_name": "Willi Orban",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "e27da244",
+   "season": 2020,
+   "distance": 1.734,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "b18a3023",
+   "season": 2018,
+   "distance": 1.742,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júnior Alonso",
+   "squad": "Lille"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 91.8
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 88.4
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 87.9
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 87.6
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 86.8
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 85.8
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 85.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 11.5
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 16.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 18.2
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 26.8
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 33.1
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 16.2
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 69.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 85.8
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 69.3
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 87.9
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 33.1
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.48
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": 0.47
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.84
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "패스 관여도",
+     "z": 0.97
+    },
+    {
+     "label": "운반 비중",
+     "z": -0.01
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 69퍼센타일)",
+   "전진 운반 안정화 단계 — 상황별 반복 훈련 (현재 44퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 12퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 44 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 69 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "패스 성공률: 88 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.18,
+   "fouls_per90": 0.95,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 52.7,
+   "clean_pctl_fouls": 51.0
+  },
+  "availability": {
+   "minpct_mean": 38.1,
+   "n_seasons": 7
+  },
+  "consistency": {
+   "ability_std": 3.8,
+   "n_rated_seasons": 5
+  }
+ },
+ "narrative": {
+  "current": "Ibrahima Konaté(DF)의 현재 능력 점수는 64.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 최종 3분의1 패스, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 태클+인터셉트이다.",
+  "potential": "Ibrahima Konaté의 2~3년 후 전성기 유지 예측 중심값은 60.6점, 80% 구간 상단(잠재력 상한)은 69.9점이다. 빅5 현역 유지확률은 73.2%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

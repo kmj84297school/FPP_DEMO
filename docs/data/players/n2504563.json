@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "n2504563",
+  "player_name": "Ladislav Krejčí",
+  "nation": "CZE",
+  "age_years": 25.0,
+  "squad": "Girona",
+  "comps": "La Liga",
+  "pos_primary": "DF",
+  "minutes_season": 2440.0
+ },
+ "current": {
+  "ability": 58.0,
+  "score_position": 55.8,
+  "score_style": 60.4,
+  "groups": {
+   "prod": 58.9,
+   "progress": 68.6,
+   "chance": 49.2,
+   "stability": 51.9,
+   "defense": 43.0
+  }
+ },
+ "style": {
+  "primary": "빌드업 수비수",
+  "confidence": 1.09
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.7115,
+  "mu": 59.3,
+  "ci80": {
+   "lo": 50.1,
+   "hi": 68.6
+  },
+  "ci50": {
+   "lo": 54.5,
+   "hi": 64.2
+  },
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f521b80a",
+   "season": 2020,
+   "distance": 1.32,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "Matthias Ginter",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "f5b6fb78",
+   "season": 2020,
+   "distance": 1.749,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loris Benito",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2019,
+   "distance": 1.759,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "ab096c6f",
+   "season": 2019,
+   "distance": 1.873,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Timothée Kolodziejczak",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "89ac64a6",
+   "season": 2020,
+   "distance": 1.939,
+   "survived": 1,
+   "fut_ability_v2": 67.3,
+   "player_name": "Manuel Akanji",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "d5f2f82b",
+   "season": 2019,
+   "distance": 2.012,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Marquinhos",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "e27da244",
+   "season": 2019,
+   "distance": 2.031,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "30f5ffa9",
+   "season": 2020,
+   "distance": 2.095,
+   "survived": 1,
+   "fut_ability_v2": 51.9,
+   "player_name": "Milan Škriniar",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "b18a3023",
+   "season": 2018,
+   "distance": 2.12,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júnior Alonso",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "3935e52e",
+   "season": 2020,
+   "distance": 2.177,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sead Kolašinac",
+   "squad": "Arsenal"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 98.2
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 95.9
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 92.6
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 89.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 87.5
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 76.0
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 73.2
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 7.0
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 19.9
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 20.6
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 25.1
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 25.1
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 19.9
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 43.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 72.9
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 89.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 87.5
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 20.6
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 1.18
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": 0.08
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.76
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "패스 관여도",
+     "z": 1.74
+    },
+    {
+     "label": "운반 비중",
+     "z": 0.61
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 11퍼센타일)",
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 52퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 12퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 52 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "패스 성공률 실전 적용 반복",
+    "kpi": "패스 성공률: 88 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 패스: 89 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.33,
+   "fouls_per90": 0.89,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 12.2,
+   "clean_pctl_fouls": 57.4
+  },
+  "availability": {
+   "minpct_mean": 71.3,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Ladislav Krejčí(DF)의 현재 능력 점수는 58.0점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반 거리, 전진 패스 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 태클+인터셉트이다.",
+  "potential": "Ladislav Krejčí의 2~3년 후 전성기 유지 예측 중심값은 59.3점, 80% 구간 상단(잠재력 상한)은 68.6점이다. 빅5 현역 유지확률은 71.2%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

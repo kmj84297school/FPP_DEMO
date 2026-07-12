@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "8ca9415f",
+  "player_name": "Félix Lemaréchal",
+  "nation": "FRA",
+  "age_years": 20.0,
+  "squad": "Strasbourg",
+  "comps": "Ligue 1",
+  "pos_primary": "MF",
+  "minutes_season": 1779.0
+ },
+ "current": {
+  "ability": 53.9,
+  "score_position": 54.5,
+  "score_style": 53.3,
+  "groups": {
+   "prod": 74.0,
+   "progress": 45.7,
+   "chance": 55.3,
+   "stability": 38.1,
+   "defense": 46.8
+  }
+ },
+ "style": {
+  "primary": "볼 운반형",
+  "confidence": 0.41
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.9242,
+  "mu": 59.0,
+  "ci80": {
+   "lo": 48.3,
+   "hi": 69.6
+  },
+  "ci50": {
+   "lo": 53.4,
+   "hi": 64.5
+  },
+  "sigma_model": 1.8,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "c9e39d91",
+   "season": 2019,
+   "distance": 1.558,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Brais Méndez",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "fed17f5a",
+   "season": 2019,
+   "distance": 1.585,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Carlos Soler",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "f63d8a4b",
+   "season": 2020,
+   "distance": 1.759,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Todd Cantwell",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "fed17f5a",
+   "season": 2018,
+   "distance": 1.763,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Carlos Soler",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "19709006",
+   "season": 2019,
+   "distance": 1.968,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Óscar Rodríguez Arnaiz",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "af0c835b",
+   "season": 2019,
+   "distance": 1.998,
+   "survived": 1,
+   "fut_ability_v2": 44.7,
+   "player_name": "Samuel Moutoussamy",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "6191093d",
+   "season": 2020,
+   "distance": 2.037,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Ludovic Blas",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "3010aefb",
+   "season": 2018,
+   "distance": 2.147,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Marcus Coco",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "7cf431a5",
+   "season": 2018,
+   "distance": 2.255,
+   "survived": 1,
+   "fut_ability_v2": 38.6,
+   "player_name": "James Lea Siliki",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "016ff750",
+   "season": 2018,
+   "distance": 2.269,
+   "survived": 1,
+   "fut_ability_v2": 50.1,
+   "player_name": "Valentino Lazaro",
+   "squad": "Hertha BSC"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 91.9
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 91.2
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 82.1
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 80.1
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 79.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 77.5
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 74.4
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 7.0
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 8.8
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 13.6
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 14.5
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 16.6
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 16.6
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 74.1
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 41.9
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 63.5
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 59.9
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 39.5
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "볼 운반형",
+    "fit_z": 0.89
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.48
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": 0.44
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "운반 비중",
+     "z": 1.2
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.58
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 64퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 20퍼센타일)",
+   "전진 운반 거리 개선 필요 — 기초 반복 훈련 권장 (현재 하위 34퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 거리 기초 교정",
+    "kpi": "전진 운반 거리: 34 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 64 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 80 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.1,
+   "fouls_per90": 1.52,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 82.5,
+   "clean_pctl_fouls": 34.9
+  },
+  "availability": {
+   "minpct_mean": 29.2,
+   "n_seasons": 2
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Félix Lemaréchal(MF)의 현재 능력 점수는 53.9점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 블록, 슈팅당 기대득점, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 볼 리커버리이다.",
+  "potential": "Félix Lemaréchal의 2~3년 후 성장 예측 중심값은 59.0점, 80% 구간 상단(잠재력 상한)은 69.6점이다. 빅5 잔존확률은 92.4%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

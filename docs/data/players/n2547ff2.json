@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "n2547ff2",
+  "player_name": "Carlos Augusto",
+  "nation": "BRA",
+  "age_years": 25.0,
+  "squad": "Inter",
+  "comps": "Serie A",
+  "pos_primary": "DF",
+  "minutes_season": 1625.0
+ },
+ "current": {
+  "ability": 67.3,
+  "score_position": 66.0,
+  "score_style": 68.6,
+  "groups": {
+   "prod": 88.3,
+   "progress": 70.5,
+   "chance": 62.0,
+   "stability": 57.5,
+   "defense": 55.2
+  }
+ },
+ "style": {
+  "primary": "빌드업 수비수",
+  "confidence": 0.67
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.8153,
+  "mu": 62.8,
+  "ci80": {
+   "lo": 53.5,
+   "hi": 72.0
+  },
+  "ci50": {
+   "lo": 57.9,
+   "hi": 67.6
+  },
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "dc6f5bdd",
+   "season": 2020,
+   "distance": 2.2,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Calum Chambers",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "41e7ef1c",
+   "season": 2018,
+   "distance": 2.214,
+   "survived": 1,
+   "fut_ability_v2": 61.9,
+   "player_name": "Layvin Kurzawa",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2019,
+   "distance": 2.226,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "b6e50615",
+   "season": 2018,
+   "distance": 2.275,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Yuri Berchiche",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "8ff2354e",
+   "season": 2018,
+   "distance": 2.294,
+   "survived": 1,
+   "fut_ability_v2": 72.9,
+   "player_name": "Marcel Halstenberg",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "3935e52e",
+   "season": 2018,
+   "distance": 2.4,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Sead Kolašinac",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "d8931174",
+   "season": 2019,
+   "distance": 2.444,
+   "survived": 1,
+   "fut_ability_v2": 70.9,
+   "player_name": "Harry Maguire",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "3fc45c73",
+   "season": 2018,
+   "distance": 2.477,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Iñigo Martínez",
+   "squad": "Athletic Club / Real Sociedad"
+  },
+  {
+   "fbref_id": "e06683ca",
+   "season": 2018,
+   "distance": 2.512,
+   "survived": 1,
+   "fut_ability_v2": 68.9,
+   "player_name": "Virgil van Dijk",
+   "squad": "Liverpool / Southampton"
+  },
+  {
+   "fbref_id": "864db10a",
+   "season": 2019,
+   "distance": 2.554,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michael Lang",
+   "squad": "M'Gladbach"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 97.7
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 96.6
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 95.5
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 94.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 93.2
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 90.1
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 87.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 20.0
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 24.6
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 25.4
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 43.9
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 49.3
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 20.0
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 24.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 87.8
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 77.6
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 79.3
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 49.3
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.83
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": 0.16
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.19
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "패스 관여도",
+     "z": 0.9
+    },
+    {
+     "label": "운반 비중",
+     "z": 0.75
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 22퍼센타일)",
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 28퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 21퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 72 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 78 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "패스 성공률: 79 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.06,
+   "fouls_per90": 0.5,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 91.1,
+   "clean_pctl_fouls": 90.6
+  },
+  "availability": {
+   "minpct_mean": 47.5,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Carlos Augusto(DF)의 현재 능력 점수는 67.3점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 슈팅 시도, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 클리어링이다.",
+  "potential": "Carlos Augusto의 2~3년 후 전성기 유지 예측 중심값은 62.8점, 80% 구간 상단(잠재력 상한)은 72.0점이다. 빅5 현역 유지확률은 81.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

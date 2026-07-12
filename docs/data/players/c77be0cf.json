@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "c77be0cf",
+  "player_name": "Pedro Pereira",
+  "nation": "POR",
+  "age_years": 26.0,
+  "squad": "Monza",
+  "comps": "Serie A",
+  "pos_primary": "DF",
+  "minutes_season": 2665.0
+ },
+ "current": {
+  "ability": 42.7,
+  "score_position": 39.1,
+  "score_style": 46.4,
+  "groups": {
+   "prod": 59.5,
+   "progress": 43.3,
+   "chance": 55.4,
+   "stability": 25.9,
+   "defense": 31.5
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 0.28
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.409,
+  "mu": 45.6,
+  "ci80": {
+   "lo": 36.5,
+   "hi": 54.9
+  },
+  "ci50": {
+   "lo": 40.9,
+   "hi": 50.5
+  },
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8e45910b",
+   "season": 2019,
+   "distance": 1.88,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Zampano",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "394854c4",
+   "season": 2020,
+   "distance": 1.882,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "George Baldock",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "4e0afc5d",
+   "season": 2020,
+   "distance": 1.906,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Arnaud Souquet",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "cacadf4f",
+   "season": 2019,
+   "distance": 1.947,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luis Advíncula",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "7fecbcdb",
+   "season": 2019,
+   "distance": 1.972,
+   "survived": 1,
+   "fut_ability_v2": 45.3,
+   "player_name": "Abdoulaye Bamba",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "f91e81c9",
+   "season": 2018,
+   "distance": 2.042,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "247accfd",
+   "season": 2018,
+   "distance": 2.091,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Bakaye Dibassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "4914ed4a",
+   "season": 2018,
+   "distance": 2.127,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Silva",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "173061c0",
+   "season": 2019,
+   "distance": 2.138,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Riccardo Gagliolo",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "ae0a7ddf",
+   "season": 2019,
+   "distance": 2.185,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "DeAndre Yedlin",
+   "squad": "Newcastle Utd"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 79.3
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 73.2
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 71.4
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 70.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 66.6
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 64.2
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 60.2
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 9.2
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 13.8
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 14.8
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 16.2
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 16.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 37.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 28.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 30.7
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 14.8
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 35.4
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 20.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.38
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.09
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.44
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "크로스 비중",
+     "z": 0.5
+    },
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.48
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.14
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 27퍼센타일)",
+   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 67퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 56퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 56 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 67 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 73 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.34,
+   "fouls_per90": 1.62,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 11.1,
+   "clean_pctl_fouls": 8.2
+  },
+  "availability": {
+   "minpct_mean": 51.0,
+   "n_seasons": 4
+  },
+  "consistency": {
+   "ability_std": 1.5,
+   "n_rated_seasons": 3
+  }
+ },
+ "narrative": {
+  "current": "Pedro Pereira(DF)의 현재 능력 점수는 42.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 어시스트, 전진 운반, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 패스 거리이다.",
+  "potential": "Pedro Pereira의 2~3년 후 전성기 유지 예측 중심값은 45.6점, 80% 구간 상단(잠재력 상한)은 54.9점이다. 빅5 현역 유지확률은 40.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

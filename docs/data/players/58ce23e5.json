@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "58ce23e5",
+  "player_name": "Steven Skrzybski",
+  "nation": "GER",
+  "age_years": 31.0,
+  "squad": "Holstein Kiel",
+  "comps": "Bundesliga",
+  "pos_primary": "MF",
+  "minutes_season": 1323.0
+ },
+ "current": {
+  "ability": 60.2,
+  "score_position": 53.4,
+  "score_style": 67.0,
+  "groups": {
+   "prod": 83.3,
+   "progress": 45.8,
+   "chance": 73.3,
+   "stability": 25.5,
+   "defense": 23.2
+  }
+ },
+ "style": {
+  "primary": "공격형 MF",
+  "confidence": 0.63
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.4794,
+  "mu": 56.3,
+  "ci80": {
+   "lo": 46.9,
+   "hi": 65.7
+  },
+  "ci50": {
+   "lo": 51.3,
+   "hi": 61.3
+  },
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9f4647e9",
+   "season": 2020,
+   "distance": 1.951,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Snodgrass",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "0b4d8274",
+   "season": 2019,
+   "distance": 2.053,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Romain Hamouma",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "1ecb65be",
+   "season": 2020,
+   "distance": 2.179,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Theo Walcott",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "04965583",
+   "season": 2020,
+   "distance": 2.328,
+   "survived": 1,
+   "fut_ability_v2": 53.7,
+   "player_name": "Aleix Vidal",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "809940aa",
+   "season": 2020,
+   "distance": 2.515,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominick Drexler",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "dba67bc4",
+   "season": 2018,
+   "distance": 2.673,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zlatko Junuzović",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "7c2a398c",
+   "season": 2018,
+   "distance": 2.705,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nordin Amrabat",
+   "squad": "Leganés / Watford"
+  },
+  {
+   "fbref_id": "1ecb65be",
+   "season": 2019,
+   "distance": 2.734,
+   "survived": 1,
+   "fut_ability_v2": 38.7,
+   "player_name": "Theo Walcott",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "d733aa38",
+   "season": 2020,
+   "distance": 2.744,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Roberto Torres",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "6fd1ba62",
+   "season": 2018,
+   "distance": 2.768,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Markel Susaeta",
+   "squad": "Athletic Club"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 95.5
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 90.7
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 88.7
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 84.8
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 83.7
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 81.0
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 80.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 5.7
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 6.4
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 7.0
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 9.3
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 15.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 49.9
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 74.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 24.5
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 37.9
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 78.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 7.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 MF",
+    "fit_z": 1.15
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.51
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.35
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "슈팅 비중",
+     "z": 1.72
+    },
+    {
+     "label": "박스 터치 비중",
+     "z": 1.16
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.56
+    }
+   ]
+  },
+  "coaching": [
+   "슈팅 창출(SCA) 이미 강점 — 유지 및 응용 훈련 (상위 22퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 25퍼센타일)",
+   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 19퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 75 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "슈팅 창출(SCA) 실전 적용 반복",
+    "kpi": "슈팅 창출(SCA): 78 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "비페널티 xG: 81 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.0,
+   "fouls_per90": 1.09,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 95.3,
+   "clean_pctl_fouls": 64.8
+  },
+  "availability": {
+   "minpct_mean": 24.0,
+   "n_seasons": 4
+  },
+  "consistency": {
+   "ability_std": 8.3,
+   "n_rated_seasons": 2
+  }
+ },
+ "narrative": {
+  "current": "Steven Skrzybski(MF)의 현재 능력 점수는 60.2점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 유효슈팅, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 태클 성공률이다.",
+  "potential": "Steven Skrzybski의 2~3년 후 전성기 유지 예측 중심값은 56.3점, 80% 구간 상단(잠재력 상한)은 65.7점이다. 빅5 현역 유지확률은 47.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

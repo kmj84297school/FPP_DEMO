@@ -3,202 +3,311 @@
   "fbref_id": "f76022e7",
   "player_name": "Enzo Millot",
   "nation": "FRA",
-  "age_years": 20.0,
+  "age_years": 22.0,
   "squad": "Stuttgart",
   "comps": "Bundesliga",
   "pos_primary": "MF",
-  "minutes_2023": 243.0
+  "minutes_season": 1843.0
  },
  "current": {
-  "ability": 57.4,
-  "score_position": 55.1,
-  "score_style": 59.5,
+  "ability": 74.0,
+  "score_position": 68.6,
+  "score_style": 79.5,
   "groups": {
-   "prod": 54.8,
-   "progress": 52.8,
-   "chance": 58.3,
-   "stability": 23.4,
-   "defense": 71.5
+   "prod": 89.4,
+   "progress": 75.3,
+   "chance": 74.7,
+   "stability": 41.4,
+   "defense": 29.5
   }
  },
  "style": {
-  "primary": "수비형 파괴자",
-  "confidence": 0.29
+  "primary": "공격형 MF",
+  "confidence": 0.05
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.8534,
+  "mu": 67.6,
+  "ci80": {
+   "lo": 56.6,
+   "hi": 78.5
+  },
+  "ci50": {
+   "lo": 61.8,
+   "hi": 73.4
+  },
+  "sigma_model": 2.8,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "36a59ba4",
+   "season": 2019,
+   "distance": 2.168,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Florian Neuhaus",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "36a59ba4",
+   "season": 2020,
+   "distance": 2.296,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Florian Neuhaus",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "cea4ee8f",
+   "season": 2019,
+   "distance": 2.487,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Dele Alli",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "a1d5bd30",
+   "season": 2020,
+   "distance": 2.512,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Marcus Rashford",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "d7553721",
+   "season": 2019,
+   "distance": 2.665,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Giovani Lo Celso",
+   "squad": "Betis / Paris S-G"
+  },
+  {
+   "fbref_id": "c47541e0",
+   "season": 2019,
+   "distance": 2.692,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Bertrand Traoré",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "3ea50f67",
+   "season": 2020,
+   "distance": 2.706,
+   "survived": 1,
+   "fut_ability_v2": 58.1,
+   "player_name": "Harvey Barnes",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "cea4ee8f",
+   "season": 2020,
+   "distance": 2.72,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Dele Alli",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "6e7f1353",
+   "season": 2018,
+   "distance": 2.754,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Morgan Sanson",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "dc4cae05",
+   "season": 2019,
+   "distance": 2.824,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Brooks",
+   "squad": "Bournemouth"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 100.0
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 96.4
    },
    {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 100.0
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 94.6
    },
    {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 85.7
-   },
-   {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 85.4
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 93.4
    },
    {
     "key": "SoT",
     "label": "유효슈팅",
-    "percentile": 84.8
+    "percentile": 91.2
    },
    {
-    "key": "Clr",
-    "label": "클리어링",
-    "percentile": 83.6
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 89.6
    },
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 79.6
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 88.2
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 88.2
    }
   ],
   "weaknesses": [
    {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 2.7
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 3.8
    },
    {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 9.4
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 11.8
    },
    {
-    "key": "PPA",
-    "label": "박스 진입 패스",
-    "percentile": 18.5
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 14.7
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 31.3
+    "percentile": 15.2
    },
    {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 33.7
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 18.2
    }
   ],
   "position_radar": [
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 2.7
+    "percentile": 76.6
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 54.4
+    "percentile": 55.3
    },
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 100.0
+    "percentile": 25.8
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 72.5
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 85.7
+    "percentile": 71.2
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 37.4
+    "percentile": 69.2
    }
   ],
   "top3_styles": [
    {
-    "style": "수비형 파괴자",
-    "fit_z": 1.08
+    "style": "공격형 MF",
+    "fit_z": 0.44
    },
    {
     "style": "볼 운반형",
-    "fit_z": 0.79
+    "fit_z": 0.39
    },
    {
-    "style": "공격형 MF",
-    "fit_z": 0.22
+    "style": "딥 플레이메이커",
+    "fit_z": -0.71
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "태클량",
-     "z": 1.52
+     "label": "박스 터치 비중",
+     "z": 0.54
     },
     {
-     "label": "수비 3분의1 활동 비중",
-     "z": 1.33
+     "label": "슈팅 비중",
+     "z": 0.39
     }
    ],
    "bottom": [
     {
-     "label": "공중볼 경합량",
-     "z": 0.4
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.39
     }
    ]
   },
   "coaching": [
-   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 0퍼센타일)",
-   "블록 이미 강점 — 유지 및 응용 훈련 (상위 0퍼센타일)",
-   "볼 리커버리 강화 여지 — 난이도를 높인 반복 훈련 (현재 50퍼센타일)"
+   "슈팅 창출(SCA) 이미 강점 — 유지 및 응용 훈련 (상위 29퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 55퍼센타일)",
+   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 4퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "볼 리커버리 기초 교정",
-    "kpi": "볼 리커버리: 50 → 70 퍼센타일"
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 55 → 70 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "태클+인터셉트 실전 적용 반복",
-    "kpi": "태클+인터셉트: 이미 상위 0퍼센타일 — 유지"
+    "focus": "슈팅 창출(SCA) 실전 적용 반복",
+    "kpi": "슈팅 창출(SCA): 71 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "블록: 이미 상위 0퍼센타일 — 유지"
+    "kpi": "비페널티 xG: 이미 상위 4퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.74,
-   "fouls_per90": 1.48,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 0.6,
-   "clean_pctl_fouls": 27.4
+   "yellows_per90": 0.44,
+   "fouls_per90": 1.22,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 6.3,
+   "clean_pctl_fouls": 55.6
   },
   "availability": {
-   "minpct_mean": 9.1,
-   "n_seasons": 3
+   "minpct_mean": 21.9,
+   "n_seasons": 4
   },
   "consistency": {
-   "ability_std": null,
-   "n_rated_seasons": 1
+   "ability_std": 11.8,
+   "n_rated_seasons": 2
   }
  },
  "narrative": {
-  "current": "Enzo Millot(MF)의 현재 능력 점수는 57.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 태클+인터셉트, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 실책이다.",
-  "potential": null
+  "current": "Enzo Millot(MF)의 현재 능력 점수는 74.0점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 슈팅당 기대득점, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 볼 손실(미스+파울)이다.",
+  "potential": "Enzo Millot의 2~3년 후 성장 예측 중심값은 67.6점, 80% 구간 상단(잠재력 상한)은 78.5점이다. 빅5 잔존확률은 85.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

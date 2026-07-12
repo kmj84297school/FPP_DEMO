@@ -1,4 +1,4 @@
-"""eligible 2023 선수마다 실제 t+2~t+3 결과가 있는 과거 선수(k=10) 검색."""
+"""eligible(성장 예측) 선수마다 실제 t+2~t+3 결과가 있는 과거 선수(k=10) 검색."""
 import sys, json, pathlib
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "build" / "lib"))
@@ -6,13 +6,11 @@ sys.path.insert(0, str(ROOT / "build" / "lib"))
 import pandas as pd
 
 from knn import find_neighbors, DIST_COLS
-
-DATA = ROOT / "data"
-CACHE = ROOT / "build" / "_cache"
+from config import DATA, ELIGIBILITY_CSV, FEATURES_CURRENT_CSV, KNN_GROWTH_JSON
 
 if __name__ == "__main__":
-    feat_all = pd.read_csv(CACHE / "features_2023_all.csv", index_col=0)
-    elig = pd.read_csv(CACHE / "eligibility_2023.csv")
+    feat_all = pd.read_csv(FEATURES_CURRENT_CSV, index_col=0)
+    elig = pd.read_csv(ELIGIBILITY_CSV)
     eligible_ids = elig.loc[elig["eligible_for_prediction"], "fbref_id"]
 
     query = feat_all.loc[feat_all.index.intersection(eligible_ids), DIST_COLS + ["pos_primary", "age_y"]].copy()
@@ -38,6 +36,6 @@ if __name__ == "__main__":
             enriched.append({**r, "player_name": name, "squad": squad})
         out[fbref_id] = {"neighbors": enriched, "low_confidence": bool(low_conf.get(fbref_id, False))}
 
-    with open(CACHE / "knn_2023.json", "w", encoding="utf-8") as f:
+    with open(KNN_GROWTH_JSON, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print("저장 완료:", len(out), "명 ->", CACHE / "knn_2023.json")
+    print("저장 완료:", len(out), "명 ->", KNN_GROWTH_JSON)

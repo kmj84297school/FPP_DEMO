@@ -3,306 +3,207 @@
   "fbref_id": "ac454a4f",
   "player_name": "Gerard Gumbau",
   "nation": "ESP",
-  "age_years": 27.0,
-  "squad": "Elche",
+  "age_years": 29.0,
+  "squad": "Rayo Vallecano",
   "comps": "La Liga",
   "pos_primary": "MF",
-  "minutes_2023": 737.0
+  "minutes_season": 849.0
  },
  "current": {
-  "ability": 36.7,
-  "score_position": 36.9,
-  "score_style": 36.5,
+  "ability": 54.5,
+  "score_position": 51.7,
+  "score_style": 57.3,
   "groups": {
-   "prod": 38.9,
-   "progress": 24.2,
-   "chance": 47.8,
-   "stability": 21.1,
-   "defense": 49.0
+   "prod": 59.1,
+   "progress": 32.0,
+   "chance": 45.6,
+   "stability": 59.2,
+   "defense": 56.5
   }
  },
  "style": {
-  "primary": "딥 플레이메이커",
-  "confidence": 0.81
+  "primary": "수비형 파괴자",
+  "confidence": 0.01
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.1617,
-  "mu": 47.4,
-  "ci80": {
-   "lo": 37.8,
-   "hi": 56.9
-  },
-  "ci50": {
-   "lo": 42.3,
-   "hi": 52.3
-  },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "070a3904",
-   "season": 2020,
-   "distance": 2.009,
-   "survived": 1,
-   "fut_ability_v2": 56.1,
-   "player_name": "Sergi Darder",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "bf13975c",
-   "season": 2020,
-   "distance": 2.072,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Žan Majer",
-   "squad": "Lecce"
-  },
-  {
-   "fbref_id": "79135368",
-   "season": 2018,
-   "distance": 2.194,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fayçal Fajr",
-   "squad": "Getafe"
-  },
-  {
-   "fbref_id": "04c11885",
-   "season": 2018,
-   "distance": 2.212,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marvin Bakalorz",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "4accb7e0",
-   "season": 2020,
-   "distance": 2.248,
-   "survived": 1,
-   "fut_ability_v2": 41.4,
-   "player_name": "Darko Brašanac",
-   "squad": "Osasuna"
-  },
-  {
-   "fbref_id": "54073b28",
-   "season": 2018,
-   "distance": 2.303,
-   "survived": 1,
-   "fut_ability_v2": 45.7,
-   "player_name": "Recio",
-   "squad": "Málaga"
-  },
-  {
-   "fbref_id": "b2d03887",
-   "season": 2020,
-   "distance": 2.338,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Víctor Camarasa",
-   "squad": "Alavés / Crystal Palace"
-  },
-  {
-   "fbref_id": "1d8c99b0",
-   "season": 2019,
-   "distance": 2.414,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ki Sung-yueng",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "98e958af",
-   "season": 2019,
-   "distance": 2.434,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Oscar Hiljemark",
-   "squad": "Genoa"
-  },
-  {
-   "fbref_id": "989d5705",
-   "season": 2019,
-   "distance": 2.513,
-   "survived": 1,
-   "fut_ability_v2": 32.1,
-   "player_name": "Jeff Hendrick",
-   "squad": "Burnley"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 95.1
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 94.8
    },
    {
-    "key": "Clr",
-    "label": "클리어링",
-    "percentile": 80.2
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 89.8
    },
    {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 74.5
-   },
-   {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 66.9
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 86.0
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 65.3
+    "percentile": 85.7
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 76.0
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 73.2
    },
    {
     "key": "xAG",
     "label": "도움 기대값(xAG)",
-    "percentile": 64.4
-   },
-   {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 49.5
+    "percentile": 68.7
    }
   ],
   "weaknesses": [
    {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 3.3
-   },
-   {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 8.5
-   },
-   {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 9.4
-   },
-   {
-    "key": "npxG_Sh",
-    "label": "슈팅당 기대득점",
-    "percentile": 11.3
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 0.9
    },
    {
     "key": "Recov",
     "label": "볼 리커버리",
-    "percentile": 13.1
+    "percentile": 4.3
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 6.3
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 9.1
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 11.1
    }
   ],
   "position_radar": [
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 41.0
+    "percentile": 49.6
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 41.9
+    "percentile": 86.0
    },
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 24.0
+    "percentile": 35.2
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 0.9
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 34.3
+    "percentile": 66.4
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 32.8
+    "percentile": 22.5
    }
   ],
   "top3_styles": [
    {
-    "style": "딥 플레이메이커",
-    "fit_z": 0.62
-   },
-   {
     "style": "수비형 파괴자",
-    "fit_z": -0.19
+    "fit_z": 0.57
    },
    {
-    "style": "볼 운반형",
-    "fit_z": -0.6
+    "style": "딥 플레이메이커",
+    "fit_z": 0.56
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": -0.26
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "롱패스 비중",
-     "z": 1.47
+     "label": "공중볼 경합량",
+     "z": 1.77
     },
     {
      "label": "수비 3분의1 활동 비중",
-     "z": 0.66
+     "z": 0.14
     }
    ],
    "bottom": [
     {
-     "label": "키패스 비중",
-     "z": -0.27
+     "label": "태클량",
+     "z": -0.18
     }
    ]
   },
   "coaching": [
-   "전진 패스 안정화 단계 — 상황별 반복 훈련 (현재 41퍼센타일)",
-   "키패스 안정화 단계 — 상황별 반복 훈련 (현재 42퍼센타일)",
-   "박스 진입 패스 안정화 단계 — 상황별 반복 훈련 (현재 40퍼센타일)"
+   "태클+인터셉트 안정화 단계 — 상황별 반복 훈련 (현재 35퍼센타일)",
+   "블록 이미 강점 — 유지 및 응용 훈련 (상위 24퍼센타일)",
+   "볼 리커버리 개선 필요 — 기초 반복 훈련 권장 (현재 하위 4퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "박스 진입 패스 기초 교정",
-    "kpi": "박스 진입 패스: 40 → 70 퍼센타일"
+    "focus": "볼 리커버리 기초 교정",
+    "kpi": "볼 리커버리: 4 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "전진 패스 실전 적용 반복",
-    "kpi": "전진 패스: 41 → 70 퍼센타일"
+    "focus": "태클+인터셉트 실전 적용 반복",
+    "kpi": "태클+인터셉트: 35 → 60 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "키패스: 42 → 70 퍼센타일"
+    "kpi": "블록: 76 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.49,
-   "fouls_per90": 1.95,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 6.1,
-   "clean_pctl_fouls": 9.7
+   "yellows_per90": 0.42,
+   "fouls_per90": 2.23,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 8.1,
+   "clean_pctl_fouls": 7.0
   },
   "availability": {
-   "minpct_mean": 49.4,
-   "n_seasons": 4
+   "minpct_mean": 44.5,
+   "n_seasons": 5
   },
   "consistency": {
-   "ability_std": 8.1,
-   "n_rated_seasons": 4
+   "ability_std": 10.4,
+   "n_rated_seasons": 5
   }
  },
  "narrative": {
-  "current": "Gerard Gumbau(MF)의 현재 능력 점수는 36.7점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 어시스트, 클리어링, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 박스 터치이다.",
-  "potential": "Gerard Gumbau의 2~3년 후 전성기 유지 예측 중심값은 47.4점, 80% 구간 상단(잠재력 상한)은 56.9점이다. 빅5 현역 유지확률은 16.2%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Gerard Gumbau(MF)의 현재 능력 점수는 54.5점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 공중볼 승리, 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 볼 리커버리이다.",
+  "potential": null
  }
 }

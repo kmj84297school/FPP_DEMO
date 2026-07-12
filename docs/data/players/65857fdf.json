@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "65857fdf",
+  "player_name": "Tim Skarke",
+  "nation": "GER",
+  "age_years": 27.0,
+  "squad": "Union Berlin",
+  "comps": "Bundesliga",
+  "pos_primary": "FW",
+  "minutes_season": 1164.0
+ },
+ "current": {
+  "ability": 44.1,
+  "score_position": 42.7,
+  "score_style": 45.5,
+  "groups": {
+   "prod": 28.3,
+   "progress": 39.8,
+   "chance": 53.6,
+   "stability": 35.8,
+   "defense": 60.7
+  }
+ },
+ "style": {
+  "primary": "연결형 공격수",
+  "confidence": 0.37
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.3068,
+  "mu": 45.8,
+  "ci80": {
+   "lo": 36.5,
+   "hi": 55.2
+  },
+  "ci50": {
+   "lo": 40.9,
+   "hi": 50.8
+  },
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "19b776e9",
+   "season": 2018,
+   "distance": 1.638,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Rubén Sobrino",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "ecbb3fdf",
+   "season": 2019,
+   "distance": 1.844,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Schürrle",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "549c6ba7",
+   "season": 2018,
+   "distance": 1.979,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franco Di Santo",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "4d50454e",
+   "season": 2020,
+   "distance": 2.08,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ben Zolinski",
+   "squad": "Paderborn 07"
+  },
+  {
+   "fbref_id": "9853983f",
+   "season": 2019,
+   "distance": 2.28,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bobby Wood",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "4c7940d6",
+   "season": 2018,
+   "distance": 2.283,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Coda",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "0f7533cd",
+   "season": 2019,
+   "distance": 2.353,
+   "survived": 1,
+   "fut_ability_v2": 42.8,
+   "player_name": "Bobby Reid",
+   "squad": "Cardiff City"
+  },
+  {
+   "fbref_id": "ef5b337e",
+   "season": 2019,
+   "distance": 2.355,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Borini",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "f69fba57",
+   "season": 2019,
+   "distance": 2.439,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2019,
+   "distance": 2.457,
+   "survived": 1,
+   "fut_ability_v2": 57.5,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 86.7
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 85.8
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 83.4
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 66.4
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 65.5
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 60.4
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 58.3
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 4.4
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 7.2
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 13.3
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 19.8
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 30.1
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 19.8
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 46.6
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 39.2
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 45.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 7.2
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 54.3
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "연결형 공격수",
+    "fit_z": 0.07
+   },
+   {
+    "style": "돌파형 윙어",
+    "fit_z": -0.3
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -0.57
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "중원 활동 비중",
+     "z": 0.1
+    },
+    {
+     "label": "키패스 비중",
+     "z": 0.03
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 54퍼센타일)",
+   "슈팅 창출(SCA) 안정화 단계 — 상황별 반복 훈련 (현재 47퍼센타일)",
+   "전진 패스 수신 강화 여지 — 난이도를 높인 반복 훈련 (현재 66퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "슈팅 창출(SCA) 기초 교정",
+    "kpi": "슈팅 창출(SCA): 47 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 54 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 패스 수신: 66 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.08,
+   "fouls_per90": 0.77,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 76.0,
+   "clean_pctl_fouls": 79.0
+  },
+  "availability": {
+   "minpct_mean": 20.9,
+   "n_seasons": 2
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Tim Skarke(FW)의 현재 능력 점수는 44.1점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 클리어링, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 박스 터치이다.",
+  "potential": "Tim Skarke의 2~3년 후 전성기 유지 예측 중심값은 45.8점, 80% 구간 상단(잠재력 상한)은 55.2점이다. 빅5 현역 유지확률은 30.7%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

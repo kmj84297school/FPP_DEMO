@@ -3,27 +3,27 @@
   "fbref_id": "9744ff80",
   "player_name": "Pablo Sarabia",
   "nation": "ESP",
-  "age_years": 30.0,
-  "squad": "Paris S-G",
-  "comps": "Ligue 1",
-  "pos_primary": "FW",
-  "minutes_2023": 297.0
+  "age_years": 32.0,
+  "squad": "Wolves",
+  "comps": "Premier League",
+  "pos_primary": "MF",
+  "minutes_season": 814.0
  },
  "current": {
-  "ability": 57.4,
-  "score_position": 52.3,
-  "score_style": 62.6,
+  "ability": 71.8,
+  "score_position": 64.8,
+  "score_style": 78.9,
   "groups": {
-   "prod": 24.4,
-   "progress": 66.9,
-   "chance": 84.2,
-   "stability": 47.9,
-   "defense": 37.5
+   "prod": 90.6,
+   "progress": 70.5,
+   "chance": 83.1,
+   "stability": 11.7,
+   "defense": 42.7
   }
  },
  "style": {
-  "primary": "연결형 공격수",
-  "confidence": 0.53
+  "primary": "공격형 MF",
+  "confidence": 0.9
  },
  "eligibility": {
   "eligible_for_prediction": false,
@@ -36,164 +36,174 @@
  "report": {
   "strengths": [
    {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 97.2
-   },
-   {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 97.2
-   },
-   {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 96.5
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 95.0
-   },
-   {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 95.0
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 97.1
    },
    {
     "key": "PPA",
     "label": "박스 진입 패스",
-    "percentile": 90.1
-   },
-   {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 90.1
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 0.0
-   },
-   {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 0.0
+    "percentile": 96.1
    },
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 2.1
+    "percentile": 96.1
    },
    {
     "key": "np_G",
     "label": "무페널티 득점",
-    "percentile": 5.0
+    "percentile": 95.2
    },
    {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 12.8
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 92.7
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 90.7
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 90.3
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 5.9
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 12.3
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 16.8
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 21.5
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 23.6
    }
   ],
   "position_radar": [
    {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 2.1
-   },
-   {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 95.0
-   },
-   {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 12.8
-   },
-   {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 18.4
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 87.7
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 97.2
+    "percentile": 80.1
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 30.4
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 60.6
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 66.7
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 5.9
    }
   ],
   "top3_styles": [
    {
-    "style": "연결형 공격수",
-    "fit_z": 0.09
+    "style": "공격형 MF",
+    "fit_z": 0.53
    },
    {
-    "style": "돌파형 윙어",
-    "fit_z": -0.44
+    "style": "볼 운반형",
+    "fit_z": -0.37
    },
    {
-    "style": "타겟맨",
-    "fit_z": -1.35
+    "style": "딥 플레이메이커",
+    "fit_z": -0.41
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "키패스 비중",
-     "z": 0.51
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.98
     },
     {
-     "label": "중원 활동 비중",
-     "z": -0.33
+     "label": "슈팅 비중",
+     "z": 0.4
     }
    ],
-   "bottom": []
+   "bottom": [
+    {
+     "label": "박스 터치 비중",
+     "z": 0.2
+    }
+   ]
   },
   "coaching": [
-   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 3퍼센타일)",
-   "슈팅 창출(SCA) 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)",
-   "전진 패스 수신 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)"
+   "슈팅 창출(SCA) 강화 여지 — 난이도를 높인 반복 훈련 (현재 67퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 20퍼센타일)",
+   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 4퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
     "focus": "슈팅 창출(SCA) 기초 교정",
-    "kpi": "슈팅 창출(SCA): 이미 상위 5퍼센타일 — 유지"
+    "kpi": "슈팅 창출(SCA): 67 → 80 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "전진 패스 수신 실전 적용 반복",
-    "kpi": "전진 패스 수신: 이미 상위 5퍼센타일 — 유지"
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 80 → 90 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "키패스: 이미 상위 3퍼센타일 — 유지"
+    "kpi": "비페널티 xG: 이미 상위 4퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.3,
-   "fouls_per90": 0.91,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 17.0,
-   "clean_pctl_fouls": 60.3
+   "yellows_per90": 0.33,
+   "fouls_per90": 1.77,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 21.1,
+   "clean_pctl_fouls": 21.5
   },
   "availability": {
-   "minpct_mean": 43.9,
-   "n_seasons": 6
+   "minpct_mean": 41.1,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 9.2,
-   "n_rated_seasons": 5
+   "ability_std": 8.2,
+   "n_rated_seasons": 6
   }
  },
  "narrative": {
-  "current": "Pablo Sarabia(FW)의 현재 능력 점수는 57.4점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 거리, 키패스, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 슈팅 시도이다.",
+  "current": "Pablo Sarabia(MF)의 현재 능력 점수는 71.8점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 박스 진입 패스, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 볼 손실(미스+파울)이다.",
   "potential": null
  }
 }

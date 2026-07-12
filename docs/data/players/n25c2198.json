@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n25c2198",
+  "player_name": "Finn Porath",
+  "nation": "GER",
+  "age_years": 27.0,
+  "squad": "Holstein Kiel",
+  "comps": "Bundesliga",
+  "pos_primary": "DF",
+  "minutes_season": 1970.0
+ },
+ "current": {
+  "ability": 56.2,
+  "score_position": 50.4,
+  "score_style": 62.0,
+  "groups": {
+   "prod": 80.3,
+   "progress": 48.6,
+   "chance": 87.6,
+   "stability": 35.2,
+   "defense": 38.5
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 1.92
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.5264,
+  "mu": 52.6,
+  "ci80": {
+   "lo": 43.4,
+   "hi": 61.8
+  },
+  "ci50": {
+   "lo": 47.8,
+   "hi": 57.5
+  },
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f1bed920",
+   "season": 2020,
+   "distance": 1.901,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kévin Rodrigues",
+   "squad": "Leganés / Real Sociedad"
+  },
+  {
+   "fbref_id": "71ef519e",
+   "season": 2019,
+   "distance": 2.278,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "9050ddc4",
+   "season": 2020,
+   "distance": 2.314,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Jetro Willems",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2019,
+   "distance": 2.344,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "5f09991f",
+   "season": 2018,
+   "distance": 2.359,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Patrick van Aanholt",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2020,
+   "distance": 2.363,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "e726e11e",
+   "season": 2018,
+   "distance": 2.37,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Victor Moses",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "1f079188",
+   "season": 2018,
+   "distance": 2.38,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Rubén Peña",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "f45f9427",
+   "season": 2020,
+   "distance": 2.398,
+   "survived": 1,
+   "fut_ability_v2": 45.5,
+   "player_name": "Dalbert Henrique",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "c6896eab",
+   "season": 2019,
+   "distance": 2.416,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Löwe",
+   "squad": "Huddersfield"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 98.3
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 97.3
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 96.3
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 91.9
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 86.1
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 85.7
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 82.4
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 2.0
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 9.5
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 12.6
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 13.4
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 20.9
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 61.8
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 33.9
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 20.9
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 27.4
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 2.0
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 58.9
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 1.51
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.41
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.98
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "크로스 비중",
+     "z": 2.26
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": 1.32
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.96
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 23퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 18퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 19퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 77 → 90 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 81 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 82 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.14,
+   "fouls_per90": 1.42,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 68.0,
+   "clean_pctl_fouls": 17.2
+  },
+  "availability": {
+   "minpct_mean": 64.4,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Finn Porath(DF)의 현재 능력 점수는 56.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 유효슈팅, 골 창출(GCA), 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 전진 패스 거리이다.",
+  "potential": "Finn Porath의 2~3년 후 전성기 유지 예측 중심값은 52.6점, 80% 구간 상단(잠재력 상한)은 61.8점이다. 빅5 현역 유지확률은 52.6%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

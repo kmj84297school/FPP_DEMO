@@ -3,310 +3,207 @@
   "fbref_id": "eb0ec070",
   "player_name": "Pasquale Mazzocchi",
   "nation": "ITA",
-  "age_years": 27.0,
-  "squad": "Salernitana",
+  "age_years": 29.0,
+  "squad": "Napoli",
   "comps": "Serie A",
   "pos_primary": "DF",
-  "minutes_2023": 977.0
+  "minutes_season": 702.0
  },
  "current": {
-  "ability": 49.1,
-  "score_position": 40.5,
-  "score_style": 57.7,
+  "ability": 47.2,
+  "score_position": 42.8,
+  "score_style": 51.8,
   "groups": {
-   "prod": 84.7,
-   "progress": 49.2,
-   "chance": 89.8,
-   "stability": 23.2,
-   "defense": 21.5
+   "prod": 49.3,
+   "progress": 55.6,
+   "chance": 62.5,
+   "stability": 34.7,
+   "defense": 28.0
   }
  },
  "style": {
   "primary": "공격형 풀백",
-  "confidence": 3.15
+  "confidence": 0.4
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.6421,
-  "mu": 42.6,
-  "ci80": {
-   "lo": 33.1,
-   "hi": 52.1
-  },
-  "ci50": {
-   "lo": 37.6,
-   "hi": 47.7
-  },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "1770bd68",
-   "season": 2020,
-   "distance": 2.227,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ken Sema",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "5128bde4",
-   "season": 2019,
-   "distance": 2.503,
-   "survived": 1,
-   "fut_ability_v2": 56.3,
-   "player_name": "Darko Lazović",
-   "squad": "Genoa"
-  },
-  {
-   "fbref_id": "8593f88c",
-   "season": 2019,
-   "distance": 2.529,
-   "survived": 1,
-   "fut_ability_v2": 48.2,
-   "player_name": "Christian Günter",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "16e9d0ea",
-   "season": 2020,
-   "distance": 2.596,
-   "survived": 1,
-   "fut_ability_v2": 60.4,
-   "player_name": "Álex Moreno",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "13203c45",
-   "season": 2020,
-   "distance": 2.847,
-   "survived": 1,
-   "fut_ability_v2": 49.0,
-   "player_name": "Jérôme Roussillon",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "13203c45",
-   "season": 2019,
-   "distance": 2.99,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Jérôme Roussillon",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "088ca1bd",
-   "season": 2019,
-   "distance": 3.008,
-   "survived": 1,
-   "fut_ability_v2": 54.2,
-   "player_name": "Jonathan Schmid",
-   "squad": "Augsburg"
-  },
-  {
-   "fbref_id": "5128bde4",
-   "season": 2020,
-   "distance": 3.026,
-   "survived": 1,
-   "fut_ability_v2": 58.5,
-   "player_name": "Darko Lazović",
-   "squad": "Hellas Verona"
-  },
-  {
-   "fbref_id": "4aea5077",
-   "season": 2020,
-   "distance": 3.037,
-   "survived": 1,
-   "fut_ability_v2": 52.1,
-   "player_name": "Stefan Lainer",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "e726e11e",
-   "season": 2018,
-   "distance": 3.049,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Victor Moses",
-   "squad": "Chelsea"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 98.7
+    "percentile": 95.7
    },
    {
-    "key": "np_G",
-    "label": "무페널티 득점",
-    "percentile": 95.9
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 91.2
    },
    {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 95.4
-   },
-   {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 94.7
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 90.3
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 92.2
+    "percentile": 84.7
    },
    {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 90.9
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 80.5
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 90.9
+    "percentile": 68.3
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 67.9
    }
   ],
   "weaknesses": [
    {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 0.7
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 2.6
+   },
+   {
     "key": "PrgDistP",
     "label": "전진 패스 거리",
-    "percentile": 3.5
+    "percentile": 3.0
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 3.8
+    "percentile": 5.5
    },
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 7.3
-   },
-   {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 7.3
-   },
-   {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 9.6
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 13.8
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 11.1
+    "percentile": 40.5
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 22.3
+    "percentile": 37.2
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 19.8
+    "percentile": 13.8
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 14.4
+    "percentile": 37.4
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 19.7
+    "percentile": 33.5
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 3.8
+    "percentile": 5.5
    }
   ],
   "top3_styles": [
    {
     "style": "공격형 풀백",
-    "fit_z": 2.36
+    "fit_z": 1.18
    },
    {
     "style": "빌드업 수비수",
-    "fit_z": -0.79
+    "fit_z": 0.78
    },
    {
     "style": "스토퍼",
-    "fit_z": -1.04
+    "fit_z": -0.57
    }
   ],
   "style_evidence": {
    "top": [
     {
      "label": "드리블 시도 비중",
-     "z": 3.64
+     "z": 1.84
     },
     {
-     "label": "크로스 비중",
-     "z": 1.84
+     "label": "공격 3분의1 활동 비중",
+     "z": 1.4
     }
    ],
    "bottom": [
     {
-     "label": "공격 3분의1 활동 비중",
-     "z": 1.59
+     "label": "크로스 비중",
+     "z": 0.31
     }
    ]
   },
   "coaching": [
-   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 1퍼센타일)",
-   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)"
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 9퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 4퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 66퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
     "focus": "키패스 기초 교정",
-    "kpi": "키패스: 이미 상위 5퍼센타일 — 유지"
+    "kpi": "키패스: 66 → 80 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "성공 드리블 실전 적용 반복",
-    "kpi": "성공 드리블: 이미 상위 1퍼센타일 — 유지"
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 이미 상위 9퍼센타일 — 유지"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "성공 드리블: 이미 상위 1퍼센타일 — 유지"
+    "kpi": "성공 드리블: 이미 상위 4퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.18,
-   "fouls_per90": 0.92,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 47.6,
-   "clean_pctl_fouls": 45.8
+   "yellows_per90": 0.38,
+   "fouls_per90": 1.15,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 6.5,
+   "clean_pctl_fouls": 32.4
   },
   "availability": {
-   "minpct_mean": 63.2,
-   "n_seasons": 2
+   "minpct_mean": 48.9,
+   "n_seasons": 3
   },
   "consistency": {
-   "ability_std": 5.3,
-   "n_rated_seasons": 2
+   "ability_std": 3.9,
+   "n_rated_seasons": 3
   }
  },
  "narrative": {
-  "current": "Pasquale Mazzocchi(DF)의 현재 능력 점수는 49.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 무페널티 득점, 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 블록이다.",
-  "potential": "Pasquale Mazzocchi의 2~3년 후 전성기 유지 예측 중심값은 42.6점, 80% 구간 상단(잠재력 상한)은 52.1점이다. 빅5 현역 유지확률은 64.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Pasquale Mazzocchi(DF)의 현재 능력 점수는 47.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 전진 운반, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 볼 손실(미스+파울)이다.",
+  "potential": null
  }
 }

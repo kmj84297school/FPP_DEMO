@@ -3,27 +3,27 @@
   "fbref_id": "fd2bc67d",
   "player_name": "Dante",
   "nation": "BRA",
-  "age_years": 39.0,
+  "age_years": 40.0,
   "squad": "Nice",
   "comps": "Ligue 1",
   "pos_primary": "DF",
-  "minutes_2023": 1080.0
+  "minutes_season": 1964.0
  },
  "current": {
-  "ability": 62.8,
-  "score_position": 64.5,
-  "score_style": 60.9,
+  "ability": 60.6,
+  "score_position": 60.2,
+  "score_style": 61.2,
   "groups": {
-   "prod": 58.3,
-   "progress": 54.1,
-   "chance": 25.7,
-   "stability": 58.7,
-   "defense": 72.0
+   "prod": 34.1,
+   "progress": 61.2,
+   "chance": 30.5,
+   "stability": 63.5,
+   "defense": 57.4
   }
  },
  "style": {
   "primary": "빌드업 수비수",
-  "confidence": 0.02
+  "confidence": 0.17
  },
  "eligibility": {
   "eligible_for_prediction": false,
@@ -38,110 +38,110 @@
    {
     "key": "PrgDistP",
     "label": "전진 패스 거리",
-    "percentile": 97.2
-   },
-   {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 95.4
-   },
-   {
-    "key": "AerPct",
-    "label": "공중볼 승률",
-    "percentile": 87.1
-   },
-   {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 80.3
-   },
-   {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 77.5
-   },
-   {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 74.7
+    "percentile": 90.9
    },
    {
     "key": "Recov",
     "label": "볼 리커버리",
-    "percentile": 73.4
+    "percentile": 89.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 80.4
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 79.3
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 78.8
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 77.0
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 67.9
    }
   ],
   "weaknesses": [
    {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 18.8
+   },
+   {
     "key": "PrgRec",
     "label": "전진 패스 수신",
-    "percentile": 14.9
+    "percentile": 35.2
    },
    {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 17.5
-   },
-   {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 22.0
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 41.2
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 53.7
+    "percentile": 41.6
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 59.5
+    "percentile": 41.9
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 62.5
+    "percentile": 62.2
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 59.5
+    "percentile": 41.9
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 87.1
+    "percentile": 55.8
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 61.3
+    "percentile": 77.0
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 95.4
+    "percentile": 80.4
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 74.7
+    "percentile": 65.6
    }
   ],
   "top3_styles": [
    {
     "style": "빌드업 수비수",
-    "fit_z": 0.43
+    "fit_z": 0.18
    },
    {
     "style": "스토퍼",
-    "fit_z": 0.41
+    "fit_z": 0.01
    },
    {
     "style": "공격형 풀백",
-    "fit_z": -0.86
+    "fit_z": -0.7
    }
   ],
   "style_evidence": {
@@ -151,53 +151,54 @@
      "z": 0.88
     },
     {
-     "label": "롱패스 비중",
-     "z": -0.03
+     "label": "운반 비중",
+     "z": -0.52
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "전진 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 61퍼센타일)",
-   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)"
+   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 23퍼센타일)",
+   "전진 운반 안정화 단계 — 상황별 반복 훈련 (현재 41퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 20퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "전진 패스 기초 교정",
-    "kpi": "전진 패스: 61 → 80 퍼센타일"
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 41 → 70 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "패스 성공률 실전 적용 반복",
-    "kpi": "패스 성공률: 이미 상위 5퍼센타일 — 유지"
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 77 → 90 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "패스 성공률: 이미 상위 5퍼센타일 — 유지"
+    "kpi": "패스 성공률: 80 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.25,
-   "fouls_per90": 1.17,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 34.7,
-   "clean_pctl_fouls": 24.8
+   "yellows_per90": 0.23,
+   "fouls_per90": 0.87,
+   "reds_total_season": 1.0,
+   "clean_pctl_cards": 36.4,
+   "clean_pctl_fouls": 59.2
   },
   "availability": {
-   "minpct_mean": 75.5,
-   "n_seasons": 6
+   "minpct_mean": 73.9,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 4.5,
-   "n_rated_seasons": 6
+   "ability_std": 4.3,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Dante(DF)의 현재 능력 점수는 62.8점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 전진 패스 거리, 패스 성공률, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 성공 드리블이다.",
+  "current": "Dante(DF)의 현재 능력 점수는 60.6점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 패스 거리, 볼 리커버리, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 전진 패스 수신이다.",
   "potential": null
  }
 }

@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n256a904",
+  "player_name": "Louis Mouton",
+  "nation": "FRA",
+  "age_years": 22.0,
+  "squad": "Saint-Étienne",
+  "comps": "Ligue 1",
+  "pos_primary": "MF",
+  "minutes_season": 1045.0
+ },
+ "current": {
+  "ability": 62.8,
+  "score_position": 61.4,
+  "score_style": 64.1,
+  "groups": {
+   "prod": 50.3,
+   "progress": 60.0,
+   "chance": 57.1,
+   "stability": 51.8,
+   "defense": 64.2
+  }
+ },
+ "style": {
+  "primary": "수비형 파괴자",
+  "confidence": 0.72
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.8098,
+  "mu": 58.1,
+  "ci80": {
+   "lo": 47.4,
+   "hi": 68.9
+  },
+  "ci50": {
+   "lo": 52.4,
+   "hi": 63.8
+  },
+  "sigma_model": 2.3,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "4c6facae",
+   "season": 2020,
+   "distance": 2.251,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Djibril Sow",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2018,
+   "distance": 2.336,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "a0666d3e",
+   "season": 2018,
+   "distance": 2.473,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Will Hughes",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "ffbbc83b",
+   "season": 2018,
+   "distance": 2.558,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Florian Grillitsch",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "c1b7847c",
+   "season": 2019,
+   "distance": 2.673,
+   "survived": 1,
+   "fut_ability_v2": 64.1,
+   "player_name": "Konrad Laimer",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "a10361d2",
+   "season": 2019,
+   "distance": 2.805,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleix García",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "ed45c4a5",
+   "season": 2018,
+   "distance": 2.872,
+   "survived": 1,
+   "fut_ability_v2": 63.1,
+   "player_name": "Valentin Rongier",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "c1b7847c",
+   "season": 2020,
+   "distance": 2.908,
+   "survived": 1,
+   "fut_ability_v2": 64.1,
+   "player_name": "Konrad Laimer",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "b70bde8f",
+   "season": 2018,
+   "distance": 2.948,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Sensi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "a0666d3e",
+   "season": 2019,
+   "distance": 2.965,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Will Hughes",
+   "squad": "Watford"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 98.4
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 86.0
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 81.6
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 76.6
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 73.5
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 73.3
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 72.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 15.0
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 22.4
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 28.6
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 35.4
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 38.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 58.1
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 70.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 98.4
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 55.3
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 49.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 44.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "수비형 파괴자",
+    "fit_z": 0.98
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.26
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": 0.05
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "태클량",
+     "z": 3.18
+    },
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 0.32
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": -0.56
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 이미 강점 — 유지 및 응용 훈련 (상위 2퍼센타일)",
+   "블록 이미 강점 — 유지 및 응용 훈련 (상위 18퍼센타일)",
+   "볼 리커버리 이미 강점 — 유지 및 응용 훈련 (상위 23퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "볼 리커버리 기초 교정",
+    "kpi": "볼 리커버리: 77 → 90 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "블록 실전 적용 반복",
+    "kpi": "블록: 82 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "태클+인터셉트: 이미 상위 2퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.17,
+   "fouls_per90": 2.07,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 60.6,
+   "clean_pctl_fouls": 10.7
+  },
+  "availability": {
+   "minpct_mean": 34.2,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Louis Mouton(MF)의 현재 능력 점수는 62.8점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 태클 성공률, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
+  "potential": "Louis Mouton의 2~3년 후 성장 예측 중심값은 58.1점, 80% 구간 상단(잠재력 상한)은 68.9점이다. 빅5 잔존확률은 81.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

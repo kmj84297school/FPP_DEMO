@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n2528c31",
+  "player_name": "Thomas Kristensen",
+  "nation": "DEN",
+  "age_years": 22.0,
+  "squad": "Udinese",
+  "comps": "Serie A",
+  "pos_primary": "DF",
+  "minutes_season": 1754.0
+ },
+ "current": {
+  "ability": 51.1,
+  "score_position": 50.2,
+  "score_style": 52.2,
+  "groups": {
+   "prod": 46.2,
+   "progress": 54.3,
+   "chance": 32.0,
+   "stability": 33.4,
+   "defense": 54.3
+  }
+ },
+ "style": {
+  "primary": "스토퍼",
+  "confidence": 0.52
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.3691,
+  "mu": 57.7,
+  "ci80": {
+   "lo": 47.0,
+   "hi": 68.3
+  },
+  "ci50": {
+   "lo": 52.1,
+   "hi": 63.2
+  },
+  "sigma_model": 1.8,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "64cd167d",
+   "season": 2018,
+   "distance": 1.087,
+   "survived": 1,
+   "fut_ability_v2": 46.5,
+   "player_name": "Davide Biraschi",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "77cf6852",
+   "season": 2018,
+   "distance": 1.689,
+   "survived": 1,
+   "fut_ability_v2": 38.8,
+   "player_name": "Emil Krafth",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "cfbf9881",
+   "season": 2018,
+   "distance": 1.883,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Ibrahima Mbaye",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "f820504e",
+   "season": 2019,
+   "distance": 1.889,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tin Jedvaj",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2018,
+   "distance": 1.923,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Rúben Vezo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "deb748c9",
+   "season": 2020,
+   "distance": 2.037,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleš Matějů",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "cfbf9881",
+   "season": 2019,
+   "distance": 2.098,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibrahima Mbaye",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "a4e85758",
+   "season": 2020,
+   "distance": 2.124,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Igor",
+   "squad": "SPAL / Fiorentina"
+  },
+  {
+   "fbref_id": "5e66fa06",
+   "season": 2018,
+   "distance": 2.127,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Waldemar Anton",
+   "squad": "Hannover 96"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2018,
+   "distance": 2.14,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 97.7
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 94.2
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 76.7
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 69.2
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 64.8
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 64.1
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 63.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 23.2
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 24.7
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 28.8
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 30.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 31.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 46.0
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 60.7
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 76.7
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 64.8
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 31.5
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 23.2
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 0.57
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.05
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.52
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공중볼 경합량",
+     "z": 1.56
+    },
+    {
+     "label": "클리어링량",
+     "z": 0.14
+    }
+   ],
+   "bottom": [
+    {
+     "label": "자책 박스 활동 비중",
+     "z": 0.01
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 안정화 단계 — 상황별 반복 훈련 (현재 46퍼센타일)",
+   "클리어링 강화 여지 — 난이도를 높인 반복 훈련 (현재 61퍼센타일)",
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 6퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 46 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "클리어링 실전 적용 반복",
+    "kpi": "클리어링: 61 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "공중볼 승리: 이미 상위 6퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.26,
+   "fouls_per90": 1.59,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 27.1,
+   "clean_pctl_fouls": 9.2
+  },
+  "availability": {
+   "minpct_mean": 51.3,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Thomas Kristensen(DF)의 현재 능력 점수는 51.1점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 공중볼 승리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 볼 리커버리이다.",
+  "potential": "Thomas Kristensen의 2~3년 후 성장 예측 중심값은 57.7점, 80% 구간 상단(잠재력 상한)은 68.3점이다. 빅5 잔존확률은 36.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n257a0a1",
+  "player_name": "Yannik Engelhardt",
+  "nation": "GER",
+  "age_years": 23.0,
+  "squad": "Como",
+  "comps": "Serie A",
+  "pos_primary": "MF",
+  "minutes_season": 1164.0
+ },
+ "current": {
+  "ability": 58.1,
+  "score_position": 52.4,
+  "score_style": 63.9,
+  "groups": {
+   "prod": 37.9,
+   "progress": 48.7,
+   "chance": 26.3,
+   "stability": 67.6,
+   "defense": 63.6
+  }
+ },
+ "style": {
+  "primary": "수비형 파괴자",
+  "confidence": 0.24
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.5532,
+  "mu": 56.9,
+  "ci80": {
+   "lo": 46.3,
+   "hi": 67.4
+  },
+  "ci50": {
+   "lo": 51.3,
+   "hi": 62.5
+  },
+  "sigma_model": 1.7,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "52611641",
+   "season": 2020,
+   "distance": 1.446,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Lucas Torreira",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "788b31e2",
+   "season": 2019,
+   "distance": 2.15,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ádám Nagy",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "3bb625ac",
+   "season": 2019,
+   "distance": 2.212,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Edimilson Fernandes",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "bf309d24",
+   "season": 2020,
+   "distance": 2.22,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Amadou Diawara",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "c6e8cf1f",
+   "season": 2020,
+   "distance": 2.245,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Saša Lukić",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "b6dac747",
+   "season": 2019,
+   "distance": 2.276,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lebogang Phiri",
+   "squad": "Guingamp"
+  },
+  {
+   "fbref_id": "8e48dc61",
+   "season": 2020,
+   "distance": 2.328,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ander Guevara",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "52611641",
+   "season": 2019,
+   "distance": 2.344,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Lucas Torreira",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "c46fa34c",
+   "season": 2019,
+   "distance": 2.369,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Youssef Aït Bennasser",
+   "squad": "Monaco / Saint-Étienne"
+  },
+  {
+   "fbref_id": "b6dac747",
+   "season": 2018,
+   "distance": 2.375,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lebogang Phiri",
+   "squad": "Guingamp"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 89.1
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 85.3
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 84.1
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 77.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 65.5
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 62.6
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 60.3
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 3.4
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 16.8
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 20.9
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 24.7
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 25.6
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 45.8
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 44.5
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 65.5
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 49.6
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 26.7
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 89.1
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "수비형 파괴자",
+    "fit_z": 0.28
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.04
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.22
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 0.71
+    },
+    {
+     "label": "태클량",
+     "z": 0.54
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": -0.42
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 강화 여지 — 난이도를 높인 반복 훈련 (현재 66퍼센타일)",
+   "블록 안정화 단계 — 상황별 반복 훈련 (현재 41퍼센타일)",
+   "볼 리커버리 강화 여지 — 난이도를 높인 반복 훈련 (현재 56퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "블록 기초 교정",
+    "kpi": "블록: 41 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "볼 리커버리 실전 적용 반복",
+    "kpi": "볼 리커버리: 56 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "태클+인터셉트: 66 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.31,
+   "fouls_per90": 1.62,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 25.2,
+   "clean_pctl_fouls": 28.1
+  },
+  "availability": {
+   "minpct_mean": 34.0,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Yannik Engelhardt(MF)의 현재 능력 점수는 58.1점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 태클 성공률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 슈팅 시도이다.",
+  "potential": "Yannik Engelhardt의 2~3년 후 성장 예측 중심값은 56.9점, 80% 구간 상단(잠재력 상한)은 67.4점이다. 빅5 잔존확률은 55.3%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

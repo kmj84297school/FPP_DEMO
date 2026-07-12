@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n250145a",
+  "player_name": "Arthur Vermeeren",
+  "nation": "BEL",
+  "age_years": 19.0,
+  "squad": "RB Leipzig",
+  "comps": "Bundesliga",
+  "pos_primary": "MF",
+  "minutes_season": 1572.0
+ },
+ "current": {
+  "ability": 44.0,
+  "score_position": 39.4,
+  "score_style": 48.7,
+  "groups": {
+   "prod": 28.9,
+   "progress": 34.5,
+   "chance": 18.4,
+   "stability": 54.7,
+   "defense": 47.8
+  }
+ },
+ "style": {
+  "primary": "수비형 파괴자",
+  "confidence": 0.23
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.2928,
+  "mu": 51.7,
+  "ci80": {
+   "lo": 40.7,
+   "hi": 62.8
+  },
+  "ci50": {
+   "lo": 46.0,
+   "hi": 57.5
+  },
+  "sigma_model": 3.0,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ed5c5fa3",
+   "season": 2019,
+   "distance": 1.934,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Fran Beltrán",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "ab700320",
+   "season": 2018,
+   "distance": 2.016,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Arne Maier",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "c69ef855",
+   "season": 2018,
+   "distance": 2.106,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Alexis Blin",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "2b09d998",
+   "season": 2020,
+   "distance": 2.151,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Tyler Adams",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "7f622eef",
+   "season": 2018,
+   "distance": 2.204,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Assane Dioussé",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "ec30b9c8",
+   "season": 2018,
+   "distance": 2.271,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Samuel Bastien",
+   "squad": "Chievo"
+  },
+  {
+   "fbref_id": "ed5c5fa3",
+   "season": 2020,
+   "distance": 2.381,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Fran Beltrán",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "9228b07c",
+   "season": 2018,
+   "distance": 2.426,
+   "survived": 1,
+   "fut_ability_v2": 44.1,
+   "player_name": "Tom Davies",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "442b56fa",
+   "season": 2019,
+   "distance": 2.477,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "Ridle Baku",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "9228b07c",
+   "season": 2019,
+   "distance": 2.524,
+   "survived": 1,
+   "fut_ability_v2": 41.9,
+   "player_name": "Tom Davies",
+   "squad": "Everton"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 96.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 76.0
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 75.7
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 75.0
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 72.3
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 69.6
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 66.0
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 1.4
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 5.4
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 5.9
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 7.0
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 8.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 51.9
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 25.6
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 64.4
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 19.5
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 14.3
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 76.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "수비형 파괴자",
+    "fit_z": -0.02
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.25
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.89
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 0.44
+    },
+    {
+     "label": "태클량",
+     "z": -0.14
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": -0.37
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 강화 여지 — 난이도를 높인 반복 훈련 (현재 64퍼센타일)",
+   "블록 이미 강점 — 유지 및 응용 훈련 (상위 4퍼센타일)",
+   "볼 리커버리 이미 강점 — 유지 및 응용 훈련 (상위 25퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 64 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "볼 리커버리 실전 적용 반복",
+    "kpi": "볼 리커버리: 75 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "블록: 이미 상위 4퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.4,
+   "fouls_per90": 1.26,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 10.6,
+   "clean_pctl_fouls": 53.1
+  },
+  "availability": {
+   "minpct_mean": 51.4,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Arthur Vermeeren(MF)의 현재 능력 점수는 44.0점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 블록, 패스 성공률, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 박스 터치이다.",
+  "potential": "Arthur Vermeeren의 2~3년 후 성장 예측 중심값은 51.7점, 80% 구간 상단(잠재력 상한)은 62.8점이다. 빅5 잔존확률은 29.3%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

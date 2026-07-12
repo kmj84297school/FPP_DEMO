@@ -1,4 +1,4 @@
-"""2023시즌 검색 가능 선수 전체에 대해 강점/약점, Top3 스타일, 코칭 제안,
+"""대상 시즌 검색 가능 선수 전체에 대해 강점/약점, Top3 스타일, 코칭 제안,
 성장 로드맵을 계산해 캐시에 저장.
 """
 import sys, json, pathlib
@@ -11,22 +11,19 @@ from report_extras import (
     compute_pctl_and_style_fit, top_strengths, top_weaknesses, position_radar,
     top3_styles, style_evidence, coaching_advice, growth_roadmap,
 )
-
-DATA = ROOT / "data"
-CACHE = ROOT / "build" / "_cache"
-TARGET_YEAR = 2023
+from config import FEATURES_CSV, ABILITY_CSV, ELIGIBILITY_CSV, REPORT_EXTRAS_JSON, TARGET_YEAR
 
 if __name__ == "__main__":
-    features_df = pd.read_csv(DATA / "fpp_features_clean_2018_2023.csv", low_memory=False)
+    features_df = pd.read_csv(FEATURES_CSV, low_memory=False)
     cur = features_df[features_df["Season_End_Year"] == TARGET_YEAR].copy().set_index("fbref_id", drop=False)
 
-    elig = pd.read_csv(CACHE / "eligibility_2023.csv").set_index("fbref_id")
+    elig = pd.read_csv(ELIGIBILITY_CSV).set_index("fbref_id")
     searchable_ids = elig.index[elig["searchable"]]
     cur = cur.loc[cur.index.intersection(searchable_ids)]
 
     pctl, fit_all, Z = compute_pctl_and_style_fit(cur)
 
-    ability_df = pd.read_csv(DATA / "fpp_ability_v1_2018_2023.csv", low_memory=False)
+    ability_df = pd.read_csv(ABILITY_CSV, low_memory=False)
     style_lookup = ability_df[ability_df["Season_End_Year"] == TARGET_YEAR].set_index("fbref_id")["style"]
 
     out = {}
@@ -46,6 +43,6 @@ if __name__ == "__main__":
             "roadmap": growth_roadmap(prow, primary_style) if isinstance(primary_style, str) else [],
         }
 
-    with open(CACHE / "report_extras_2023.json", "w", encoding="utf-8") as f:
+    with open(REPORT_EXTRAS_JSON, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print("저장 완료:", len(out), "명 ->", CACHE / "report_extras_2023.json")
+    print("저장 완료:", len(out), "명 ->", REPORT_EXTRAS_JSON)

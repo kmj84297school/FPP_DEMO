@@ -3,278 +3,175 @@
   "fbref_id": "f7223718",
   "player_name": "Patric",
   "nation": "ESP",
-  "age_years": 29.0,
+  "age_years": 31.0,
   "squad": "Lazio",
   "comps": "Serie A",
   "pos_primary": "DF",
-  "minutes_2023": 752.0
+  "minutes_season": 607.0
  },
  "current": {
-  "ability": 40.5,
-  "score_position": 42.4,
-  "score_style": 38.5,
+  "ability": 51.5,
+  "score_position": 49.4,
+  "score_style": 53.5,
   "groups": {
-   "prod": 35.2,
-   "progress": 24.6,
-   "chance": 25.0,
-   "stability": 44.2,
-   "defense": 47.8
+   "prod": 59.9,
+   "progress": 50.3,
+   "chance": 35.7,
+   "stability": 62.2,
+   "defense": 34.1
   }
  },
  "style": {
   "primary": "빌드업 수비수",
-  "confidence": 0.65
+  "confidence": 1.23
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.445,
-  "mu": 51.5,
-  "ci80": {
-   "lo": 42.0,
-   "hi": 61.1
-  },
-  "ci50": {
-   "lo": 46.5,
-   "hi": 56.5
-  },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "474ecac8",
-   "season": 2018,
-   "distance": 2.2,
-   "survived": 1,
-   "fut_ability_v2": 46.9,
-   "player_name": "Sergio Postigo",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "8db394aa",
-   "season": 2018,
-   "distance": 2.28,
-   "survived": 1,
-   "fut_ability_v2": 43.1,
-   "player_name": "Ximo Navarro",
-   "squad": "Las Palmas"
-  },
-  {
-   "fbref_id": "1c344204",
-   "season": 2019,
-   "distance": 2.293,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Cédric Yamberé",
-   "squad": "Dijon"
-  },
-  {
-   "fbref_id": "247accfd",
-   "season": 2020,
-   "distance": 2.362,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bakaye Dibassy",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "28b40c9c",
-   "season": 2019,
-   "distance": 2.447,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Tim Ream",
-   "squad": "Fulham"
-  },
-  {
-   "fbref_id": "72b07a9c",
-   "season": 2020,
-   "distance": 2.462,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kiko Olivas",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "6690ef25",
-   "season": 2019,
-   "distance": 2.586,
-   "survived": 1,
-   "fut_ability_v2": 45.5,
-   "player_name": "Pedro Mendes",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "474ecac8",
-   "season": 2020,
-   "distance": 2.633,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sergio Postigo",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "0515a4cb",
-   "season": 2019,
-   "distance": 2.715,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Christophe Kerbrat",
-   "squad": "Guingamp"
-  },
-  {
-   "fbref_id": "6e5b5a45",
-   "season": 2019,
-   "distance": 2.738,
-   "survived": 1,
-   "fut_ability_v2": 48.4,
-   "player_name": "Wesley Lautoa",
-   "squad": "Dijon"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "Recov",
-    "label": "볼 리커버리",
-    "percentile": 87.3
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 100.0
    },
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 82.5
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 98.6
    },
    {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 80.5
-   },
-   {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 76.7
-   },
-   {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 73.7
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 95.2
    },
    {
     "key": "np_G",
     "label": "무페널티 득점",
-    "percentile": 68.1
+    "percentile": 93.6
    },
    {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 66.8
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 80.5
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 79.5
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 78.3
    }
   ],
   "weaknesses": [
    {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 1.0
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 1.4
    },
    {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 1.8
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 7.2
    },
    {
-    "key": "AerPct",
-    "label": "공중볼 승률",
-    "percentile": 5.1
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 8.5
    },
    {
     "key": "Err",
     "label": "실책",
-    "percentile": 7.8
+    "percentile": 11.9
    },
    {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 9.4
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 21.3
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 17.7
+    "percentile": 8.5
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 58.7
+    "percentile": 38.4
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 5.1
+    "percentile": 38.8
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 1.0
+    "percentile": 78.3
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 80.5
+    "percentile": 79.5
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 73.7
+    "percentile": 1.4
    }
   ],
   "top3_styles": [
    {
     "style": "빌드업 수비수",
-    "fit_z": 1.28
+    "fit_z": 0.84
    },
    {
     "style": "스토퍼",
-    "fit_z": 0.63
+    "fit_z": -0.39
    },
    {
     "style": "공격형 풀백",
-    "fit_z": -0.85
+    "fit_z": -0.88
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "롱패스 비중",
-     "z": 1.54
+     "label": "패스 관여도",
+     "z": 1.52
     },
     {
-     "label": "패스 관여도",
-     "z": 1.02
+     "label": "운반 비중",
+     "z": 0.17
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "전진 패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 1퍼센타일)",
+   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 22퍼센타일)",
+   "전진 운반 개선 필요 — 기초 반복 훈련 권장 (현재 하위 28퍼센타일)",
    "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 20퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "전진 패스 기초 교정",
-    "kpi": "전진 패스: 1 → 60 퍼센타일"
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 28 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "패스 성공률 실전 적용 반복",
-    "kpi": "패스 성공률: 80 → 90 퍼센타일"
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 78 → 90 퍼센타일"
    },
    {
     "phase": "12주+",
@@ -285,23 +182,23 @@
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.0,
-   "fouls_per90": 0.24,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 84.3,
-   "clean_pctl_fouls": 98.2
+   "yellows_per90": 0.3,
+   "fouls_per90": 0.74,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 16.9,
+   "clean_pctl_fouls": 73.6
   },
   "availability": {
-   "minpct_mean": 44.8,
-   "n_seasons": 6
+   "minpct_mean": 40.9,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 7.6,
-   "n_rated_seasons": 5
+   "ability_std": 6.8,
+   "n_rated_seasons": 6
   }
  },
  "narrative": {
-  "current": "Patric(DF)의 현재 능력 점수는 40.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 리커버리, 태클 성공률, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 박스 터치이다.",
-  "potential": "Patric의 2~3년 후 전성기 유지 예측 중심값은 51.5점, 80% 구간 상단(잠재력 상한)은 61.1점이다. 빅5 현역 유지확률은 44.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Patric(DF)의 현재 능력 점수는 51.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 성공 드리블이다.",
+  "potential": null
  }
 }

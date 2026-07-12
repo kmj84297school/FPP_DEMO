@@ -3,111 +3,215 @@
   "fbref_id": "fd51b456",
   "player_name": "Lucas Vázquez",
   "nation": "ESP",
-  "age_years": 31.0,
+  "age_years": 33.0,
   "squad": "Real Madrid",
   "comps": "La Liga",
   "pos_primary": "DF",
-  "minutes_2023": 275.0
+  "minutes_season": 2189.0
  },
  "current": {
-  "ability": 61.3,
-  "score_position": 56.3,
-  "score_style": 66.3,
+  "ability": 55.6,
+  "score_position": 51.3,
+  "score_style": 59.8,
   "groups": {
-   "prod": 89.7,
-   "progress": 54.4,
-   "chance": 81.5,
-   "stability": 60.3,
-   "defense": 34.1
+   "prod": 69.7,
+   "progress": 66.5,
+   "chance": 89.1,
+   "stability": 50.1,
+   "defense": 23.5
   }
  },
  "style": {
-  "primary": "공격형 풀백",
-  "confidence": 0.72
+  "primary": "빌드업 수비수",
+  "confidence": 0.22
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.3312,
+  "mu": 57.0,
+  "ci80": {
+   "lo": 47.7,
+   "hi": 66.2
+  },
+  "ci50": {
+   "lo": 52.0,
+   "hi": 61.8
+  },
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "be927d03",
+   "season": 2018,
+   "distance": 2.556,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Ashley Young",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "cfd8d664",
+   "season": 2019,
+   "distance": 2.719,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanfran",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "b18095b6",
+   "season": 2018,
+   "distance": 2.779,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leighton Baines",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2020,
+   "distance": 2.819,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2019,
+   "distance": 3.0,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "5e6342d4",
+   "season": 2018,
+   "distance": 3.179,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Bessat",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "767212e6",
+   "season": 2020,
+   "distance": 3.182,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Faussurier",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2020,
+   "distance": 3.214,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "d003e213",
+   "season": 2018,
+   "distance": 3.237,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafinha",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "6d8f8441",
+   "season": 2019,
+   "distance": 3.287,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Coke",
+   "squad": "Levante"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "np_G",
-    "label": "무페널티 득점",
-    "percentile": 100.0
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 96.9
    },
    {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 100.0
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 96.2
    },
    {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 100.0
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 93.9
    },
    {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 99.7
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 93.3
    },
    {
-    "key": "PPA",
-    "label": "박스 진입 패스",
-    "percentile": 99.5
-   },
-   {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 98.5
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 90.9
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 95.9
+    "percentile": 90.2
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 89.8
    }
   ],
   "weaknesses": [
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 1.6
+   },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
     "percentile": 1.8
    },
    {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 2.0
-   },
-   {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 5.8
+    "percentile": 3.8
    },
    {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 13.9
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 19.9
    },
    {
     "key": "PrgDistP",
     "label": "전진 패스 거리",
-    "percentile": 14.2
+    "percentile": 28.3
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 73.4
+    "percentile": 64.9
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 5.8
+    "percentile": 3.8
    },
    {
     "key": "AerPct",
@@ -117,92 +221,88 @@
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 34.9
+    "percentile": 69.9
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 93.9
+    "percentile": 71.3
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 13.9
+    "percentile": 29.0
    }
   ],
   "top3_styles": [
    {
-    "style": "공격형 풀백",
-    "fit_z": 0.66
+    "style": "빌드업 수비수",
+    "fit_z": 0.77
    },
    {
-    "style": "빌드업 수비수",
-    "fit_z": -0.06
+    "style": "공격형 풀백",
+    "fit_z": 0.56
    },
    {
     "style": "스토퍼",
-    "fit_z": -1.48
+    "fit_z": -1.42
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "공격 3분의1 활동 비중",
-     "z": 1.85
+     "label": "패스 관여도",
+     "z": 1.1
     },
     {
-     "label": "크로스 비중",
-     "z": 0.24
+     "label": "운반 비중",
+     "z": 0.45
     }
    ],
-   "bottom": [
-    {
-     "label": "드리블 시도 비중",
-     "z": -0.12
-    }
-   ]
+   "bottom": []
   },
   "coaching": [
-   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 62퍼센타일)",
-   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 10퍼센타일)"
+   "전진 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 70퍼센타일)",
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 65퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 29퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "성공 드리블 기초 교정",
-    "kpi": "성공 드리블: 62 → 80 퍼센타일"
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 65 → 80 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "키패스 실전 적용 반복",
-    "kpi": "키패스: 이미 상위 10퍼센타일 — 유지"
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 70 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "키패스: 이미 상위 10퍼센타일 — 유지"
+    "kpi": "패스 성공률: 71 → 80 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.0,
-   "fouls_per90": 1.31,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 84.3,
-   "clean_pctl_fouls": 17.0
+   "yellows_per90": 0.16,
+   "fouls_per90": 1.19,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 56.1,
+   "clean_pctl_fouls": 29.5
   },
   "availability": {
-   "minpct_mean": 42.2,
-   "n_seasons": 6
+   "minpct_mean": 45.4,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 6.3,
-   "n_rated_seasons": 6
+   "ability_std": 7.2,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Lucas Vázquez(DF)의 현재 능력 점수는 61.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 유효슈팅, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": null
+  "current": "Lucas Vázquez(DF)의 현재 능력 점수는 55.6점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 수신, 도움 기대값(xAG), 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
+  "potential": "Lucas Vázquez의 2~3년 후 전성기 유지 예측 중심값은 57.0점, 80% 구간 상단(잠재력 상한)은 66.2점이다. 빅5 현역 유지확률은 33.1%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

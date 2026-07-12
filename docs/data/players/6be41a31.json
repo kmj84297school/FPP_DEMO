@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "6be41a31",
+  "player_name": "Yann Gboho",
+  "nation": "FRA",
+  "age_years": 23.0,
+  "squad": "Toulouse",
+  "comps": "Ligue 1",
+  "pos_primary": "MF",
+  "minutes_season": 2333.0
+ },
+ "current": {
+  "ability": 58.7,
+  "score_position": 56.4,
+  "score_style": 60.8,
+  "groups": {
+   "prod": 80.5,
+   "progress": 67.0,
+   "chance": 65.2,
+   "stability": 24.9,
+   "defense": 14.2
+  }
+ },
+ "style": {
+  "primary": "볼 운반형",
+  "confidence": 0.76
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.8493,
+  "mu": 63.2,
+  "ci80": {
+   "lo": 52.5,
+   "hi": 73.8
+  },
+  "ci50": {
+   "lo": 57.5,
+   "hi": 68.8
+  },
+  "sigma_model": 2.0,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "01eb744d",
+   "season": 2018,
+   "distance": 1.874,
+   "survived": 1,
+   "fut_ability_v2": 65.9,
+   "player_name": "Ángel Correa",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "3ef0fa48",
+   "season": 2019,
+   "distance": 2.483,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Gelson Martins",
+   "squad": "Monaco / Atlético Madrid"
+  },
+  {
+   "fbref_id": "3708e9fa",
+   "season": 2019,
+   "distance": 2.526,
+   "survived": 1,
+   "fut_ability_v2": 71.7,
+   "player_name": "Aleksandr Golovin",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "81d3318f",
+   "season": 2019,
+   "distance": 2.531,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Kamano",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "15b287da",
+   "season": 2020,
+   "distance": 2.572,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Daichi Kamada",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "b2bd0f6c",
+   "season": 2020,
+   "distance": 2.665,
+   "survived": 1,
+   "fut_ability_v2": 65.3,
+   "player_name": "Jonathan Bamba",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "d7553721",
+   "season": 2019,
+   "distance": 2.674,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Giovani Lo Celso",
+   "squad": "Betis / Paris S-G"
+  },
+  {
+   "fbref_id": "f4bc42b1",
+   "season": 2019,
+   "distance": 2.714,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Sada Thioub",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "c47541e0",
+   "season": 2019,
+   "distance": 2.719,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Bertrand Traoré",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "dc62fbee",
+   "season": 2018,
+   "distance": 2.751,
+   "survived": 1,
+   "fut_ability_v2": 53.7,
+   "player_name": "Leonardo Bittencourt",
+   "squad": "Köln"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 98.4
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 97.0
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 95.5
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 95.2
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 92.3
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 87.7
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 86.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 0.7
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 6.3
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 6.3
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 7.3
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 8.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 40.3
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 58.0
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 8.2
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 98.4
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 75.3
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 17.2
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "볼 운반형",
+    "fit_z": 2.99
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": 2.23
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.09
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 3.35
+    },
+    {
+     "label": "운반 비중",
+     "z": 2.63
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 2퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 4퍼센타일)",
+   "전진 운반 거리 이미 강점 — 유지 및 응용 훈련 (상위 12퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 거리 기초 교정",
+    "kpi": "전진 운반 거리: 88 → 90 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 이미 상위 4퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 이미 상위 2퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.08,
+   "fouls_per90": 0.62,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 87.7,
+   "clean_pctl_fouls": 92.5
+  },
+  "availability": {
+   "minpct_mean": 31.4,
+   "n_seasons": 3
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Yann Gboho(MF)의 현재 능력 점수는 58.7점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 전진 운반, 박스 터치, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 볼 손실(미스+파울)이다.",
+  "potential": "Yann Gboho의 2~3년 후 성장 예측 중심값은 63.2점, 80% 구간 상단(잠재력 상한)은 73.8점이다. 빅5 잔존확률은 84.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

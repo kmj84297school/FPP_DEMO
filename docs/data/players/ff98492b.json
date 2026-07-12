@@ -3,310 +3,207 @@
   "fbref_id": "ff98492b",
   "player_name": "Robert Skov",
   "nation": "DEN",
-  "age_years": 26.0,
-  "squad": "Hoffenheim",
+  "age_years": 28.0,
+  "squad": "Union Berlin",
   "comps": "Bundesliga",
   "pos_primary": "DF",
-  "minutes_2023": 742.0
+  "minutes_season": 852.0
  },
  "current": {
-  "ability": 52.6,
-  "score_position": 44.4,
-  "score_style": 60.9,
+  "ability": 57.3,
+  "score_position": 48.0,
+  "score_style": 66.6,
   "groups": {
-   "prod": 84.6,
-   "progress": 57.9,
-   "chance": 87.3,
-   "stability": 18.9,
-   "defense": 30.0
+   "prod": 85.3,
+   "progress": 63.8,
+   "chance": 98.0,
+   "stability": 25.7,
+   "defense": 28.2
   }
  },
  "style": {
   "primary": "공격형 풀백",
-  "confidence": 1.48
+  "confidence": 1.84
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.3432,
-  "mu": 50.6,
-  "ci80": {
-   "lo": 41.2,
-   "hi": 60.1
-  },
-  "ci50": {
-   "lo": 45.6,
-   "hi": 55.6
-  },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "79c90e45",
-   "season": 2020,
-   "distance": 1.776,
-   "survived": 1,
-   "fut_ability_v2": 60.9,
-   "player_name": "Pavel Kadeřábek",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "9f323c71",
-   "season": 2018,
-   "distance": 1.857,
-   "survived": 1,
-   "fut_ability_v2": 50.2,
-   "player_name": "Óscar de Marcos",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "b3b7f5a6",
-   "season": 2018,
-   "distance": 1.971,
-   "survived": 1,
-   "fut_ability_v2": 53.3,
-   "player_name": "Timothy Chandler",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "f2308b33",
-   "season": 2019,
-   "distance": 2.135,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jonathan Silva",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "ef5b337e",
-   "season": 2018,
-   "distance": 2.149,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fabio Borini",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "5f09991f",
-   "season": 2020,
-   "distance": 2.317,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Patrick van Aanholt",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "e726e11e",
-   "season": 2018,
-   "distance": 2.359,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Victor Moses",
-   "squad": "Chelsea"
-  },
-  {
-   "fbref_id": "9038c2a1",
-   "season": 2019,
-   "distance": 2.388,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jason",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "f45f9427",
-   "season": 2020,
-   "distance": 2.41,
-   "survived": 1,
-   "fut_ability_v2": 45.5,
-   "player_name": "Dalbert Henrique",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "088ca1bd",
-   "season": 2018,
-   "distance": 2.41,
-   "survived": 1,
-   "fut_ability_v2": 54.7,
-   "player_name": "Jonathan Schmid",
-   "squad": "Augsburg"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 100.0
-   },
-   {
-    "key": "SoT",
-    "label": "유효슈팅",
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
     "percentile": 99.0
    },
    {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 97.5
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 98.7
    },
    {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 95.7
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 94.7
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 98.4
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 93.9
+    "percentile": 98.3
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 98.2
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 98.0
    },
    {
     "key": "PPA",
     "label": "박스 진입 패스",
-    "percentile": 90.9
+    "percentile": 96.7
    }
   ],
   "weaknesses": [
    {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 9.9
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 0.9
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 11.1
+    "percentile": 1.4
    },
    {
-    "key": "AerPct",
-    "label": "공중볼 승률",
-    "percentile": 14.2
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 7.8
    },
    {
-    "key": "Clr",
-    "label": "클리어링",
-    "percentile": 16.2
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 16.9
    },
    {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 17.2
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 18.2
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 9.9
+    "percentile": 34.2
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 16.2
+    "percentile": 0.9
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 14.2
+    "percentile": 19.2
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 52.4
+    "percentile": 62.6
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 11.1
+    "percentile": 1.4
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 66.1
+    "percentile": 18.2
    }
   ],
   "top3_styles": [
    {
     "style": "공격형 풀백",
-    "fit_z": 1.13
+    "fit_z": 1.73
    },
    {
     "style": "빌드업 수비수",
-    "fit_z": -0.36
+    "fit_z": -0.11
    },
    {
     "style": "스토퍼",
-    "fit_z": -0.95
+    "fit_z": -1.25
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "공격 3분의1 활동 비중",
-     "z": 1.57
+     "label": "크로스 비중",
+     "z": 2.71
     },
     {
-     "label": "크로스 비중",
-     "z": 1.41
+     "label": "공격 3분의1 활동 비중",
+     "z": 1.55
     }
    ],
    "bottom": [
     {
      "label": "드리블 시도 비중",
-     "z": 0.4
+     "z": 0.94
     }
    ]
   },
   "coaching": [
-   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 51퍼센타일)",
-   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 6퍼센타일)"
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 8퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 30퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 2퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
     "focus": "성공 드리블 기초 교정",
-    "kpi": "성공 드리블: 51 → 70 퍼센타일"
+    "kpi": "성공 드리블: 70 → 80 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "키패스 실전 적용 반복",
-    "kpi": "키패스: 이미 상위 6퍼센타일 — 유지"
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 이미 상위 8퍼센타일 — 유지"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "키패스: 이미 상위 6퍼센타일 — 유지"
+    "kpi": "키패스: 이미 상위 2퍼센타일 — 유지"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.12,
-   "fouls_per90": 1.09,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 67.3,
-   "clean_pctl_fouls": 29.6
+   "yellows_per90": 0.11,
+   "fouls_per90": 1.48,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 79.3,
+   "clean_pctl_fouls": 14.5
   },
   "availability": {
-   "minpct_mean": 50.3,
-   "n_seasons": 4
+   "minpct_mean": 45.8,
+   "n_seasons": 5
   },
   "consistency": {
-   "ability_std": 1.6,
-   "n_rated_seasons": 3
+   "ability_std": 2.6,
+   "n_rated_seasons": 4
   }
  },
  "narrative": {
-  "current": "Robert Skov(DF)의 현재 능력 점수는 52.6점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 시도, 유효슈팅, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 패스 성공률이다.",
-  "potential": "Robert Skov의 2~3년 후 전성기 유지 예측 중심값은 50.6점, 80% 구간 상단(잠재력 상한)은 60.1점이다. 빅5 현역 유지확률은 34.3%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Robert Skov(DF)의 현재 능력 점수는 57.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 창출(SCA), 슈팅 시도, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 패스 성공률이다.",
+  "potential": null
  }
 }

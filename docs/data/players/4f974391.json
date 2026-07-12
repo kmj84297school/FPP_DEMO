@@ -3,310 +3,207 @@
   "fbref_id": "4f974391",
   "player_name": "Aaron Cresswell",
   "nation": "ENG",
-  "age_years": 32.0,
+  "age_years": 34.0,
   "squad": "West Ham",
   "comps": "Premier League",
   "pos_primary": "DF",
-  "minutes_2023": 1060.0
+  "minutes_season": 824.0
  },
  "current": {
-  "ability": 56.9,
-  "score_position": 51.6,
-  "score_style": 62.1,
+  "ability": 56.3,
+  "score_position": 57.1,
+  "score_style": 55.4,
   "groups": {
-   "prod": 52.7,
-   "progress": 65.0,
-   "chance": 79.7,
-   "stability": 31.3,
-   "defense": 40.9
+   "prod": 42.1,
+   "progress": 44.6,
+   "chance": 56.1,
+   "stability": 66.1,
+   "defense": 49.3
   }
  },
  "style": {
   "primary": "공격형 풀백",
-  "confidence": 0.11
+  "confidence": 0.16
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.1799,
-  "mu": 55.6,
-  "ci80": {
-   "lo": 46.2,
-   "hi": 65.0
-  },
-  "ci50": {
-   "lo": 50.7,
-   "hi": 60.5
-  },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "00b0bb87",
-   "season": 2018,
-   "distance": 2.28,
-   "survived": 1,
-   "fut_ability_v2": 46.6,
-   "player_name": "Fabrizio Cacciatore",
-   "squad": "Chievo"
-  },
-  {
-   "fbref_id": "487d9b09",
-   "season": 2018,
-   "distance": 2.436,
-   "survived": 1,
-   "fut_ability_v2": 43.6,
-   "player_name": "Antonio Barragán",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "eda40760",
-   "season": 2020,
-   "distance": 2.511,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aleksandar Kolarov",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "be927d03",
-   "season": 2019,
-   "distance": 2.595,
-   "survived": 1,
-   "fut_ability_v2": 50.4,
-   "player_name": "Ashley Young",
-   "squad": "Manchester Utd"
-  },
-  {
-   "fbref_id": "a7813ac4",
-   "season": 2019,
-   "distance": 2.672,
-   "survived": 1,
-   "fut_ability_v2": 50.3,
-   "player_name": "Daniel Brosinski",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "eda40760",
-   "season": 2019,
-   "distance": 2.728,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aleksandar Kolarov",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "b69261a0",
-   "season": 2019,
-   "distance": 2.801,
-   "survived": 1,
-   "fut_ability_v2": 45.7,
-   "player_name": "Oscar Wendt",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "ba5004e1",
-   "season": 2019,
-   "distance": 2.871,
-   "survived": 1,
-   "fut_ability_v2": 52.5,
-   "player_name": "Damián Suárez",
-   "squad": "Getafe"
-  },
-  {
-   "fbref_id": "767212e6",
-   "season": 2020,
-   "distance": 2.874,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Julien Faussurier",
-   "squad": "Brest"
-  },
-  {
-   "fbref_id": "edd1466a",
-   "season": 2020,
-   "distance": 2.895,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fouad Chafik",
-   "squad": "Dijon"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 98.0
-   },
-   {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 94.2
-   },
-   {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 93.9
-   },
-   {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 89.9
-   },
-   {
-    "key": "PPA",
-    "label": "박스 진입 패스",
-    "percentile": 86.3
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 97.2
    },
    {
     "key": "F3Pass",
     "label": "최종 3분의1 패스",
-    "percentile": 85.1
+    "percentile": 93.5
    },
    {
     "key": "PrgDistP",
     "label": "전진 패스 거리",
-    "percentile": 84.3
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 10.1
+    "percentile": 89.3
    },
    {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 19.5
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 88.8
    },
    {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 21.5
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 85.8
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 80.0
    },
    {
     "key": "Err",
     "label": "실책",
-    "percentile": 26.6
+    "percentile": 67.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 2.6
    },
    {
-    "key": "Recov",
-    "label": "볼 리커버리",
-    "percentile": 30.4
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 14.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 18.3
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 19.5
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 21.3
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 21.5
+    "percentile": 18.3
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 46.6
+    "percentile": 59.4
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 79.2
+    "percentile": 62.5
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 89.9
+    "percentile": 65.8
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 35.9
+    "percentile": 44.7
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 46.6
+    "percentile": 28.6
    }
   ],
   "top3_styles": [
    {
     "style": "공격형 풀백",
-    "fit_z": 0.7
+    "fit_z": -0.08
    },
    {
     "style": "빌드업 수비수",
-    "fit_z": 0.59
+    "fit_z": -0.25
    },
    {
     "style": "스토퍼",
-    "fit_z": -0.4
+    "fit_z": -0.46
    }
   ],
   "style_evidence": {
    "top": [
     {
      "label": "크로스 비중",
-     "z": 1.74
+     "z": 0.75
     },
     {
      "label": "공격 3분의1 활동 비중",
-     "z": 0.92
+     "z": -0.19
     }
    ],
    "bottom": [
     {
      "label": "드리블 시도 비중",
-     "z": -0.57
+     "z": -0.81
     }
    ]
   },
   "coaching": [
-   "성공 드리블 안정화 단계 — 상황별 반복 훈련 (현재 40퍼센타일)",
-   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 2퍼센타일)"
+   "전진 운반 개선 필요 — 기초 반복 훈련 권장 (현재 하위 32퍼센타일)",
+   "성공 드리블 개선 필요 — 기초 반복 훈련 권장 (현재 하위 20퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 20퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
     "focus": "성공 드리블 기초 교정",
-    "kpi": "성공 드리블: 40 → 60 퍼센타일"
+    "kpi": "성공 드리블: 20 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "키패스 실전 적용 반복",
-    "kpi": "키패스: 이미 상위 2퍼센타일 — 유지"
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 32 → 60 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "키패스: 이미 상위 2퍼센타일 — 유지"
+    "kpi": "키패스: 80 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.17,
-   "fouls_per90": 0.51,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 52.4,
-   "clean_pctl_fouls": 81.3
+   "yellows_per90": 0.33,
+   "fouls_per90": 0.44,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 12.9,
+   "clean_pctl_fouls": 94.2
   },
   "availability": {
-   "minpct_mean": 79.7,
-   "n_seasons": 6
+   "minpct_mean": 71.7,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 2.0,
-   "n_rated_seasons": 6
+   "ability_std": 1.8,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Aaron Cresswell(DF)의 현재 능력 점수는 56.9점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 도움 기대값(xAG), 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 박스 터치이다.",
-  "potential": "Aaron Cresswell의 2~3년 후 전성기 유지 예측 중심값은 55.6점, 80% 구간 상단(잠재력 상한)은 65.0점이다. 빅5 현역 유지확률은 18.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Aaron Cresswell(DF)의 현재 능력 점수는 56.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 태클 성공률, 최종 3분의1 패스, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 운반 거리이다.",
+  "potential": null
  }
 }

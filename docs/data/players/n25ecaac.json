@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n25ecaac",
+  "player_name": "Juan Herzog",
+  "nation": "ESP",
+  "age_years": 21.0,
+  "squad": "Las Palmas",
+  "comps": "La Liga",
+  "pos_primary": "DF",
+  "minutes_season": 1315.0
+ },
+ "current": {
+  "ability": 54.9,
+  "score_position": 50.9,
+  "score_style": 58.9,
+  "groups": {
+   "prod": 50.8,
+   "progress": 16.1,
+   "chance": 7.1,
+   "stability": 77.8,
+   "defense": 53.1
+  }
+ },
+ "style": {
+  "primary": "스토퍼",
+  "confidence": 2.31
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.8061,
+  "mu": 62.4,
+  "ci80": {
+   "lo": 51.7,
+   "hi": 73.0
+  },
+  "ci50": {
+   "lo": 56.7,
+   "hi": 68.0
+  },
+  "sigma_model": 2.0,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "84594618",
+   "season": 2019,
+   "distance": 1.399,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Filippo Romagna",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "d2110326",
+   "season": 2019,
+   "distance": 1.469,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Mouctar Diakhaby",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "be170419",
+   "season": 2020,
+   "distance": 1.61,
+   "survived": 1,
+   "fut_ability_v2": 47.1,
+   "player_name": "Unai Núñez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "94f8d10c",
+   "season": 2019,
+   "distance": 1.644,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Duje Ćaleta-Car",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "bd7d2e6d",
+   "season": 2019,
+   "distance": 1.827,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Timo Baumgartl",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "dbe5a587",
+   "season": 2018,
+   "distance": 2.012,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mauricio Lemos",
+   "squad": "Las Palmas / Sassuolo"
+  },
+  {
+   "fbref_id": "1232e1dc",
+   "season": 2020,
+   "distance": 2.09,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joris Gnagnon",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "da7b447d",
+   "season": 2019,
+   "distance": 2.096,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Davinson Sánchez",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "fe6a7685",
+   "season": 2020,
+   "distance": 2.127,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Cistana",
+   "squad": "Brescia"
+  },
+  {
+   "fbref_id": "cce9f582",
+   "season": 2019,
+   "distance": 2.15,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Giangiacomo Magnani",
+   "squad": "Sassuolo"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 99.1
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 91.6
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 87.9
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 81.4
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 80.0
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 72.4
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 71.7
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 0.9
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 3.3
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 3.6
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 6.4
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 7.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 17.9
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 87.9
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 81.4
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 6.4
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 66.3
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 49.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 1.41
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.9
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -1.02
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공중볼 경합량",
+     "z": 1.52
+    },
+    {
+     "label": "자책 박스 활동 비중",
+     "z": 1.45
+    }
+   ],
+   "bottom": [
+    {
+     "label": "클리어링량",
+     "z": 1.27
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 개선 필요 — 기초 반복 훈련 권장 (현재 하위 18퍼센타일)",
+   "클리어링 이미 강점 — 유지 및 응용 훈련 (상위 12퍼센타일)",
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 8퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 18 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "클리어링 실전 적용 반복",
+    "kpi": "클리어링: 88 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "공중볼 승리: 이미 상위 8퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.07,
+   "fouls_per90": 0.41,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 88.5,
+   "clean_pctl_fouls": 95.7
+  },
+  "availability": {
+   "minpct_mean": 38.5,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Juan Herzog(DF)의 현재 능력 점수는 54.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 공중볼 승리, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
+  "potential": "Juan Herzog의 2~3년 후 성장 예측 중심값은 62.4점, 80% 구간 상단(잠재력 상한)은 73.0점이다. 빅5 잔존확률은 80.6%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

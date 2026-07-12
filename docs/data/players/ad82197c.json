@@ -3,311 +3,202 @@
   "fbref_id": "ad82197c",
   "player_name": "Axel Disasi",
   "nation": "FRA",
-  "age_years": 24.0,
-  "squad": "Monaco",
-  "comps": "Ligue 1",
+  "age_years": 26.0,
+  "squad": "Aston Villa / Chelsea",
+  "comps": "Premier League",
   "pos_primary": "DF",
-  "minutes_2023": 1170.0
+  "minutes_season": 854.0
  },
  "current": {
-  "ability": 65.2,
-  "score_position": 64.1,
-  "score_style": 66.1,
+  "ability": 52.8,
+  "score_position": 49.1,
+  "score_style": 56.4,
   "groups": {
-   "prod": 63.2,
-   "progress": 64.0,
-   "chance": 56.0,
-   "stability": 39.0,
-   "defense": 70.2
+   "prod": 56.2,
+   "progress": 64.9,
+   "chance": 46.1,
+   "stability": 55.1,
+   "defense": 28.2
   }
  },
  "style": {
-  "primary": "스토퍼",
-  "confidence": 0.2
+  "primary": "빌드업 수비수",
+  "confidence": 0.95
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.5668,
-  "mu": 61.1,
-  "ci80": {
-   "lo": 51.7,
-   "hi": 70.6
-  },
-  "ci50": {
-   "lo": 56.1,
-   "hi": 66.0
-  },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "d8931174",
-   "season": 2018,
-   "distance": 1.501,
-   "survived": 1,
-   "fut_ability_v2": 70.3,
-   "player_name": "Harry Maguire",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "c40b6180",
-   "season": 2020,
-   "distance": 1.625,
-   "survived": 1,
-   "fut_ability_v2": 62.5,
-   "player_name": "Adam Webster",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "791abba1",
-   "season": 2018,
-   "distance": 1.633,
-   "survived": 1,
-   "fut_ability_v2": 68.5,
-   "player_name": "Salif Sané",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "8c725b43",
-   "season": 2018,
-   "distance": 1.689,
-   "survived": 1,
-   "fut_ability_v2": 52.3,
-   "player_name": "Germán Pezzella",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "89976232",
-   "season": 2019,
-   "distance": 1.736,
-   "survived": 1,
-   "fut_ability_v2": 59.1,
-   "player_name": "Armando Izzo",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "857a5abe",
-   "season": 2019,
-   "distance": 1.76,
-   "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "Stefan Bell",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "3f2d59fe",
-   "season": 2019,
-   "distance": 1.866,
-   "survived": 1,
-   "fut_ability_v2": 62.1,
-   "player_name": "Shkodran Mustafi",
-   "squad": "Arsenal"
-  },
-  {
-   "fbref_id": "b18a3023",
-   "season": 2018,
-   "distance": 1.903,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Júnior Alonso",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "4b3e1a38",
-   "season": 2020,
-   "distance": 1.904,
-   "survived": 1,
-   "fut_ability_v2": 62.1,
-   "player_name": "Amir Rrahmani",
-   "squad": "Hellas Verona"
-  },
-  {
-   "fbref_id": "22721b88",
-   "season": 2020,
-   "distance": 1.915,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jordan Amavi",
-   "squad": "Marseille"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "AerPct",
-    "label": "공중볼 승률",
-    "percentile": 97.7
-   },
-   {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 94.2
-   },
-   {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 93.9
-   },
-   {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 89.9
-   },
-   {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 84.3
-   },
-   {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 77.7
-   },
-   {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 74.2
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 24.8
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 30.1
-   },
-   {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 37.2
-   },
-   {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 48.4
+    "percentile": 92.3
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 86.5
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 53.2
+    "percentile": 82.8
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 82.7
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 74.3
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 70.5
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 68.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 13.1
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 17.9
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 22.3
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 27.0
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 28.6
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 65.1
+    "percentile": 28.6
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 66.3
+    "percentile": 33.8
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 97.7
+    "percentile": 33.1
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 67.3
+    "percentile": 51.7
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 53.2
+    "percentile": 82.8
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 77.7
+    "percentile": 17.9
    }
   ],
   "top3_styles": [
    {
-    "style": "스토퍼",
-    "fit_z": 0.36
-   },
-   {
     "style": "빌드업 수비수",
-    "fit_z": 0.16
+    "fit_z": 0.73
    },
    {
     "style": "공격형 풀백",
-    "fit_z": -0.56
+    "fit_z": -0.22
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.43
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "자책 박스 활동 비중",
-     "z": 0.42
+     "label": "패스 관여도",
+     "z": 0.98
     },
     {
-     "label": "클리어링량",
-     "z": 0.37
+     "label": "운반 비중",
+     "z": 0.48
     }
    ],
-   "bottom": [
-    {
-     "label": "공중볼 경합량",
-     "z": 0.3
-    }
-   ]
+   "bottom": []
   },
   "coaching": [
-   "태클+인터셉트 강화 여지 — 난이도를 높인 반복 훈련 (현재 65퍼센타일)",
-   "클리어링 강화 여지 — 난이도를 높인 반복 훈련 (현재 66퍼센타일)",
-   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 16퍼센타일)"
+   "전진 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 52퍼센타일)",
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 30퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 17퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "태클+인터셉트 기초 교정",
-    "kpi": "태클+인터셉트: 65 → 80 퍼센타일"
+    "focus": "전진 패스 기초 교정",
+    "kpi": "전진 패스: 52 → 70 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "클리어링 실전 적용 반복",
-    "kpi": "클리어링: 66 → 80 퍼센타일"
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 70 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "공중볼 승리: 84 → 90 퍼센타일"
+    "kpi": "패스 성공률: 83 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.08,
-   "fouls_per90": 0.85,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 83.3,
-   "clean_pctl_fouls": 52.7
+   "yellows_per90": 0.32,
+   "fouls_per90": 0.53,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 14.5,
+   "clean_pctl_fouls": 89.3
   },
   "availability": {
-   "minpct_mean": 67.9,
-   "n_seasons": 5
+   "minpct_mean": 58.7,
+   "n_seasons": 6
   },
   "consistency": {
-   "ability_std": 2.6,
-   "n_rated_seasons": 4
+   "ability_std": 5.0,
+   "n_rated_seasons": 5
   }
  },
  "narrative": {
-  "current": "Axel Disasi(DF)의 현재 능력 점수는 65.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승률, 최종 3분의1 패스, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 패스 수신이다.",
-  "potential": "Axel Disasi의 2~3년 후 전성기 유지 예측 중심값은 61.1점, 80% 구간 상단(잠재력 상한)은 70.6점이다. 빅5 현역 유지확률은 56.7%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Axel Disasi(DF)의 현재 능력 점수는 52.8점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 성공 드리블, 무페널티 득점, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 블록이다.",
+  "potential": null
  }
 }

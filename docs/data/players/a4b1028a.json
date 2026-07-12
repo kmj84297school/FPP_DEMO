@@ -3,305 +3,207 @@
   "fbref_id": "a4b1028a",
   "player_name": "Hamari Traoré",
   "nation": "MLI",
-  "age_years": 30.0,
-  "squad": "Rennes",
-  "comps": "Ligue 1",
+  "age_years": 32.0,
+  "squad": "Real Sociedad",
+  "comps": "La Liga",
   "pos_primary": "DF",
-  "minutes_2023": 1003.0
+  "minutes_season": 700.0
  },
  "current": {
-  "ability": 64.4,
-  "score_position": 61.9,
-  "score_style": 66.9,
+  "ability": 55.6,
+  "score_position": 54.5,
+  "score_style": 56.6,
   "groups": {
-   "prod": 60.4,
-   "progress": 72.9,
-   "chance": 81.3,
-   "stability": 54.2,
-   "defense": 45.2
+   "prod": 28.0,
+   "progress": 52.9,
+   "chance": 65.7,
+   "stability": 57.5,
+   "defense": 44.0
   }
  },
  "style": {
-  "primary": "빌드업 수비수",
-  "confidence": 0.06
+  "primary": "공격형 풀백",
+  "confidence": 0.1
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.3718,
-  "mu": 58.6,
-  "ci80": {
-   "lo": 49.2,
-   "hi": 67.9
-  },
-  "ci50": {
-   "lo": 53.6,
-   "hi": 63.4
-  },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "86dd77d1",
-   "season": 2019,
-   "distance": 1.642,
-   "survived": 1,
-   "fut_ability_v2": 60.9,
-   "player_name": "Kyle Walker",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "487d9b09",
-   "season": 2018,
-   "distance": 1.865,
-   "survived": 1,
-   "fut_ability_v2": 43.6,
-   "player_name": "Antonio Barragán",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "99de6b6f",
-   "season": 2020,
-   "distance": 2.026,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Benjamin Hübner",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "44eb9093",
-   "season": 2018,
-   "distance": 2.117,
-   "survived": 1,
-   "fut_ability_v2": 54.5,
-   "player_name": "Danilo D'Ambrosio",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "2db2fd7b",
-   "season": 2018,
-   "distance": 2.161,
-   "survived": 1,
-   "fut_ability_v2": 64.2,
-   "player_name": "Jérôme Boateng",
-   "squad": "Bayern Munich"
-  },
-  {
-   "fbref_id": "e85fb9b8",
-   "season": 2018,
-   "distance": 2.193,
-   "survived": 1,
-   "fut_ability_v2": 59.0,
-   "player_name": "Giorgio Chiellini",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "d003e213",
-   "season": 2018,
-   "distance": 2.194,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rafinha",
-   "squad": "Bayern Munich"
-  },
-  {
-   "fbref_id": "d4cb83cc",
-   "season": 2019,
-   "distance": 2.195,
-   "survived": 1,
-   "fut_ability_v2": 47.5,
-   "player_name": "Nacho Monreal",
-   "squad": "Arsenal"
-  },
-  {
-   "fbref_id": "53cad200",
-   "season": 2019,
-   "distance": 2.256,
-   "survived": 1,
-   "fut_ability_v2": 69.9,
-   "player_name": "César Azpilicueta",
-   "squad": "Chelsea"
-  },
-  {
-   "fbref_id": "08511d65",
-   "season": 2018,
-   "distance": 2.258,
-   "survived": 1,
-   "fut_ability_v2": 62.8,
-   "player_name": "Sergio Ramos",
-   "squad": "Real Madrid"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 94.7
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 84.8
    },
    {
-    "key": "PPA",
-    "label": "박스 진입 패스",
-    "percentile": 93.9
-   },
-   {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 93.2
-   },
-   {
-    "key": "GCA",
-    "label": "골 창출(GCA)",
-    "percentile": 85.8
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 85.3
-   },
-   {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 81.8
-   },
-   {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 76.2
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "TklPct",
-    "label": "태클 성공률",
-    "percentile": 9.9
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 83.8
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 23.3
+    "percentile": 83.4
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 83.2
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 74.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 68.5
    },
    {
     "key": "Err",
     "label": "실책",
-    "percentile": 26.6
+    "percentile": 67.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 12.6
    },
    {
-    "key": "Recov",
-    "label": "볼 리커버리",
-    "percentile": 38.7
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 15.8
    },
    {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 39.2
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 23.0
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 26.8
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 29.0
    }
   ],
   "position_radar": [
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 44.1
+    "percentile": 83.8
    },
    {
     "key": "Clr",
     "label": "클리어링",
-    "percentile": 55.9
+    "percentile": 23.0
    },
    {
     "key": "AerPct",
     "label": "공중볼 승률",
-    "percentile": 67.0
+    "percentile": 29.0
    },
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 94.7
+    "percentile": 51.1
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 81.8
+    "percentile": 46.4
    },
    {
     "key": "Blocks",
     "label": "블록",
-    "percentile": 61.8
+    "percentile": 12.6
    }
   ],
   "top3_styles": [
    {
-    "style": "빌드업 수비수",
-    "fit_z": 0.09
+    "style": "공격형 풀백",
+    "fit_z": -0.02
    },
    {
-    "style": "공격형 풀백",
-    "fit_z": 0.03
+    "style": "빌드업 수비수",
+    "fit_z": -0.12
    },
    {
     "style": "스토퍼",
-    "fit_z": -0.54
+    "fit_z": -0.72
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "패스 관여도",
-     "z": 1.12
+     "label": "드리블 시도 비중",
+     "z": 0.22
     },
     {
-     "label": "롱패스 비중",
-     "z": -0.94
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.05
     }
    ],
-   "bottom": []
+   "bottom": [
+    {
+     "label": "크로스 비중",
+     "z": -0.31
+    }
+   ]
   },
   "coaching": [
-   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)",
-   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 18퍼센타일)"
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 66퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 17퍼센타일)",
+   "키패스 안정화 단계 — 상황별 반복 훈련 (현재 48퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "패스 성공률 기초 교정",
-    "kpi": "패스 성공률: 82 → 90 퍼센타일"
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 48 → 70 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "전진 패스 실전 적용 반복",
-    "kpi": "전진 패스: 이미 상위 5퍼센타일 — 유지"
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 66 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "전진 패스: 이미 상위 5퍼센타일 — 유지"
+    "kpi": "성공 드리블: 83 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.36,
-   "fouls_per90": 0.99,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 13.9,
-   "clean_pctl_fouls": 39.7
+   "yellows_per90": 0.26,
+   "fouls_per90": 1.54,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 27.0,
+   "clean_pctl_fouls": 11.5
   },
   "availability": {
-   "minpct_mean": 86.1,
-   "n_seasons": 6
+   "minpct_mean": 76.7,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 2.5,
-   "n_rated_seasons": 6
+   "ability_std": 4.2,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Hamari Traoré(DF)의 현재 능력 점수는 64.4점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스, 박스 진입 패스, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 성공 드리블이다.",
-  "potential": "Hamari Traoré의 2~3년 후 전성기 유지 예측 중심값은 58.6점, 80% 구간 상단(잠재력 상한)은 67.9점이다. 빅5 현역 유지확률은 37.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Hamari Traoré(DF)의 현재 능력 점수는 55.6점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 태클+인터셉트, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 전진 운반 거리이다.",
+  "potential": null
  }
 }

@@ -22,13 +22,12 @@ import unicodedata
 import pandas as pd
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-DATA = ROOT / "data"
-CACHE = ROOT / "build" / "_cache"
-DOCS_DATA = ROOT / "docs" / "data"
-TARGET_YEAR = 2023
-
 sys.path.insert(0, str(ROOT / "build" / "lib"))
 from report_extras import narrative_current, narrative_potential
+from config import (DATA, DOCS_DATA, FEATURES_CSV, ABILITY_CSV, ELIGIBILITY_CSV,
+                    ELIGIBILITY_META, PRED_GROWTH_CSV, PRED_PEAK_CSV,
+                    KNN_GROWTH_JSON, KNN_PEAK_JSON, REPORT_EXTRAS_JSON,
+                    QUALITATIVE_JSON, VETERAN_META, TARGET_YEAR, SEASON_LABEL)
 
 
 def ascii_fold(s):
@@ -49,38 +48,38 @@ def to_native(v):
 if __name__ == "__main__":
     (DOCS_DATA / "players").mkdir(parents=True, exist_ok=True)
 
-    ability_df = pd.read_csv(DATA / "fpp_ability_v1_2018_2023.csv", low_memory=False)
+    ability_df = pd.read_csv(ABILITY_CSV, low_memory=False)
     cur = ability_df[ability_df["Season_End_Year"] == TARGET_YEAR].copy()
 
-    elig = pd.read_csv(CACHE / "eligibility_2023.csv").set_index("fbref_id")
+    elig = pd.read_csv(ELIGIBILITY_CSV).set_index("fbref_id")
     cur = cur[cur["fbref_id"].isin(elig.index[elig["searchable"]])].copy()
 
     nation = (
-        pd.read_csv(DATA / "fpp_features_clean_2018_2023.csv", usecols=["fbref_id", "Season_End_Year", "Nation"], low_memory=False)
+        pd.read_csv(FEATURES_CSV, usecols=["fbref_id", "Season_End_Year", "Nation"], low_memory=False)
         .query("Season_End_Year == @TARGET_YEAR")
         .set_index("fbref_id")["Nation"]
     )
 
-    growth_pred = pd.read_csv(CACHE / "predictions_2023.csv").set_index("fbref_id")
-    with open(CACHE / "knn_2023.json", encoding="utf-8") as f:
+    growth_pred = pd.read_csv(PRED_GROWTH_CSV).set_index("fbref_id")
+    with open(KNN_GROWTH_JSON, encoding="utf-8") as f:
         growth_knn = json.load(f)
 
-    peak_pred = pd.read_csv(CACHE / "predictions_veteran_2023.csv").set_index("fbref_id")
-    with open(CACHE / "knn_veteran_2023.json", encoding="utf-8") as f:
+    peak_pred = pd.read_csv(PRED_PEAK_CSV).set_index("fbref_id")
+    with open(KNN_PEAK_JSON, encoding="utf-8") as f:
         peak_knn = json.load(f)
 
-    with open(CACHE / "eligibility_meta.json", encoding="utf-8") as f:
+    with open(ELIGIBILITY_META, encoding="utf-8") as f:
         u23_meta = json.load(f)
-    with open(CACHE / "veteran_meta.json", encoding="utf-8") as f:
+    with open(VETERAN_META, encoding="utf-8") as f:
         veteran_meta = json.load(f)
 
     u23_train = pd.read_csv(DATA / "fpp_train_matrix_v2.csv")
     veteran_train = pd.read_csv(DATA / "fpp_train_matrix_veteran.csv")
 
-    with open(CACHE / "report_extras_2023.json", encoding="utf-8") as f:
+    with open(REPORT_EXTRAS_JSON, encoding="utf-8") as f:
         report_extras = json.load(f)
 
-    with open(CACHE / "qualitative_2023.json", encoding="utf-8") as f:
+    with open(QUALITATIVE_JSON, encoding="utf-8") as f:
         qualitative = json.load(f)
 
     # ── 재조정 기준(SCALE) 산출: 전 시즌 능력 복합점수 + 예측치 + 실제 라벨 결과 통틀어 최댓값 ──
@@ -145,7 +144,7 @@ if __name__ == "__main__":
                 "squad": row["Squads"],
                 "comps": row["Comps"],
                 "pos_primary": row["pos_primary"],
-                "minutes_2023": to_native(row["std_Min_Playing"]),
+                "minutes_season": to_native(row["std_Min_Playing"]),
             },
             "current": {
                 "ability": scale(row["ability"]),
@@ -232,6 +231,7 @@ if __name__ == "__main__":
 
     meta_out = {
         **u23_meta,
+        "season_label": SEASON_LABEL,
         "veteran": {**veteran_meta, "mae": round(veteran_meta["mae"] * SCALE, 2)},
         "u23_mae": round(6.19 * SCALE, 2),
         "u23_r2": 0.231,

@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n252a559",
+  "player_name": "Alexander Bernhardsson",
+  "nation": "SWE",
+  "age_years": 25.0,
+  "squad": "Holstein Kiel",
+  "comps": "Bundesliga",
+  "pos_primary": "FW",
+  "minutes_season": 1263.0
+ },
+ "current": {
+  "ability": 58.0,
+  "score_position": 58.3,
+  "score_style": 57.7,
+  "groups": {
+   "prod": 58.0,
+   "progress": 46.5,
+   "chance": 55.0,
+   "stability": 30.1,
+   "defense": 75.1
+  }
+ },
+ "style": {
+  "primary": "돌파형 윙어",
+  "confidence": 0.03
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.325,
+  "mu": 55.1,
+  "ci80": {
+   "lo": 45.5,
+   "hi": 64.7
+  },
+  "ci50": {
+   "lo": 50.1,
+   "hi": 60.2
+  },
+  "sigma_model": 2.4,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "253a06b9",
+   "season": 2019,
+   "distance": 2.437,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Ezequiel Ávila",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "909222de",
+   "season": 2019,
+   "distance": 2.521,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuno da Costa",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "909222de",
+   "season": 2018,
+   "distance": 2.557,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuno da Costa",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "3ae14ed1",
+   "season": 2020,
+   "distance": 2.775,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Trézéguet",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "35f6db55",
+   "season": 2019,
+   "distance": 2.797,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Léo Baptistão",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "19b776e9",
+   "season": 2018,
+   "distance": 2.82,
+   "survived": 1,
+   "fut_ability_v2": 40.2,
+   "player_name": "Rubén Sobrino",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "e5f63987",
+   "season": 2019,
+   "distance": 2.883,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Ginczek",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "ecbb3fdf",
+   "season": 2019,
+   "distance": 2.906,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Schürrle",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "ffa90327",
+   "season": 2020,
+   "distance": 2.92,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anwar El Ghazi",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "a53b661f",
+   "season": 2020,
+   "distance": 3.082,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Ihlas Bebou",
+   "squad": "Hoffenheim"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 96.0
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 93.5
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 91.8
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 89.5
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 80.2
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 79.0
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 75.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 13.3
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 27.7
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 28.9
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 29.8
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 41.3
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 59.4
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 44.5
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 75.3
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 41.3
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 13.3
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 52.7
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 0.42
+   },
+   {
+    "style": "연결형 공격수",
+    "fit_z": 0.39
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": -0.42
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.92
+    },
+    {
+     "label": "크로스 비중",
+     "z": 0.74
+    }
+   ],
+   "bottom": [
+    {
+     "label": "운반 비중",
+     "z": -0.4
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 25퍼센타일)",
+   "전진 운반 안정화 단계 — 상황별 반복 훈련 (현재 41퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 53퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 41 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 53 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 75 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.21,
+   "fouls_per90": 1.5,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 28.7,
+   "clean_pctl_fouls": 32.2
+  },
+  "availability": {
+   "minpct_mean": 41.3,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Alexander Bernhardsson(FW)의 현재 능력 점수는 58.0점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 태클 성공률, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
+  "potential": "Alexander Bernhardsson의 2~3년 후 전성기 유지 예측 중심값은 55.1점, 80% 구간 상단(잠재력 상한)은 64.7점이다. 빅5 현역 유지확률은 32.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

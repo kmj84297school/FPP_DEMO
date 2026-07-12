@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "da76715c",
+  "player_name": "David Nemeth",
+  "nation": "AUT",
+  "age_years": 23.0,
+  "squad": "St. Pauli",
+  "comps": "Bundesliga",
+  "pos_primary": "DF",
+  "minutes_season": 2137.0
+ },
+ "current": {
+  "ability": 48.8,
+  "score_position": 46.3,
+  "score_style": 51.2,
+  "groups": {
+   "prod": 23.7,
+   "progress": 28.9,
+   "chance": 20.3,
+   "stability": 58.9,
+   "defense": 48.0
+  }
+ },
+ "style": {
+  "primary": "스토퍼",
+  "confidence": 0.19
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.7403,
+  "mu": 52.9,
+  "ci80": {
+   "lo": 42.2,
+   "hi": 63.4
+  },
+  "ci50": {
+   "lo": 47.2,
+   "hi": 58.5
+  },
+  "sigma_model": 1.9,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "da7b447d",
+   "season": 2020,
+   "distance": 1.155,
+   "survived": 1,
+   "fut_ability_v2": 68.4,
+   "player_name": "Davinson Sánchez",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "18abe173",
+   "season": 2020,
+   "distance": 1.318,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Joseph Aidoo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "41b3069f",
+   "season": 2019,
+   "distance": 1.327,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Fernando Calero",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "c00097d2",
+   "season": 2019,
+   "distance": 1.345,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Rober",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "de045b15",
+   "season": 2018,
+   "distance": 1.434,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Francesco Vicari",
+   "squad": "SPAL"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2019,
+   "distance": 1.499,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "3376a776",
+   "season": 2019,
+   "distance": 1.657,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Karim Rekik",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "bd7d2e6d",
+   "season": 2019,
+   "distance": 1.775,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Timo Baumgartl",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "70d8e84c",
+   "season": 2020,
+   "distance": 1.806,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chidozie Awaziem",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "deb748c9",
+   "season": 2020,
+   "distance": 1.962,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleš Matějů",
+   "squad": "Brescia"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 72.7
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 66.6
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 57.1
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 57.0
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 56.8
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 56.1
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 48.9
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 10.9
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 24.1
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 27.6
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 30.1
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 30.1
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 40.6
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 56.8
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 44.5
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 30.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 66.6
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 57.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 0.24
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.05
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.72
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "자책 박스 활동 비중",
+     "z": 0.57
+    },
+    {
+     "label": "공중볼 경합량",
+     "z": 0.09
+    }
+   ],
+   "bottom": [
+    {
+     "label": "클리어링량",
+     "z": 0.05
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 안정화 단계 — 상황별 반복 훈련 (현재 41퍼센타일)",
+   "클리어링 강화 여지 — 난이도를 높인 반복 훈련 (현재 57퍼센타일)",
+   "공중볼 승리 강화 여지 — 난이도를 높인 반복 훈련 (현재 57퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 41 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "클리어링 실전 적용 반복",
+    "kpi": "클리어링: 57 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "공중볼 승리: 57 → 70 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.13,
+   "fouls_per90": 0.88,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 72.7,
+   "clean_pctl_fouls": 57.7
+  },
+  "availability": {
+   "minpct_mean": 40.0,
+   "n_seasons": 2
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "David Nemeth(DF)의 현재 능력 점수는 48.8점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 패스 성공률, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
+  "potential": "David Nemeth의 2~3년 후 성장 예측 중심값은 52.9점, 80% 구간 상단(잠재력 상한)은 63.4점이다. 빅5 잔존확률은 74.0%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

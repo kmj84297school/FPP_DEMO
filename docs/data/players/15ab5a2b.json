@@ -3,197 +3,306 @@
   "fbref_id": "15ab5a2b",
   "player_name": "Julián Álvarez",
   "nation": "ARG",
-  "age_years": 22.0,
-  "squad": "Manchester City",
-  "comps": "Premier League",
+  "age_years": 24.0,
+  "squad": "Atlético Madrid",
+  "comps": "La Liga",
   "pos_primary": "FW",
-  "minutes_2023": 296.0
+  "minutes_season": 2509.0
  },
  "current": {
-  "ability": 50.7,
-  "score_position": 51.7,
-  "score_style": 49.7,
+  "ability": 72.2,
+  "score_position": 71.3,
+  "score_style": 73.1,
   "groups": {
-   "prod": 51.9,
-   "progress": 50.5,
-   "chance": 37.8,
-   "stability": 50.7,
-   "defense": 44.0
+   "prod": 75.6,
+   "progress": 62.5,
+   "chance": 78.4,
+   "stability": 50.9,
+   "defense": 26.3
   }
  },
  "style": {
   "primary": "연결형 공격수",
-  "confidence": 0.12
+  "confidence": 0.07
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.9174,
+  "mu": 67.9,
+  "ci80": {
+   "lo": 58.5,
+   "hi": 77.3
+  },
+  "ci50": {
+   "lo": 62.9,
+   "hi": 72.8
+  },
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "603cb947",
+   "season": 2018,
+   "distance": 1.674,
+   "survived": 1,
+   "fut_ability_v2": 79.6,
+   "player_name": "Andrej Kramarić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2018,
+   "distance": 1.897,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Rodrigo",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "5ceba7fc",
+   "season": 2018,
+   "distance": 2.029,
+   "survived": 1,
+   "fut_ability_v2": 75.7,
+   "player_name": "Karl Toko Ekambi",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "bc6bd723",
+   "season": 2018,
+   "distance": 2.348,
+   "survived": 1,
+   "fut_ability_v2": 74.1,
+   "player_name": "Alassane Pléa",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "8ff07990",
+   "season": 2018,
+   "distance": 2.406,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Mario Balotelli",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2019,
+   "distance": 2.544,
+   "survived": 1,
+   "fut_ability_v2": 78.9,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "df69b544",
+   "season": 2018,
+   "distance": 2.569,
+   "survived": 1,
+   "fut_ability_v2": 69.3,
+   "player_name": "Antoine Griezmann",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "bc6bd723",
+   "season": 2020,
+   "distance": 2.572,
+   "survived": 1,
+   "fut_ability_v2": 74.0,
+   "player_name": "Alassane Pléa",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2019,
+   "distance": 2.586,
+   "survived": 1,
+   "fut_ability_v2": 80.0,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "39583cfd",
+   "season": 2019,
+   "distance": 2.76,
+   "survived": 1,
+   "fut_ability_v2": 74.2,
+   "player_name": "Gerard Deulofeu",
+   "squad": "Watford"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 99.3
-   },
-   {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 95.7
-   },
-   {
-    "key": "TklInt",
-    "label": "태클+인터셉트",
-    "percentile": 90.8
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 87.9
    },
    {
     "key": "np_G",
     "label": "무페널티 득점",
-    "percentile": 87.2
-   },
-   {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 75.9
-   },
-   {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 75.2
-   },
-   {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 74.5
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 5.7
+    "percentile": 86.0
    },
    {
     "key": "GCA",
     "label": "골 창출(GCA)",
-    "percentile": 12.8
+    "percentile": 84.8
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 83.4
    },
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 32.6
+    "percentile": 79.7
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 77.6
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 77.6
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 40.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 45.7
    },
    {
     "key": "Ast",
     "label": "어시스트",
-    "percentile": 33.3
+    "percentile": 56.6
    },
    {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 36.9
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 59.2
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 63.6
    }
   ],
   "position_radar": [
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 32.6
+    "percentile": 79.7
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 53.9
+    "percentile": 83.4
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 39.7
+    "percentile": 59.2
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 63.6
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 5.7
+    "percentile": 45.7
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 41.1
+    "percentile": 70.4
    }
   ],
   "top3_styles": [
    {
     "style": "연결형 공격수",
-    "fit_z": -0.54
+    "fit_z": -0.17
    },
    {
     "style": "돌파형 윙어",
-    "fit_z": -0.66
+    "fit_z": -0.24
    },
    {
     "style": "박스 포처",
-    "fit_z": -0.88
+    "fit_z": -0.43
    }
   ],
   "style_evidence": {
    "top": [
     {
      "label": "중원 활동 비중",
-     "z": -0.35
+     "z": -0.11
     },
     {
      "label": "키패스 비중",
-     "z": -0.72
+     "z": -0.23
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "키패스 안정화 단계 — 상황별 반복 훈련 (현재 41퍼센타일)",
-   "슈팅 창출(SCA) 강화 여지 — 난이도를 높인 반복 훈련 (현재 54퍼센타일)",
-   "전진 패스 수신 강화 여지 — 난이도를 높인 반복 훈련 (현재 60퍼센타일)"
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 30퍼센타일)",
+   "슈팅 창출(SCA) 이미 강점 — 유지 및 응용 훈련 (상위 17퍼센타일)",
+   "전진 패스 수신 안정화 단계 — 상황별 반복 훈련 (현재 41퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "키패스 기초 교정",
-    "kpi": "키패스: 41 → 70 퍼센타일"
+    "focus": "전진 패스 수신 기초 교정",
+    "kpi": "전진 패스 수신: 41 → 70 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "슈팅 창출(SCA) 실전 적용 반복",
-    "kpi": "슈팅 창출(SCA): 54 → 70 퍼센타일"
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 70 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "전진 패스 수신: 60 → 80 퍼센타일"
+    "kpi": "슈팅 창출(SCA): 83 → 90 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.0,
-   "fouls_per90": 0.91,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 74.5,
-   "clean_pctl_fouls": 60.3
+   "yellows_per90": 0.18,
+   "fouls_per90": 0.93,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 38.2,
+   "clean_pctl_fouls": 68.3
   },
   "availability": {
-   "minpct_mean": 22.2,
-   "n_seasons": 1
+   "minpct_mean": 47.8,
+   "n_seasons": 2
   },
   "consistency": {
-   "ability_std": null,
-   "n_rated_seasons": 1
+   "ability_std": 15.2,
+   "n_rated_seasons": 2
   }
  },
  "narrative": {
-  "current": "Julián Álvarez(FW)의 현재 능력 점수는 50.7점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 블록, 패스 성공률, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 골 창출(GCA)이다.",
-  "potential": null
+  "current": "Julián Álvarez(FW)의 현재 능력 점수는 72.2점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 유효슈팅, 무페널티 득점, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 박스 터치이다.",
+  "potential": "Julián Álvarez의 2~3년 후 전성기 유지 예측 중심값은 67.9점, 80% 구간 상단(잠재력 상한)은 77.3점이다. 빅5 현역 유지확률은 91.7%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

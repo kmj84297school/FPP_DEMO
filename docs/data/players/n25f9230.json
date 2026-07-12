@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "n25f9230",
+  "player_name": "Albert Grønbaek",
+  "nation": "DEN",
+  "age_years": 23.0,
+  "squad": "Southampton / Rennes",
+  "comps": "Premier League / Ligue 1",
+  "pos_primary": "FW",
+  "minutes_season": 956.0
+ },
+ "current": {
+  "ability": 50.2,
+  "score_position": 47.7,
+  "score_style": 52.6,
+  "groups": {
+   "prod": 32.1,
+   "progress": 51.3,
+   "chance": 72.3,
+   "stability": 18.7,
+   "defense": 48.0
+  }
+ },
+ "style": {
+  "primary": "연결형 공격수",
+  "confidence": 0.45
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.1665,
+  "mu": 49.4,
+  "ci80": {
+   "lo": 38.5,
+   "hi": 60.2
+  },
+  "ci50": {
+   "lo": 43.7,
+   "hi": 55.1
+  },
+  "sigma_model": 2.5,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "524eb8c5",
+   "season": 2018,
+   "distance": 2.266,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Ricci",
+   "squad": "Crotone / Genoa"
+  },
+  {
+   "fbref_id": "176674ab",
+   "season": 2018,
+   "distance": 2.613,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ndombe Mubele",
+   "squad": "Rennes / Toulouse"
+  },
+  {
+   "fbref_id": "f573a8bf",
+   "season": 2019,
+   "distance": 3.151,
+   "survived": 1,
+   "fut_ability_v2": 64.4,
+   "player_name": "Isaac Success",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "6c6a3300",
+   "season": 2020,
+   "distance": 3.437,
+   "survived": 1,
+   "fut_ability_v2": 42.9,
+   "player_name": "Milot Rashica",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "24228180",
+   "season": 2018,
+   "distance": 3.681,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Petković",
+   "squad": "Hellas Verona / Bologna"
+  },
+  {
+   "fbref_id": "dc1c2fce",
+   "season": 2018,
+   "distance": 3.712,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Álex Berenguer",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "2054d037",
+   "season": 2018,
+   "distance": 3.778,
+   "survived": 1,
+   "fut_ability_v2": 38.3,
+   "player_name": "M'Baye Niang",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "53a0e358",
+   "season": 2018,
+   "distance": 3.824,
+   "survived": 1,
+   "fut_ability_v2": 76.3,
+   "player_name": "Domenico Berardi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "8696bc90",
+   "season": 2020,
+   "distance": 3.829,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Munir El Haddadi",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "536cebe5",
+   "season": 2018,
+   "distance": 3.884,
+   "survived": 1,
+   "fut_ability_v2": 64.6,
+   "player_name": "Ante Rebić",
+   "squad": "Eint Frankfurt"
+  }
+ ],
+ "low_confidence": true,
+ "report": {
+  "strengths": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 96.3
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 86.0
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 76.9
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 74.4
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 70.4
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 68.8
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 66.7
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 7.2
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 14.7
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 30.5
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 33.3
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 36.8
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 14.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 57.3
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 51.7
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 51.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 42.0
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 86.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "연결형 공격수",
+    "fit_z": 0.79
+   },
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 0.34
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": -0.34
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "키패스 비중",
+     "z": 2.1
+    },
+    {
+     "label": "중원 활동 비중",
+     "z": -0.53
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 14퍼센타일)",
+   "슈팅 창출(SCA) 강화 여지 — 난이도를 높인 반복 훈련 (현재 57퍼센타일)",
+   "전진 패스 수신 안정화 단계 — 상황별 반복 훈련 (현재 40퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 패스 수신 기초 교정",
+    "kpi": "전진 패스 수신: 40 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "슈팅 창출(SCA) 실전 적용 반복",
+    "kpi": "슈팅 창출(SCA): 57 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 86 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.09,
+   "fouls_per90": 0.94,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 69.0,
+   "clean_pctl_fouls": 67.6
+  },
+  "availability": {
+   "minpct_mean": 23.2,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Albert Grønbaek(FW)의 현재 능력 점수는 50.2점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 키패스, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
+  "potential": "Albert Grønbaek의 2~3년 후 성장 예측 중심값은 49.4점, 80% 구간 상단(잠재력 상한)은 60.2점이다. 빅5 잔존확률은 16.7%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

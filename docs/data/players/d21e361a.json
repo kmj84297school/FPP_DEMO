@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "d21e361a",
+  "player_name": "Farid El Melali",
+  "nation": "ALG",
+  "age_years": 27.0,
+  "squad": "Angers",
+  "comps": "Ligue 1",
+  "pos_primary": "FW",
+  "minutes_season": 1893.0
+ },
+ "current": {
+  "ability": 49.8,
+  "score_position": 47.4,
+  "score_style": 52.2,
+  "groups": {
+   "prod": 33.8,
+   "progress": 52.6,
+   "chance": 60.5,
+   "stability": 26.9,
+   "defense": 50.5
+  }
+ },
+ "style": {
+  "primary": "돌파형 윙어",
+  "confidence": 1.83
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.477,
+  "mu": 48.2,
+  "ci80": {
+   "lo": 38.5,
+   "hi": 57.9
+  },
+  "ci50": {
+   "lo": 43.1,
+   "hi": 53.3
+  },
+  "sigma_model": 2.7,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "43458538",
+   "season": 2020,
+   "distance": 2.303,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "eb2fe5b6",
+   "season": 2019,
+   "distance": 2.475,
+   "survived": 1,
+   "fut_ability_v2": 89.0,
+   "player_name": "Luis Muriel",
+   "squad": "Fiorentina / Sevilla"
+  },
+  {
+   "fbref_id": "0375723e",
+   "season": 2018,
+   "distance": 2.772,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Simone Verdi",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "75a63397",
+   "season": 2020,
+   "distance": 2.785,
+   "survived": 1,
+   "fut_ability_v2": 45.1,
+   "player_name": "Opa Nguette",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "43458538",
+   "season": 2018,
+   "distance": 2.855,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "b0547a87",
+   "season": 2018,
+   "distance": 2.913,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Nicolas de Préville",
+   "squad": "Bordeaux / Lille"
+  },
+  {
+   "fbref_id": "b28bbd58",
+   "season": 2018,
+   "distance": 3.103,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Andros Townsend",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2019,
+   "distance": 3.134,
+   "survived": 1,
+   "fut_ability_v2": 63.9,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "909222de",
+   "season": 2019,
+   "distance": 3.139,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nuno da Costa",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "46907171",
+   "season": 2019,
+   "distance": 3.173,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Abdul Majeed Waris",
+   "squad": "Nantes"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 94.9
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 94.2
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 85.8
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 83.4
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 72.0
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 68.8
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 67.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 11.4
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 16.3
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 21.7
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 22.1
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 25.9
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 22.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 66.4
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 94.9
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 65.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 21.7
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 52.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "돌파형 윙어",
+    "fit_z": 1.33
+   },
+   {
+    "style": "연결형 공격수",
+    "fit_z": -0.49
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": -0.58
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 2.09
+    },
+    {
+     "label": "크로스 비중",
+     "z": 1.78
+    }
+   ],
+   "bottom": [
+    {
+     "label": "운반 비중",
+     "z": 0.13
+    }
+   ]
+  },
+  "coaching": [
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)",
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 66퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 52퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 52 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 66 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "성공 드리블: 이미 상위 5퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.05,
+   "fouls_per90": 1.0,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 84.4,
+   "clean_pctl_fouls": 62.9
+  },
+  "availability": {
+   "minpct_mean": 16.3,
+   "n_seasons": 6
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Farid El Melali(FW)의 현재 능력 점수는 49.8점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 볼 리커버리, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 슈팅당 기대득점이다.",
+  "potential": "Farid El Melali의 2~3년 후 전성기 유지 예측 중심값은 48.2점, 80% 구간 상단(잠재력 상한)은 57.9점이다. 빅5 현역 유지확률은 47.7%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

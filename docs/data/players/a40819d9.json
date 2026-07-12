@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "a40819d9",
+  "player_name": "Marash Kumbulla",
+  "nation": "ALB",
+  "age_years": 24.0,
+  "squad": "Espanyol",
+  "comps": "La Liga",
+  "pos_primary": "DF",
+  "minutes_season": 2972.0
+ },
+ "current": {
+  "ability": 55.1,
+  "score_position": 51.6,
+  "score_style": 58.7,
+  "groups": {
+   "prod": 54.7,
+   "progress": 25.0,
+   "chance": 15.3,
+   "stability": 63.0,
+   "defense": 57.1
+  }
+ },
+ "style": {
+  "primary": "스토퍼",
+  "confidence": 2.1
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.4937,
+  "mu": 55.0,
+  "ci80": {
+   "lo": 45.5,
+   "hi": 64.4
+  },
+  "ci50": {
+   "lo": 50.1,
+   "hi": 60.0
+  },
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "282f75f3",
+   "season": 2019,
+   "distance": 1.086,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Lewis Dunk",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "3681cfff",
+   "season": 2018,
+   "distance": 1.163,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Christophe Hérelle",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "27a013f7",
+   "season": 2019,
+   "distance": 1.322,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Néstor Araujo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2020,
+   "distance": 1.353,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "7cab69b5",
+   "season": 2018,
+   "distance": 1.355,
+   "survived": 1,
+   "fut_ability_v2": 42.1,
+   "player_name": "Jemerson",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "debe38a0",
+   "season": 2020,
+   "distance": 1.356,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Egan",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "b4a014b1",
+   "season": 2020,
+   "distance": 1.395,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Diego Carlos",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "d9624b51",
+   "season": 2018,
+   "distance": 1.432,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Federico Ceccherini",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2020,
+   "distance": 1.466,
+   "survived": 1,
+   "fut_ability_v2": 61.9,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "93090f69",
+   "season": 2020,
+   "distance": 1.495,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Domingos Duarte",
+   "squad": "Granada"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 95.2
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 84.7
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 82.0
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 79.6
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 76.3
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 76.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 69.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 2.3
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 5.7
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 9.4
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 13.2
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 14.2
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 41.1
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 95.2
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 69.5
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 13.2
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 55.7
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 76.3
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "스토퍼",
+    "fit_z": 1.43
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.67
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.83
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "자책 박스 활동 비중",
+     "z": 1.89
+    },
+    {
+     "label": "클리어링량",
+     "z": 1.84
+    }
+   ],
+   "bottom": [
+    {
+     "label": "공중볼 경합량",
+     "z": 0.56
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 안정화 단계 — 상황별 반복 훈련 (현재 41퍼센타일)",
+   "클리어링 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)",
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 24퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 41 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "공중볼 승리 실전 적용 반복",
+    "kpi": "공중볼 승리: 76 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "클리어링: 이미 상위 5퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.27,
+   "fouls_per90": 1.12,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 22.4,
+   "clean_pctl_fouls": 34.9
+  },
+  "availability": {
+   "minpct_mean": 43.6,
+   "n_seasons": 5
+  },
+  "consistency": {
+   "ability_std": 6.4,
+   "n_rated_seasons": 4
+  }
+ },
+ "narrative": {
+  "current": "Marash Kumbulla(DF)의 현재 능력 점수는 55.1점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 클리어링, 볼 손실(미스+파울), 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 최종 3분의1 패스이다.",
+  "potential": "Marash Kumbulla의 2~3년 후 전성기 유지 예측 중심값은 55.0점, 80% 구간 상단(잠재력 상한)은 64.4점이다. 빅5 현역 유지확률은 49.4%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

@@ -3,306 +3,202 @@
   "fbref_id": "37f606f0",
   "player_name": "Dennis Geiger",
   "nation": "GER",
-  "age_years": 24.0,
+  "age_years": 26.0,
   "squad": "Hoffenheim",
   "comps": "Bundesliga",
   "pos_primary": "MF",
-  "minutes_2023": 743.0
+  "minutes_season": 734.0
  },
  "current": {
-  "ability": 55.0,
-  "score_position": 54.3,
-  "score_style": 55.9,
+  "ability": 51.1,
+  "score_position": 49.3,
+  "score_style": 53.0,
   "groups": {
-   "prod": 42.3,
-   "progress": 45.1,
-   "chance": 67.5,
-   "stability": 47.7,
-   "defense": 49.0
+   "prod": 19.3,
+   "progress": 47.5,
+   "chance": 53.9,
+   "stability": 51.8,
+   "defense": 49.7
   }
  },
  "style": {
   "primary": "딥 플레이메이커",
-  "confidence": 0.92
+  "confidence": 0.03
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.3475,
-  "mu": 53.0,
-  "ci80": {
-   "lo": 43.6,
-   "hi": 62.4
-  },
-  "ci50": {
-   "lo": 48.0,
-   "hi": 57.9
-  },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "55126f3b",
-   "season": 2019,
-   "distance": 1.765,
-   "survived": 1,
-   "fut_ability_v2": 56.0,
-   "player_name": "Koke",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "963829d0",
-   "season": 2018,
-   "distance": 1.775,
-   "survived": 1,
-   "fut_ability_v2": 59.7,
-   "player_name": "Manu Trigueros",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "909bce7f",
-   "season": 2020,
-   "distance": 1.905,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jacopo Petriccione",
-   "squad": "Lecce"
-  },
-  {
-   "fbref_id": "61220da2",
-   "season": 2018,
-   "distance": 1.992,
-   "survived": 1,
-   "fut_ability_v2": 66.5,
-   "player_name": "José Campaña",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "5a1900a4",
-   "season": 2018,
-   "distance": 2.169,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Tom Carroll",
-   "squad": "Swansea City"
-  },
-  {
-   "fbref_id": "4a56052c",
-   "season": 2020,
-   "distance": 2.304,
-   "survived": 1,
-   "fut_ability_v2": 64.3,
-   "player_name": "Jordan Veretout",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "2306bfde",
-   "season": 2019,
-   "distance": 2.455,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rubén Pardo",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "55126f3b",
-   "season": 2018,
-   "distance": 2.505,
-   "survived": 1,
-   "fut_ability_v2": 59.9,
-   "player_name": "Koke",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "b825a650",
-   "season": 2018,
-   "distance": 2.523,
-   "survived": 1,
-   "fut_ability_v2": 61.7,
-   "player_name": "Kevin Kampl",
-   "squad": "RB Leipzig / Leverkusen"
-  },
-  {
-   "fbref_id": "e7f4603c",
-   "season": 2018,
-   "distance": 2.547,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Borja García",
-   "squad": "Girona"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
-    "key": "KP",
-    "label": "키패스",
-    "percentile": 89.4
-   },
-   {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 86.0
-   },
-   {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 83.9
-   },
-   {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 81.5
-   },
-   {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 79.6
-   },
-   {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 79.3
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 94.1
    },
    {
     "key": "TklPct",
     "label": "태클 성공률",
-    "percentile": 78.7
+    "percentile": 91.6
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 84.8
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 81.9
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 71.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 69.9
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 68.0
    }
   ],
   "weaknesses": [
    {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 6.1
+   },
+   {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 5.5
+    "percentile": 8.9
    },
    {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 8.2
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 9.3
    },
    {
-    "key": "Err",
-    "label": "실책",
-    "percentile": 9.4
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 10.9
    },
    {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 9.7
-   },
-   {
-    "key": "PrgRec",
-    "label": "전진 패스 수신",
-    "percentile": 10.0
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 11.4
    }
   ],
   "position_radar": [
    {
     "key": "PrgPass",
     "label": "전진 패스",
-    "percentile": 77.5
+    "percentile": 55.6
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 89.4
+    "percentile": 68.0
    },
    {
     "key": "TklInt",
     "label": "태클+인터셉트",
-    "percentile": 35.6
+    "percentile": 84.8
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 53.1
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 79.3
+    "percentile": 69.9
    },
    {
     "key": "PassPct",
     "label": "패스 성공률",
-    "percentile": 86.0
+    "percentile": 81.9
    }
   ],
   "top3_styles": [
    {
     "style": "딥 플레이메이커",
-    "fit_z": 0.81
+    "fit_z": 0.11
    },
    {
     "style": "수비형 파괴자",
-    "fit_z": -0.11
+    "fit_z": 0.07
    },
    {
-    "style": "공격형 MF",
-    "fit_z": -0.98
+    "style": "볼 운반형",
+    "fit_z": -0.35
    }
   ],
   "style_evidence": {
    "top": [
     {
      "label": "키패스 비중",
-     "z": 1.35
+     "z": 0.29
     },
     {
-     "label": "롱패스 비중",
-     "z": 0.81
+     "label": "수비 3분의1 활동 비중",
+     "z": -0.08
     }
    ],
-   "bottom": [
-    {
-     "label": "수비 3분의1 활동 비중",
-     "z": 0.28
-    }
-   ]
+   "bottom": []
   },
   "coaching": [
-   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 22퍼센타일)",
-   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 11퍼센타일)",
-   "박스 진입 패스 안정화 단계 — 상황별 반복 훈련 (현재 49퍼센타일)"
+   "전진 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 56퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 68퍼센타일)",
+   "박스 진입 패스 이미 강점 — 유지 및 응용 훈련 (상위 28퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "박스 진입 패스 기초 교정",
-    "kpi": "박스 진입 패스: 49 → 70 퍼센타일"
+    "focus": "전진 패스 기초 교정",
+    "kpi": "전진 패스: 56 → 70 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "전진 패스 실전 적용 반복",
-    "kpi": "전진 패스: 78 → 90 퍼센타일"
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 68 → 80 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "키패스: 89 → 90 퍼센타일"
+    "kpi": "박스 진입 패스: 72 → 80 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.24,
-   "fouls_per90": 1.21,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 37.1,
-   "clean_pctl_fouls": 43.2
+   "yellows_per90": 0.49,
+   "fouls_per90": 3.19,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 3.0,
+   "clean_pctl_fouls": 0.2
   },
   "availability": {
-   "minpct_mean": 38.5,
-   "n_seasons": 6
+   "minpct_mean": 36.5,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 2.3,
-   "n_rated_seasons": 5
+   "ability_std": 2.2,
+   "n_rated_seasons": 6
   }
  },
  "narrative": {
-  "current": "Dennis Geiger(MF)의 현재 능력 점수는 55.0점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 패스 성공률, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 박스 터치이다.",
-  "potential": "Dennis Geiger의 2~3년 후 전성기 유지 예측 중심값은 53.0점, 80% 구간 상단(잠재력 상한)은 62.4점이다. 빅5 현역 유지확률은 34.8%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Dennis Geiger(MF)의 현재 능력 점수는 51.1점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 블록, 태클 성공률, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 비페널티 xG이다.",
+  "potential": null
  }
 }

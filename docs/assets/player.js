@@ -32,7 +32,7 @@ function metricBarsHtml(items) {
 }
 
 function renderNotFound() {
-  document.getElementById("content").innerHTML = `<div class="empty-state">선수를 찾을 수 없습니다. (검색 페이지에서 이름으로 찾아주세요 — 2023시즌 출전시간이 너무 적은 선수는 포함되지 않습니다)</div>`;
+  document.getElementById("content").innerHTML = `<div class="empty-state">선수를 찾을 수 없습니다. (검색 페이지에서 이름으로 찾아주세요 — 시즌 출전시간이 너무 적은 선수는 포함되지 않습니다)</div>`;
 }
 
 let META = null;
@@ -64,7 +64,7 @@ function renderPlayer(p) {
         </div>
         <div>
           <h1>${m.player_name}</h1>
-          <div class="sub">${m.squad || "—"} · ${m.comps || "—"} · ${m.pos_primary} · ${m.nation || "—"} · 만 ${m.age_years}세 · 2023시즌 ${m.minutes_2023}분</div>
+          <div class="sub">${m.squad || "—"} · ${m.comps || "—"} · ${m.pos_primary} · ${m.nation || "—"} · 만 ${m.age_years}세 · 2024-25시즌 ${m.minutes_season}분</div>
         </div>
       </div>
       <span class="badge ${bandcls(c.ability)}" style="font-size:1.3rem;padding:8px 16px;">${fmt1(c.ability)}</span>
@@ -128,7 +128,7 @@ function renderPlayer(p) {
           <div>
             <div class="stat-row"><span class="lbl">경고 (per90)</span><span>${q.discipline.yellows_per90 ?? "—"}</span></div>
             <div class="stat-row"><span class="lbl">파울 (per90)</span><span>${q.discipline.fouls_per90 ?? "—"}</span></div>
-            <div class="stat-row"><span class="lbl">퇴장 (2023시즌)</span><span>${q.discipline.reds_total_2023 ?? 0}회</span></div>
+            <div class="stat-row"><span class="lbl">퇴장 (2024-25시즌)</span><span>${q.discipline.reds_total_season ?? 0}회</span></div>
             <div class="stat-row"><span class="lbl">클린플레이 지수 (카드)</span><span class="badge ${bandcls(q.discipline.clean_pctl_cards)}">${fmt1(q.discipline.clean_pctl_cards)}</span></div>
             <div class="stat-row"><span class="lbl">클린플레이 지수 (파울)</span><span class="badge ${bandcls(q.discipline.clean_pctl_fouls)}">${fmt1(q.discipline.clean_pctl_fouls)}</span></div>
           </div>

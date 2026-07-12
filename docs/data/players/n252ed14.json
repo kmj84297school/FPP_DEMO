@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n252ed14",
+  "player_name": "Aljoscha Kemlein",
+  "nation": "GER",
+  "age_years": 19.0,
+  "squad": "Union Berlin",
+  "comps": "Bundesliga",
+  "pos_primary": "MF",
+  "minutes_season": 922.0
+ },
+ "current": {
+  "ability": 53.7,
+  "score_position": 49.1,
+  "score_style": 58.5,
+  "groups": {
+   "prod": 43.5,
+   "progress": 34.6,
+   "chance": 39.0,
+   "stability": 58.6,
+   "defense": 60.4
+  }
+ },
+ "style": {
+  "primary": "수비형 파괴자",
+  "confidence": 0.01
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.8234,
+  "mu": 59.1,
+  "ci80": {
+   "lo": 48.3,
+   "hi": 69.9
+  },
+  "ci50": {
+   "lo": 53.4,
+   "hi": 64.8
+  },
+  "sigma_model": 2.4,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "0959c2a2",
+   "season": 2018,
+   "distance": 1.968,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Federico Valverde",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "442b56fa",
+   "season": 2019,
+   "distance": 2.416,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "Ridle Baku",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "2b09d998",
+   "season": 2020,
+   "distance": 2.642,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Tyler Adams",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "1ae836b1",
+   "season": 2019,
+   "distance": 2.674,
+   "survived": 1,
+   "fut_ability_v2": 34.5,
+   "player_name": "Elvis Rexhbeçaj",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "7f622eef",
+   "season": 2018,
+   "distance": 2.691,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Assane Dioussé",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "01c3aff5",
+   "season": 2018,
+   "distance": 2.693,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Weston McKennie",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "ab700320",
+   "season": 2018,
+   "distance": 2.772,
+   "survived": 1,
+   "fut_ability_v2": 42.4,
+   "player_name": "Arne Maier",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "92d83c27",
+   "season": 2019,
+   "distance": 2.79,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Mattias Svanberg",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "c6e8cf1f",
+   "season": 2018,
+   "distance": 2.836,
+   "survived": 1,
+   "fut_ability_v2": 48.2,
+   "player_name": "Saša Lukić",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "6f7d826d",
+   "season": 2019,
+   "distance": 2.84,
+   "survived": 1,
+   "fut_ability_v2": 54.5,
+   "player_name": "Douglas Luiz",
+   "squad": "Girona"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 92.8
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 90.7
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 85.3
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 82.3
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 75.3
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 61.0
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 60.3
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 7.2
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 8.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 11.1
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 17.0
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 22.7
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 43.5
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 47.2
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 11.1
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 7.2
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 33.8
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 22.7
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "수비형 파괴자",
+    "fit_z": -0.03
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": -0.04
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": -0.41
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공중볼 경합량",
+     "z": 1.0
+    },
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 0.25
+    }
+   ],
+   "bottom": [
+    {
+     "label": "태클량",
+     "z": -1.33
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 개선 필요 — 기초 반복 훈련 권장 (현재 하위 11퍼센타일)",
+   "블록 이미 강점 — 유지 및 응용 훈련 (상위 25퍼센타일)",
+   "볼 리커버리 이미 강점 — 유지 및 응용 훈련 (상위 18퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 11 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "블록 실전 적용 반복",
+    "kpi": "블록: 75 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "볼 리커버리: 82 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.29,
+   "fouls_per90": 1.46,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 29.5,
+   "clean_pctl_fouls": 38.1
+  },
+  "availability": {
+   "minpct_mean": 30.1,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Aljoscha Kemlein(MF)의 현재 능력 점수는 53.7점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 손실(미스+파울), 공중볼 승리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
+  "potential": "Aljoscha Kemlein의 2~3년 후 성장 예측 중심값은 59.1점, 80% 구간 상단(잠재력 상한)은 69.9점이다. 빅5 잔존확률은 82.3%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

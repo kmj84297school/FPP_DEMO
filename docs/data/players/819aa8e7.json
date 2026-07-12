@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "819aa8e7",
+  "player_name": "Ayoze Pérez",
+  "nation": "ESP",
+  "age_years": 31.0,
+  "squad": "Villarreal",
+  "comps": "La Liga",
+  "pos_primary": "FW",
+  "minutes_season": 1970.0
+ },
+ "current": {
+  "ability": 70.8,
+  "score_position": 69.4,
+  "score_style": 72.1,
+  "groups": {
+   "prod": 78.6,
+   "progress": 65.4,
+   "chance": 56.2,
+   "stability": 45.4,
+   "defense": 40.5
+  }
+ },
+ "style": {
+  "primary": "박스 포처",
+  "confidence": 0.45
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.8215,
+  "mu": 64.0,
+  "ci80": {
+   "lo": 54.6,
+   "hi": 73.4
+  },
+  "ci50": {
+   "lo": 59.0,
+   "hi": 68.9
+  },
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "a58bb1e1",
+   "season": 2019,
+   "distance": 2.667,
+   "survived": 1,
+   "fut_ability_v2": 77.1,
+   "player_name": "Gareth Bale",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "4d034881",
+   "season": 2019,
+   "distance": 2.7,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Agüero",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "4d034881",
+   "season": 2018,
+   "distance": 2.705,
+   "survived": 1,
+   "fut_ability_v2": 75.7,
+   "player_name": "Sergio Agüero",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "d5dd5f1f",
+   "season": 2019,
+   "distance": 2.867,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Pierre-Emerick Aubameyang",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "93b891d1",
+   "season": 2019,
+   "distance": 2.948,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Felipe Caicedo",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "a6154613",
+   "season": 2019,
+   "distance": 2.977,
+   "survived": 1,
+   "fut_ability_v2": 56.9,
+   "player_name": "Luis Suárez",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "3bb7f478",
+   "season": 2019,
+   "distance": 3.015,
+   "survived": 1,
+   "fut_ability_v2": 75.5,
+   "player_name": "Edin Džeko",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "70d74ece",
+   "season": 2019,
+   "distance": 3.029,
+   "survived": 1,
+   "fut_ability_v2": 86.0,
+   "player_name": "Karim Benzema",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "7dcf86f6",
+   "season": 2018,
+   "distance": 3.076,
+   "survived": 1,
+   "fut_ability_v2": 68.9,
+   "player_name": "Iago Aspas",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "42276181",
+   "season": 2019,
+   "distance": 3.174,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Kévin Gameiro",
+   "squad": "Valencia"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 98.8
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 95.1
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 93.2
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 90.2
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 89.5
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 85.8
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 78.8
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 29.6
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 34.7
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 37.5
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 51.0
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 52.0
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 95.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 68.5
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 74.6
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 60.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 89.5
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 69.7
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "박스 포처",
+    "fit_z": 1.62
+   },
+   {
+    "style": "연결형 공격수",
+    "fit_z": 1.17
+   },
+   {
+    "style": "타겟맨",
+    "fit_z": 0.52
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "슈팅 비중",
+     "z": 1.65
+    },
+    {
+     "label": "박스 터치 비중",
+     "z": 1.59
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "비페널티 xG 이미 강점 — 유지 및 응용 훈련 (상위 5퍼센타일)",
+   "유효슈팅 이미 강점 — 유지 및 응용 훈련 (상위 7퍼센타일)",
+   "박스 터치 이미 강점 — 유지 및 응용 훈련 (상위 10퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "박스 터치 기초 교정",
+    "kpi": "박스 터치: 90 → 90 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "유효슈팅 실전 적용 반복",
+    "kpi": "유효슈팅: 이미 상위 7퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "비페널티 xG: 이미 상위 5퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.18,
+   "fouls_per90": 1.01,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 37.1,
+   "clean_pctl_fouls": 61.8
+  },
+  "availability": {
+   "minpct_mean": 48.3,
+   "n_seasons": 7
+  },
+  "consistency": {
+   "ability_std": 7.8,
+   "n_rated_seasons": 5
+  }
+ },
+ "narrative": {
+  "current": "Ayoze Pérez(FW)의 현재 능력 점수는 70.8점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 비페널티 xG, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 어시스트이다.",
+  "potential": "Ayoze Pérez의 2~3년 후 전성기 유지 예측 중심값은 64.0점, 80% 구간 상단(잠재력 상한)은 73.4점이다. 빅5 현역 유지확률은 82.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

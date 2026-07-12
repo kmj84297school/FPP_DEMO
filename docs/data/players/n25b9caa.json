@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "n25b9caa",
+  "player_name": "Adrian Bernabe",
+  "nation": "ESP",
+  "age_years": 23.0,
+  "squad": "Parma",
+  "comps": "Serie A",
+  "pos_primary": "MF",
+  "minutes_season": 1453.0
+ },
+ "current": {
+  "ability": 64.3,
+  "score_position": 63.2,
+  "score_style": 65.5,
+  "groups": {
+   "prod": 43.0,
+   "progress": 69.0,
+   "chance": 68.0,
+   "stability": 59.9,
+   "defense": 38.9
+  }
+ },
+ "style": {
+  "primary": "딥 플레이메이커",
+  "confidence": 0.33
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.2692,
+  "mu": 61.4,
+  "ci80": {
+   "lo": 50.7,
+   "hi": 72.2
+  },
+  "ci50": {
+   "lo": 55.8,
+   "hi": 67.1
+  },
+  "sigma_model": 2.3,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "ba3d3bea",
+   "season": 2018,
+   "distance": 2.776,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Cataldi",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "c0617e2b",
+   "season": 2020,
+   "distance": 2.892,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dani Ceballos",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "d023d70f",
+   "season": 2018,
+   "distance": 2.904,
+   "survived": 1,
+   "fut_ability_v2": 46.8,
+   "player_name": "Karol Linetty",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "ed45c4a5",
+   "season": 2018,
+   "distance": 2.938,
+   "survived": 1,
+   "fut_ability_v2": 63.1,
+   "player_name": "Valentin Rongier",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "6ca5ec4b",
+   "season": 2020,
+   "distance": 2.954,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Alex Iwobi",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "79c0821a",
+   "season": 2018,
+   "distance": 2.968,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Mateo Kovačić",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "c46fa34c",
+   "season": 2019,
+   "distance": 3.082,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Youssef Aït Bennasser",
+   "squad": "Monaco / Saint-Étienne"
+  },
+  {
+   "fbref_id": "d7553721",
+   "season": 2020,
+   "distance": 3.178,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Giovani Lo Celso",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "6e7f1353",
+   "season": 2019,
+   "distance": 3.181,
+   "survived": 1,
+   "fut_ability_v2": 45.6,
+   "player_name": "Morgan Sanson",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "cac2537b",
+   "season": 2018,
+   "distance": 3.319,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Enis Bardhi",
+   "squad": "Levante"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 96.6
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 95.3
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 92.5
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 92.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 80.3
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 79.6
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 77.1
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 7.9
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 9.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 10.6
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 18.4
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 21.3
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 92.5
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 69.4
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 31.3
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 77.1
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 80.3
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 63.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.06
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.27
+   },
+   {
+    "style": "수비형 파괴자",
+    "fit_z": -0.37
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 0.39
+    },
+    {
+     "label": "키패스 비중",
+     "z": -0.27
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 패스 이미 강점 — 유지 및 응용 훈련 (상위 8퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 69퍼센타일)",
+   "박스 진입 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 68퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "박스 진입 패스 기초 교정",
+    "kpi": "박스 진입 패스: 68 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 69 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 패스: 이미 상위 8퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.06,
+   "fouls_per90": 0.56,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 90.7,
+   "clean_pctl_fouls": 94.3
+  },
+  "availability": {
+   "minpct_mean": 42.5,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Adrian Bernabe(MF)의 현재 능력 점수는 64.3점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 패스 거리, 전진 운반 거리, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
+  "potential": "Adrian Bernabe의 2~3년 후 성장 예측 중심값은 61.4점, 80% 구간 상단(잠재력 상한)은 72.2점이다. 빅5 잔존확률은 26.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "ffbbc83b",
+  "player_name": "Florian Grillitsch",
+  "nation": "AUT",
+  "age_years": 28.0,
+  "squad": "Valladolid / Hoffenheim",
+  "comps": "La Liga / Bundesliga",
+  "pos_primary": "MF",
+  "minutes_season": 1224.0
+ },
+ "current": {
+  "ability": 57.2,
+  "score_position": 52.5,
+  "score_style": 61.8,
+  "groups": {
+   "prod": 21.6,
+   "progress": 56.1,
+   "chance": 39.4,
+   "stability": 56.4,
+   "defense": 63.4
+  }
+ },
+ "style": {
+  "primary": "수비형 파괴자",
+  "confidence": 0.22
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.4564,
+  "mu": 51.8,
+  "ci80": {
+   "lo": 42.5,
+   "hi": 61.1
+  },
+  "ci50": {
+   "lo": 46.8,
+   "hi": 56.6
+  },
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e8c930bb",
+   "season": 2020,
+   "distance": 1.987,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Milan Badelj",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "1961b2aa",
+   "season": 2020,
+   "distance": 2.135,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Gomes",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "0e50f929",
+   "season": 2020,
+   "distance": 2.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fran Mérida",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "0d077b88",
+   "season": 2020,
+   "distance": 2.194,
+   "survived": 1,
+   "fut_ability_v2": 48.3,
+   "player_name": "Mehdi Bourabia",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "111c3236",
+   "season": 2020,
+   "distance": 2.23,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabian Delph",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "8011fcf6",
+   "season": 2018,
+   "distance": 2.333,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ledian Memushaj",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "d6f88a1d",
+   "season": 2019,
+   "distance": 2.404,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Adrien Silva",
+   "squad": "Monaco / Leicester City"
+  },
+  {
+   "fbref_id": "d6f88a1d",
+   "season": 2020,
+   "distance": 2.406,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Adrien Silva",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "dc3fa3b5",
+   "season": 2020,
+   "distance": 2.476,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Demme",
+   "squad": "RB Leipzig / Napoli"
+  },
+  {
+   "fbref_id": "1b17ed86",
+   "season": 2018,
+   "distance": 2.484,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Esteban Granero",
+   "squad": "Espanyol"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 86.4
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 81.6
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 79.1
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 78.7
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 76.4
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 74.8
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 72.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 6.4
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 7.5
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 8.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 11.1
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 11.4
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 81.6
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 45.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 52.8
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 26.8
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 61.0
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 70.1
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "수비형 파괴자",
+    "fit_z": 0.38
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.16
+   },
+   {
+    "style": "볼 운반형",
+    "fit_z": -0.32
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "수비 3분의1 활동 비중",
+     "z": 0.96
+    },
+    {
+     "label": "공중볼 경합량",
+     "z": 0.2
+    }
+   ],
+   "bottom": [
+    {
+     "label": "태클량",
+     "z": -0.03
+    }
+   ]
+  },
+  "coaching": [
+   "태클+인터셉트 강화 여지 — 난이도를 높인 반복 훈련 (현재 53퍼센타일)",
+   "블록 이미 강점 — 유지 및 응용 훈련 (상위 29퍼센타일)",
+   "볼 리커버리 이미 강점 — 유지 및 응용 훈련 (상위 25퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "태클+인터셉트 기초 교정",
+    "kpi": "태클+인터셉트: 53 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "블록 실전 적용 반복",
+    "kpi": "블록: 71 → 80 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "볼 리커버리: 75 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.15,
+   "fouls_per90": 0.74,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 68.5,
+   "clean_pctl_fouls": 88.2
+  },
+  "availability": {
+   "minpct_mean": 58.0,
+   "n_seasons": 6
+  },
+  "consistency": {
+   "ability_std": 5.0,
+   "n_rated_seasons": 6
+  }
+ },
+ "narrative": {
+  "current": "Florian Grillitsch(MF)의 현재 능력 점수는 57.2점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 전진 패스 거리, 전진 패스, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
+  "potential": "Florian Grillitsch의 2~3년 후 전성기 유지 예측 중심값은 51.8점, 80% 구간 상단(잠재력 상한)은 61.1점이다. 빅5 현역 유지확률은 45.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

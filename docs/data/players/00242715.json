@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "00242715",
+  "player_name": "Moussa Niakhate",
+  "nation": "SEN",
+  "age_years": 28.0,
+  "squad": "Lyon",
+  "comps": "Ligue 1",
+  "pos_primary": "DF",
+  "minutes_season": 2726.0
+ },
+ "current": {
+  "ability": 57.8,
+  "score_position": 58.3,
+  "score_style": 57.5,
+  "groups": {
+   "prod": 27.0,
+   "progress": 48.1,
+   "chance": 32.8,
+   "stability": 68.5,
+   "defense": 56.6
+  }
+ },
+ "style": {
+  "primary": "빌드업 수비수",
+  "confidence": 0.5
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.7376,
+  "mu": 56.0,
+  "ci80": {
+   "lo": 46.7,
+   "hi": 65.4
+  },
+  "ci50": {
+   "lo": 51.1,
+   "hi": 60.9
+  },
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1d8e9add",
+   "season": 2019,
+   "distance": 1.509,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Kevin Vogt",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "87935cf3",
+   "season": 2019,
+   "distance": 1.565,
+   "survived": 1,
+   "fut_ability_v2": 64.9,
+   "player_name": "Mamadou Sakho",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "bc6f5f06",
+   "season": 2019,
+   "distance": 1.645,
+   "survived": 1,
+   "fut_ability_v2": 42.5,
+   "player_name": "Sergi Gómez",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "d70a2141",
+   "season": 2019,
+   "distance": 1.736,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordi Amat",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "c6056d58",
+   "season": 2019,
+   "distance": 1.751,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Kamil Glik",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "6e5b5a45",
+   "season": 2019,
+   "distance": 1.821,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Wesley Lautoa",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2020,
+   "distance": 1.835,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "42dcf26d",
+   "season": 2019,
+   "distance": 1.903,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Álvaro González",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "a63a995f",
+   "season": 2019,
+   "distance": 1.994,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabian Lustenberger",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2018,
+   "distance": 2.006,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 94.0
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 90.6
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 88.6
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 88.6
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 86.2
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 77.7
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 70.7
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 3.1
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 16.2
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 18.9
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 18.9
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 30.7
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 31.2
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 70.7
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 77.7
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 59.4
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 88.6
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 18.9
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.82
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": 0.32
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.89
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "패스 관여도",
+     "z": 1.06
+    },
+    {
+     "label": "운반 비중",
+     "z": 0.57
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 59퍼센타일)",
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 53퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 11퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 운반 기초 교정",
+    "kpi": "전진 운반: 53 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 패스 실전 적용 반복",
+    "kpi": "전진 패스: 59 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "패스 성공률: 89 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.07,
+   "fouls_per90": 1.12,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 89.1,
+   "clean_pctl_fouls": 34.5
+  },
+  "availability": {
+   "minpct_mean": 80.1,
+   "n_seasons": 7
+  },
+  "consistency": {
+   "ability_std": 4.5,
+   "n_rated_seasons": 6
+  }
+ },
+ "narrative": {
+  "current": "Moussa Niakhate(DF)의 현재 능력 점수는 57.8점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 운반 거리, 태클 성공률, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 성공 드리블이다.",
+  "potential": "Moussa Niakhate의 2~3년 후 전성기 유지 예측 중심값은 56.0점, 80% 구간 상단(잠재력 상한)은 65.4점이다. 빅5 현역 유지확률은 73.8%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

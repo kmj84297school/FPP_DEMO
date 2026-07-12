@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "n25671c3",
+  "player_name": "Calvin Bassey",
+  "nation": "NGA",
+  "age_years": 24.0,
+  "squad": "Fulham",
+  "comps": "Premier League",
+  "pos_primary": "DF",
+  "minutes_season": 3074.0
+ },
+ "current": {
+  "ability": 53.6,
+  "score_position": 53.7,
+  "score_style": 53.5,
+  "groups": {
+   "prod": 37.8,
+   "progress": 60.2,
+   "chance": 20.2,
+   "stability": 43.7,
+   "defense": 57.4
+  }
+ },
+ "style": {
+  "primary": "빌드업 수비수",
+  "confidence": 0.76
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.7036,
+  "mu": 59.0,
+  "ci80": {
+   "lo": 49.7,
+   "hi": 68.4
+  },
+  "ci50": {
+   "lo": 54.2,
+   "hi": 64.0
+  },
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "699fb8db",
+   "season": 2020,
+   "distance": 1.783,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominique Heintz",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "89ac64a6",
+   "season": 2020,
+   "distance": 1.817,
+   "survived": 1,
+   "fut_ability_v2": 67.3,
+   "player_name": "Manuel Akanji",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "ce4246f5",
+   "season": 2020,
+   "distance": 1.956,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Kurt Zouma",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2020,
+   "distance": 2.011,
+   "survived": 1,
+   "fut_ability_v2": 61.9,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "d70a2141",
+   "season": 2019,
+   "distance": 2.1,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordi Amat",
+   "squad": "Rayo Vallecano"
+  },
+  {
+   "fbref_id": "e0f3a1f6",
+   "season": 2020,
+   "distance": 2.106,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Jean-Charles Castelletto",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "699fb8db",
+   "season": 2019,
+   "distance": 2.141,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Dominique Heintz",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "c40b6180",
+   "season": 2020,
+   "distance": 2.176,
+   "survived": 1,
+   "fut_ability_v2": 62.5,
+   "player_name": "Adam Webster",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "b18a3023",
+   "season": 2018,
+   "distance": 2.194,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Júnior Alonso",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "1900032e",
+   "season": 2018,
+   "distance": 2.201,
+   "survived": 1,
+   "fut_ability_v2": 64.1,
+   "player_name": "Jannik Vestergaard",
+   "squad": "M'Gladbach"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 91.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 86.8
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 85.4
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 82.7
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 82.0
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 80.5
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 74.3
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 2.7
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 18.3
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 22.2
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 39.1
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 41.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 22.2
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 44.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 74.3
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 52.6
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 86.8
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 50.7
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.82
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": 0.06
+   },
+   {
+    "style": "공격형 풀백",
+    "fit_z": -0.58
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "패스 관여도",
+     "z": 1.04
+    },
+    {
+     "label": "운반 비중",
+     "z": 0.61
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 53퍼센타일)",
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 54퍼센타일)",
+   "패스 성공률 이미 강점 — 유지 및 응용 훈련 (상위 13퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "전진 패스 기초 교정",
+    "kpi": "전진 패스: 53 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 54 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "패스 성공률: 87 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.2,
+   "fouls_per90": 0.76,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 43.8,
+   "clean_pctl_fouls": 70.7
+  },
+  "availability": {
+   "minpct_mean": 89.9,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Calvin Bassey(DF)의 현재 능력 점수는 53.6점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반 거리, 패스 성공률, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 박스 터치이다.",
+  "potential": "Calvin Bassey의 2~3년 후 전성기 유지 예측 중심값은 59.0점, 80% 구간 상단(잠재력 상한)은 68.4점이다. 빅5 현역 유지확률은 70.4%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

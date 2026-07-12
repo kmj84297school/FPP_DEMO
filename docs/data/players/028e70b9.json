@@ -3,197 +3,306 @@
   "fbref_id": "028e70b9",
   "player_name": "Joshua Zirkzee",
   "nation": "NED",
-  "age_years": 21.0,
-  "squad": "Bologna",
-  "comps": "Serie A",
+  "age_years": 23.0,
+  "squad": "Manchester Utd",
+  "comps": "Premier League",
   "pos_primary": "FW",
-  "minutes_2023": 208.0
+  "minutes_season": 1402.0
  },
  "current": {
-  "ability": 42.5,
-  "score_position": 46.9,
-  "score_style": 38.1,
+  "ability": 38.9,
+  "score_position": 41.4,
+  "score_style": 36.5,
   "groups": {
-   "prod": 72.6,
-   "progress": 26.4,
-   "chance": 15.2,
-   "stability": 34.4,
-   "defense": 26.5
+   "prod": 42.3,
+   "progress": 38.8,
+   "chance": 22.3,
+   "stability": 30.3,
+   "defense": 62.1
   }
  },
  "style": {
   "primary": "연결형 공격수",
-  "confidence": 0.38
+  "confidence": 0.26
  },
  "eligibility": {
-  "eligible_for_prediction": false,
-  "kind": null,
-  "reason": "under_minutes"
+  "eligible_for_prediction": true,
+  "kind": "growth",
+  "reason": null
  },
- "prediction": null,
- "neighbors": [],
+ "prediction": {
+  "survival_prob": 0.473,
+  "mu": 48.2,
+  "ci80": {
+   "lo": 37.5,
+   "hi": 59.0
+  },
+  "ci50": {
+   "lo": 42.6,
+   "hi": 53.9
+  },
+  "sigma_model": 2.1,
+  "sigma_residual": 8.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "923f4dda",
+   "season": 2019,
+   "distance": 1.867,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "19ba6c6d",
+   "season": 2019,
+   "distance": 1.91,
+   "survived": 1,
+   "fut_ability_v2": 50.7,
+   "player_name": "Steve Mounié",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "0b90bb97",
+   "season": 2020,
+   "distance": 2.195,
+   "survived": 1,
+   "fut_ability_v2": 43.1,
+   "player_name": "Santi Mina",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "f8eca1b6",
+   "season": 2020,
+   "distance": 2.256,
+   "survived": 1,
+   "fut_ability_v2": 38.5,
+   "player_name": "Enes Ünal",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "9453d2f4",
+   "season": 2019,
+   "distance": 2.269,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Baptiste Guillaume",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "19ba6c6d",
+   "season": 2018,
+   "distance": 2.281,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Steve Mounié",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "5d4f7d61",
+   "season": 2019,
+   "distance": 2.39,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Patrik Schick",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "78b8ac63",
+   "season": 2020,
+   "distance": 2.396,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oliver McBurnie",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "2054d037",
+   "season": 2019,
+   "distance": 2.476,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "M'Baye Niang",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "74c7c2db",
+   "season": 2018,
+   "distance": 2.523,
+   "survived": 1,
+   "fut_ability_v2": 45.3,
+   "player_name": "Robin Quaison",
+   "squad": "Mainz 05"
+  }
+ ],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
     "key": "npxG_Sh",
     "label": "슈팅당 기대득점",
-    "percentile": 96.5
+    "percentile": 86.9
    },
    {
-    "key": "xAG",
-    "label": "도움 기대값(xAG)",
-    "percentile": 94.3
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 81.4
    },
    {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 92.9
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 76.9
    },
    {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 89.4
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 75.1
    },
    {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 75.9
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 69.5
    },
    {
-    "key": "np_G",
-    "label": "무페널티 득점",
-    "percentile": 64.5
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 67.8
    },
    {
-    "key": "PassPct",
-    "label": "패스 성공률",
-    "percentile": 63.1
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 67.6
    }
   ],
   "weaknesses": [
    {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 0.0
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 14.9
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 15.6
    },
    {
     "key": "PPA",
     "label": "박스 진입 패스",
-    "percentile": 1.4
+    "percentile": 20.3
    },
    {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 6.4
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 21.9
    },
    {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 7.8
-   },
-   {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 8.5
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 22.6
    }
   ],
   "position_radar": [
    {
     "key": "npxG",
     "label": "비페널티 xG",
-    "percentile": 89.4
+    "percentile": 62.2
    },
    {
     "key": "SCA",
     "label": "슈팅 창출(SCA)",
-    "percentile": 7.8
+    "percentile": 24.5
    },
    {
     "key": "TakeOn",
     "label": "성공 드리블",
-    "percentile": 75.9
+    "percentile": 34.7
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 14.9
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 31.2
+    "percentile": 30.3
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 39.0
+    "percentile": 21.9
    }
   ],
   "top3_styles": [
    {
     "style": "연결형 공격수",
-    "fit_z": 1.18
-   },
-   {
-    "style": "박스 포처",
-    "fit_z": 0.8
+    "fit_z": 0.21
    },
    {
     "style": "타겟맨",
-    "fit_z": 0.49
+    "fit_z": -0.05
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": -0.58
    }
   ],
   "style_evidence": {
    "top": [
     {
      "label": "중원 활동 비중",
-     "z": 1.19
+     "z": 1.57
     },
     {
      "label": "키패스 비중",
-     "z": 1.18
+     "z": -1.16
     }
    ],
    "bottom": []
   },
   "coaching": [
-   "키패스 안정화 단계 — 상황별 반복 훈련 (현재 39퍼센타일)",
-   "슈팅 창출(SCA) 개선 필요 — 기초 반복 훈련 권장 (현재 하위 8퍼센타일)",
-   "전진 패스 수신 개선 필요 — 기초 반복 훈련 권장 (현재 하위 9퍼센타일)"
+   "키패스 개선 필요 — 기초 반복 훈련 권장 (현재 하위 22퍼센타일)",
+   "슈팅 창출(SCA) 개선 필요 — 기초 반복 훈련 권장 (현재 하위 24퍼센타일)",
+   "전진 패스 수신 개선 필요 — 기초 반복 훈련 권장 (현재 하위 16퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "슈팅 창출(SCA) 기초 교정",
-    "kpi": "슈팅 창출(SCA): 8 → 60 퍼센타일"
+    "focus": "전진 패스 수신 기초 교정",
+    "kpi": "전진 패스 수신: 16 → 60 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "전진 패스 수신 실전 적용 반복",
-    "kpi": "전진 패스 수신: 9 → 60 퍼센타일"
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 22 → 60 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "키패스: 39 → 60 퍼센타일"
+    "kpi": "슈팅 창출(SCA): 24 → 60 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
-   "yellows_per90": 0.43,
-   "fouls_per90": 0.0,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 2.1,
-   "clean_pctl_fouls": 99.3
+   "yellows_per90": 0.13,
+   "fouls_per90": 0.58,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 53.4,
+   "clean_pctl_fouls": 90.0
   },
   "availability": {
-   "minpct_mean": 8.8,
-   "n_seasons": 3
+   "minpct_mean": 16.8,
+   "n_seasons": 4
   },
   "consistency": {
-   "ability_std": null,
-   "n_rated_seasons": 1
+   "ability_std": 2.5,
+   "n_rated_seasons": 2
   }
  },
  "narrative": {
-  "current": "Joshua Zirkzee(FW)의 현재 능력 점수는 42.5점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 도움 기대값(xAG), 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 박스 진입 패스이다.",
-  "potential": null
+  "current": "Joshua Zirkzee(FW)의 현재 능력 점수는 38.9점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 슈팅당 기대득점, 태클 성공률, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 패스 수신이다.",
+  "potential": "Joshua Zirkzee의 2~3년 후 성장 예측 중심값은 48.2점, 80% 구간 상단(잠재력 상한)은 59.0점이다. 빅5 잔존확률은 47.3%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

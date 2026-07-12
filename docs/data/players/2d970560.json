@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "2d970560",
+  "player_name": "Robin Gosens",
+  "nation": "GER",
+  "age_years": 30.0,
+  "squad": "Fiorentina / Union Berlin",
+  "comps": "Serie A / Bundesliga",
+  "pos_primary": "DF",
+  "minutes_season": 2524.0
+ },
+ "current": {
+  "ability": 60.4,
+  "score_position": 55.7,
+  "score_style": 65.2,
+  "groups": {
+   "prod": 79.3,
+   "progress": 49.9,
+   "chance": 88.5,
+   "stability": 40.3,
+   "defense": 46.8
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 0.14
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.5317,
+  "mu": 57.1,
+  "ci80": {
+   "lo": 47.8,
+   "hi": 66.3
+  },
+  "ci50": {
+   "lo": 52.1,
+   "hi": 61.9
+  },
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "9f323c71",
+   "season": 2019,
+   "distance": 1.79,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "652811aa",
+   "season": 2020,
+   "distance": 1.795,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Calderoni",
+   "squad": "Lecce"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2019,
+   "distance": 1.89,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "d83bbc54",
+   "season": 2020,
+   "distance": 1.911,
+   "survived": 1,
+   "fut_ability_v2": 41.5,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2020,
+   "distance": 1.917,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "4f974391",
+   "season": 2020,
+   "distance": 1.95,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2020,
+   "distance": 2.02,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "088ca1bd",
+   "season": 2020,
+   "distance": 2.063,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Schmid",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "3f65898c",
+   "season": 2020,
+   "distance": 2.156,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "d63e2912",
+   "season": 2019,
+   "distance": 2.191,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Hiroki Sakai",
+   "squad": "Marseille"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 98.3
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 96.3
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 91.1
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 90.3
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 88.8
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 88.8
+   },
+   {
+    "key": "PPA",
+    "label": "박스 진입 패스",
+    "percentile": 86.4
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 5.3
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 16.5
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 16.9
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 22.6
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 26.8
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 46.7
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 39.5
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 62.6
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 62.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 16.5
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 60.2
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.18
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": 0.04
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.34
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.74
+    },
+    {
+     "label": "크로스 비중",
+     "z": 0.41
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": -0.61
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 강화 여지 — 난이도를 높인 반복 훈련 (현재 53퍼센타일)",
+   "성공 드리블 개선 필요 — 기초 반복 훈련 권장 (현재 하위 27퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 20퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 27 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 53 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 80 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.25,
+   "fouls_per90": 1.03,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 29.0,
+   "clean_pctl_fouls": 42.9
+  },
+  "availability": {
+   "minpct_mean": 49.8,
+   "n_seasons": 7
+  },
+  "consistency": {
+   "ability_std": 5.1,
+   "n_rated_seasons": 6
+  }
+ },
+ "narrative": {
+  "current": "Robin Gosens(DF)의 현재 능력 점수는 60.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 골 창출(GCA), 무페널티 득점, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 패스 성공률이다.",
+  "potential": "Robin Gosens의 2~3년 후 전성기 유지 예측 중심값은 57.1점, 80% 구간 상단(잠재력 상한)은 66.3점이다. 빅5 현역 유지확률은 53.2%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

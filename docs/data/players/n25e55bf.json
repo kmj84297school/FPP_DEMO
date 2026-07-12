@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "n25e55bf",
+  "player_name": "Diego",
+  "nation": "ESP",
+  "age_years": 24.0,
+  "squad": "Leganés",
+  "comps": "La Liga",
+  "pos_primary": "FW",
+  "minutes_season": 1195.0
+ },
+ "current": {
+  "ability": 29.2,
+  "score_position": 26.1,
+  "score_style": 32.4,
+  "groups": {
+   "prod": 36.7,
+   "progress": 11.2,
+   "chance": 4.9,
+   "stability": 26.0,
+   "defense": 37.1
+  }
+ },
+ "style": {
+  "primary": "타겟맨",
+  "confidence": 0.55
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.1922,
+  "mu": 46.3,
+  "ci80": {
+   "lo": 36.6,
+   "hi": 56.0
+  },
+  "ci50": {
+   "lo": 41.2,
+   "hi": 51.3
+  },
+  "sigma_model": 2.6,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "1238a3f9",
+   "season": 2020,
+   "distance": 2.499,
+   "survived": 1,
+   "fut_ability_v2": 30.0,
+   "player_name": "Davie Selke",
+   "squad": "Hertha BSC / Werder Bremen"
+  },
+  {
+   "fbref_id": "8c44e37b",
+   "season": 2019,
+   "distance": 2.721,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Borja Bastón",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "7ffaf233",
+   "season": 2018,
+   "distance": 2.987,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Suk Hyun-jun",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "4e9a0555",
+   "season": 2018,
+   "distance": 3.06,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Chris Wood",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "8c8b4a01",
+   "season": 2019,
+   "distance": 3.217,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Zreľák",
+   "squad": "Nürnberg"
+  },
+  {
+   "fbref_id": "a39b9ef6",
+   "season": 2018,
+   "distance": 3.218,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Falcinelli",
+   "squad": "Sassuolo / Fiorentina"
+  },
+  {
+   "fbref_id": "11ced928",
+   "season": 2020,
+   "distance": 3.266,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yaya Sanogo",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "4e9a0555",
+   "season": 2019,
+   "distance": 3.315,
+   "survived": 1,
+   "fut_ability_v2": 36.7,
+   "player_name": "Chris Wood",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "5046b7d4",
+   "season": 2018,
+   "distance": 3.323,
+   "survived": 1,
+   "fut_ability_v2": 42.7,
+   "player_name": "Stéphane Bahoken",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "2e52206e",
+   "season": 2018,
+   "distance": 3.338,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Jeannot",
+   "squad": "Dijon"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 89.0
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 81.6
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 62.9
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 59.4
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 58.0
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 44.5
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 44.1
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 0.7
+   },
+   {
+    "key": "xAG",
+    "label": "도움 기대값(xAG)",
+    "percentile": 0.9
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 4.2
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 5.8
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 6.5
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 58.0
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 0.7
+   },
+   {
+    "key": "TakeOn",
+    "label": "성공 드리블",
+    "percentile": 7.2
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 8.4
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 21.0
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 4.2
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "타겟맨",
+    "fit_z": 1.24
+   },
+   {
+    "style": "박스 포처",
+    "fit_z": 0.69
+   },
+   {
+    "style": "연결형 공격수",
+    "fit_z": -0.46
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공중볼 경합량",
+     "z": 2.12
+    },
+    {
+     "label": "박스 터치 비중",
+     "z": 0.35
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "공중볼 승리 이미 강점 — 유지 및 응용 훈련 (상위 11퍼센타일)",
+   "무페널티 득점 안정화 단계 — 상황별 반복 훈련 (현재 44퍼센타일)",
+   "박스 터치 개선 필요 — 기초 반복 훈련 권장 (현재 하위 21퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "박스 터치 기초 교정",
+    "kpi": "박스 터치: 21 → 60 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "무페널티 득점 실전 적용 반복",
+    "kpi": "무페널티 득점: 44 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "공중볼 승리: 89 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.15,
+   "fouls_per90": 1.66,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 47.1,
+   "clean_pctl_fouls": 24.2
+  },
+  "availability": {
+   "minpct_mean": 34.9,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Diego(FW)의 현재 능력 점수는 29.2점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 공중볼 승률, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 도움 기대값(xAG)이다.",
+  "potential": "Diego의 2~3년 후 전성기 유지 예측 중심값은 46.3점, 80% 구간 상단(잠재력 상한)은 56.0점이다. 빅5 현역 유지확률은 19.2%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

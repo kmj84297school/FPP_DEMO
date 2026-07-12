@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "c952f633",
+  "player_name": "Ulisses Garcia",
+  "nation": "SUI",
+  "age_years": 28.0,
+  "squad": "Marseille",
+  "comps": "Ligue 1",
+  "pos_primary": "DF",
+  "minutes_season": 930.0
+ },
+ "current": {
+  "ability": 61.7,
+  "score_position": 54.4,
+  "score_style": 69.1,
+  "groups": {
+   "prod": 87.9,
+   "progress": 74.5,
+   "chance": 81.7,
+   "stability": 44.0,
+   "defense": 29.8
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 0.01
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.4448,
+  "mu": 57.1,
+  "ci80": {
+   "lo": 47.7,
+   "hi": 66.3
+  },
+  "ci50": {
+   "lo": 52.1,
+   "hi": 61.9
+  },
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "e288d4b3",
+   "season": 2020,
+   "distance": 1.987,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Alessandro Florenzi",
+   "squad": "Roma / Valencia"
+  },
+  {
+   "fbref_id": "ad6295d4",
+   "season": 2018,
+   "distance": 2.026,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Layún",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "9f323c71",
+   "season": 2018,
+   "distance": 2.066,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "ef5b337e",
+   "season": 2018,
+   "distance": 2.143,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabio Borini",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "58027adc",
+   "season": 2020,
+   "distance": 2.196,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ladislav Krejčí",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "44eb9093",
+   "season": 2020,
+   "distance": 2.34,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Danilo D'Ambrosio",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "c56dc39e",
+   "season": 2019,
+   "distance": 2.363,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Rafael Tolói",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "852351df",
+   "season": 2018,
+   "distance": 2.376,
+   "survived": 1,
+   "fut_ability_v2": 53.7,
+   "player_name": "Bruno Peres",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "1f079188",
+   "season": 2020,
+   "distance": 2.411,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rubén Peña",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "5cec2487",
+   "season": 2020,
+   "distance": 2.42,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martín Montoya",
+   "squad": "Brighton"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 99.7
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 97.9
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 97.3
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 97.0
+   },
+   {
+    "key": "npxG_Sh",
+    "label": "슈팅당 기대득점",
+    "percentile": 96.1
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 92.8
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 88.6
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 0.7
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 2.0
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 6.7
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 8.2
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 21.0
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 21.0
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 6.7
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 37.6
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 86.8
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 56.0
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 2.0
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.77
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.76
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -1.0
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 1.03
+    },
+    {
+     "label": "크로스 비중",
+     "z": 0.65
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.63
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 16퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 20퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 28퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "키패스 기초 교정",
+    "kpi": "키패스: 72 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "성공 드리블 실전 적용 반복",
+    "kpi": "성공 드리블: 80 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 84 → 90 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.19,
+   "fouls_per90": 0.77,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 47.9,
+   "clean_pctl_fouls": 69.7
+  },
+  "availability": {
+   "minpct_mean": 16.6,
+   "n_seasons": 2
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Ulisses Garcia(DF)의 현재 능력 점수는 61.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 골 창출(GCA), 전진 패스 수신, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 블록이다.",
+  "potential": "Ulisses Garcia의 2~3년 후 전성기 유지 예측 중심값은 57.1점, 80% 구간 상단(잠재력 상한)은 66.3점이다. 빅5 현역 유지확률은 44.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

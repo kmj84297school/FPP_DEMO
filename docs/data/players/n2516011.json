@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "n2516011",
+  "player_name": "Abner",
+  "nation": "BRA",
+  "age_years": 24.0,
+  "squad": "Lyon",
+  "comps": "Ligue 1",
+  "pos_primary": "DF",
+  "minutes_season": 1090.0
+ },
+ "current": {
+  "ability": 62.9,
+  "score_position": 58.5,
+  "score_style": 67.3,
+  "groups": {
+   "prod": 69.3,
+   "progress": 77.1,
+   "chance": 67.6,
+   "stability": 48.2,
+   "defense": 41.4
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 0.09
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.5852,
+  "mu": 59.1,
+  "ci80": {
+   "lo": 49.8,
+   "hi": 68.4
+  },
+  "ci50": {
+   "lo": 54.3,
+   "hi": 64.0
+  },
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "f7223718",
+   "season": 2019,
+   "distance": 1.685,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Patric",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "fbbb9269",
+   "season": 2019,
+   "distance": 1.922,
+   "survived": 1,
+   "fut_ability_v2": 60.3,
+   "player_name": "Youssouf Sabaly",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "fbbb9269",
+   "season": 2020,
+   "distance": 1.937,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Youssouf Sabaly",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "e5d01ecf",
+   "season": 2018,
+   "distance": 1.98,
+   "survived": 1,
+   "fut_ability_v2": 51.5,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "2ef637bd",
+   "season": 2019,
+   "distance": 2.09,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierre-Yves Polomat",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "73000a79",
+   "season": 2020,
+   "distance": 2.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daley Sinkgraven",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2018,
+   "distance": 2.197,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Alberto Moreno",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "f9acca3a",
+   "season": 2018,
+   "distance": 2.228,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Wendell",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "0b5a292a",
+   "season": 2018,
+   "distance": 2.281,
+   "survived": 1,
+   "fut_ability_v2": 66.7,
+   "player_name": "Mário Rui",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "05439de2",
+   "season": 2018,
+   "distance": 2.325,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "David Alaba",
+   "squad": "Bayern Munich"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 90.9
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 90.6
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 83.7
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 80.5
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 79.7
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 78.8
+   },
+   {
+    "key": "np_G",
+    "label": "무페널티 득점",
+    "percentile": 78.7
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 12.4
+   },
+   {
+    "key": "AerWon",
+    "label": "공중볼 승리",
+    "percentile": 12.8
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 22.7
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 41.8
+   },
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 44.9
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 53.1
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 41.8
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 12.4
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 90.6
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 53.8
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 59.4
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.46
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": 0.37
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.76
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.99
+    },
+    {
+     "label": "크로스 비중",
+     "z": 0.4
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": -0.02
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 9퍼센타일)",
+   "성공 드리블 강화 여지 — 난이도를 높인 반복 훈련 (현재 68퍼센타일)",
+   "키패스 이미 강점 — 유지 및 응용 훈련 (상위 23퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 68 → 80 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "키패스 실전 적용 반복",
+    "kpi": "키패스: 77 → 90 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 이미 상위 9퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.08,
+   "fouls_per90": 1.32,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 85.5,
+   "clean_pctl_fouls": 22.7
+  },
+  "availability": {
+   "minpct_mean": 35.6,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Abner(DF)의 현재 능력 점수는 62.9점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반, 전진 패스, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
+  "potential": "Abner의 2~3년 후 전성기 유지 예측 중심값은 59.1점, 80% 구간 상단(잠재력 상한)은 68.4점이다. 빅5 현역 유지확률은 58.5%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

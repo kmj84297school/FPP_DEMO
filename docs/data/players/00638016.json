@@ -1,0 +1,313 @@
+{
+ "meta": {
+  "fbref_id": "00638016",
+  "player_name": "Léo Pétrot",
+  "nation": "FRA",
+  "age_years": 27.0,
+  "squad": "Saint-Étienne",
+  "comps": "Ligue 1",
+  "pos_primary": "DF",
+  "minutes_season": 2634.0
+ },
+ "current": {
+  "ability": 56.5,
+  "score_position": 57.2,
+  "score_style": 55.9,
+  "groups": {
+   "prod": 46.6,
+   "progress": 39.9,
+   "chance": 63.9,
+   "stability": 44.1,
+   "defense": 63.1
+  }
+ },
+ "style": {
+  "primary": "공격형 풀백",
+  "confidence": 0.1
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.5762,
+  "mu": 52.6,
+  "ci80": {
+   "lo": 43.5,
+   "hi": 61.8
+  },
+  "ci50": {
+   "lo": 47.8,
+   "hi": 57.5
+  },
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "8db394aa",
+   "season": 2019,
+   "distance": 1.39,
+   "survived": 1,
+   "fut_ability_v2": 40.9,
+   "player_name": "Ximo Navarro",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "f3112790",
+   "season": 2020,
+   "distance": 1.417,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Unai Bustinza",
+   "squad": "Leganés"
+  },
+  {
+   "fbref_id": "46ee5234",
+   "season": 2018,
+   "distance": 1.552,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kieran Gibbs",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "89976232",
+   "season": 2020,
+   "distance": 1.649,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Armando Izzo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "173061c0",
+   "season": 2019,
+   "distance": 1.726,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Riccardo Gagliolo",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "61b3978f",
+   "season": 2020,
+   "distance": 1.749,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2019,
+   "distance": 1.799,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2018,
+   "distance": 1.806,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "247accfd",
+   "season": 2018,
+   "distance": 1.811,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Bakaye Dibassy",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "6adbc307",
+   "season": 2020,
+   "distance": 1.833,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 89.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 82.2
+   },
+   {
+    "key": "Ast",
+    "label": "어시스트",
+    "percentile": 79.5
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 76.4
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 69.2
+   },
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 68.6
+   },
+   {
+    "key": "Err",
+    "label": "실책",
+    "percentile": 63.5
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 6.5
+   },
+   {
+    "key": "PrgDistP",
+    "label": "전진 패스 거리",
+    "percentile": 33.8
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 34.2
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 34.7
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 37.9
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 82.2
+   },
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 46.9
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 47.9
+   },
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 44.3
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 34.2
+   },
+   {
+    "key": "Blocks",
+    "label": "블록",
+    "percentile": 89.8
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "공격형 풀백",
+    "fit_z": 0.06
+   },
+   {
+    "style": "스토퍼",
+    "fit_z": -0.04
+   },
+   {
+    "style": "빌드업 수비수",
+    "fit_z": -0.78
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "공격 3분의1 활동 비중",
+     "z": 0.51
+    },
+    {
+     "label": "크로스 비중",
+     "z": 0.15
+    }
+   ],
+   "bottom": [
+    {
+     "label": "드리블 시도 비중",
+     "z": -0.47
+    }
+   ]
+  },
+  "coaching": [
+   "전진 운반 안정화 단계 — 상황별 반복 훈련 (현재 48퍼센타일)",
+   "성공 드리블 안정화 단계 — 상황별 반복 훈련 (현재 40퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 61퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 40 → 70 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 실전 적용 반복",
+    "kpi": "전진 운반: 48 → 70 퍼센타일"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "키패스: 61 → 80 퍼센타일"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.14,
+   "fouls_per90": 0.75,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 68.5,
+   "clean_pctl_fouls": 72.4
+  },
+  "availability": {
+   "minpct_mean": 69.6,
+   "n_seasons": 2
+  },
+  "consistency": {
+   "ability_std": 2.4,
+   "n_rated_seasons": 2
+  }
+ },
+ "narrative": {
+  "current": "Léo Pétrot(DF)의 현재 능력 점수는 56.5점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 태클+인터셉트, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 패스 거리이다.",
+  "potential": "Léo Pétrot의 2~3년 후 전성기 유지 예측 중심값은 52.6점, 80% 구간 상단(잠재력 상한)은 61.8점이다. 빅5 현역 유지확률은 57.6%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}

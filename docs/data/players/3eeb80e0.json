@@ -3,300 +3,207 @@
   "fbref_id": "3eeb80e0",
   "player_name": "Fredrik Jensen",
   "nation": "FIN",
-  "age_years": 25.0,
+  "age_years": 26.0,
   "squad": "Augsburg",
   "comps": "Bundesliga",
-  "pos_primary": "FW",
-  "minutes_2023": 473.0
+  "pos_primary": "MF",
+  "minutes_season": 763.0
  },
  "current": {
-  "ability": 37.5,
-  "score_position": 35.2,
-  "score_style": 39.8,
+  "ability": 42.9,
+  "score_position": 43.7,
+  "score_style": 42.2,
   "groups": {
-   "prod": 24.0,
-   "progress": 41.5,
-   "chance": 38.3,
-   "stability": 4.6,
-   "defense": 66.0
+   "prod": 34.7,
+   "progress": 40.5,
+   "chance": 42.2,
+   "stability": 31.6,
+   "defense": 55.7
   }
  },
  "style": {
-  "primary": "돌파형 윙어",
-  "confidence": 0.94
+  "primary": "공격형 MF",
+  "confidence": 0.82
  },
  "eligibility": {
-  "eligible_for_prediction": true,
-  "kind": "peak",
-  "reason": null
+  "eligible_for_prediction": false,
+  "kind": null,
+  "reason": "under_minutes"
  },
- "prediction": {
-  "survival_prob": 0.2787,
-  "mu": 50.8,
-  "ci80": {
-   "lo": 40.2,
-   "hi": 61.5
-  },
-  "ci50": {
-   "lo": 45.3,
-   "hi": 56.4
-  },
-  "sigma_model": 4.3,
-  "sigma_residual": 7.1
- },
- "neighbors": [
-  {
-   "fbref_id": "6922f806",
-   "season": 2020,
-   "distance": 2.575,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jonathan Calleri",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "cd82452e",
-   "season": 2018,
-   "distance": 2.596,
-   "survived": 1,
-   "fut_ability_v2": 41.9,
-   "player_name": "André Hahn",
-   "squad": "Hamburger SV"
-  },
-  {
-   "fbref_id": "1238a3f9",
-   "season": 2020,
-   "distance": 2.754,
-   "survived": 1,
-   "fut_ability_v2": 30.0,
-   "player_name": "Davie Selke",
-   "squad": "Hertha BSC / Werder Bremen"
-  },
-  {
-   "fbref_id": "e5f63987",
-   "season": 2019,
-   "distance": 2.8,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Daniel Ginczek",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "1fdec858",
-   "season": 2020,
-   "distance": 2.89,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Dennis Srbeny",
-   "squad": "Paderborn 07 / Norwich City"
-  },
-  {
-   "fbref_id": "6265208f",
-   "season": 2018,
-   "distance": 2.932,
-   "survived": 1,
-   "fut_ability_v2": 50.9,
-   "player_name": "Joselu",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "bb4b1242",
-   "season": 2018,
-   "distance": 2.975,
-   "survived": 1,
-   "fut_ability_v2": 42.1,
-   "player_name": "Sergi Enrich",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "8f3565b3",
-   "season": 2018,
-   "distance": 2.985,
-   "survived": 1,
-   "fut_ability_v2": 43.4,
-   "player_name": "Ante Budimir",
-   "squad": "Crotone"
-  },
-  {
-   "fbref_id": "65c75ea8",
-   "season": 2018,
-   "distance": 3.046,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andrea Nalini",
-   "squad": "Crotone"
-  },
-  {
-   "fbref_id": "8e235926",
-   "season": 2020,
-   "distance": 3.065,
-   "survived": 1,
-   "fut_ability_v2": 55.8,
-   "player_name": "Michael Gregoritsch",
-   "squad": "Schalke 04 / Augsburg"
-  }
- ],
+ "prediction": null,
+ "neighbors": [],
  "low_confidence": false,
  "report": {
   "strengths": [
    {
     "key": "TklPct",
     "label": "태클 성공률",
-    "percentile": 100.0
+    "percentile": 99.6
    },
    {
-    "key": "Blocks",
-    "label": "블록",
-    "percentile": 84.4
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 99.1
    },
    {
-    "key": "F3Pass",
-    "label": "최종 3분의1 패스",
-    "percentile": 76.6
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 90.5
    },
    {
-    "key": "AerWon",
-    "label": "공중볼 승리",
-    "percentile": 75.2
-   },
-   {
-    "key": "PrgDistP",
-    "label": "전진 패스 거리",
-    "percentile": 70.9
-   },
-   {
-    "key": "Ast",
-    "label": "어시스트",
-    "percentile": 69.5
-   },
-   {
-    "key": "PrgPass",
-    "label": "전진 패스",
-    "percentile": 69.5
-   }
-  ],
-  "weaknesses": [
-   {
-    "key": "Sh",
-    "label": "슈팅 시도",
-    "percentile": 0.0
-   },
-   {
-    "key": "SoT",
-    "label": "유효슈팅",
-    "percentile": 0.7
-   },
-   {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 2.8
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 82.3
    },
    {
     "key": "AttPenT",
     "label": "박스 터치",
-    "percentile": 2.8
+    "percentile": 77.3
    },
    {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 5.7
-   }
-  ],
-  "position_radar": [
-   {
-    "key": "npxG",
-    "label": "비페널티 xG",
-    "percentile": 2.8
-   },
-   {
-    "key": "SCA",
-    "label": "슈팅 창출(SCA)",
-    "percentile": 27.0
-   },
-   {
-    "key": "TakeOn",
-    "label": "성공 드리블",
-    "percentile": 5.7
-   },
-   {
-    "key": "AttPenT",
-    "label": "박스 터치",
-    "percentile": 2.8
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 66.5
    },
    {
     "key": "KP",
     "label": "키패스",
-    "percentile": 58.2
+    "percentile": 66.4
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Recov",
+    "label": "볼 리커버리",
+    "percentile": 0.4
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 2.1
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 3.8
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 5.7
+   },
+   {
+    "key": "GCA",
+    "label": "골 창출(GCA)",
+    "percentile": 6.1
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 6.8
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 66.4
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 5.7
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 66.5
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 41.7
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 6.3
    }
   ],
   "top3_styles": [
    {
-    "style": "돌파형 윙어",
-    "fit_z": 0.63
+    "style": "공격형 MF",
+    "fit_z": 1.18
    },
    {
-    "style": "연결형 공격수",
-    "fit_z": -0.31
+    "style": "딥 플레이메이커",
+    "fit_z": 0.36
    },
    {
-    "style": "타겟맨",
-    "fit_z": -0.64
+    "style": "볼 운반형",
+    "fit_z": 0.29
    }
   ],
   "style_evidence": {
    "top": [
     {
-     "label": "크로스 비중",
-     "z": 1.9
+     "label": "공격 3분의1 활동 비중",
+     "z": 1.65
     },
     {
-     "label": "드리블 시도 비중",
-     "z": -0.64
+     "label": "박스 터치 비중",
+     "z": 1.25
     }
    ],
-   "bottom": []
+   "bottom": [
+    {
+     "label": "슈팅 비중",
+     "z": 0.64
+    }
+   ]
   },
   "coaching": [
-   "성공 드리블 개선 필요 — 기초 반복 훈련 권장 (현재 하위 6퍼센타일)",
-   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 58퍼센타일)"
+   "슈팅 창출(SCA) 안정화 단계 — 상황별 반복 훈련 (현재 42퍼센타일)",
+   "키패스 강화 여지 — 난이도를 높인 반복 훈련 (현재 66퍼센타일)",
+   "비페널티 xG 안정화 단계 — 상황별 반복 훈련 (현재 48퍼센타일)"
   ],
   "roadmap": [
    {
     "phase": "0~6주",
-    "focus": "성공 드리블 기초 교정",
-    "kpi": "성공 드리블: 6 → 60 퍼센타일"
+    "focus": "슈팅 창출(SCA) 기초 교정",
+    "kpi": "슈팅 창출(SCA): 42 → 70 퍼센타일"
    },
    {
     "phase": "6~12주",
-    "focus": "키패스 실전 적용 반복",
-    "kpi": "키패스: 58 → 70 퍼센타일"
+    "focus": "비페널티 xG 실전 적용 반복",
+    "kpi": "비페널티 xG: 48 → 70 퍼센타일"
    },
    {
     "phase": "12주+",
     "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
-    "kpi": "키패스: 58 → 70 퍼센타일"
+    "kpi": "키패스: 66 → 80 퍼센타일"
    }
   ]
  },
  "qualitative": {
   "discipline": {
    "yellows_per90": 0.0,
-   "fouls_per90": 1.52,
-   "reds_total_2023": 0.0,
-   "clean_pctl_cards": 74.5,
-   "clean_pctl_fouls": 27.0
+   "fouls_per90": 0.59,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 95.3,
+   "clean_pctl_fouls": 93.4
   },
   "availability": {
-   "minpct_mean": 17.3,
-   "n_seasons": 5
+   "minpct_mean": 18.6,
+   "n_seasons": 6
   },
   "consistency": {
-   "ability_std": null,
-   "n_rated_seasons": 1
+   "ability_std": 3.8,
+   "n_rated_seasons": 2
   }
  },
  "narrative": {
-  "current": "Fredrik Jensen(FW)의 현재 능력 점수는 37.5점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클 성공률, 블록, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 유효슈팅이다.",
-  "potential": "Fredrik Jensen의 2~3년 후 전성기 유지 예측 중심값은 50.8점, 80% 구간 상단(잠재력 상한)은 61.5점이다. 빅5 현역 유지확률은 27.9%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Fredrik Jensen(MF)의 현재 능력 점수는 42.9점이다. 플레이스타일은 '공격형 MF'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 공중볼 승률, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 최종 3분의1 패스이다.",
+  "potential": null
  }
 }

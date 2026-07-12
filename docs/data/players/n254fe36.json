@@ -1,0 +1,308 @@
+{
+ "meta": {
+  "fbref_id": "n254fe36",
+  "player_name": "Samuel Lino",
+  "nation": "BRA",
+  "age_years": 24.0,
+  "squad": "Atlético Madrid",
+  "comps": "La Liga",
+  "pos_primary": "MF",
+  "minutes_season": 1552.0
+ },
+ "current": {
+  "ability": 70.6,
+  "score_position": 69.4,
+  "score_style": 71.6,
+  "groups": {
+   "prod": 88.7,
+   "progress": 72.6,
+   "chance": 69.7,
+   "stability": 44.6,
+   "defense": 42.3
+  }
+ },
+ "style": {
+  "primary": "볼 운반형",
+  "confidence": 0.04
+ },
+ "eligibility": {
+  "eligible_for_prediction": true,
+  "kind": "peak",
+  "reason": null
+ },
+ "prediction": {
+  "survival_prob": 0.886,
+  "mu": 66.3,
+  "ci80": {
+   "lo": 57.0,
+   "hi": 75.6
+  },
+  "ci50": {
+   "lo": 61.4,
+   "hi": 71.2
+  },
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
+ },
+ "neighbors": [
+  {
+   "fbref_id": "810e3c74",
+   "season": 2018,
+   "distance": 2.298,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "Jesse Lingard",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "ef619b0b",
+   "season": 2018,
+   "distance": 2.454,
+   "survived": 1,
+   "fut_ability_v2": 73.2,
+   "player_name": "Aaron Ramsey",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "3ef0fa48",
+   "season": 2020,
+   "distance": 2.494,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Gelson Martins",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "819aa8e7",
+   "season": 2020,
+   "distance": 2.702,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ayoze Pérez",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "75f2c59f",
+   "season": 2018,
+   "distance": 2.805,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Roberto Pereyra",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "a0b4bb3e",
+   "season": 2019,
+   "distance": 2.831,
+   "survived": 1,
+   "fut_ability_v2": 72.9,
+   "player_name": "Isco",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "26f6dca8",
+   "season": 2018,
+   "distance": 2.832,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Manuel Lanzini",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ecbb3fdf",
+   "season": 2018,
+   "distance": 2.837,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Schürrle",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "d3aaad90",
+   "season": 2019,
+   "distance": 2.911,
+   "survived": 1,
+   "fut_ability_v2": 75.4,
+   "player_name": "Stephan El Shaarawy",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "dc1c2fce",
+   "season": 2020,
+   "distance": 2.98,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Álex Berenguer",
+   "squad": "Torino"
+  }
+ ],
+ "low_confidence": false,
+ "report": {
+  "strengths": [
+   {
+    "key": "PrgRec",
+    "label": "전진 패스 수신",
+    "percentile": 98.9
+   },
+   {
+    "key": "npxG",
+    "label": "비페널티 xG",
+    "percentile": 97.0
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 96.8
+   },
+   {
+    "key": "SoT",
+    "label": "유효슈팅",
+    "percentile": 96.2
+   },
+   {
+    "key": "Sh",
+    "label": "슈팅 시도",
+    "percentile": 94.6
+   },
+   {
+    "key": "PrgDistC",
+    "label": "전진 운반 거리",
+    "percentile": 94.5
+   },
+   {
+    "key": "AttPenT",
+    "label": "박스 터치",
+    "percentile": 94.3
+   }
+  ],
+  "weaknesses": [
+   {
+    "key": "Clr",
+    "label": "클리어링",
+    "percentile": 21.6
+   },
+   {
+    "key": "AerPct",
+    "label": "공중볼 승률",
+    "percentile": 22.4
+   },
+   {
+    "key": "F3Pass",
+    "label": "최종 3분의1 패스",
+    "percentile": 24.7
+   },
+   {
+    "key": "TklPct",
+    "label": "태클 성공률",
+    "percentile": 31.5
+   },
+   {
+    "key": "MisDis",
+    "label": "볼 손실(미스+파울)",
+    "percentile": 33.8
+   }
+  ],
+  "position_radar": [
+   {
+    "key": "PrgPass",
+    "label": "전진 패스",
+    "percentile": 46.7
+   },
+   {
+    "key": "KP",
+    "label": "키패스",
+    "percentile": 64.4
+   },
+   {
+    "key": "TklInt",
+    "label": "태클+인터셉트",
+    "percentile": 37.4
+   },
+   {
+    "key": "PrgCarry",
+    "label": "전진 운반",
+    "percentile": 96.8
+   },
+   {
+    "key": "SCA",
+    "label": "슈팅 창출(SCA)",
+    "percentile": 60.1
+   },
+   {
+    "key": "PassPct",
+    "label": "패스 성공률",
+    "percentile": 39.7
+   }
+  ],
+  "top3_styles": [
+   {
+    "style": "볼 운반형",
+    "fit_z": 1.16
+   },
+   {
+    "style": "공격형 MF",
+    "fit_z": 1.12
+   },
+   {
+    "style": "딥 플레이메이커",
+    "fit_z": 0.02
+   }
+  ],
+  "style_evidence": {
+   "top": [
+    {
+     "label": "운반 비중",
+     "z": 1.65
+    },
+    {
+     "label": "드리블 시도 비중",
+     "z": 0.67
+    }
+   ],
+   "bottom": []
+  },
+  "coaching": [
+   "전진 운반 이미 강점 — 유지 및 응용 훈련 (상위 3퍼센타일)",
+   "성공 드리블 이미 강점 — 유지 및 응용 훈련 (상위 11퍼센타일)",
+   "전진 운반 거리 이미 강점 — 유지 및 응용 훈련 (상위 6퍼센타일)"
+  ],
+  "roadmap": [
+   {
+    "phase": "0~6주",
+    "focus": "성공 드리블 기초 교정",
+    "kpi": "성공 드리블: 89 → 90 퍼센타일"
+   },
+   {
+    "phase": "6~12주",
+    "focus": "전진 운반 거리 실전 적용 반복",
+    "kpi": "전진 운반 거리: 이미 상위 6퍼센타일 — 유지"
+   },
+   {
+    "phase": "12주+",
+    "focus": "강점 유지 및 상위 리그 수준 경쟁력 전이",
+    "kpi": "전진 운반: 이미 상위 3퍼센타일 — 유지"
+   }
+  ]
+ },
+ "qualitative": {
+  "discipline": {
+   "yellows_per90": 0.17,
+   "fouls_per90": 0.87,
+   "reds_total_season": 0.0,
+   "clean_pctl_cards": 59.9,
+   "clean_pctl_fouls": 81.6
+  },
+  "availability": {
+   "minpct_mean": 45.4,
+   "n_seasons": 1
+  },
+  "consistency": {
+   "ability_std": null,
+   "n_rated_seasons": 1
+  }
+ },
+ "narrative": {
+  "current": "Samuel Lino(MF)의 현재 능력 점수는 70.6점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 전진 패스 수신, 비페널티 xG, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 공중볼 승률이다.",
+  "potential": "Samuel Lino의 2~3년 후 전성기 유지 예측 중심값은 66.3점, 80% 구간 상단(잠재력 상한)은 75.6점이다. 빅5 현역 유지확률은 88.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+ }
+}
