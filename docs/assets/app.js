@@ -3,14 +3,14 @@ const HIGHLIGHT_ROWS = 5;
 
 const SORT_MODES = {
   ability: { label: "현재능력순", key: "ability", col: "현재능력", requiresEligible: false },
-  ceiling: { label: "잠재력 상한순", key: "ceiling", col: "잠재력 상한(80%)", requiresEligible: true },
-  headroom: { label: "성장 여력순", key: "headroom", col: "성장 여력", requiresEligible: true },
+  ceiling: { label: "2~3년 후 상한순", key: "ceiling", col: "2~3년 후 상한(80%)", requiresEligible: true },
+  headroom: { label: "상승 여력순", key: "headroom", col: "상승 여력", requiresEligible: true },
 };
 
 const SORT_HINTS = {
   ability: "",
-  ceiling: "23세 이하 성장 예측 + 24세 이상 전성기 유지 예측 대상만 표시됩니다. '잠재력 상한'은 80% 신뢰구간의 상단값입니다 (실제 계산된 구간이며, 임의로 올린 숫자가 아닙니다).",
-  headroom: "잠재력 상한(80% 구간 상단)에서 현재 능력을 뺀 값입니다. 값이 클수록 모델이 현재보다 더 성장/개선될 여지가 있다고 보는 선수입니다.",
+  ceiling: "예측 대상만 표시됩니다. 80% 신뢰구간의 상단값이며, 실제 계산된 구간입니다(임의로 올린 숫자가 아님). 예측 시점은 '커리어 전성기'가 아니라 정확히 2~3년 후입니다.",
+  headroom: "2~3년 후 상한(80% 구간 상단)에서 현재 능력을 뺀 값입니다. 값이 클수록 모델이 현재보다 더 올라갈 여지가 있다고 보는 선수입니다.",
 };
 
 let INDEX = [];
@@ -24,9 +24,10 @@ function deltaCls(v) {
   return "band-ok";
 }
 
-function kindTag(kind) {
-  if (kind === "growth") return '<span class="badge tag small">성장 예측</span>';
-  if (kind === "peak") return '<span class="badge tag small">전성기 유지 예측</span>';
+function kindTag(p) {
+  const oor = p.out_of_range ? '<span class="badge tag small" title="모델 검증 범위 밖">범위 밖</span>' : "";
+  if (p.kind === "growth") return '<span class="badge tag small">성장기 모델</span>' + oor;
+  if (p.kind === "peak") return '<span class="badge tag small">성숙기 모델</span>' + oor;
   return "";
 }
 
@@ -74,7 +75,7 @@ function render(rows, mode) {
       <td class="muted">${p.age ?? "—"}</td>
       <td class="muted">${p.style || "—"}</td>
       <td>${valueCell(p, mode)}</td>
-      <td>${kindTag(p.kind)}</td>
+      <td>${kindTag(p)}</td>
     `;
     frag.appendChild(tr);
   });
@@ -131,8 +132,10 @@ fetch("data/meta.json")
       ? ` (${meta.target_year}시즌은 데이터 수집 시점상 부분 시즌이라, 원래 기준(${meta.original_pred_min_minutes}분)을 실제 관측된 최대 출전시간(${meta.season_max_minutes}분) 대비 동일 비율로 환산했습니다.)`
       : "";
     document.getElementById("eligibilityHint").innerHTML =
-      `현재능력 점수는 전체 검색 대상에게 제공됩니다. 만 ${meta.pred_age_max}세 이하·${meta.pred_min_minutes}분 이상은 <b>성장 예측</b>(2~3년 후 능력), ` +
-      `만 ${meta.veteran.age_min}~${meta.veteran.age_max}세·${meta.veteran.pred_min_minutes}분 이상은 <b>전성기 유지 예측</b>을 받습니다.${partialNote} ` +
-      `<br>전성기 유지 예측은 검증 결과 성장 예측보다 정확도가 더 높습니다 (MAE ${meta.veteran.mae} vs ${meta.u23_mae}, R² ${meta.veteran.r2} vs ${meta.u23_r2}, GroupKFold 5겹 검증).`;
+      `현재능력 점수는 전체 검색 대상에게 제공됩니다. 예측은 <b>2~3년 후 시점</b>의 능력이며(커리어 전성기가 아님), ` +
+      `만 ${meta.pred_age_max}세 이하·${meta.pred_min_minutes}분 이상은 <b>성장기 모델</b>, ` +
+      `만 ${meta.veteran.age_min}~${meta.veteran.age_max}세·${meta.veteran.pred_min_minutes}분 이상은 <b>성숙기 모델</b>이 적용됩니다.${partialNote}` +
+      `<br>성숙기 모델이 성장기 모델보다 정확도가 높습니다 (MAE ${meta.veteran.mae} vs ${meta.u23_mae}, R² ${meta.veteran.r2} vs ${meta.u23_r2}, GroupKFold 5겹 검증).` +
+      `<br>점수는 절대 기량이 아니라 <b>해당 시즌 같은 포지션 내 상대 순위</b> 기반입니다 — 점수 유지는 정체가 아니라 지위 유지를 뜻합니다.`;
   })
   .catch(() => {});

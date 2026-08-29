@@ -3,8 +3,13 @@ docs/data/index.json, docs/data/players/<fbref_id>.json 로 직렬화.
 
 헤드라인 수치는 예측 중심값(mu)이 아니라 80% 구간 상단(ceiling)을 쓴다 —
 mu만 보이면 최상위권 선수의 평균회귀가 "하락 선고"처럼 읽히는데, ceiling은
-같은 계산값(지어낸 숫자 아님)을 다르게 강조할 뿐이라 정직성 원칙에
-어긋나지 않으면서 "잠재력 상한"이라는 서비스 성격에 더 맞는 프레이밍이다.
+같은 계산값(지어낸 숫자 아님)을 다르게 강조할 뿐이다.
+
+용어 주의: 이 모델이 예측하는 것은 '커리어 전성기'가 아니라 **정확히 t+2~t+3
+시점의 능력**이다. 17세 선수라면 19~20세 시점이며 전성기와는 무관하다.
+그래서 UI 문구도 "잠재력"이 아니라 기간을 명시하는 쪽으로 통일한다.
+또한 능력 점수는 절대 기량이 아니라 시즌x포지션 풀 내 상대 순위이므로,
+점수 유지 = 정체가 아니라 '같은 수준의 상대적 지위 유지'를 뜻한다.
 
 점수 재조정: "능력(ability)"류 복합점수(ability/score_position/score_style/
 mu/ci/실제 미래능력)는 전 시즌·전 코호트를 통틀어 가장 높았던 값을 100으로
@@ -92,6 +97,16 @@ if __name__ == "__main__":
     )
     SCALE = 100.0 / composite_max
     print(f"재조정 기준: 전체 최고 복합점수 {composite_max:.2f} -> 100 (SCALE={SCALE:.4f})")
+
+    # ── 모델 검증범위 임계 ──
+    # 트리 모델은 학습 라벨 범위 밖으로 외삽하지 못한다. 현재 능력이 학습 라벨의
+    # 99%tile을 넘는 선수는 모델이 구조적으로 '현상 유지'조차 예측할 수 없으므로
+    # (예측 상한 자체가 그 아래), 점추정을 신뢰 구간이 아닌 '범위 밖'으로 표시한다.
+    OOR_THRESHOLD = {
+        "growth": float(u23_train.loc[u23_train["survived"] == 1, "fut_ability_v2"].quantile(0.99)),
+        "peak": float(veteran_train.loc[veteran_train["survived"] == 1, "fut_ability_v2"].quantile(0.99)),
+    }
+    print("검증범위 임계(원점수):", {k: round(v, 1) for k, v in OOR_THRESHOLD.items()})
 
     def scale(v):
         v = to_native(v) if not isinstance(v, (int, float)) else v
@@ -190,6 +205,12 @@ if __name__ == "__main__":
                 player["neighbors"] = scaled_neighbors(peak_knn[fid]["neighbors"])
                 player["low_confidence"] = peak_knn[fid]["low_confidence"]
 
+        raw_ability = row["ability"]
+        out_of_range = bool(
+            kind is not None and pd.notna(raw_ability) and raw_ability > OOR_THRESHOLD[kind]
+        )
+        player["eligibility"]["out_of_validated_range"] = out_of_range
+
         if player["current"]["ability"] is not None:
             player["narrative"]["current"] = narrative_current(
                 row["Player"], row["pos_primary"], player["current"]["ability"],
@@ -201,7 +222,7 @@ if __name__ == "__main__":
             headroom = round(ceiling - player["current"]["ability"], 1) if player["current"]["ability"] is not None else None
             player["narrative"]["potential"] = narrative_potential(
                 row["Player"], kind, player["prediction"]["mu"], ceiling,
-                player["prediction"]["survival_prob"], headroom,
+                player["prediction"]["survival_prob"], headroom, out_of_range,
             )
 
         with open(DOCS_DATA / "players" / f"{fid}.json", "w", encoding="utf-8") as f:
@@ -221,6 +242,7 @@ if __name__ == "__main__":
             "style": player["style"]["primary"],
             "eligible": kind is not None,
             "kind": kind,
+            "out_of_range": out_of_range,
             "mu": mu,
             "ceiling": ceiling,
             "headroom": round(ceiling - ability_scaled, 1) if ceiling is not None and ability_scaled is not None else None,
@@ -236,6 +258,7 @@ if __name__ == "__main__":
         "u23_mae": round(6.19 * SCALE, 2),
         "u23_r2": 0.231,
         "scale_factor": round(SCALE, 4),
+        "oor_threshold_display": {k: round(v * SCALE, 1) for k, v in OOR_THRESHOLD.items()},
         "scale_basis": "전 시즌·전 코호트 통틀어 최고 복합점수(원점수 {:.1f})를 100으로 재조정".format(composite_max),
     }
     with open(DOCS_DATA / "meta.json", "w", encoding="utf-8") as f:

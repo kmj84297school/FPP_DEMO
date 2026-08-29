@@ -162,7 +162,8 @@ function renderPlayer(p) {
   } else {
     const pred = p.prediction;
     const isGrowth = p.eligibility.kind === "growth";
-    const sectionTitle = isGrowth ? "2~3년 후 성장 예측" : "2~3년 후 전성기 유지 예측";
+    const oor = p.eligibility.out_of_validated_range;
+    const sectionTitle = isGrowth ? "2~3년 후 능력 예측 (성장기 모델)" : "2~3년 후 능력 예측 (성숙기 모델)";
     const survivalLabel = isGrowth ? "빅5 잔존확률" : "빅5 현역 유지확률";
     const regressionNote = isGrowth
       ? `예측 중심값(mu)이 현재능력보다 낮은 건 평균회귀 때문입니다 — 실제 데이터에서도 현재능력 상위권 선수 상당수가 2~3년 후 다소 낮아지는 경향이 있습니다. 80% 구간(${fmt1(pred.ci80.lo)}~${fmt1(pred.ci80.hi)})에 현재능력(${fmt1(c.ability)})이 포함된다면, 유지 가능성도 충분히 열려 있다는 뜻입니다.`
@@ -172,14 +173,15 @@ function renderPlayer(p) {
         <div class="panel">
           <div class="section-title">${sectionTitle}</div>
           <div class="stat-row" style="padding:12px 0;">
-            <span class="lbl">잠재력 상한 (80% 구간 상단)</span>
+            <span class="lbl">2~3년 후 상한 (80% 구간 상단)</span>
             <span class="badge ${bandcls(pred.ci80.hi)}" style="font-size:1.15rem;padding:6px 14px;">${fmt1(pred.ci80.hi)}</span>
           </div>
           <div class="stat-row"><span class="lbl">${survivalLabel}</span><span>${(pred.survival_prob * 100).toFixed(1)}%</span></div>
           <div class="stat-row"><span class="lbl">예측 중심값 (mu)</span><span>${fmt1(pred.mu)}</span></div>
           <div class="stat-row"><span class="lbl">80% 구간</span><span>${fmt1(pred.ci80.lo)} ~ ${fmt1(pred.ci80.hi)}</span></div>
           <div class="stat-row"><span class="lbl">50% 구간</span><span>${fmt1(pred.ci50.lo)} ~ ${fmt1(pred.ci50.hi)}</span></div>
-          ${pred.mu < c.ability ? `<div class="hint" style="margin-top:10px;">${regressionNote}</div>` : ""}
+          ${oor ? `<div class="note" style="margin-top:10px;">모델 검증 범위 밖입니다 — 이 선수의 현재 능력(${fmt1(c.ability)})은 학습 데이터에서 관측된 2~3년 후 능력의 상위 1%를 넘습니다. 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없어, 아래 점추정이 실제보다 과도하게 낮게 나옵니다. 예측치보다 <b>유사 선수의 실제 결과</b>를 참고하세요.</div>` : ""}
+          ${!oor && pred.mu < c.ability ? `<div class="hint" style="margin-top:10px;">${regressionNote}</div>` : ""}
           ${p.low_confidence ? '<div class="note" style="margin-top:10px;">유사 선수와의 거리가 멀어 비교 신뢰도가 낮습니다 (아웃라이어 가능성).</div>' : ""}
         </div>
         <div class="panel">
@@ -301,7 +303,7 @@ function renderPlayer(p) {
     const pred = p.prediction;
     new Chart(document.getElementById("ciChart"), {
       data: {
-        labels: ["잠재력 구간"],
+        labels: ["2~3년 후 구간"],
         datasets: [
           {
             type: "bar", label: "80% 구간",
