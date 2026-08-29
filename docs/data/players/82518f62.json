@@ -10,9 +10,9 @@
   "minutes_season": 3271.0
  },
  "current": {
-  "ability": 64.9,
-  "score_position": 65.6,
-  "score_style": 64.4,
+  "ability": 64.5,
+  "score_position": 65.2,
+  "score_style": 64.0,
   "groups": {
    "prod": 66.9,
    "progress": 71.8,
@@ -31,18 +31,18 @@
   "reason": null
  },
  "prediction": {
-  "survival_prob": 0.9234,
-  "mu": 61.6,
+  "survival_prob": 0.9506,
+  "mu": 64.3,
   "ci80": {
-   "lo": 52.3,
-   "hi": 71.0
+   "lo": 55.0,
+   "hi": 73.7
   },
   "ci50": {
-   "lo": 56.7,
-   "hi": 66.6
+   "lo": 59.4,
+   "hi": 69.2
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.1
+  "sigma_model": 2.0,
+  "sigma_residual": 7.0
  },
  "neighbors": [
   {
@@ -50,7 +50,7 @@
    "season": 2020,
    "distance": 2.212,
    "survived": 1,
-   "fut_ability_v2": 52.5,
+   "fut_ability_v2": 52.2,
    "player_name": "Jean-Paul Boëtius",
    "squad": "Mainz 05"
   },
@@ -59,7 +59,7 @@
    "season": 2018,
    "distance": 2.398,
    "survived": 1,
-   "fut_ability_v2": 59.9,
+   "fut_ability_v2": 59.5,
    "player_name": "Koke",
    "squad": "Atlético Madrid"
   },
@@ -68,7 +68,7 @@
    "season": 2019,
    "distance": 2.519,
    "survived": 1,
-   "fut_ability_v2": 66.7,
+   "fut_ability_v2": 66.2,
    "player_name": "Marcel Sabitzer",
    "squad": "RB Leipzig"
   },
@@ -77,7 +77,7 @@
    "season": 2019,
    "distance": 2.596,
    "survived": 1,
-   "fut_ability_v2": 51.8,
+   "fut_ability_v2": 51.4,
    "player_name": "Rade Krunić",
    "squad": "Empoli"
   },
@@ -86,7 +86,7 @@
    "season": 2019,
    "distance": 2.631,
    "survived": 1,
-   "fut_ability_v2": 72.7,
+   "fut_ability_v2": 72.2,
    "player_name": "Clément Grenier",
    "squad": "Rennes"
   },
@@ -95,7 +95,7 @@
    "season": 2019,
    "distance": 2.831,
    "survived": 1,
-   "fut_ability_v2": 53.7,
+   "fut_ability_v2": 53.4,
    "player_name": "Jean-Paul Boëtius",
    "squad": "Mainz 05"
   },
@@ -104,7 +104,7 @@
    "season": 2018,
    "distance": 2.878,
    "survived": 1,
-   "fut_ability_v2": 57.7,
+   "fut_ability_v2": 57.3,
    "player_name": "Jordan Veretout",
    "squad": "Fiorentina"
   },
@@ -113,7 +113,7 @@
    "season": 2020,
    "distance": 2.886,
    "survived": 1,
-   "fut_ability_v2": 66.0,
+   "fut_ability_v2": 65.6,
    "player_name": "Marcel Sabitzer",
    "squad": "RB Leipzig"
   },
@@ -122,7 +122,7 @@
    "season": 2020,
    "distance": 2.901,
    "survived": 1,
-   "fut_ability_v2": 62.4,
+   "fut_ability_v2": 62.0,
    "player_name": "José Campaña",
    "squad": "Levante"
   },
@@ -131,7 +131,7 @@
    "season": 2020,
    "distance": 2.927,
    "survived": 1,
-   "fut_ability_v2": 47.9,
+   "fut_ability_v2": 47.6,
    "player_name": "Pierre Lees-Melou",
    "squad": "Nice"
   }
@@ -293,16 +293,16 @@
    "clean_pctl_fouls": 20.2
   },
   "availability": {
-   "minpct_mean": 53.2,
-   "n_seasons": 5
+   "minpct_mean": 60.3,
+   "n_seasons": 6
   },
   "consistency": {
-   "ability_std": 3.5,
-   "n_rated_seasons": 4
+   "ability_std": 3.8,
+   "n_rated_seasons": 5
   }
  },
  "narrative": {
-  "current": "Bruno Guimarães(MF)의 현재 능력 점수는 64.9점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 전진 패스, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 볼 손실(미스+파울)이다.",
-  "potential": "Bruno Guimarães의 2~3년 후 전성기 유지 예측 중심값은 61.6점, 80% 구간 상단(잠재력 상한)은 71.0점이다. 빅5 현역 유지확률은 92.3%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Bruno Guimarães(MF)의 현재 능력 점수는 64.5점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 전진 패스, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 볼 손실(미스+파울)이다.",
+  "potential": "Bruno Guimarães의 2~3년 후 전성기 유지 예측 중심값은 64.3점, 80% 구간 상단(잠재력 상한)은 73.7점이다. 빅5 현역 유지확률은 95.1%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

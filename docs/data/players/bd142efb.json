@@ -10,9 +10,9 @@
   "minutes_season": 2970.0
  },
  "current": {
-  "ability": 64.5,
-  "score_position": 63.8,
-  "score_style": 65.3,
+  "ability": 64.1,
+  "score_position": 63.3,
+  "score_style": 64.8,
   "groups": {
    "prod": 50.8,
    "progress": 62.9,
@@ -31,18 +31,18 @@
   "reason": null
  },
  "prediction": {
-  "survival_prob": 0.6468,
-  "mu": 60.9,
+  "survival_prob": 0.784,
+  "mu": 60.5,
   "ci80": {
-   "lo": 51.7,
-   "hi": 70.3
+   "lo": 51.1,
+   "hi": 69.8
   },
   "ci50": {
-   "lo": 56.1,
-   "hi": 65.9
+   "lo": 55.5,
+   "hi": 65.4
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.1
+  "sigma_model": 1.7,
+  "sigma_residual": 7.0
  },
  "neighbors": [
   {
@@ -50,7 +50,7 @@
    "season": 2019,
    "distance": 1.504,
    "survived": 1,
-   "fut_ability_v2": 55.2,
+   "fut_ability_v2": 54.9,
    "player_name": "Robin Knoche",
    "squad": "Wolfsburg"
   },
@@ -59,7 +59,7 @@
    "season": 2020,
    "distance": 1.892,
    "survived": 1,
-   "fut_ability_v2": 67.2,
+   "fut_ability_v2": 66.8,
    "player_name": "Virgil van Dijk",
    "squad": "Liverpool"
   },
@@ -68,7 +68,7 @@
    "season": 2018,
    "distance": 2.035,
    "survived": 1,
-   "fut_ability_v2": 70.0,
+   "fut_ability_v2": 69.6,
    "player_name": "Marcelo",
    "squad": "Lyon"
   },
@@ -77,7 +77,7 @@
    "season": 2019,
    "distance": 2.133,
    "survived": 1,
-   "fut_ability_v2": 60.0,
+   "fut_ability_v2": 59.6,
    "player_name": "Álvaro González",
    "squad": "Villarreal"
   },
@@ -86,7 +86,7 @@
    "season": 2020,
    "distance": 2.21,
    "survived": 1,
-   "fut_ability_v2": 66.0,
+   "fut_ability_v2": 65.6,
    "player_name": "Berat Djimsiti",
    "squad": "Atalanta"
   },
@@ -104,7 +104,7 @@
    "season": 2019,
    "distance": 2.227,
    "survived": 1,
-   "fut_ability_v2": 60.5,
+   "fut_ability_v2": 60.1,
    "player_name": "Kalidou Koulibaly",
    "squad": "Napoli"
   },
@@ -113,7 +113,7 @@
    "season": 2018,
    "distance": 2.244,
    "survived": 1,
-   "fut_ability_v2": 54.8,
+   "fut_ability_v2": 54.4,
    "player_name": "Federico Fazio",
    "squad": "Roma"
   },
@@ -122,7 +122,7 @@
    "season": 2019,
    "distance": 2.271,
    "survived": 1,
-   "fut_ability_v2": 71.2,
+   "fut_ability_v2": 70.7,
    "player_name": "Salif Sané",
    "squad": "Schalke 04"
   },
@@ -131,7 +131,7 @@
    "season": 2019,
    "distance": 2.276,
    "survived": 1,
-   "fut_ability_v2": 70.3,
+   "fut_ability_v2": 69.9,
    "player_name": "Virgil van Dijk",
    "squad": "Liverpool"
   }
@@ -294,15 +294,15 @@
   },
   "availability": {
    "minpct_mean": 86.3,
-   "n_seasons": 7
+   "n_seasons": 8
   },
   "consistency": {
-   "ability_std": 6.0,
-   "n_rated_seasons": 7
+   "ability_std": 5.7,
+   "n_rated_seasons": 8
   }
  },
  "narrative": {
-  "current": "Jonathan Tah(DF)의 현재 능력 점수는 64.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 전진 패스 거리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 블록이다.",
-  "potential": "Jonathan Tah의 2~3년 후 전성기 유지 예측 중심값은 60.9점, 80% 구간 상단(잠재력 상한)은 70.3점이다. 빅5 현역 유지확률은 64.7%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Jonathan Tah(DF)의 현재 능력 점수는 64.1점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 전진 패스 거리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 블록이다.",
+  "potential": "Jonathan Tah의 2~3년 후 전성기 유지 예측 중심값은 60.5점, 80% 구간 상단(잠재력 상한)은 69.8점이다. 빅5 현역 유지확률은 78.4%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

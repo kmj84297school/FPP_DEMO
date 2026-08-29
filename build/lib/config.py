@@ -12,6 +12,9 @@ DATA = ROOT / "data"
 CACHE = ROOT / "build" / "_cache"
 DOCS_DATA = ROOT / "docs" / "data"
 
+# _cache는 gitignore 대상이라 새로 클론하거나 컨테이너를 갈아끼우면 없다.
+CACHE.mkdir(parents=True, exist_ok=True)
+
 TARGET_YEAR = 2025
 SEASON_LABEL = "2024-25"
 

@@ -10,9 +10,9 @@
   "minutes_season": 1637.0
  },
  "current": {
-  "ability": 86.5,
-  "score_position": 86.0,
-  "score_style": 87.2,
+  "ability": 86.0,
+  "score_position": 85.4,
+  "score_style": 86.6,
   "groups": {
    "prod": 90.6,
    "progress": 84.7,
@@ -31,18 +31,18 @@
   "reason": null
  },
  "prediction": {
-  "survival_prob": 0.8743,
-  "mu": 73.8,
+  "survival_prob": 0.8478,
+  "mu": 73.7,
   "ci80": {
-   "lo": 64.5,
-   "hi": 83.2
+   "lo": 64.3,
+   "hi": 83.3
   },
   "ci50": {
-   "lo": 68.9,
-   "hi": 78.7
+   "lo": 68.8,
+   "hi": 78.8
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.1
+  "sigma_model": 2.3,
+  "sigma_residual": 7.0
  },
  "neighbors": [
   {
@@ -50,7 +50,7 @@
    "season": 2020,
    "distance": 2.508,
    "survived": 1,
-   "fut_ability_v2": 76.7,
+   "fut_ability_v2": 76.2,
    "player_name": "Sadio Mané",
    "squad": "Liverpool"
   },
@@ -59,7 +59,7 @@
    "season": 2018,
    "distance": 2.727,
    "survived": 1,
-   "fut_ability_v2": 62.2,
+   "fut_ability_v2": 61.8,
    "player_name": "Andriy Yarmolenko",
    "squad": "Dortmund"
   },
@@ -68,7 +68,7 @@
    "season": 2018,
    "distance": 2.854,
    "survived": 1,
-   "fut_ability_v2": 75.7,
+   "fut_ability_v2": 75.2,
    "player_name": "Sergio Agüero",
    "squad": "Manchester City"
   },
@@ -77,7 +77,7 @@
    "season": 2020,
    "distance": 3.102,
    "survived": 1,
-   "fut_ability_v2": 74.0,
+   "fut_ability_v2": 73.5,
    "player_name": "Alassane Pléa",
    "squad": "M'Gladbach"
   },
@@ -86,7 +86,7 @@
    "season": 2020,
    "distance": 3.243,
    "survived": 1,
-   "fut_ability_v2": 69.3,
+   "fut_ability_v2": 68.8,
    "player_name": "Wissam Ben Yedder",
    "squad": "Monaco"
   },
@@ -95,7 +95,7 @@
    "season": 2018,
    "distance": 3.266,
    "survived": 1,
-   "fut_ability_v2": 68.9,
+   "fut_ability_v2": 68.5,
    "player_name": "Iago Aspas",
    "squad": "Celta Vigo"
   },
@@ -104,7 +104,7 @@
    "season": 2019,
    "distance": 3.277,
    "survived": 1,
-   "fut_ability_v2": 82.5,
+   "fut_ability_v2": 82.0,
    "player_name": "Riyad Mahrez",
    "squad": "Manchester City"
   },
@@ -113,7 +113,7 @@
    "season": 2020,
    "distance": 3.353,
    "survived": 1,
-   "fut_ability_v2": 83.5,
+   "fut_ability_v2": 83.0,
    "player_name": "Luis Muriel",
    "squad": "Atalanta"
   },
@@ -122,7 +122,7 @@
    "season": 2018,
    "distance": 3.387,
    "survived": 1,
-   "fut_ability_v2": 71.7,
+   "fut_ability_v2": 71.3,
    "player_name": "Gareth Bale",
    "squad": "Real Madrid"
   },
@@ -131,7 +131,7 @@
    "season": 2019,
    "distance": 3.425,
    "survived": 1,
-   "fut_ability_v2": 79.1,
+   "fut_ability_v2": 78.6,
    "player_name": "Roberto Firmino",
    "squad": "Liverpool"
   }
@@ -298,16 +298,16 @@
    "clean_pctl_fouls": 72.7
   },
   "availability": {
-   "minpct_mean": 53.3,
-   "n_seasons": 7
+   "minpct_mean": 55.3,
+   "n_seasons": 8
   },
   "consistency": {
-   "ability_std": 6.4,
-   "n_rated_seasons": 6
+   "ability_std": 7.0,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Leroy Sané(FW)의 현재 능력 점수는 86.5점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 전진 패스 수신, 유효슈팅, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 슈팅당 기대득점이다.",
-  "potential": "Leroy Sané의 2~3년 후 전성기 유지 예측 중심값은 73.8점, 80% 구간 상단(잠재력 상한)은 83.2점이다. 빅5 현역 유지확률은 87.4%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Leroy Sané(FW)의 현재 능력 점수는 86.0점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 전진 패스 수신, 유효슈팅, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 슈팅당 기대득점이다.",
+  "potential": "Leroy Sané의 2~3년 후 전성기 유지 예측 중심값은 73.7점, 80% 구간 상단(잠재력 상한)은 83.3점이다. 빅5 현역 유지확률은 84.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

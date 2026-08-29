@@ -10,9 +10,9 @@
   "minutes_season": 2323.0
  },
  "current": {
-  "ability": 80.7,
-  "score_position": 78.6,
-  "score_style": 82.8,
+  "ability": 80.2,
+  "score_position": 78.1,
+  "score_style": 82.3,
   "groups": {
    "prod": 71.8,
    "progress": 84.6,
@@ -31,18 +31,18 @@
   "reason": null
  },
  "prediction": {
-  "survival_prob": 0.8918,
-  "mu": 76.4,
+  "survival_prob": 0.952,
+  "mu": 75.7,
   "ci80": {
-   "lo": 67.0,
-   "hi": 85.8
+   "lo": 66.2,
+   "hi": 85.0
   },
   "ci50": {
-   "lo": 71.4,
-   "hi": 81.3
+   "lo": 70.7,
+   "hi": 80.6
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.1
+  "sigma_model": 2.1,
+  "sigma_residual": 7.0
  },
  "neighbors": [
   {
@@ -50,7 +50,7 @@
    "season": 2018,
    "distance": 3.036,
    "survived": 1,
-   "fut_ability_v2": 62.2,
+   "fut_ability_v2": 61.8,
    "player_name": "Andriy Yarmolenko",
    "squad": "Dortmund"
   },
@@ -59,7 +59,7 @@
    "season": 2020,
    "distance": 3.382,
    "survived": 1,
-   "fut_ability_v2": 75.8,
+   "fut_ability_v2": 75.3,
    "player_name": "Paulo Dybala",
    "squad": "Juventus"
   },
@@ -68,7 +68,7 @@
    "season": 2018,
    "distance": 3.451,
    "survived": 1,
-   "fut_ability_v2": 84.5,
+   "fut_ability_v2": 83.9,
    "player_name": "Sadio Mané",
    "squad": "Liverpool"
   },
@@ -77,7 +77,7 @@
    "season": 2020,
    "distance": 3.519,
    "survived": 1,
-   "fut_ability_v2": 77.9,
+   "fut_ability_v2": 77.4,
    "player_name": "Memphis Depay",
    "squad": "Lyon"
   },
@@ -86,7 +86,7 @@
    "season": 2020,
    "distance": 3.524,
    "survived": 1,
-   "fut_ability_v2": 76.7,
+   "fut_ability_v2": 76.2,
    "player_name": "Sadio Mané",
    "squad": "Liverpool"
   },
@@ -95,7 +95,7 @@
    "season": 2019,
    "distance": 3.64,
    "survived": 1,
-   "fut_ability_v2": 82.5,
+   "fut_ability_v2": 82.0,
    "player_name": "Riyad Mahrez",
    "squad": "Manchester City"
   },
@@ -104,7 +104,7 @@
    "season": 2019,
    "distance": 3.745,
    "survived": 1,
-   "fut_ability_v2": 61.8,
+   "fut_ability_v2": 61.4,
    "player_name": "Thorgan Hazard",
    "squad": "M'Gladbach"
   },
@@ -113,7 +113,7 @@
    "season": 2018,
    "distance": 3.778,
    "survived": 1,
-   "fut_ability_v2": 79.6,
+   "fut_ability_v2": 79.1,
    "player_name": "Andrej Kramarić",
    "squad": "Hoffenheim"
   },
@@ -122,7 +122,7 @@
    "season": 2020,
    "distance": 3.81,
    "survived": 1,
-   "fut_ability_v2": 71.7,
+   "fut_ability_v2": 71.3,
    "player_name": "Hirving Lozano",
    "squad": "Napoli"
   },
@@ -131,7 +131,7 @@
    "season": 2020,
    "distance": 3.865,
    "survived": 1,
-   "fut_ability_v2": 74.0,
+   "fut_ability_v2": 73.5,
    "player_name": "Alassane Pléa",
    "squad": "M'Gladbach"
   }
@@ -293,16 +293,16 @@
    "clean_pctl_fouls": 82.5
   },
   "availability": {
-   "minpct_mean": 59.1,
-   "n_seasons": 6
+   "minpct_mean": 61.2,
+   "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 9.0,
-   "n_rated_seasons": 6
+   "ability_std": 9.9,
+   "n_rated_seasons": 7
   }
  },
  "narrative": {
-  "current": "Rafael Leão(FW)의 현재 능력 점수는 80.7점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 키패스, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Rafael Leão의 2~3년 후 전성기 유지 예측 중심값은 76.4점, 80% 구간 상단(잠재력 상한)은 85.8점이다. 빅5 현역 유지확률은 89.2%로 추정된다. 종합하면 현재 대비 추가 성장 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "current": "Rafael Leão(FW)의 현재 능력 점수는 80.2점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 키패스, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
+  "potential": "Rafael Leão의 2~3년 후 전성기 유지 예측 중심값은 75.7점, 80% 구간 상단(잠재력 상한)은 85.0점이다. 빅5 현역 유지확률은 95.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
  }
 }
