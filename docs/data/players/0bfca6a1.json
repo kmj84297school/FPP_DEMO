@@ -51,6 +51,84 @@
   "sigma_model": 2.0,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -0.14,
+   "total": 1.86,
+   "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-6.1",
+     "contrib": 1.02
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.2",
+     "contrib": -0.72
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "2.0",
+     "contrib": 0.71
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "54.9",
+     "contrib": 0.57
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "1.4",
+     "contrib": -0.56
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.375,
+   "base_prob": 0.719,
+   "prob": 0.527,
+   "top": [
+    {
+     "feature": "d_grp_stability",
+     "label": "안정 그룹 변화",
+     "value_text": "9.7",
+     "contrib": -0.37
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "1.4",
+     "contrib": -0.23
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "51.9",
+     "contrib": -0.23
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "25.7",
+     "contrib": -0.19
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "2.8",
+     "contrib": -0.19
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "23610943",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Quentin Merlin(DF)의 현재 능력 점수는 54.9점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 수신, 유효슈팅, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 공중볼 승리이다.",
-  "potential": "Quentin Merlin의 2~3년 후 예측 중심값은 56.7점, 80% 구간 상단은 67.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 52.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Quentin Merlin의 2~3년 후 예측 중심값은 56.7점, 80% 구간 상단은 67.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 52.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 67.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.8점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-6.1, +1.0), 태클+인터셉트/90(2.0, +0.7), 현재 능력(54.9, +0.6); 내린 요인은 성공 드리블/90(0.2, -0.7), 키패스/90(1.4, -0.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 하락 요인(안정 그룹 변화, 키패스/90)을 거쳐 52.7%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

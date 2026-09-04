@@ -51,6 +51,84 @@
   "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": 0.66,
+   "total": -8.03,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "77.0",
+     "contrib": -1.88
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "10.5",
+     "contrib": -1.8
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "77.4",
+     "contrib": -1.54
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "77.9",
+     "contrib": -0.8
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "80.6",
+     "contrib": -0.77
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": 0.841,
+   "base_prob": 0.538,
+   "prob": 0.773,
+   "top": [
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.5",
+     "contrib": -0.41
+    },
+    {
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-937.0",
+     "contrib": 0.3
+    },
+    {
+     "feature": "PassPct",
+     "label": "패스 성공률",
+     "value_text": "90.4",
+     "contrib": 0.29
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "77.9",
+     "contrib": 0.26
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "88.5",
+     "contrib": -0.21
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "89151b16",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Waldemar Anton(DF)의 현재 능력 점수는 77.4점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반 거리, 볼 리커버리, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 전진 패스 수신이다.",
-  "potential": "Waldemar Anton의 2~3년 후 예측 중심값은 69.3점, 80% 구간 상단은 78.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 77.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Waldemar Anton의 2~3년 후 예측 중심값은 69.3점, 80% 구간 상단은 78.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 77.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 78.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -8.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(77.0, -1.9), 능력 변화(전 시즌 대비)(10.5, -1.8), 현재 능력(77.4, -1.5), 포지션 렌즈 점수(77.9, -0.8), 수비 그룹 점수(80.6, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(출전시간 변화(분), 패스 성공률)과 하락 요인(전진 운반/90, 공중볼 승률)을 거쳐 77.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

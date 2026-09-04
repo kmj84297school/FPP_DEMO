@@ -51,6 +51,84 @@
   "sigma_model": 1.9,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": 2.33,
+   "total": 8.17,
+   "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-14.5",
+     "contrib": 4.42
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "50.8",
+     "contrib": 2.35
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.2",
+     "contrib": 1.08
+    },
+    {
+     "feature": "d_xAG90",
+     "label": "xAG/90 변화",
+     "value_text": "-0.1",
+     "contrib": -1.04
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "50.2",
+     "contrib": 0.93
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.448,
+   "base_prob": 0.538,
+   "prob": 0.206,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "941.0",
+     "contrib": -0.89
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "30.0",
+     "contrib": -0.39
+    },
+    {
+     "feature": "d_grp_chance",
+     "label": "찬스 그룹 변화",
+     "value_text": "-31.6",
+     "contrib": 0.27
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.3",
+     "contrib": -0.25
+    },
+    {
+     "feature": "d_grp_prod",
+     "label": "생산 그룹 변화",
+     "value_text": "-50.2",
+     "contrib": 0.2
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "c8aa95da",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Reinildo Mandava(DF)의 현재 능력 점수는 50.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 리커버리, 슈팅당 기대득점, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 태클 성공률이다.",
-  "potential": "Reinildo Mandava의 2~3년 후 예측 중심값은 58.6점, 80% 구간 상단은 68.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Reinildo Mandava의 2~3년 후 예측 중심값은 58.6점, 80% 구간 상단은 68.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 68.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +8.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-14.5, +4.4), 스타일 렌즈 점수(50.8, +2.4), 키패스/90(0.2, +1.1), 포지션 렌즈 점수(50.2, +0.9); 내린 요인은 xAG/90 변화(-0.1, -1.0)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(찬스 그룹 변화, 생산 그룹 변화)과 하락 요인(시즌 출전시간(분), 나이)을 거쳐 20.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -5,6 +5,10 @@
 이렇게 해야 학습 라벨 상한에 갇히지 않는다(07_train_models.py 주석 참조).
 신뢰구간의 sigma_model도 Δ 앙상블의 산포에서 그대로 얻는다 — 상수를 더하는
 것은 분산을 바꾸지 않으므로 레벨 스케일에서도 동일하다.
+
+설명(A5): XGBoost의 pred_contribs(=TreeExplainer의 SHAP 값과 동치, 합이 예측과 정확히
+일치)로 선수별 피처 기여도를 산출해 상위 5개 + 나머지 합 + 기준값(base)을 저장한다.
+Δ 회귀는 능력점수 단위, 잔존 분류는 로그오즈 단위다.
 """
 import json
 import pathlib
@@ -22,7 +26,7 @@ from features import build_feature_matrix, reindex_for_model, MODEL_FEATURES
 from ensemble import fit_ensemble, predict_ensemble
 from config import (DATA, ABILITY_CSV, FEATURES_CSV, ELIGIBILITY_CSV, ELIGIBILITY_META,
                     FEATURES_CURRENT_CSV, PRED_GROWTH_CSV, PRED_PEAK_CSV,
-                    VETERAN_META, TARGET_YEAR)
+                    VETERAN_META, TARGET_YEAR, SHAP_GROWTH_JSON, SHAP_PEAK_JSON)
 
 MODELS = ROOT / "models"
 Z80, Z50 = 1.2816, 0.6745
@@ -30,7 +34,29 @@ VET_AGE_MIN, VET_AGE_MAX = 24, 38
 ORIGINAL_PRED_MIN = 900
 
 
-def predict_cohort(name, query, cur_ability, out_csv):
+TOP_K_CONTRIB = 5
+
+
+def contributions(booster, X, top_k=TOP_K_CONTRIB):
+    """행별 SHAP 기여도 → [{"base", "top": [{"feature","value","contrib"}...], "rest", "total"}]"""
+    C = booster.predict(xgb.DMatrix(X), pred_contribs=True)
+    names = list(X.columns)
+    out = []
+    for i in range(len(X)):
+        row, base = C[i, :-1], float(C[i, -1])
+        order = np.argsort(-np.abs(row))[:top_k]
+        top = []
+        for j in order:
+            v = X.iloc[i, j]
+            top.append({"feature": names[j], "value": None if pd.isna(v) else round(float(v), 3),
+                        "contrib": round(float(row[j]), 3)})
+        rest = float(row.sum() - row[order].sum())
+        out.append({"base": round(base, 3), "top": top, "rest": round(rest, 3),
+                    "total": round(float(row.sum() + base), 3)})
+    return out
+
+
+def predict_cohort(name, query, cur_ability, out_csv, shap_json):
     reg = xgb.XGBRegressor(); reg.load_model(MODELS / f"xgb_delta_{name}.json")
     clf = xgb.XGBClassifier(); clf.load_model(MODELS / f"xgb_survival_{name}.json")
 
@@ -63,6 +89,14 @@ def predict_cohort(name, query, cur_ability, out_csv):
     out.to_csv(out_csv, index=False)
     print(f"  [{name}] 저장 완료: {out.shape} -> {out_csv}")
 
+    # ── 설명(A5): Δ 회귀·잔존 분류 각각의 기여도 ──
+    delta_c = contributions(reg.get_booster(), Xr)
+    surv_c = contributions(clf.get_booster(), Xc)
+    expl = {fid: {"delta": d, "survival": s} for fid, d, s in zip(query.index, delta_c, surv_c)}
+    with open(shap_json, "w", encoding="utf-8") as f:
+        json.dump(expl, f, ensure_ascii=False, indent=1)
+    print(f"  [{name}] 기여도 저장: {len(expl)}명 -> {shap_json}")
+
 
 if __name__ == "__main__":
     ability_df = pd.read_csv(ABILITY_CSV, low_memory=False)
@@ -81,7 +115,7 @@ if __name__ == "__main__":
     gq = feat_all.loc[feat_all.index.intersection(growth_ids)]
     gq = gq.loc[cur_ability.reindex(gq.index).notna()]
     print("성장기 대상:", gq.shape)
-    predict_cohort("u23", gq, cur_ability.reindex(gq.index).values, PRED_GROWTH_CSV)
+    predict_cohort("u23", gq, cur_ability.reindex(gq.index).values, PRED_GROWTH_CSV, SHAP_GROWTH_JSON)
 
     # 성숙기(24~38세): 동일 출전시간 임계 적용
     with open(ELIGIBILITY_META, encoding="utf-8") as f:
@@ -91,7 +125,7 @@ if __name__ == "__main__":
                    & (cur["std_Min_Playing"] >= pred_min) & cur["ability"].notna()].index
     pq = feat_all.loc[feat_all.index.intersection(peak_ids)]
     print("성숙기 대상:", pq.shape, f"(임계 {pred_min}분)")
-    predict_cohort("veteran", pq, cur_ability.reindex(pq.index).values, PRED_PEAK_CSV)
+    predict_cohort("veteran", pq, cur_ability.reindex(pq.index).values, PRED_PEAK_CSV, SHAP_PEAK_JSON)
 
     with open(CACHE_META := VETERAN_META, "w", encoding="utf-8") as f:
         json.dump({"age_min": VET_AGE_MIN, "age_max": VET_AGE_MAX, "pred_min_minutes": pred_min}, f,

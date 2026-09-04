@@ -51,6 +51,84 @@
   "sigma_model": 2.3,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -0.23,
+   "total": 3.88,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "38.3",
+     "contrib": 4.77
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "35.8",
+     "contrib": 1.43
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "37.1",
+     "contrib": 1.4
+    },
+    {
+     "feature": "grp_progress",
+     "label": "전진 그룹 점수",
+     "value_text": "24.5",
+     "contrib": -0.8
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "0.7",
+     "contrib": -0.77
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -1.03,
+   "base_prob": 0.538,
+   "prob": 0.164,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.56
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "80.0",
+     "contrib": -0.38
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "37.1",
+     "contrib": -0.35
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "38.3",
+     "contrib": -0.3
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "35.8",
+     "contrib": -0.28
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "2500cef9",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Casper Tengstedt(FW)의 현재 능력 점수는 37.1점이다. 플레이스타일은 '박스 포처'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 볼 손실(미스+파울), 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 도움 기대값(xAG)이다.",
-  "potential": "Casper Tengstedt의 2~3년 후 예측 중심값은 40.9점, 80% 구간 상단은 50.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 16.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Casper Tengstedt의 2~3년 후 예측 중심값은 40.9점, 80% 구간 상단은 50.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 16.4%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 50.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(38.3, +4.8), 포지션 렌즈 점수(35.8, +1.4), 현재 능력(37.1, +1.4); 내린 요인은 전진 그룹 점수(24.5, -0.8), 태클+인터셉트/90(0.7, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(공중볼 승률, 현재 능력)을 거쳐 16.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

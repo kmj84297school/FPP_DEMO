@@ -51,6 +51,84 @@
   "sigma_model": 1.9,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -0.43,
+   "total": 7.18,
+   "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-16.6",
+     "contrib": 4.79
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "48.1",
+     "contrib": 1.87
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "48.3",
+     "contrib": 1.15
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "33.6",
+     "contrib": 0.91
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "48.2",
+     "contrib": 0.8
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.668,
+   "base_prob": 0.538,
+   "prob": 0.226,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "27.0",
+     "contrib": 0.38
+    },
+    {
+     "feature": "d_grp_progress",
+     "label": "전진 그룹 변화",
+     "value_text": "-29.4",
+     "contrib": -0.35
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1409.0",
+     "contrib": -0.32
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.1",
+     "contrib": -0.27
+    },
+    {
+     "feature": "d_xAG90",
+     "label": "xAG/90 변화",
+     "value_text": "-0.1",
+     "contrib": -0.16
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "9b337c7c",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Carlos Soler(MF)의 현재 능력 점수는 48.2점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅 창출(SCA), 패스 성공률, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 태클+인터셉트이다.",
-  "potential": "Carlos Soler의 2~3년 후 예측 중심값은 55.4점, 80% 구간 상단은 64.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Carlos Soler의 2~3년 후 예측 중심값은 55.4점, 80% 구간 상단은 64.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 64.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +7.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-16.6, +4.8), 스타일 렌즈 점수(48.1, +1.9), 포지션 렌즈 점수(48.3, +1.1), 수비 그룹 점수(33.6, +0.9), 현재 능력(48.2, +0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(전진 그룹 변화, 시즌 출전시간(분))을 거쳐 22.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

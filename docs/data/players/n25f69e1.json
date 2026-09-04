@@ -51,6 +51,84 @@
   "sigma_model": 2.8,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -1.66,
+   "total": 2.57,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "18.0",
+     "contrib": 2.16
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "94.6",
+     "contrib": 1.65
+    },
+    {
+     "feature": "style_confidence",
+     "label": "스타일 확신도",
+     "value_text": "2.4",
+     "contrib": 1.13
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "904.0",
+     "contrib": -0.9
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "59.5",
+     "contrib": -0.79
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.12,
+   "base_prob": 0.719,
+   "prob": 0.625,
+   "top": [
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "26.4",
+     "contrib": -0.58
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "904.0",
+     "contrib": -0.47
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "18.0",
+     "contrib": 0.43
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "56.9",
+     "contrib": 0.22
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "37.4",
+     "contrib": -0.15
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "bee704fc",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Jon Martin(DF)의 현재 능력 점수는 59.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 클리어링, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 전진 패스 수신이다.",
-  "potential": "Jon Martin의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 72.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 62.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jon Martin의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 72.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 62.5%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 72.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.6점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 나이(18.0, +2.2), 공중볼 승률(94.6, +1.6), 스타일 확신도(2.4, +1.1); 내린 요인은 시즌 출전시간(분)(904.0, -0.9), 현재 능력(59.5, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 포지션 렌즈 점수)과 하락 요인(팀 출전시간 비중(%), 시즌 출전시간(분))을 거쳐 62.5%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

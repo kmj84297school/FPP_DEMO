@@ -51,6 +51,84 @@
   "sigma_model": 2.2,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -0.97,
+   "total": -8.48,
+   "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "14.6",
+     "contrib": -2.12
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "67.1",
+     "contrib": -1.23
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "2.0",
+     "contrib": -0.92
+    },
+    {
+     "feature": "d_SCA90",
+     "label": "SCA/90 변화",
+     "value_text": "1.0",
+     "contrib": -0.7
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "1.2",
+     "contrib": -0.62
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": 0.131,
+   "base_prob": 0.538,
+   "prob": 0.555,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2162.0",
+     "contrib": 0.31
+    },
+    {
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-629.0",
+     "contrib": 0.29
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.2",
+     "contrib": -0.26
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "29.0",
+     "contrib": -0.23
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "29.5",
+     "contrib": -0.17
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "7e82a78f",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Isaac Palazón Camacho(MF)의 현재 능력 점수는 61.3점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅 시도, 슈팅 창출(SCA), 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 태클+인터셉트이다.",
-  "potential": "Isaac Palazón Camacho의 2~3년 후 예측 중심값은 52.8점, 80% 구간 상단은 62.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Isaac Palazón Camacho의 2~3년 후 예측 중심값은 52.8점, 80% 구간 상단은 62.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 62.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -8.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 능력 변화(전 시즌 대비)(14.6, -2.1), 스타일 렌즈 점수(67.1, -1.2), 키패스/90(2.0, -0.9), SCA/90 변화(1.0, -0.7), 태클+인터셉트/90(1.2, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 출전시간 변화(분))과 하락 요인(전진 운반/90, 나이)을 거쳐 55.5%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

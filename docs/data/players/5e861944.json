@@ -51,6 +51,84 @@
   "sigma_model": 1.7,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": 2.73,
+   "total": 6.4,
+   "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-15.3",
+     "contrib": 4.96
+    },
+    {
+     "feature": "d_grp_prod",
+     "label": "생산 그룹 변화",
+     "value_text": "-24.9",
+     "contrib": 1.16
+    },
+    {
+     "feature": "sty_돌파형 윙어",
+     "label": "스타일: 돌파형 윙어",
+     "value_text": "예",
+     "contrib": 0.81
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "73.2",
+     "contrib": -0.75
+    },
+    {
+     "feature": "d_xAG90",
+     "label": "xAG/90 변화",
+     "value_text": "-0.1",
+     "contrib": -0.59
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": 1.089,
+   "base_prob": 0.538,
+   "prob": 0.844,
+   "top": [
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "82.0",
+     "contrib": 0.41
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2804.0",
+     "contrib": 0.39
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "30.0",
+     "contrib": -0.38
+    },
+    {
+     "feature": "d_grp_chance",
+     "label": "찬스 그룹 변화",
+     "value_text": "-22.2",
+     "contrib": 0.27
+    },
+    {
+     "feature": "d_SCA90",
+     "label": "SCA/90 변화",
+     "value_text": "-2.0",
+     "contrib": -0.24
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "f9446dcd",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Matteo Politano(FW)의 현재 능력 점수는 55.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 볼 손실(미스+파울), 전진 패스 거리, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Matteo Politano의 2~3년 후 예측 중심값은 62.4점, 80% 구간 상단은 71.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Matteo Politano의 2~3년 후 예측 중심값은 62.4점, 80% 구간 상단은 71.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.4%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 71.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +6.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-15.3, +5.0), 생산 그룹 변화(-24.9, +1.2), 스타일: 돌파형 윙어(예, +0.8); 내린 요인은 찬스 그룹 점수(73.2, -0.8), xAG/90 변화(-0.1, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(나이, SCA/90 변화)을 거쳐 84.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

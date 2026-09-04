@@ -51,6 +51,84 @@
   "sigma_model": 2.7,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -3.75,
+   "total": -17.44,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "79.2",
+     "contrib": -5.46
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "77.2",
+     "contrib": -2.94
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "75.1",
+     "contrib": -2.62
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "20.5",
+     "contrib": -2.02
+    },
+    {
+     "feature": "d_PrgPass90",
+     "label": "전진 패스/90 변화",
+     "value_text": "2.0",
+     "contrib": -1.62
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.46,
+   "base_prob": 0.719,
+   "prob": 0.942,
+   "top": [
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "91.6",
+     "contrib": 0.61
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2804.0",
+     "contrib": 0.52
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "75.1",
+     "contrib": 0.34
+    },
+    {
+     "feature": "grp_progress",
+     "label": "전진 그룹 점수",
+     "value_text": "84.8",
+     "contrib": -0.34
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "79.2",
+     "contrib": 0.25
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "b0f7e36c",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Mason Greenwood(FW)의 현재 능력 점수는 77.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 전진 패스, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Mason Greenwood의 2~3년 후 예측 중심값은 59.7점, 80% 구간 상단은 70.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 94.2%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mason Greenwood의 2~3년 후 예측 중심값은 59.7점, 80% 구간 상단은 70.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 94.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 70.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -17.5점(같은 코호트 평균 변화 +1.0점 기준)으로, 내린 요인은 스타일 렌즈 점수(79.2, -5.5), 현재 능력(77.2, -2.9), 포지션 렌즈 점수(75.1, -2.6), 능력 변화(전 시즌 대비)(20.5, -2.0), 전진 패스/90 변화(2.0, -1.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(전진 그룹 점수)을 거쳐 94.2%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

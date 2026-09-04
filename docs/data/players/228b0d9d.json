@@ -51,6 +51,84 @@
   "sigma_model": 2.0,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": 3.18,
+   "total": 14.49,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "41.6",
+     "contrib": 4.99
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-15.8",
+     "contrib": 4.45
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "42.8",
+     "contrib": 1.65
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "43.9",
+     "contrib": 1.23
+    },
+    {
+     "feature": "d_xAG90",
+     "label": "xAG/90 변화",
+     "value_text": "-0.1",
+     "contrib": 0.9
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.708,
+   "base_prob": 0.538,
+   "prob": 0.331,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1098.0",
+     "contrib": -0.56
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "26.0",
+     "contrib": 0.4
+    },
+    {
+     "feature": "d_grp_chance",
+     "label": "찬스 그룹 변화",
+     "value_text": "-46.5",
+     "contrib": 0.35
+    },
+    {
+     "feature": "d_xAG90",
+     "label": "xAG/90 변화",
+     "value_text": "-0.1",
+     "contrib": -0.18
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "41.6",
+     "contrib": -0.17
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "ee923664",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Aihen Muñoz(DF)의 현재 능력 점수는 42.8점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 운반, 성공 드리블, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 박스 터치이다.",
-  "potential": "Aihen Muñoz의 2~3년 후 예측 중심값은 57.2점, 80% 구간 상단은 66.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 33.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Aihen Muñoz의 2~3년 후 예측 중심값은 57.2점, 80% 구간 상단은 66.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 33.1%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 66.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +14.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(41.6, +5.0), 능력 변화(전 시즌 대비)(-15.8, +4.5), 현재 능력(42.8, +1.6), 포지션 렌즈 점수(43.9, +1.2), xAG/90 변화(-0.1, +0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 찬스 그룹 변화)과 하락 요인(시즌 출전시간(분), xAG/90 변화)을 거쳐 33.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

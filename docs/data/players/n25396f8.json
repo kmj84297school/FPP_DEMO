@@ -51,6 +51,84 @@
   "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -2.87,
+   "total": -3.05,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "58.2",
+     "contrib": 0.66
+    },
+    {
+     "feature": "d_grp_prod",
+     "label": "생산 그룹 변화",
+     "value_text": "-29.3",
+     "contrib": 0.62
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "0.4",
+     "contrib": -0.58
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "51.2",
+     "contrib": 0.56
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "37.9",
+     "contrib": 0.47
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.3,
+   "base_prob": 0.538,
+   "prob": 0.362,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "33.0",
+     "contrib": -1.15
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "80.4",
+     "contrib": 0.46
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2459.0",
+     "contrib": 0.33
+    },
+    {
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "898.0",
+     "contrib": -0.25
+    },
+    {
+     "feature": "d_grp_prod",
+     "label": "생산 그룹 변화",
+     "value_text": "-29.3",
+     "contrib": 0.18
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "a7f00c8c",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Loïc Nego(DF)의 현재 능력 점수는 54.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 박스 진입 패스, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 패스 성공률이다.",
-  "potential": "Loïc Nego의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 60.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 36.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Loïc Nego의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 60.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 36.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 60.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(58.2, +0.7), 생산 그룹 변화(-29.3, +0.6), 포지션 렌즈 점수(51.2, +0.6), 수비 그룹 점수(37.9, +0.5); 내린 요인은 능력 변화(전 시즌 대비)(0.4, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(나이, 출전시간 변화(분))을 거쳐 36.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

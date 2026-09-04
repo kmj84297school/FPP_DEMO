@@ -51,6 +51,84 @@
   "sigma_model": 3.6,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": 0.18,
+   "total": -1.51,
+   "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-10.3",
+     "contrib": 3.09
+    },
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "1.1",
+     "contrib": -1.57
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "0.6",
+     "contrib": -1.16
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "63.1",
+     "contrib": -0.87
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "34.6",
+     "contrib": 0.74
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": 0.62,
+   "base_prob": 0.538,
+   "prob": 0.828,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2598.0",
+     "contrib": 0.44
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "86.7",
+     "contrib": -0.37
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "76.0",
+     "contrib": 0.26
+    },
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "1.1",
+     "contrib": 0.24
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "5.8",
+     "contrib": 0.24
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "c4e87b8b",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Ollie Watkins(FW)의 현재 능력 점수는 59.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 무페널티 득점, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스 거리이다.",
-  "potential": "Ollie Watkins의 2~3년 후 예측 중심값은 57.7점, 80% 구간 상단은 67.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 82.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ollie Watkins의 2~3년 후 예측 중심값은 57.7점, 80% 구간 상단은 67.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 82.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 67.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-10.3, +3.1), 찬스 그룹 점수(34.6, +0.7); 내린 요인은 전진 패스/90(1.1, -1.6), 태클+인터셉트/90(0.6, -1.2), 스타일 렌즈 점수(63.1, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(공중볼 승률)을 거쳐 82.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

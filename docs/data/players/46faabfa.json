@@ -51,6 +51,84 @@
   "sigma_model": 2.9,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -1.54,
+   "total": -3.1,
+   "top": [
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.5",
+     "contrib": -1.97
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "49.3",
+     "contrib": 1.31
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "25.0",
+     "contrib": 1.02
+    },
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "0.9",
+     "contrib": -0.94
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "47.2",
+     "contrib": 0.92
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.439,
+   "base_prob": 0.538,
+   "prob": 0.19,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "943.0",
+     "contrib": -0.85
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "25.0",
+     "contrib": 0.46
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "100.0",
+     "contrib": -0.43
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "17.4",
+     "contrib": -0.19
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "0.9",
+     "contrib": -0.16
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "c693347d",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Ibrahima Niane(FW)의 현재 능력 점수는 49.3점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클 성공률, 공중볼 승률, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 박스 진입 패스이다.",
-  "potential": "Ibrahima Niane의 2~3년 후 예측 중심값은 46.2점, 80% 구간 상단은 56.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 19.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ibrahima Niane의 2~3년 후 예측 중심값은 46.2점, 80% 구간 상단은 56.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 19.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 56.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 현재 능력(49.3, +1.3), 나이(25.0, +1.0), 포지션 렌즈 점수(47.2, +0.9); 내린 요인은 비페널티 xG/90(0.5, -2.0), 전진 패스/90(0.9, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 공중볼 승률)을 거쳐 19.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

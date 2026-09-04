@@ -51,6 +51,84 @@
   "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -1.0,
+   "total": -2.77,
+   "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-5.4",
+     "contrib": 1.6
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "66.6",
+     "contrib": -0.99
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "29.0",
+     "contrib": -0.46
+    },
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "6.3",
+     "contrib": 0.44
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.4",
+     "contrib": -0.43
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": 0.481,
+   "base_prob": 0.538,
+   "prob": 0.313,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "29.0",
+     "contrib": -0.41
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.4",
+     "contrib": -0.29
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1562.0",
+     "contrib": -0.25
+    },
+    {
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "711.0",
+     "contrib": -0.24
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "51.0",
+     "contrib": -0.23
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "b853e0ad",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Valentin Rongier(MF)의 현재 능력 점수는 61.8점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 패스 성공률, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 박스 진입 패스이다.",
-  "potential": "Valentin Rongier의 2~3년 후 예측 중심값은 59.1점, 80% 구간 상단은 68.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Valentin Rongier의 2~3년 후 예측 중심값은 59.1점, 80% 구간 상단은 68.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 68.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-5.4, +1.6), 전진 패스/90(6.3, +0.4); 내린 요인은 스타일 렌즈 점수(66.6, -1.0), 나이(29.0, -0.5), 전진 운반/90(1.4, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 전진 운반/90)을 거쳐 31.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -51,6 +51,84 @@
   "sigma_model": 2.5,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -0.66,
+   "total": -5.26,
+   "top": [
+    {
+     "feature": "d_npxG90",
+     "label": "npxG/90 변화",
+     "value_text": "0.3",
+     "contrib": 1.32
+    },
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "1.5",
+     "contrib": -1.25
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.0",
+     "contrib": -1.01
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "3.2",
+     "contrib": -0.93
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1855.0",
+     "contrib": -0.81
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": 0.565,
+   "base_prob": 0.538,
+   "prob": 0.749,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "26.0",
+     "contrib": 0.41
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "79.1",
+     "contrib": -0.38
+    },
+    {
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-1018.0",
+     "contrib": 0.29
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "6.1",
+     "contrib": 0.21
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.0",
+     "contrib": -0.16
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "5d4f7d61",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Ermedin Demirović(FW)의 현재 능력 점수는 57.7점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 비페널티 xG, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 패스 거리이다.",
-  "potential": "Ermedin Demirović의 2~3년 후 예측 중심값은 52.4점, 80% 구간 상단은 62.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 74.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ermedin Demirović의 2~3년 후 예측 중심값은 52.4점, 80% 구간 상단은 62.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 74.9%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 62.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 npxG/90 변화(0.3, +1.3); 내린 요인은 전진 패스/90(1.5, -1.2), 전진 운반/90(1.0, -1.0), 능력 변화(전 시즌 대비)(3.2, -0.9), 시즌 출전시간(분)(1855.0, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))과 하락 요인(공중볼 승률, 전진 운반/90)을 거쳐 74.9%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

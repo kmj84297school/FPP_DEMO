@@ -51,6 +51,84 @@
   "sigma_model": 1.3,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -0.82,
+   "total": -2.9,
+   "top": [
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.0",
+     "contrib": 1.73
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "5.8",
+     "contrib": -1.53
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "20.0",
+     "contrib": 0.66
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "61.8",
+     "contrib": -0.53
+    },
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "1.8",
+     "contrib": -0.51
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.305,
+   "base_prob": 0.538,
+   "prob": 0.555,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "26.0",
+     "contrib": 0.47
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.0",
+     "contrib": -0.24
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "0.5",
+     "contrib": -0.21
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2017.0",
+     "contrib": 0.2
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "56.9",
+     "contrib": 0.14
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "b14d0c5d",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Abdul Mumin(DF)의 현재 능력 점수는 57.8점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 클리어링, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 최종 3분의1 패스이다.",
-  "potential": "Abdul Mumin의 2~3년 후 예측 중심값은 54.9점, 80% 구간 상단은 64.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Abdul Mumin의 2~3년 후 예측 중심값은 54.9점, 80% 구간 상단은 64.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 64.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 키패스/90(0.0, +1.7), 찬스 그룹 점수(20.0, +0.7); 내린 요인은 능력 변화(전 시즌 대비)(5.8, -1.5), 스타일 렌즈 점수(61.8, -0.5), 전진 패스/90(1.8, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(키패스/90, 전진 운반/90)을 거쳐 55.5%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

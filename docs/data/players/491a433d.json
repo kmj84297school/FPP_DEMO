@@ -51,6 +51,84 @@
   "sigma_model": 4.3,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": 1.65,
+   "total": 9.54,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "24.2",
+     "contrib": 4.92
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "0.2",
+     "contrib": -3.65
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "25.5",
+     "contrib": 3.01
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-16.5",
+     "contrib": 1.42
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "10.4",
+     "contrib": 1.21
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.245,
+   "base_prob": 0.719,
+   "prob": 0.73,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2004.0",
+     "contrib": 0.4
+    },
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "0.8",
+     "contrib": -0.36
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-16.5",
+     "contrib": 0.32
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "26.7",
+     "contrib": -0.32
+    },
+    {
+     "feature": "style_confidence",
+     "label": "스타일 확신도",
+     "value_text": "0.0",
+     "contrib": -0.23
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "cc83b74d",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Rasmus Højlund(FW)의 현재 능력 점수는 25.5점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 공중볼 승률, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 골 창출(GCA)이다.",
-  "potential": "Rasmus Højlund의 2~3년 후 예측 중심값은 35.0점, 80% 구간 상단은 46.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 73.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Rasmus Højlund의 2~3년 후 예측 중심값은 35.0점, 80% 구간 상단은 46.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 73.0%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 46.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +9.5점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(24.2, +4.9), 현재 능력(25.5, +3.0), 능력 변화(전 시즌 대비)(-16.5, +1.4), 찬스 그룹 점수(10.4, +1.2); 내린 요인은 태클+인터셉트/90(0.2, -3.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 능력 변화(전 시즌 대비))과 하락 요인(전진 패스/90, 포지션 렌즈 점수)을 거쳐 73.0%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

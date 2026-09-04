@@ -51,6 +51,84 @@
   "sigma_model": 2.5,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": 3.02,
+   "total": 14.64,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "47.9",
+     "contrib": 4.0
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "17.0",
+     "contrib": 3.24
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "7.8",
+     "contrib": 2.88
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "77.3",
+     "contrib": 1.51
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "0.4",
+     "contrib": -0.98
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": -0.992,
+   "base_prob": 0.719,
+   "prob": 0.469,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "17.0",
+     "contrib": 0.48
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1199.0",
+     "contrib": -0.3
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.1",
+     "contrib": 0.27
+    },
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "28.1",
+     "contrib": -0.27
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "41.9",
+     "contrib": -0.26
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "4195b8b6",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Giovanni Leoni(DF)의 현재 능력 점수는 44.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 블록, 무페널티 득점, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 패스이다.",
-  "potential": "Giovanni Leoni의 2~3년 후 예측 중심값은 59.6점, 80% 구간 상단은 70.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 46.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Giovanni Leoni의 2~3년 후 예측 중심값은 59.6점, 80% 구간 상단은 70.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 46.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 70.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +14.7점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(47.9, +4.0), 나이(17.0, +3.2), 찬스 그룹 점수(7.8, +2.9), 공중볼 승률(77.3, +1.5); 내린 요인은 박스 터치/90(0.4, -1.0)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 키패스/90)과 하락 요인(시즌 출전시간(분), 생산 그룹 점수)을 거쳐 46.9%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

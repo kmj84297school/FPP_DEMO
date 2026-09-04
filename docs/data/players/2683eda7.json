@@ -51,6 +51,84 @@
   "sigma_model": 2.2,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -1.38,
+   "total": 5.01,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "35.6",
+     "contrib": 4.49
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "36.9",
+     "contrib": 1.11
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "38.3",
+     "contrib": 1.03
+    },
+    {
+     "feature": "sty_돌파형 윙어",
+     "label": "스타일: 돌파형 윙어",
+     "value_text": "예",
+     "contrib": 1.0
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "34.3",
+     "contrib": 0.67
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.332,
+   "base_prob": 0.538,
+   "prob": 0.604,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2974.0",
+     "contrib": 0.74
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "35.6",
+     "contrib": -0.52
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "26.0",
+     "contrib": 0.37
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "87.0",
+     "contrib": 0.3
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "36.9",
+     "contrib": -0.3
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "f9758dae",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Javi Puado(FW)의 현재 능력 점수는 36.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 패스 성공률, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 슈팅 창출(SCA)이다.",
-  "potential": "Javi Puado의 2~3년 후 예측 중심값은 41.9점, 80% 구간 상단은 51.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Javi Puado의 2~3년 후 예측 중심값은 41.9점, 80% 구간 상단은 51.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.4%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 51.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(35.6, +4.5), 현재 능력(36.9, +1.1), 포지션 렌즈 점수(38.3, +1.0), 스타일: 돌파형 윙어(예, +1.0), 수비 그룹 점수(34.3, +0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 나이)과 하락 요인(스타일 렌즈 점수, 현재 능력)을 거쳐 60.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

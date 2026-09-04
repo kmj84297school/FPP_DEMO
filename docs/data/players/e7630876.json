@@ -51,6 +51,84 @@
   "sigma_model": 1.3,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -1.25,
+   "total": -1.53,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -1.13
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.3",
+     "contrib": -0.56
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "60.9",
+     "contrib": 0.44
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.2",
+     "contrib": -0.38
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "57.0",
+     "contrib": 0.37
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.002,
+   "base_prob": 0.719,
+   "prob": 0.691,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2399.0",
+     "contrib": 0.32
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.2",
+     "contrib": -0.32
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "56.2",
+     "contrib": 0.27
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.21
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "0.6",
+     "contrib": -0.19
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "2389cdc2",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Mika Mármol(DF)의 현재 능력 점수는 57.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 태클+인터셉트, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 볼 리커버리이다.",
-  "potential": "Mika Mármol의 2~3년 후 예측 중심값은 55.5점, 80% 구간 상단은 65.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 69.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mika Mármol의 2~3년 후 예측 중심값은 55.5점, 80% 구간 상단은 65.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 69.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 65.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.5점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 공중볼 승률(60.9, +0.4), 현재 능력(57.0, +0.4); 내린 요인은 나이(23.0, -1.1), 성공 드리블/90(0.3, -0.6), 전진 운반/90(1.2, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 포지션 렌즈 점수)과 하락 요인(전진 운반/90, 나이)을 거쳐 69.1%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

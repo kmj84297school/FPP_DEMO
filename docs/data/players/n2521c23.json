@@ -51,6 +51,84 @@
   "sigma_model": 2.5,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": 2.31,
+   "total": 4.73,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "71.5",
+     "contrib": -3.11
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "19.0",
+     "contrib": 2.88
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.2",
+     "contrib": 1.7
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "69.5",
+     "contrib": -0.95
+    },
+    {
+     "feature": "grp_progress",
+     "label": "전진 그룹 점수",
+     "value_text": "75.8",
+     "contrib": 0.93
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": -0.427,
+   "base_prob": 0.719,
+   "prob": 0.8,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "19.0",
+     "contrib": 0.34
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "67.3",
+     "contrib": 0.31
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "1.4",
+     "contrib": -0.28
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "5.4",
+     "contrib": 0.27
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "63.8",
+     "contrib": 0.24
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "8f5e92a6",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Malick Fofana(FW)의 현재 능력 점수는 69.5점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 전진 운반 거리, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 비페널티 xG이다.",
-  "potential": "Malick Fofana의 2~3년 후 예측 중심값은 74.2점, 80% 구간 상단은 84.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 80.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Malick Fofana의 2~3년 후 예측 중심값은 74.2점, 80% 구간 상단은 84.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 80.0%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 84.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.7점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 나이(19.0, +2.9), 비페널티 xG/90(0.2, +1.7), 전진 그룹 점수(75.8, +0.9); 내린 요인은 스타일 렌즈 점수(71.5, -3.1), 현재 능력(69.5, -0.9)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 포지션 렌즈 점수)과 하락 요인(키패스/90)을 거쳐 80.0%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

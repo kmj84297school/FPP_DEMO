@@ -51,6 +51,84 @@
   "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": 1.18,
+   "total": 2.89,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "55.2",
+     "contrib": 2.07
+    },
+    {
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-1410.0",
+     "contrib": 0.96
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.88
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.4",
+     "contrib": -0.71
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "39.3",
+     "contrib": -0.71
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": -0.124,
+   "base_prob": 0.719,
+   "prob": 0.777,
+   "top": [
+    {
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-1410.0",
+     "contrib": 0.43
+    },
+    {
+     "feature": "d_SCA90",
+     "label": "SCA/90 변화",
+     "value_text": "-0.7",
+     "contrib": 0.22
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "43.8",
+     "contrib": -0.21
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.2
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "57.1",
+     "contrib": 0.18
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "a2b105e0",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "James Garner(MF)의 현재 능력 점수는 49.5점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 볼 손실(미스+파울), 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 패스이다.",
-  "potential": "James Garner의 2~3년 후 예측 중심값은 52.4점, 80% 구간 상단은 62.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 77.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "James Garner의 2~3년 후 예측 중심값은 52.4점, 80% 구간 상단은 62.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 77.7%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 62.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.9점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(55.2, +2.1), 출전시간 변화(분)(-1410.0, +1.0); 내린 요인은 나이(23.0, -0.9), 성공 드리블/90(0.4, -0.7), 공중볼 승률(39.3, -0.7)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(출전시간 변화(분), SCA/90 변화)과 하락 요인(포지션 렌즈 점수, 나이)을 거쳐 77.7%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

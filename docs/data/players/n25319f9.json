@@ -51,6 +51,84 @@
   "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": 0.54,
+   "total": 1.17,
+   "top": [
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "0.4",
+     "contrib": -1.45
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "80.0",
+     "contrib": 0.66
+    },
+    {
+     "feature": "PassPct",
+     "label": "패스 성공률",
+     "value_text": "92.1",
+     "contrib": 0.56
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "6.6",
+     "contrib": -0.53
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "2.3",
+     "contrib": 0.43
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.469,
+   "base_prob": 0.719,
+   "prob": 0.757,
+   "top": [
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.1",
+     "contrib": -0.55
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.1",
+     "contrib": 0.4
+    },
+    {
+     "feature": "PassPct",
+     "label": "패스 성공률",
+     "value_text": "92.1",
+     "contrib": 0.36
+    },
+    {
+     "feature": "d_grp_stability",
+     "label": "안정 그룹 변화",
+     "value_text": "14.9",
+     "contrib": -0.27
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.0",
+     "contrib": -0.21
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "da7b447d",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Becir Omeragic(DF)의 현재 능력 점수는 57.4점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 태클 성공률, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
-  "potential": "Becir Omeragic의 2~3년 후 예측 중심값은 58.6점, 80% 구간 상단은 69.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 75.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Becir Omeragic의 2~3년 후 예측 중심값은 58.6점, 80% 구간 상단은 69.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 75.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 69.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.2점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 공중볼 승률(80.0, +0.7), 패스 성공률(92.1, +0.6), 태클+인터셉트/90(2.3, +0.4); 내린 요인은 박스 터치/90(0.4, -1.4), 능력 변화(전 시즌 대비)(6.6, -0.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(키패스/90, 패스 성공률)과 하락 요인(전진 운반/90, 안정 그룹 변화)을 거쳐 75.7%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

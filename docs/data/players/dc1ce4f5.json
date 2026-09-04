@@ -51,6 +51,84 @@
   "sigma_model": 2.3,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -0.81,
+   "total": 6.43,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "50.9",
+     "contrib": 3.32
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "8.3",
+     "contrib": 2.26
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "0.2",
+     "contrib": -0.82
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "82.0",
+     "contrib": 0.75
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "51.9",
+     "contrib": 0.74
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.588,
+   "base_prob": 0.719,
+   "prob": 0.878,
+   "top": [
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "0.2",
+     "contrib": -0.58
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "97.0",
+     "contrib": 0.57
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "3319.0",
+     "contrib": 0.55
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "0.9",
+     "contrib": -0.44
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.0",
+     "contrib": 0.35
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "4315f30d",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Cristhian Mosquera(DF)의 현재 능력 점수는 51.9점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 태클 성공률, 볼 리커버리, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
-  "potential": "Cristhian Mosquera의 2~3년 후 예측 중심값은 58.3점, 80% 구간 상단은 68.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Cristhian Mosquera의 2~3년 후 예측 중심값은 58.3점, 80% 구간 상단은 68.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 68.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +6.4점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.9, +3.3), 찬스 그룹 점수(8.3, +2.3), 공중볼 승률(82.0, +0.8), 현재 능력(51.9, +0.7); 내린 요인은 박스 터치/90(0.2, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(박스 터치/90, 전진 운반/90)을 거쳐 87.8%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

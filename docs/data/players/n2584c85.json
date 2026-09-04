@@ -51,6 +51,84 @@
   "sigma_model": 2.0,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": 0.04,
+   "total": -2.3,
+   "top": [
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "26.0",
+     "contrib": 0.7
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "57.4",
+     "contrib": -0.58
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "29.4",
+     "contrib": -0.54
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "31.0",
+     "contrib": -0.49
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "60.8",
+     "contrib": 0.48
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.067,
+   "base_prob": 0.538,
+   "prob": 0.092,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "900.0",
+     "contrib": -0.86
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "31.0",
+     "contrib": -0.51
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "88.9",
+     "contrib": -0.43
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "0.5",
+     "contrib": -0.36
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "29.4",
+     "contrib": -0.21
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "7adea561",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Karol Mets(DF)의 현재 능력 점수는 59.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 패스, 클리어링, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 블록이다.",
-  "potential": "Karol Mets의 2~3년 후 예측 중심값은 56.9점, 80% 구간 상단은 66.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 9.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Karol Mets의 2~3년 후 예측 중심값은 56.9점, 80% 구간 상단은 66.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 9.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 66.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 생산 그룹 점수(26.0, +0.7), 스타일 렌즈 점수(60.8, +0.5); 내린 요인은 포지션 렌즈 점수(57.4, -0.6), 팀 출전시간 비중(%)(29.4, -0.5), 나이(31.0, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(시즌 출전시간(분), 나이)을 거쳐 9.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

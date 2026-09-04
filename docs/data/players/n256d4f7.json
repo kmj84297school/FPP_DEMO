@@ -51,6 +51,84 @@
   "sigma_model": 2.6,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": 0.0,
+   "total": 9.58,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "41.9",
+     "contrib": 4.73
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "39.2",
+     "contrib": 2.2
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-10.5",
+     "contrib": 1.7
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.2",
+     "contrib": -1.25
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "76.0",
+     "contrib": 1.22
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.367,
+   "base_prob": 0.719,
+   "prob": 0.765,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1023.0",
+     "contrib": -0.55
+    },
+    {
+     "feature": "xAG90",
+     "label": "xAG/90",
+     "value_text": "0.1",
+     "contrib": 0.22
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "76.0",
+     "contrib": 0.2
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "39.2",
+     "contrib": -0.19
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "1.1",
+     "contrib": 0.19
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "f9f92b5f",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Giovanni Fabbian(MF)의 현재 능력 점수는 39.2점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승률, 박스 터치, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 전진 패스이다.",
-  "potential": "Giovanni Fabbian의 2~3년 후 예측 중심값은 48.8점, 80% 구간 상단은 59.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 76.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Giovanni Fabbian의 2~3년 후 예측 중심값은 48.8점, 80% 구간 상단은 59.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 76.5%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 59.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +9.6점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(41.9, +4.7), 현재 능력(39.2, +2.2), 능력 변화(전 시즌 대비)(-10.5, +1.7), 공중볼 승률(76.0, +1.2); 내린 요인은 성공 드리블/90(0.2, -1.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(xAG/90, 공중볼 승률)과 하락 요인(시즌 출전시간(분), 현재 능력)을 거쳐 76.5%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

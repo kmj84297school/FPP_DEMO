@@ -51,6 +51,84 @@
   "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -1.65,
+   "total": -2.59,
+   "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "4.6",
+     "contrib": -1.83
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "50.7",
+     "contrib": 1.76
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "44.3",
+     "contrib": 1.11
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "0.2",
+     "contrib": -0.59
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.52
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.479,
+   "base_prob": 0.538,
+   "prob": 0.587,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.59
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "0.4",
+     "contrib": -0.38
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2727.0",
+     "contrib": 0.34
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "79.7",
+     "contrib": 0.28
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "50.7",
+     "contrib": -0.15
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "29b61deb",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Antonio Blanco(MF)의 현재 능력 점수는 44.3점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 전진 패스 거리, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 슈팅당 기대득점이다.",
-  "potential": "Antonio Blanco의 2~3년 후 예측 중심값은 41.7점, 80% 구간 상단은 51.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Antonio Blanco의 2~3년 후 예측 중심값은 41.7점, 80% 구간 상단은 51.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 51.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.7, +1.8), 현재 능력(44.3, +1.1), 나이(24.0, +0.5); 내린 요인은 능력 변화(전 시즌 대비)(4.6, -1.8), 박스 터치/90(0.2, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(전진 운반/90, 스타일 렌즈 점수)을 거쳐 58.7%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

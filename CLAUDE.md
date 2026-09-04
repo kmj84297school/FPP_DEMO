@@ -171,6 +171,11 @@ FPP_V2/
   낙관 편향이 있다. 그래서 검증범위 밖 경고(19명, 1.3%)는 유지한다.
 - **미착수 대안**: 라벨을 2시즌 평균 대신 최댓값으로, 분위수 회귀로 상단 직접 추정.
 
+### C-4. 예측 설명(SHAP) — 완료 (2026-09, dev_docs/PHASE3_REPORT.md A5)
+build/03_predict.py가 XGBoost pred_contribs(TreeExplainer SHAP 동치)로 선수별 Δ회귀·잔존분류
+기여도 상위 5개를 산출 → 선수 JSON `explanation` → 상세페이지 "왜 이 예측인가" 패널.
+자동 서술문(narrative_potential)도 기여도 근거로 작성. 기여도는 국소 설명이지 인과가 아님을 화면에 명시.
+
 ### C-3. 포지션 세분화(역할 7분류) 실험 — 점수 개편 기각 (2026-09, dev_docs/PHASE3_REPORT.md A1)
 shape z-축으로 CB/FB/DM/CM/AM/W/ST를 추론해 시즌×역할 풀로 채점하는 v2(src/scoring_v2.py)를
 같은 코호트·같은 GroupKFold로 비교한 결과, 역할 판정은 건전(알려진 선수 13/16)하지만

@@ -51,6 +51,84 @@
   "sigma_model": 2.3,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": 1.29,
+   "total": -1.34,
+   "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-5.6",
+     "contrib": 1.86
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "70.4",
+     "contrib": -1.38
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "72.2",
+     "contrib": -1.33
+    },
+    {
+     "feature": "grp_progress",
+     "label": "전진 그룹 점수",
+     "value_text": "84.1",
+     "contrib": 1.24
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "74.0",
+     "contrib": -1.1
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.003,
+   "base_prob": 0.538,
+   "prob": 0.754,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.82
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1129.0",
+     "contrib": -0.58
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "74.0",
+     "contrib": 0.28
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "70.4",
+     "contrib": 0.24
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "70.4",
+     "contrib": 0.22
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "4a1a9578",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "João Félix(FW)의 현재 능력 점수는 72.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 최종 3분의1 패스, 슈팅 시도, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 어시스트, 슈팅당 기대득점이다.",
-  "potential": "João Félix의 2~3년 후 예측 중심값은 71.0점, 80% 구간 상단은 80.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "João Félix의 2~3년 후 예측 중심값은 71.0점, 80% 구간 상단은 80.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 80.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-5.6, +1.9), 전진 그룹 점수(84.1, +1.2); 내린 요인은 스타일 렌즈 점수(70.4, -1.4), 현재 능력(72.2, -1.3), 포지션 렌즈 점수(74.0, -1.1)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 포지션 렌즈 점수)과 하락 요인(시즌 출전시간(분))을 거쳐 75.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -51,6 +51,84 @@
   "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -0.43,
+   "total": 3.56,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "52.7",
+     "contrib": 2.05
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "9.1",
+     "contrib": 1.63
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "23.5",
+     "contrib": -1.02
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "49.7",
+     "contrib": 0.71
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "66.5",
+     "contrib": -0.36
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": -0.616,
+   "base_prob": 0.719,
+   "prob": 0.506,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1234.0",
+     "contrib": -0.45
+    },
+    {
+     "feature": "PassPct",
+     "label": "패스 성공률",
+     "value_text": "89.4",
+     "contrib": 0.32
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "66.5",
+     "contrib": 0.21
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "22.0",
+     "contrib": -0.2
+    },
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "4.1",
+     "contrib": -0.19
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "52611641",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Tanner Tessmann(MF)의 현재 능력 점수는 49.7점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 유효슈팅, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 슈팅 창출(SCA)이다.",
-  "potential": "Tanner Tessmann의 2~3년 후 예측 중심값은 53.3점, 80% 구간 상단은 63.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 50.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Tanner Tessmann의 2~3년 후 예측 중심값은 53.3점, 80% 구간 상단은 63.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 50.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 63.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.6점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(52.7, +2.0), 찬스 그룹 점수(9.1, +1.6), 현재 능력(49.7, +0.7); 내린 요인은 공중볼 승률(23.5, -1.0), 안정 그룹 점수(66.5, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(패스 성공률, 안정 그룹 점수)과 하락 요인(시즌 출전시간(분), 나이)을 거쳐 50.6%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

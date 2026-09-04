@@ -1,6 +1,53 @@
 const GROUP_LABELS = { prod: "생산", progress: "전진", chance: "찬스", stability: "안정", defense: "수비" };
 const GROUP_ORDER = ["prod", "progress", "chance", "stability", "defense"];
 
+function contribRow(t) {
+  const pos = t.contrib >= 0;
+  return `
+    <div class="contrib-row" role="listitem">
+      <span class="contrib-lbl">${t.label}${t.value_text ? ` <span class="muted">= ${t.value_text}</span>` : ""}</span>
+      <span class="contrib-bar ${pos ? "pos" : "neg"}" aria-hidden="true">
+        <span class="contrib-fill" style="width:${Math.min(100, Math.abs(t.contrib) / t._max * 100)}%"></span>
+      </span>
+      <span class="contrib-val ${pos ? "pos" : "neg"}">${pos ? "▲" : "▼"} ${t.contrib > 0 ? "+" : ""}${t.contrib.toFixed(2)}</span>
+    </div>`;
+}
+
+function explanationHtml(p, c) {
+  const e = p.explanation;
+  const d = e.delta, sv = e.survival;
+  const isGrowth = p.eligibility.kind === "growth";
+  const survivalLabel = isGrowth ? "빅5 잔존확률" : "빅5 현역 유지확률";
+  const dmax = Math.max(...d.top.map((t) => Math.abs(t.contrib)), Math.abs(d.rest), 0.01);
+  const smax = Math.max(...sv.top.map((t) => Math.abs(t.contrib)), Math.abs(sv.rest), 0.01);
+  const dtop = d.top.map((t) => ({ ...t, _max: dmax }));
+  const stop = sv.top.map((t) => ({ ...t, _max: smax }));
+  const restD = { label: "나머지 46개 피처 합", value_text: "", contrib: d.rest, _max: dmax };
+  const restS = { label: "나머지 46개 피처 합", value_text: "", contrib: sv.rest, _max: smax };
+  const deltaPred = p.prediction.mu - c.ability;
+  return `
+    <div class="panel explain">
+      <div class="section-title">왜 이 예측인가 — 피처 기여도 (SHAP)</div>
+      <div class="explain-flow">
+        <span class="chip">현재 ${fmt1(c.ability)}</span><span class="arrow">→</span>
+        <span class="chip muted-chip">코호트 평균 변화 ${d.base >= 0 ? "+" : ""}${d.base.toFixed(1)}</span><span class="arrow">→</span>
+        <span class="chip muted-chip">기여도 합 ${(d.total - d.base) >= 0 ? "+" : ""}${(d.total - d.base).toFixed(1)}</span><span class="arrow">→</span>
+        <span class="chip gold">예측 중심값 ${fmt1(p.prediction.mu)} (${deltaPred >= 0 ? "+" : ""}${deltaPred.toFixed(1)})</span>
+      </div>
+      <div class="grid-2">
+        <div>
+          <div class="explain-sub">2~3년 후 변화량(점)에 대한 기여 — 상위 5개</div>
+          <div role="list">${dtop.map(contribRow).join("")}${contribRow(restD)}</div>
+        </div>
+        <div>
+          <div class="explain-sub">${survivalLabel}(로그오즈)에 대한 기여 — 코호트 기준 ${(sv.base_prob * 100).toFixed(0)}% → ${(sv.prob * 100).toFixed(1)}%</div>
+          <div role="list">${stop.map(contribRow).join("")}${contribRow(restS)}</div>
+        </div>
+      </div>
+      <div class="hint">${e.method}. 기여도는 이 선수 한 명에 대한 모델의 국소 설명이며 인과관계가 아닙니다. 같은 피처라도 다른 선수에게는 반대 방향으로 기여할 수 있습니다.</div>
+    </div>`;
+}
+
 function qs(name) {
   return new URLSearchParams(window.location.search).get(name);
 }
@@ -189,6 +236,8 @@ function renderPlayer(p) {
           <canvas id="ciChart" height="140"></canvas>
         </div>
       </div>
+
+      ${p.explanation ? explanationHtml(p, c) : ""}
 
       <div class="panel">
         <div class="section-title">유사 선수 (실제 2~3년 후 결과, k=${p.neighbors.length})</div>

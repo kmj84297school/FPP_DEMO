@@ -234,3 +234,20 @@ footer.foot {
   text-align: center;
   margin-top: 30px;
 }
+
+/* ── A5 예측 설명 패널 ── */
+.explain-flow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 14px; font-size: 0.88rem; }
+.explain-flow .chip { background: #0f141b; border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px; color: var(--accent2); }
+.explain-flow .chip.muted-chip { color: var(--ink); }
+.explain-flow .chip.gold { color: var(--gold); border-color: #4a3a12; }
+.explain-flow .arrow { color: var(--muted); }
+.explain-sub { color: var(--muted); font-size: 0.8rem; margin: 4px 0 8px; }
+.contrib-row { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(80px, 1fr) 76px; align-items: center; gap: 10px; padding: 6px 0; border-bottom: 1px solid var(--border); font-size: 0.86rem; }
+.contrib-row:last-child { border-bottom: none; }
+.contrib-lbl { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.contrib-bar { display: block; height: 8px; background: #1b222c; border-radius: 6px; overflow: hidden; }
+.contrib-bar.pos .contrib-fill { display: block; height: 100%; background: var(--accent2); border-radius: 6px; }
+.contrib-bar.neg .contrib-fill { display: block; height: 100%; background: var(--band-bad); border-radius: 6px; margin-left: auto; }
+.contrib-val { text-align: right; font-variant-numeric: tabular-nums; }
+.contrib-val.pos { color: var(--accent2); }
+.contrib-val.neg { color: var(--band-bad); }

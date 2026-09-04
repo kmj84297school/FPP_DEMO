@@ -51,6 +51,84 @@
   "sigma_model": 1.6,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": 0.63,
+   "total": -1.84,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.88
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "62.9",
+     "contrib": -0.83
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.3",
+     "contrib": -0.73
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "9.1",
+     "contrib": -0.57
+    },
+    {
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "22.0",
+     "contrib": -0.44
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.611,
+   "base_prob": 0.719,
+   "prob": 0.779,
+   "top": [
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "0.6",
+     "contrib": -0.24
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.22
+    },
+    {
+     "feature": "xAG90",
+     "label": "xAG/90",
+     "value_text": "0.1",
+     "contrib": 0.2
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "51.9",
+     "contrib": -0.19
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "52.2",
+     "contrib": 0.17
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "4c6facae",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Neil El Aynaoui(MF)의 현재 능력 점수는 57.9점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 무페널티 득점, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 성공 드리블이다.",
-  "potential": "Neil El Aynaoui의 2~3년 후 예측 중심값은 56.1점, 80% 구간 상단은 66.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 77.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Neil El Aynaoui의 2~3년 후 예측 중심값은 56.1점, 80% 구간 상단은 66.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 77.9%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 66.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.8점(같은 코호트 평균 변화 +1.0점 기준)으로, 내린 요인은 나이(23.0, -0.9), 스타일 렌즈 점수(62.9, -0.8), 성공 드리블/90(0.3, -0.7), 능력 변화(전 시즌 대비)(9.1, -0.6), 출전시간 변화(분)(22.0, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(xAG/90, 공중볼 승률)과 하락 요인(전진 운반/90, 나이)을 거쳐 77.9%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

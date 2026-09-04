@@ -51,6 +51,84 @@
   "sigma_model": 1.6,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -0.74,
+   "total": -3.19,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.96
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1086.0",
+     "contrib": -0.73
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "1.8",
+     "contrib": -0.72
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "69.4",
+     "contrib": -0.61
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "27.8",
+     "contrib": 0.55
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": 0.162,
+   "base_prob": 0.538,
+   "prob": 0.452,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1086.0",
+     "contrib": -0.65
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.61
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "31.8",
+     "contrib": -0.23
+    },
+    {
+     "feature": "SCA90",
+     "label": "슈팅 창출/90",
+     "value_text": "3.7",
+     "contrib": -0.13
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "1.8",
+     "contrib": -0.11
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "f0021247",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Joe Willock(MF)의 현재 능력 점수는 60.0점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 박스 터치, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 전진 패스 거리이다.",
-  "potential": "Joe Willock의 2~3년 후 예측 중심값은 56.8점, 80% 구간 상단은 66.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Joe Willock의 2~3년 후 예측 중심값은 56.8점, 80% 구간 상단은 66.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 66.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +1.0), 공중볼 승률(27.8, +0.6); 내린 요인은 시즌 출전시간(분)(1086.0, -0.7), 키패스/90(1.8, -0.7), 찬스 그룹 점수(69.4, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 45.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

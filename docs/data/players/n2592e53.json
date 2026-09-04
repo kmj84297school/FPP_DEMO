@@ -51,6 +51,84 @@
   "sigma_model": 1.9,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -2.48,
+   "total": -5.83,
+   "top": [
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "1.6",
+     "contrib": -1.76
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "55.9",
+     "contrib": 1.11
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1055.0",
+     "contrib": -0.96
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "52.5",
+     "contrib": 0.92
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "30.0",
+     "contrib": -0.75
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.113,
+   "base_prob": 0.538,
+   "prob": 0.295,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1055.0",
+     "contrib": -0.79
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "30.0",
+     "contrib": -0.27
+    },
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "1.6",
+     "contrib": 0.23
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "34.5",
+     "contrib": -0.21
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.3",
+     "contrib": 0.13
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "71a20ce8",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Giorgos Masouras(FW)의 현재 능력 점수는 54.2점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 유효슈팅, 볼 손실(미스+파울), 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 패스이다.",
-  "potential": "Giorgos Masouras의 2~3년 후 예측 중심값은 48.4점, 80% 구간 상단은 57.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Giorgos Masouras의 2~3년 후 예측 중심값은 48.4점, 80% 구간 상단은 57.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.4%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 57.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(55.9, +1.1), 포지션 렌즈 점수(52.5, +0.9); 내린 요인은 전진 패스/90(1.6, -1.8), 시즌 출전시간(분)(1055.0, -1.0), 나이(30.0, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(전진 패스/90, 비페널티 xG/90)과 하락 요인(시즌 출전시간(분), 나이)을 거쳐 29.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

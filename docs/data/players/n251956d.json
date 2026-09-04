@@ -51,6 +51,84 @@
   "sigma_model": 1.6,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -0.78,
+   "total": -0.83,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.94
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "52.5",
+     "contrib": 0.62
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.4",
+     "contrib": -0.61
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "42.0",
+     "contrib": -0.53
+    },
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "27.9",
+     "contrib": 0.43
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.024,
+   "base_prob": 0.719,
+   "prob": 0.875,
+   "top": [
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "94.2",
+     "contrib": 0.67
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2881.0",
+     "contrib": 0.64
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.25
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.8",
+     "contrib": -0.21
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "55.0",
+     "contrib": 0.14
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "beb882a8",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Philipp Treu(MF)의 현재 능력 점수는 52.5점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 블록, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 슈팅 시도이다.",
-  "potential": "Philipp Treu의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 62.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Philipp Treu의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 62.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 62.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.8점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 현재 능력(52.5, +0.6), 생산 그룹 점수(27.9, +0.4); 내린 요인은 나이(23.0, -0.9), 성공 드리블/90(0.4, -0.6), 공중볼 승률(42.0, -0.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(나이, 전진 운반/90)을 거쳐 87.5%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

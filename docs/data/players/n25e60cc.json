@@ -51,6 +51,84 @@
   "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -1.06,
+   "total": -0.11,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "19.0",
+     "contrib": 1.6
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.2",
+     "contrib": 0.98
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "23.1",
+     "contrib": -0.95
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.6",
+     "contrib": -0.87
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.4",
+     "contrib": -0.78
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": -0.049,
+   "base_prob": 0.719,
+   "prob": 0.768,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "19.0",
+     "contrib": 0.53
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1227.0",
+     "contrib": -0.47
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "54.2",
+     "contrib": 0.26
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "35.9",
+     "contrib": -0.18
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "49.9",
+     "contrib": 0.18
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "5722eced",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Niccolò Pisilli(MF)의 현재 능력 점수는 55.9점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 슈팅 시도, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
-  "potential": "Niccolò Pisilli의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 66.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 76.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Niccolò Pisilli의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 66.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 76.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 66.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.1점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 나이(19.0, +1.6), 비페널티 xG/90(0.2, +1.0); 내린 요인은 공중볼 승률(23.1, -0.9), 전진 운반/90(1.6, -0.9), 성공 드리블/90(0.4, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 포지션 렌즈 점수)과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 76.8%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

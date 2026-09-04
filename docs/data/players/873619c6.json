@@ -51,6 +51,84 @@
   "sigma_model": 3.3,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -1.94,
+   "total": -3.17,
+   "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "17.4",
+     "contrib": -3.18
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "55.4",
+     "contrib": 1.97
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.3",
+     "contrib": 1.33
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -1.29
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "1.0",
+     "contrib": -1.04
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.41,
+   "base_prob": 0.719,
+   "prob": 0.711,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1134.0",
+     "contrib": -0.51
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "17.4",
+     "contrib": 0.35
+    },
+    {
+     "feature": "d_grp_stability",
+     "label": "안정 그룹 변화",
+     "value_text": "12.1",
+     "contrib": -0.3
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "84.6",
+     "contrib": 0.26
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "1.5",
+     "contrib": -0.25
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "061e8e23",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Sergio Camello(FW)의 현재 능력 점수는 55.7점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 패스 성공률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 박스 터치이다.",
-  "potential": "Sergio Camello의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 63.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 71.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Sergio Camello의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 63.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 71.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 63.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.2점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(55.4, +2.0), 비페널티 xG/90(0.3, +1.3); 내린 요인은 능력 변화(전 시즌 대비)(17.4, -3.2), 나이(23.0, -1.3), 태클+인터셉트/90(1.0, -1.0)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(능력 변화(전 시즌 대비), 공중볼 승률)과 하락 요인(시즌 출전시간(분), 안정 그룹 변화)을 거쳐 71.1%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

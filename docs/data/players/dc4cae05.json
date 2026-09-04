@@ -51,6 +51,84 @@
   "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -2.62,
+   "total": -7.46,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "960.0",
+     "contrib": -1.15
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "28.1",
+     "contrib": -0.98
+    },
+    {
+     "feature": "sty_돌파형 윙어",
+     "label": "스타일: 돌파형 윙어",
+     "value_text": "예",
+     "contrib": 0.96
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "66.0",
+     "contrib": -0.94
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "1.8",
+     "contrib": -0.82
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.101,
+   "base_prob": 0.538,
+   "prob": 0.312,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "960.0",
+     "contrib": -1.02
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "27.0",
+     "contrib": 0.26
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "63.3",
+     "contrib": 0.13
+    },
+    {
+     "feature": "SCA90",
+     "label": "슈팅 창출/90",
+     "value_text": "4.3",
+     "contrib": -0.12
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "1.9",
+     "contrib": -0.1
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "fb938d24",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "David Brooks(FW)의 현재 능력 점수는 63.3점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 볼 리커버리, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 어시스트, 골 창출(GCA)이다.",
-  "potential": "David Brooks의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 65.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "David Brooks의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 65.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 65.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일: 돌파형 윙어(예, +1.0); 내린 요인은 시즌 출전시간(분)(960.0, -1.1), 팀 출전시간 비중(%)(28.1, -1.0), 스타일 렌즈 점수(66.0, -0.9), 태클+인터셉트/90(1.8, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 현재 능력)과 하락 요인(시즌 출전시간(분), 슈팅 창출/90)을 거쳐 31.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

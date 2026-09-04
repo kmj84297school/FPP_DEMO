@@ -51,6 +51,84 @@
   "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": 0.14,
+   "total": 2.09,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "19.0",
+     "contrib": 2.59
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "65.0",
+     "contrib": -1.2
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "2.0",
+     "contrib": 0.57
+    },
+    {
+     "feature": "xAG90",
+     "label": "xAG/90",
+     "value_text": "0.3",
+     "contrib": -0.53
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "30.2",
+     "contrib": -0.45
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": -0.175,
+   "base_prob": 0.719,
+   "prob": 0.862,
+   "top": [
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "83.9",
+     "contrib": 0.48
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2568.0",
+     "contrib": 0.33
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "19.0",
+     "contrib": 0.22
+    },
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "81.5",
+     "contrib": 0.17
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "2.0",
+     "contrib": -0.13
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "74f2e748",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Diego Moreira(DF)의 현재 능력 점수는 57.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 도움 기대값(xAG), 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 최종 3분의1 패스이다.",
-  "potential": "Diego Moreira의 2~3년 후 예측 중심값은 59.6점, 80% 구간 상단은 70.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 86.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Diego Moreira의 2~3년 후 예측 중심값은 59.6점, 80% 구간 상단은 70.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 86.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 70.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.2점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 나이(19.0, +2.6), 성공 드리블/90(2.0, +0.6); 내린 요인은 스타일 렌즈 점수(65.0, -1.2), xAG/90(0.3, -0.5), 안정 그룹 점수(30.2, -0.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(성공 드리블/90)을 거쳐 86.2%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

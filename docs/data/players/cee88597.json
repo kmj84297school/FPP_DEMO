@@ -51,6 +51,84 @@
   "sigma_model": 1.9,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -1.42,
+   "total": 5.51,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "41.6",
+     "contrib": 4.79
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "40.0",
+     "contrib": 1.46
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "38.5",
+     "contrib": 1.21
+    },
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "23.8",
+     "contrib": 0.75
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "27.0",
+     "contrib": 0.63
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.757,
+   "base_prob": 0.538,
+   "prob": 0.25,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "32.0",
+     "contrib": -0.79
+    },
+    {
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-1673.0",
+     "contrib": 0.65
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "0.6",
+     "contrib": -0.28
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1200.0",
+     "contrib": -0.28
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.0",
+     "contrib": 0.21
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "a60823a4",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Iván Balliu(DF)의 현재 능력 점수는 40.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 실책, 키패스, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 전진 운반 거리이다.",
-  "potential": "Iván Balliu의 2~3년 후 예측 중심값은 45.4점, 80% 구간 상단은 54.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 24.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Iván Balliu의 2~3년 후 예측 중심값은 45.4점, 80% 구간 상단은 54.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 24.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 54.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(41.6, +4.8), 현재 능력(40.0, +1.5), 포지션 렌즈 점수(38.5, +1.2), 생산 그룹 점수(23.8, +0.8), 수비 그룹 점수(27.0, +0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(출전시간 변화(분), 비페널티 xG/90)과 하락 요인(나이, 전진 운반/90)을 거쳐 24.9%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

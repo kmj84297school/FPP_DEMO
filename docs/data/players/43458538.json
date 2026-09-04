@@ -51,6 +51,84 @@
   "sigma_model": 2.1,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -2.69,
+   "total": -4.22,
+   "top": [
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "1.6",
+     "contrib": -1.17
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.4",
+     "contrib": -1.11
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "56.9",
+     "contrib": 1.05
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "52.7",
+     "contrib": 0.81
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "54.9",
+     "contrib": 0.79
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.461,
+   "base_prob": 0.538,
+   "prob": 0.28,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "32.0",
+     "contrib": -0.51
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "83.3",
+     "contrib": -0.43
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "5.1",
+     "contrib": 0.25
+    },
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "1.6",
+     "contrib": 0.21
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "2.1",
+     "contrib": -0.16
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "5c2da10f",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Joshua King(FW)의 현재 능력 점수는 54.9점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 성공 드리블, 슈팅 시도, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 최종 3분의1 패스이다.",
-  "potential": "Joshua King의 2~3년 후 예측 중심값은 50.7점, 80% 구간 상단은 60.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Joshua King의 2~3년 후 예측 중심값은 50.7점, 80% 구간 상단은 60.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 60.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.9, +1.1), 포지션 렌즈 점수(52.7, +0.8), 현재 능력(54.9, +0.8); 내린 요인은 전진 패스/90(1.6, -1.2), 비페널티 xG/90(0.4, -1.1)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(박스 터치/90, 전진 패스/90)과 하락 요인(나이, 공중볼 승률)을 거쳐 28.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

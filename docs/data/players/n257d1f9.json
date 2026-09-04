@@ -51,6 +51,84 @@
   "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -0.91,
+   "total": 4.45,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "55.2",
+     "contrib": 2.42
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "12.5",
+     "contrib": 1.2
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "40.6",
+     "contrib": 0.58
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "47.9",
+     "contrib": 0.55
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "69.7",
+     "contrib": -0.36
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.329,
+   "base_prob": 0.719,
+   "prob": 0.826,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "20.0",
+     "contrib": 0.52
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "40.6",
+     "contrib": -0.29
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "51.1",
+     "contrib": -0.16
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.1",
+     "contrib": 0.12
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "1.3",
+     "contrib": 0.11
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "f9d5908e",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Mario Martín(MF)의 현재 능력 점수는 47.9점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 클리어링, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 박스 진입 패스이다.",
-  "potential": "Mario Martín의 2~3년 후 예측 중심값은 52.4점, 80% 구간 상단은 62.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 82.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mario Martín의 2~3년 후 예측 중심값은 52.4점, 80% 구간 상단은 62.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 82.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 62.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.5점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(55.2, +2.4), 찬스 그룹 점수(12.5, +1.2), 포지션 렌즈 점수(40.6, +0.6), 현재 능력(47.9, +0.6); 내린 요인은 수비 그룹 점수(69.7, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 비페널티 xG/90)과 하락 요인(포지션 렌즈 점수, 팀 출전시간 비중(%))을 거쳐 82.6%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

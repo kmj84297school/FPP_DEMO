@@ -51,6 +51,84 @@
   "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -0.01,
+   "total": 2.69,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "50.6",
+     "contrib": 1.5
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "44.2",
+     "contrib": 1.08
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "37.7",
+     "contrib": 1.02
+    },
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "20.7",
+     "contrib": 0.55
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "25.0",
+     "contrib": 0.46
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.433,
+   "base_prob": 0.538,
+   "prob": 0.458,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "25.0",
+     "contrib": 0.53
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.2",
+     "contrib": -0.26
+    },
+    {
+     "feature": "PassPct",
+     "label": "패스 성공률",
+     "value_text": "90.4",
+     "contrib": 0.18
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "44.2",
+     "contrib": -0.17
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "50.6",
+     "contrib": -0.17
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "2b1bed19",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Flynn Downes(MF)의 현재 능력 점수는 44.2점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 볼 손실(미스+파울), 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 슈팅 창출(SCA)이다.",
-  "potential": "Flynn Downes의 2~3년 후 예측 중심값은 46.8점, 80% 구간 상단은 56.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Flynn Downes의 2~3년 후 예측 중심값은 46.8점, 80% 구간 상단은 56.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 56.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.6, +1.5), 현재 능력(44.2, +1.1), 포지션 렌즈 점수(37.7, +1.0), 생산 그룹 점수(20.7, +0.6), 나이(25.0, +0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 패스 성공률)과 하락 요인(전진 운반/90, 현재 능력)을 거쳐 45.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

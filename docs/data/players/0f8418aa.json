@@ -51,6 +51,84 @@
   "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": 1.04,
+   "total": -4.22,
+   "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "2.7",
+     "contrib": -1.23
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "65.5",
+     "contrib": -1.12
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "42.0",
+     "contrib": -0.79
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "81.4",
+     "contrib": -0.7
+    },
+    {
+     "feature": "d_grp_progress",
+     "label": "전진 그룹 변화",
+     "value_text": "0.7",
+     "contrib": 0.49
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.103,
+   "base_prob": 0.538,
+   "prob": 0.722,
+   "top": [
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.2",
+     "contrib": -0.35
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2610.0",
+     "contrib": 0.35
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "85.3",
+     "contrib": 0.33
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "26.0",
+     "contrib": 0.32
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "81.4",
+     "contrib": 0.26
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "6f5ead86",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Ibrahima Sissoko(MF)의 현재 능력 점수는 57.1점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 공중볼 승률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 패스 성공률이다.",
-  "potential": "Ibrahima Sissoko의 2~3년 후 예측 중심값은 52.9점, 80% 구간 상단은 62.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 72.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ibrahima Sissoko의 2~3년 후 예측 중심값은 52.9점, 80% 구간 상단은 62.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 72.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 62.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 전진 그룹 변화(0.7, +0.5); 내린 요인은 능력 변화(전 시즌 대비)(2.7, -1.2), 스타일 렌즈 점수(65.5, -1.1), 안정 그룹 점수(42.0, -0.8), 수비 그룹 점수(81.4, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(전진 운반/90)을 거쳐 72.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -29,9 +29,10 @@ import pandas as pd
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "build" / "lib"))
 from report_extras import narrative_current, narrative_potential
+from feature_labels import feature_label, FLAG_FEATURES, COMPOSITE_VALUE_FEATURES
 from config import (DATA, DOCS_DATA, FEATURES_CSV, ABILITY_CSV, ELIGIBILITY_CSV,
                     ELIGIBILITY_META, PRED_GROWTH_CSV, PRED_PEAK_CSV,
-                    KNN_GROWTH_JSON, KNN_PEAK_JSON, REPORT_EXTRAS_JSON,
+                    KNN_GROWTH_JSON, KNN_PEAK_JSON, REPORT_EXTRAS_JSON, SHAP_GROWTH_JSON, SHAP_PEAK_JSON,
                     QUALITATIVE_JSON, VETERAN_META, CACHE, TARGET_YEAR, SEASON_LABEL)
 
 
@@ -87,6 +88,10 @@ if __name__ == "__main__":
     peak_pred = pd.read_csv(PRED_PEAK_CSV).set_index("fbref_id")
     with open(KNN_PEAK_JSON, encoding="utf-8") as f:
         peak_knn = json.load(f)
+    with open(SHAP_GROWTH_JSON, encoding="utf-8") as f:
+        growth_shap = json.load(f)
+    with open(SHAP_PEAK_JSON, encoding="utf-8") as f:
+        peak_shap = json.load(f)
 
     with open(ELIGIBILITY_META, encoding="utf-8") as f:
         u23_meta = json.load(f)
@@ -138,6 +143,32 @@ if __name__ == "__main__":
             "ci50": {"lo": scale(p["lo50"]), "hi": scale(p["hi50"])},
             "sigma_model": scale(p["sigma_model"]),
             "sigma_residual": scale(p["sigma_residual"]),
+        }
+
+    def explanation_block(e):
+        """A5: SHAP 기여도를 표시 스케일로. Δ 기여는 능력점수 단위(×SCALE), 잔존 기여는 로그오즈."""
+        def item(t, scale_contrib):
+            v = t["value"]
+            if t["feature"] in FLAG_FEATURES:
+                value_text = "예" if v == 1 else "아니오"
+            elif v is None:
+                value_text = "결측"
+            else:
+                vv = v * SCALE if t["feature"] in COMPOSITE_VALUE_FEATURES else v
+                value_text = f"{vv:.1f}"
+            c = t["contrib"] * SCALE if scale_contrib else t["contrib"]
+            return {"feature": t["feature"], "label": feature_label(t["feature"]),
+                    "value_text": value_text, "contrib": round(c, 2)}
+        d, sv = e["delta"], e["survival"]
+        import math
+        return {
+            "delta": {"base": round(d["base"] * SCALE, 2), "rest": round(d["rest"] * SCALE, 2),
+                      "total": round(d["total"] * SCALE, 2), "top": [item(t, True) for t in d["top"]]},
+            "survival": {"base_logit": round(sv["base"], 3), "rest": round(sv["rest"], 3),
+                         "base_prob": round(1 / (1 + math.exp(-sv["base"])), 3),
+                         "prob": round(1 / (1 + math.exp(-sv["total"])), 3),
+                         "top": [item(t, False) for t in sv["top"]]},
+            "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값",
         }
 
     def scaled_neighbors(entries):
@@ -202,6 +233,7 @@ if __name__ == "__main__":
                 "reason": reason,
             },
             "prediction": None,
+            "explanation": None,
             "neighbors": [],
             "low_confidence": False,
             "report": report_extras.get(fid, {"strengths": [], "weaknesses": [], "top3_styles": [], "style_evidence": {"top": [], "bottom": []}, "coaching": [], "roadmap": []}),
@@ -215,11 +247,15 @@ if __name__ == "__main__":
 
         if kind == "growth":
             player["prediction"] = prediction_block(growth_pred.loc[fid])
+            if fid in growth_shap:
+                player["explanation"] = explanation_block(growth_shap[fid])
             if fid in growth_knn:
                 player["neighbors"] = scaled_neighbors(growth_knn[fid]["neighbors"])
                 player["low_confidence"] = growth_knn[fid]["low_confidence"]
         elif kind == "peak":
             player["prediction"] = prediction_block(peak_pred.loc[fid])
+            if fid in peak_shap:
+                player["explanation"] = explanation_block(peak_shap[fid])
             if fid in peak_knn:
                 player["neighbors"] = scaled_neighbors(peak_knn[fid]["neighbors"])
                 player["low_confidence"] = peak_knn[fid]["low_confidence"]
@@ -243,6 +279,7 @@ if __name__ == "__main__":
                 row["Player"], kind, player["prediction"]["mu"], ceiling,
                 player["prediction"]["survival_prob"], headroom, out_of_range,
                 model_metrics["u23" if kind == "growth" else "veteran"]["r2"],
+                explanation=player["explanation"], current=player["current"]["ability"],
             )
 
         with open(DOCS_DATA / "players" / f"{fid}.json", "w", encoding="utf-8") as f:

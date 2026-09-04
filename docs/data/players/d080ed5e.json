@@ -51,6 +51,84 @@
   "sigma_model": 1.9,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -1.22,
+   "total": -2.73,
+   "top": [
+    {
+     "feature": "d_npxG90",
+     "label": "npxG/90 변화",
+     "value_text": "0.2",
+     "contrib": 1.56
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "0.6",
+     "contrib": -0.65
+    },
+    {
+     "feature": "grp_progress",
+     "label": "전진 그룹 점수",
+     "value_text": "38.3",
+     "contrib": -0.53
+    },
+    {
+     "feature": "d_SCA90",
+     "label": "SCA/90 변화",
+     "value_text": "0.1",
+     "contrib": 0.5
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "55.4",
+     "contrib": -0.48
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.607,
+   "base_prob": 0.538,
+   "prob": 0.441,
+   "top": [
+    {
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-896.0",
+     "contrib": 0.3
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "0.6",
+     "contrib": -0.27
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "27.3",
+     "contrib": -0.22
+    },
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "83.0",
+     "contrib": 0.21
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.3",
+     "contrib": 0.19
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "c2009df3",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Mikel Merino(MF)의 현재 능력 점수는 58.7점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승리, 무페널티 득점, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 운반이다.",
-  "potential": "Mikel Merino의 2~3년 후 예측 중심값은 55.9점, 80% 구간 상단은 65.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mikel Merino의 2~3년 후 예측 중심값은 55.9점, 80% 구간 상단은 65.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 65.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 npxG/90 변화(0.2, +1.6), SCA/90 변화(0.1, +0.5); 내린 요인은 전진 운반/90(0.6, -0.7), 전진 그룹 점수(38.3, -0.5), 포지션 렌즈 점수(55.4, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(출전시간 변화(분), 생산 그룹 점수)과 하락 요인(전진 운반/90, 안정 그룹 점수)을 거쳐 44.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

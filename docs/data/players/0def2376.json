@@ -51,6 +51,84 @@
   "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": 0.52,
+   "total": 12.91,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "30.2",
+     "contrib": 5.64
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "30.4",
+     "contrib": 3.56
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "8.9",
+     "contrib": 1.84
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "30.8",
+     "contrib": 1.22
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "0.4",
+     "contrib": -0.83
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.113,
+   "base_prob": 0.719,
+   "prob": 0.652,
+   "top": [
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "30.8",
+     "contrib": -0.58
+    },
+    {
+     "feature": "d_grp_prod",
+     "label": "생산 그룹 변화",
+     "value_text": "-15.0",
+     "contrib": 0.33
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "20.0",
+     "contrib": 0.32
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "1.4",
+     "contrib": -0.27
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "30.4",
+     "contrib": -0.22
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "ec30b9c8",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Warren Bondo(MF)의 현재 능력 점수는 30.4점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 패스 성공률, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 키패스이다.",
-  "potential": "Warren Bondo의 2~3년 후 예측 중심값은 43.3점, 80% 구간 상단은 53.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 65.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Warren Bondo의 2~3년 후 예측 중심값은 43.3점, 80% 구간 상단은 53.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 65.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 53.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +12.9점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(30.2, +5.6), 현재 능력(30.4, +3.6), 찬스 그룹 점수(8.9, +1.8), 포지션 렌즈 점수(30.8, +1.2); 내린 요인은 박스 터치/90(0.4, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(생산 그룹 변화, 나이)과 하락 요인(포지션 렌즈 점수, 전진 운반/90)을 거쳐 65.2%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

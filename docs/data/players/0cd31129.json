@@ -51,6 +51,84 @@
   "sigma_model": 2.2,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -3.66,
+   "total": -3.94,
+   "top": [
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.4",
+     "contrib": -1.52
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-11.8",
+     "contrib": 1.4
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "61.1",
+     "contrib": -1.15
+    },
+    {
+     "feature": "d_grp_chance",
+     "label": "찬스 그룹 변화",
+     "value_text": "-36.3",
+     "contrib": 0.85
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "5.2",
+     "contrib": -0.82
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.475,
+   "base_prob": 0.719,
+   "prob": 0.951,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2177.0",
+     "contrib": 0.36
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-11.8",
+     "contrib": 0.34
+    },
+    {
+     "feature": "d_xAG90",
+     "label": "xAG/90 변화",
+     "value_text": "-0.2",
+     "contrib": 0.31
+    },
+    {
+     "feature": "d_grp_chance",
+     "label": "찬스 그룹 변화",
+     "value_text": "-36.3",
+     "contrib": 0.27
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "59.4",
+     "contrib": 0.26
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "4bcf39f6",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Brennan Johnson(FW)의 현재 능력 점수는 60.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 볼 손실(미스+파울), 슈팅당 기대득점, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 키패스이다.",
-  "potential": "Brennan Johnson의 2~3년 후 예측 중심값은 56.3점, 80% 구간 상단은 66.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Brennan Johnson의 2~3년 후 예측 중심값은 56.3점, 80% 구간 상단은 66.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 66.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.9점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-11.8, +1.4), 찬스 그룹 변화(-36.3, +0.8); 내린 요인은 비페널티 xG/90(0.4, -1.5), 스타일 렌즈 점수(61.1, -1.1), 박스 터치/90(5.2, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 능력 변화(전 시즌 대비))을 거쳐 95.1%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

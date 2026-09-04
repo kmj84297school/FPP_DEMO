@@ -51,6 +51,84 @@
   "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -1.28,
+   "total": 2.78,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "47.6",
+     "contrib": 2.28
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "46.4",
+     "contrib": 1.24
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "46.9",
+     "contrib": 1.16
+    },
+    {
+     "feature": "style_confidence",
+     "label": "스타일 확신도",
+     "value_text": "0.0",
+     "contrib": 0.76
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "59.1",
+     "contrib": 0.52
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.489,
+   "base_prob": 0.538,
+   "prob": 0.341,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "26.0",
+     "contrib": 0.39
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "0.5",
+     "contrib": -0.28
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "50.0",
+     "contrib": -0.15
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1710.0",
+     "contrib": -0.14
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "0.4",
+     "contrib": -0.13
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "f7c9fcd6",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Axel Tuanzebe(DF)의 현재 능력 점수는 46.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 태클 성공률, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 볼 리커버리이다.",
-  "potential": "Axel Tuanzebe의 2~3년 후 예측 중심값은 49.7점, 80% 구간 상단은 59.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Axel Tuanzebe의 2~3년 후 예측 중심값은 49.7점, 80% 구간 상단은 59.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.1%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 59.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(47.6, +2.3), 포지션 렌즈 점수(46.4, +1.2), 현재 능력(46.9, +1.2), 스타일 확신도(0.0, +0.8), 안정 그룹 점수(59.1, +0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(전진 운반/90, 팀 출전시간 비중(%))을 거쳐 34.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

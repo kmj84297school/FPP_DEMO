@@ -51,6 +51,84 @@
   "sigma_model": 2.2,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": 0.92,
+   "total": 3.97,
+   "top": [
+    {
+     "feature": "sty_돌파형 윙어",
+     "label": "스타일: 돌파형 윙어",
+     "value_text": "예",
+     "contrib": 1.12
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "20.7",
+     "contrib": 1.08
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "53.8",
+     "contrib": 1.07
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.87
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "47.4",
+     "contrib": 0.82
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.378,
+   "base_prob": 0.538,
+   "prob": 0.375,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.49
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1226.0",
+     "contrib": -0.33
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "35.8",
+     "contrib": -0.17
+    },
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "34.9",
+     "contrib": -0.14
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "20.7",
+     "contrib": -0.13
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "6c6a3300",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "John Yeboah(FW)의 현재 능력 점수는 50.6점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 슈팅 창출(SCA), 성공 드리블, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 어시스트이다.",
-  "potential": "John Yeboah의 2~3년 후 예측 중심값은 54.6점, 80% 구간 상단은 64.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 37.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "John Yeboah의 2~3년 후 예측 중심값은 54.6점, 80% 구간 상단은 64.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 37.5%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 64.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일: 돌파형 윙어(예, +1.1), 수비 그룹 점수(20.7, +1.1), 스타일 렌즈 점수(53.8, +1.1), 나이(24.0, +0.9), 포지션 렌즈 점수(47.4, +0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 37.5%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

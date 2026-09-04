@@ -51,6 +51,84 @@
   "sigma_model": 2.8,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -0.73,
+   "total": 1.2,
+   "top": [
+    {
+     "feature": "PassPct",
+     "label": "패스 성공률",
+     "value_text": "92.9",
+     "contrib": 1.38
+    },
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "12.4",
+     "contrib": -1.07
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "49.3",
+     "contrib": 0.73
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.63
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "41.1",
+     "contrib": 0.55
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": -0.276,
+   "base_prob": 0.719,
+   "prob": 0.567,
+   "top": [
+    {
+     "feature": "PassPct",
+     "label": "패스 성공률",
+     "value_text": "92.9",
+     "contrib": 0.55
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "0.1",
+     "contrib": -0.54
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "41.1",
+     "contrib": -0.4
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "0.4",
+     "contrib": -0.26
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "73.5",
+     "contrib": 0.26
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "ed5c5fa3",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "André(MF)의 현재 능력 점수는 49.3점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 볼 리커버리, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 공중볼 승률이다.",
-  "potential": "André의 2~3년 후 예측 중심값은 50.5점, 80% 구간 상단은 61.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 56.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "André의 2~3년 후 예측 중심값은 50.5점, 80% 구간 상단은 61.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 56.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 61.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.2점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 패스 성공률(92.9, +1.4), 현재 능력(49.3, +0.7), 포지션 렌즈 점수(41.1, +0.6); 내린 요인은 생산 그룹 점수(12.4, -1.1), 나이(23.0, -0.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(패스 성공률, 안정 그룹 점수)과 하락 요인(박스 터치/90, 포지션 렌즈 점수)을 거쳐 56.7%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

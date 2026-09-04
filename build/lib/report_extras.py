@@ -244,19 +244,55 @@ def narrative_current(name, pos, ability, groups, style_primary, strengths, weak
     )
 
 
-def narrative_potential(name, kind, mu, ceiling, survival_prob, headroom, out_of_range=False, r2=None):
+def narrative_potential(name, kind, mu, ceiling, survival_prob, headroom, out_of_range=False, r2=None,
+                        explanation=None, current=None):
+    """예측 서술문 — A5 이후에는 SHAP 기여도(explanation)를 근거로 쓴다.
+    기여도는 모델의 국소 설명이지 인과가 아니므로 문장도 '모델이 ~를 근거로 보았다'로 쓴다."""
     model_txt = "성장기 모델(23세 이하 학습)" if kind == "growth" else "성숙기 모델(24세 이상 학습)"
     surv_txt = "빅5 잔존확률" if kind == "growth" else "빅5 현역 유지확률"
-    trend = "추가 상승" if headroom is not None and headroom > 5 else "현 수준 유지" if headroom is not None and headroom > -3 else "다소의 하락"
+    dp = (mu - current) if current is not None else None
+    if dp is not None:
+        trend = "상승" if dp > 2 else "현 수준 유지" if dp > -2 else "하락"
+    else:
+        trend = "추가 상승" if headroom is not None and headroom > 5 else "현 수준 유지" if headroom is not None and headroom > -3 else "다소의 하락"
     base = (
         f"{name}의 2~3년 후 예측 중심값은 {mu:.1f}점, 80% 구간 상단은 {ceiling:.1f}점이다({model_txt}). "
-        f"{surv_txt}은 {survival_prob * 100:.1f}%로 추정된다. 종합하면 현재 대비 {trend} 경향으로 예측된다 "
-        f"(단, 이 모델의 R²는 {r2 if r2 is not None else '—'}로 예측에는 상당한 불확실성이 남아있다)."
+        f"{surv_txt}은 {survival_prob * 100:.1f}%로 추정된다. 중심값 기준으로는 현재 대비 {trend} 경향이며, "
+        f"상단 {ceiling:.1f}점은 상위 10% 시나리오다"
     )
+    if explanation and current is not None:
+        d = explanation["delta"]
+        delta_pred = round(mu - current, 1)
+        ups = [t for t in d["top"] if t["contrib"] > 0]
+        downs = [t for t in d["top"] if t["contrib"] < 0]
+        def fmt(ts):
+            return ", ".join(f"{t['label']}({t['value_text']}, {t['contrib']:+.1f})" for t in ts)
+        parts = []
+        if ups:
+            parts.append(f"올린 요인은 {fmt(ups)}")
+        if downs:
+            parts.append(f"내린 요인은 {fmt(downs)}")
+        base += (
+            f". 모델이 예측한 변화량은 {delta_pred:+.1f}점(같은 코호트 평균 변화 {d['base']:+.1f}점 기준)으로, "
+            + "; ".join(parts) + "이다"
+        )
+        sv = explanation["survival"]
+        sv_up = [t["label"] for t in sv["top"] if t["contrib"] > 0][:2]
+        sv_dn = [t["label"] for t in sv["top"] if t["contrib"] < 0][:2]
+        if sv_up or sv_dn:
+            base += f". {surv_txt}은 코호트 기준 {sv['base_prob'] * 100:.0f}%에서 출발해"
+            if sv_up:
+                base += f" 상승 요인({', '.join(sv_up)})"
+            if sv_up and sv_dn:
+                base += "과"
+            if sv_dn:
+                base += f" 하락 요인({', '.join(sv_dn)})"
+            base += f"을 거쳐 {survival_prob * 100:.1f}%가 되었다"
+    base += f" (이 모델의 R²는 {r2 if r2 is not None else '—'}로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
     if out_of_range:
         base += (
             " 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, "
-            "모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 "
-            "점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+            "모델이 검증된 범위 밖이다 — 이 구간에서는 검증된 오차 수치가 없으므로 "
+            "점추정보다 아래 유사 선수의 실제 결과를 함께 참고할 것."
         )
     return base

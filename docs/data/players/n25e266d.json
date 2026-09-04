@@ -51,6 +51,84 @@
   "sigma_model": 2.8,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": 0.25,
+   "total": 7.87,
+   "top": [
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "7.2",
+     "contrib": 3.5
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-10.0",
+     "contrib": 1.74
+    },
+    {
+     "feature": "d_SCA90",
+     "label": "SCA/90 변화",
+     "value_text": "-1.2",
+     "contrib": 1.4
+    },
+    {
+     "feature": "sty_돌파형 윙어",
+     "label": "스타일: 돌파형 윙어",
+     "value_text": "예",
+     "contrib": 0.99
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.98
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.904,
+   "base_prob": 0.719,
+   "prob": 0.966,
+   "top": [
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "7.2",
+     "contrib": 0.72
+    },
+    {
+     "feature": "d_xAG90",
+     "label": "xAG/90 변화",
+     "value_text": "-0.1",
+     "contrib": 0.5
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2290.0",
+     "contrib": 0.31
+    },
+    {
+     "feature": "d_grp_progress",
+     "label": "전진 그룹 변화",
+     "value_text": "-13.4",
+     "contrib": -0.21
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "1.1",
+     "contrib": 0.18
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "864163f3",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Gabriel Martinelli(FW)의 현재 능력 점수는 64.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 박스 터치, 전진 패스 수신, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 골 창출(GCA)이다.",
-  "potential": "Gabriel Martinelli의 2~3년 후 예측 중심값은 72.0점, 80% 구간 상단은 82.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Gabriel Martinelli의 2~3년 후 예측 중심값은 72.0점, 80% 구간 상단은 82.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 82.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +7.8점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 박스 터치/90(7.2, +3.5), 능력 변화(전 시즌 대비)(-10.0, +1.7), SCA/90 변화(-1.2, +1.4), 스타일: 돌파형 윙어(예, +1.0); 내린 요인은 나이(23.0, -1.0)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(박스 터치/90, xAG/90 변화)과 하락 요인(전진 그룹 변화)을 거쳐 96.6%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

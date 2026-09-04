@@ -51,6 +51,84 @@
   "sigma_model": 1.7,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": -1.7,
+   "total": 3.82,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "48.8",
+     "contrib": 2.18
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "45.9",
+     "contrib": 1.59
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "42.9",
+     "contrib": 1.51
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.2",
+     "contrib": 1.13
+    },
+    {
+     "feature": "SCA90",
+     "label": "슈팅 창출/90",
+     "value_text": "0.5",
+     "contrib": 1.03
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.372,
+   "base_prob": 0.538,
+   "prob": 0.137,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1049.0",
+     "contrib": -0.72
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "31.0",
+     "contrib": -0.57
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "0.1",
+     "contrib": -0.34
+    },
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "1.2",
+     "contrib": 0.18
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "42.9",
+     "contrib": -0.17
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "a2609621",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Michael Keane(DF)의 현재 능력 점수는 45.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 볼 손실(미스+파울), 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 패스이다.",
-  "potential": "Michael Keane의 2~3년 후 예측 중심값은 49.7점, 80% 구간 상단은 59.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 13.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Michael Keane의 2~3년 후 예측 중심값은 49.7점, 80% 구간 상단은 59.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 13.7%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 59.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(48.8, +2.2), 현재 능력(45.9, +1.6), 포지션 렌즈 점수(42.9, +1.5), 키패스/90(0.2, +1.1), 슈팅 창출/90(0.5, +1.0)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(전진 패스/90)과 하락 요인(시즌 출전시간(분), 나이)을 거쳐 13.7%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

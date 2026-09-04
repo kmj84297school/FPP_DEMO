@@ -51,6 +51,84 @@
   "sigma_model": 4.1,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": -0.24,
+   "total": 7.0,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "25.6",
+     "contrib": 5.15
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "0.4",
+     "contrib": -4.33
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "27.2",
+     "contrib": 3.29
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "87.2",
+     "contrib": 1.18
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "15.9",
+     "contrib": 0.97
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": -0.573,
+   "base_prob": 0.719,
+   "prob": 0.281,
+   "top": [
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "28.8",
+     "contrib": -0.63
+    },
+    {
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "1.0",
+     "contrib": -0.38
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "27.2",
+     "contrib": -0.32
+    },
+    {
+     "feature": "grp_progress",
+     "label": "전진 그룹 점수",
+     "value_text": "8.5",
+     "contrib": 0.22
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "22.0",
+     "contrib": -0.2
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "9453d2f4",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Roberto Férnandez(FW)의 현재 능력 점수는 27.2점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 슈팅당 기대득점, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 패스 거리이다.",
-  "potential": "Roberto Férnandez의 2~3년 후 예측 중심값은 34.2점, 80% 구간 상단은 45.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 28.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Roberto Férnandez의 2~3년 후 예측 중심값은 34.2점, 80% 구간 상단은 45.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 28.1%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 45.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +7.0점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(25.6, +5.2), 현재 능력(27.2, +3.3), 공중볼 승률(87.2, +1.2), 찬스 그룹 점수(15.9, +1.0); 내린 요인은 태클+인터셉트/90(0.4, -4.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(전진 그룹 점수)과 하락 요인(포지션 렌즈 점수, 전진 패스/90)을 거쳐 28.1%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -51,6 +51,84 @@
   "sigma_model": 3.2,
   "sigma_residual": 8.0
  },
+ "explanation": {
+  "delta": {
+   "base": 0.98,
+   "rest": 2.64,
+   "total": 11.88,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "37.6",
+     "contrib": 5.28
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "34.9",
+     "contrib": 2.51
+    },
+    {
+     "feature": "PassPct",
+     "label": "패스 성공률",
+     "value_text": "59.9",
+     "contrib": -2.41
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-11.4",
+     "contrib": 1.74
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "1.4",
+     "contrib": 1.15
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.939,
+   "rest": 0.369,
+   "base_prob": 0.719,
+   "prob": 0.586,
+   "top": [
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "32.3",
+     "contrib": -0.54
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-11.4",
+     "contrib": 0.35
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "20.2",
+     "contrib": -0.3
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "34.9",
+     "contrib": -0.25
+    },
+    {
+     "feature": "PassPct",
+     "label": "패스 성공률",
+     "value_text": "59.9",
+     "contrib": -0.23
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "66784dee",
@@ -315,6 +393,6 @@
  },
  "narrative": {
   "current": "Zito Luvumbo(FW)의 현재 능력 점수는 34.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 운반, 성공 드리블, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 슈팅 시도이다.",
-  "potential": "Zito Luvumbo의 2~3년 후 예측 중심값은 46.8점, 80% 구간 상단은 57.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 58.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Zito Luvumbo의 2~3년 후 예측 중심값은 46.8점, 80% 구간 상단은 57.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 58.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 57.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +11.9점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(37.6, +5.3), 현재 능력(34.9, +2.5), 능력 변화(전 시즌 대비)(-11.4, +1.7), 성공 드리블/90(1.4, +1.1); 내린 요인은 패스 성공률(59.9, -2.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(능력 변화(전 시즌 대비))과 하락 요인(포지션 렌즈 점수, 수비 그룹 점수)을 거쳐 58.6%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

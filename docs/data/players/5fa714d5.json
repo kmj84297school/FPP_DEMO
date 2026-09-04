@@ -51,6 +51,84 @@
   "sigma_model": 2.4,
   "sigma_residual": 7.1
  },
+ "explanation": {
+  "delta": {
+   "base": -1.91,
+   "rest": 1.67,
+   "total": 8.08,
+   "top": [
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "37.9",
+     "contrib": 4.81
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-22.3",
+     "contrib": 3.55
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "36.7",
+     "contrib": 1.88
+    },
+    {
+     "feature": "d_xAG90",
+     "label": "xAG/90 변화",
+     "value_text": "-0.1",
+     "contrib": -0.96
+    },
+    {
+     "feature": "d_grp_defense",
+     "label": "수비 그룹 변화",
+     "value_text": "-44.3",
+     "contrib": -0.96
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.154,
+   "rest": -0.224,
+   "base_prob": 0.538,
+   "prob": 0.399,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1029.0",
+     "contrib": -0.69
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "25.0",
+     "contrib": 0.6
+    },
+    {
+     "feature": "d_grp_chance",
+     "label": "찬스 그룹 변화",
+     "value_text": "-45.6",
+     "contrib": 0.35
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "36.7",
+     "contrib": -0.32
+    },
+    {
+     "feature": "grp_stability",
+     "label": "안정 그룹 점수",
+     "value_text": "8.8",
+     "contrib": -0.27
+    }
+   ]
+  },
+  "method": "XGBoost pred_contribs (TreeExplainer SHAP과 동치); 기여도 합 + 기준값 = 예측값"
+ },
  "neighbors": [
   {
    "fbref_id": "ba5a9545",
@@ -310,6 +388,6 @@
  },
  "narrative": {
   "current": "Alex Sola(MF)의 현재 능력 점수는 36.7점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 성공 드리블, 공중볼 승리, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 전진 패스 거리이다.",
-  "potential": "Alex Sola의 2~3년 후 예측 중심값은 44.7점, 80% 구간 상단은 54.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 39.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Alex Sola의 2~3년 후 예측 중심값은 44.7점, 80% 구간 상단은 54.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 39.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 54.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +8.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(37.9, +4.8), 능력 변화(전 시즌 대비)(-22.3, +3.5), 현재 능력(36.7, +1.9); 내린 요인은 xAG/90 변화(-0.1, -1.0), 수비 그룹 변화(-44.3, -1.0)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 찬스 그룹 변화)과 하락 요인(시즌 출전시간(분), 현재 능력)을 거쳐 39.9%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }
