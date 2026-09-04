@@ -6,7 +6,7 @@ sys.path.insert(0, str(ROOT / "build" / "lib"))
 import pandas as pd
 
 from knn import find_neighbors, DIST_COLS
-from config import DATA, ELIGIBILITY_CSV, FEATURES_CURRENT_CSV, KNN_GROWTH_JSON
+from config import DATA, ABILITY_CSV, ELIGIBILITY_CSV, FEATURES_CURRENT_CSV, KNN_GROWTH_JSON
 
 if __name__ == "__main__":
     feat_all = pd.read_csv(FEATURES_CURRENT_CSV, index_col=0)
@@ -15,12 +15,12 @@ if __name__ == "__main__":
 
     query = feat_all.loc[feat_all.index.intersection(eligible_ids), DIST_COLS + ["pos_primary", "age_y"]].copy()
 
-    pool = pd.read_csv(DATA / "fpp_train_matrix_v2.csv")
+    pool = pd.read_csv(DATA / "fpp_train_matrix_u23.csv")
 
     neighbors, low_conf = find_neighbors(pool, query, k=10, age_tol=1)
 
-    labeled_base = pd.read_csv(DATA / "fpp_labeled_base.csv")
-    name_lookup = labeled_base.set_index(["fbref_id", "Season_End_Year"])[["Player", "Squads"]]
+    labeled = pd.read_csv(ABILITY_CSV, low_memory=False)
+    name_lookup = labeled.set_index(["fbref_id", "Season_End_Year"])[["Player", "Squads"]]
 
     out = {}
     for fbref_id, rows in neighbors.items():

@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5651,
-  "mu": 69.0,
+  "survival_prob": 0.4828,
+  "mu": 71.7,
   "ci80": {
-   "lo": 59.6,
-   "hi": 78.5
+   "lo": 62.3,
+   "hi": 81.1
   },
   "ci50": {
-   "lo": 64.1,
-   "hi": 74.0
+   "lo": 66.8,
+   "hi": 76.7
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f61c7c4e",
    "season": 2018,
-   "distance": 3.588,
+   "distance": 3.666,
    "survived": 1,
    "fut_ability_v2": 64.8,
    "player_name": "Franck Ribéry",
    "squad": "Bayern Munich"
   },
   {
+   "fbref_id": "19cda00b",
+   "season": 2022,
+   "distance": 4.326,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ángel Di María",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "3ca7254a",
+   "season": 2022,
+   "distance": 4.418,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Pedro",
+   "squad": "Lazio"
+  },
+  {
    "fbref_id": "89b2c8a9",
    "season": 2020,
-   "distance": 4.652,
+   "distance": 4.656,
    "survived": 1,
    "fut_ability_v2": 71.0,
    "player_name": "Dries Mertens",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "f61c7c4e",
    "season": 2020,
-   "distance": 4.683,
+   "distance": 4.816,
    "survived": 1,
    "fut_ability_v2": 57.7,
    "player_name": "Franck Ribéry",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "b2d0ec1b",
    "season": 2020,
-   "distance": 5.021,
+   "distance": 4.997,
    "survived": 1,
    "fut_ability_v2": 49.4,
    "player_name": "Nolito",
    "squad": "Sevilla / Celta Vigo"
   },
   {
-   "fbref_id": "d711d04f",
-   "season": 2019,
-   "distance": 5.058,
-   "survived": 1,
-   "fut_ability_v2": 53.8,
-   "player_name": "Goran Pandev",
-   "squad": "Genoa"
-  },
-  {
    "fbref_id": "4d3ab428",
    "season": 2018,
-   "distance": 5.076,
+   "distance": 5.041,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cyril Théréau",
    "squad": "Fiorentina / Udinese"
   },
   {
+   "fbref_id": "d711d04f",
+   "season": 2019,
+   "distance": 5.05,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
+  },
+  {
    "fbref_id": "791af558",
    "season": 2018,
-   "distance": 5.162,
+   "distance": 5.178,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Raffael",
    "squad": "M'Gladbach"
   },
   {
-   "fbref_id": "09586899",
-   "season": 2018,
-   "distance": 5.291,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Arjen Robben",
-   "squad": "Bayern Munich"
-  },
-  {
-   "fbref_id": "58ae47b2",
-   "season": 2020,
-   "distance": 5.698,
+   "fbref_id": "7dcf86f6",
+   "season": 2021,
+   "distance": 5.255,
    "survived": 1,
-   "fut_ability_v2": 68.5,
-   "player_name": "Dimitri Payet",
-   "squad": "Marseille"
-  },
-  {
-   "fbref_id": "d711d04f",
-   "season": 2018,
-   "distance": 5.817,
-   "survived": 1,
-   "fut_ability_v2": 58.1,
-   "player_name": "Goran Pandev",
-   "squad": "Genoa"
+   "fut_ability_v2": 66.1,
+   "player_name": "Iago Aspas",
+   "squad": "Celta Vigo"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Rémy Cabella(FW)의 현재 능력 점수는 80.0점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 전진 패스 거리, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 유효슈팅이다.",
-  "potential": "Rémy Cabella의 2~3년 후 예측 중심값은 69.0점, 80% 구간 상단은 78.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 56.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Rémy Cabella의 2~3년 후 예측 중심값은 71.7점, 80% 구간 상단은 81.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 48.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

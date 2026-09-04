@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9435,
-  "mu": 64.2,
+  "survival_prob": 0.905,
+  "mu": 61.4,
   "ci80": {
-   "lo": 53.7,
-   "hi": 74.7
+   "lo": 51.0,
+   "hi": 71.8
   },
   "ci50": {
-   "lo": 58.6,
-   "hi": 69.8
+   "lo": 55.9,
+   "hi": 66.9
   },
-  "sigma_model": 1.7,
+  "sigma_model": 1.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "d0706b27",
+   "season": 2022,
+   "distance": 1.473,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Marc Guéhi",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "ad82197c",
    "season": 2020,
-   "distance": 1.447,
+   "distance": 1.529,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Axel Disasi",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "bee704fc",
    "season": 2020,
-   "distance": 1.501,
+   "distance": 1.537,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Nikola Milenković",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "45a03961",
    "season": 2019,
-   "distance": 1.523,
+   "distance": 1.539,
    "survived": 1,
    "fut_ability_v2": 71.1,
    "player_name": "Benjamin Pavard",
@@ -76,20 +85,11 @@
   {
    "fbref_id": "e34fc66d",
    "season": 2019,
-   "distance": 1.542,
+   "distance": 1.602,
    "survived": 1,
    "fut_ability_v2": 61.5,
    "player_name": "Joachim Andersen",
    "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "bd142efb",
-   "season": 2018,
-   "distance": 1.631,
-   "survived": 1,
-   "fut_ability_v2": 68.6,
-   "player_name": "Jonathan Tah",
-   "squad": "Leverkusen"
   },
   {
    "fbref_id": "bee704fc",
@@ -101,9 +101,18 @@
    "squad": "Fiorentina"
   },
   {
+   "fbref_id": "bd142efb",
+   "season": 2018,
+   "distance": 1.689,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Jonathan Tah",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "45a03961",
    "season": 2018,
-   "distance": 1.738,
+   "distance": 1.727,
    "survived": 1,
    "fut_ability_v2": 68.9,
    "player_name": "Benjamin Pavard",
@@ -112,29 +121,20 @@
   {
    "fbref_id": "30f5ffa9",
    "season": 2018,
-   "distance": 1.887,
+   "distance": 1.849,
    "survived": 1,
    "fut_ability_v2": 54.7,
    "player_name": "Milan Škriniar",
    "squad": "Inter"
   },
   {
-   "fbref_id": "48035304",
-   "season": 2018,
-   "distance": 2.012,
+   "fbref_id": "b3af9be1",
+   "season": 2021,
+   "distance": 1.929,
    "survived": 1,
-   "fut_ability_v2": 68.0,
-   "player_name": "Nico Elvedi",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "aad48be9",
-   "season": 2018,
-   "distance": 2.02,
-   "survived": 1,
-   "fut_ability_v2": 53.2,
-   "player_name": "Niklas Stark",
-   "squad": "Hertha BSC"
+   "fut_ability_v2": 57.9,
+   "player_name": "Takehiro Tomiyasu",
+   "squad": "Bologna"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Levi Colwill(DF)의 현재 능력 점수는 59.2점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 패스 거리, 공중볼 승률, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 실책이다.",
-  "potential": "Levi Colwill의 2~3년 후 예측 중심값은 64.2점, 80% 구간 상단은 74.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 94.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Levi Colwill의 2~3년 후 예측 중심값은 61.4점, 80% 구간 상단은 71.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 90.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

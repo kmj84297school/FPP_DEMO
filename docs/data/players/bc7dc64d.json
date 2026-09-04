@@ -32,24 +32,24 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.9809,
-  "mu": 78.3,
+  "survival_prob": 0.9577,
+  "mu": 78.5,
   "ci80": {
-   "lo": 67.4,
-   "hi": 89.3
+   "lo": 68.1,
+   "hi": 89.0
   },
   "ci50": {
-   "lo": 72.7,
-   "hi": 84.1
+   "lo": 73.0,
+   "hi": 84.0
   },
-  "sigma_model": 2.9,
+  "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "45b9b619",
    "season": 2019,
-   "distance": 2.29,
+   "distance": 2.284,
    "survived": 1,
    "fut_ability_v2": 73.6,
    "player_name": "Joaquín Correa",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "b400bde0",
    "season": 2019,
-   "distance": 3.035,
+   "distance": 3.007,
    "survived": 1,
    "fut_ability_v2": 78.2,
    "player_name": "Raheem Sterling",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "2b114be3",
    "season": 2019,
-   "distance": 3.08,
+   "distance": 3.03,
    "survived": 1,
    "fut_ability_v2": 73.3,
    "player_name": "Leroy Sané",
@@ -76,65 +76,65 @@
   {
    "fbref_id": "2b114be3",
    "season": 2018,
-   "distance": 3.321,
+   "distance": 3.249,
    "survived": 1,
    "fut_ability_v2": 67.3,
    "player_name": "Leroy Sané",
    "squad": "Manchester City"
   },
   {
-   "fbref_id": "b19db005",
-   "season": 2019,
-   "distance": 3.468,
-   "survived": 1,
-   "fut_ability_v2": 76.7,
-   "player_name": "Ousmane Dembélé",
-   "squad": "Barcelona"
-  },
-  {
    "fbref_id": "4737cebe",
    "season": 2018,
-   "distance": 3.565,
+   "distance": 3.568,
    "survived": 1,
    "fut_ability_v2": 68.4,
    "player_name": "Adnan Januzaj",
    "squad": "Real Sociedad"
   },
   {
+   "fbref_id": "b19db005",
+   "season": 2019,
+   "distance": 3.7,
+   "survived": 1,
+   "fut_ability_v2": 76.7,
+   "player_name": "Ousmane Dembélé",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "3a233281",
+   "season": 2021,
+   "distance": 3.711,
+   "survived": 1,
+   "fut_ability_v2": 71.0,
+   "player_name": "Leon Bailey",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "b400bde0",
    "season": 2018,
-   "distance": 3.849,
+   "distance": 3.766,
    "survived": 1,
    "fut_ability_v2": 79.0,
    "player_name": "Raheem Sterling",
    "squad": "Manchester City"
   },
   {
+   "fbref_id": "7c56da38",
+   "season": 2022,
+   "distance": 3.798,
+   "survived": 1,
+   "fut_ability_v2": 74.2,
+   "player_name": "Christopher Nkunku",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "8b788c01",
    "season": 2019,
-   "distance": 3.862,
+   "distance": 3.834,
    "survived": 1,
    "fut_ability_v2": 66.9,
    "player_name": "Anthony Martial",
    "squad": "Manchester Utd"
-  },
-  {
-   "fbref_id": "cd0fa27b",
-   "season": 2018,
-   "distance": 3.986,
-   "survived": 1,
-   "fut_ability_v2": 75.6,
-   "player_name": "Hakan Çalhanoğlu",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "88e357ef",
-   "season": 2018,
-   "distance": 4.175,
-   "survived": 1,
-   "fut_ability_v2": 76.4,
-   "player_name": "Serge Gnabry",
-   "squad": "Hoffenheim"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Bukayo Saka(FW)의 현재 능력 점수는 83.4점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 골 창출(GCA), 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 슈팅당 기대득점이다.",
-  "potential": "Bukayo Saka의 2~3년 후 예측 중심값은 78.3점, 80% 구간 상단은 89.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Bukayo Saka의 2~3년 후 예측 중심값은 78.5점, 80% 구간 상단은 89.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

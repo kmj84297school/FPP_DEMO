@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.732,
-  "mu": 56.1,
+  "survival_prob": 0.6607,
+  "mu": 57.1,
   "ci80": {
-   "lo": 46.8,
-   "hi": 65.3
+   "lo": 47.8,
+   "hi": 66.5
   },
   "ci50": {
-   "lo": 51.2,
-   "hi": 60.9
+   "lo": 52.2,
+   "hi": 62.0
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "81069528",
    "season": 2018,
-   "distance": 1.599,
+   "distance": 1.443,
    "survived": 1,
    "fut_ability_v2": 46.7,
    "player_name": "Roberto Rosales",
    "squad": "Málaga"
   },
   {
+   "fbref_id": "fdf3cb77",
+   "season": 2021,
+   "distance": 1.557,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Vladimír Coufal",
+   "squad": "West Ham"
+  },
+  {
    "fbref_id": "ba5004e1",
    "season": 2019,
-   "distance": 1.763,
+   "distance": 1.714,
    "survived": 1,
    "fut_ability_v2": 52.2,
    "player_name": "Damián Suárez",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "ba5004e1",
    "season": 2018,
-   "distance": 1.949,
+   "distance": 1.904,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Damián Suárez",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "e29d1111",
    "season": 2019,
-   "distance": 2.085,
+   "distance": 2.02,
    "survived": 1,
    "fut_ability_v2": 51.6,
    "player_name": "Nacho",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "3024e383",
    "season": 2018,
-   "distance": 2.138,
+   "distance": 2.096,
    "survived": 1,
    "fut_ability_v2": 58.3,
    "player_name": "José Ángel",
@@ -94,47 +103,38 @@
   {
    "fbref_id": "d9ba39fc",
    "season": 2020,
-   "distance": 2.162,
+   "distance": 2.121,
    "survived": 1,
    "fut_ability_v2": 61.1,
    "player_name": "Diego Rico",
    "squad": "Bournemouth"
   },
   {
-   "fbref_id": "a7813ac4",
-   "season": 2018,
-   "distance": 2.191,
+   "fbref_id": "fdf3cb77",
+   "season": 2022,
+   "distance": 2.151,
    "survived": 1,
-   "fut_ability_v2": 55.8,
-   "player_name": "Daniel Brosinski",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "cb574619",
-   "season": 2019,
-   "distance": 2.197,
-   "survived": 1,
-   "fut_ability_v2": 62.4,
-   "player_name": "Hugo Mallo",
-   "squad": "Celta Vigo"
+   "fut_ability_v2": 51.7,
+   "player_name": "Vladimír Coufal",
+   "squad": "West Ham"
   },
   {
    "fbref_id": "3024e383",
    "season": 2020,
-   "distance": 2.201,
+   "distance": 2.199,
    "survived": 1,
    "fut_ability_v2": 63.5,
    "player_name": "José Ángel",
    "squad": "Eibar"
   },
   {
-   "fbref_id": "ec400194",
+   "fbref_id": "cb574619",
    "season": 2019,
-   "distance": 2.25,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Oussama Haddadi",
-   "squad": "Dijon"
+   "distance": 2.207,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Maximilian Wittek(DF)의 현재 능력 점수는 58.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 시도, 슈팅 창출(SCA), 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 전진 운반 거리이다.",
-  "potential": "Maximilian Wittek의 2~3년 후 예측 중심값은 56.1점, 80% 구간 상단은 65.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 73.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Maximilian Wittek의 2~3년 후 예측 중심값은 57.1점, 80% 구간 상단은 66.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 66.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

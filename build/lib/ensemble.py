@@ -2,8 +2,11 @@
 
 원본은 GroupKFold 검증(폭 밖 커버리지 실측)이 목적이었지만, 서빙용 빌드에서는
 검증이 아니라 '신뢰구간 폭 추정'이 목적이므로 전체 생존 코호트로 B개 모델을
-한 번 학습해 앙상블을 만든다. sigma_residual(7.49)은 원본 검증에서 이미
-산출된 models/bootstrap_resid_sigma.npy를 그대로 재사용한다.
+한 번 학습해 앙상블을 만든다. sigma_residual은 07_train_models.py가 폴드 밖에서
+산출해 models/resid_sigma_<코호트>.npy에 저장한 값을 재사용한다.
+
+현재 회귀 타깃은 Δ(변화량)이므로 이 앙상블도 Δ를 학습한다 — 상수를 더하는 것은
+분산을 바꾸지 않으므로 sigma_model은 레벨 스케일에서도 그대로 유효하다.
 """
 import numpy as np
 from xgboost import XGBRegressor

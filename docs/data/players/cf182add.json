@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.386,
-  "mu": 61.1,
+  "survival_prob": 0.1171,
+  "mu": 60.8,
   "ci80": {
-   "lo": 51.6,
-   "hi": 70.6
+   "lo": 51.2,
+   "hi": 70.2
   },
   "ci50": {
-   "lo": 56.1,
-   "hi": 66.0
+   "lo": 55.7,
+   "hi": 65.7
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "fe2db476",
    "season": 2019,
-   "distance": 2.77,
+   "distance": 2.854,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Łukasz Piszczek",
@@ -58,16 +58,34 @@
   {
    "fbref_id": "fc4f85b1",
    "season": 2020,
-   "distance": 2.849,
+   "distance": 2.955,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Diego Godín",
    "squad": "Inter"
   },
   {
+   "fbref_id": "9f323c71",
+   "season": 2022,
+   "distance": 3.132,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "35dd6d80",
+   "season": 2022,
+   "distance": 3.142,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Domenico Criscito",
+   "squad": "Genoa"
+  },
+  {
    "fbref_id": "46d50339",
    "season": 2018,
-   "distance": 3.181,
+   "distance": 3.291,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Christophe Jallet",
@@ -76,7 +94,7 @@
   {
    "fbref_id": "6d8f8441",
    "season": 2020,
-   "distance": 3.203,
+   "distance": 3.304,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Coke",
@@ -85,16 +103,25 @@
   {
    "fbref_id": "d4cb83cc",
    "season": 2019,
-   "distance": 3.257,
+   "distance": 3.322,
    "survived": 1,
    "fut_ability_v2": 47.2,
    "player_name": "Nacho Monreal",
    "squad": "Arsenal"
   },
   {
+   "fbref_id": "05d548d8",
+   "season": 2022,
+   "distance": 3.485,
+   "survived": 1,
+   "fut_ability_v2": 71.3,
+   "player_name": "Mats Hummels",
+   "squad": "Dortmund"
+  },
+  {
    "fbref_id": "fe2db476",
    "season": 2018,
-   "distance": 3.368,
+   "distance": 3.497,
    "survived": 1,
    "fut_ability_v2": 64.4,
    "player_name": "Łukasz Piszczek",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "ffad706e",
    "season": 2019,
-   "distance": 3.47,
+   "distance": 3.503,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Javi López",
    "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "1e0b6a73",
-   "season": 2019,
-   "distance": 3.481,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simon Francis",
-   "squad": "Bournemouth"
-  },
-  {
-   "fbref_id": "35dd6d80",
-   "season": 2020,
-   "distance": 3.516,
-   "survived": 1,
-   "fut_ability_v2": 62.6,
-   "player_name": "Domenico Criscito",
-   "squad": "Genoa"
-  },
-  {
-   "fbref_id": "e4ed2628",
-   "season": 2019,
-   "distance": 3.571,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Filipe Luís",
-   "squad": "Atlético Madrid"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Ismaily(DF)의 현재 능력 점수는 71.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 태클+인터셉트, 유효슈팅, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 공중볼 승률이다.",
-  "potential": "Ismaily의 2~3년 후 예측 중심값은 61.1점, 80% 구간 상단은 70.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 38.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ismaily의 2~3년 후 예측 중심값은 60.8점, 80% 구간 상단은 70.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 11.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

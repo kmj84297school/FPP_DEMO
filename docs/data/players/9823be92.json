@@ -32,33 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9607,
-  "mu": 51.6,
+  "survival_prob": 0.9773,
+  "mu": 45.1,
   "ci80": {
-   "lo": 40.9,
-   "hi": 62.2
+   "lo": 34.4,
+   "hi": 55.7
   },
   "ci50": {
-   "lo": 46.0,
-   "hi": 57.2
+   "lo": 39.4,
+   "hi": 50.7
   },
-  "sigma_model": 2.1,
+  "sigma_model": 2.4,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "e472a6f6",
+   "season": 2022,
+   "distance": 1.78,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Batista Mendy",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "68a26d51",
+   "season": 2021,
+   "distance": 1.846,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Pedro Chirivella",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "0b2c8585",
+   "season": 2021,
+   "distance": 1.891,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl Guti",
+   "squad": "Elche"
+  },
+  {
+   "fbref_id": "6f7d826d",
+   "season": 2021,
+   "distance": 1.901,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Douglas Luiz",
+   "squad": "Aston Villa"
+  },
+  {
    "fbref_id": "e1cbb531",
    "season": 2018,
-   "distance": 1.898,
+   "distance": 1.906,
    "survived": 1,
    "fut_ability_v2": 42.4,
    "player_name": "Stanislav Lobotka",
    "squad": "Celta Vigo"
   },
   {
+   "fbref_id": "9939e168",
+   "season": 2021,
+   "distance": 1.92,
+   "survived": 1,
+   "fut_ability_v2": 49.3,
+   "player_name": "Jon Moncayola",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "82464ce3",
+   "season": 2022,
+   "distance": 1.992,
+   "survived": 1,
+   "fut_ability_v2": 38.6,
+   "player_name": "Salis Abdul Samed",
+   "squad": "Clermont Foot"
+  },
+  {
    "fbref_id": "f3600c02",
    "season": 2019,
-   "distance": 2.008,
+   "distance": 2.014,
    "survived": 1,
    "fut_ability_v2": 56.6,
    "player_name": "Xeka",
@@ -67,7 +121,7 @@
   {
    "fbref_id": "283c7121",
    "season": 2020,
-   "distance": 2.124,
+   "distance": 2.065,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Edu Expósito",
@@ -76,65 +130,11 @@
   {
    "fbref_id": "5e22e2a4",
    "season": 2018,
-   "distance": 2.169,
+   "distance": 2.082,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Baptiste Santamaria",
    "squad": "Angers"
-  },
-  {
-   "fbref_id": "bfd381b3",
-   "season": 2020,
-   "distance": 2.206,
-   "survived": 1,
-   "fut_ability_v2": 53.2,
-   "player_name": "Iddrisu Baba",
-   "squad": "Mallorca"
-  },
-  {
-   "fbref_id": "44bfb6c5",
-   "season": 2020,
-   "distance": 2.259,
-   "survived": 1,
-   "fut_ability_v2": 52.5,
-   "player_name": "Rúben Neves",
-   "squad": "Wolves"
-  },
-  {
-   "fbref_id": "e26fcca3",
-   "season": 2019,
-   "distance": 2.31,
-   "survived": 1,
-   "fut_ability_v2": 49.4,
-   "player_name": "Santiago Ascacíbar",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "070a3904",
-   "season": 2018,
-   "distance": 2.314,
-   "survived": 1,
-   "fut_ability_v2": 42.6,
-   "player_name": "Sergi Darder",
-   "squad": "Espanyol / Lyon"
-  },
-  {
-   "fbref_id": "6f7d826d",
-   "season": 2020,
-   "distance": 2.32,
-   "survived": 1,
-   "fut_ability_v2": 51.4,
-   "player_name": "Douglas Luiz",
-   "squad": "Aston Villa"
-  },
-  {
-   "fbref_id": "a2e7de6f",
-   "season": 2018,
-   "distance": 2.425,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gideon Jung",
-   "squad": "Hamburger SV"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Samuele Ricci(MF)의 현재 능력 점수는 38.6점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 태클 성공률, 패스 성공률, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 성공 드리블이다.",
-  "potential": "Samuele Ricci의 2~3년 후 예측 중심값은 51.6점, 80% 구간 상단은 62.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Samuele Ricci의 2~3년 후 예측 중심값은 45.1점, 80% 구간 상단은 55.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

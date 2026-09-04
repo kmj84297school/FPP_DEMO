@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.692,
-  "mu": 50.7,
+  "survival_prob": 0.8236,
+  "mu": 55.2,
   "ci80": {
-   "lo": 40.9,
-   "hi": 60.6
+   "lo": 45.6,
+   "hi": 64.8
   },
   "ci50": {
-   "lo": 45.6,
-   "hi": 55.8
+   "lo": 50.2,
+   "hi": 60.3
   },
-  "sigma_model": 3.1,
-  "sigma_residual": 7.0
+  "sigma_model": 2.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "75a63397",
    "season": 2020,
-   "distance": 2.181,
+   "distance": 2.289,
    "survived": 1,
    "fut_ability_v2": 44.8,
    "player_name": "Opa Nguette",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "d1491e00",
    "season": 2018,
-   "distance": 2.581,
+   "distance": 2.547,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Diego Rolán",
@@ -67,16 +67,52 @@
   {
    "fbref_id": "da052c14",
    "season": 2018,
-   "distance": 2.73,
+   "distance": 2.576,
    "survived": 1,
    "fut_ability_v2": 37.9,
    "player_name": "Jordan Ayew",
    "squad": "Swansea City"
   },
   {
+   "fbref_id": "169fd162",
+   "season": 2022,
+   "distance": 3.127,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Hwang Hee-chan",
+   "squad": "Wolves / RB Leipzig"
+  },
+  {
+   "fbref_id": "d49f3e6b",
+   "season": 2021,
+   "distance": 3.548,
+   "survived": 1,
+   "fut_ability_v2": 40.9,
+   "player_name": "Lucas Boyé",
+   "squad": "Elche"
+  },
+  {
+   "fbref_id": "2c38b327",
+   "season": 2021,
+   "distance": 3.624,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Pjaca",
+   "squad": "Genoa"
+  },
+  {
    "fbref_id": "a08b974a",
    "season": 2020,
-   "distance": 3.741,
+   "distance": 3.744,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Lucas Ocampos",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "a08b974a",
+   "season": 2021,
+   "distance": 3.759,
    "survived": 1,
    "fut_ability_v2": 53.8,
    "player_name": "Lucas Ocampos",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "f13d02a6",
    "season": 2019,
-   "distance": 3.794,
+   "distance": 3.767,
    "survived": 1,
    "fut_ability_v2": 41.2,
    "player_name": "Hélder Costa",
    "squad": "Wolves"
   },
   {
-   "fbref_id": "b2bc3b1f",
-   "season": 2020,
-   "distance": 3.854,
+   "fbref_id": "833fb62e",
+   "season": 2021,
+   "distance": 3.8,
    "survived": 1,
-   "fut_ability_v2": 61.1,
-   "player_name": "Wilfried Zaha",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "3ae14ed1",
-   "season": 2020,
-   "distance": 3.873,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Trézéguet",
-   "squad": "Aston Villa"
-  },
-  {
-   "fbref_id": "eccbe56a",
-   "season": 2019,
-   "distance": 3.921,
-   "survived": 1,
-   "fut_ability_v2": 71.2,
-   "player_name": "Filip Đuričić",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "7280b54f",
-   "season": 2018,
-   "distance": 3.982,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ryder Matos",
-   "squad": "Hellas Verona / Udinese"
-  },
-  {
-   "fbref_id": "b28bbd58",
-   "season": 2018,
-   "distance": 4.0,
-   "survived": 1,
-   "fut_ability_v2": 47.1,
-   "player_name": "Andros Townsend",
-   "squad": "Crystal Palace"
+   "fut_ability_v2": 52.4,
+   "player_name": "Sandro Ramírez",
+   "squad": "Huesca"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Iliman Ndiaye(FW)의 현재 능력 점수는 45.4점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 태클+인터셉트, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 박스 터치이다.",
-  "potential": "Iliman Ndiaye의 2~3년 후 예측 중심값은 50.7점, 80% 구간 상단은 60.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Iliman Ndiaye의 2~3년 후 예측 중심값은 55.2점, 80% 구간 상단은 64.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 82.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

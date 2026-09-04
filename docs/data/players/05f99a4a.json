@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5754,
-  "mu": 53.2,
+  "survival_prob": 0.6999,
+  "mu": 55.3,
   "ci80": {
-   "lo": 43.6,
-   "hi": 62.8
+   "lo": 45.6,
+   "hi": 65.1
   },
   "ci50": {
-   "lo": 48.1,
-   "hi": 58.3
+   "lo": 50.2,
+   "hi": 60.5
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 2.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "5d4f7d61",
+   "season": 2021,
+   "distance": 1.872,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Patrik Schick",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "129af0db",
    "season": 2020,
-   "distance": 2.028,
+   "distance": 2.027,
    "survived": 1,
    "fut_ability_v2": 65.6,
    "player_name": "Álvaro Morata",
    "squad": "Atlético Madrid"
   },
   {
+   "fbref_id": "6605d143",
+   "season": 2022,
+   "distance": 2.052,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Habib Diallo",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "c693347d",
    "season": 2020,
-   "distance": 2.061,
+   "distance": 2.053,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andreas Cornelius",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "5eae500a",
    "season": 2019,
-   "distance": 2.122,
+   "distance": 2.152,
    "survived": 1,
    "fut_ability_v2": 66.6,
    "player_name": "Romelu Lukaku",
@@ -76,7 +94,7 @@
   {
    "fbref_id": "5eae500a",
    "season": 2018,
-   "distance": 2.159,
+   "distance": 2.199,
    "survived": 1,
    "fut_ability_v2": 73.5,
    "player_name": "Romelu Lukaku",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "c4e87b8b",
    "season": 2020,
-   "distance": 2.308,
+   "distance": 2.361,
    "survived": 1,
    "fut_ability_v2": 46.7,
    "player_name": "Wout Weghorst",
    "squad": "Wolfsburg"
   },
   {
+   "fbref_id": "5d4f7d61",
+   "season": 2022,
+   "distance": 2.374,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Patrik Schick",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "3effaa34",
+   "season": 2022,
+   "distance": 2.375,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Silva",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "9592289a",
    "season": 2018,
-   "distance": 2.419,
+   "distance": 2.397,
    "survived": 1,
    "fut_ability_v2": 44.3,
    "player_name": "Simone Zaza",
    "squad": "Valencia"
-  },
-  {
-   "fbref_id": "834d0be5",
-   "season": 2018,
-   "distance": 2.511,
-   "survived": 1,
-   "fut_ability_v2": 56.4,
-   "player_name": "Lucas Alario",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "75645f0e",
-   "season": 2019,
-   "distance": 2.569,
-   "survived": 1,
-   "fut_ability_v2": 38.8,
-   "player_name": "Borja Iglesias",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "6a99e0b1",
-   "season": 2019,
-   "distance": 2.622,
-   "survived": 1,
-   "fut_ability_v2": 54.8,
-   "player_name": "Iñaki Williams",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "43b78598",
-   "season": 2019,
-   "distance": 2.666,
-   "survived": 1,
-   "fut_ability_v2": 56.6,
-   "player_name": "Mauro Icardi",
-   "squad": "Inter"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Jonathan Burkardt(FW)의 현재 능력 점수는 61.3점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 비페널티 xG, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 패스 거리이다.",
-  "potential": "Jonathan Burkardt의 2~3년 후 예측 중심값은 53.2점, 80% 구간 상단은 62.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 57.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jonathan Burkardt의 2~3년 후 예측 중심값은 55.3점, 80% 구간 상단은 65.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

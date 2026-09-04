@@ -32,33 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5705,
-  "mu": 55.6,
+  "survival_prob": 0.5348,
+  "mu": 52.7,
   "ci80": {
-   "lo": 46.4,
-   "hi": 64.8
+   "lo": 43.5,
+   "hi": 62.0
   },
   "ci50": {
-   "lo": 50.8,
-   "hi": 60.5
+   "lo": 47.8,
+   "hi": 57.6
   },
-  "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "4e0afc5d",
    "season": 2020,
-   "distance": 1.225,
+   "distance": 1.255,
    "survived": 1,
    "fut_ability_v2": 47.4,
    "player_name": "Arnaud Souquet",
    "squad": "Montpellier"
   },
   {
+   "fbref_id": "197640fd",
+   "season": 2021,
+   "distance": 1.266,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Timothy Castagne",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "70c52749",
+   "season": 2021,
+   "distance": 1.358,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Birger Meling",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "20b104bc",
+   "season": 2019,
+   "distance": 1.414,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Smith",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "c26a3918",
+   "season": 2018,
+   "distance": 1.466,
+   "survived": 1,
+   "fut_ability_v2": 50.1,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "ea0aa7e0",
+   "season": 2021,
+   "distance": 1.472,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mihailo Ristić",
+   "squad": "Montpellier"
+  },
+  {
    "fbref_id": "839c14e1",
    "season": 2018,
-   "distance": 1.437,
+   "distance": 1.476,
    "survived": 1,
    "fut_ability_v2": 54.7,
    "player_name": "Cédric Soares",
@@ -67,74 +112,29 @@
   {
    "fbref_id": "b92edde2",
    "season": 2019,
-   "distance": 1.453,
+   "distance": 1.5,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Maxime Poundjé",
    "squad": "Bordeaux"
   },
   {
-   "fbref_id": "c26a3918",
+   "fbref_id": "ff16ecad",
    "season": 2018,
-   "distance": 1.477,
-   "survived": 1,
-   "fut_ability_v2": 50.1,
-   "player_name": "Vincent Manceau",
-   "squad": "Angers"
-  },
-  {
-   "fbref_id": "20b104bc",
-   "season": 2019,
-   "distance": 1.508,
+   "distance": 1.55,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Adam Smith",
-   "squad": "Bournemouth"
-  },
-  {
-   "fbref_id": "ec400194",
-   "season": 2018,
-   "distance": 1.533,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Oussama Haddadi",
-   "squad": "Dijon"
-  },
-  {
-   "fbref_id": "4914ed4a",
-   "season": 2018,
-   "distance": 1.538,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gabriel Silva",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "ec400194",
-   "season": 2019,
-   "distance": 1.573,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Oussama Haddadi",
-   "squad": "Dijon"
+   "player_name": "Mathieu Deplagne",
+   "squad": "Troyes"
   },
   {
    "fbref_id": "872cd68c",
    "season": 2018,
-   "distance": 1.584,
+   "distance": 1.554,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Yoann Andreu",
    "squad": "Angers"
-  },
-  {
-   "fbref_id": "3a9c4b7b",
-   "season": 2020,
-   "distance": 1.606,
-   "survived": 1,
-   "fut_ability_v2": 55.8,
-   "player_name": "Nacho Vidal",
-   "squad": "Osasuna"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Pep Chavarría(DF)의 현재 능력 점수는 55.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 수신, 슈팅 창출(SCA), 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 볼 손실(미스+파울)이다.",
-  "potential": "Pep Chavarría의 2~3년 후 예측 중심값은 55.6점, 80% 구간 상단은 64.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 57.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pep Chavarría의 2~3년 후 예측 중심값은 52.7점, 80% 구간 상단은 62.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

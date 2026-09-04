@@ -32,51 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8629,
-  "mu": 65.8,
+  "survival_prob": 0.6988,
+  "mu": 68.9,
   "ci80": {
-   "lo": 56.1,
-   "hi": 75.5
+   "lo": 59.6,
+   "hi": 78.2
   },
   "ci50": {
-   "lo": 60.7,
-   "hi": 70.8
+   "lo": 64.0,
+   "hi": 73.8
   },
-  "sigma_model": 2.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "68829001",
-   "season": 2018,
-   "distance": 2.212,
-   "survived": 1,
-   "fut_ability_v2": 61.7,
-   "player_name": "Gonzalo Castro",
-   "squad": "Dortmund"
-  },
-  {
    "fbref_id": "2f90f6b8",
    "season": 2019,
-   "distance": 2.226,
+   "distance": 2.216,
    "survived": 1,
    "fut_ability_v2": 68.2,
    "player_name": "James Milner",
    "squad": "Liverpool"
   },
   {
+   "fbref_id": "68829001",
+   "season": 2018,
+   "distance": 2.246,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Gonzalo Castro",
+   "squad": "Dortmund"
+  },
+  {
    "fbref_id": "6ce1f46f",
    "season": 2019,
-   "distance": 2.23,
+   "distance": 2.251,
    "survived": 1,
    "fut_ability_v2": 71.2,
    "player_name": "Toni Kroos",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "7460ca0d",
+   "season": 2022,
+   "distance": 2.572,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Daniel Parejo",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "6ce1f46f",
+   "season": 2021,
+   "distance": 2.618,
+   "survived": 1,
+   "fut_ability_v2": 70.8,
+   "player_name": "Toni Kroos",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "6ce1f46f",
+   "season": 2022,
+   "distance": 2.662,
+   "survived": 1,
+   "fut_ability_v2": 70.8,
+   "player_name": "Toni Kroos",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "ad6df2d5",
    "season": 2019,
-   "distance": 2.674,
+   "distance": 2.715,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Miralem Pjanić",
@@ -85,7 +112,7 @@
   {
    "fbref_id": "ad6df2d5",
    "season": 2020,
-   "distance": 2.79,
+   "distance": 2.764,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Miralem Pjanić",
@@ -94,7 +121,7 @@
   {
    "fbref_id": "7460ca0d",
    "season": 2019,
-   "distance": 2.814,
+   "distance": 2.906,
    "survived": 1,
    "fut_ability_v2": 65.9,
    "player_name": "Daniel Parejo",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "f5a00fa4",
    "season": 2018,
-   "distance": 2.945,
+   "distance": 2.953,
    "survived": 1,
    "fut_ability_v2": 57.3,
    "player_name": "João Moutinho",
    "squad": "Monaco"
-  },
-  {
-   "fbref_id": "6ce1f46f",
-   "season": 2020,
-   "distance": 2.945,
-   "survived": 1,
-   "fut_ability_v2": 68.4,
-   "player_name": "Toni Kroos",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "6025fab1",
-   "season": 2018,
-   "distance": 3.051,
-   "survived": 1,
-   "fut_ability_v2": 71.3,
-   "player_name": "Luka Modrić",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "f7691f63",
-   "season": 2020,
-   "distance": 3.118,
-   "survived": 1,
-   "fut_ability_v2": 62.0,
-   "player_name": "Dimitri Liénard",
-   "squad": "Strasbourg"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Hakan Çalhanoğlu(MF)의 현재 능력 점수는 78.2점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 거리, 전진 운반 거리, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 성공 드리블이다.",
-  "potential": "Hakan Çalhanoğlu의 2~3년 후 예측 중심값은 65.8점, 80% 구간 상단은 75.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 86.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Hakan Çalhanoğlu의 2~3년 후 예측 중심값은 68.9점, 80% 구간 상단은 78.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

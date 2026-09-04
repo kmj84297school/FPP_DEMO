@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2172,
-  "mu": 50.6,
+  "survival_prob": 0.2258,
+  "mu": 51.4,
   "ci80": {
-   "lo": 41.2,
-   "hi": 60.0
+   "lo": 41.9,
+   "hi": 60.9
   },
   "ci50": {
-   "lo": 45.7,
-   "hi": 55.5
+   "lo": 46.4,
+   "hi": 56.4
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "fd771f95",
+   "season": 2021,
+   "distance": 2.348,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Braithwaite",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "fd771f95",
    "season": 2018,
-   "distance": 2.326,
+   "distance": 2.35,
    "survived": 1,
    "fut_ability_v2": 45.3,
    "player_name": "Martin Braithwaite",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "00459419",
    "season": 2019,
-   "distance": 2.426,
+   "distance": 2.504,
    "survived": 1,
    "fut_ability_v2": 60.2,
    "player_name": "Marko Arnautović",
@@ -67,16 +76,34 @@
   {
    "fbref_id": "1fb1c435",
    "season": 2020,
-   "distance": 2.501,
+   "distance": 2.542,
    "survived": 1,
    "fut_ability_v2": 54.1,
    "player_name": "Rodrigo",
    "squad": "Valencia"
   },
   {
+   "fbref_id": "85613cf0",
+   "season": 2022,
+   "distance": 2.605,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "Arkadiusz Milik",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "5eae500a",
+   "season": 2022,
+   "distance": 2.651,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Romelu Lukaku",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "157d29b6",
    "season": 2019,
-   "distance": 2.693,
+   "distance": 2.774,
    "survived": 1,
    "fut_ability_v2": 61.7,
    "player_name": "Diego Farias",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "834d0be5",
    "season": 2019,
-   "distance": 2.782,
+   "distance": 2.824,
    "survived": 1,
    "fut_ability_v2": 53.9,
    "player_name": "Lucas Alario",
    "squad": "Leverkusen"
   },
   {
+   "fbref_id": "ce5143da",
+   "season": 2021,
+   "distance": 2.848,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Danny Welbeck",
+   "squad": "Brighton"
+  },
+  {
    "fbref_id": "422ec08a",
    "season": 2019,
-   "distance": 2.859,
+   "distance": 2.878,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Khouma Babacar",
    "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "8ff07990",
-   "season": 2018,
-   "distance": 2.918,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Mario Balotelli",
-   "squad": "Nice"
-  },
-  {
-   "fbref_id": "a190d597",
-   "season": 2018,
-   "distance": 2.919,
-   "survived": 1,
-   "fut_ability_v2": 51.9,
-   "player_name": "Diego Costa",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "d14229f3",
-   "season": 2020,
-   "distance": 2.939,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Adrien Hunou",
-   "squad": "Rennes"
-  },
-  {
-   "fbref_id": "85613cf0",
-   "season": 2020,
-   "distance": 2.95,
-   "survived": 1,
-   "fut_ability_v2": 62.7,
-   "player_name": "Arkadiusz Milik",
-   "squad": "Napoli"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Neal Maupay(FW)의 현재 능력 점수는 57.7점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 패스 성공률, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 성공 드리블이다.",
-  "potential": "Neal Maupay의 2~3년 후 예측 중심값은 50.6점, 80% 구간 상단은 60.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 21.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Neal Maupay의 2~3년 후 예측 중심값은 51.4점, 80% 구간 상단은 60.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

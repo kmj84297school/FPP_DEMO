@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.113,
-  "mu": 58.3,
+  "survival_prob": 0.1103,
+  "mu": 58.0,
   "ci80": {
-   "lo": 49.0,
-   "hi": 67.6
+   "lo": 48.7,
+   "hi": 67.3
   },
   "ci50": {
-   "lo": 53.4,
-   "hi": 63.2
+   "lo": 53.1,
+   "hi": 62.8
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "516dc25b",
    "season": 2018,
-   "distance": 2.072,
+   "distance": 2.086,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jaroslav Plašil",
    "squad": "Bordeaux"
   },
   {
+   "fbref_id": "56413b1f",
+   "season": 2021,
+   "distance": 2.125,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "cf15bbb1",
    "season": 2018,
-   "distance": 2.178,
+   "distance": 2.234,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Steven Davis",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "1b17ed86",
    "season": 2019,
-   "distance": 2.444,
+   "distance": 2.443,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Esteban Granero",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "5710a281",
    "season": 2018,
-   "distance": 2.486,
+   "distance": 2.505,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lucas Biglia",
    "squad": "Milan"
   },
   {
+   "fbref_id": "56413b1f",
+   "season": 2022,
+   "distance": 2.545,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "ff527768",
    "season": 2019,
-   "distance": 2.631,
+   "distance": 2.638,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mark Noble",
    "squad": "West Ham"
   },
   {
-   "fbref_id": "0e21fc3c",
-   "season": 2018,
-   "distance": 2.654,
-   "survived": 1,
-   "fut_ability_v2": 62.2,
-   "player_name": "Borja Valero",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "ef322658",
-   "season": 2020,
-   "distance": 2.719,
-   "survived": 1,
-   "fut_ability_v2": 58.7,
-   "player_name": "Andrés Guardado",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "ecab64a0",
-   "season": 2019,
-   "distance": 2.723,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Per Ciljan Skjelbred",
-   "squad": "Hertha BSC"
-  },
-  {
    "fbref_id": "65d750b5",
    "season": 2018,
-   "distance": 2.728,
+   "distance": 2.685,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gabi",
    "squad": "Atlético Madrid"
   },
   {
-   "fbref_id": "532d2690",
-   "season": 2018,
-   "distance": 2.754,
+   "fbref_id": "ecab64a0",
+   "season": 2019,
+   "distance": 2.69,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Daniele De Rossi",
-   "squad": "Roma"
+   "player_name": "Per Ciljan Skjelbred",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "868eaba0",
+   "season": 2022,
+   "distance": 2.708,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Johan Gastien",
+   "squad": "Clermont Foot"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Kevin Kampl(MF)의 현재 능력 점수는 63.2점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 태클 성공률, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 슈팅 시도이다.",
-  "potential": "Kevin Kampl의 2~3년 후 예측 중심값은 58.3점, 80% 구간 상단은 67.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 11.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Kevin Kampl의 2~3년 후 예측 중심값은 58.0점, 80% 구간 상단은 67.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 11.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

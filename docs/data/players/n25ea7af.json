@@ -32,109 +32,109 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.178,
-  "mu": 51.8,
+  "survival_prob": 0.1701,
+  "mu": 51.1,
   "ci80": {
-   "lo": 42.6,
-   "hi": 60.9
+   "lo": 41.9,
+   "hi": 60.3
   },
   "ci50": {
-   "lo": 46.9,
-   "hi": 56.5
+   "lo": 46.3,
+   "hi": 55.9
   },
-  "sigma_model": 1.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "00a6485f",
-   "season": 2018,
-   "distance": 1.61,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andreas Beck",
-   "squad": "Stuttgart"
-  },
-  {
    "fbref_id": "45da6694",
    "season": 2019,
-   "distance": 1.659,
+   "distance": 1.534,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Daryl Janmaat",
    "squad": "Watford"
   },
   {
-   "fbref_id": "1b729ba2",
+   "fbref_id": "00a6485f",
    "season": 2018,
-   "distance": 1.804,
+   "distance": 1.632,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Aleandro Rosi",
-   "squad": "Genoa"
+   "player_name": "Andreas Beck",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "59b7d823",
+   "season": 2022,
+   "distance": 1.684,
+   "survived": 1,
+   "fut_ability_v2": 55.1,
+   "player_name": "Iñigo Lekue",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "9050ddc4",
+   "season": 2022,
+   "distance": 1.731,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jetro Willems",
+   "squad": "Greuther Fürth"
   },
   {
    "fbref_id": "01226327",
    "season": 2019,
-   "distance": 1.824,
+   "distance": 1.774,
    "survived": 1,
    "fut_ability_v2": 47.2,
    "player_name": "Ryan Bertrand",
    "squad": "Southampton"
   },
   {
-   "fbref_id": "9a9c05db",
-   "season": 2020,
-   "distance": 1.831,
-   "survived": 1,
-   "fut_ability_v2": 55.6,
-   "player_name": "Matthew Lowton",
-   "squad": "Burnley"
-  },
-  {
    "fbref_id": "cb574619",
    "season": 2020,
-   "distance": 1.864,
+   "distance": 1.779,
    "survived": 1,
    "fut_ability_v2": 64.3,
    "player_name": "Hugo Mallo",
    "squad": "Celta Vigo"
   },
   {
-   "fbref_id": "6ca88b2a",
-   "season": 2019,
-   "distance": 1.872,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "François Moubandje",
-   "squad": "Toulouse"
+   "fbref_id": "9a9c05db",
+   "season": 2020,
+   "distance": 1.785,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
   },
   {
-   "fbref_id": "4f974391",
-   "season": 2019,
-   "distance": 1.913,
+   "fbref_id": "839c14e1",
+   "season": 2020,
+   "distance": 1.796,
    "survived": 1,
-   "fut_ability_v2": 54.9,
-   "player_name": "Aaron Cresswell",
+   "fut_ability_v2": 56.2,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton / Arsenal"
+  },
+  {
+   "fbref_id": "fdf3cb77",
+   "season": 2022,
+   "distance": 1.815,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Vladimír Coufal",
    "squad": "West Ham"
   },
   {
-   "fbref_id": "33a61a52",
-   "season": 2020,
-   "distance": 1.922,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Carlos Clerc",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "7242b495",
-   "season": 2020,
-   "distance": 1.923,
-   "survived": 1,
-   "fut_ability_v2": 48.8,
-   "player_name": "Niko Gießelmann",
-   "squad": "Düsseldorf"
+   "fbref_id": "1b729ba2",
+   "season": 2018,
+   "distance": 1.818,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleandro Rosi",
+   "squad": "Genoa"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Marnon Busch(DF)의 현재 능력 점수는 53.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 태클 성공률, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 패스 성공률이다.",
-  "potential": "Marnon Busch의 2~3년 후 예측 중심값은 51.8점, 80% 구간 상단은 60.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 17.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marnon Busch의 2~3년 후 예측 중심값은 51.1점, 80% 구간 상단은 60.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 17.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

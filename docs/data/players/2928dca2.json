@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1287,
-  "mu": 49.8,
+  "survival_prob": 0.2888,
+  "mu": 51.6,
   "ci80": {
-   "lo": 40.3,
-   "hi": 59.4
+   "lo": 41.9,
+   "hi": 61.2
   },
   "ci50": {
-   "lo": 44.8,
-   "hi": 54.9
+   "lo": 46.5,
+   "hi": 56.6
   },
   "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "ea468ea8",
+   "season": 2021,
+   "distance": 1.178,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Marrone",
+   "squad": "Crotone"
+  },
+  {
    "fbref_id": "b682dcf6",
    "season": 2020,
-   "distance": 1.338,
+   "distance": 1.349,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sokratis Papastathopoulos",
    "squad": "Arsenal"
   },
   {
+   "fbref_id": "52105203",
+   "season": 2021,
+   "distance": 1.395,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Scott Dann",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "68b78c2a",
    "season": 2019,
-   "distance": 1.377,
+   "distance": 1.405,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lorenzo Ariaudo",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "1bab7b66",
    "season": 2020,
-   "distance": 1.467,
+   "distance": 1.416,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Stoppila Sunzu",
    "squad": "Metz"
   },
   {
-   "fbref_id": "47a500ae",
-   "season": 2018,
-   "distance": 1.514,
-   "survived": 1,
-   "fut_ability_v2": 42.7,
-   "player_name": "Luca Rossettini",
-   "squad": "Genoa"
+   "fbref_id": "aa0ac32d",
+   "season": 2021,
+   "distance": 1.528,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Óscar Duarte",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "79f2a5f5",
+   "season": 2022,
+   "distance": 1.533,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Esteban Saveljich",
+   "squad": "Rayo Vallecano"
   },
   {
    "fbref_id": "47a500ae",
    "season": 2019,
-   "distance": 1.533,
+   "distance": 1.558,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luca Rossettini",
    "squad": "Chievo"
   },
   {
-   "fbref_id": "446aa6e1",
+   "fbref_id": "47a500ae",
    "season": 2018,
-   "distance": 1.582,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Oswaldo Vizcarrondo",
-   "squad": "Troyes"
-  },
-  {
-   "fbref_id": "7914b9fe",
-   "season": 2020,
-   "distance": 1.707,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gary Cahill",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "caffaf5a",
-   "season": 2020,
-   "distance": 1.729,
+   "distance": 1.559,
    "survived": 1,
-   "fut_ability_v2": 52.9,
-   "player_name": "Maya Yoshida",
-   "squad": "Sampdoria / Southampton"
+   "fut_ability_v2": 42.7,
+   "player_name": "Luca Rossettini",
+   "squad": "Genoa"
   },
   {
-   "fbref_id": "1f713024",
-   "season": 2018,
-   "distance": 1.736,
+   "fbref_id": "1db295e5",
+   "season": 2021,
+   "distance": 1.584,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Bakary Koné",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "13d820de",
-   "season": 2018,
-   "distance": 1.779,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marco Andreolli",
-   "squad": "Cagliari"
+   "player_name": "Vladimir Golemić",
+   "squad": "Crotone"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Conor Coady(DF)의 현재 능력 점수는 45.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 슈팅당 기대득점, 패스 성공률, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 전진 패스 수신이다.",
-  "potential": "Conor Coady의 2~3년 후 예측 중심값은 49.8점, 80% 구간 상단은 59.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 12.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Conor Coady의 2~3년 후 예측 중심값은 51.6점, 80% 구간 상단은 61.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

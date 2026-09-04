@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3336,
-  "mu": 52.8,
+  "survival_prob": 0.2017,
+  "mu": 50.4,
   "ci80": {
-   "lo": 43.3,
-   "hi": 62.3
+   "lo": 40.7,
+   "hi": 59.9
   },
   "ci50": {
-   "lo": 47.8,
-   "hi": 57.8
+   "lo": 45.2,
+   "hi": 55.4
   },
   "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "8b298f56",
    "season": 2018,
-   "distance": 2.66,
+   "distance": 2.706,
    "survived": 1,
    "fut_ability_v2": 72.2,
    "player_name": "Clément Grenier",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "96bb8cc2",
    "season": 2018,
-   "distance": 2.875,
+   "distance": 2.839,
    "survived": 1,
    "fut_ability_v2": 46.6,
    "player_name": "Robbie Brady",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "48e89655",
    "season": 2018,
-   "distance": 2.886,
+   "distance": 2.892,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pablo Piatti",
@@ -76,16 +76,25 @@
   {
    "fbref_id": "9038c2a1",
    "season": 2020,
-   "distance": 2.961,
+   "distance": 2.959,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jason",
    "squad": "Getafe"
   },
   {
+   "fbref_id": "0be95d34",
+   "season": 2022,
+   "distance": 2.963,
+   "survived": 1,
+   "fut_ability_v2": 66.0,
+   "player_name": "Romain Del Castillo",
+   "squad": "Brest / Rennes"
+  },
+  {
    "fbref_id": "30395d3b",
    "season": 2019,
-   "distance": 2.987,
+   "distance": 3.077,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Nicolas Benezet",
@@ -94,47 +103,38 @@
   {
    "fbref_id": "2c851997",
    "season": 2019,
-   "distance": 3.15,
+   "distance": 3.132,
    "survived": 1,
    "fut_ability_v2": 60.6,
    "player_name": "Gastón Ramírez",
    "squad": "Sampdoria"
   },
   {
-   "fbref_id": "b0547a87",
-   "season": 2019,
-   "distance": 3.214,
+   "fbref_id": "dc1c2fce",
+   "season": 2022,
+   "distance": 3.156,
    "survived": 1,
-   "fut_ability_v2": 51.1,
-   "player_name": "Nicolas de Préville",
-   "squad": "Bordeaux"
+   "fut_ability_v2": 61.5,
+   "player_name": "Álex Berenguer",
+   "squad": "Athletic Club"
   },
   {
-   "fbref_id": "809940aa",
-   "season": 2020,
-   "distance": 3.241,
+   "fbref_id": "fb59286d",
+   "season": 2018,
+   "distance": 3.197,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Dominick Drexler",
+   "player_name": "Miloš Jojić",
    "squad": "Köln"
   },
   {
    "fbref_id": "0ac94a23",
    "season": 2019,
-   "distance": 3.243,
+   "distance": 3.203,
    "survived": 1,
    "fut_ability_v2": 52.3,
    "player_name": "Denis Cheryshev",
    "squad": "Valencia"
-  },
-  {
-   "fbref_id": "dd0daf32",
-   "season": 2018,
-   "distance": 3.244,
-   "survived": 1,
-   "fut_ability_v2": 74.8,
-   "player_name": "Henrikh Mkhitaryan",
-   "squad": "Manchester Utd / Arsenal"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Edu Expósito(MF)의 현재 능력 점수는 55.0점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 키패스, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 패스 성공률이다.",
-  "potential": "Edu Expósito의 2~3년 후 예측 중심값은 52.8점, 80% 구간 상단은 62.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 33.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Edu Expósito의 2~3년 후 예측 중심값은 50.4점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,60 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4966,
-  "mu": 55.2,
+  "survival_prob": 0.7004,
+  "mu": 54.3,
   "ci80": {
-   "lo": 46.0,
-   "hi": 64.5
+   "lo": 45.0,
+   "hi": 63.7
   },
   "ci50": {
-   "lo": 50.4,
-   "hi": 60.1
+   "lo": 49.4,
+   "hi": 59.3
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "8397a50c",
+   "season": 2022,
+   "distance": 1.152,
+   "survived": 1,
+   "fut_ability_v2": 63.5,
+   "player_name": "Tyrone Mings",
+   "squad": "Aston Villa"
+  },
+  {
    "fbref_id": "1633fc8a",
    "season": 2018,
-   "distance": 1.289,
+   "distance": 1.329,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juanpe",
    "squad": "Girona"
   },
   {
-   "fbref_id": "b7c99b9b",
-   "season": 2019,
-   "distance": 1.349,
-   "survived": 1,
-   "fut_ability_v2": 48.0,
-   "player_name": "Víctor Laguardia",
-   "squad": "Alavés"
-  },
-  {
    "fbref_id": "d9624b51",
    "season": 2018,
-   "distance": 1.365,
+   "distance": 1.353,
    "survived": 1,
    "fut_ability_v2": 57.9,
    "player_name": "Federico Ceccherini",
    "squad": "Crotone"
   },
   {
+   "fbref_id": "b7c99b9b",
+   "season": 2019,
+   "distance": 1.363,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Víctor Laguardia",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "6043997c",
+   "season": 2022,
+   "distance": 1.449,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Gerzino Nyamsi",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "274ab13c",
+   "season": 2022,
+   "distance": 1.456,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Catena",
+   "squad": "Rayo Vallecano"
+  },
+  {
    "fbref_id": "f03f284b",
    "season": 2018,
-   "distance": 1.584,
+   "distance": 1.516,
    "survived": 1,
    "fut_ability_v2": 54.2,
    "player_name": "David López",
    "squad": "Espanyol"
   },
   {
+   "fbref_id": "4d1efb48",
+   "season": 2022,
+   "distance": 1.544,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pietro Ceccaroni",
+   "squad": "Venezia"
+  },
+  {
    "fbref_id": "282f75f3",
    "season": 2019,
-   "distance": 1.672,
+   "distance": 1.605,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Lewis Dunk",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "4b3e1a38",
    "season": 2020,
-   "distance": 1.715,
+   "distance": 1.718,
    "survived": 1,
    "fut_ability_v2": 61.7,
    "player_name": "Amir Rrahmani",
    "squad": "Hellas Verona"
-  },
-  {
-   "fbref_id": "7314bba4",
-   "season": 2018,
-   "distance": 1.746,
-   "survived": 1,
-   "fut_ability_v2": 55.1,
-   "player_name": "Shane Duffy",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "3e42f707",
-   "season": 2020,
-   "distance": 1.777,
-   "survived": 1,
-   "fut_ability_v2": 60.7,
-   "player_name": "David García",
-   "squad": "Osasuna"
-  },
-  {
-   "fbref_id": "3fc45c73",
-   "season": 2020,
-   "distance": 1.791,
-   "survived": 1,
-   "fut_ability_v2": 62.0,
-   "player_name": "Iñigo Martínez",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "3fc45c73",
-   "season": 2019,
-   "distance": 1.791,
-   "survived": 1,
-   "fut_ability_v2": 59.3,
-   "player_name": "Iñigo Martínez",
-   "squad": "Athletic Club"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Danilho Doekhi(DF)의 현재 능력 점수는 53.4점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승률, 공중볼 승리, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 전진 패스 거리이다.",
-  "potential": "Danilho Doekhi의 2~3년 후 예측 중심값은 55.2점, 80% 구간 상단은 64.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 49.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Danilho Doekhi의 2~3년 후 예측 중심값은 54.3점, 80% 구간 상단은 63.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

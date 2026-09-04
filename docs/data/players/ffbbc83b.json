@@ -32,51 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.552,
-  "mu": 55.1,
+  "survival_prob": 0.4076,
+  "mu": 59.2,
   "ci80": {
-   "lo": 45.8,
-   "hi": 64.4
+   "lo": 49.8,
+   "hi": 68.6
   },
   "ci50": {
-   "lo": 50.2,
-   "hi": 60.0
+   "lo": 54.2,
+   "hi": 64.1
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "528492ea",
+   "season": 2021,
+   "distance": 1.587,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Alfred Duncan",
+   "squad": "Cagliari / Fiorentina"
+  },
+  {
    "fbref_id": "e8c930bb",
    "season": 2020,
-   "distance": 1.987,
+   "distance": 1.94,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Milan Badelj",
    "squad": "Fiorentina"
   },
   {
+   "fbref_id": "91f7631f",
+   "season": 2022,
+   "distance": 2.062,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Iñigo Ruiz de Galarreta",
+   "squad": "Mallorca"
+  },
+  {
    "fbref_id": "1961b2aa",
-   "season": 2020,
-   "distance": 2.135,
+   "season": 2021,
+   "distance": 2.084,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "André Gomes",
    "squad": "Everton"
   },
   {
-   "fbref_id": "0e50f929",
+   "fbref_id": "1961b2aa",
    "season": 2020,
-   "distance": 2.152,
+   "distance": 2.144,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Fran Mérida",
-   "squad": "Osasuna"
+   "player_name": "André Gomes",
+   "squad": "Everton"
   },
   {
    "fbref_id": "0d077b88",
    "season": 2020,
-   "distance": 2.194,
+   "distance": 2.153,
    "survived": 1,
    "fut_ability_v2": 48.0,
    "player_name": "Mehdi Bourabia",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "111c3236",
    "season": 2020,
-   "distance": 2.23,
+   "distance": 2.18,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabian Delph",
    "squad": "Everton"
   },
   {
-   "fbref_id": "8011fcf6",
-   "season": 2018,
-   "distance": 2.333,
+   "fbref_id": "0e50f929",
+   "season": 2020,
+   "distance": 2.207,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Ledian Memushaj",
-   "squad": "Benevento"
+   "player_name": "Fran Mérida",
+   "squad": "Osasuna"
   },
   {
-   "fbref_id": "d6f88a1d",
-   "season": 2019,
-   "distance": 2.404,
-   "survived": 1,
-   "fut_ability_v2": 52.7,
-   "player_name": "Adrien Silva",
-   "squad": "Monaco / Leicester City"
+   "fbref_id": "a4c3f7af",
+   "season": 2021,
+   "distance": 2.336,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Abeid",
+   "squad": "Nantes"
   },
   {
    "fbref_id": "d6f88a1d",
    "season": 2020,
-   "distance": 2.406,
+   "distance": 2.344,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Adrien Silva",
    "squad": "Monaco"
-  },
-  {
-   "fbref_id": "dc3fa3b5",
-   "season": 2020,
-   "distance": 2.476,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Diego Demme",
-   "squad": "RB Leipzig / Napoli"
-  },
-  {
-   "fbref_id": "1b17ed86",
-   "season": 2018,
-   "distance": 2.484,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Esteban Granero",
-   "squad": "Espanyol"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Florian Grillitsch(MF)의 현재 능력 점수는 56.8점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 전진 패스 거리, 전진 패스, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Florian Grillitsch의 2~3년 후 예측 중심값은 55.1점, 80% 구간 상단은 64.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Florian Grillitsch의 2~3년 후 예측 중심값은 59.2점, 80% 구간 상단은 68.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

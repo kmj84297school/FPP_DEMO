@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2517,
-  "mu": 52.4,
+  "survival_prob": 0.2264,
+  "mu": 54.8,
   "ci80": {
-   "lo": 43.1,
-   "hi": 61.7
+   "lo": 45.3,
+   "hi": 64.1
   },
   "ci50": {
-   "lo": 47.5,
-   "hi": 57.3
+   "lo": 49.7,
+   "hi": 59.7
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "7ed4921e",
+   "season": 2022,
+   "distance": 1.231,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "William Troost-Ekong",
+   "squad": "Watford"
+  },
+  {
    "fbref_id": "d7492450",
    "season": 2018,
-   "distance": 1.424,
+   "distance": 1.471,
    "survived": 1,
    "fut_ability_v2": 38.0,
    "player_name": "Martin Kelly",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "616aea37",
    "season": 2018,
-   "distance": 1.562,
+   "distance": 1.585,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marco Capuano",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "e7ab4179",
    "season": 2020,
-   "distance": 1.586,
+   "distance": 1.625,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Erick Cabaco",
    "squad": "Levante / Getafe"
   },
   {
-   "fbref_id": "7bc34048",
-   "season": 2018,
-   "distance": 1.746,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bruno Martins Indi",
-   "squad": "Stoke City"
-  },
-  {
    "fbref_id": "faf55ce4",
    "season": 2018,
-   "distance": 1.762,
+   "distance": 1.677,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kevin Wimmer",
    "squad": "Stoke City"
   },
   {
+   "fbref_id": "7bc34048",
+   "season": 2018,
+   "distance": 1.695,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Martins Indi",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "93090f69",
+   "season": 2022,
+   "distance": 1.746,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Domingos Duarte",
+   "squad": "Granada"
+  },
+  {
    "fbref_id": "2d5f03bf",
    "season": 2020,
-   "distance": 1.773,
+   "distance": 1.774,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Christoph Zimmermann",
    "squad": "Norwich City"
   },
   {
-   "fbref_id": "9b30df1e",
+   "fbref_id": "88d91621",
    "season": 2019,
-   "distance": 1.787,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bartosz Salamon",
-   "squad": "Frosinone"
+   "distance": 1.782,
+   "survived": 1,
+   "fut_ability_v2": 44.8,
+   "player_name": "Sergio Álvarez",
+   "squad": "Eibar"
   },
   {
-   "fbref_id": "7f203b54",
-   "season": 2018,
-   "distance": 1.801,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Chema",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "08082af0",
-   "season": 2020,
-   "distance": 1.834,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Loïck Landre",
-   "squad": "Nîmes"
-  },
-  {
-   "fbref_id": "3fe6bd8c",
-   "season": 2020,
-   "distance": 1.837,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Paul Dummett",
-   "squad": "Newcastle Utd"
+   "fbref_id": "914ab9a1",
+   "season": 2019,
+   "distance": 1.798,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Christian Kabasele",
+   "squad": "Watford"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Juan Berrocal(DF)의 현재 능력 점수는 50.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 공중볼 승률, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 운반이다.",
-  "potential": "Juan Berrocal의 2~3년 후 예측 중심값은 52.4점, 80% 구간 상단은 61.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Juan Berrocal의 2~3년 후 예측 중심값은 54.8점, 80% 구간 상단은 64.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

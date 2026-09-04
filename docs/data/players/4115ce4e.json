@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5924,
-  "mu": 55.3,
+  "survival_prob": 0.5766,
+  "mu": 56.3,
   "ci80": {
-   "lo": 46.0,
-   "hi": 64.6
+   "lo": 46.9,
+   "hi": 65.6
   },
   "ci50": {
-   "lo": 50.4,
-   "hi": 60.2
+   "lo": 51.3,
+   "hi": 61.2
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "93cf32a8",
-   "season": 2020,
-   "distance": 1.386,
+   "fbref_id": "aad48be9",
+   "season": 2022,
+   "distance": 1.32,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "c562c5b4",
+   "season": 2021,
+   "distance": 1.382,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Nicolas Nkoulou",
-   "squad": "Torino"
+   "player_name": "Joakim Nilsson",
+   "squad": "Arminia"
   },
   {
    "fbref_id": "f2c1300a",
    "season": 2019,
-   "distance": 1.39,
+   "distance": 1.388,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Vitor Hugo",
@@ -67,16 +76,52 @@
   {
    "fbref_id": "8ae9869d",
    "season": 2019,
-   "distance": 1.395,
+   "distance": 1.453,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Christopher Schindler",
    "squad": "Huddersfield"
   },
   {
+   "fbref_id": "f066022d",
+   "season": 2021,
+   "distance": 1.484,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Julien Laporte",
+   "squad": "Lorient"
+  },
+  {
+   "fbref_id": "93cf32a8",
+   "season": 2020,
+   "distance": 1.484,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolas Nkoulou",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "debe38a0",
+   "season": 2021,
+   "distance": 1.491,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Egan",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "8b95acda",
+   "season": 2022,
+   "distance": 1.494,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Omar Colley",
+   "squad": "Sampdoria"
+  },
+  {
    "fbref_id": "f8fcd2a5",
    "season": 2019,
-   "distance": 1.418,
+   "distance": 1.499,
    "survived": 1,
    "fut_ability_v2": 65.3,
    "player_name": "Jonny Evans",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "b7ca5c51",
    "season": 2018,
-   "distance": 1.5,
+   "distance": 1.546,
    "survived": 1,
    "fut_ability_v2": 53.2,
    "player_name": "Gabriel Paulista",
    "squad": "Valencia"
-  },
-  {
-   "fbref_id": "27a013f7",
-   "season": 2020,
-   "distance": 1.616,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Néstor Araujo",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "a63a995f",
-   "season": 2019,
-   "distance": 1.63,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fabian Lustenberger",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "87935cf3",
-   "season": 2019,
-   "distance": 1.633,
-   "survived": 1,
-   "fut_ability_v2": 64.5,
-   "player_name": "Mamadou Sakho",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "921f6058",
-   "season": 2019,
-   "distance": 1.66,
-   "survived": 1,
-   "fut_ability_v2": 71.4,
-   "player_name": "José Luis Palomino",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "616aea37",
-   "season": 2019,
-   "distance": 1.667,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marco Capuano",
-   "squad": "Frosinone"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jan Bednarek(DF)의 현재 능력 점수는 60.7점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 패스 성공률, 클리어링, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 패스 수신이다.",
-  "potential": "Jan Bednarek의 2~3년 후 예측 중심값은 55.3점, 80% 구간 상단은 64.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jan Bednarek의 2~3년 후 예측 중심값은 56.3점, 80% 구간 상단은 65.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 57.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

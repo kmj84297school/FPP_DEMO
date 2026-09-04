@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6232,
-  "mu": 60.0,
+  "survival_prob": 0.7076,
+  "mu": 62.1,
   "ci80": {
-   "lo": 50.9,
-   "hi": 69.2
+   "lo": 52.8,
+   "hi": 71.3
   },
   "ci50": {
-   "lo": 55.2,
-   "hi": 64.8
+   "lo": 57.2,
+   "hi": 66.9
   },
-  "sigma_model": 1.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "fb77bfef",
+   "season": 2021,
+   "distance": 1.431,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Bonifazi",
+   "squad": "Udinese"
+  },
+  {
    "fbref_id": "6690ef25",
    "season": 2018,
-   "distance": 1.448,
+   "distance": 1.436,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Pedro Mendes",
    "squad": "Montpellier"
   },
   {
+   "fbref_id": "21166ff4",
+   "season": 2022,
+   "distance": 1.482,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Çağlar Söyüncü",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "3ecc11d8",
    "season": 2020,
-   "distance": 1.486,
+   "distance": 1.543,
    "survived": 1,
    "fut_ability_v2": 61.5,
    "player_name": "Yeray Álvarez",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "e0f3a1f6",
    "season": 2020,
-   "distance": 1.539,
+   "distance": 1.561,
    "survived": 1,
    "fut_ability_v2": 58.5,
    "player_name": "Jean-Charles Castelletto",
    "squad": "Brest"
   },
   {
-   "fbref_id": "c67cd65c",
-   "season": 2020,
-   "distance": 1.561,
-   "survived": 1,
-   "fut_ability_v2": 59.8,
-   "player_name": "Rúben Vezo",
-   "squad": "Levante"
-  },
-  {
    "fbref_id": "c5b7c315",
    "season": 2018,
-   "distance": 1.594,
+   "distance": 1.562,
    "survived": 1,
    "fut_ability_v2": 64.1,
    "player_name": "Michael Keane",
    "squad": "Everton"
   },
   {
-   "fbref_id": "d70a2141",
-   "season": 2019,
-   "distance": 1.748,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jordi Amat",
-   "squad": "Rayo Vallecano"
-  },
-  {
-   "fbref_id": "27f0ddef",
-   "season": 2018,
-   "distance": 1.797,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Filip Helander",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "bc6f5f06",
-   "season": 2019,
-   "distance": 1.879,
-   "survived": 1,
-   "fut_ability_v2": 42.2,
-   "player_name": "Sergi Gómez",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "616aea37",
-   "season": 2019,
-   "distance": 1.924,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marco Capuano",
-   "squad": "Frosinone"
-  },
-  {
-   "fbref_id": "ce4246f5",
+   "fbref_id": "c67cd65c",
    "season": 2020,
-   "distance": 1.971,
+   "distance": 1.577,
    "survived": 1,
-   "fut_ability_v2": 48.7,
-   "player_name": "Kurt Zouma",
-   "squad": "Chelsea"
+   "fut_ability_v2": 59.8,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "19e4eab9",
+   "season": 2021,
+   "distance": 1.611,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rodrigo Becão",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "aad48be9",
+   "season": 2022,
+   "distance": 1.736,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "f066022d",
+   "season": 2021,
+   "distance": 1.742,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Julien Laporte",
+   "squad": "Lorient"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Loïc Bade(DF)의 현재 능력 점수는 60.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 전진 패스 거리, 태클 성공률, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 전진 패스이다.",
-  "potential": "Loïc Bade의 2~3년 후 예측 중심값은 60.0점, 80% 구간 상단은 69.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 62.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Loïc Bade의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 71.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,42 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6842,
-  "mu": 61.8,
+  "survival_prob": 0.8304,
+  "mu": 62.1,
   "ci80": {
-   "lo": 51.0,
-   "hi": 72.6
+   "lo": 51.4,
+   "hi": 72.7
   },
   "ci50": {
-   "lo": 56.2,
-   "hi": 67.4
+   "lo": 56.5,
+   "hi": 67.6
   },
-  "sigma_model": 2.5,
+  "sigma_model": 2.3,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "378825c7",
    "season": 2019,
-   "distance": 2.218,
+   "distance": 2.188,
    "survived": 1,
    "fut_ability_v2": 68.4,
    "player_name": "Ramy Bensebaini",
    "squad": "Rennes"
   },
   {
+   "fbref_id": "d38fdf53",
+   "season": 2022,
+   "distance": 2.39,
+   "survived": 1,
+   "fut_ability_v2": 65.9,
+   "player_name": "Pervis Estupiñán",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "31a62dc7",
+   "season": 2021,
+   "distance": 2.394,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zeki Çelik",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "d9565625",
+   "season": 2022,
+   "distance": 2.468,
+   "survived": 1,
+   "fut_ability_v2": 62.5,
+   "player_name": "Diogo Dalot",
+   "squad": "Manchester Utd"
+  },
+  {
    "fbref_id": "246d153b",
    "season": 2020,
-   "distance": 2.41,
+   "distance": 2.468,
    "survived": 1,
    "fut_ability_v2": 54.3,
    "player_name": "Ola Aina",
    "squad": "Torino"
   },
   {
+   "fbref_id": "4bf69118",
+   "season": 2021,
+   "distance": 2.506,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enock Kwateng",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "289601e6",
+   "season": 2021,
+   "distance": 2.515,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Antonee Robinson",
+   "squad": "Fulham"
+  },
+  {
    "fbref_id": "17370b95",
    "season": 2018,
-   "distance": 2.595,
+   "distance": 2.57,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bernardo",
@@ -76,7 +121,7 @@
   {
    "fbref_id": "f449640d",
    "season": 2020,
-   "distance": 2.668,
+   "distance": 2.642,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fodé Ballo-Touré",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "22721b88",
    "season": 2018,
-   "distance": 2.694,
+   "distance": 2.656,
    "survived": 1,
    "fut_ability_v2": 60.0,
    "player_name": "Jordan Amavi",
    "squad": "Marseille"
-  },
-  {
-   "fbref_id": "de0f152c",
-   "season": 2018,
-   "distance": 2.742,
-   "survived": 1,
-   "fut_ability_v2": 51.4,
-   "player_name": "Adam Masina",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "6b2c894b",
-   "season": 2020,
-   "distance": 2.81,
-   "survived": 1,
-   "fut_ability_v2": 55.9,
-   "player_name": "Ghislain Konan",
-   "squad": "Reims"
-  },
-  {
-   "fbref_id": "88d4144a",
-   "season": 2020,
-   "distance": 2.823,
-   "survived": 1,
-   "fut_ability_v2": 60.0,
-   "player_name": "Maximilian Mittelstädt",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "f1bed920",
-   "season": 2018,
-   "distance": 2.861,
-   "survived": 1,
-   "fut_ability_v2": 46.0,
-   "player_name": "Kévin Rodrigues",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "c50e5bba",
-   "season": 2018,
-   "distance": 2.864,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Douglas Santos",
-   "squad": "Hamburger SV"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Djed Spence(DF)의 현재 능력 점수는 66.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 성공 드리블, 전진 운반, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 전진 패스 거리이다.",
-  "potential": "Djed Spence의 2~3년 후 예측 중심값은 61.8점, 80% 구간 상단은 72.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 68.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Djed Spence의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 72.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 83.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

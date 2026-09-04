@@ -32,60 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7476,
-  "mu": 63.1,
+  "survival_prob": 0.6747,
+  "mu": 67.6,
   "ci80": {
-   "lo": 53.4,
-   "hi": 73.0
+   "lo": 58.2,
+   "hi": 77.2
   },
   "ci50": {
-   "lo": 58.0,
-   "hi": 68.3
+   "lo": 62.7,
+   "hi": 72.7
   },
-  "sigma_model": 3.0,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "dc62fbee",
    "season": 2019,
-   "distance": 2.951,
+   "distance": 2.95,
    "survived": 1,
    "fut_ability_v2": 53.4,
    "player_name": "Leonardo Bittencourt",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "dc3a9a0d",
-   "season": 2018,
-   "distance": 3.161,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rachid Ghezzal",
-   "squad": "Monaco"
-  },
-  {
-   "fbref_id": "53a0e358",
-   "season": 2020,
-   "distance": 3.174,
+   "fbref_id": "a167537f",
+   "season": 2022,
+   "distance": 3.175,
    "survived": 1,
-   "fut_ability_v2": 77.6,
-   "player_name": "Domenico Berardi",
-   "squad": "Sassuolo"
+   "fut_ability_v2": 68.1,
+   "player_name": "Julian Brandt",
+   "squad": "Dortmund"
   },
   {
    "fbref_id": "0ac94a23",
    "season": 2018,
-   "distance": 3.179,
+   "distance": 3.195,
    "survived": 1,
    "fut_ability_v2": 53.9,
    "player_name": "Denis Cheryshev",
    "squad": "Villarreal"
   },
   {
+   "fbref_id": "3708e9fa",
+   "season": 2022,
+   "distance": 3.203,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Aleksandr Golovin",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "66b76d44",
+   "season": 2022,
+   "distance": 3.208,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emi Buendía",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "53a0e358",
+   "season": 2021,
+   "distance": 3.237,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Domenico Berardi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "53a0e358",
+   "season": 2020,
+   "distance": 3.246,
+   "survived": 1,
+   "fut_ability_v2": 77.6,
+   "player_name": "Domenico Berardi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "dc3a9a0d",
+   "season": 2018,
+   "distance": 3.259,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rachid Ghezzal",
+   "squad": "Monaco"
+  },
+  {
    "fbref_id": "2903a856",
    "season": 2018,
-   "distance": 3.222,
+   "distance": 3.282,
    "survived": 1,
    "fut_ability_v2": 61.4,
    "player_name": "Jonas Hofmann",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "5c96b017",
    "season": 2020,
-   "distance": 3.262,
+   "distance": 3.308,
    "survived": 1,
    "fut_ability_v2": 55.9,
    "player_name": "Rubén García",
    "squad": "Osasuna"
-  },
-  {
-   "fbref_id": "130a7a3f",
-   "season": 2020,
-   "distance": 3.3,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Samu Castillejo",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "9744ff80",
-   "season": 2018,
-   "distance": 3.396,
-   "survived": 1,
-   "fut_ability_v2": 75.3,
-   "player_name": "Pablo Sarabia",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "abe66106",
-   "season": 2019,
-   "distance": 3.428,
-   "survived": 1,
-   "fut_ability_v2": 69.9,
-   "player_name": "Érik Lamela",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "ef619b0b",
-   "season": 2018,
-   "distance": 3.444,
-   "survived": 1,
-   "fut_ability_v2": 72.8,
-   "player_name": "Aaron Ramsey",
-   "squad": "Arsenal"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Sofiane Diop(MF)의 현재 능력 점수는 77.1점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 슈팅당 기대득점, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Sofiane Diop의 2~3년 후 예측 중심값은 63.1점, 80% 구간 상단은 73.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 74.8%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Sofiane Diop의 2~3년 후 예측 중심값은 67.6점, 80% 구간 상단은 77.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 67.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

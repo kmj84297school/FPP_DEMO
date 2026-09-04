@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2909,
-  "mu": 48.3,
+  "survival_prob": 0.2329,
+  "mu": 49.2,
   "ci80": {
-   "lo": 39.1,
-   "hi": 57.7
+   "lo": 40.0,
+   "hi": 58.5
   },
   "ci50": {
-   "lo": 43.5,
-   "hi": 53.3
+   "lo": 44.4,
+   "hi": 54.1
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "0420d84f",
+   "season": 2021,
+   "distance": 1.389,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
    "fbref_id": "cacadf4f",
    "season": 2019,
-   "distance": 1.828,
+   "distance": 1.832,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luis Advíncula",
    "squad": "Rayo Vallecano"
   },
   {
+   "fbref_id": "7fe90ccd",
+   "season": 2021,
+   "distance": 1.955,
+   "survived": 1,
+   "fut_ability_v2": 55.3,
+   "player_name": "Davide Zappacosta",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "8332db56",
+   "season": 2021,
+   "distance": 2.051,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Thomas Delaine",
+   "squad": "Metz"
+  },
+  {
    "fbref_id": "6d8f8441",
    "season": 2019,
-   "distance": 2.185,
+   "distance": 2.2,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Coke",
@@ -67,7 +94,7 @@
   {
    "fbref_id": "dbe519cf",
    "season": 2019,
-   "distance": 2.186,
+   "distance": 2.251,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Antoñito",
@@ -76,7 +103,7 @@
   {
    "fbref_id": "79b2399c",
    "season": 2019,
-   "distance": 2.315,
+   "distance": 2.269,
    "survived": 1,
    "fut_ability_v2": 52.7,
    "player_name": "Pierrick Capelle",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "1f079188",
    "season": 2020,
-   "distance": 2.353,
+   "distance": 2.341,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rubén Peña",
    "squad": "Villarreal"
   },
   {
-   "fbref_id": "5cec2487",
-   "season": 2020,
+   "fbref_id": "9f323c71",
+   "season": 2021,
+   "distance": 2.387,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "cf623c78",
+   "season": 2021,
    "distance": 2.432,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Martín Montoya",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "edd1466a",
-   "season": 2019,
-   "distance": 2.53,
-   "survived": 1,
-   "fut_ability_v2": 49.5,
-   "player_name": "Fouad Chafik",
-   "squad": "Dijon"
-  },
-  {
-   "fbref_id": "f3cccffe",
-   "season": 2019,
-   "distance": 2.549,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Emiliano Insúa",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "652811aa",
-   "season": 2020,
-   "distance": 2.562,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marco Calderoni",
-   "squad": "Lecce"
-  },
-  {
-   "fbref_id": "f3cccffe",
-   "season": 2018,
-   "distance": 2.574,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Emiliano Insúa",
-   "squad": "Stuttgart"
+   "player_name": "Erik Durm",
+   "squad": "Eint Frankfurt"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Deiver Machado(DF)의 현재 능력 점수는 53.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 슈팅 시도, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 볼 손실(미스+파울)이다.",
-  "potential": "Deiver Machado의 2~3년 후 예측 중심값은 48.3점, 80% 구간 상단은 57.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Deiver Machado의 2~3년 후 예측 중심값은 49.2점, 80% 구간 상단은 58.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 23.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

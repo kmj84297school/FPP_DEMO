@@ -32,109 +32,109 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2966,
-  "mu": 55.5,
+  "survival_prob": 0.4399,
+  "mu": 56.4,
   "ci80": {
-   "lo": 46.2,
-   "hi": 64.7
+   "lo": 47.1,
+   "hi": 65.7
   },
   "ci50": {
-   "lo": 50.6,
-   "hi": 60.3
+   "lo": 51.4,
+   "hi": 61.2
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "b0a0698b",
    "season": 2020,
-   "distance": 1.172,
+   "distance": 1.157,
    "survived": 1,
    "fut_ability_v2": 64.1,
    "player_name": "Rafael Czichos",
    "squad": "Köln"
   },
   {
+   "fbref_id": "c5b7c315",
+   "season": 2021,
+   "distance": 1.189,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  },
+  {
    "fbref_id": "1633fc8a",
    "season": 2019,
-   "distance": 1.245,
+   "distance": 1.255,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juanpe",
    "squad": "Girona"
   },
   {
-   "fbref_id": "f7d50789",
-   "season": 2020,
-   "distance": 1.265,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Toby Alderweireld",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "1ad8cb67",
-   "season": 2020,
-   "distance": 1.349,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pablo Martinez",
-   "squad": "Nîmes"
+   "fbref_id": "b7ca5c51",
+   "season": 2021,
+   "distance": 1.267,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Gabriel Paulista",
+   "squad": "Valencia"
   },
   {
    "fbref_id": "8b95acda",
    "season": 2020,
-   "distance": 1.363,
+   "distance": 1.307,
    "survived": 1,
    "fut_ability_v2": 52.9,
    "player_name": "Omar Colley",
    "squad": "Sampdoria"
   },
   {
-   "fbref_id": "c5b7c315",
-   "season": 2020,
-   "distance": 1.368,
+   "fbref_id": "b4a014b1",
+   "season": 2022,
+   "distance": 1.31,
    "survived": 1,
-   "fut_ability_v2": 57.6,
-   "player_name": "Michael Keane",
-   "squad": "Everton"
+   "fut_ability_v2": 46.1,
+   "player_name": "Diego Carlos",
+   "squad": "Sevilla"
   },
   {
-   "fbref_id": "952a03fe",
-   "season": 2018,
-   "distance": 1.377,
-   "survived": 1,
-   "fut_ability_v2": 54.1,
-   "player_name": "Sebastien De Maio",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "e27da244",
-   "season": 2020,
-   "distance": 1.4,
-   "survived": 1,
-   "fut_ability_v2": 64.3,
-   "player_name": "John Brooks",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "5832ebfe",
-   "season": 2020,
-   "distance": 1.427,
+   "fbref_id": "bcfb0142",
+   "season": 2022,
+   "distance": 1.321,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Stefano Denswil",
-   "squad": "Bologna"
+   "player_name": "Ben Gibson",
+   "squad": "Norwich City"
   },
   {
-   "fbref_id": "3fc45c73",
+   "fbref_id": "1ad8cb67",
    "season": 2020,
-   "distance": 1.47,
+   "distance": 1.325,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Martinez",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "f7d50789",
+   "season": 2020,
+   "distance": 1.327,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Toby Alderweireld",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "274ab13c",
+   "season": 2022,
+   "distance": 1.337,
    "survived": 1,
-   "fut_ability_v2": 62.0,
-   "player_name": "Iñigo Martínez",
-   "squad": "Athletic Club"
+   "fut_ability_v2": 53.6,
+   "player_name": "Catena",
+   "squad": "Rayo Vallecano"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Denis Vavro(DF)의 현재 능력 점수는 60.7점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 클리어링, 볼 손실(미스+파울), 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 전진 패스 수신이다.",
-  "potential": "Denis Vavro의 2~3년 후 예측 중심값은 55.5점, 80% 구간 상단은 64.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Denis Vavro의 2~3년 후 예측 중심값은 56.4점, 80% 구간 상단은 65.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

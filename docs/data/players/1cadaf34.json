@@ -32,24 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8816,
-  "mu": 37.9,
+  "survival_prob": 0.7369,
+  "mu": 36.3,
   "ci80": {
-   "lo": 26.2,
-   "hi": 49.7
+   "lo": 24.8,
+   "hi": 47.9
   },
   "ci50": {
-   "lo": 31.7,
-   "hi": 44.2
+   "lo": 30.2,
+   "hi": 42.4
   },
-  "sigma_model": 4.5,
+  "sigma_model": 4.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "bbf5c11b",
+   "season": 2021,
+   "distance": 2.31,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafa Mir",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "4c2e9442",
+   "season": 2021,
+   "distance": 2.592,
+   "survived": 1,
+   "fut_ability_v2": 20.7,
+   "player_name": "Maxi Gómez",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "59e6e5bf",
+   "season": 2021,
+   "distance": 2.64,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Dominic Calvert-Lewin",
+   "squad": "Everton"
+  },
+  {
    "fbref_id": "6922f806",
    "season": 2018,
-   "distance": 2.637,
+   "distance": 2.647,
    "survived": 1,
    "fut_ability_v2": 43.4,
    "player_name": "Jonathan Calleri",
@@ -58,7 +85,7 @@
   {
    "fbref_id": "3925dbd6",
    "season": 2019,
-   "distance": 2.696,
+   "distance": 2.686,
    "survived": 1,
    "fut_ability_v2": 57.4,
    "player_name": "Aleksandar Mitrović",
@@ -67,7 +94,7 @@
   {
    "fbref_id": "59e6e5bf",
    "season": 2020,
-   "distance": 2.811,
+   "distance": 2.773,
    "survived": 1,
    "fut_ability_v2": 40.5,
    "player_name": "Dominic Calvert-Lewin",
@@ -76,16 +103,25 @@
   {
    "fbref_id": "4c2e9442",
    "season": 2020,
-   "distance": 2.915,
+   "distance": 2.885,
    "survived": 1,
    "fut_ability_v2": 32.6,
    "player_name": "Maxi Gómez",
    "squad": "Valencia"
   },
   {
+   "fbref_id": "08aa9cd1",
+   "season": 2022,
+   "distance": 2.947,
+   "survived": 1,
+   "fut_ability_v2": 30.7,
+   "player_name": "Andrea Pinamonti",
+   "squad": "Empoli"
+  },
+  {
    "fbref_id": "e7986081",
    "season": 2020,
-   "distance": 3.001,
+   "distance": 2.987,
    "survived": 1,
    "fut_ability_v2": 70.1,
    "player_name": "Moussa Dembélé",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "923f4dda",
    "season": 2020,
-   "distance": 3.137,
+   "distance": 3.117,
    "survived": 1,
    "fut_ability_v2": 54.8,
    "player_name": "Sehrou Guirassy",
    "squad": "Amiens"
-  },
-  {
-   "fbref_id": "1238a3f9",
-   "season": 2018,
-   "distance": 3.24,
-   "survived": 1,
-   "fut_ability_v2": 28.8,
-   "player_name": "Davie Selke",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "06f33dc8",
-   "season": 2019,
-   "distance": 3.253,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Enzo Crivelli",
-   "squad": "Caen"
-  },
-  {
-   "fbref_id": "19ba6c6d",
-   "season": 2018,
-   "distance": 3.367,
-   "survived": 1,
-   "fut_ability_v2": 52.5,
-   "player_name": "Steve Mounié",
-   "squad": "Huddersfield"
-  },
-  {
-   "fbref_id": "19ba6c6d",
-   "season": 2019,
-   "distance": 3.463,
-   "survived": 1,
-   "fut_ability_v2": 50.4,
-   "player_name": "Steve Mounié",
-   "squad": "Huddersfield"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Roberto Piccoli(FW)의 현재 능력 점수는 36.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승률, 공중볼 승리, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 도움 기대값(xAG)이다.",
-  "potential": "Roberto Piccoli의 2~3년 후 예측 중심값은 37.9점, 80% 구간 상단은 49.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 88.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Roberto Piccoli의 2~3년 후 예측 중심값은 36.3점, 80% 구간 상단은 47.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 73.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

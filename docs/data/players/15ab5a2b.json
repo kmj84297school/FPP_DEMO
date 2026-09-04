@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9113,
-  "mu": 66.2,
+  "survival_prob": 0.8903,
+  "mu": 65.3,
   "ci80": {
-   "lo": 56.8,
-   "hi": 75.7
+   "lo": 55.9,
+   "hi": 74.7
   },
   "ci50": {
-   "lo": 61.2,
-   "hi": 71.2
+   "lo": 60.3,
+   "hi": 70.2
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "603cb947",
    "season": 2018,
-   "distance": 1.674,
+   "distance": 1.661,
    "survived": 1,
    "fut_ability_v2": 79.1,
    "player_name": "Andrej Kramarić",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "1fb1c435",
    "season": 2018,
-   "distance": 1.897,
+   "distance": 1.89,
    "survived": 1,
    "fut_ability_v2": 67.0,
    "player_name": "Rodrigo",
@@ -67,47 +67,56 @@
   {
    "fbref_id": "5ceba7fc",
    "season": 2018,
-   "distance": 2.029,
+   "distance": 2.057,
    "survived": 1,
    "fut_ability_v2": 75.2,
    "player_name": "Karl Toko Ekambi",
    "squad": "Angers"
   },
   {
-   "fbref_id": "bc6bd723",
-   "season": 2018,
-   "distance": 2.348,
+   "fbref_id": "49fe9070",
+   "season": 2021,
+   "distance": 2.258,
    "survived": 1,
-   "fut_ability_v2": 73.6,
-   "player_name": "Alassane Pléa",
-   "squad": "Nice"
+   "fut_ability_v2": 78.5,
+   "player_name": "Timo Werner",
+   "squad": "Chelsea"
   },
   {
    "fbref_id": "8ff07990",
    "season": 2018,
-   "distance": 2.406,
+   "distance": 2.343,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Mario Balotelli",
    "squad": "Nice"
   },
   {
-   "fbref_id": "21a66f6a",
-   "season": 2019,
-   "distance": 2.544,
+   "fbref_id": "bc6bd723",
+   "season": 2018,
+   "distance": 2.343,
    "survived": 1,
-   "fut_ability_v2": 78.3,
-   "player_name": "Harry Kane",
-   "squad": "Tottenham"
+   "fut_ability_v2": 73.6,
+   "player_name": "Alassane Pléa",
+   "squad": "Nice"
   },
   {
    "fbref_id": "df69b544",
    "season": 2018,
-   "distance": 2.569,
+   "distance": 2.508,
    "survived": 1,
    "fut_ability_v2": 68.8,
    "player_name": "Antoine Griezmann",
    "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2019,
+   "distance": 2.514,
+   "survived": 1,
+   "fut_ability_v2": 78.3,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
   },
   {
    "fbref_id": "bc6bd723",
@@ -121,20 +130,11 @@
   {
    "fbref_id": "c691bfe2",
    "season": 2019,
-   "distance": 2.586,
+   "distance": 2.584,
    "survived": 1,
    "fut_ability_v2": 79.5,
    "player_name": "Sadio Mané",
    "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "39583cfd",
-   "season": 2019,
-   "distance": 2.76,
-   "survived": 1,
-   "fut_ability_v2": 73.7,
-   "player_name": "Gerard Deulofeu",
-   "squad": "Watford"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Julián Álvarez(FW)의 현재 능력 점수는 71.7점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 유효슈팅, 무페널티 득점, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 박스 터치이다.",
-  "potential": "Julián Álvarez의 2~3년 후 예측 중심값은 66.2점, 80% 구간 상단은 75.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 91.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Julián Álvarez의 2~3년 후 예측 중심값은 65.3점, 80% 구간 상단은 74.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 89.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

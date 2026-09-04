@@ -32,42 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9616,
-  "mu": 62.3,
+  "survival_prob": 0.9352,
+  "mu": 58.9,
   "ci80": {
-   "lo": 51.7,
-   "hi": 72.9
+   "lo": 48.6,
+   "hi": 69.5
   },
   "ci50": {
-   "lo": 56.7,
-   "hi": 67.8
+   "lo": 53.5,
+   "hi": 64.5
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
-   "fbref_id": "ca8033cb",
-   "season": 2020,
-   "distance": 1.459,
-   "survived": 1,
-   "fut_ability_v2": 56.5,
-   "player_name": "Lukas Klostermann",
-   "squad": "RB Leipzig"
-  },
-  {
    "fbref_id": "ea6bc03a",
    "season": 2020,
-   "distance": 1.471,
+   "distance": 1.444,
    "survived": 1,
    "fut_ability_v2": 46.7,
    "player_name": "Robin Koch",
    "squad": "Freiburg"
   },
   {
+   "fbref_id": "ca8033cb",
+   "season": 2020,
+   "distance": 1.476,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Lukas Klostermann",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "b3af9be1",
+   "season": 2021,
+   "distance": 1.581,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Takehiro Tomiyasu",
+   "squad": "Bologna"
+  },
+  {
    "fbref_id": "bd142efb",
    "season": 2018,
-   "distance": 1.572,
+   "distance": 1.628,
    "survived": 1,
    "fut_ability_v2": 68.6,
    "player_name": "Jonathan Tah",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "ad82197c",
    "season": 2020,
-   "distance": 1.582,
+   "distance": 1.66,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Axel Disasi",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "e34fc66d",
    "season": 2019,
-   "distance": 1.639,
+   "distance": 1.699,
    "survived": 1,
    "fut_ability_v2": 61.5,
    "player_name": "Joachim Andersen",
@@ -94,47 +103,38 @@
   {
    "fbref_id": "00242715",
    "season": 2020,
-   "distance": 1.736,
+   "distance": 1.737,
    "survived": 1,
    "fut_ability_v2": 60.2,
    "player_name": "Moussa Niakhate",
    "squad": "Mainz 05"
   },
   {
+   "fbref_id": "4d1666ff",
+   "season": 2022,
+   "distance": 1.799,
+   "survived": 1,
+   "fut_ability_v2": 64.6,
+   "player_name": "Jules Koundé",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "5aa53281",
    "season": 2020,
-   "distance": 1.909,
+   "distance": 1.877,
    "survived": 1,
    "fut_ability_v2": 53.1,
    "player_name": "Gianluca Mancini",
    "squad": "Roma"
   },
   {
-   "fbref_id": "45a03961",
-   "season": 2019,
-   "distance": 1.953,
-   "survived": 1,
-   "fut_ability_v2": 71.1,
-   "player_name": "Benjamin Pavard",
-   "squad": "Stuttgart"
-  },
-  {
    "fbref_id": "ca8033cb",
    "season": 2018,
-   "distance": 1.956,
+   "distance": 1.914,
    "survived": 1,
    "fut_ability_v2": 62.6,
    "player_name": "Lukas Klostermann",
    "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "67ac5bb8",
-   "season": 2020,
-   "distance": 1.985,
-   "survived": 1,
-   "fut_ability_v2": 57.1,
-   "player_name": "Gabriel Dos Santos",
-   "squad": "Lille"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Taylor Harwood-Bellis(DF)의 현재 능력 점수는 59.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 블록, 최종 3분의1 패스, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 태클+인터셉트이다.",
-  "potential": "Taylor Harwood-Bellis의 2~3년 후 예측 중심값은 62.3점, 80% 구간 상단은 72.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Taylor Harwood-Bellis의 2~3년 후 예측 중심값은 58.9점, 80% 구간 상단은 69.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

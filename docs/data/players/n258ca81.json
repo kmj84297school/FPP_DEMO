@@ -32,51 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3029,
-  "mu": 37.6,
+  "survival_prob": 0.281,
+  "mu": 34.2,
   "ci80": {
-   "lo": 25.8,
-   "hi": 49.4
+   "lo": 22.7,
+   "hi": 45.7
   },
   "ci50": {
-   "lo": 31.4,
-   "hi": 43.8
+   "lo": 28.2,
+   "hi": 40.3
   },
-  "sigma_model": 4.4,
+  "sigma_model": 4.1,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "9453d2f4",
    "season": 2019,
-   "distance": 2.082,
+   "distance": 2.072,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Baptiste Guillaume",
    "squad": "Nîmes"
   },
   {
+   "fbref_id": "46faabfa",
+   "season": 2022,
+   "distance": 2.19,
+   "survived": 1,
+   "fut_ability_v2": 49.3,
+   "player_name": "Ibrahima Niane",
+   "squad": "Metz"
+  },
+  {
    "fbref_id": "4c2e9442",
    "season": 2020,
-   "distance": 2.311,
+   "distance": 2.333,
    "survived": 1,
    "fut_ability_v2": 32.6,
    "player_name": "Maxi Gómez",
    "squad": "Valencia"
   },
   {
+   "fbref_id": "cc83b74d",
+   "season": 2021,
+   "distance": 2.343,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kasper Dolberg",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "4c2e9442",
+   "season": 2021,
+   "distance": 2.404,
+   "survived": 1,
+   "fut_ability_v2": 20.7,
+   "player_name": "Maxi Gómez",
+   "squad": "Valencia"
+  },
+  {
    "fbref_id": "06f33dc8",
    "season": 2019,
-   "distance": 2.412,
+   "distance": 2.45,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Enzo Crivelli",
    "squad": "Caen"
   },
   {
+   "fbref_id": "cc83b74d",
+   "season": 2022,
+   "distance": 2.563,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kasper Dolberg",
+   "squad": "Nice"
+  },
+  {
    "fbref_id": "bfae110f",
    "season": 2020,
-   "distance": 2.622,
+   "distance": 2.609,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Wesley Moraes",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "06f33dc8",
    "season": 2018,
-   "distance": 2.632,
+   "distance": 2.66,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Enzo Crivelli",
    "squad": "Angers / Caen"
   },
   {
-   "fbref_id": "3eaf8817",
-   "season": 2019,
-   "distance": 2.791,
+   "fbref_id": "57be54ec",
+   "season": 2021,
+   "distance": 2.723,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Lebo Mothiba",
-   "squad": "Strasbourg / Lille"
-  },
-  {
-   "fbref_id": "19ba6c6d",
-   "season": 2018,
-   "distance": 3.03,
-   "survived": 1,
-   "fut_ability_v2": 52.5,
-   "player_name": "Steve Mounié",
-   "squad": "Huddersfield"
-  },
-  {
-   "fbref_id": "04e17fd5",
-   "season": 2020,
-   "distance": 3.068,
-   "survived": 1,
-   "fut_ability_v2": 40.2,
-   "player_name": "Youssef En-Nesyri",
-   "squad": "Leganés / Sevilla"
-  },
-  {
-   "fbref_id": "0a447501",
-   "season": 2019,
-   "distance": 3.154,
-   "survived": 1,
-   "fut_ability_v2": 41.3,
-   "player_name": "Antonio Sanabria",
-   "squad": "Betis / Genoa"
-  },
-  {
-   "fbref_id": "3eaf8817",
-   "season": 2018,
-   "distance": 3.181,
-   "survived": 1,
-   "fut_ability_v2": 51.3,
-   "player_name": "Lebo Mothiba",
-   "squad": "Lille"
+   "player_name": "Asier Villalibre",
+   "squad": "Athletic Club"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Roberto Férnandez(FW)의 현재 능력 점수는 27.2점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 슈팅당 기대득점, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 패스 거리이다.",
-  "potential": "Roberto Férnandez의 2~3년 후 예측 중심값은 37.6점, 80% 구간 상단은 49.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 30.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Roberto Férnandez의 2~3년 후 예측 중심값은 34.2점, 80% 구간 상단은 45.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 28.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

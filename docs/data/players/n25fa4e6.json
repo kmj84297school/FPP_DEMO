@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5606,
+  "survival_prob": 0.548,
   "mu": 48.8,
   "ci80": {
    "lo": 39.5,
-   "hi": 57.9
+   "hi": 58.1
   },
   "ci50": {
    "lo": 43.9,
-   "hi": 53.6
+   "hi": 53.7
   },
   "sigma_model": 1.2,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "f2a68b97",
+   "season": 2022,
+   "distance": 1.454,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Carlos Akapo",
+   "squad": "Cádiz"
+  },
+  {
    "fbref_id": "5cec2487",
    "season": 2019,
-   "distance": 1.505,
+   "distance": 1.574,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Martín Montoya",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "7f9111ea",
    "season": 2018,
-   "distance": 1.698,
+   "distance": 1.747,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Steeve Yago",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "c20bdcd7",
    "season": 2020,
-   "distance": 1.805,
+   "distance": 1.823,
    "survived": 1,
    "fut_ability_v2": 56.6,
    "player_name": "Reinildo Mandava",
    "squad": "Lille"
   },
   {
+   "fbref_id": "c20bdcd7",
+   "season": 2022,
+   "distance": 1.862,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Reinildo Mandava",
+   "squad": "Lille / Atlético Madrid"
+  },
+  {
    "fbref_id": "321a71a7",
    "season": 2019,
-   "distance": 1.907,
+   "distance": 1.866,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Maxime Le Marchand",
    "squad": "Fulham"
   },
   {
-   "fbref_id": "2e3406ae",
-   "season": 2020,
-   "distance": 1.93,
+   "fbref_id": "c4b888df",
+   "season": 2022,
+   "distance": 1.868,
+   "survived": 1,
+   "fut_ability_v2": 33.9,
+   "player_name": "Isaac Carcelen",
+   "squad": "Cádiz"
+  },
+  {
+   "fbref_id": "ac8b2421",
+   "season": 2022,
+   "distance": 1.884,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Fran Gámez",
-   "squad": "Mallorca"
+   "player_name": "Helibelton Palacios",
+   "squad": "Elche"
+  },
+  {
+   "fbref_id": "c8d7131c",
+   "season": 2022,
+   "distance": 1.891,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Ridgeciano Haps",
+   "squad": "Venezia"
   },
   {
    "fbref_id": "ee923664",
-   "season": 2020,
-   "distance": 1.96,
-   "survived": 1,
-   "fut_ability_v2": 54.0,
-   "player_name": "Kevin Vázquez",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "8db394aa",
-   "season": 2019,
-   "distance": 1.968,
-   "survived": 1,
-   "fut_ability_v2": 40.6,
-   "player_name": "Ximo Navarro",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "e5d01ecf",
-   "season": 2019,
-   "distance": 1.994,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Kiko Femenía",
-   "squad": "Watford"
-  },
-  {
-   "fbref_id": "7af0e1f8",
-   "season": 2018,
-   "distance": 2.043,
+   "season": 2022,
+   "distance": 1.902,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Jonathan Rivierez",
-   "squad": "Metz"
-  },
-  {
-   "fbref_id": "feb5d3ab",
-   "season": 2020,
-   "distance": 2.064,
-   "survived": 1,
-   "fut_ability_v2": 41.5,
-   "player_name": "Dennis Appiah",
-   "squad": "Nantes"
+   "player_name": "Kevin Vázquez",
+   "squad": "Celta Vigo"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Viti(DF)의 현재 능력 점수는 51.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 전진 운반, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 최종 3분의1 패스이다.",
-  "potential": "Viti의 2~3년 후 예측 중심값은 48.8점, 80% 구간 상단은 57.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 56.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Viti의 2~3년 후 예측 중심값은 48.8점, 80% 구간 상단은 58.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

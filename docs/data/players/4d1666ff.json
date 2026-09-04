@@ -32,69 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.893,
-  "mu": 65.5,
+  "survival_prob": 0.8522,
+  "mu": 62.8,
   "ci80": {
-   "lo": 56.3,
-   "hi": 74.7
+   "lo": 53.6,
+   "hi": 72.0
   },
   "ci50": {
-   "lo": 60.7,
-   "hi": 70.3
+   "lo": 57.9,
+   "hi": 67.6
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a4b1028a",
    "season": 2019,
-   "distance": 1.449,
+   "distance": 1.488,
    "survived": 1,
    "fut_ability_v2": 67.5,
    "player_name": "Hamari Traoré",
    "squad": "Rennes"
   },
   {
+   "fbref_id": "be2706c0",
+   "season": 2022,
+   "distance": 1.752,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Mërgim Vojvoda",
+   "squad": "Torino"
+  },
+  {
    "fbref_id": "5f09991f",
    "season": 2019,
-   "distance": 1.787,
+   "distance": 1.864,
    "survived": 1,
    "fut_ability_v2": 55.2,
    "player_name": "Patrick van Aanholt",
    "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "4958bfb2",
-   "season": 2018,
-   "distance": 1.865,
-   "survived": 1,
-   "fut_ability_v2": 70.7,
-   "player_name": "Dani Carvajal",
-   "squad": "Real Madrid"
-  },
-  {
    "fbref_id": "30c220c3",
    "season": 2019,
-   "distance": 1.873,
+   "distance": 1.909,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mitchell Weiser",
    "squad": "Leverkusen"
   },
   {
-   "fbref_id": "01226327",
+   "fbref_id": "4958bfb2",
    "season": 2018,
-   "distance": 1.981,
+   "distance": 1.914,
    "survived": 1,
-   "fut_ability_v2": 50.2,
-   "player_name": "Ryan Bertrand",
-   "squad": "Southampton"
+   "fut_ability_v2": 70.7,
+   "player_name": "Dani Carvajal",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "197640fd",
+   "season": 2021,
+   "distance": 1.939,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Timothy Castagne",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "3935e52e",
+   "season": 2018,
+   "distance": 2.011,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Sead Kolašinac",
+   "squad": "Arsenal"
   },
   {
    "fbref_id": "a4b1028a",
    "season": 2020,
-   "distance": 1.99,
+   "distance": 2.021,
    "survived": 1,
    "fut_ability_v2": 66.3,
    "player_name": "Hamari Traoré",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "c2009df3",
    "season": 2018,
-   "distance": 2.008,
+   "distance": 2.026,
    "survived": 1,
    "fut_ability_v2": 58.5,
    "player_name": "Jonas Hector",
    "squad": "Köln"
   },
   {
-   "fbref_id": "3935e52e",
+   "fbref_id": "01226327",
    "season": 2018,
-   "distance": 2.041,
+   "distance": 2.037,
    "survived": 1,
-   "fut_ability_v2": 51.1,
-   "player_name": "Sead Kolašinac",
-   "squad": "Arsenal"
-  },
-  {
-   "fbref_id": "4958bfb2",
-   "season": 2020,
-   "distance": 2.16,
-   "survived": 1,
-   "fut_ability_v2": 58.9,
-   "player_name": "Dani Carvajal",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "f9acca3a",
-   "season": 2018,
-   "distance": 2.217,
-   "survived": 1,
-   "fut_ability_v2": 63.8,
-   "player_name": "Wendell",
-   "squad": "Leverkusen"
+   "fut_ability_v2": 50.2,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jules Koundé(DF)의 현재 능력 점수는 66.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 터치, 전진 패스 수신, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 볼 손실(미스+파울)이다.",
-  "potential": "Jules Koundé의 2~3년 후 예측 중심값은 65.5점, 80% 구간 상단은 74.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 89.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jules Koundé의 2~3년 후 예측 중심값은 62.8점, 80% 구간 상단은 72.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 85.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

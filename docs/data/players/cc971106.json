@@ -32,42 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.945,
-  "mu": 54.1,
+  "survival_prob": 0.8621,
+  "mu": 58.7,
   "ci80": {
-   "lo": 43.4,
-   "hi": 64.7
+   "lo": 48.3,
+   "hi": 69.1
   },
   "ci50": {
-   "lo": 48.4,
-   "hi": 59.7
+   "lo": 53.3,
+   "hi": 64.2
   },
-  "sigma_model": 2.2,
+  "sigma_model": 1.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "c1b7847c",
    "season": 2019,
-   "distance": 1.462,
+   "distance": 1.664,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Konrad Laimer",
    "squad": "RB Leipzig"
   },
   {
+   "fbref_id": "b5bb8188",
+   "season": 2022,
+   "distance": 2.037,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean Onana",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "8f056768",
+   "season": 2021,
+   "distance": 2.071,
+   "survived": 1,
+   "fut_ability_v2": 65.6,
+   "player_name": "Xaver Schlager",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "20b3a502",
+   "season": 2022,
+   "distance": 2.196,
+   "survived": 1,
+   "fut_ability_v2": 59.1,
+   "player_name": "Nicolás Domínguez",
+   "squad": "Bologna"
+  },
+  {
    "fbref_id": "8b04d6c1",
    "season": 2020,
-   "distance": 2.007,
+   "distance": 2.213,
    "survived": 1,
    "fut_ability_v2": 65.9,
    "player_name": "Pierre Højbjerg",
    "squad": "Southampton"
   },
   {
+   "fbref_id": "8449d35e",
+   "season": 2022,
+   "distance": 2.266,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Vitaly Janelt",
+   "squad": "Brentford"
+  },
+  {
+   "fbref_id": "e1df6989",
+   "season": 2022,
+   "distance": 2.282,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Imran Louza",
+   "squad": "Watford"
+  },
+  {
    "fbref_id": "a0666d3e",
    "season": 2019,
-   "distance": 2.127,
+   "distance": 2.293,
    "survived": 1,
    "fut_ability_v2": 50.4,
    "player_name": "Will Hughes",
@@ -76,65 +121,20 @@
   {
    "fbref_id": "e778654a",
    "season": 2020,
-   "distance": 2.178,
+   "distance": 2.343,
    "survived": 1,
    "fut_ability_v2": 52.9,
    "player_name": "Yangel Herrera",
    "squad": "Granada"
   },
   {
-   "fbref_id": "8f056768",
-   "season": 2020,
-   "distance": 2.29,
-   "survived": 1,
-   "fut_ability_v2": 52.7,
-   "player_name": "Xaver Schlager",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "0d10333c",
-   "season": 2018,
-   "distance": 2.311,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gabriel",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "ffbbc83b",
-   "season": 2018,
-   "distance": 2.339,
-   "survived": 1,
-   "fut_ability_v2": 68.2,
-   "player_name": "Florian Grillitsch",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "8b04d6c1",
-   "season": 2019,
-   "distance": 2.368,
-   "survived": 1,
-   "fut_ability_v2": 65.5,
-   "player_name": "Pierre Højbjerg",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "4c6facae",
-   "season": 2020,
+   "fbref_id": "00242b75",
+   "season": 2022,
    "distance": 2.439,
    "survived": 1,
-   "fut_ability_v2": 53.1,
-   "player_name": "Djibril Sow",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "c1b7847c",
-   "season": 2020,
-   "distance": 2.482,
-   "survived": 1,
-   "fut_ability_v2": 63.7,
-   "player_name": "Konrad Laimer",
-   "squad": "RB Leipzig"
+   "fut_ability_v2": 49.1,
+   "player_name": "Leandro Barreiro Martins",
+   "squad": "Mainz 05"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Rocco Reitz(MF)의 현재 능력 점수는 57.2점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 클리어링, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 운반이다.",
-  "potential": "Rocco Reitz의 2~3년 후 예측 중심값은 54.1점, 80% 구간 상단은 64.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 94.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Rocco Reitz의 2~3년 후 예측 중심값은 58.7점, 80% 구간 상단은 69.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 86.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

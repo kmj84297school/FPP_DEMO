@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9426,
-  "mu": 60.5,
+  "survival_prob": 0.9573,
+  "mu": 62.7,
   "ci80": {
-   "lo": 49.7,
-   "hi": 71.2
+   "lo": 52.0,
+   "hi": 73.4
   },
   "ci50": {
-   "lo": 54.9,
-   "hi": 66.1
+   "lo": 57.0,
+   "hi": 68.3
   },
-  "sigma_model": 2.3,
+  "sigma_model": 2.5,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "2c44a35d",
+   "season": 2022,
+   "distance": 2.309,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emmanuel Dennis",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "2374aaca",
+   "season": 2022,
+   "distance": 2.361,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Nicolás González",
+   "squad": "Fiorentina"
+  },
+  {
    "fbref_id": "57e3f0c7",
    "season": 2018,
-   "distance": 2.619,
+   "distance": 2.65,
    "survived": 1,
    "fut_ability_v2": 57.9,
    "player_name": "Nicolas Pépé",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "fa031b34",
    "season": 2020,
-   "distance": 2.758,
+   "distance": 2.77,
    "survived": 1,
    "fut_ability_v2": 49.4,
    "player_name": "Richarlison",
    "squad": "Everton"
   },
   {
+   "fbref_id": "fa031b34",
+   "season": 2021,
+   "distance": 2.845,
+   "survived": 1,
+   "fut_ability_v2": 64.3,
+   "player_name": "Richarlison",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "0c61c77c",
+   "season": 2021,
+   "distance": 2.899,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Dodi Lukebakio",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "2d22cea7",
+   "season": 2022,
+   "distance": 3.051,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Armand Lauriente",
+   "squad": "Lorient"
+  },
+  {
+   "fbref_id": "0562b7f1",
+   "season": 2022,
+   "distance": 3.076,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Odsonne Édouard",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "f586779e",
+   "season": 2022,
+   "distance": 3.12,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Tammy Abraham",
+   "squad": "Roma"
+  },
+  {
    "fbref_id": "53a0e358",
    "season": 2019,
-   "distance": 3.068,
+   "distance": 3.146,
    "survived": 1,
    "fut_ability_v2": 77.6,
    "player_name": "Domenico Berardi",
    "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "178ae8f8",
-   "season": 2020,
-   "distance": 3.153,
-   "survived": 1,
-   "fut_ability_v2": 81.2,
-   "player_name": "Diogo Jota",
-   "squad": "Wolves"
-  },
-  {
-   "fbref_id": "2054d037",
-   "season": 2019,
-   "distance": 3.422,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "M'Baye Niang",
-   "squad": "Rennes"
-  },
-  {
-   "fbref_id": "d705ba44",
-   "season": 2018,
-   "distance": 3.427,
-   "survived": 1,
-   "fut_ability_v2": 62.8,
-   "player_name": "Andrea Belotti",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "e5a35ae9",
-   "season": 2019,
-   "distance": 3.501,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luca Waldschmidt",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "3effaa34",
-   "season": 2019,
-   "distance": 3.505,
-   "survived": 1,
-   "fut_ability_v2": 67.2,
-   "player_name": "André Silva",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "62437b4f",
-   "season": 2019,
-   "distance": 3.532,
-   "survived": 1,
-   "fut_ability_v2": 58.2,
-   "player_name": "Ignacio Pussetto",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "2054d037",
-   "season": 2018,
-   "distance": 3.603,
-   "survived": 1,
-   "fut_ability_v2": 38.0,
-   "player_name": "M'Baye Niang",
-   "squad": "Torino"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Evann Guessand(FW)의 현재 능력 점수는 67.7점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 골 창출(GCA), 어시스트, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 패스 거리이다.",
-  "potential": "Evann Guessand의 2~3년 후 예측 중심값은 60.5점, 80% 구간 상단은 71.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 94.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Evann Guessand의 2~3년 후 예측 중심값은 62.7점, 80% 구간 상단은 73.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

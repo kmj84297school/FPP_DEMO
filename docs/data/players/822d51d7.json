@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7873,
-  "mu": 60.2,
+  "survival_prob": 0.8002,
+  "mu": 58.4,
   "ci80": {
-   "lo": 50.7,
-   "hi": 69.9
+   "lo": 49.0,
+   "hi": 67.8
   },
   "ci50": {
-   "lo": 55.3,
-   "hi": 65.3
+   "lo": 53.4,
+   "hi": 63.3
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "19c36442",
+   "season": 2022,
+   "distance": 1.727,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Luis Milla",
+   "squad": "Granada"
+  },
+  {
    "fbref_id": "3eb0f2df",
    "season": 2018,
-   "distance": 1.818,
+   "distance": 1.814,
    "survived": 1,
    "fut_ability_v2": 55.0,
    "player_name": "Vladimír Darida",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "963829d0",
    "season": 2018,
-   "distance": 1.84,
+   "distance": 1.861,
    "survived": 1,
    "fut_ability_v2": 59.3,
    "player_name": "Manu Trigueros",
    "squad": "Villarreal"
   },
   {
-   "fbref_id": "0f9b8301",
-   "season": 2020,
-   "distance": 1.925,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Cristian Battocchio",
-   "squad": "Brest"
-  },
-  {
    "fbref_id": "963829d0",
    "season": 2019,
-   "distance": 1.931,
+   "distance": 1.865,
    "survived": 1,
    "fut_ability_v2": 59.5,
    "player_name": "Manu Trigueros",
    "squad": "Villarreal"
   },
   {
+   "fbref_id": "0f9b8301",
+   "season": 2020,
+   "distance": 1.876,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Battocchio",
+   "squad": "Brest"
+  },
+  {
    "fbref_id": "5a1900a4",
    "season": 2018,
-   "distance": 1.942,
+   "distance": 1.925,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Tom Carroll",
    "squad": "Swansea City"
   },
   {
-   "fbref_id": "fdd85f94",
-   "season": 2020,
-   "distance": 2.016,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Davy Pröpper",
-   "squad": "Brighton"
-  },
-  {
    "fbref_id": "468fdbad",
    "season": 2018,
-   "distance": 2.033,
+   "distance": 2.037,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jonas Martin",
    "squad": "Strasbourg"
   },
   {
-   "fbref_id": "98d2c2c4",
+   "fbref_id": "fdd85f94",
    "season": 2020,
-   "distance": 2.108,
-   "survived": 1,
-   "fut_ability_v2": 65.6,
-   "player_name": "Remo Freuler",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "4a56052c",
-   "season": 2020,
-   "distance": 2.128,
-   "survived": 1,
-   "fut_ability_v2": 63.9,
-   "player_name": "Jordan Veretout",
-   "squad": "Roma"
+   "distance": 2.065,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Davy Pröpper",
+   "squad": "Brighton"
   },
   {
    "fbref_id": "45db685d",
    "season": 2020,
-   "distance": 2.152,
+   "distance": 2.071,
    "survived": 1,
    "fut_ability_v2": 58.7,
    "player_name": "Jorginho",
    "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "80f36c88",
+   "season": 2018,
+   "distance": 2.074,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Sebastian Rudy",
+   "squad": "Bayern Munich"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Youssouf Fofana(MF)의 현재 능력 점수는 53.3점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 패스 거리, 전진 운반 거리, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 실책이다.",
-  "potential": "Youssouf Fofana의 2~3년 후 예측 중심값은 60.2점, 80% 구간 상단은 69.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 78.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Youssouf Fofana의 2~3년 후 예측 중심값은 58.4점, 80% 구간 상단은 67.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 80.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

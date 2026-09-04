@@ -1,4 +1,4 @@
-"""2023 스냅샷 행에 대해 fpp_train_matrix_v2.csv와 동일한 51피처를 재구성.
+"""대상 시즌 스냅샷 행에 대해 학습 행렬과 동일한 51피처를 재구성.
 
 원본 train_matrix_v2.csv 생성 스크립트는 handover에 포함되어 있지 않아,
 CLAUDE.md/HANDOVER_DETAIL.md에 문서화된 컬럼 정의와 실제 학습된 모델의

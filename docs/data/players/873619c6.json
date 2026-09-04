@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5389,
-  "mu": 52.2,
+  "survival_prob": 0.7108,
+  "mu": 52.5,
   "ci80": {
-   "lo": 40.9,
-   "hi": 63.6
+   "lo": 41.5,
+   "hi": 63.7
   },
   "ci50": {
-   "lo": 46.3,
-   "hi": 58.2
+   "lo": 46.7,
+   "hi": 58.4
   },
-  "sigma_model": 3.6,
+  "sigma_model": 3.3,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "061e8e23",
    "season": 2018,
-   "distance": 2.184,
+   "distance": 2.156,
    "survived": 1,
    "fut_ability_v2": 51.0,
    "player_name": "Maximilian Philipp",
@@ -58,16 +58,61 @@
   {
    "fbref_id": "0a447501",
    "season": 2020,
-   "distance": 2.311,
+   "distance": 2.323,
    "survived": 1,
    "fut_ability_v2": 41.5,
    "player_name": "Antonio Sanabria",
    "squad": "Genoa"
   },
   {
+   "fbref_id": "8790f988",
+   "season": 2022,
+   "distance": 2.524,
+   "survived": 1,
+   "fut_ability_v2": 70.3,
+   "player_name": "Gianluca Scamacca",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "be47b750",
+   "season": 2021,
+   "distance": 2.629,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Banza",
+   "squad": "Lens"
+  },
+  {
+   "fbref_id": "2077ae86",
+   "season": 2022,
+   "distance": 2.648,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Jonas Wind",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "0c61c77c",
+   "season": 2021,
+   "distance": 2.672,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Dodi Lukebakio",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "0562b7f1",
+   "season": 2022,
+   "distance": 2.675,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Odsonne Édouard",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "e5a35ae9",
    "season": 2019,
-   "distance": 2.646,
+   "distance": 2.676,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luca Waldschmidt",
@@ -76,7 +121,7 @@
   {
    "fbref_id": "5d4f7d61",
    "season": 2019,
-   "distance": 2.8,
+   "distance": 2.785,
    "survived": 1,
    "fut_ability_v2": 59.7,
    "player_name": "Patrik Schick",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "0b90bb97",
    "season": 2020,
-   "distance": 2.855,
+   "distance": 2.875,
    "survived": 1,
    "fut_ability_v2": 42.9,
    "player_name": "Santi Mina",
    "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "3eaf8817",
-   "season": 2020,
-   "distance": 2.976,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lebo Mothiba",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "8696bc90",
-   "season": 2020,
-   "distance": 3.189,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Munir El Haddadi",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "3effaa34",
-   "season": 2019,
-   "distance": 3.23,
-   "survived": 1,
-   "fut_ability_v2": 67.2,
-   "player_name": "André Silva",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "8696bc90",
-   "season": 2019,
-   "distance": 3.316,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Munir El Haddadi",
-   "squad": "Sevilla / Barcelona"
-  },
-  {
-   "fbref_id": "d705ba44",
-   "season": 2018,
-   "distance": 3.355,
-   "survived": 1,
-   "fut_ability_v2": 62.8,
-   "player_name": "Andrea Belotti",
-   "squad": "Torino"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Sergio Camello(FW)의 현재 능력 점수는 55.7점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 패스 성공률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 박스 터치이다.",
-  "potential": "Sergio Camello의 2~3년 후 예측 중심값은 52.2점, 80% 구간 상단은 63.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 53.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Sergio Camello의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 63.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 71.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

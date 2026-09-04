@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4418,
-  "mu": 44.1,
+  "survival_prob": 0.4106,
+  "mu": 45.2,
   "ci80": {
-   "lo": 34.3,
-   "hi": 53.9
+   "lo": 35.5,
+   "hi": 54.9
   },
   "ci50": {
-   "lo": 38.9,
-   "hi": 49.2
+   "lo": 40.1,
+   "hi": 50.4
   },
-  "sigma_model": 2.9,
-  "sigma_residual": 7.0
+  "sigma_model": 2.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "63b0ca6b",
+   "season": 2022,
+   "distance": 2.804,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro Negredo",
+   "squad": "Cádiz"
+  },
+  {
    "fbref_id": "f2f29dda",
    "season": 2018,
-   "distance": 2.828,
+   "distance": 2.807,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Glenn Murray",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "220c11f1",
    "season": 2019,
-   "distance": 2.938,
+   "distance": 2.9,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cristhian Stuani",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "71a20ce8",
    "season": 2019,
-   "distance": 2.942,
+   "distance": 2.922,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Gómez",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "f2f29dda",
    "season": 2019,
-   "distance": 2.975,
+   "distance": 2.959,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Glenn Murray",
@@ -84,8 +93,26 @@
   },
   {
    "fbref_id": "34e4343c",
+   "season": 2022,
+   "distance": 3.11,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Modeste",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "6265208f",
+   "season": 2022,
+   "distance": 3.141,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Joselu",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "34e4343c",
    "season": 2020,
-   "distance": 3.289,
+   "distance": 3.281,
    "survived": 1,
    "fut_ability_v2": 53.1,
    "player_name": "Anthony Modeste",
@@ -93,48 +120,21 @@
   },
   {
    "fbref_id": "45963054",
-   "season": 2019,
-   "distance": 3.495,
-   "survived": 1,
-   "fut_ability_v2": 57.0,
+   "season": 2021,
+   "distance": 3.34,
+   "survived": 0,
+   "fut_ability_v2": null,
    "player_name": "Jamie Vardy",
    "squad": "Leicester City"
   },
   {
-   "fbref_id": "71a20ce8",
-   "season": 2018,
-   "distance": 3.682,
+   "fbref_id": "63b0ca6b",
+   "season": 2021,
+   "distance": 3.396,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Mario Gómez",
-   "squad": "Stuttgart / Wolfsburg"
-  },
-  {
-   "fbref_id": "b09a3ecc",
-   "season": 2019,
-   "distance": 3.801,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Daniel Ciofani",
-   "squad": "Frosinone"
-  },
-  {
-   "fbref_id": "45963054",
-   "season": 2020,
-   "distance": 3.893,
-   "survived": 1,
-   "fut_ability_v2": 58.3,
-   "player_name": "Jamie Vardy",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "c4b8bcf4",
-   "season": 2018,
-   "distance": 3.95,
-   "survived": 1,
-   "fut_ability_v2": 31.5,
-   "player_name": "Charles",
-   "squad": "Eibar"
+   "player_name": "Álvaro Negredo",
+   "squad": "Cádiz"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Ante Budimir(FW)의 현재 능력 점수는 44.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 공중볼 승률, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 전진 패스이다.",
-  "potential": "Ante Budimir의 2~3년 후 예측 중심값은 44.1점, 80% 구간 상단은 53.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ante Budimir의 2~3년 후 예측 중심값은 45.2점, 80% 구간 상단은 54.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

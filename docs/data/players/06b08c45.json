@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8431,
-  "mu": 58.9,
+  "survival_prob": 0.8113,
+  "mu": 57.2,
   "ci80": {
-   "lo": 48.3,
-   "hi": 69.5
+   "lo": 46.7,
+   "hi": 67.7
   },
   "ci50": {
-   "lo": 53.4,
-   "hi": 64.5
+   "lo": 51.7,
+   "hi": 62.7
   },
   "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "46fa7204",
+   "season": 2022,
+   "distance": 1.67,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Agudelo",
+   "squad": "Spezia"
+  },
+  {
    "fbref_id": "3010aefb",
    "season": 2018,
-   "distance": 1.912,
+   "distance": 1.853,
    "survived": 1,
    "fut_ability_v2": 43.1,
    "player_name": "Marcus Coco",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "be5e1c4c",
    "season": 2020,
-   "distance": 2.171,
+   "distance": 2.237,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dawid Kownacki",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "3010aefb",
    "season": 2019,
-   "distance": 2.275,
+   "distance": 2.283,
    "survived": 1,
    "fut_ability_v2": 44.4,
    "player_name": "Marcus Coco",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "c9e39d91",
    "season": 2020,
-   "distance": 2.305,
+   "distance": 2.319,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Brais Méndez",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "bf075f6b",
    "season": 2020,
-   "distance": 2.396,
+   "distance": 2.419,
    "survived": 1,
    "fut_ability_v2": 60.8,
    "player_name": "Roland Sallai",
    "squad": "Freiburg"
   },
   {
-   "fbref_id": "70678132",
-   "season": 2019,
-   "distance": 2.51,
-   "survived": 1,
-   "fut_ability_v2": 55.9,
-   "player_name": "Eduard Löwen",
-   "squad": "Nürnberg"
-  },
-  {
    "fbref_id": "16daec92",
    "season": 2018,
-   "distance": 2.513,
+   "distance": 2.455,
    "survived": 1,
    "fut_ability_v2": 49.1,
    "player_name": "Mijat Gaćinović",
    "squad": "Eint Frankfurt"
   },
   {
-   "fbref_id": "e14ec482",
-   "season": 2019,
-   "distance": 2.515,
-   "survived": 1,
-   "fut_ability_v2": 61.5,
-   "player_name": "Riccardo Orsolini",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "f3b1d9a2",
-   "season": 2019,
-   "distance": 2.585,
+   "fbref_id": "6c17e046",
+   "season": 2021,
+   "distance": 2.528,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Amath",
-   "squad": "Getafe"
+   "player_name": "Tyler Roberts",
+   "squad": "Leeds United"
   },
   {
-   "fbref_id": "c6dc9ecd",
-   "season": 2020,
-   "distance": 2.588,
+   "fbref_id": "215f3907",
+   "season": 2021,
+   "distance": 2.536,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Harry Wilson",
-   "squad": "Bournemouth"
+   "player_name": "Mikkel Damsgaard",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "2b7c56b4",
+   "season": 2021,
+   "distance": 2.543,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateo Klimowicz",
+   "squad": "Stuttgart"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Jacopo Fazzini(MF)의 현재 능력 점수는 54.2점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 성공 드리블, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 전진 패스 거리이다.",
-  "potential": "Jacopo Fazzini의 2~3년 후 예측 중심값은 58.9점, 80% 구간 상단은 69.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 84.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jacopo Fazzini의 2~3년 후 예측 중심값은 57.2점, 80% 구간 상단은 67.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 81.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

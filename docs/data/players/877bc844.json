@@ -32,42 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1526,
-  "mu": 43.8,
+  "survival_prob": 0.1513,
+  "mu": 43.1,
   "ci80": {
-   "lo": 34.3,
-   "hi": 53.5
+   "lo": 33.5,
+   "hi": 52.6
   },
   "ci50": {
-   "lo": 38.8,
-   "hi": 48.9
+   "lo": 38.0,
+   "hi": 48.1
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 2.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "6265208f",
+   "season": 2022,
+   "distance": 1.335,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Joselu",
+   "squad": "Alavés"
+  },
+  {
    "fbref_id": "d520120b",
    "season": 2019,
-   "distance": 1.637,
+   "distance": 1.657,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Júlio Tavares",
    "squad": "Dijon"
+  },
+  {
+   "fbref_id": "405f6586",
+   "season": 2022,
+   "distance": 1.89,
+   "survived": 1,
+   "fut_ability_v2": 30.0,
+   "player_name": "Milan Đurić",
+   "squad": "Salernitana"
+  },
+  {
+   "fbref_id": "6265208f",
+   "season": 2021,
+   "distance": 1.899,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Joselu",
+   "squad": "Alavés"
   },
   {
    "fbref_id": "d520120b",
    "season": 2020,
-   "distance": 2.131,
+   "distance": 2.149,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Júlio Tavares",
    "squad": "Dijon"
   },
   {
+   "fbref_id": "e21042ae",
+   "season": 2021,
+   "distance": 2.158,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabian Klos",
+   "squad": "Arminia"
+  },
+  {
    "fbref_id": "71a20ce8",
    "season": 2019,
-   "distance": 2.227,
+   "distance": 2.244,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Gómez",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "d37b0350",
    "season": 2019,
-   "distance": 2.482,
+   "distance": 2.461,
    "survived": 1,
    "fut_ability_v2": 43.8,
    "player_name": "Leonardo Pavoletti",
    "squad": "Cagliari"
   },
   {
-   "fbref_id": "02319ad7",
-   "season": 2020,
-   "distance": 2.555,
+   "fbref_id": "3745e8bd",
+   "season": 2022,
+   "distance": 2.461,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Jaime Mata",
-   "squad": "Getafe"
-  },
-  {
-   "fbref_id": "6265208f",
-   "season": 2020,
-   "distance": 2.625,
-   "survived": 1,
-   "fut_ability_v2": 45.7,
-   "player_name": "Joselu",
-   "squad": "Alavés"
+   "player_name": "Sebastian Polter",
+   "squad": "Bochum"
   },
   {
    "fbref_id": "2ec0f902",
    "season": 2019,
-   "distance": 2.631,
+   "distance": 2.575,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Riccardo Meggiorini",
    "squad": "Chievo"
-  },
-  {
-   "fbref_id": "f2f29dda",
-   "season": 2018,
-   "distance": 2.647,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Glenn Murray",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "71a20ce8",
-   "season": 2018,
-   "distance": 2.722,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mario Gómez",
-   "squad": "Stuttgart / Wolfsburg"
-  },
-  {
-   "fbref_id": "f93e6e94",
-   "season": 2020,
-   "distance": 2.782,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Nils Petersen",
-   "squad": "Freiburg"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Philipp Hofmann(FW)의 현재 능력 점수는 42.1점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 공중볼 승률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
-  "potential": "Philipp Hofmann의 2~3년 후 예측 중심값은 43.8점, 80% 구간 상단은 53.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 15.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Philipp Hofmann의 2~3년 후 예측 중심값은 43.1점, 80% 구간 상단은 52.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 15.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

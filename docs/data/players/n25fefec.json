@@ -32,112 +32,112 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.741,
-  "mu": 57.0,
+  "survival_prob": 0.5944,
+  "mu": 57.4,
   "ci80": {
-   "lo": 46.4,
-   "hi": 67.6
+   "lo": 47.1,
+   "hi": 68.0
   },
   "ci50": {
-   "lo": 51.4,
-   "hi": 62.6
+   "lo": 52.0,
+   "hi": 63.0
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
-   "fbref_id": "130a7a3f",
-   "season": 2019,
-   "distance": 3.021,
-   "survived": 1,
-   "fut_ability_v2": 52.2,
-   "player_name": "Samu Castillejo",
-   "squad": "Milan"
+   "fbref_id": "46fa7204",
+   "season": 2021,
+   "distance": 2.811,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Agudelo",
+   "squad": "Spezia"
   },
   {
    "fbref_id": "beb391dd",
    "season": 2020,
-   "distance": 3.025,
+   "distance": 3.116,
    "survived": 1,
    "fut_ability_v2": 44.2,
    "player_name": "Maxwel Cornet",
    "squad": "Lyon"
   },
   {
+   "fbref_id": "130a7a3f",
+   "season": 2019,
+   "distance": 3.131,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Samu Castillejo",
+   "squad": "Milan"
+  },
+  {
    "fbref_id": "0be95d34",
    "season": 2020,
-   "distance": 3.035,
+   "distance": 3.165,
    "survived": 1,
    "fut_ability_v2": 56.8,
    "player_name": "Romain Del Castillo",
    "squad": "Rennes"
   },
   {
-   "fbref_id": "dc1c2fce",
-   "season": 2018,
-   "distance": 3.466,
-   "survived": 1,
-   "fut_ability_v2": 63.8,
-   "player_name": "Álex Berenguer",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "8696bc90",
-   "season": 2020,
-   "distance": 3.466,
+   "fbref_id": "77e39b04",
+   "season": 2022,
+   "distance": 3.206,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Munir El Haddadi",
-   "squad": "Sevilla"
+   "player_name": "Francisco Trincão",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "8b66d9cc",
+   "season": 2021,
+   "distance": 3.272,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yann Karamoh",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "2d22cea7",
+   "season": 2022,
+   "distance": 3.274,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Armand Lauriente",
+   "squad": "Lorient"
   },
   {
    "fbref_id": "1fca9171",
    "season": 2018,
-   "distance": 3.473,
+   "distance": 3.501,
    "survived": 1,
    "fut_ability_v2": 47.2,
    "player_name": "Federico Di Francesco",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "741418c3",
+   "fbref_id": "8696bc90",
    "season": 2020,
-   "distance": 3.5,
+   "distance": 3.508,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Alexis Claude-Maurice",
-   "squad": "Nice"
+   "player_name": "Munir El Haddadi",
+   "squad": "Sevilla"
   },
   {
    "fbref_id": "62437b4f",
    "season": 2019,
-   "distance": 3.512,
+   "distance": 3.59,
    "survived": 1,
    "fut_ability_v2": 58.2,
    "player_name": "Ignacio Pussetto",
    "squad": "Udinese"
-  },
-  {
-   "fbref_id": "81d3318f",
-   "season": 2018,
-   "distance": 3.563,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "François Kamano",
-   "squad": "Bordeaux"
-  },
-  {
-   "fbref_id": "90fcf472",
-   "season": 2019,
-   "distance": 3.648,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wesley Saïd",
-   "squad": "Dijon"
   }
  ],
- "low_confidence": false,
+ "low_confidence": true,
  "report": {
   "strengths": [
    {
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Alieu Fadera(FW)의 현재 능력 점수는 52.4점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 볼 리커버리, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 슈팅당 기대득점이다.",
-  "potential": "Alieu Fadera의 2~3년 후 예측 중심값은 57.0점, 80% 구간 상단은 67.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 74.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Alieu Fadera의 2~3년 후 예측 중심값은 57.4점, 80% 구간 상단은 68.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 59.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

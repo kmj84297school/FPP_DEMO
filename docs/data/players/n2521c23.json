@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8113,
-  "mu": 69.1,
+  "survival_prob": 0.7998,
+  "mu": 74.2,
   "ci80": {
-   "lo": 58.5,
-   "hi": 79.8
+   "lo": 63.5,
+   "hi": 84.9
   },
   "ci50": {
-   "lo": 63.6,
-   "hi": 74.8
+   "lo": 68.6,
+   "hi": 79.8
   },
-  "sigma_model": 2.2,
+  "sigma_model": 2.5,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "8f5e92a6",
+   "season": 2022,
+   "distance": 2.128,
+   "survived": 1,
+   "fut_ability_v2": 75.7,
+   "player_name": "Rodrygo",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "7111d552",
+   "season": 2021,
+   "distance": 2.381,
+   "survived": 1,
+   "fut_ability_v2": 78.8,
+   "player_name": "Vinicius Júnior",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "7ba2eaa9",
    "season": 2020,
-   "distance": 2.994,
+   "distance": 3.043,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pedro Neto",
@@ -58,86 +76,68 @@
   {
    "fbref_id": "8f5e92a6",
    "season": 2020,
-   "distance": 3.144,
+   "distance": 3.178,
    "survived": 1,
    "fut_ability_v2": 71.4,
    "player_name": "Rodrygo",
    "squad": "Real Madrid"
   },
   {
-   "fbref_id": "1bf33a9a",
-   "season": 2018,
-   "distance": 3.318,
+   "fbref_id": "8f5e92a6",
+   "season": 2021,
+   "distance": 3.33,
    "survived": 1,
-   "fut_ability_v2": 73.6,
-   "player_name": "Christian Pulisic",
-   "squad": "Dortmund"
+   "fut_ability_v2": 77.0,
+   "player_name": "Rodrygo",
+   "squad": "Real Madrid"
   },
   {
    "fbref_id": "1880614f",
    "season": 2018,
-   "distance": 3.358,
+   "distance": 3.336,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cengiz Ünder",
    "squad": "Roma"
   },
   {
+   "fbref_id": "ed1e53f3",
+   "season": 2021,
+   "distance": 3.427,
+   "survived": 1,
+   "fut_ability_v2": 82.5,
+   "player_name": "Phil Foden",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "1bf33a9a",
+   "season": 2018,
+   "distance": 3.437,
+   "survived": 1,
+   "fut_ability_v2": 73.6,
+   "player_name": "Christian Pulisic",
+   "squad": "Dortmund"
+  },
+  {
    "fbref_id": "20730eae",
    "season": 2020,
-   "distance": 3.438,
+   "distance": 3.473,
    "survived": 1,
    "fut_ability_v2": 73.5,
    "player_name": "Rafael Leão",
    "squad": "Milan"
   },
   {
-   "fbref_id": "1bf33a9a",
-   "season": 2020,
-   "distance": 3.702,
+   "fbref_id": "aad56ca3",
+   "season": 2021,
+   "distance": 3.577,
    "survived": 1,
-   "fut_ability_v2": 50.4,
-   "player_name": "Christian Pulisic",
-   "squad": "Chelsea"
-  },
-  {
-   "fbref_id": "7111d552",
-   "season": 2020,
-   "distance": 3.743,
-   "survived": 1,
-   "fut_ability_v2": 84.4,
-   "player_name": "Vinicius Júnior",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "706a60e1",
-   "season": 2019,
-   "distance": 3.814,
-   "survived": 1,
-   "fut_ability_v2": 57.3,
-   "player_name": "Myziane Maolida",
+   "fut_ability_v2": 63.5,
+   "player_name": "Amine Gouiri",
    "squad": "Nice"
-  },
-  {
-   "fbref_id": "8c3c640c",
-   "season": 2018,
-   "distance": 3.827,
-   "survived": 1,
-   "fut_ability_v2": 62.5,
-   "player_name": "Mikel Oyarzabal",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "2b16cb1a",
-   "season": 2018,
-   "distance": 3.914,
-   "survived": 1,
-   "fut_ability_v2": 55.8,
-   "player_name": "Allan Saint-Maximin",
-   "squad": "Nice / Monaco"
   }
  ],
- "low_confidence": true,
+ "low_confidence": false,
  "report": {
   "strengths": [
    {
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Malick Fofana(FW)의 현재 능력 점수는 69.5점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 전진 운반 거리, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 비페널티 xG이다.",
-  "potential": "Malick Fofana의 2~3년 후 예측 중심값은 69.1점, 80% 구간 상단은 79.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 81.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Malick Fofana의 2~3년 후 예측 중심값은 74.2점, 80% 구간 상단은 84.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 80.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

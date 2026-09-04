@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4866,
-  "mu": 53.5,
+  "survival_prob": 0.4375,
+  "mu": 48.6,
   "ci80": {
-   "lo": 42.8,
-   "hi": 64.2
+   "lo": 37.9,
+   "hi": 59.1
   },
   "ci50": {
-   "lo": 47.9,
-   "hi": 59.2
+   "lo": 43.0,
+   "hi": 54.0
   },
-  "sigma_model": 2.3,
+  "sigma_model": 2.0,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "fba81826",
    "season": 2019,
-   "distance": 2.655,
+   "distance": 2.606,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Federico Mattiello",
    "squad": "Bologna"
   },
   {
+   "fbref_id": "6aa3e78b",
+   "season": 2022,
+   "distance": 2.763,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Sessegnon",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "71dc23da",
+   "season": 2021,
+   "distance": 2.799,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paolo Ghiglione",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "82598b71",
+   "season": 2022,
+   "distance": 2.877,
+   "survived": 1,
+   "fut_ability_v2": 42.3,
+   "player_name": "Nadir Zortea",
+   "squad": "Salernitana"
+  },
+  {
+   "fbref_id": "23610943",
+   "season": 2021,
+   "distance": 2.978,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Nahuel Molina",
+   "squad": "Udinese"
+  },
+  {
    "fbref_id": "f9acf8bf",
    "season": 2020,
-   "distance": 2.994,
+   "distance": 2.983,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Joan Sastre Vanrell",
@@ -67,74 +103,38 @@
   {
    "fbref_id": "71dc23da",
    "season": 2020,
-   "distance": 3.001,
+   "distance": 3.02,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Paolo Ghiglione",
    "squad": "Genoa"
   },
   {
+   "fbref_id": "30941e96",
+   "season": 2021,
+   "distance": 3.026,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Angeliño",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "30c220c3",
    "season": 2018,
-   "distance": 3.032,
+   "distance": 3.1,
    "survived": 1,
    "fut_ability_v2": 65.7,
    "player_name": "Mitchell Weiser",
    "squad": "Hertha BSC"
   },
   {
-   "fbref_id": "ff98492b",
-   "season": 2020,
-   "distance": 3.069,
+   "fbref_id": "1ac232b8",
+   "season": 2021,
+   "distance": 3.108,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Robert Skov",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "63f04c6c",
-   "season": 2019,
-   "distance": 3.183,
-   "survived": 1,
-   "fut_ability_v2": 58.3,
-   "player_name": "Alfonso Pedraza",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "2f3e911a",
-   "season": 2020,
-   "distance": 3.22,
-   "survived": 1,
-   "fut_ability_v2": 49.1,
-   "player_name": "Aarón Martín",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "e514ab62",
-   "season": 2019,
-   "distance": 3.245,
-   "survived": 1,
-   "fut_ability_v2": 60.7,
-   "player_name": "Matt Targett",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "a55d8df5",
-   "season": 2020,
-   "distance": 3.337,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aitor Ruibal",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "016ff750",
-   "season": 2019,
-   "distance": 3.349,
-   "survived": 1,
-   "fut_ability_v2": 49.7,
-   "player_name": "Valentino Lazaro",
-   "squad": "Hertha BSC"
+   "player_name": "Simone Bastoni",
+   "squad": "Spezia"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jakub Kamiński(DF)의 현재 능력 점수는 52.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 키패스, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 태클 성공률이다.",
-  "potential": "Jakub Kamiński의 2~3년 후 예측 중심값은 53.5점, 80% 구간 상단은 64.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 48.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jakub Kamiński의 2~3년 후 예측 중심값은 48.6점, 80% 구간 상단은 59.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 43.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4081,
-  "mu": 41.3,
+  "survival_prob": 0.5872,
+  "mu": 41.7,
   "ci80": {
-   "lo": 32.0,
-   "hi": 50.6
+   "lo": 32.4,
+   "hi": 51.0
   },
   "ci50": {
-   "lo": 36.4,
-   "hi": 46.2
+   "lo": 36.8,
+   "hi": 46.6
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "29b61deb",
    "season": 2018,
-   "distance": 1.77,
+   "distance": 1.828,
    "survived": 1,
    "fut_ability_v2": 38.4,
    "player_name": "Pere Pons",
    "squad": "Girona"
   },
   {
+   "fbref_id": "f2dd9a21",
+   "season": 2021,
+   "distance": 1.904,
+   "survived": 1,
+   "fut_ability_v2": 27.4,
+   "player_name": "Carlos Gruezo",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "243f4a0b",
+   "season": 2019,
+   "distance": 1.971,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Otávio",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "2b1bed19",
+   "season": 2021,
+   "distance": 2.031,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Haris Belkebla",
+   "squad": "Brest"
+  },
+  {
    "fbref_id": "fdd85f94",
    "season": 2019,
-   "distance": 1.992,
+   "distance": 2.038,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Davy Pröpper",
@@ -67,25 +94,16 @@
   {
    "fbref_id": "29b61deb",
    "season": 2019,
-   "distance": 2.03,
+   "distance": 2.056,
    "survived": 1,
    "fut_ability_v2": 33.1,
    "player_name": "Pere Pons",
    "squad": "Girona"
   },
   {
-   "fbref_id": "243f4a0b",
-   "season": 2019,
-   "distance": 2.073,
-   "survived": 1,
-   "fut_ability_v2": 46.6,
-   "player_name": "Otávio",
-   "squad": "Bordeaux"
-  },
-  {
    "fbref_id": "0d2158d5",
    "season": 2019,
-   "distance": 2.124,
+   "distance": 2.11,
    "survived": 1,
    "fut_ability_v2": 40.5,
    "player_name": "Jordan Marié",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "2b1bed19",
    "season": 2020,
-   "distance": 2.195,
+   "distance": 2.122,
    "survived": 1,
    "fut_ability_v2": 48.1,
    "player_name": "Haris Belkebla",
    "squad": "Brest"
   },
   {
+   "fbref_id": "bbc19252",
+   "season": 2021,
+   "distance": 2.124,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mickael Malsa",
+   "squad": "Levante"
+  },
+  {
    "fbref_id": "0d2158d5",
    "season": 2018,
-   "distance": 2.235,
+   "distance": 2.173,
    "survived": 1,
    "fut_ability_v2": 40.5,
    "player_name": "Jordan Marié",
    "squad": "Dijon"
-  },
-  {
-   "fbref_id": "885b7aa7",
-   "season": 2020,
-   "distance": 2.404,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Didier Ibrahim Ndong",
-   "squad": "Dijon"
-  },
-  {
-   "fbref_id": "1598599e",
-   "season": 2019,
-   "distance": 2.529,
-   "survived": 1,
-   "fut_ability_v2": 41.6,
-   "player_name": "Nampalys Mendy",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "c75b6a02",
-   "season": 2018,
-   "distance": 2.574,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andrea Bertolacci",
-   "squad": "Genoa"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Antonio Blanco(MF)의 현재 능력 점수는 44.3점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 전진 패스 거리, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 슈팅당 기대득점이다.",
-  "potential": "Antonio Blanco의 2~3년 후 예측 중심값은 41.3점, 80% 구간 상단은 50.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Antonio Blanco의 2~3년 후 예측 중심값은 41.7점, 80% 구간 상단은 51.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

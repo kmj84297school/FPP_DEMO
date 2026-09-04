@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6501,
-  "mu": 52.7,
+  "survival_prob": 0.4375,
+  "mu": 52.0,
   "ci80": {
-   "lo": 43.2,
-   "hi": 62.2
+   "lo": 42.4,
+   "hi": 61.5
   },
   "ci50": {
-   "lo": 47.7,
-   "hi": 57.7
+   "lo": 46.9,
+   "hi": 57.0
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_model": 2.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "b825a650",
    "season": 2018,
-   "distance": 1.802,
+   "distance": 1.819,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Kevin Kampl",
    "squad": "RB Leipzig / Leverkusen"
   },
   {
+   "fbref_id": "58a9a4d9",
+   "season": 2021,
+   "distance": 1.901,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Óliver Torres",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "528492ea",
    "season": 2019,
-   "distance": 1.95,
+   "distance": 1.922,
    "survived": 1,
    "fut_ability_v2": 50.9,
    "player_name": "Alfred Duncan",
@@ -67,16 +76,25 @@
   {
    "fbref_id": "ef345601",
    "season": 2018,
-   "distance": 2.176,
+   "distance": 2.175,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Tana",
    "squad": "Las Palmas"
   },
   {
+   "fbref_id": "a167537f",
+   "season": 2021,
+   "distance": 2.292,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Julian Brandt",
+   "squad": "Dortmund"
+  },
+  {
    "fbref_id": "643b39a6",
    "season": 2018,
-   "distance": 2.215,
+   "distance": 2.315,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Emre Çolak",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "e5649a78",
    "season": 2020,
-   "distance": 2.437,
+   "distance": 2.405,
    "survived": 1,
    "fut_ability_v2": 59.2,
    "player_name": "Kevin Stöger",
    "squad": "Düsseldorf"
   },
   {
-   "fbref_id": "26f6dca8",
-   "season": 2020,
-   "distance": 2.484,
-   "survived": 1,
-   "fut_ability_v2": 62.4,
-   "player_name": "Manuel Lanzini",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "e7f4603c",
-   "season": 2018,
-   "distance": 2.505,
-   "survived": 1,
-   "fut_ability_v2": 49.6,
-   "player_name": "Borja García",
-   "squad": "Girona"
-  },
-  {
    "fbref_id": "909bce7f",
    "season": 2020,
-   "distance": 2.535,
+   "distance": 2.491,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jacopo Petriccione",
    "squad": "Lecce"
   },
   {
-   "fbref_id": "2306bfde",
-   "season": 2019,
-   "distance": 2.578,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rubén Pardo",
-   "squad": "Real Sociedad"
+   "fbref_id": "e7f4603c",
+   "season": 2018,
+   "distance": 2.508,
+   "survived": 1,
+   "fut_ability_v2": 49.6,
+   "player_name": "Borja García",
+   "squad": "Girona"
   },
   {
-   "fbref_id": "2903a856",
-   "season": 2019,
-   "distance": 2.644,
+   "fbref_id": "26f6dca8",
+   "season": 2020,
+   "distance": 2.53,
    "survived": 1,
-   "fut_ability_v2": 63.8,
-   "player_name": "Jonas Hofmann",
-   "squad": "M'Gladbach"
+   "fut_ability_v2": 62.4,
+   "player_name": "Manuel Lanzini",
+   "squad": "West Ham"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Domingos André Ribeiro Almeida(MF)의 현재 능력 점수는 60.7점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 슈팅 창출(SCA), 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Domingos André Ribeiro Almeida의 2~3년 후 예측 중심값은 52.7점, 80% 구간 상단은 62.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 65.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Domingos André Ribeiro Almeida의 2~3년 후 예측 중심값은 52.0점, 80% 구간 상단은 61.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 43.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

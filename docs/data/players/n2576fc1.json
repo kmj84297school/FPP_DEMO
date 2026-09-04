@@ -32,42 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5163,
-  "mu": 58.6,
+  "survival_prob": 0.5776,
+  "mu": 58.1,
   "ci80": {
-   "lo": 48.2,
-   "hi": 69.1
+   "lo": 47.7,
+   "hi": 68.4
   },
   "ci50": {
-   "lo": 53.2,
-   "hi": 64.2
+   "lo": 52.6,
+   "hi": 63.5
   },
-  "sigma_model": 1.4,
+  "sigma_model": 1.3,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "c3ee18ef",
    "season": 2019,
-   "distance": 1.772,
+   "distance": 1.704,
    "survived": 1,
    "fut_ability_v2": 72.7,
    "player_name": "Lucas Hernández",
    "squad": "Atlético Madrid"
   },
   {
-   "fbref_id": "fb77bfef",
-   "season": 2019,
-   "distance": 1.873,
-   "survived": 1,
-   "fut_ability_v2": 58.7,
-   "player_name": "Kevin Bonifazi",
-   "squad": "SPAL"
-  },
-  {
    "fbref_id": "f86cabbd",
    "season": 2020,
-   "distance": 1.892,
+   "distance": 1.842,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jordan Torunarigha",
@@ -76,65 +67,74 @@
   {
    "fbref_id": "15d0c248",
    "season": 2019,
-   "distance": 1.925,
+   "distance": 1.873,
    "survived": 1,
    "fut_ability_v2": 53.7,
    "player_name": "Luiz Felipe",
    "squad": "Lazio"
   },
   {
-   "fbref_id": "9f979eb2",
-   "season": 2018,
-   "distance": 2.058,
+   "fbref_id": "fb77bfef",
+   "season": 2019,
+   "distance": 1.879,
    "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Jorge Meré",
-   "squad": "Köln"
+   "fut_ability_v2": 58.7,
+   "player_name": "Kevin Bonifazi",
+   "squad": "SPAL"
   },
   {
    "fbref_id": "6ec6fde0",
    "season": 2018,
-   "distance": 2.071,
+   "distance": 1.983,
    "survived": 1,
    "fut_ability_v2": 49.5,
    "player_name": "Kevin Akpoguma",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "d61b3354",
-   "season": 2018,
-   "distance": 2.108,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wallace",
-   "squad": "Lazio"
+   "fbref_id": "ae7058f9",
+   "season": 2021,
+   "distance": 2.021,
+   "survived": 1,
+   "fut_ability_v2": 71.2,
+   "player_name": "Julian Chabot",
+   "squad": "Spezia"
   },
   {
-   "fbref_id": "283699b4",
-   "season": 2019,
-   "distance": 2.127,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jacob Rasmussen",
-   "squad": "Empoli"
+   "fbref_id": "2d61d13a",
+   "season": 2021,
+   "distance": 2.053,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Ozan Kabak",
+   "squad": "Schalke 04 / Liverpool"
+  },
+  {
+   "fbref_id": "9f979eb2",
+   "season": 2018,
+   "distance": 2.107,
+   "survived": 1,
+   "fut_ability_v2": 49.9,
+   "player_name": "Jorge Meré",
+   "squad": "Köln"
   },
   {
    "fbref_id": "7edfbb8a",
    "season": 2020,
-   "distance": 2.141,
+   "distance": 2.107,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Fikayo Tomori",
    "squad": "Chelsea"
   },
   {
-   "fbref_id": "a4e85758",
-   "season": 2020,
-   "distance": 2.179,
-   "survived": 1,
-   "fut_ability_v2": 58.3,
-   "player_name": "Igor",
-   "squad": "SPAL / Fiorentina"
+   "fbref_id": "d61b3354",
+   "season": 2018,
+   "distance": 2.119,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wallace",
+   "squad": "Lazio"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Max Rosenfelder(DF)의 현재 능력 점수는 58.9점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 성공 드리블, 태클 성공률, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 최종 3분의1 패스이다.",
-  "potential": "Max Rosenfelder의 2~3년 후 예측 중심값은 58.6점, 80% 구간 상단은 69.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 51.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Max Rosenfelder의 2~3년 후 예측 중심값은 58.1점, 80% 구간 상단은 68.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 57.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

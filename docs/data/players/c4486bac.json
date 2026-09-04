@@ -32,33 +32,42 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.9683,
-  "mu": 74.8,
+  "survival_prob": 0.9712,
+  "mu": 80.4,
   "ci80": {
-   "lo": 64.0,
-   "hi": 85.6
+   "lo": 69.5,
+   "hi": 91.3
   },
   "ci50": {
-   "lo": 69.1,
-   "hi": 80.5
+   "lo": 74.7,
+   "hi": 86.2
   },
-  "sigma_model": 2.6,
+  "sigma_model": 3.1,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "45b9b619",
    "season": 2019,
-   "distance": 3.54,
+   "distance": 3.464,
    "survived": 1,
    "fut_ability_v2": 73.6,
    "player_name": "Joaquín Correa",
    "squad": "Lazio"
   },
   {
+   "fbref_id": "7c56da38",
+   "season": 2022,
+   "distance": 4.244,
+   "survived": 1,
+   "fut_ability_v2": 74.2,
+   "player_name": "Christopher Nkunku",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "4e219ad2",
    "season": 2018,
-   "distance": 4.279,
+   "distance": 4.269,
    "survived": 1,
    "fut_ability_v2": 63.0,
    "player_name": "Suso",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "b400bde0",
    "season": 2019,
-   "distance": 4.455,
+   "distance": 4.387,
    "survived": 1,
    "fut_ability_v2": 78.2,
    "player_name": "Raheem Sterling",
@@ -76,16 +85,25 @@
   {
    "fbref_id": "cd0fa27b",
    "season": 2018,
-   "distance": 4.478,
+   "distance": 4.396,
    "survived": 1,
    "fut_ability_v2": 75.6,
    "player_name": "Hakan Çalhanoğlu",
    "squad": "Milan"
   },
   {
+   "fbref_id": "7111d552",
+   "season": 2022,
+   "distance": 4.705,
+   "survived": 1,
+   "fut_ability_v2": 77.9,
+   "player_name": "Vinicius Júnior",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "b19db005",
    "season": 2019,
-   "distance": 4.671,
+   "distance": 4.778,
    "survived": 1,
    "fut_ability_v2": 76.7,
    "player_name": "Ousmane Dembélé",
@@ -94,45 +112,27 @@
   {
    "fbref_id": "4737cebe",
    "season": 2018,
-   "distance": 4.966,
+   "distance": 4.916,
    "survived": 1,
    "fut_ability_v2": 68.4,
    "player_name": "Adnan Januzaj",
    "squad": "Real Sociedad"
   },
   {
+   "fbref_id": "f5c8b425",
+   "season": 2021,
+   "distance": 4.922,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Yusuf Yazıcı",
+   "squad": "Lille"
+  },
+  {
    "fbref_id": "2b114be3",
    "season": 2019,
-   "distance": 4.996,
+   "distance": 4.928,
    "survived": 1,
    "fut_ability_v2": 73.3,
-   "player_name": "Leroy Sané",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "b0b4fd3e",
-   "season": 2020,
-   "distance": 5.181,
-   "survived": 1,
-   "fut_ability_v2": 72.0,
-   "player_name": "Jack Grealish",
-   "squad": "Aston Villa"
-  },
-  {
-   "fbref_id": "b400bde0",
-   "season": 2018,
-   "distance": 5.3,
-   "survived": 1,
-   "fut_ability_v2": 79.0,
-   "player_name": "Raheem Sterling",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "2b114be3",
-   "season": 2018,
-   "distance": 5.339,
-   "survived": 1,
-   "fut_ability_v2": 67.3,
    "player_name": "Leroy Sané",
    "squad": "Manchester City"
   }
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Michael Olise(FW)의 현재 능력 점수는 91.5점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 박스 진입 패스, 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Michael Olise의 2~3년 후 예측 중심값은 74.8점, 80% 구간 상단은 85.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.8%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Michael Olise의 2~3년 후 예측 중심값은 80.4점, 80% 구간 상단은 91.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

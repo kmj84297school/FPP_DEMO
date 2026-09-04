@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9878,
-  "mu": 66.5,
+  "survival_prob": 0.9555,
+  "mu": 66.7,
   "ci80": {
-   "lo": 55.4,
+   "lo": 55.8,
    "hi": 77.4
   },
   "ci50": {
-   "lo": 60.7,
-   "hi": 72.2
+   "lo": 61.0,
+   "hi": 72.3
   },
-  "sigma_model": 3.0,
+  "sigma_model": 2.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "3eb22ec9",
    "season": 2018,
-   "distance": 2.661,
+   "distance": 2.561,
    "survived": 1,
    "fut_ability_v2": 75.9,
    "player_name": "Bernardo Silva",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "45af8a54",
    "season": 2019,
-   "distance": 2.903,
+   "distance": 2.823,
    "survived": 1,
    "fut_ability_v2": 69.6,
    "player_name": "Marco Asensio",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "b19db005",
+   "season": 2021,
+   "distance": 3.049,
+   "survived": 1,
+   "fut_ability_v2": 77.0,
+   "player_name": "Ousmane Dembélé",
+   "squad": "Barcelona"
+  },
+  {
    "fbref_id": "fd9c4805",
    "season": 2018,
-   "distance": 3.182,
+   "distance": 3.154,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pione Sisto",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "8b788c01",
    "season": 2019,
-   "distance": 3.316,
+   "distance": 3.29,
    "survived": 1,
    "fut_ability_v2": 66.9,
    "player_name": "Anthony Martial",
@@ -85,16 +94,25 @@
   {
    "fbref_id": "45b9b619",
    "season": 2019,
-   "distance": 3.388,
+   "distance": 3.372,
    "survived": 1,
    "fut_ability_v2": 73.6,
    "player_name": "Joaquín Correa",
    "squad": "Lazio"
   },
   {
+   "fbref_id": "130a7a3f",
+   "season": 2019,
+   "distance": 3.5,
+   "survived": 1,
+   "fut_ability_v2": 52.2,
+   "player_name": "Samu Castillejo",
+   "squad": "Milan"
+  },
+  {
    "fbref_id": "4e219ad2",
    "season": 2018,
-   "distance": 3.488,
+   "distance": 3.567,
    "survived": 1,
    "fut_ability_v2": 63.0,
    "player_name": "Suso",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "b0b4fd3e",
    "season": 2020,
-   "distance": 3.567,
+   "distance": 3.625,
    "survived": 1,
    "fut_ability_v2": 72.0,
    "player_name": "Jack Grealish",
    "squad": "Aston Villa"
   },
   {
-   "fbref_id": "130a7a3f",
-   "season": 2019,
-   "distance": 3.639,
-   "survived": 1,
-   "fut_ability_v2": 52.2,
-   "player_name": "Samu Castillejo",
-   "squad": "Milan"
-  },
-  {
    "fbref_id": "88e357ef",
    "season": 2018,
-   "distance": 3.907,
+   "distance": 3.843,
    "survived": 1,
    "fut_ability_v2": 76.4,
    "player_name": "Serge Gnabry",
    "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "ed90babd",
-   "season": 2020,
-   "distance": 4.004,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Adam Ounas",
-   "squad": "Nice"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Rodrygo(FW)의 현재 능력 점수는 74.4점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 패스 성공률, 전진 운반 거리, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Rodrygo의 2~3년 후 예측 중심값은 66.5점, 80% 구간 상단은 77.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Rodrygo의 2~3년 후 예측 중심값은 66.7점, 80% 구간 상단은 77.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

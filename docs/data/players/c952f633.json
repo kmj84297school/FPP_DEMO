@@ -32,51 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3807,
-  "mu": 55.2,
+  "survival_prob": 0.2806,
+  "mu": 53.3,
   "ci80": {
-   "lo": 45.9,
-   "hi": 64.5
+   "lo": 43.8,
+   "hi": 62.8
   },
   "ci50": {
-   "lo": 50.3,
-   "hi": 60.1
+   "lo": 48.3,
+   "hi": 58.3
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "e288d4b3",
-   "season": 2020,
-   "distance": 1.987,
+   "fbref_id": "3b333ac3",
+   "season": 2022,
+   "distance": 1.989,
    "survived": 1,
-   "fut_ability_v2": 56.4,
-   "player_name": "Alessandro Florenzi",
-   "squad": "Roma / Valencia"
+   "fut_ability_v2": 57.0,
+   "player_name": "Hans Hateboer",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "e28868f3",
+   "season": 2022,
+   "distance": 2.001,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonny Castro",
+   "squad": "Wolves"
   },
   {
    "fbref_id": "ad6295d4",
    "season": 2018,
-   "distance": 2.026,
+   "distance": 2.023,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Miguel Layún",
    "squad": "Sevilla"
   },
   {
+   "fbref_id": "e288d4b3",
+   "season": 2020,
+   "distance": 2.041,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Alessandro Florenzi",
+   "squad": "Roma / Valencia"
+  },
+  {
    "fbref_id": "9f323c71",
    "season": 2018,
-   "distance": 2.066,
+   "distance": 2.103,
    "survived": 1,
    "fut_ability_v2": 49.8,
    "player_name": "Óscar de Marcos",
    "squad": "Athletic Club"
   },
   {
+   "fbref_id": "be2706c0",
+   "season": 2022,
+   "distance": 2.106,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Mërgim Vojvoda",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "f4290206",
+   "season": 2021,
+   "distance": 2.109,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcos Alonso",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "ef5b337e",
    "season": 2018,
-   "distance": 2.143,
+   "distance": 2.179,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabio Borini",
@@ -85,7 +121,7 @@
   {
    "fbref_id": "58027adc",
    "season": 2020,
-   "distance": 2.196,
+   "distance": 2.234,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ladislav Krejčí",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "44eb9093",
    "season": 2020,
-   "distance": 2.34,
+   "distance": 2.263,
    "survived": 1,
    "fut_ability_v2": 54.9,
    "player_name": "Danilo D'Ambrosio",
    "squad": "Inter"
-  },
-  {
-   "fbref_id": "c56dc39e",
-   "season": 2019,
-   "distance": 2.363,
-   "survived": 1,
-   "fut_ability_v2": 65.8,
-   "player_name": "Rafael Tolói",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "852351df",
-   "season": 2018,
-   "distance": 2.376,
-   "survived": 1,
-   "fut_ability_v2": 53.4,
-   "player_name": "Bruno Peres",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "1f079188",
-   "season": 2020,
-   "distance": 2.411,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rubén Peña",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "5cec2487",
-   "season": 2020,
-   "distance": 2.42,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Martín Montoya",
-   "squad": "Brighton"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Ulisses Garcia(DF)의 현재 능력 점수는 61.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 골 창출(GCA), 전진 패스 수신, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 블록이다.",
-  "potential": "Ulisses Garcia의 2~3년 후 예측 중심값은 55.2점, 80% 구간 상단은 64.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 38.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ulisses Garcia의 2~3년 후 예측 중심값은 53.3점, 80% 구간 상단은 62.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

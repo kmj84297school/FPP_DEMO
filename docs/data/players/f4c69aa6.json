@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7677,
-  "mu": 55.9,
+  "survival_prob": 0.8465,
+  "mu": 52.8,
   "ci80": {
-   "lo": 45.2,
-   "hi": 66.7
+   "lo": 42.3,
+   "hi": 63.5
   },
   "ci50": {
-   "lo": 50.4,
-   "hi": 61.6
+   "lo": 47.4,
+   "hi": 58.4
   },
-  "sigma_model": 2.3,
+  "sigma_model": 2.1,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "52611641",
    "season": 2019,
-   "distance": 1.418,
+   "distance": 1.404,
    "survived": 1,
    "fut_ability_v2": 61.8,
    "player_name": "Lucas Torreira",
    "squad": "Arsenal"
   },
   {
+   "fbref_id": "e1df6989",
+   "season": 2021,
+   "distance": 1.466,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Imran Louza",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "3b1ed320",
+   "season": 2022,
+   "distance": 1.53,
+   "survived": 1,
+   "fut_ability_v2": 67.3,
+   "player_name": "Angelo Stiller",
+   "squad": "Hoffenheim"
+  },
+  {
    "fbref_id": "3bb625ac",
    "season": 2019,
-   "distance": 1.56,
+   "distance": 1.626,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Edimilson Fernandes",
    "squad": "Fiorentina"
   },
   {
+   "fbref_id": "4c6facae",
+   "season": 2020,
+   "distance": 1.637,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Djibril Sow",
+   "squad": "Eint Frankfurt"
+  },
+  {
    "fbref_id": "ffbbc83b",
    "season": 2018,
-   "distance": 1.658,
+   "distance": 1.639,
    "survived": 1,
    "fut_ability_v2": 68.2,
    "player_name": "Florian Grillitsch",
@@ -83,18 +110,18 @@
    "squad": "Juventus"
   },
   {
-   "fbref_id": "4c6facae",
-   "season": 2020,
-   "distance": 1.716,
+   "fbref_id": "bb376bed",
+   "season": 2022,
+   "distance": 1.769,
    "survived": 1,
-   "fut_ability_v2": 53.1,
-   "player_name": "Djibril Sow",
-   "squad": "Eint Frankfurt"
+   "fut_ability_v2": 59.7,
+   "player_name": "Ivan Ilić",
+   "squad": "Hellas Verona"
   },
   {
    "fbref_id": "0f8418aa",
    "season": 2019,
-   "distance": 1.725,
+   "distance": 1.827,
    "survived": 1,
    "fut_ability_v2": 57.1,
    "player_name": "Ibrahima Sissoko",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "75e60d75",
    "season": 2020,
-   "distance": 1.756,
+   "distance": 1.848,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ronaldo Vieira",
    "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "a10361d2",
-   "season": 2019,
-   "distance": 1.848,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aleix García",
-   "squad": "Girona"
-  },
-  {
-   "fbref_id": "8f056768",
-   "season": 2020,
-   "distance": 2.031,
-   "survived": 1,
-   "fut_ability_v2": 52.7,
-   "player_name": "Xaver Schlager",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "6f7d826d",
-   "season": 2020,
-   "distance": 2.039,
-   "survived": 1,
-   "fut_ability_v2": 51.4,
-   "player_name": "Douglas Luiz",
-   "squad": "Aston Villa"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Ilaix Moriba(MF)의 현재 능력 점수는 56.5점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클 성공률, 태클+인터셉트, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 볼 손실(미스+파울)이다.",
-  "potential": "Ilaix Moriba의 2~3년 후 예측 중심값은 55.9점, 80% 구간 상단은 66.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 76.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ilaix Moriba의 2~3년 후 예측 중심값은 52.8점, 80% 구간 상단은 63.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 84.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

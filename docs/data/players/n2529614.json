@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9414,
-  "mu": 63.5,
+  "survival_prob": 0.9048,
+  "mu": 59.7,
   "ci80": {
-   "lo": 52.8,
-   "hi": 74.1
+   "lo": 49.3,
+   "hi": 70.1
   },
   "ci50": {
-   "lo": 57.9,
-   "hi": 69.0
+   "lo": 54.2,
+   "hi": 65.2
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.4,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "ca3db240",
+   "season": 2021,
+   "distance": 2.003,
+   "survived": 1,
+   "fut_ability_v2": 49.3,
+   "player_name": "Gabriele Zappa",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "6aa3e78b",
+   "season": 2021,
+   "distance": 2.059,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Sessegnon",
+   "squad": "Hoffenheim"
+  },
+  {
    "fbref_id": "d2424d1b",
    "season": 2018,
-   "distance": 2.33,
+   "distance": 2.4,
    "survived": 1,
    "fut_ability_v2": 67.5,
    "player_name": "Ben Chilwell",
    "squad": "Leicester City"
   },
   {
+   "fbref_id": "ffacd3d5",
+   "season": 2022,
+   "distance": 2.476,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Sánchez",
+   "squad": "Osasuna"
+  },
+  {
    "fbref_id": "c1b7847c",
    "season": 2018,
-   "distance": 2.494,
+   "distance": 2.477,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Konrad Laimer",
@@ -67,74 +94,47 @@
   {
    "fbref_id": "5314e067",
    "season": 2019,
-   "distance": 2.625,
+   "distance": 2.5,
    "survived": 1,
    "fut_ability_v2": 54.4,
    "player_name": "Sofiane Alakouch",
    "squad": "Nîmes"
   },
   {
-   "fbref_id": "1265a93a",
-   "season": 2020,
-   "distance": 2.691,
+   "fbref_id": "5d0e0a1f",
+   "season": 2021,
+   "distance": 2.531,
    "survived": 1,
-   "fut_ability_v2": 65.6,
-   "player_name": "Reece James",
-   "squad": "Chelsea"
+   "fut_ability_v2": 65.1,
+   "player_name": "Adrien Truffert",
+   "squad": "Rennes"
   },
   {
-   "fbref_id": "3b61c9ec",
-   "season": 2020,
-   "distance": 2.808,
+   "fbref_id": "d56b9520",
+   "season": 2022,
+   "distance": 2.542,
    "survived": 1,
-   "fut_ability_v2": 53.1,
-   "player_name": "Luca Pellegrini",
-   "squad": "Cagliari"
+   "fut_ability_v2": 62.7,
+   "player_name": "Malo Gusto",
+   "squad": "Lyon"
   },
   {
-   "fbref_id": "27d0a506",
-   "season": 2019,
-   "distance": 2.817,
+   "fbref_id": "1ddbc7ca",
+   "season": 2022,
+   "distance": 2.583,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Melvin Bard",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "d9e196bf",
+   "season": 2021,
+   "distance": 2.585,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Pedro Porro",
-   "squad": "Girona"
-  },
-  {
-   "fbref_id": "b3af9be1",
-   "season": 2020,
-   "distance": 2.836,
-   "survived": 1,
-   "fut_ability_v2": 60.9,
-   "player_name": "Takehiro Tomiyasu",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "8bbe2df5",
-   "season": 2020,
-   "distance": 2.947,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Domagoj Bradarić",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "ac73ec79",
-   "season": 2019,
-   "distance": 3.001,
-   "survived": 1,
-   "fut_ability_v2": 63.7,
-   "player_name": "Nordi Mukiele",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "c77be0cf",
-   "season": 2019,
-   "distance": 3.008,
-   "survived": 1,
-   "fut_ability_v2": 43.1,
-   "player_name": "Pedro Pereira",
-   "squad": "Genoa"
+   "player_name": "Marco John",
+   "squad": "Hoffenheim"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Lewis Hall(DF)의 현재 능력 점수는 60.5점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 키패스, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 공중볼 승률이다.",
-  "potential": "Lewis Hall의 2~3년 후 예측 중심값은 63.5점, 80% 구간 상단은 74.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 94.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lewis Hall의 2~3년 후 예측 중심값은 59.7점, 80% 구간 상단은 70.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 90.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -29,112 +29,112 @@
   "eligible_for_prediction": true,
   "kind": "growth",
   "reason": null,
-  "out_of_validated_range": true
+  "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9832,
-  "mu": 67.8,
+  "survival_prob": 0.9678,
+  "mu": 71.7,
   "ci80": {
-   "lo": 57.0,
-   "hi": 78.7
+   "lo": 61.3,
+   "hi": 82.1
   },
   "ci50": {
-   "lo": 62.1,
-   "hi": 73.5
+   "lo": 66.2,
+   "hi": 77.2
   },
-  "sigma_model": 2.6,
+  "sigma_model": 1.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "a5db0bec",
    "season": 2018,
-   "distance": 2.876,
+   "distance": 3.022,
    "survived": 1,
    "fut_ability_v2": 72.7,
    "player_name": "Houssem Aouar",
    "squad": "Lyon"
   },
   {
+   "fbref_id": "7d9397f8",
+   "season": 2022,
+   "distance": 3.042,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khéphren Thuram-Ulie",
+   "squad": "Nice"
+  },
+  {
    "fbref_id": "a8a874f1",
    "season": 2019,
-   "distance": 2.984,
+   "distance": 3.059,
    "survived": 1,
    "fut_ability_v2": 67.1,
    "player_name": "Manuel Locatelli",
    "squad": "Sassuolo"
   },
   {
+   "fbref_id": "57d88cf9",
+   "season": 2022,
+   "distance": 3.274,
+   "survived": 1,
+   "fut_ability_v2": 80.8,
+   "player_name": "Jude Bellingham",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "26777636",
+   "season": 2021,
+   "distance": 3.374,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Yacine Adli",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "19053e31",
+   "season": 2021,
+   "distance": 3.665,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sofiane Diop",
+   "squad": "Monaco"
+  },
+  {
    "fbref_id": "5cdddffa",
    "season": 2018,
-   "distance": 3.516,
+   "distance": 3.672,
    "survived": 1,
    "fut_ability_v2": 61.2,
    "player_name": "Tanguy Ndombele",
    "squad": "Lyon / Amiens"
   },
   {
-   "fbref_id": "555d5edd",
-   "season": 2018,
-   "distance": 4.137,
+   "fbref_id": "f81ef10d",
+   "season": 2021,
+   "distance": 4.183,
    "survived": 1,
-   "fut_ability_v2": 62.7,
-   "player_name": "Nadiem Amiri",
-   "squad": "Hoffenheim"
+   "fut_ability_v2": 63.7,
+   "player_name": "Maxence Caqueret",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "4fb9c88f",
+   "season": 2021,
+   "distance": 4.207,
+   "survived": 1,
+   "fut_ability_v2": 64.6,
+   "player_name": "Curtis Jones",
+   "squad": "Liverpool"
   },
   {
    "fbref_id": "56f7a928",
    "season": 2018,
-   "distance": 4.158,
+   "distance": 4.226,
    "survived": 1,
    "fut_ability_v2": 61.2,
    "player_name": "Youri Tielemans",
    "squad": "Monaco"
-  },
-  {
-   "fbref_id": "570bb4b9",
-   "season": 2019,
-   "distance": 4.174,
-   "survived": 1,
-   "fut_ability_v2": 66.9,
-   "player_name": "Hamed Junior Traorè",
-   "squad": "Empoli"
-  },
-  {
-   "fbref_id": "fed7cb61",
-   "season": 2018,
-   "distance": 4.186,
-   "survived": 1,
-   "fut_ability_v2": 67.0,
-   "player_name": "Kai Havertz",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "e1df6989",
-   "season": 2020,
-   "distance": 4.293,
-   "survived": 1,
-   "fut_ability_v2": 44.6,
-   "player_name": "Imran Louza",
-   "squad": "Nantes"
-  },
-  {
-   "fbref_id": "db092d3b",
-   "season": 2019,
-   "distance": 4.297,
-   "survived": 1,
-   "fut_ability_v2": 62.5,
-   "player_name": "Ismaël Bennacer",
-   "squad": "Empoli"
-  },
-  {
-   "fbref_id": "8827bf46",
-   "season": 2018,
-   "distance": 4.319,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gerson",
-   "squad": "Roma"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "João Neves(MF)의 현재 능력 점수는 79.3점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 패스 성공률, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 실책이다.",
-  "potential": "João Neves의 2~3년 후 예측 중심값은 67.8점, 80% 구간 상단은 78.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "João Neves의 2~3년 후 예측 중심값은 71.7점, 80% 구간 상단은 82.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

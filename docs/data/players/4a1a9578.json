@@ -32,24 +32,24 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.9176,
+  "survival_prob": 0.7812,
   "mu": 77.6,
   "ci80": {
-   "lo": 68.3,
-   "hi": 86.9
+   "lo": 68.2,
+   "hi": 87.0
   },
   "ci50": {
    "lo": 72.7,
    "hi": 82.5
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "c691bfe2",
    "season": 2020,
-   "distance": 1.611,
+   "distance": 1.535,
    "survived": 1,
    "fut_ability_v2": 76.2,
    "player_name": "Sadio Mané",
@@ -58,83 +58,83 @@
   {
    "fbref_id": "c691bfe2",
    "season": 2018,
-   "distance": 1.675,
+   "distance": 1.564,
    "survived": 1,
    "fut_ability_v2": 83.9,
    "player_name": "Sadio Mané",
    "squad": "Liverpool"
   },
   {
-   "fbref_id": "92e7e919",
-   "season": 2019,
-   "distance": 2.473,
+   "fbref_id": "b400bde0",
+   "season": 2022,
+   "distance": 2.37,
    "survived": 1,
-   "fut_ability_v2": 64.2,
-   "player_name": "Son Heung-min",
-   "squad": "Tottenham"
+   "fut_ability_v2": 72.5,
+   "player_name": "Raheem Sterling",
+   "squad": "Manchester City"
   },
   {
    "fbref_id": "4c370d81",
    "season": 2019,
-   "distance": 2.486,
+   "distance": 2.416,
    "survived": 1,
    "fut_ability_v2": 78.6,
    "player_name": "Roberto Firmino",
    "squad": "Liverpool"
   },
   {
+   "fbref_id": "92e7e919",
+   "season": 2019,
+   "distance": 2.426,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Son Heung-min",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "b400bde0",
+   "season": 2021,
+   "distance": 2.49,
+   "survived": 1,
+   "fut_ability_v2": 72.5,
+   "player_name": "Raheem Sterling",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "c691bfe2",
+   "season": 2021,
+   "distance": 2.501,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
    "fbref_id": "2f557579",
    "season": 2020,
-   "distance": 2.5,
+   "distance": 2.524,
    "survived": 1,
    "fut_ability_v2": 77.4,
    "player_name": "Lorenzo Insigne",
    "squad": "Napoli"
   },
   {
-   "fbref_id": "e0921a4f",
-   "season": 2020,
-   "distance": 2.629,
+   "fbref_id": "5ceba7fc",
+   "season": 2021,
+   "distance": 2.598,
    "survived": 1,
-   "fut_ability_v2": 75.3,
-   "player_name": "Paulo Dybala",
-   "squad": "Juventus"
+   "fut_ability_v2": 69.9,
+   "player_name": "Karl Toko Ekambi",
+   "squad": "Lyon"
   },
   {
    "fbref_id": "0ef89a37",
    "season": 2019,
-   "distance": 2.652,
+   "distance": 2.706,
    "survived": 1,
    "fut_ability_v2": 72.2,
    "player_name": "Philippe Coutinho",
    "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "942b4f90",
-   "season": 2020,
-   "distance": 2.846,
-   "survived": 1,
-   "fut_ability_v2": 68.8,
-   "player_name": "Wissam Ben Yedder",
-   "squad": "Monaco"
-  },
-  {
-   "fbref_id": "7dcf86f6",
-   "season": 2018,
-   "distance": 2.909,
-   "survived": 1,
-   "fut_ability_v2": 68.5,
-   "player_name": "Iago Aspas",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "c691bfe2",
-   "season": 2019,
-   "distance": 2.97,
-   "survived": 1,
-   "fut_ability_v2": 79.5,
-   "player_name": "Sadio Mané",
-   "squad": "Liverpool"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Luis Díaz(FW)의 현재 능력 점수는 83.7점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 패스 성공률, 전진 패스 수신, 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 어시스트, 슈팅 시도이다.",
-  "potential": "Luis Díaz의 2~3년 후 예측 중심값은 77.6점, 80% 구간 상단은 86.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 91.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Luis Díaz의 2~3년 후 예측 중심값은 77.6점, 80% 구간 상단은 87.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 78.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

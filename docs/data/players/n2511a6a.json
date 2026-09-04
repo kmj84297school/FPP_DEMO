@@ -32,51 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9947,
-  "mu": 63.5,
+  "survival_prob": 0.9238,
+  "mu": 64.1,
   "ci80": {
-   "lo": 52.6,
-   "hi": 74.2
+   "lo": 53.5,
+   "hi": 74.7
   },
   "ci50": {
-   "lo": 57.8,
-   "hi": 69.1
+   "lo": 58.5,
+   "hi": 69.7
   },
-  "sigma_model": 2.5,
+  "sigma_model": 2.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "44bfb6c5",
    "season": 2019,
-   "distance": 2.568,
+   "distance": 2.663,
    "survived": 1,
    "fut_ability_v2": 56.2,
    "player_name": "Rúben Neves",
    "squad": "Wolves"
   },
   {
+   "fbref_id": "4f255115",
+   "season": 2021,
+   "distance": 2.805,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "Aurélien Tchouaméni",
+   "squad": "Monaco"
+  },
+  {
    "fbref_id": "52611641",
    "season": 2018,
-   "distance": 2.903,
+   "distance": 2.992,
    "survived": 1,
    "fut_ability_v2": 53.8,
    "player_name": "Lucas Torreira",
    "squad": "Sampdoria"
   },
   {
+   "fbref_id": "6b47c5db",
+   "season": 2019,
+   "distance": 3.127,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Wilfred Ndidi",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "01c3aff5",
    "season": 2020,
-   "distance": 3.092,
+   "distance": 3.176,
    "survived": 1,
    "fut_ability_v2": 50.1,
    "player_name": "Weston McKennie",
    "squad": "Schalke 04"
   },
   {
+   "fbref_id": "cc77354e",
+   "season": 2022,
+   "distance": 3.231,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Boubacar Kamara",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "1c7012b8",
+   "season": 2021,
+   "distance": 3.267,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Declan Rice",
+   "squad": "West Ham"
+  },
+  {
    "fbref_id": "da27e268",
    "season": 2019,
-   "distance": 3.152,
+   "distance": 3.269,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marc Roca",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "ffbbc83b",
    "season": 2018,
-   "distance": 3.232,
+   "distance": 3.298,
    "survived": 1,
    "fut_ability_v2": 68.2,
    "player_name": "Florian Grillitsch",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "6b47c5db",
-   "season": 2019,
-   "distance": 3.26,
+   "fbref_id": "822d51d7",
+   "season": 2021,
+   "distance": 3.363,
    "survived": 1,
-   "fut_ability_v2": 57.9,
-   "player_name": "Wilfred Ndidi",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "75e60d75",
-   "season": 2020,
-   "distance": 3.293,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ronaldo Vieira",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "3b8674e6",
-   "season": 2019,
-   "distance": 3.303,
-   "survived": 1,
-   "fut_ability_v2": 66.3,
-   "player_name": "Rodrigo Bentancur",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "1c7012b8",
-   "season": 2020,
-   "distance": 3.344,
-   "survived": 1,
-   "fut_ability_v2": 66.9,
-   "player_name": "Declan Rice",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "6434f10d",
-   "season": 2018,
-   "distance": 3.378,
-   "survived": 1,
-   "fut_ability_v2": 70.7,
-   "player_name": "Rodri",
-   "squad": "Villarreal"
+   "fut_ability_v2": 64.7,
+   "player_name": "Youssouf Fofana",
+   "squad": "Monaco"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Andrey Santos(MF)의 현재 능력 점수는 68.7점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 무페널티 득점, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 슈팅 창출(SCA)이다.",
-  "potential": "Andrey Santos의 2~3년 후 예측 중심값은 63.5점, 80% 구간 상단은 74.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 99.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Andrey Santos의 2~3년 후 예측 중심값은 64.1점, 80% 구간 상단은 74.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

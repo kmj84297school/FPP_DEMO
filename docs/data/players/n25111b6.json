@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3612,
-  "mu": 53.1,
+  "survival_prob": 0.4736,
+  "mu": 51.7,
   "ci80": {
-   "lo": 43.7,
-   "hi": 62.5
+   "lo": 42.3,
+   "hi": 61.1
   },
   "ci50": {
-   "lo": 48.2,
-   "hi": 58.0
+   "lo": 46.7,
+   "hi": 56.6
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "ca618d23",
+   "season": 2021,
+   "distance": 1.998,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Lucas Höler",
+   "squad": "Freiburg"
+  },
+  {
    "fbref_id": "35f6db55",
    "season": 2018,
-   "distance": 2.259,
+   "distance": 2.266,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Léo Baptistão",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "253a06b9",
    "season": 2019,
-   "distance": 2.359,
+   "distance": 2.399,
    "survived": 1,
    "fut_ability_v2": 44.2,
    "player_name": "Ezequiel Ávila",
@@ -67,16 +76,43 @@
   {
    "fbref_id": "ba115a40",
    "season": 2020,
-   "distance": 2.439,
+   "distance": 2.436,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sébastien Haller",
    "squad": "West Ham"
   },
   {
+   "fbref_id": "f26834c7",
+   "season": 2021,
+   "distance": 2.49,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Karim Onisiwo",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "e92cd3f7",
+   "season": 2022,
+   "distance": 2.525,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Alexander Sørloth",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "7cdda3bf",
+   "season": 2021,
+   "distance": 2.534,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Gaëtan Laborde",
+   "squad": "Montpellier"
+  },
+  {
    "fbref_id": "ca618d23",
    "season": 2020,
-   "distance": 2.537,
+   "distance": 2.557,
    "survived": 1,
    "fut_ability_v2": 57.4,
    "player_name": "Lucas Höler",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "81f0781e",
    "season": 2019,
-   "distance": 2.572,
+   "distance": 2.627,
    "survived": 1,
    "fut_ability_v2": 78.7,
    "player_name": "Gerard Moreno",
    "squad": "Villarreal"
   },
   {
-   "fbref_id": "7cdda3bf",
-   "season": 2020,
-   "distance": 2.635,
+   "fbref_id": "a08b974a",
+   "season": 2022,
+   "distance": 2.658,
    "survived": 1,
-   "fut_ability_v2": 67.7,
-   "player_name": "Gaëtan Laborde",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "4f16405e",
-   "season": 2018,
-   "distance": 2.645,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Niclas Füllkrug",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "35f6db55",
-   "season": 2019,
-   "distance": 2.699,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Léo Baptistão",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "f93e6e94",
-   "season": 2018,
-   "distance": 2.744,
-   "survived": 1,
-   "fut_ability_v2": 44.7,
-   "player_name": "Nils Petersen",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "81f0781e",
-   "season": 2018,
-   "distance": 2.822,
-   "survived": 1,
-   "fut_ability_v2": 76.2,
-   "player_name": "Gerard Moreno",
-   "squad": "Espanyol"
+   "fut_ability_v2": 53.8,
+   "player_name": "Lucas Ocampos",
+   "squad": "Sevilla"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Morgan Guilavogui(FW)의 현재 능력 점수는 58.3점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 블록, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 박스 진입 패스이다.",
-  "potential": "Morgan Guilavogui의 2~3년 후 예측 중심값은 53.1점, 80% 구간 상단은 62.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 36.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Morgan Guilavogui의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 61.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 47.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

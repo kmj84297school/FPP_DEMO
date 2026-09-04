@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5517,
-  "mu": 49.3,
+  "survival_prob": 0.344,
+  "mu": 51.6,
   "ci80": {
-   "lo": 39.9,
-   "hi": 58.6
+   "lo": 42.2,
+   "hi": 60.9
   },
   "ci50": {
-   "lo": 44.4,
-   "hi": 54.2
+   "lo": 46.6,
+   "hi": 56.5
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "023937a9",
+   "season": 2021,
+   "distance": 0.818,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ivan Radovanović",
+   "squad": "Genoa"
+  },
+  {
    "fbref_id": "89e4b358",
    "season": 2020,
-   "distance": 0.828,
+   "distance": 0.87,
    "survived": 1,
    "fut_ability_v2": 45.9,
    "player_name": "Craig Cathcart",
    "squad": "Watford"
   },
   {
+   "fbref_id": "1db295e5",
+   "season": 2021,
+   "distance": 0.872,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vladimir Golemić",
+   "squad": "Crotone"
+  },
+  {
    "fbref_id": "b666421b",
    "season": 2020,
-   "distance": 1.091,
+   "distance": 1.121,
    "survived": 1,
    "fut_ability_v2": 43.9,
    "player_name": "Ismaël Traoré",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "13d820de",
    "season": 2018,
-   "distance": 1.166,
+   "distance": 1.186,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marco Andreolli",
    "squad": "Cagliari"
   },
   {
-   "fbref_id": "47a500ae",
-   "season": 2018,
-   "distance": 1.338,
+   "fbref_id": "89e4b358",
+   "season": 2022,
+   "distance": 1.203,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Craig Cathcart",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "8c725b43",
+   "season": 2021,
+   "distance": 1.261,
    "survived": 1,
-   "fut_ability_v2": 42.7,
-   "player_name": "Luca Rossettini",
-   "squad": "Genoa"
+   "fut_ability_v2": 56.2,
+   "player_name": "Germán Pezzella",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "6993927b",
+   "season": 2022,
+   "distance": 1.312,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Florent Ogier",
+   "squad": "Clermont Foot"
   },
   {
    "fbref_id": "56400c01",
    "season": 2020,
-   "distance": 1.35,
+   "distance": 1.317,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabio Pisacane",
    "squad": "Cagliari"
   },
   {
-   "fbref_id": "16714a62",
-   "season": 2018,
-   "distance": 1.403,
+   "fbref_id": "e6777e6b",
+   "season": 2021,
+   "distance": 1.366,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Khaled Adénon",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "7768df30",
-   "season": 2018,
-   "distance": 1.467,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jérémy Sorbon",
-   "squad": "Guingamp"
-  },
-  {
-   "fbref_id": "72b07a9c",
-   "season": 2019,
-   "distance": 1.489,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kiko Olivas",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "fed5f993",
-   "season": 2018,
-   "distance": 1.496,
-   "survived": 1,
-   "fut_ability_v2": 55.7,
-   "player_name": "Danilo Larangeira",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "275e2c51",
-   "season": 2020,
-   "distance": 1.514,
-   "survived": 1,
-   "fut_ability_v2": 60.5,
-   "player_name": "Romain Thomas",
-   "squad": "Angers"
+   "player_name": "Stefan Mitrović",
+   "squad": "Strasbourg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Álex Suárez(DF)의 현재 능력 점수는 48.0점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 태클 성공률, 볼 손실(미스+파울), 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 성공 드리블이다.",
-  "potential": "Álex Suárez의 2~3년 후 예측 중심값은 49.3점, 80% 구간 상단은 58.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Álex Suárez의 2~3년 후 예측 중심값은 51.6점, 80% 구간 상단은 60.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

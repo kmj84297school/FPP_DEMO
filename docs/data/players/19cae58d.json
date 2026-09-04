@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8859,
-  "mu": 65.8,
+  "survival_prob": 0.9341,
+  "mu": 67.3,
   "ci80": {
-   "lo": 55.1,
-   "hi": 76.5
+   "lo": 56.7,
+   "hi": 78.0
   },
   "ci50": {
-   "lo": 60.1,
-   "hi": 71.5
+   "lo": 61.7,
+   "hi": 73.0
   },
   "sigma_model": 2.4,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "7d9397f8",
+   "season": 2022,
+   "distance": 2.743,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khéphren Thuram-Ulie",
+   "squad": "Nice"
+  },
+  {
    "fbref_id": "8827bf46",
    "season": 2018,
-   "distance": 2.764,
+   "distance": 2.781,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gerson",
@@ -58,25 +67,61 @@
   {
    "fbref_id": "56f7a928",
    "season": 2018,
-   "distance": 2.829,
+   "distance": 2.901,
    "survived": 1,
    "fut_ability_v2": 61.2,
    "player_name": "Youri Tielemans",
    "squad": "Monaco"
   },
   {
+   "fbref_id": "7b9c2d84",
+   "season": 2022,
+   "distance": 2.918,
+   "survived": 1,
+   "fut_ability_v2": 71.6,
+   "player_name": "Eduardo Camavinga",
+   "squad": "Real Madrid / Rennes"
+  },
+  {
    "fbref_id": "a8a874f1",
    "season": 2019,
-   "distance": 2.933,
+   "distance": 2.997,
    "survived": 1,
    "fut_ability_v2": 67.1,
    "player_name": "Manuel Locatelli",
    "squad": "Sassuolo"
   },
   {
+   "fbref_id": "3b1ed320",
+   "season": 2022,
+   "distance": 3.006,
+   "survived": 1,
+   "fut_ability_v2": 67.3,
+   "player_name": "Angelo Stiller",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "e58cbfd5",
+   "season": 2021,
+   "distance": 3.217,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Nicolò Rovella",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "f81ef10d",
+   "season": 2021,
+   "distance": 3.224,
+   "survived": 1,
+   "fut_ability_v2": 63.7,
+   "player_name": "Maxence Caqueret",
+   "squad": "Lyon"
+  },
+  {
    "fbref_id": "bced0375",
    "season": 2018,
-   "distance": 3.244,
+   "distance": 3.252,
    "survived": 1,
    "fut_ability_v2": 63.0,
    "player_name": "Ibrahim Sangaré",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "822d51d7",
    "season": 2020,
-   "distance": 3.245,
+   "distance": 3.282,
    "survived": 1,
    "fut_ability_v2": 57.9,
    "player_name": "Youssouf Fofana",
    "squad": "Strasbourg / Monaco"
-  },
-  {
-   "fbref_id": "15413fa5",
-   "season": 2018,
-   "distance": 3.405,
-   "survived": 1,
-   "fut_ability_v2": 45.9,
-   "player_name": "Salih Özcan",
-   "squad": "Köln"
-  },
-  {
-   "fbref_id": "ad1f61f3",
-   "season": 2020,
-   "distance": 3.422,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Steven Alzate",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "4f255115",
-   "season": 2020,
-   "distance": 3.424,
-   "survived": 1,
-   "fut_ability_v2": 69.2,
-   "player_name": "Aurélien Tchouaméni",
-   "squad": "Bordeaux / Monaco"
-  },
-  {
-   "fbref_id": "9be4ee80",
-   "season": 2018,
-   "distance": 3.452,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andrija Balić",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "5cdddffa",
-   "season": 2018,
-   "distance": 3.509,
-   "survived": 1,
-   "fut_ability_v2": 61.2,
-   "player_name": "Tanguy Ndombele",
-   "squad": "Lyon / Amiens"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Gavi(MF)의 현재 능력 점수는 69.6점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 최종 3분의1 패스, 패스 성공률, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 클리어링이다.",
-  "potential": "Gavi의 2~3년 후 예측 중심값은 65.8점, 80% 구간 상단은 76.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 88.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Gavi의 2~3년 후 예측 중심값은 67.3점, 80% 구간 상단은 78.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

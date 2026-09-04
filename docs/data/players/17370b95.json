@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.41,
-  "mu": 62.7,
+  "survival_prob": 0.1808,
+  "mu": 60.3,
   "ci80": {
-   "lo": 53.4,
-   "hi": 72.1
+   "lo": 51.0,
+   "hi": 69.7
   },
   "ci50": {
-   "lo": 57.8,
-   "hi": 67.7
+   "lo": 55.4,
+   "hi": 65.3
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "de488e56",
+   "season": 2021,
+   "distance": 1.822,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles Traore",
+   "squad": "Nantes"
+  },
+  {
    "fbref_id": "8a7ff278",
    "season": 2018,
-   "distance": 2.269,
+   "distance": 2.24,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Joel Ward",
@@ -58,25 +67,52 @@
   {
    "fbref_id": "92d38e6c",
    "season": 2019,
-   "distance": 2.494,
+   "distance": 2.573,
    "survived": 1,
    "fut_ability_v2": 62.4,
    "player_name": "Dimitris Siovas",
    "squad": "Leganés"
   },
   {
+   "fbref_id": "9a9c05db",
+   "season": 2019,
+   "distance": 2.588,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  },
+  {
    "fbref_id": "5939baa2",
    "season": 2019,
-   "distance": 2.582,
+   "distance": 2.6,
    "survived": 1,
    "fut_ability_v2": 54.7,
    "player_name": "Benjamin Stambouli",
    "squad": "Schalke 04"
   },
   {
+   "fbref_id": "b2d31e83",
+   "season": 2021,
+   "distance": 2.648,
+   "survived": 1,
+   "fut_ability_v2": 55.6,
+   "player_name": "Dan Burn",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "779847d6",
+   "season": 2019,
+   "distance": 2.678,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Nicolas Pallois",
+   "squad": "Nantes"
+  },
+  {
    "fbref_id": "3831b9fe",
    "season": 2018,
-   "distance": 2.636,
+   "distance": 2.685,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Stephen Ward",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "8a7ff278",
    "season": 2020,
-   "distance": 2.654,
+   "distance": 2.689,
    "survived": 1,
    "fut_ability_v2": 49.4,
    "player_name": "Joel Ward",
    "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "9a9c05db",
-   "season": 2019,
-   "distance": 2.681,
-   "survived": 1,
-   "fut_ability_v2": 53.6,
-   "player_name": "Matthew Lowton",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "b2d31e83",
-   "season": 2020,
-   "distance": 2.702,
-   "survived": 1,
-   "fut_ability_v2": 57.3,
-   "player_name": "Dan Burn",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "779847d6",
-   "season": 2019,
-   "distance": 2.719,
-   "survived": 1,
-   "fut_ability_v2": 56.5,
-   "player_name": "Nicolas Pallois",
-   "squad": "Nantes"
-  },
-  {
-   "fbref_id": "9a9c05db",
-   "season": 2020,
-   "distance": 2.731,
-   "survived": 1,
-   "fut_ability_v2": 55.6,
-   "player_name": "Matthew Lowton",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "c8aa95da",
-   "season": 2020,
-   "distance": 2.745,
-   "survived": 1,
-   "fut_ability_v2": 61.1,
-   "player_name": "Fabian Schär",
-   "squad": "Newcastle Utd"
+   "fbref_id": "5939baa2",
+   "season": 2021,
+   "distance": 2.689,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benjamin Stambouli",
+   "squad": "Schalke 04"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Bernardo(DF)의 현재 능력 점수는 66.3점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 블록, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 패스 성공률이다.",
-  "potential": "Bernardo의 2~3년 후 예측 중심값은 62.7점, 80% 구간 상단은 72.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Bernardo의 2~3년 후 예측 중심값은 60.3점, 80% 구간 상단은 69.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 18.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

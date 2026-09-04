@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5754,
-  "mu": 62.4,
+  "survival_prob": 0.5515,
+  "mu": 65.6,
   "ci80": {
-   "lo": 52.7,
-   "hi": 71.9
+   "lo": 55.9,
+   "hi": 75.3
   },
   "ci50": {
-   "lo": 57.3,
-   "hi": 67.4
+   "lo": 60.6,
+   "hi": 70.7
   },
   "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "e3fabb0a",
    "season": 2019,
-   "distance": 1.743,
+   "distance": 1.75,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Wu Lei",
    "squad": "Espanyol"
   },
   {
+   "fbref_id": "85613cf0",
+   "season": 2021,
+   "distance": 2.107,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "Arkadiusz Milik",
+   "squad": "Marseille"
+  },
+  {
    "fbref_id": "129af0db",
    "season": 2019,
-   "distance": 2.076,
+   "distance": 2.109,
    "survived": 1,
    "fut_ability_v2": 71.7,
    "player_name": "Álvaro Morata",
@@ -67,34 +76,43 @@
   {
    "fbref_id": "9a104dee",
    "season": 2019,
-   "distance": 2.143,
+   "distance": 2.152,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cenk Tosun",
    "squad": "Everton"
   },
   {
-   "fbref_id": "4be0b467",
-   "season": 2019,
-   "distance": 2.343,
-   "survived": 1,
-   "fut_ability_v2": 33.0,
-   "player_name": "Lois Diony",
-   "squad": "Saint-Étienne"
+   "fbref_id": "6605d143",
+   "season": 2022,
+   "distance": 2.317,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Habib Diallo",
+   "squad": "Strasbourg"
   },
   {
    "fbref_id": "834d0be5",
    "season": 2019,
-   "distance": 2.369,
+   "distance": 2.371,
    "survived": 1,
    "fut_ability_v2": 53.9,
    "player_name": "Lucas Alario",
    "squad": "Leverkusen"
   },
   {
+   "fbref_id": "4be0b467",
+   "season": 2019,
+   "distance": 2.397,
+   "survived": 1,
+   "fut_ability_v2": 33.0,
+   "player_name": "Lois Diony",
+   "squad": "Saint-Étienne"
+  },
+  {
    "fbref_id": "9592289a",
    "season": 2018,
-   "distance": 2.39,
+   "distance": 2.416,
    "survived": 1,
    "fut_ability_v2": 44.3,
    "player_name": "Simone Zaza",
@@ -103,7 +121,7 @@
   {
    "fbref_id": "0af4dcf0",
    "season": 2018,
-   "distance": 2.416,
+   "distance": 2.435,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cédric Bakambu",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "c693347d",
    "season": 2020,
-   "distance": 2.42,
+   "distance": 2.437,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andreas Cornelius",
    "squad": "Parma"
-  },
-  {
-   "fbref_id": "834d0be5",
-   "season": 2018,
-   "distance": 2.473,
-   "survived": 1,
-   "fut_ability_v2": 56.4,
-   "player_name": "Lucas Alario",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "834d0be5",
-   "season": 2020,
-   "distance": 2.474,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lucas Alario",
-   "squad": "Leverkusen"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Darwin Núñez(FW)의 현재 능력 점수는 60.0점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 슈팅당 기대득점, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 최종 3분의1 패스이다.",
-  "potential": "Darwin Núñez의 2~3년 후 예측 중심값은 62.4점, 80% 구간 상단은 71.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 57.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Darwin Núñez의 2~3년 후 예측 중심값은 65.6점, 80% 구간 상단은 75.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

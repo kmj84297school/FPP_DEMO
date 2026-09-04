@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0526,
-  "mu": 45.6,
+  "survival_prob": 0.1027,
+  "mu": 44.8,
   "ci80": {
-   "lo": 36.1,
-   "hi": 55.1
+   "lo": 35.2,
+   "hi": 54.4
   },
   "ci50": {
-   "lo": 40.6,
-   "hi": 50.6
+   "lo": 39.8,
+   "hi": 49.8
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_model": 2.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "4b6960d2",
+   "season": 2021,
+   "distance": 1.923,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuto Nagatomo",
+   "squad": "Marseille"
+  },
+  {
    "fbref_id": "933e8c8a",
    "season": 2019,
-   "distance": 1.915,
+   "distance": 1.956,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Javi Moyano",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "8aa5f52c",
    "season": 2020,
-   "distance": 2.055,
+   "distance": 2.094,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Adrian Mariappa",
@@ -67,25 +76,25 @@
   {
    "fbref_id": "c2f9d19f",
    "season": 2020,
-   "distance": 2.126,
+   "distance": 2.12,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Neil Taylor",
    "squad": "Aston Villa"
   },
   {
-   "fbref_id": "bd4f5f94",
-   "season": 2018,
-   "distance": 2.191,
+   "fbref_id": "1fe67e86",
+   "season": 2021,
+   "distance": 2.131,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Andrea Raggi",
-   "squad": "Monaco"
+   "player_name": "Mikel Balenziaga",
+   "squad": "Athletic Club"
   },
   {
    "fbref_id": "0515a4cb",
    "season": 2019,
-   "distance": 2.253,
+   "distance": 2.156,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Christophe Kerbrat",
@@ -94,47 +103,38 @@
   {
    "fbref_id": "a60823a4",
    "season": 2018,
-   "distance": 2.258,
+   "distance": 2.251,
    "survived": 1,
    "fut_ability_v2": 56.5,
    "player_name": "Pedro López Muñoz",
    "squad": "Levante"
   },
   {
-   "fbref_id": "7cefa219",
-   "season": 2019,
+   "fbref_id": "bd4f5f94",
+   "season": 2018,
+   "distance": 2.256,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Raggi",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "02d2c436",
+   "season": 2022,
    "distance": 2.261,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Tito",
-   "squad": "Rayo Vallecano"
+   "player_name": "Luis Hernández",
+   "squad": "Cádiz"
   },
   {
-   "fbref_id": "13d820de",
-   "season": 2018,
-   "distance": 2.367,
+   "fbref_id": "63071a3f",
+   "season": 2021,
+   "distance": 2.291,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Marco Andreolli",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "446aa6e1",
-   "season": 2018,
-   "distance": 2.403,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Oswaldo Vizcarrondo",
-   "squad": "Troyes"
-  },
-  {
-   "fbref_id": "a1017967",
-   "season": 2018,
-   "distance": 2.417,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Issa Cissokho",
-   "squad": "Amiens"
+   "player_name": "Simone Iacoponi",
+   "squad": "Parma"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Juan Cruz Armada(DF)의 현재 능력 점수는 36.4점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 실책, 볼 손실(미스+파울), 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 운반 거리이다.",
-  "potential": "Juan Cruz Armada의 2~3년 후 예측 중심값은 45.6점, 80% 구간 상단은 55.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 5.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Juan Cruz Armada의 2~3년 후 예측 중심값은 44.8점, 80% 구간 상단은 54.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 10.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

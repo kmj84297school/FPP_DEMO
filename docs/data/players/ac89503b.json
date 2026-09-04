@@ -32,109 +32,109 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5097,
-  "mu": 62.1,
+  "survival_prob": 0.4763,
+  "mu": 63.3,
   "ci80": {
-   "lo": 52.8,
-   "hi": 71.3
+   "lo": 54.1,
+   "hi": 72.6
   },
   "ci50": {
-   "lo": 57.2,
-   "hi": 67.0
+   "lo": 58.5,
+   "hi": 68.2
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "3befc2b6",
    "season": 2020,
-   "distance": 1.06,
+   "distance": 0.962,
    "survived": 1,
    "fut_ability_v2": 61.2,
    "player_name": "Andrei Girotto",
    "squad": "Nantes"
   },
   {
+   "fbref_id": "f066022d",
+   "season": 2022,
+   "distance": 1.081,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Julien Laporte",
+   "squad": "Lorient"
+  },
+  {
    "fbref_id": "f2c1300a",
    "season": 2019,
-   "distance": 1.205,
+   "distance": 1.14,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Vitor Hugo",
    "squad": "Fiorentina"
   },
   {
+   "fbref_id": "debe38a0",
+   "season": 2021,
+   "distance": 1.296,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Egan",
+   "squad": "Sheffield Utd"
+  },
+  {
    "fbref_id": "93cf32a8",
    "season": 2018,
-   "distance": 1.262,
+   "distance": 1.334,
    "survived": 1,
    "fut_ability_v2": 55.9,
    "player_name": "Nicolas Nkoulou",
    "squad": "Torino"
   },
   {
-   "fbref_id": "1ad8cb67",
-   "season": 2020,
-   "distance": 1.421,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pablo Martinez",
-   "squad": "Nîmes"
-  },
-  {
-   "fbref_id": "0bad4516",
-   "season": 2019,
-   "distance": 1.425,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ryan Bennett",
-   "squad": "Wolves"
-  },
-  {
-   "fbref_id": "f25b010f",
-   "season": 2018,
-   "distance": 1.438,
+   "fbref_id": "3e42f707",
+   "season": 2022,
+   "distance": 1.405,
    "survived": 1,
-   "fut_ability_v2": 49.7,
-   "player_name": "Federico Fernández",
-   "squad": "Swansea City"
+   "fut_ability_v2": 64.1,
+   "player_name": "David García",
+   "squad": "Osasuna"
   },
   {
-   "fbref_id": "3e5e4e63",
-   "season": 2019,
-   "distance": 1.46,
+   "fbref_id": "070ec0b1",
+   "season": 2020,
+   "distance": 1.459,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Steve Cook",
-   "squad": "Bournemouth"
+   "player_name": "Sven Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "87935cf3",
+   "season": 2022,
+   "distance": 1.461,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mamadou Sakho",
+   "squad": "Montpellier"
   },
   {
    "fbref_id": "8ae9869d",
    "season": 2019,
-   "distance": 1.467,
+   "distance": 1.47,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Christopher Schindler",
    "squad": "Huddersfield"
   },
   {
-   "fbref_id": "e33f36d5",
-   "season": 2018,
-   "distance": 1.469,
+   "fbref_id": "8b8a56ce",
+   "season": 2021,
+   "distance": 1.471,
    "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "Bram Nuytinck",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "0db5d2c8",
-   "season": 2018,
-   "distance": 1.517,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mathias Jørgensen",
-   "squad": "Huddersfield"
+   "fut_ability_v2": 60.7,
+   "player_name": "Simon Kjær",
+   "squad": "Milan"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Gautier Lloris(DF)의 현재 능력 점수는 64.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 클리어링, 태클 성공률, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 성공 드리블이다.",
-  "potential": "Gautier Lloris의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 71.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 51.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Gautier Lloris의 2~3년 후 예측 중심값은 63.3점, 80% 구간 상단은 72.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 47.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

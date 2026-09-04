@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9681,
-  "mu": 66.3,
+  "survival_prob": 0.8463,
+  "mu": 69.7,
   "ci80": {
-   "lo": 56.7,
-   "hi": 76.1
+   "lo": 60.1,
+   "hi": 79.2
   },
   "ci50": {
-   "lo": 61.3,
-   "hi": 71.5
+   "lo": 64.6,
+   "hi": 74.6
   },
-  "sigma_model": 2.7,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "1fb1c435",
    "season": 2018,
-   "distance": 1.991,
+   "distance": 1.968,
    "survived": 1,
    "fut_ability_v2": 67.0,
    "player_name": "Rodrigo",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "21a66f6a",
    "season": 2019,
-   "distance": 2.411,
+   "distance": 2.376,
    "survived": 1,
    "fut_ability_v2": 78.3,
    "player_name": "Harry Kane",
@@ -67,16 +67,25 @@
   {
    "fbref_id": "21a66f6a",
    "season": 2018,
-   "distance": 2.577,
+   "distance": 2.59,
    "survived": 1,
    "fut_ability_v2": 67.5,
    "player_name": "Harry Kane",
    "squad": "Tottenham"
   },
   {
+   "fbref_id": "3effaa34",
+   "season": 2021,
+   "distance": 2.669,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Silva",
+   "squad": "Eint Frankfurt"
+  },
+  {
    "fbref_id": "129af0db",
    "season": 2018,
-   "distance": 2.67,
+   "distance": 2.677,
    "survived": 1,
    "fut_ability_v2": 70.0,
    "player_name": "Álvaro Morata",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "ff182fdc",
    "season": 2019,
-   "distance": 2.749,
+   "distance": 2.759,
    "survived": 1,
    "fut_ability_v2": 43.2,
    "player_name": "Ishak Belfodil",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "5ceba7fc",
-   "season": 2019,
-   "distance": 2.894,
-   "survived": 1,
-   "fut_ability_v2": 76.1,
-   "player_name": "Karl Toko Ekambi",
-   "squad": "Villarreal"
-  },
-  {
    "fbref_id": "eb2fe5b6",
    "season": 2018,
-   "distance": 2.901,
+   "distance": 2.87,
    "survived": 1,
    "fut_ability_v2": 88.1,
    "player_name": "Luis Muriel",
    "squad": "Sevilla"
   },
   {
+   "fbref_id": "5ceba7fc",
+   "season": 2019,
+   "distance": 2.877,
+   "survived": 1,
+   "fut_ability_v2": 76.1,
+   "player_name": "Karl Toko Ekambi",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "923f4dda",
+   "season": 2021,
+   "distance": 2.895,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Rennes"
+  },
+  {
    "fbref_id": "5eae500a",
    "season": 2020,
-   "distance": 2.921,
+   "distance": 2.903,
    "survived": 1,
    "fut_ability_v2": 52.3,
    "player_name": "Romelu Lukaku",
    "squad": "Inter"
-  },
-  {
-   "fbref_id": "c691bfe2",
-   "season": 2019,
-   "distance": 2.951,
-   "survived": 1,
-   "fut_ability_v2": 79.5,
-   "player_name": "Sadio Mané",
-   "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "8ff07990",
-   "season": 2018,
-   "distance": 2.961,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Mario Balotelli",
-   "squad": "Nice"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Alexander Isak(FW)의 현재 능력 점수는 73.1점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 비페널티 xG, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 최종 3분의1 패스이다.",
-  "potential": "Alexander Isak의 2~3년 후 예측 중심값은 66.3점, 80% 구간 상단은 76.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 96.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Alexander Isak의 2~3년 후 예측 중심값은 69.7점, 80% 구간 상단은 79.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

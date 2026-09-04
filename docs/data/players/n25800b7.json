@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9136,
+  "survival_prob": 0.9421,
   "mu": 55.7,
   "ci80": {
-   "lo": 45.0,
-   "hi": 66.5
+   "lo": 45.2,
+   "hi": 66.2
   },
   "ci50": {
-   "lo": 50.1,
+   "lo": 50.2,
    "hi": 61.3
   },
-  "sigma_model": 2.4,
+  "sigma_model": 2.0,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "ed45c4a5",
    "season": 2018,
-   "distance": 1.826,
+   "distance": 1.901,
    "survived": 1,
    "fut_ability_v2": 62.7,
    "player_name": "Valentin Rongier",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "6e7f1353",
    "season": 2019,
-   "distance": 2.389,
+   "distance": 2.479,
    "survived": 1,
    "fut_ability_v2": 45.3,
    "player_name": "Morgan Sanson",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "d023d70f",
    "season": 2018,
-   "distance": 2.472,
+   "distance": 2.55,
    "survived": 1,
    "fut_ability_v2": 46.5,
    "player_name": "Karol Linetty",
@@ -76,7 +76,7 @@
   {
    "fbref_id": "3bb625ac",
    "season": 2019,
-   "distance": 2.52,
+   "distance": 2.572,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Edimilson Fernandes",
@@ -85,56 +85,56 @@
   {
    "fbref_id": "52611641",
    "season": 2019,
-   "distance": 2.551,
+   "distance": 2.578,
    "survived": 1,
    "fut_ability_v2": 61.8,
    "player_name": "Lucas Torreira",
    "squad": "Arsenal"
   },
   {
+   "fbref_id": "8577e60a",
+   "season": 2022,
+   "distance": 2.615,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Mahdi Camara",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "f54d2149",
+   "season": 2021,
+   "distance": 2.684,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Moreto Cassamã",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "5a2cb25d",
+   "season": 2021,
+   "distance": 2.813,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Sofyan Amrabat",
+   "squad": "Fiorentina"
+  },
+  {
    "fbref_id": "d023d70f",
    "season": 2019,
-   "distance": 2.769,
+   "distance": 2.841,
    "survived": 1,
    "fut_ability_v2": 38.2,
    "player_name": "Karol Linetty",
    "squad": "Sampdoria"
   },
   {
-   "fbref_id": "070a3904",
-   "season": 2018,
-   "distance": 2.834,
-   "survived": 1,
-   "fut_ability_v2": 42.6,
-   "player_name": "Sergi Darder",
-   "squad": "Espanyol / Lyon"
-  },
-  {
    "fbref_id": "c1b7847c",
    "season": 2020,
-   "distance": 2.879,
+   "distance": 2.872,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Konrad Laimer",
    "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "c6e8cf1f",
-   "season": 2020,
-   "distance": 2.946,
-   "survived": 1,
-   "fut_ability_v2": 61.4,
-   "player_name": "Saša Lukić",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "86695068",
-   "season": 2018,
-   "distance": 2.967,
-   "survived": 1,
-   "fut_ability_v2": 49.5,
-   "player_name": "Dennis Praet",
-   "squad": "Sampdoria"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "João Gomes(MF)의 현재 능력 점수는 52.3점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 볼 리커버리, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 도움 기대값(xAG)이다.",
-  "potential": "João Gomes의 2~3년 후 예측 중심값은 55.7점, 80% 구간 상단은 66.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 91.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "João Gomes의 2~3년 후 예측 중심값은 55.7점, 80% 구간 상단은 66.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 94.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

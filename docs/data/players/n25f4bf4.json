@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.603,
-  "mu": 60.1,
+  "survival_prob": 0.7149,
+  "mu": 58.7,
   "ci80": {
-   "lo": 51.0,
-   "hi": 69.3
+   "lo": 49.5,
+   "hi": 68.1
   },
   "ci50": {
-   "lo": 55.3,
-   "hi": 65.1
+   "lo": 53.9,
+   "hi": 63.7
   },
-  "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "8b95acda",
+   "season": 2021,
+   "distance": 0.852,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Omar Colley",
+   "squad": "Sampdoria"
+  },
+  {
    "fbref_id": "e33f36d5",
    "season": 2018,
-   "distance": 1.177,
+   "distance": 1.169,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Bram Nuytinck",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "c5b7c315",
    "season": 2018,
-   "distance": 1.198,
+   "distance": 1.181,
    "survived": 1,
    "fut_ability_v2": 64.1,
    "player_name": "Michael Keane",
    "squad": "Everton"
   },
   {
+   "fbref_id": "debe38a0",
+   "season": 2021,
+   "distance": 1.205,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Egan",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "21166ff4",
+   "season": 2022,
+   "distance": 1.308,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Çağlar Söyüncü",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "4115ce4e",
+   "season": 2021,
+   "distance": 1.323,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jan Bednarek",
+   "squad": "Southampton"
+  },
+  {
    "fbref_id": "1633fc8a",
    "season": 2019,
-   "distance": 1.254,
+   "distance": 1.33,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juanpe",
    "squad": "Girona"
   },
   {
-   "fbref_id": "3ecc11d8",
-   "season": 2020,
-   "distance": 1.291,
-   "survived": 1,
-   "fut_ability_v2": 61.5,
-   "player_name": "Yeray Álvarez",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "3681cfff",
-   "season": 2018,
-   "distance": 1.354,
-   "survived": 1,
-   "fut_ability_v2": 58.4,
-   "player_name": "Christophe Hérelle",
-   "squad": "Troyes"
-  },
-  {
    "fbref_id": "f35430a4",
    "season": 2018,
-   "distance": 1.369,
+   "distance": 1.348,
    "survived": 1,
    "fut_ability_v2": 59.1,
    "player_name": "Matija Nastasić",
    "squad": "Schalke 04"
   },
   {
-   "fbref_id": "bc6f5f06",
-   "season": 2019,
-   "distance": 1.371,
+   "fbref_id": "aad48be9",
+   "season": 2021,
+   "distance": 1.351,
    "survived": 1,
-   "fut_ability_v2": 42.2,
-   "player_name": "Sergi Gómez",
-   "squad": "Sevilla"
+   "fut_ability_v2": 57.9,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
   },
   {
-   "fbref_id": "c5b7c315",
+   "fbref_id": "3ecc11d8",
    "season": 2020,
-   "distance": 1.372,
+   "distance": 1.368,
    "survived": 1,
-   "fut_ability_v2": 57.6,
-   "player_name": "Michael Keane",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "bc6f5f06",
-   "season": 2018,
-   "distance": 1.422,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sergi Gómez",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "f1f1f238",
-   "season": 2020,
-   "distance": 1.432,
-   "survived": 1,
-   "fut_ability_v2": 62.0,
-   "player_name": "Koray Günter",
-   "squad": "Hellas Verona"
+   "fut_ability_v2": 61.5,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mark McKenzie(DF)의 현재 능력 점수는 61.1점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 슈팅당 기대득점, 태클 성공률, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 박스 터치이다.",
-  "potential": "Mark McKenzie의 2~3년 후 예측 중심값은 60.1점, 80% 구간 상단은 69.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mark McKenzie의 2~3년 후 예측 중심값은 58.7점, 80% 구간 상단은 68.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

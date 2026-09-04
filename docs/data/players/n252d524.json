@@ -32,33 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8617,
+  "survival_prob": 0.8095,
   "mu": 53.5,
   "ci80": {
-   "lo": 42.8,
-   "hi": 64.2
+   "lo": 43.0,
+   "hi": 64.1
   },
   "ci50": {
-   "lo": 47.8,
-   "hi": 59.2
+   "lo": 48.0,
+   "hi": 59.1
   },
-  "sigma_model": 2.3,
+  "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "66385c46",
    "season": 2018,
-   "distance": 1.945,
+   "distance": 1.947,
    "survived": 1,
    "fut_ability_v2": 57.7,
    "player_name": "Levin Öztunalı",
    "squad": "Mainz 05"
   },
   {
+   "fbref_id": "0c61c77c",
+   "season": 2021,
+   "distance": 2.199,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Dodi Lukebakio",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "fa031b34",
+   "season": 2021,
+   "distance": 2.216,
+   "survived": 1,
+   "fut_ability_v2": 64.3,
+   "player_name": "Richarlison",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "9d5dcc23",
+   "season": 2021,
+   "distance": 2.317,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Gueye",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "c17bfb65",
+   "season": 2021,
+   "distance": 2.404,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Joelinton",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "c931d9f9",
+   "season": 2022,
+   "distance": 2.407,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel James",
+   "squad": "Leeds United / Manchester Utd"
+  },
+  {
    "fbref_id": "90fcf472",
    "season": 2019,
-   "distance": 2.414,
+   "distance": 2.448,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Wesley Saïd",
@@ -67,74 +112,29 @@
   {
    "fbref_id": "0b90bb97",
    "season": 2020,
-   "distance": 2.504,
+   "distance": 2.468,
    "survived": 1,
    "fut_ability_v2": 42.9,
    "player_name": "Santi Mina",
    "squad": "Celta Vigo"
   },
   {
+   "fbref_id": "6afaebf2",
+   "season": 2022,
+   "distance": 2.508,
+   "survived": 1,
+   "fut_ability_v2": 70.1,
+   "player_name": "Bryan Mbeumo",
+   "squad": "Brentford"
+  },
+  {
    "fbref_id": "1fca9171",
    "season": 2018,
-   "distance": 2.586,
+   "distance": 2.541,
    "survived": 1,
    "fut_ability_v2": 47.2,
    "player_name": "Federico Di Francesco",
    "squad": "Bologna"
-  },
-  {
-   "fbref_id": "f8eca1b6",
-   "season": 2020,
-   "distance": 2.599,
-   "survived": 1,
-   "fut_ability_v2": 38.3,
-   "player_name": "Enes Ünal",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "2979c05a",
-   "season": 2018,
-   "distance": 2.647,
-   "survived": 1,
-   "fut_ability_v2": 44.1,
-   "player_name": "Gerrit Holtmann",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "aa1a8c7e",
-   "season": 2018,
-   "distance": 2.652,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Isaac Mbenza",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "fa031b34",
-   "season": 2020,
-   "distance": 2.821,
-   "survived": 1,
-   "fut_ability_v2": 49.4,
-   "player_name": "Richarlison",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "e5a35ae9",
-   "season": 2019,
-   "distance": 2.861,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luca Waldschmidt",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "62437b4f",
-   "season": 2019,
-   "distance": 2.902,
-   "survived": 1,
-   "fut_ability_v2": 58.2,
-   "player_name": "Ignacio Pussetto",
-   "squad": "Udinese"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Josué Casimir(FW)의 현재 능력 점수는 48.3점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 태클 성공률, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 유효슈팅이다.",
-  "potential": "Josué Casimir의 2~3년 후 예측 중심값은 53.5점, 80% 구간 상단은 64.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 86.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Josué Casimir의 2~3년 후 예측 중심값은 53.5점, 80% 구간 상단은 64.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 81.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

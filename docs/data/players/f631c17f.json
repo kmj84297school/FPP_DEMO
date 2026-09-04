@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4109,
-  "mu": 51.7,
+  "survival_prob": 0.3251,
+  "mu": 52.6,
   "ci80": {
-   "lo": 42.0,
-   "hi": 61.2
+   "lo": 43.0,
+   "hi": 62.4
   },
   "ci50": {
-   "lo": 46.6,
-   "hi": 56.7
+   "lo": 47.6,
+   "hi": 57.8
   },
-  "sigma_model": 2.5,
-  "sigma_residual": 7.0
+  "sigma_model": 2.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "ab070c55",
    "season": 2020,
-   "distance": 2.507,
+   "distance": 2.506,
    "survived": 1,
    "fut_ability_v2": 53.4,
    "player_name": "Christian Benteke",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "f26834c7",
    "season": 2019,
-   "distance": 2.746,
+   "distance": 2.725,
    "survived": 1,
    "fut_ability_v2": 56.1,
    "player_name": "Karim Onisiwo",
    "squad": "Mainz 05"
   },
   {
+   "fbref_id": "daa78200",
+   "season": 2021,
+   "distance": 2.963,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Voglsammer",
+   "squad": "Arminia"
+  },
+  {
    "fbref_id": "9980269a",
    "season": 2019,
-   "distance": 3.088,
+   "distance": 3.094,
    "survived": 1,
    "fut_ability_v2": 36.1,
    "player_name": "Kalifa Coulibaly",
@@ -76,16 +85,25 @@
   {
    "fbref_id": "c693347d",
    "season": 2020,
-   "distance": 3.284,
+   "distance": 3.253,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andreas Cornelius",
    "squad": "Parma"
   },
   {
+   "fbref_id": "d2416c2e",
+   "season": 2022,
+   "distance": 3.302,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Yussuf Poulsen",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "253a06b9",
    "season": 2020,
-   "distance": 3.335,
+   "distance": 3.352,
    "survived": 1,
    "fut_ability_v2": 44.2,
    "player_name": "Ezequiel Ávila",
@@ -94,7 +112,7 @@
   {
    "fbref_id": "df85d472",
    "season": 2019,
-   "distance": 3.379,
+   "distance": 3.388,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Federico Santander",
@@ -103,7 +121,7 @@
   {
    "fbref_id": "129af0db",
    "season": 2020,
-   "distance": 3.407,
+   "distance": 3.402,
    "survived": 1,
    "fut_ability_v2": 65.6,
    "player_name": "Álvaro Morata",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "80dbbd10",
    "season": 2018,
-   "distance": 3.443,
+   "distance": 3.421,
    "survived": 1,
    "fut_ability_v2": 34.3,
    "player_name": "Simeon Nwankwo",
    "squad": "Crotone"
-  },
-  {
-   "fbref_id": "d2416c2e",
-   "season": 2020,
-   "distance": 3.523,
-   "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "Yussuf Poulsen",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "d3de9af0",
-   "season": 2018,
-   "distance": 3.544,
-   "survived": 1,
-   "fut_ability_v2": 78.6,
-   "player_name": "Duván Zapata",
-   "squad": "Sampdoria"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Oliver Burke(FW)의 현재 능력 점수는 61.5점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 박스 터치, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 어시스트이다.",
-  "potential": "Oliver Burke의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 61.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Oliver Burke의 2~3년 후 예측 중심값은 52.6점, 80% 구간 상단은 62.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

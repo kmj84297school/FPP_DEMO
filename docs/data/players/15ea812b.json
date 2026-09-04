@@ -32,42 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3298,
-  "mu": 56.3,
+  "survival_prob": 0.5802,
+  "mu": 56.4,
   "ci80": {
-   "lo": 46.9,
-   "hi": 65.5
+   "lo": 47.2,
+   "hi": 65.7
   },
   "ci50": {
-   "lo": 51.3,
-   "hi": 61.1
+   "lo": 51.6,
+   "hi": 61.3
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "92d38e6c",
-   "season": 2019,
-   "distance": 1.964,
+   "fbref_id": "857a5abe",
+   "season": 2022,
+   "distance": 1.578,
    "survived": 1,
-   "fut_ability_v2": 62.4,
-   "player_name": "Dimitris Siovas",
-   "squad": "Leganés"
+   "fut_ability_v2": 61.0,
+   "player_name": "Stefan Bell",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "6eaed4eb",
+   "season": 2021,
+   "distance": 1.963,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Florian Lejeune",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "1025db8e",
+   "season": 2022,
+   "distance": 1.992,
+   "survived": 1,
+   "fut_ability_v2": 65.3,
+   "player_name": "Jeffrey Gouweleeuw",
+   "squad": "Augsburg"
   },
   {
    "fbref_id": "1aa84968",
-   "season": 2020,
-   "distance": 1.978,
+   "season": 2021,
+   "distance": 2.026,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Chris Basham",
    "squad": "Sheffield Utd"
   },
   {
+   "fbref_id": "1aa84968",
+   "season": 2020,
+   "distance": 2.045,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Chris Basham",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "0be276c6",
+   "season": 2022,
+   "distance": 2.048,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Norbert Gyömbér",
+   "squad": "Salernitana"
+  },
+  {
+   "fbref_id": "92d38e6c",
+   "season": 2019,
+   "distance": 2.05,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Dimitris Siovas",
+   "squad": "Leganés"
+  },
+  {
    "fbref_id": "b96b595c",
    "season": 2018,
-   "distance": 1.978,
+   "distance": 2.053,
    "survived": 1,
    "fut_ability_v2": 65.0,
    "player_name": "Francesco Acerbi",
@@ -76,65 +121,20 @@
   {
    "fbref_id": "4f2908e5",
    "season": 2018,
-   "distance": 2.006,
+   "distance": 2.085,
    "survived": 1,
    "fut_ability_v2": 57.2,
    "player_name": "Federico Peluso",
    "squad": "Sassuolo"
   },
   {
-   "fbref_id": "6b200d45",
-   "season": 2019,
-   "distance": 2.168,
+   "fbref_id": "8d3c902d",
+   "season": 2021,
+   "distance": 2.088,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Loïc Perrin",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "1ad8cb67",
-   "season": 2020,
-   "distance": 2.22,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pablo Martinez",
-   "squad": "Nîmes"
-  },
-  {
-   "fbref_id": "8df7a2fb",
-   "season": 2020,
-   "distance": 2.264,
-   "survived": 1,
-   "fut_ability_v2": 57.3,
-   "player_name": "Ben Mee",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "74b2cd7e",
-   "season": 2018,
-   "distance": 2.274,
-   "survived": 1,
-   "fut_ability_v2": 52.2,
-   "player_name": "Angelo Ogbonna",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "1e0b6a73",
-   "season": 2018,
-   "distance": 2.281,
-   "survived": 1,
-   "fut_ability_v2": 60.8,
-   "player_name": "Simon Francis",
-   "squad": "Bournemouth"
-  },
-  {
-   "fbref_id": "821233cc",
-   "season": 2020,
-   "distance": 2.303,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Neven Subotić",
-   "squad": "Union Berlin"
+   "player_name": "Cheikhou Kouyaté",
+   "squad": "Crystal Palace"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "James Tarkowski(DF)의 현재 능력 점수는 60.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 클리어링, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 운반이다.",
-  "potential": "James Tarkowski의 2~3년 후 예측 중심값은 56.3점, 80% 구간 상단은 65.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 33.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "James Tarkowski의 2~3년 후 예측 중심값은 56.4점, 80% 구간 상단은 65.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

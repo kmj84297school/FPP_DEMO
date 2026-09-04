@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6962,
-  "mu": 60.9,
+  "survival_prob": 0.5372,
+  "mu": 59.9,
   "ci80": {
-   "lo": 51.7,
-   "hi": 70.1
+   "lo": 50.7,
+   "hi": 69.1
   },
   "ci50": {
-   "lo": 55.9,
-   "hi": 65.7
+   "lo": 55.1,
+   "hi": 64.7
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "4f28a6ff",
    "season": 2020,
-   "distance": 1.378,
+   "distance": 1.388,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Clément Lenglet",
@@ -65,9 +65,45 @@
    "squad": "Dortmund"
   },
   {
+   "fbref_id": "d79a8c87",
+   "season": 2021,
+   "distance": 1.402,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rob Holding",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "aef6e670",
+   "season": 2022,
+   "distance": 1.402,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Presnel Kimpembe",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "f7dc2ae5",
+   "season": 2021,
+   "distance": 1.453,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "21166ff4",
+   "season": 2021,
+   "distance": 1.525,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Çağlar Söyüncü",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "30f5ffa9",
    "season": 2020,
-   "distance": 1.537,
+   "distance": 1.549,
    "survived": 1,
    "fut_ability_v2": 51.6,
    "player_name": "Milan Škriniar",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "fbd6378b",
    "season": 2019,
-   "distance": 1.643,
+   "distance": 1.632,
    "survived": 1,
    "fut_ability_v2": 52.1,
    "player_name": "Aïssa Mandi",
    "squad": "Betis"
   },
   {
-   "fbref_id": "d5f2f82b",
-   "season": 2019,
-   "distance": 1.698,
+   "fbref_id": "f5deef4c",
+   "season": 2021,
+   "distance": 1.732,
    "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Marquinhos",
-   "squad": "Paris S-G"
-  },
-  {
-   "fbref_id": "18b896d6",
-   "season": 2019,
-   "distance": 1.759,
-   "survived": 1,
-   "fut_ability_v2": 66.7,
-   "player_name": "Antonio Rüdiger",
-   "squad": "Chelsea"
+   "fut_ability_v2": 51.4,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
   },
   {
    "fbref_id": "d70a2141",
    "season": 2018,
-   "distance": 1.773,
+   "distance": 1.747,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jordi Amat",
    "squad": "Betis"
-  },
-  {
-   "fbref_id": "c707411f",
-   "season": 2018,
-   "distance": 1.851,
-   "survived": 1,
-   "fut_ability_v2": 50.1,
-   "player_name": "Kostas Manolas",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "fbd6378b",
-   "season": 2018,
-   "distance": 1.916,
-   "survived": 1,
-   "fut_ability_v2": 55.2,
-   "player_name": "Aïssa Mandi",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "8650af85",
-   "season": 2018,
-   "distance": 1.961,
-   "survived": 1,
-   "fut_ability_v2": 60.1,
-   "player_name": "Gian Marco Ferrari",
-   "squad": "Sampdoria"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Pierre Kalulu(DF)의 현재 능력 점수는 62.1점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 운반 거리, 패스 성공률, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 박스 터치이다.",
-  "potential": "Pierre Kalulu의 2~3년 후 예측 중심값은 60.9점, 80% 구간 상단은 70.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pierre Kalulu의 2~3년 후 예측 중심값은 59.9점, 80% 구간 상단은 69.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

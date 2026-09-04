@@ -32,33 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7517,
-  "mu": 61.5,
+  "survival_prob": 0.7711,
+  "mu": 59.8,
   "ci80": {
-   "lo": 52.3,
-   "hi": 70.7
+   "lo": 50.6,
+   "hi": 69.0
   },
   "ci50": {
-   "lo": 56.7,
-   "hi": 66.3
+   "lo": 55.0,
+   "hi": 64.7
   },
-  "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "5f09991f",
    "season": 2018,
-   "distance": 2.199,
+   "distance": 2.266,
    "survived": 1,
    "fut_ability_v2": 55.4,
    "player_name": "Patrick van Aanholt",
    "squad": "Crystal Palace"
   },
   {
+   "fbref_id": "6ec6fde0",
+   "season": 2022,
+   "distance": 2.314,
+   "survived": 1,
+   "fut_ability_v2": 67.6,
+   "player_name": "Kevin Akpoguma",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "00a8d210",
+   "season": 2022,
+   "distance": 2.341,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Przemysław Frankowski",
+   "squad": "Lens"
+  },
+  {
+   "fbref_id": "1a7fcf39",
+   "season": 2021,
+   "distance": 2.415,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ezgjan Alioski",
+   "squad": "Leeds United"
+  },
+  {
+   "fbref_id": "2146785a",
+   "season": 2022,
+   "distance": 2.431,
+   "survived": 1,
+   "fut_ability_v2": 54.1,
+   "player_name": "Davide Calabria",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "16e9d0ea",
+   "season": 2022,
+   "distance": 2.507,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Álex Moreno",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "5c2b4f07",
+   "season": 2021,
+   "distance": 2.511,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Serge Aurier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "3353737a",
+   "season": 2022,
+   "distance": 2.632,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Sergio Reguilón",
+   "squad": "Tottenham"
+  },
+  {
    "fbref_id": "30c220c3",
    "season": 2019,
-   "distance": 2.626,
+   "distance": 2.755,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mitchell Weiser",
@@ -67,74 +130,11 @@
   {
    "fbref_id": "f4290206",
    "season": 2018,
-   "distance": 2.664,
+   "distance": 2.766,
    "survived": 1,
    "fut_ability_v2": 66.1,
    "player_name": "Marcos Alonso",
    "squad": "Chelsea"
-  },
-  {
-   "fbref_id": "9a1f2e1c",
-   "season": 2018,
-   "distance": 2.807,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rafael",
-   "squad": "Lyon"
-  },
-  {
-   "fbref_id": "3dd738a1",
-   "season": 2018,
-   "distance": 2.864,
-   "survived": 1,
-   "fut_ability_v2": 67.5,
-   "player_name": "Ruben Aguilar",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "4c5b714f",
-   "season": 2019,
-   "distance": 2.868,
-   "survived": 1,
-   "fut_ability_v2": 59.5,
-   "player_name": "Djibril Sidibé",
-   "squad": "Monaco"
-  },
-  {
-   "fbref_id": "5f09991f",
-   "season": 2020,
-   "distance": 2.868,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Patrick van Aanholt",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "20b104bc",
-   "season": 2018,
-   "distance": 2.888,
-   "survived": 1,
-   "fut_ability_v2": 51.1,
-   "player_name": "Adam Smith",
-   "squad": "Bournemouth"
-  },
-  {
-   "fbref_id": "5ddb8f9f",
-   "season": 2018,
-   "distance": 2.924,
-   "survived": 1,
-   "fut_ability_v2": 54.3,
-   "player_name": "Danny da Costa",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "75a72a99",
-   "season": 2019,
-   "distance": 2.961,
-   "survived": 1,
-   "fut_ability_v2": 62.7,
-   "player_name": "Ricardo Pereira",
-   "squad": "Leicester City"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Ainsley Maitland-Niles(DF)의 현재 능력 점수는 61.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 터치, 태클+인터셉트, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 공중볼 승률이다.",
-  "potential": "Ainsley Maitland-Niles의 2~3년 후 예측 중심값은 61.5점, 80% 구간 상단은 70.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ainsley Maitland-Niles의 2~3년 후 예측 중심값은 59.8점, 80% 구간 상단은 69.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 77.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

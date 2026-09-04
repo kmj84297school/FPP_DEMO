@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1436,
-  "mu": 49.8,
+  "survival_prob": 0.204,
+  "mu": 50.2,
   "ci80": {
-   "lo": 40.4,
-   "hi": 59.2
+   "lo": 40.8,
+   "hi": 59.5
   },
   "ci50": {
-   "lo": 44.9,
-   "hi": 54.7
+   "lo": 45.2,
+   "hi": 55.1
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "b5dd3469",
+   "season": 2022,
+   "distance": 1.145,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nemanja Radoja",
+   "squad": "Levante"
+  },
+  {
    "fbref_id": "4accb7e0",
    "season": 2019,
-   "distance": 1.315,
+   "distance": 1.369,
    "survived": 1,
    "fut_ability_v2": 40.7,
    "player_name": "Darko Brašanac",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "9a506145",
    "season": 2019,
-   "distance": 1.493,
+   "distance": 1.451,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rene Krhin",
    "squad": "Nantes"
   },
   {
+   "fbref_id": "88d91621",
+   "season": 2021,
+   "distance": 1.464,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Álvarez",
+   "squad": "Eibar"
+  },
+  {
    "fbref_id": "b0fce72c",
    "season": 2020,
-   "distance": 1.591,
+   "distance": 1.506,
    "survived": 1,
    "fut_ability_v2": 58.9,
    "player_name": "Mikel Vesga",
    "squad": "Athletic Club"
   },
   {
+   "fbref_id": "8f4d116f",
+   "season": 2021,
+   "distance": 1.538,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Damien Le Tallec",
+   "squad": "Montpellier"
+  },
+  {
    "fbref_id": "de343d38",
    "season": 2018,
-   "distance": 1.618,
+   "distance": 1.563,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Georges Mandjeck",
    "squad": "Metz"
   },
   {
+   "fbref_id": "17780d2b",
+   "season": 2021,
+   "distance": 1.567,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tobias Strobl",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "240d3a0b",
+   "season": 2021,
+   "distance": 1.646,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dani García",
+   "squad": "Athletic Club"
+  },
+  {
    "fbref_id": "54073b28",
    "season": 2019,
-   "distance": 1.709,
+   "distance": 1.682,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Recio",
    "squad": "Leganés"
-  },
-  {
-   "fbref_id": "023937a9",
-   "season": 2019,
-   "distance": 1.793,
-   "survived": 1,
-   "fut_ability_v2": 52.7,
-   "player_name": "Ivan Radovanović",
-   "squad": "Chievo / Genoa"
-  },
-  {
-   "fbref_id": "ff45add5",
-   "season": 2019,
-   "distance": 1.839,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alfredo Morales",
-   "squad": "Düsseldorf"
-  },
-  {
-   "fbref_id": "ba1e04b3",
-   "season": 2019,
-   "distance": 1.849,
-   "survived": 1,
-   "fut_ability_v2": 58.2,
-   "player_name": "Pedro Obiang",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "ebd0a048",
-   "season": 2018,
-   "distance": 1.862,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Matty James",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "1b82f8df",
-   "season": 2020,
-   "distance": 1.876,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lukas Lerager",
-   "squad": "Genoa"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Edimilson Fernandes(MF)의 현재 능력 점수는 39.2점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 공중볼 승률, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 슈팅 창출(SCA)이다.",
-  "potential": "Edimilson Fernandes의 2~3년 후 예측 중심값은 49.8점, 80% 구간 상단은 59.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 14.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Edimilson Fernandes의 2~3년 후 예측 중심값은 50.2점, 80% 구간 상단은 59.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

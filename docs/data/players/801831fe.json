@@ -32,33 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5465,
-  "mu": 55.5,
+  "survival_prob": 0.6412,
+  "mu": 55.7,
   "ci80": {
-   "lo": 44.8,
-   "hi": 66.2
+   "lo": 45.1,
+   "hi": 66.3
   },
   "ci50": {
-   "lo": 49.8,
-   "hi": 61.1
+   "lo": 50.2,
+   "hi": 61.3
   },
-  "sigma_model": 2.4,
+  "sigma_model": 2.3,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "bf075f6b",
    "season": 2020,
-   "distance": 2.481,
+   "distance": 2.404,
    "survived": 1,
    "fut_ability_v2": 60.8,
    "player_name": "Roland Sallai",
    "squad": "Freiburg"
   },
   {
+   "fbref_id": "6f8cd6d0",
+   "season": 2021,
+   "distance": 2.44,
+   "survived": 1,
+   "fut_ability_v2": 64.6,
+   "player_name": "Marcus Thuram",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "aad53e64",
+   "season": 2021,
+   "distance": 2.595,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kike Barja",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "f972644c",
+   "season": 2021,
+   "distance": 2.683,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Richter",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "12c35abe",
+   "season": 2022,
+   "distance": 2.838,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jens Petter Hauge",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "0c61c77c",
+   "season": 2022,
+   "distance": 2.886,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Dodi Lukebakio",
+   "squad": "Wolfsburg / Hertha BSC"
+  },
+  {
    "fbref_id": "509a4ccb",
    "season": 2018,
-   "distance": 2.973,
+   "distance": 2.897,
    "survived": 1,
    "fut_ability_v2": 68.3,
    "player_name": "Keita Baldé",
@@ -67,74 +112,29 @@
   {
    "fbref_id": "75a63397",
    "season": 2018,
-   "distance": 3.085,
+   "distance": 2.966,
    "survived": 1,
    "fut_ability_v2": 43.9,
    "player_name": "Opa Nguette",
    "squad": "Metz"
   },
   {
-   "fbref_id": "be5e1c4c",
-   "season": 2020,
-   "distance": 3.147,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Dawid Kownacki",
-   "squad": "Düsseldorf"
-  },
-  {
    "fbref_id": "e14ec482",
-   "season": 2019,
-   "distance": 3.188,
+   "season": 2021,
+   "distance": 2.984,
    "survived": 1,
-   "fut_ability_v2": 61.5,
+   "fut_ability_v2": 66.6,
    "player_name": "Riccardo Orsolini",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "ffa90327",
-   "season": 2018,
-   "distance": 3.37,
+   "fbref_id": "bfdb33aa",
+   "season": 2022,
+   "distance": 3.088,
    "survived": 1,
-   "fut_ability_v2": 51.7,
-   "player_name": "Anwar El Ghazi",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "796b1c41",
-   "season": 2018,
-   "distance": 3.39,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Saîf-Eddine Khaoui",
-   "squad": "Troyes"
-  },
-  {
-   "fbref_id": "05816e19",
-   "season": 2019,
-   "distance": 3.415,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Juan Ferney Otero",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "debc2f28",
-   "season": 2018,
-   "distance": 3.421,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Chadrac Akolo",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "f3b1d9a2",
-   "season": 2019,
-   "distance": 3.43,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Amath",
-   "squad": "Getafe"
+   "fut_ability_v2": 60.1,
+   "player_name": "Ismaila Sarr",
+   "squad": "Watford"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Daniel Maldini(MF)의 현재 능력 점수는 49.9점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 공중볼 승률, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 최종 3분의1 패스이다.",
-  "potential": "Daniel Maldini의 2~3년 후 예측 중심값은 55.5점, 80% 구간 상단은 66.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 54.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Daniel Maldini의 2~3년 후 예측 중심값은 55.7점, 80% 구간 상단은 66.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 64.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

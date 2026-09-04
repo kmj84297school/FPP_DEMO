@@ -32,29 +32,20 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1963,
-  "mu": 47.4,
+  "survival_prob": 0.1512,
+  "mu": 44.6,
   "ci80": {
-   "lo": 36.5,
-   "hi": 58.2
+   "lo": 33.8,
+   "hi": 55.4
   },
   "ci50": {
-   "lo": 41.7,
-   "hi": 53.1
+   "lo": 38.9,
+   "hi": 50.3
   },
-  "sigma_model": 2.6,
+  "sigma_model": 2.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
-  {
-   "fbref_id": "6aeb647a",
-   "season": 2018,
-   "distance": 2.271,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vahid Selimović",
-   "squad": "Metz"
-  },
   {
    "fbref_id": "8746d5d0",
    "season": 2019,
@@ -65,9 +56,45 @@
    "squad": "Nice"
   },
   {
+   "fbref_id": "6aeb647a",
+   "season": 2018,
+   "distance": 2.353,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vahid Selimović",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "8f325097",
+   "season": 2021,
+   "distance": 2.371,
+   "survived": 1,
+   "fut_ability_v2": 44.9,
+   "player_name": "Nicolas Cozza",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "7ba1f1ef",
+   "season": 2021,
+   "distance": 2.512,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lennart-Marten Czyborra",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "1545cf15",
+   "season": 2021,
+   "distance": 2.595,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Houboulang Mendes",
+   "squad": "Lorient"
+  },
+  {
    "fbref_id": "c00097d2",
    "season": 2018,
-   "distance": 2.561,
+   "distance": 2.633,
    "survived": 1,
    "fut_ability_v2": 50.2,
    "player_name": "Rober",
@@ -76,65 +103,38 @@
   {
    "fbref_id": "9b88e120",
    "season": 2018,
-   "distance": 2.571,
+   "distance": 2.646,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Robert Bauer",
    "squad": "Werder Bremen"
   },
   {
+   "fbref_id": "2d61d13a",
+   "season": 2022,
+   "distance": 2.648,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Ozan Kabak",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "efb9215a",
+   "season": 2021,
+   "distance": 2.683,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jamal Lewis",
+   "squad": "Newcastle Utd"
+  },
+  {
    "fbref_id": "70d8e84c",
    "season": 2020,
-   "distance": 2.594,
+   "distance": 2.689,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Chidozie Awaziem",
    "squad": "Leganés"
-  },
-  {
-   "fbref_id": "b5bf1770",
-   "season": 2020,
-   "distance": 2.641,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Lyanco",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "77cf6852",
-   "season": 2018,
-   "distance": 2.642,
-   "survived": 1,
-   "fut_ability_v2": 38.6,
-   "player_name": "Emil Krafth",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "3067cbef",
-   "season": 2018,
-   "distance": 2.747,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kouadio-Yves Dabila",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "0eb03d5b",
-   "season": 2018,
-   "distance": 2.759,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vukašin Jovanović",
-   "squad": "Bordeaux"
-  },
-  {
-   "fbref_id": "228b0d9d",
-   "season": 2020,
-   "distance": 2.761,
-   "survived": 1,
-   "fut_ability_v2": 46.3,
-   "player_name": "Aihen Muñoz",
-   "squad": "Real Sociedad"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Joël Schingtienne(DF)의 현재 능력 점수는 32.6점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 블록, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 공중볼 승리이다.",
-  "potential": "Joël Schingtienne의 2~3년 후 예측 중심값은 47.4점, 80% 구간 상단은 58.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 19.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Joël Schingtienne의 2~3년 후 예측 중심값은 44.6점, 80% 구간 상단은 55.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 15.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

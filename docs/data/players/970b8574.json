@@ -32,51 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7302,
-  "mu": 51.9,
+  "survival_prob": 0.7024,
+  "mu": 49.7,
   "ci80": {
-   "lo": 42.7,
-   "hi": 61.2
+   "lo": 40.3,
+   "hi": 59.2
   },
   "ci50": {
-   "lo": 47.1,
-   "hi": 56.8
+   "lo": 44.8,
+   "hi": 54.7
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "9e1577aa",
    "season": 2020,
-   "distance": 2.335,
+   "distance": 2.358,
    "survived": 1,
    "fut_ability_v2": 53.1,
    "player_name": "Cristiano Biraghi",
    "squad": "Inter"
   },
   {
+   "fbref_id": "30941e96",
+   "season": 2022,
+   "distance": 2.408,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Angeliño",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "9e1577aa",
+   "season": 2021,
+   "distance": 2.589,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "5219ab4a",
+   "season": 2021,
+   "distance": 2.638,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Jonathan Clauss",
+   "squad": "Lens"
+  },
+  {
    "fbref_id": "826e8b63",
    "season": 2019,
-   "distance": 2.706,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Philipp Max",
-   "squad": "Augsburg"
-  },
-  {
-   "fbref_id": "8593f88c",
-   "season": 2020,
-   "distance": 2.776,
-   "survived": 1,
-   "fut_ability_v2": 43.1,
-   "player_name": "Christian Günter",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "826e8b63",
-   "season": 2020,
-   "distance": 2.78,
+   "distance": 2.745,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Philipp Max",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "3b333ac3",
    "season": 2020,
-   "distance": 2.821,
+   "distance": 2.8,
    "survived": 1,
    "fut_ability_v2": 53.3,
    "player_name": "Hans Hateboer",
    "squad": "Atalanta"
   },
   {
-   "fbref_id": "5128bde4",
+   "fbref_id": "826e8b63",
    "season": 2020,
-   "distance": 2.941,
+   "distance": 2.81,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Philipp Max",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "8593f88c",
+   "season": 2020,
+   "distance": 2.861,
    "survived": 1,
-   "fut_ability_v2": 58.1,
-   "player_name": "Darko Lazović",
-   "squad": "Hellas Verona"
+   "fut_ability_v2": 43.1,
+   "player_name": "Christian Günter",
+   "squad": "Freiburg"
   },
   {
    "fbref_id": "3935e52e",
    "season": 2019,
-   "distance": 2.965,
+   "distance": 2.905,
    "survived": 1,
    "fut_ability_v2": 48.2,
    "player_name": "Sead Kolašinac",
    "squad": "Arsenal"
   },
   {
-   "fbref_id": "79c90e45",
-   "season": 2020,
-   "distance": 2.991,
-   "survived": 1,
-   "fut_ability_v2": 60.6,
-   "player_name": "Pavel Kadeřábek",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "79c90e45",
-   "season": 2019,
-   "distance": 3.125,
-   "survived": 1,
-   "fut_ability_v2": 57.7,
-   "player_name": "Pavel Kadeřábek",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "f2308b33",
-   "season": 2019,
-   "distance": 3.135,
+   "fbref_id": "bb5fbd2b",
+   "season": 2022,
+   "distance": 2.967,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Jonathan Silva",
-   "squad": "Leganés"
+   "player_name": "Solly March",
+   "squad": "Brighton"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Federico Dimarco(DF)의 현재 능력 점수는 52.5점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 시도, 유효슈팅, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 클리어링이다.",
-  "potential": "Federico Dimarco의 2~3년 후 예측 중심값은 51.9점, 80% 구간 상단은 61.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 73.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Federico Dimarco의 2~3년 후 예측 중심값은 49.7점, 80% 구간 상단은 59.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

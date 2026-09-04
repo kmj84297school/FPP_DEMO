@@ -29,27 +29,27 @@
   "eligible_for_prediction": true,
   "kind": "growth",
   "reason": null,
-  "out_of_validated_range": true
+  "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9778,
-  "mu": 71.8,
+  "survival_prob": 0.9797,
+  "mu": 69.7,
   "ci80": {
-   "lo": 60.9,
-   "hi": 82.7
+   "lo": 58.7,
+   "hi": 80.6
   },
   "ci50": {
-   "lo": 66.0,
-   "hi": 77.5
+   "lo": 63.9,
+   "hi": 75.3
   },
-  "sigma_model": 2.8,
+  "sigma_model": 3.0,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "6853490f",
    "season": 2018,
-   "distance": 4.05,
+   "distance": 4.019,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Malcom",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "df3cda47",
    "season": 2020,
-   "distance": 5.331,
+   "distance": 5.262,
    "survived": 1,
    "fut_ability_v2": 62.6,
    "player_name": "Dejan Kulusevski",
@@ -67,16 +67,52 @@
   {
    "fbref_id": "b19db005",
    "season": 2019,
-   "distance": 5.531,
+   "distance": 5.644,
    "survived": 1,
    "fut_ability_v2": 76.7,
    "player_name": "Ousmane Dembélé",
    "squad": "Barcelona"
   },
   {
+   "fbref_id": "7111d552",
+   "season": 2022,
+   "distance": 5.875,
+   "survived": 1,
+   "fut_ability_v2": 77.9,
+   "player_name": "Vinicius Júnior",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "ed1e53f3",
+   "season": 2022,
+   "distance": 5.875,
+   "survived": 1,
+   "fut_ability_v2": 77.0,
+   "player_name": "Phil Foden",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "8f5e92a6",
+   "season": 2021,
+   "distance": 6.102,
+   "survived": 1,
+   "fut_ability_v2": 77.0,
+   "player_name": "Rodrygo",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "c4486bac",
+   "season": 2022,
+   "distance": 6.213,
+   "survived": 1,
+   "fut_ability_v2": 89.7,
+   "player_name": "Michael Olise",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "2b114be3",
    "season": 2018,
-   "distance": 6.365,
+   "distance": 6.293,
    "survived": 1,
    "fut_ability_v2": 67.3,
    "player_name": "Leroy Sané",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "b2bd0f6c",
    "season": 2018,
-   "distance": 6.397,
+   "distance": 6.309,
    "survived": 1,
    "fut_ability_v2": 62.2,
    "player_name": "Jonathan Bamba",
    "squad": "Saint-Étienne"
   },
   {
-   "fbref_id": "b0f7e36c",
-   "season": 2020,
-   "distance": 6.461,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Federico Chiesa",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "1bf33a9a",
-   "season": 2020,
-   "distance": 6.843,
+   "fbref_id": "aad56ca3",
+   "season": 2022,
+   "distance": 6.348,
    "survived": 1,
-   "fut_ability_v2": 50.4,
-   "player_name": "Christian Pulisic",
-   "squad": "Chelsea"
-  },
-  {
-   "fbref_id": "b0f7e36c",
-   "season": 2019,
-   "distance": 6.88,
-   "survived": 1,
-   "fut_ability_v2": 72.7,
-   "player_name": "Federico Chiesa",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "20730eae",
-   "season": 2020,
-   "distance": 6.995,
-   "survived": 1,
-   "fut_ability_v2": 73.5,
-   "player_name": "Rafael Leão",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "7ba2eaa9",
-   "season": 2020,
-   "distance": 7.004,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pedro Neto",
-   "squad": "Wolves"
+   "fut_ability_v2": 69.2,
+   "player_name": "Amine Gouiri",
+   "squad": "Nice"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Rayan Cherki(FW)의 현재 능력 점수는 79.3점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스, 도움 기대값(xAG), 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 비페널티 xG이다.",
-  "potential": "Rayan Cherki의 2~3년 후 예측 중심값은 71.8점, 80% 구간 상단은 82.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Rayan Cherki의 2~3년 후 예측 중심값은 69.7점, 80% 구간 상단은 80.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

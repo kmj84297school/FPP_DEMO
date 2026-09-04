@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9047,
-  "mu": 53.5,
+  "survival_prob": 0.7343,
+  "mu": 55.7,
   "ci80": {
-   "lo": 42.9,
-   "hi": 64.1
+   "lo": 45.3,
+   "hi": 66.2
   },
   "ci50": {
-   "lo": 47.9,
-   "hi": 59.1
+   "lo": 50.3,
+   "hi": 61.3
   },
-  "sigma_model": 2.1,
+  "sigma_model": 1.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "71ec39ef",
    "season": 2020,
-   "distance": 1.545,
+   "distance": 1.642,
    "survived": 1,
    "fut_ability_v2": 45.7,
    "player_name": "Lucas Tousart",
    "squad": "Lyon"
   },
   {
+   "fbref_id": "2145368f",
+   "season": 2021,
+   "distance": 1.753,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Fomba",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "e778654a",
+   "season": 2022,
+   "distance": 1.819,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Yangel Herrera",
+   "squad": "Espanyol"
+  },
+  {
    "fbref_id": "8ef81d2d",
    "season": 2019,
-   "distance": 1.78,
+   "distance": 1.897,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cristian Rivera",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "59bf127b",
    "season": 2018,
-   "distance": 1.95,
+   "distance": 1.935,
    "survived": 1,
    "fut_ability_v2": 56.8,
    "player_name": "Tiemoué Bakayoko",
    "squad": "Chelsea"
   },
   {
+   "fbref_id": "384d58d9",
+   "season": 2021,
+   "distance": 2.157,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Denis Zakaria",
+   "squad": "M'Gladbach"
+  },
+  {
    "fbref_id": "283c7121",
    "season": 2020,
-   "distance": 2.057,
+   "distance": 2.18,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Edu Expósito",
    "squad": "Eibar"
   },
   {
+   "fbref_id": "e2f9bb5f",
+   "season": 2022,
+   "distance": 2.187,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zaydou Youssouf",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "7155e3e1",
+   "season": 2021,
+   "distance": 2.218,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pape Gueye",
+   "squad": "Marseille"
+  },
+  {
    "fbref_id": "5ae499d0",
    "season": 2019,
-   "distance": 2.084,
+   "distance": 2.22,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Santi Comesaña",
    "squad": "Rayo Vallecano"
-  },
-  {
-   "fbref_id": "48b28bfd",
-   "season": 2018,
-   "distance": 2.115,
-   "survived": 1,
-   "fut_ability_v2": 48.4,
-   "player_name": "Jean-Eudes Aholou",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "52611641",
-   "season": 2020,
-   "distance": 2.153,
-   "survived": 1,
-   "fut_ability_v2": 61.8,
-   "player_name": "Lucas Torreira",
-   "squad": "Arsenal"
-  },
-  {
-   "fbref_id": "9b5ce51a",
-   "season": 2019,
-   "distance": 2.169,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jefferson Lerma",
-   "squad": "Bournemouth"
-  },
-  {
-   "fbref_id": "e26fcca3",
-   "season": 2019,
-   "distance": 2.173,
-   "survived": 1,
-   "fut_ability_v2": 49.4,
-   "player_name": "Santiago Ascacíbar",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "dc6f5bdd",
-   "season": 2019,
-   "distance": 2.174,
-   "survived": 1,
-   "fut_ability_v2": 62.0,
-   "player_name": "Calum Chambers",
-   "squad": "Fulham"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Johnny Cardoso(MF)의 현재 능력 점수는 51.1점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 태클+인터셉트, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 키패스이다.",
-  "potential": "Johnny Cardoso의 2~3년 후 예측 중심값은 53.5점, 80% 구간 상단은 64.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 90.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Johnny Cardoso의 2~3년 후 예측 중심값은 55.7점, 80% 구간 상단은 66.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 73.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

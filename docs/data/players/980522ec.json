@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1912,
-  "mu": 59.9,
+  "survival_prob": 0.1739,
+  "mu": 60.6,
   "ci80": {
-   "lo": 50.4,
-   "hi": 69.6
+   "lo": 50.9,
+   "hi": 70.3
   },
   "ci50": {
-   "lo": 54.9,
-   "hi": 65.0
+   "lo": 55.5,
+   "hi": 65.7
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 2.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "68829001",
-   "season": 2018,
-   "distance": 3.015,
+   "fbref_id": "03e91055",
+   "season": 2022,
+   "distance": 2.821,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jason Berthomier",
+   "squad": "Clermont Foot"
+  },
+  {
+   "fbref_id": "8aec0537",
+   "season": 2022,
+   "distance": 2.892,
    "survived": 1,
-   "fut_ability_v2": 61.7,
-   "player_name": "Gonzalo Castro",
-   "squad": "Dortmund"
+   "fut_ability_v2": 73.1,
+   "player_name": "Pascal Groß",
+   "squad": "Brighton"
   },
   {
    "fbref_id": "b037bd4f",
    "season": 2018,
-   "distance": 3.07,
+   "distance": 2.931,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Beñat Etxebarria",
    "squad": "Athletic Club"
   },
   {
+   "fbref_id": "68829001",
+   "season": 2018,
+   "distance": 3.057,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Gonzalo Castro",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "f7691f63",
+   "season": 2021,
+   "distance": 3.296,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitri Liénard",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "29733c72",
    "season": 2019,
-   "distance": 3.441,
+   "distance": 3.44,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juan Mata",
@@ -76,65 +103,38 @@
   {
    "fbref_id": "719384c1",
    "season": 2020,
-   "distance": 3.528,
+   "distance": 3.521,
    "survived": 1,
    "fut_ability_v2": 45.0,
    "player_name": "Ángel Montoro",
    "squad": "Granada"
   },
   {
-   "fbref_id": "5f9f0531",
-   "season": 2018,
-   "distance": 3.696,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aaron Hunt",
-   "squad": "Hamburger SV"
+   "fbref_id": "8b9ebd03",
+   "season": 2021,
+   "distance": 3.647,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Willian",
+   "squad": "Arsenal"
   },
   {
    "fbref_id": "ae64d449",
    "season": 2020,
-   "distance": 3.712,
+   "distance": 3.685,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luca Cigarini",
    "squad": "Cagliari"
   },
   {
-   "fbref_id": "455a2b79",
-   "season": 2019,
-   "distance": 3.783,
+   "fbref_id": "5f9f0531",
+   "season": 2018,
+   "distance": 3.755,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Valter Birsa",
-   "squad": "Chievo / Cagliari"
-  },
-  {
-   "fbref_id": "ef322658",
-   "season": 2018,
-   "distance": 3.803,
-   "survived": 1,
-   "fut_ability_v2": 50.9,
-   "player_name": "Andrés Guardado",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "78841da9",
-   "season": 2019,
-   "distance": 3.824,
-   "survived": 1,
-   "fut_ability_v2": 54.0,
-   "player_name": "José Callejón",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "c801616a",
-   "season": 2019,
-   "distance": 3.853,
-   "survived": 1,
-   "fut_ability_v2": 56.5,
-   "player_name": "Thomas Mangani",
-   "squad": "Angers"
+   "player_name": "Aaron Hunt",
+   "squad": "Hamburger SV"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Christian Eriksen(MF)의 현재 능력 점수는 61.5점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 도움 기대값(xAG), 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 공중볼 승률이다.",
-  "potential": "Christian Eriksen의 2~3년 후 예측 중심값은 59.9점, 80% 구간 상단은 69.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 19.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Christian Eriksen의 2~3년 후 예측 중심값은 60.6점, 80% 구간 상단은 70.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 17.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

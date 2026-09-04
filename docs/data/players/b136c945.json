@@ -32,42 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6086,
-  "mu": 46.6,
+  "survival_prob": 0.5396,
+  "mu": 44.7,
   "ci80": {
-   "lo": 37.5,
-   "hi": 55.8
+   "lo": 35.4,
+   "hi": 53.9
   },
   "ci50": {
-   "lo": 41.8,
-   "hi": 51.4
+   "lo": 39.8,
+   "hi": 49.5
   },
-  "sigma_model": 1.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "070a3904",
-   "season": 2020,
-   "distance": 2.05,
-   "survived": 1,
-   "fut_ability_v2": 55.7,
-   "player_name": "Sergi Darder",
-   "squad": "Espanyol"
-  },
-  {
    "fbref_id": "15fd5593",
    "season": 2019,
-   "distance": 2.057,
+   "distance": 2.022,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Davy Klaassen",
    "squad": "Werder Bremen"
   },
   {
+   "fbref_id": "070a3904",
+   "season": 2020,
+   "distance": 2.073,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "614eca9b",
+   "season": 2021,
+   "distance": 2.084,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Hartel",
+   "squad": "Arminia"
+  },
+  {
    "fbref_id": "ef7cd87a",
    "season": 2019,
-   "distance": 2.062,
+   "distance": 2.1,
    "survived": 1,
    "fut_ability_v2": 54.0,
    "player_name": "Abdoulaye Touré",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "86e119e0",
    "season": 2019,
-   "distance": 2.108,
+   "distance": 2.14,
    "survived": 1,
    "fut_ability_v2": 59.4,
    "player_name": "Maximilian Arnold",
    "squad": "Wolfsburg"
   },
   {
-   "fbref_id": "20e73fac",
-   "season": 2020,
-   "distance": 2.187,
-   "survived": 1,
-   "fut_ability_v2": 65.0,
-   "player_name": "Benjamin Bourigeaud",
-   "squad": "Rennes"
+   "fbref_id": "58afe001",
+   "season": 2021,
+   "distance": 2.17,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mauro Arambarri",
+   "squad": "Getafe"
   },
   {
    "fbref_id": "29b61deb",
    "season": 2018,
-   "distance": 2.252,
+   "distance": 2.175,
    "survived": 1,
    "fut_ability_v2": 38.4,
    "player_name": "Pere Pons",
    "squad": "Girona"
   },
   {
-   "fbref_id": "70dcf94d",
-   "season": 2020,
-   "distance": 2.257,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Janik Haberer",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "62ab9184",
-   "season": 2019,
-   "distance": 2.268,
-   "survived": 1,
-   "fut_ability_v2": 56.8,
-   "player_name": "Yannick Gerhardt",
-   "squad": "Wolfsburg"
-  },
-  {
    "fbref_id": "29b61deb",
    "season": 2019,
-   "distance": 2.299,
+   "distance": 2.195,
    "survived": 1,
    "fut_ability_v2": 33.1,
    "player_name": "Pere Pons",
    "squad": "Girona"
   },
   {
-   "fbref_id": "0df2b165",
+   "fbref_id": "70dcf94d",
    "season": 2020,
-   "distance": 2.312,
+   "distance": 2.217,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "John Lundstram",
-   "squad": "Sheffield Utd"
+   "player_name": "Janik Haberer",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "20e73fac",
+   "season": 2020,
+   "distance": 2.221,
+   "survived": 1,
+   "fut_ability_v2": 65.0,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Hans Nicolussi Caviglia(MF)의 현재 능력 점수는 41.9점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 유효슈팅, 클리어링, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
-  "potential": "Hans Nicolussi Caviglia의 2~3년 후 예측 중심값은 46.6점, 80% 구간 상단은 55.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Hans Nicolussi Caviglia의 2~3년 후 예측 중심값은 44.7점, 80% 구간 상단은 53.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

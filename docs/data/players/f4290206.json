@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6917,
-  "mu": 61.3,
+  "survival_prob": 0.3772,
+  "mu": 59.8,
   "ci80": {
-   "lo": 52.1,
-   "hi": 70.4
+   "lo": 50.6,
+   "hi": 69.1
   },
   "ci50": {
-   "lo": 56.5,
-   "hi": 66.1
+   "lo": 55.0,
+   "hi": 64.7
   },
-  "sigma_model": 1.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "53de807a",
+   "season": 2021,
+   "distance": 2.046,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "53cad200",
+   "season": 2022,
+   "distance": 2.07,
+   "survived": 1,
+   "fut_ability_v2": 62.0,
+   "player_name": "César Azpilicueta",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "fe2db476",
    "season": 2020,
-   "distance": 2.182,
+   "distance": 2.102,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Łukasz Piszczek",
@@ -58,7 +76,7 @@
   {
    "fbref_id": "fe2db476",
    "season": 2018,
-   "distance": 2.242,
+   "distance": 2.215,
    "survived": 1,
    "fut_ability_v2": 64.4,
    "player_name": "Łukasz Piszczek",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "53de807a",
    "season": 2019,
-   "distance": 2.309,
+   "distance": 2.248,
    "survived": 1,
    "fut_ability_v2": 58.7,
    "player_name": "Ștefan Radu",
@@ -76,34 +94,34 @@
   {
    "fbref_id": "00844823",
    "season": 2020,
-   "distance": 2.328,
+   "distance": 2.262,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Niklas Moisander",
    "squad": "Werder Bremen"
   },
   {
-   "fbref_id": "00844823",
-   "season": 2019,
-   "distance": 2.394,
-   "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "Niklas Moisander",
-   "squad": "Werder Bremen"
-  },
-  {
    "fbref_id": "c0e27d1a",
    "season": 2019,
-   "distance": 2.432,
+   "distance": 2.384,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "David Luiz",
    "squad": "Chelsea"
   },
   {
+   "fbref_id": "00844823",
+   "season": 2019,
+   "distance": 2.399,
+   "survived": 1,
+   "fut_ability_v2": 61.3,
+   "player_name": "Niklas Moisander",
+   "squad": "Werder Bremen"
+  },
+  {
    "fbref_id": "e4ed2628",
    "season": 2019,
-   "distance": 2.554,
+   "distance": 2.516,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Filipe Luís",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "00844823",
    "season": 2018,
-   "distance": 2.58,
+   "distance": 2.541,
    "survived": 1,
    "fut_ability_v2": 63.6,
    "player_name": "Niklas Moisander",
    "squad": "Werder Bremen"
-  },
-  {
-   "fbref_id": "86e7deaf",
-   "season": 2019,
-   "distance": 2.584,
-   "survived": 1,
-   "fut_ability_v2": 68.7,
-   "player_name": "Thiago Silva",
-   "squad": "Paris S-G"
-  },
-  {
-   "fbref_id": "e85fb9b8",
-   "season": 2018,
-   "distance": 2.764,
-   "survived": 1,
-   "fut_ability_v2": 58.6,
-   "player_name": "Giorgio Chiellini",
-   "squad": "Juventus"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Marcos Alonso(DF)의 현재 능력 점수는 67.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반 거리, 전진 패스, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 실책이다.",
-  "potential": "Marcos Alonso의 2~3년 후 예측 중심값은 61.3점, 80% 구간 상단은 70.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marcos Alonso의 2~3년 후 예측 중심값은 59.8점, 80% 구간 상단은 69.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 37.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

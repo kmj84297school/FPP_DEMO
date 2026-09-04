@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9773,
-  "mu": 67.4,
+  "survival_prob": 0.9327,
+  "mu": 65.9,
   "ci80": {
-   "lo": 56.8,
-   "hi": 78.0
+   "lo": 55.4,
+   "hi": 76.4
   },
   "ci50": {
-   "lo": 61.8,
-   "hi": 73.0
+   "lo": 60.3,
+   "hi": 71.5
   },
-  "sigma_model": 2.1,
+  "sigma_model": 2.0,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "ca8033cb",
    "season": 2020,
-   "distance": 1.567,
+   "distance": 1.606,
    "survived": 1,
    "fut_ability_v2": 56.5,
    "player_name": "Lukas Klostermann",
    "squad": "RB Leipzig"
   },
   {
+   "fbref_id": "88f130ed",
+   "season": 2022,
+   "distance": 1.724,
+   "survived": 1,
+   "fut_ability_v2": 59.1,
+   "player_name": "Jean-Clair Todibo",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "4d1666ff",
+   "season": 2022,
+   "distance": 1.813,
+   "survived": 1,
+   "fut_ability_v2": 64.6,
+   "player_name": "Jules Koundé",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "4d1666ff",
+   "season": 2021,
+   "distance": 2.004,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Jules Koundé",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "d248cd8f",
+   "season": 2021,
+   "distance": 2.074,
+   "survived": 1,
+   "fut_ability_v2": 62.0,
+   "player_name": "Dayot Upamecano",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "f521b80a",
    "season": 2018,
-   "distance": 2.104,
+   "distance": 2.18,
    "survived": 1,
    "fut_ability_v2": 63.2,
    "player_name": "Matthias Ginter",
@@ -66,75 +102,39 @@
   },
   {
    "fbref_id": "5aa53281",
-   "season": 2020,
-   "distance": 2.251,
-   "survived": 1,
-   "fut_ability_v2": 53.1,
-   "player_name": "Gianluca Mancini",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "5aa53281",
    "season": 2019,
-   "distance": 2.302,
+   "distance": 2.18,
    "survived": 1,
    "fut_ability_v2": 62.4,
    "player_name": "Gianluca Mancini",
    "squad": "Atalanta"
   },
   {
-   "fbref_id": "e33c06cf",
-   "season": 2018,
-   "distance": 2.327,
-   "survived": 1,
-   "fut_ability_v2": 70.8,
-   "player_name": "Niklas Süle",
-   "squad": "Bayern Munich"
-  },
-  {
-   "fbref_id": "bd142efb",
-   "season": 2019,
-   "distance": 2.386,
-   "survived": 1,
-   "fut_ability_v2": 66.1,
-   "player_name": "Jonathan Tah",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "30f5ffa9",
-   "season": 2018,
-   "distance": 2.396,
-   "survived": 1,
-   "fut_ability_v2": 54.7,
-   "player_name": "Milan Škriniar",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "45a03961",
-   "season": 2020,
-   "distance": 2.442,
-   "survived": 1,
-   "fut_ability_v2": 74.4,
-   "player_name": "Benjamin Pavard",
-   "squad": "Bayern Munich"
-  },
-  {
    "fbref_id": "ad82197c",
-   "season": 2020,
-   "distance": 2.515,
+   "season": 2022,
+   "distance": 2.211,
    "survived": 1,
-   "fut_ability_v2": 64.5,
+   "fut_ability_v2": 62.0,
    "player_name": "Axel Disasi",
-   "squad": "Reims"
+   "squad": "Monaco"
   },
   {
-   "fbref_id": "67ac5bb8",
-   "season": 2020,
-   "distance": 2.55,
+   "fbref_id": "b3af9be1",
+   "season": 2021,
+   "distance": 2.216,
    "survived": 1,
-   "fut_ability_v2": 57.1,
-   "player_name": "Gabriel Dos Santos",
-   "squad": "Lille"
+   "fut_ability_v2": 57.9,
+   "player_name": "Takehiro Tomiyasu",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "5aa53281",
+   "season": 2020,
+   "distance": 2.247,
+   "survived": 1,
+   "fut_ability_v2": 53.1,
+   "player_name": "Gianluca Mancini",
+   "squad": "Roma"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Piero Hincapié(DF)의 현재 능력 점수는 70.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 최종 3분의1 패스, 전진 운반 거리, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 볼 리커버리이다.",
-  "potential": "Piero Hincapié의 2~3년 후 예측 중심값은 67.4점, 80% 구간 상단은 78.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Piero Hincapié의 2~3년 후 예측 중심값은 65.9점, 80% 구간 상단은 76.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

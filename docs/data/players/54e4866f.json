@@ -32,33 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7709,
-  "mu": 64.5,
+  "survival_prob": 0.706,
+  "mu": 65.4,
   "ci80": {
-   "lo": 55.1,
-   "hi": 74.0
+   "lo": 55.9,
+   "hi": 74.8
   },
   "ci50": {
-   "lo": 59.5,
-   "hi": 69.5
+   "lo": 60.5,
+   "hi": 70.3
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "f9446dcd",
-   "season": 2018,
-   "distance": 2.285,
-   "survived": 1,
-   "fut_ability_v2": 64.7,
-   "player_name": "Max Kruse",
-   "squad": "Werder Bremen"
-  },
-  {
    "fbref_id": "78841da9",
    "season": 2020,
-   "distance": 2.289,
+   "distance": 2.238,
    "survived": 1,
    "fut_ability_v2": 54.0,
    "player_name": "José Callejón",
@@ -66,17 +57,35 @@
   },
   {
    "fbref_id": "f9446dcd",
+   "season": 2018,
+   "distance": 2.286,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "Max Kruse",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "f9446dcd",
    "season": 2019,
-   "distance": 2.421,
+   "distance": 2.477,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Max Kruse",
    "squad": "Werder Bremen"
   },
   {
+   "fbref_id": "f9446dcd",
+   "season": 2021,
+   "distance": 2.541,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Max Kruse",
+   "squad": "Union Berlin"
+  },
+  {
    "fbref_id": "78841da9",
    "season": 2018,
-   "distance": 2.574,
+   "distance": 2.551,
    "survived": 1,
    "fut_ability_v2": 65.4,
    "player_name": "José Callejón",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "7dcf86f6",
    "season": 2019,
-   "distance": 2.645,
+   "distance": 2.613,
    "survived": 1,
    "fut_ability_v2": 74.6,
    "player_name": "Iago Aspas",
    "squad": "Celta Vigo"
   },
   {
-   "fbref_id": "7dcf86f6",
-   "season": 2018,
-   "distance": 3.539,
-   "survived": 1,
-   "fut_ability_v2": 68.5,
-   "player_name": "Iago Aspas",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "0b4d8274",
-   "season": 2018,
-   "distance": 3.546,
-   "survived": 1,
-   "fut_ability_v2": 59.4,
-   "player_name": "Romain Hamouma",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "89b2c8a9",
-   "season": 2020,
-   "distance": 3.575,
-   "survived": 1,
-   "fut_ability_v2": 71.0,
-   "player_name": "Dries Mertens",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "7dcf86f6",
-   "season": 2020,
-   "distance": 3.607,
-   "survived": 1,
-   "fut_ability_v2": 66.6,
-   "player_name": "Iago Aspas",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "8b9ebd03",
-   "season": 2020,
-   "distance": 3.632,
+   "fbref_id": "715bf047",
+   "season": 2021,
+   "distance": 2.715,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Willian",
-   "squad": "Chelsea"
+   "player_name": "James Rodríguez",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "7dcf86f6",
+   "season": 2021,
+   "distance": 2.78,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Iago Aspas",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2021,
+   "distance": 3.319,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Farias",
+   "squad": "Spezia"
+  },
+  {
+   "fbref_id": "f9446dcd",
+   "season": 2022,
+   "distance": 3.359,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Max Kruse",
+   "squad": "Union Berlin / Wolfsburg"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Vincenzo Grifo(FW)의 현재 능력 점수는 74.2점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 거리, 최종 3분의1 패스, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 슈팅당 기대득점이다.",
-  "potential": "Vincenzo Grifo의 2~3년 후 예측 중심값은 64.5점, 80% 구간 상단은 74.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 77.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Vincenzo Grifo의 2~3년 후 예측 중심값은 65.4점, 80% 구간 상단은 74.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

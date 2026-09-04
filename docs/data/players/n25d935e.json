@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2714,
-  "mu": 52.5,
+  "survival_prob": 0.3382,
+  "mu": 52.0,
   "ci80": {
-   "lo": 41.9,
-   "hi": 63.0
+   "lo": 41.7,
+   "hi": 62.4
   },
   "ci50": {
-   "lo": 46.9,
-   "hi": 58.1
+   "lo": 46.5,
+   "hi": 57.4
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "34bb6fbd",
    "season": 2019,
-   "distance": 1.327,
+   "distance": 1.281,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Arturo Calabresi",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "8746d5d0",
    "season": 2019,
-   "distance": 1.591,
+   "distance": 1.546,
    "survived": 1,
    "fut_ability_v2": 37.8,
    "player_name": "Patrick Burner",
@@ -67,34 +67,52 @@
   {
    "fbref_id": "c3ee18ef",
    "season": 2019,
-   "distance": 1.736,
+   "distance": 1.767,
    "survived": 1,
    "fut_ability_v2": 72.7,
    "player_name": "Lucas Hernández",
    "squad": "Atlético Madrid"
   },
   {
+   "fbref_id": "5762be5c",
+   "season": 2021,
+   "distance": 1.984,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Atakan Karazor",
+   "squad": "Stuttgart"
+  },
+  {
    "fbref_id": "77cf6852",
    "season": 2018,
-   "distance": 1.936,
+   "distance": 2.031,
    "survived": 1,
    "fut_ability_v2": 38.6,
    "player_name": "Emil Krafth",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "758dd7f0",
-   "season": 2018,
-   "distance": 2.019,
+   "fbref_id": "997fff07",
+   "season": 2021,
+   "distance": 2.041,
    "survived": 1,
-   "fut_ability_v2": 40.9,
-   "player_name": "Javier Manquillo",
-   "squad": "Newcastle Utd"
+   "fut_ability_v2": 49.0,
+   "player_name": "Sebastiano Luperto",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "9ba7b4fa",
+   "season": 2022,
+   "distance": 2.07,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enzo Ebosse",
+   "squad": "Angers"
   },
   {
    "fbref_id": "4c700f46",
    "season": 2020,
-   "distance": 2.027,
+   "distance": 2.077,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jérémy Gélin",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "6ec6fde0",
    "season": 2018,
-   "distance": 2.065,
+   "distance": 2.079,
    "survived": 1,
    "fut_ability_v2": 49.5,
    "player_name": "Kevin Akpoguma",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "d61b3354",
-   "season": 2018,
-   "distance": 2.082,
+   "fbref_id": "49136c42",
+   "season": 2022,
+   "distance": 2.105,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Wallace",
-   "squad": "Lazio"
-  },
-  {
-   "fbref_id": "b5bf1770",
-   "season": 2020,
-   "distance": 2.143,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Lyanco",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "983ff2c7",
-   "season": 2018,
-   "distance": 2.192,
-   "survived": 1,
-   "fut_ability_v2": 38.6,
-   "player_name": "Lorenzo Venuti",
-   "squad": "Benevento"
+   "player_name": "Andrew Gravillon",
+   "squad": "Reims"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mory Gbane(DF)의 현재 능력 점수는 50.4점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 어시스트, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 박스 터치이다.",
-  "potential": "Mory Gbane의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 63.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 27.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mory Gbane의 2~3년 후 예측 중심값은 52.0점, 80% 구간 상단은 62.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 33.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

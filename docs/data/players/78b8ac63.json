@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1846,
-  "mu": 47.5,
+  "survival_prob": 0.4638,
+  "mu": 47.7,
   "ci80": {
-   "lo": 38.0,
-   "hi": 57.0
+   "lo": 38.2,
+   "hi": 57.2
   },
   "ci50": {
-   "lo": 42.6,
-   "hi": 52.5
+   "lo": 42.7,
+   "hi": 52.7
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "c4e87b8b",
+   "season": 2022,
+   "distance": 2.148,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg / Burnley"
+  },
+  {
    "fbref_id": "8f898ba8",
    "season": 2019,
-   "distance": 2.197,
+   "distance": 2.185,
    "survived": 1,
    "fut_ability_v2": 36.2,
    "player_name": "Guido Carrillo",
    "squad": "Leganés"
   },
   {
+   "fbref_id": "c693347d",
+   "season": 2021,
+   "distance": 2.347,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Cornelius",
+   "squad": "Parma"
+  },
+  {
    "fbref_id": "abb3bb95",
    "season": 2020,
-   "distance": 2.367,
+   "distance": 2.35,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luuk de Jong",
@@ -67,25 +85,25 @@
   {
    "fbref_id": "d520120b",
    "season": 2019,
-   "distance": 2.374,
+   "distance": 2.401,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Júlio Tavares",
    "squad": "Dijon"
   },
   {
-   "fbref_id": "d520120b",
-   "season": 2020,
-   "distance": 2.479,
+   "fbref_id": "8f898ba8",
+   "season": 2021,
+   "distance": 2.454,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Júlio Tavares",
-   "squad": "Dijon"
+   "player_name": "Guido Carrillo",
+   "squad": "Elche"
   },
   {
    "fbref_id": "bb4b1242",
    "season": 2018,
-   "distance": 2.498,
+   "distance": 2.478,
    "survived": 1,
    "fut_ability_v2": 41.8,
    "player_name": "Sergi Enrich",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "6265208f",
    "season": 2018,
-   "distance": 2.508,
+   "distance": 2.48,
    "survived": 1,
    "fut_ability_v2": 50.6,
    "player_name": "Joselu",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "ab070c55",
-   "season": 2018,
-   "distance": 2.553,
-   "survived": 1,
-   "fut_ability_v2": 57.0,
-   "player_name": "Christian Benteke",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "549c6ba7",
-   "season": 2018,
-   "distance": 2.558,
+   "fbref_id": "d520120b",
+   "season": 2020,
+   "distance": 2.508,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Franco Di Santo",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "8f898ba8",
-   "season": 2020,
-   "distance": 2.573,
-   "survived": 1,
-   "fut_ability_v2": 30.8,
-   "player_name": "Guido Carrillo",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "d520120b",
-   "season": 2018,
-   "distance": 2.577,
-   "survived": 1,
-   "fut_ability_v2": 46.5,
    "player_name": "Júlio Tavares",
    "squad": "Dijon"
+  },
+  {
+   "fbref_id": "abb3bb95",
+   "season": 2021,
+   "distance": 2.51,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luuk de Jong",
+   "squad": "Sevilla"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Oliver McBurnie(FW)의 현재 능력 점수는 46.6점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 공중볼 승률, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 운반이다.",
-  "potential": "Oliver McBurnie의 2~3년 후 예측 중심값은 47.5점, 80% 구간 상단은 57.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 18.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Oliver McBurnie의 2~3년 후 예측 중심값은 47.7점, 80% 구간 상단은 57.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 46.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

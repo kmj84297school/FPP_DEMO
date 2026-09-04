@@ -32,69 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9945,
-  "mu": 57.0,
+  "survival_prob": 0.955,
+  "mu": 59.6,
   "ci80": {
-   "lo": 46.2,
-   "hi": 67.8
+   "lo": 48.9,
+   "hi": 70.3
   },
   "ci50": {
-   "lo": 51.2,
-   "hi": 62.7
+   "lo": 54.0,
+   "hi": 65.2
   },
-  "sigma_model": 2.6,
+  "sigma_model": 2.4,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "a8a874f1",
    "season": 2019,
-   "distance": 2.411,
+   "distance": 2.505,
    "survived": 1,
    "fut_ability_v2": 67.1,
    "player_name": "Manuel Locatelli",
    "squad": "Sassuolo"
   },
   {
+   "fbref_id": "26777636",
+   "season": 2021,
+   "distance": 2.562,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Yacine Adli",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "0db169ae",
+   "season": 2022,
+   "distance": 2.736,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Sandro Tonali",
+   "squad": "Milan"
+  },
+  {
    "fbref_id": "a8a874f1",
    "season": 2020,
-   "distance": 2.844,
+   "distance": 2.99,
    "survived": 1,
    "fut_ability_v2": 61.1,
    "player_name": "Manuel Locatelli",
    "squad": "Sassuolo"
   },
   {
-   "fbref_id": "4a5a45c7",
-   "season": 2018,
-   "distance": 2.972,
-   "survived": 1,
-   "fut_ability_v2": 74.2,
-   "player_name": "Lorenzo Pellegrini",
-   "squad": "Roma"
-  },
-  {
    "fbref_id": "ffbbc83b",
    "season": 2018,
-   "distance": 3.003,
+   "distance": 3.022,
    "survived": 1,
    "fut_ability_v2": 68.2,
    "player_name": "Florian Grillitsch",
    "squad": "Hoffenheim"
   },
   {
+   "fbref_id": "e58cbfd5",
+   "season": 2022,
+   "distance": 3.069,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Nicolò Rovella",
+   "squad": "Genoa"
+  },
+  {
    "fbref_id": "a10361d2",
    "season": 2019,
-   "distance": 3.01,
+   "distance": 3.074,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aleix García",
    "squad": "Girona"
   },
   {
+   "fbref_id": "4a5a45c7",
+   "season": 2018,
+   "distance": 3.115,
+   "survived": 1,
+   "fut_ability_v2": 74.2,
+   "player_name": "Lorenzo Pellegrini",
+   "squad": "Roma"
+  },
+  {
    "fbref_id": "e1df6989",
    "season": 2020,
-   "distance": 3.113,
+   "distance": 3.199,
    "survived": 1,
    "fut_ability_v2": 44.6,
    "player_name": "Imran Louza",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "beb882a8",
    "season": 2019,
-   "distance": 3.19,
+   "distance": 3.32,
    "survived": 1,
    "fut_ability_v2": 54.7,
    "player_name": "Maximilian Eggestein",
    "squad": "Werder Bremen"
-  },
-  {
-   "fbref_id": "b70bde8f",
-   "season": 2018,
-   "distance": 3.227,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Stefano Sensi",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "8827bf46",
-   "season": 2019,
-   "distance": 3.3,
-   "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Gerson",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "75e60d75",
-   "season": 2020,
-   "distance": 3.317,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ronaldo Vieira",
-   "squad": "Sampdoria"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Lamine Camara(MF)의 현재 능력 점수는 68.2점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 볼 리커버리, 어시스트, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 운반이다.",
-  "potential": "Lamine Camara의 2~3년 후 예측 중심값은 57.0점, 80% 구간 상단은 67.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 99.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lamine Camara의 2~3년 후 예측 중심값은 59.6점, 80% 구간 상단은 70.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

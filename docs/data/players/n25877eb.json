@@ -32,24 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9628,
-  "mu": 62.2,
+  "survival_prob": 0.8548,
+  "mu": 61.8,
   "ci80": {
-   "lo": 51.6,
-   "hi": 72.9
+   "lo": 51.3,
+   "hi": 72.3
   },
   "ci50": {
-   "lo": 56.6,
-   "hi": 67.8
+   "lo": 56.3,
+   "hi": 67.3
   },
-  "sigma_model": 2.2,
+  "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "92d83c27",
+   "season": 2021,
+   "distance": 1.857,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Mattias Svanberg",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "0db169ae",
+   "season": 2022,
+   "distance": 1.907,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Sandro Tonali",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "7d9397f8",
+   "season": 2022,
+   "distance": 2.06,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khéphren Thuram-Ulie",
+   "squad": "Nice"
+  },
+  {
    "fbref_id": "75e60d75",
    "season": 2020,
-   "distance": 1.968,
+   "distance": 2.066,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ronaldo Vieira",
@@ -58,7 +85,7 @@
   {
    "fbref_id": "37f606f0",
    "season": 2018,
-   "distance": 2.188,
+   "distance": 2.203,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Dennis Geiger",
@@ -67,74 +94,47 @@
   {
    "fbref_id": "0959c2a2",
    "season": 2020,
-   "distance": 2.188,
+   "distance": 2.277,
    "survived": 1,
    "fut_ability_v2": 66.1,
    "player_name": "Federico Valverde",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "1544f145",
+   "season": 2022,
+   "distance": 2.302,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Jacob Ramsey",
+   "squad": "Aston Villa"
+  },
+  {
    "fbref_id": "a10361d2",
    "season": 2019,
-   "distance": 2.193,
+   "distance": 2.302,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aleix García",
    "squad": "Girona"
   },
   {
-   "fbref_id": "384d58d9",
-   "season": 2019,
-   "distance": 2.422,
+   "fbref_id": "2a7d27c1",
+   "season": 2022,
+   "distance": 2.457,
    "survived": 1,
-   "fut_ability_v2": 57.2,
-   "player_name": "Denis Zakaria",
-   "squad": "M'Gladbach"
+   "fut_ability_v2": 55.6,
+   "player_name": "Davide Frattesi",
+   "squad": "Sassuolo"
   },
   {
-   "fbref_id": "c6e8cf1f",
-   "season": 2019,
-   "distance": 2.505,
-   "survived": 1,
-   "fut_ability_v2": 53.1,
-   "player_name": "Saša Lukić",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "fed17f5a",
-   "season": 2018,
-   "distance": 2.51,
-   "survived": 1,
-   "fut_ability_v2": 50.2,
-   "player_name": "Carlos Soler",
-   "squad": "Valencia"
-  },
-  {
-   "fbref_id": "3b8674e6",
-   "season": 2019,
-   "distance": 2.512,
-   "survived": 1,
-   "fut_ability_v2": 66.3,
-   "player_name": "Rodrigo Bentancur",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "8f056768",
-   "season": 2020,
-   "distance": 2.52,
-   "survived": 1,
-   "fut_ability_v2": 52.7,
-   "player_name": "Xaver Schlager",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "ce218223",
-   "season": 2018,
-   "distance": 2.521,
+   "fbref_id": "53f6306f",
+   "season": 2021,
+   "distance": 2.472,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Iver Fossum",
-   "squad": "Hannover 96"
+   "player_name": "Mehdi Zerkane",
+   "squad": "Bordeaux"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Juanlu Sánchez(MF)의 현재 능력 점수는 58.2점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 태클 성공률, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 슈팅 시도이다.",
-  "potential": "Juanlu Sánchez의 2~3년 후 예측 중심값은 62.2점, 80% 구간 상단은 72.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Juanlu Sánchez의 2~3년 후 예측 중심값은 61.8점, 80% 구간 상단은 72.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 85.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

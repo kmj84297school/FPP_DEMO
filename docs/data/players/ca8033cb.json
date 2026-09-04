@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5324,
-  "mu": 55.6,
+  "survival_prob": 0.4466,
+  "mu": 53.7,
   "ci80": {
-   "lo": 46.2,
-   "hi": 65.0
+   "lo": 44.4,
+   "hi": 63.0
   },
   "ci50": {
-   "lo": 50.6,
-   "hi": 60.6
+   "lo": 48.8,
+   "hi": 58.6
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "c67cd65c",
+   "season": 2021,
+   "distance": 1.111,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
+  },
+  {
    "fbref_id": "87935cf3",
    "season": 2019,
-   "distance": 1.277,
+   "distance": 1.218,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Mamadou Sakho",
    "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "25ab9c9c",
-   "season": 2019,
-   "distance": 1.447,
-   "survived": 1,
-   "fut_ability_v2": 49.8,
-   "player_name": "Manuel Gulde",
-   "squad": "Freiburg"
+   "fbref_id": "ab096c6f",
+   "season": 2021,
+   "distance": 1.267,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Timothée Kolodziejczak",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "da974c7b",
+   "season": 2021,
+   "distance": 1.301,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
   },
   {
    "fbref_id": "79083382",
    "season": 2018,
-   "distance": 1.458,
+   "distance": 1.427,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juan Jesus",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "e33f36d5",
    "season": 2020,
-   "distance": 1.481,
+   "distance": 1.5,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Bram Nuytinck",
    "squad": "Udinese"
   },
   {
-   "fbref_id": "a46472d0",
+   "fbref_id": "25ab9c9c",
    "season": 2019,
-   "distance": 1.581,
+   "distance": 1.512,
    "survived": 1,
-   "fut_ability_v2": 48.8,
-   "player_name": "Lamine Koné",
-   "squad": "Strasbourg"
+   "fut_ability_v2": 49.8,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
   },
   {
-   "fbref_id": "e1deea75",
-   "season": 2019,
-   "distance": 1.657,
+   "fbref_id": "699fb8db",
+   "season": 2021,
+   "distance": 1.515,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Daniel Carriço",
-   "squad": "Sevilla"
+   "player_name": "Dominique Heintz",
+   "squad": "Freiburg"
   },
   {
-   "fbref_id": "2946f9a1",
-   "season": 2019,
-   "distance": 1.702,
+   "fbref_id": "a56da3ba",
+   "season": 2022,
+   "distance": 1.552,
    "survived": 1,
-   "fut_ability_v2": 52.3,
-   "player_name": "Nacho",
-   "squad": "Real Madrid"
+   "fut_ability_v2": 38.4,
+   "player_name": "Juan Cruz Armada",
+   "squad": "Osasuna"
   },
   {
-   "fbref_id": "d70a2141",
-   "season": 2019,
-   "distance": 1.706,
+   "fbref_id": "c67cd65c",
+   "season": 2022,
+   "distance": 1.593,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Jordi Amat",
-   "squad": "Rayo Vallecano"
-  },
-  {
-   "fbref_id": "f03f284b",
-   "season": 2019,
-   "distance": 1.74,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "David López",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "b5114f85",
-   "season": 2019,
-   "distance": 1.763,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Georg Margreitter",
-   "squad": "Nürnberg"
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Lukas Klostermann(DF)의 현재 능력 점수는 55.7점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 볼 손실(미스+파울), 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 박스 터치이다.",
-  "potential": "Lukas Klostermann의 2~3년 후 예측 중심값은 55.6점, 80% 구간 상단은 65.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lukas Klostermann의 2~3년 후 예측 중심값은 53.7점, 80% 구간 상단은 63.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

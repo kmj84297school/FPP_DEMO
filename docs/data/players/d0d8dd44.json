@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4076,
-  "mu": 61.1,
+  "survival_prob": 0.1997,
+  "mu": 63.8,
   "ci80": {
-   "lo": 51.7,
-   "hi": 70.5
+   "lo": 54.3,
+   "hi": 73.2
   },
   "ci50": {
-   "lo": 56.2,
-   "hi": 66.0
+   "lo": 58.8,
+   "hi": 68.8
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "3b15ef2d",
    "season": 2018,
-   "distance": 1.784,
+   "distance": 1.73,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Medhi Benatia",
    "squad": "Juventus"
   },
   {
+   "fbref_id": "6d5e62b0",
+   "season": 2022,
+   "distance": 1.85,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefan Strandberg",
+   "squad": "Salernitana"
+  },
+  {
+   "fbref_id": "adfc9123",
+   "season": 2021,
+   "distance": 1.872,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gerard Piqué",
+   "squad": "Barcelona"
+  },
+  {
    "fbref_id": "e3d0b0c4",
    "season": 2020,
-   "distance": 1.882,
+   "distance": 1.899,
    "survived": 1,
    "fut_ability_v2": 62.4,
    "player_name": "Marcelo",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "e26c4233",
    "season": 2018,
-   "distance": 1.885,
+   "distance": 1.91,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marco Russ",
@@ -76,29 +94,29 @@
   {
    "fbref_id": "f42456eb",
    "season": 2020,
-   "distance": 1.964,
+   "distance": 1.979,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Uwe Hünemeier",
    "squad": "Paderborn 07"
   },
   {
-   "fbref_id": "d2be40f2",
-   "season": 2019,
-   "distance": 1.977,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Iván Ramis",
-   "squad": "Eibar"
-  },
-  {
    "fbref_id": "51e3954c",
    "season": 2018,
-   "distance": 1.987,
+   "distance": 2.027,
    "survived": 1,
    "fut_ability_v2": 52.5,
    "player_name": "Facundo Roncaglia",
    "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "d2be40f2",
+   "season": 2019,
+   "distance": 2.033,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iván Ramis",
+   "squad": "Eibar"
   },
   {
    "fbref_id": "d2bff301",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "b1deecf8",
    "season": 2020,
-   "distance": 2.079,
+   "distance": 2.082,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cristián Zapata",
    "squad": "Genoa"
-  },
-  {
-   "fbref_id": "ac3fb1be",
-   "season": 2019,
-   "distance": 2.093,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ezequiel Garay",
-   "squad": "Valencia"
-  },
-  {
-   "fbref_id": "7914b9fe",
-   "season": 2018,
-   "distance": 2.1,
-   "survived": 1,
-   "fut_ability_v2": 52.7,
-   "player_name": "Gary Cahill",
-   "squad": "Chelsea"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Stefan de Vrij(DF)의 현재 능력 점수는 72.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 공중볼 승률, 공중볼 승리, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 전진 패스 수신이다.",
-  "potential": "Stefan de Vrij의 2~3년 후 예측 중심값은 61.1점, 80% 구간 상단은 70.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Stefan de Vrij의 2~3년 후 예측 중심값은 63.8점, 80% 구간 상단은 73.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

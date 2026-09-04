@@ -32,51 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6152,
-  "mu": 54.4,
+  "survival_prob": 0.529,
+  "mu": 50.3,
   "ci80": {
-   "lo": 45.1,
-   "hi": 63.7
+   "lo": 40.9,
+   "hi": 59.5
   },
   "ci50": {
-   "lo": 49.5,
-   "hi": 59.3
+   "lo": 45.3,
+   "hi": 55.1
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "c067631c",
    "season": 2020,
-   "distance": 2.005,
+   "distance": 1.84,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ryan Fredericks",
    "squad": "West Ham"
   },
   {
-   "fbref_id": "d183e9d6",
-   "season": 2020,
-   "distance": 2.027,
-   "survived": 1,
-   "fut_ability_v2": 51.3,
-   "player_name": "Nicola Murru",
-   "squad": "Sampdoria"
-  },
-  {
    "fbref_id": "ed239245",
    "season": 2018,
-   "distance": 2.028,
+   "distance": 2.016,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Antonio Luna",
    "squad": "Levante"
   },
   {
+   "fbref_id": "d183e9d6",
+   "season": 2020,
+   "distance": 2.055,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Nicola Murru",
+   "squad": "Sampdoria"
+  },
+  {
    "fbref_id": "ec400194",
    "season": 2019,
-   "distance": 2.107,
+   "distance": 2.076,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Oussama Haddadi",
@@ -85,25 +85,16 @@
   {
    "fbref_id": "9aa186b2",
    "season": 2019,
-   "distance": 2.121,
+   "distance": 2.087,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Florent Hadergjonaj",
    "squad": "Huddersfield"
   },
   {
-   "fbref_id": "839c14e1",
-   "season": 2018,
-   "distance": 2.329,
-   "survived": 1,
-   "fut_ability_v2": 54.7,
-   "player_name": "Cédric Soares",
-   "squad": "Southampton"
-  },
-  {
    "fbref_id": "bbd86530",
    "season": 2020,
-   "distance": 2.34,
+   "distance": 2.256,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Christopher Lenz",
@@ -112,29 +103,38 @@
   {
    "fbref_id": "ae0a7ddf",
    "season": 2019,
-   "distance": 2.341,
+   "distance": 2.291,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "DeAndre Yedlin",
    "squad": "Newcastle Utd"
   },
   {
+   "fbref_id": "2ff76adc",
+   "season": 2021,
+   "distance": 2.292,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Phillipp Mwene",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2018,
+   "distance": 2.317,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Cédric Soares",
+   "squad": "Southampton"
+  },
+  {
    "fbref_id": "b92edde2",
    "season": 2019,
-   "distance": 2.388,
+   "distance": 2.378,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Maxime Poundjé",
    "squad": "Bordeaux"
-  },
-  {
-   "fbref_id": "4cee5954",
-   "season": 2020,
-   "distance": 2.404,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lucas Olaza",
-   "squad": "Celta Vigo"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Antonino Gallo(DF)의 현재 능력 점수는 52.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 슈팅 창출(SCA), 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 박스 터치이다.",
-  "potential": "Antonino Gallo의 2~3년 후 예측 중심값은 54.4점, 80% 구간 상단은 63.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Antonino Gallo의 2~3년 후 예측 중심값은 50.3점, 80% 구간 상단은 59.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 52.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

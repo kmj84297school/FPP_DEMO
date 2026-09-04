@@ -32,51 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7099,
-  "mu": 62.1,
+  "survival_prob": 0.3493,
+  "mu": 56.8,
   "ci80": {
-   "lo": 52.3,
-   "hi": 71.8
+   "lo": 46.9,
+   "hi": 66.6
   },
   "ci50": {
-   "lo": 56.9,
-   "hi": 67.2
+   "lo": 51.7,
+   "hi": 62.0
   },
   "sigma_model": 2.8,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "c693347d",
    "season": 2020,
-   "distance": 2.147,
+   "distance": 2.101,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andreas Cornelius",
    "squad": "Parma"
   },
   {
-   "fbref_id": "5eae500a",
-   "season": 2019,
-   "distance": 2.798,
+   "fbref_id": "6605d143",
+   "season": 2022,
+   "distance": 2.515,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Habib Diallo",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "923f4dda",
+   "season": 2021,
+   "distance": 2.608,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "e92cd3f7",
+   "season": 2022,
+   "distance": 2.703,
    "survived": 1,
-   "fut_ability_v2": 66.6,
-   "player_name": "Romelu Lukaku",
-   "squad": "Manchester Utd"
+   "fut_ability_v2": 63.2,
+   "player_name": "Alexander Sørloth",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "d2416c2e",
+   "season": 2021,
+   "distance": 2.795,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Yussuf Poulsen",
+   "squad": "RB Leipzig"
   },
   {
    "fbref_id": "834d0be5",
    "season": 2020,
-   "distance": 2.81,
+   "distance": 2.8,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lucas Alario",
    "squad": "Leverkusen"
   },
   {
+   "fbref_id": "5eae500a",
+   "season": 2019,
+   "distance": 2.801,
+   "survived": 1,
+   "fut_ability_v2": 66.6,
+   "player_name": "Romelu Lukaku",
+   "squad": "Manchester Utd"
+  },
+  {
    "fbref_id": "eb2fe5b6",
    "season": 2018,
-   "distance": 2.821,
+   "distance": 2.827,
    "survived": 1,
    "fut_ability_v2": 88.1,
    "player_name": "Luis Muriel",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "d3de9af0",
    "season": 2018,
-   "distance": 2.821,
+   "distance": 2.827,
    "survived": 1,
    "fut_ability_v2": 78.6,
    "player_name": "Duván Zapata",
    "squad": "Sampdoria"
   },
   {
-   "fbref_id": "c693347d",
-   "season": 2018,
-   "distance": 2.898,
+   "fbref_id": "244bc2c8",
+   "season": 2022,
+   "distance": 2.878,
    "survived": 1,
-   "fut_ability_v2": 50.7,
-   "player_name": "Andreas Cornelius",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "e3fabb0a",
-   "season": 2019,
-   "distance": 2.941,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wu Lei",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "8f0f2230",
-   "season": 2020,
-   "distance": 2.946,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kenan Karaman",
-   "squad": "Düsseldorf"
-  },
-  {
-   "fbref_id": "ff182fdc",
-   "season": 2018,
-   "distance": 2.984,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ishak Belfodil",
-   "squad": "Werder Bremen"
-  },
-  {
-   "fbref_id": "f26834c7",
-   "season": 2019,
-   "distance": 3.019,
-   "survived": 1,
-   "fut_ability_v2": 56.1,
-   "player_name": "Karim Onisiwo",
-   "squad": "Mainz 05"
+   "fut_ability_v2": 41.6,
+   "player_name": "Boulaye Dia",
+   "squad": "Villarreal"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Randal Kolo Muani(FW)의 현재 능력 점수는 61.6점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 태클 성공률, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스 거리이다.",
-  "potential": "Randal Kolo Muani의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 71.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Randal Kolo Muani의 2~3년 후 예측 중심값은 56.8점, 80% 구간 상단은 66.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

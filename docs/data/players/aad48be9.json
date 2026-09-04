@@ -32,24 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.192,
-  "mu": 56.4,
+  "survival_prob": 0.2713,
+  "mu": 59.1,
   "ci80": {
-   "lo": 47.2,
-   "hi": 65.6
+   "lo": 49.7,
+   "hi": 68.3
   },
   "ci50": {
-   "lo": 51.6,
-   "hi": 61.2
+   "lo": 54.1,
+   "hi": 63.9
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "debe38a0",
+   "season": 2021,
+   "distance": 1.097,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Egan",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "6eaed4eb",
+   "season": 2022,
+   "distance": 1.104,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Florian Lejeune",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "8b95acda",
+   "season": 2021,
+   "distance": 1.15,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Omar Colley",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "f2c1300a",
+   "season": 2019,
+   "distance": 1.183,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vitor Hugo",
+   "squad": "Fiorentina"
+  },
+  {
    "fbref_id": "6aafdc27",
    "season": 2018,
-   "distance": 1.158,
+   "distance": 1.232,
    "survived": 1,
    "fut_ability_v2": 61.2,
    "player_name": "Nenad Tomović",
@@ -58,83 +94,47 @@
   {
    "fbref_id": "e33f36d5",
    "season": 2018,
-   "distance": 1.188,
+   "distance": 1.243,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Bram Nuytinck",
    "squad": "Udinese"
   },
   {
-   "fbref_id": "f2c1300a",
-   "season": 2019,
-   "distance": 1.276,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vitor Hugo",
-   "squad": "Fiorentina"
-  },
-  {
    "fbref_id": "8b8a56ce",
-   "season": 2019,
-   "distance": 1.31,
+   "season": 2021,
+   "distance": 1.288,
    "survived": 1,
-   "fut_ability_v2": 60.5,
+   "fut_ability_v2": 60.7,
    "player_name": "Simon Kjær",
-   "squad": "Sevilla"
+   "squad": "Milan"
   },
   {
    "fbref_id": "c707411f",
    "season": 2019,
-   "distance": 1.31,
+   "distance": 1.343,
    "survived": 1,
    "fut_ability_v2": 46.7,
    "player_name": "Kostas Manolas",
    "squad": "Roma"
   },
   {
-   "fbref_id": "f25b010f",
-   "season": 2018,
-   "distance": 1.339,
+   "fbref_id": "8b8a56ce",
+   "season": 2019,
+   "distance": 1.357,
    "survived": 1,
-   "fut_ability_v2": 49.7,
-   "player_name": "Federico Fernández",
-   "squad": "Swansea City"
+   "fut_ability_v2": 60.5,
+   "player_name": "Simon Kjær",
+   "squad": "Sevilla"
   },
   {
    "fbref_id": "b3dc6eca",
    "season": 2018,
-   "distance": 1.36,
+   "distance": 1.381,
    "survived": 1,
    "fut_ability_v2": 56.7,
    "player_name": "Víctor Ruiz",
    "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "f8fcd2a5",
-   "season": 2019,
-   "distance": 1.388,
-   "survived": 1,
-   "fut_ability_v2": 65.3,
-   "player_name": "Jonny Evans",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "27a013f7",
-   "season": 2020,
-   "distance": 1.426,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Néstor Araujo",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "29d8ad3f",
-   "season": 2019,
-   "distance": 1.427,
-   "survived": 1,
-   "fut_ability_v2": 64.5,
-   "player_name": "Pablo",
-   "squad": "Bordeaux"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Niklas Stark(DF)의 현재 능력 점수는 63.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 블록, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 운반이다.",
-  "potential": "Niklas Stark의 2~3년 후 예측 중심값은 56.4점, 80% 구간 상단은 65.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 19.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Niklas Stark의 2~3년 후 예측 중심값은 59.1점, 80% 구간 상단은 68.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 27.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

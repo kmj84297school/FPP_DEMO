@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2464,
-  "mu": 47.4,
+  "survival_prob": 0.2305,
+  "mu": 48.0,
   "ci80": {
-   "lo": 37.9,
-   "hi": 56.8
+   "lo": 38.4,
+   "hi": 57.6
   },
   "ci50": {
-   "lo": 42.4,
-   "hi": 52.3
+   "lo": 42.9,
+   "hi": 53.1
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 2.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "1cac99dc",
    "season": 2019,
-   "distance": 2.136,
+   "distance": 2.189,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luca Siligardi",
    "squad": "Parma"
   },
   {
+   "fbref_id": "b0547a87",
+   "season": 2022,
+   "distance": 2.562,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolas de Préville",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2022,
+   "distance": 2.702,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Wahbi Khazri",
+   "squad": "Saint-Étienne"
+  },
+  {
    "fbref_id": "5370cba7",
    "season": 2018,
-   "distance": 3.025,
+   "distance": 3.048,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alessio Cerci",
    "squad": "Hellas Verona"
   },
   {
+   "fbref_id": "b561db50",
+   "season": 2022,
+   "distance": 3.419,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
    "fbref_id": "88a359d4",
    "season": 2020,
-   "distance": 3.437,
+   "distance": 3.43,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Adrián López",
@@ -76,65 +103,38 @@
   {
    "fbref_id": "4a478107",
    "season": 2020,
-   "distance": 3.478,
+   "distance": 3.506,
    "survived": 1,
    "fut_ability_v2": 70.8,
    "player_name": "José Luis Morales",
    "squad": "Levante"
   },
   {
+   "fbref_id": "0b4d8274",
+   "season": 2021,
+   "distance": 3.552,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Romain Hamouma",
+   "squad": "Saint-Étienne"
+  },
+  {
    "fbref_id": "2bee98fd",
    "season": 2018,
-   "distance": 3.526,
+   "distance": 3.563,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sergio García",
    "squad": "Espanyol"
   },
   {
-   "fbref_id": "82e9b89d",
-   "season": 2019,
-   "distance": 3.721,
+   "fbref_id": "4ab53cdb",
+   "season": 2021,
+   "distance": 3.571,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Enric Gallego",
-   "squad": "Huesca"
-  },
-  {
-   "fbref_id": "9f472354",
-   "season": 2018,
-   "distance": 3.75,
-   "survived": 1,
-   "fut_ability_v2": 48.8,
-   "player_name": "Shane Long",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "4207e578",
-   "season": 2019,
-   "distance": 3.896,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pablo Chavarría",
-   "squad": "Reims"
-  },
-  {
-   "fbref_id": "ad469944",
-   "season": 2018,
-   "distance": 3.901,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Maxi López",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "6b99d135",
-   "season": 2019,
-   "distance": 3.949,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jonathan Biabiany",
-   "squad": "Parma"
+   "player_name": "Jay Rodriguez",
+   "squad": "Burnley"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Adri Embarba(FW)의 현재 능력 점수는 40.3점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 블록, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 무페널티 득점이다.",
-  "potential": "Adri Embarba의 2~3년 후 예측 중심값은 47.4점, 80% 구간 상단은 56.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 24.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Adri Embarba의 2~3년 후 예측 중심값은 48.0점, 80% 구간 상단은 57.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 23.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

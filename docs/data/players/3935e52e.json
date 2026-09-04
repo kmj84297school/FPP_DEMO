@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.508,
-  "mu": 56.2,
+  "survival_prob": 0.4913,
+  "mu": 54.1,
   "ci80": {
-   "lo": 47.1,
-   "hi": 65.4
+   "lo": 44.9,
+   "hi": 63.5
   },
   "ci50": {
-   "lo": 51.3,
-   "hi": 61.1
+   "lo": 49.3,
+   "hi": 59.1
   },
   "sigma_model": 1.3,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "53cad200",
+   "season": 2021,
+   "distance": 1.569,
+   "survived": 1,
+   "fut_ability_v2": 62.0,
+   "player_name": "César Azpilicueta",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "53cad200",
+   "season": 2022,
+   "distance": 1.604,
+   "survived": 1,
+   "fut_ability_v2": 62.0,
+   "player_name": "César Azpilicueta",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "808d48f3",
    "season": 2019,
-   "distance": 1.561,
+   "distance": 1.613,
    "survived": 1,
    "fut_ability_v2": 58.3,
    "player_name": "Jaume Costa",
@@ -58,7 +76,7 @@
   {
    "fbref_id": "89565ac5",
    "season": 2018,
-   "distance": 1.599,
+   "distance": 1.654,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marcel Schmelzer",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "46d50339",
    "season": 2018,
-   "distance": 1.641,
+   "distance": 1.655,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Christophe Jallet",
@@ -75,66 +93,48 @@
   },
   {
    "fbref_id": "53de807a",
+   "season": 2021,
+   "distance": 1.684,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "0d82903c",
+   "season": 2021,
+   "distance": 1.717,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alex Sandro",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "94b2001f",
+   "season": 2022,
+   "distance": 1.744,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "53de807a",
    "season": 2019,
-   "distance": 1.759,
+   "distance": 1.776,
    "survived": 1,
    "fut_ability_v2": 58.7,
    "player_name": "Ștefan Radu",
    "squad": "Lazio"
   },
   {
-   "fbref_id": "808d48f3",
-   "season": 2018,
-   "distance": 1.891,
-   "survived": 1,
-   "fut_ability_v2": 51.2,
-   "player_name": "Jaume Costa",
-   "squad": "Villarreal"
-  },
-  {
    "fbref_id": "c50281a0",
    "season": 2020,
-   "distance": 1.924,
+   "distance": 1.883,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lars Bender",
    "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "487d9b09",
-   "season": 2018,
-   "distance": 1.993,
-   "survived": 1,
-   "fut_ability_v2": 43.3,
-   "player_name": "Antonio Barragán",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "fc4f85b1",
-   "season": 2020,
-   "distance": 2.0,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Diego Godín",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "52e2ef8f",
-   "season": 2018,
-   "distance": 2.097,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ivan Strinić",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "d63e2912",
-   "season": 2020,
-   "distance": 2.131,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Hiroki Sakai",
-   "squad": "Marseille"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Sead Kolašinac(DF)의 현재 능력 점수는 62.2점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 볼 리커버리, 전진 패스, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 클리어링이다.",
-  "potential": "Sead Kolašinac의 2~3년 후 예측 중심값은 56.2점, 80% 구간 상단은 65.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 50.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Sead Kolašinac의 2~3년 후 예측 중심값은 54.1점, 80% 구간 상단은 63.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 49.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

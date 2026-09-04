@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9099,
-  "mu": 58.7,
+  "survival_prob": 0.9091,
+  "mu": 57.7,
   "ci80": {
-   "lo": 47.8,
-   "hi": 69.8
+   "lo": 47.2,
+   "hi": 68.3
   },
   "ci50": {
-   "lo": 53.1,
-   "hi": 64.5
+   "lo": 52.1,
+   "hi": 63.2
   },
-  "sigma_model": 2.9,
+  "sigma_model": 2.1,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "822d51d7",
+   "season": 2021,
+   "distance": 1.302,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "Youssouf Fofana",
+   "squad": "Monaco"
+  },
+  {
    "fbref_id": "da27e268",
    "season": 2019,
-   "distance": 1.569,
+   "distance": 1.666,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marc Roca",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "52611641",
    "season": 2018,
-   "distance": 1.694,
+   "distance": 1.686,
    "survived": 1,
    "fut_ability_v2": 53.8,
    "player_name": "Lucas Torreira",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "ffbbc83b",
    "season": 2020,
-   "distance": 1.71,
+   "distance": 1.717,
    "survived": 1,
    "fut_ability_v2": 61.5,
    "player_name": "Florian Grillitsch",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "52611641",
    "season": 2019,
-   "distance": 1.777,
+   "distance": 1.72,
    "survived": 1,
    "fut_ability_v2": 61.8,
    "player_name": "Lucas Torreira",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "c14bc029",
    "season": 2018,
-   "distance": 1.778,
+   "distance": 1.727,
    "survived": 1,
    "fut_ability_v2": 60.1,
    "player_name": "Saúl Ñíguez",
@@ -94,7 +103,7 @@
   {
    "fbref_id": "e768de1f",
    "season": 2020,
-   "distance": 2.0,
+   "distance": 1.909,
    "survived": 1,
    "fut_ability_v2": 53.4,
    "player_name": "Habib Maïga",
@@ -103,38 +112,29 @@
   {
    "fbref_id": "ffbbc83b",
    "season": 2019,
-   "distance": 2.034,
+   "distance": 1.978,
    "survived": 1,
    "fut_ability_v2": 66.0,
    "player_name": "Florian Grillitsch",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "070a3904",
-   "season": 2018,
-   "distance": 2.1,
+   "fbref_id": "4c6facae",
+   "season": 2021,
+   "distance": 1.992,
    "survived": 1,
-   "fut_ability_v2": 42.6,
-   "player_name": "Sergi Darder",
-   "squad": "Espanyol / Lyon"
+   "fut_ability_v2": 48.8,
+   "player_name": "Djibril Sow",
+   "squad": "Eint Frankfurt"
   },
   {
-   "fbref_id": "7f3b388c",
-   "season": 2018,
-   "distance": 2.124,
-   "survived": 1,
-   "fut_ability_v2": 61.8,
-   "player_name": "Fabinho",
-   "squad": "Monaco"
-  },
-  {
-   "fbref_id": "ac861941",
-   "season": 2018,
-   "distance": 2.16,
-   "survived": 1,
-   "fut_ability_v2": 59.7,
-   "player_name": "Eric Dier",
-   "squad": "Tottenham"
+   "fbref_id": "05e19d6a",
+   "season": 2021,
+   "distance": 2.07,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franck Kessié",
+   "squad": "Milan"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Ryan Gravenberch(MF)의 현재 능력 점수는 56.7점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 패스 성공률, 전진 운반 거리, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 슈팅 시도이다.",
-  "potential": "Ryan Gravenberch의 2~3년 후 예측 중심값은 58.7점, 80% 구간 상단은 69.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 91.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ryan Gravenberch의 2~3년 후 예측 중심값은 57.7점, 80% 구간 상단은 68.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 90.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8561,
-  "mu": 63.6,
+  "survival_prob": 0.7459,
+  "mu": 63.3,
   "ci80": {
-   "lo": 54.4,
-   "hi": 72.8
+   "lo": 54.0,
+   "hi": 72.6
   },
   "ci50": {
-   "lo": 58.7,
-   "hi": 68.4
+   "lo": 58.4,
+   "hi": 68.2
   },
   "sigma_model": 1.3,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f521b80a",
+   "season": 2021,
+   "distance": 1.371,
+   "survived": 1,
+   "fut_ability_v2": 62.0,
+   "player_name": "Matthias Ginter",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "f521b80a",
    "season": 2020,
-   "distance": 1.472,
+   "distance": 1.47,
    "survived": 1,
    "fut_ability_v2": 62.4,
    "player_name": "Matthias Ginter",
    "squad": "M'Gladbach"
   },
   {
+   "fbref_id": "555f3a0b",
+   "season": 2021,
+   "distance": 1.636,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Mario Hermoso",
+   "squad": "Atlético Madrid"
+  },
+  {
    "fbref_id": "d5f2f82b",
    "season": 2019,
-   "distance": 1.746,
+   "distance": 1.698,
    "survived": 1,
    "fut_ability_v2": 60.2,
    "player_name": "Marquinhos",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "18b896d6",
    "season": 2019,
-   "distance": 1.92,
+   "distance": 1.873,
    "survived": 1,
    "fut_ability_v2": 66.7,
    "player_name": "Antonio Rüdiger",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "da974c7b",
    "season": 2018,
-   "distance": 2.037,
+   "distance": 1.987,
    "survived": 1,
    "fut_ability_v2": 65.3,
    "player_name": "Kalidou Koulibaly",
    "squad": "Napoli"
   },
   {
+   "fbref_id": "4f28a6ff",
+   "season": 2021,
+   "distance": 2.094,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Clément Lenglet",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "815c314f",
+   "season": 2021,
+   "distance": 2.146,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Marc-Oliver Kempf",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "5aa53281",
+   "season": 2022,
+   "distance": 2.174,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Gianluca Mancini",
+   "squad": "Roma"
+  },
+  {
    "fbref_id": "e27da244",
    "season": 2019,
-   "distance": 2.249,
+   "distance": 2.239,
    "survived": 1,
    "fut_ability_v2": 67.3,
    "player_name": "John Brooks",
    "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "7f78ad23",
-   "season": 2019,
-   "distance": 2.281,
-   "survived": 1,
-   "fut_ability_v2": 56.1,
-   "player_name": "Ricardo Rodríguez",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "857a5abe",
-   "season": 2019,
-   "distance": 2.293,
-   "survived": 1,
-   "fut_ability_v2": 60.9,
-   "player_name": "Stefan Bell",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "8650af85",
-   "season": 2018,
-   "distance": 2.35,
-   "survived": 1,
-   "fut_ability_v2": 60.1,
-   "player_name": "Gian Marco Ferrari",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "8650af85",
-   "season": 2019,
-   "distance": 2.369,
-   "survived": 1,
-   "fut_ability_v2": 61.7,
-   "player_name": "Gian Marco Ferrari",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "2200181e",
-   "season": 2020,
-   "distance": 2.385,
-   "survived": 1,
-   "fut_ability_v2": 51.1,
-   "player_name": "Kaan Ayhan",
-   "squad": "Düsseldorf"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Jan Paul van Hecke(DF)의 현재 능력 점수는 66.3점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반 거리, 전진 패스, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 태클+인터셉트이다.",
-  "potential": "Jan Paul van Hecke의 2~3년 후 예측 중심값은 63.6점, 80% 구간 상단은 72.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 85.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jan Paul van Hecke의 2~3년 후 예측 중심값은 63.3점, 80% 구간 상단은 72.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 74.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

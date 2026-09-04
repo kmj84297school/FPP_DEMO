@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5221,
-  "mu": 51.4,
+  "survival_prob": 0.334,
+  "mu": 49.3,
   "ci80": {
-   "lo": 42.1,
-   "hi": 60.8
+   "lo": 40.0,
+   "hi": 58.6
   },
   "ci50": {
-   "lo": 46.6,
-   "hi": 56.4
+   "lo": 44.4,
+   "hi": 54.2
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f3cccffe",
    "season": 2018,
-   "distance": 1.824,
+   "distance": 1.858,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Emiliano Insúa",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "5c2b4f07",
    "season": 2020,
-   "distance": 2.178,
+   "distance": 2.093,
    "survived": 1,
    "fut_ability_v2": 66.8,
    "player_name": "Serge Aurier",
@@ -67,16 +67,43 @@
   {
    "fbref_id": "7f4c7c9f",
    "season": 2019,
-   "distance": 2.255,
+   "distance": 2.193,
    "survived": 1,
    "fut_ability_v2": 54.9,
    "player_name": "Jorge Miramón",
    "squad": "Huesca"
   },
   {
+   "fbref_id": "cc2d7ad5",
+   "season": 2022,
+   "distance": 2.445,
+   "survived": 1,
+   "fut_ability_v2": 42.1,
+   "player_name": "Charlie Taylor",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "f874dd44",
+   "season": 2022,
+   "distance": 2.485,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Héctor Bellerín",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "6b2c894b",
+   "season": 2022,
+   "distance": 2.571,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ghislain Konan",
+   "squad": "Reims"
+  },
+  {
    "fbref_id": "f3cccffe",
    "season": 2019,
-   "distance": 2.6,
+   "distance": 2.64,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Emiliano Insúa",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "13203c45",
    "season": 2020,
-   "distance": 2.609,
+   "distance": 2.644,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Jérôme Roussillon",
    "squad": "Wolfsburg"
   },
   {
-   "fbref_id": "46ee5234",
-   "season": 2018,
-   "distance": 2.719,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kieran Gibbs",
-   "squad": "West Brom"
-  },
-  {
-   "fbref_id": "33a61a52",
-   "season": 2020,
-   "distance": 2.732,
+   "fbref_id": "59b7d823",
+   "season": 2022,
+   "distance": 2.654,
    "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Carlos Clerc",
-   "squad": "Levante"
+   "fut_ability_v2": 55.1,
+   "player_name": "Iñigo Lekue",
+   "squad": "Athletic Club"
   },
   {
    "fbref_id": "c067631c",
    "season": 2020,
-   "distance": 2.759,
+   "distance": 2.678,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ryan Fredericks",
    "squad": "West Ham"
-  },
-  {
-   "fbref_id": "7eb67dad",
-   "season": 2019,
-   "distance": 2.794,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Cyrus Christie",
-   "squad": "Fulham"
-  },
-  {
-   "fbref_id": "d9ba39fc",
-   "season": 2020,
-   "distance": 2.845,
-   "survived": 1,
-   "fut_ability_v2": 61.1,
-   "player_name": "Diego Rico",
-   "squad": "Bournemouth"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Pablo Maffeo(DF)의 현재 능력 점수는 54.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 도움 기대값(xAG), 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 패스 성공률이다.",
-  "potential": "Pablo Maffeo의 2~3년 후 예측 중심값은 51.4점, 80% 구간 상단은 60.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 52.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pablo Maffeo의 2~3년 후 예측 중심값은 49.3점, 80% 구간 상단은 58.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 33.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

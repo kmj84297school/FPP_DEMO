@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8531,
-  "mu": 68.4,
+  "survival_prob": 0.5628,
+  "mu": 71.1,
   "ci80": {
-   "lo": 58.3,
-   "hi": 78.5
+   "lo": 61.2,
+   "hi": 80.8
   },
   "ci50": {
-   "lo": 63.1,
-   "hi": 73.6
+   "lo": 65.9,
+   "hi": 76.2
   },
-  "sigma_model": 3.5,
-  "sigma_residual": 7.0
+  "sigma_model": 2.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "64f69877",
    "season": 2020,
-   "distance": 1.835,
+   "distance": 1.849,
    "survived": 1,
    "fut_ability_v2": 55.9,
    "player_name": "Kevin Volland",
    "squad": "Leverkusen"
   },
   {
+   "fbref_id": "5eae500a",
+   "season": 2021,
+   "distance": 2.227,
+   "survived": 1,
+   "fut_ability_v2": 47.3,
+   "player_name": "Romelu Lukaku",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "942b4f90",
+   "season": 2022,
+   "distance": 2.234,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "Wissam Ben Yedder",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "129af0db",
+   "season": 2021,
+   "distance": 2.34,
+   "survived": 1,
+   "fut_ability_v2": 60.3,
+   "player_name": "Álvaro Morata",
+   "squad": "Juventus"
+  },
+  {
    "fbref_id": "942b4f90",
    "season": 2019,
-   "distance": 2.359,
+   "distance": 2.419,
    "survived": 1,
    "fut_ability_v2": 68.5,
    "player_name": "Wissam Ben Yedder",
@@ -67,38 +94,29 @@
   {
    "fbref_id": "00459419",
    "season": 2019,
-   "distance": 2.457,
+   "distance": 2.432,
    "survived": 1,
    "fut_ability_v2": 60.2,
    "player_name": "Marko Arnautović",
    "squad": "West Ham"
   },
   {
-   "fbref_id": "d5dd5f1f",
-   "season": 2019,
-   "distance": 2.46,
-   "survived": 1,
-   "fut_ability_v2": 53.5,
-   "player_name": "Pierre-Emerick Aubameyang",
-   "squad": "Arsenal"
-  },
-  {
    "fbref_id": "53e07d0b",
    "season": 2019,
-   "distance": 2.479,
+   "distance": 2.468,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ádám Szalai",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "942b4f90",
-   "season": 2018,
-   "distance": 2.529,
+   "fbref_id": "d5dd5f1f",
+   "season": 2019,
+   "distance": 2.493,
    "survived": 1,
-   "fut_ability_v2": 74.8,
-   "player_name": "Wissam Ben Yedder",
-   "squad": "Sevilla"
+   "fut_ability_v2": 53.5,
+   "player_name": "Pierre-Emerick Aubameyang",
+   "squad": "Arsenal"
   },
   {
    "fbref_id": "4d034881",
@@ -110,31 +128,13 @@
    "squad": "Manchester City"
   },
   {
-   "fbref_id": "0fe7f7bc",
+   "fbref_id": "942b4f90",
    "season": 2018,
-   "distance": 2.552,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Giovanni Sio",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "d5dd5f1f",
-   "season": 2018,
-   "distance": 2.592,
+   "distance": 2.546,
    "survived": 1,
-   "fut_ability_v2": 53.9,
-   "player_name": "Pierre-Emerick Aubameyang",
-   "squad": "Dortmund / Arsenal"
-  },
-  {
-   "fbref_id": "f9e7c4ac",
-   "season": 2018,
-   "distance": 2.63,
-   "survived": 1,
-   "fut_ability_v2": 49.1,
-   "player_name": "Alfreð Finnbogason",
-   "squad": "Augsburg"
+   "fut_ability_v2": 74.8,
+   "player_name": "Wissam Ben Yedder",
+   "squad": "Sevilla"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Deniz Undav(FW)의 현재 능력 점수는 73.7점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 유효슈팅, 슈팅 시도, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 운반이다.",
-  "potential": "Deniz Undav의 2~3년 후 예측 중심값은 68.4점, 80% 구간 상단은 78.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 85.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Deniz Undav의 2~3년 후 예측 중심값은 71.1점, 80% 구간 상단은 80.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 56.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8894,
-  "mu": 38.8,
+  "survival_prob": 0.7303,
+  "mu": 35.0,
   "ci80": {
-   "lo": 26.5,
-   "hi": 51.1
+   "lo": 23.5,
+   "hi": 46.6
   },
   "ci50": {
-   "lo": 32.4,
-   "hi": 45.2
+   "lo": 28.9,
+   "hi": 41.2
   },
-  "sigma_model": 5.2,
+  "sigma_model": 4.3,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "cc83b74d",
+   "season": 2021,
+   "distance": 2.432,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kasper Dolberg",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "46faabfa",
+   "season": 2022,
+   "distance": 2.463,
+   "survived": 1,
+   "fut_ability_v2": 49.3,
+   "player_name": "Ibrahima Niane",
+   "squad": "Metz"
+  },
+  {
    "fbref_id": "4c2e9442",
    "season": 2020,
-   "distance": 2.652,
+   "distance": 2.677,
    "survived": 1,
    "fut_ability_v2": 32.6,
    "player_name": "Maxi Gómez",
@@ -58,7 +76,7 @@
   {
    "fbref_id": "29ef0f49",
    "season": 2019,
-   "distance": 2.704,
+   "distance": 2.703,
    "survived": 1,
    "fut_ability_v2": 31.5,
    "player_name": "Aaron Leya Iseka",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "3eaf8817",
    "season": 2019,
-   "distance": 2.733,
+   "distance": 2.726,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lebo Mothiba",
@@ -76,16 +94,25 @@
   {
    "fbref_id": "bfae110f",
    "season": 2020,
-   "distance": 2.879,
+   "distance": 2.871,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Wesley Moraes",
    "squad": "Aston Villa"
   },
   {
+   "fbref_id": "57be54ec",
+   "season": 2021,
+   "distance": 2.921,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Asier Villalibre",
+   "squad": "Athletic Club"
+  },
+  {
    "fbref_id": "f8eca1b6",
    "season": 2019,
-   "distance": 3.015,
+   "distance": 3.054,
    "survived": 1,
    "fut_ability_v2": 39.1,
    "player_name": "Enes Ünal",
@@ -94,7 +121,7 @@
   {
    "fbref_id": "3eaf8817",
    "season": 2018,
-   "distance": 3.13,
+   "distance": 3.112,
    "survived": 1,
    "fut_ability_v2": 51.3,
    "player_name": "Lebo Mothiba",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "ccbbe661",
    "season": 2018,
-   "distance": 3.173,
+   "distance": 3.183,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ezequiel Ponce",
    "squad": "Lille"
-  },
-  {
-   "fbref_id": "43a166b4",
-   "season": 2018,
-   "distance": 3.201,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Divock Origi",
-   "squad": "Wolfsburg / Liverpool"
-  },
-  {
-   "fbref_id": "4c2e9442",
-   "season": 2019,
-   "distance": 3.329,
-   "survived": 1,
-   "fut_ability_v2": 32.2,
-   "player_name": "Maxi Gómez",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "08aa9cd1",
-   "season": 2020,
-   "distance": 3.392,
-   "survived": 1,
-   "fut_ability_v2": 38.4,
-   "player_name": "Andrea Pinamonti",
-   "squad": "Genoa"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Rasmus Højlund(FW)의 현재 능력 점수는 25.5점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 공중볼 승률, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 골 창출(GCA)이다.",
-  "potential": "Rasmus Højlund의 2~3년 후 예측 중심값은 38.8점, 80% 구간 상단은 51.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 88.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Rasmus Højlund의 2~3년 후 예측 중심값은 35.0점, 80% 구간 상단은 46.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 73.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4119,
-  "mu": 58.4,
+  "survival_prob": 0.3579,
+  "mu": 58.7,
   "ci80": {
-   "lo": 49.2,
-   "hi": 67.5
+   "lo": 49.5,
+   "hi": 68.0
   },
   "ci50": {
-   "lo": 53.6,
-   "hi": 63.2
+   "lo": 53.9,
+   "hi": 63.6
   },
-  "sigma_model": 1.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f2c1300a",
    "season": 2018,
-   "distance": 1.075,
+   "distance": 1.135,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Vitor Hugo",
    "squad": "Fiorentina"
   },
   {
+   "fbref_id": "5f011e05",
+   "season": 2022,
+   "distance": 1.292,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stian Rode Gregersen",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "933d3b51",
+   "season": 2022,
+   "distance": 1.32,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koffi Djidji",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2022,
+   "distance": 1.333,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "f1f1f238",
+   "season": 2021,
+   "distance": 1.361,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koray Günter",
+   "squad": "Hellas Verona"
+  },
+  {
    "fbref_id": "921f6058",
    "season": 2018,
-   "distance": 1.354,
+   "distance": 1.421,
    "survived": 1,
    "fut_ability_v2": 68.3,
    "player_name": "José Luis Palomino",
@@ -67,74 +103,38 @@
   {
    "fbref_id": "6eaed4eb",
    "season": 2018,
-   "distance": 1.47,
+   "distance": 1.526,
    "survived": 1,
    "fut_ability_v2": 63.0,
    "player_name": "Florian Lejeune",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "9b30df1e",
-   "season": 2018,
-   "distance": 1.475,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bartosz Salamon",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "92b4758e",
-   "season": 2020,
-   "distance": 1.556,
+   "fbref_id": "16bb656a",
+   "season": 2022,
+   "distance": 1.529,
    "survived": 1,
-   "fut_ability_v2": 55.7,
-   "player_name": "Samir Santos",
-   "squad": "Udinese"
+   "fut_ability_v2": 51.2,
+   "player_name": "Paweł Dawidowicz",
+   "squad": "Hellas Verona"
   },
   {
-   "fbref_id": "875898c7",
-   "season": 2019,
-   "distance": 1.563,
+   "fbref_id": "933d3b51",
+   "season": 2021,
+   "distance": 1.553,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koffi Djidji",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "3ecc11d8",
+   "season": 2021,
+   "distance": 1.571,
    "survived": 1,
-   "fut_ability_v2": 64.8,
-   "player_name": "Wesley Hoedt",
-   "squad": "Southampton / Celta Vigo"
-  },
-  {
-   "fbref_id": "b14d0c5d",
-   "season": 2018,
-   "distance": 1.632,
-   "survived": 1,
-   "fut_ability_v2": 63.8,
-   "player_name": "Sidnei",
-   "squad": "La Coruña"
-  },
-  {
-   "fbref_id": "f2c1300a",
-   "season": 2019,
-   "distance": 1.703,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vitor Hugo",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "f35430a4",
-   "season": 2020,
-   "distance": 1.818,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Matija Nastasić",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "def899bd",
-   "season": 2019,
-   "distance": 1.825,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Phil Jones",
-   "squad": "Manchester Utd"
+   "fut_ability_v2": 52.3,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Julien Le Cardinal(DF)의 현재 능력 점수는 65.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 태클+인터셉트, 전진 패스 거리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 운반이다.",
-  "potential": "Julien Le Cardinal의 2~3년 후 예측 중심값은 58.4점, 80% 구간 상단은 67.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Julien Le Cardinal의 2~3년 후 예측 중심값은 58.7점, 80% 구간 상단은 68.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 35.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

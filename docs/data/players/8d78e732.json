@@ -32,33 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7019,
-  "mu": 59.5,
+  "survival_prob": 0.3834,
+  "mu": 50.1,
   "ci80": {
-   "lo": 49.4,
-   "hi": 69.5
+   "lo": 39.5,
+   "hi": 60.5
   },
   "ci50": {
-   "lo": 54.1,
-   "hi": 64.7
+   "lo": 44.5,
+   "hi": 55.5
   },
-  "sigma_model": 3.4,
-  "sigma_residual": 7.0
+  "sigma_model": 4.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "34e4343c",
+   "season": 2022,
+   "distance": 2.373,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Modeste",
+   "squad": "Köln"
+  },
+  {
    "fbref_id": "c3fd9887",
    "season": 2019,
-   "distance": 2.749,
+   "distance": 2.723,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Vedad Ibišević",
    "squad": "Hertha BSC"
   },
   {
+   "fbref_id": "45963054",
+   "season": 2022,
+   "distance": 3.65,
+   "survived": 1,
+   "fut_ability_v2": 39.7,
+   "player_name": "Jamie Vardy",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "16ceb862",
+   "season": 2022,
+   "distance": 3.662,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Olivier Giroud",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "a6154613",
+   "season": 2021,
+   "distance": 3.74,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luis Suárez",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "45963054",
+   "season": 2021,
+   "distance": 3.818,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jamie Vardy",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "dea698d9",
+   "season": 2022,
+   "distance": 4.024,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristiano Ronaldo",
+   "squad": "Manchester Utd / Juventus"
+  },
+  {
    "fbref_id": "71a20ce8",
    "season": 2019,
-   "distance": 4.037,
+   "distance": 4.027,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Gómez",
@@ -67,74 +121,20 @@
   {
    "fbref_id": "c4b8bcf4",
    "season": 2018,
-   "distance": 4.06,
+   "distance": 4.046,
    "survived": 1,
    "fut_ability_v2": 31.5,
    "player_name": "Charles",
    "squad": "Eibar"
   },
   {
-   "fbref_id": "293211e1",
-   "season": 2018,
-   "distance": 4.307,
+   "fbref_id": "a6154613",
+   "season": 2022,
+   "distance": 4.292,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Aritz Aduriz",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "c4b8bcf4",
-   "season": 2019,
-   "distance": 4.379,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Charles",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "ee4f2f3b",
-   "season": 2019,
-   "distance": 4.457,
-   "survived": 1,
-   "fut_ability_v2": 45.9,
-   "player_name": "Fabio Quagliarella",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "3bb7f478",
-   "season": 2020,
-   "distance": 4.474,
-   "survived": 1,
-   "fut_ability_v2": 79.4,
-   "player_name": "Edin Džeko",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "ee4f2f3b",
-   "season": 2018,
-   "distance": 4.732,
-   "survived": 1,
-   "fut_ability_v2": 49.2,
-   "player_name": "Fabio Quagliarella",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "bdf7b97d",
-   "season": 2018,
-   "distance": 4.869,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fernando Torres",
+   "player_name": "Luis Suárez",
    "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "c3fd9887",
-   "season": 2020,
-   "distance": 4.888,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vedad Ibišević",
-   "squad": "Hertha BSC"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Robert Lewandowski(FW)의 현재 능력 점수는 55.5점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 무페널티 득점, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 전진 운반 거리이다.",
-  "potential": "Robert Lewandowski의 2~3년 후 예측 중심값은 59.5점, 80% 구간 상단은 69.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Robert Lewandowski의 2~3년 후 예측 중심값은 50.1점, 80% 구간 상단은 60.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 38.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

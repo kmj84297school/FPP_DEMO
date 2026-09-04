@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.413,
-  "mu": 52.7,
+  "survival_prob": 0.4606,
+  "mu": 50.2,
   "ci80": {
-   "lo": 43.4,
-   "hi": 62.1
+   "lo": 40.7,
+   "hi": 59.5
   },
   "ci50": {
-   "lo": 47.8,
-   "hi": 57.7
+   "lo": 45.2,
+   "hi": 55.1
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "ffa90327",
    "season": 2020,
-   "distance": 2.158,
+   "distance": 2.206,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Anwar El Ghazi",
@@ -58,34 +58,52 @@
   {
    "fbref_id": "2677a1de",
    "season": 2018,
-   "distance": 2.276,
+   "distance": 2.247,
    "survived": 1,
    "fut_ability_v2": 51.8,
    "player_name": "Wahbi Khazri",
    "squad": "Rennes"
   },
   {
-   "fbref_id": "81255c03",
-   "season": 2019,
-   "distance": 2.425,
+   "fbref_id": "e14ec482",
+   "season": 2022,
+   "distance": 2.315,
    "survived": 1,
-   "fut_ability_v2": 46.7,
-   "player_name": "João Pedro",
-   "squad": "Cagliari"
+   "fut_ability_v2": 68.5,
+   "player_name": "Riccardo Orsolini",
+   "squad": "Bologna"
   },
   {
    "fbref_id": "d87e2cae",
    "season": 2019,
-   "distance": 2.431,
+   "distance": 2.398,
    "survived": 1,
    "fut_ability_v2": 43.4,
    "player_name": "Willian José",
    "squad": "Real Sociedad"
   },
   {
+   "fbref_id": "81255c03",
+   "season": 2019,
+   "distance": 2.41,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "João Pedro",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "6605d143",
+   "season": 2021,
+   "distance": 2.456,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Habib Diallo",
+   "squad": "Strasbourg / Metz"
+  },
+  {
    "fbref_id": "ab070c55",
    "season": 2018,
-   "distance": 2.439,
+   "distance": 2.46,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Christian Benteke",
@@ -94,7 +112,7 @@
   {
    "fbref_id": "d33c706e",
    "season": 2018,
-   "distance": 2.456,
+   "distance": 2.478,
    "survived": 1,
    "fut_ability_v2": 73.6,
    "player_name": "Andy Delort",
@@ -103,7 +121,7 @@
   {
    "fbref_id": "4f16405e",
    "season": 2018,
-   "distance": 2.479,
+   "distance": 2.502,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Niclas Füllkrug",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "d87e2cae",
    "season": 2018,
-   "distance": 2.575,
+   "distance": 2.557,
    "survived": 1,
    "fut_ability_v2": 43.5,
    "player_name": "Willian José",
    "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "4f16405e",
-   "season": 2019,
-   "distance": 2.627,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Niclas Füllkrug",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "ba115a40",
-   "season": 2020,
-   "distance": 2.646,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sébastien Haller",
-   "squad": "West Ham"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Shuto Machino(FW)의 현재 능력 점수는 54.4점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 거리, 클리어링, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 성공 드리블이다.",
-  "potential": "Shuto Machino의 2~3년 후 예측 중심값은 52.7점, 80% 구간 상단은 62.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Shuto Machino의 2~3년 후 예측 중심값은 50.2점, 80% 구간 상단은 59.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 46.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

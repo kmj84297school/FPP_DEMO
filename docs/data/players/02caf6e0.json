@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1512,
-  "mu": 49.9,
+  "survival_prob": 0.183,
+  "mu": 47.3,
   "ci80": {
-   "lo": 40.6,
-   "hi": 59.4
+   "lo": 37.9,
+   "hi": 56.6
   },
   "ci50": {
-   "lo": 45.0,
-   "hi": 55.0
+   "lo": 42.3,
+   "hi": 52.2
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "dbe519cf",
    "season": 2019,
-   "distance": 2.683,
+   "distance": 2.658,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Antoñito",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "d4ef9ac5",
    "season": 2020,
-   "distance": 2.76,
+   "distance": 2.723,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Toño",
    "squad": "Levante"
   },
   {
+   "fbref_id": "8332db56",
+   "season": 2022,
+   "distance": 2.931,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Thomas Delaine",
+   "squad": "Metz"
+  },
+  {
    "fbref_id": "cfd8d664",
    "season": 2018,
-   "distance": 3.182,
+   "distance": 3.083,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juanfran",
@@ -76,68 +85,59 @@
   {
    "fbref_id": "8617e3d9",
    "season": 2018,
-   "distance": 3.257,
+   "distance": 3.203,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Matías Aguirregaray",
    "squad": "Las Palmas"
   },
   {
-   "fbref_id": "089550f5",
-   "season": 2018,
-   "distance": 3.269,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kwadwo Asamoah",
-   "squad": "Juventus"
-  },
-  {
    "fbref_id": "872cd68c",
    "season": 2018,
-   "distance": 3.304,
+   "distance": 3.227,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Yoann Andreu",
    "squad": "Angers"
   },
   {
-   "fbref_id": "e29d1111",
-   "season": 2020,
-   "distance": 3.322,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Nacho",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "5e6342d4",
+   "fbref_id": "089550f5",
    "season": 2018,
-   "distance": 3.363,
+   "distance": 3.24,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Vincent Bessat",
-   "squad": "Caen"
+   "player_name": "Kwadwo Asamoah",
+   "squad": "Juventus"
   },
   {
    "fbref_id": "edd1466a",
    "season": 2020,
-   "distance": 3.368,
+   "distance": 3.258,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fouad Chafik",
    "squad": "Dijon"
   },
   {
-   "fbref_id": "089550f5",
-   "season": 2019,
-   "distance": 3.371,
+   "fbref_id": "e29d1111",
+   "season": 2020,
+   "distance": 3.264,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Kwadwo Asamoah",
-   "squad": "Inter"
+   "player_name": "Nacho",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "770d7eb8",
+   "season": 2021,
+   "distance": 3.312,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Kenny Lala",
+   "squad": "Strasbourg"
   }
  ],
- "low_confidence": false,
+ "low_confidence": true,
  "report": {
   "strengths": [
    {
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Manuel Lazzari(DF)의 현재 능력 점수는 46.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 전진 패스 수신, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 블록이다.",
-  "potential": "Manuel Lazzari의 2~3년 후 예측 중심값은 49.9점, 80% 구간 상단은 59.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 15.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Manuel Lazzari의 2~3년 후 예측 중심값은 47.3점, 80% 구간 상단은 56.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 18.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

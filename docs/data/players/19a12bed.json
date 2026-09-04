@@ -32,51 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3093,
-  "mu": 52.8,
+  "survival_prob": 0.4052,
+  "mu": 52.3,
   "ci80": {
-   "lo": 43.7,
-   "hi": 62.1
+   "lo": 43.1,
+   "hi": 61.5
   },
   "ci50": {
-   "lo": 48.0,
-   "hi": 57.7
+   "lo": 47.5,
+   "hi": 57.1
   },
-  "sigma_model": 1.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "edd1466a",
    "season": 2019,
-   "distance": 1.135,
+   "distance": 1.096,
    "survived": 1,
    "fut_ability_v2": 49.5,
    "player_name": "Fouad Chafik",
    "squad": "Dijon"
   },
   {
-   "fbref_id": "f3cccffe",
-   "season": 2019,
-   "distance": 1.634,
+   "fbref_id": "0420d84f",
+   "season": 2021,
+   "distance": 1.507,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Emiliano Insúa",
-   "squad": "Stuttgart"
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "0e7ccfc4",
+   "season": 2021,
+   "distance": 1.648,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sébastien Corchia",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "839c14e1",
+   "season": 2022,
+   "distance": 1.66,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Soares",
+   "squad": "Arsenal"
   },
   {
    "fbref_id": "9f323c71",
    "season": 2019,
-   "distance": 1.732,
+   "distance": 1.719,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Óscar de Marcos",
    "squad": "Athletic Club"
   },
   {
+   "fbref_id": "f3cccffe",
+   "season": 2019,
+   "distance": 1.729,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emiliano Insúa",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "3dd45b70",
+   "season": 2021,
+   "distance": 1.736,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaetano Letizia",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "01226327",
+   "season": 2019,
+   "distance": 1.752,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Ryan Bertrand",
+   "squad": "Southampton"
+  },
+  {
    "fbref_id": "652811aa",
    "season": 2020,
-   "distance": 1.766,
+   "distance": 1.753,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marco Calderoni",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "1f079188",
    "season": 2020,
-   "distance": 1.78,
+   "distance": 1.76,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rubén Peña",
    "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "01226327",
-   "season": 2019,
-   "distance": 1.793,
-   "survived": 1,
-   "fut_ability_v2": 47.2,
-   "player_name": "Ryan Bertrand",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "dbe519cf",
-   "season": 2019,
-   "distance": 1.806,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Antoñito",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "5cec2487",
-   "season": 2020,
-   "distance": 1.879,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Martín Montoya",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "c6896eab",
-   "season": 2019,
-   "distance": 1.897,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Chris Löwe",
-   "squad": "Huddersfield"
-  },
-  {
-   "fbref_id": "f3cccffe",
-   "season": 2018,
-   "distance": 1.929,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Emiliano Insúa",
-   "squad": "Stuttgart"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Hassane Kamara(DF)의 현재 능력 점수는 54.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 박스 진입 패스, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 패스 성공률이다.",
-  "potential": "Hassane Kamara의 2~3년 후 예측 중심값은 52.8점, 80% 구간 상단은 62.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 30.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Hassane Kamara의 2~3년 후 예측 중심값은 52.3점, 80% 구간 상단은 61.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

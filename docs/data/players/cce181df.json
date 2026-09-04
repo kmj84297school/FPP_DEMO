@@ -32,42 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4,
-  "mu": 60.5,
+  "survival_prob": 0.1874,
+  "mu": 58.2,
   "ci80": {
-   "lo": 51.1,
-   "hi": 69.8
+   "lo": 49.0,
+   "hi": 67.5
   },
   "ci50": {
-   "lo": 55.5,
-   "hi": 65.4
+   "lo": 53.4,
+   "hi": 63.1
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "da974c7b",
+   "season": 2021,
+   "distance": 1.711,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "b0a0698b",
+   "season": 2022,
+   "distance": 1.819,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafael Czichos",
+   "squad": "Köln"
+  },
+  {
    "fbref_id": "ba23a904",
    "season": 2019,
-   "distance": 1.876,
+   "distance": 1.93,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jan Vertonghen",
    "squad": "Tottenham"
   },
   {
+   "fbref_id": "8a7ff278",
+   "season": 2022,
+   "distance": 1.96,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Joel Ward",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "1522dab2",
    "season": 2018,
-   "distance": 1.941,
+   "distance": 2.003,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Davide Astori",
    "squad": "Fiorentina"
   },
   {
+   "fbref_id": "b0a0698b",
+   "season": 2021,
+   "distance": 2.024,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafael Czichos",
+   "squad": "Köln"
+  },
+  {
    "fbref_id": "53de807a",
    "season": 2018,
-   "distance": 1.952,
+   "distance": 2.074,
    "survived": 1,
    "fut_ability_v2": 59.8,
    "player_name": "Ștefan Radu",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "b3dc6eca",
    "season": 2019,
-   "distance": 2.174,
+   "distance": 2.245,
    "survived": 1,
    "fut_ability_v2": 61.1,
    "player_name": "Víctor Ruiz",
    "squad": "Villarreal"
   },
   {
-   "fbref_id": "53de807a",
-   "season": 2019,
-   "distance": 2.2,
-   "survived": 1,
-   "fut_ability_v2": 58.7,
-   "player_name": "Ștefan Radu",
-   "squad": "Lazio"
-  },
-  {
-   "fbref_id": "779847d6",
-   "season": 2020,
-   "distance": 2.298,
-   "survived": 1,
-   "fut_ability_v2": 60.0,
-   "player_name": "Nicolas Pallois",
-   "squad": "Nantes"
-  },
-  {
-   "fbref_id": "850c0a0d",
-   "season": 2018,
-   "distance": 2.313,
-   "survived": 1,
-   "fut_ability_v2": 53.6,
-   "player_name": "Anaitz Arbilla",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "7adea561",
-   "season": 2018,
-   "distance": 2.318,
+   "fbref_id": "d9624b51",
+   "season": 2022,
+   "distance": 2.274,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Jérémy Toulalan",
-   "squad": "Bordeaux"
+   "player_name": "Federico Ceccherini",
+   "squad": "Hellas Verona"
   },
   {
-   "fbref_id": "f5efb153",
-   "season": 2018,
-   "distance": 2.376,
+   "fbref_id": "b96b595c",
+   "season": 2021,
+   "distance": 2.276,
    "survived": 1,
-   "fut_ability_v2": 61.5,
-   "player_name": "Laurent Koscielny",
-   "squad": "Arsenal"
-  },
-  {
-   "fbref_id": "070ec0b1",
-   "season": 2019,
-   "distance": 2.387,
-   "survived": 1,
-   "fut_ability_v2": 62.8,
-   "player_name": "Sven Bender",
-   "squad": "Leverkusen"
+   "fut_ability_v2": 59.8,
+   "player_name": "Francesco Acerbi",
+   "squad": "Lazio"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Geoffrey Kondogbia(DF)의 현재 능력 점수는 59.6점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 패스 성공률, 태클 성공률, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 박스 터치이다.",
-  "potential": "Geoffrey Kondogbia의 2~3년 후 예측 중심값은 60.5점, 80% 구간 상단은 69.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Geoffrey Kondogbia의 2~3년 후 예측 중심값은 58.2점, 80% 구간 상단은 67.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 18.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

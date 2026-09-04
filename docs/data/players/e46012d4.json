@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6999,
-  "mu": 70.5,
+  "survival_prob": 0.3442,
+  "mu": 69.5,
   "ci80": {
-   "lo": 60.6,
-   "hi": 80.4
+   "lo": 59.6,
+   "hi": 79.3
   },
   "ci50": {
-   "lo": 65.3,
-   "hi": 75.8
+   "lo": 64.3,
+   "hi": 74.7
   },
-  "sigma_model": 3.2,
-  "sigma_residual": 7.0
+  "sigma_model": 2.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "19cda00b",
+   "season": 2021,
+   "distance": 3.12,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ángel Di María",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "58ae47b2",
+   "season": 2021,
+   "distance": 3.39,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitri Payet",
+   "squad": "Marseille"
+  },
+  {
    "fbref_id": "58ae47b2",
    "season": 2019,
-   "distance": 3.51,
+   "distance": 3.565,
    "survived": 1,
    "fut_ability_v2": 70.7,
    "player_name": "Dimitri Payet",
    "squad": "Marseille"
   },
   {
+   "fbref_id": "3c6089ab",
+   "season": 2022,
+   "distance": 3.917,
+   "survived": 1,
+   "fut_ability_v2": 71.9,
+   "player_name": "Thomas Müller",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "e2716bd0",
+   "season": 2022,
+   "distance": 4.316,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Silva",
+   "squad": "Real Sociedad"
+  },
+  {
    "fbref_id": "e2716bd0",
    "season": 2019,
-   "distance": 4.389,
+   "distance": 4.4,
    "survived": 1,
    "fut_ability_v2": 75.9,
    "player_name": "David Silva",
@@ -67,7 +103,7 @@
   {
    "fbref_id": "e2e9c250",
    "season": 2020,
-   "distance": 4.431,
+   "distance": 4.415,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Santi Cazorla",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "e2716bd0",
    "season": 2020,
-   "distance": 4.447,
+   "distance": 4.453,
    "survived": 1,
    "fut_ability_v2": 74.8,
    "player_name": "David Silva",
    "squad": "Manchester City"
   },
   {
-   "fbref_id": "19cda00b",
-   "season": 2020,
-   "distance": 4.49,
-   "survived": 1,
-   "fut_ability_v2": 83.4,
-   "player_name": "Ángel Di María",
-   "squad": "Paris S-G"
-  },
-  {
    "fbref_id": "78841da9",
    "season": 2019,
-   "distance": 4.644,
+   "distance": 4.588,
    "survived": 1,
    "fut_ability_v2": 54.0,
    "player_name": "José Callejón",
    "squad": "Napoli"
   },
   {
-   "fbref_id": "6e4df551",
+   "fbref_id": "19cda00b",
    "season": 2020,
-   "distance": 4.795,
+   "distance": 4.632,
    "survived": 1,
-   "fut_ability_v2": 63.1,
-   "player_name": "Papu Gómez",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "1f9328da",
-   "season": 2020,
-   "distance": 4.796,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Radja Nainggolan",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "c90977db",
-   "season": 2018,
-   "distance": 4.995,
-   "survived": 1,
-   "fut_ability_v2": 52.7,
-   "player_name": "Fabián Orellana",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "e2716bd0",
-   "season": 2018,
-   "distance": 5.138,
-   "survived": 1,
-   "fut_ability_v2": 81.7,
-   "player_name": "David Silva",
-   "squad": "Manchester City"
+   "fut_ability_v2": 83.4,
+   "player_name": "Ángel Di María",
+   "squad": "Paris S-G"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Kevin De Bruyne(MF)의 현재 능력 점수는 78.1점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 박스 진입 패스, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 블록이다.",
-  "potential": "Kevin De Bruyne의 2~3년 후 예측 중심값은 70.5점, 80% 구간 상단은 80.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Kevin De Bruyne의 2~3년 후 예측 중심값은 69.5점, 80% 구간 상단은 79.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

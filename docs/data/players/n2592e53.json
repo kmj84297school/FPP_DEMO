@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1842,
-  "mu": 51.8,
+  "survival_prob": 0.2945,
+  "mu": 48.4,
   "ci80": {
-   "lo": 42.3,
-   "hi": 61.2
+   "lo": 38.9,
+   "hi": 57.9
   },
   "ci50": {
-   "lo": 46.8,
-   "hi": 56.7
+   "lo": 43.4,
+   "hi": 53.4
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "71a20ce8",
    "season": 2018,
-   "distance": 2.155,
+   "distance": 2.19,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Gómez",
    "squad": "Stuttgart / Wolfsburg"
   },
   {
+   "fbref_id": "c4e87b8b",
+   "season": 2022,
+   "distance": 2.362,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg / Burnley"
+  },
+  {
+   "fbref_id": "d6862409",
+   "season": 2022,
+   "distance": 2.363,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Florian Niederlechner",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "766f48dd",
+   "season": 2022,
+   "distance": 2.37,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Galhardo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "8f898ba8",
+   "season": 2021,
+   "distance": 2.447,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Carrillo",
+   "squad": "Elche"
+  },
+  {
    "fbref_id": "b1236c63",
    "season": 2020,
-   "distance": 2.467,
+   "distance": 2.476,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ilija Nestorovski",
@@ -67,74 +103,38 @@
   {
    "fbref_id": "8f898ba8",
    "season": 2020,
-   "distance": 2.471,
+   "distance": 2.493,
    "survived": 1,
    "fut_ability_v2": 30.8,
    "player_name": "Guido Carrillo",
    "squad": "Leganés"
   },
   {
+   "fbref_id": "4ab53cdb",
+   "season": 2022,
+   "distance": 2.512,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jay Rodriguez",
+   "squad": "Burnley"
+  },
+  {
    "fbref_id": "a190d597",
    "season": 2020,
-   "distance": 2.532,
+   "distance": 2.554,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Diego Costa",
    "squad": "Atlético Madrid"
   },
   {
-   "fbref_id": "09a9e921",
-   "season": 2019,
-   "distance": 2.538,
+   "fbref_id": "ab070c55",
+   "season": 2022,
+   "distance": 2.563,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Carlos Bacca",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "99b7584f",
-   "season": 2018,
-   "distance": 2.555,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Martin Harnik",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "4c7940d6",
-   "season": 2018,
-   "distance": 2.558,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Massimo Coda",
-   "squad": "Benevento"
-  },
-  {
-   "fbref_id": "fd771f95",
-   "season": 2020,
-   "distance": 2.593,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Martin Braithwaite",
-   "squad": "Leganés / Barcelona"
-  },
-  {
-   "fbref_id": "8ff07990",
-   "season": 2020,
-   "distance": 2.594,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mario Balotelli",
-   "squad": "Brescia"
-  },
-  {
-   "fbref_id": "abb3bb95",
-   "season": 2020,
-   "distance": 2.764,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luuk de Jong",
-   "squad": "Sevilla"
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Giorgos Masouras(FW)의 현재 능력 점수는 54.2점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 유효슈팅, 볼 손실(미스+파울), 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 패스이다.",
-  "potential": "Giorgos Masouras의 2~3년 후 예측 중심값은 51.8점, 80% 구간 상단은 61.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 18.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Giorgos Masouras의 2~3년 후 예측 중심값은 48.4점, 80% 구간 상단은 57.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

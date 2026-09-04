@@ -32,51 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9224,
-  "mu": 68.6,
+  "survival_prob": 0.9273,
+  "mu": 71.5,
   "ci80": {
-   "lo": 57.6,
-   "hi": 79.5
+   "lo": 60.9,
+   "hi": 82.2
   },
   "ci50": {
-   "lo": 62.8,
-   "hi": 74.3
+   "lo": 65.9,
+   "hi": 77.2
   },
-  "sigma_model": 2.9,
+  "sigma_model": 2.5,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "7111d552",
+   "season": 2021,
+   "distance": 2.379,
+   "survived": 1,
+   "fut_ability_v2": 78.8,
+   "player_name": "Vinicius Júnior",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "8f5e92a6",
+   "season": 2022,
+   "distance": 2.474,
+   "survived": 1,
+   "fut_ability_v2": 75.7,
+   "player_name": "Rodrygo",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "45af8a54",
    "season": 2019,
-   "distance": 2.594,
+   "distance": 2.545,
    "survived": 1,
    "fut_ability_v2": 69.6,
    "player_name": "Marco Asensio",
    "squad": "Real Madrid"
   },
   {
-   "fbref_id": "4737cebe",
-   "season": 2018,
-   "distance": 2.764,
-   "survived": 1,
-   "fut_ability_v2": 68.4,
-   "player_name": "Adnan Januzaj",
-   "squad": "Real Sociedad"
-  },
-  {
    "fbref_id": "3eb22ec9",
    "season": 2018,
-   "distance": 2.819,
+   "distance": 2.768,
    "survived": 1,
    "fut_ability_v2": 75.9,
    "player_name": "Bernardo Silva",
    "squad": "Manchester City"
   },
   {
+   "fbref_id": "4737cebe",
+   "season": 2018,
+   "distance": 2.772,
+   "survived": 1,
+   "fut_ability_v2": 68.4,
+   "player_name": "Adnan Januzaj",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "aeed5c06",
+   "season": 2021,
+   "distance": 3.178,
+   "survived": 1,
+   "fut_ability_v2": 66.7,
+   "player_name": "Moussa Diaby",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "fd9c4805",
    "season": 2018,
-   "distance": 3.187,
+   "distance": 3.19,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pione Sisto",
@@ -85,7 +112,7 @@
   {
    "fbref_id": "ed90babd",
    "season": 2020,
-   "distance": 3.218,
+   "distance": 3.216,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Adam Ounas",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "88e357ef",
    "season": 2018,
-   "distance": 3.413,
+   "distance": 3.376,
    "survived": 1,
    "fut_ability_v2": 76.4,
    "player_name": "Serge Gnabry",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "b19db005",
-   "season": 2019,
-   "distance": 3.491,
+   "fbref_id": "ed1e53f3",
+   "season": 2021,
+   "distance": 3.384,
    "survived": 1,
-   "fut_ability_v2": 76.7,
-   "player_name": "Ousmane Dembélé",
-   "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "20730eae",
-   "season": 2020,
-   "distance": 3.535,
-   "survived": 1,
-   "fut_ability_v2": 73.5,
-   "player_name": "Rafael Leão",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "81d3318f",
-   "season": 2018,
-   "distance": 3.536,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "François Kamano",
-   "squad": "Bordeaux"
-  },
-  {
-   "fbref_id": "b0f7e36c",
-   "season": 2020,
-   "distance": 3.571,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Federico Chiesa",
-   "squad": "Fiorentina"
+   "fut_ability_v2": 82.5,
+   "player_name": "Phil Foden",
+   "squad": "Manchester City"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Francisco Conceição(FW)의 현재 능력 점수는 69.3점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 전진 운반 거리, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Francisco Conceição의 2~3년 후 예측 중심값은 68.6점, 80% 구간 상단은 79.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Francisco Conceição의 2~3년 후 예측 중심값은 71.5점, 80% 구간 상단은 82.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

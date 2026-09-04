@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1889,
-  "mu": 52.6,
+  "survival_prob": 0.2274,
+  "mu": 51.8,
   "ci80": {
-   "lo": 43.2,
-   "hi": 62.1
+   "lo": 42.3,
+   "hi": 61.2
   },
   "ci50": {
-   "lo": 47.6,
-   "hi": 57.6
+   "lo": 46.8,
+   "hi": 56.7
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "4bd414c1",
    "season": 2019,
-   "distance": 1.406,
+   "distance": 1.342,
    "survived": 1,
    "fut_ability_v2": 54.4,
    "player_name": "Raúl Albiol",
@@ -58,52 +58,70 @@
   {
    "fbref_id": "e97150c0",
    "season": 2019,
-   "distance": 1.584,
+   "distance": 1.558,
    "survived": 1,
    "fut_ability_v2": 41.4,
    "player_name": "Jérémy Morel",
    "squad": "Lyon"
   },
   {
-   "fbref_id": "008a6e6d",
-   "season": 2019,
-   "distance": 1.622,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ragnar Klavan",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "5d311e8d",
-   "season": 2019,
-   "distance": 1.692,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Héctor Moreno",
-   "squad": "Real Sociedad"
-  },
-  {
    "fbref_id": "314f2124",
    "season": 2019,
-   "distance": 1.706,
+   "distance": 1.628,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Miranda",
    "squad": "Inter"
   },
   {
+   "fbref_id": "008a6e6d",
+   "season": 2019,
+   "distance": 1.632,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ragnar Klavan",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "070ec0b1",
+   "season": 2021,
+   "distance": 1.719,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sven Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "5d311e8d",
+   "season": 2019,
+   "distance": 1.722,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Héctor Moreno",
+   "squad": "Real Sociedad"
+  },
+  {
    "fbref_id": "16714a62",
    "season": 2019,
-   "distance": 1.825,
+   "distance": 1.776,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Khaled Adénon",
    "squad": "Amiens"
   },
   {
+   "fbref_id": "63071a3f",
+   "season": 2021,
+   "distance": 1.82,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Iacoponi",
+   "squad": "Parma"
+  },
+  {
    "fbref_id": "ad178594",
    "season": 2019,
-   "distance": 1.891,
+   "distance": 1.838,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Raúl Navas",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "e0314d87",
    "season": 2020,
-   "distance": 1.904,
+   "distance": 1.839,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andrea Masiello",
    "squad": "Genoa / Atalanta"
-  },
-  {
-   "fbref_id": "51e3954c",
-   "season": 2018,
-   "distance": 2.049,
-   "survived": 1,
-   "fut_ability_v2": 52.5,
-   "player_name": "Facundo Roncaglia",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "ac3fb1be",
-   "season": 2020,
-   "distance": 2.087,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ezequiel Garay",
-   "squad": "Valencia"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Kevin Vogt(DF)의 현재 능력 점수는 57.0점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 슈팅당 기대득점, 볼 리커버리, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 태클+인터셉트이다.",
-  "potential": "Kevin Vogt의 2~3년 후 예측 중심값은 52.6점, 80% 구간 상단은 62.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 18.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Kevin Vogt의 2~3년 후 예측 중심값은 51.8점, 80% 구간 상단은 61.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

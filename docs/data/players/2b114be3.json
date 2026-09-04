@@ -32,33 +32,42 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.8478,
-  "mu": 73.7,
+  "survival_prob": 0.6569,
+  "mu": 77.6,
   "ci80": {
-   "lo": 64.3,
-   "hi": 83.3
+   "lo": 68.1,
+   "hi": 87.1
   },
   "ci50": {
-   "lo": 68.8,
-   "hi": 78.8
+   "lo": 72.7,
+   "hi": 82.6
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "c691bfe2",
    "season": 2020,
-   "distance": 2.508,
+   "distance": 2.465,
    "survived": 1,
    "fut_ability_v2": 76.2,
    "player_name": "Sadio Mané",
    "squad": "Liverpool"
   },
   {
+   "fbref_id": "b400bde0",
+   "season": 2022,
+   "distance": 2.545,
+   "survived": 1,
+   "fut_ability_v2": 72.5,
+   "player_name": "Raheem Sterling",
+   "squad": "Manchester City"
+  },
+  {
    "fbref_id": "849c826a",
    "season": 2018,
-   "distance": 2.727,
+   "distance": 2.699,
    "survived": 1,
    "fut_ability_v2": 61.8,
    "player_name": "Andriy Yarmolenko",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "4d034881",
    "season": 2018,
-   "distance": 2.854,
+   "distance": 2.78,
    "survived": 1,
    "fut_ability_v2": 75.2,
    "player_name": "Sergio Agüero",
    "squad": "Manchester City"
   },
   {
+   "fbref_id": "c691bfe2",
+   "season": 2021,
+   "distance": 2.798,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "892d5bb1",
+   "season": 2022,
+   "distance": 2.815,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Riyad Mahrez",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "5ceba7fc",
+   "season": 2021,
+   "distance": 3.031,
+   "survived": 1,
+   "fut_ability_v2": 69.9,
+   "player_name": "Karl Toko Ekambi",
+   "squad": "Lyon"
+  },
+  {
    "fbref_id": "bc6bd723",
    "season": 2020,
-   "distance": 3.102,
+   "distance": 3.046,
    "survived": 1,
    "fut_ability_v2": 73.5,
    "player_name": "Alassane Pléa",
    "squad": "M'Gladbach"
   },
   {
-   "fbref_id": "942b4f90",
-   "season": 2020,
-   "distance": 3.243,
-   "survived": 1,
-   "fut_ability_v2": 68.8,
-   "player_name": "Wissam Ben Yedder",
-   "squad": "Monaco"
-  },
-  {
    "fbref_id": "7dcf86f6",
    "season": 2018,
-   "distance": 3.266,
+   "distance": 3.211,
    "survived": 1,
    "fut_ability_v2": 68.5,
    "player_name": "Iago Aspas",
    "squad": "Celta Vigo"
   },
   {
-   "fbref_id": "892d5bb1",
-   "season": 2019,
-   "distance": 3.277,
-   "survived": 1,
-   "fut_ability_v2": 82.0,
-   "player_name": "Riyad Mahrez",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "eb2fe5b6",
-   "season": 2020,
-   "distance": 3.353,
-   "survived": 1,
-   "fut_ability_v2": 83.0,
-   "player_name": "Luis Muriel",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "a58bb1e1",
-   "season": 2018,
-   "distance": 3.387,
-   "survived": 1,
-   "fut_ability_v2": 71.3,
-   "player_name": "Gareth Bale",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "4c370d81",
-   "season": 2019,
-   "distance": 3.425,
-   "survived": 1,
-   "fut_ability_v2": 78.6,
-   "player_name": "Roberto Firmino",
-   "squad": "Liverpool"
+   "fbref_id": "8f696594",
+   "season": 2022,
+   "distance": 3.22,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Memphis Depay",
+   "squad": "Barcelona"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Leroy Sané(FW)의 현재 능력 점수는 86.0점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 전진 패스 수신, 유효슈팅, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 슈팅당 기대득점이다.",
-  "potential": "Leroy Sané의 2~3년 후 예측 중심값은 73.7점, 80% 구간 상단은 83.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Leroy Sané의 2~3년 후 예측 중심값은 77.6점, 80% 구간 상단은 87.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 65.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

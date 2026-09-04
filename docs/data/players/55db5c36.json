@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4745,
-  "mu": 53.3,
+  "survival_prob": 0.3631,
+  "mu": 54.8,
   "ci80": {
-   "lo": 44.1,
-   "hi": 62.6
+   "lo": 45.4,
+   "hi": 64.1
   },
   "ci50": {
-   "lo": 48.4,
-   "hi": 58.2
+   "lo": 49.8,
+   "hi": 59.7
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "450ab6fc",
    "season": 2020,
-   "distance": 1.035,
+   "distance": 1.083,
    "survived": 1,
    "fut_ability_v2": 50.6,
    "player_name": "Jamaal Lascelles",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "9b30df1e",
    "season": 2019,
-   "distance": 1.275,
+   "distance": 1.284,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bartosz Salamon",
    "squad": "Frosinone"
   },
   {
+   "fbref_id": "7ed4921e",
+   "season": 2022,
+   "distance": 1.287,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "William Troost-Ekong",
+   "squad": "Watford"
+  },
+  {
    "fbref_id": "2d5f03bf",
    "season": 2020,
-   "distance": 1.437,
+   "distance": 1.413,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Christoph Zimmermann",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "f6ac68c1",
    "season": 2018,
-   "distance": 1.526,
+   "distance": 1.509,
    "survived": 1,
    "fut_ability_v2": 55.4,
    "player_name": "Stefan Savić",
    "squad": "Atlético Madrid"
   },
   {
-   "fbref_id": "fd47b4f2",
-   "season": 2020,
-   "distance": 1.545,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Rodrigo Ely",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "7f203b54",
-   "season": 2018,
-   "distance": 1.585,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Chema",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "f0da930c",
-   "season": 2020,
-   "distance": 1.613,
-   "survived": 1,
-   "fut_ability_v2": 47.7,
-   "player_name": "José María Giménez",
-   "squad": "Atlético Madrid"
-  },
-  {
    "fbref_id": "b233e8e4",
    "season": 2020,
-   "distance": 1.619,
+   "distance": 1.536,
    "survived": 1,
    "fut_ability_v2": 57.4,
    "player_name": "Jeison Murillo",
    "squad": "Celta Vigo / Sampdoria"
   },
   {
-   "fbref_id": "7b075c75",
-   "season": 2018,
-   "distance": 1.683,
-   "survived": 1,
-   "fut_ability_v2": 65.9,
-   "player_name": "Adama Soumaoro",
-   "squad": "Lille"
-  },
-  {
    "fbref_id": "b233e8e4",
    "season": 2018,
-   "distance": 1.719,
+   "distance": 1.58,
    "survived": 1,
    "fut_ability_v2": 51.7,
    "player_name": "Jeison Murillo",
    "squad": "Valencia"
+  },
+  {
+   "fbref_id": "25f50295",
+   "season": 2021,
+   "distance": 1.587,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mike van der Hoorn",
+   "squad": "Arminia"
+  },
+  {
+   "fbref_id": "c562c5b4",
+   "season": 2021,
+   "distance": 1.595,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joakim Nilsson",
+   "squad": "Arminia"
+  },
+  {
+   "fbref_id": "fd47b4f2",
+   "season": 2020,
+   "distance": 1.597,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Rodrigo Ely",
+   "squad": "Alavés"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Lautaro Valenti(DF)의 현재 능력 점수는 54.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 공중볼 승률, 태클 성공률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 전진 운반이다.",
-  "potential": "Lautaro Valenti의 2~3년 후 예측 중심값은 53.3점, 80% 구간 상단은 62.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 47.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lautaro Valenti의 2~3년 후 예측 중심값은 54.8점, 80% 구간 상단은 64.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 36.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

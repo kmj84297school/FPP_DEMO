@@ -32,69 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9438,
-  "mu": 60.0,
+  "survival_prob": 0.9196,
+  "mu": 59.5,
   "ci80": {
-   "lo": 50.9,
-   "hi": 69.2
+   "lo": 50.2,
+   "hi": 68.8
   },
   "ci50": {
-   "lo": 55.2,
-   "hi": 65.0
+   "lo": 54.6,
+   "hi": 64.3
   },
   "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "1a4b9094",
    "season": 2019,
-   "distance": 1.928,
+   "distance": 1.883,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bouna Sarr",
    "squad": "Marseille"
+  },
+  {
+   "fbref_id": "3c6bbbab",
+   "season": 2021,
+   "distance": 1.931,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabien Centonze",
+   "squad": "Metz"
   },
   {
    "fbref_id": "1a4b9094",
    "season": 2020,
-   "distance": 1.981,
+   "distance": 2.001,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bouna Sarr",
    "squad": "Marseille"
   },
   {
+   "fbref_id": "d04b94db",
+   "season": 2021,
+   "distance": 2.04,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Nélson Semedo",
+   "squad": "Wolves"
+  },
+  {
    "fbref_id": "fbbb9269",
    "season": 2018,
-   "distance": 2.163,
+   "distance": 2.124,
    "survived": 1,
    "fut_ability_v2": 59.2,
    "player_name": "Youssouf Sabaly",
    "squad": "Bordeaux"
   },
   {
-   "fbref_id": "59b7d823",
-   "season": 2018,
-   "distance": 2.378,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Iñigo Lekue",
-   "squad": "Athletic Club"
-  },
-  {
    "fbref_id": "75a72a99",
    "season": 2019,
-   "distance": 2.412,
+   "distance": 2.245,
    "survived": 1,
    "fut_ability_v2": 62.7,
    "player_name": "Ricardo Pereira",
    "squad": "Leicester City"
   },
   {
+   "fbref_id": "984a5a64",
+   "season": 2022,
+   "distance": 2.367,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Kyle Walker-Peters",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "59b7d823",
+   "season": 2018,
+   "distance": 2.385,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iñigo Lekue",
+   "squad": "Athletic Club"
+  },
+  {
    "fbref_id": "5c2b4f07",
    "season": 2020,
-   "distance": 2.475,
+   "distance": 2.413,
    "survived": 1,
    "fut_ability_v2": 66.8,
    "player_name": "Serge Aurier",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "33a95e0a",
    "season": 2020,
-   "distance": 2.501,
+   "distance": 2.474,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jamilu Collins",
    "squad": "Paderborn 07"
-  },
-  {
-   "fbref_id": "3dd738a1",
-   "season": 2019,
-   "distance": 2.554,
-   "survived": 1,
-   "fut_ability_v2": 68.2,
-   "player_name": "Ruben Aguilar",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "d6a889ea",
-   "season": 2019,
-   "distance": 2.584,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kévin Malcuit",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "19a12bed",
-   "season": 2020,
-   "distance": 2.689,
-   "survived": 1,
-   "fut_ability_v2": 53.7,
-   "player_name": "Hassane Kamara",
-   "squad": "Reims"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Aaron Wan-Bissaka(DF)의 현재 능력 점수는 68.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 전진 운반, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 전진 패스 거리이다.",
-  "potential": "Aaron Wan-Bissaka의 2~3년 후 예측 중심값은 60.0점, 80% 구간 상단은 69.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 94.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Aaron Wan-Bissaka의 2~3년 후 예측 중심값은 59.5점, 80% 구간 상단은 68.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 92.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6784,
-  "mu": 46.0,
+  "survival_prob": 0.4199,
+  "mu": 40.2,
   "ci80": {
-   "lo": 34.6,
-   "hi": 57.3
+   "lo": 29.4,
+   "hi": 51.1
   },
   "ci50": {
-   "lo": 40.0,
-   "hi": 52.0
+   "lo": 34.5,
+   "hi": 46.0
   },
-  "sigma_model": 3.7,
+  "sigma_model": 2.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "4c2e9442",
    "season": 2020,
-   "distance": 1.945,
+   "distance": 1.912,
    "survived": 1,
    "fut_ability_v2": 32.6,
    "player_name": "Maxi Gómez",
@@ -58,16 +58,43 @@
   {
    "fbref_id": "19ba6c6d",
    "season": 2018,
-   "distance": 2.214,
+   "distance": 2.204,
    "survived": 1,
    "fut_ability_v2": 52.5,
    "player_name": "Steve Mounié",
    "squad": "Huddersfield"
   },
   {
+   "fbref_id": "bbf5c11b",
+   "season": 2021,
+   "distance": 2.215,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafa Mir",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "4c2e9442",
+   "season": 2021,
+   "distance": 2.402,
+   "survived": 1,
+   "fut_ability_v2": 20.7,
+   "player_name": "Maxi Gómez",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "57be54ec",
+   "season": 2021,
+   "distance": 2.421,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Asier Villalibre",
+   "squad": "Athletic Club"
+  },
+  {
    "fbref_id": "06f33dc8",
    "season": 2019,
-   "distance": 2.437,
+   "distance": 2.43,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Enzo Crivelli",
@@ -76,7 +103,7 @@
   {
    "fbref_id": "1238a3f9",
    "season": 2018,
-   "distance": 2.653,
+   "distance": 2.665,
    "survived": 1,
    "fut_ability_v2": 28.8,
    "player_name": "Davie Selke",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "19ba6c6d",
    "season": 2019,
-   "distance": 2.671,
+   "distance": 2.677,
    "survived": 1,
    "fut_ability_v2": 50.4,
    "player_name": "Steve Mounié",
    "squad": "Huddersfield"
   },
   {
-   "fbref_id": "6922f806",
-   "season": 2018,
-   "distance": 2.721,
-   "survived": 1,
-   "fut_ability_v2": 43.4,
-   "player_name": "Jonathan Calleri",
-   "squad": "Las Palmas"
-  },
-  {
    "fbref_id": "9453d2f4",
    "season": 2019,
-   "distance": 2.758,
+   "distance": 2.73,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Baptiste Guillaume",
    "squad": "Nîmes"
   },
   {
-   "fbref_id": "04e17fd5",
-   "season": 2020,
-   "distance": 2.791,
+   "fbref_id": "6922f806",
+   "season": 2018,
+   "distance": 2.756,
    "survived": 1,
-   "fut_ability_v2": 40.2,
-   "player_name": "Youssef En-Nesyri",
-   "squad": "Leganés / Sevilla"
-  },
-  {
-   "fbref_id": "bfae110f",
-   "season": 2020,
-   "distance": 2.886,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wesley Moraes",
-   "squad": "Aston Villa"
-  },
-  {
-   "fbref_id": "59e6e5bf",
-   "season": 2020,
-   "distance": 3.09,
-   "survived": 1,
-   "fut_ability_v2": 40.5,
-   "player_name": "Dominic Calvert-Lewin",
-   "squad": "Everton"
+   "fut_ability_v2": 43.4,
+   "player_name": "Jonathan Calleri",
+   "squad": "Las Palmas"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Lorenzo Lucca(FW)의 현재 능력 점수는 36.4점이다. 플레이스타일은 '박스 포처'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승률, 무페널티 득점, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 전진 패스 거리이다.",
-  "potential": "Lorenzo Lucca의 2~3년 후 예측 중심값은 46.0점, 80% 구간 상단은 57.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 67.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lorenzo Lucca의 2~3년 후 예측 중심값은 40.2점, 80% 구간 상단은 51.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 42.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

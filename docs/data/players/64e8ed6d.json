@@ -32,109 +32,109 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3989,
-  "mu": 43.9,
+  "survival_prob": 0.3056,
+  "mu": 42.6,
   "ci80": {
-   "lo": 34.2,
-   "hi": 53.8
+   "lo": 32.9,
+   "hi": 52.3
   },
   "ci50": {
-   "lo": 38.8,
-   "hi": 49.1
+   "lo": 37.5,
+   "hi": 47.7
   },
-  "sigma_model": 2.9,
-  "sigma_residual": 7.0
+  "sigma_model": 2.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "75645f0e",
    "season": 2020,
-   "distance": 2.02,
+   "distance": 2.057,
    "survived": 1,
    "fut_ability_v2": 45.9,
    "player_name": "Borja Iglesias",
    "squad": "Betis"
   },
   {
+   "fbref_id": "d87e2cae",
+   "season": 2021,
+   "distance": 2.059,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Willian José",
+   "squad": "Wolves / Real Sociedad"
+  },
+  {
+   "fbref_id": "fcbcbd94",
+   "season": 2021,
+   "distance": 2.133,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Moussa Konaté",
+   "squad": "Dijon"
+  },
+  {
    "fbref_id": "625e41b1",
    "season": 2020,
-   "distance": 2.137,
+   "distance": 2.161,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Streli Mamba",
    "squad": "Paderborn 07"
   },
   {
+   "fbref_id": "75645f0e",
+   "season": 2021,
+   "distance": 2.232,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Borja Iglesias",
+   "squad": "Betis"
+  },
+  {
    "fbref_id": "2e52206e",
    "season": 2018,
-   "distance": 2.238,
+   "distance": 2.262,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Benjamin Jeannot",
    "squad": "Dijon"
   },
   {
+   "fbref_id": "abb3bb95",
+   "season": 2021,
+   "distance": 2.263,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luuk de Jong",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "fd771f95",
    "season": 2019,
-   "distance": 2.316,
+   "distance": 2.375,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Martin Braithwaite",
    "squad": "Leganés"
   },
   {
-   "fbref_id": "dae8623e",
-   "season": 2020,
-   "distance": 2.427,
+   "fbref_id": "17f3620a",
+   "season": 2021,
+   "distance": 2.454,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Mbwana Samatta",
-   "squad": "Aston Villa"
+   "player_name": "Krzysztof Piątek",
+   "squad": "Hertha BSC"
   },
   {
    "fbref_id": "b35db3f6",
    "season": 2018,
-   "distance": 2.444,
+   "distance": 2.47,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Miguel Ángel Guerrero",
    "squad": "Leganés"
-  },
-  {
-   "fbref_id": "8f866fe8",
-   "season": 2018,
-   "distance": 2.51,
-   "survived": 1,
-   "fut_ability_v2": 57.8,
-   "player_name": "Manolo Gabbiadini",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "11ced928",
-   "season": 2020,
-   "distance": 2.685,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yaya Sanogo",
-   "squad": "Toulouse"
-  },
-  {
-   "fbref_id": "fd771f95",
-   "season": 2020,
-   "distance": 2.699,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Martin Braithwaite",
-   "squad": "Leganés / Barcelona"
-  },
-  {
-   "fbref_id": "5343eb4e",
-   "season": 2018,
-   "distance": 2.701,
-   "survived": 1,
-   "fut_ability_v2": 34.1,
-   "player_name": "Yoshinori Mutō",
-   "squad": "Mainz 05"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Borja Mayoral(FW)의 현재 능력 점수는 34.1점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 패스 성공률, 볼 손실(미스+파울), 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 박스 진입 패스이다.",
-  "potential": "Borja Mayoral의 2~3년 후 예측 중심값은 43.9점, 80% 구간 상단은 53.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 39.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Borja Mayoral의 2~3년 후 예측 중심값은 42.6점, 80% 구간 상단은 52.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 30.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

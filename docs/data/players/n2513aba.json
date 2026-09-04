@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8941,
-  "mu": 64.0,
+  "survival_prob": 0.9367,
+  "mu": 64.1,
   "ci80": {
-   "lo": 53.3,
-   "hi": 74.7
+   "lo": 53.2,
+   "hi": 75.0
   },
   "ci50": {
    "lo": 58.3,
-   "hi": 69.7
+   "hi": 69.8
   },
-  "sigma_model": 2.4,
+  "sigma_model": 3.0,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "4d1666ff",
    "season": 2018,
-   "distance": 2.754,
+   "distance": 2.732,
    "survived": 1,
    "fut_ability_v2": 61.1,
    "player_name": "Jules Koundé",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "06df8256",
    "season": 2019,
-   "distance": 2.949,
+   "distance": 2.874,
    "survived": 1,
    "fut_ability_v2": 67.0,
    "player_name": "Benoît Badiashile",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "06df8256",
    "season": 2020,
-   "distance": 3.011,
+   "distance": 2.953,
    "survived": 1,
    "fut_ability_v2": 69.7,
    "player_name": "Benoît Badiashile",
@@ -76,7 +76,7 @@
   {
    "fbref_id": "4315f30d",
    "season": 2018,
-   "distance": 3.477,
+   "distance": 3.419,
    "survived": 1,
    "fut_ability_v2": 48.9,
    "player_name": "Malang Sarr",
@@ -85,7 +85,7 @@
   {
    "fbref_id": "d248cd8f",
    "season": 2018,
-   "distance": 3.649,
+   "distance": 3.555,
    "survived": 1,
    "fut_ability_v2": 70.5,
    "player_name": "Dayot Upamecano",
@@ -94,16 +94,25 @@
   {
    "fbref_id": "cc77354e",
    "season": 2019,
-   "distance": 3.69,
+   "distance": 3.589,
    "survived": 1,
    "fut_ability_v2": 62.9,
    "player_name": "Boubacar Kamara",
    "squad": "Marseille"
   },
   {
+   "fbref_id": "5b9512c5",
+   "season": 2022,
+   "distance": 3.727,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Castello Lukeba",
+   "squad": "Lyon"
+  },
+  {
    "fbref_id": "441197b8",
    "season": 2019,
-   "distance": 3.984,
+   "distance": 3.938,
    "survived": 1,
    "fut_ability_v2": 70.3,
    "player_name": "Obite N'Dicka",
@@ -112,7 +121,7 @@
   {
    "fbref_id": "5ed9b537",
    "season": 2018,
-   "distance": 4.06,
+   "distance": 3.992,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ibrahima Konaté",
@@ -121,20 +130,11 @@
   {
    "fbref_id": "4bd00a50",
    "season": 2018,
-   "distance": 4.262,
+   "distance": 4.23,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Panagiotis Retsos",
    "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "1bfb6fef",
-   "season": 2020,
-   "distance": 4.58,
-   "survived": 1,
-   "fut_ability_v2": 56.4,
-   "player_name": "Bafodé Diakité",
-   "squad": "Toulouse"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Pau Cubarsí(DF)의 현재 능력 점수는 65.0점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 패스 거리, 최종 3분의1 패스, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 태클+인터셉트이다.",
-  "potential": "Pau Cubarsí의 2~3년 후 예측 중심값은 64.0점, 80% 구간 상단은 74.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 89.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pau Cubarsí의 2~3년 후 예측 중심값은 64.1점, 80% 구간 상단은 75.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

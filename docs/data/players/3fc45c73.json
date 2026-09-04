@@ -32,42 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8236,
-  "mu": 60.5,
+  "survival_prob": 0.4037,
+  "mu": 65.2,
   "ci80": {
-   "lo": 51.1,
-   "hi": 69.8
+   "lo": 55.8,
+   "hi": 74.6
   },
   "ci50": {
-   "lo": 55.5,
-   "hi": 65.4
+   "lo": 60.2,
+   "hi": 70.1
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "86e7deaf",
    "season": 2019,
-   "distance": 2.486,
+   "distance": 2.437,
    "survived": 1,
    "fut_ability_v2": 68.7,
    "player_name": "Thiago Silva",
    "squad": "Paris S-G"
   },
   {
-   "fbref_id": "101da2b5",
-   "season": 2020,
-   "distance": 2.744,
-   "survived": 1,
-   "fut_ability_v2": 68.2,
-   "player_name": "Fernandinho",
-   "squad": "Manchester City"
+   "fbref_id": "2db2fd7b",
+   "season": 2021,
+   "distance": 2.55,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérôme Boateng",
+   "squad": "Bayern Munich"
   },
   {
    "fbref_id": "00844823",
    "season": 2019,
-   "distance": 2.782,
+   "distance": 2.744,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Niklas Moisander",
@@ -76,25 +76,43 @@
   {
    "fbref_id": "4bd414c1",
    "season": 2018,
-   "distance": 2.807,
+   "distance": 2.763,
    "survived": 1,
    "fut_ability_v2": 54.6,
    "player_name": "Raúl Albiol",
    "squad": "Napoli"
   },
   {
+   "fbref_id": "101da2b5",
+   "season": 2020,
+   "distance": 2.765,
+   "survived": 1,
+   "fut_ability_v2": 68.2,
+   "player_name": "Fernandinho",
+   "squad": "Manchester City"
+  },
+  {
    "fbref_id": "c0e27d1a",
    "season": 2019,
-   "distance": 3.166,
+   "distance": 3.079,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "David Luiz",
    "squad": "Chelsea"
   },
   {
+   "fbref_id": "adfc9123",
+   "season": 2022,
+   "distance": 3.12,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gerard Piqué",
+   "squad": "Barcelona"
+  },
+  {
    "fbref_id": "d003e213",
    "season": 2019,
-   "distance": 3.227,
+   "distance": 3.18,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rafinha",
@@ -102,39 +120,21 @@
   },
   {
    "fbref_id": "53de807a",
-   "season": 2019,
-   "distance": 3.276,
-   "survived": 1,
-   "fut_ability_v2": 58.7,
+   "season": 2021,
+   "distance": 3.182,
+   "survived": 0,
+   "fut_ability_v2": null,
    "player_name": "Ștefan Radu",
    "squad": "Lazio"
   },
   {
-   "fbref_id": "e85fb9b8",
-   "season": 2018,
-   "distance": 3.3,
+   "fbref_id": "53de807a",
+   "season": 2019,
+   "distance": 3.186,
    "survived": 1,
-   "fut_ability_v2": 58.6,
-   "player_name": "Giorgio Chiellini",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "00844823",
-   "season": 2020,
-   "distance": 3.313,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Niklas Moisander",
-   "squad": "Werder Bremen"
-  },
-  {
-   "fbref_id": "fe2db476",
-   "season": 2020,
-   "distance": 3.326,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Łukasz Piszczek",
-   "squad": "Dortmund"
+   "fut_ability_v2": 58.7,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Iñigo Martínez(DF)의 현재 능력 점수는 72.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 패스, 전진 운반 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 블록이다.",
-  "potential": "Iñigo Martínez의 2~3년 후 예측 중심값은 60.5점, 80% 구간 상단은 69.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 82.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Iñigo Martínez의 2~3년 후 예측 중심값은 65.2점, 80% 구간 상단은 74.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

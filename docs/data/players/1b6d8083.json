@@ -32,78 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.923,
-  "mu": 60.3,
+  "survival_prob": 0.9275,
+  "mu": 59.7,
   "ci80": {
-   "lo": 49.8,
-   "hi": 71.0
+   "lo": 49.3,
+   "hi": 70.2
   },
   "ci50": {
-   "lo": 54.9,
-   "hi": 65.9
+   "lo": 54.2,
+   "hi": 65.2
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "437f2b00",
+   "season": 2021,
+   "distance": 1.481,
+   "survived": 1,
+   "fut_ability_v2": 63.7,
+   "player_name": "Christoph Baumgartner",
+   "squad": "Hoffenheim"
+  },
+  {
    "fbref_id": "c9e39d91",
    "season": 2019,
-   "distance": 1.558,
+   "distance": 1.49,
    "survived": 1,
    "fut_ability_v2": 55.8,
    "player_name": "Brais Méndez",
    "squad": "Celta Vigo"
   },
   {
-   "fbref_id": "b2bd0f6c",
-   "season": 2019,
-   "distance": 1.717,
-   "survived": 1,
-   "fut_ability_v2": 61.0,
-   "player_name": "Jonathan Bamba",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "8c3c640c",
-   "season": 2020,
-   "distance": 1.801,
-   "survived": 1,
-   "fut_ability_v2": 62.6,
-   "player_name": "Mikel Oyarzabal",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "dc4cae05",
-   "season": 2019,
-   "distance": 1.823,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "David Brooks",
-   "squad": "Bournemouth"
-  },
-  {
    "fbref_id": "6e7f1353",
    "season": 2018,
-   "distance": 1.831,
+   "distance": 1.714,
    "survived": 1,
    "fut_ability_v2": 48.8,
    "player_name": "Morgan Sanson",
    "squad": "Marseille"
   },
   {
+   "fbref_id": "b2bd0f6c",
+   "season": 2019,
+   "distance": 1.744,
+   "survived": 1,
+   "fut_ability_v2": 61.0,
+   "player_name": "Jonathan Bamba",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "dc4cae05",
+   "season": 2019,
+   "distance": 1.758,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Brooks",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "8c3c640c",
+   "season": 2020,
+   "distance": 1.86,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Mikel Oyarzabal",
+   "squad": "Real Sociedad"
+  },
+  {
    "fbref_id": "8c3c640c",
    "season": 2019,
-   "distance": 1.944,
+   "distance": 1.986,
    "survived": 1,
    "fut_ability_v2": 63.5,
    "player_name": "Mikel Oyarzabal",
    "squad": "Real Sociedad"
   },
   {
+   "fbref_id": "fed17f5a",
+   "season": 2019,
+   "distance": 2.06,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Carlos Soler",
+   "squad": "Valencia"
+  },
+  {
    "fbref_id": "19709006",
    "season": 2019,
-   "distance": 2.059,
+   "distance": 2.079,
    "survived": 1,
    "fut_ability_v2": 51.8,
    "player_name": "Óscar Rodríguez Arnaiz",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "fa661778",
    "season": 2018,
-   "distance": 2.063,
+   "distance": 2.155,
    "survived": 1,
    "fut_ability_v2": 54.0,
    "player_name": "Marius Wolf",
    "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "fed17f5a",
-   "season": 2019,
-   "distance": 2.081,
-   "survived": 1,
-   "fut_ability_v2": 55.7,
-   "player_name": "Carlos Soler",
-   "squad": "Valencia"
-  },
-  {
-   "fbref_id": "19709006",
-   "season": 2020,
-   "distance": 2.106,
-   "survived": 1,
-   "fut_ability_v2": 52.8,
-   "player_name": "Óscar Rodríguez Arnaiz",
-   "squad": "Leganés"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Paul Nebel(MF)의 현재 능력 점수는 62.0점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 블록, 무페널티 득점, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 볼 손실(미스+파울)이다.",
-  "potential": "Paul Nebel의 2~3년 후 예측 중심값은 60.3점, 80% 구간 상단은 71.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Paul Nebel의 2~3년 후 예측 중심값은 59.7점, 80% 구간 상단은 70.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

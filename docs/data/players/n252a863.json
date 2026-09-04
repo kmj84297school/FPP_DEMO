@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7212,
-  "mu": 58.7,
+  "survival_prob": 0.6262,
+  "mu": 55.8,
   "ci80": {
-   "lo": 47.8,
-   "hi": 69.6
+   "lo": 45.2,
+   "hi": 66.5
   },
   "ci50": {
-   "lo": 52.9,
-   "hi": 64.4
+   "lo": 50.3,
+   "hi": 61.4
   },
-  "sigma_model": 2.8,
+  "sigma_model": 2.3,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "acf7e795",
+   "season": 2022,
+   "distance": 1.728,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zima",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "217875a4",
+   "season": 2021,
+   "distance": 1.822,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Sebastian Walukiewicz",
+   "squad": "Cagliari"
+  },
+  {
    "fbref_id": "88f130ed",
    "season": 2019,
-   "distance": 1.96,
+   "distance": 1.921,
    "survived": 1,
    "fut_ability_v2": 64.4,
    "player_name": "Jean-Clair Todibo",
    "squad": "Toulouse / Barcelona"
   },
   {
+   "fbref_id": "1a066e69",
+   "season": 2022,
+   "distance": 1.984,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Maxime Estève",
+   "squad": "Montpellier"
+  },
+  {
    "fbref_id": "677da306",
    "season": 2018,
-   "distance": 2.034,
+   "distance": 2.033,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Ohis Felix Uduokhai",
@@ -67,74 +94,47 @@
   {
    "fbref_id": "75b86fb3",
    "season": 2019,
-   "distance": 2.037,
+   "distance": 2.058,
    "survived": 1,
    "fut_ability_v2": 61.5,
    "player_name": "Alessandro Bastoni",
    "squad": "Parma"
   },
   {
+   "fbref_id": "2d61d13a",
+   "season": 2021,
+   "distance": 2.138,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Ozan Kabak",
+   "squad": "Schalke 04 / Liverpool"
+  },
+  {
    "fbref_id": "8f325097",
    "season": 2019,
-   "distance": 2.22,
+   "distance": 2.167,
    "survived": 1,
    "fut_ability_v2": 44.9,
    "player_name": "Nicolas Cozza",
    "squad": "Montpellier"
   },
   {
-   "fbref_id": "b871bf55",
-   "season": 2019,
-   "distance": 2.454,
+   "fbref_id": "5fa57166",
+   "season": 2021,
+   "distance": 2.184,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Matteo Lovato",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "f6b94e8d",
+   "season": 2021,
+   "distance": 2.257,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Nicholas Opoku",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "1bfb6fef",
-   "season": 2020,
-   "distance": 2.454,
-   "survived": 1,
-   "fut_ability_v2": 56.4,
-   "player_name": "Bafodé Diakité",
-   "squad": "Toulouse"
-  },
-  {
-   "fbref_id": "610aa1e9",
-   "season": 2020,
-   "distance": 2.552,
-   "survived": 1,
-   "fut_ability_v2": 55.1,
-   "player_name": "Luca Kilian",
-   "squad": "Paderborn 07"
-  },
-  {
-   "fbref_id": "0b33f6ad",
-   "season": 2020,
-   "distance": 2.623,
-   "survived": 1,
-   "fut_ability_v2": 65.6,
-   "player_name": "Mohammed Salisu",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "9f979eb2",
-   "season": 2018,
-   "distance": 2.666,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Jorge Meré",
-   "squad": "Köln"
-  },
-  {
-   "fbref_id": "1c7012b8",
-   "season": 2018,
-   "distance": 2.711,
-   "survived": 1,
-   "fut_ability_v2": 59.9,
-   "player_name": "Declan Rice",
-   "squad": "West Ham"
+   "player_name": "Saidou Sow",
+   "squad": "Saint-Étienne"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Willy Kambwala(DF)의 현재 능력 점수는 45.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 공중볼 승률, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스이다.",
-  "potential": "Willy Kambwala의 2~3년 후 예측 중심값은 58.7점, 80% 구간 상단은 69.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 72.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Willy Kambwala의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 66.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 62.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

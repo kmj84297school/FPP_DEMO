@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8338,
-  "mu": 49.2,
+  "survival_prob": 0.8742,
+  "mu": 49.8,
   "ci80": {
-   "lo": 39.5,
-   "hi": 58.7
+   "lo": 40.1,
+   "hi": 59.7
   },
   "ci50": {
-   "lo": 44.2,
-   "hi": 54.2
+   "lo": 44.7,
+   "hi": 55.1
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 2.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "bb5fbd2b",
    "season": 2019,
-   "distance": 2.106,
+   "distance": 1.988,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Solly March",
    "squad": "Brighton"
   },
   {
+   "fbref_id": "979b811d",
+   "season": 2021,
+   "distance": 2.32,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ivan Cavaleiro",
+   "squad": "Fulham"
+  },
+  {
    "fbref_id": "ffa90327",
    "season": 2020,
-   "distance": 2.755,
+   "distance": 2.734,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Anwar El Ghazi",
    "squad": "Aston Villa"
   },
   {
+   "fbref_id": "79ca3e23",
+   "season": 2021,
+   "distance": 2.877,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Ondrej Duda",
+   "squad": "Köln"
+  },
+  {
    "fbref_id": "b28bbd58",
    "season": 2018,
-   "distance": 2.904,
+   "distance": 2.911,
    "survived": 1,
    "fut_ability_v2": 47.1,
    "player_name": "Andros Townsend",
@@ -76,7 +94,7 @@
   {
    "fbref_id": "a53b661f",
    "season": 2020,
-   "distance": 3.009,
+   "distance": 3.004,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Ihlas Bebou",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "7cdda3bf",
    "season": 2019,
-   "distance": 3.15,
+   "distance": 3.16,
    "survived": 1,
    "fut_ability_v2": 66.6,
    "player_name": "Gaëtan Laborde",
    "squad": "Montpellier / Bordeaux"
   },
   {
+   "fbref_id": "e6bc67d7",
+   "season": 2022,
+   "distance": 3.229,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Gonçalo Guedes",
+   "squad": "Valencia"
+  },
+  {
    "fbref_id": "b28bbd58",
    "season": 2019,
-   "distance": 3.233,
+   "distance": 3.245,
    "survived": 1,
    "fut_ability_v2": 50.2,
    "player_name": "Andros Townsend",
    "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "43458538",
-   "season": 2019,
-   "distance": 3.284,
-   "survived": 1,
-   "fut_ability_v2": 50.2,
-   "player_name": "Joshua King",
-   "squad": "Bournemouth"
-  },
-  {
    "fbref_id": "acdad0aa",
    "season": 2018,
-   "distance": 3.318,
+   "distance": 3.277,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marcello Trotta",
    "squad": "Crotone"
-  },
-  {
-   "fbref_id": "43458538",
-   "season": 2018,
-   "distance": 3.322,
-   "survived": 1,
-   "fut_ability_v2": 54.0,
-   "player_name": "Joshua King",
-   "squad": "Bournemouth"
-  },
-  {
-   "fbref_id": "2677a1de",
-   "season": 2018,
-   "distance": 3.339,
-   "survived": 1,
-   "fut_ability_v2": 51.8,
-   "player_name": "Wahbi Khazri",
-   "squad": "Rennes"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Carlos Vicente(FW)의 현재 능력 점수는 46.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 전진 패스 거리, 키패스, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 슈팅 시도이다.",
-  "potential": "Carlos Vicente의 2~3년 후 예측 중심값은 49.2점, 80% 구간 상단은 58.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 83.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Carlos Vicente의 2~3년 후 예측 중심값은 49.8점, 80% 구간 상단은 59.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 87.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,64 +32,100 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4518,
-  "mu": 44.5,
+  "survival_prob": 0.5644,
+  "mu": 45.1,
   "ci80": {
-   "lo": 35.0,
-   "hi": 53.9
+   "lo": 35.7,
+   "hi": 54.4
   },
   "ci50": {
-   "lo": 39.5,
-   "hi": 49.4
+   "lo": 40.1,
+   "hi": 50.1
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "19ba6c6d",
+   "season": 2021,
+   "distance": 1.956,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Steve Mounié",
+   "squad": "Brest"
+  },
+  {
    "fbref_id": "ab070c55",
    "season": 2018,
-   "distance": 2.062,
+   "distance": 2.074,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Christian Benteke",
    "squad": "Crystal Palace"
   },
   {
+   "fbref_id": "ab070c55",
+   "season": 2021,
+   "distance": 2.125,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "8f898ba8",
    "season": 2019,
-   "distance": 2.253,
+   "distance": 2.209,
    "survived": 1,
    "fut_ability_v2": 36.2,
    "player_name": "Guido Carrillo",
    "squad": "Leganés"
   },
   {
+   "fbref_id": "0cadc46d",
+   "season": 2022,
+   "distance": 2.269,
+   "survived": 1,
+   "fut_ability_v2": 42.9,
+   "player_name": "Vedat Muriqi",
+   "squad": "Mallorca / Lazio"
+  },
+  {
    "fbref_id": "ba115a40",
    "season": 2020,
-   "distance": 2.298,
+   "distance": 2.277,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sébastien Haller",
    "squad": "West Ham"
   },
   {
+   "fbref_id": "8f898ba8",
+   "season": 2020,
+   "distance": 2.333,
+   "survived": 1,
+   "fut_ability_v2": 30.8,
+   "player_name": "Guido Carrillo",
+   "squad": "Leganés"
+  },
+  {
    "fbref_id": "df85d472",
    "season": 2019,
-   "distance": 2.373,
+   "distance": 2.395,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Federico Santander",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "8f898ba8",
-   "season": 2020,
-   "distance": 2.384,
+   "fbref_id": "6265208f",
+   "season": 2018,
+   "distance": 2.396,
    "survived": 1,
-   "fut_ability_v2": 30.8,
-   "player_name": "Guido Carrillo",
-   "squad": "Leganés"
+   "fut_ability_v2": 50.6,
+   "player_name": "Joselu",
+   "squad": "Newcastle Utd"
   },
   {
    "fbref_id": "d520120b",
@@ -99,42 +135,6 @@
    "fut_ability_v2": 46.5,
    "player_name": "Júlio Tavares",
    "squad": "Dijon"
-  },
-  {
-   "fbref_id": "80dbbd10",
-   "season": 2018,
-   "distance": 2.424,
-   "survived": 1,
-   "fut_ability_v2": 34.3,
-   "player_name": "Simeon Nwankwo",
-   "squad": "Crotone"
-  },
-  {
-   "fbref_id": "6265208f",
-   "season": 2018,
-   "distance": 2.453,
-   "survived": 1,
-   "fut_ability_v2": 50.6,
-   "player_name": "Joselu",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "8f3565b3",
-   "season": 2018,
-   "distance": 2.456,
-   "survived": 1,
-   "fut_ability_v2": 43.1,
-   "player_name": "Ante Budimir",
-   "squad": "Crotone"
-  },
-  {
-   "fbref_id": "e5f63987",
-   "season": 2019,
-   "distance": 2.532,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Daniel Ginczek",
-   "squad": "Wolfsburg"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Phillip Tietz(FW)의 현재 능력 점수는 50.7점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승률, 공중볼 승리, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
-  "potential": "Phillip Tietz의 2~3년 후 예측 중심값은 44.5점, 80% 구간 상단은 53.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Phillip Tietz의 2~3년 후 예측 중심값은 45.1점, 80% 구간 상단은 54.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 56.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

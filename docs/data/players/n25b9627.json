@@ -32,60 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8035,
-  "mu": 53.2,
+  "survival_prob": 0.7408,
+  "mu": 53.6,
   "ci80": {
-   "lo": 42.6,
-   "hi": 63.7
+   "lo": 43.3,
+   "hi": 63.9
   },
   "ci50": {
-   "lo": 47.6,
-   "hi": 58.7
+   "lo": 48.1,
+   "hi": 59.1
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "ed9f7cfe",
    "season": 2020,
-   "distance": 1.93,
+   "distance": 1.95,
    "survived": 1,
    "fut_ability_v2": 54.6,
    "player_name": "Renan Lodi",
    "squad": "Atlético Madrid"
   },
   {
-   "fbref_id": "442b56fa",
-   "season": 2020,
-   "distance": 2.034,
+   "fbref_id": "054849d2",
+   "season": 2021,
+   "distance": 1.992,
    "survived": 1,
-   "fut_ability_v2": 61.1,
-   "player_name": "Ridle Baku",
-   "squad": "Mainz 05"
+   "fut_ability_v2": 57.6,
+   "player_name": "Iago",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "112521d1",
+   "season": 2022,
+   "distance": 2.091,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedrosa",
+   "squad": "Espanyol"
   },
   {
    "fbref_id": "d97f2e8d",
    "season": 2019,
-   "distance": 2.072,
+   "distance": 2.111,
    "survived": 1,
    "fut_ability_v2": 44.8,
    "player_name": "Fabio Depaoli",
    "squad": "Chievo"
   },
   {
+   "fbref_id": "442b56fa",
+   "season": 2020,
+   "distance": 2.13,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Ridle Baku",
+   "squad": "Mainz 05"
+  },
+  {
    "fbref_id": "31a62dc7",
    "season": 2019,
-   "distance": 2.13,
+   "distance": 2.183,
    "survived": 1,
    "fut_ability_v2": 65.9,
    "player_name": "Zeki Çelik",
    "squad": "Lille"
   },
   {
+   "fbref_id": "009a4f60",
+   "season": 2022,
+   "distance": 2.235,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Julian Ryerson",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "2389cdc2",
+   "season": 2022,
+   "distance": 2.244,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Matty Cash",
+   "squad": "Aston Villa"
+  },
+  {
    "fbref_id": "b7a5bc86",
    "season": 2018,
-   "distance": 2.16,
+   "distance": 2.278,
    "survived": 1,
    "fut_ability_v2": 49.5,
    "player_name": "Mohamed Fares",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "6dfd8f05",
    "season": 2020,
-   "distance": 2.246,
+   "distance": 2.301,
    "survived": 1,
    "fut_ability_v2": 44.9,
    "player_name": "Romain Perraud",
    "squad": "Brest"
-  },
-  {
-   "fbref_id": "b7a5bc86",
-   "season": 2019,
-   "distance": 2.404,
-   "survived": 1,
-   "fut_ability_v2": 49.5,
-   "player_name": "Mohamed Fares",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "b66d1d8a",
-   "season": 2020,
-   "distance": 2.472,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Florian Miguel",
-   "squad": "Nîmes"
-  },
-  {
-   "fbref_id": "62ab9184",
-   "season": 2018,
-   "distance": 2.553,
-   "survived": 1,
-   "fut_ability_v2": 52.1,
-   "player_name": "Yannick Gerhardt",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "fba81826",
-   "season": 2018,
-   "distance": 2.589,
-   "survived": 1,
-   "fut_ability_v2": 52.3,
-   "player_name": "Federico Mattiello",
-   "squad": "SPAL"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Carlos Romero(DF)의 현재 능력 점수는 54.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 슈팅 시도, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 패스 성공률이다.",
-  "potential": "Carlos Romero의 2~3년 후 예측 중심값은 53.2점, 80% 구간 상단은 63.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 80.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Carlos Romero의 2~3년 후 예측 중심값은 53.6점, 80% 구간 상단은 63.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 74.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

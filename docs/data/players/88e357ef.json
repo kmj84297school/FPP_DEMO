@@ -32,33 +32,51 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.8428,
-  "mu": 67.7,
+  "survival_prob": 0.8148,
+  "mu": 78.0,
   "ci80": {
-   "lo": 57.8,
-   "hi": 77.7
+   "lo": 68.6,
+   "hi": 87.5
   },
   "ci50": {
-   "lo": 62.5,
-   "hi": 73.0
+   "lo": 73.0,
+   "hi": 83.0
   },
-  "sigma_model": 3.4,
-  "sigma_residual": 7.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "892d5bb1",
+   "season": 2022,
+   "distance": 2.447,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Riyad Mahrez",
+   "squad": "Manchester City"
+  },
+  {
    "fbref_id": "a58bb1e1",
    "season": 2018,
-   "distance": 2.495,
+   "distance": 2.524,
    "survived": 1,
    "fut_ability_v2": 71.3,
    "player_name": "Gareth Bale",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "9744ff80",
+   "season": 2021,
+   "distance": 2.598,
+   "survived": 1,
+   "fut_ability_v2": 69.6,
+   "player_name": "Pablo Sarabia",
+   "squad": "Paris S-G"
+  },
+  {
    "fbref_id": "892d5bb1",
    "season": 2019,
-   "distance": 2.708,
+   "distance": 2.822,
    "survived": 1,
    "fut_ability_v2": 82.0,
    "player_name": "Riyad Mahrez",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "849c826a",
    "season": 2018,
-   "distance": 2.967,
+   "distance": 3.071,
    "survived": 1,
    "fut_ability_v2": 61.8,
    "player_name": "Andriy Yarmolenko",
@@ -76,7 +94,7 @@
   {
    "fbref_id": "4d034881",
    "season": 2018,
-   "distance": 3.19,
+   "distance": 3.229,
    "survived": 1,
    "fut_ability_v2": 75.2,
    "player_name": "Sergio Agüero",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "7dcf86f6",
    "season": 2018,
-   "distance": 3.203,
+   "distance": 3.257,
    "survived": 1,
    "fut_ability_v2": 68.5,
    "player_name": "Iago Aspas",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "603cb947",
    "season": 2020,
-   "distance": 3.325,
+   "distance": 3.323,
    "survived": 1,
    "fut_ability_v2": 72.0,
    "player_name": "Andrej Kramarić",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "89b2c8a9",
-   "season": 2019,
-   "distance": 3.445,
+   "fbref_id": "5ceba7fc",
+   "season": 2021,
+   "distance": 3.394,
    "survived": 1,
-   "fut_ability_v2": 73.5,
-   "player_name": "Dries Mertens",
-   "squad": "Napoli"
+   "fut_ability_v2": 69.9,
+   "player_name": "Karl Toko Ekambi",
+   "squad": "Lyon"
   },
   {
-   "fbref_id": "c691bfe2",
-   "season": 2020,
-   "distance": 3.513,
-   "survived": 1,
-   "fut_ability_v2": 76.2,
-   "player_name": "Sadio Mané",
-   "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "7dcf86f6",
-   "season": 2019,
-   "distance": 3.52,
-   "survived": 1,
-   "fut_ability_v2": 74.6,
-   "player_name": "Iago Aspas",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "70d74ece",
-   "season": 2018,
-   "distance": 3.677,
-   "survived": 1,
-   "fut_ability_v2": 81.8,
-   "player_name": "Karim Benzema",
-   "squad": "Real Madrid"
+   "fbref_id": "2c0f8e9e",
+   "season": 2021,
+   "distance": 3.418,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexis Sánchez",
+   "squad": "Inter"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Serge Gnabry(FW)의 현재 능력 점수는 87.7점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 골 창출(GCA), 도움 기대값(xAG), 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 최종 3분의1 패스이다.",
-  "potential": "Serge Gnabry의 2~3년 후 예측 중심값은 67.7점, 80% 구간 상단은 77.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.3%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Serge Gnabry의 2~3년 후 예측 중심값은 78.0점, 80% 구간 상단은 87.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 81.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

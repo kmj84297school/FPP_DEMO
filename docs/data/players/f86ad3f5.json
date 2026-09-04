@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6776,
-  "mu": 63.3,
+  "survival_prob": 0.6772,
+  "mu": 59.6,
   "ci80": {
-   "lo": 54.0,
-   "hi": 72.7
+   "lo": 50.3,
+   "hi": 68.9
   },
   "ci50": {
-   "lo": 58.4,
-   "hi": 68.3
+   "lo": 54.7,
+   "hi": 64.5
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "21166ff4",
+   "season": 2022,
+   "distance": 1.49,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Çağlar Söyüncü",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "8b95acda",
+   "season": 2022,
+   "distance": 1.506,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Omar Colley",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "f1f1f238",
+   "season": 2022,
+   "distance": 1.624,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Koray Günter",
+   "squad": "Hellas Verona"
+  },
+  {
    "fbref_id": "3befc2b6",
    "season": 2020,
-   "distance": 1.637,
+   "distance": 1.705,
    "survived": 1,
    "fut_ability_v2": 61.2,
    "player_name": "Andrei Girotto",
    "squad": "Nantes"
   },
   {
-   "fbref_id": "87935cf3",
-   "season": 2019,
-   "distance": 1.706,
+   "fbref_id": "bba30585",
+   "season": 2022,
+   "distance": 1.723,
    "survived": 1,
-   "fut_ability_v2": 64.5,
-   "player_name": "Mamadou Sakho",
-   "squad": "Crystal Palace"
+   "fut_ability_v2": 57.0,
+   "player_name": "Diego Llorente",
+   "squad": "Leeds United"
   },
   {
    "fbref_id": "f2c1300a",
    "season": 2019,
-   "distance": 1.712,
+   "distance": 1.789,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Vitor Hugo",
@@ -76,65 +103,38 @@
   {
    "fbref_id": "efd623db",
    "season": 2020,
-   "distance": 1.76,
+   "distance": 1.79,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sebastian Schonlau",
    "squad": "Paderborn 07"
   },
   {
-   "fbref_id": "921f6058",
-   "season": 2018,
-   "distance": 1.896,
+   "fbref_id": "3ecc11d8",
+   "season": 2022,
+   "distance": 1.804,
    "survived": 1,
-   "fut_ability_v2": 68.3,
-   "player_name": "José Luis Palomino",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "8ae9869d",
-   "season": 2019,
-   "distance": 1.917,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Christopher Schindler",
-   "squad": "Huddersfield"
+   "fut_ability_v2": 58.0,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
   },
   {
    "fbref_id": "f1f1f238",
-   "season": 2020,
-   "distance": 1.95,
-   "survived": 1,
-   "fut_ability_v2": 62.0,
+   "season": 2021,
+   "distance": 1.809,
+   "survived": 0,
+   "fut_ability_v2": null,
    "player_name": "Koray Günter",
    "squad": "Hellas Verona"
   },
   {
-   "fbref_id": "616aea37",
+   "fbref_id": "87935cf3",
    "season": 2019,
-   "distance": 1.954,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marco Capuano",
-   "squad": "Frosinone"
-  },
-  {
-   "fbref_id": "e33f36d5",
-   "season": 2018,
-   "distance": 2.022,
+   "distance": 1.825,
    "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "Bram Nuytinck",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "b7ca5c51",
-   "season": 2018,
-   "distance": 2.034,
-   "survived": 1,
-   "fut_ability_v2": 53.2,
-   "player_name": "Gabriel Paulista",
-   "squad": "Valencia"
+   "fut_ability_v2": 64.5,
+   "player_name": "Mamadou Sakho",
+   "squad": "Crystal Palace"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Marco Friedl(DF)의 현재 능력 점수는 65.7점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 태클+인터셉트, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
-  "potential": "Marco Friedl의 2~3년 후 예측 중심값은 63.3점, 80% 구간 상단은 72.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 67.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marco Friedl의 2~3년 후 예측 중심값은 59.6점, 80% 구간 상단은 68.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 67.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

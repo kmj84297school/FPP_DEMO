@@ -32,51 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5217,
-  "mu": 48.7,
+  "survival_prob": 0.4675,
+  "mu": 46.8,
   "ci80": {
-   "lo": 39.3,
-   "hi": 58.0
+   "lo": 37.5,
+   "hi": 56.2
   },
   "ci50": {
-   "lo": 43.7,
-   "hi": 53.6
+   "lo": 41.9,
+   "hi": 51.8
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "79135368",
-   "season": 2019,
-   "distance": 2.38,
+   "fbref_id": "106bca06",
+   "season": 2022,
+   "distance": 1.993,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Fayçal Fajr",
-   "squad": "Caen"
+   "player_name": "Alessandro Schöpf",
+   "squad": "Arminia"
   },
   {
-   "fbref_id": "c801616a",
-   "season": 2018,
-   "distance": 2.403,
+   "fbref_id": "5c96b017",
+   "season": 2022,
+   "distance": 2.141,
    "survived": 1,
-   "fut_ability_v2": 57.8,
-   "player_name": "Thomas Mangani",
-   "squad": "Angers"
+   "fut_ability_v2": 56.6,
+   "player_name": "Rubén García",
+   "squad": "Osasuna"
   },
   {
    "fbref_id": "76dd1480",
    "season": 2020,
-   "distance": 2.403,
+   "distance": 2.332,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gylfi Sigurðsson",
    "squad": "Everton"
   },
   {
+   "fbref_id": "79135368",
+   "season": 2019,
+   "distance": 2.398,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fayçal Fajr",
+   "squad": "Caen"
+  },
+  {
    "fbref_id": "a25250f8",
    "season": 2018,
-   "distance": 2.422,
+   "distance": 2.416,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Álex Granell",
@@ -85,16 +94,25 @@
   {
    "fbref_id": "80f36c88",
    "season": 2020,
-   "distance": 2.484,
+   "distance": 2.417,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sebastian Rudy",
    "squad": "Hoffenheim"
   },
   {
+   "fbref_id": "c801616a",
+   "season": 2018,
+   "distance": 2.428,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
    "fbref_id": "47b7e3af",
    "season": 2019,
-   "distance": 2.55,
+   "distance": 2.47,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aaron Mooy",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "495945ef",
    "season": 2020,
-   "distance": 2.551,
+   "distance": 2.532,
    "survived": 1,
    "fut_ability_v2": 45.3,
    "player_name": "Ashley Westwood",
    "squad": "Burnley"
   },
   {
-   "fbref_id": "3eb0f2df",
-   "season": 2020,
-   "distance": 2.57,
-   "survived": 1,
-   "fut_ability_v2": 47.8,
-   "player_name": "Vladimír Darida",
-   "squad": "Hertha BSC"
-  },
-  {
    "fbref_id": "79135368",
    "season": 2018,
-   "distance": 2.605,
+   "distance": 2.545,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fayçal Fajr",
    "squad": "Getafe"
-  },
-  {
-   "fbref_id": "418f8f61",
-   "season": 2019,
-   "distance": 2.631,
-   "survived": 1,
-   "fut_ability_v2": 46.8,
-   "player_name": "Míchel",
-   "squad": "Valladolid"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Luis Milla(MF)의 현재 능력 점수는 50.2점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 슈팅 창출(SCA), 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 전진 패스 수신이다.",
-  "potential": "Luis Milla의 2~3년 후 예측 중심값은 48.7점, 80% 구간 상단은 58.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 52.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Luis Milla의 2~3년 후 예측 중심값은 46.8점, 80% 구간 상단은 56.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 46.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8752,
-  "mu": 66.9,
+  "survival_prob": 0.875,
+  "mu": 71.2,
   "ci80": {
-   "lo": 55.7,
-   "hi": 78.0
+   "lo": 60.2,
+   "hi": 82.0
   },
   "ci50": {
-   "lo": 61.0,
-   "hi": 72.8
+   "lo": 65.4,
+   "hi": 76.8
   },
-  "sigma_model": 3.4,
+  "sigma_model": 3.0,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "1bf33a9a",
    "season": 2018,
-   "distance": 2.945,
+   "distance": 2.867,
    "survived": 1,
    "fut_ability_v2": 73.6,
    "player_name": "Christian Pulisic",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "2b16cb1a",
    "season": 2018,
-   "distance": 3.152,
+   "distance": 3.147,
    "survived": 1,
    "fut_ability_v2": 55.8,
    "player_name": "Allan Saint-Maximin",
@@ -67,16 +67,25 @@
   {
    "fbref_id": "7111d552",
    "season": 2020,
-   "distance": 3.395,
+   "distance": 3.348,
    "survived": 1,
    "fut_ability_v2": 84.4,
    "player_name": "Vinicius Júnior",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "7111d552",
+   "season": 2021,
+   "distance": 3.384,
+   "survived": 1,
+   "fut_ability_v2": 78.8,
+   "player_name": "Vinicius Júnior",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "20730eae",
    "season": 2020,
-   "distance": 3.857,
+   "distance": 3.742,
    "survived": 1,
    "fut_ability_v2": 73.5,
    "player_name": "Rafael Leão",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "7ba2eaa9",
    "season": 2020,
-   "distance": 3.887,
+   "distance": 3.786,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pedro Neto",
@@ -94,7 +103,7 @@
   {
    "fbref_id": "706a60e1",
    "season": 2019,
-   "distance": 4.013,
+   "distance": 3.898,
    "survived": 1,
    "fut_ability_v2": 57.3,
    "player_name": "Myziane Maolida",
@@ -103,7 +112,7 @@
   {
    "fbref_id": "b0f7e36c",
    "season": 2019,
-   "distance": 4.19,
+   "distance": 4.179,
    "survived": 1,
    "fut_ability_v2": 72.7,
    "player_name": "Federico Chiesa",
@@ -112,7 +121,7 @@
   {
    "fbref_id": "1bf33a9a",
    "season": 2020,
-   "distance": 4.39,
+   "distance": 4.332,
    "survived": 1,
    "fut_ability_v2": 50.4,
    "player_name": "Christian Pulisic",
@@ -121,20 +130,11 @@
   {
    "fbref_id": "8f5e92a6",
    "season": 2020,
-   "distance": 4.42,
+   "distance": 4.365,
    "survived": 1,
    "fut_ability_v2": 71.4,
    "player_name": "Rodrygo",
    "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "3a233281",
-   "season": 2019,
-   "distance": 4.444,
-   "survived": 1,
-   "fut_ability_v2": 75.9,
-   "player_name": "Leon Bailey",
-   "squad": "Leverkusen"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jamie Gittens(FW)의 현재 능력 점수는 65.4점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 성공 드리블, 태클 성공률, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Jamie Gittens의 2~3년 후 예측 중심값은 66.9점, 80% 구간 상단은 78.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jamie Gittens의 2~3년 후 예측 중심값은 71.2점, 80% 구간 상단은 82.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

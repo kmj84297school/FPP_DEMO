@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8425,
-  "mu": 53.6,
+  "survival_prob": 0.8005,
+  "mu": 52.8,
   "ci80": {
-   "lo": 44.5,
-   "hi": 62.8
+   "lo": 43.6,
+   "hi": 62.2
   },
   "ci50": {
-   "lo": 48.8,
-   "hi": 58.4
+   "lo": 48.0,
+   "hi": 57.8
   },
   "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "02b29014",
    "season": 2020,
-   "distance": 1.879,
+   "distance": 1.869,
    "survived": 1,
    "fut_ability_v2": 55.4,
    "player_name": "Abdoulaye Doucouré",
    "squad": "Watford"
   },
   {
+   "fbref_id": "01efac19",
+   "season": 2021,
+   "distance": 1.99,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonín Barák",
+   "squad": "Hellas Verona"
+  },
+  {
    "fbref_id": "02b29014",
    "season": 2019,
-   "distance": 2.256,
+   "distance": 2.181,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Abdoulaye Doucouré",
    "squad": "Watford"
   },
   {
+   "fbref_id": "5313ed43",
+   "season": 2021,
+   "distance": 2.399,
+   "survived": 1,
+   "fut_ability_v2": 66.0,
+   "player_name": "Seko Fofana",
+   "squad": "Lens"
+  },
+  {
    "fbref_id": "144607cc",
    "season": 2019,
-   "distance": 2.402,
+   "distance": 2.449,
    "survived": 1,
    "fut_ability_v2": 54.2,
    "player_name": "Jasmin Kurtić",
@@ -76,16 +94,25 @@
   {
    "fbref_id": "d557d734",
    "season": 2020,
-   "distance": 2.501,
+   "distance": 2.506,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Matt Doherty",
    "squad": "Wolves"
   },
   {
+   "fbref_id": "02c15616",
+   "season": 2021,
+   "distance": 2.519,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Marcos Llorente",
+   "squad": "Atlético Madrid"
+  },
+  {
    "fbref_id": "f24ea523",
    "season": 2019,
-   "distance": 2.532,
+   "distance": 2.541,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Genki Haraguchi",
@@ -94,7 +121,7 @@
   {
    "fbref_id": "0df2b165",
    "season": 2020,
-   "distance": 2.576,
+   "distance": 2.542,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "John Lundstram",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "3312f911",
    "season": 2019,
-   "distance": 2.741,
+   "distance": 2.695,
    "survived": 1,
    "fut_ability_v2": 50.5,
    "player_name": "Jeffrey Schlupp",
    "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "6c679c6d",
-   "season": 2018,
-   "distance": 2.773,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Anthony Knockaert",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "467bae22",
-   "season": 2019,
-   "distance": 2.887,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Franco Vázquez",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "f5044e54",
-   "season": 2020,
-   "distance": 2.907,
-   "survived": 1,
-   "fut_ability_v2": 47.6,
-   "player_name": "Pierre Lees-Melou",
-   "squad": "Nice"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Scott McTominay(MF)의 현재 능력 점수는 58.7점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 공중볼 승률, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 전진 패스 거리이다.",
-  "potential": "Scott McTominay의 2~3년 후 예측 중심값은 53.6점, 80% 구간 상단은 62.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Scott McTominay의 2~3년 후 예측 중심값은 52.8점, 80% 구간 상단은 62.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 80.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

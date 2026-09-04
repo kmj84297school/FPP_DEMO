@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9527,
-  "mu": 58.1,
+  "survival_prob": 0.9375,
+  "mu": 61.2,
   "ci80": {
-   "lo": 47.6,
-   "hi": 68.7
+   "lo": 50.8,
+   "hi": 71.6
   },
   "ci50": {
-   "lo": 52.5,
-   "hi": 63.7
+   "lo": 55.7,
+   "hi": 66.7
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.5,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "01834aa0",
    "season": 2020,
-   "distance": 1.735,
+   "distance": 1.726,
    "survived": 1,
    "fut_ability_v2": 60.2,
    "player_name": "Sebastiaan Bornauw",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "167d5018",
    "season": 2019,
-   "distance": 1.84,
+   "distance": 1.829,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Félix Eboa Eboa",
    "squad": "Guingamp"
   },
   {
+   "fbref_id": "441197b8",
+   "season": 2022,
+   "distance": 2.02,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Obite N'Dicka",
+   "squad": "Eint Frankfurt"
+  },
+  {
    "fbref_id": "bee704fc",
    "season": 2019,
-   "distance": 2.009,
+   "distance": 2.053,
    "survived": 1,
    "fut_ability_v2": 65.3,
    "player_name": "Nikola Milenković",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "aad48be9",
    "season": 2018,
-   "distance": 2.095,
+   "distance": 2.115,
    "survived": 1,
    "fut_ability_v2": 53.2,
    "player_name": "Niklas Stark",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "a712ca2b",
    "season": 2020,
-   "distance": 2.103,
+   "distance": 2.129,
    "survived": 1,
    "fut_ability_v2": 46.9,
    "player_name": "Issa Diop",
@@ -94,47 +103,38 @@
   {
    "fbref_id": "00242715",
    "season": 2019,
-   "distance": 2.111,
+   "distance": 2.138,
    "survived": 1,
    "fut_ability_v2": 56.9,
    "player_name": "Moussa Niakhate",
    "squad": "Mainz 05"
   },
   {
-   "fbref_id": "4f28a6ff",
-   "season": 2018,
-   "distance": 2.332,
+   "fbref_id": "49136c42",
+   "season": 2021,
+   "distance": 2.168,
    "survived": 1,
-   "fut_ability_v2": 66.2,
-   "player_name": "Clément Lenglet",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "4d1666ff",
-   "season": 2020,
-   "distance": 2.336,
-   "survived": 1,
-   "fut_ability_v2": 63.9,
-   "player_name": "Jules Koundé",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "eaeca114",
-   "season": 2018,
-   "distance": 2.34,
-   "survived": 1,
-   "fut_ability_v2": 53.2,
-   "player_name": "Nathan Aké",
-   "squad": "Bournemouth"
+   "fut_ability_v2": 48.9,
+   "player_name": "Andrew Gravillon",
+   "squad": "Lorient"
   },
   {
    "fbref_id": "a3d94a58",
    "season": 2019,
-   "distance": 2.352,
+   "distance": 2.229,
    "survived": 1,
    "fut_ability_v2": 67.7,
    "player_name": "Cristian Romero",
    "squad": "Genoa"
+  },
+  {
+   "fbref_id": "677da306",
+   "season": 2021,
+   "distance": 2.254,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Ohis Felix Uduokhai",
+   "squad": "Augsburg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Charlie Cresswell(DF)의 현재 능력 점수는 58.7점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승리, 유효슈팅, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 성공 드리블이다.",
-  "potential": "Charlie Cresswell의 2~3년 후 예측 중심값은 58.1점, 80% 구간 상단은 68.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Charlie Cresswell의 2~3년 후 예측 중심값은 61.2점, 80% 구간 상단은 71.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

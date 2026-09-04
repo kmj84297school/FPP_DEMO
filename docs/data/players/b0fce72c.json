@@ -32,60 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0622,
-  "mu": 51.2,
+  "survival_prob": 0.0851,
+  "mu": 50.2,
   "ci80": {
-   "lo": 42.0,
-   "hi": 60.6
+   "lo": 40.9,
+   "hi": 59.5
   },
   "ci50": {
-   "lo": 46.4,
-   "hi": 56.2
+   "lo": 45.3,
+   "hi": 55.1
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "c5fa58ea",
    "season": 2018,
-   "distance": 1.497,
+   "distance": 1.46,
    "survived": 1,
    "fut_ability_v2": 51.2,
    "player_name": "Pedro Mosquera",
    "squad": "La Coruña"
   },
   {
+   "fbref_id": "84d94b91",
+   "season": 2021,
+   "distance": 1.537,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thomas Monconduit",
+   "squad": "Lorient"
+  },
+  {
    "fbref_id": "ea164f99",
    "season": 2020,
-   "distance": 1.703,
+   "distance": 1.698,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Matteo Scozzarella",
    "squad": "Parma"
   },
   {
-   "fbref_id": "e8c930bb",
-   "season": 2020,
-   "distance": 1.77,
-   "survived": 1,
-   "fut_ability_v2": 55.5,
-   "player_name": "Milan Badelj",
-   "squad": "Fiorentina"
-  },
-  {
    "fbref_id": "ad340e17",
    "season": 2018,
-   "distance": 1.801,
+   "distance": 1.749,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alberto Aquilani",
    "squad": "Las Palmas"
   },
   {
+   "fbref_id": "cee31595",
+   "season": 2021,
+   "distance": 1.806,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "James McArthur",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "cee31595",
+   "season": 2022,
+   "distance": 1.814,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "James McArthur",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "e8c930bb",
+   "season": 2020,
+   "distance": 1.816,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Milan Badelj",
+   "squad": "Fiorentina"
+  },
+  {
    "fbref_id": "b746d309",
    "season": 2018,
-   "distance": 1.803,
+   "distance": 1.858,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Riccardo Montolivo",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "33b554b7",
    "season": 2020,
-   "distance": 1.916,
+   "distance": 1.95,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Danny Latza",
    "squad": "Mainz 05"
   },
   {
-   "fbref_id": "ab1ca213",
-   "season": 2018,
-   "distance": 1.958,
-   "survived": 1,
-   "fut_ability_v2": 60.5,
-   "player_name": "Miguel Veloso",
-   "squad": "Genoa"
-  },
-  {
-   "fbref_id": "542cc80f",
+   "fbref_id": "f4081572",
    "season": 2019,
-   "distance": 1.963,
-   "survived": 1,
-   "fut_ability_v2": 52.3,
-   "player_name": "Paul Lasne",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "7106f0a0",
-   "season": 2019,
-   "distance": 2.006,
+   "distance": 1.967,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Mario Suárez",
-   "squad": "Rayo Vallecano"
-  },
-  {
-   "fbref_id": "023937a9",
-   "season": 2020,
-   "distance": 2.046,
-   "survived": 1,
-   "fut_ability_v2": 55.5,
-   "player_name": "Ivan Radovanović",
-   "squad": "Genoa"
+   "player_name": "Nuri Şahin",
+   "squad": "Werder Bremen"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mikel Vesga(MF)의 현재 능력 점수는 56.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 클리어링, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 골 창출(GCA)이다.",
-  "potential": "Mikel Vesga의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 60.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 6.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mikel Vesga의 2~3년 후 예측 중심값은 50.2점, 80% 구간 상단은 59.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 8.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

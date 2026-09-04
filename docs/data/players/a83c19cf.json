@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3266,
-  "mu": 51.6,
+  "survival_prob": 0.5017,
+  "mu": 53.2,
   "ci80": {
-   "lo": 40.9,
-   "hi": 62.1
+   "lo": 42.8,
+   "hi": 63.6
   },
   "ci50": {
-   "lo": 46.0,
-   "hi": 57.1
+   "lo": 47.7,
+   "hi": 58.6
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "80556f08",
    "season": 2019,
-   "distance": 1.61,
+   "distance": 1.616,
    "survived": 1,
    "fut_ability_v2": 41.8,
    "player_name": "Toma Bašić",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "0557ff4f",
    "season": 2019,
-   "distance": 1.73,
+   "distance": 1.736,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Danilo Barbosa",
    "squad": "Nice"
   },
   {
+   "fbref_id": "53f6306f",
+   "season": 2021,
+   "distance": 1.875,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mehdi Zerkane",
+   "squad": "Bordeaux"
+  },
+  {
    "fbref_id": "96960855",
    "season": 2019,
-   "distance": 1.869,
+   "distance": 1.881,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Francesco Cassata",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "4830e0af",
    "season": 2020,
-   "distance": 1.907,
+   "distance": 1.987,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Abdelhamid Sabiri",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "c9e39d91",
    "season": 2020,
-   "distance": 1.945,
+   "distance": 2.018,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Brais Méndez",
@@ -94,7 +103,7 @@
   {
    "fbref_id": "384dd218",
    "season": 2018,
-   "distance": 1.995,
+   "distance": 2.032,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Godfred Donsah",
@@ -103,38 +112,29 @@
   {
    "fbref_id": "5148dcc5",
    "season": 2020,
-   "distance": 2.061,
+   "distance": 2.064,
    "survived": 1,
    "fut_ability_v2": 71.0,
    "player_name": "Martin Terrier",
    "squad": "Lyon"
   },
   {
+   "fbref_id": "f9d5908e",
+   "season": 2022,
+   "distance": 2.082,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Hicham Boudaoui",
+   "squad": "Nice"
+  },
+  {
    "fbref_id": "26db8853",
    "season": 2018,
-   "distance": 2.128,
+   "distance": 2.125,
    "survived": 1,
    "fut_ability_v2": 53.7,
    "player_name": "Walace",
    "squad": "Hamburger SV"
-  },
-  {
-   "fbref_id": "98be0d02",
-   "season": 2018,
-   "distance": 2.154,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ramadan Sobhi",
-   "squad": "Stoke City"
-  },
-  {
-   "fbref_id": "b3325a30",
-   "season": 2019,
-   "distance": 2.207,
-   "survived": 1,
-   "fut_ability_v2": 41.2,
-   "player_name": "Suat Serdar",
-   "squad": "Schalke 04"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Pablo Marín(MF)의 현재 능력 점수는 46.8점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 성공 드리블, 공중볼 승률, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 볼 손실(미스+파울)이다.",
-  "potential": "Pablo Marín의 2~3년 후 예측 중심값은 51.6점, 80% 구간 상단은 62.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 32.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pablo Marín의 2~3년 후 예측 중심값은 53.2점, 80% 구간 상단은 63.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 50.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

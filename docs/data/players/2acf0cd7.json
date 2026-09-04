@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5075,
-  "mu": 44.3,
+  "survival_prob": 0.5962,
+  "mu": 43.1,
   "ci80": {
-   "lo": 34.8,
-   "hi": 53.6
+   "lo": 33.7,
+   "hi": 52.5
   },
   "ci50": {
-   "lo": 39.2,
-   "hi": 49.2
+   "lo": 38.2,
+   "hi": 48.1
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f86ca403",
    "season": 2018,
-   "distance": 2.248,
+   "distance": 2.254,
    "survived": 1,
    "fut_ability_v2": 55.1,
    "player_name": "Vincent Pajot",
    "squad": "Saint-Étienne"
   },
   {
+   "fbref_id": "7c388b20",
+   "season": 2021,
+   "distance": 2.256,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "3312f911",
+   "season": 2022,
+   "distance": 2.414,
+   "survived": 1,
+   "fut_ability_v2": 38.5,
+   "player_name": "Jeffrey Schlupp",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "dfb6490a",
    "season": 2018,
-   "distance": 2.404,
+   "distance": 2.448,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Patrick Herrmann",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "7fec31a0",
    "season": 2020,
-   "distance": 2.529,
+   "distance": 2.52,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dan Gosling",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "44f8c299",
    "season": 2019,
-   "distance": 2.588,
+   "distance": 2.54,
    "survived": 1,
    "fut_ability_v2": 55.3,
    "player_name": "Lucas Deaux",
    "squad": "Guingamp"
   },
   {
+   "fbref_id": "c2009df3",
+   "season": 2021,
+   "distance": 2.599,
+   "survived": 1,
+   "fut_ability_v2": 69.9,
+   "player_name": "Jonas Hector",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "3f79a1c8",
+   "season": 2022,
+   "distance": 2.612,
+   "survived": 1,
+   "fut_ability_v2": 40.9,
+   "player_name": "Gonzalo Escalante",
+   "squad": "Alavés / Lazio"
+  },
+  {
    "fbref_id": "2334478a",
    "season": 2020,
-   "distance": 2.623,
+   "distance": 2.646,
    "survived": 1,
    "fut_ability_v2": 42.2,
    "player_name": "Stefano Sturaro",
    "squad": "Genoa"
   },
   {
-   "fbref_id": "482b70ad",
-   "season": 2018,
-   "distance": 2.805,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mike Frantz",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "7c388b20",
-   "season": 2020,
-   "distance": 2.884,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Óscar Plano",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "77b41ac0",
-   "season": 2019,
-   "distance": 3.046,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Hanno Behrens",
-   "squad": "Nürnberg"
-  },
-  {
-   "fbref_id": "e3fabb0a",
-   "season": 2020,
-   "distance": 3.071,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wu Lei",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "cd82452e",
-   "season": 2019,
-   "distance": 3.133,
+   "fbref_id": "f72293fc",
+   "season": 2022,
+   "distance": 2.737,
    "survived": 1,
-   "fut_ability_v2": 40.3,
-   "player_name": "André Hahn",
-   "squad": "Augsburg"
+   "fut_ability_v2": 54.9,
+   "player_name": "Jóhann Berg Guðmundsson",
+   "squad": "Burnley"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Marshall Munetsi(MF)의 현재 능력 점수는 45.2점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승리, 공중볼 승률, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 패스이다.",
-  "potential": "Marshall Munetsi의 2~3년 후 예측 중심값은 44.3점, 80% 구간 상단은 53.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 50.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marshall Munetsi의 2~3년 후 예측 중심값은 43.1점, 80% 구간 상단은 52.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

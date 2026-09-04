@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7292,
-  "mu": 63.9,
+  "survival_prob": 0.7921,
+  "mu": 65.5,
   "ci80": {
-   "lo": 54.3,
-   "hi": 73.3
+   "lo": 56.2,
+   "hi": 74.8
   },
   "ci50": {
-   "lo": 58.8,
-   "hi": 68.8
+   "lo": 60.6,
+   "hi": 70.4
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "56413b1f",
    "season": 2019,
-   "distance": 2.334,
+   "distance": 2.317,
    "survived": 1,
    "fut_ability_v2": 55.6,
    "player_name": "Charles Aránguiz",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "6ce1f46f",
    "season": 2019,
-   "distance": 2.613,
+   "distance": 2.647,
    "survived": 1,
    "fut_ability_v2": 71.2,
    "player_name": "Toni Kroos",
@@ -67,74 +67,74 @@
   {
    "fbref_id": "1467af0d",
    "season": 2020,
-   "distance": 2.773,
+   "distance": 2.755,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Marco Verratti",
    "squad": "Paris S-G"
   },
   {
+   "fbref_id": "33b8d077",
+   "season": 2021,
+   "distance": 2.812,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcelo Brozović",
+   "squad": "Inter"
+  },
+  {
+   "fbref_id": "f3600c02",
+   "season": 2021,
+   "distance": 2.83,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xeka",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "c0c7ff58",
+   "season": 2022,
+   "distance": 2.895,
+   "survived": 1,
+   "fut_ability_v2": 73.8,
+   "player_name": "Fabián Ruiz Peña",
+   "squad": "Napoli"
+  },
+  {
    "fbref_id": "819b3158",
    "season": 2020,
-   "distance": 2.875,
+   "distance": 2.907,
    "survived": 1,
    "fut_ability_v2": 77.1,
    "player_name": "İlkay Gündoğan",
    "squad": "Manchester City"
   },
   {
-   "fbref_id": "6ce1f46f",
-   "season": 2018,
-   "distance": 2.896,
+   "fbref_id": "2f7acede",
+   "season": 2022,
+   "distance": 2.934,
    "survived": 1,
-   "fut_ability_v2": 71.8,
-   "player_name": "Toni Kroos",
-   "squad": "Real Madrid"
+   "fut_ability_v2": 52.5,
+   "player_name": "Harry Winks",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "79c0821a",
+   "season": 2022,
+   "distance": 2.955,
+   "survived": 1,
+   "fut_ability_v2": 66.6,
+   "player_name": "Mateo Kovačić",
+   "squad": "Chelsea"
   },
   {
    "fbref_id": "6ce1f46f",
    "season": 2020,
-   "distance": 2.942,
+   "distance": 2.975,
    "survived": 1,
    "fut_ability_v2": 68.4,
    "player_name": "Toni Kroos",
    "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "819b3158",
-   "season": 2019,
-   "distance": 2.984,
-   "survived": 1,
-   "fut_ability_v2": 78.8,
-   "player_name": "İlkay Gündoğan",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "ad6df2d5",
-   "season": 2020,
-   "distance": 3.042,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Miralem Pjanić",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "ad6df2d5",
-   "season": 2018,
-   "distance": 3.073,
-   "survived": 1,
-   "fut_ability_v2": 63.7,
-   "player_name": "Miralem Pjanić",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "f4081572",
-   "season": 2018,
-   "distance": 3.261,
-   "survived": 1,
-   "fut_ability_v2": 56.3,
-   "player_name": "Nuri Şahin",
-   "squad": "Dortmund"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Frenkie de Jong(MF)의 현재 능력 점수는 72.7점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 패스 성공률, 전진 운반 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 클리어링이다.",
-  "potential": "Frenkie de Jong의 2~3년 후 예측 중심값은 63.9점, 80% 구간 상단은 73.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 72.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Frenkie de Jong의 2~3년 후 예측 중심값은 65.5점, 80% 구간 상단은 74.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 79.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

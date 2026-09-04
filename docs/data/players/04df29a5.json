@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6768,
-  "mu": 51.6,
+  "survival_prob": 0.6279,
+  "mu": 41.3,
   "ci80": {
-   "lo": 40.7,
-   "hi": 62.4
+   "lo": 30.2,
+   "hi": 52.3
   },
   "ci50": {
-   "lo": 45.9,
-   "hi": 57.2
+   "lo": 35.4,
+   "hi": 47.1
   },
-  "sigma_model": 2.5,
+  "sigma_model": 3.3,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "19ba6c6d",
+   "season": 2018,
+   "distance": 1.865,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Steve Mounié",
+   "squad": "Huddersfield"
+  },
+  {
    "fbref_id": "f8eca1b6",
    "season": 2020,
-   "distance": 1.889,
+   "distance": 1.867,
    "survived": 1,
    "fut_ability_v2": 38.3,
    "player_name": "Enes Ünal",
@@ -57,17 +66,8 @@
   },
   {
    "fbref_id": "19ba6c6d",
-   "season": 2018,
-   "distance": 1.891,
-   "survived": 1,
-   "fut_ability_v2": 52.5,
-   "player_name": "Steve Mounié",
-   "squad": "Huddersfield"
-  },
-  {
-   "fbref_id": "19ba6c6d",
    "season": 2019,
-   "distance": 2.228,
+   "distance": 2.225,
    "survived": 1,
    "fut_ability_v2": 50.4,
    "player_name": "Steve Mounié",
@@ -76,16 +76,25 @@
   {
    "fbref_id": "59e6e5bf",
    "season": 2019,
-   "distance": 2.277,
+   "distance": 2.275,
    "survived": 1,
    "fut_ability_v2": 46.5,
    "player_name": "Dominic Calvert-Lewin",
    "squad": "Everton"
   },
   {
+   "fbref_id": "923f4dda",
+   "season": 2020,
+   "distance": 2.377,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Amiens"
+  },
+  {
    "fbref_id": "ba115a40",
    "season": 2018,
-   "distance": 2.37,
+   "distance": 2.387,
    "survived": 1,
    "fut_ability_v2": 48.1,
    "player_name": "Sébastien Haller",
@@ -94,34 +103,16 @@
   {
    "fbref_id": "6922f806",
    "season": 2018,
-   "distance": 2.409,
+   "distance": 2.437,
    "survived": 1,
    "fut_ability_v2": 43.4,
    "player_name": "Jonathan Calleri",
    "squad": "Las Palmas"
   },
   {
-   "fbref_id": "923f4dda",
-   "season": 2020,
-   "distance": 2.414,
-   "survived": 1,
-   "fut_ability_v2": 54.8,
-   "player_name": "Sehrou Guirassy",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "04e17fd5",
-   "season": 2019,
-   "distance": 2.463,
-   "survived": 1,
-   "fut_ability_v2": 46.1,
-   "player_name": "Youssef En-Nesyri",
-   "squad": "Leganés"
-  },
-  {
    "fbref_id": "1238a3f9",
    "season": 2018,
-   "distance": 2.464,
+   "distance": 2.454,
    "survived": 1,
    "fut_ability_v2": 28.8,
    "player_name": "Davie Selke",
@@ -130,11 +121,20 @@
   {
    "fbref_id": "923f4dda",
    "season": 2019,
-   "distance": 2.516,
+   "distance": 2.502,
    "survived": 1,
    "fut_ability_v2": 56.8,
    "player_name": "Sehrou Guirassy",
    "squad": "Amiens"
+  },
+  {
+   "fbref_id": "04e17fd5",
+   "season": 2019,
+   "distance": 2.518,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Youssef En-Nesyri",
+   "squad": "Leganés"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Lorenzo Colombo(FW)의 현재 능력 점수는 34.1점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 블록, 공중볼 승리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 전진 패스 수신이다.",
-  "potential": "Lorenzo Colombo의 2~3년 후 예측 중심값은 51.6점, 80% 구간 상단은 62.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 67.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lorenzo Colombo의 2~3년 후 예측 중심값은 41.3점, 80% 구간 상단은 52.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 62.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

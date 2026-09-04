@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9494,
-  "mu": 60.8,
+  "survival_prob": 0.8406,
+  "mu": 55.5,
   "ci80": {
-   "lo": 50.9,
-   "hi": 70.6
+   "lo": 45.4,
+   "hi": 65.6
   },
   "ci50": {
-   "lo": 55.6,
-   "hi": 66.0
+   "lo": 50.2,
+   "hi": 60.9
   },
-  "sigma_model": 3.1,
-  "sigma_residual": 7.0
+  "sigma_model": 3.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "43b78598",
    "season": 2018,
-   "distance": 2.467,
+   "distance": 2.44,
    "survived": 1,
    "fut_ability_v2": 65.6,
    "player_name": "Mauro Icardi",
    "squad": "Inter"
   },
   {
+   "fbref_id": "5d4f7d61",
+   "season": 2022,
+   "distance": 2.605,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Patrik Schick",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "5d4f7d61",
+   "season": 2021,
+   "distance": 2.74,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Patrik Schick",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "93feac6e",
+   "season": 2021,
+   "distance": 2.875,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Bamford",
+   "squad": "Leeds United"
+  },
+  {
    "fbref_id": "43b78598",
    "season": 2019,
-   "distance": 2.933,
+   "distance": 2.913,
    "survived": 1,
    "fut_ability_v2": 56.6,
    "player_name": "Mauro Icardi",
@@ -67,7 +94,7 @@
   {
    "fbref_id": "9592289a",
    "season": 2018,
-   "distance": 3.291,
+   "distance": 3.26,
    "survived": 1,
    "fut_ability_v2": 44.3,
    "player_name": "Simone Zaza",
@@ -76,7 +103,7 @@
   {
    "fbref_id": "c4e87b8b",
    "season": 2020,
-   "distance": 3.301,
+   "distance": 3.321,
    "survived": 1,
    "fut_ability_v2": 46.7,
    "player_name": "Wout Weghorst",
@@ -85,59 +112,32 @@
   {
    "fbref_id": "09538fdb",
    "season": 2018,
-   "distance": 3.328,
+   "distance": 3.329,
    "survived": 1,
    "fut_ability_v2": 45.2,
    "player_name": "Kevin Lasagna",
    "squad": "Udinese"
   },
   {
-   "fbref_id": "5eae500a",
-   "season": 2018,
-   "distance": 3.434,
-   "survived": 1,
-   "fut_ability_v2": 73.5,
-   "player_name": "Romelu Lukaku",
-   "squad": "Manchester Utd"
-  },
-  {
-   "fbref_id": "c4e87b8b",
-   "season": 2019,
-   "distance": 3.488,
-   "survived": 1,
-   "fut_ability_v2": 57.9,
-   "player_name": "Wout Weghorst",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "75645f0e",
-   "season": 2019,
-   "distance": 3.511,
-   "survived": 1,
-   "fut_ability_v2": 38.8,
-   "player_name": "Borja Iglesias",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "129af0db",
-   "season": 2020,
-   "distance": 3.516,
-   "survived": 1,
-   "fut_ability_v2": 65.6,
-   "player_name": "Álvaro Morata",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "834d0be5",
-   "season": 2020,
-   "distance": 3.562,
+   "fbref_id": "e7986081",
+   "season": 2022,
+   "distance": 3.348,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Lucas Alario",
-   "squad": "Leverkusen"
+   "player_name": "Moussa Dembélé",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "462475ed",
+   "season": 2021,
+   "distance": 3.418,
+   "survived": 1,
+   "fut_ability_v2": 32.2,
+   "player_name": "Ludovic Ajorque",
+   "squad": "Strasbourg"
   }
  ],
- "low_confidence": true,
+ "low_confidence": false,
  "report": {
   "strengths": [
    {
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Erling Haaland(FW)의 현재 능력 점수는 58.1점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 유효슈팅, 비페널티 xG, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 최종 3분의1 패스이다.",
-  "potential": "Erling Haaland의 2~3년 후 예측 중심값은 60.8점, 80% 구간 상단은 70.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 94.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Erling Haaland의 2~3년 후 예측 중심값은 55.5점, 80% 구간 상단은 65.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

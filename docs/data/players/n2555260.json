@@ -32,17 +32,17 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9503,
-  "mu": 54.2,
+  "survival_prob": 0.9224,
+  "mu": 53.7,
   "ci80": {
-   "lo": 43.3,
-   "hi": 65.3
+   "lo": 43.0,
+   "hi": 64.5
   },
   "ci50": {
-   "lo": 48.4,
-   "hi": 60.0
+   "lo": 48.1,
+   "hi": 59.4
   },
-  "sigma_model": 3.1,
+  "sigma_model": 2.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
@@ -67,16 +67,25 @@
   {
    "fbref_id": "f586779e",
    "season": 2018,
-   "distance": 2.71,
+   "distance": 2.727,
    "survived": 1,
    "fut_ability_v2": 57.3,
    "player_name": "Tammy Abraham",
    "squad": "Swansea City"
   },
   {
+   "fbref_id": "e7aa9d7c",
+   "season": 2021,
+   "distance": 2.934,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fábio Silva",
+   "squad": "Wolves"
+  },
+  {
    "fbref_id": "20730eae",
    "season": 2019,
-   "distance": 2.928,
+   "distance": 2.937,
    "survived": 1,
    "fut_ability_v2": 69.1,
    "player_name": "Rafael Leão",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "f8eca1b6",
    "season": 2018,
-   "distance": 2.947,
+   "distance": 2.946,
    "survived": 1,
    "fut_ability_v2": 41.6,
    "player_name": "Enes Ünal",
@@ -94,47 +103,38 @@
   {
    "fbref_id": "a8d4428b",
    "season": 2020,
-   "distance": 2.971,
+   "distance": 2.958,
    "survived": 1,
    "fut_ability_v2": 28.1,
    "player_name": "Josh Sargent",
    "squad": "Werder Bremen"
   },
   {
-   "fbref_id": "6f8cd6d0",
-   "season": 2018,
-   "distance": 3.095,
+   "fbref_id": "ce50fd99",
+   "season": 2021,
+   "distance": 3.049,
    "survived": 1,
-   "fut_ability_v2": 67.7,
-   "player_name": "Marcus Thuram",
-   "squad": "Guingamp"
+   "fut_ability_v2": 66.6,
+   "player_name": "Jonathan David",
+   "squad": "Lille"
   },
   {
-   "fbref_id": "59e6e5bf",
-   "season": 2018,
-   "distance": 3.197,
-   "survived": 1,
-   "fut_ability_v2": 51.0,
-   "player_name": "Dominic Calvert-Lewin",
-   "squad": "Everton"
+   "fbref_id": "a8d4428b",
+   "season": 2021,
+   "distance": 3.136,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Josh Sargent",
+   "squad": "Werder Bremen"
   },
   {
-   "fbref_id": "5148dcc5",
-   "season": 2018,
-   "distance": 3.288,
+   "fbref_id": "79443529",
+   "season": 2021,
+   "distance": 3.16,
    "survived": 1,
-   "fut_ability_v2": 55.8,
-   "player_name": "Martin Terrier",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "23c63b7f",
-   "season": 2019,
-   "distance": 3.3,
-   "survived": 1,
-   "fut_ability_v2": 50.7,
-   "player_name": "Ignatius Ganago",
-   "squad": "Nice"
+   "fut_ability_v2": 58.7,
+   "player_name": "Dušan Vlahović",
+   "squad": "Fiorentina"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Santiago Castro(FW)의 현재 능력 점수는 46.5점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 패스 성공률, 골 창출(GCA), 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
-  "potential": "Santiago Castro의 2~3년 후 예측 중심값은 54.2점, 80% 구간 상단은 65.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Santiago Castro의 2~3년 후 예측 중심값은 53.7점, 80% 구간 상단은 64.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

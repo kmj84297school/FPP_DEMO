@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7642,
-  "mu": 58.7,
+  "survival_prob": 0.7288,
+  "mu": 59.4,
   "ci80": {
-   "lo": 49.4,
-   "hi": 68.1
+   "lo": 50.1,
+   "hi": 68.7
   },
   "ci50": {
-   "lo": 53.8,
-   "hi": 63.7
+   "lo": 54.4,
+   "hi": 64.3
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "4d224fe8",
+   "season": 2021,
+   "distance": 1.399,
+   "survived": 1,
+   "fut_ability_v2": 66.9,
+   "player_name": "Casemiro",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "5d8e331f",
+   "season": 2022,
+   "distance": 1.845,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Nicolas Höfler",
+   "squad": "Freiburg"
+  },
+  {
    "fbref_id": "c2009df3",
    "season": 2020,
-   "distance": 1.894,
+   "distance": 1.966,
    "survived": 1,
    "fut_ability_v2": 69.0,
    "player_name": "Jonas Hector",
@@ -58,34 +76,52 @@
   {
    "fbref_id": "8f4d116f",
    "season": 2019,
-   "distance": 2.013,
+   "distance": 2.068,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Damien Le Tallec",
    "squad": "Montpellier"
   },
   {
-   "fbref_id": "b8836910",
-   "season": 2018,
-   "distance": 2.191,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Celso Borges",
-   "squad": "La Coruña"
+   "fbref_id": "02b29014",
+   "season": 2022,
+   "distance": 2.123,
+   "survived": 1,
+   "fut_ability_v2": 45.6,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Everton"
   },
   {
    "fbref_id": "cee31595",
    "season": 2018,
-   "distance": 2.214,
+   "distance": 2.22,
    "survived": 1,
    "fut_ability_v2": 57.8,
    "player_name": "James McArthur",
    "squad": "Crystal Palace"
   },
   {
+   "fbref_id": "b8836910",
+   "season": 2018,
+   "distance": 2.299,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Celso Borges",
+   "squad": "La Coruña"
+  },
+  {
+   "fbref_id": "c149016b",
+   "season": 2022,
+   "distance": 2.305,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Wataru Endo",
+   "squad": "Stuttgart"
+  },
+  {
    "fbref_id": "7fec31a0",
    "season": 2019,
-   "distance": 2.314,
+   "distance": 2.357,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dan Gosling",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "ed5886d2",
    "season": 2018,
-   "distance": 2.325,
+   "distance": 2.418,
    "survived": 1,
    "fut_ability_v2": 54.0,
    "player_name": "Marco Parolo",
    "squad": "Lazio"
-  },
-  {
-   "fbref_id": "431c837b",
-   "season": 2020,
-   "distance": 2.478,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Klaus Gjasula",
-   "squad": "Paderborn 07"
-  },
-  {
-   "fbref_id": "331c0a43",
-   "season": 2018,
-   "distance": 2.489,
-   "survived": 1,
-   "fut_ability_v2": 54.7,
-   "player_name": "Simone Missiroli",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "cee31595",
-   "season": 2019,
-   "distance": 2.524,
-   "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "James McArthur",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "036bba5f",
-   "season": 2020,
-   "distance": 2.575,
-   "survived": 1,
-   "fut_ability_v2": 64.6,
-   "player_name": "Rubén Alcaraz",
-   "squad": "Valladolid"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Christian Nørgaard(MF)의 현재 능력 점수는 66.7점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 태클+인터셉트, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
-  "potential": "Christian Nørgaard의 2~3년 후 예측 중심값은 58.7점, 80% 구간 상단은 68.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 76.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Christian Nørgaard의 2~3년 후 예측 중심값은 59.4점, 80% 구간 상단은 68.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 72.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

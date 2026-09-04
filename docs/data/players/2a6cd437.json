@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7165,
-  "mu": 58.4,
+  "survival_prob": 0.7176,
+  "mu": 55.6,
   "ci80": {
-   "lo": 49.1,
-   "hi": 67.7
+   "lo": 46.3,
+   "hi": 65.0
   },
   "ci50": {
-   "lo": 53.6,
-   "hi": 63.3
+   "lo": 50.8,
+   "hi": 60.6
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "4d17df3e",
+   "season": 2021,
+   "distance": 1.6,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yordan Osorio",
+   "squad": "Parma"
+  },
+  {
    "fbref_id": "f7c9fcd6",
    "season": 2018,
-   "distance": 1.743,
+   "distance": 1.737,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Samuel Souprayen",
    "squad": "Hellas Verona"
   },
   {
+   "fbref_id": "6ec6fde0",
+   "season": 2021,
+   "distance": 1.754,
+   "survived": 1,
+   "fut_ability_v2": 68.1,
+   "player_name": "Kevin Akpoguma",
+   "squad": "Hoffenheim"
+  },
+  {
    "fbref_id": "bba30585",
    "season": 2019,
-   "distance": 1.843,
+   "distance": 1.832,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Diego Llorente",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "875898c7",
    "season": 2019,
-   "distance": 1.933,
+   "distance": 1.835,
    "survived": 1,
    "fut_ability_v2": 64.8,
    "player_name": "Wesley Hoedt",
    "squad": "Southampton / Celta Vigo"
   },
   {
-   "fbref_id": "1d8e9add",
-   "season": 2020,
-   "distance": 2.0,
+   "fbref_id": "d9624b51",
+   "season": 2021,
+   "distance": 1.854,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Ceccherini",
+   "squad": "Hellas Verona / Fiorentina"
+  },
+  {
+   "fbref_id": "18abe173",
+   "season": 2021,
+   "distance": 1.879,
    "survived": 1,
-   "fut_ability_v2": 50.3,
-   "player_name": "Kevin Vogt",
-   "squad": "Werder Bremen / Hoffenheim"
+   "fut_ability_v2": 50.2,
+   "player_name": "Joseph Aidoo",
+   "squad": "Celta Vigo"
   },
   {
    "fbref_id": "88d91621",
    "season": 2019,
-   "distance": 2.024,
+   "distance": 1.956,
    "survived": 1,
    "fut_ability_v2": 44.8,
    "player_name": "Sergio Álvarez",
    "squad": "Eibar"
   },
   {
-   "fbref_id": "fbffc4b1",
-   "season": 2018,
-   "distance": 2.058,
-   "survived": 1,
-   "fut_ability_v2": 53.2,
-   "player_name": "Jeffrey Bruma",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "ac861941",
-   "season": 2020,
-   "distance": 2.104,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Eric Dier",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "e0f3a1f6",
-   "season": 2020,
-   "distance": 2.139,
-   "survived": 1,
-   "fut_ability_v2": 58.5,
-   "player_name": "Jean-Charles Castelletto",
-   "squad": "Brest"
-  },
-  {
-   "fbref_id": "6b994195",
-   "season": 2018,
-   "distance": 2.14,
+   "fbref_id": "4ac7608e",
+   "season": 2021,
+   "distance": 1.96,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Kévin Théophile-Catherine",
-   "squad": "Saint-Étienne"
+   "player_name": "Diego González",
+   "squad": "Elche"
   },
   {
-   "fbref_id": "27f0ddef",
-   "season": 2019,
-   "distance": 2.161,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Filip Helander",
-   "squad": "Bologna"
+   "fbref_id": "1d8e9add",
+   "season": 2020,
+   "distance": 1.964,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Kevin Vogt",
+   "squad": "Werder Bremen / Hoffenheim"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Marin Pongračić(DF)의 현재 능력 점수는 55.3점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 리커버리, 패스 성공률, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 실책이다.",
-  "potential": "Marin Pongračić의 2~3년 후 예측 중심값은 58.4점, 80% 구간 상단은 67.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marin Pongračić의 2~3년 후 예측 중심값은 55.6점, 80% 구간 상단은 65.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

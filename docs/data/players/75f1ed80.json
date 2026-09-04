@@ -32,24 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6793,
-  "mu": 64.5,
+  "survival_prob": 0.5042,
+  "mu": 62.2,
   "ci80": {
-   "lo": 55.3,
-   "hi": 73.8
+   "lo": 52.8,
+   "hi": 71.5
   },
   "ci50": {
-   "lo": 59.7,
-   "hi": 69.5
+   "lo": 57.2,
+   "hi": 67.0
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "fb77bfef",
+   "season": 2022,
+   "distance": 1.574,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Bonifazi",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "d9624b51",
+   "season": 2021,
+   "distance": 1.612,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Ceccherini",
+   "squad": "Hellas Verona / Fiorentina"
+  },
+  {
+   "fbref_id": "6adbc307",
+   "season": 2021,
+   "distance": 1.66,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
    "fbref_id": "25ab9c9c",
    "season": 2020,
-   "distance": 1.648,
+   "distance": 1.704,
    "survived": 1,
    "fut_ability_v2": 49.9,
    "player_name": "Manuel Gulde",
@@ -58,7 +85,7 @@
   {
    "fbref_id": "f7dc2ae5",
    "season": 2020,
-   "distance": 1.716,
+   "distance": 1.749,
    "survived": 1,
    "fut_ability_v2": 60.7,
    "player_name": "Aritz Elustondo",
@@ -67,74 +94,47 @@
   {
    "fbref_id": "5832ebfe",
    "season": 2020,
-   "distance": 1.734,
+   "distance": 1.775,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Stefano Denswil",
    "squad": "Bologna"
   },
   {
+   "fbref_id": "16bb656a",
+   "season": 2022,
+   "distance": 1.776,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Paweł Dawidowicz",
+   "squad": "Hellas Verona"
+  },
+  {
    "fbref_id": "b3dc6eca",
    "season": 2019,
-   "distance": 1.766,
+   "distance": 1.796,
    "survived": 1,
    "fut_ability_v2": 61.1,
    "player_name": "Víctor Ruiz",
    "squad": "Villarreal"
   },
   {
-   "fbref_id": "6bd5cd5d",
-   "season": 2020,
-   "distance": 1.843,
-   "survived": 1,
-   "fut_ability_v2": 47.2,
-   "player_name": "Robin Knoche",
-   "squad": "Wolfsburg"
-  },
-  {
    "fbref_id": "9b30df1e",
    "season": 2018,
-   "distance": 1.85,
+   "distance": 1.835,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bartosz Salamon",
    "squad": "SPAL"
   },
   {
-   "fbref_id": "6eaed4eb",
-   "season": 2019,
-   "distance": 2.075,
+   "fbref_id": "3ecc11d8",
+   "season": 2021,
+   "distance": 1.839,
    "survived": 1,
-   "fut_ability_v2": 60.8,
-   "player_name": "Florian Lejeune",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "921f6058",
-   "season": 2018,
-   "distance": 2.1,
-   "survived": 1,
-   "fut_ability_v2": 68.3,
-   "player_name": "José Luis Palomino",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "1a2935f6",
-   "season": 2019,
-   "distance": 2.1,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Dejan Lovren",
-   "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "faf55ce4",
-   "season": 2019,
-   "distance": 2.123,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kevin Wimmer",
-   "squad": "Hannover 96"
+   "fut_ability_v2": 52.3,
+   "player_name": "Yeray Álvarez",
+   "squad": "Athletic Club"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Emmanuel Agbadou(DF)의 현재 능력 점수는 68.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 전진 패스 거리, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 박스 터치이다.",
-  "potential": "Emmanuel Agbadou의 2~3년 후 예측 중심값은 64.5점, 80% 구간 상단은 73.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 67.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Emmanuel Agbadou의 2~3년 후 예측 중심값은 62.2점, 80% 구간 상단은 71.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 50.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

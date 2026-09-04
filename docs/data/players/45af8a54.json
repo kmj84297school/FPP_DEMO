@@ -32,33 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7821,
-  "mu": 66.3,
+  "survival_prob": 0.5981,
+  "mu": 73.7,
   "ci80": {
-   "lo": 56.4,
-   "hi": 76.4
+   "lo": 63.8,
+   "hi": 83.8
   },
   "ci50": {
-   "lo": 61.1,
-   "hi": 71.6
+   "lo": 68.5,
+   "hi": 79.1
   },
-  "sigma_model": 3.4,
-  "sigma_residual": 7.0
+  "sigma_model": 3.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "603cb947",
-   "season": 2019,
-   "distance": 3.757,
-   "survived": 1,
-   "fut_ability_v2": 76.3,
-   "player_name": "Andrej Kramarić",
-   "squad": "Hoffenheim"
+   "fbref_id": "ef619b0b",
+   "season": 2021,
+   "distance": 3.196,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Ramsey",
+   "squad": "Juventus"
   },
   {
    "fbref_id": "36a3ff67",
    "season": 2018,
-   "distance": 3.769,
+   "distance": 3.702,
    "survived": 1,
    "fut_ability_v2": 70.1,
    "player_name": "Marco Reus",
@@ -67,16 +67,43 @@
   {
    "fbref_id": "5afafbfe",
    "season": 2018,
-   "distance": 3.812,
+   "distance": 3.745,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Shinji Kagawa",
    "squad": "Dortmund"
   },
   {
+   "fbref_id": "819b3158",
+   "season": 2022,
+   "distance": 3.801,
+   "survived": 1,
+   "fut_ability_v2": 71.1,
+   "player_name": "İlkay Gündoğan",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "603cb947",
+   "season": 2019,
+   "distance": 3.802,
+   "survived": 1,
+   "fut_ability_v2": 76.3,
+   "player_name": "Andrej Kramarić",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "0ef89a37",
+   "season": 2022,
+   "distance": 3.881,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Philippe Coutinho",
+   "squad": "Aston Villa / Barcelona"
+  },
+  {
    "fbref_id": "29733c72",
    "season": 2018,
-   "distance": 3.924,
+   "distance": 3.914,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juan Mata",
@@ -85,7 +112,7 @@
   {
    "fbref_id": "abe66106",
    "season": 2019,
-   "distance": 4.037,
+   "distance": 3.99,
    "survived": 1,
    "fut_ability_v2": 69.9,
    "player_name": "Érik Lamela",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "d995ed27",
    "season": 2020,
-   "distance": 4.039,
+   "distance": 4.023,
    "survived": 1,
    "fut_ability_v2": 63.0,
    "player_name": "Giacomo Bonaventura",
    "squad": "Milan"
   },
   {
-   "fbref_id": "19cda00b",
-   "season": 2019,
-   "distance": 4.075,
-   "survived": 1,
-   "fut_ability_v2": 81.7,
-   "player_name": "Ángel Di María",
-   "squad": "Paris S-G"
-  },
-  {
-   "fbref_id": "0ef89a37",
-   "season": 2020,
-   "distance": 4.134,
-   "survived": 1,
-   "fut_ability_v2": 72.2,
-   "player_name": "Philippe Coutinho",
-   "squad": "Bayern Munich"
-  },
-  {
-   "fbref_id": "9744ff80",
-   "season": 2020,
-   "distance": 4.14,
+   "fbref_id": "8faf7b3c",
+   "season": 2021,
+   "distance": 4.066,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Pablo Sarabia",
-   "squad": "Paris S-G"
-  },
-  {
-   "fbref_id": "36a3ff67",
-   "season": 2020,
-   "distance": 4.161,
-   "survived": 1,
-   "fut_ability_v2": 74.2,
-   "player_name": "Marco Reus",
-   "squad": "Dortmund"
+   "player_name": "Roberto Insigne",
+   "squad": "Benevento"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Marco Asensio(MF)의 현재 능력 점수는 78.2점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 유효슈팅, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 태클 성공률이다.",
-  "potential": "Marco Asensio의 2~3년 후 예측 중심값은 66.3점, 80% 구간 상단은 76.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 78.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marco Asensio의 2~3년 후 예측 중심값은 73.7점, 80% 구간 상단은 83.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

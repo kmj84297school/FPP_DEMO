@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6154,
-  "mu": 58.3,
+  "survival_prob": 0.4956,
+  "mu": 57.1,
   "ci80": {
-   "lo": 49.2,
-   "hi": 67.5
+   "lo": 47.9,
+   "hi": 66.3
   },
   "ci50": {
-   "lo": 53.5,
-   "hi": 63.2
+   "lo": 52.3,
+   "hi": 62.0
   },
-  "sigma_model": 1.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "70c52749",
+   "season": 2021,
+   "distance": 1.277,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Birger Meling",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "197640fd",
+   "season": 2021,
+   "distance": 1.347,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Timothy Castagne",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "f9acca3a",
    "season": 2019,
-   "distance": 1.318,
+   "distance": 1.386,
    "survived": 1,
    "fut_ability_v2": 60.5,
    "player_name": "Wendell",
@@ -58,7 +76,7 @@
   {
    "fbref_id": "f5b6fb78",
    "season": 2020,
-   "distance": 1.379,
+   "distance": 1.496,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Loris Benito",
@@ -67,16 +85,34 @@
   {
    "fbref_id": "20b104bc",
    "season": 2019,
-   "distance": 1.468,
+   "distance": 1.523,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Adam Smith",
    "squad": "Bournemouth"
   },
   {
+   "fbref_id": "e5d01ecf",
+   "season": 2019,
+   "distance": 1.529,
+   "survived": 1,
+   "fut_ability_v2": 49.9,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "dad4b285",
+   "season": 2021,
+   "distance": 1.553,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Joël Veltman",
+   "squad": "Brighton"
+  },
+  {
    "fbref_id": "44781702",
    "season": 2019,
-   "distance": 1.521,
+   "distance": 1.582,
    "survived": 1,
    "fut_ability_v2": 54.1,
    "player_name": "Ben Davies",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "fdd60087",
    "season": 2019,
-   "distance": 1.564,
+   "distance": 1.601,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Santiago Arias",
    "squad": "Atlético Madrid"
   },
   {
-   "fbref_id": "d63e2912",
-   "season": 2019,
-   "distance": 1.568,
-   "survived": 1,
-   "fut_ability_v2": 56.4,
-   "player_name": "Hiroki Sakai",
-   "squad": "Marseille"
-  },
-  {
-   "fbref_id": "e5d01ecf",
-   "season": 2019,
-   "distance": 1.579,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Kiko Femenía",
-   "squad": "Watford"
-  },
-  {
    "fbref_id": "5cec2487",
    "season": 2018,
-   "distance": 1.628,
+   "distance": 1.635,
    "survived": 1,
    "fut_ability_v2": 58.6,
    "player_name": "Martín Montoya",
    "squad": "Valencia"
-  },
-  {
-   "fbref_id": "c56dc39e",
-   "season": 2018,
-   "distance": 1.66,
-   "survived": 1,
-   "fut_ability_v2": 65.9,
-   "player_name": "Rafael Tolói",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "f9acca3a",
-   "season": 2020,
-   "distance": 1.739,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wendell",
-   "squad": "Leverkusen"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Mathías Olivera(DF)의 현재 능력 점수는 60.6점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 최종 3분의1 패스, 전진 패스, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 볼 손실(미스+파울)이다.",
-  "potential": "Mathías Olivera의 2~3년 후 예측 중심값은 58.3점, 80% 구간 상단은 67.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mathías Olivera의 2~3년 후 예측 중심값은 57.1점, 80% 구간 상단은 66.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 49.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

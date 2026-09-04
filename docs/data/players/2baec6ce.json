@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2146,
-  "mu": 50.8,
+  "survival_prob": 0.3406,
+  "mu": 49.7,
   "ci80": {
-   "lo": 41.7,
-   "hi": 59.9
+   "lo": 40.4,
+   "hi": 59.1
   },
   "ci50": {
-   "lo": 46.0,
-   "hi": 55.6
+   "lo": 44.8,
+   "hi": 54.7
   },
-  "sigma_model": 1.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f7c9fcd6",
    "season": 2018,
-   "distance": 1.154,
+   "distance": 1.214,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Samuel Souprayen",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "1025db8e",
    "season": 2020,
-   "distance": 1.292,
+   "distance": 1.348,
    "survived": 1,
    "fut_ability_v2": 52.5,
    "player_name": "Jeffrey Gouweleeuw",
    "squad": "Augsburg"
   },
   {
+   "fbref_id": "ed3f5f4c",
+   "season": 2021,
+   "distance": 1.399,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Josema",
+   "squad": "Elche"
+  },
+  {
    "fbref_id": "2946f9a1",
    "season": 2019,
-   "distance": 1.502,
+   "distance": 1.476,
    "survived": 1,
    "fut_ability_v2": 52.3,
    "player_name": "Nacho",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "faf55ce4",
    "season": 2019,
-   "distance": 1.538,
+   "distance": 1.579,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kevin Wimmer",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "8db394aa",
    "season": 2018,
-   "distance": 1.604,
+   "distance": 1.612,
    "survived": 1,
    "fut_ability_v2": 42.9,
    "player_name": "Ximo Navarro",
    "squad": "Las Palmas"
   },
   {
-   "fbref_id": "25ab9c9c",
-   "season": 2019,
-   "distance": 1.647,
-   "survived": 1,
-   "fut_ability_v2": 49.8,
-   "player_name": "Manuel Gulde",
-   "squad": "Freiburg"
-  },
-  {
    "fbref_id": "e9208654",
    "season": 2019,
-   "distance": 1.671,
+   "distance": 1.653,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Tommy Smith",
    "squad": "Huddersfield"
   },
   {
-   "fbref_id": "e33f36d5",
-   "season": 2019,
-   "distance": 1.691,
-   "survived": 1,
-   "fut_ability_v2": 55.5,
-   "player_name": "Bram Nuytinck",
-   "squad": "Udinese"
-  },
-  {
    "fbref_id": "faf55ce4",
    "season": 2018,
-   "distance": 1.705,
+   "distance": 1.668,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kevin Wimmer",
    "squad": "Stoke City"
   },
   {
-   "fbref_id": "616aea37",
-   "season": 2018,
-   "distance": 1.714,
+   "fbref_id": "4a633cfe",
+   "season": 2021,
+   "distance": 1.674,
+   "survived": 1,
+   "fut_ability_v2": 40.3,
+   "player_name": "Unai García",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "34b306a1",
+   "season": 2019,
+   "distance": 1.686,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Marco Capuano",
-   "squad": "Crotone / Cagliari"
+   "player_name": "André Hoffmann",
+   "squad": "Düsseldorf"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Axel Tuanzebe(DF)의 현재 능력 점수는 46.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 태클 성공률, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 볼 리커버리이다.",
-  "potential": "Axel Tuanzebe의 2~3년 후 예측 중심값은 50.8점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 21.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Axel Tuanzebe의 2~3년 후 예측 중심값은 49.7점, 80% 구간 상단은 59.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

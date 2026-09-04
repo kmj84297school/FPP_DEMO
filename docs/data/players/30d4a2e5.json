@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5527,
-  "mu": 45.7,
+  "survival_prob": 0.7118,
+  "mu": 47.9,
   "ci80": {
-   "lo": 36.4,
-   "hi": 54.9
+   "lo": 38.6,
+   "hi": 57.2
   },
   "ci50": {
-   "lo": 40.8,
-   "hi": 50.6
+   "lo": 43.0,
+   "hi": 52.8
   },
   "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "ae0a7ddf",
    "season": 2018,
-   "distance": 1.165,
+   "distance": 1.163,
    "survived": 1,
    "fut_ability_v2": 37.6,
    "player_name": "DeAndre Yedlin",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "46ee5234",
    "season": 2018,
-   "distance": 1.411,
+   "distance": 1.444,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kieran Gibbs",
@@ -67,16 +67,34 @@
   {
    "fbref_id": "de488e56",
    "season": 2018,
-   "distance": 1.587,
+   "distance": 1.604,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Charles Traore",
    "squad": "Troyes"
   },
   {
+   "fbref_id": "c010b898",
+   "season": 2021,
+   "distance": 1.681,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Barba",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "90eb507d",
+   "season": 2021,
+   "distance": 1.69,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Thomas Foket",
+   "squad": "Reims"
+  },
+  {
    "fbref_id": "22051fbe",
    "season": 2018,
-   "distance": 1.696,
+   "distance": 1.749,
    "survived": 1,
    "fut_ability_v2": 56.8,
    "player_name": "Giulio Donati",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "ae0a7ddf",
    "season": 2019,
-   "distance": 1.776,
+   "distance": 1.804,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "DeAndre Yedlin",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "cc2d7ad5",
-   "season": 2019,
-   "distance": 1.806,
-   "survived": 1,
-   "fut_ability_v2": 53.9,
-   "player_name": "Charlie Taylor",
-   "squad": "Burnley"
-  },
-  {
    "fbref_id": "ff16ecad",
    "season": 2018,
-   "distance": 1.858,
+   "distance": 1.824,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mathieu Deplagne",
    "squad": "Troyes"
   },
   {
-   "fbref_id": "4f974391",
-   "season": 2018,
-   "distance": 1.942,
+   "fbref_id": "394854c4",
+   "season": 2021,
+   "distance": 1.829,
    "survived": 1,
-   "fut_ability_v2": 53.4,
-   "player_name": "Aaron Cresswell",
-   "squad": "West Ham"
+   "fut_ability_v2": 41.5,
+   "player_name": "George Baldock",
+   "squad": "Sheffield Utd"
   },
   {
-   "fbref_id": "90eb507d",
-   "season": 2020,
-   "distance": 1.993,
+   "fbref_id": "45e17712",
+   "season": 2021,
+   "distance": 1.872,
    "survived": 1,
-   "fut_ability_v2": 40.5,
-   "player_name": "Thomas Foket",
-   "squad": "Reims"
-  },
-  {
-   "fbref_id": "4cee5954",
-   "season": 2020,
-   "distance": 2.006,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lucas Olaza",
-   "squad": "Celta Vigo"
+   "fut_ability_v2": 43.3,
+   "player_name": "Dimitri Foulquier",
+   "squad": "Granada"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Vitaliy Mykolenko(DF)의 현재 능력 점수는 45.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 도움 기대값(xAG), 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 볼 리커버리이다.",
-  "potential": "Vitaliy Mykolenko의 2~3년 후 예측 중심값은 45.7점, 80% 구간 상단은 54.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Vitaliy Mykolenko의 2~3년 후 예측 중심값은 47.9점, 80% 구간 상단은 57.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8607,
-  "mu": 45.3,
+  "survival_prob": 0.6518,
+  "mu": 43.3,
   "ci80": {
-   "lo": 34.6,
-   "hi": 56.1
+   "lo": 32.9,
+   "hi": 53.8
   },
   "ci50": {
-   "lo": 39.7,
-   "hi": 50.9
+   "lo": 37.8,
+   "hi": 48.9
   },
-  "sigma_model": 2.3,
+  "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "ec30b9c8",
    "season": 2018,
-   "distance": 1.874,
+   "distance": 1.85,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Samuel Bastien",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "ed5c5fa3",
    "season": 2019,
-   "distance": 2.047,
+   "distance": 2.059,
    "survived": 1,
    "fut_ability_v2": 48.4,
    "player_name": "Fran Beltrán",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "a6138e4a",
    "season": 2019,
-   "distance": 2.195,
+   "distance": 2.128,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jessy Deminguet",
@@ -76,7 +76,7 @@
   {
    "fbref_id": "5ae499d0",
    "season": 2019,
-   "distance": 2.201,
+   "distance": 2.224,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Santi Comesaña",
@@ -85,7 +85,7 @@
   {
    "fbref_id": "442b56fa",
    "season": 2019,
-   "distance": 2.288,
+   "distance": 2.325,
    "survived": 1,
    "fut_ability_v2": 59.5,
    "player_name": "Ridle Baku",
@@ -94,7 +94,7 @@
   {
    "fbref_id": "9228b07c",
    "season": 2018,
-   "distance": 2.311,
+   "distance": 2.341,
    "survived": 1,
    "fut_ability_v2": 43.8,
    "player_name": "Tom Davies",
@@ -103,16 +103,25 @@
   {
    "fbref_id": "ed5c5fa3",
    "season": 2020,
-   "distance": 2.335,
+   "distance": 2.362,
    "survived": 1,
    "fut_ability_v2": 44.9,
    "player_name": "Fran Beltrán",
    "squad": "Celta Vigo"
   },
   {
+   "fbref_id": "64c14d49",
+   "season": 2022,
+   "distance": 2.4,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Dion Lopy",
+   "squad": "Reims"
+  },
+  {
    "fbref_id": "7f622eef",
    "season": 2018,
-   "distance": 2.401,
+   "distance": 2.413,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Assane Dioussé",
@@ -121,20 +130,11 @@
   {
    "fbref_id": "3d688b46",
    "season": 2020,
-   "distance": 2.428,
+   "distance": 2.425,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Yan Brice Eteki",
    "squad": "Granada"
-  },
-  {
-   "fbref_id": "11ff3d56",
-   "season": 2020,
-   "distance": 2.492,
-   "survived": 1,
-   "fut_ability_v2": 48.0,
-   "player_name": "Ibrahima Diallo",
-   "squad": "Brest"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Warren Bondo(MF)의 현재 능력 점수는 30.4점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 패스 성공률, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 키패스이다.",
-  "potential": "Warren Bondo의 2~3년 후 예측 중심값은 45.3점, 80% 구간 상단은 56.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 86.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Warren Bondo의 2~3년 후 예측 중심값은 43.3점, 80% 구간 상단은 53.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 65.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

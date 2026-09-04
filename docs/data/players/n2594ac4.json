@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2513,
-  "mu": 45.2,
+  "survival_prob": 0.2671,
+  "mu": 46.0,
   "ci80": {
-   "lo": 35.6,
-   "hi": 54.8
+   "lo": 36.2,
+   "hi": 55.7
   },
   "ci50": {
-   "lo": 40.1,
-   "hi": 50.3
+   "lo": 40.8,
+   "hi": 51.1
   },
   "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "c693347d",
    "season": 2020,
-   "distance": 1.834,
+   "distance": 1.807,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andreas Cornelius",
    "squad": "Parma"
   },
   {
+   "fbref_id": "5d4f7d61",
+   "season": 2021,
+   "distance": 2.094,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Patrik Schick",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "462475ed",
+   "season": 2019,
+   "distance": 2.141,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Ludovic Ajorque",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "5eae500a",
    "season": 2019,
-   "distance": 2.116,
+   "distance": 2.144,
    "survived": 1,
    "fut_ability_v2": 66.6,
    "player_name": "Romelu Lukaku",
    "squad": "Manchester Utd"
   },
   {
+   "fbref_id": "e3fabb0a",
+   "season": 2019,
+   "distance": 2.152,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wu Lei",
+   "squad": "Espanyol"
+  },
+  {
    "fbref_id": "4be0b467",
    "season": 2019,
-   "distance": 2.146,
+   "distance": 2.171,
    "survived": 1,
    "fut_ability_v2": 33.0,
    "player_name": "Lois Diony",
@@ -76,65 +103,38 @@
   {
    "fbref_id": "129af0db",
    "season": 2019,
-   "distance": 2.178,
+   "distance": 2.173,
    "survived": 1,
    "fut_ability_v2": 71.7,
    "player_name": "Álvaro Morata",
    "squad": "Atlético Madrid / Chelsea"
   },
   {
-   "fbref_id": "e3fabb0a",
-   "season": 2019,
-   "distance": 2.182,
+   "fbref_id": "6605d143",
+   "season": 2022,
+   "distance": 2.191,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Wu Lei",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "462475ed",
-   "season": 2019,
-   "distance": 2.215,
-   "survived": 1,
-   "fut_ability_v2": 57.0,
-   "player_name": "Ludovic Ajorque",
+   "player_name": "Habib Diallo",
    "squad": "Strasbourg"
   },
   {
-   "fbref_id": "e5f63987",
-   "season": 2018,
-   "distance": 2.386,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Daniel Ginczek",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "80dbbd10",
-   "season": 2018,
-   "distance": 2.402,
+   "fbref_id": "50e6dc35",
+   "season": 2022,
+   "distance": 2.356,
    "survived": 1,
-   "fut_ability_v2": 34.3,
-   "player_name": "Simeon Nwankwo",
-   "squad": "Crotone"
+   "fut_ability_v2": 48.1,
+   "player_name": "Jean-Philippe Mateta",
+   "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "5046b7d4",
-   "season": 2018,
-   "distance": 2.5,
+   "fbref_id": "2500cef9",
+   "season": 2022,
+   "distance": 2.358,
    "survived": 1,
-   "fut_ability_v2": 42.4,
-   "player_name": "Stéphane Bahoken",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "ba115a40",
-   "season": 2020,
-   "distance": 2.53,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sébastien Haller",
-   "squad": "West Ham"
+   "fut_ability_v2": 58.4,
+   "player_name": "Yoane Wissa",
+   "squad": "Brentford"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Daniel Mosquera(FW)의 현재 능력 점수는 50.8점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 슈팅 시도, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 전진 운반이다.",
-  "potential": "Daniel Mosquera의 2~3년 후 예측 중심값은 45.2점, 80% 구간 상단은 54.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Daniel Mosquera의 2~3년 후 예측 중심값은 46.0점, 80% 구간 상단은 55.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 26.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

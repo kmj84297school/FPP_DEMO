@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1042,
-  "mu": 51.7,
+  "survival_prob": 0.0621,
+  "mu": 50.6,
   "ci80": {
-   "lo": 42.1,
-   "hi": 61.2
+   "lo": 41.1,
+   "hi": 60.1
   },
   "ci50": {
-   "lo": 46.6,
-   "hi": 56.7
+   "lo": 45.6,
+   "hi": 55.6
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "a6154613",
+   "season": 2022,
+   "distance": 2.158,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luis Suárez",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "d5dd5f1f",
+   "season": 2021,
+   "distance": 2.312,
+   "survived": 1,
+   "fut_ability_v2": 71.3,
+   "player_name": "Pierre-Emerick Aubameyang",
+   "squad": "Arsenal"
+  },
+  {
    "fbref_id": "66116290",
    "season": 2018,
-   "distance": 2.28,
+   "distance": 2.336,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Radamel Falcao",
@@ -58,7 +76,7 @@
   {
    "fbref_id": "5c2da10f",
    "season": 2020,
-   "distance": 2.338,
+   "distance": 2.394,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Loïc Rémy",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "66116290",
    "season": 2019,
-   "distance": 2.414,
+   "distance": 2.463,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Radamel Falcao",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "5c2da10f",
    "season": 2019,
-   "distance": 2.566,
+   "distance": 2.581,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Loïc Rémy",
    "squad": "Lille"
   },
   {
-   "fbref_id": "c3fd9887",
-   "season": 2019,
-   "distance": 2.698,
+   "fbref_id": "45963054",
+   "season": 2022,
+   "distance": 2.591,
+   "survived": 1,
+   "fut_ability_v2": 39.7,
+   "player_name": "Jamie Vardy",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "527f063d",
+   "season": 2021,
+   "distance": 2.674,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Vedad Ibišević",
-   "squad": "Hertha BSC"
+   "player_name": "Edinson Cavani",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "165a2e40",
+   "season": 2021,
+   "distance": 2.684,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Burak Yılmaz",
+   "squad": "Lille"
   },
   {
    "fbref_id": "c4b8bcf4",
    "season": 2018,
-   "distance": 2.704,
+   "distance": 2.749,
    "survived": 1,
    "fut_ability_v2": 31.5,
    "player_name": "Charles",
    "squad": "Eibar"
-  },
-  {
-   "fbref_id": "c3fd9887",
-   "season": 2018,
-   "distance": 2.867,
-   "survived": 1,
-   "fut_ability_v2": 46.1,
-   "player_name": "Vedad Ibišević",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "f83c8d6c",
-   "season": 2020,
-   "distance": 2.939,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jimmy Briand",
-   "squad": "Bordeaux"
-  },
-  {
-   "fbref_id": "71a20ce8",
-   "season": 2019,
-   "distance": 3.031,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mario Gómez",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "17611373",
-   "season": 2020,
-   "distance": 3.084,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rouwen Hennings",
-   "squad": "Düsseldorf"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Danny Welbeck(FW)의 현재 능력 점수는 55.3점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 비페널티 xG, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 도움 기대값(xAG)이다.",
-  "potential": "Danny Welbeck의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 61.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 10.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Danny Welbeck의 2~3년 후 예측 중심값은 50.6점, 80% 구간 상단은 60.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 6.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

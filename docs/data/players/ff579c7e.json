@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4876,
-  "mu": 55.9,
+  "survival_prob": 0.3842,
+  "mu": 57.2,
   "ci80": {
-   "lo": 46.5,
-   "hi": 65.5
+   "lo": 47.8,
+   "hi": 66.7
   },
   "ci50": {
-   "lo": 51.0,
-   "hi": 61.0
+   "lo": 52.3,
+   "hi": 62.2
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "6cdd8245",
-   "season": 2018,
-   "distance": 2.225,
-   "survived": 1,
-   "fut_ability_v2": 53.2,
-   "player_name": "Tom Cleverley",
-   "squad": "Watford"
+   "fbref_id": "e947ee4a",
+   "season": 2021,
+   "distance": 1.976,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Brugman",
+   "squad": "Parma"
   },
   {
    "fbref_id": "e12b0b5b",
    "season": 2019,
-   "distance": 2.322,
+   "distance": 2.238,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Sebastian Rode",
    "squad": "Eint Frankfurt"
   },
   {
+   "fbref_id": "6cdd8245",
+   "season": 2018,
+   "distance": 2.25,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Tom Cleverley",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2022,
+   "distance": 2.324,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
    "fbref_id": "0d077b88",
    "season": 2020,
-   "distance": 2.378,
+   "distance": 2.392,
    "survived": 1,
    "fut_ability_v2": 48.0,
    "player_name": "Mehdi Bourabia",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "51c30111",
    "season": 2019,
-   "distance": 2.407,
+   "distance": 2.446,
    "survived": 1,
    "fut_ability_v2": 56.1,
    "player_name": "Sanjin Prcić",
    "squad": "Strasbourg / Levante"
   },
   {
+   "fbref_id": "c6e5d20f",
+   "season": 2021,
+   "distance": 2.561,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Thiago Mendes",
+   "squad": "Lyon"
+  },
+  {
    "fbref_id": "e8c930bb",
    "season": 2018,
-   "distance": 2.546,
+   "distance": 2.562,
    "survived": 1,
    "fut_ability_v2": 52.0,
    "player_name": "Milan Badelj",
    "squad": "Fiorentina"
   },
   {
-   "fbref_id": "e26bd2f4",
-   "season": 2020,
-   "distance": 2.6,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Panagiotis Tachtsidis",
-   "squad": "Lecce"
-  },
-  {
    "fbref_id": "ea06dd97",
    "season": 2020,
-   "distance": 2.655,
+   "distance": 2.588,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Daniele Baselli",
    "squad": "Torino"
   },
   {
-   "fbref_id": "dc3fa3b5",
-   "season": 2019,
-   "distance": 2.672,
-   "survived": 1,
-   "fut_ability_v2": 56.2,
-   "player_name": "Diego Demme",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "e61b8aee",
-   "season": 2019,
-   "distance": 2.7,
-   "survived": 1,
-   "fut_ability_v2": 63.9,
-   "player_name": "Granit Xhaka",
-   "squad": "Arsenal"
-  },
-  {
-   "fbref_id": "cc700722",
+   "fbref_id": "e26bd2f4",
    "season": 2020,
-   "distance": 2.7,
-   "survived": 1,
-   "fut_ability_v2": 49.1,
-   "player_name": "Allan",
-   "squad": "Napoli"
+   "distance": 2.626,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Panagiotis Tachtsidis",
+   "squad": "Lecce"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Nikola Moro(MF)의 현재 능력 점수는 68.1점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 최종 3분의1 패스, 태클 성공률, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 슈팅당 기대득점이다.",
-  "potential": "Nikola Moro의 2~3년 후 예측 중심값은 55.9점, 80% 구간 상단은 65.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 48.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Nikola Moro의 2~3년 후 예측 중심값은 57.2점, 80% 구간 상단은 66.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 38.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1328,
-  "mu": 44.1,
+  "survival_prob": 0.0897,
+  "mu": 42.7,
   "ci80": {
-   "lo": 34.6,
-   "hi": 53.5
+   "lo": 33.0,
+   "hi": 52.4
   },
   "ci50": {
-   "lo": 39.0,
-   "hi": 49.0
+   "lo": 37.6,
+   "hi": 47.8
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 2.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "8f898ba8",
+   "season": 2021,
+   "distance": 2.194,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Carrillo",
+   "squad": "Elche"
+  },
+  {
+   "fbref_id": "5343eb4e",
+   "season": 2021,
+   "distance": 2.526,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yoshinori Mutō",
+   "squad": "Eibar"
+  },
+  {
    "fbref_id": "71a20ce8",
    "season": 2018,
-   "distance": 2.544,
+   "distance": 2.575,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Gómez",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "9f472354",
    "season": 2018,
-   "distance": 2.547,
+   "distance": 2.579,
    "survived": 1,
    "fut_ability_v2": 48.8,
    "player_name": "Shane Long",
    "squad": "Southampton"
   },
   {
+   "fbref_id": "c4e87b8b",
+   "season": 2022,
+   "distance": 2.591,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg / Burnley"
+  },
+  {
    "fbref_id": "2ec0f902",
    "season": 2019,
-   "distance": 2.679,
+   "distance": 2.671,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Riccardo Meggiorini",
    "squad": "Chievo"
   },
   {
+   "fbref_id": "ff182fdc",
+   "season": 2022,
+   "distance": 2.681,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ishak Belfodil",
+   "squad": "Hertha BSC"
+  },
+  {
    "fbref_id": "549c6ba7",
    "season": 2018,
-   "distance": 2.682,
+   "distance": 2.698,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Franco Di Santo",
    "squad": "Schalke 04"
   },
   {
+   "fbref_id": "4ab53cdb",
+   "season": 2021,
+   "distance": 2.701,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jay Rodriguez",
+   "squad": "Burnley"
+  },
+  {
    "fbref_id": "99be8fb5",
    "season": 2020,
-   "distance": 2.719,
+   "distance": 2.754,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Anthony Ujah",
    "squad": "Union Berlin"
-  },
-  {
-   "fbref_id": "8f898ba8",
-   "season": 2020,
-   "distance": 2.746,
-   "survived": 1,
-   "fut_ability_v2": 30.8,
-   "player_name": "Guido Carrillo",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "0a1efd3c",
-   "season": 2018,
-   "distance": 2.765,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andrey Galabinov",
-   "squad": "Genoa"
-  },
-  {
-   "fbref_id": "a190d597",
-   "season": 2020,
-   "distance": 2.777,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Diego Costa",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "82e9b89d",
-   "season": 2019,
-   "distance": 2.831,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Enric Gallego",
-   "squad": "Huesca"
-  },
-  {
-   "fbref_id": "afa0d4e0",
-   "season": 2019,
-   "distance": 2.882,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mario Mandžukić",
-   "squad": "Juventus"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Budu Zivzivadze(FW)의 현재 능력 점수는 44.8점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 어시스트, 태클 성공률, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 최종 3분의1 패스이다.",
-  "potential": "Budu Zivzivadze의 2~3년 후 예측 중심값은 44.1점, 80% 구간 상단은 53.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 13.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Budu Zivzivadze의 2~3년 후 예측 중심값은 42.7점, 80% 구간 상단은 52.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 9.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

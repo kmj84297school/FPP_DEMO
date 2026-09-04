@@ -32,51 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2782,
-  "mu": 55.2,
+  "survival_prob": 0.2853,
+  "mu": 55.5,
   "ci80": {
-   "lo": 45.9,
-   "hi": 64.5
+   "lo": 46.2,
+   "hi": 65.0
   },
   "ci50": {
-   "lo": 50.3,
-   "hi": 60.1
+   "lo": 50.6,
+   "hi": 60.5
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "8cc29864",
+   "season": 2021,
+   "distance": 0.973,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lorenzo Tonelli",
+   "squad": "Sampdoria"
+  },
+  {
    "fbref_id": "821233cc",
    "season": 2019,
-   "distance": 1.154,
+   "distance": 1.18,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Neven Subotić",
    "squad": "Saint-Étienne"
   },
   {
+   "fbref_id": "f520049f",
+   "season": 2022,
+   "distance": 1.202,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Eliaquim Mangala",
+   "squad": "Saint-Étienne"
+  },
+  {
    "fbref_id": "92b4a127",
    "season": 2018,
-   "distance": 1.211,
+   "distance": 1.206,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gustavo Cabral",
    "squad": "Celta Vigo"
   },
   {
-   "fbref_id": "a2609621",
-   "season": 2019,
-   "distance": 1.255,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Naldo",
-   "squad": "Espanyol"
-  },
-  {
    "fbref_id": "bf97c188",
    "season": 2019,
-   "distance": 1.258,
+   "distance": 1.256,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gabriel Mercado",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "8b8a56ce",
    "season": 2018,
-   "distance": 1.294,
+   "distance": 1.26,
    "survived": 1,
    "fut_ability_v2": 58.5,
    "player_name": "Simon Kjær",
    "squad": "Sevilla"
   },
   {
-   "fbref_id": "2515040a",
-   "season": 2019,
-   "distance": 1.298,
+   "fbref_id": "3e9e06cb",
+   "season": 2021,
+   "distance": 1.278,
    "survived": 1,
-   "fut_ability_v2": 54.1,
-   "player_name": "Paul Baysse",
-   "squad": "Caen / Bordeaux"
+   "fut_ability_v2": 64.1,
+   "player_name": "Craig Dawson",
+   "squad": "West Ham"
   },
   {
-   "fbref_id": "8aa5f52c",
-   "season": 2019,
-   "distance": 1.352,
+   "fbref_id": "aa0ac32d",
+   "season": 2022,
+   "distance": 1.282,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Adrian Mariappa",
-   "squad": "Watford"
+   "player_name": "Óscar Duarte",
+   "squad": "Levante"
   },
   {
-   "fbref_id": "92b4a127",
-   "season": 2019,
-   "distance": 1.367,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gustavo Cabral",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "2515040a",
-   "season": 2018,
-   "distance": 1.455,
+   "fbref_id": "a4ac4b8f",
+   "season": 2021,
+   "distance": 1.286,
    "survived": 1,
-   "fut_ability_v2": 54.1,
-   "player_name": "Paul Baysse",
-   "squad": "Málaga / Bordeaux"
+   "fut_ability_v2": 70.0,
+   "player_name": "Willy Boly",
+   "squad": "Wolves"
   },
   {
-   "fbref_id": "ba71d071",
-   "season": 2019,
-   "distance": 1.494,
+   "fbref_id": "b857bd29",
+   "season": 2022,
+   "distance": 1.322,
    "survived": 1,
-   "fut_ability_v2": 47.7,
-   "player_name": "Pedro Alcalá",
-   "squad": "Girona"
+   "fut_ability_v2": 68.6,
+   "player_name": "Antonio Raillo",
+   "squad": "Mallorca"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mattia Bani(DF)의 현재 능력 점수는 50.3점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 슈팅당 기대득점, 볼 손실(미스+파울), 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스이다.",
-  "potential": "Mattia Bani의 2~3년 후 예측 중심값은 55.2점, 80% 구간 상단은 64.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 27.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mattia Bani의 2~3년 후 예측 중심값은 55.5점, 80% 구간 상단은 65.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

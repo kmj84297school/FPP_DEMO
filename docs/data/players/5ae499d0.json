@@ -32,60 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8382,
-  "mu": 61.5,
+  "survival_prob": 0.7133,
+  "mu": 59.9,
   "ci80": {
-   "lo": 52.3,
-   "hi": 70.7
+   "lo": 50.6,
+   "hi": 69.1
   },
   "ci50": {
-   "lo": 56.7,
-   "hi": 66.3
+   "lo": 55.0,
+   "hi": 64.7
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "ea06dd97",
    "season": 2018,
-   "distance": 1.579,
+   "distance": 1.581,
    "survived": 1,
    "fut_ability_v2": 51.2,
    "player_name": "Daniele Baselli",
    "squad": "Torino"
   },
   {
-   "fbref_id": "02b29014",
-   "season": 2019,
-   "distance": 1.901,
-   "survived": 1,
-   "fut_ability_v2": 55.5,
-   "player_name": "Abdoulaye Doucouré",
-   "squad": "Watford"
-  },
-  {
-   "fbref_id": "ef9c1c95",
-   "season": 2018,
-   "distance": 1.905,
-   "survived": 1,
-   "fut_ability_v2": 62.7,
-   "player_name": "Benjamin André",
-   "squad": "Rennes"
-  },
-  {
    "fbref_id": "0fbecd11",
    "season": 2020,
-   "distance": 1.951,
+   "distance": 1.913,
    "survived": 1,
    "fut_ability_v2": 52.1,
    "player_name": "Dominik Kohr",
    "squad": "Eint Frankfurt"
   },
   {
+   "fbref_id": "ef9c1c95",
+   "season": 2018,
+   "distance": 1.927,
+   "survived": 1,
+   "fut_ability_v2": 62.7,
+   "player_name": "Benjamin André",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "02b29014",
+   "season": 2019,
+   "distance": 1.967,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Abdoulaye Doucouré",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "8da74c05",
+   "season": 2022,
+   "distance": 2.006,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Adrien Tameze",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2021,
+   "distance": 2.045,
+   "survived": 1,
+   "fut_ability_v2": 68.0,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
    "fbref_id": "33b554b7",
    "season": 2019,
-   "distance": 1.957,
+   "distance": 2.051,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Danny Latza",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "44ac04e9",
    "season": 2019,
-   "distance": 2.044,
+   "distance": 2.105,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Matías Vecino",
    "squad": "Inter"
   },
   {
-   "fbref_id": "b9fbae28",
-   "season": 2019,
-   "distance": 2.122,
+   "fbref_id": "62ab9184",
+   "season": 2022,
+   "distance": 2.12,
    "survived": 1,
-   "fut_ability_v2": 65.9,
-   "player_name": "N'Golo Kanté",
-   "squad": "Chelsea"
+   "fut_ability_v2": 46.7,
+   "player_name": "Yannick Gerhardt",
+   "squad": "Wolfsburg"
   },
   {
-   "fbref_id": "44ac04e9",
-   "season": 2018,
-   "distance": 2.124,
-   "survived": 1,
-   "fut_ability_v2": 54.4,
-   "player_name": "Matías Vecino",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "ef2e5e1a",
-   "season": 2018,
-   "distance": 2.181,
-   "survived": 1,
-   "fut_ability_v2": 65.5,
-   "player_name": "Kevin Strootman",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "56413b1f",
-   "season": 2018,
-   "distance": 2.181,
-   "survived": 1,
-   "fut_ability_v2": 55.6,
-   "player_name": "Charles Aránguiz",
-   "squad": "Leverkusen"
+   "fbref_id": "b853e0ad",
+   "season": 2022,
+   "distance": 2.138,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fred",
+   "squad": "Manchester Utd"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Santi Comesaña(MF)의 현재 능력 점수는 69.2점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 슈팅당 기대득점, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 도움 기대값(xAG)이다.",
-  "potential": "Santi Comesaña의 2~3년 후 예측 중심값은 61.5점, 80% 구간 상단은 70.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 83.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Santi Comesaña의 2~3년 후 예측 중심값은 59.9점, 80% 구간 상단은 69.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

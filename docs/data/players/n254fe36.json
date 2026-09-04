@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8983,
-  "mu": 67.0,
+  "survival_prob": 0.898,
+  "mu": 67.3,
   "ci80": {
-   "lo": 57.8,
-   "hi": 76.2
+   "lo": 57.9,
+   "hi": 76.6
   },
   "ci50": {
-   "lo": 62.1,
-   "hi": 71.8
+   "lo": 62.3,
+   "hi": 72.2
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "a69e4806",
+   "season": 2022,
+   "distance": 2.167,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hirving Lozano",
+   "squad": "Napoli"
+  },
+  {
    "fbref_id": "810e3c74",
    "season": 2018,
-   "distance": 2.298,
+   "distance": 2.251,
    "survived": 1,
    "fut_ability_v2": 64.3,
    "player_name": "Jesse Lingard",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "ef619b0b",
    "season": 2018,
-   "distance": 2.454,
+   "distance": 2.393,
    "survived": 1,
    "fut_ability_v2": 72.8,
    "player_name": "Aaron Ramsey",
@@ -66,75 +75,66 @@
   },
   {
    "fbref_id": "3ef0fa48",
+   "season": 2021,
+   "distance": 2.401,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gelson Martins",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "ab651565",
+   "season": 2021,
+   "distance": 2.448,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nathan Redmond",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "fa18c72e",
+   "season": 2021,
+   "distance": 2.465,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luiz Araújo",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "3ef0fa48",
    "season": 2020,
-   "distance": 2.494,
+   "distance": 2.607,
    "survived": 1,
    "fut_ability_v2": 51.9,
    "player_name": "Gelson Martins",
    "squad": "Monaco"
   },
   {
+   "fbref_id": "5e861944",
+   "season": 2021,
+   "distance": 2.631,
+   "survived": 1,
+   "fut_ability_v2": 71.3,
+   "player_name": "Matteo Politano",
+   "squad": "Napoli"
+  },
+  {
    "fbref_id": "819aa8e7",
    "season": 2020,
-   "distance": 2.702,
+   "distance": 2.633,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ayoze Pérez",
    "squad": "Leicester City"
   },
   {
-   "fbref_id": "75f2c59f",
-   "season": 2018,
-   "distance": 2.805,
+   "fbref_id": "042e8a49",
+   "season": 2022,
+   "distance": 2.727,
    "survived": 1,
-   "fut_ability_v2": 49.5,
-   "player_name": "Roberto Pereyra",
-   "squad": "Watford"
-  },
-  {
-   "fbref_id": "a0b4bb3e",
-   "season": 2019,
-   "distance": 2.831,
-   "survived": 1,
-   "fut_ability_v2": 72.5,
-   "player_name": "Isco",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "26f6dca8",
-   "season": 2018,
-   "distance": 2.832,
-   "survived": 1,
-   "fut_ability_v2": 62.6,
-   "player_name": "Manuel Lanzini",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "ecbb3fdf",
-   "season": 2018,
-   "distance": 2.837,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "André Schürrle",
-   "squad": "Dortmund"
-  },
-  {
-   "fbref_id": "d3aaad90",
-   "season": 2019,
-   "distance": 2.911,
-   "survived": 1,
-   "fut_ability_v2": 74.9,
-   "player_name": "Stephan El Shaarawy",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "dc1c2fce",
-   "season": 2020,
-   "distance": 2.98,
-   "survived": 1,
-   "fut_ability_v2": 58.1,
-   "player_name": "Álex Berenguer",
-   "squad": "Torino"
+   "fut_ability_v2": 83.1,
+   "player_name": "Kingsley Coman",
+   "squad": "Bayern Munich"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Samuel Lino(MF)의 현재 능력 점수는 70.1점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 전진 패스 수신, 비페널티 xG, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 공중볼 승률이다.",
-  "potential": "Samuel Lino의 2~3년 후 예측 중심값은 67.0점, 80% 구간 상단은 76.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 89.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Samuel Lino의 2~3년 후 예측 중심값은 67.3점, 80% 구간 상단은 76.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 89.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

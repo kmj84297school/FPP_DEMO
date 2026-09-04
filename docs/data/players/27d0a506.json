@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9443,
-  "mu": 61.4,
+  "survival_prob": 0.9065,
+  "mu": 59.3,
   "ci80": {
-   "lo": 52.2,
-   "hi": 70.6
+   "lo": 49.9,
+   "hi": 68.5
   },
   "ci50": {
-   "lo": 56.6,
-   "hi": 66.2
+   "lo": 54.3,
+   "hi": 64.1
   },
-  "sigma_model": 1.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "0f52f925",
    "season": 2018,
-   "distance": 1.983,
+   "distance": 2.006,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lucas Lima",
    "squad": "Nantes"
   },
   {
+   "fbref_id": "30af8b93",
+   "season": 2022,
+   "distance": 2.073,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "Caio Henrique Oliveira Silva",
+   "squad": "Monaco"
+  },
+  {
    "fbref_id": "3dd738a1",
    "season": 2018,
-   "distance": 2.346,
+   "distance": 2.31,
    "survived": 1,
    "fut_ability_v2": 67.5,
    "player_name": "Ruben Aguilar",
    "squad": "Montpellier"
   },
   {
+   "fbref_id": "4c5b714f",
+   "season": 2019,
+   "distance": 2.459,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Djibril Sidibé",
+   "squad": "Monaco"
+  },
+  {
    "fbref_id": "0f52f925",
    "season": 2019,
-   "distance": 2.383,
+   "distance": 2.462,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lucas Lima",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "44781702",
    "season": 2018,
-   "distance": 2.449,
+   "distance": 2.503,
    "survived": 1,
    "fut_ability_v2": 52.9,
    "player_name": "Ben Davies",
    "squad": "Tottenham"
   },
   {
-   "fbref_id": "4c5b714f",
-   "season": 2019,
-   "distance": 2.467,
+   "fbref_id": "5d8d7454",
+   "season": 2022,
+   "distance": 2.565,
    "survived": 1,
-   "fut_ability_v2": 59.5,
-   "player_name": "Djibril Sidibé",
-   "squad": "Monaco"
+   "fut_ability_v2": 52.7,
+   "player_name": "Frederic Guilbert",
+   "squad": "Strasbourg"
   },
   {
    "fbref_id": "30c220c3",
    "season": 2019,
-   "distance": 2.594,
+   "distance": 2.586,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mitchell Weiser",
    "squad": "Leverkusen"
   },
   {
-   "fbref_id": "770d7eb8",
-   "season": 2019,
-   "distance": 2.608,
+   "fbref_id": "30941e96",
+   "season": 2022,
+   "distance": 2.647,
    "survived": 1,
-   "fut_ability_v2": 47.2,
-   "player_name": "Kenny Lala",
-   "squad": "Strasbourg"
+   "fut_ability_v2": 55.2,
+   "player_name": "Angeliño",
+   "squad": "RB Leipzig"
   },
   {
-   "fbref_id": "f45f9427",
-   "season": 2020,
-   "distance": 2.854,
+   "fbref_id": "054849d2",
+   "season": 2022,
+   "distance": 2.672,
    "survived": 1,
-   "fut_ability_v2": 45.2,
-   "player_name": "Dalbert Henrique",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "9e1577aa",
-   "season": 2019,
-   "distance": 2.862,
-   "survived": 1,
-   "fut_ability_v2": 53.6,
-   "player_name": "Cristiano Biraghi",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "21512407",
-   "season": 2018,
-   "distance": 2.862,
-   "survived": 1,
-   "fut_ability_v2": 61.6,
-   "player_name": "Kieran Trippier",
-   "squad": "Tottenham"
+   "fut_ability_v2": 57.6,
+   "player_name": "Iago",
+   "squad": "Augsburg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Pedro Porro(DF)의 현재 능력 점수는 65.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 슈팅 창출(SCA), 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Pedro Porro의 2~3년 후 예측 중심값은 61.4점, 80% 구간 상단은 70.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 94.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pedro Porro의 2~3년 후 예측 중심값은 59.3점, 80% 구간 상단은 68.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 90.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

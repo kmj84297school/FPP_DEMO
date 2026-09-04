@@ -32,42 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9368,
-  "mu": 61.8,
+  "survival_prob": 0.5752,
+  "mu": 58.0,
   "ci80": {
-   "lo": 51.3,
-   "hi": 72.5
+   "lo": 47.5,
+   "hi": 68.5
   },
   "ci50": {
-   "lo": 56.3,
-   "hi": 67.4
+   "lo": 52.4,
+   "hi": 63.5
   },
   "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "49136c42",
+   "season": 2021,
+   "distance": 1.387,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Andrew Gravillon",
+   "squad": "Lorient"
+  },
+  {
    "fbref_id": "6adbc307",
    "season": 2018,
-   "distance": 1.51,
+   "distance": 1.464,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Jack Stephens",
    "squad": "Southampton"
   },
   {
-   "fbref_id": "aad48be9",
-   "season": 2018,
-   "distance": 1.531,
-   "survived": 1,
-   "fut_ability_v2": 53.2,
-   "player_name": "Niklas Stark",
-   "squad": "Hertha BSC"
+   "fbref_id": "b5bf1770",
+   "season": 2021,
+   "distance": 1.592,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lyanco",
+   "squad": "Torino"
   },
   {
    "fbref_id": "815c314f",
    "season": 2019,
-   "distance": 1.569,
+   "distance": 1.623,
    "survived": 1,
    "fut_ability_v2": 67.2,
    "player_name": "Marc-Oliver Kempf",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "d0042ab9",
    "season": 2020,
-   "distance": 1.637,
+   "distance": 1.632,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Mason Holgate",
    "squad": "Everton"
   },
   {
-   "fbref_id": "92b4758e",
+   "fbref_id": "aad48be9",
    "season": 2018,
-   "distance": 1.697,
+   "distance": 1.641,
    "survived": 1,
-   "fut_ability_v2": 54.7,
-   "player_name": "Samir Santos",
-   "squad": "Udinese"
+   "fut_ability_v2": 53.2,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
   },
   {
    "fbref_id": "7f609bfc",
    "season": 2020,
-   "distance": 1.726,
+   "distance": 1.647,
    "survived": 1,
    "fut_ability_v2": 62.2,
    "player_name": "Stefan Posch",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "ce4246f5",
-   "season": 2019,
-   "distance": 1.739,
-   "survived": 1,
-   "fut_ability_v2": 58.1,
-   "player_name": "Kurt Zouma",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "f7dc2ae5",
-   "season": 2018,
-   "distance": 1.787,
-   "survived": 1,
-   "fut_ability_v2": 65.8,
-   "player_name": "Aritz Elustondo",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "43e7a164",
-   "season": 2018,
-   "distance": 1.801,
-   "survived": 1,
-   "fut_ability_v2": 63.8,
-   "player_name": "Alexander Djiku",
-   "squad": "Caen"
-  },
-  {
-   "fbref_id": "b77f44a4",
+   "fbref_id": "5fd5ed86",
    "season": 2020,
-   "distance": 1.803,
+   "distance": 1.699,
    "survived": 1,
-   "fut_ability_v2": 62.0,
-   "player_name": "Marvin Friedrich",
-   "squad": "Union Berlin"
+   "fut_ability_v2": 66.3,
+   "player_name": "Gleison Bremer",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "35d64857",
+   "season": 2022,
+   "distance": 1.704,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Tuta",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "526ea7cc",
+   "season": 2021,
+   "distance": 1.71,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Amos Pieper",
+   "squad": "Arminia"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Sinaly Diomande(DF)의 현재 능력 점수는 60.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 무페널티 득점, 블록, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 박스 터치이다.",
-  "potential": "Sinaly Diomande의 2~3년 후 예측 중심값은 61.8점, 80% 구간 상단은 72.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Sinaly Diomande의 2~3년 후 예측 중심값은 58.0점, 80% 구간 상단은 68.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 57.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

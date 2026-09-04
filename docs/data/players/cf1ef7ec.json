@@ -32,33 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9632,
-  "mu": 62.5,
+  "survival_prob": 0.8734,
+  "mu": 61.5,
   "ci80": {
-   "lo": 51.9,
-   "hi": 73.2
+   "lo": 51.0,
+   "hi": 71.9
   },
   "ci50": {
-   "lo": 56.9,
-   "hi": 68.2
+   "lo": 55.9,
+   "hi": 67.0
   },
-  "sigma_model": 2.3,
+  "sigma_model": 1.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "ce4246f5",
    "season": 2019,
-   "distance": 1.299,
+   "distance": 1.275,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Kurt Zouma",
    "squad": "Everton"
   },
   {
+   "fbref_id": "9f7c837d",
+   "season": 2021,
+   "distance": 1.346,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Ben Godfrey",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "9a64e67e",
+   "season": 2021,
+   "distance": 1.356,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Robin Le Normand",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "677da306",
+   "season": 2021,
+   "distance": 1.415,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Ohis Felix Uduokhai",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "6e33125f",
+   "season": 2022,
+   "distance": 1.429,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Kevin Danso",
+   "squad": "Lens"
+  },
+  {
+   "fbref_id": "526ea7cc",
+   "season": 2021,
+   "distance": 1.45,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Amos Pieper",
+   "squad": "Arminia"
+  },
+  {
    "fbref_id": "bd7d2e6d",
    "season": 2018,
-   "distance": 1.528,
+   "distance": 1.522,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Timo Baumgartl",
@@ -67,74 +112,29 @@
   {
    "fbref_id": "815c314f",
    "season": 2019,
-   "distance": 1.621,
+   "distance": 1.589,
    "survived": 1,
    "fut_ability_v2": 67.2,
    "player_name": "Marc-Oliver Kempf",
    "squad": "Stuttgart"
   },
   {
-   "fbref_id": "45a03961",
-   "season": 2018,
-   "distance": 1.629,
+   "fbref_id": "c81d773d",
+   "season": 2021,
+   "distance": 1.641,
    "survived": 1,
-   "fut_ability_v2": 68.9,
-   "player_name": "Benjamin Pavard",
-   "squad": "Stuttgart"
+   "fut_ability_v2": 53.5,
+   "player_name": "Tosin Adarabioyo",
+   "squad": "Fulham"
   },
   {
    "fbref_id": "21166ff4",
    "season": 2018,
-   "distance": 1.645,
+   "distance": 1.654,
    "survived": 1,
    "fut_ability_v2": 62.4,
    "player_name": "Çağlar Söyüncü",
    "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "92b4758e",
-   "season": 2018,
-   "distance": 1.702,
-   "survived": 1,
-   "fut_ability_v2": 54.7,
-   "player_name": "Samir Santos",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "450ab6fc",
-   "season": 2018,
-   "distance": 1.783,
-   "survived": 1,
-   "fut_ability_v2": 54.7,
-   "player_name": "Jamaal Lascelles",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "43e7a164",
-   "season": 2019,
-   "distance": 1.81,
-   "survived": 1,
-   "fut_ability_v2": 61.1,
-   "player_name": "Alexander Djiku",
-   "squad": "Caen"
-  },
-  {
-   "fbref_id": "00242715",
-   "season": 2019,
-   "distance": 1.821,
-   "survived": 1,
-   "fut_ability_v2": 56.9,
-   "player_name": "Moussa Niakhate",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "45a03961",
-   "season": 2019,
-   "distance": 1.821,
-   "survived": 1,
-   "fut_ability_v2": 71.1,
-   "player_name": "Benjamin Pavard",
-   "squad": "Stuttgart"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Chrislain Matsima(DF)의 현재 능력 점수는 68.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 볼 리커버리, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 운반이다.",
-  "potential": "Chrislain Matsima의 2~3년 후 예측 중심값은 62.5점, 80% 구간 상단은 73.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Chrislain Matsima의 2~3년 후 예측 중심값은 61.5점, 80% 구간 상단은 71.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

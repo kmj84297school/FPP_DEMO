@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1739,
-  "mu": 52.9,
+  "survival_prob": 0.2799,
+  "mu": 50.7,
   "ci80": {
-   "lo": 43.5,
-   "hi": 62.3
+   "lo": 41.2,
+   "hi": 60.1
   },
   "ci50": {
-   "lo": 48.0,
-   "hi": 57.9
+   "lo": 45.7,
+   "hi": 55.6
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "5c2da10f",
    "season": 2018,
-   "distance": 3.187,
+   "distance": 3.164,
    "survived": 1,
    "fut_ability_v2": 55.1,
    "player_name": "Loïc Rémy",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "99b7584f",
    "season": 2018,
-   "distance": 3.218,
+   "distance": 3.197,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Martin Harnik",
@@ -67,16 +67,25 @@
   {
    "fbref_id": "71a20ce8",
    "season": 2018,
-   "distance": 3.251,
+   "distance": 3.221,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Gómez",
    "squad": "Stuttgart / Wolfsburg"
   },
   {
+   "fbref_id": "ab070c55",
+   "season": 2022,
+   "distance": 3.274,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "66116290",
    "season": 2019,
-   "distance": 3.343,
+   "distance": 3.302,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Radamel Falcao",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "66116290",
    "season": 2018,
-   "distance": 3.401,
+   "distance": 3.364,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Radamel Falcao",
    "squad": "Monaco"
+  },
+  {
+   "fbref_id": "93b891d1",
+   "season": 2021,
+   "distance": 3.44,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felipe Caicedo",
+   "squad": "Lazio"
   },
   {
    "fbref_id": "bdf7b97d",
    "season": 2018,
-   "distance": 3.488,
+   "distance": 3.487,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fernando Torres",
    "squad": "Atlético Madrid"
   },
   {
-   "fbref_id": "a190d597",
-   "season": 2020,
-   "distance": 3.538,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Diego Costa",
-   "squad": "Atlético Madrid"
-  },
-  {
    "fbref_id": "dbe56a33",
    "season": 2020,
-   "distance": 3.573,
+   "distance": 3.495,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "David McGoldrick",
    "squad": "Sheffield Utd"
   },
   {
-   "fbref_id": "71a20ce8",
-   "season": 2019,
-   "distance": 3.629,
+   "fbref_id": "a190d597",
+   "season": 2020,
+   "distance": 3.502,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Mario Gómez",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "4207e578",
-   "season": 2019,
-   "distance": 3.706,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pablo Chavarría",
-   "squad": "Reims"
+   "player_name": "Diego Costa",
+   "squad": "Atlético Madrid"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Joshua King(FW)의 현재 능력 점수는 54.9점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 성공 드리블, 슈팅 시도, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 최종 3분의1 패스이다.",
-  "potential": "Joshua King의 2~3년 후 예측 중심값은 52.9점, 80% 구간 상단은 62.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 17.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Joshua King의 2~3년 후 예측 중심값은 50.7점, 80% 구간 상단은 60.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4335,
-  "mu": 52.6,
+  "survival_prob": 0.2073,
+  "mu": 55.5,
   "ci80": {
-   "lo": 43.4,
-   "hi": 61.8
+   "lo": 46.2,
+   "hi": 64.8
   },
   "ci50": {
-   "lo": 47.8,
-   "hi": 57.4
+   "lo": 50.6,
+   "hi": 60.5
   },
   "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "faf55ce4",
    "season": 2019,
-   "distance": 1.402,
+   "distance": 1.362,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kevin Wimmer",
    "squad": "Hannover 96"
   },
   {
+   "fbref_id": "44781702",
+   "season": 2021,
+   "distance": 1.41,
+   "survived": 1,
+   "fut_ability_v2": 72.2,
+   "player_name": "Ben Davies",
+   "squad": "Tottenham"
+  },
+  {
    "fbref_id": "ab096c6f",
    "season": 2020,
-   "distance": 1.672,
+   "distance": 1.668,
    "survived": 1,
    "fut_ability_v2": 48.0,
    "player_name": "Timothée Kolodziejczak",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "ae4e2852",
    "season": 2019,
-   "distance": 1.839,
+   "distance": 1.787,
    "survived": 1,
    "fut_ability_v2": 61.4,
    "player_name": "Mattia De Sciglio",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "b0243215",
    "season": 2020,
-   "distance": 1.978,
+   "distance": 1.892,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cristian Dell'Orco",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "b3dc6eca",
    "season": 2019,
-   "distance": 2.025,
+   "distance": 1.993,
    "survived": 1,
    "fut_ability_v2": 61.1,
    "player_name": "Víctor Ruiz",
    "squad": "Villarreal"
   },
   {
-   "fbref_id": "463503e2",
-   "season": 2018,
-   "distance": 2.035,
+   "fbref_id": "475583ff",
+   "season": 2021,
+   "distance": 2.012,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Marcin Kamiński",
-   "squad": "Stuttgart"
+   "player_name": "Gaëtan Paquiez",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "d9624b51",
+   "season": 2021,
+   "distance": 2.022,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Ceccherini",
+   "squad": "Hellas Verona / Fiorentina"
   },
   {
    "fbref_id": "f7c9fcd6",
    "season": 2018,
-   "distance": 2.056,
+   "distance": 2.032,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Samuel Souprayen",
    "squad": "Hellas Verona"
   },
   {
-   "fbref_id": "25ab9c9c",
-   "season": 2019,
-   "distance": 2.089,
-   "survived": 1,
-   "fut_ability_v2": 49.8,
-   "player_name": "Manuel Gulde",
-   "squad": "Freiburg"
-  },
-  {
    "fbref_id": "e9208654",
    "season": 2019,
-   "distance": 2.149,
+   "distance": 2.054,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Tommy Smith",
    "squad": "Huddersfield"
-  },
-  {
-   "fbref_id": "89d10e53",
-   "season": 2020,
-   "distance": 2.162,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Danny Rose",
-   "squad": "Tottenham / Newcastle Utd"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Marco Komenda(DF)의 현재 능력 점수는 58.7점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 전진 패스 거리, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 성공 드리블이다.",
-  "potential": "Marco Komenda의 2~3년 후 예측 중심값은 52.6점, 80% 구간 상단은 61.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 43.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marco Komenda의 2~3년 후 예측 중심값은 55.5점, 80% 구간 상단은 64.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

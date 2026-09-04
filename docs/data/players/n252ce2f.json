@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7382,
-  "mu": 46.1,
+  "survival_prob": 0.7491,
+  "mu": 46.3,
   "ci80": {
-   "lo": 35.4,
-   "hi": 56.8
+   "lo": 35.5,
+   "hi": 57.1
   },
   "ci50": {
-   "lo": 40.5,
-   "hi": 51.7
+   "lo": 40.6,
+   "hi": 52.0
   },
-  "sigma_model": 2.3,
+  "sigma_model": 2.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "49ea92be",
    "season": 2020,
-   "distance": 2.172,
+   "distance": 2.12,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Iñigo Córdoba",
    "squad": "Athletic Club"
   },
   {
+   "fbref_id": "a0415710",
+   "season": 2021,
+   "distance": 2.477,
+   "survived": 1,
+   "fut_ability_v2": 63.6,
+   "player_name": "Ismail Jakobs",
+   "squad": "Köln"
+  },
+  {
    "fbref_id": "aa1a8c7e",
    "season": 2019,
-   "distance": 2.665,
+   "distance": 2.643,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Isaac Mbenza",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "70678132",
    "season": 2020,
-   "distance": 2.704,
+   "distance": 2.671,
    "survived": 1,
    "fut_ability_v2": 55.9,
    "player_name": "Eduard Löwen",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "f631c17f",
    "season": 2020,
-   "distance": 2.72,
+   "distance": 2.734,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Oliver Burke",
    "squad": "Alavés"
   },
   {
-   "fbref_id": "96960855",
-   "season": 2019,
-   "distance": 2.905,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Francesco Cassata",
-   "squad": "Frosinone"
-  },
-  {
    "fbref_id": "b3325a30",
    "season": 2019,
-   "distance": 2.965,
+   "distance": 2.851,
    "survived": 1,
    "fut_ability_v2": 41.2,
    "player_name": "Suat Serdar",
    "squad": "Schalke 04"
   },
   {
+   "fbref_id": "96960855",
+   "season": 2019,
+   "distance": 2.904,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francesco Cassata",
+   "squad": "Frosinone"
+  },
+  {
+   "fbref_id": "f9f92b5f",
+   "season": 2022,
+   "distance": 2.904,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Florian Krüger",
+   "squad": "Arminia"
+  },
+  {
    "fbref_id": "80556f08",
    "season": 2019,
-   "distance": 2.993,
+   "distance": 2.964,
    "survived": 1,
    "fut_ability_v2": 41.8,
    "player_name": "Toma Bašić",
    "squad": "Bordeaux"
   },
   {
-   "fbref_id": "66385c46",
-   "season": 2019,
-   "distance": 3.034,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Levin Öztunalı",
-   "squad": "Mainz 05"
-  },
-  {
    "fbref_id": "7cf431a5",
    "season": 2018,
-   "distance": 3.052,
+   "distance": 3.042,
    "survived": 1,
    "fut_ability_v2": 38.4,
    "player_name": "James Lea Siliki",
    "squad": "Rennes"
-  },
-  {
-   "fbref_id": "fed17f5a",
-   "season": 2020,
-   "distance": 3.079,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Carlos Soler",
-   "squad": "Valencia"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Unai Gómez(MF)의 현재 능력 점수는 35.6점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승률, 공중볼 승리, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 전진 패스 거리이다.",
-  "potential": "Unai Gómez의 2~3년 후 예측 중심값은 46.1점, 80% 구간 상단은 56.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 73.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Unai Gómez의 2~3년 후 예측 중심값은 46.3점, 80% 구간 상단은 57.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 74.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

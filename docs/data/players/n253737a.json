@@ -32,24 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7997,
-  "mu": 49.9,
+  "survival_prob": 0.6327,
+  "mu": 49.1,
   "ci80": {
-   "lo": 39.4,
-   "hi": 60.5
+   "lo": 38.7,
+   "hi": 59.6
   },
   "ci50": {
-   "lo": 44.4,
-   "hi": 55.5
+   "lo": 43.6,
+   "hi": 54.7
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "d4d35152",
+   "season": 2022,
+   "distance": 1.819,
+   "survived": 1,
+   "fut_ability_v2": 42.7,
+   "player_name": "Hugo Magnetti",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "e2f9bb5f",
+   "season": 2022,
+   "distance": 2.029,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zaydou Youssouf",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "9228b07c",
+   "season": 2021,
+   "distance": 2.178,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Davies",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "e778654a",
+   "season": 2022,
+   "distance": 2.214,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Yangel Herrera",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "2145368f",
+   "season": 2021,
+   "distance": 2.226,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Fomba",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "e1df6989",
+   "season": 2022,
+   "distance": 2.248,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Imran Louza",
+   "squad": "Watford"
+  },
+  {
    "fbref_id": "10e25802",
    "season": 2019,
-   "distance": 2.257,
+   "distance": 2.383,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Esteban Rolón",
@@ -58,7 +112,7 @@
   {
    "fbref_id": "08593525",
    "season": 2020,
-   "distance": 2.296,
+   "distance": 2.431,
    "survived": 1,
    "fut_ability_v2": 53.4,
    "player_name": "Diadie Samassékou",
@@ -67,74 +121,20 @@
   {
    "fbref_id": "52611641",
    "season": 2020,
-   "distance": 2.406,
+   "distance": 2.568,
    "survived": 1,
    "fut_ability_v2": 61.8,
    "player_name": "Lucas Torreira",
    "squad": "Arsenal"
   },
   {
-   "fbref_id": "3bb625ac",
-   "season": 2020,
-   "distance": 2.608,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Edimilson Fernandes",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "59bf127b",
-   "season": 2018,
-   "distance": 2.621,
+   "fbref_id": "a2b105e0",
+   "season": 2022,
+   "distance": 2.638,
    "survived": 1,
-   "fut_ability_v2": 56.8,
-   "player_name": "Tiemoué Bakayoko",
-   "squad": "Chelsea"
-  },
-  {
-   "fbref_id": "c951a6df",
-   "season": 2018,
-   "distance": 2.652,
-   "survived": 1,
-   "fut_ability_v2": 44.9,
-   "player_name": "Isaac Hayden",
+   "fut_ability_v2": 48.7,
+   "player_name": "Sean Longstaff",
    "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "71ec39ef",
-   "season": 2020,
-   "distance": 2.702,
-   "survived": 1,
-   "fut_ability_v2": 45.7,
-   "player_name": "Lucas Tousart",
-   "squad": "Lyon"
-  },
-  {
-   "fbref_id": "c951a6df",
-   "season": 2019,
-   "distance": 2.704,
-   "survived": 1,
-   "fut_ability_v2": 44.9,
-   "player_name": "Isaac Hayden",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "b6dac747",
-   "season": 2019,
-   "distance": 2.738,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lebogang Phiri",
-   "squad": "Guingamp"
-  },
-  {
-   "fbref_id": "3bb625ac",
-   "season": 2019,
-   "distance": 2.744,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Edimilson Fernandes",
-   "squad": "Fiorentina"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Manuel Ugarte Ribeiro(MF)의 현재 능력 점수는 47.2점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 볼 리커버리, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 슈팅 창출(SCA)이다.",
-  "potential": "Manuel Ugarte Ribeiro의 2~3년 후 예측 중심값은 49.9점, 80% 구간 상단은 60.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 80.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Manuel Ugarte Ribeiro의 2~3년 후 예측 중심값은 49.1점, 80% 구간 상단은 59.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 63.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

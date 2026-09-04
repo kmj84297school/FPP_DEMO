@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.228,
-  "mu": 51.8,
+  "survival_prob": 0.147,
+  "mu": 52.2,
   "ci80": {
-   "lo": 42.3,
-   "hi": 61.1
+   "lo": 42.9,
+   "hi": 61.6
   },
   "ci50": {
-   "lo": 46.8,
-   "hi": 56.7
+   "lo": 47.3,
+   "hi": 57.1
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "84d94b91",
+   "season": 2021,
+   "distance": 1.925,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thomas Monconduit",
+   "squad": "Lorient"
+  },
+  {
    "fbref_id": "b746d309",
    "season": 2018,
-   "distance": 1.968,
+   "distance": 1.965,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Riccardo Montolivo",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "542cc80f",
    "season": 2019,
-   "distance": 1.994,
+   "distance": 1.995,
    "survived": 1,
    "fut_ability_v2": 52.3,
    "player_name": "Paul Lasne",
@@ -67,16 +76,25 @@
   {
    "fbref_id": "e8c930bb",
    "season": 2020,
-   "distance": 2.032,
+   "distance": 2.022,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Milan Badelj",
    "squad": "Fiorentina"
   },
   {
+   "fbref_id": "ea164f99",
+   "season": 2020,
+   "distance": 2.137,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matteo Scozzarella",
+   "squad": "Parma"
+  },
+  {
    "fbref_id": "d6f88a1d",
    "season": 2020,
-   "distance": 2.181,
+   "distance": 2.147,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Adrien Silva",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "33b554b7",
    "season": 2020,
-   "distance": 2.184,
+   "distance": 2.171,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Danny Latza",
    "squad": "Mainz 05"
   },
   {
-   "fbref_id": "ea164f99",
-   "season": 2020,
-   "distance": 2.189,
+   "fbref_id": "418f8f61",
+   "season": 2021,
+   "distance": 2.259,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Matteo Scozzarella",
-   "squad": "Parma"
+   "player_name": "Míchel",
+   "squad": "Valladolid"
   },
   {
-   "fbref_id": "0e50f929",
-   "season": 2020,
-   "distance": 2.444,
+   "fbref_id": "44f8c299",
+   "season": 2021,
+   "distance": 2.306,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Fran Mérida",
-   "squad": "Osasuna"
+   "player_name": "Lucas Deaux",
+   "squad": "Nîmes"
   },
   {
-   "fbref_id": "ab1ca213",
-   "season": 2018,
-   "distance": 2.457,
-   "survived": 1,
-   "fut_ability_v2": 60.5,
-   "player_name": "Miguel Veloso",
-   "squad": "Genoa"
-  },
-  {
-   "fbref_id": "ab1ca213",
-   "season": 2019,
-   "distance": 2.462,
-   "survived": 1,
-   "fut_ability_v2": 61.6,
-   "player_name": "Miguel Veloso",
-   "squad": "Genoa"
-  },
-  {
-   "fbref_id": "b037bd4f",
-   "season": 2019,
-   "distance": 2.478,
+   "fbref_id": "80f36c88",
+   "season": 2021,
+   "distance": 2.325,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Beñat Etxebarria",
-   "squad": "Athletic Club"
+   "player_name": "Sebastian Rudy",
+   "squad": "Hoffenheim / Schalke 04"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "José Campaña(MF)의 현재 능력 점수는 53.8점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 전진 패스 거리, 볼 리커버리, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 슈팅당 기대득점이다.",
-  "potential": "José Campaña의 2~3년 후 예측 중심값은 51.8점, 80% 구간 상단은 61.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "José Campaña의 2~3년 후 예측 중심값은 52.2점, 80% 구간 상단은 61.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 14.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5673,
-  "mu": 64.8,
+  "survival_prob": 0.1932,
+  "mu": 64.6,
   "ci80": {
-   "lo": 55.5,
-   "hi": 74.3
+   "lo": 55.2,
+   "hi": 74.2
   },
   "ci50": {
-   "lo": 59.9,
-   "hi": 69.8
+   "lo": 59.7,
+   "hi": 69.7
   },
   "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "89b2c8a9",
+   "season": 2022,
+   "distance": 2.867,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dries Mertens",
+   "squad": "Napoli"
+  },
+  {
    "fbref_id": "d711d04f",
    "season": 2018,
-   "distance": 2.946,
+   "distance": 2.952,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Goran Pandev",
    "squad": "Genoa"
   },
   {
+   "fbref_id": "3ca7254a",
+   "season": 2022,
+   "distance": 3.263,
+   "survived": 1,
+   "fut_ability_v2": 73.3,
+   "player_name": "Pedro",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "78841da9",
+   "season": 2022,
+   "distance": 3.406,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Callejón",
+   "squad": "Fiorentina"
+  },
+  {
    "fbref_id": "4c5b14d2",
    "season": 2019,
-   "distance": 3.447,
+   "distance": 3.551,
    "survived": 1,
    "fut_ability_v2": 67.6,
    "player_name": "Joaquín",
@@ -67,7 +94,7 @@
   {
    "fbref_id": "d711d04f",
    "season": 2019,
-   "distance": 3.583,
+   "distance": 3.611,
    "survived": 1,
    "fut_ability_v2": 53.8,
    "player_name": "Goran Pandev",
@@ -76,7 +103,7 @@
   {
    "fbref_id": "2bee98fd",
    "season": 2018,
-   "distance": 3.622,
+   "distance": 3.634,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sergio García",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "d711d04f",
    "season": 2020,
-   "distance": 3.713,
+   "distance": 3.711,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Goran Pandev",
    "squad": "Genoa"
   },
   {
+   "fbref_id": "8d8178ac",
+   "season": 2021,
+   "distance": 3.753,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  },
+  {
    "fbref_id": "4d3ab428",
    "season": 2018,
-   "distance": 3.784,
+   "distance": 3.774,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cyril Théréau",
    "squad": "Fiorentina / Udinese"
-  },
-  {
-   "fbref_id": "2bee98fd",
-   "season": 2019,
-   "distance": 3.797,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sergio García",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "8d8178ac",
-   "season": 2020,
-   "distance": 4.034,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rodrigo Palacio",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "8d8178ac",
-   "season": 2019,
-   "distance": 4.092,
-   "survived": 1,
-   "fut_ability_v2": 69.0,
-   "player_name": "Rodrigo Palacio",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "f61c7c4e",
-   "season": 2018,
-   "distance": 4.108,
-   "survived": 1,
-   "fut_ability_v2": 64.8,
-   "player_name": "Franck Ribéry",
-   "squad": "Bayern Munich"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Iago Aspas(FW)의 현재 능력 점수는 71.2점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스, 최종 3분의1 패스, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 박스 터치이다.",
-  "potential": "Iago Aspas의 2~3년 후 예측 중심값은 64.8점, 80% 구간 상단은 74.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 56.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Iago Aspas의 2~3년 후 예측 중심값은 64.6점, 80% 구간 상단은 74.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 19.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6229,
-  "mu": 52.5,
+  "survival_prob": 0.5393,
+  "mu": 52.1,
   "ci80": {
-   "lo": 43.1,
-   "hi": 62.0
+   "lo": 42.7,
+   "hi": 61.4
   },
   "ci50": {
-   "lo": 47.6,
-   "hi": 57.4
+   "lo": 47.1,
+   "hi": 57.0
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "65c75ea8",
    "season": 2018,
-   "distance": 2.527,
+   "distance": 2.55,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andrea Nalini",
    "squad": "Crotone"
   },
   {
+   "fbref_id": "de112b84",
+   "season": 2022,
+   "distance": 2.615,
+   "survived": 1,
+   "fut_ability_v2": 69.8,
+   "player_name": "Jacob Murphy",
+   "squad": "Newcastle Utd"
+  },
+  {
    "fbref_id": "ecbb3fdf",
    "season": 2019,
-   "distance": 2.81,
+   "distance": 2.837,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "André Schürrle",
@@ -67,16 +76,34 @@
   {
    "fbref_id": "ef5b337e",
    "season": 2019,
-   "distance": 2.897,
+   "distance": 2.916,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabio Borini",
    "squad": "Milan"
   },
   {
+   "fbref_id": "253a06b9",
+   "season": 2022,
+   "distance": 2.98,
+   "survived": 1,
+   "fut_ability_v2": 60.5,
+   "player_name": "Ezequiel Ávila",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "62437b4f",
+   "season": 2022,
+   "distance": 3.106,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ignacio Pussetto",
+   "squad": "Udinese"
+  },
+  {
    "fbref_id": "19b776e9",
    "season": 2018,
-   "distance": 3.092,
+   "distance": 3.135,
    "survived": 1,
    "fut_ability_v2": 40.0,
    "player_name": "Rubén Sobrino",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "2677a1de",
    "season": 2018,
-   "distance": 3.126,
+   "distance": 3.168,
    "survived": 1,
    "fut_ability_v2": 51.8,
    "player_name": "Wahbi Khazri",
    "squad": "Rennes"
   },
   {
-   "fbref_id": "f93e6e94",
-   "season": 2018,
-   "distance": 3.232,
+   "fbref_id": "13ddc856",
+   "season": 2022,
+   "distance": 3.171,
    "survived": 1,
-   "fut_ability_v2": 44.7,
-   "player_name": "Nils Petersen",
-   "squad": "Freiburg"
+   "fut_ability_v2": 40.9,
+   "player_name": "Takuma Asano",
+   "squad": "Bochum"
   },
   {
-   "fbref_id": "909222de",
-   "season": 2019,
-   "distance": 3.27,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Nuno da Costa",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "35f6db55",
-   "season": 2019,
-   "distance": 3.326,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Léo Baptistão",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "beae3a73",
-   "season": 2019,
-   "distance": 3.333,
+   "fbref_id": "57469b2d",
+   "season": 2021,
+   "distance": 3.229,
    "survived": 1,
-   "fut_ability_v2": 41.8,
-   "player_name": "Renaud Ripart",
-   "squad": "Nîmes"
-  },
-  {
-   "fbref_id": "b500b384",
-   "season": 2019,
-   "distance": 3.348,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Admir Mehmedi",
-   "squad": "Wolfsburg"
+   "fut_ability_v2": 51.2,
+   "player_name": "Eldor Shomurodov",
+   "squad": "Genoa"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mathias Pereira Lage(FW)의 현재 능력 점수는 55.0점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 어시스트, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 무페널티 득점이다.",
-  "potential": "Mathias Pereira Lage의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 62.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 62.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mathias Pereira Lage의 2~3년 후 예측 중심값은 52.1점, 80% 구간 상단은 61.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

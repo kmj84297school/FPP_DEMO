@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8476,
-  "mu": 58.3,
+  "survival_prob": 0.8869,
+  "mu": 57.8,
   "ci80": {
-   "lo": 49.1,
-   "hi": 67.6
+   "lo": 48.4,
+   "hi": 67.0
   },
   "ci50": {
-   "lo": 53.5,
-   "hi": 63.2
+   "lo": 52.8,
+   "hi": 62.6
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f5deef4c",
    "season": 2020,
-   "distance": 1.131,
+   "distance": 1.146,
    "survived": 1,
    "fut_ability_v2": 60.1,
    "player_name": "Victor Lindelöf",
    "squad": "Manchester Utd"
   },
   {
+   "fbref_id": "9a64e67e",
+   "season": 2022,
+   "distance": 1.148,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Robin Le Normand",
+   "squad": "Real Sociedad"
+  },
+  {
    "fbref_id": "9f8e9423",
    "season": 2020,
-   "distance": 1.379,
+   "distance": 1.384,
    "survived": 1,
    "fut_ability_v2": 58.9,
    "player_name": "Raphaël Varane",
@@ -67,16 +76,25 @@
   {
    "fbref_id": "6eee05f1",
    "season": 2018,
-   "distance": 1.417,
+   "distance": 1.396,
    "survived": 1,
    "fut_ability_v2": 67.5,
    "player_name": "Berat Djimsiti",
    "squad": "Benevento"
   },
   {
+   "fbref_id": "f5deef4c",
+   "season": 2021,
+   "distance": 1.506,
+   "survived": 1,
+   "fut_ability_v2": 51.4,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
    "fbref_id": "bc6f5f06",
    "season": 2019,
-   "distance": 1.59,
+   "distance": 1.524,
    "survived": 1,
    "fut_ability_v2": 42.2,
    "player_name": "Sergi Gómez",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "3ead85f9",
    "season": 2020,
-   "distance": 1.606,
+   "distance": 1.572,
    "survived": 1,
    "fut_ability_v2": 57.4,
    "player_name": "Alessio Romagnoli",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "47af88b8",
    "season": 2020,
-   "distance": 1.648,
+   "distance": 1.622,
    "survived": 1,
    "fut_ability_v2": 49.9,
    "player_name": "Jason Denayer",
    "squad": "Lyon"
   },
   {
-   "fbref_id": "2928dca2",
-   "season": 2020,
-   "distance": 1.653,
-   "survived": 1,
-   "fut_ability_v2": 41.9,
-   "player_name": "Conor Coady",
-   "squad": "Wolves"
-  },
-  {
-   "fbref_id": "1d8e9add",
-   "season": 2019,
-   "distance": 1.679,
-   "survived": 1,
-   "fut_ability_v2": 55.5,
-   "player_name": "Kevin Vogt",
-   "squad": "Hoffenheim"
-  },
-  {
    "fbref_id": "d0d8dd44",
    "season": 2018,
-   "distance": 1.695,
+   "distance": 1.664,
    "survived": 1,
    "fut_ability_v2": 60.1,
    "player_name": "Stefan de Vrij",
    "squad": "Lazio"
   },
   {
-   "fbref_id": "9f8e9423",
+   "fbref_id": "f5deef4c",
    "season": 2019,
-   "distance": 1.717,
+   "distance": 1.666,
    "survived": 1,
-   "fut_ability_v2": 59.8,
-   "player_name": "Raphaël Varane",
-   "squad": "Real Madrid"
+   "fut_ability_v2": 59.5,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Obite N'Dicka(DF)의 현재 능력 점수는 56.6점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 공중볼 승률, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 성공 드리블이다.",
-  "potential": "Obite N'Dicka의 2~3년 후 예측 중심값은 58.3점, 80% 구간 상단은 67.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Obite N'Dicka의 2~3년 후 예측 중심값은 57.8점, 80% 구간 상단은 67.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 88.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

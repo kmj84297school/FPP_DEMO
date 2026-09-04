@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0787,
-  "mu": 43.4,
+  "survival_prob": 0.0912,
+  "mu": 38.4,
   "ci80": {
-   "lo": 33.8,
-   "hi": 52.9
+   "lo": 28.6,
+   "hi": 48.1
   },
   "ci50": {
-   "lo": 38.4,
-   "hi": 48.3
+   "lo": 33.2,
+   "hi": 43.5
   },
-  "sigma_model": 2.5,
-  "sigma_residual": 7.0
+  "sigma_model": 2.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "4e9a0555",
+   "season": 2022,
+   "distance": 2.332,
+   "survived": 1,
+   "fut_ability_v2": 46.3,
+   "player_name": "Chris Wood",
+   "squad": "Burnley / Newcastle Utd"
+  },
+  {
    "fbref_id": "34e4343c",
    "season": 2020,
-   "distance": 2.323,
+   "distance": 2.347,
    "survived": 1,
    "fut_ability_v2": 53.1,
    "player_name": "Anthony Modeste",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "3071a619",
    "season": 2019,
-   "distance": 2.437,
+   "distance": 2.431,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Nolan Roux",
@@ -67,16 +76,25 @@
   {
    "fbref_id": "d520120b",
    "season": 2019,
-   "distance": 2.493,
+   "distance": 2.522,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Júlio Tavares",
    "squad": "Dijon"
   },
   {
+   "fbref_id": "405f6586",
+   "season": 2022,
+   "distance": 2.541,
+   "survived": 1,
+   "fut_ability_v2": 30.0,
+   "player_name": "Milan Đurić",
+   "squad": "Salernitana"
+  },
+  {
    "fbref_id": "d520120b",
    "season": 2018,
-   "distance": 2.548,
+   "distance": 2.583,
    "survived": 1,
    "fut_ability_v2": 46.5,
    "player_name": "Júlio Tavares",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "1d6ac165",
    "season": 2019,
-   "distance": 2.645,
+   "distance": 2.656,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sam Vokes",
    "squad": "Burnley"
   },
   {
-   "fbref_id": "8ca253a3",
-   "season": 2018,
-   "distance": 2.823,
+   "fbref_id": "9980269a",
+   "season": 2021,
+   "distance": 2.667,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Claudio Beauvue",
-   "squad": "Leganés"
+   "player_name": "Kalifa Coulibaly",
+   "squad": "Nantes"
   },
   {
-   "fbref_id": "549c6ba7",
-   "season": 2018,
-   "distance": 2.825,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Franco Di Santo",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "863ff1ee",
-   "season": 2018,
-   "distance": 2.842,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simon Terodde",
-   "squad": "Köln / Stuttgart"
-  },
-  {
-   "fbref_id": "bb4b1242",
-   "season": 2018,
-   "distance": 2.911,
+   "fbref_id": "02319ad7",
+   "season": 2021,
+   "distance": 2.698,
    "survived": 1,
-   "fut_ability_v2": 41.8,
-   "player_name": "Sergi Enrich",
-   "squad": "Eibar"
+   "fut_ability_v2": 41.5,
+   "player_name": "Jaime Mata",
+   "squad": "Getafe"
   },
   {
-   "fbref_id": "1d6ac165",
-   "season": 2018,
-   "distance": 2.911,
+   "fbref_id": "d37b0350",
+   "season": 2021,
+   "distance": 2.71,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Sam Vokes",
-   "squad": "Burnley"
+   "player_name": "Leonardo Pavoletti",
+   "squad": "Cagliari"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Joel Pohjanpalo(FW)의 현재 능력 점수는 35.6점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 공중볼 승률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 운반이다.",
-  "potential": "Joel Pohjanpalo의 2~3년 후 예측 중심값은 43.4점, 80% 구간 상단은 52.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 7.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Joel Pohjanpalo의 2~3년 후 예측 중심값은 38.4점, 80% 구간 상단은 48.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 9.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

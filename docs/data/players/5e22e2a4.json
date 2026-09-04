@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4092,
-  "mu": 58.0,
+  "survival_prob": 0.3864,
+  "mu": 54.9,
   "ci80": {
-   "lo": 48.8,
-   "hi": 67.2
+   "lo": 45.6,
+   "hi": 64.1
   },
   "ci50": {
-   "lo": 53.2,
-   "hi": 62.9
+   "lo": 49.9,
+   "hi": 59.7
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "7106f0a0",
    "season": 2019,
-   "distance": 1.253,
+   "distance": 1.34,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Suárez",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "ea06dd97",
    "season": 2020,
-   "distance": 1.458,
+   "distance": 1.497,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Daniele Baselli",
    "squad": "Torino"
   },
   {
+   "fbref_id": "580d52dd",
+   "season": 2018,
+   "distance": 1.744,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Grzegorz Krychowiak",
+   "squad": "West Brom"
+  },
+  {
    "fbref_id": "f503ea63",
    "season": 2018,
-   "distance": 1.659,
+   "distance": 1.764,
    "survived": 1,
    "fut_ability_v2": 57.3,
    "player_name": "Albin Ekdal",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "c5fa58ea",
    "season": 2018,
-   "distance": 1.713,
+   "distance": 1.786,
    "survived": 1,
    "fut_ability_v2": 51.2,
    "player_name": "Pedro Mosquera",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "3cefa66a",
    "season": 2018,
-   "distance": 1.766,
+   "distance": 1.837,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Leroy Fer",
@@ -94,45 +103,36 @@
   {
    "fbref_id": "e12b0b5b",
    "season": 2019,
-   "distance": 1.801,
+   "distance": 1.841,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Sebastian Rode",
    "squad": "Eint Frankfurt"
   },
   {
-   "fbref_id": "580d52dd",
-   "season": 2018,
-   "distance": 1.817,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Grzegorz Krychowiak",
-   "squad": "West Brom"
-  },
-  {
-   "fbref_id": "7fec31a0",
-   "season": 2019,
-   "distance": 1.836,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Dan Gosling",
-   "squad": "Bournemouth"
-  },
-  {
    "fbref_id": "5acc4a10",
    "season": 2018,
-   "distance": 1.937,
+   "distance": 1.845,
    "survived": 1,
    "fut_ability_v2": 55.8,
    "player_name": "Étienne Capoue",
    "squad": "Watford"
   },
   {
+   "fbref_id": "44f8c299",
+   "season": 2021,
+   "distance": 1.858,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Deaux",
+   "squad": "Nîmes"
+  },
+  {
    "fbref_id": "7fec31a0",
-   "season": 2018,
-   "distance": 1.94,
-   "survived": 1,
-   "fut_ability_v2": 44.9,
+   "season": 2019,
+   "distance": 1.898,
+   "survived": 0,
+   "fut_ability_v2": null,
    "player_name": "Dan Gosling",
    "squad": "Bournemouth"
   }
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Baptiste Santamaria(MF)의 현재 능력 점수는 59.2점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 공중볼 승률, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 슈팅당 기대득점이다.",
-  "potential": "Baptiste Santamaria의 2~3년 후 예측 중심값은 58.0점, 80% 구간 상단은 67.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Baptiste Santamaria의 2~3년 후 예측 중심값은 54.9점, 80% 구간 상단은 64.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 38.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

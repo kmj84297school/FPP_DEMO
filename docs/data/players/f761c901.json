@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4599,
-  "mu": 51.9,
+  "survival_prob": 0.5105,
+  "mu": 53.3,
   "ci80": {
-   "lo": 42.7,
-   "hi": 61.0
+   "lo": 43.9,
+   "hi": 62.7
   },
   "ci50": {
-   "lo": 46.9,
-   "hi": 56.7
+   "lo": 48.3,
+   "hi": 58.2
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "6adbc307",
    "season": 2019,
-   "distance": 1.408,
+   "distance": 1.414,
    "survived": 1,
    "fut_ability_v2": 60.5,
    "player_name": "Jack Stephens",
@@ -58,83 +58,83 @@
   {
    "fbref_id": "92b4758e",
    "season": 2020,
-   "distance": 1.617,
+   "distance": 1.555,
    "survived": 1,
    "fut_ability_v2": 55.7,
    "player_name": "Samir Santos",
    "squad": "Udinese"
   },
   {
+   "fbref_id": "18abe173",
+   "season": 2021,
+   "distance": 1.591,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Joseph Aidoo",
+   "squad": "Celta Vigo"
+  },
+  {
+   "fbref_id": "c00097d2",
+   "season": 2022,
+   "distance": 1.653,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rober",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "ed3f5f4c",
+   "season": 2021,
+   "distance": 1.689,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Josema",
+   "squad": "Elche"
+  },
+  {
    "fbref_id": "aad48be9",
    "season": 2020,
-   "distance": 1.649,
+   "distance": 1.694,
    "survived": 1,
    "fut_ability_v2": 63.5,
    "player_name": "Niklas Stark",
    "squad": "Hertha BSC"
   },
   {
+   "fbref_id": "997fff07",
+   "season": 2022,
+   "distance": 1.694,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Sebastiano Luperto",
+   "squad": "Empoli"
+  },
+  {
    "fbref_id": "c67cd65c",
    "season": 2019,
-   "distance": 1.658,
+   "distance": 1.727,
    "survived": 1,
    "fut_ability_v2": 57.6,
    "player_name": "Rúben Vezo",
    "squad": "Levante / Valencia"
   },
   {
-   "fbref_id": "01a49bd2",
-   "season": 2020,
-   "distance": 1.769,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lisandro Magallán",
-   "squad": "Alavés"
+   "fbref_id": "16bb656a",
+   "season": 2022,
+   "distance": 1.785,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Paweł Dawidowicz",
+   "squad": "Hellas Verona"
   },
   {
    "fbref_id": "d0dbca9f",
    "season": 2020,
-   "distance": 1.788,
+   "distance": 1.815,
    "survived": 1,
    "fut_ability_v2": 49.2,
    "player_name": "Alex Ferrari",
    "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "ac861941",
-   "season": 2020,
-   "distance": 1.806,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Eric Dier",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "f7dc2ae5",
-   "season": 2019,
-   "distance": 1.815,
-   "survived": 1,
-   "fut_ability_v2": 61.7,
-   "player_name": "Aritz Elustondo",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "25f50295",
-   "season": 2018,
-   "distance": 1.857,
-   "survived": 1,
-   "fut_ability_v2": 50.2,
-   "player_name": "Mike van der Hoorn",
-   "squad": "Swansea City"
-  },
-  {
-   "fbref_id": "eb5bc3eb",
-   "season": 2018,
-   "distance": 1.877,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Enric Saborit",
-   "squad": "Athletic Club"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Tim Siersleben(DF)의 현재 능력 점수는 53.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 패스 거리, 슈팅당 기대득점, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 볼 리커버리이다.",
-  "potential": "Tim Siersleben의 2~3년 후 예측 중심값은 51.9점, 80% 구간 상단은 61.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 46.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Tim Siersleben의 2~3년 후 예측 중심값은 53.3점, 80% 구간 상단은 62.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 51.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

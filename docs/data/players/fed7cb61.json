@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6714,
-  "mu": 58.9,
+  "survival_prob": 0.8503,
+  "mu": 65.2,
   "ci80": {
-   "lo": 49.5,
-   "hi": 68.4
+   "lo": 55.6,
+   "hi": 74.8
   },
   "ci50": {
-   "lo": 54.0,
-   "hi": 64.0
+   "lo": 60.1,
+   "hi": 70.3
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 2.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "462475ed",
    "season": 2019,
-   "distance": 2.363,
+   "distance": 2.362,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Ludovic Ajorque",
@@ -57,8 +57,17 @@
   },
   {
    "fbref_id": "85613cf0",
+   "season": 2022,
+   "distance": 2.509,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "Arkadiusz Milik",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "85613cf0",
    "season": 2020,
-   "distance": 2.554,
+   "distance": 2.567,
    "survived": 1,
    "fut_ability_v2": 62.7,
    "player_name": "Arkadiusz Milik",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "e3fabb0a",
    "season": 2019,
-   "distance": 2.616,
+   "distance": 2.652,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Wu Lei",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "834d0be5",
    "season": 2019,
-   "distance": 2.647,
+   "distance": 2.675,
    "survived": 1,
    "fut_ability_v2": 53.9,
    "player_name": "Lucas Alario",
    "squad": "Leverkusen"
   },
   {
+   "fbref_id": "85613cf0",
+   "season": 2021,
+   "distance": 2.679,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "Arkadiusz Milik",
+   "squad": "Marseille"
+  },
+  {
    "fbref_id": "9592289a",
    "season": 2018,
-   "distance": 2.66,
+   "distance": 2.698,
    "survived": 1,
    "fut_ability_v2": 44.3,
    "player_name": "Simone Zaza",
    "squad": "Valencia"
   },
   {
+   "fbref_id": "462475ed",
+   "season": 2021,
+   "distance": 2.752,
+   "survived": 1,
+   "fut_ability_v2": 32.2,
+   "player_name": "Ludovic Ajorque",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "84399660",
    "season": 2019,
-   "distance": 2.824,
+   "distance": 2.826,
    "survived": 1,
    "fut_ability_v2": 48.4,
    "player_name": "Juanmi",
    "squad": "Real Sociedad"
   },
   {
-   "fbref_id": "c693347d",
-   "season": 2020,
-   "distance": 2.892,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andreas Cornelius",
-   "squad": "Parma"
-  },
-  {
-   "fbref_id": "bdedd861",
-   "season": 2019,
-   "distance": 2.964,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rachid Alioui",
-   "squad": "Nîmes"
-  },
-  {
-   "fbref_id": "834d0be5",
-   "season": 2018,
-   "distance": 2.991,
+   "fbref_id": "5d4f7d61",
+   "season": 2021,
+   "distance": 2.855,
    "survived": 1,
-   "fut_ability_v2": 56.4,
-   "player_name": "Lucas Alario",
+   "fut_ability_v2": 50.9,
+   "player_name": "Patrik Schick",
    "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "bdedd861",
-   "season": 2020,
-   "distance": 3.016,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rachid Alioui",
-   "squad": "Angers"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Kai Havertz(FW)의 현재 능력 점수는 60.5점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 클리어링, 슈팅당 기대득점, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 성공 드리블이다.",
-  "potential": "Kai Havertz의 2~3년 후 예측 중심값은 58.9점, 80% 구간 상단은 68.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 67.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Kai Havertz의 2~3년 후 예측 중심값은 65.2점, 80% 구간 상단은 74.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 85.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

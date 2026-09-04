@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2951,
-  "mu": 47.2,
+  "survival_prob": 0.4688,
+  "mu": 51.3,
   "ci80": {
-   "lo": 36.4,
-   "hi": 58.0
+   "lo": 40.6,
+   "hi": 62.0
   },
   "ci50": {
-   "lo": 41.6,
-   "hi": 52.8
+   "lo": 45.7,
+   "hi": 56.9
   },
-  "sigma_model": 2.4,
+  "sigma_model": 2.5,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "9038c2a1",
    "season": 2018,
-   "distance": 2.117,
+   "distance": 2.075,
    "survived": 1,
    "fut_ability_v2": 51.9,
    "player_name": "Jason",
@@ -58,16 +58,34 @@
   {
    "fbref_id": "f3b1d9a2",
    "season": 2019,
-   "distance": 2.123,
+   "distance": 2.128,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Amath",
    "squad": "Getafe"
   },
   {
+   "fbref_id": "f6496133",
+   "season": 2021,
+   "distance": 2.341,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Quentin Boisgard",
+   "squad": "Lorient"
+  },
+  {
+   "fbref_id": "71b47ab9",
+   "season": 2022,
+   "distance": 2.362,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Cucho",
+   "squad": "Watford"
+  },
+  {
    "fbref_id": "796b1c41",
    "season": 2018,
-   "distance": 2.299,
+   "distance": 2.37,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Saîf-Eddine Khaoui",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "ea02beaf",
    "season": 2020,
-   "distance": 2.434,
+   "distance": 2.44,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Remi Oudin",
    "squad": "Reims / Bordeaux"
   },
   {
-   "fbref_id": "bf075f6b",
-   "season": 2020,
-   "distance": 2.506,
+   "fbref_id": "0174ba21",
+   "season": 2022,
+   "distance": 2.467,
    "survived": 1,
-   "fut_ability_v2": 60.8,
-   "player_name": "Roland Sallai",
-   "squad": "Freiburg"
+   "fut_ability_v2": 62.4,
+   "player_name": "Robin Hack",
+   "squad": "Arminia"
   },
   {
    "fbref_id": "49ea92be",
    "season": 2020,
-   "distance": 2.507,
+   "distance": 2.483,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Iñigo Córdoba",
    "squad": "Athletic Club"
   },
   {
-   "fbref_id": "66385c46",
-   "season": 2019,
-   "distance": 2.556,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Levin Öztunalı",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "7958dc65",
-   "season": 2019,
-   "distance": 2.59,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luca Sangalli",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "de112b84",
-   "season": 2018,
-   "distance": 2.605,
-   "survived": 1,
-   "fut_ability_v2": 52.3,
-   "player_name": "Jacob Murphy",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "c6dc9ecd",
+   "fbref_id": "bf075f6b",
    "season": 2020,
-   "distance": 2.607,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Harry Wilson",
-   "squad": "Bournemouth"
+   "distance": 2.546,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Roland Sallai",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "16daec92",
+   "season": 2018,
+   "distance": 2.564,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Mijat Gaćinović",
+   "squad": "Eint Frankfurt"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Ramón Terrats(MF)의 현재 능력 점수는 42.8점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 성공 드리블, 무페널티 득점, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 전진 운반 거리이다.",
-  "potential": "Ramón Terrats의 2~3년 후 예측 중심값은 47.2점, 80% 구간 상단은 58.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 29.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ramón Terrats의 2~3년 후 예측 중심값은 51.3점, 80% 구간 상단은 62.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 46.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

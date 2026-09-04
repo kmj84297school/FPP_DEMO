@@ -1,4 +1,4 @@
-"""유사 선수 k-NN — 실제 t+2~t+3 결과가 있는 라벨 코호트(fpp_train_matrix_v2.csv)를
+"""유사 선수 k-NN — 실제 t+2~t+3 결과가 있는 라벨 코호트(fpp_train_matrix_<코호트>.csv)를
 이웃 풀로 사용해 2023 스냅샷 선수와 비슷한 과거 선수 k=10명을 찾는다.
 """
 import numpy as np
@@ -27,7 +27,7 @@ def pos_from_onehot(df):
 
 def find_neighbors(pool, query, k=10, age_tol=1):
     """
-    pool: fpp_train_matrix_v2.csv 로드본 (fbref_id, season, age_y, survived,
+    pool: fpp_train_matrix_<코호트>.csv 로드본 (fbref_id, season, age_y, survived,
           fut_ability_v2, pos_DF/FW/MF, DIST_COLS 포함), 기본 인덱스.
     query: 2023 eligible 선수 feature matrix, index=fbref_id, pos_primary/age_y/
            DIST_COLS 포함.

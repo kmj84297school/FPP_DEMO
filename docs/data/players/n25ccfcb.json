@@ -32,42 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3907,
-  "mu": 54.7,
+  "survival_prob": 0.296,
+  "mu": 52.4,
   "ci80": {
-   "lo": 45.2,
-   "hi": 64.1
+   "lo": 43.0,
+   "hi": 61.8
   },
   "ci50": {
-   "lo": 49.7,
-   "hi": 59.6
+   "lo": 47.5,
+   "hi": 57.3
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "c92e1a31",
+   "season": 2022,
+   "distance": 1.465,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kelechi Iheanacho",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "833fb62e",
    "season": 2020,
-   "distance": 1.836,
+   "distance": 1.837,
    "survived": 1,
    "fut_ability_v2": 39.0,
    "player_name": "Sandro Ramírez",
    "squad": "Valladolid"
   },
   {
+   "fbref_id": "743fd71f",
+   "season": 2021,
+   "distance": 1.887,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vagner Gonçalves",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "68c720b5",
+   "season": 2022,
+   "distance": 1.891,
+   "survived": 1,
+   "fut_ability_v2": 33.0,
+   "player_name": "Adam Armstrong",
+   "squad": "Southampton"
+  },
+  {
    "fbref_id": "99bebd12",
    "season": 2018,
-   "distance": 1.953,
+   "distance": 1.957,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "John Guidetti",
    "squad": "Alavés / Celta Vigo"
   },
   {
+   "fbref_id": "0d4ceb32",
+   "season": 2021,
+   "distance": 2.027,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matěj Vydra",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2019,
+   "distance": 2.053,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  },
+  {
    "fbref_id": "4c7940d6",
    "season": 2018,
-   "distance": 2.049,
+   "distance": 2.068,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Massimo Coda",
@@ -76,65 +121,20 @@
   {
    "fbref_id": "8f866fe8",
    "season": 2019,
-   "distance": 2.1,
+   "distance": 2.093,
    "survived": 1,
    "fut_ability_v2": 61.2,
    "player_name": "Manolo Gabbiadini",
    "squad": "Sampdoria / Southampton"
   },
   {
-   "fbref_id": "a3ddb1b9",
-   "season": 2019,
-   "distance": 2.104,
+   "fbref_id": "13ddc856",
+   "season": 2022,
+   "distance": 2.149,
    "survived": 1,
-   "fut_ability_v2": 57.1,
-   "player_name": "Mark Uth",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "157d29b6",
-   "season": 2018,
-   "distance": 2.161,
-   "survived": 1,
-   "fut_ability_v2": 61.7,
-   "player_name": "Diego Farias",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "f69fba57",
-   "season": 2018,
-   "distance": 2.202,
-   "survived": 1,
-   "fut_ability_v2": 60.3,
-   "player_name": "Yuya Osako",
-   "squad": "Köln"
-  },
-  {
-   "fbref_id": "0af4dcf0",
-   "season": 2018,
-   "distance": 2.212,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Cédric Bakambu",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "422ec08a",
-   "season": 2020,
-   "distance": 2.238,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Khouma Babacar",
-   "squad": "Lecce"
-  },
-  {
-   "fbref_id": "f69fba57",
-   "season": 2019,
-   "distance": 2.283,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yuya Osako",
-   "squad": "Werder Bremen"
+   "fut_ability_v2": 40.9,
+   "player_name": "Takuma Asano",
+   "squad": "Bochum"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Marco Grüll(FW)의 현재 능력 점수는 54.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 무페널티 득점, 블록, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 어시스트이다.",
-  "potential": "Marco Grüll의 2~3년 후 예측 중심값은 54.7점, 80% 구간 상단은 64.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 39.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marco Grüll의 2~3년 후 예측 중심값은 52.4점, 80% 구간 상단은 61.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

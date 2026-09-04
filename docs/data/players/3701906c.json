@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5559,
-  "mu": 51.2,
+  "survival_prob": 0.5049,
+  "mu": 52.9,
   "ci80": {
-   "lo": 41.9,
-   "hi": 60.7
+   "lo": 43.5,
+   "hi": 62.3
   },
   "ci50": {
-   "lo": 46.3,
-   "hi": 56.2
+   "lo": 48.0,
+   "hi": 57.9
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "3902e91b",
-   "season": 2020,
-   "distance": 1.956,
-   "survived": 1,
-   "fut_ability_v2": 48.0,
-   "player_name": "Gonzalo Melero",
-   "squad": "Levante"
+   "fbref_id": "614eca9b",
+   "season": 2021,
+   "distance": 1.852,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Hartel",
+   "squad": "Arminia"
+  },
+  {
+   "fbref_id": "22cd43d2",
+   "season": 2022,
+   "distance": 1.86,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Domen Črnigoj",
+   "squad": "Venezia"
   },
   {
    "fbref_id": "86695068",
    "season": 2020,
-   "distance": 1.959,
+   "distance": 1.892,
    "survived": 1,
    "fut_ability_v2": 53.4,
    "player_name": "Dennis Praet",
    "squad": "Leicester City"
   },
   {
+   "fbref_id": "3902e91b",
+   "season": 2020,
+   "distance": 1.927,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Gonzalo Melero",
+   "squad": "Levante"
+  },
+  {
    "fbref_id": "3eb0f2df",
    "season": 2018,
-   "distance": 1.994,
+   "distance": 2.008,
    "survived": 1,
    "fut_ability_v2": 55.0,
    "player_name": "Vladimír Darida",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "2334478a",
    "season": 2020,
-   "distance": 2.032,
+   "distance": 2.013,
    "survived": 1,
    "fut_ability_v2": 42.2,
    "player_name": "Stefano Sturaro",
    "squad": "Genoa"
   },
   {
-   "fbref_id": "9d4c45d6",
-   "season": 2018,
-   "distance": 2.09,
-   "survived": 1,
-   "fut_ability_v2": 69.9,
-   "player_name": "Roberto Soriano",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "d2ac648c",
-   "season": 2018,
-   "distance": 2.09,
+   "fbref_id": "83e4643e",
+   "season": 2021,
+   "distance": 2.044,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Gaku Shibasaki",
-   "squad": "Getafe"
+   "player_name": "Miha Zajc",
+   "squad": "Genoa"
   },
   {
-   "fbref_id": "02c15616",
-   "season": 2020,
-   "distance": 2.113,
-   "survived": 1,
-   "fut_ability_v2": 51.9,
-   "player_name": "Marcos Llorente",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "3312f911",
-   "season": 2019,
-   "distance": 2.124,
-   "survived": 1,
-   "fut_ability_v2": 50.5,
-   "player_name": "Jeffrey Schlupp",
-   "squad": "Crystal Palace"
+   "fbref_id": "2ceb58ab",
+   "season": 2021,
+   "distance": 2.086,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jairo Izquierdo",
+   "squad": "Cádiz"
   },
   {
    "fbref_id": "3f79a1c8",
    "season": 2019,
-   "distance": 2.159,
+   "distance": 2.097,
    "survived": 1,
    "fut_ability_v2": 50.4,
    "player_name": "Gonzalo Escalante",
    "squad": "Eibar"
   },
   {
-   "fbref_id": "b5b27493",
-   "season": 2018,
-   "distance": 2.244,
+   "fbref_id": "29b61deb",
+   "season": 2021,
+   "distance": 2.116,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Marcus Rohdén",
-   "squad": "Crotone"
+   "player_name": "Pere Pons",
+   "squad": "Alavés"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Pablo Ibáñez(MF)의 현재 능력 점수는 42.9점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 블록, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 슈팅 창출(SCA)이다.",
-  "potential": "Pablo Ibáñez의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 60.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pablo Ibáñez의 2~3년 후 예측 중심값은 52.9점, 80% 구간 상단은 62.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 50.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7341,
-  "mu": 60.5,
+  "survival_prob": 0.779,
+  "mu": 59.4,
   "ci80": {
-   "lo": 51.2,
-   "hi": 69.7
+   "lo": 50.1,
+   "hi": 68.7
   },
   "ci50": {
-   "lo": 55.6,
-   "hi": 65.3
+   "lo": 54.4,
+   "hi": 64.3
   },
   "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "555f3a0b",
+   "season": 2021,
+   "distance": 1.41,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Mario Hermoso",
+   "squad": "Atlético Madrid"
+  },
+  {
    "fbref_id": "f5b6fb78",
    "season": 2020,
-   "distance": 1.664,
+   "distance": 1.641,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Loris Benito",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "f521b80a",
    "season": 2020,
-   "distance": 1.69,
+   "distance": 1.708,
    "survived": 1,
    "fut_ability_v2": 62.4,
    "player_name": "Matthias Ginter",
@@ -67,72 +76,63 @@
   {
    "fbref_id": "61b3978f",
    "season": 2019,
-   "distance": 1.764,
+   "distance": 1.75,
    "survived": 1,
    "fut_ability_v2": 49.1,
    "player_name": "Bartosz Bereszyński",
    "squad": "Sampdoria"
   },
   {
-   "fbref_id": "699fb8db",
-   "season": 2019,
-   "distance": 2.004,
+   "fbref_id": "c40b6180",
+   "season": 2021,
+   "distance": 1.864,
    "survived": 1,
-   "fut_ability_v2": 57.0,
-   "player_name": "Dominique Heintz",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "61b3978f",
-   "season": 2018,
-   "distance": 2.021,
-   "survived": 1,
-   "fut_ability_v2": 49.0,
-   "player_name": "Bartosz Bereszyński",
-   "squad": "Sampdoria"
+   "fut_ability_v2": 58.3,
+   "player_name": "Adam Webster",
+   "squad": "Brighton"
   },
   {
    "fbref_id": "89ac64a6",
    "season": 2020,
-   "distance": 2.03,
+   "distance": 1.97,
    "survived": 1,
    "fut_ability_v2": 66.9,
    "player_name": "Manuel Akanji",
    "squad": "Dortmund"
   },
   {
-   "fbref_id": "7f78ad23",
-   "season": 2019,
-   "distance": 2.043,
-   "survived": 1,
-   "fut_ability_v2": 56.1,
-   "player_name": "Ricardo Rodríguez",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "321a71a7",
+   "fbref_id": "61b3978f",
    "season": 2018,
-   "distance": 2.181,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Maxime Le Marchand",
-   "squad": "Nice"
+   "distance": 1.988,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
   },
   {
    "fbref_id": "699fb8db",
-   "season": 2020,
-   "distance": 2.194,
-   "survived": 0,
-   "fut_ability_v2": null,
+   "season": 2019,
+   "distance": 2.031,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
    "player_name": "Dominique Heintz",
    "squad": "Freiburg"
   },
   {
-   "fbref_id": "7f78ad23",
-   "season": 2018,
-   "distance": 2.205,
+   "fbref_id": "06c48679",
+   "season": 2021,
+   "distance": 2.04,
    "survived": 1,
-   "fut_ability_v2": 54.7,
+   "fut_ability_v2": 57.4,
+   "player_name": "Jonathan Gradit",
+   "squad": "Lens"
+  },
+  {
+   "fbref_id": "7f78ad23",
+   "season": 2019,
+   "distance": 2.101,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
    "player_name": "Ricardo Rodríguez",
    "squad": "Milan"
   }
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Edmond Tapsoba(DF)의 현재 능력 점수는 58.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 최종 3분의1 패스, 전진 패스, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 실책이다.",
-  "potential": "Edmond Tapsoba의 2~3년 후 예측 중심값은 60.5점, 80% 구간 상단은 69.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 73.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Edmond Tapsoba의 2~3년 후 예측 중심값은 59.4점, 80% 구간 상단은 68.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 77.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

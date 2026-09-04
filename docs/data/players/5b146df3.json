@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8065,
-  "mu": 60.5,
+  "survival_prob": 0.6242,
+  "mu": 56.5,
   "ci80": {
-   "lo": 51.1,
-   "hi": 69.8
+   "lo": 47.2,
+   "hi": 65.8
   },
   "ci50": {
-   "lo": 55.5,
-   "hi": 65.4
+   "lo": 51.6,
+   "hi": 61.3
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "c40b6180",
+   "season": 2022,
+   "distance": 1.178,
+   "survived": 1,
+   "fut_ability_v2": 61.3,
+   "player_name": "Adam Webster",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "ea6bc03a",
+   "season": 2021,
+   "distance": 1.634,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Robin Koch",
+   "squad": "Leeds United"
+  },
+  {
    "fbref_id": "45954ec7",
    "season": 2020,
-   "distance": 1.707,
+   "distance": 1.686,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marcel Tisserand",
@@ -65,9 +83,18 @@
    "squad": "Chelsea"
   },
   {
+   "fbref_id": "6adbc307",
+   "season": 2021,
+   "distance": 1.904,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
    "fbref_id": "3fc45c73",
    "season": 2018,
-   "distance": 1.934,
+   "distance": 1.96,
    "survived": 1,
    "fut_ability_v2": 59.2,
    "player_name": "Iñigo Martínez",
@@ -76,64 +103,37 @@
   {
    "fbref_id": "463503e2",
    "season": 2018,
-   "distance": 2.052,
+   "distance": 2.066,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marcin Kamiński",
    "squad": "Stuttgart"
   },
   {
+   "fbref_id": "555f3a0b",
+   "season": 2022,
+   "distance": 2.091,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Mario Hermoso",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "fb77bfef",
+   "season": 2022,
+   "distance": 2.096,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Bonifazi",
+   "squad": "Bologna"
+  },
+  {
    "fbref_id": "44781702",
    "season": 2020,
-   "distance": 2.074,
+   "distance": 2.112,
    "survived": 1,
    "fut_ability_v2": 59.5,
    "player_name": "Ben Davies",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "93a50d2c",
-   "season": 2020,
-   "distance": 2.185,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kasim Nuhu",
-   "squad": "Düsseldorf"
-  },
-  {
-   "fbref_id": "f7dc2ae5",
-   "season": 2020,
-   "distance": 2.308,
-   "survived": 1,
-   "fut_ability_v2": 60.7,
-   "player_name": "Aritz Elustondo",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "b217ef29",
-   "season": 2018,
-   "distance": 2.381,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Joël Matip",
-   "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "b82880c6",
-   "season": 2018,
-   "distance": 2.391,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simon Falette",
-   "squad": "Eint Frankfurt / Metz"
-  },
-  {
-   "fbref_id": "ac861941",
-   "season": 2020,
-   "distance": 2.414,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Eric Dier",
    "squad": "Tottenham"
   }
  ],
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Lilian Brassier(DF)의 현재 능력 점수는 62.8점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 태클 성공률, 공중볼 승률, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 성공 드리블이다.",
-  "potential": "Lilian Brassier의 2~3년 후 예측 중심값은 60.5점, 80% 구간 상단은 69.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 80.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lilian Brassier의 2~3년 후 예측 중심값은 56.5점, 80% 구간 상단은 65.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 62.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

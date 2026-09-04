@@ -32,51 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8202,
-  "mu": 50.4,
+  "survival_prob": 0.5842,
+  "mu": 50.6,
   "ci80": {
-   "lo": 39.7,
-   "hi": 61.1
+   "lo": 39.8,
+   "hi": 61.4
   },
   "ci50": {
-   "lo": 44.8,
-   "hi": 55.9
+   "lo": 44.9,
+   "hi": 56.3
   },
-  "sigma_model": 2.2,
+  "sigma_model": 2.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "16daec92",
    "season": 2019,
-   "distance": 1.806,
+   "distance": 1.772,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mijat Gaćinović",
    "squad": "Eint Frankfurt"
   },
   {
+   "fbref_id": "a5bea1fb",
+   "season": 2022,
+   "distance": 2.15,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Timothy Tillman",
+   "squad": "Greuther Fürth"
+  },
+  {
    "fbref_id": "cac2537b",
    "season": 2019,
-   "distance": 2.139,
+   "distance": 2.158,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Enis Bardhi",
    "squad": "Levante"
+  },
+  {
+   "fbref_id": "0174ba21",
+   "season": 2022,
+   "distance": 2.279,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Robin Hack",
+   "squad": "Arminia"
   },
   {
    "fbref_id": "cac2537b",
    "season": 2018,
-   "distance": 2.367,
+   "distance": 2.365,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Enis Bardhi",
    "squad": "Levante"
   },
   {
+   "fbref_id": "c455a2b2",
+   "season": 2022,
+   "distance": 2.395,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Dejan Ljubicic",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "ee251371",
+   "season": 2021,
+   "distance": 2.417,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Alexis Saelemaekers",
+   "squad": "Milan"
+  },
+  {
    "fbref_id": "95facda1",
    "season": 2020,
-   "distance": 2.484,
+   "distance": 2.515,
    "survived": 1,
    "fut_ability_v2": 54.3,
    "player_name": "Nahitan Nández",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "82927de4",
    "season": 2020,
-   "distance": 2.563,
+   "distance": 2.539,
    "survived": 1,
    "fut_ability_v2": 65.0,
    "player_name": "Pablo Fornals",
    "squad": "West Ham"
   },
   {
-   "fbref_id": "d3298c99",
-   "season": 2018,
-   "distance": 2.588,
-   "survived": 1,
-   "fut_ability_v2": 62.5,
-   "player_name": "Daniele Verde",
-   "squad": "Hellas Verona"
-  },
-  {
-   "fbref_id": "7958dc65",
-   "season": 2019,
-   "distance": 2.604,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luca Sangalli",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "d2448564",
-   "season": 2020,
-   "distance": 2.609,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Samuel Grandsir",
-   "squad": "Brest"
-  },
-  {
    "fbref_id": "38126309",
    "season": 2020,
-   "distance": 2.635,
+   "distance": 2.583,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aleix Febas",
    "squad": "Mallorca"
-  },
-  {
-   "fbref_id": "d2fa73e7",
-   "season": 2018,
-   "distance": 2.766,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ivi",
-   "squad": "Levante"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Tomáš Suslov(MF)의 현재 능력 점수는 42.4점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 성공 드리블, 슈팅 창출(SCA), 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Tomáš Suslov의 2~3년 후 예측 중심값은 50.4점, 80% 구간 상단은 61.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 82.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Tomáš Suslov의 2~3년 후 예측 중심값은 50.6점, 80% 구간 상단은 61.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 58.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

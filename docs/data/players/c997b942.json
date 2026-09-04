@@ -32,24 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3797,
-  "mu": 56.8,
+  "survival_prob": 0.4203,
+  "mu": 57.1,
   "ci80": {
-   "lo": 46.3,
-   "hi": 67.2
+   "lo": 46.6,
+   "hi": 67.6
   },
   "ci50": {
-   "lo": 51.2,
-   "hi": 62.3
+   "lo": 51.6,
+   "hi": 62.6
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "46fa7204",
+   "season": 2022,
+   "distance": 1.804,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Agudelo",
+   "squad": "Spezia"
+  },
+  {
    "fbref_id": "b8d22478",
    "season": 2020,
-   "distance": 1.884,
+   "distance": 1.921,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Samuel Kalu",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "a99138af",
+   "season": 2022,
+   "distance": 1.987,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean Lucas",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "b8d22478",
+   "season": 2021,
+   "distance": 2.172,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Samuel Kalu",
@@ -58,16 +85,25 @@
   {
    "fbref_id": "636eae97",
    "season": 2019,
-   "distance": 2.068,
+   "distance": 2.222,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Toni Villa",
    "squad": "Valladolid"
   },
   {
+   "fbref_id": "49ea92be",
+   "season": 2019,
+   "distance": 2.239,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iñigo Córdoba",
+   "squad": "Athletic Club"
+  },
+  {
    "fbref_id": "34a0f5ff",
    "season": 2020,
-   "distance": 2.181,
+   "distance": 2.255,
    "survived": 1,
    "fut_ability_v2": 55.3,
    "player_name": "Javairô Dilrosun",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "e97fd090",
    "season": 2018,
-   "distance": 2.192,
+   "distance": 2.286,
    "survived": 1,
    "fut_ability_v2": 49.5,
    "player_name": "Ruben Loftus-Cheek",
    "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "49ea92be",
-   "season": 2019,
-   "distance": 2.286,
+   "fbref_id": "85dace26",
+   "season": 2022,
+   "distance": 2.311,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Iñigo Córdoba",
-   "squad": "Athletic Club"
+   "player_name": "Álex Collado",
+   "squad": "Granada"
   },
   {
    "fbref_id": "f6496133",
    "season": 2020,
-   "distance": 2.325,
+   "distance": 2.35,
    "survived": 1,
    "fut_ability_v2": 45.2,
    "player_name": "Quentin Boisgard",
    "squad": "Toulouse"
-  },
-  {
-   "fbref_id": "3010aefb",
-   "season": 2018,
-   "distance": 2.431,
-   "survived": 1,
-   "fut_ability_v2": 43.1,
-   "player_name": "Marcus Coco",
-   "squad": "Guingamp"
-  },
-  {
-   "fbref_id": "70678132",
-   "season": 2019,
-   "distance": 2.449,
-   "survived": 1,
-   "fut_ability_v2": 55.9,
-   "player_name": "Eduard Löwen",
-   "squad": "Nürnberg"
-  },
-  {
-   "fbref_id": "5eebbfdf",
-   "season": 2019,
-   "distance": 2.462,
-   "survived": 1,
-   "fut_ability_v2": 39.2,
-   "player_name": "Kenedy",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "5eebbfdf",
-   "season": 2018,
-   "distance": 2.661,
-   "survived": 1,
-   "fut_ability_v2": 39.2,
-   "player_name": "Kenedy",
-   "squad": "Newcastle Utd"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Roberto Navarro(MF)의 현재 능력 점수는 55.7점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 성공 드리블, 볼 리커버리, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 최종 3분의1 패스이다.",
-  "potential": "Roberto Navarro의 2~3년 후 예측 중심값은 56.8점, 80% 구간 상단은 67.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 38.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Roberto Navarro의 2~3년 후 예측 중심값은 57.1점, 80% 구간 상단은 67.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 42.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

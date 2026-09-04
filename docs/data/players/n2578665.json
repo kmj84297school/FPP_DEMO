@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4021,
-  "mu": 54.0,
+  "survival_prob": 0.367,
+  "mu": 52.6,
   "ci80": {
-   "lo": 44.8,
-   "hi": 63.2
+   "lo": 43.4,
+   "hi": 61.8
   },
   "ci50": {
-   "lo": 49.2,
-   "hi": 58.8
+   "lo": 47.7,
+   "hi": 57.4
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f10983ae",
    "season": 2020,
-   "distance": 1.545,
+   "distance": 1.491,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Steven Moreira",
@@ -58,34 +58,43 @@
   {
    "fbref_id": "e4b72e34",
    "season": 2020,
-   "distance": 1.582,
+   "distance": 1.596,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Miguel Trauco",
    "squad": "Saint-Étienne"
   },
   {
-   "fbref_id": "ed239245",
-   "season": 2018,
-   "distance": 1.659,
+   "fbref_id": "8a3c1dc7",
+   "season": 2022,
+   "distance": 1.625,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Antonio Luna",
-   "squad": "Levante"
+   "player_name": "Rico Henry",
+   "squad": "Brentford"
   },
   {
    "fbref_id": "872cd68c",
    "season": 2018,
-   "distance": 1.674,
+   "distance": 1.665,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Yoann Andreu",
    "squad": "Angers"
   },
   {
+   "fbref_id": "ed239245",
+   "season": 2018,
+   "distance": 1.697,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Luna",
+   "squad": "Levante"
+  },
+  {
    "fbref_id": "839c14e1",
    "season": 2018,
-   "distance": 1.691,
+   "distance": 1.741,
    "survived": 1,
    "fut_ability_v2": 54.7,
    "player_name": "Cédric Soares",
@@ -94,47 +103,38 @@
   {
    "fbref_id": "4e0afc5d",
    "season": 2020,
-   "distance": 1.716,
+   "distance": 1.754,
    "survived": 1,
    "fut_ability_v2": 47.4,
    "player_name": "Arnaud Souquet",
    "squad": "Montpellier"
   },
   {
-   "fbref_id": "22051fbe",
-   "season": 2018,
-   "distance": 1.785,
-   "survived": 1,
-   "fut_ability_v2": 56.8,
-   "player_name": "Giulio Donati",
-   "squad": "Mainz 05"
+   "fbref_id": "c067631c",
+   "season": 2020,
+   "distance": 1.773,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Fredericks",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "2e3406ae",
+   "season": 2020,
+   "distance": 1.775,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fran Gámez",
+   "squad": "Mallorca"
   },
   {
    "fbref_id": "8ff4872e",
    "season": 2019,
-   "distance": 1.822,
+   "distance": 1.799,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jordan Ikoko",
    "squad": "Guingamp"
-  },
-  {
-   "fbref_id": "e3e05edf",
-   "season": 2019,
-   "distance": 1.83,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ambroise Oyongo",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "d459281d",
-   "season": 2019,
-   "distance": 1.87,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Miiko Albornoz",
-   "squad": "Hannover 96"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Adrià Pedrosa(DF)의 현재 능력 점수는 52.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 슈팅 시도, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Adrià Pedrosa의 2~3년 후 예측 중심값은 54.0점, 80% 구간 상단은 63.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Adrià Pedrosa의 2~3년 후 예측 중심값은 52.6점, 80% 구간 상단은 61.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 36.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

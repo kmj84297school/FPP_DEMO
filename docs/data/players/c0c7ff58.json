@@ -32,24 +32,24 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.9243,
-  "mu": 67.4,
+  "survival_prob": 0.7359,
+  "mu": 72.3,
   "ci80": {
-   "lo": 57.6,
-   "hi": 77.4
+   "lo": 62.8,
+   "hi": 81.9
   },
   "ci50": {
-   "lo": 62.2,
-   "hi": 72.7
+   "lo": 67.3,
+   "hi": 77.3
   },
-  "sigma_model": 3.2,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "2903a856",
    "season": 2019,
-   "distance": 3.067,
+   "distance": 3.054,
    "survived": 1,
    "fut_ability_v2": 63.8,
    "player_name": "Jonas Hofmann",
@@ -58,34 +58,61 @@
   {
    "fbref_id": "9d4c45d6",
    "season": 2020,
-   "distance": 3.067,
+   "distance": 3.08,
    "survived": 1,
    "fut_ability_v2": 55.9,
    "player_name": "Roberto Soriano",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "e6ad16b2",
-   "season": 2018,
-   "distance": 3.071,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marek Hamšík",
-   "squad": "Napoli"
-  },
-  {
    "fbref_id": "ad6df2d5",
    "season": 2018,
-   "distance": 3.125,
+   "distance": 3.088,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Miralem Pjanić",
    "squad": "Juventus"
   },
   {
+   "fbref_id": "20e73fac",
+   "season": 2021,
+   "distance": 3.122,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "e6ad16b2",
+   "season": 2018,
+   "distance": 3.153,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marek Hamšík",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "a0f9b535",
+   "season": 2022,
+   "distance": 3.172,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Flavien Tait",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "5294a83f",
+   "season": 2022,
+   "distance": 3.216,
+   "survived": 1,
+   "fut_ability_v2": 76.5,
+   "player_name": "Luis Alberto",
+   "squad": "Lazio"
+  },
+  {
    "fbref_id": "819b3158",
    "season": 2019,
-   "distance": 3.168,
+   "distance": 3.216,
    "survived": 1,
    "fut_ability_v2": 78.8,
    "player_name": "İlkay Gündoğan",
@@ -94,50 +121,23 @@
   {
    "fbref_id": "b825a650",
    "season": 2018,
-   "distance": 3.261,
+   "distance": 3.253,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Kevin Kampl",
    "squad": "RB Leipzig / Leverkusen"
   },
   {
-   "fbref_id": "6ce1f46f",
-   "season": 2018,
-   "distance": 3.266,
-   "survived": 1,
-   "fut_ability_v2": 71.8,
-   "player_name": "Toni Kroos",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "819b3158",
-   "season": 2018,
-   "distance": 3.311,
-   "survived": 1,
-   "fut_ability_v2": 75.5,
-   "player_name": "İlkay Gündoğan",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "56413b1f",
-   "season": 2019,
-   "distance": 3.423,
-   "survived": 1,
-   "fut_ability_v2": 55.6,
-   "player_name": "Charles Aránguiz",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "980522ec",
-   "season": 2019,
-   "distance": 3.469,
-   "survived": 1,
-   "fut_ability_v2": 65.0,
-   "player_name": "Christian Eriksen",
-   "squad": "Tottenham"
+   "fbref_id": "a6de370d",
+   "season": 2022,
+   "distance": 3.265,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Canales",
+   "squad": "Betis"
   }
  ],
- "low_confidence": false,
+ "low_confidence": true,
  "report": {
   "strengths": [
    {
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Fabián Ruiz Peña(MF)의 현재 능력 점수는 83.3점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스, 최종 3분의1 패스, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Fabián Ruiz Peña의 2~3년 후 예측 중심값은 67.4점, 80% 구간 상단은 77.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 92.4%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Fabián Ruiz Peña의 2~3년 후 예측 중심값은 72.3점, 80% 구간 상단은 81.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 73.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

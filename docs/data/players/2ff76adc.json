@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2454,
-  "mu": 50.8,
+  "survival_prob": 0.2565,
+  "mu": 48.0,
   "ci80": {
-   "lo": 41.6,
-   "hi": 59.9
+   "lo": 38.8,
+   "hi": 57.2
   },
   "ci50": {
-   "lo": 45.9,
-   "hi": 55.6
+   "lo": 43.1,
+   "hi": 52.8
   },
-  "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "8332db56",
+   "season": 2022,
+   "distance": 1.864,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Thomas Delaine",
+   "squad": "Metz"
+  },
+  {
    "fbref_id": "f91e81c9",
    "season": 2020,
-   "distance": 1.882,
+   "distance": 1.913,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jens Stryger Larsen",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "dbe519cf",
    "season": 2019,
-   "distance": 1.926,
+   "distance": 1.969,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Antoñito",
    "squad": "Valladolid"
   },
   {
+   "fbref_id": "2321ea6e",
+   "season": 2022,
+   "distance": 1.974,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Le Goff",
+   "squad": "Lorient"
+  },
+  {
    "fbref_id": "5f09991f",
    "season": 2020,
-   "distance": 1.991,
+   "distance": 1.997,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Patrick van Aanholt",
    "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "767212e6",
-   "season": 2020,
-   "distance": 2.029,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Julien Faussurier",
-   "squad": "Brest"
-  },
-  {
    "fbref_id": "cacadf4f",
    "season": 2019,
-   "distance": 2.063,
+   "distance": 2.036,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luis Advíncula",
    "squad": "Rayo Vallecano"
   },
   {
+   "fbref_id": "767212e6",
+   "season": 2020,
+   "distance": 2.051,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Julien Faussurier",
+   "squad": "Brest"
+  },
+  {
    "fbref_id": "9f323c71",
    "season": 2019,
-   "distance": 2.111,
+   "distance": 2.057,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Óscar de Marcos",
    "squad": "Athletic Club"
   },
   {
-   "fbref_id": "173061c0",
-   "season": 2020,
-   "distance": 2.182,
-   "survived": 1,
-   "fut_ability_v2": 53.8,
-   "player_name": "Riccardo Gagliolo",
-   "squad": "Parma"
-  },
-  {
-   "fbref_id": "01226327",
-   "season": 2020,
-   "distance": 2.211,
+   "fbref_id": "17d4507a",
+   "season": 2021,
+   "distance": 2.062,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Ryan Bertrand",
-   "squad": "Southampton"
+   "player_name": "Enda Stevens",
+   "squad": "Sheffield Utd"
   },
   {
-   "fbref_id": "d1661819",
-   "season": 2020,
-   "distance": 2.215,
+   "fbref_id": "cee88597",
+   "season": 2022,
+   "distance": 2.073,
    "survived": 1,
-   "fut_ability_v2": 62.8,
-   "player_name": "Bastian Oczipka",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "9ba48d64",
-   "season": 2018,
-   "distance": 2.254,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Juanfran",
-   "squad": "La Coruña"
+   "fut_ability_v2": 41.1,
+   "player_name": "Iván Balliu",
+   "squad": "Rayo Vallecano"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Phillipp Mwene(DF)의 현재 능력 점수는 50.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 골 창출(GCA), 박스 진입 패스, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 클리어링이다.",
-  "potential": "Phillipp Mwene의 2~3년 후 예측 중심값은 50.8점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 24.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Phillipp Mwene의 2~3년 후 예측 중심값은 48.0점, 80% 구간 상단은 57.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

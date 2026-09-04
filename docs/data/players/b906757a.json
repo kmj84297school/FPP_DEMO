@@ -32,60 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3333,
-  "mu": 54.6,
+  "survival_prob": 0.619,
+  "mu": 50.5,
   "ci80": {
-   "lo": 45.1,
-   "hi": 63.9
+   "lo": 41.1,
+   "hi": 59.9
   },
   "ci50": {
-   "lo": 49.6,
-   "hi": 59.5
+   "lo": 45.6,
+   "hi": 55.5
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "4fdf1fd9",
    "season": 2020,
-   "distance": 1.455,
+   "distance": 1.471,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Björn Engels",
    "squad": "Aston Villa"
   },
   {
-   "fbref_id": "fd47b4f2",
-   "season": 2020,
-   "distance": 1.49,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Rodrigo Ely",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "be3a0121",
-   "season": 2018,
-   "distance": 1.515,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jonás Ramalho",
-   "squad": "Girona"
-  },
-  {
    "fbref_id": "08082af0",
    "season": 2019,
-   "distance": 1.585,
+   "distance": 1.504,
    "survived": 1,
    "fut_ability_v2": 51.7,
    "player_name": "Loïck Landre",
    "squad": "Nîmes"
   },
   {
+   "fbref_id": "fd47b4f2",
+   "season": 2020,
+   "distance": 1.53,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Rodrigo Ely",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "b86a64b2",
+   "season": 2021,
+   "distance": 1.534,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joaquín Fernández",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "93090f69",
+   "season": 2022,
+   "distance": 1.563,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Domingos Duarte",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "be3a0121",
+   "season": 2018,
+   "distance": 1.578,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonás Ramalho",
+   "squad": "Girona"
+  },
+  {
    "fbref_id": "01a49bd2",
    "season": 2020,
-   "distance": 1.647,
+   "distance": 1.646,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lisandro Magallán",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "7f203b54",
    "season": 2018,
-   "distance": 1.712,
+   "distance": 1.725,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Chema",
    "squad": "Levante"
   },
   {
-   "fbref_id": "1900032e",
-   "season": 2020,
-   "distance": 1.868,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jannik Vestergaard",
-   "squad": "Southampton"
+   "fbref_id": "450ab6fc",
+   "season": 2021,
+   "distance": 1.726,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Jamaal Lascelles",
+   "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "7ed4921e",
-   "season": 2020,
-   "distance": 2.009,
+   "fbref_id": "93090f69",
+   "season": 2021,
+   "distance": 1.811,
    "survived": 1,
-   "fut_ability_v2": 48.2,
-   "player_name": "William Troost-Ekong",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "c67cd65c",
-   "season": 2019,
-   "distance": 2.045,
-   "survived": 1,
-   "fut_ability_v2": 57.6,
-   "player_name": "Rúben Vezo",
-   "squad": "Levante / Valencia"
-  },
-  {
-   "fbref_id": "ac861941",
-   "season": 2020,
-   "distance": 2.057,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Eric Dier",
-   "squad": "Tottenham"
+   "fut_ability_v2": 46.1,
+   "player_name": "Domingos Duarte",
+   "squad": "Granada"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Aitor Paredes(DF)의 현재 능력 점수는 45.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 무페널티 득점, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 운반이다.",
-  "potential": "Aitor Paredes의 2~3년 후 예측 중심값은 54.6점, 80% 구간 상단은 63.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 33.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Aitor Paredes의 2~3년 후 예측 중심값은 50.5점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

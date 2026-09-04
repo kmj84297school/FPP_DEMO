@@ -29,27 +29,27 @@
   "eligible_for_prediction": true,
   "kind": "growth",
   "reason": null,
-  "out_of_validated_range": true
+  "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9762,
-  "mu": 66.1,
+  "survival_prob": 0.9583,
+  "mu": 67.6,
   "ci80": {
-   "lo": 55.5,
-   "hi": 76.7
+   "lo": 57.0,
+   "hi": 78.2
   },
   "ci50": {
-   "lo": 60.6,
-   "hi": 71.7
+   "lo": 62.1,
+   "hi": 73.2
   },
-  "sigma_model": 1.9,
+  "sigma_model": 2.3,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "20094685",
    "season": 2019,
-   "distance": 3.302,
+   "distance": 3.271,
    "survived": 1,
    "fut_ability_v2": 60.3,
    "player_name": "Maxime Lopez",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "c0c7ff58",
    "season": 2019,
-   "distance": 3.605,
+   "distance": 3.63,
    "survived": 1,
    "fut_ability_v2": 71.2,
    "player_name": "Fabián Ruiz Peña",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "79300479",
    "season": 2020,
-   "distance": 3.653,
+   "distance": 3.689,
    "survived": 1,
    "fut_ability_v2": 71.4,
    "player_name": "Martin Ødegaard",
@@ -76,7 +76,7 @@
   {
    "fbref_id": "6fbde63a",
    "season": 2018,
-   "distance": 3.704,
+   "distance": 3.695,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Yassine Benzia",
@@ -85,16 +85,25 @@
   {
    "fbref_id": "5cdddffa",
    "season": 2019,
-   "distance": 3.923,
+   "distance": 3.903,
    "survived": 1,
    "fut_ability_v2": 61.1,
    "player_name": "Tanguy Ndombele",
    "squad": "Lyon"
   },
   {
+   "fbref_id": "9674002f",
+   "season": 2021,
+   "distance": 4.213,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mason Mount",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "ee38d9c5",
    "season": 2020,
-   "distance": 4.238,
+   "distance": 4.242,
    "survived": 1,
    "fut_ability_v2": 67.2,
    "player_name": "James Maddison",
@@ -103,7 +112,7 @@
   {
    "fbref_id": "032f894e",
    "season": 2020,
-   "distance": 4.417,
+   "distance": 4.432,
    "survived": 1,
    "fut_ability_v2": 68.6,
    "player_name": "Renato Sanches",
@@ -112,28 +121,19 @@
   {
    "fbref_id": "a5db0bec",
    "season": 2019,
-   "distance": 4.491,
+   "distance": 4.444,
    "survived": 1,
    "fut_ability_v2": 74.0,
    "player_name": "Houssem Aouar",
    "squad": "Lyon"
   },
   {
-   "fbref_id": "a8a874f1",
-   "season": 2020,
-   "distance": 4.6,
+   "fbref_id": "79300479",
+   "season": 2022,
+   "distance": 4.45,
    "survived": 1,
-   "fut_ability_v2": 61.1,
-   "player_name": "Manuel Locatelli",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "6ca5ec4b",
-   "season": 2018,
-   "distance": 4.64,
-   "survived": 1,
-   "fut_ability_v2": 56.3,
-   "player_name": "Alex Iwobi",
+   "fut_ability_v2": 78.0,
+   "player_name": "Martin Ødegaard",
    "squad": "Arsenal"
   }
  ],
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Pedri(MF)의 현재 능력 점수는 79.1점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 볼 리커버리, 전진 패스, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Pedri의 2~3년 후 예측 중심값은 66.1점, 80% 구간 상단은 76.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Pedri의 2~3년 후 예측 중심값은 67.6점, 80% 구간 상단은 78.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

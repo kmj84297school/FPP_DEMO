@@ -32,60 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4372,
-  "mu": 45.4,
+  "survival_prob": 0.6588,
+  "mu": 48.3,
   "ci80": {
-   "lo": 36.2,
-   "hi": 54.7
+   "lo": 39.0,
+   "hi": 57.7
   },
   "ci50": {
-   "lo": 40.6,
-   "hi": 50.3
+   "lo": 43.4,
+   "hi": 53.3
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "45e17712",
+   "season": 2021,
+   "distance": 1.103,
+   "survived": 1,
+   "fut_ability_v2": 43.3,
+   "player_name": "Dimitri Foulquier",
+   "squad": "Granada"
+  },
+  {
    "fbref_id": "8e45910b",
    "season": 2019,
-   "distance": 1.176,
+   "distance": 1.133,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Francesco Zampano",
    "squad": "Frosinone"
   },
   {
+   "fbref_id": "394854c4",
+   "season": 2021,
+   "distance": 1.53,
+   "survived": 1,
+   "fut_ability_v2": 41.5,
+   "player_name": "George Baldock",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "90eb507d",
+   "season": 2022,
+   "distance": 1.561,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Thomas Foket",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "8a3c1dc7",
+   "season": 2022,
+   "distance": 1.606,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rico Henry",
+   "squad": "Brentford"
+  },
+  {
    "fbref_id": "e3e05edf",
    "season": 2020,
-   "distance": 1.654,
+   "distance": 1.684,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ambroise Oyongo",
    "squad": "Montpellier"
   },
   {
-   "fbref_id": "f2308b33",
-   "season": 2020,
-   "distance": 1.744,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jonathan Silva",
-   "squad": "Leganés"
-  },
-  {
    "fbref_id": "7fecbcdb",
    "season": 2019,
-   "distance": 1.772,
+   "distance": 1.694,
    "survived": 1,
    "fut_ability_v2": 45.0,
    "player_name": "Abdoulaye Bamba",
    "squad": "Angers"
   },
   {
+   "fbref_id": "f2308b33",
+   "season": 2020,
+   "distance": 1.741,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Silva",
+   "squad": "Leganés"
+  },
+  {
    "fbref_id": "ed239245",
    "season": 2018,
-   "distance": 1.789,
+   "distance": 1.749,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Antonio Luna",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "4e0afc5d",
    "season": 2020,
-   "distance": 1.84,
+   "distance": 1.79,
    "survived": 1,
    "fut_ability_v2": 47.4,
    "player_name": "Arnaud Souquet",
    "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "d459281d",
-   "season": 2019,
-   "distance": 1.884,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Miiko Albornoz",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "cacadf4f",
-   "season": 2019,
-   "distance": 1.913,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luis Advíncula",
-   "squad": "Rayo Vallecano"
-  },
-  {
-   "fbref_id": "3dffff26",
-   "season": 2018,
-   "distance": 1.942,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Julian Korb",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "13203c45",
-   "season": 2020,
-   "distance": 1.963,
-   "survived": 1,
-   "fut_ability_v2": 48.7,
-   "player_name": "Jérôme Roussillon",
-   "squad": "Wolfsburg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Javi Hernández(DF)의 현재 능력 점수는 43.5점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 무페널티 득점, 성공 드리블, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 태클+인터셉트이다.",
-  "potential": "Javi Hernández의 2~3년 후 예측 중심값은 45.4점, 80% 구간 상단은 54.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 43.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Javi Hernández의 2~3년 후 예측 중심값은 48.3점, 80% 구간 상단은 57.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 65.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

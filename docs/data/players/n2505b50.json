@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8434,
-  "mu": 64.0,
+  "survival_prob": 0.6669,
+  "mu": 68.7,
   "ci80": {
-   "lo": 54.7,
-   "hi": 73.3
+   "lo": 59.4,
+   "hi": 78.0
   },
   "ci50": {
-   "lo": 59.2,
-   "hi": 68.9
+   "lo": 63.9,
+   "hi": 73.6
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "070ec0b1",
    "season": 2020,
-   "distance": 1.409,
+   "distance": 1.373,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sven Bender",
    "squad": "Leverkusen"
   },
   {
+   "fbref_id": "e27da244",
+   "season": 2021,
+   "distance": 1.551,
+   "survived": 1,
+   "fut_ability_v2": 67.5,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "8c725b43",
    "season": 2019,
-   "distance": 1.626,
+   "distance": 1.691,
    "survived": 1,
    "fut_ability_v2": 52.0,
    "player_name": "Germán Pezzella",
@@ -67,16 +76,25 @@
   {
    "fbref_id": "1ec7e1c5",
    "season": 2018,
-   "distance": 1.647,
+   "distance": 1.696,
    "survived": 1,
    "fut_ability_v2": 61.4,
    "player_name": "Damien Da Silva",
    "squad": "Caen"
   },
   {
+   "fbref_id": "9fbbcf39",
+   "season": 2022,
+   "distance": 1.772,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Romain Saïss",
+   "squad": "Wolves"
+  },
+  {
    "fbref_id": "3e5e4e63",
    "season": 2019,
-   "distance": 1.701,
+   "distance": 1.773,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Steve Cook",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "a4ac4b8f",
    "season": 2019,
-   "distance": 1.754,
+   "distance": 1.785,
    "survived": 1,
    "fut_ability_v2": 57.8,
    "player_name": "Willy Boly",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "3befc2b6",
    "season": 2020,
-   "distance": 1.842,
+   "distance": 1.813,
    "survived": 1,
    "fut_ability_v2": 61.2,
    "player_name": "Andrei Girotto",
    "squad": "Nantes"
   },
   {
-   "fbref_id": "b96b595c",
-   "season": 2018,
-   "distance": 1.974,
+   "fbref_id": "3befc2b6",
+   "season": 2021,
+   "distance": 1.866,
    "survived": 1,
-   "fut_ability_v2": 65.0,
-   "player_name": "Francesco Acerbi",
-   "squad": "Sassuolo"
+   "fut_ability_v2": 58.7,
+   "player_name": "Andrei Girotto",
+   "squad": "Nantes"
   },
   {
-   "fbref_id": "0db5d2c8",
-   "season": 2018,
-   "distance": 2.026,
+   "fbref_id": "b0a0698b",
+   "season": 2021,
+   "distance": 1.937,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Mathias Jørgensen",
-   "squad": "Huddersfield"
-  },
-  {
-   "fbref_id": "32c2d95f",
-   "season": 2020,
-   "distance": 2.055,
-   "survived": 1,
-   "fut_ability_v2": 58.1,
-   "player_name": "Yunis Abdelhamid",
-   "squad": "Reims"
-  },
-  {
-   "fbref_id": "f2c1300a",
-   "season": 2019,
-   "distance": 2.08,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vitor Hugo",
-   "squad": "Fiorentina"
+   "player_name": "Rafael Czichos",
+   "squad": "Köln"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Patrick Mainka(DF)의 현재 능력 점수는 73.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 블록, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 성공 드리블이다.",
-  "potential": "Patrick Mainka의 2~3년 후 예측 중심값은 64.0점, 80% 구간 상단은 73.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Patrick Mainka의 2~3년 후 예측 중심값은 68.7점, 80% 구간 상단은 78.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 66.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

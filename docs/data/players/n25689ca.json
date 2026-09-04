@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2504,
-  "mu": 48.9,
+  "survival_prob": 0.2018,
+  "mu": 50.1,
   "ci80": {
-   "lo": 39.5,
-   "hi": 58.1
+   "lo": 40.7,
+   "hi": 59.4
   },
   "ci50": {
-   "lo": 43.9,
-   "hi": 53.7
+   "lo": 45.1,
+   "hi": 54.9
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f7aa75bd",
+   "season": 2022,
+   "distance": 1.841,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "f7aa75bd",
    "season": 2020,
-   "distance": 2.058,
+   "distance": 2.081,
    "survived": 1,
    "fut_ability_v2": 49.6,
    "player_name": "Marvin Plattenhardt",
    "squad": "Hertha BSC"
   },
   {
+   "fbref_id": "71ef519e",
+   "season": 2021,
+   "distance": 2.18,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
    "fbref_id": "97572117",
    "season": 2019,
-   "distance": 2.199,
+   "distance": 2.181,
    "survived": 1,
    "fut_ability_v2": 40.1,
    "player_name": "Allan Nyom",
@@ -67,16 +85,25 @@
   {
    "fbref_id": "1a317a1b",
    "season": 2018,
-   "distance": 2.277,
+   "distance": 2.305,
    "survived": 1,
    "fut_ability_v2": 49.0,
    "player_name": "Raúl García",
    "squad": "Leganés"
   },
   {
+   "fbref_id": "ae4e2852",
+   "season": 2022,
+   "distance": 2.387,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mattia De Sciglio",
+   "squad": "Juventus"
+  },
+  {
    "fbref_id": "d1661819",
    "season": 2019,
-   "distance": 2.339,
+   "distance": 2.414,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Bastian Oczipka",
@@ -85,7 +112,7 @@
   {
    "fbref_id": "81069528",
    "season": 2020,
-   "distance": 2.386,
+   "distance": 2.429,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Roberto Rosales",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "71ef519e",
    "season": 2020,
-   "distance": 2.471,
+   "distance": 2.528,
    "survived": 1,
    "fut_ability_v2": 49.7,
    "player_name": "Matt Ritchie",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "e29d1111",
-   "season": 2020,
-   "distance": 2.855,
+   "fbref_id": "f45f9427",
+   "season": 2022,
+   "distance": 2.615,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Nacho",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "c067631c",
-   "season": 2020,
-   "distance": 2.872,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ryan Fredericks",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "21512407",
-   "season": 2020,
-   "distance": 2.914,
-   "survived": 1,
-   "fut_ability_v2": 58.8,
-   "player_name": "Kieran Trippier",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "1e12c53b",
-   "season": 2020,
-   "distance": 2.994,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bruno Martella",
-   "squad": "Brescia"
+   "player_name": "Dalbert Henrique",
+   "squad": "Cagliari"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Ryan Manning(DF)의 현재 능력 점수는 52.8점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 도움 기대값(xAG), 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 전진 운반 거리이다.",
-  "potential": "Ryan Manning의 2~3년 후 예측 중심값은 48.9점, 80% 구간 상단은 58.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ryan Manning의 2~3년 후 예측 중심값은 50.1점, 80% 구간 상단은 59.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

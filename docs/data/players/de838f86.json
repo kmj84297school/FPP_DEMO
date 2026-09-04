@@ -32,42 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5531,
-  "mu": 56.9,
+  "survival_prob": 0.4998,
+  "mu": 55.3,
   "ci80": {
-   "lo": 47.5,
-   "hi": 66.2
+   "lo": 45.9,
+   "hi": 64.8
   },
   "ci50": {
-   "lo": 52.0,
-   "hi": 61.8
+   "lo": 50.4,
+   "hi": 60.3
   },
   "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "7adea561",
    "season": 2018,
-   "distance": 1.903,
+   "distance": 1.923,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jérémy Toulalan",
    "squad": "Bordeaux"
   },
   {
+   "fbref_id": "00844823",
+   "season": 2021,
+   "distance": 2.061,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niklas Moisander",
+   "squad": "Werder Bremen"
+  },
+  {
    "fbref_id": "53de807a",
    "season": 2020,
-   "distance": 2.046,
+   "distance": 2.096,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ștefan Radu",
    "squad": "Lazio"
   },
   {
+   "fbref_id": "474ecac8",
+   "season": 2021,
+   "distance": 2.123,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "87935cf3",
+   "season": 2022,
+   "distance": 2.285,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mamadou Sakho",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "b0a0698b",
+   "season": 2022,
+   "distance": 2.295,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafael Czichos",
+   "squad": "Köln"
+  },
+  {
    "fbref_id": "80e4c841",
    "season": 2020,
-   "distance": 2.262,
+   "distance": 2.302,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aurélien Chedjou",
@@ -76,7 +112,7 @@
   {
    "fbref_id": "53de807a",
    "season": 2018,
-   "distance": 2.293,
+   "distance": 2.328,
    "survived": 1,
    "fut_ability_v2": 59.8,
    "player_name": "Ștefan Radu",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "4bd414c1",
    "season": 2019,
-   "distance": 2.366,
+   "distance": 2.387,
    "survived": 1,
    "fut_ability_v2": 54.4,
    "player_name": "Raúl Albiol",
    "squad": "Napoli"
   },
   {
-   "fbref_id": "51e3954c",
-   "season": 2018,
-   "distance": 2.387,
-   "survived": 1,
-   "fut_ability_v2": 52.5,
-   "player_name": "Facundo Roncaglia",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "9ab16552",
-   "season": 2019,
-   "distance": 2.409,
-   "survived": 1,
-   "fut_ability_v2": 62.0,
-   "player_name": "Makoto Hasebe",
-   "squad": "Eint Frankfurt"
-  },
-  {
    "fbref_id": "56400c01",
    "season": 2018,
-   "distance": 2.467,
+   "distance": 2.419,
    "survived": 1,
    "fut_ability_v2": 45.0,
    "player_name": "Fabio Pisacane",
    "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "e0314d87",
-   "season": 2020,
-   "distance": 2.474,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andrea Masiello",
-   "squad": "Genoa / Atalanta"
-  },
-  {
-   "fbref_id": "6e5b5a45",
-   "season": 2019,
-   "distance": 2.483,
-   "survived": 1,
-   "fut_ability_v2": 48.1,
-   "player_name": "Wesley Lautoa",
-   "squad": "Dijon"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Anthony Jung(DF)의 현재 능력 점수는 58.8점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 패스, 전진 패스 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
-  "potential": "Anthony Jung의 2~3년 후 예측 중심값은 56.9점, 80% 구간 상단은 66.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Anthony Jung의 2~3년 후 예측 중심값은 55.3점, 80% 구간 상단은 64.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 50.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

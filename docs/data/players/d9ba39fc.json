@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5108,
-  "mu": 54.8,
+  "survival_prob": 0.3252,
+  "mu": 50.7,
   "ci80": {
-   "lo": 45.6,
-   "hi": 64.1
+   "lo": 41.5,
+   "hi": 59.9
   },
   "ci50": {
-   "lo": 49.9,
-   "hi": 59.7
+   "lo": 45.9,
+   "hi": 55.6
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "ba5004e1",
+   "season": 2022,
+   "distance": 1.529,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Damián Suárez",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "ba5004e1",
    "season": 2018,
-   "distance": 1.68,
+   "distance": 1.729,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Damián Suárez",
    "squad": "Getafe"
   },
   {
+   "fbref_id": "e5d01ecf",
+   "season": 2022,
+   "distance": 1.898,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
    "fbref_id": "3e4f735d",
    "season": 2018,
-   "distance": 1.92,
+   "distance": 1.971,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Vitorino Antunes",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "ba5004e1",
    "season": 2019,
-   "distance": 2.024,
+   "distance": 2.085,
    "survived": 1,
    "fut_ability_v2": 52.2,
    "player_name": "Damián Suárez",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "e29d1111",
    "season": 2019,
-   "distance": 2.209,
+   "distance": 2.236,
    "survived": 1,
    "fut_ability_v2": 51.6,
    "player_name": "Nacho",
    "squad": "Valladolid"
   },
   {
+   "fbref_id": "db001fa9",
+   "season": 2022,
+   "distance": 2.24,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Alfonso Espino",
+   "squad": "Cádiz"
+  },
+  {
    "fbref_id": "3624ce4c",
    "season": 2020,
-   "distance": 2.224,
+   "distance": 2.257,
    "survived": 1,
    "fut_ability_v2": 50.4,
    "player_name": "Víctor Díaz",
    "squad": "Granada"
   },
   {
-   "fbref_id": "00a6485f",
-   "season": 2018,
-   "distance": 2.434,
+   "fbref_id": "e29d1111",
+   "season": 2021,
+   "distance": 2.299,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Andreas Beck",
-   "squad": "Stuttgart"
+   "player_name": "Nacho",
+   "squad": "Valladolid"
   },
   {
-   "fbref_id": "652811aa",
-   "season": 2020,
-   "distance": 2.537,
+   "fbref_id": "9a9c05db",
+   "season": 2021,
+   "distance": 2.329,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Marco Calderoni",
-   "squad": "Lecce"
-  },
-  {
-   "fbref_id": "767212e6",
-   "season": 2020,
-   "distance": 2.54,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Julien Faussurier",
-   "squad": "Brest"
-  },
-  {
-   "fbref_id": "ba5004e1",
-   "season": 2020,
-   "distance": 2.546,
-   "survived": 1,
-   "fut_ability_v2": 52.3,
-   "player_name": "Damián Suárez",
-   "squad": "Getafe"
-  },
-  {
-   "fbref_id": "7f4c7c9f",
-   "season": 2019,
-   "distance": 2.555,
-   "survived": 1,
-   "fut_ability_v2": 54.9,
-   "player_name": "Jorge Miramón",
-   "squad": "Huesca"
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Diego Rico(DF)의 현재 능력 점수는 52.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 키패스, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 전진 운반 거리이다.",
-  "potential": "Diego Rico의 2~3년 후 예측 중심값은 54.8점, 80% 구간 상단은 64.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 51.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Diego Rico의 2~3년 후 예측 중심값은 50.7점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,51 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9715,
-  "mu": 68.4,
+  "survival_prob": 0.9535,
+  "mu": 73.1,
   "ci80": {
-   "lo": 57.3,
-   "hi": 79.4
+   "lo": 62.3,
+   "hi": 83.9
   },
   "ci50": {
-   "lo": 62.6,
-   "hi": 74.2
+   "lo": 67.4,
+   "hi": 78.9
   },
-  "sigma_model": 3.1,
+  "sigma_model": 2.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "b19db005",
    "season": 2019,
-   "distance": 2.71,
+   "distance": 2.902,
    "survived": 1,
    "fut_ability_v2": 76.7,
    "player_name": "Ousmane Dembélé",
    "squad": "Barcelona"
   },
   {
+   "fbref_id": "7111d552",
+   "season": 2022,
+   "distance": 2.957,
+   "survived": 1,
+   "fut_ability_v2": 77.9,
+   "player_name": "Vinicius Júnior",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "7111d552",
+   "season": 2021,
+   "distance": 3.261,
+   "survived": 1,
+   "fut_ability_v2": 78.8,
+   "player_name": "Vinicius Júnior",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "1bf33a9a",
    "season": 2020,
-   "distance": 3.525,
+   "distance": 3.423,
    "survived": 1,
    "fut_ability_v2": 50.4,
    "player_name": "Christian Pulisic",
    "squad": "Chelsea"
   },
   {
+   "fbref_id": "ed1e53f3",
+   "season": 2021,
+   "distance": 3.526,
+   "survived": 1,
+   "fut_ability_v2": 82.5,
+   "player_name": "Phil Foden",
+   "squad": "Manchester City"
+  },
+  {
    "fbref_id": "2b114be3",
    "season": 2018,
-   "distance": 3.745,
+   "distance": 3.641,
    "survived": 1,
    "fut_ability_v2": 67.3,
    "player_name": "Leroy Sané",
    "squad": "Manchester City"
   },
   {
+   "fbref_id": "8f5e92a6",
+   "season": 2022,
+   "distance": 3.652,
+   "survived": 1,
+   "fut_ability_v2": 75.7,
+   "player_name": "Rodrygo",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "df3cda47",
    "season": 2020,
-   "distance": 3.747,
+   "distance": 3.683,
    "survived": 1,
    "fut_ability_v2": 62.6,
    "player_name": "Dejan Kulusevski",
@@ -85,7 +121,7 @@
   {
    "fbref_id": "7111d552",
    "season": 2020,
-   "distance": 3.759,
+   "distance": 3.725,
    "survived": 1,
    "fut_ability_v2": 84.4,
    "player_name": "Vinicius Júnior",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "6853490f",
    "season": 2018,
-   "distance": 3.845,
+   "distance": 3.848,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Malcom",
    "squad": "Bordeaux"
-  },
-  {
-   "fbref_id": "b0f7e36c",
-   "season": 2020,
-   "distance": 4.114,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Federico Chiesa",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "7ba2eaa9",
-   "season": 2020,
-   "distance": 4.191,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pedro Neto",
-   "squad": "Wolves"
-  },
-  {
-   "fbref_id": "2b16cb1a",
-   "season": 2018,
-   "distance": 4.254,
-   "survived": 1,
-   "fut_ability_v2": 55.8,
-   "player_name": "Allan Saint-Maximin",
-   "squad": "Nice / Monaco"
-  },
-  {
-   "fbref_id": "20730eae",
-   "season": 2020,
-   "distance": 4.364,
-   "survived": 1,
-   "fut_ability_v2": 73.5,
-   "player_name": "Rafael Leão",
-   "squad": "Milan"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Sávio(FW)의 현재 능력 점수는 77.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반 거리, 전진 운반, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 슈팅당 기대득점이다.",
-  "potential": "Sávio의 2~3년 후 예측 중심값은 68.4점, 80% 구간 상단은 79.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Sávio의 2~3년 후 예측 중심값은 73.1점, 80% 구간 상단은 83.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

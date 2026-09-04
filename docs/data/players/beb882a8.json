@@ -32,42 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7431,
-  "mu": 54.4,
+  "survival_prob": 0.7708,
+  "mu": 54.6,
   "ci80": {
-   "lo": 45.2,
-   "hi": 63.7
+   "lo": 45.3,
+   "hi": 63.8
   },
   "ci50": {
-   "lo": 49.6,
-   "hi": 59.3
+   "lo": 49.7,
+   "hi": 59.4
   },
-  "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_model": 0.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "8754c7ca",
    "season": 2018,
-   "distance": 1.334,
+   "distance": 1.255,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Guilherme",
    "squad": "La Coruña"
   },
   {
-   "fbref_id": "023937a9",
-   "season": 2018,
-   "distance": 1.453,
-   "survived": 1,
-   "fut_ability_v2": 52.4,
-   "player_name": "Ivan Radovanović",
-   "squad": "Chievo"
-  },
-  {
    "fbref_id": "b98570d1",
    "season": 2018,
-   "distance": 1.478,
+   "distance": 1.437,
    "survived": 1,
    "fut_ability_v2": 42.7,
    "player_name": "Jake Livermore",
@@ -76,63 +67,72 @@
   {
    "fbref_id": "5d8e331f",
    "season": 2020,
-   "distance": 1.556,
+   "distance": 1.471,
    "survived": 1,
    "fut_ability_v2": 56.1,
    "player_name": "Nicolas Höfler",
    "squad": "Freiburg"
   },
   {
+   "fbref_id": "5e22e2a4",
+   "season": 2022,
+   "distance": 1.487,
+   "survived": 1,
+   "fut_ability_v2": 59.1,
+   "player_name": "Baptiste Santamaria",
+   "squad": "Rennes / Freiburg"
+  },
+  {
+   "fbref_id": "023937a9",
+   "season": 2018,
+   "distance": 1.51,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Ivan Radovanović",
+   "squad": "Chievo"
+  },
+  {
    "fbref_id": "fdd85f94",
    "season": 2018,
-   "distance": 1.56,
+   "distance": 1.548,
    "survived": 1,
    "fut_ability_v2": 54.4,
    "player_name": "Davy Pröpper",
    "squad": "Brighton"
   },
   {
-   "fbref_id": "8f4d116f",
-   "season": 2020,
-   "distance": 1.641,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Damien Le Tallec",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "84d94b91",
-   "season": 2018,
-   "distance": 1.65,
-   "survived": 1,
-   "fut_ability_v2": 47.7,
-   "player_name": "Thomas Monconduit",
-   "squad": "Amiens"
-  },
-  {
    "fbref_id": "e6c43eec",
    "season": 2018,
-   "distance": 1.703,
+   "distance": 1.574,
    "survived": 1,
    "fut_ability_v2": 55.7,
    "player_name": "Josuha Guilavogui",
    "squad": "Wolfsburg"
   },
   {
-   "fbref_id": "5d8e331f",
-   "season": 2018,
-   "distance": 1.723,
+   "fbref_id": "4d224fe8",
+   "season": 2020,
+   "distance": 1.636,
    "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Nicolas Höfler",
-   "squad": "Freiburg"
+   "fut_ability_v2": 71.2,
+   "player_name": "Casemiro",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "84d94b91",
+   "season": 2018,
+   "distance": 1.64,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Thomas Monconduit",
+   "squad": "Amiens"
   },
   {
    "fbref_id": "8f4d116f",
-   "season": 2019,
-   "distance": 1.744,
-   "survived": 1,
-   "fut_ability_v2": 48.7,
+   "season": 2020,
+   "distance": 1.679,
+   "survived": 0,
+   "fut_ability_v2": null,
    "player_name": "Damien Le Tallec",
    "squad": "Montpellier"
   }
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Maximilian Eggestein(MF)의 현재 능력 점수는 58.8점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승률, 공중볼 승리, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 성공 드리블이다.",
-  "potential": "Maximilian Eggestein의 2~3년 후 예측 중심값은 54.4점, 80% 구간 상단은 63.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 74.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Maximilian Eggestein의 2~3년 후 예측 중심값은 54.6점, 80% 구간 상단은 63.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 77.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

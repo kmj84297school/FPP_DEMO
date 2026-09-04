@@ -32,51 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2006,
-  "mu": 42.1,
+  "survival_prob": 0.1085,
+  "mu": 45.4,
   "ci80": {
-   "lo": 32.5,
-   "hi": 51.7
+   "lo": 36.1,
+   "hi": 54.9
   },
   "ci50": {
-   "lo": 37.1,
-   "hi": 47.2
+   "lo": 40.5,
+   "hi": 50.5
   },
-  "sigma_model": 2.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "9f323c71",
+   "season": 2021,
+   "distance": 2.677,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
    "fbref_id": "b69261a0",
    "season": 2020,
-   "distance": 2.822,
+   "distance": 2.817,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Oscar Wendt",
    "squad": "M'Gladbach"
   },
   {
+   "fbref_id": "a7813ac4",
+   "season": 2021,
+   "distance": 2.931,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "5b28b2f6",
+   "season": 2022,
+   "distance": 3.021,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Josan",
+   "squad": "Elche"
+  },
+  {
    "fbref_id": "3e4f735d",
    "season": 2019,
-   "distance": 3.053,
+   "distance": 3.081,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Vitorino Antunes",
    "squad": "Getafe"
   },
   {
+   "fbref_id": "b3b7f5a6",
+   "season": 2022,
+   "distance": 3.138,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Timothy Chandler",
+   "squad": "Eint Frankfurt"
+  },
+  {
    "fbref_id": "9ab48bde",
    "season": 2020,
-   "distance": 3.159,
+   "distance": 3.142,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pablo de Blasis",
    "squad": "Eibar"
   },
   {
+   "fbref_id": "71ef519e",
+   "season": 2022,
+   "distance": 3.202,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
    "fbref_id": "00a6485f",
    "season": 2019,
-   "distance": 3.339,
+   "distance": 3.303,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andreas Beck",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "6d8f8441",
    "season": 2019,
-   "distance": 3.347,
+   "distance": 3.323,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Coke",
    "squad": "Levante"
-  },
-  {
-   "fbref_id": "e74f0e59",
-   "season": 2020,
-   "distance": 3.558,
-   "survived": 1,
-   "fut_ability_v2": 52.1,
-   "player_name": "Lorenzo De Silvestri",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "93390969",
-   "season": 2019,
-   "distance": 3.642,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marcello Gazzola",
-   "squad": "Parma"
-  },
-  {
-   "fbref_id": "5eb72339",
-   "season": 2018,
-   "distance": 3.728,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simone Padoin",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "b69261a0",
-   "season": 2018,
-   "distance": 3.772,
-   "survived": 1,
-   "fut_ability_v2": 49.2,
-   "player_name": "Oscar Wendt",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "5e6342d4",
-   "season": 2018,
-   "distance": 3.808,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vincent Bessat",
-   "squad": "Caen"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Darko Lazović(DF)의 현재 능력 점수는 46.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 도움 기대값(xAG), 슈팅 시도, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 전진 패스 거리이다.",
-  "potential": "Darko Lazović의 2~3년 후 예측 중심값은 42.1점, 80% 구간 상단은 51.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Darko Lazović의 2~3년 후 예측 중심값은 45.4점, 80% 구간 상단은 54.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 10.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

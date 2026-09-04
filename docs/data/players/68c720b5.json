@@ -32,42 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2339,
-  "mu": 37.5,
+  "survival_prob": 0.3008,
+  "mu": 38.4,
   "ci80": {
-   "lo": 28.0,
-   "hi": 47.1
+   "lo": 28.7,
+   "hi": 48.0
   },
   "ci50": {
-   "lo": 32.5,
-   "hi": 42.6
+   "lo": 33.2,
+   "hi": 43.5
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_model": 2.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "509a4ccb",
+   "season": 2022,
+   "distance": 2.407,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keita Baldé",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "d87e2cae",
+   "season": 2021,
+   "distance": 2.441,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Willian José",
+   "squad": "Wolves / Real Sociedad"
+  },
+  {
    "fbref_id": "8f866fe8",
    "season": 2018,
-   "distance": 2.563,
+   "distance": 2.585,
    "survived": 1,
    "fut_ability_v2": 57.8,
    "player_name": "Manolo Gabbiadini",
    "squad": "Southampton"
   },
   {
+   "fbref_id": "fcbcbd94",
+   "season": 2021,
+   "distance": 2.756,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Moussa Konaté",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "75645f0e",
+   "season": 2021,
+   "distance": 2.759,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Borja Iglesias",
+   "squad": "Betis"
+  },
+  {
    "fbref_id": "5343eb4e",
    "season": 2018,
-   "distance": 2.733,
+   "distance": 2.778,
    "survived": 1,
    "fut_ability_v2": 34.1,
    "player_name": "Yoshinori Mutō",
    "squad": "Mainz 05"
   },
   {
+   "fbref_id": "d87e2cae",
+   "season": 2022,
+   "distance": 2.779,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Willian José",
+   "squad": "Betis"
+  },
+  {
    "fbref_id": "0c3057a9",
    "season": 2019,
-   "distance": 2.774,
+   "distance": 2.837,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mikael Ishak",
@@ -76,7 +121,7 @@
   {
    "fbref_id": "dae8623e",
    "season": 2020,
-   "distance": 2.846,
+   "distance": 2.886,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mbwana Samatta",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "75645f0e",
    "season": 2020,
-   "distance": 2.883,
+   "distance": 2.913,
    "survived": 1,
    "fut_ability_v2": 45.9,
    "player_name": "Borja Iglesias",
    "squad": "Betis"
-  },
-  {
-   "fbref_id": "b5cae4e6",
-   "season": 2018,
-   "distance": 3.018,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alberto Paloschi",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "2e52206e",
-   "season": 2018,
-   "distance": 3.073,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Benjamin Jeannot",
-   "squad": "Dijon"
-  },
-  {
-   "fbref_id": "1ad1f50d",
-   "season": 2018,
-   "distance": 3.121,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marco Sau",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "625e41b1",
-   "season": 2020,
-   "distance": 3.132,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Streli Mamba",
-   "squad": "Paderborn 07"
-  },
-  {
-   "fbref_id": "189cee7b",
-   "season": 2018,
-   "distance": 3.136,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Javier Hernández",
-   "squad": "West Ham"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Adam Armstrong(FW)의 현재 능력 점수는 33.0점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 패스 성공률, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 키패스이다.",
-  "potential": "Adam Armstrong의 2~3년 후 예측 중심값은 37.5점, 80% 구간 상단은 47.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 23.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Adam Armstrong의 2~3년 후 예측 중심값은 38.4점, 80% 구간 상단은 48.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 30.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

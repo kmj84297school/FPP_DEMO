@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8364,
-  "mu": 53.7,
+  "survival_prob": 0.8754,
+  "mu": 54.3,
   "ci80": {
-   "lo": 44.3,
-   "hi": 63.0
+   "lo": 45.0,
+   "hi": 63.7
   },
   "ci50": {
-   "lo": 48.8,
-   "hi": 58.6
+   "lo": 49.4,
+   "hi": 59.3
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "463503e2",
    "season": 2019,
-   "distance": 1.414,
+   "distance": 1.429,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marcin Kamiński",
@@ -58,16 +58,34 @@
   {
    "fbref_id": "9f8e9423",
    "season": 2018,
-   "distance": 1.448,
+   "distance": 1.452,
    "survived": 1,
    "fut_ability_v2": 56.2,
    "player_name": "Raphaël Varane",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "302527b2",
+   "season": 2021,
+   "distance": 1.483,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Philipp Lienhart",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "288e1e13",
+   "season": 2022,
+   "distance": 1.505,
+   "survived": 1,
+   "fut_ability_v2": 62.8,
+   "player_name": "Nayef Aguerd",
+   "squad": "Rennes"
+  },
+  {
    "fbref_id": "9f8e9423",
    "season": 2020,
-   "distance": 1.511,
+   "distance": 1.524,
    "survived": 1,
    "fut_ability_v2": 58.9,
    "player_name": "Raphaël Varane",
@@ -76,7 +94,7 @@
   {
    "fbref_id": "b7ca5c51",
    "season": 2020,
-   "distance": 1.533,
+   "distance": 1.544,
    "survived": 1,
    "fut_ability_v2": 58.2,
    "player_name": "Gabriel Paulista",
@@ -92,18 +110,9 @@
    "squad": "Rayo Vallecano"
   },
   {
-   "fbref_id": "91899ca8",
-   "season": 2019,
-   "distance": 1.624,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mateo Musacchio",
-   "squad": "Milan"
-  },
-  {
    "fbref_id": "47af88b8",
    "season": 2020,
-   "distance": 1.635,
+   "distance": 1.615,
    "survived": 1,
    "fut_ability_v2": 49.9,
    "player_name": "Jason Denayer",
@@ -112,29 +121,20 @@
   {
    "fbref_id": "6eee05f1",
    "season": 2018,
-   "distance": 1.635,
+   "distance": 1.622,
    "survived": 1,
    "fut_ability_v2": 67.5,
    "player_name": "Berat Djimsiti",
    "squad": "Benevento"
   },
   {
-   "fbref_id": "fbd6378b",
-   "season": 2020,
-   "distance": 1.692,
-   "survived": 1,
-   "fut_ability_v2": 48.0,
-   "player_name": "Aïssa Mandi",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "bc6f5f06",
-   "season": 2018,
-   "distance": 1.716,
+   "fbref_id": "91899ca8",
+   "season": 2019,
+   "distance": 1.635,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Sergi Gómez",
-   "squad": "Celta Vigo"
+   "player_name": "Mateo Musacchio",
+   "squad": "Milan"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Ezri Konsa(DF)의 현재 능력 점수는 48.2점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 패스 성공률, 태클 성공률, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 태클+인터셉트이다.",
-  "potential": "Ezri Konsa의 2~3년 후 예측 중심값은 53.7점, 80% 구간 상단은 63.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 83.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ezri Konsa의 2~3년 후 예측 중심값은 54.3점, 80% 구간 상단은 63.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 87.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

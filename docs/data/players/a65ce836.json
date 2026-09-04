@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5535,
-  "mu": 55.2,
+  "survival_prob": 0.3038,
+  "mu": 56.7,
   "ci80": {
-   "lo": 45.9,
-   "hi": 64.5
+   "lo": 47.5,
+   "hi": 65.9
   },
   "ci50": {
-   "lo": 50.3,
-   "hi": 60.1
+   "lo": 51.8,
+   "hi": 61.5
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "da974c7b",
+   "season": 2021,
+   "distance": 1.618,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kalidou Koulibaly",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "e27da244",
+   "season": 2022,
+   "distance": 1.731,
+   "survived": 1,
+   "fut_ability_v2": 67.5,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "53de807a",
    "season": 2018,
-   "distance": 1.788,
+   "distance": 1.832,
    "survived": 1,
    "fut_ability_v2": 59.8,
    "player_name": "Ștefan Radu",
@@ -58,34 +76,43 @@
   {
    "fbref_id": "53de807a",
    "season": 2019,
-   "distance": 1.831,
+   "distance": 1.911,
    "survived": 1,
    "fut_ability_v2": 58.7,
    "player_name": "Ștefan Radu",
    "squad": "Lazio"
   },
   {
-   "fbref_id": "96e0490d",
-   "season": 2020,
-   "distance": 1.997,
+   "fbref_id": "8a7ff278",
+   "season": 2022,
+   "distance": 1.925,
    "survived": 1,
-   "fut_ability_v2": 52.0,
-   "player_name": "Matteo Darmian",
-   "squad": "Parma"
+   "fut_ability_v2": 47.2,
+   "player_name": "Joel Ward",
+   "squad": "Crystal Palace"
   },
   {
    "fbref_id": "ba23a904",
    "season": 2019,
-   "distance": 2.035,
+   "distance": 2.002,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jan Vertonghen",
    "squad": "Tottenham"
   },
   {
+   "fbref_id": "61b3978f",
+   "season": 2021,
+   "distance": 2.046,
+   "survived": 1,
+   "fut_ability_v2": 44.7,
+   "player_name": "Bartosz Bereszyński",
+   "squad": "Sampdoria"
+  },
+  {
    "fbref_id": "c26a3918",
    "season": 2019,
-   "distance": 2.039,
+   "distance": 2.048,
    "survived": 1,
    "fut_ability_v2": 46.9,
    "player_name": "Vincent Manceau",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "850c0a0d",
    "season": 2018,
-   "distance": 2.049,
+   "distance": 2.05,
    "survived": 1,
    "fut_ability_v2": 53.6,
    "player_name": "Anaitz Arbilla",
    "squad": "Eibar"
   },
   {
-   "fbref_id": "b3dc6eca",
-   "season": 2019,
-   "distance": 2.089,
-   "survived": 1,
-   "fut_ability_v2": 61.1,
-   "player_name": "Víctor Ruiz",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "4085f08e",
+   "fbref_id": "96e0490d",
    "season": 2020,
-   "distance": 2.125,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Haitam Aleesami",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "1522dab2",
-   "season": 2018,
-   "distance": 2.137,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Davide Astori",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "c26a3918",
-   "season": 2020,
-   "distance": 2.174,
+   "distance": 2.057,
    "survived": 1,
-   "fut_ability_v2": 45.7,
-   "player_name": "Vincent Manceau",
-   "squad": "Angers"
+   "fut_ability_v2": 52.0,
+   "player_name": "Matteo Darmian",
+   "squad": "Parma"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Emre Can(DF)의 현재 능력 점수는 59.2점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 패스 거리, 전진 운반 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 태클 성공률이다.",
-  "potential": "Emre Can의 2~3년 후 예측 중심값은 55.2점, 80% 구간 상단은 64.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Emre Can의 2~3년 후 예측 중심값은 56.7점, 80% 구간 상단은 65.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 30.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

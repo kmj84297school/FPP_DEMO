@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5508,
-  "mu": 47.5,
+  "survival_prob": 0.6572,
+  "mu": 48.4,
   "ci80": {
-   "lo": 38.2,
-   "hi": 56.8
+   "lo": 39.0,
+   "hi": 57.8
   },
   "ci50": {
-   "lo": 42.6,
-   "hi": 52.4
+   "lo": 43.5,
+   "hi": 53.4
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "55126f3b",
+   "season": 2022,
+   "distance": 1.78,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "375622c5",
+   "season": 2021,
+   "distance": 2.131,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Jordan Ferri",
+   "squad": "Montpellier"
+  },
+  {
    "fbref_id": "17780d2b",
    "season": 2019,
-   "distance": 2.251,
+   "distance": 2.218,
    "survived": 1,
    "fut_ability_v2": 47.2,
    "player_name": "Tobias Strobl",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "4a56052c",
    "season": 2020,
-   "distance": 2.343,
+   "distance": 2.389,
    "survived": 1,
    "fut_ability_v2": 63.9,
    "player_name": "Jordan Veretout",
    "squad": "Roma"
   },
   {
+   "fbref_id": "2a0c8ba4",
+   "season": 2022,
+   "distance": 2.418,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "3cf7dc7e",
+   "season": 2021,
+   "distance": 2.52,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matteo Ricci",
+   "squad": "Spezia"
+  },
+  {
    "fbref_id": "963829d0",
    "season": 2019,
-   "distance": 2.607,
+   "distance": 2.567,
    "survived": 1,
    "fut_ability_v2": 59.5,
    "player_name": "Manu Trigueros",
    "squad": "Villarreal"
   },
   {
-   "fbref_id": "45db685d",
-   "season": 2019,
-   "distance": 2.671,
+   "fbref_id": "43439614",
+   "season": 2021,
+   "distance": 2.619,
    "survived": 1,
-   "fut_ability_v2": 59.4,
-   "player_name": "Jorginho",
-   "squad": "Chelsea"
+   "fut_ability_v2": 41.5,
+   "player_name": "Oliver Norwood",
+   "squad": "Sheffield Utd"
   },
   {
    "fbref_id": "45db685d",
    "season": 2020,
-   "distance": 2.704,
+   "distance": 2.649,
    "survived": 1,
    "fut_ability_v2": 58.7,
    "player_name": "Jorginho",
    "squad": "Chelsea"
   },
   {
-   "fbref_id": "b3fd7075",
-   "season": 2020,
-   "distance": 2.802,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andrea Poli",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "73489527",
-   "season": 2018,
-   "distance": 2.814,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Steven Defour",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "468fdbad",
-   "season": 2018,
-   "distance": 2.869,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jonas Martin",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "92b56413",
-   "season": 2018,
-   "distance": 2.921,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Tristan Dingomé",
-   "squad": "Troyes"
-  },
-  {
-   "fbref_id": "0f9b8301",
-   "season": 2020,
-   "distance": 2.924,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Cristian Battocchio",
-   "squad": "Brest"
+   "fbref_id": "45db685d",
+   "season": 2019,
+   "distance": 2.672,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Jorginho",
+   "squad": "Chelsea"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Pedro Chirivella(MF)의 현재 능력 점수는 51.1점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 전진 패스 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 성공 드리블이다.",
-  "potential": "Pedro Chirivella의 2~3년 후 예측 중심값은 47.5점, 80% 구간 상단은 56.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pedro Chirivella의 2~3년 후 예측 중심값은 48.4점, 80% 구간 상단은 57.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 65.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

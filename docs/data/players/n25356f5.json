@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.297,
-  "mu": 42.3,
+  "survival_prob": 0.2566,
+  "mu": 35.2,
   "ci80": {
-   "lo": 32.8,
-   "hi": 51.9
+   "lo": 25.5,
+   "hi": 44.9
   },
   "ci50": {
-   "lo": 37.3,
-   "hi": 47.4
+   "lo": 30.1,
+   "hi": 40.3
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_model": 2.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "fcbcbd94",
    "season": 2019,
-   "distance": 1.791,
+   "distance": 1.807,
    "survived": 1,
    "fut_ability_v2": 34.3,
    "player_name": "Moussa Konaté",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "6c1f7328",
    "season": 2019,
-   "distance": 1.895,
+   "distance": 1.957,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Roberto Inglese",
@@ -67,16 +67,34 @@
   {
    "fbref_id": "09538fdb",
    "season": 2019,
-   "distance": 1.963,
+   "distance": 1.968,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Kevin Lasagna",
    "squad": "Udinese"
   },
   {
+   "fbref_id": "4c2e9442",
+   "season": 2022,
+   "distance": 2.031,
+   "survived": 1,
+   "fut_ability_v2": 20.7,
+   "player_name": "Maxi Gómez",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "6605d143",
+   "season": 2021,
+   "distance": 2.044,
+   "survived": 1,
+   "fut_ability_v2": 41.8,
+   "player_name": "Habib Diallo",
+   "squad": "Strasbourg / Metz"
+  },
+  {
    "fbref_id": "4e9a0555",
    "season": 2019,
-   "distance": 2.028,
+   "distance": 2.048,
    "survived": 1,
    "fut_ability_v2": 36.4,
    "player_name": "Chris Wood",
@@ -85,16 +103,25 @@
   {
    "fbref_id": "9853983f",
    "season": 2018,
-   "distance": 2.049,
+   "distance": 2.063,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bobby Wood",
    "squad": "Hamburger SV"
   },
   {
+   "fbref_id": "f8eca1b6",
+   "season": 2022,
+   "distance": 2.1,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enes Ünal",
+   "squad": "Getafe"
+  },
+  {
    "fbref_id": "5046b7d4",
    "season": 2019,
-   "distance": 2.088,
+   "distance": 2.127,
    "survived": 1,
    "fut_ability_v2": 40.8,
    "player_name": "Stéphane Bahoken",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "fcbcbd94",
    "season": 2018,
-   "distance": 2.12,
+   "distance": 2.151,
    "survived": 1,
    "fut_ability_v2": 34.3,
    "player_name": "Moussa Konaté",
    "squad": "Amiens"
-  },
-  {
-   "fbref_id": "2054d037",
-   "season": 2020,
-   "distance": 2.134,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "M'Baye Niang",
-   "squad": "Rennes"
-  },
-  {
-   "fbref_id": "5046b7d4",
-   "season": 2018,
-   "distance": 2.164,
-   "survived": 1,
-   "fut_ability_v2": 42.4,
-   "player_name": "Stéphane Bahoken",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "6c1f7328",
-   "season": 2018,
-   "distance": 2.216,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Roberto Inglese",
-   "squad": "Chievo"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Isaac Romero(FW)의 현재 능력 점수는 32.9점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 공중볼 승리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 운반 거리이다.",
-  "potential": "Isaac Romero의 2~3년 후 예측 중심값은 42.3점, 80% 구간 상단은 51.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Isaac Romero의 2~3년 후 예측 중심값은 35.2점, 80% 구간 상단은 44.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

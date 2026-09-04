@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7344,
-  "mu": 61.0,
+  "survival_prob": 0.4436,
+  "mu": 59.2,
   "ci80": {
-   "lo": 51.8,
-   "hi": 70.2
+   "lo": 49.9,
+   "hi": 68.5
   },
   "ci50": {
-   "lo": 56.2,
-   "hi": 65.8
+   "lo": 54.3,
+   "hi": 64.1
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "868eaba0",
+   "season": 2022,
+   "distance": 1.911,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Johan Gastien",
+   "squad": "Clermont Foot"
+  },
+  {
    "fbref_id": "5ab0ea87",
    "season": 2018,
-   "distance": 2.0,
+   "distance": 2.037,
    "survived": 1,
    "fut_ability_v2": 68.0,
    "player_name": "Sergio Busquets",
    "squad": "Barcelona"
   },
   {
+   "fbref_id": "b825a650",
+   "season": 2021,
+   "distance": 2.068,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Kevin Kampl",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "67ca8566",
+   "season": 2021,
+   "distance": 2.09,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stuart Dallas",
+   "squad": "Leeds United"
+  },
+  {
+   "fbref_id": "98d2c2c4",
+   "season": 2022,
+   "distance": 2.153,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Remo Freuler",
+   "squad": "Atalanta"
+  },
+  {
    "fbref_id": "5ab0ea87",
    "season": 2020,
-   "distance": 2.129,
+   "distance": 2.157,
    "survived": 1,
    "fut_ability_v2": 67.2,
    "player_name": "Sergio Busquets",
@@ -66,75 +102,39 @@
   },
   {
    "fbref_id": "56413b1f",
-   "season": 2020,
-   "distance": 2.158,
-   "survived": 1,
-   "fut_ability_v2": 56.4,
+   "season": 2022,
+   "distance": 2.19,
+   "survived": 0,
+   "fut_ability_v2": null,
    "player_name": "Charles Aránguiz",
    "squad": "Leverkusen"
   },
   {
+   "fbref_id": "4b511457",
+   "season": 2022,
+   "distance": 2.21,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Oriol Romeu",
+   "squad": "Southampton"
+  },
+  {
    "fbref_id": "ff527768",
    "season": 2019,
-   "distance": 2.167,
+   "distance": 2.241,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mark Noble",
    "squad": "West Ham"
   },
   {
-   "fbref_id": "ff527768",
-   "season": 2018,
-   "distance": 2.311,
+   "fbref_id": "e8c930bb",
+   "season": 2021,
+   "distance": 2.258,
    "survived": 1,
-   "fut_ability_v2": 48.8,
-   "player_name": "Mark Noble",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "1b17ed86",
-   "season": 2019,
-   "distance": 2.334,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Esteban Granero",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "73489527",
-   "season": 2018,
-   "distance": 2.343,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Steven Defour",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "cee31595",
-   "season": 2020,
-   "distance": 2.39,
-   "survived": 1,
-   "fut_ability_v2": 64.3,
-   "player_name": "James McArthur",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "b3fd7075",
-   "season": 2020,
-   "distance": 2.393,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andrea Poli",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "82671804",
-   "season": 2018,
-   "distance": 2.401,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luiz Gustavo",
-   "squad": "Marseille"
+   "fut_ability_v2": 50.3,
+   "player_name": "Milan Badelj",
+   "squad": "Genoa"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Thomas Partey(MF)의 현재 능력 점수는 62.6점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 전진 운반 거리, 볼 손실(미스+파울), 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 키패스이다.",
-  "potential": "Thomas Partey의 2~3년 후 예측 중심값은 61.0점, 80% 구간 상단은 70.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 73.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Thomas Partey의 2~3년 후 예측 중심값은 59.2점, 80% 구간 상단은 68.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

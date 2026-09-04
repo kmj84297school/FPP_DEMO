@@ -32,51 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7779,
-  "mu": 64.0,
+  "survival_prob": 0.5537,
+  "mu": 62.5,
   "ci80": {
-   "lo": 54.7,
-   "hi": 73.3
+   "lo": 53.3,
+   "hi": 71.8
   },
   "ci50": {
-   "lo": 59.1,
-   "hi": 68.9
+   "lo": 57.7,
+   "hi": 67.4
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "c05dfb74",
-   "season": 2019,
-   "distance": 2.379,
-   "survived": 1,
-   "fut_ability_v2": 69.5,
-   "player_name": "Iker Muniain",
-   "squad": "Athletic Club"
-  },
-  {
    "fbref_id": "9b337c7c",
    "season": 2018,
-   "distance": 2.436,
+   "distance": 2.413,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jozabed",
    "squad": "Celta Vigo"
   },
   {
+   "fbref_id": "c05dfb74",
+   "season": 2019,
+   "distance": 2.476,
+   "survived": 1,
+   "fut_ability_v2": 69.5,
+   "player_name": "Iker Muniain",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "5a626448",
+   "season": 2021,
+   "distance": 2.536,
+   "survived": 1,
+   "fut_ability_v2": 51.4,
+   "player_name": "Moi Gómez",
+   "squad": "Villarreal"
+  },
+  {
    "fbref_id": "88895312",
    "season": 2019,
-   "distance": 2.586,
+   "distance": 2.573,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Daniel Bessa",
    "squad": "Genoa"
   },
   {
+   "fbref_id": "3902e91b",
+   "season": 2021,
+   "distance": 2.647,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Gonzalo Melero",
+   "squad": "Levante"
+  },
+  {
    "fbref_id": "c05dfb74",
    "season": 2020,
-   "distance": 2.699,
+   "distance": 2.773,
    "survived": 1,
    "fut_ability_v2": 68.4,
    "player_name": "Iker Muniain",
@@ -85,16 +103,25 @@
   {
    "fbref_id": "810e3c74",
    "season": 2019,
-   "distance": 2.76,
+   "distance": 2.784,
    "survived": 1,
    "fut_ability_v2": 69.6,
    "player_name": "Jesse Lingard",
    "squad": "Manchester Utd"
   },
   {
+   "fbref_id": "8827bf46",
+   "season": 2022,
+   "distance": 2.818,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gerson",
+   "squad": "Marseille"
+  },
+  {
    "fbref_id": "2903a856",
    "season": 2019,
-   "distance": 2.773,
+   "distance": 2.822,
    "survived": 1,
    "fut_ability_v2": 63.8,
    "player_name": "Jonas Hofmann",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "16657b95",
    "season": 2020,
-   "distance": 2.85,
+   "distance": 2.865,
    "survived": 1,
    "fut_ability_v2": 61.4,
    "player_name": "Bryan Cristante",
    "squad": "Roma"
-  },
-  {
-   "fbref_id": "528492ea",
-   "season": 2019,
-   "distance": 2.861,
-   "survived": 1,
-   "fut_ability_v2": 50.9,
-   "player_name": "Alfred Duncan",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "819b3158",
-   "season": 2018,
-   "distance": 2.905,
-   "survived": 1,
-   "fut_ability_v2": 75.5,
-   "player_name": "İlkay Gündoğan",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "5a626448",
-   "season": 2020,
-   "distance": 2.914,
-   "survived": 1,
-   "fut_ability_v2": 59.2,
-   "player_name": "Moi Gómez",
-   "squad": "Villarreal"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Emile Smith Rowe(MF)의 현재 능력 점수는 65.2점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 패스 성공률, 무페널티 득점, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 공중볼 승리이다.",
-  "potential": "Emile Smith Rowe의 2~3년 후 예측 중심값은 64.0점, 80% 구간 상단은 73.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 77.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Emile Smith Rowe의 2~3년 후 예측 중심값은 62.5점, 80% 구간 상단은 71.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

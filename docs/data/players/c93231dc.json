@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2997,
-  "mu": 42.9,
+  "survival_prob": 0.2046,
+  "mu": 43.8,
   "ci80": {
-   "lo": 33.7,
-   "hi": 52.2
+   "lo": 34.6,
+   "hi": 53.1
   },
   "ci50": {
-   "lo": 38.0,
-   "hi": 47.8
+   "lo": 39.0,
+   "hi": 48.7
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 0.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a64cbd35",
    "season": 2020,
-   "distance": 1.294,
+   "distance": 1.344,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Antonino Barillà",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "ad1ffcfd",
    "season": 2019,
-   "distance": 1.562,
+   "distance": 1.593,
    "survived": 1,
    "fut_ability_v2": 52.2,
    "player_name": "Vicente Iborra",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "8d3c902d",
    "season": 2019,
-   "distance": 1.615,
+   "distance": 1.622,
    "survived": 1,
    "fut_ability_v2": 51.9,
    "player_name": "Cheikhou Kouyaté",
@@ -76,16 +76,34 @@
   {
    "fbref_id": "3c05e082",
    "season": 2018,
-   "distance": 1.688,
+   "distance": 1.751,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Koo Ja-cheol",
    "squad": "Augsburg"
   },
   {
+   "fbref_id": "8f4d116f",
+   "season": 2021,
+   "distance": 1.805,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Damien Le Tallec",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "fe641c1a",
+   "season": 2022,
+   "distance": 1.843,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thomas Delaney",
+   "squad": "Sevilla / Dortmund"
+  },
+  {
    "fbref_id": "04c11885",
    "season": 2019,
-   "distance": 1.811,
+   "distance": 1.857,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marvin Bakalorz",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "ff45add5",
    "season": 2019,
-   "distance": 1.908,
+   "distance": 1.962,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alfredo Morales",
    "squad": "Düsseldorf"
   },
   {
-   "fbref_id": "74e12f1e",
-   "season": 2020,
-   "distance": 1.963,
+   "fbref_id": "0d2158d5",
+   "season": 2021,
+   "distance": 1.965,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Marié",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "036bba5f",
+   "season": 2021,
+   "distance": 1.979,
    "survived": 1,
-   "fut_ability_v2": 37.5,
-   "player_name": "Jack Cork",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "d9bda115",
-   "season": 2018,
-   "distance": 2.008,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "David Zurutuza",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "57ebd662",
-   "season": 2018,
-   "distance": 2.044,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Adrián González",
-   "squad": "Málaga"
-  },
-  {
-   "fbref_id": "9e27e5de",
-   "season": 2019,
-   "distance": 2.051,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Prince Oniangué",
-   "squad": "Caen"
+   "fut_ability_v2": 52.0,
+   "player_name": "Rubén Alcaraz",
+   "squad": "Valladolid"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Anuar(MF)의 현재 능력 점수는 45.9점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 슈팅당 기대득점, 공중볼 승률, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 전진 패스 거리이다.",
-  "potential": "Anuar의 2~3년 후 예측 중심값은 42.9점, 80% 구간 상단은 52.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 30.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Anuar의 2~3년 후 예측 중심값은 43.8점, 80% 구간 상단은 53.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

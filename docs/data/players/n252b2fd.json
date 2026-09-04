@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9458,
-  "mu": 61.3,
+  "survival_prob": 0.8501,
+  "mu": 63.5,
   "ci80": {
-   "lo": 50.8,
-   "hi": 71.9
+   "lo": 53.1,
+   "hi": 74.0
   },
   "ci50": {
-   "lo": 55.8,
-   "hi": 66.9
+   "lo": 58.0,
+   "hi": 69.0
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "167d5018",
    "season": 2018,
-   "distance": 1.74,
+   "distance": 1.715,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Félix Eboa Eboa",
    "squad": "Guingamp"
   },
   {
+   "fbref_id": "a8c19eb8",
+   "season": 2022,
+   "distance": 1.869,
+   "survived": 1,
+   "fut_ability_v2": 64.0,
+   "player_name": "Nathan Collins",
+   "squad": "Burnley"
+  },
+  {
    "fbref_id": "f86cabbd",
    "season": 2020,
-   "distance": 1.976,
+   "distance": 1.906,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jordan Torunarigha",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "167d5018",
    "season": 2019,
-   "distance": 1.99,
+   "distance": 1.997,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Félix Eboa Eboa",
    "squad": "Guingamp"
   },
   {
-   "fbref_id": "441197b8",
-   "season": 2020,
-   "distance": 2.261,
-   "survived": 1,
-   "fut_ability_v2": 64.4,
-   "player_name": "Obite N'Dicka",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "5ed9b537",
-   "season": 2019,
-   "distance": 2.298,
-   "survived": 1,
-   "fut_ability_v2": 67.5,
-   "player_name": "Ibrahima Konaté",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "4d1666ff",
-   "season": 2020,
-   "distance": 2.358,
-   "survived": 1,
-   "fut_ability_v2": 63.9,
-   "player_name": "Jules Koundé",
-   "squad": "Sevilla"
-  },
-  {
    "fbref_id": "51dbeea9",
    "season": 2018,
-   "distance": 2.375,
+   "distance": 2.278,
    "survived": 1,
    "fut_ability_v2": 49.5,
    "player_name": "Thilo Kehrer",
    "squad": "Schalke 04"
   },
   {
-   "fbref_id": "6e33125f",
-   "season": 2019,
-   "distance": 2.38,
-   "survived": 1,
-   "fut_ability_v2": 59.9,
-   "player_name": "Kevin Danso",
-   "squad": "Augsburg"
-  },
-  {
-   "fbref_id": "01834aa0",
+   "fbref_id": "441197b8",
    "season": 2020,
-   "distance": 2.39,
+   "distance": 2.287,
    "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Sebastiaan Bornauw",
-   "squad": "Köln"
+   "fut_ability_v2": 64.4,
+   "player_name": "Obite N'Dicka",
+   "squad": "Eint Frankfurt"
   },
   {
-   "fbref_id": "67ac5bb8",
-   "season": 2019,
-   "distance": 2.397,
+   "fbref_id": "a3d94a58",
+   "season": 2020,
+   "distance": 2.341,
    "survived": 1,
-   "fut_ability_v2": 57.1,
-   "player_name": "Gabriel Dos Santos",
-   "squad": "Lille"
+   "fut_ability_v2": 69.5,
+   "player_name": "Cristian Romero",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "5ed9b537",
+   "season": 2019,
+   "distance": 2.344,
+   "survived": 1,
+   "fut_ability_v2": 67.5,
+   "player_name": "Ibrahima Konaté",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "a3d94a58",
+   "season": 2019,
+   "distance": 2.346,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Cristian Romero",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "70d8e84c",
+   "season": 2018,
+   "distance": 2.371,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Chidozie Awaziem",
+   "squad": "Nantes"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Leopold Querfeld(DF)의 현재 능력 점수는 64.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 공중볼 승리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 패스이다.",
-  "potential": "Leopold Querfeld의 2~3년 후 예측 중심값은 61.3점, 80% 구간 상단은 71.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 94.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Leopold Querfeld의 2~3년 후 예측 중심값은 63.5점, 80% 구간 상단은 74.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 85.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

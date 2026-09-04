@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2031,
-  "mu": 45.8,
+  "survival_prob": 0.2961,
+  "mu": 43.8,
   "ci80": {
-   "lo": 36.3,
-   "hi": 55.2
+   "lo": 34.2,
+   "hi": 53.5
   },
   "ci50": {
-   "lo": 40.7,
-   "hi": 50.7
+   "lo": 38.8,
+   "hi": 48.9
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 2.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "405f6586",
+   "season": 2022,
+   "distance": 1.884,
+   "survived": 1,
+   "fut_ability_v2": 30.0,
+   "player_name": "Milan Đurić",
+   "squad": "Salernitana"
+  },
+  {
    "fbref_id": "d520120b",
    "season": 2018,
-   "distance": 2.01,
+   "distance": 2.02,
    "survived": 1,
    "fut_ability_v2": 46.5,
    "player_name": "Júlio Tavares",
@@ -58,25 +67,52 @@
   {
    "fbref_id": "d520120b",
    "season": 2019,
-   "distance": 2.086,
+   "distance": 2.09,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Júlio Tavares",
    "squad": "Dijon"
   },
   {
+   "fbref_id": "3745e8bd",
+   "season": 2022,
+   "distance": 2.188,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Polter",
+   "squad": "Bochum"
+  },
+  {
    "fbref_id": "71a20ce8",
    "season": 2018,
-   "distance": 2.228,
+   "distance": 2.215,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Gómez",
    "squad": "Stuttgart / Wolfsburg"
   },
   {
+   "fbref_id": "ab070c55",
+   "season": 2021,
+   "distance": 2.286,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "6265208f",
+   "season": 2022,
+   "distance": 2.388,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Joselu",
+   "squad": "Alavés"
+  },
+  {
    "fbref_id": "d520120b",
    "season": 2020,
-   "distance": 2.425,
+   "distance": 2.432,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Júlio Tavares",
@@ -84,57 +120,21 @@
   },
   {
    "fbref_id": "d37b0350",
+   "season": 2022,
+   "distance": 2.473,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leonardo Pavoletti",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "d37b0350",
    "season": 2018,
-   "distance": 2.526,
+   "distance": 2.513,
    "survived": 1,
    "fut_ability_v2": 42.6,
    "player_name": "Leonardo Pavoletti",
    "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "dc90cfbe",
-   "season": 2020,
-   "distance": 2.576,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bas Dost",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "4207e578",
-   "season": 2019,
-   "distance": 2.586,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pablo Chavarría",
-   "squad": "Reims"
-  },
-  {
-   "fbref_id": "abb3bb95",
-   "season": 2020,
-   "distance": 2.637,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luuk de Jong",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "d37b0350",
-   "season": 2019,
-   "distance": 2.745,
-   "survived": 1,
-   "fut_ability_v2": 43.8,
-   "player_name": "Leonardo Pavoletti",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "6265208f",
-   "season": 2020,
-   "distance": 2.806,
-   "survived": 1,
-   "fut_ability_v2": 45.7,
-   "player_name": "Joselu",
-   "squad": "Alavés"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Vedat Muriqi(FW)의 현재 능력 점수는 44.6점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승률, 공중볼 승리, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 박스 진입 패스이다.",
-  "potential": "Vedat Muriqi의 2~3년 후 예측 중심값은 45.8점, 80% 구간 상단은 55.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Vedat Muriqi의 2~3년 후 예측 중심값은 43.8점, 80% 구간 상단은 53.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

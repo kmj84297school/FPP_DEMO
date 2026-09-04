@@ -32,33 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9096,
-  "mu": 46.8,
+  "survival_prob": 0.7667,
+  "mu": 45.3,
   "ci80": {
-   "lo": 36.1,
-   "hi": 57.6
+   "lo": 34.6,
+   "hi": 55.9
   },
   "ci50": {
-   "lo": 41.2,
-   "hi": 52.5
+   "lo": 39.7,
+   "hi": 50.9
   },
-  "sigma_model": 2.4,
+  "sigma_model": 2.5,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "49136c42",
+   "season": 2022,
+   "distance": 1.656,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrew Gravillon",
+   "squad": "Reims"
+  },
+  {
    "fbref_id": "758dd7f0",
    "season": 2018,
-   "distance": 1.634,
+   "distance": 1.673,
    "survived": 1,
    "fut_ability_v2": 40.9,
    "player_name": "Javier Manquillo",
    "squad": "Newcastle Utd"
   },
   {
+   "fbref_id": "543ddcaf",
+   "season": 2021,
+   "distance": 1.743,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Timo Becker",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "9ba7b4fa",
+   "season": 2022,
+   "distance": 1.828,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enzo Ebosse",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "997fff07",
+   "season": 2021,
+   "distance": 1.841,
+   "survived": 1,
+   "fut_ability_v2": 49.0,
+   "player_name": "Sebastiano Luperto",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "1545cf15",
+   "season": 2021,
+   "distance": 1.86,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Houboulang Mendes",
+   "squad": "Lorient"
+  },
+  {
+   "fbref_id": "1df0c0b9",
+   "season": 2022,
+   "distance": 1.876,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robert Gumny",
+   "squad": "Augsburg"
+  },
+  {
    "fbref_id": "9b88e120",
    "season": 2018,
-   "distance": 1.906,
+   "distance": 1.93,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Robert Bauer",
@@ -67,74 +121,20 @@
   {
    "fbref_id": "70d8e84c",
    "season": 2020,
-   "distance": 1.989,
+   "distance": 2.029,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Chidozie Awaziem",
    "squad": "Leganés"
   },
   {
-   "fbref_id": "deb748c9",
-   "season": 2020,
-   "distance": 2.061,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aleš Matějů",
-   "squad": "Brescia"
-  },
-  {
    "fbref_id": "90eb507d",
    "season": 2019,
-   "distance": 2.099,
+   "distance": 2.113,
    "survived": 1,
    "fut_ability_v2": 43.7,
    "player_name": "Thomas Foket",
    "squad": "Reims"
-  },
-  {
-   "fbref_id": "9b88e120",
-   "season": 2019,
-   "distance": 2.163,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Robert Bauer",
-   "squad": "Nürnberg"
-  },
-  {
-   "fbref_id": "a5ae8f8e",
-   "season": 2020,
-   "distance": 2.185,
-   "survived": 1,
-   "fut_ability_v2": 46.1,
-   "player_name": "Miloš Veljković",
-   "squad": "Werder Bremen"
-  },
-  {
-   "fbref_id": "355c883a",
-   "season": 2020,
-   "distance": 2.219,
-   "survived": 1,
-   "fut_ability_v2": 48.8,
-   "player_name": "Martin Agirregabiria",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "355c883a",
-   "season": 2019,
-   "distance": 2.223,
-   "survived": 1,
-   "fut_ability_v2": 45.7,
-   "player_name": "Martin Agirregabiria",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "64cd167d",
-   "season": 2018,
-   "distance": 2.321,
-   "survived": 1,
-   "fut_ability_v2": 46.2,
-   "player_name": "Davide Biraschi",
-   "squad": "Genoa"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Moussa Diarra(DF)의 현재 능력 점수는 39.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 골 창출(GCA), 태클+인터셉트, 실책 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 전진 운반 거리이다.",
-  "potential": "Moussa Diarra의 2~3년 후 예측 중심값은 46.8점, 80% 구간 상단은 57.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 91.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Moussa Diarra의 2~3년 후 예측 중심값은 45.3점, 80% 구간 상단은 55.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 76.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

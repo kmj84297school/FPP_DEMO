@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6798,
-  "mu": 58.7,
+  "survival_prob": 0.3973,
+  "mu": 62.1,
   "ci80": {
-   "lo": 49.5,
-   "hi": 68.0
+   "lo": 52.6,
+   "hi": 71.5
   },
   "ci50": {
-   "lo": 53.8,
-   "hi": 63.6
+   "lo": 57.1,
+   "hi": 67.0
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "dd0daf32",
+   "season": 2022,
+   "distance": 2.592,
+   "survived": 1,
+   "fut_ability_v2": 71.5,
+   "player_name": "Henrikh Mkhitaryan",
+   "squad": "Roma"
+  },
+  {
    "fbref_id": "3eb0f2df",
    "season": 2020,
-   "distance": 2.589,
+   "distance": 2.644,
    "survived": 1,
    "fut_ability_v2": 47.8,
    "player_name": "Vladimír Darida",
    "squad": "Hertha BSC"
   },
   {
+   "fbref_id": "54b4dc4e",
+   "season": 2022,
+   "distance": 2.853,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kerem Demirbay",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2021,
+   "distance": 2.916,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
    "fbref_id": "f7691f63",
    "season": 2018,
-   "distance": 2.887,
+   "distance": 2.953,
    "survived": 1,
    "fut_ability_v2": 65.6,
    "player_name": "Dimitri Liénard",
@@ -67,7 +94,7 @@
   {
    "fbref_id": "809940aa",
    "season": 2020,
-   "distance": 2.93,
+   "distance": 2.983,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dominick Drexler",
@@ -76,7 +103,7 @@
   {
    "fbref_id": "1f9328da",
    "season": 2018,
-   "distance": 3.013,
+   "distance": 3.1,
    "survived": 1,
    "fut_ability_v2": 57.4,
    "player_name": "Radja Nainggolan",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "76dd1480",
    "season": 2019,
-   "distance": 3.077,
+   "distance": 3.156,
    "survived": 1,
    "fut_ability_v2": 47.5,
    "player_name": "Gylfi Sigurðsson",
    "squad": "Everton"
   },
   {
+   "fbref_id": "b827d5b3",
+   "season": 2021,
+   "distance": 3.198,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Albrighton",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "dba67bc4",
    "season": 2018,
-   "distance": 3.131,
+   "distance": 3.206,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Zlatko Junuzović",
    "squad": "Werder Bremen"
-  },
-  {
-   "fbref_id": "9f4647e9",
-   "season": 2019,
-   "distance": 3.134,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Robert Snodgrass",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "f7691f63",
-   "season": 2020,
-   "distance": 3.251,
-   "survived": 1,
-   "fut_ability_v2": 62.0,
-   "player_name": "Dimitri Liénard",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "c801616a",
-   "season": 2018,
-   "distance": 3.26,
-   "survived": 1,
-   "fut_ability_v2": 57.8,
-   "player_name": "Thomas Mangani",
-   "squad": "Angers"
-  },
-  {
-   "fbref_id": "76dd1480",
-   "season": 2020,
-   "distance": 3.27,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gylfi Sigurðsson",
-   "squad": "Everton"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Adrien Thomasson(MF)의 현재 능력 점수는 62.9점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 볼 리커버리, 슈팅당 기대득점, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 공중볼 승률이다.",
-  "potential": "Adrien Thomasson의 2~3년 후 예측 중심값은 58.7점, 80% 구간 상단은 68.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 68.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Adrien Thomasson의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 71.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 39.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

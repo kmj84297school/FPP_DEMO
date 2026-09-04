@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8531,
-  "mu": 56.1,
+  "survival_prob": 0.8043,
+  "mu": 58.9,
   "ci80": {
-   "lo": 45.3,
-   "hi": 66.8
+   "lo": 48.4,
+   "hi": 69.6
   },
   "ci50": {
-   "lo": 50.4,
-   "hi": 61.6
+   "lo": 53.4,
+   "hi": 64.5
   },
-  "sigma_model": 2.3,
+  "sigma_model": 2.1,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "12c35abe",
+   "season": 2022,
+   "distance": 1.596,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jens Petter Hauge",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "be42a291",
+   "season": 2021,
+   "distance": 1.675,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hannes Wolf",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "6c17e046",
+   "season": 2021,
+   "distance": 1.723,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tyler Roberts",
+   "squad": "Leeds United"
+  },
+  {
    "fbref_id": "19709006",
    "season": 2020,
-   "distance": 1.706,
+   "distance": 1.811,
    "survived": 1,
    "fut_ability_v2": 52.8,
    "player_name": "Óscar Rodríguez Arnaiz",
    "squad": "Leganés"
   },
   {
+   "fbref_id": "2b7c56b4",
+   "season": 2021,
+   "distance": 1.851,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateo Klimowicz",
+   "squad": "Stuttgart"
+  },
+  {
    "fbref_id": "31114001",
    "season": 2018,
-   "distance": 1.81,
+   "distance": 1.866,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Berkay Özcan",
@@ -67,74 +103,38 @@
   {
    "fbref_id": "3010aefb",
    "season": 2018,
-   "distance": 1.935,
+   "distance": 1.868,
    "survived": 1,
    "fut_ability_v2": 43.1,
    "player_name": "Marcus Coco",
    "squad": "Guingamp"
   },
   {
+   "fbref_id": "6ecbddf6",
+   "season": 2021,
+   "distance": 2.01,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Ruben Vargas",
+   "squad": "Augsburg"
+  },
+  {
    "fbref_id": "9907b1c8",
    "season": 2019,
-   "distance": 2.191,
+   "distance": 2.189,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Nicolò Zaniolo",
    "squad": "Roma"
   },
   {
-   "fbref_id": "9e1035f8",
-   "season": 2020,
-   "distance": 2.204,
+   "fbref_id": "95bb6ddc",
+   "season": 2021,
+   "distance": 2.212,
    "survived": 1,
-   "fut_ability_v2": 65.2,
-   "player_name": "Ferrán Torres",
-   "squad": "Valencia"
-  },
-  {
-   "fbref_id": "bfdb33aa",
-   "season": 2018,
-   "distance": 2.214,
-   "survived": 1,
-   "fut_ability_v2": 53.6,
-   "player_name": "Ismaila Sarr",
-   "squad": "Rennes"
-  },
-  {
-   "fbref_id": "19709006",
-   "season": 2019,
-   "distance": 2.221,
-   "survived": 1,
-   "fut_ability_v2": 51.8,
-   "player_name": "Óscar Rodríguez Arnaiz",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "016ff750",
-   "season": 2018,
-   "distance": 2.239,
-   "survived": 1,
-   "fut_ability_v2": 49.7,
-   "player_name": "Valentino Lazaro",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "6191093d",
-   "season": 2020,
-   "distance": 2.305,
-   "survived": 1,
-   "fut_ability_v2": 58.5,
-   "player_name": "Ludovic Blas",
-   "squad": "Nantes"
-  },
-  {
-   "fbref_id": "f972644c",
-   "season": 2019,
-   "distance": 2.338,
-   "survived": 1,
-   "fut_ability_v2": 50.4,
-   "player_name": "Marco Richter",
-   "squad": "Augsburg"
+   "fut_ability_v2": 61.5,
+   "player_name": "Junior Dina Ebimbe",
+   "squad": "Dijon"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Fabio Miretti(MF)의 현재 능력 점수는 48.7점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 성공 드리블, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 최종 3분의1 패스이다.",
-  "potential": "Fabio Miretti의 2~3년 후 예측 중심값은 56.1점, 80% 구간 상단은 66.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 85.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Fabio Miretti의 2~3년 후 예측 중심값은 58.9점, 80% 구간 상단은 69.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 80.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.253,
-  "mu": 53.2,
+  "survival_prob": 0.2234,
+  "mu": 54.0,
   "ci80": {
-   "lo": 43.8,
-   "hi": 62.4
+   "lo": 44.6,
+   "hi": 63.5
   },
   "ci50": {
-   "lo": 48.2,
-   "hi": 58.0
+   "lo": 49.1,
+   "hi": 58.9
   },
   "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "d2416c2e",
+   "season": 2021,
+   "distance": 2.048,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Yussuf Poulsen",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "35f6db55",
    "season": 2019,
-   "distance": 2.312,
+   "distance": 2.27,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Léo Baptistão",
@@ -58,16 +67,52 @@
   {
    "fbref_id": "2677a1de",
    "season": 2018,
-   "distance": 2.392,
+   "distance": 2.378,
    "survived": 1,
    "fut_ability_v2": 51.8,
    "player_name": "Wahbi Khazri",
    "squad": "Rennes"
   },
   {
+   "fbref_id": "62437b4f",
+   "season": 2022,
+   "distance": 2.387,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ignacio Pussetto",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "e92cd3f7",
+   "season": 2022,
+   "distance": 2.434,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Alexander Sørloth",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "e92cd3f7",
+   "season": 2021,
+   "distance": 2.465,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Alexander Sørloth",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "e14ec482",
+   "season": 2022,
+   "distance": 2.475,
+   "survived": 1,
+   "fut_ability_v2": 68.5,
+   "player_name": "Riccardo Orsolini",
+   "squad": "Bologna"
+  },
+  {
    "fbref_id": "ff182fdc",
    "season": 2018,
-   "distance": 2.508,
+   "distance": 2.576,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ishak Belfodil",
@@ -76,7 +121,7 @@
   {
    "fbref_id": "81f0781e",
    "season": 2019,
-   "distance": 2.651,
+   "distance": 2.69,
    "survived": 1,
    "fut_ability_v2": 78.7,
    "player_name": "Gerard Moreno",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "8f0f2230",
    "season": 2020,
-   "distance": 2.82,
+   "distance": 2.838,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kenan Karaman",
    "squad": "Düsseldorf"
-  },
-  {
-   "fbref_id": "07802f7f",
-   "season": 2019,
-   "distance": 2.897,
-   "survived": 1,
-   "fut_ability_v2": 51.9,
-   "player_name": "Danny Ings",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "bf39bdec",
-   "season": 2020,
-   "distance": 2.931,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ernesto Torregrossa",
-   "squad": "Brescia"
-  },
-  {
-   "fbref_id": "eb2fe5b6",
-   "season": 2018,
-   "distance": 2.951,
-   "survived": 1,
-   "fut_ability_v2": 88.1,
-   "player_name": "Luis Muriel",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "ef5b337e",
-   "season": 2019,
-   "distance": 2.973,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fabio Borini",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "909222de",
-   "season": 2019,
-   "distance": 2.979,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Nuno da Costa",
-   "squad": "Strasbourg"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Cucho(FW)의 현재 능력 점수는 58.9점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 골 창출(GCA), 슈팅 시도, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 어시스트이다.",
-  "potential": "Cucho의 2~3년 후 예측 중심값은 53.2점, 80% 구간 상단은 62.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Cucho의 2~3년 후 예측 중심값은 54.0점, 80% 구간 상단은 63.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

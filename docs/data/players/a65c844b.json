@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7114,
-  "mu": 62.6,
+  "survival_prob": 0.698,
+  "mu": 62.5,
   "ci80": {
-   "lo": 53.3,
+   "lo": 53.2,
    "hi": 71.8
   },
   "ci50": {
-   "lo": 57.7,
+   "lo": 57.6,
    "hi": 67.4
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "bd6351cd",
    "season": 2019,
-   "distance": 2.532,
+   "distance": 2.482,
    "survived": 1,
    "fut_ability_v2": 72.5,
    "player_name": "João Cancelo",
@@ -58,34 +58,52 @@
   {
    "fbref_id": "bd6351cd",
    "season": 2020,
-   "distance": 3.512,
+   "distance": 3.38,
    "survived": 1,
    "fut_ability_v2": 73.7,
    "player_name": "João Cancelo",
    "squad": "Manchester City"
   },
   {
-   "fbref_id": "3626daea",
-   "season": 2018,
-   "distance": 3.717,
-   "survived": 1,
-   "fut_ability_v2": 57.6,
-   "player_name": "Leonardo Spinazzola",
-   "squad": "Atalanta"
-  },
-  {
    "fbref_id": "d6a889ea",
    "season": 2018,
-   "distance": 3.76,
+   "distance": 3.564,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kévin Malcuit",
    "squad": "Lille"
   },
   {
+   "fbref_id": "de39485a",
+   "season": 2021,
+   "distance": 3.57,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yannick Carrasco",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "57df7a11",
+   "season": 2021,
+   "distance": 3.61,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Arthur Masuaku",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "3626daea",
+   "season": 2018,
+   "distance": 3.633,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Leonardo Spinazzola",
+   "squad": "Atalanta"
+  },
+  {
    "fbref_id": "fa274d97",
    "season": 2019,
-   "distance": 3.977,
+   "distance": 3.916,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Nico Schulz",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "02caf6e0",
    "season": 2019,
-   "distance": 4.088,
+   "distance": 4.064,
    "survived": 1,
    "fut_ability_v2": 51.8,
    "player_name": "Manuel Lazzari",
    "squad": "SPAL"
   },
   {
-   "fbref_id": "3626daea",
-   "season": 2020,
-   "distance": 4.304,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Leonardo Spinazzola",
-   "squad": "Roma"
-  },
-  {
    "fbref_id": "2b5527c4",
    "season": 2019,
-   "distance": 4.327,
+   "distance": 4.212,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Joshua Brenet",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "3cefcaef",
+   "fbref_id": "3626daea",
    "season": 2020,
-   "distance": 4.509,
-   "survived": 1,
-   "fut_ability_v2": 61.4,
-   "player_name": "Ferland Mendy",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "770d7eb8",
-   "season": 2019,
-   "distance": 4.521,
-   "survived": 1,
-   "fut_ability_v2": 47.2,
-   "player_name": "Kenny Lala",
-   "squad": "Strasbourg"
+   "distance": 4.227,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leonardo Spinazzola",
+   "squad": "Roma"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Nuno Tavares(DF)의 현재 능력 점수는 61.5점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 성공 드리블, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 태클 성공률이다.",
-  "potential": "Nuno Tavares의 2~3년 후 예측 중심값은 62.6점, 80% 구간 상단은 71.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Nuno Tavares의 2~3년 후 예측 중심값은 62.5점, 80% 구간 상단은 71.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

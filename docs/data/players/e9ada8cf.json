@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9454,
-  "mu": 47.7,
+  "survival_prob": 0.8119,
+  "mu": 47.6,
   "ci80": {
-   "lo": 36.9,
-   "hi": 58.5
+   "lo": 37.1,
+   "hi": 58.1
   },
   "ci50": {
    "lo": 42.0,
-   "hi": 53.4
+   "hi": 53.1
   },
-  "sigma_model": 2.5,
+  "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "3c16d927",
+   "season": 2021,
+   "distance": 1.891,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Alejandro Pozo Pozo",
+   "squad": "Eibar"
+  },
+  {
    "fbref_id": "efb9215a",
    "season": 2020,
-   "distance": 1.895,
+   "distance": 1.926,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jamal Lewis",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "355c883a",
    "season": 2019,
-   "distance": 1.956,
+   "distance": 1.972,
    "survived": 1,
    "fut_ability_v2": 45.7,
    "player_name": "Martin Agirregabiria",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "9b88e120",
    "season": 2019,
-   "distance": 2.177,
+   "distance": 2.112,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Robert Bauer",
    "squad": "Nürnberg"
   },
   {
+   "fbref_id": "1545cf15",
+   "season": 2021,
+   "distance": 2.131,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Houboulang Mendes",
+   "squad": "Lorient"
+  },
+  {
    "fbref_id": "0118c54c",
    "season": 2019,
-   "distance": 2.215,
+   "distance": 2.133,
    "survived": 1,
    "fut_ability_v2": 58.6,
    "player_name": "Anthony Caci",
    "squad": "Strasbourg"
   },
   {
+   "fbref_id": "228b0d9d",
+   "season": 2022,
+   "distance": 2.147,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Aihen Muñoz",
+   "squad": "Real Sociedad"
+  },
+  {
    "fbref_id": "758dd7f0",
    "season": 2018,
-   "distance": 2.227,
+   "distance": 2.199,
    "survived": 1,
    "fut_ability_v2": 40.9,
    "player_name": "Javier Manquillo",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "228b0d9d",
-   "season": 2020,
-   "distance": 2.324,
+   "fbref_id": "2f3e911a",
+   "season": 2021,
+   "distance": 2.206,
    "survived": 1,
-   "fut_ability_v2": 46.3,
-   "player_name": "Aihen Muñoz",
-   "squad": "Real Sociedad"
+   "fut_ability_v2": 45.1,
+   "player_name": "Aarón Martín",
+   "squad": "Celta Vigo / Mainz 05"
   },
   {
-   "fbref_id": "355c883a",
-   "season": 2018,
-   "distance": 2.367,
-   "survived": 1,
-   "fut_ability_v2": 41.6,
-   "player_name": "Martin Agirregabiria",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "bcc81786",
-   "season": 2020,
-   "distance": 2.416,
-   "survived": 1,
-   "fut_ability_v2": 47.5,
-   "player_name": "Kelvin Amian",
-   "squad": "Toulouse"
-  },
-  {
-   "fbref_id": "90eb507d",
-   "season": 2019,
-   "distance": 2.438,
-   "survived": 1,
-   "fut_ability_v2": 43.7,
-   "player_name": "Thomas Foket",
-   "squad": "Reims"
-  },
-  {
-   "fbref_id": "355c883a",
-   "season": 2020,
-   "distance": 2.441,
-   "survived": 1,
-   "fut_ability_v2": 48.8,
-   "player_name": "Martin Agirregabiria",
-   "squad": "Alavés"
+   "fbref_id": "7ba1f1ef",
+   "season": 2021,
+   "distance": 2.21,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lennart-Marten Czyborra",
+   "squad": "Genoa"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Javi López(DF)의 현재 능력 점수는 38.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 성공 드리블, 볼 리커버리, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
-  "potential": "Javi López의 2~3년 후 예측 중심값은 47.7점, 80% 구간 상단은 58.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 94.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Javi López의 2~3년 후 예측 중심값은 47.6점, 80% 구간 상단은 58.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 81.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8602,
-  "mu": 58.2,
+  "survival_prob": 0.8384,
+  "mu": 59.4,
   "ci80": {
-   "lo": 48.9,
-   "hi": 67.4
+   "lo": 49.9,
+   "hi": 68.7
   },
   "ci50": {
-   "lo": 53.3,
-   "hi": 63.0
+   "lo": 54.4,
+   "hi": 64.3
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "7cdda3bf",
    "season": 2019,
-   "distance": 1.519,
+   "distance": 1.51,
    "survived": 1,
    "fut_ability_v2": 66.6,
    "player_name": "Gaëtan Laborde",
@@ -57,26 +57,35 @@
   },
   {
    "fbref_id": "d705ba44",
-   "season": 2020,
-   "distance": 1.931,
+   "season": 2021,
+   "distance": 1.742,
    "survived": 1,
-   "fut_ability_v2": 47.2,
+   "fut_ability_v2": 48.0,
    "player_name": "Andrea Belotti",
    "squad": "Torino"
   },
   {
    "fbref_id": "64f69877",
    "season": 2018,
-   "distance": 1.94,
+   "distance": 1.906,
    "survived": 1,
    "fut_ability_v2": 69.7,
    "player_name": "Kevin Volland",
    "squad": "Leverkusen"
   },
   {
+   "fbref_id": "d705ba44",
+   "season": 2020,
+   "distance": 1.908,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Andrea Belotti",
+   "squad": "Torino"
+  },
+  {
    "fbref_id": "43458538",
    "season": 2019,
-   "distance": 2.231,
+   "distance": 2.217,
    "survived": 1,
    "fut_ability_v2": 50.2,
    "player_name": "Joshua King",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "ffa90327",
    "season": 2020,
-   "distance": 2.318,
+   "distance": 2.283,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Anwar El Ghazi",
@@ -94,47 +103,38 @@
   {
    "fbref_id": "43458538",
    "season": 2018,
-   "distance": 2.326,
+   "distance": 2.333,
    "survived": 1,
    "fut_ability_v2": 54.0,
    "player_name": "Joshua King",
    "squad": "Bournemouth"
   },
   {
-   "fbref_id": "81f0781e",
-   "season": 2018,
-   "distance": 2.428,
-   "survived": 1,
-   "fut_ability_v2": 76.2,
-   "player_name": "Gerard Moreno",
-   "squad": "Espanyol"
-  },
-  {
    "fbref_id": "2677a1de",
    "season": 2018,
-   "distance": 2.429,
+   "distance": 2.364,
    "survived": 1,
    "fut_ability_v2": 51.8,
    "player_name": "Wahbi Khazri",
    "squad": "Rennes"
   },
   {
-   "fbref_id": "21a66f6a",
-   "season": 2019,
-   "distance": 2.435,
+   "fbref_id": "aed3a70f",
+   "season": 2021,
+   "distance": 2.37,
    "survived": 1,
-   "fut_ability_v2": 78.3,
-   "player_name": "Harry Kane",
-   "squad": "Tottenham"
+   "fut_ability_v2": 61.8,
+   "player_name": "Ollie Watkins",
+   "squad": "Aston Villa"
   },
   {
-   "fbref_id": "1fb1c435",
-   "season": 2018,
-   "distance": 2.451,
+   "fbref_id": "c68da769",
+   "season": 2022,
+   "distance": 2.397,
    "survived": 1,
-   "fut_ability_v2": 67.0,
-   "player_name": "Rodrigo",
-   "squad": "Valencia"
+   "fut_ability_v2": 43.1,
+   "player_name": "Rafael Borré",
+   "squad": "Eint Frankfurt"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mohamed Amoura(FW)의 현재 능력 점수는 62.8점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 어시스트, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 최종 3분의1 패스이다.",
-  "potential": "Mohamed Amoura의 2~3년 후 예측 중심값은 58.2점, 80% 구간 상단은 67.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 86.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mohamed Amoura의 2~3년 후 예측 중심값은 59.4점, 80% 구간 상단은 68.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 83.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

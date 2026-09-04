@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.834,
-  "mu": 60.2,
+  "survival_prob": 0.8133,
+  "mu": 60.6,
   "ci80": {
-   "lo": 50.9,
-   "hi": 69.6
+   "lo": 51.2,
+   "hi": 69.8
   },
   "ci50": {
-   "lo": 55.3,
-   "hi": 65.2
+   "lo": 55.6,
+   "hi": 65.4
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "fdf3cb77",
+   "season": 2021,
+   "distance": 1.704,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Vladimír Coufal",
+   "squad": "West Ham"
+  },
+  {
    "fbref_id": "9e1577aa",
    "season": 2018,
-   "distance": 1.968,
+   "distance": 2.083,
    "survived": 1,
    "fut_ability_v2": 53.6,
    "player_name": "Cristiano Biraghi",
@@ -58,34 +67,16 @@
   {
    "fbref_id": "f4290206",
    "season": 2018,
-   "distance": 2.358,
+   "distance": 2.398,
    "survived": 1,
    "fut_ability_v2": 66.1,
    "player_name": "Marcos Alonso",
    "squad": "Chelsea"
   },
   {
-   "fbref_id": "cb574619",
-   "season": 2019,
-   "distance": 2.4,
-   "survived": 1,
-   "fut_ability_v2": 62.4,
-   "player_name": "Hugo Mallo",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "4f974391",
-   "season": 2018,
-   "distance": 2.415,
-   "survived": 1,
-   "fut_ability_v2": 53.4,
-   "player_name": "Aaron Cresswell",
-   "squad": "West Ham"
-  },
-  {
    "fbref_id": "fb5d47b3",
    "season": 2018,
-   "distance": 2.455,
+   "distance": 2.405,
    "survived": 1,
    "fut_ability_v2": 57.9,
    "player_name": "Mario Gaspar",
@@ -94,47 +85,56 @@
   {
    "fbref_id": "e28868f3",
    "season": 2019,
-   "distance": 2.549,
+   "distance": 2.457,
    "survived": 1,
    "fut_ability_v2": 51.2,
    "player_name": "Jonny Castro",
    "squad": "Wolves"
   },
   {
+   "fbref_id": "3353737a",
+   "season": 2022,
+   "distance": 2.459,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Sergio Reguilón",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "4f974391",
+   "season": 2018,
+   "distance": 2.481,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "cb574619",
+   "season": 2019,
+   "distance": 2.49,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  },
+  {
    "fbref_id": "bbd86530",
-   "season": 2020,
-   "distance": 2.566,
+   "season": 2021,
+   "distance": 2.555,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Christopher Lenz",
    "squad": "Union Berlin"
   },
   {
-   "fbref_id": "d557d734",
-   "season": 2019,
-   "distance": 2.688,
+   "fbref_id": "b05e2dbd",
+   "season": 2021,
+   "distance": 2.573,
    "survived": 1,
-   "fut_ability_v2": 61.1,
-   "player_name": "Matt Doherty",
-   "squad": "Wolves"
-  },
-  {
-   "fbref_id": "9e1577aa",
-   "season": 2019,
-   "distance": 2.695,
-   "survived": 1,
-   "fut_ability_v2": 53.6,
-   "player_name": "Cristiano Biraghi",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "5c2b4f07",
-   "season": 2020,
-   "distance": 2.717,
-   "survived": 1,
-   "fut_ability_v2": 66.8,
-   "player_name": "Serge Aurier",
-   "squad": "Tottenham"
+   "fut_ability_v2": 58.3,
+   "player_name": "José Luis Gayà",
+   "squad": "Valencia"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Sergi Cardona(DF)의 현재 능력 점수는 63.9점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 어시스트, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스이다.",
-  "potential": "Sergi Cardona의 2~3년 후 예측 중심값은 60.2점, 80% 구간 상단은 69.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 83.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Sergi Cardona의 2~3년 후 예측 중심값은 60.6점, 80% 구간 상단은 69.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 81.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.753,
-  "mu": 60.3,
+  "survival_prob": 0.7683,
+  "mu": 56.7,
   "ci80": {
-   "lo": 51.1,
-   "hi": 69.7
+   "lo": 47.4,
+   "hi": 65.9
   },
   "ci50": {
-   "lo": 55.5,
-   "hi": 65.3
+   "lo": 51.8,
+   "hi": 61.5
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a8748947",
    "season": 2019,
-   "distance": 2.055,
+   "distance": 2.067,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Tom Cairney",
    "squad": "Fulham"
   },
   {
+   "fbref_id": "5a626448",
+   "season": 2021,
+   "distance": 2.264,
+   "survived": 1,
+   "fut_ability_v2": 51.4,
+   "player_name": "Moi Gómez",
+   "squad": "Villarreal"
+  },
+  {
    "fbref_id": "ef345601",
    "season": 2018,
-   "distance": 2.306,
+   "distance": 2.328,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Tana",
@@ -74,67 +83,58 @@
    "squad": "Roma"
   },
   {
+   "fbref_id": "88050721",
+   "season": 2021,
+   "distance": 2.477,
+   "survived": 1,
+   "fut_ability_v2": 51.3,
+   "player_name": "Unai López",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "070a3904",
+   "season": 2022,
+   "distance": 2.634,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Sergi Darder",
+   "squad": "Espanyol"
+  },
+  {
    "fbref_id": "e7f4603c",
    "season": 2019,
-   "distance": 2.653,
+   "distance": 2.645,
    "survived": 1,
    "fut_ability_v2": 49.6,
    "player_name": "Borja García",
    "squad": "Girona"
   },
   {
-   "fbref_id": "b86fe156",
-   "season": 2019,
-   "distance": 2.685,
+   "fbref_id": "86a2ba20",
+   "season": 2022,
+   "distance": 2.648,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Giannelli Imbula",
-   "squad": "Rayo Vallecano"
+   "player_name": "Rominigue Kouamé",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "2a0c8ba4",
+   "season": 2021,
+   "distance": 2.683,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joan Jordán",
+   "squad": "Sevilla"
   },
   {
    "fbref_id": "4a56052c",
    "season": 2020,
-   "distance": 2.735,
+   "distance": 2.707,
    "survived": 1,
    "fut_ability_v2": 63.9,
    "player_name": "Jordan Veretout",
    "squad": "Roma"
-  },
-  {
-   "fbref_id": "528492ea",
-   "season": 2019,
-   "distance": 2.741,
-   "survived": 1,
-   "fut_ability_v2": 50.9,
-   "player_name": "Alfred Duncan",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "b86fe156",
-   "season": 2018,
-   "distance": 2.768,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Giannelli Imbula",
-   "squad": "Toulouse"
-  },
-  {
-   "fbref_id": "375622c5",
-   "season": 2019,
-   "distance": 2.782,
-   "survived": 1,
-   "fut_ability_v2": 51.3,
-   "player_name": "Jordan Ferri",
-   "squad": "Nîmes / Lyon"
-  },
-  {
-   "fbref_id": "070a3904",
-   "season": 2019,
-   "distance": 2.806,
-   "survived": 1,
-   "fut_ability_v2": 58.8,
-   "player_name": "Sergi Darder",
-   "squad": "Espanyol"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Iván Martín(MF)의 현재 능력 점수는 55.8점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 슈팅당 기대득점, 패스 성공률, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
-  "potential": "Iván Martín의 2~3년 후 예측 중심값은 60.3점, 80% 구간 상단은 69.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Iván Martín의 2~3년 후 예측 중심값은 56.7점, 80% 구간 상단은 65.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 76.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

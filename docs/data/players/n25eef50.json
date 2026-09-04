@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4109,
-  "mu": 45.2,
+  "survival_prob": 0.3256,
+  "mu": 43.6,
   "ci80": {
-   "lo": 35.4,
-   "hi": 55.0
+   "lo": 33.8,
+   "hi": 53.5
   },
   "ci50": {
-   "lo": 40.1,
-   "hi": 50.4
+   "lo": 38.5,
+   "hi": 48.8
   },
-  "sigma_model": 2.9,
-  "sigma_residual": 7.0
+  "sigma_model": 2.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "80dbbd10",
    "season": 2018,
-   "distance": 2.304,
+   "distance": 2.29,
    "survived": 1,
    "fut_ability_v2": 34.3,
    "player_name": "Simeon Nwankwo",
    "squad": "Crotone"
   },
   {
+   "fbref_id": "6922f806",
+   "season": 2021,
+   "distance": 2.435,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Calleri",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "0cadc46d",
+   "season": 2022,
+   "distance": 2.473,
+   "survived": 1,
+   "fut_ability_v2": 42.9,
+   "player_name": "Vedat Muriqi",
+   "squad": "Mallorca / Lazio"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2021,
+   "distance": 2.537,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "0a1efd3c",
    "season": 2018,
-   "distance": 2.625,
+   "distance": 2.599,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andrey Galabinov",
@@ -67,7 +94,7 @@
   {
    "fbref_id": "9980269a",
    "season": 2019,
-   "distance": 2.678,
+   "distance": 2.705,
    "survived": 1,
    "fut_ability_v2": 36.1,
    "player_name": "Kalifa Coulibaly",
@@ -76,65 +103,38 @@
   {
    "fbref_id": "8f3565b3",
    "season": 2018,
-   "distance": 2.747,
+   "distance": 2.717,
    "survived": 1,
    "fut_ability_v2": 43.1,
    "player_name": "Ante Budimir",
    "squad": "Crotone"
   },
   {
+   "fbref_id": "8f3565b3",
+   "season": 2021,
+   "distance": 2.728,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Ante Budimir",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "8e235926",
+   "season": 2022,
+   "distance": 2.754,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Michael Gregoritsch",
+   "squad": "Augsburg"
+  },
+  {
    "fbref_id": "e5f63987",
    "season": 2019,
-   "distance": 2.797,
+   "distance": 2.801,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Daniel Ginczek",
    "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "9980269a",
-   "season": 2020,
-   "distance": 2.821,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kalifa Coulibaly",
-   "squad": "Nantes"
-  },
-  {
-   "fbref_id": "1d6ac165",
-   "season": 2018,
-   "distance": 2.882,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sam Vokes",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "6922f806",
-   "season": 2020,
-   "distance": 2.947,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jonathan Calleri",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "8f898ba8",
-   "season": 2020,
-   "distance": 2.973,
-   "survived": 1,
-   "fut_ability_v2": 30.8,
-   "player_name": "Guido Carrillo",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "7ffaf233",
-   "season": 2018,
-   "distance": 3.068,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Suk Hyun-jun",
-   "squad": "Troyes"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Toni Martínez(FW)의 현재 능력 점수는 48.2점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 슈팅 시도, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 골 창출(GCA)이다.",
-  "potential": "Toni Martínez의 2~3년 후 예측 중심값은 45.2점, 80% 구간 상단은 55.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Toni Martínez의 2~3년 후 예측 중심값은 43.6점, 80% 구간 상단은 53.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

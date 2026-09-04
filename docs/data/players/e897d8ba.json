@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0807,
-  "mu": 46.6,
+  "survival_prob": 0.1743,
+  "mu": 46.3,
   "ci80": {
-   "lo": 37.0,
-   "hi": 56.3
+   "lo": 36.5,
+   "hi": 56.2
   },
   "ci50": {
-   "lo": 41.6,
-   "hi": 51.8
+   "lo": 41.2,
+   "hi": 51.6
   },
-  "sigma_model": 2.7,
-  "sigma_residual": 7.0
+  "sigma_model": 2.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "293211e1",
    "season": 2018,
-   "distance": 2.138,
+   "distance": 2.14,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aritz Aduriz",
    "squad": "Athletic Club"
   },
   {
+   "fbref_id": "63b0ca6b",
+   "season": 2022,
+   "distance": 2.194,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro Negredo",
+   "squad": "Cádiz"
+  },
+  {
    "fbref_id": "f2f29dda",
    "season": 2019,
-   "distance": 2.213,
+   "distance": 2.24,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Glenn Murray",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "f2f29dda",
    "season": 2018,
-   "distance": 2.249,
+   "distance": 2.272,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Glenn Murray",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "71a20ce8",
    "season": 2019,
-   "distance": 2.828,
+   "distance": 2.845,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Gómez",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "2ec0f902",
    "season": 2019,
-   "distance": 3.029,
+   "distance": 2.979,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Riccardo Meggiorini",
    "squad": "Chievo"
   },
   {
+   "fbref_id": "e21042ae",
+   "season": 2022,
+   "distance": 3.021,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabian Klos",
+   "squad": "Arminia"
+  },
+  {
    "fbref_id": "b09a3ecc",
    "season": 2019,
-   "distance": 3.069,
+   "distance": 3.062,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Daniel Ciofani",
    "squad": "Frosinone"
   },
   {
+   "fbref_id": "63b0ca6b",
+   "season": 2021,
+   "distance": 3.108,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro Negredo",
+   "squad": "Cádiz"
+  },
+  {
    "fbref_id": "71a20ce8",
    "season": 2018,
-   "distance": 3.098,
+   "distance": 3.108,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Gómez",
    "squad": "Stuttgart / Wolfsburg"
-  },
-  {
-   "fbref_id": "73d9bdc7",
-   "season": 2018,
-   "distance": 3.262,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Peter Crouch",
-   "squad": "Stoke City"
-  },
-  {
-   "fbref_id": "c4b8bcf4",
-   "season": 2019,
-   "distance": 3.382,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Charles",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "66116290",
-   "season": 2019,
-   "distance": 3.443,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Radamel Falcao",
-   "squad": "Monaco"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Kiké(FW)의 현재 능력 점수는 36.8점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 공중볼 승률, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 키패스이다.",
-  "potential": "Kiké의 2~3년 후 예측 중심값은 46.6점, 80% 구간 상단은 56.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 8.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Kiké의 2~3년 후 예측 중심값은 46.3점, 80% 구간 상단은 56.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 17.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5755,
-  "mu": 39.9,
+  "survival_prob": 0.6043,
+  "mu": 41.9,
   "ci80": {
-   "lo": 30.5,
-   "hi": 49.3
+   "lo": 32.4,
+   "hi": 51.4
   },
   "ci50": {
-   "lo": 34.9,
-   "hi": 44.9
+   "lo": 36.9,
+   "hi": 46.9
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "f9758dae",
+   "season": 2021,
+   "distance": 2.243,
+   "survived": 1,
+   "fut_ability_v2": 28.8,
+   "player_name": "Emmanuel Gyasi",
+   "squad": "Spezia"
+  },
+  {
    "fbref_id": "74c7c2db",
    "season": 2019,
-   "distance": 2.331,
+   "distance": 2.376,
    "survived": 1,
    "fut_ability_v2": 46.7,
    "player_name": "Robin Quaison",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "81255c03",
    "season": 2020,
-   "distance": 2.419,
+   "distance": 2.425,
    "survived": 1,
    "fut_ability_v2": 41.1,
    "player_name": "João Pedro",
    "squad": "Cagliari"
   },
   {
+   "fbref_id": "a2d873dd",
+   "season": 2021,
+   "distance": 2.456,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hwang Ui-jo",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "02ef8778",
+   "season": 2022,
+   "distance": 2.57,
+   "survived": 1,
+   "fut_ability_v2": 31.9,
+   "player_name": "Raúl de Tomás",
+   "squad": "Espanyol"
+  },
+  {
    "fbref_id": "5343eb4e",
    "season": 2018,
-   "distance": 2.57,
+   "distance": 2.573,
    "survived": 1,
    "fut_ability_v2": 34.1,
    "player_name": "Yoshinori Mutō",
    "squad": "Mainz 05"
   },
   {
-   "fbref_id": "32974271",
-   "season": 2020,
-   "distance": 2.677,
-   "survived": 1,
-   "fut_ability_v2": 46.7,
-   "player_name": "Sergi Guardiola",
-   "squad": "Valladolid"
-  },
-  {
    "fbref_id": "bdedd861",
    "season": 2020,
-   "distance": 2.685,
+   "distance": 2.709,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rachid Alioui",
    "squad": "Angers"
   },
   {
+   "fbref_id": "32974271",
+   "season": 2020,
+   "distance": 2.711,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Sergi Guardiola",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "bf57eaab",
+   "season": 2022,
+   "distance": 2.726,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Federico Bonazzoli",
+   "squad": "Salernitana"
+  },
+  {
    "fbref_id": "81255c03",
    "season": 2019,
-   "distance": 2.717,
+   "distance": 2.734,
    "survived": 1,
    "fut_ability_v2": 46.7,
    "player_name": "João Pedro",
    "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "0c3057a9",
-   "season": 2019,
-   "distance": 2.781,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mikael Ishak",
-   "squad": "Nürnberg"
-  },
-  {
-   "fbref_id": "6a99e0b1",
-   "season": 2020,
-   "distance": 2.794,
-   "survived": 1,
-   "fut_ability_v2": 54.3,
-   "player_name": "Iñaki Williams",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "d87e2cae",
-   "season": 2019,
-   "distance": 2.807,
-   "survived": 1,
-   "fut_ability_v2": 43.4,
-   "player_name": "Willian José",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "d87e2cae",
-   "season": 2018,
-   "distance": 2.844,
-   "survived": 1,
-   "fut_ability_v2": 43.5,
-   "player_name": "Willian José",
-   "squad": "Real Sociedad"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Javi Puado(FW)의 현재 능력 점수는 36.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 패스 성공률, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 슈팅 창출(SCA)이다.",
-  "potential": "Javi Puado의 2~3년 후 예측 중심값은 39.9점, 80% 구간 상단은 49.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 57.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Javi Puado의 2~3년 후 예측 중심값은 41.9점, 80% 구간 상단은 51.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

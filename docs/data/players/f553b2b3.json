@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7095,
-  "mu": 42.8,
+  "survival_prob": 0.6309,
+  "mu": 43.0,
   "ci80": {
-   "lo": 32.9,
-   "hi": 52.5
+   "lo": 33.4,
+   "hi": 52.4
   },
   "ci50": {
-   "lo": 37.6,
+   "lo": 37.9,
    "hi": 47.9
   },
-  "sigma_model": 3.0,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "4e9a0555",
    "season": 2019,
-   "distance": 1.73,
+   "distance": 1.728,
    "survived": 1,
    "fut_ability_v2": 36.4,
    "player_name": "Chris Wood",
    "squad": "Burnley"
   },
   {
+   "fbref_id": "9ef42479",
+   "season": 2022,
+   "distance": 1.969,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thomas Henry",
+   "squad": "Venezia"
+  },
+  {
+   "fbref_id": "bbf5c11b",
+   "season": 2022,
+   "distance": 2.116,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafa Mir",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "fcbcbd94",
    "season": 2018,
-   "distance": 2.385,
+   "distance": 2.398,
    "survived": 1,
    "fut_ability_v2": 34.3,
    "player_name": "Moussa Konaté",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "2054d037",
    "season": 2020,
-   "distance": 2.481,
+   "distance": 2.483,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "M'Baye Niang",
@@ -76,7 +94,7 @@
   {
    "fbref_id": "09538fdb",
    "season": 2019,
-   "distance": 2.51,
+   "distance": 2.496,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Kevin Lasagna",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "3aa4a3be",
    "season": 2020,
-   "distance": 2.547,
+   "distance": 2.554,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Loren Morón",
@@ -94,7 +112,7 @@
   {
    "fbref_id": "4e9a0555",
    "season": 2018,
-   "distance": 2.547,
+   "distance": 2.568,
    "survived": 1,
    "fut_ability_v2": 44.9,
    "player_name": "Chris Wood",
@@ -103,7 +121,7 @@
   {
    "fbref_id": "462475ed",
    "season": 2020,
-   "distance": 2.604,
+   "distance": 2.578,
    "survived": 1,
    "fut_ability_v2": 56.7,
    "player_name": "Ludovic Ajorque",
@@ -111,30 +129,12 @@
   },
   {
    "fbref_id": "5046b7d4",
-   "season": 2019,
-   "distance": 2.65,
-   "survived": 1,
-   "fut_ability_v2": 40.8,
-   "player_name": "Stéphane Bahoken",
-   "squad": "Angers"
-  },
-  {
-   "fbref_id": "5046b7d4",
    "season": 2018,
-   "distance": 2.663,
+   "distance": 2.649,
    "survived": 1,
    "fut_ability_v2": 42.4,
    "player_name": "Stéphane Bahoken",
    "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "8c44e37b",
-   "season": 2019,
-   "distance": 2.692,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Borja Bastón",
-   "squad": "Alavés"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Jørgen Strand Larsen(FW)의 현재 능력 점수는 44.2점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 무페널티 득점, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 전진 운반 거리이다.",
-  "potential": "Jørgen Strand Larsen의 2~3년 후 예측 중심값은 42.8점, 80% 구간 상단은 52.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jørgen Strand Larsen의 2~3년 후 예측 중심값은 43.0점, 80% 구간 상단은 52.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 63.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

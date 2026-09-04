@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5512,
-  "mu": 48.9,
+  "survival_prob": 0.3438,
+  "mu": 49.3,
   "ci80": {
-   "lo": 39.5,
-   "hi": 58.2
+   "lo": 40.0,
+   "hi": 58.7
   },
   "ci50": {
-   "lo": 43.9,
-   "hi": 53.7
+   "lo": 44.4,
+   "hi": 54.2
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a8797cf1",
    "season": 2020,
-   "distance": 1.949,
+   "distance": 2.018,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bongani Zungu",
    "squad": "Amiens"
   },
   {
+   "fbref_id": "9f1938ab",
+   "season": 2022,
+   "distance": 2.025,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Forshaw",
+   "squad": "Leeds United"
+  },
+  {
+   "fbref_id": "26db8853",
+   "season": 2021,
+   "distance": 2.233,
+   "survived": 1,
+   "fut_ability_v2": 42.0,
+   "player_name": "Walace",
+   "squad": "Udinese"
+  },
+  {
    "fbref_id": "0d2158d5",
    "season": 2019,
-   "distance": 2.178,
+   "distance": 2.271,
    "survived": 1,
    "fut_ability_v2": 40.5,
    "player_name": "Jordan Marié",
    "squad": "Dijon"
   },
   {
+   "fbref_id": "ba1e04b3",
+   "season": 2018,
+   "distance": 2.275,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Pedro Obiang",
+   "squad": "West Ham"
+  },
+  {
    "fbref_id": "73489527",
    "season": 2018,
-   "distance": 2.226,
+   "distance": 2.311,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Steven Defour",
@@ -76,7 +103,7 @@
   {
    "fbref_id": "5d8e331f",
    "season": 2019,
-   "distance": 2.228,
+   "distance": 2.323,
    "survived": 1,
    "fut_ability_v2": 60.8,
    "player_name": "Nicolas Höfler",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "0d2158d5",
    "season": 2018,
-   "distance": 2.281,
+   "distance": 2.33,
    "survived": 1,
    "fut_ability_v2": 40.5,
    "player_name": "Jordan Marié",
    "squad": "Dijon"
   },
   {
-   "fbref_id": "999908af",
-   "season": 2019,
-   "distance": 2.312,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wakaso",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "ba1e04b3",
-   "season": 2018,
-   "distance": 2.336,
+   "fbref_id": "4f565d77",
+   "season": 2022,
+   "distance": 2.357,
    "survived": 1,
-   "fut_ability_v2": 58.7,
-   "player_name": "Pedro Obiang",
-   "squad": "West Ham"
+   "fut_ability_v2": 37.5,
+   "player_name": "Kalvin Phillips",
+   "squad": "Leeds United"
   },
   {
-   "fbref_id": "2b1bed19",
-   "season": 2020,
-   "distance": 2.448,
-   "survived": 1,
-   "fut_ability_v2": 48.1,
-   "player_name": "Haris Belkebla",
-   "squad": "Brest"
-  },
-  {
-   "fbref_id": "87882adc",
-   "season": 2018,
-   "distance": 2.498,
+   "fbref_id": "0d2158d5",
+   "season": 2021,
+   "distance": 2.364,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Daniel Torres",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "3f7cd8f1",
-   "season": 2018,
-   "distance": 2.544,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Philipp Bargfrede",
-   "squad": "Werder Bremen"
+   "player_name": "Jordan Marié",
+   "squad": "Dijon"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Yves Bissouma(MF)의 현재 능력 점수는 45.3점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 태클+인터셉트, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 실책이다.",
-  "potential": "Yves Bissouma의 2~3년 후 예측 중심값은 48.9점, 80% 구간 상단은 58.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Yves Bissouma의 2~3년 후 예측 중심값은 49.3점, 80% 구간 상단은 58.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

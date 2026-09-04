@@ -32,42 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6817,
-  "mu": 51.2,
+  "survival_prob": 0.4125,
+  "mu": 56.9,
   "ci80": {
-   "lo": 41.6,
-   "hi": 60.9
+   "lo": 47.1,
+   "hi": 66.9
   },
   "ci50": {
-   "lo": 46.2,
-   "hi": 56.4
+   "lo": 51.8,
+   "hi": 62.2
   },
-  "sigma_model": 2.7,
-  "sigma_residual": 7.0
+  "sigma_model": 3.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "129af0db",
    "season": 2020,
-   "distance": 3.622,
+   "distance": 3.58,
    "survived": 1,
    "fut_ability_v2": 65.6,
    "player_name": "Álvaro Morata",
    "squad": "Atlético Madrid"
   },
   {
+   "fbref_id": "8f3565b3",
+   "season": 2021,
+   "distance": 3.819,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Ante Budimir",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2022,
+   "distance": 4.171,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "ab070c55",
+   "season": 2021,
+   "distance": 4.287,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "c693347d",
    "season": 2020,
-   "distance": 4.347,
+   "distance": 4.314,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andreas Cornelius",
    "squad": "Parma"
   },
   {
+   "fbref_id": "6605d143",
+   "season": 2022,
+   "distance": 4.321,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Habib Diallo",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "9980269a",
    "season": 2019,
-   "distance": 4.362,
+   "distance": 4.354,
    "survived": 1,
    "fut_ability_v2": 36.1,
    "player_name": "Kalifa Coulibaly",
@@ -76,7 +112,7 @@
   {
    "fbref_id": "d5dd5f1f",
    "season": 2018,
-   "distance": 4.418,
+   "distance": 4.402,
    "survived": 1,
    "fut_ability_v2": 53.9,
    "player_name": "Pierre-Emerick Aubameyang",
@@ -85,7 +121,7 @@
   {
    "fbref_id": "8d78e732",
    "season": 2018,
-   "distance": 4.436,
+   "distance": 4.438,
    "survived": 1,
    "fut_ability_v2": 80.3,
    "player_name": "Robert Lewandowski",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "f9e7c4ac",
    "season": 2019,
-   "distance": 4.504,
+   "distance": 4.48,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alfreð Finnbogason",
    "squad": "Augsburg"
-  },
-  {
-   "fbref_id": "0fe7f7bc",
-   "season": 2018,
-   "distance": 4.508,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Giovanni Sio",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "af721f98",
-   "season": 2018,
-   "distance": 4.534,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Oumar Niasse",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "dc90cfbe",
-   "season": 2020,
-   "distance": 4.637,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bas Dost",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "c4e87b8b",
-   "season": 2020,
-   "distance": 4.643,
-   "survived": 1,
-   "fut_ability_v2": 46.7,
-   "player_name": "Wout Weghorst",
-   "squad": "Wolfsburg"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Alexander Sørloth(FW)의 현재 능력 점수는 61.8점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 비페널티 xG, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 전진 패스 수신이다.",
-  "potential": "Alexander Sørloth의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 60.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 68.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Alexander Sørloth의 2~3년 후 예측 중심값은 56.9점, 80% 구간 상단은 66.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

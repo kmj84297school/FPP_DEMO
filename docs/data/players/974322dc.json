@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8463,
-  "mu": 50.1,
+  "survival_prob": 0.8138,
+  "mu": 48.4,
   "ci80": {
-   "lo": 40.7,
-   "hi": 59.4
+   "lo": 39.1,
+   "hi": 57.8
   },
   "ci50": {
-   "lo": 45.1,
-   "hi": 55.0
+   "lo": 43.6,
+   "hi": 53.4
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "db001fa9",
+   "season": 2021,
+   "distance": 1.733,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Alfonso Espino",
+   "squad": "Cádiz"
+  },
+  {
+   "fbref_id": "2ff76adc",
+   "season": 2021,
+   "distance": 2.282,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Phillipp Mwene",
+   "squad": "Mainz 05"
+  },
+  {
    "fbref_id": "9f29c204",
    "season": 2018,
-   "distance": 2.501,
+   "distance": 2.401,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Oualid El Hajjam",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "5d8d7454",
    "season": 2020,
-   "distance": 2.518,
+   "distance": 2.47,
    "survived": 1,
    "fut_ability_v2": 55.4,
    "player_name": "Frederic Guilbert",
    "squad": "Aston Villa"
   },
   {
+   "fbref_id": "f0a37d36",
+   "season": 2022,
+   "distance": 2.566,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Brunner",
+   "squad": "Arminia"
+  },
+  {
+   "fbref_id": "45e17712",
+   "season": 2022,
+   "distance": 2.567,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Dimitri Foulquier",
+   "squad": "Valencia / Granada"
+  },
+  {
+   "fbref_id": "1fe0492d",
+   "season": 2022,
+   "distance": 2.624,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Rubén Duarte",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "c4b888df",
+   "season": 2021,
+   "distance": 2.646,
+   "survived": 1,
+   "fut_ability_v2": 33.9,
+   "player_name": "Isaac Carcelen",
+   "squad": "Cádiz"
+  },
+  {
    "fbref_id": "9a9c05db",
    "season": 2018,
-   "distance": 2.671,
+   "distance": 2.653,
    "survived": 1,
    "fut_ability_v2": 51.7,
    "player_name": "Matthew Lowton",
    "squad": "Burnley"
   },
   {
-   "fbref_id": "ae0a7ddf",
-   "season": 2019,
-   "distance": 2.711,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "DeAndre Yedlin",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "cf623c78",
-   "season": 2019,
-   "distance": 2.725,
+   "fbref_id": "5efc5389",
+   "season": 2022,
+   "distance": 2.67,
    "survived": 1,
-   "fut_ability_v2": 47.5,
-   "player_name": "Erik Durm",
-   "squad": "Huddersfield"
-  },
-  {
-   "fbref_id": "bbd86530",
-   "season": 2020,
-   "distance": 2.728,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Christopher Lenz",
-   "squad": "Union Berlin"
-  },
-  {
-   "fbref_id": "22051fbe",
-   "season": 2018,
-   "distance": 2.774,
-   "survived": 1,
-   "fut_ability_v2": 56.8,
-   "player_name": "Giulio Donati",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "c067631c",
-   "season": 2020,
-   "distance": 2.785,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ryan Fredericks",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "46ee5234",
-   "season": 2018,
-   "distance": 2.787,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kieran Gibbs",
-   "squad": "West Brom"
-  },
-  {
-   "fbref_id": "64cd167d",
-   "season": 2019,
-   "distance": 2.812,
-   "survived": 1,
-   "fut_ability_v2": 46.5,
-   "player_name": "Davide Biraschi",
-   "squad": "Genoa"
+   "fut_ability_v2": 56.9,
+   "player_name": "Charalambos Lykogiannis",
+   "squad": "Cagliari"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Iglesias(DF)의 현재 능력 점수는 48.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 블록, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 전진 운반 거리이다.",
-  "potential": "Iglesias의 2~3년 후 예측 중심값은 50.1점, 80% 구간 상단은 59.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Iglesias의 2~3년 후 예측 중심값은 48.4점, 80% 구간 상단은 57.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 81.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

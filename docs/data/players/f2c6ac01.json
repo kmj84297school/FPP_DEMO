@@ -32,109 +32,109 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5411,
-  "mu": 53.2,
+  "survival_prob": 0.6053,
+  "mu": 51.2,
   "ci80": {
-   "lo": 43.8,
-   "hi": 62.5
+   "lo": 41.9,
+   "hi": 60.6
   },
   "ci50": {
-   "lo": 48.2,
-   "hi": 58.1
+   "lo": 46.3,
+   "hi": 56.2
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "27a013f7",
+   "season": 2021,
+   "distance": 1.072,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Néstor Araujo",
+   "squad": "Celta Vigo"
+  },
+  {
    "fbref_id": "c6056d58",
    "season": 2019,
-   "distance": 1.138,
+   "distance": 1.079,
    "survived": 1,
    "fut_ability_v2": 54.7,
    "player_name": "Kamil Glik",
    "squad": "Monaco"
   },
   {
-   "fbref_id": "9f8e9423",
-   "season": 2020,
-   "distance": 1.228,
+   "fbref_id": "ac861941",
+   "season": 2021,
+   "distance": 1.08,
    "survived": 1,
-   "fut_ability_v2": 58.9,
-   "player_name": "Raphaël Varane",
-   "squad": "Real Madrid"
+   "fut_ability_v2": 57.8,
+   "player_name": "Eric Dier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "bcfb0142",
+   "season": 2022,
+   "distance": 1.081,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ben Gibson",
+   "squad": "Norwich City"
   },
   {
    "fbref_id": "1ec7e1c5",
    "season": 2019,
-   "distance": 1.25,
+   "distance": 1.201,
    "survived": 1,
    "fut_ability_v2": 66.6,
    "player_name": "Damien Da Silva",
    "squad": "Rennes"
   },
   {
-   "fbref_id": "d70a2141",
-   "season": 2019,
-   "distance": 1.25,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jordi Amat",
-   "squad": "Rayo Vallecano"
-  },
-  {
-   "fbref_id": "b7ca5c51",
-   "season": 2020,
-   "distance": 1.263,
-   "survived": 1,
-   "fut_ability_v2": 58.2,
-   "player_name": "Gabriel Paulista",
-   "squad": "Valencia"
-  },
-  {
    "fbref_id": "bc6f5f06",
    "season": 2019,
-   "distance": 1.314,
+   "distance": 1.202,
    "survived": 1,
    "fut_ability_v2": 42.2,
    "player_name": "Sergi Gómez",
    "squad": "Sevilla"
   },
   {
-   "fbref_id": "463503e2",
+   "fbref_id": "d70a2141",
    "season": 2019,
-   "distance": 1.366,
+   "distance": 1.206,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Marcin Kamiński",
-   "squad": "Düsseldorf"
+   "player_name": "Jordi Amat",
+   "squad": "Rayo Vallecano"
   },
   {
-   "fbref_id": "f7d50789",
+   "fbref_id": "9f8e9423",
    "season": 2020,
-   "distance": 1.46,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Toby Alderweireld",
-   "squad": "Tottenham"
+   "distance": 1.214,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Raphaël Varane",
+   "squad": "Real Madrid"
   },
   {
-   "fbref_id": "a46472d0",
-   "season": 2019,
-   "distance": 1.519,
+   "fbref_id": "b7ca5c51",
+   "season": 2020,
+   "distance": 1.248,
    "survived": 1,
-   "fut_ability_v2": 48.8,
-   "player_name": "Lamine Koné",
-   "squad": "Strasbourg"
+   "fut_ability_v2": 58.2,
+   "player_name": "Gabriel Paulista",
+   "squad": "Valencia"
   },
   {
-   "fbref_id": "f25b010f",
-   "season": 2018,
-   "distance": 1.55,
+   "fbref_id": "b7ca5c51",
+   "season": 2021,
+   "distance": 1.279,
    "survived": 1,
-   "fut_ability_v2": 49.7,
-   "player_name": "Federico Fernández",
-   "squad": "Swansea City"
+   "fut_ability_v2": 56.6,
+   "player_name": "Gabriel Paulista",
+   "squad": "Valencia"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Martin Valjent(DF)의 현재 능력 점수는 55.3점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 클리어링, 볼 손실(미스+파울), 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 박스 터치이다.",
-  "potential": "Martin Valjent의 2~3년 후 예측 중심값은 53.2점, 80% 구간 상단은 62.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Martin Valjent의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 60.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

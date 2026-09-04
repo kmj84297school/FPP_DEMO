@@ -32,42 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8861,
+  "survival_prob": 0.8428,
   "mu": 57.2,
   "ci80": {
    "lo": 46.6,
-   "hi": 67.8
+   "hi": 67.7
   },
   "ci50": {
    "lo": 51.7,
    "hi": 62.8
   },
-  "sigma_model": 2.0,
+  "sigma_model": 2.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "c931d9f9",
    "season": 2020,
-   "distance": 1.975,
+   "distance": 1.971,
    "survived": 1,
    "fut_ability_v2": 41.2,
    "player_name": "Daniel James",
    "squad": "Manchester Utd"
   },
   {
-   "fbref_id": "42eaa028",
-   "season": 2020,
-   "distance": 2.024,
-   "survived": 1,
-   "fut_ability_v2": 58.1,
-   "player_name": "Jonathan Ikone",
-   "squad": "Lille"
-  },
-  {
    "fbref_id": "fa18c72e",
    "season": 2018,
-   "distance": 2.034,
+   "distance": 2.091,
    "survived": 1,
    "fut_ability_v2": 63.9,
    "player_name": "Luiz Araújo",
@@ -76,34 +67,52 @@
   {
    "fbref_id": "d2448564",
    "season": 2018,
-   "distance": 2.087,
+   "distance": 2.107,
    "survived": 1,
    "fut_ability_v2": 47.1,
    "player_name": "Samuel Grandsir",
    "squad": "Troyes"
   },
   {
-   "fbref_id": "6191093d",
+   "fbref_id": "42eaa028",
    "season": 2020,
-   "distance": 2.418,
+   "distance": 2.114,
    "survived": 1,
-   "fut_ability_v2": 58.5,
-   "player_name": "Ludovic Blas",
-   "squad": "Nantes"
+   "fut_ability_v2": 58.1,
+   "player_name": "Jonathan Ikone",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "95bb6ddc",
+   "season": 2021,
+   "distance": 2.254,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Junior Dina Ebimbe",
+   "squad": "Dijon"
   },
   {
    "fbref_id": "4468ec10",
    "season": 2018,
-   "distance": 2.431,
+   "distance": 2.392,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Demarai Gray",
    "squad": "Leicester City"
   },
   {
+   "fbref_id": "6191093d",
+   "season": 2020,
+   "distance": 2.417,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Ludovic Blas",
+   "squad": "Nantes"
+  },
+  {
    "fbref_id": "f63d8a4b",
    "season": 2020,
-   "distance": 2.553,
+   "distance": 2.5,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Todd Cantwell",
@@ -112,7 +121,7 @@
   {
    "fbref_id": "42eaa028",
    "season": 2019,
-   "distance": 2.573,
+   "distance": 2.629,
    "survived": 1,
    "fut_ability_v2": 55.1,
    "player_name": "Jonathan Ikone",
@@ -121,20 +130,11 @@
   {
    "fbref_id": "9f736ed2",
    "season": 2018,
-   "distance": 2.586,
+   "distance": 2.656,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jordon Ibe",
    "squad": "Bournemouth"
-  },
-  {
-   "fbref_id": "19709006",
-   "season": 2020,
-   "distance": 2.668,
-   "survived": 1,
-   "fut_ability_v2": 52.8,
-   "player_name": "Óscar Rodríguez Arnaiz",
-   "squad": "Leganés"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Omari Hutchinson(MF)의 현재 능력 점수는 50.2점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 운반, 성공 드리블, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 태클 성공률이다.",
-  "potential": "Omari Hutchinson의 2~3년 후 예측 중심값은 57.2점, 80% 구간 상단은 67.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 88.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Omari Hutchinson의 2~3년 후 예측 중심값은 57.2점, 80% 구간 상단은 67.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 84.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

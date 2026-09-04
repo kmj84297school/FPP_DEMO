@@ -32,33 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6179,
-  "mu": 54.9,
+  "survival_prob": 0.5196,
+  "mu": 58.5,
   "ci80": {
-   "lo": 45.3,
-   "hi": 64.5
+   "lo": 48.9,
+   "hi": 68.2
   },
   "ci50": {
-   "lo": 49.8,
-   "hi": 59.9
+   "lo": 53.5,
+   "hi": 63.6
   },
-  "sigma_model": 2.5,
-  "sigma_residual": 7.0
+  "sigma_model": 2.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a6154613",
+   "season": 2021,
+   "distance": 1.557,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luis Suárez",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "00459419",
+   "season": 2022,
+   "distance": 1.795,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Arnautović",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "45963054",
+   "season": 2022,
+   "distance": 1.902,
+   "survived": 1,
+   "fut_ability_v2": 39.7,
+   "player_name": "Jamie Vardy",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "45963054",
+   "season": 2021,
+   "distance": 2.284,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jamie Vardy",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "165a2e40",
+   "season": 2021,
+   "distance": 2.334,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Burak Yılmaz",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "a6154613",
    "season": 2020,
-   "distance": 2.378,
+   "distance": 2.399,
    "survived": 1,
    "fut_ability_v2": 48.2,
    "player_name": "Luis Suárez",
    "squad": "Barcelona"
   },
   {
+   "fbref_id": "4431aed2",
+   "season": 2022,
+   "distance": 2.4,
+   "survived": 1,
+   "fut_ability_v2": 44.7,
+   "player_name": "Ciro Immobile",
+   "squad": "Lazio"
+  },
+  {
    "fbref_id": "42276181",
    "season": 2019,
-   "distance": 2.437,
+   "distance": 2.446,
    "survived": 1,
    "fut_ability_v2": 44.9,
    "player_name": "Kévin Gameiro",
@@ -67,7 +121,7 @@
   {
    "fbref_id": "ee4f2f3b",
    "season": 2019,
-   "distance": 2.45,
+   "distance": 2.513,
    "survived": 1,
    "fut_ability_v2": 45.9,
    "player_name": "Fabio Quagliarella",
@@ -76,65 +130,11 @@
   {
    "fbref_id": "45963054",
    "season": 2020,
-   "distance": 2.489,
+   "distance": 2.524,
    "survived": 1,
    "fut_ability_v2": 58.3,
    "player_name": "Jamie Vardy",
    "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "ee4f2f3b",
-   "season": 2018,
-   "distance": 2.52,
-   "survived": 1,
-   "fut_ability_v2": 49.2,
-   "player_name": "Fabio Quagliarella",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "c3fd9887",
-   "season": 2019,
-   "distance": 2.584,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vedad Ibišević",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "c4b8bcf4",
-   "season": 2018,
-   "distance": 2.629,
-   "survived": 1,
-   "fut_ability_v2": 31.5,
-   "player_name": "Charles",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "66116290",
-   "season": 2018,
-   "distance": 2.649,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Radamel Falcao",
-   "squad": "Monaco"
-  },
-  {
-   "fbref_id": "45963054",
-   "season": 2019,
-   "distance": 2.788,
-   "survived": 1,
-   "fut_ability_v2": 57.0,
-   "player_name": "Jamie Vardy",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "5bd72174",
-   "season": 2020,
-   "distance": 2.862,
-   "survived": 1,
-   "fut_ability_v2": 48.4,
-   "player_name": "Francesco Caputo",
-   "squad": "Sassuolo"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Alexandre Lacazette(FW)의 현재 능력 점수는 62.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 운반이다.",
-  "potential": "Alexandre Lacazette의 2~3년 후 예측 중심값은 54.9점, 80% 구간 상단은 64.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Alexandre Lacazette의 2~3년 후 예측 중심값은 58.5점, 80% 구간 상단은 68.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 52.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4889,
-  "mu": 58.4,
+  "survival_prob": 0.5768,
+  "mu": 60.8,
   "ci80": {
-   "lo": 49.0,
-   "hi": 67.7
+   "lo": 51.4,
+   "hi": 70.1
   },
   "ci50": {
-   "lo": 53.5,
-   "hi": 63.3
+   "lo": 55.8,
+   "hi": 65.7
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "92b4758e",
+   "season": 2021,
+   "distance": 2.293,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "99f7e9aa",
+   "season": 2021,
+   "distance": 2.299,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Pascal Stenzel",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "5e66fa06",
+   "season": 2021,
+   "distance": 2.331,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Waldemar Anton",
+   "squad": "Stuttgart"
+  },
+  {
    "fbref_id": "699fb8db",
    "season": 2020,
-   "distance": 2.258,
+   "distance": 2.337,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dominique Heintz",
    "squad": "Freiburg"
   },
   {
+   "fbref_id": "a65ce836",
+   "season": 2022,
+   "distance": 2.353,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Emre Can",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "5e66fa06",
+   "season": 2022,
+   "distance": 2.376,
+   "survived": 1,
+   "fut_ability_v2": 72.1,
+   "player_name": "Waldemar Anton",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "2f3452eb",
+   "season": 2022,
+   "distance": 2.376,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Elseid Hysaj",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "197640fd",
+   "season": 2022,
+   "distance": 2.425,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Timothy Castagne",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "1025db8e",
    "season": 2018,
-   "distance": 2.339,
+   "distance": 2.428,
    "survived": 1,
    "fut_ability_v2": 51.0,
    "player_name": "Jeffrey Gouweleeuw",
@@ -67,74 +130,11 @@
   {
    "fbref_id": "b742cc0d",
    "season": 2019,
-   "distance": 2.402,
+   "distance": 2.451,
    "survived": 1,
    "fut_ability_v2": 56.8,
    "player_name": "Marc Bartra",
    "squad": "Betis"
-  },
-  {
-   "fbref_id": "89ac64a6",
-   "season": 2020,
-   "distance": 2.422,
-   "survived": 1,
-   "fut_ability_v2": 66.9,
-   "player_name": "Manuel Akanji",
-   "squad": "Dortmund"
-  },
-  {
-   "fbref_id": "61b3978f",
-   "season": 2019,
-   "distance": 2.447,
-   "survived": 1,
-   "fut_ability_v2": 49.1,
-   "player_name": "Bartosz Bereszyński",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "61b3978f",
-   "season": 2018,
-   "distance": 2.515,
-   "survived": 1,
-   "fut_ability_v2": 49.0,
-   "player_name": "Bartosz Bereszyński",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "6690ef25",
-   "season": 2019,
-   "distance": 2.525,
-   "survived": 1,
-   "fut_ability_v2": 45.2,
-   "player_name": "Pedro Mendes",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "d63e2912",
-   "season": 2018,
-   "distance": 2.531,
-   "survived": 1,
-   "fut_ability_v2": 60.6,
-   "player_name": "Hiroki Sakai",
-   "squad": "Marseille"
-  },
-  {
-   "fbref_id": "6bd5cd5d",
-   "season": 2020,
-   "distance": 2.555,
-   "survived": 1,
-   "fut_ability_v2": 47.2,
-   "player_name": "Robin Knoche",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "20b104bc",
-   "season": 2019,
-   "distance": 2.599,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Adam Smith",
-   "squad": "Bournemouth"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Leonardo Balerdi(DF)의 현재 능력 점수는 58.3점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 패스 거리, 볼 리커버리, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 패스 수신이다.",
-  "potential": "Leonardo Balerdi의 2~3년 후 예측 중심값은 58.4점, 80% 구간 상단은 67.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 48.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Leonardo Balerdi의 2~3년 후 예측 중심값은 60.8점, 80% 구간 상단은 70.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 57.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

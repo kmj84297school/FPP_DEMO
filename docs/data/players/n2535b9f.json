@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9233,
-  "mu": 62.7,
+  "survival_prob": 0.7558,
+  "mu": 60.8,
   "ci80": {
-   "lo": 53.2,
-   "hi": 72.3
+   "lo": 50.4,
+   "hi": 71.3
   },
   "ci50": {
-   "lo": 57.7,
-   "hi": 67.8
+   "lo": 55.3,
+   "hi": 66.3
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 3.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "c4e87b8b",
+   "season": 2021,
+   "distance": 2.582,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "93feac6e",
+   "season": 2021,
+   "distance": 2.967,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Bamford",
+   "squad": "Leeds United"
+  },
+  {
    "fbref_id": "abb3bb95",
    "season": 2020,
-   "distance": 3.161,
+   "distance": 3.121,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luuk de Jong",
@@ -58,34 +76,43 @@
   {
    "fbref_id": "129af0db",
    "season": 2020,
-   "distance": 3.207,
+   "distance": 3.203,
    "survived": 1,
    "fut_ability_v2": 65.6,
    "player_name": "Álvaro Morata",
    "squad": "Atlético Madrid"
   },
   {
-   "fbref_id": "c4e87b8b",
-   "season": 2020,
-   "distance": 3.276,
-   "survived": 1,
-   "fut_ability_v2": 46.7,
-   "player_name": "Wout Weghorst",
-   "squad": "Wolfsburg"
-  },
-  {
    "fbref_id": "9592289a",
    "season": 2018,
-   "distance": 3.305,
+   "distance": 3.286,
    "survived": 1,
    "fut_ability_v2": 44.3,
    "player_name": "Simone Zaza",
    "squad": "Valencia"
   },
   {
+   "fbref_id": "462475ed",
+   "season": 2021,
+   "distance": 3.306,
+   "survived": 1,
+   "fut_ability_v2": 32.2,
+   "player_name": "Ludovic Ajorque",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "c4e87b8b",
+   "season": 2020,
+   "distance": 3.307,
+   "survived": 1,
+   "fut_ability_v2": 46.7,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "d37b0350",
    "season": 2018,
-   "distance": 3.335,
+   "distance": 3.312,
    "survived": 1,
    "fut_ability_v2": 42.6,
    "player_name": "Leonardo Pavoletti",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "0fe7f7bc",
    "season": 2018,
-   "distance": 3.423,
+   "distance": 3.439,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Giovanni Sio",
    "squad": "Montpellier"
   },
   {
-   "fbref_id": "d6862409",
-   "season": 2020,
-   "distance": 3.43,
-   "survived": 1,
-   "fut_ability_v2": 53.7,
-   "player_name": "Florian Niederlechner",
-   "squad": "Augsburg"
-  },
-  {
    "fbref_id": "d37b0350",
    "season": 2019,
-   "distance": 3.478,
+   "distance": 3.441,
    "survived": 1,
    "fut_ability_v2": 43.8,
    "player_name": "Leonardo Pavoletti",
    "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "dc90cfbe",
-   "season": 2020,
-   "distance": 3.491,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bas Dost",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "d87e2cae",
-   "season": 2020,
-   "distance": 3.553,
-   "survived": 1,
-   "fut_ability_v2": 48.0,
-   "player_name": "Willian José",
-   "squad": "Real Sociedad"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Serhou Guirassy(FW)의 현재 능력 점수는 60.9점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 공중볼 승률, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 운반이다.",
-  "potential": "Serhou Guirassy의 2~3년 후 예측 중심값은 62.7점, 80% 구간 상단은 72.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 92.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Serhou Guirassy의 2~3년 후 예측 중심값은 60.8점, 80% 구간 상단은 71.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

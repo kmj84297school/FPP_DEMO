@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5564,
+  "survival_prob": 0.5471,
   "mu": 55.7,
   "ci80": {
    "lo": 46.5,
-   "hi": 65.0
+   "hi": 65.1
   },
   "ci50": {
-   "lo": 50.8,
-   "hi": 60.6
+   "lo": 50.9,
+   "hi": 60.7
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "3e5e4e63",
    "season": 2020,
-   "distance": 1.127,
+   "distance": 1.141,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Steve Cook",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "b7ca5c51",
    "season": 2020,
-   "distance": 1.248,
+   "distance": 1.234,
    "survived": 1,
    "fut_ability_v2": 58.2,
    "player_name": "Gabriel Paulista",
@@ -67,16 +67,34 @@
   {
    "fbref_id": "450ab6fc",
    "season": 2020,
-   "distance": 1.371,
+   "distance": 1.355,
    "survived": 1,
    "fut_ability_v2": 50.6,
    "player_name": "Jamaal Lascelles",
    "squad": "Newcastle Utd"
   },
   {
+   "fbref_id": "ac861941",
+   "season": 2021,
+   "distance": 1.459,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Eric Dier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "c562c5b4",
+   "season": 2021,
+   "distance": 1.5,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joakim Nilsson",
+   "squad": "Arminia"
+  },
+  {
    "fbref_id": "fd47b4f2",
    "season": 2020,
-   "distance": 1.501,
+   "distance": 1.509,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Rodrigo Ely",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "b857bd29",
    "season": 2020,
-   "distance": 1.539,
+   "distance": 1.529,
    "survived": 1,
    "fut_ability_v2": 45.9,
    "player_name": "Antonio Raillo",
    "squad": "Mallorca"
   },
   {
-   "fbref_id": "4242011c",
-   "season": 2019,
-   "distance": 1.568,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bernardo Espinosa",
-   "squad": "Girona"
-  },
-  {
    "fbref_id": "27a013f7",
    "season": 2019,
-   "distance": 1.574,
+   "distance": 1.531,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Néstor Araujo",
    "squad": "Celta Vigo"
   },
   {
-   "fbref_id": "b4a014b1",
-   "season": 2020,
-   "distance": 1.63,
-   "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Diego Carlos",
-   "squad": "Sevilla"
-  },
-  {
    "fbref_id": "b6964eb6",
    "season": 2019,
-   "distance": 1.651,
+   "distance": 1.536,
    "survived": 1,
    "fut_ability_v2": 56.9,
    "player_name": "Chris Smalling",
    "squad": "Manchester Utd"
   },
   {
-   "fbref_id": "27a013f7",
-   "season": 2020,
-   "distance": 1.698,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Néstor Araujo",
-   "squad": "Celta Vigo"
+   "fbref_id": "4242011c",
+   "season": 2019,
+   "distance": 1.55,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bernardo Espinosa",
+   "squad": "Girona"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Scott McKenna(DF)의 현재 능력 점수는 58.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 공중볼 승률, 공중볼 승리, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 전진 패스이다.",
-  "potential": "Scott McKenna의 2~3년 후 예측 중심값은 55.7점, 80% 구간 상단은 65.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Scott McKenna의 2~3년 후 예측 중심값은 55.7점, 80% 구간 상단은 65.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

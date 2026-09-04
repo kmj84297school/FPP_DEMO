@@ -32,24 +32,24 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.9724,
-  "mu": 69.5,
+  "survival_prob": 0.9786,
+  "mu": 80.3,
   "ci80": {
-   "lo": 58.3,
-   "hi": 80.6
+   "lo": 68.8,
+   "hi": 91.7
   },
   "ci50": {
-   "lo": 63.7,
-   "hi": 75.3
+   "lo": 74.3,
+   "hi": 86.3
   },
-  "sigma_model": 3.2,
+  "sigma_model": 4.1,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "42fd9c7f",
    "season": 2018,
-   "distance": 5.673,
+   "distance": 5.484,
    "survived": 1,
    "fut_ability_v2": 87.6,
    "player_name": "Kylian Mbappé",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "1bf33a9a",
    "season": 2018,
-   "distance": 6.143,
+   "distance": 5.997,
    "survived": 1,
    "fut_ability_v2": 73.6,
    "player_name": "Christian Pulisic",
@@ -67,25 +67,43 @@
   {
    "fbref_id": "0ba976e4",
    "season": 2020,
-   "distance": 7.457,
+   "distance": 7.372,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ansu Fati",
    "squad": "Barcelona"
   },
   {
+   "fbref_id": "bf4c41f9",
+   "season": 2021,
+   "distance": 7.912,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Arnaud Kalimuendo",
+   "squad": "Lens / Paris S-G"
+  },
+  {
    "fbref_id": "8f5e92a6",
    "season": 2020,
-   "distance": 8.128,
+   "distance": 8.044,
    "survived": 1,
    "fut_ability_v2": 71.4,
    "player_name": "Rodrygo",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "f8405304",
+   "season": 2022,
+   "distance": 9.846,
+   "survived": 1,
+   "fut_ability_v2": 56.8,
+   "player_name": "Mohamed Ali Cho",
+   "squad": "Angers"
+  },
+  {
    "fbref_id": "33144cc5",
    "season": 2020,
-   "distance": 10.02,
+   "distance": 9.938,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rabbi Matondo",
@@ -94,11 +112,29 @@
   {
    "fbref_id": "3d50bcdb",
    "season": 2018,
-   "distance": 10.311,
+   "distance": 10.226,
    "survived": 1,
    "fut_ability_v2": 51.7,
    "player_name": "Moise Kean",
    "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "e7aa9d7c",
+   "season": 2021,
+   "distance": 10.617,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fábio Silva",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "fd53759d",
+   "season": 2021,
+   "distance": 11.411,
+   "survived": 1,
+   "fut_ability_v2": 34.7,
+   "player_name": "Jan Thielmann",
+   "squad": "Köln"
   }
  ],
  "low_confidence": true,
@@ -273,6 +309,6 @@
  },
  "narrative": {
   "current": "Lamine Yamal(FW)의 현재 능력 점수는 84.0점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 슈팅 시도, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 무페널티 득점이다.",
-  "potential": "Lamine Yamal의 2~3년 후 예측 중심값은 69.5점, 80% 구간 상단은 80.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.2%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Lamine Yamal의 2~3년 후 예측 중심값은 80.3점, 80% 구간 상단은 91.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

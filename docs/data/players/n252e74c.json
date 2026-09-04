@@ -32,33 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5356,
-  "mu": 45.6,
+  "survival_prob": 0.4679,
+  "mu": 49.0,
   "ci80": {
-   "lo": 35.6,
-   "hi": 55.4
+   "lo": 39.2,
+   "hi": 58.6
   },
   "ci50": {
-   "lo": 40.3,
-   "hi": 50.7
+   "lo": 43.8,
+   "hi": 54.0
   },
-  "sigma_model": 3.3,
-  "sigma_residual": 7.0
+  "sigma_model": 2.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "50e6dc35",
+   "season": 2022,
+   "distance": 1.821,
+   "survived": 1,
+   "fut_ability_v2": 48.1,
+   "player_name": "Jean-Philippe Mateta",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "129af0db",
    "season": 2019,
-   "distance": 1.886,
+   "distance": 1.926,
    "survived": 1,
    "fut_ability_v2": 71.7,
    "player_name": "Álvaro Morata",
    "squad": "Atlético Madrid / Chelsea"
   },
   {
+   "fbref_id": "85613cf0",
+   "season": 2021,
+   "distance": 2.15,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "Arkadiusz Milik",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "0a447501",
+   "season": 2021,
+   "distance": 2.278,
+   "survived": 1,
+   "fut_ability_v2": 33.9,
+   "player_name": "Antonio Sanabria",
+   "squad": "Torino / Betis"
+  },
+  {
+   "fbref_id": "6605d143",
+   "season": 2022,
+   "distance": 2.481,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Habib Diallo",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "bbf5c11b",
+   "season": 2022,
+   "distance": 2.52,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafa Mir",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "04e17fd5",
+   "season": 2022,
+   "distance": 2.579,
+   "survived": 1,
+   "fut_ability_v2": 39.3,
+   "player_name": "Youssef En-Nesyri",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "c693347d",
    "season": 2020,
-   "distance": 2.566,
+   "distance": 2.592,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andreas Cornelius",
@@ -67,7 +121,7 @@
   {
    "fbref_id": "462475ed",
    "season": 2019,
-   "distance": 2.622,
+   "distance": 2.6,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Ludovic Ajorque",
@@ -76,65 +130,11 @@
   {
    "fbref_id": "5046b7d4",
    "season": 2018,
-   "distance": 2.639,
+   "distance": 2.655,
    "survived": 1,
    "fut_ability_v2": 42.4,
    "player_name": "Stéphane Bahoken",
    "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "834d0be5",
-   "season": 2020,
-   "distance": 2.68,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lucas Alario",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "11ced928",
-   "season": 2019,
-   "distance": 2.69,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yaya Sanogo",
-   "squad": "Toulouse"
-  },
-  {
-   "fbref_id": "fd771f95",
-   "season": 2018,
-   "distance": 2.705,
-   "survived": 1,
-   "fut_ability_v2": 45.3,
-   "player_name": "Martin Braithwaite",
-   "squad": "Bordeaux"
-  },
-  {
-   "fbref_id": "2973d8ff",
-   "season": 2019,
-   "distance": 2.707,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Michy Batshuayi",
-   "squad": "Crystal Palace / Valencia"
-  },
-  {
-   "fbref_id": "d7d32194",
-   "season": 2018,
-   "distance": 2.711,
-   "survived": 1,
-   "fut_ability_v2": 41.8,
-   "player_name": "Mattia Destro",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "e3fabb0a",
-   "season": 2019,
-   "distance": 2.716,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wu Lei",
-   "squad": "Espanyol"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Anastasios Douvikas(FW)의 현재 능력 점수는 49.6점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 전진 패스이다.",
-  "potential": "Anastasios Douvikas의 2~3년 후 예측 중심값은 45.6점, 80% 구간 상단은 55.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Anastasios Douvikas의 2~3년 후 예측 중심값은 49.0점, 80% 구간 상단은 58.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 46.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

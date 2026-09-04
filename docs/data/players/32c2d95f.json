@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2376,
-  "mu": 58.6,
+  "survival_prob": 0.1777,
+  "mu": 58.5,
   "ci80": {
-   "lo": 49.2,
-   "hi": 68.2
+   "lo": 49.1,
+   "hi": 67.8
   },
   "ci50": {
-   "lo": 53.7,
-   "hi": 63.7
+   "lo": 53.5,
+   "hi": 63.5
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "c1d18f10",
    "season": 2019,
-   "distance": 1.492,
+   "distance": 1.518,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Boštjan Cesar",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "3858e611",
    "season": 2018,
-   "distance": 2.013,
+   "distance": 2.057,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dario Dainelli",
    "squad": "Chievo"
   },
   {
+   "fbref_id": "8dbff17c",
+   "season": 2022,
+   "distance": 2.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adil Rami",
+   "squad": "Troyes"
+  },
+  {
    "fbref_id": "55667895",
    "season": 2018,
-   "distance": 2.036,
+   "distance": 2.076,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Emiliano Moretti",
@@ -76,16 +85,25 @@
   {
    "fbref_id": "3233eefd",
    "season": 2018,
-   "distance": 2.121,
+   "distance": 2.088,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Phil Jagielka",
    "squad": "Everton"
   },
   {
+   "fbref_id": "f5efb153",
+   "season": 2022,
+   "distance": 2.22,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Koscielny",
+   "squad": "Bordeaux"
+  },
+  {
    "fbref_id": "1e0b6a73",
    "season": 2020,
-   "distance": 2.19,
+   "distance": 2.257,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Simon Francis",
@@ -94,7 +112,7 @@
   {
    "fbref_id": "46ed55b6",
    "season": 2018,
-   "distance": 2.23,
+   "distance": 2.286,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Paolo Cannavaro",
@@ -103,7 +121,7 @@
   {
    "fbref_id": "9a560ebe",
    "season": 2018,
-   "distance": 2.253,
+   "distance": 2.287,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Nicolás Spolli",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "4f2908e5",
    "season": 2019,
-   "distance": 2.259,
+   "distance": 2.288,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Federico Peluso",
    "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "80c31c97",
-   "season": 2019,
-   "distance": 2.455,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wes Morgan",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "8cea6319",
-   "season": 2020,
-   "distance": 2.461,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Felipe dal Belo",
-   "squad": "SPAL"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Yunis Abdelhamid(DF)의 현재 능력 점수는 54.4점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 클리어링, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 전진 운반이다.",
-  "potential": "Yunis Abdelhamid의 2~3년 후 예측 중심값은 58.6점, 80% 구간 상단은 68.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 23.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Yunis Abdelhamid의 2~3년 후 예측 중심값은 58.5점, 80% 구간 상단은 67.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 17.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

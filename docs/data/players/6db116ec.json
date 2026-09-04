@@ -32,33 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.687,
-  "mu": 50.5,
+  "survival_prob": 0.536,
+  "mu": 50.2,
   "ci80": {
-   "lo": 40.0,
-   "hi": 61.0
+   "lo": 39.7,
+   "hi": 60.7
   },
   "ci50": {
-   "lo": 44.9,
-   "hi": 56.1
+   "lo": 44.7,
+   "hi": 55.6
   },
   "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "9d5dcc23",
+   "season": 2021,
+   "distance": 1.574,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Gueye",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "be47b750",
+   "season": 2021,
+   "distance": 1.675,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Banza",
+   "squad": "Lens"
+  },
+  {
+   "fbref_id": "5e080f73",
+   "season": 2022,
+   "distance": 1.834,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Irvin Cardona",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "0562b7f1",
+   "season": 2022,
+   "distance": 1.872,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Odsonne Édouard",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "0b90bb97",
    "season": 2020,
-   "distance": 1.891,
+   "distance": 1.92,
    "survived": 1,
    "fut_ability_v2": 42.9,
    "player_name": "Santi Mina",
    "squad": "Celta Vigo"
   },
   {
+   "fbref_id": "0c61c77c",
+   "season": 2021,
+   "distance": 1.997,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Dodi Lukebakio",
+   "squad": "Hertha BSC"
+  },
+  {
    "fbref_id": "0a447501",
    "season": 2020,
-   "distance": 1.978,
+   "distance": 2.003,
    "survived": 1,
    "fut_ability_v2": 41.5,
    "player_name": "Antonio Sanabria",
@@ -67,7 +112,7 @@
   {
    "fbref_id": "061e8e23",
    "season": 2018,
-   "distance": 2.049,
+   "distance": 2.051,
    "survived": 1,
    "fut_ability_v2": 51.0,
    "player_name": "Maximilian Philipp",
@@ -76,7 +121,7 @@
   {
    "fbref_id": "74c7c2db",
    "season": 2018,
-   "distance": 2.151,
+   "distance": 2.167,
    "survived": 1,
    "fut_ability_v2": 45.0,
    "player_name": "Robin Quaison",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "2054d037",
    "season": 2019,
-   "distance": 2.231,
+   "distance": 2.289,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "M'Baye Niang",
    "squad": "Rennes"
-  },
-  {
-   "fbref_id": "f8eca1b6",
-   "season": 2020,
-   "distance": 2.259,
-   "survived": 1,
-   "fut_ability_v2": 38.3,
-   "player_name": "Enes Ünal",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "0b90bb97",
-   "season": 2019,
-   "distance": 2.413,
-   "survived": 1,
-   "fut_ability_v2": 41.5,
-   "player_name": "Santi Mina",
-   "squad": "Valencia"
-  },
-  {
-   "fbref_id": "5d4f7d61",
-   "season": 2019,
-   "distance": 2.463,
-   "survived": 1,
-   "fut_ability_v2": 59.7,
-   "player_name": "Patrik Schick",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "3aa4a3be",
-   "season": 2018,
-   "distance": 2.519,
-   "survived": 1,
-   "fut_ability_v2": 34.8,
-   "player_name": "Loren Morón",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "244bc2c8",
-   "season": 2020,
-   "distance": 2.606,
-   "survived": 1,
-   "fut_ability_v2": 58.5,
-   "player_name": "Boulaye Dia",
-   "squad": "Reims"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Pablo Durán(FW)의 현재 능력 점수는 47.6점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 어시스트, 클리어링, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 유효슈팅이다.",
-  "potential": "Pablo Durán의 2~3년 후 예측 중심값은 50.5점, 80% 구간 상단은 61.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 68.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pablo Durán의 2~3년 후 예측 중심값은 50.2점, 80% 구간 상단은 60.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 53.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,109 +32,109 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8463,
-  "mu": 58.6,
+  "survival_prob": 0.7117,
+  "mu": 54.7,
   "ci80": {
-   "lo": 49.4,
-   "hi": 67.8
+   "lo": 45.3,
+   "hi": 64.1
   },
   "ci50": {
-   "lo": 53.8,
-   "hi": 63.5
+   "lo": 49.7,
+   "hi": 59.6
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "1a4b9094",
    "season": 2020,
-   "distance": 2.315,
+   "distance": 2.199,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bouna Sarr",
    "squad": "Marseille"
   },
   {
+   "fbref_id": "984a5a64",
+   "season": 2022,
+   "distance": 2.434,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Kyle Walker-Peters",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "a4b00319",
+   "season": 2021,
+   "distance": 2.6,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Javi Galán",
+   "squad": "Huesca"
+  },
+  {
    "fbref_id": "16e9d0ea",
    "season": 2019,
-   "distance": 2.721,
+   "distance": 2.671,
    "survived": 1,
    "fut_ability_v2": 60.3,
    "player_name": "Álex Moreno",
    "squad": "Rayo Vallecano"
   },
   {
+   "fbref_id": "6b2c894b",
+   "season": 2022,
+   "distance": 2.767,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ghislain Konan",
+   "squad": "Reims"
+  },
+  {
    "fbref_id": "3cefcaef",
    "season": 2020,
-   "distance": 2.898,
+   "distance": 2.841,
    "survived": 1,
    "fut_ability_v2": 61.4,
    "player_name": "Ferland Mendy",
    "squad": "Real Madrid"
   },
   {
-   "fbref_id": "13203c45",
-   "season": 2019,
-   "distance": 2.929,
-   "survived": 1,
-   "fut_ability_v2": 50.5,
-   "player_name": "Jérôme Roussillon",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "770d7eb8",
-   "season": 2020,
-   "distance": 2.938,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kenny Lala",
-   "squad": "Strasbourg"
-  },
-  {
    "fbref_id": "d6a889ea",
    "season": 2018,
-   "distance": 2.994,
+   "distance": 2.867,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kévin Malcuit",
    "squad": "Lille"
   },
   {
-   "fbref_id": "16e9d0ea",
-   "season": 2020,
-   "distance": 3.002,
+   "fbref_id": "13203c45",
+   "season": 2019,
+   "distance": 2.882,
    "survived": 1,
-   "fut_ability_v2": 60.0,
-   "player_name": "Álex Moreno",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "d1661819",
-   "season": 2018,
-   "distance": 3.003,
-   "survived": 1,
-   "fut_ability_v2": 53.7,
-   "player_name": "Bastian Oczipka",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "3dd45b70",
-   "season": 2018,
-   "distance": 3.031,
-   "survived": 1,
-   "fut_ability_v2": 54.8,
-   "player_name": "Gaetano Letizia",
-   "squad": "Benevento"
+   "fut_ability_v2": 50.5,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
   },
   {
    "fbref_id": "3dd738a1",
    "season": 2019,
-   "distance": 3.043,
+   "distance": 2.929,
    "survived": 1,
    "fut_ability_v2": 68.2,
    "player_name": "Ruben Aguilar",
    "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "770d7eb8",
+   "season": 2020,
+   "distance": 2.943,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kenny Lala",
+   "squad": "Strasbourg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Andrei Ratiu(DF)의 현재 능력 점수는 60.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 성공 드리블, 전진 운반, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 클리어링이다.",
-  "potential": "Andrei Ratiu의 2~3년 후 예측 중심값은 58.6점, 80% 구간 상단은 67.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Andrei Ratiu의 2~3년 후 예측 중심값은 54.7점, 80% 구간 상단은 64.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

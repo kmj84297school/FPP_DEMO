@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9371,
-  "mu": 67.4,
+  "survival_prob": 0.6786,
+  "mu": 73.6,
   "ci80": {
-   "lo": 57.4,
-   "hi": 77.4
+   "lo": 64.0,
+   "hi": 83.4
   },
   "ci50": {
-   "lo": 62.2,
-   "hi": 72.7
+   "lo": 68.6,
+   "hi": 78.8
   },
-  "sigma_model": 3.3,
-  "sigma_residual": 7.0
+  "sigma_model": 2.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "6622454d",
+   "season": 2022,
+   "distance": 1.964,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hakim Ziyech",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "bece776f",
    "season": 2019,
-   "distance": 2.319,
+   "distance": 2.348,
    "survived": 1,
    "fut_ability_v2": 72.9,
    "player_name": "Nabil Fekir",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "83e4643e",
    "season": 2019,
-   "distance": 2.355,
+   "distance": 2.379,
    "survived": 1,
    "fut_ability_v2": 49.5,
    "player_name": "Miha Zajc",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "bece776f",
    "season": 2018,
-   "distance": 2.503,
+   "distance": 2.512,
    "survived": 1,
    "fut_ability_v2": 68.3,
    "player_name": "Nabil Fekir",
@@ -76,43 +85,43 @@
   {
    "fbref_id": "ee93c1a9",
    "season": 2019,
-   "distance": 2.602,
+   "distance": 2.574,
    "survived": 1,
    "fut_ability_v2": 60.7,
    "player_name": "Federico Bernardeschi",
    "squad": "Juventus"
   },
   {
-   "fbref_id": "54e4866f",
-   "season": 2019,
-   "distance": 2.655,
+   "fbref_id": "2b114be3",
+   "season": 2022,
+   "distance": 2.644,
    "survived": 1,
-   "fut_ability_v2": 66.6,
-   "player_name": "Vincenzo Grifo",
-   "squad": "Freiburg / Hoffenheim"
+   "fut_ability_v2": 86.5,
+   "player_name": "Leroy Sané",
+   "squad": "Bayern Munich"
   },
   {
    "fbref_id": "d3aaad90",
    "season": 2019,
-   "distance": 2.692,
+   "distance": 2.654,
    "survived": 1,
    "fut_ability_v2": 74.9,
    "player_name": "Stephan El Shaarawy",
    "squad": "Roma"
   },
   {
-   "fbref_id": "0ef89a37",
-   "season": 2020,
-   "distance": 2.779,
+   "fbref_id": "54e4866f",
+   "season": 2019,
+   "distance": 2.663,
    "survived": 1,
-   "fut_ability_v2": 72.2,
-   "player_name": "Philippe Coutinho",
-   "squad": "Bayern Munich"
+   "fut_ability_v2": 66.6,
+   "player_name": "Vincenzo Grifo",
+   "squad": "Freiburg / Hoffenheim"
   },
   {
    "fbref_id": "467bae22",
    "season": 2018,
-   "distance": 2.793,
+   "distance": 2.718,
    "survived": 1,
    "fut_ability_v2": 57.3,
    "player_name": "Franco Vázquez",
@@ -121,20 +130,11 @@
   {
    "fbref_id": "dc3a9a0d",
    "season": 2018,
-   "distance": 2.809,
+   "distance": 2.752,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rachid Ghezzal",
    "squad": "Monaco"
-  },
-  {
-   "fbref_id": "8b9ebd03",
-   "season": 2018,
-   "distance": 2.875,
-   "survived": 1,
-   "fut_ability_v2": 68.0,
-   "player_name": "Willian",
-   "squad": "Chelsea"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Dani Olmo(MF)의 현재 능력 점수는 78.0점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 무페널티 득점, 골 창출(GCA), 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 볼 손실(미스+파울)이다.",
-  "potential": "Dani Olmo의 2~3년 후 예측 중심값은 67.4점, 80% 구간 상단은 77.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 93.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Dani Olmo의 2~3년 후 예측 중심값은 73.6점, 80% 구간 상단은 83.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 67.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

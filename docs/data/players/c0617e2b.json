@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7509,
-  "mu": 60.3,
+  "survival_prob": 0.6898,
+  "mu": 60.9,
   "ci80": {
-   "lo": 50.9,
-   "hi": 69.9
+   "lo": 51.3,
+   "hi": 70.4
   },
   "ci50": {
-   "lo": 55.4,
-   "hi": 65.4
+   "lo": 55.8,
+   "hi": 65.9
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "1467af0d",
    "season": 2019,
-   "distance": 2.485,
+   "distance": 2.715,
    "survived": 1,
    "fut_ability_v2": 64.8,
    "player_name": "Marco Verratti",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "45db685d",
    "season": 2018,
-   "distance": 3.069,
+   "distance": 3.11,
    "survived": 1,
    "fut_ability_v2": 60.6,
    "player_name": "Jorginho",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "1467af0d",
    "season": 2020,
-   "distance": 3.114,
+   "distance": 3.127,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Marco Verratti",
@@ -76,11 +76,20 @@
   {
    "fbref_id": "33b8d077",
    "season": 2019,
-   "distance": 3.444,
+   "distance": 3.387,
    "survived": 1,
    "fut_ability_v2": 65.3,
    "player_name": "Marcelo Brozović",
    "squad": "Inter"
+  },
+  {
+   "fbref_id": "1467af0d",
+   "season": 2022,
+   "distance": 3.418,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Verratti",
+   "squad": "Paris S-G"
   },
   {
    "fbref_id": "dc3fa3b5",
@@ -94,47 +103,38 @@
   {
    "fbref_id": "45db685d",
    "season": 2020,
-   "distance": 3.691,
+   "distance": 3.632,
    "survived": 1,
    "fut_ability_v2": 58.7,
    "player_name": "Jorginho",
    "squad": "Chelsea"
   },
   {
+   "fbref_id": "b853e0ad",
+   "season": 2019,
+   "distance": 3.722,
+   "survived": 1,
+   "fut_ability_v2": 60.8,
+   "player_name": "Fred",
+   "squad": "Manchester Utd"
+  },
+  {
    "fbref_id": "56413b1f",
    "season": 2019,
-   "distance": 3.734,
+   "distance": 3.736,
    "survived": 1,
    "fut_ability_v2": 55.6,
    "player_name": "Charles Aránguiz",
    "squad": "Leverkusen"
   },
   {
-   "fbref_id": "79c0821a",
-   "season": 2020,
-   "distance": 3.753,
-   "survived": 1,
-   "fut_ability_v2": 71.8,
-   "player_name": "Mateo Kovačić",
-   "squad": "Chelsea"
-  },
-  {
    "fbref_id": "cc700722",
    "season": 2019,
-   "distance": 3.798,
+   "distance": 3.783,
    "survived": 1,
    "fut_ability_v2": 49.4,
    "player_name": "Allan",
    "squad": "Napoli"
-  },
-  {
-   "fbref_id": "b853e0ad",
-   "season": 2019,
-   "distance": 3.818,
-   "survived": 1,
-   "fut_ability_v2": 60.8,
-   "player_name": "Fred",
-   "squad": "Manchester Utd"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Dani Ceballos(MF)의 현재 능력 점수는 62.0점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반 거리, 패스 성공률, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Dani Ceballos의 2~3년 후 예측 중심값은 60.3점, 80% 구간 상단은 69.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Dani Ceballos의 2~3년 후 예측 중심값은 60.9점, 80% 구간 상단은 70.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

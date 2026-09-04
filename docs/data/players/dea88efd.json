@@ -32,24 +32,24 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.9877,
-  "mu": 72.5,
+  "survival_prob": 0.9873,
+  "mu": 69.6,
   "ci80": {
-   "lo": 61.5,
-   "hi": 83.3
+   "lo": 58.7,
+   "hi": 80.4
   },
   "ci50": {
-   "lo": 66.7,
-   "hi": 78.1
+   "lo": 63.9,
+   "hi": 75.2
   },
-  "sigma_model": 2.7,
+  "sigma_model": 2.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "45b9b619",
    "season": 2019,
-   "distance": 2.057,
+   "distance": 2.149,
    "survived": 1,
    "fut_ability_v2": 73.6,
    "player_name": "Joaquín Correa",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "4737cebe",
    "season": 2018,
-   "distance": 2.579,
+   "distance": 2.644,
    "survived": 1,
    "fut_ability_v2": 68.4,
    "player_name": "Adnan Januzaj",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "2b114be3",
    "season": 2019,
-   "distance": 2.901,
+   "distance": 2.92,
    "survived": 1,
    "fut_ability_v2": 73.3,
    "player_name": "Leroy Sané",
@@ -76,7 +76,7 @@
   {
    "fbref_id": "45af8a54",
    "season": 2019,
-   "distance": 3.117,
+   "distance": 3.107,
    "survived": 1,
    "fut_ability_v2": 69.6,
    "player_name": "Marco Asensio",
@@ -85,7 +85,7 @@
   {
    "fbref_id": "88e357ef",
    "season": 2018,
-   "distance": 3.362,
+   "distance": 3.359,
    "survived": 1,
    "fut_ability_v2": 76.4,
    "player_name": "Serge Gnabry",
@@ -94,7 +94,7 @@
   {
    "fbref_id": "8b788c01",
    "season": 2019,
-   "distance": 3.424,
+   "distance": 3.451,
    "survived": 1,
    "fut_ability_v2": 66.9,
    "player_name": "Anthony Martial",
@@ -103,41 +103,41 @@
   {
    "fbref_id": "3eb22ec9",
    "season": 2018,
-   "distance": 3.469,
+   "distance": 3.453,
    "survived": 1,
    "fut_ability_v2": 75.9,
    "player_name": "Bernardo Silva",
    "squad": "Manchester City"
   },
   {
+   "fbref_id": "b19db005",
+   "season": 2021,
+   "distance": 3.486,
+   "survived": 1,
+   "fut_ability_v2": 77.0,
+   "player_name": "Ousmane Dembélé",
+   "squad": "Barcelona"
+  },
+  {
    "fbref_id": "b400bde0",
    "season": 2019,
-   "distance": 3.544,
+   "distance": 3.587,
    "survived": 1,
    "fut_ability_v2": 78.2,
    "player_name": "Raheem Sterling",
    "squad": "Manchester City"
   },
   {
-   "fbref_id": "b400bde0",
-   "season": 2018,
-   "distance": 3.851,
+   "fbref_id": "f5c8b425",
+   "season": 2021,
+   "distance": 3.716,
    "survived": 1,
-   "fut_ability_v2": 79.0,
-   "player_name": "Raheem Sterling",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "ed90babd",
-   "season": 2020,
-   "distance": 3.855,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Adam Ounas",
-   "squad": "Nice"
+   "fut_ability_v2": 57.0,
+   "player_name": "Yusuf Yazıcı",
+   "squad": "Lille"
   }
  ],
- "low_confidence": false,
+ "low_confidence": true,
  "report": {
   "strengths": [
    {
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Khvicha Kvaratskhelia(FW)의 현재 능력 점수는 83.8점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 전진 운반 거리, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Khvicha Kvaratskhelia의 2~3년 후 예측 중심값은 72.5점, 80% 구간 상단은 83.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Khvicha Kvaratskhelia의 2~3년 후 예측 중심값은 69.6점, 80% 구간 상단은 80.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.7%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

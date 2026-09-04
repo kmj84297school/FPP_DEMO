@@ -32,33 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6679,
-  "mu": 54.2,
+  "survival_prob": 0.6277,
+  "mu": 52.5,
   "ci80": {
-   "lo": 44.9,
-   "hi": 63.6
+   "lo": 43.2,
+   "hi": 62.0
   },
   "ci50": {
-   "lo": 49.3,
-   "hi": 59.2
+   "lo": 47.6,
+   "hi": 57.4
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "b28bbd58",
-   "season": 2019,
-   "distance": 1.753,
-   "survived": 1,
-   "fut_ability_v2": 50.2,
-   "player_name": "Andros Townsend",
-   "squad": "Crystal Palace"
-  },
-  {
    "fbref_id": "dc62fbee",
    "season": 2020,
-   "distance": 1.891,
+   "distance": 1.739,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Leonardo Bittencourt",
@@ -66,75 +57,84 @@
   },
   {
    "fbref_id": "b28bbd58",
+   "season": 2019,
+   "distance": 1.801,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Andros Townsend",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "b28bbd58",
    "season": 2018,
-   "distance": 2.053,
+   "distance": 2.083,
    "survived": 1,
    "fut_ability_v2": 47.1,
    "player_name": "Andros Townsend",
    "squad": "Crystal Palace"
   },
   {
+   "fbref_id": "79ca3e23",
+   "season": 2021,
+   "distance": 2.335,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Ondrej Duda",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "38ceb24a",
+   "season": 2022,
+   "distance": 2.341,
+   "survived": 1,
+   "fut_ability_v2": 67.8,
+   "player_name": "Leandro Trossard",
+   "squad": "Brighton"
+  },
+  {
    "fbref_id": "f9446dcd",
    "season": 2018,
-   "distance": 2.37,
+   "distance": 2.371,
    "survived": 1,
    "fut_ability_v2": 64.7,
    "player_name": "Max Kruse",
    "squad": "Werder Bremen"
   },
   {
+   "fbref_id": "9f1893b9",
+   "season": 2022,
+   "distance": 2.479,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Felipe Anderson",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "b2bc3b1f",
+   "season": 2022,
+   "distance": 2.647,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wilfried Zaha",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2021,
+   "distance": 2.664,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  },
+  {
    "fbref_id": "b500b384",
    "season": 2019,
-   "distance": 2.803,
+   "distance": 2.721,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Admir Mehmedi",
    "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "0375723e",
-   "season": 2018,
-   "distance": 2.887,
-   "survived": 1,
-   "fut_ability_v2": 59.2,
-   "player_name": "Simone Verdi",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "eccbe56a",
-   "season": 2019,
-   "distance": 2.914,
-   "survived": 1,
-   "fut_ability_v2": 71.2,
-   "player_name": "Filip Đuričić",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "dfb6490a",
-   "season": 2019,
-   "distance": 3.029,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Patrick Herrmann",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "f69fba57",
-   "season": 2018,
-   "distance": 3.073,
-   "survived": 1,
-   "fut_ability_v2": 60.3,
-   "player_name": "Yuya Osako",
-   "squad": "Köln"
-  },
-  {
-   "fbref_id": "b0547a87",
-   "season": 2018,
-   "distance": 3.079,
-   "survived": 1,
-   "fut_ability_v2": 59.4,
-   "player_name": "Nicolas de Préville",
-   "squad": "Bordeaux / Lille"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Gabriel Strefezza(FW)의 현재 능력 점수는 54.9점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 태클+인터셉트, 키패스, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Gabriel Strefezza의 2~3년 후 예측 중심값은 54.2점, 80% 구간 상단은 63.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 66.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Gabriel Strefezza의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 62.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 62.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

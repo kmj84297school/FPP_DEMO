@@ -32,33 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4,
-  "mu": 56.6,
+  "survival_prob": 0.3721,
+  "mu": 56.5,
   "ci80": {
-   "lo": 47.3,
-   "hi": 65.9
+   "lo": 47.2,
+   "hi": 65.8
   },
   "ci50": {
    "lo": 51.7,
    "hi": 61.4
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "474ecac8",
+   "season": 2021,
+   "distance": 1.456,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "16b9d5cf",
+   "season": 2022,
+   "distance": 1.57,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nikola Maksimović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2021,
+   "distance": 1.584,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "132ac341",
+   "season": 2022,
+   "distance": 1.603,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Aridane Hernández",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2022,
+   "distance": 1.611,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
    "fbref_id": "562eed5c",
    "season": 2018,
-   "distance": 1.565,
+   "distance": 1.624,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Winston Reid",
    "squad": "West Ham"
   },
   {
+   "fbref_id": "0076ab7f",
+   "season": 2022,
+   "distance": 1.686,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Nemanja Gudelj",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "3f30b506",
    "season": 2018,
-   "distance": 1.636,
+   "distance": 1.691,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dominic Maroh",
@@ -67,7 +121,7 @@
   {
    "fbref_id": "56400c01",
    "season": 2018,
-   "distance": 1.65,
+   "distance": 1.698,
    "survived": 1,
    "fut_ability_v2": 45.0,
    "player_name": "Fabio Pisacane",
@@ -76,65 +130,11 @@
   {
    "fbref_id": "a63a995f",
    "season": 2019,
-   "distance": 1.662,
+   "distance": 1.739,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabian Lustenberger",
    "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "8b8a56ce",
-   "season": 2020,
-   "distance": 1.727,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simon Kjær",
-   "squad": "Milan / Atalanta"
-  },
-  {
-   "fbref_id": "ac3fb1be",
-   "season": 2018,
-   "distance": 1.905,
-   "survived": 1,
-   "fut_ability_v2": 52.3,
-   "player_name": "Ezequiel Garay",
-   "squad": "Valencia"
-  },
-  {
-   "fbref_id": "51e3954c",
-   "season": 2019,
-   "distance": 1.919,
-   "survived": 1,
-   "fut_ability_v2": 49.1,
-   "player_name": "Facundo Roncaglia",
-   "squad": "Celta Vigo / Valencia"
-  },
-  {
-   "fbref_id": "e33f36d5",
-   "season": 2019,
-   "distance": 1.947,
-   "survived": 1,
-   "fut_ability_v2": 55.5,
-   "player_name": "Bram Nuytinck",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "28b40c9c",
-   "season": 2019,
-   "distance": 1.95,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Tim Ream",
-   "squad": "Fulham"
-  },
-  {
-   "fbref_id": "87935cf3",
-   "season": 2019,
-   "distance": 2.011,
-   "survived": 1,
-   "fut_ability_v2": 64.5,
-   "player_name": "Mamadou Sakho",
-   "squad": "Crystal Palace"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Pablo Marí(DF)의 현재 능력 점수는 60.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 패스 성공률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 박스 터치이다.",
-  "potential": "Pablo Marí의 2~3년 후 예측 중심값은 56.6점, 80% 구간 상단은 65.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pablo Marí의 2~3년 후 예측 중심값은 56.5점, 80% 구간 상단은 65.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 37.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

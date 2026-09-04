@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.755,
-  "mu": 58.0,
+  "survival_prob": 0.5748,
+  "mu": 60.7,
   "ci80": {
-   "lo": 48.7,
-   "hi": 67.2
+   "lo": 51.4,
+   "hi": 70.0
   },
   "ci50": {
-   "lo": 53.1,
-   "hi": 62.8
+   "lo": 55.8,
+   "hi": 65.6
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "b28bbd58",
-   "season": 2019,
-   "distance": 2.506,
+   "fbref_id": "9f1893b9",
+   "season": 2022,
+   "distance": 1.79,
    "survived": 1,
-   "fut_ability_v2": 50.2,
-   "player_name": "Andros Townsend",
+   "fut_ability_v2": 59.4,
+   "player_name": "Felipe Anderson",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "b2bc3b1f",
+   "season": 2022,
+   "distance": 2.373,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wilfried Zaha",
    "squad": "Crystal Palace"
   },
   {
    "fbref_id": "7dcf86f6",
    "season": 2020,
-   "distance": 2.532,
+   "distance": 2.54,
    "survived": 1,
    "fut_ability_v2": 66.6,
    "player_name": "Iago Aspas",
    "squad": "Celta Vigo"
   },
   {
+   "fbref_id": "b28bbd58",
+   "season": 2019,
+   "distance": 2.545,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Andros Townsend",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "f9446dcd",
    "season": 2018,
-   "distance": 2.604,
+   "distance": 2.619,
    "survived": 1,
    "fut_ability_v2": 64.7,
    "player_name": "Max Kruse",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "1f8c7aa9",
    "season": 2018,
-   "distance": 2.695,
+   "distance": 2.71,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ronny Rodelin",
    "squad": "Caen"
   },
   {
-   "fbref_id": "18ebca4b",
-   "season": 2020,
-   "distance": 2.853,
+   "fbref_id": "157d29b6",
+   "season": 2021,
+   "distance": 2.775,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Gaëtan Charbonnier",
-   "squad": "Brest"
+   "player_name": "Diego Farias",
+   "squad": "Spezia"
   },
   {
    "fbref_id": "7cd6badb",
    "season": 2018,
-   "distance": 2.856,
+   "distance": 2.808,
    "survived": 1,
    "fut_ability_v2": 66.1,
    "player_name": "Lars Stindl",
    "squad": "M'Gladbach"
   },
   {
-   "fbref_id": "dfb6490a",
-   "season": 2019,
-   "distance": 2.907,
+   "fbref_id": "18ebca4b",
+   "season": 2020,
+   "distance": 2.814,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Patrick Herrmann",
-   "squad": "M'Gladbach"
+   "player_name": "Gaëtan Charbonnier",
+   "squad": "Brest"
   },
   {
    "fbref_id": "b500b384",
    "season": 2019,
-   "distance": 2.941,
+   "distance": 2.871,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Admir Mehmedi",
    "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "aa51343f",
-   "season": 2019,
-   "distance": 2.962,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kevin Mirallas",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "7cd6badb",
-   "season": 2019,
-   "distance": 3.049,
-   "survived": 1,
-   "fut_ability_v2": 65.8,
-   "player_name": "Lars Stindl",
-   "squad": "M'Gladbach"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mattia Zaccagni(FW)의 현재 능력 점수는 61.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 태클+인터셉트, 전진 패스 거리, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 슈팅 시도이다.",
-  "potential": "Mattia Zaccagni의 2~3년 후 예측 중심값은 58.0점, 80% 구간 상단은 67.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mattia Zaccagni의 2~3년 후 예측 중심값은 60.7점, 80% 구간 상단은 70.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 57.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

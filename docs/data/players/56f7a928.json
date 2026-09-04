@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8709,
-  "mu": 59.8,
+  "survival_prob": 0.7334,
+  "mu": 59.7,
   "ci80": {
-   "lo": 50.6,
-   "hi": 69.1
+   "lo": 50.4,
+   "hi": 69.0
   },
   "ci50": {
-   "lo": 55.0,
-   "hi": 64.7
+   "lo": 54.8,
+   "hi": 64.6
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "55126f3b",
    "season": 2018,
-   "distance": 1.397,
+   "distance": 1.4,
    "survived": 1,
    "fut_ability_v2": 59.5,
    "player_name": "Koke",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "55126f3b",
    "season": 2019,
-   "distance": 1.903,
+   "distance": 1.855,
    "survived": 1,
    "fut_ability_v2": 55.6,
    "player_name": "Koke",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "a25250f8",
    "season": 2018,
-   "distance": 1.965,
+   "distance": 2.002,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Álex Granell",
@@ -76,34 +76,52 @@
   {
    "fbref_id": "4a56052c",
    "season": 2019,
-   "distance": 2.071,
+   "distance": 2.132,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Jordan Veretout",
    "squad": "Fiorentina"
   },
   {
+   "fbref_id": "54b4dc4e",
+   "season": 2022,
+   "distance": 2.137,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kerem Demirbay",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "8b298f56",
    "season": 2019,
-   "distance": 2.136,
+   "distance": 2.197,
    "survived": 1,
    "fut_ability_v2": 72.2,
    "player_name": "Clément Grenier",
    "squad": "Rennes"
   },
   {
-   "fbref_id": "7460ca0d",
-   "season": 2019,
-   "distance": 2.186,
+   "fbref_id": "82927de4",
+   "season": 2022,
+   "distance": 2.209,
    "survived": 1,
-   "fut_ability_v2": 65.9,
-   "player_name": "Daniel Parejo",
-   "squad": "Valencia"
+   "fut_ability_v2": 66.9,
+   "player_name": "Pablo Fornals",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "162efffd",
+   "season": 2022,
+   "distance": 2.229,
+   "survived": 1,
+   "fut_ability_v2": 70.4,
+   "player_name": "Rodrigo De Paul",
+   "squad": "Atlético Madrid"
   },
   {
    "fbref_id": "ad6df2d5",
    "season": 2018,
-   "distance": 2.234,
+   "distance": 2.263,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Miralem Pjanić",
@@ -111,30 +129,12 @@
   },
   {
    "fbref_id": "7460ca0d",
-   "season": 2018,
-   "distance": 2.26,
+   "season": 2019,
+   "distance": 2.321,
    "survived": 1,
-   "fut_ability_v2": 63.3,
+   "fut_ability_v2": 65.9,
    "player_name": "Daniel Parejo",
    "squad": "Valencia"
-  },
-  {
-   "fbref_id": "1f9328da",
-   "season": 2018,
-   "distance": 2.323,
-   "survived": 1,
-   "fut_ability_v2": 57.4,
-   "player_name": "Radja Nainggolan",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "61220da2",
-   "season": 2019,
-   "distance": 2.445,
-   "survived": 1,
-   "fut_ability_v2": 62.0,
-   "player_name": "José Campaña",
-   "squad": "Levante"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Youri Tielemans(MF)의 현재 능력 점수는 65.2점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 거리, 최종 3분의1 패스, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 패스 수신이다.",
-  "potential": "Youri Tielemans의 2~3년 후 예측 중심값은 59.8점, 80% 구간 상단은 69.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 87.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Youri Tielemans의 2~3년 후 예측 중심값은 59.7점, 80% 구간 상단은 69.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 73.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

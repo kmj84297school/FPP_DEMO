@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7178,
-  "mu": 51.7,
+  "survival_prob": 0.8743,
+  "mu": 51.9,
   "ci80": {
-   "lo": 41.1,
+   "lo": 41.5,
    "hi": 62.3
   },
   "ci50": {
-   "lo": 46.1,
-   "hi": 57.2
+   "lo": 46.4,
+   "hi": 57.3
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "5cbd1eb0",
+   "season": 2022,
+   "distance": 1.699,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Tyrick Mitchell",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "2389cdc2",
+   "season": 2021,
+   "distance": 1.885,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Matty Cash",
+   "squad": "Aston Villa"
+  },
+  {
    "fbref_id": "34bb6fbd",
    "season": 2020,
-   "distance": 1.8,
+   "distance": 1.911,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Arturo Calabresi",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "5d8d7454",
    "season": 2019,
-   "distance": 1.818,
+   "distance": 1.923,
    "survived": 1,
    "fut_ability_v2": 58.0,
    "player_name": "Frederic Guilbert",
    "squad": "Caen"
   },
   {
-   "fbref_id": "90eb507d",
-   "season": 2019,
-   "distance": 1.853,
-   "survived": 1,
-   "fut_ability_v2": 43.7,
-   "player_name": "Thomas Foket",
-   "squad": "Reims"
-  },
-  {
    "fbref_id": "fba81826",
    "season": 2018,
-   "distance": 1.957,
+   "distance": 1.966,
    "survived": 1,
    "fut_ability_v2": 52.3,
    "player_name": "Federico Mattiello",
    "squad": "SPAL"
   },
   {
-   "fbref_id": "b66d1d8a",
-   "season": 2020,
-   "distance": 2.079,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Florian Miguel",
-   "squad": "Nîmes"
+   "fbref_id": "8f325097",
+   "season": 2022,
+   "distance": 1.97,
+   "survived": 1,
+   "fut_ability_v2": 42.3,
+   "player_name": "Nicolas Cozza",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "90eb507d",
+   "season": 2019,
+   "distance": 1.979,
+   "survived": 1,
+   "fut_ability_v2": 43.7,
+   "player_name": "Thomas Foket",
+   "squad": "Reims"
   },
   {
    "fbref_id": "0118c54c",
-   "season": 2019,
-   "distance": 2.134,
+   "season": 2021,
+   "distance": 1.994,
    "survived": 1,
-   "fut_ability_v2": 58.6,
+   "fut_ability_v2": 64.3,
    "player_name": "Anthony Caci",
    "squad": "Strasbourg"
   },
   {
-   "fbref_id": "ed9f7cfe",
-   "season": 2020,
-   "distance": 2.197,
+   "fbref_id": "774cf58b",
+   "season": 2022,
+   "distance": 2.082,
    "survived": 1,
-   "fut_ability_v2": 54.6,
-   "player_name": "Renan Lodi",
-   "squad": "Atlético Madrid"
+   "fut_ability_v2": 42.9,
+   "player_name": "Max Aarons",
+   "squad": "Norwich City"
   },
   {
-   "fbref_id": "3c6bbbab",
-   "season": 2020,
-   "distance": 2.214,
+   "fbref_id": "246d153b",
+   "season": 2021,
+   "distance": 2.085,
    "survived": 1,
-   "fut_ability_v2": 56.2,
-   "player_name": "Fabien Centonze",
-   "squad": "Metz"
-  },
-  {
-   "fbref_id": "f99fe221",
-   "season": 2020,
-   "distance": 2.365,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Hamza Mendyl",
-   "squad": "Dijon"
-  },
-  {
-   "fbref_id": "19f8e480",
-   "season": 2019,
-   "distance": 2.417,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sergi Palencia",
-   "squad": "Bordeaux"
+   "fut_ability_v2": 51.8,
+   "player_name": "Ola Aina",
+   "squad": "Fulham"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Carmona(DF)의 현재 능력 점수는 49.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 볼 리커버리, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 박스 터치이다.",
-  "potential": "Carmona의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 62.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 71.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Carmona의 2~3년 후 예측 중심값은 51.9점, 80% 구간 상단은 62.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

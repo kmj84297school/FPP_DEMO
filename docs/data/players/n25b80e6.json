@@ -32,51 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9546,
-  "mu": 65.4,
+  "survival_prob": 0.9368,
+  "mu": 65.5,
   "ci80": {
-   "lo": 55.9,
-   "hi": 74.7
+   "lo": 56.1,
+   "hi": 75.0
   },
   "ci50": {
-   "lo": 60.5,
-   "hi": 70.3
+   "lo": 60.6,
+   "hi": 70.5
   },
   "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a08b974a",
    "season": 2020,
-   "distance": 2.367,
+   "distance": 2.31,
    "survived": 1,
    "fut_ability_v2": 53.8,
    "player_name": "Lucas Ocampos",
    "squad": "Sevilla"
   },
   {
-   "fbref_id": "43458538",
-   "season": 2018,
-   "distance": 2.905,
+   "fbref_id": "0b0cbe5b",
+   "season": 2022,
+   "distance": 2.393,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Denis Bouanga",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "a08b974a",
+   "season": 2021,
+   "distance": 2.417,
    "survived": 1,
-   "fut_ability_v2": 54.0,
-   "player_name": "Joshua King",
-   "squad": "Bournemouth"
+   "fut_ability_v2": 53.8,
+   "player_name": "Lucas Ocampos",
+   "squad": "Sevilla"
   },
   {
    "fbref_id": "7cdda3bf",
    "season": 2019,
-   "distance": 2.91,
+   "distance": 2.857,
    "survived": 1,
    "fut_ability_v2": 66.6,
    "player_name": "Gaëtan Laborde",
    "squad": "Montpellier / Bordeaux"
   },
   {
+   "fbref_id": "43458538",
+   "season": 2018,
+   "distance": 2.858,
+   "survived": 1,
+   "fut_ability_v2": 54.0,
+   "player_name": "Joshua King",
+   "squad": "Bournemouth"
+  },
+  {
+   "fbref_id": "a53b661f",
+   "season": 2021,
+   "distance": 3.031,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Ihlas Bebou",
+   "squad": "Hoffenheim"
+  },
+  {
    "fbref_id": "81f0781e",
    "season": 2018,
-   "distance": 3.069,
+   "distance": 3.036,
    "survived": 1,
    "fut_ability_v2": 76.2,
    "player_name": "Gerard Moreno",
@@ -85,55 +112,28 @@
   {
    "fbref_id": "43458538",
    "season": 2019,
-   "distance": 3.178,
+   "distance": 3.128,
    "survived": 1,
    "fut_ability_v2": 50.2,
    "player_name": "Joshua King",
    "squad": "Bournemouth"
   },
   {
-   "fbref_id": "4c370d81",
-   "season": 2018,
-   "distance": 3.243,
-   "survived": 1,
-   "fut_ability_v2": 76.2,
-   "player_name": "Roberto Firmino",
-   "squad": "Liverpool"
-  },
-  {
    "fbref_id": "d705ba44",
-   "season": 2020,
-   "distance": 3.306,
+   "season": 2021,
+   "distance": 3.177,
    "survived": 1,
-   "fut_ability_v2": 47.2,
+   "fut_ability_v2": 48.0,
    "player_name": "Andrea Belotti",
    "squad": "Torino"
   },
   {
-   "fbref_id": "81f0781e",
-   "season": 2019,
-   "distance": 3.337,
+   "fbref_id": "4c370d81",
+   "season": 2018,
+   "distance": 3.2,
    "survived": 1,
-   "fut_ability_v2": 78.7,
-   "player_name": "Gerard Moreno",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "a53b661f",
-   "season": 2020,
-   "distance": 3.349,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Ihlas Bebou",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "c691bfe2",
-   "season": 2019,
-   "distance": 3.398,
-   "survived": 1,
-   "fut_ability_v2": 79.5,
-   "player_name": "Sadio Mané",
+   "fut_ability_v2": 76.2,
+   "player_name": "Roberto Firmino",
    "squad": "Liverpool"
   }
  ],
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Antoine Semenyo(FW)의 현재 능력 점수는 70.1점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 블록, 슈팅 시도, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 어시스트이다.",
-  "potential": "Antoine Semenyo의 2~3년 후 예측 중심값은 65.4점, 80% 구간 상단은 74.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 95.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Antoine Semenyo의 2~3년 후 예측 중심값은 65.5점, 80% 구간 상단은 75.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 93.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2719,
-  "mu": 45.8,
+  "survival_prob": 0.2808,
+  "mu": 46.9,
   "ci80": {
-   "lo": 36.0,
-   "hi": 55.5
+   "lo": 37.2,
+   "hi": 56.7
   },
   "ci50": {
-   "lo": 40.6,
-   "hi": 50.9
+   "lo": 41.8,
+   "hi": 52.1
   },
-  "sigma_model": 3.0,
-  "sigma_residual": 7.0
+  "sigma_model": 2.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "17f3620a",
+   "season": 2021,
+   "distance": 1.906,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Krzysztof Piątek",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "bbf5c11b",
+   "season": 2022,
+   "distance": 2.25,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafa Mir",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "5046b7d4",
    "season": 2018,
-   "distance": 2.233,
+   "distance": 2.252,
    "survived": 1,
    "fut_ability_v2": 42.4,
    "player_name": "Stéphane Bahoken",
@@ -58,16 +76,34 @@
   {
    "fbref_id": "09538fdb",
    "season": 2019,
-   "distance": 2.239,
+   "distance": 2.27,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Kevin Lasagna",
    "squad": "Udinese"
   },
   {
+   "fbref_id": "04e17fd5",
+   "season": 2022,
+   "distance": 2.295,
+   "survived": 1,
+   "fut_ability_v2": 39.3,
+   "player_name": "Youssef En-Nesyri",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "2500cef9",
+   "season": 2022,
+   "distance": 2.367,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Yoane Wissa",
+   "squad": "Brentford"
+  },
+  {
    "fbref_id": "625e41b1",
    "season": 2020,
-   "distance": 2.379,
+   "distance": 2.37,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Streli Mamba",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "8c44e37b",
    "season": 2019,
-   "distance": 2.466,
+   "distance": 2.496,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Borja Bastón",
    "squad": "Alavés"
   },
   {
+   "fbref_id": "0b90bb97",
+   "season": 2021,
+   "distance": 2.505,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Santi Mina",
+   "squad": "Celta Vigo"
+  },
+  {
    "fbref_id": "2e52206e",
    "season": 2018,
-   "distance": 2.528,
+   "distance": 2.523,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Benjamin Jeannot",
    "squad": "Dijon"
-  },
-  {
-   "fbref_id": "11ced928",
-   "season": 2020,
-   "distance": 2.612,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yaya Sanogo",
-   "squad": "Toulouse"
-  },
-  {
-   "fbref_id": "462475ed",
-   "season": 2019,
-   "distance": 2.643,
-   "survived": 1,
-   "fut_ability_v2": 57.0,
-   "player_name": "Ludovic Ajorque",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "fcbcbd94",
-   "season": 2019,
-   "distance": 2.701,
-   "survived": 1,
-   "fut_ability_v2": 34.3,
-   "player_name": "Moussa Konaté",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "fcbcbd94",
-   "season": 2018,
-   "distance": 2.714,
-   "survived": 1,
-   "fut_ability_v2": 34.3,
-   "player_name": "Moussa Konaté",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "2054d037",
-   "season": 2020,
-   "distance": 2.778,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "M'Baye Niang",
-   "squad": "Rennes"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Esteban Lepaul(FW)의 현재 능력 점수는 38.9점이다. 플레이스타일은 '박스 포처'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 무페널티 득점, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 슈팅 창출(SCA)이다.",
-  "potential": "Esteban Lepaul의 2~3년 후 예측 중심값은 45.8점, 80% 구간 상단은 55.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 27.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Esteban Lepaul의 2~3년 후 예측 중심값은 46.9점, 80% 구간 상단은 56.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

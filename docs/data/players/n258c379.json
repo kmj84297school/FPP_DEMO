@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8698,
-  "mu": 58.1,
+  "survival_prob": 0.7788,
+  "mu": 55.8,
   "ci80": {
-   "lo": 47.4,
-   "hi": 68.8
+   "lo": 45.3,
+   "hi": 66.3
   },
   "ci50": {
-   "lo": 52.4,
-   "hi": 63.8
+   "lo": 50.3,
+   "hi": 61.3
   },
-  "sigma_model": 2.4,
+  "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "fa031b34",
+   "season": 2021,
+   "distance": 2.282,
+   "survived": 1,
+   "fut_ability_v2": 64.3,
+   "player_name": "Richarlison",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "eeba07f8",
+   "season": 2022,
+   "distance": 2.497,
+   "survived": 1,
+   "fut_ability_v2": 54.8,
+   "player_name": "Luis Javier Suárez",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "fa031b34",
    "season": 2020,
-   "distance": 2.588,
+   "distance": 2.527,
    "survived": 1,
    "fut_ability_v2": 49.4,
    "player_name": "Richarlison",
    "squad": "Everton"
   },
   {
+   "fbref_id": "2c44a35d",
+   "season": 2022,
+   "distance": 2.545,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emmanuel Dennis",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "c0b3669f",
+   "season": 2022,
+   "distance": 2.614,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Randal Kolo Muani",
+   "squad": "Nantes"
+  },
+  {
    "fbref_id": "f8eca1b6",
    "season": 2020,
-   "distance": 2.881,
+   "distance": 2.795,
    "survived": 1,
    "fut_ability_v2": 38.3,
    "player_name": "Enes Ünal",
@@ -67,7 +103,7 @@
   {
    "fbref_id": "2054d037",
    "season": 2019,
-   "distance": 2.949,
+   "distance": 2.86,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "M'Baye Niang",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "2054d037",
    "season": 2018,
-   "distance": 2.984,
+   "distance": 2.936,
    "survived": 1,
    "fut_ability_v2": 38.0,
    "player_name": "M'Baye Niang",
    "squad": "Torino"
   },
   {
-   "fbref_id": "ba115a40",
-   "season": 2018,
-   "distance": 3.182,
-   "survived": 1,
-   "fut_ability_v2": 48.1,
-   "player_name": "Sébastien Haller",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "923f4dda",
-   "season": 2020,
-   "distance": 3.214,
-   "survived": 1,
-   "fut_ability_v2": 54.8,
-   "player_name": "Sehrou Guirassy",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "57e3f0c7",
-   "season": 2018,
-   "distance": 3.221,
-   "survived": 1,
-   "fut_ability_v2": 57.9,
-   "player_name": "Nicolas Pépé",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "d2416c2e",
-   "season": 2018,
-   "distance": 3.221,
-   "survived": 1,
-   "fut_ability_v2": 64.2,
-   "player_name": "Yussuf Poulsen",
-   "squad": "RB Leipzig"
-  },
-  {
    "fbref_id": "62437b4f",
    "season": 2019,
-   "distance": 3.225,
+   "distance": 3.077,
    "survived": 1,
    "fut_ability_v2": 58.2,
    "player_name": "Ignacio Pussetto",
    "squad": "Udinese"
   },
   {
-   "fbref_id": "6c6a3300",
+   "fbref_id": "923f4dda",
    "season": 2020,
-   "distance": 3.275,
+   "distance": 3.123,
    "survived": 1,
-   "fut_ability_v2": 42.7,
-   "player_name": "Milot Rashica",
-   "squad": "Werder Bremen"
+   "fut_ability_v2": 54.8,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Amiens"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Benedict Hollerbach(FW)의 현재 능력 점수는 49.8점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 블록, 전진 운반, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 어시스트이다.",
-  "potential": "Benedict Hollerbach의 2~3년 후 예측 중심값은 58.1점, 80% 구간 상단은 68.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Benedict Hollerbach의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 66.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 77.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,60 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5431,
-  "mu": 47.7,
+  "survival_prob": 0.28,
+  "mu": 45.8,
   "ci80": {
-   "lo": 38.4,
-   "hi": 57.1
+   "lo": 36.3,
+   "hi": 55.2
   },
   "ci50": {
-   "lo": 42.8,
-   "hi": 52.6
+   "lo": 40.7,
+   "hi": 50.7
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "758dd7f0",
    "season": 2019,
-   "distance": 1.887,
+   "distance": 1.894,
    "survived": 1,
    "fut_ability_v2": 40.7,
    "player_name": "Javier Manquillo",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "8ff4872e",
-   "season": 2019,
-   "distance": 2.033,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jordan Ikoko",
-   "squad": "Guingamp"
-  },
-  {
    "fbref_id": "fba81826",
    "season": 2020,
-   "distance": 2.154,
+   "distance": 2.075,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Federico Mattiello",
    "squad": "Cagliari"
   },
   {
+   "fbref_id": "8ff4872e",
+   "season": 2019,
+   "distance": 2.095,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Ikoko",
+   "squad": "Guingamp"
+  },
+  {
    "fbref_id": "f10983ae",
    "season": 2020,
-   "distance": 2.175,
+   "distance": 2.215,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Steven Moreira",
    "squad": "Toulouse"
   },
   {
+   "fbref_id": "6213fd82",
+   "season": 2022,
+   "distance": 2.277,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Arkadiusz Reca",
+   "squad": "Spezia"
+  },
+  {
+   "fbref_id": "626fab5f",
+   "season": 2021,
+   "distance": 2.28,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raphael Framberger",
+   "squad": "Augsburg"
+  },
+  {
+   "fbref_id": "cf623c78",
+   "season": 2019,
+   "distance": 2.308,
+   "survived": 1,
+   "fut_ability_v2": 47.5,
+   "player_name": "Erik Durm",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "6af30900",
+   "season": 2022,
+   "distance": 2.318,
+   "survived": 1,
+   "fut_ability_v2": 38.6,
+   "player_name": "Tyronne Ebuehi",
+   "squad": "Venezia"
+  },
+  {
    "fbref_id": "839c14e1",
    "season": 2019,
-   "distance": 2.264,
+   "distance": 2.322,
    "survived": 1,
    "fut_ability_v2": 56.2,
    "player_name": "Cédric Soares",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "e9208654",
    "season": 2018,
-   "distance": 2.271,
+   "distance": 2.33,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Tommy Smith",
    "squad": "Huddersfield"
-  },
-  {
-   "fbref_id": "cf623c78",
-   "season": 2019,
-   "distance": 2.288,
-   "survived": 1,
-   "fut_ability_v2": 47.5,
-   "player_name": "Erik Durm",
-   "squad": "Huddersfield"
-  },
-  {
-   "fbref_id": "ed239245",
-   "season": 2018,
-   "distance": 2.323,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Antonio Luna",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "ee923664",
-   "season": 2020,
-   "distance": 2.384,
-   "survived": 1,
-   "fut_ability_v2": 54.0,
-   "player_name": "Kevin Vázquez",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "0fbb73c2",
-   "season": 2020,
-   "distance": 2.425,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Laurent Jans",
-   "squad": "Paderborn 07"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Marvin(DF)의 현재 능력 점수는 48.9점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 수신, 전진 운반, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 태클 성공률이다.",
-  "potential": "Marvin의 2~3년 후 예측 중심값은 47.7점, 80% 구간 상단은 57.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marvin의 2~3년 후 예측 중심값은 45.8점, 80% 구간 상단은 55.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

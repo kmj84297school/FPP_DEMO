@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8871,
-  "mu": 62.7,
+  "survival_prob": 0.9085,
+  "mu": 61.2,
   "ci80": {
-   "lo": 53.5,
-   "hi": 71.9
+   "lo": 51.9,
+   "hi": 70.4
   },
   "ci50": {
-   "lo": 57.9,
-   "hi": 67.6
+   "lo": 56.3,
+   "hi": 66.0
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "048a1cbc",
    "season": 2020,
-   "distance": 2.089,
+   "distance": 2.131,
    "survived": 1,
    "fut_ability_v2": 66.2,
    "player_name": "Raphaël Guerreiro",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "0b5a292a",
    "season": 2020,
-   "distance": 2.235,
+   "distance": 2.264,
    "survived": 1,
    "fut_ability_v2": 58.5,
    "player_name": "Mário Rui",
    "squad": "Napoli"
   },
   {
+   "fbref_id": "048a1cbc",
+   "season": 2022,
+   "distance": 2.29,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "Raphaël Guerreiro",
+   "squad": "Dortmund"
+  },
+  {
    "fbref_id": "4958bfb2",
    "season": 2020,
-   "distance": 2.386,
+   "distance": 2.318,
    "survived": 1,
    "fut_ability_v2": 58.9,
    "player_name": "Dani Carvajal",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "e288d4b3",
    "season": 2018,
-   "distance": 2.504,
+   "distance": 2.544,
    "survived": 1,
    "fut_ability_v2": 54.7,
    "player_name": "Alessandro Florenzi",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "0d82903c",
    "season": 2019,
-   "distance": 2.605,
+   "distance": 2.599,
    "survived": 1,
    "fut_ability_v2": 64.7,
    "player_name": "Alex Sandro",
@@ -94,7 +103,7 @@
   {
    "fbref_id": "4958bfb2",
    "season": 2018,
-   "distance": 2.71,
+   "distance": 2.647,
    "survived": 1,
    "fut_ability_v2": 70.7,
    "player_name": "Dani Carvajal",
@@ -103,38 +112,29 @@
   {
    "fbref_id": "335fa267",
    "season": 2018,
-   "distance": 2.73,
+   "distance": 2.685,
    "survived": 1,
    "fut_ability_v2": 62.7,
    "player_name": "Sergi Roberto",
    "squad": "Barcelona"
   },
   {
-   "fbref_id": "0b5a292a",
-   "season": 2019,
-   "distance": 2.752,
+   "fbref_id": "bd6351cd",
+   "season": 2022,
+   "distance": 2.709,
    "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "Mário Rui",
-   "squad": "Napoli"
+   "fut_ability_v2": 69.8,
+   "player_name": "João Cancelo",
+   "squad": "Manchester City"
   },
   {
-   "fbref_id": "0d82903c",
-   "season": 2018,
-   "distance": 2.812,
+   "fbref_id": "bd6351cd",
+   "season": 2021,
+   "distance": 2.741,
    "survived": 1,
-   "fut_ability_v2": 66.7,
-   "player_name": "Alex Sandro",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "e288d4b3",
-   "season": 2019,
-   "distance": 2.866,
-   "survived": 1,
-   "fut_ability_v2": 53.8,
-   "player_name": "Alessandro Florenzi",
-   "squad": "Roma"
+   "fut_ability_v2": 72.8,
+   "player_name": "João Cancelo",
+   "squad": "Manchester City"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Konrad Laimer(DF)의 현재 능력 점수는 63.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 박스 터치, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 클리어링이다.",
-  "potential": "Konrad Laimer의 2~3년 후 예측 중심값은 62.7점, 80% 구간 상단은 71.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 88.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Konrad Laimer의 2~3년 후 예측 중심값은 61.2점, 80% 구간 상단은 70.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 90.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

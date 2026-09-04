@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1115,
-  "mu": 50.3,
+  "survival_prob": 0.0791,
+  "mu": 50.1,
   "ci80": {
-   "lo": 40.1,
-   "hi": 60.6
+   "lo": 39.9,
+   "hi": 60.3
   },
   "ci50": {
-   "lo": 44.9,
-   "hi": 55.7
+   "lo": 44.7,
+   "hi": 55.4
   },
-  "sigma_model": 3.8,
-  "sigma_residual": 7.0
+  "sigma_model": 3.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "8f3565b3",
+   "season": 2022,
+   "distance": 2.651,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Ante Budimir",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "8f3565b3",
+   "season": 2021,
+   "distance": 2.676,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Ante Budimir",
+   "squad": "Osasuna"
+  },
+  {
    "fbref_id": "9592289a",
    "season": 2020,
-   "distance": 2.76,
+   "distance": 2.764,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Simone Zaza",
@@ -58,7 +76,7 @@
   {
    "fbref_id": "aa5859cb",
    "season": 2019,
-   "distance": 2.808,
+   "distance": 2.8,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Laurent Depoitre",
@@ -67,16 +85,25 @@
   {
    "fbref_id": "0a1efd3c",
    "season": 2018,
-   "distance": 2.983,
+   "distance": 2.977,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andrey Galabinov",
    "squad": "Genoa"
   },
   {
+   "fbref_id": "b4cf5806",
+   "season": 2021,
+   "distance": 3.015,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sebastian Andersson",
+   "squad": "Köln"
+  },
+  {
    "fbref_id": "34e4343c",
    "season": 2020,
-   "distance": 3.016,
+   "distance": 3.018,
    "survived": 1,
    "fut_ability_v2": 53.1,
    "player_name": "Anthony Modeste",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "1d6ac165",
    "season": 2019,
-   "distance": 3.036,
+   "distance": 3.041,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sam Vokes",
    "squad": "Burnley"
   },
   {
-   "fbref_id": "71a20ce8",
-   "season": 2018,
-   "distance": 3.196,
+   "fbref_id": "ab070c55",
+   "season": 2021,
+   "distance": 3.114,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Mario Gómez",
-   "squad": "Stuttgart / Wolfsburg"
+   "player_name": "Christian Benteke",
+   "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "e897d8ba",
-   "season": 2020,
-   "distance": 3.224,
-   "survived": 1,
-   "fut_ability_v2": 45.1,
-   "player_name": "Kike",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "9f472354",
-   "season": 2019,
-   "distance": 3.241,
+   "fbref_id": "b4cf5806",
+   "season": 2022,
+   "distance": 3.163,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Shane Long",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "82e9b89d",
-   "season": 2020,
-   "distance": 3.248,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Enric Gallego",
-   "squad": "Osasuna / Getafe"
-  },
-  {
-   "fbref_id": "4207e578",
-   "season": 2019,
-   "distance": 3.251,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pablo Chavarría",
-   "squad": "Reims"
+   "player_name": "Sebastian Andersson",
+   "squad": "Köln"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Paul Onuachu(FW)의 현재 능력 점수는 41.6점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 공중볼 승률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 전진 패스 수신이다.",
-  "potential": "Paul Onuachu의 2~3년 후 예측 중심값은 50.3점, 80% 구간 상단은 60.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 11.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Paul Onuachu의 2~3년 후 예측 중심값은 50.1점, 80% 구간 상단은 60.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 7.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

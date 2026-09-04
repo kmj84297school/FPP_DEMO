@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5653,
-  "mu": 54.0,
+  "survival_prob": 0.7393,
+  "mu": 56.9,
   "ci80": {
-   "lo": 44.8,
-   "hi": 63.2
+   "lo": 47.6,
+   "hi": 66.1
   },
   "ci50": {
-   "lo": 49.2,
-   "hi": 58.9
+   "lo": 52.0,
+   "hi": 61.7
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "08082af0",
    "season": 2019,
-   "distance": 0.995,
+   "distance": 1.041,
    "survived": 1,
    "fut_ability_v2": 51.7,
    "player_name": "Loïck Landre",
    "squad": "Nîmes"
   },
   {
+   "fbref_id": "b86a64b2",
+   "season": 2021,
+   "distance": 1.362,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joaquín Fernández",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "3626f7d9",
+   "season": 2019,
+   "distance": 1.37,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Fabián Balbuena",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "e0f3a1f6",
+   "season": 2021,
+   "distance": 1.426,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Jean-Charles Castelletto",
+   "squad": "Nantes"
+  },
+  {
    "fbref_id": "25f50295",
    "season": 2018,
-   "distance": 1.504,
+   "distance": 1.486,
    "survived": 1,
    "fut_ability_v2": 50.2,
    "player_name": "Mike van der Hoorn",
@@ -67,74 +94,47 @@
   {
    "fbref_id": "914ab9a1",
    "season": 2018,
-   "distance": 1.548,
+   "distance": 1.533,
    "survived": 1,
    "fut_ability_v2": 45.0,
    "player_name": "Christian Kabasele",
    "squad": "Watford"
   },
   {
-   "fbref_id": "3626f7d9",
-   "season": 2019,
-   "distance": 1.581,
-   "survived": 1,
-   "fut_ability_v2": 51.7,
-   "player_name": "Fabián Balbuena",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "7f203b54",
-   "season": 2018,
-   "distance": 1.641,
+   "fbref_id": "e5c1e0ca",
+   "season": 2022,
+   "distance": 1.598,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Chema",
-   "squad": "Levante"
+   "player_name": "Erik Palmer-Brown",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "16bb656a",
+   "season": 2021,
+   "distance": 1.638,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Paweł Dawidowicz",
+   "squad": "Hellas Verona"
   },
   {
    "fbref_id": "0821331c",
    "season": 2019,
-   "distance": 1.645,
+   "distance": 1.66,
    "survived": 1,
    "fut_ability_v2": 63.0,
    "player_name": "Mattia Bani",
    "squad": "Chievo"
   },
   {
-   "fbref_id": "a8fbae1d",
-   "season": 2018,
-   "distance": 1.765,
+   "fbref_id": "93090f69",
+   "season": 2022,
+   "distance": 1.677,
    "survived": 1,
-   "fut_ability_v2": 55.9,
-   "player_name": "Paulo Oliveira",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "0821331c",
-   "season": 2020,
-   "distance": 1.781,
-   "survived": 1,
-   "fut_ability_v2": 62.6,
-   "player_name": "Mattia Bani",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "5a4280b1",
-   "season": 2018,
-   "distance": 1.796,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kevin Long",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "e4b8c5b6",
-   "season": 2018,
-   "distance": 1.849,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ezequiel Muñoz",
-   "squad": "Leganés"
+   "fut_ability_v2": 47.7,
+   "player_name": "Domingos Duarte",
+   "squad": "Granada"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Chris Richards(DF)의 현재 능력 점수는 54.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 블록, 클리어링, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 볼 리커버리이다.",
-  "potential": "Chris Richards의 2~3년 후 예측 중심값은 54.0점, 80% 구간 상단은 63.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 56.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Chris Richards의 2~3년 후 예측 중심값은 56.9점, 80% 구간 상단은 66.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 73.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

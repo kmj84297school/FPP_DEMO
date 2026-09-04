@@ -32,24 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8932,
-  "mu": 61.6,
+  "survival_prob": 0.8872,
+  "mu": 66.0,
   "ci80": {
-   "lo": 52.3,
-   "hi": 71.0
+   "lo": 56.5,
+   "hi": 75.7
   },
   "ci50": {
-   "lo": 56.7,
-   "hi": 66.6
+   "lo": 61.0,
+   "hi": 71.1
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "7c2965bb",
+   "season": 2021,
+   "distance": 2.797,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rony Lopes",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "45af8a54",
+   "season": 2021,
+   "distance": 2.812,
+   "survived": 1,
+   "fut_ability_v2": 78.8,
+   "player_name": "Marco Asensio",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "1880614f",
+   "season": 2022,
+   "distance": 2.998,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cengiz Ünder",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "4e219ad2",
+   "season": 2021,
+   "distance": 3.016,
+   "survived": 1,
+   "fut_ability_v2": 64.4,
+   "player_name": "Suso",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "d85c238b",
+   "season": 2022,
+   "distance": 3.053,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Mattia Zaccagni",
+   "squad": "Lazio / Hellas Verona"
+  },
+  {
    "fbref_id": "e0921a4f",
    "season": 2019,
-   "distance": 3.102,
+   "distance": 3.124,
    "survived": 1,
    "fut_ability_v2": 75.8,
    "player_name": "Paulo Dybala",
@@ -58,83 +103,38 @@
   {
    "fbref_id": "ccee698e",
    "season": 2019,
-   "distance": 3.4,
+   "distance": 3.368,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Anthony Limbombe",
    "squad": "Nantes"
   },
   {
+   "fbref_id": "e7d59f4f",
+   "season": 2022,
+   "distance": 3.375,
+   "survived": 1,
+   "fut_ability_v2": 70.1,
+   "player_name": "Amine Harit",
+   "squad": "Marseille"
+  },
+  {
    "fbref_id": "4e219ad2",
    "season": 2020,
-   "distance": 3.437,
+   "distance": 3.495,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Suso",
    "squad": "Milan / Sevilla"
   },
   {
-   "fbref_id": "50871bcc",
-   "season": 2019,
-   "distance": 3.511,
-   "survived": 1,
-   "fut_ability_v2": 61.4,
-   "player_name": "Thorgan Hazard",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "5e861944",
-   "season": 2020,
-   "distance": 3.558,
-   "survived": 1,
-   "fut_ability_v2": 65.7,
-   "player_name": "Matteo Politano",
-   "squad": "Napoli / Inter"
-  },
-  {
    "fbref_id": "603cb947",
    "season": 2018,
-   "distance": 3.561,
+   "distance": 3.555,
    "survived": 1,
    "fut_ability_v2": 79.1,
    "player_name": "Andrej Kramarić",
    "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "a69e4806",
-   "season": 2020,
-   "distance": 3.638,
-   "survived": 1,
-   "fut_ability_v2": 71.3,
-   "player_name": "Hirving Lozano",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "9efa1d25",
-   "season": 2019,
-   "distance": 3.645,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mario Götze",
-   "squad": "Dortmund"
-  },
-  {
-   "fbref_id": "0ef89a37",
-   "season": 2019,
-   "distance": 3.669,
-   "survived": 1,
-   "fut_ability_v2": 72.2,
-   "player_name": "Philippe Coutinho",
-   "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "b182a240",
-   "season": 2019,
-   "distance": 3.928,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Quincy Promes",
-   "squad": "Sevilla"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Pedro Neto(FW)의 현재 능력 점수는 63.5점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반 거리, 전진 운반, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Pedro Neto의 2~3년 후 예측 중심값은 61.6점, 80% 구간 상단은 71.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 89.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pedro Neto의 2~3년 후 예측 중심값은 66.0점, 80% 구간 상단은 75.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 88.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

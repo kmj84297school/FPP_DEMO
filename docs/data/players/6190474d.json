@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5177,
-  "mu": 60.9,
+  "survival_prob": 0.544,
+  "mu": 58.0,
   "ci80": {
-   "lo": 51.6,
-   "hi": 70.1
+   "lo": 48.7,
+   "hi": 67.3
   },
   "ci50": {
-   "lo": 55.9,
-   "hi": 65.7
+   "lo": 53.1,
+   "hi": 62.8
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "7e82a78f",
    "season": 2018,
-   "distance": 1.916,
+   "distance": 1.874,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Florent Mollet",
@@ -58,83 +58,83 @@
   {
    "fbref_id": "b6a6e0a7",
    "season": 2019,
-   "distance": 1.939,
+   "distance": 1.952,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Steven Zuber",
    "squad": "Stuttgart / Hoffenheim"
   },
   {
-   "fbref_id": "01efac19",
-   "season": 2020,
-   "distance": 2.098,
-   "survived": 1,
-   "fut_ability_v2": 64.7,
-   "player_name": "Antonín Barák",
-   "squad": "Lecce / Udinese"
-  },
-  {
    "fbref_id": "97333cf5",
    "season": 2019,
-   "distance": 2.139,
+   "distance": 2.02,
    "survived": 1,
    "fut_ability_v2": 59.2,
    "player_name": "Stuart Armstrong",
    "squad": "Southampton"
   },
   {
+   "fbref_id": "01efac19",
+   "season": 2020,
+   "distance": 2.074,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "Antonín Barák",
+   "squad": "Lecce / Udinese"
+  },
+  {
    "fbref_id": "ee93c1a9",
    "season": 2020,
-   "distance": 2.173,
+   "distance": 2.17,
    "survived": 1,
    "fut_ability_v2": 56.2,
    "player_name": "Federico Bernardeschi",
    "squad": "Juventus"
   },
   {
-   "fbref_id": "94c18565",
-   "season": 2018,
-   "distance": 2.204,
-   "survived": 1,
-   "fut_ability_v2": 63.0,
-   "player_name": "Florian Kainz",
-   "squad": "Werder Bremen"
+   "fbref_id": "d3298c99",
+   "season": 2022,
+   "distance": 2.171,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniele Verde",
+   "squad": "Spezia"
+  },
+  {
+   "fbref_id": "2c38b327",
+   "season": 2022,
+   "distance": 2.224,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Pjaca",
+   "squad": "Torino"
   },
   {
    "fbref_id": "72a99e38",
    "season": 2018,
-   "distance": 2.275,
+   "distance": 2.255,
    "survived": 1,
    "fut_ability_v2": 63.6,
    "player_name": "Cristian Tello",
    "squad": "Betis"
   },
   {
-   "fbref_id": "6421ec64",
-   "season": 2019,
-   "distance": 2.335,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Xherdan Shaqiri",
-   "squad": "Liverpool"
+   "fbref_id": "5a04fd92",
+   "season": 2022,
+   "distance": 2.297,
+   "survived": 1,
+   "fut_ability_v2": 70.0,
+   "player_name": "Saïd Benrahma",
+   "squad": "West Ham"
   },
   {
-   "fbref_id": "38c7feef",
-   "season": 2020,
-   "distance": 2.389,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alex Oxlade-Chamberlain",
-   "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "33ecf462",
-   "season": 2020,
-   "distance": 2.411,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Valerio Verre",
-   "squad": "Hellas Verona"
+   "fbref_id": "94c18565",
+   "season": 2018,
+   "distance": 2.303,
+   "survived": 1,
+   "fut_ability_v2": 63.0,
+   "player_name": "Florian Kainz",
+   "squad": "Werder Bremen"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jeong Woo-yeong(MF)의 현재 능력 점수는 64.3점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 수신, 박스 진입 패스, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 태클+인터셉트이다.",
-  "potential": "Jeong Woo-yeong의 2~3년 후 예측 중심값은 60.9점, 80% 구간 상단은 70.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 51.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jeong Woo-yeong의 2~3년 후 예측 중심값은 58.0점, 80% 구간 상단은 67.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

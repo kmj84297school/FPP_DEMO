@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8385,
-  "mu": 55.1,
+  "survival_prob": 0.8548,
+  "mu": 55.9,
   "ci80": {
-   "lo": 45.8,
-   "hi": 64.4
+   "lo": 46.5,
+   "hi": 65.5
   },
   "ci50": {
-   "lo": 50.2,
-   "hi": 60.0
+   "lo": 51.0,
+   "hi": 61.0
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "93feac6e",
+   "season": 2021,
+   "distance": 2.18,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Bamford",
+   "squad": "Leeds United"
+  },
+  {
    "fbref_id": "d5dd5f1f",
    "season": 2019,
-   "distance": 2.253,
+   "distance": 2.312,
    "survived": 1,
    "fut_ability_v2": 53.5,
    "player_name": "Pierre-Emerick Aubameyang",
@@ -58,16 +67,25 @@
   {
    "fbref_id": "0fe7f7bc",
    "season": 2018,
-   "distance": 2.311,
+   "distance": 2.33,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Giovanni Sio",
    "squad": "Montpellier"
   },
   {
+   "fbref_id": "462475ed",
+   "season": 2021,
+   "distance": 2.376,
+   "survived": 1,
+   "fut_ability_v2": 32.2,
+   "player_name": "Ludovic Ajorque",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "d6862409",
    "season": 2020,
-   "distance": 2.463,
+   "distance": 2.479,
    "survived": 1,
    "fut_ability_v2": 53.7,
    "player_name": "Florian Niederlechner",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "9592289a",
    "season": 2018,
-   "distance": 2.509,
+   "distance": 2.496,
    "survived": 1,
    "fut_ability_v2": 44.3,
    "player_name": "Simone Zaza",
    "squad": "Valencia"
   },
   {
-   "fbref_id": "21a66f6a",
-   "season": 2020,
-   "distance": 2.608,
-   "survived": 1,
-   "fut_ability_v2": 74.6,
-   "player_name": "Harry Kane",
-   "squad": "Tottenham"
-  },
-  {
    "fbref_id": "d87e2cae",
    "season": 2020,
-   "distance": 2.61,
+   "distance": 2.597,
    "survived": 1,
    "fut_ability_v2": 48.0,
    "player_name": "Willian José",
    "squad": "Real Sociedad"
   },
   {
+   "fbref_id": "3effaa34",
+   "season": 2022,
+   "distance": 2.614,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "André Silva",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "c4e87b8b",
    "season": 2019,
-   "distance": 2.617,
+   "distance": 2.622,
    "survived": 1,
    "fut_ability_v2": 57.9,
    "player_name": "Wout Weghorst",
    "squad": "Wolfsburg"
   },
   {
-   "fbref_id": "09538fdb",
+   "fbref_id": "21a66f6a",
    "season": 2020,
-   "distance": 2.777,
+   "distance": 2.635,
    "survived": 1,
-   "fut_ability_v2": 53.9,
-   "player_name": "Kevin Lasagna",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "c4e87b8b",
-   "season": 2020,
-   "distance": 2.781,
-   "survived": 1,
-   "fut_ability_v2": 46.7,
-   "player_name": "Wout Weghorst",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "75645f0e",
-   "season": 2019,
-   "distance": 2.817,
-   "survived": 1,
-   "fut_ability_v2": 38.8,
-   "player_name": "Borja Iglesias",
-   "squad": "Espanyol"
+   "fut_ability_v2": 74.6,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Yoane Wissa(FW)의 현재 능력 점수는 61.1점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 패스 수신이다.",
-  "potential": "Yoane Wissa의 2~3년 후 예측 중심값은 55.1점, 80% 구간 상단은 64.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 83.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Yoane Wissa의 2~3년 후 예측 중심값은 55.9점, 80% 구간 상단은 65.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 85.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

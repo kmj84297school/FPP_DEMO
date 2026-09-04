@@ -32,51 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9729,
-  "mu": 79.7,
+  "survival_prob": 0.9316,
+  "mu": 75.1,
   "ci80": {
-   "lo": 70.1,
-   "hi": 89.3
+   "lo": 65.0,
+   "hi": 85.3
   },
   "ci50": {
-   "lo": 74.6,
-   "hi": 84.8
+   "lo": 69.8,
+   "hi": 80.5
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 3.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "e342ad68",
    "season": 2020,
-   "distance": 3.725,
+   "distance": 3.658,
    "survived": 1,
    "fut_ability_v2": 77.5,
    "player_name": "Mohamed Salah",
    "squad": "Liverpool"
   },
   {
-   "fbref_id": "e342ad68",
-   "season": 2019,
-   "distance": 3.924,
+   "fbref_id": "b400bde0",
+   "season": 2021,
+   "distance": 3.828,
    "survived": 1,
-   "fut_ability_v2": 81.5,
-   "player_name": "Mohamed Salah",
-   "squad": "Liverpool"
+   "fut_ability_v2": 72.5,
+   "player_name": "Raheem Sterling",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "b400bde0",
+   "season": 2022,
+   "distance": 3.835,
+   "survived": 1,
+   "fut_ability_v2": 72.5,
+   "player_name": "Raheem Sterling",
+   "squad": "Manchester City"
   },
   {
    "fbref_id": "b400bde0",
    "season": 2020,
-   "distance": 3.99,
+   "distance": 3.883,
    "survived": 1,
    "fut_ability_v2": 79.7,
    "player_name": "Raheem Sterling",
    "squad": "Manchester City"
   },
   {
+   "fbref_id": "e342ad68",
+   "season": 2019,
+   "distance": 3.888,
+   "survived": 1,
+   "fut_ability_v2": 81.5,
+   "player_name": "Mohamed Salah",
+   "squad": "Liverpool"
+  },
+  {
    "fbref_id": "45b9b619",
    "season": 2020,
-   "distance": 4.09,
+   "distance": 4.013,
    "survived": 1,
    "fut_ability_v2": 76.2,
    "player_name": "Joaquín Correa",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "e342ad68",
    "season": 2018,
-   "distance": 4.156,
+   "distance": 4.13,
    "survived": 1,
    "fut_ability_v2": 79.0,
    "player_name": "Mohamed Salah",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "c691bfe2",
    "season": 2020,
-   "distance": 4.56,
+   "distance": 4.456,
    "survived": 1,
    "fut_ability_v2": 76.2,
    "player_name": "Sadio Mané",
    "squad": "Liverpool"
   },
   {
-   "fbref_id": "d3de9af0",
-   "season": 2019,
-   "distance": 4.874,
+   "fbref_id": "5ceba7fc",
+   "season": 2021,
+   "distance": 4.459,
    "survived": 1,
-   "fut_ability_v2": 79.0,
-   "player_name": "Duván Zapata",
-   "squad": "Atalanta"
+   "fut_ability_v2": 69.9,
+   "player_name": "Karl Toko Ekambi",
+   "squad": "Lyon"
   },
   {
-   "fbref_id": "c691bfe2",
-   "season": 2018,
-   "distance": 4.98,
+   "fbref_id": "4a1a9578",
+   "season": 2022,
+   "distance": 4.591,
    "survived": 1,
-   "fut_ability_v2": 83.9,
-   "player_name": "Sadio Mané",
+   "fut_ability_v2": 78.5,
+   "player_name": "Luis Díaz",
    "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "2f557579",
-   "season": 2018,
-   "distance": 4.985,
-   "survived": 1,
-   "fut_ability_v2": 78.2,
-   "player_name": "Lorenzo Insigne",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "0ef89a37",
-   "season": 2019,
-   "distance": 5.126,
-   "survived": 1,
-   "fut_ability_v2": 72.2,
-   "player_name": "Philippe Coutinho",
-   "squad": "Barcelona"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Kylian Mbappé(FW)의 현재 능력 점수는 77.8점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 박스 터치, 슈팅 시도, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 어시스트, 슈팅당 기대득점이다.",
-  "potential": "Kylian Mbappé의 2~3년 후 예측 중심값은 79.7점, 80% 구간 상단은 89.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 97.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Kylian Mbappé의 2~3년 후 예측 중심값은 75.1점, 80% 구간 상단은 85.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 93.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

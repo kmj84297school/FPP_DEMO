@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6237,
-  "mu": 62.4,
+  "survival_prob": 0.3713,
+  "mu": 61.8,
   "ci80": {
-   "lo": 53.1,
-   "hi": 71.8
+   "lo": 52.6,
+   "hi": 71.2
   },
   "ci50": {
-   "lo": 57.4,
-   "hi": 67.3
+   "lo": 57.0,
+   "hi": 66.8
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "282679b4",
+   "season": 2021,
+   "distance": 1.613,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateusz Klich",
+   "squad": "Leeds United"
+  },
+  {
+   "fbref_id": "ef322658",
+   "season": 2018,
+   "distance": 2.009,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
    "fbref_id": "bd84fc61",
    "season": 2018,
-   "distance": 2.01,
+   "distance": 2.031,
    "survived": 1,
    "fut_ability_v2": 52.0,
    "player_name": "Pasquale Schiattarella",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "68829001",
    "season": 2018,
-   "distance": 2.028,
+   "distance": 2.056,
    "survived": 1,
    "fut_ability_v2": 61.7,
    "player_name": "Gonzalo Castro",
    "squad": "Dortmund"
   },
   {
-   "fbref_id": "ef322658",
-   "season": 2018,
-   "distance": 2.055,
+   "fbref_id": "8aec0537",
+   "season": 2021,
+   "distance": 2.081,
    "survived": 1,
-   "fut_ability_v2": 50.9,
-   "player_name": "Andrés Guardado",
-   "squad": "Betis"
+   "fut_ability_v2": 68.3,
+   "player_name": "Pascal Groß",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "162efffd",
+   "season": 2022,
+   "distance": 2.161,
+   "survived": 1,
+   "fut_ability_v2": 70.4,
+   "player_name": "Rodrigo De Paul",
+   "squad": "Atlético Madrid"
   },
   {
    "fbref_id": "b825a650",
    "season": 2018,
-   "distance": 2.154,
+   "distance": 2.203,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Kevin Kampl",
    "squad": "RB Leipzig / Leverkusen"
   },
   {
-   "fbref_id": "8b298f56",
-   "season": 2019,
-   "distance": 2.183,
-   "survived": 1,
-   "fut_ability_v2": 72.2,
-   "player_name": "Clément Grenier",
-   "squad": "Rennes"
-  },
-  {
    "fbref_id": "963829d0",
    "season": 2020,
-   "distance": 2.268,
+   "distance": 2.213,
    "survived": 1,
    "fut_ability_v2": 64.1,
    "player_name": "Manu Trigueros",
    "squad": "Villarreal"
   },
   {
+   "fbref_id": "8b298f56",
+   "season": 2019,
+   "distance": 2.224,
+   "survived": 1,
+   "fut_ability_v2": 72.2,
+   "player_name": "Clément Grenier",
+   "squad": "Rennes"
+  },
+  {
    "fbref_id": "ad6df2d5",
    "season": 2018,
-   "distance": 2.276,
+   "distance": 2.253,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Miralem Pjanić",
    "squad": "Juventus"
-  },
-  {
-   "fbref_id": "b825a650",
-   "season": 2019,
-   "distance": 2.36,
-   "survived": 1,
-   "fut_ability_v2": 56.5,
-   "player_name": "Kevin Kampl",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "55126f3b",
-   "season": 2019,
-   "distance": 2.379,
-   "survived": 1,
-   "fut_ability_v2": 55.6,
-   "player_name": "Koke",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "10efd0e1",
-   "season": 2019,
-   "distance": 2.431,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jean Seri",
-   "squad": "Fulham"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Pablo Fornals(MF)의 현재 능력 점수는 66.5점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스, 슈팅 창출(SCA), 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 클리어링이다.",
-  "potential": "Pablo Fornals의 2~3년 후 예측 중심값은 62.4점, 80% 구간 상단은 71.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 62.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pablo Fornals의 2~3년 후 예측 중심값은 61.8점, 80% 구간 상단은 71.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 37.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

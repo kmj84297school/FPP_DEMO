@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3589,
-  "mu": 51.2,
+  "survival_prob": 0.5858,
+  "mu": 48.0,
   "ci80": {
-   "lo": 41.9,
-   "hi": 60.6
+   "lo": 38.5,
+   "hi": 57.6
   },
   "ci50": {
-   "lo": 46.3,
-   "hi": 56.2
+   "lo": 43.0,
+   "hi": 53.1
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "87935cf3",
    "season": 2020,
-   "distance": 1.742,
+   "distance": 1.788,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Mamadou Sakho",
    "squad": "Crystal Palace"
   },
   {
+   "fbref_id": "f7223718",
+   "season": 2022,
+   "distance": 1.938,
+   "survived": 1,
+   "fut_ability_v2": 45.3,
+   "player_name": "Patric",
+   "squad": "Lazio"
+  },
+  {
    "fbref_id": "e94d79e3",
    "season": 2019,
-   "distance": 1.963,
+   "distance": 2.029,
    "survived": 1,
    "fut_ability_v2": 41.5,
    "player_name": "Martín Cáceres",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "2946f9a1",
    "season": 2019,
-   "distance": 2.066,
+   "distance": 2.046,
    "survived": 1,
    "fut_ability_v2": 52.3,
    "player_name": "Nacho",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "a2609621",
    "season": 2020,
-   "distance": 2.197,
+   "distance": 2.226,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Naldo",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "f03f284b",
    "season": 2019,
-   "distance": 2.352,
+   "distance": 2.388,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "David López",
    "squad": "Espanyol"
   },
   {
-   "fbref_id": "ad178594",
-   "season": 2018,
-   "distance": 2.428,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Raúl Navas",
-   "squad": "Real Sociedad"
+   "fbref_id": "a56da3ba",
+   "season": 2022,
+   "distance": 2.396,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Juan Cruz Armada",
+   "squad": "Osasuna"
   },
   {
    "fbref_id": "1d8e9add",
    "season": 2020,
-   "distance": 2.432,
+   "distance": 2.433,
    "survived": 1,
    "fut_ability_v2": 50.3,
    "player_name": "Kevin Vogt",
    "squad": "Werder Bremen / Hoffenheim"
   },
   {
-   "fbref_id": "c01c66d9",
-   "season": 2019,
-   "distance": 2.464,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bastos",
-   "squad": "Lazio"
-  },
-  {
-   "fbref_id": "f7c9fcd6",
-   "season": 2018,
-   "distance": 2.471,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Samuel Souprayen",
-   "squad": "Hellas Verona"
-  },
-  {
-   "fbref_id": "474ecac8",
-   "season": 2019,
-   "distance": 2.489,
+   "fbref_id": "226008f1",
+   "season": 2021,
+   "distance": 2.433,
    "survived": 1,
-   "fut_ability_v2": 51.2,
-   "player_name": "Sergio Postigo",
-   "squad": "Levante"
+   "fut_ability_v2": 47.6,
+   "player_name": "Luca Caldirola",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "433dc9a2",
+   "season": 2022,
+   "distance": 2.464,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Juan Bernat",
+   "squad": "Paris S-G"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Ferland Mendy(DF)의 현재 능력 점수는 43.0점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 패스 성공률, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 공중볼 승리이다.",
-  "potential": "Ferland Mendy의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 60.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 35.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ferland Mendy의 2~3년 후 예측 중심값은 48.0점, 80% 구간 상단은 57.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

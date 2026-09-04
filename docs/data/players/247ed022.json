@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6813,
-  "mu": 57.7,
+  "survival_prob": 0.8329,
+  "mu": 55.2,
   "ci80": {
-   "lo": 48.4,
-   "hi": 66.9
+   "lo": 45.9,
+   "hi": 64.4
   },
   "ci50": {
-   "lo": 52.8,
-   "hi": 62.6
+   "lo": 50.3,
+   "hi": 60.0
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a96e5dc0",
    "season": 2020,
-   "distance": 2.043,
+   "distance": 2.005,
    "survived": 1,
    "fut_ability_v2": 51.0,
    "player_name": "Jeremy Toljan",
    "squad": "Sassuolo"
   },
   {
+   "fbref_id": "0a483542",
+   "season": 2022,
+   "distance": 2.095,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Giorgos Kyriakopoulos",
+   "squad": "Sassuolo"
+  },
+  {
    "fbref_id": "30c220c3",
    "season": 2019,
-   "distance": 2.257,
+   "distance": 2.191,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mitchell Weiser",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "4958bfb2",
    "season": 2019,
-   "distance": 2.41,
+   "distance": 2.372,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Dani Carvajal",
    "squad": "Real Madrid"
   },
   {
-   "fbref_id": "0b5a292a",
-   "season": 2018,
-   "distance": 2.428,
-   "survived": 1,
-   "fut_ability_v2": 66.2,
-   "player_name": "Mário Rui",
-   "squad": "Napoli"
-  },
-  {
    "fbref_id": "fbbb9269",
    "season": 2019,
-   "distance": 2.453,
+   "distance": 2.4,
    "survived": 1,
    "fut_ability_v2": 59.9,
    "player_name": "Youssouf Sabaly",
    "squad": "Bordeaux"
   },
   {
+   "fbref_id": "0b5a292a",
+   "season": 2018,
+   "distance": 2.402,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Mário Rui",
+   "squad": "Napoli"
+  },
+  {
    "fbref_id": "d6a889ea",
    "season": 2018,
-   "distance": 2.554,
+   "distance": 2.475,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kévin Malcuit",
    "squad": "Lille"
   },
   {
-   "fbref_id": "16e9d0ea",
-   "season": 2019,
-   "distance": 2.582,
+   "fbref_id": "3cefcaef",
+   "season": 2022,
+   "distance": 2.491,
    "survived": 1,
-   "fut_ability_v2": 60.3,
-   "player_name": "Álex Moreno",
-   "squad": "Rayo Vallecano"
+   "fut_ability_v2": 46.6,
+   "player_name": "Ferland Mendy",
+   "squad": "Real Madrid"
   },
   {
-   "fbref_id": "f9acca3a",
-   "season": 2018,
-   "distance": 2.604,
+   "fbref_id": "c459a650",
+   "season": 2022,
+   "distance": 2.503,
    "survived": 1,
-   "fut_ability_v2": 63.8,
-   "player_name": "Wendell",
-   "squad": "Leverkusen"
+   "fut_ability_v2": 60.5,
+   "player_name": "Joakim Mæhle",
+   "squad": "Atalanta"
   },
   {
    "fbref_id": "3dd738a1",
-   "season": 2019,
-   "distance": 2.607,
+   "season": 2018,
+   "distance": 2.545,
    "survived": 1,
-   "fut_ability_v2": 68.2,
+   "fut_ability_v2": 67.5,
    "player_name": "Ruben Aguilar",
    "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "16e9d0ea",
-   "season": 2020,
-   "distance": 2.617,
-   "survived": 1,
-   "fut_ability_v2": 60.0,
-   "player_name": "Álex Moreno",
-   "squad": "Betis"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Andrea Cambiaso(DF)의 현재 능력 점수는 54.4점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 창출(SCA), 전진 운반, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
-  "potential": "Andrea Cambiaso의 2~3년 후 예측 중심값은 57.7점, 80% 구간 상단은 66.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 68.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Andrea Cambiaso의 2~3년 후 예측 중심값은 55.2점, 80% 구간 상단은 64.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 83.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

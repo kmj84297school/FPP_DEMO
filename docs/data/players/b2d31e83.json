@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7444,
-  "mu": 55.1,
+  "survival_prob": 0.4212,
+  "mu": 54.2,
   "ci80": {
-   "lo": 45.8,
-   "hi": 64.3
+   "lo": 44.9,
+   "hi": 63.6
   },
   "ci50": {
-   "lo": 50.2,
-   "hi": 59.9
+   "lo": 49.4,
+   "hi": 59.2
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "4bd414c1",
    "season": 2020,
-   "distance": 0.919,
+   "distance": 0.913,
    "survived": 1,
    "fut_ability_v2": 52.5,
    "player_name": "Raúl Albiol",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "72a0fb65",
    "season": 2020,
-   "distance": 0.929,
+   "distance": 0.933,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bruno Ecuele Manga",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "1ec7e1c5",
    "season": 2020,
-   "distance": 1.146,
+   "distance": 1.131,
    "survived": 1,
    "fut_ability_v2": 64.7,
    "player_name": "Damien Da Silva",
@@ -76,65 +76,65 @@
   {
    "fbref_id": "b666421b",
    "season": 2020,
-   "distance": 1.41,
+   "distance": 1.378,
    "survived": 1,
    "fut_ability_v2": 43.9,
    "player_name": "Ismaël Traoré",
    "squad": "Angers"
   },
   {
-   "fbref_id": "f7d50789",
-   "season": 2020,
-   "distance": 1.458,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Toby Alderweireld",
-   "squad": "Tottenham"
-  },
-  {
    "fbref_id": "8dbff17c",
    "season": 2018,
-   "distance": 1.509,
+   "distance": 1.487,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Adil Rami",
    "squad": "Marseille"
   },
   {
+   "fbref_id": "f7d50789",
+   "season": 2020,
+   "distance": 1.49,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Toby Alderweireld",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "1c2c55fc",
+   "season": 2021,
+   "distance": 1.495,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gonzalo Verdú",
+   "squad": "Elche"
+  },
+  {
    "fbref_id": "8efa621b",
    "season": 2020,
-   "distance": 1.53,
+   "distance": 1.517,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabio Lucioni",
    "squad": "Lecce"
   },
   {
-   "fbref_id": "1ec7e1c5",
-   "season": 2019,
-   "distance": 1.615,
-   "survived": 1,
-   "fut_ability_v2": 66.6,
-   "player_name": "Damien Da Silva",
-   "squad": "Rennes"
-  },
-  {
    "fbref_id": "275e2c51",
    "season": 2020,
-   "distance": 1.622,
+   "distance": 1.571,
    "survived": 1,
    "fut_ability_v2": 60.5,
    "player_name": "Romain Thomas",
    "squad": "Angers"
   },
   {
-   "fbref_id": "1ad8cb67",
-   "season": 2020,
-   "distance": 1.659,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pablo Martinez",
-   "squad": "Nîmes"
+   "fbref_id": "1ec7e1c5",
+   "season": 2019,
+   "distance": 1.575,
+   "survived": 1,
+   "fut_ability_v2": 66.6,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Dan Burn(DF)의 현재 능력 점수는 52.0점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 공중볼 승률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 태클+인터셉트이다.",
-  "potential": "Dan Burn의 2~3년 후 예측 중심값은 55.1점, 80% 구간 상단은 64.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 74.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Dan Burn의 2~3년 후 예측 중심값은 54.2점, 80% 구간 상단은 63.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

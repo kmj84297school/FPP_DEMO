@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.843,
-  "mu": 62.9,
+  "survival_prob": 0.8649,
+  "mu": 62.2,
   "ci80": {
-   "lo": 53.5,
-   "hi": 72.3
+   "lo": 52.7,
+   "hi": 71.7
   },
   "ci50": {
-   "lo": 58.0,
-   "hi": 68.0
+   "lo": 57.2,
+   "hi": 67.2
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "129af0db",
+   "season": 2022,
+   "distance": 3.002,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Álvaro Morata",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "81f0781e",
+   "season": 2021,
+   "distance": 3.009,
+   "survived": 1,
+   "fut_ability_v2": 73.4,
+   "player_name": "Gerard Moreno",
+   "squad": "Villarreal"
+  },
+  {
    "fbref_id": "0b4d8274",
    "season": 2018,
-   "distance": 3.111,
+   "distance": 3.065,
    "survived": 1,
    "fut_ability_v2": 59.4,
    "player_name": "Romain Hamouma",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "00459419",
    "season": 2018,
-   "distance": 3.145,
+   "distance": 3.149,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marko Arnautović",
    "squad": "West Ham"
   },
   {
-   "fbref_id": "b561db50",
-   "season": 2020,
-   "distance": 3.181,
-   "survived": 1,
-   "fut_ability_v2": 47.2,
-   "player_name": "Raúl Jiménez",
-   "squad": "Wolves"
-  },
-  {
    "fbref_id": "4a478107",
    "season": 2020,
-   "distance": 3.207,
+   "distance": 3.184,
    "survived": 1,
    "fut_ability_v2": 70.8,
    "player_name": "José Luis Morales",
    "squad": "Levante"
   },
   {
-   "fbref_id": "5370cba7",
-   "season": 2018,
-   "distance": 3.564,
+   "fbref_id": "b561db50",
+   "season": 2020,
+   "distance": 3.194,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "ac05f970",
+   "season": 2022,
+   "distance": 3.253,
+   "survived": 1,
+   "fut_ability_v2": 34.3,
+   "player_name": "Michail Antonio",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "21a66f6a",
+   "season": 2022,
+   "distance": 3.323,
+   "survived": 1,
+   "fut_ability_v2": 77.0,
+   "player_name": "Harry Kane",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "d33c706e",
+   "season": 2021,
+   "distance": 3.333,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Alessio Cerci",
-   "squad": "Hellas Verona"
+   "player_name": "Andy Delort",
+   "squad": "Montpellier"
   },
   {
-   "fbref_id": "4a478107",
-   "season": 2019,
-   "distance": 3.667,
+   "fbref_id": "f26834c7",
+   "season": 2022,
+   "distance": 3.35,
    "survived": 1,
-   "fut_ability_v2": 63.0,
-   "player_name": "José Luis Morales",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "a58bb1e1",
-   "season": 2019,
-   "distance": 3.669,
-   "survived": 1,
-   "fut_ability_v2": 76.6,
-   "player_name": "Gareth Bale",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "a58bb1e1",
-   "season": 2020,
-   "distance": 3.724,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gareth Bale",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "1fb1c435",
-   "season": 2020,
-   "distance": 3.822,
-   "survived": 1,
-   "fut_ability_v2": 54.1,
-   "player_name": "Rodrigo",
-   "squad": "Valencia"
-  },
-  {
-   "fbref_id": "3bb7f478",
-   "season": 2019,
-   "distance": 3.865,
-   "survived": 1,
-   "fut_ability_v2": 75.0,
-   "player_name": "Edin Džeko",
-   "squad": "Roma"
+   "fut_ability_v2": 35.7,
+   "player_name": "Karim Onisiwo",
+   "squad": "Mainz 05"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Iñaki Williams(FW)의 현재 능력 점수는 66.6점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 수신, 도움 기대값(xAG), 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 슈팅 시도이다.",
-  "potential": "Iñaki Williams의 2~3년 후 예측 중심값은 62.9점, 80% 구간 상단은 72.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Iñaki Williams의 2~3년 후 예측 중심값은 62.2점, 80% 구간 상단은 71.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 86.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

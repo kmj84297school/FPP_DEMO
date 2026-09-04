@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.059,
-  "mu": 49.6,
+  "survival_prob": 0.0722,
+  "mu": 49.0,
   "ci80": {
-   "lo": 40.3,
-   "hi": 58.9
+   "lo": 39.7,
+   "hi": 58.4
   },
   "ci50": {
-   "lo": 44.8,
-   "hi": 54.6
+   "lo": 44.1,
+   "hi": 53.9
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "43a1bea5",
    "season": 2018,
-   "distance": 1.406,
+   "distance": 1.396,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Édgar Barreto",
@@ -58,25 +58,43 @@
   {
    "fbref_id": "d2aa8ac0",
    "season": 2018,
-   "distance": 1.74,
+   "distance": 1.714,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Étienne Didot",
    "squad": "Guingamp"
   },
   {
+   "fbref_id": "a4f94a0d",
+   "season": 2021,
+   "distance": 1.78,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Christian Gentner",
+   "squad": "Union Berlin"
+  },
+  {
    "fbref_id": "ad340e17",
    "season": 2018,
-   "distance": 1.978,
+   "distance": 1.915,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alberto Aquilani",
    "squad": "Las Palmas"
   },
   {
+   "fbref_id": "90b70194",
+   "season": 2021,
+   "distance": 1.977,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Përparim Hetemaj",
+   "squad": "Benevento"
+  },
+  {
    "fbref_id": "0aa874f4",
    "season": 2020,
-   "distance": 2.056,
+   "distance": 2.011,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alaixys Romao",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "4dba2a97",
    "season": 2019,
-   "distance": 2.185,
+   "distance": 2.174,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luca Rigoni",
    "squad": "Parma"
   },
   {
+   "fbref_id": "ef322658",
+   "season": 2022,
+   "distance": 2.246,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
    "fbref_id": "7dbbe367",
    "season": 2018,
-   "distance": 2.248,
+   "distance": 2.262,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gareth Barry",
    "squad": "West Brom"
   },
   {
-   "fbref_id": "516dc25b",
-   "season": 2019,
-   "distance": 2.357,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jaroslav Plašil",
-   "squad": "Bordeaux"
-  },
-  {
    "fbref_id": "07767f42",
    "season": 2019,
-   "distance": 2.382,
+   "distance": 2.331,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Francesco Magnanelli",
    "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "d2aa8ac0",
-   "season": 2019,
-   "distance": 2.428,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Étienne Didot",
-   "squad": "Guingamp"
-  },
-  {
-   "fbref_id": "abb42ce6",
-   "season": 2018,
-   "distance": 2.492,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Matthias Lehmann",
-   "squad": "Köln"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Milan Badelj(MF)의 현재 능력 점수는 43.9점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 전진 패스 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 골 창출(GCA)이다.",
-  "potential": "Milan Badelj의 2~3년 후 예측 중심값은 49.6점, 80% 구간 상단은 58.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 5.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Milan Badelj의 2~3년 후 예측 중심값은 49.0점, 80% 구간 상단은 58.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 7.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

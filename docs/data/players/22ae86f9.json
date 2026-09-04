@@ -32,60 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8699,
-  "mu": 60.8,
+  "survival_prob": 0.6658,
+  "mu": 63.6,
   "ci80": {
-   "lo": 49.6,
-   "hi": 71.8
+   "lo": 52.9,
+   "hi": 74.2
   },
   "ci50": {
-   "lo": 54.9,
-   "hi": 66.6
+   "lo": 58.0,
+   "hi": 69.1
   },
-  "sigma_model": 3.2,
+  "sigma_model": 2.4,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "a39d11bc",
+   "season": 2022,
+   "distance": 1.755,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Armel Bella Kotchap",
+   "squad": "Bochum"
+  },
+  {
    "fbref_id": "a712ca2b",
    "season": 2019,
-   "distance": 1.744,
+   "distance": 1.771,
    "survived": 1,
    "fut_ability_v2": 45.3,
    "player_name": "Issa Diop",
    "squad": "West Ham"
   },
   {
+   "fbref_id": "0abc51f2",
+   "season": 2022,
+   "distance": 2.116,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Jorge Cuenca",
+   "squad": "Getafe"
+  },
+  {
    "fbref_id": "677da306",
    "season": 2020,
-   "distance": 2.119,
+   "distance": 2.18,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ohis Felix Uduokhai",
    "squad": "Augsburg"
   },
   {
-   "fbref_id": "0b33f6ad",
-   "season": 2020,
-   "distance": 2.462,
-   "survived": 1,
-   "fut_ability_v2": 65.6,
-   "player_name": "Mohammed Salisu",
-   "squad": "Valladolid"
+   "fbref_id": "44a20f0c",
+   "season": 2022,
+   "distance": 2.297,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maximilian Bauer",
+   "squad": "Greuther Fürth"
+  },
+  {
+   "fbref_id": "610aa1e9",
+   "season": 2022,
+   "distance": 2.378,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Kilian",
+   "squad": "Köln / Mainz 05"
   },
   {
    "fbref_id": "a40819d9",
    "season": 2020,
-   "distance": 2.493,
+   "distance": 2.495,
    "survived": 1,
    "fut_ability_v2": 50.2,
    "player_name": "Marash Kumbulla",
    "squad": "Hellas Verona"
   },
   {
+   "fbref_id": "0b33f6ad",
+   "season": 2020,
+   "distance": 2.534,
+   "survived": 1,
+   "fut_ability_v2": 65.6,
+   "player_name": "Mohammed Salisu",
+   "squad": "Valladolid"
+  },
+  {
    "fbref_id": "6b32d0a6",
    "season": 2019,
-   "distance": 2.528,
+   "distance": 2.608,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lukas Mühl",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "a3d94a58",
    "season": 2019,
-   "distance": 2.629,
+   "distance": 2.653,
    "survived": 1,
    "fut_ability_v2": 67.7,
    "player_name": "Cristian Romero",
    "squad": "Genoa"
-  },
-  {
-   "fbref_id": "167d5018",
-   "season": 2019,
-   "distance": 2.716,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Félix Eboa Eboa",
-   "squad": "Guingamp"
-  },
-  {
-   "fbref_id": "21166ff4",
-   "season": 2018,
-   "distance": 2.795,
-   "survived": 1,
-   "fut_ability_v2": 62.4,
-   "player_name": "Çağlar Söyüncü",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "bd7d2e6d",
-   "season": 2018,
-   "distance": 2.813,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Timo Baumgartl",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "4c4ffacc",
-   "season": 2020,
-   "distance": 2.883,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mamadou Fofana",
-   "squad": "Metz"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Diego Coppola(DF)의 현재 능력 점수는 59.8점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 태클+인터셉트, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스이다.",
-  "potential": "Diego Coppola의 2~3년 후 예측 중심값은 60.8점, 80% 구간 상단은 71.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Diego Coppola의 2~3년 후 예측 중심값은 63.6점, 80% 구간 상단은 74.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 66.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

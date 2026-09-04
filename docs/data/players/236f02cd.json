@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8226,
-  "mu": 47.4,
+  "survival_prob": 0.8726,
+  "mu": 49.5,
   "ci80": {
-   "lo": 36.8,
-   "hi": 58.0
+   "lo": 39.0,
+   "hi": 59.9
   },
   "ci50": {
-   "lo": 41.8,
-   "hi": 52.9
+   "lo": 44.1,
+   "hi": 55.0
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "bcc81786",
    "season": 2019,
-   "distance": 1.734,
+   "distance": 1.679,
    "survived": 1,
    "fut_ability_v2": 47.5,
    "player_name": "Kelvin Amian",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "f449640d",
    "season": 2018,
-   "distance": 1.76,
+   "distance": 1.719,
    "survived": 1,
    "fut_ability_v2": 52.7,
    "player_name": "Fodé Ballo-Touré",
    "squad": "Lille"
   },
   {
+   "fbref_id": "35e413f1",
+   "season": 2021,
+   "distance": 1.758,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Ben White",
+   "squad": "Brighton"
+  },
+  {
    "fbref_id": "efb9215a",
    "season": 2020,
-   "distance": 1.944,
+   "distance": 1.953,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jamal Lewis",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "983ff2c7",
    "season": 2018,
-   "distance": 2.155,
+   "distance": 2.088,
    "survived": 1,
    "fut_ability_v2": 38.6,
    "player_name": "Lorenzo Venuti",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "bcc81786",
    "season": 2020,
-   "distance": 2.264,
+   "distance": 2.255,
    "survived": 1,
    "fut_ability_v2": 47.5,
    "player_name": "Kelvin Amian",
    "squad": "Toulouse"
   },
   {
-   "fbref_id": "2f3e911a",
-   "season": 2018,
-   "distance": 2.351,
+   "fbref_id": "fc4cf6a7",
+   "season": 2021,
+   "distance": 2.261,
    "survived": 1,
-   "fut_ability_v2": 43.8,
-   "player_name": "Aarón Martín",
-   "squad": "Espanyol"
+   "fut_ability_v2": 48.6,
+   "player_name": "Jordan Lotomba",
+   "squad": "Nice"
   },
   {
    "fbref_id": "fb77bfef",
    "season": 2019,
-   "distance": 2.382,
+   "distance": 2.331,
    "survived": 1,
    "fut_ability_v2": 58.7,
    "player_name": "Kevin Bonifazi",
    "squad": "SPAL"
   },
   {
-   "fbref_id": "b66d1d8a",
-   "season": 2020,
-   "distance": 2.509,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Florian Miguel",
-   "squad": "Nîmes"
+   "fbref_id": "2f3e911a",
+   "season": 2018,
+   "distance": 2.382,
+   "survived": 1,
+   "fut_ability_v2": 43.8,
+   "player_name": "Aarón Martín",
+   "squad": "Espanyol"
   },
   {
    "fbref_id": "0118c54c",
    "season": 2019,
-   "distance": 2.517,
+   "distance": 2.426,
    "survived": 1,
    "fut_ability_v2": 58.6,
    "player_name": "Anthony Caci",
    "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "e54a9890",
-   "season": 2019,
-   "distance": 2.571,
-   "survived": 1,
-   "fut_ability_v2": 57.2,
-   "player_name": "Faitout Maouassa",
-   "squad": "Nîmes"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Joe Scally(DF)의 현재 능력 점수는 43.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 성공 드리블, 전진 운반, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 태클+인터셉트이다.",
-  "potential": "Joe Scally의 2~3년 후 예측 중심값은 47.4점, 80% 구간 상단은 58.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 82.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Joe Scally의 2~3년 후 예측 중심값은 49.5점, 80% 구간 상단은 59.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,51 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2875,
+  "survival_prob": 0.386,
   "mu": 46.1,
   "ci80": {
-   "lo": 36.8,
-   "hi": 55.4
+   "lo": 36.7,
+   "hi": 55.5
   },
   "ci50": {
    "lo": 41.2,
    "hi": 51.0
   },
   "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "0d2158d5",
    "season": 2018,
-   "distance": 1.894,
+   "distance": 1.82,
    "survived": 1,
    "fut_ability_v2": 40.5,
    "player_name": "Jordan Marié",
    "squad": "Dijon"
   },
   {
-   "fbref_id": "963829d0",
-   "season": 2019,
-   "distance": 2.284,
-   "survived": 1,
-   "fut_ability_v2": 59.5,
-   "player_name": "Manu Trigueros",
-   "squad": "Villarreal"
-  },
-  {
    "fbref_id": "1598599e",
    "season": 2019,
-   "distance": 2.285,
+   "distance": 2.307,
    "survived": 1,
    "fut_ability_v2": 41.6,
    "player_name": "Nampalys Mendy",
    "squad": "Leicester City"
   },
   {
+   "fbref_id": "963829d0",
+   "season": 2019,
+   "distance": 2.325,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "0b2c8585",
+   "season": 2022,
+   "distance": 2.343,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl Guti",
+   "squad": "Elche"
+  },
+  {
    "fbref_id": "92b56413",
    "season": 2018,
-   "distance": 2.294,
+   "distance": 2.354,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Tristan Dingomé",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "243f4a0b",
    "season": 2019,
-   "distance": 2.521,
+   "distance": 2.455,
    "survived": 1,
    "fut_ability_v2": 46.6,
    "player_name": "Otávio",
    "squad": "Bordeaux"
   },
   {
-   "fbref_id": "0d2158d5",
-   "season": 2019,
-   "distance": 2.62,
+   "fbref_id": "909bce7f",
+   "season": 2021,
+   "distance": 2.487,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jacopo Petriccione",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "0ad37003",
+   "season": 2022,
+   "distance": 2.563,
    "survived": 1,
-   "fut_ability_v2": 40.5,
-   "player_name": "Jordan Marié",
-   "squad": "Dijon"
+   "fut_ability_v2": 46.7,
+   "player_name": "Yvan Neyou",
+   "squad": "Saint-Étienne"
   },
   {
    "fbref_id": "2b1bed19",
-   "season": 2020,
-   "distance": 2.634,
+   "season": 2021,
+   "distance": 2.57,
    "survived": 1,
-   "fut_ability_v2": 48.1,
+   "fut_ability_v2": 50.4,
    "player_name": "Haris Belkebla",
    "squad": "Brest"
   },
   {
-   "fbref_id": "29b61deb",
-   "season": 2018,
-   "distance": 2.635,
+   "fbref_id": "2b1bed19",
+   "season": 2020,
+   "distance": 2.588,
    "survived": 1,
-   "fut_ability_v2": 38.4,
-   "player_name": "Pere Pons",
-   "squad": "Girona"
-  },
-  {
-   "fbref_id": "11fd2b75",
-   "season": 2019,
-   "distance": 2.651,
-   "survived": 1,
-   "fut_ability_v2": 48.2,
-   "player_name": "Omar Mascarell",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "46291841",
-   "season": 2019,
-   "distance": 2.663,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "John Bostock",
-   "squad": "Toulouse"
+   "fut_ability_v2": 48.1,
+   "player_name": "Haris Belkebla",
+   "squad": "Brest"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Pol Lozano(MF)의 현재 능력 점수는 42.4점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 블록, 볼 손실(미스+파울), 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 비페널티 xG이다.",
-  "potential": "Pol Lozano의 2~3년 후 예측 중심값은 46.1점, 80% 구간 상단은 55.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pol Lozano의 2~3년 후 예측 중심값은 46.1점, 80% 구간 상단은 55.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 38.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

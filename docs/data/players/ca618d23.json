@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2748,
-  "mu": 49.8,
+  "survival_prob": 0.4702,
+  "mu": 51.2,
   "ci80": {
-   "lo": 40.5,
-   "hi": 59.2
+   "lo": 41.7,
+   "hi": 60.8
   },
   "ci50": {
-   "lo": 44.9,
-   "hi": 54.8
+   "lo": 46.2,
+   "hi": 56.3
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "6265208f",
+   "season": 2021,
+   "distance": 2.199,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Joselu",
+   "squad": "Alavés"
+  },
+  {
    "fbref_id": "02319ad7",
    "season": 2019,
-   "distance": 2.296,
+   "distance": 2.331,
    "survived": 1,
    "fut_ability_v2": 35.4,
    "player_name": "Jaime Mata",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "99b7584f",
    "season": 2018,
-   "distance": 2.356,
+   "distance": 2.374,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Martin Harnik",
    "squad": "Hannover 96"
   },
   {
-   "fbref_id": "f93e6e94",
-   "season": 2018,
-   "distance": 2.432,
-   "survived": 1,
-   "fut_ability_v2": 44.7,
-   "player_name": "Nils Petersen",
-   "squad": "Freiburg"
-  },
-  {
    "fbref_id": "afa0d4e0",
    "season": 2019,
-   "distance": 2.438,
+   "distance": 2.402,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Mandžukić",
    "squad": "Juventus"
   },
   {
+   "fbref_id": "c4e87b8b",
+   "season": 2022,
+   "distance": 2.484,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg / Burnley"
+  },
+  {
+   "fbref_id": "f93e6e94",
+   "season": 2018,
+   "distance": 2.5,
+   "survived": 1,
+   "fut_ability_v2": 44.7,
+   "player_name": "Nils Petersen",
+   "squad": "Freiburg"
+  },
+  {
    "fbref_id": "71a20ce8",
    "season": 2018,
-   "distance": 2.513,
+   "distance": 2.522,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Gómez",
    "squad": "Stuttgart / Wolfsburg"
   },
   {
+   "fbref_id": "daa78200",
+   "season": 2021,
+   "distance": 2.525,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andreas Voglsammer",
+   "squad": "Arminia"
+  },
+  {
+   "fbref_id": "43458538",
+   "season": 2022,
+   "distance": 2.567,
+   "survived": 1,
+   "fut_ability_v2": 54.9,
+   "player_name": "Joshua King",
+   "squad": "Watford"
+  },
+  {
    "fbref_id": "8f898ba8",
    "season": 2020,
-   "distance": 2.647,
+   "distance": 2.648,
    "survived": 1,
    "fut_ability_v2": 30.8,
    "player_name": "Guido Carrillo",
    "squad": "Leganés"
-  },
-  {
-   "fbref_id": "d37b0350",
-   "season": 2019,
-   "distance": 2.693,
-   "survived": 1,
-   "fut_ability_v2": 43.8,
-   "player_name": "Leonardo Pavoletti",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "82e9b89d",
-   "season": 2019,
-   "distance": 2.723,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Enric Gallego",
-   "squad": "Huesca"
-  },
-  {
-   "fbref_id": "abb3bb95",
-   "season": 2020,
-   "distance": 2.745,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luuk de Jong",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "82e34b69",
-   "season": 2019,
-   "distance": 2.776,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Troy Deeney",
-   "squad": "Watford"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Lucas Höler(FW)의 현재 능력 점수는 58.1점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 슈팅당 기대득점, 클리어링, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 전진 운반이다.",
-  "potential": "Lucas Höler의 2~3년 후 예측 중심값은 49.8점, 80% 구간 상단은 59.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 27.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lucas Höler의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 60.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 47.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

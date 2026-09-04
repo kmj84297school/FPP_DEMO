@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.414,
-  "mu": 54.9,
+  "survival_prob": 0.2371,
+  "mu": 54.7,
   "ci80": {
-   "lo": 45.6,
-   "hi": 64.1
+   "lo": 45.3,
+   "hi": 64.0
   },
   "ci50": {
-   "lo": 49.9,
-   "hi": 59.7
+   "lo": 49.7,
+   "hi": 59.5
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "89f951b5",
+   "season": 2021,
+   "distance": 1.292,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Ivan Rakitić",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "ef2e5e1a",
+   "season": 2019,
+   "distance": 1.503,
+   "survived": 1,
+   "fut_ability_v2": 65.3,
+   "player_name": "Kevin Strootman",
+   "squad": "Marseille / Roma"
+  },
+  {
    "fbref_id": "33b554b7",
    "season": 2019,
-   "distance": 1.496,
+   "distance": 1.553,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Danny Latza",
@@ -58,25 +76,16 @@
   {
    "fbref_id": "542cc80f",
    "season": 2020,
-   "distance": 1.592,
+   "distance": 1.613,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Paul Lasne",
    "squad": "Brest"
   },
   {
-   "fbref_id": "ef2e5e1a",
-   "season": 2019,
-   "distance": 1.6,
-   "survived": 1,
-   "fut_ability_v2": 65.3,
-   "player_name": "Kevin Strootman",
-   "squad": "Marseille / Roma"
-  },
-  {
    "fbref_id": "7d41b619",
    "season": 2018,
-   "distance": 1.741,
+   "distance": 1.771,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andrew Surman",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "542cc80f",
    "season": 2019,
-   "distance": 1.828,
+   "distance": 1.786,
    "survived": 1,
    "fut_ability_v2": 52.3,
    "player_name": "Paul Lasne",
    "squad": "Montpellier"
   },
   {
-   "fbref_id": "89f951b5",
-   "season": 2020,
-   "distance": 1.895,
-   "survived": 1,
-   "fut_ability_v2": 63.1,
-   "player_name": "Ivan Rakitić",
-   "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "cf15bbb1",
-   "season": 2018,
-   "distance": 1.923,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Steven Davis",
-   "squad": "Southampton"
-  },
-  {
    "fbref_id": "b3fd7075",
    "season": 2020,
-   "distance": 1.944,
+   "distance": 1.872,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andrea Poli",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "ff527768",
-   "season": 2019,
-   "distance": 1.964,
+   "fbref_id": "144607cc",
+   "season": 2021,
+   "distance": 1.877,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Mark Noble",
-   "squad": "West Ham"
+   "player_name": "Jasmin Kurtić",
+   "squad": "Parma"
   },
   {
-   "fbref_id": "c0cddebe",
-   "season": 2019,
-   "distance": 1.973,
+   "fbref_id": "a128b07e",
+   "season": 2021,
+   "distance": 1.893,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Blaise Matuidi",
-   "squad": "Juventus"
+   "player_name": "Ahmad Benali",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "89f951b5",
+   "season": 2020,
+   "distance": 1.914,
+   "survived": 1,
+   "fut_ability_v2": 63.1,
+   "player_name": "Ivan Rakitić",
+   "squad": "Barcelona"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Marcel Sabitzer(MF)의 현재 능력 점수는 54.6점이다. 플레이스타일은 '공격형 MF'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 공중볼 승률, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 성공 드리블이다.",
-  "potential": "Marcel Sabitzer의 2~3년 후 예측 중심값은 54.9점, 80% 구간 상단은 64.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marcel Sabitzer의 2~3년 후 예측 중심값은 54.7점, 80% 구간 상단은 64.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 23.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

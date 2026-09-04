@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3569,
-  "mu": 60.0,
+  "survival_prob": 0.2285,
+  "mu": 59.3,
   "ci80": {
-   "lo": 50.1,
-   "hi": 70.0
+   "lo": 49.3,
+   "hi": 69.1
   },
   "ci50": {
-   "lo": 54.8,
-   "hi": 65.3
+   "lo": 54.0,
+   "hi": 64.4
   },
-  "sigma_model": 3.3,
-  "sigma_residual": 7.0
+  "sigma_model": 3.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "45af8a54",
+   "season": 2021,
+   "distance": 4.609,
+   "survived": 1,
+   "fut_ability_v2": 78.8,
+   "player_name": "Marco Asensio",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "7ec7738e",
+   "season": 2022,
+   "distance": 4.71,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Pereiro",
+   "squad": "Cagliari"
+  },
+  {
    "fbref_id": "5e861944",
    "season": 2020,
-   "distance": 4.72,
+   "distance": 4.733,
    "survived": 1,
    "fut_ability_v2": 65.7,
    "player_name": "Matteo Politano",
@@ -58,16 +76,25 @@
   {
    "fbref_id": "db750822",
    "season": 2018,
-   "distance": 4.891,
+   "distance": 4.809,
    "survived": 1,
    "fut_ability_v2": 58.3,
    "player_name": "Vitolo",
    "squad": "Las Palmas / Atlético Madrid"
   },
   {
+   "fbref_id": "d85c238b",
+   "season": 2022,
+   "distance": 4.906,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Mattia Zaccagni",
+   "squad": "Lazio / Hellas Verona"
+  },
+  {
    "fbref_id": "ccee698e",
    "season": 2019,
-   "distance": 4.985,
+   "distance": 4.924,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Anthony Limbombe",
@@ -76,7 +103,7 @@
   {
    "fbref_id": "a69e4806",
    "season": 2020,
-   "distance": 5.07,
+   "distance": 5.044,
    "survived": 1,
    "fut_ability_v2": 71.3,
    "player_name": "Hirving Lozano",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "a0b4bb3e",
    "season": 2020,
-   "distance": 5.248,
+   "distance": 5.245,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Isco",
    "squad": "Real Madrid"
   },
   {
-   "fbref_id": "b182a240",
-   "season": 2019,
-   "distance": 5.463,
+   "fbref_id": "7c2965bb",
+   "season": 2021,
+   "distance": 5.293,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Quincy Promes",
-   "squad": "Sevilla"
+   "player_name": "Rony Lopes",
+   "squad": "Nice"
   },
   {
-   "fbref_id": "d9a5d930",
-   "season": 2018,
-   "distance": 5.489,
+   "fbref_id": "1880614f",
+   "season": 2022,
+   "distance": 5.31,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Yevhen Konoplyanka",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "fa274d97",
-   "season": 2018,
-   "distance": 5.563,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Nico Schulz",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "4e219ad2",
-   "season": 2020,
-   "distance": 5.578,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Suso",
-   "squad": "Milan / Sevilla"
-  },
-  {
-   "fbref_id": "fd51b456",
-   "season": 2019,
-   "distance": 5.602,
-   "survived": 1,
-   "fut_ability_v2": 64.7,
-   "player_name": "Lucas Vázquez",
-   "squad": "Real Madrid"
+   "player_name": "Cengiz Ünder",
+   "squad": "Marseille"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Riccardo Sottil(FW)의 현재 능력 점수는 53.5점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 전진 운반 거리, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Riccardo Sottil의 2~3년 후 예측 중심값은 60.0점, 80% 구간 상단은 70.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 35.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Riccardo Sottil의 2~3년 후 예측 중심값은 59.3점, 80% 구간 상단은 69.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

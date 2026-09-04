@@ -32,42 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4269,
-  "mu": 56.6,
+  "survival_prob": 0.3119,
+  "mu": 55.8,
   "ci80": {
-   "lo": 47.1,
-   "hi": 66.0
+   "lo": 46.6,
+   "hi": 65.2
   },
   "ci50": {
-   "lo": 51.6,
-   "hi": 61.5
+   "lo": 51.0,
+   "hi": 60.8
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "fb938d24",
+   "season": 2022,
+   "distance": 1.921,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jesús Corona",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "7ec7738e",
+   "season": 2022,
+   "distance": 2.214,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Pereiro",
+   "squad": "Cagliari"
+  },
+  {
    "fbref_id": "54e53b7e",
    "season": 2020,
-   "distance": 2.176,
+   "distance": 2.23,
    "survived": 1,
    "fut_ability_v2": 72.6,
    "player_name": "Gianluca Caprari",
    "squad": "Sampdoria / Parma"
   },
   {
-   "fbref_id": "5e861944",
-   "season": 2020,
-   "distance": 2.4,
-   "survived": 1,
-   "fut_ability_v2": 65.7,
-   "player_name": "Matteo Politano",
-   "squad": "Napoli / Inter"
-  },
-  {
    "fbref_id": "dfb6490a",
    "season": 2019,
-   "distance": 2.589,
+   "distance": 2.535,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Patrick Herrmann",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "2677a1de",
    "season": 2018,
-   "distance": 2.597,
+   "distance": 2.558,
    "survived": 1,
    "fut_ability_v2": 51.8,
    "player_name": "Wahbi Khazri",
    "squad": "Rennes"
   },
   {
-   "fbref_id": "d3096421",
-   "season": 2019,
-   "distance": 2.682,
+   "fbref_id": "5e861944",
+   "season": 2020,
+   "distance": 2.574,
    "survived": 1,
-   "fut_ability_v2": 72.0,
-   "player_name": "Daniel Didavi",
-   "squad": "Stuttgart"
+   "fut_ability_v2": 65.7,
+   "player_name": "Matteo Politano",
+   "squad": "Napoli / Inter"
   },
   {
    "fbref_id": "35f6db55",
    "season": 2019,
-   "distance": 2.713,
+   "distance": 2.65,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Léo Baptistão",
    "squad": "Espanyol"
   },
   {
+   "fbref_id": "abe66106",
+   "season": 2022,
+   "distance": 2.683,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Érik Lamela",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "d3096421",
+   "season": 2019,
+   "distance": 2.687,
+   "survived": 1,
+   "fut_ability_v2": 72.0,
+   "player_name": "Daniel Didavi",
+   "squad": "Stuttgart"
+  },
+  {
    "fbref_id": "b0547a87",
    "season": 2018,
-   "distance": 2.737,
+   "distance": 2.713,
    "survived": 1,
    "fut_ability_v2": 59.4,
    "player_name": "Nicolas de Préville",
    "squad": "Bordeaux / Lille"
-  },
-  {
-   "fbref_id": "b500b384",
-   "season": 2019,
-   "distance": 2.817,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Admir Mehmedi",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "1fca9171",
-   "season": 2020,
-   "distance": 3.009,
-   "survived": 1,
-   "fut_ability_v2": 47.4,
-   "player_name": "Federico Di Francesco",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "f69fba57",
-   "season": 2020,
-   "distance": 3.025,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yuya Osako",
-   "squad": "Werder Bremen"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "David Brooks(FW)의 현재 능력 점수는 63.3점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 볼 리커버리, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 어시스트, 골 창출(GCA)이다.",
-  "potential": "David Brooks의 2~3년 후 예측 중심값은 56.6점, 80% 구간 상단은 66.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "David Brooks의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 65.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

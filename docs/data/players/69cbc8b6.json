@@ -32,109 +32,109 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1845,
-  "mu": 51.7,
+  "survival_prob": 0.3131,
+  "mu": 52.0,
   "ci80": {
-   "lo": 42.4,
-   "hi": 60.9
+   "lo": 42.7,
+   "hi": 61.3
   },
   "ci50": {
-   "lo": 46.8,
-   "hi": 56.5
+   "lo": 47.1,
+   "hi": 56.9
   },
-  "sigma_model": 1.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "4f2908e5",
    "season": 2018,
-   "distance": 1.553,
+   "distance": 1.535,
    "survived": 1,
    "fut_ability_v2": 57.2,
    "player_name": "Federico Peluso",
    "squad": "Sassuolo"
   },
   {
+   "fbref_id": "b7c99b9b",
+   "season": 2022,
+   "distance": 1.549,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Laguardia",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "fed5f993",
+   "season": 2020,
+   "distance": 1.718,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danilo Larangeira",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "ea9b2ef9",
+   "season": 2022,
+   "distance": 1.723,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Germán Sánchez",
+   "squad": "Granada"
+  },
+  {
    "fbref_id": "fed5f993",
    "season": 2019,
-   "distance": 1.72,
+   "distance": 1.746,
    "survived": 1,
    "fut_ability_v2": 53.4,
    "player_name": "Danilo Larangeira",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "fed5f993",
-   "season": 2020,
-   "distance": 1.73,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Danilo Larangeira",
-   "squad": "Bologna"
-  },
-  {
    "fbref_id": "db0cd1ae",
    "season": 2018,
-   "distance": 1.928,
+   "distance": 1.874,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alexis",
    "squad": "Alavés"
   },
   {
-   "fbref_id": "63071a3f",
-   "season": 2019,
-   "distance": 1.93,
+   "fbref_id": "3e9e06cb",
+   "season": 2022,
+   "distance": 1.936,
    "survived": 1,
-   "fut_ability_v2": 44.4,
-   "player_name": "Simone Iacoponi",
-   "squad": "Parma"
+   "fut_ability_v2": 63.2,
+   "player_name": "Craig Dawson",
+   "squad": "West Ham"
   },
   {
    "fbref_id": "fed5f993",
    "season": 2018,
-   "distance": 1.952,
+   "distance": 1.949,
    "survived": 1,
    "fut_ability_v2": 55.7,
    "player_name": "Danilo Larangeira",
    "squad": "Udinese"
   },
   {
+   "fbref_id": "63071a3f",
+   "season": 2019,
+   "distance": 1.968,
+   "survived": 1,
+   "fut_ability_v2": 44.4,
+   "player_name": "Simone Iacoponi",
+   "squad": "Parma"
+  },
+  {
    "fbref_id": "74b2cd7e",
    "season": 2020,
-   "distance": 2.018,
+   "distance": 1.995,
    "survived": 1,
    "fut_ability_v2": 45.0,
    "player_name": "Angelo Ogbonna",
    "squad": "West Ham"
-  },
-  {
-   "fbref_id": "b666421b",
-   "season": 2020,
-   "distance": 2.058,
-   "survived": 1,
-   "fut_ability_v2": 43.9,
-   "player_name": "Ismaël Traoré",
-   "squad": "Angers"
-  },
-  {
-   "fbref_id": "3f5b4635",
-   "season": 2019,
-   "distance": 2.062,
-   "survived": 1,
-   "fut_ability_v2": 51.9,
-   "player_name": "Daniel Congré",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "8cea6319",
-   "season": 2018,
-   "distance": 2.067,
-   "survived": 1,
-   "fut_ability_v2": 47.2,
-   "player_name": "Felipe dal Belo",
-   "squad": "SPAL"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Leandro Cabrera(DF)의 현재 능력 점수는 52.4점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 클리어링, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 성공 드리블이다.",
-  "potential": "Leandro Cabrera의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 60.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 18.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Leandro Cabrera의 2~3년 후 예측 중심값은 52.0점, 80% 구간 상단은 61.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

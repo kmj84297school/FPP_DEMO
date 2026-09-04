@@ -32,24 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2425,
-  "mu": 52.3,
+  "survival_prob": 0.4519,
+  "mu": 53.8,
   "ci80": {
-   "lo": 43.0,
-   "hi": 61.5
+   "lo": 44.5,
+   "hi": 63.1
   },
   "ci50": {
-   "lo": 47.4,
-   "hi": 57.1
+   "lo": 49.0,
+   "hi": 58.7
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "f7223718",
+   "season": 2022,
+   "distance": 1.693,
+   "survived": 1,
+   "fut_ability_v2": 45.3,
+   "player_name": "Patric",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "226008f1",
+   "season": 2021,
+   "distance": 2.219,
+   "survived": 1,
+   "fut_ability_v2": 47.6,
+   "player_name": "Luca Caldirola",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "2946f9a1",
+   "season": 2021,
+   "distance": 2.258,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Nacho",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "474ecac8",
    "season": 2019,
-   "distance": 2.217,
+   "distance": 2.282,
    "survived": 1,
    "fut_ability_v2": 51.2,
    "player_name": "Sergio Postigo",
@@ -58,16 +85,43 @@
   {
    "fbref_id": "b14d0c5d",
    "season": 2019,
-   "distance": 2.338,
+   "distance": 2.352,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sidnei",
    "squad": "Betis"
   },
   {
+   "fbref_id": "c26a3918",
+   "season": 2022,
+   "distance": 2.354,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "6690ef25",
+   "season": 2021,
+   "distance": 2.361,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Mendes",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "a56da3ba",
+   "season": 2022,
+   "distance": 2.373,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Juan Cruz Armada",
+   "squad": "Osasuna"
+  },
+  {
    "fbref_id": "2946f9a1",
    "season": 2019,
-   "distance": 2.367,
+   "distance": 2.391,
    "survived": 1,
    "fut_ability_v2": 52.3,
    "player_name": "Nacho",
@@ -76,65 +130,11 @@
   {
    "fbref_id": "f03f284b",
    "season": 2019,
-   "distance": 2.418,
+   "distance": 2.474,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "David López",
    "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "474ecac8",
-   "season": 2018,
-   "distance": 2.435,
-   "survived": 1,
-   "fut_ability_v2": 46.6,
-   "player_name": "Sergio Postigo",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "4bd414c1",
-   "season": 2019,
-   "distance": 2.488,
-   "survived": 1,
-   "fut_ability_v2": 54.4,
-   "player_name": "Raúl Albiol",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "6690ef25",
-   "season": 2020,
-   "distance": 2.502,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pedro Mendes",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "c2f9d19f",
-   "season": 2020,
-   "distance": 2.546,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Neil Taylor",
-   "squad": "Aston Villa"
-  },
-  {
-   "fbref_id": "f5e9a8bd",
-   "season": 2018,
-   "distance": 2.637,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andrea Costa",
-   "squad": "Benevento"
-  },
-  {
-   "fbref_id": "74d70fb5",
-   "season": 2019,
-   "distance": 2.683,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sebastian Langkamp",
-   "squad": "Werder Bremen"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Jack Stephens(DF)의 현재 능력 점수는 48.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 슈팅당 기대득점, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
-  "potential": "Jack Stephens의 2~3년 후 예측 중심값은 52.3점, 80% 구간 상단은 61.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 24.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jack Stephens의 2~3년 후 예측 중심값은 53.8점, 80% 구간 상단은 63.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

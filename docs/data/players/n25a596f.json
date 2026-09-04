@@ -32,46 +32,73 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8306,
-  "mu": 67.4,
+  "survival_prob": 0.8946,
+  "mu": 69.6,
   "ci80": {
-   "lo": 56.8,
-   "hi": 78.1
+   "lo": 58.7,
+   "hi": 80.4
   },
   "ci50": {
-   "lo": 61.8,
-   "hi": 73.1
+   "lo": 63.9,
+   "hi": 75.2
   },
-  "sigma_model": 2.3,
+  "sigma_model": 2.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
-   "fbref_id": "20e73fac",
-   "season": 2018,
-   "distance": 2.233,
+   "fbref_id": "79300479",
+   "season": 2022,
+   "distance": 2.258,
    "survived": 1,
-   "fut_ability_v2": 61.1,
-   "player_name": "Benjamin Bourigeaud",
-   "squad": "Rennes"
+   "fut_ability_v2": 78.0,
+   "player_name": "Martin Ødegaard",
+   "squad": "Arsenal"
   },
   {
    "fbref_id": "ed45c4a5",
    "season": 2019,
-   "distance": 2.254,
+   "distance": 2.272,
    "survived": 1,
    "fut_ability_v2": 63.6,
    "player_name": "Valentin Rongier",
    "squad": "Nantes"
   },
   {
+   "fbref_id": "20e73fac",
+   "season": 2018,
+   "distance": 2.273,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Benjamin Bourigeaud",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "ee38d9c5",
+   "season": 2021,
+   "distance": 2.354,
+   "survived": 1,
+   "fut_ability_v2": 73.5,
+   "player_name": "James Maddison",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "ee38d9c5",
    "season": 2020,
-   "distance": 2.384,
+   "distance": 2.545,
    "survived": 1,
    "fut_ability_v2": 67.2,
    "player_name": "James Maddison",
    "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "ae44e8e2",
+   "season": 2021,
+   "distance": 2.548,
+   "survived": 1,
+   "fut_ability_v2": 68.4,
+   "player_name": "Dani Olmo",
+   "squad": "RB Leipzig"
   },
   {
    "fbref_id": "82927de4",
@@ -83,58 +110,31 @@
    "squad": "Villarreal"
   },
   {
+   "fbref_id": "d4a2533d",
+   "season": 2021,
+   "distance": 2.738,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Josip Brekalo",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "555d5edd",
-   "season": 2020,
-   "distance": 2.947,
+   "season": 2021,
+   "distance": 2.774,
    "survived": 1,
-   "fut_ability_v2": 57.7,
+   "fut_ability_v2": 66.9,
    "player_name": "Nadiem Amiri",
    "squad": "Leverkusen"
   },
   {
-   "fbref_id": "4a5a45c7",
-   "season": 2019,
-   "distance": 2.978,
-   "survived": 1,
-   "fut_ability_v2": 73.1,
-   "player_name": "Lorenzo Pellegrini",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "e280527c",
-   "season": 2018,
-   "distance": 3.061,
-   "survived": 1,
-   "fut_ability_v2": 70.8,
-   "player_name": "Marcel Sabitzer",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "56f7a928",
+   "fbref_id": "555d5edd",
    "season": 2020,
-   "distance": 3.208,
+   "distance": 2.976,
    "survived": 1,
-   "fut_ability_v2": 62.7,
-   "player_name": "Youri Tielemans",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "36a59ba4",
-   "season": 2020,
-   "distance": 3.241,
-   "survived": 1,
-   "fut_ability_v2": 57.4,
-   "player_name": "Florian Neuhaus",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "a167537f",
-   "season": 2020,
-   "distance": 3.262,
-   "survived": 1,
-   "fut_ability_v2": 74.7,
-   "player_name": "Julian Brandt",
-   "squad": "Dortmund"
+   "fut_ability_v2": 57.7,
+   "player_name": "Nadiem Amiri",
+   "squad": "Leverkusen"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Enzo Fernández(MF)의 현재 능력 점수는 68.8점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 슈팅 창출(SCA), 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 실책이다.",
-  "potential": "Enzo Fernández의 2~3년 후 예측 중심값은 67.4점, 80% 구간 상단은 78.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 83.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Enzo Fernández의 2~3년 후 예측 중심값은 69.6점, 80% 구간 상단은 80.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 89.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

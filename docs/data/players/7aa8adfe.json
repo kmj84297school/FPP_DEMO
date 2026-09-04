@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9465,
-  "mu": 64.0,
+  "survival_prob": 0.9546,
+  "mu": 68.3,
   "ci80": {
-   "lo": 53.3,
-   "hi": 74.7
+   "lo": 57.6,
+   "hi": 79.0
   },
   "ci50": {
-   "lo": 58.4,
-   "hi": 69.7
+   "lo": 62.6,
+   "hi": 73.8
   },
-  "sigma_model": 2.3,
+  "sigma_model": 2.5,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "bfdb33aa",
    "season": 2020,
-   "distance": 2.77,
+   "distance": 2.768,
    "survived": 1,
    "fut_ability_v2": 45.7,
    "player_name": "Ismaila Sarr",
    "squad": "Watford"
   },
   {
+   "fbref_id": "1bf33a9a",
+   "season": 2021,
+   "distance": 2.843,
+   "survived": 1,
+   "fut_ability_v2": 71.7,
+   "player_name": "Christian Pulisic",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "7c2965bb",
    "season": 2018,
-   "distance": 2.899,
+   "distance": 2.868,
    "survived": 1,
    "fut_ability_v2": 56.8,
    "player_name": "Rony Lopes",
@@ -74,67 +83,58 @@
    "squad": "Lyon"
   },
   {
+   "fbref_id": "bc7dc64d",
+   "season": 2022,
+   "distance": 2.907,
+   "survived": 1,
+   "fut_ability_v2": 83.5,
+   "player_name": "Bukayo Saka",
+   "squad": "Arsenal"
+  },
+  {
    "fbref_id": "3ea50f67",
    "season": 2020,
-   "distance": 2.918,
+   "distance": 2.914,
    "survived": 1,
    "fut_ability_v2": 57.8,
    "player_name": "Harvey Barnes",
    "squad": "Leicester City"
   },
   {
-   "fbref_id": "bfdb33aa",
-   "season": 2019,
-   "distance": 2.989,
-   "survived": 1,
-   "fut_ability_v2": 45.7,
-   "player_name": "Ismaila Sarr",
-   "squad": "Rennes"
-  },
-  {
    "fbref_id": "c931d9f9",
    "season": 2020,
-   "distance": 3.035,
+   "distance": 3.016,
    "survived": 1,
    "fut_ability_v2": 41.2,
    "player_name": "Daniel James",
    "squad": "Manchester Utd"
   },
   {
-   "fbref_id": "b0f7e36c",
-   "season": 2018,
-   "distance": 3.039,
+   "fbref_id": "dbf053da",
+   "season": 2022,
+   "distance": 3.029,
    "survived": 1,
-   "fut_ability_v2": 72.8,
-   "player_name": "Federico Chiesa",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "8b788c01",
-   "season": 2018,
-   "distance": 3.183,
-   "survived": 1,
-   "fut_ability_v2": 68.7,
-   "player_name": "Anthony Martial",
+   "fut_ability_v2": 68.3,
+   "player_name": "Jadon Sancho",
    "squad": "Manchester Utd"
   },
   {
-   "fbref_id": "9674002f",
-   "season": 2020,
-   "distance": 3.213,
+   "fbref_id": "bfdb33aa",
+   "season": 2019,
+   "distance": 3.048,
    "survived": 1,
-   "fut_ability_v2": 76.0,
-   "player_name": "Mason Mount",
-   "squad": "Chelsea"
+   "fut_ability_v2": 45.7,
+   "player_name": "Ismaila Sarr",
+   "squad": "Rennes"
   },
   {
-   "fbref_id": "b8a642fc",
-   "season": 2020,
-   "distance": 3.297,
-   "survived": 1,
-   "fut_ability_v2": 62.0,
-   "player_name": "Samuel Chukwueze",
-   "squad": "Villarreal"
+   "fbref_id": "48a5a5d6",
+   "season": 2022,
+   "distance": 3.096,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martinelli",
+   "squad": "Arsenal"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Alejandro Garnacho(MF)의 현재 능력 점수는 60.7점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 전진 운반, 전진 패스 수신, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 최종 3분의1 패스이다.",
-  "potential": "Alejandro Garnacho의 2~3년 후 예측 중심값은 64.0점, 80% 구간 상단은 74.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 94.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Alejandro Garnacho의 2~3년 후 예측 중심값은 68.3점, 80% 구간 상단은 79.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,60 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9328,
-  "mu": 60.3,
+  "survival_prob": 0.7423,
+  "mu": 59.5,
   "ci80": {
-   "lo": 51.1,
-   "hi": 69.6
+   "lo": 50.1,
+   "hi": 68.8
   },
   "ci50": {
-   "lo": 55.5,
-   "hi": 65.3
+   "lo": 54.6,
+   "hi": 64.3
   },
   "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "c2009df3",
    "season": 2018,
-   "distance": 1.834,
+   "distance": 1.801,
    "survived": 1,
    "fut_ability_v2": 58.5,
    "player_name": "Jonas Hector",
    "squad": "Köln"
   },
   {
-   "fbref_id": "13203c45",
-   "season": 2019,
-   "distance": 1.858,
-   "survived": 1,
-   "fut_ability_v2": 50.5,
-   "player_name": "Jérôme Roussillon",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "b6e50615",
-   "season": 2020,
-   "distance": 1.931,
-   "survived": 1,
-   "fut_ability_v2": 69.9,
-   "player_name": "Yuri Berchiche",
-   "squad": "Athletic Club"
-  },
-  {
    "fbref_id": "0420d84f",
    "season": 2019,
-   "distance": 1.954,
+   "distance": 1.826,
    "survived": 1,
    "fut_ability_v2": 53.2,
    "player_name": "Séamus Coleman",
    "squad": "Everton"
   },
   {
+   "fbref_id": "4aea5077",
+   "season": 2021,
+   "distance": 1.918,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefan Lainer",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2019,
+   "distance": 1.944,
+   "survived": 1,
+   "fut_ability_v2": 50.5,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "cb574619",
+   "season": 2021,
+   "distance": 1.948,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
+  },
+  {
    "fbref_id": "d557d734",
    "season": 2019,
-   "distance": 1.959,
+   "distance": 1.956,
    "survived": 1,
    "fut_ability_v2": 61.1,
    "player_name": "Matt Doherty",
@@ -93,48 +102,39 @@
   },
   {
    "fbref_id": "cb574619",
-   "season": 2019,
-   "distance": 2.021,
-   "survived": 1,
-   "fut_ability_v2": 62.4,
-   "player_name": "Hugo Mallo",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "cb574619",
    "season": 2018,
-   "distance": 2.068,
+   "distance": 1.985,
    "survived": 1,
    "fut_ability_v2": 57.8,
    "player_name": "Hugo Mallo",
    "squad": "Celta Vigo"
   },
   {
-   "fbref_id": "bad38a94",
-   "season": 2019,
-   "distance": 2.132,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Dídac Vilà",
-   "squad": "Espanyol"
+   "fbref_id": "b6e50615",
+   "season": 2020,
+   "distance": 2.009,
+   "survived": 1,
+   "fut_ability_v2": 69.9,
+   "player_name": "Yuri Berchiche",
+   "squad": "Athletic Club"
   },
   {
-   "fbref_id": "a4b1028a",
-   "season": 2019,
-   "distance": 2.132,
+   "fbref_id": "aae9d04a",
+   "season": 2021,
+   "distance": 2.031,
    "survived": 1,
-   "fut_ability_v2": 67.5,
-   "player_name": "Hamari Traoré",
-   "squad": "Rennes"
+   "fut_ability_v2": 57.2,
+   "player_name": "Davide Faraoni",
+   "squad": "Hellas Verona"
   },
   {
-   "fbref_id": "5f09991f",
+   "fbref_id": "cb574619",
    "season": 2019,
-   "distance": 2.135,
+   "distance": 2.033,
    "survived": 1,
-   "fut_ability_v2": 55.2,
-   "player_name": "Patrick van Aanholt",
-   "squad": "Crystal Palace"
+   "fut_ability_v2": 62.4,
+   "player_name": "Hugo Mallo",
+   "squad": "Celta Vigo"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Rasmus Kristensen(DF)의 현재 능력 점수는 69.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 전진 패스, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 패스 성공률이다.",
-  "potential": "Rasmus Kristensen의 2~3년 후 예측 중심값은 60.3점, 80% 구간 상단은 69.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 93.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Rasmus Kristensen의 2~3년 후 예측 중심값은 59.5점, 80% 구간 상단은 68.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 74.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

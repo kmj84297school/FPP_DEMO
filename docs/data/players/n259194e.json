@@ -32,42 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5998,
-  "mu": 58.3,
+  "survival_prob": 0.3711,
+  "mu": 55.2,
   "ci80": {
-   "lo": 49.1,
-   "hi": 67.5
+   "lo": 45.8,
+   "hi": 64.5
   },
   "ci50": {
-   "lo": 53.5,
-   "hi": 63.1
+   "lo": 50.3,
+   "hi": 60.1
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "56b2957b",
    "season": 2018,
-   "distance": 2.085,
+   "distance": 2.001,
    "survived": 1,
    "fut_ability_v2": 53.8,
    "player_name": "Lucas Castro",
    "squad": "Chievo"
   },
   {
-   "fbref_id": "2b622f01",
-   "season": 2020,
-   "distance": 2.129,
-   "survived": 1,
-   "fut_ability_v2": 65.1,
-   "player_name": "Lucas Moura",
-   "squad": "Tottenham"
-  },
-  {
    "fbref_id": "6c679c6d",
    "season": 2018,
-   "distance": 2.139,
+   "distance": 2.075,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Anthony Knockaert",
@@ -76,16 +67,34 @@
   {
    "fbref_id": "c414df9d",
    "season": 2020,
-   "distance": 2.289,
+   "distance": 2.105,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mattia Valoti",
    "squad": "SPAL"
   },
   {
+   "fbref_id": "2b622f01",
+   "season": 2020,
+   "distance": 2.158,
+   "survived": 1,
+   "fut_ability_v2": 65.1,
+   "player_name": "Lucas Moura",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "2b622f01",
+   "season": 2021,
+   "distance": 2.261,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Moura",
+   "squad": "Tottenham"
+  },
+  {
    "fbref_id": "467bae22",
    "season": 2019,
-   "distance": 2.303,
+   "distance": 2.279,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Franco Vázquez",
@@ -94,16 +103,25 @@
   {
    "fbref_id": "dd669209",
    "season": 2020,
-   "distance": 2.459,
+   "distance": 2.422,
    "survived": 1,
    "fut_ability_v2": 51.6,
    "player_name": "Renato Steffen",
    "squad": "Wolfsburg"
   },
   {
+   "fbref_id": "867239d3",
+   "season": 2021,
+   "distance": 2.599,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paul Pogba",
+   "squad": "Manchester Utd"
+  },
+  {
    "fbref_id": "e68f2cb4",
    "season": 2019,
-   "distance": 2.617,
+   "distance": 2.638,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Stiven Mendoza",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "38c7feef",
    "season": 2020,
-   "distance": 2.674,
+   "distance": 2.654,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alex Oxlade-Chamberlain",
    "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "ecd8c01e",
-   "season": 2020,
-   "distance": 2.725,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rubén Rochina",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "c650629d",
-   "season": 2019,
-   "distance": 2.745,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Younousse Sankharé",
-   "squad": "Bordeaux"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Adrian Beck(MF)의 현재 능력 점수는 61.7점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 볼 리커버리, 성공 드리블, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 태클 성공률이다.",
-  "potential": "Adrian Beck의 2~3년 후 예측 중심값은 58.3점, 80% 구간 상단은 67.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Adrian Beck의 2~3년 후 예측 중심값은 55.2점, 80% 구간 상단은 64.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 37.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

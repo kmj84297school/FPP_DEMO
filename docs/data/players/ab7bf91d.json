@@ -32,24 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9267,
-  "mu": 57.7,
+  "survival_prob": 0.8066,
+  "mu": 58.4,
   "ci80": {
-   "lo": 48.4,
-   "hi": 66.9
+   "lo": 49.1,
+   "hi": 67.8
   },
   "ci50": {
-   "lo": 52.7,
-   "hi": 62.5
+   "lo": 53.5,
+   "hi": 63.3
   },
   "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "815c314f",
+   "season": 2021,
+   "distance": 1.453,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Marc-Oliver Kempf",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "555f3a0b",
+   "season": 2021,
+   "distance": 1.71,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Mario Hermoso",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "43e7a164",
+   "season": 2022,
+   "distance": 1.743,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexander Djiku",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "080440a4",
+   "season": 2021,
+   "distance": 1.771,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martin Hinteregger",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "e27da244",
+   "season": 2021,
+   "distance": 1.813,
+   "survived": 1,
+   "fut_ability_v2": 67.5,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "3f2d59fe",
+   "season": 2019,
+   "distance": 1.852,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Shkodran Mustafi",
+   "squad": "Arsenal"
+  },
+  {
    "fbref_id": "f521b80a",
    "season": 2020,
-   "distance": 1.824,
+   "distance": 1.885,
    "survived": 1,
    "fut_ability_v2": 62.4,
    "player_name": "Matthias Ginter",
@@ -58,83 +112,29 @@
   {
    "fbref_id": "857a5abe",
    "season": 2019,
-   "distance": 1.839,
+   "distance": 1.916,
    "survived": 1,
    "fut_ability_v2": 60.9,
    "player_name": "Stefan Bell",
    "squad": "Mainz 05"
   },
   {
-   "fbref_id": "3f2d59fe",
-   "season": 2019,
-   "distance": 1.915,
+   "fbref_id": "c40b6180",
+   "season": 2021,
+   "distance": 1.922,
    "survived": 1,
-   "fut_ability_v2": 61.7,
-   "player_name": "Shkodran Mustafi",
-   "squad": "Arsenal"
+   "fut_ability_v2": 58.3,
+   "player_name": "Adam Webster",
+   "squad": "Brighton"
   },
   {
    "fbref_id": "8c725b43",
    "season": 2018,
-   "distance": 1.955,
+   "distance": 1.925,
    "survived": 1,
    "fut_ability_v2": 52.0,
    "player_name": "Germán Pezzella",
    "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "1025db8e",
-   "season": 2019,
-   "distance": 1.969,
-   "survived": 1,
-   "fut_ability_v2": 54.4,
-   "player_name": "Jeffrey Gouweleeuw",
-   "squad": "Augsburg"
-  },
-  {
-   "fbref_id": "da974c7b",
-   "season": 2019,
-   "distance": 1.978,
-   "survived": 1,
-   "fut_ability_v2": 60.1,
-   "player_name": "Kalidou Koulibaly",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "c56dc39e",
-   "season": 2018,
-   "distance": 2.025,
-   "survived": 1,
-   "fut_ability_v2": 65.9,
-   "player_name": "Rafael Tolói",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "6bd5cd5d",
-   "season": 2020,
-   "distance": 2.048,
-   "survived": 1,
-   "fut_ability_v2": 47.2,
-   "player_name": "Robin Knoche",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "b82880c6",
-   "season": 2018,
-   "distance": 2.052,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simon Falette",
-   "squad": "Eint Frankfurt / Metz"
-  },
-  {
-   "fbref_id": "c40b6180",
-   "season": 2020,
-   "distance": 2.076,
-   "survived": 1,
-   "fut_ability_v2": 62.1,
-   "player_name": "Adam Webster",
-   "squad": "Brighton"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Daniel Vivian(DF)의 현재 능력 점수는 64.1점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 패스, 볼 리커버리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 전진 패스 수신이다.",
-  "potential": "Daniel Vivian의 2~3년 후 예측 중심값은 57.7점, 80% 구간 상단은 66.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 92.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Daniel Vivian의 2~3년 후 예측 중심값은 58.4점, 80% 구간 상단은 67.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 80.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

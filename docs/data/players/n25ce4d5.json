@@ -32,60 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9146,
-  "mu": 64.4,
+  "survival_prob": 0.9289,
+  "mu": 60.6,
   "ci80": {
-   "lo": 53.9,
-   "hi": 74.8
+   "lo": 50.2,
+   "hi": 71.0
   },
   "ci50": {
-   "lo": 58.8,
-   "hi": 69.9
+   "lo": 55.1,
+   "hi": 66.0
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "b3af9be1",
+   "season": 2021,
+   "distance": 1.438,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Takehiro Tomiyasu",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "5b146df3",
+   "season": 2022,
+   "distance": 1.479,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Lilian Brassier",
+   "squad": "Brest"
+  },
+  {
    "fbref_id": "bee704fc",
    "season": 2019,
-   "distance": 1.49,
+   "distance": 1.536,
    "survived": 1,
    "fut_ability_v2": 65.3,
    "player_name": "Nikola Milenković",
    "squad": "Fiorentina"
   },
   {
-   "fbref_id": "5ed9b537",
-   "season": 2019,
-   "distance": 1.539,
-   "survived": 1,
-   "fut_ability_v2": 67.5,
-   "player_name": "Ibrahima Konaté",
-   "squad": "RB Leipzig"
-  },
-  {
    "fbref_id": "ca8033cb",
    "season": 2018,
-   "distance": 1.54,
+   "distance": 1.554,
    "survived": 1,
    "fut_ability_v2": 62.6,
    "player_name": "Lukas Klostermann",
    "squad": "RB Leipzig"
   },
   {
+   "fbref_id": "5ed9b537",
+   "season": 2019,
+   "distance": 1.585,
+   "survived": 1,
+   "fut_ability_v2": 67.5,
+   "player_name": "Ibrahima Konaté",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "4d1666ff",
    "season": 2019,
-   "distance": 1.584,
+   "distance": 1.646,
    "survived": 1,
    "fut_ability_v2": 63.2,
    "player_name": "Jules Koundé",
    "squad": "Bordeaux"
   },
   {
+   "fbref_id": "cc77354e",
+   "season": 2020,
+   "distance": 1.67,
+   "survived": 1,
+   "fut_ability_v2": 61.3,
+   "player_name": "Boubacar Kamara",
+   "squad": "Marseille"
+  },
+  {
    "fbref_id": "bd142efb",
    "season": 2018,
-   "distance": 1.599,
+   "distance": 1.697,
    "survived": 1,
    "fut_ability_v2": 68.6,
    "player_name": "Jonathan Tah",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "441197b8",
    "season": 2020,
-   "distance": 1.721,
+   "distance": 1.735,
    "survived": 1,
    "fut_ability_v2": 64.4,
    "player_name": "Obite N'Dicka",
    "squad": "Eint Frankfurt"
   },
   {
-   "fbref_id": "cc77354e",
-   "season": 2020,
-   "distance": 1.781,
-   "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "Boubacar Kamara",
-   "squad": "Marseille"
-  },
-  {
-   "fbref_id": "48035304",
+   "fbref_id": "51dbeea9",
    "season": 2018,
-   "distance": 1.83,
+   "distance": 1.873,
    "survived": 1,
-   "fut_ability_v2": 68.0,
-   "player_name": "Nico Elvedi",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "45a03961",
-   "season": 2018,
-   "distance": 1.862,
-   "survived": 1,
-   "fut_ability_v2": 68.9,
-   "player_name": "Benjamin Pavard",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "bcc81786",
-   "season": 2019,
-   "distance": 1.921,
-   "survived": 1,
-   "fut_ability_v2": 47.5,
-   "player_name": "Kelvin Amian",
-   "squad": "Toulouse"
+   "fut_ability_v2": 49.5,
+   "player_name": "Thilo Kehrer",
+   "squad": "Schalke 04"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Konstantinos Koulierakis(DF)의 현재 능력 점수는 60.7점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 전진 패스 거리, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 볼 리커버리이다.",
-  "potential": "Konstantinos Koulierakis의 2~3년 후 예측 중심값은 64.4점, 80% 구간 상단은 74.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 91.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Konstantinos Koulierakis의 2~3년 후 예측 중심값은 60.6점, 80% 구간 상단은 71.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

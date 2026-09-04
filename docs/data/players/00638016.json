@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5762,
-  "mu": 52.3,
+  "survival_prob": 0.605,
+  "mu": 53.6,
   "ci80": {
-   "lo": 43.2,
-   "hi": 61.4
+   "lo": 44.4,
+   "hi": 62.8
   },
   "ci50": {
-   "lo": 47.5,
-   "hi": 57.1
+   "lo": 48.8,
+   "hi": 58.4
   },
-  "sigma_model": 1.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "dad4b285",
+   "season": 2022,
+   "distance": 1.336,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Joël Veltman",
+   "squad": "Brighton"
+  },
+  {
    "fbref_id": "8db394aa",
    "season": 2019,
-   "distance": 1.39,
+   "distance": 1.419,
    "survived": 1,
    "fut_ability_v2": 40.6,
    "player_name": "Ximo Navarro",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "f3112790",
    "season": 2020,
-   "distance": 1.417,
+   "distance": 1.462,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Unai Bustinza",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "46ee5234",
    "season": 2018,
-   "distance": 1.552,
+   "distance": 1.659,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kieran Gibbs",
    "squad": "West Brom"
   },
   {
+   "fbref_id": "d9624b51",
+   "season": 2022,
+   "distance": 1.683,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Ceccherini",
+   "squad": "Hellas Verona"
+  },
+  {
    "fbref_id": "89976232",
    "season": 2020,
-   "distance": 1.649,
+   "distance": 1.708,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Armando Izzo",
    "squad": "Torino"
   },
   {
+   "fbref_id": "01a49bd2",
+   "season": 2021,
+   "distance": 1.723,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lisandro Magallán",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "1ef37668",
+   "season": 2018,
+   "distance": 1.768,
+   "survived": 1,
+   "fut_ability_v2": 51.1,
+   "player_name": "Erik Pieters",
+   "squad": "Stoke City"
+  },
+  {
+   "fbref_id": "3a9c4b7b",
+   "season": 2022,
+   "distance": 1.793,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho Vidal",
+   "squad": "Osasuna"
+  },
+  {
    "fbref_id": "173061c0",
    "season": 2019,
-   "distance": 1.726,
+   "distance": 1.804,
    "survived": 1,
    "fut_ability_v2": 59.1,
    "player_name": "Riccardo Gagliolo",
    "squad": "Parma"
-  },
-  {
-   "fbref_id": "61b3978f",
-   "season": 2020,
-   "distance": 1.749,
-   "survived": 1,
-   "fut_ability_v2": 52.5,
-   "player_name": "Bartosz Bereszyński",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "c26a3918",
-   "season": 2019,
-   "distance": 1.799,
-   "survived": 1,
-   "fut_ability_v2": 46.9,
-   "player_name": "Vincent Manceau",
-   "squad": "Angers"
-  },
-  {
-   "fbref_id": "9a9c05db",
-   "season": 2018,
-   "distance": 1.806,
-   "survived": 1,
-   "fut_ability_v2": 51.7,
-   "player_name": "Matthew Lowton",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "247accfd",
-   "season": 2018,
-   "distance": 1.811,
-   "survived": 1,
-   "fut_ability_v2": 51.0,
-   "player_name": "Bakaye Dibassy",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "6adbc307",
-   "season": 2020,
-   "distance": 1.833,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jack Stephens",
-   "squad": "Southampton"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Léo Pétrot(DF)의 현재 능력 점수는 56.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 태클+인터셉트, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 패스 거리이다.",
-  "potential": "Léo Pétrot의 2~3년 후 예측 중심값은 52.3점, 80% 구간 상단은 61.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 57.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Léo Pétrot의 2~3년 후 예측 중심값은 53.6점, 80% 구간 상단은 62.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

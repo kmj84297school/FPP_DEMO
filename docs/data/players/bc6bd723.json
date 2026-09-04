@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6383,
-  "mu": 62.3,
+  "survival_prob": 0.3463,
+  "mu": 62.4,
   "ci80": {
-   "lo": 52.7,
-   "hi": 71.7
+   "lo": 52.8,
+   "hi": 71.9
   },
   "ci50": {
-   "lo": 57.2,
-   "hi": 67.2
+   "lo": 57.3,
+   "hi": 67.3
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "9a2e0ccc",
+   "season": 2022,
+   "distance": 2.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emil Forsberg",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "88a359d4",
    "season": 2018,
-   "distance": 2.62,
+   "distance": 2.631,
    "survived": 1,
    "fut_ability_v2": 43.6,
    "player_name": "Adrián López",
    "squad": "La Coruña"
   },
   {
+   "fbref_id": "68829001",
+   "season": 2021,
+   "distance": 2.672,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gonzalo Castro",
+   "squad": "Stuttgart"
+  },
+  {
    "fbref_id": "2c3a6c21",
    "season": 2020,
-   "distance": 2.879,
+   "distance": 2.832,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marco Mancosu",
@@ -67,77 +85,59 @@
   {
    "fbref_id": "1f9328da",
    "season": 2019,
-   "distance": 3.051,
+   "distance": 2.996,
    "survived": 1,
    "fut_ability_v2": 50.6,
    "player_name": "Radja Nainggolan",
    "squad": "Inter"
   },
   {
-   "fbref_id": "2042d931",
-   "season": 2019,
-   "distance": 3.296,
+   "fbref_id": "b0547a87",
+   "season": 2021,
+   "distance": 2.998,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Salomon Kalou",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "9f4647e9",
-   "season": 2020,
-   "distance": 3.307,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Robert Snodgrass",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "36a3ff67",
-   "season": 2019,
-   "distance": 3.348,
-   "survived": 1,
-   "fut_ability_v2": 73.8,
-   "player_name": "Marco Reus",
-   "squad": "Dortmund"
-  },
-  {
-   "fbref_id": "d733aa38",
-   "season": 2020,
-   "distance": 3.358,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Roberto Torres",
-   "squad": "Osasuna"
-  },
-  {
-   "fbref_id": "1f9328da",
-   "season": 2020,
-   "distance": 3.433,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Radja Nainggolan",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "35c5f9b1",
-   "season": 2018,
-   "distance": 3.485,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Stéphane Sessègnon",
-   "squad": "Montpellier"
+   "player_name": "Nicolas de Préville",
+   "squad": "Bordeaux"
   },
   {
    "fbref_id": "4a478107",
-   "season": 2018,
-   "distance": 3.517,
+   "season": 2021,
+   "distance": 3.026,
    "survived": 1,
-   "fut_ability_v2": 52.0,
+   "fut_ability_v2": 42.0,
    "player_name": "José Luis Morales",
    "squad": "Levante"
+  },
+  {
+   "fbref_id": "963829d0",
+   "season": 2022,
+   "distance": 3.096,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manu Trigueros",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "d3096421",
+   "season": 2021,
+   "distance": 3.104,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Didavi",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "1fb1c435",
+   "season": 2021,
+   "distance": 3.156,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rodrigo",
+   "squad": "Leeds United"
   }
  ],
- "low_confidence": true,
+ "low_confidence": false,
  "report": {
   "strengths": [
    {
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Alassane Pléa(MF)의 현재 능력 점수는 69.5점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 골 창출(GCA), 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 클리어링이다.",
-  "potential": "Alassane Pléa의 2~3년 후 예측 중심값은 62.3점, 80% 구간 상단은 71.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 63.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Alassane Pléa의 2~3년 후 예측 중심값은 62.4점, 80% 구간 상단은 71.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

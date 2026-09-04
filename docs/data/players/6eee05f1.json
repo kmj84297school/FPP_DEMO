@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7431,
-  "mu": 59.1,
+  "survival_prob": 0.7505,
+  "mu": 63.0,
   "ci80": {
-   "lo": 49.7,
-   "hi": 68.3
+   "lo": 53.7,
+   "hi": 72.3
   },
   "ci50": {
-   "lo": 54.1,
-   "hi": 63.9
+   "lo": 58.1,
+   "hi": 68.0
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "e0314d87",
    "season": 2018,
-   "distance": 1.042,
+   "distance": 1.087,
    "survived": 1,
    "fut_ability_v2": 53.6,
    "player_name": "Andrea Masiello",
    "squad": "Atalanta"
   },
   {
+   "fbref_id": "e3d0b0c4",
+   "season": 2021,
+   "distance": 1.404,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcelo",
+   "squad": "Lyon"
+  },
+  {
    "fbref_id": "1253a12e",
    "season": 2018,
-   "distance": 1.416,
+   "distance": 1.513,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ervin Zukanović",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "9fbbcf39",
    "season": 2020,
-   "distance": 1.498,
+   "distance": 1.575,
    "survived": 1,
    "fut_ability_v2": 68.2,
    "player_name": "Romain Saïss",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "08511d65",
    "season": 2019,
-   "distance": 1.575,
+   "distance": 1.613,
    "survived": 1,
    "fut_ability_v2": 63.2,
    "player_name": "Sergio Ramos",
    "squad": "Real Madrid"
   },
   {
-   "fbref_id": "6b200d45",
-   "season": 2019,
-   "distance": 1.696,
+   "fbref_id": "b0a0698b",
+   "season": 2021,
+   "distance": 1.681,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Loïc Perrin",
-   "squad": "Saint-Étienne"
+   "player_name": "Rafael Czichos",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "b96b595c",
+   "season": 2021,
+   "distance": 1.684,
+   "survived": 1,
+   "fut_ability_v2": 59.8,
+   "player_name": "Francesco Acerbi",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "b96b595c",
+   "season": 2022,
+   "distance": 1.7,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Francesco Acerbi",
+   "squad": "Lazio"
   },
   {
    "fbref_id": "1522dab2",
    "season": 2018,
-   "distance": 1.709,
+   "distance": 1.724,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Davide Astori",
    "squad": "Fiorentina"
   },
   {
-   "fbref_id": "05d548d8",
-   "season": 2020,
-   "distance": 1.727,
-   "survived": 1,
-   "fut_ability_v2": 69.1,
-   "player_name": "Mats Hummels",
-   "squad": "Dortmund"
-  },
-  {
-   "fbref_id": "f8fcd2a5",
-   "season": 2020,
-   "distance": 1.743,
-   "survived": 1,
-   "fut_ability_v2": 68.0,
-   "player_name": "Jonny Evans",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "e3d0b0c4",
+   "fbref_id": "6b200d45",
    "season": 2019,
-   "distance": 1.769,
-   "survived": 1,
-   "fut_ability_v2": 65.5,
-   "player_name": "Marcelo",
-   "squad": "Lyon"
-  },
-  {
-   "fbref_id": "b96b595c",
-   "season": 2019,
-   "distance": 1.778,
-   "survived": 1,
-   "fut_ability_v2": 63.9,
-   "player_name": "Francesco Acerbi",
-   "squad": "Lazio"
+   "distance": 1.751,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Berat Djimsiti(DF)의 현재 능력 점수는 71.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 볼 손실(미스+파울), 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 볼 리커버리이다.",
-  "potential": "Berat Djimsiti의 2~3년 후 예측 중심값은 59.1점, 80% 구간 상단은 68.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 74.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Berat Djimsiti의 2~3년 후 예측 중심값은 63.0점, 80% 구간 상단은 72.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

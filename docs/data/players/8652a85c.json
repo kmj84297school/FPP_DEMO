@@ -32,18 +32,18 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8258,
-  "mu": 61.1,
+  "survival_prob": 0.8184,
+  "mu": 56.5,
   "ci80": {
-   "lo": 51.1,
-   "hi": 71.0
-  },
-  "ci50": {
-   "lo": 55.8,
+   "lo": 46.6,
    "hi": 66.3
   },
-  "sigma_model": 3.2,
-  "sigma_residual": 7.0
+  "ci50": {
+   "lo": 51.3,
+   "hi": 61.6
+  },
+  "sigma_model": 2.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
@@ -56,9 +56,18 @@
    "squad": "Manchester Utd"
   },
   {
+   "fbref_id": "6a99e0b1",
+   "season": 2021,
+   "distance": 2.204,
+   "survived": 1,
+   "fut_ability_v2": 58.0,
+   "player_name": "Iñaki Williams",
+   "squad": "Athletic Club"
+  },
+  {
    "fbref_id": "5eae500a",
    "season": 2019,
-   "distance": 2.325,
+   "distance": 2.319,
    "survived": 1,
    "fut_ability_v2": 66.6,
    "player_name": "Romelu Lukaku",
@@ -67,16 +76,25 @@
   {
    "fbref_id": "d705ba44",
    "season": 2020,
-   "distance": 2.326,
+   "distance": 2.324,
    "survived": 1,
    "fut_ability_v2": 47.2,
    "player_name": "Andrea Belotti",
    "squad": "Torino"
   },
   {
+   "fbref_id": "aed3a70f",
+   "season": 2022,
+   "distance": 2.33,
+   "survived": 1,
+   "fut_ability_v2": 64.3,
+   "player_name": "Ollie Watkins",
+   "squad": "Aston Villa"
+  },
+  {
    "fbref_id": "4f16405e",
    "season": 2018,
-   "distance": 2.387,
+   "distance": 2.372,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Niclas Füllkrug",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "75645f0e",
    "season": 2019,
-   "distance": 2.438,
+   "distance": 2.443,
    "survived": 1,
    "fut_ability_v2": 38.8,
    "player_name": "Borja Iglesias",
@@ -94,7 +112,7 @@
   {
    "fbref_id": "6a99e0b1",
    "season": 2019,
-   "distance": 2.522,
+   "distance": 2.537,
    "survived": 1,
    "fut_ability_v2": 54.8,
    "player_name": "Iñaki Williams",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "6605d143",
    "season": 2020,
-   "distance": 2.6,
+   "distance": 2.598,
    "survived": 1,
    "fut_ability_v2": 50.9,
    "player_name": "Habib Diallo",
    "squad": "Metz"
   },
   {
-   "fbref_id": "c4e87b8b",
-   "season": 2020,
-   "distance": 2.711,
+   "fbref_id": "aed3a70f",
+   "season": 2021,
+   "distance": 2.67,
    "survived": 1,
-   "fut_ability_v2": 46.7,
-   "player_name": "Wout Weghorst",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "d3de9af0",
-   "season": 2018,
-   "distance": 2.734,
-   "survived": 1,
-   "fut_ability_v2": 78.6,
-   "player_name": "Duván Zapata",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "ab070c55",
-   "season": 2018,
-   "distance": 2.773,
-   "survived": 1,
-   "fut_ability_v2": 57.0,
-   "player_name": "Christian Benteke",
-   "squad": "Crystal Palace"
+   "fut_ability_v2": 61.8,
+   "player_name": "Ollie Watkins",
+   "squad": "Aston Villa"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Loïs Openda(FW)의 현재 능력 점수는 54.7점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 박스 터치, 유효슈팅, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 최종 3분의1 패스이다.",
-  "potential": "Loïs Openda의 2~3년 후 예측 중심값은 61.1점, 80% 구간 상단은 71.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 82.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Loïs Openda의 2~3년 후 예측 중심값은 56.5점, 80% 구간 상단은 66.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 81.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

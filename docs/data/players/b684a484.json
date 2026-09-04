@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1201,
-  "mu": 38.5,
+  "survival_prob": 0.2563,
+  "mu": 42.2,
   "ci80": {
-   "lo": 28.9,
-   "hi": 48.0
+   "lo": 32.6,
+   "hi": 51.8
   },
   "ci50": {
-   "lo": 33.4,
-   "hi": 43.5
+   "lo": 37.1,
+   "hi": 47.3
   },
   "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "8f898ba8",
+   "season": 2021,
+   "distance": 2.045,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Carrillo",
+   "squad": "Elche"
+  },
+  {
+   "fbref_id": "abb3bb95",
+   "season": 2021,
+   "distance": 2.065,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luuk de Jong",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "8f898ba8",
    "season": 2020,
-   "distance": 2.057,
+   "distance": 2.071,
    "survived": 1,
    "fut_ability_v2": 30.8,
    "player_name": "Guido Carrillo",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "bb4b1242",
    "season": 2018,
-   "distance": 2.275,
+   "distance": 2.287,
    "survived": 1,
    "fut_ability_v2": 41.8,
    "player_name": "Sergi Enrich",
    "squad": "Eibar"
   },
   {
+   "fbref_id": "c4e87b8b",
+   "season": 2022,
+   "distance": 2.339,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg / Burnley"
+  },
+  {
    "fbref_id": "6265208f",
    "season": 2018,
-   "distance": 2.464,
+   "distance": 2.48,
    "survived": 1,
    "fut_ability_v2": 50.6,
    "player_name": "Joselu",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "11ced928",
-   "season": 2020,
-   "distance": 2.554,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yaya Sanogo",
-   "squad": "Toulouse"
-  },
-  {
    "fbref_id": "ef5b337e",
    "season": 2019,
-   "distance": 2.571,
+   "distance": 2.567,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabio Borini",
    "squad": "Milan"
   },
   {
+   "fbref_id": "11ced928",
+   "season": 2020,
+   "distance": 2.574,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yaya Sanogo",
+   "squad": "Toulouse"
+  },
+  {
+   "fbref_id": "8f898ba8",
+   "season": 2022,
+   "distance": 2.719,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Carrillo",
+   "squad": "Elche"
+  },
+  {
    "fbref_id": "8f898ba8",
    "season": 2019,
-   "distance": 2.692,
+   "distance": 2.722,
    "survived": 1,
    "fut_ability_v2": 36.2,
    "player_name": "Guido Carrillo",
    "squad": "Leganés"
-  },
-  {
-   "fbref_id": "8f3565b3",
-   "season": 2018,
-   "distance": 2.803,
-   "survived": 1,
-   "fut_ability_v2": 43.1,
-   "player_name": "Ante Budimir",
-   "squad": "Crotone"
-  },
-  {
-   "fbref_id": "b35db3f6",
-   "season": 2018,
-   "distance": 2.81,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Miguel Ángel Guerrero",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "9f472354",
-   "season": 2018,
-   "distance": 2.86,
-   "survived": 1,
-   "fut_ability_v2": 48.8,
-   "player_name": "Shane Long",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "2e52206e",
-   "season": 2019,
-   "distance": 2.868,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Benjamin Jeannot",
-   "squad": "Dijon"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Jordan Pefok(FW)의 현재 능력 점수는 36.2점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 공중볼 승리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 운반이다.",
-  "potential": "Jordan Pefok의 2~3년 후 예측 중심값은 38.5점, 80% 구간 상단은 48.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 12.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jordan Pefok의 2~3년 후 예측 중심값은 42.2점, 80% 구간 상단은 51.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

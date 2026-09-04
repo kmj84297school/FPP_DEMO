@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9164,
-  "mu": 64.6,
+  "survival_prob": 0.8651,
+  "mu": 66.7,
   "ci80": {
-   "lo": 53.9,
-   "hi": 75.5
+   "lo": 56.7,
+   "hi": 76.7
   },
   "ci50": {
-   "lo": 59.1,
-   "hi": 70.3
+   "lo": 61.4,
+   "hi": 72.0
   },
-  "sigma_model": 4.6,
-  "sigma_residual": 7.0
+  "sigma_model": 3.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "509a4ccb",
+   "season": 2021,
+   "distance": 2.213,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keita Baldé",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "923f4dda",
+   "season": 2021,
+   "distance": 2.349,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sehrou Guirassy",
+   "squad": "Rennes"
+  },
+  {
    "fbref_id": "942b4f90",
    "season": 2018,
-   "distance": 2.385,
+   "distance": 2.417,
    "survived": 1,
    "fut_ability_v2": 74.8,
    "player_name": "Wissam Ben Yedder",
@@ -58,20 +76,11 @@
   {
    "fbref_id": "5ceba7fc",
    "season": 2020,
-   "distance": 2.478,
+   "distance": 2.506,
    "survived": 1,
    "fut_ability_v2": 69.7,
    "player_name": "Karl Toko Ekambi",
    "squad": "Villarreal / Lyon"
-  },
-  {
-   "fbref_id": "eb2fe5b6",
-   "season": 2018,
-   "distance": 2.545,
-   "survived": 1,
-   "fut_ability_v2": 88.1,
-   "player_name": "Luis Muriel",
-   "squad": "Sevilla"
   },
   {
    "fbref_id": "8ff07990",
@@ -83,58 +92,49 @@
    "squad": "Nice"
   },
   {
+   "fbref_id": "eb2fe5b6",
+   "season": 2018,
+   "distance": 2.573,
+   "survived": 1,
+   "fut_ability_v2": 88.1,
+   "player_name": "Luis Muriel",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "45b9b619",
+   "season": 2022,
+   "distance": 2.573,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joaquín Correa",
+   "squad": "Inter"
+  },
+  {
    "fbref_id": "9dbb75ca",
    "season": 2018,
-   "distance": 2.735,
+   "distance": 2.764,
    "survived": 1,
    "fut_ability_v2": 64.4,
    "player_name": "Alexandre Lacazette",
    "squad": "Arsenal"
   },
   {
-   "fbref_id": "ff182fdc",
-   "season": 2019,
-   "distance": 2.929,
+   "fbref_id": "244bc2c8",
+   "season": 2022,
+   "distance": 2.82,
    "survived": 1,
-   "fut_ability_v2": 43.2,
-   "player_name": "Ishak Belfodil",
-   "squad": "Hoffenheim"
+   "fut_ability_v2": 41.6,
+   "player_name": "Boulaye Dia",
+   "squad": "Villarreal"
   },
   {
-   "fbref_id": "129af0db",
-   "season": 2018,
-   "distance": 3.031,
-   "survived": 1,
-   "fut_ability_v2": 70.0,
-   "player_name": "Álvaro Morata",
-   "squad": "Chelsea"
-  },
-  {
-   "fbref_id": "21a66f6a",
-   "season": 2019,
-   "distance": 3.051,
-   "survived": 1,
-   "fut_ability_v2": 78.3,
-   "player_name": "Harry Kane",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "834d0be5",
-   "season": 2020,
-   "distance": 3.09,
+   "fbref_id": "8b788c01",
+   "season": 2021,
+   "distance": 2.858,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Lucas Alario",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "1fb1c435",
-   "season": 2018,
-   "distance": 3.106,
-   "survived": 1,
-   "fut_ability_v2": 67.0,
-   "player_name": "Rodrigo",
-   "squad": "Valencia"
+   "player_name": "Anthony Martial",
+   "squad": "Manchester Utd"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Amine Gouiri(FW)의 현재 능력 점수는 74.9점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 유효슈팅, 슈팅 시도, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
-  "potential": "Amine Gouiri의 2~3년 후 예측 중심값은 64.6점, 80% 구간 상단은 75.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 91.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Amine Gouiri의 2~3년 후 예측 중심값은 66.7점, 80% 구간 상단은 76.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 86.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

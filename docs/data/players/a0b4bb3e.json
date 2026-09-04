@@ -32,33 +32,69 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.9226,
-  "mu": 66.8,
+  "survival_prob": 0.4389,
+  "mu": 71.0,
   "ci80": {
-   "lo": 57.0,
-   "hi": 76.5
+   "lo": 61.4,
+   "hi": 80.5
   },
   "ci50": {
-   "lo": 61.6,
-   "hi": 71.9
+   "lo": 65.9,
+   "hi": 76.0
   },
-  "sigma_model": 2.9,
-  "sigma_residual": 7.0
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "e46012d4",
+   "season": 2022,
+   "distance": 3.278,
+   "survived": 1,
+   "fut_ability_v2": 79.3,
+   "player_name": "Kevin De Bruyne",
+   "squad": "Manchester City"
+  },
+  {
    "fbref_id": "e2e9c250",
    "season": 2020,
-   "distance": 3.688,
+   "distance": 3.616,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Santi Cazorla",
    "squad": "Villarreal"
   },
   {
+   "fbref_id": "2f557579",
+   "season": 2022,
+   "distance": 3.751,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lorenzo Insigne",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "e2716bd0",
+   "season": 2021,
+   "distance": 3.962,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Silva",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "58ae47b2",
+   "season": 2021,
+   "distance": 4.006,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dimitri Payet",
+   "squad": "Marseille"
+  },
+  {
    "fbref_id": "58ae47b2",
    "season": 2019,
-   "distance": 4.116,
+   "distance": 4.117,
    "survived": 1,
    "fut_ability_v2": 70.7,
    "player_name": "Dimitri Payet",
@@ -66,75 +102,39 @@
   },
   {
    "fbref_id": "e2716bd0",
-   "season": 2019,
-   "distance": 4.269,
-   "survived": 1,
-   "fut_ability_v2": 75.9,
-   "player_name": "David Silva",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "e2716bd0",
    "season": 2020,
-   "distance": 4.278,
+   "distance": 4.245,
    "survived": 1,
    "fut_ability_v2": 74.8,
    "player_name": "David Silva",
    "squad": "Manchester City"
   },
   {
+   "fbref_id": "e2716bd0",
+   "season": 2019,
+   "distance": 4.245,
+   "survived": 1,
+   "fut_ability_v2": 75.9,
+   "player_name": "David Silva",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "fc647b34",
+   "season": 2022,
+   "distance": 4.384,
+   "survived": 1,
+   "fut_ability_v2": 49.9,
+   "player_name": "Óscar Trejo",
+   "squad": "Rayo Vallecano"
+  },
+  {
    "fbref_id": "19cda00b",
    "season": 2019,
-   "distance": 4.456,
+   "distance": 4.464,
    "survived": 1,
    "fut_ability_v2": 81.7,
    "player_name": "Ángel Di María",
    "squad": "Paris S-G"
-  },
-  {
-   "fbref_id": "1f9328da",
-   "season": 2020,
-   "distance": 4.549,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Radja Nainggolan",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "e2e9c250",
-   "season": 2019,
-   "distance": 4.655,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Santi Cazorla",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "6e4df551",
-   "season": 2020,
-   "distance": 4.672,
-   "survived": 1,
-   "fut_ability_v2": 63.1,
-   "player_name": "Papu Gómez",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "356c9002",
-   "season": 2018,
-   "distance": 4.681,
-   "survived": 1,
-   "fut_ability_v2": 62.8,
-   "player_name": "Antonio Candreva",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "6e4df551",
-   "season": 2019,
-   "distance": 4.763,
-   "survived": 1,
-   "fut_ability_v2": 70.2,
-   "player_name": "Papu Gómez",
-   "squad": "Atalanta"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Isco(MF)의 현재 능력 점수는 82.1점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 슈팅 창출(SCA), 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 볼 손실(미스+파울)이다.",
-  "potential": "Isco의 2~3년 후 예측 중심값은 66.8점, 80% 구간 상단은 76.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 92.3%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Isco의 2~3년 후 예측 중심값은 71.0점, 80% 구간 상단은 80.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 43.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

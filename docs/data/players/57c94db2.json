@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5074,
-  "mu": 47.5,
+  "survival_prob": 0.4526,
+  "mu": 47.4,
   "ci80": {
-   "lo": 38.3,
-   "hi": 56.8
+   "lo": 38.0,
+   "hi": 56.7
   },
   "ci50": {
-   "lo": 42.7,
-   "hi": 52.4
+   "lo": 42.6,
+   "hi": 52.3
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "2ef637bd",
    "season": 2019,
-   "distance": 1.832,
+   "distance": 1.826,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pierre-Yves Polomat",
@@ -58,20 +58,65 @@
   {
    "fbref_id": "861e0116",
    "season": 2019,
-   "distance": 2.071,
+   "distance": 2.051,
    "survived": 1,
    "fut_ability_v2": 54.3,
    "player_name": "Kostas Stafylidis",
    "squad": "Augsburg"
   },
   {
+   "fbref_id": "3935e52e",
+   "season": 2021,
+   "distance": 2.076,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Sead Kolašinac",
+   "squad": "Schalke 04 / Arsenal"
+  },
+  {
+   "fbref_id": "f4bc42b1",
+   "season": 2022,
+   "distance": 2.114,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sada Thioub",
+   "squad": "Saint-Étienne / Angers"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2021,
+   "distance": 2.216,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "374d5158",
+   "season": 2022,
+   "distance": 2.245,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gonzalo Montiel",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "0a3065c8",
    "season": 2020,
-   "distance": 2.259,
+   "distance": 2.3,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mitchell Dijks",
    "squad": "Bologna"
+  },
+  {
+   "fbref_id": "11962fe7",
+   "season": 2022,
+   "distance": 2.305,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Wajdi Kechrida",
+   "squad": "Salernitana"
   },
   {
    "fbref_id": "c8c02ac7",
@@ -83,58 +128,13 @@
    "squad": "Rennes"
   },
   {
-   "fbref_id": "d459281d",
-   "season": 2019,
-   "distance": 2.332,
+   "fbref_id": "b7a5bc86",
+   "season": 2021,
+   "distance": 2.364,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Miiko Albornoz",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "45e17712",
-   "season": 2018,
-   "distance": 2.436,
-   "survived": 1,
-   "fut_ability_v2": 40.1,
-   "player_name": "Dimitri Foulquier",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "73000a79",
-   "season": 2020,
-   "distance": 2.466,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Daley Sinkgraven",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "fbbb9269",
-   "season": 2020,
-   "distance": 2.466,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Youssouf Sabaly",
-   "squad": "Bordeaux"
-  },
-  {
-   "fbref_id": "c8c02ac7",
-   "season": 2018,
-   "distance": 2.492,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mehdi Zeffane",
-   "squad": "Rennes"
-  },
-  {
-   "fbref_id": "f7aa75bd",
-   "season": 2019,
-   "distance": 2.496,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Marvin Plattenhardt",
-   "squad": "Hertha BSC"
+   "player_name": "Mohamed Fares",
+   "squad": "Lazio"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mads Roerslev(DF)의 현재 능력 점수는 50.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 어시스트, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 공중볼 승률이다.",
-  "potential": "Mads Roerslev의 2~3년 후 예측 중심값은 47.5점, 80% 구간 상단은 56.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 50.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mads Roerslev의 2~3년 후 예측 중심값은 47.4점, 80% 구간 상단은 56.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

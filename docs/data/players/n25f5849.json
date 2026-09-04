@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1292,
-  "mu": 43.5,
+  "survival_prob": 0.1644,
+  "mu": 40.9,
   "ci80": {
-   "lo": 34.0,
-   "hi": 53.1
+   "lo": 31.4,
+   "hi": 50.6
   },
   "ci50": {
-   "lo": 38.5,
-   "hi": 48.6
+   "lo": 35.9,
+   "hi": 46.0
   },
-  "sigma_model": 2.5,
-  "sigma_residual": 7.0
+  "sigma_model": 2.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "2500cef9",
+   "season": 2022,
+   "distance": 1.801,
+   "survived": 1,
+   "fut_ability_v2": 58.4,
+   "player_name": "Yoane Wissa",
+   "squad": "Brentford"
+  },
+  {
    "fbref_id": "5046b7d4",
    "season": 2018,
-   "distance": 2.267,
+   "distance": 2.278,
    "survived": 1,
    "fut_ability_v2": 42.4,
    "player_name": "Stéphane Bahoken",
    "squad": "Strasbourg"
   },
   {
+   "fbref_id": "17f3620a",
+   "season": 2021,
+   "distance": 2.31,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Krzysztof Piątek",
+   "squad": "Hertha BSC"
+  },
+  {
    "fbref_id": "462475ed",
    "season": 2019,
-   "distance": 2.396,
+   "distance": 2.372,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Ludovic Ajorque",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "2e52206e",
    "season": 2018,
-   "distance": 2.431,
+   "distance": 2.422,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Benjamin Jeannot",
@@ -76,7 +94,7 @@
   {
    "fbref_id": "09538fdb",
    "season": 2019,
-   "distance": 2.438,
+   "distance": 2.467,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Kevin Lasagna",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "625e41b1",
    "season": 2020,
-   "distance": 2.5,
+   "distance": 2.486,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Streli Mamba",
    "squad": "Paderborn 07"
   },
   {
-   "fbref_id": "fcbcbd94",
-   "season": 2019,
-   "distance": 2.605,
+   "fbref_id": "4c2e9442",
+   "season": 2022,
+   "distance": 2.504,
    "survived": 1,
-   "fut_ability_v2": 34.3,
-   "player_name": "Moussa Konaté",
-   "squad": "Amiens"
+   "fut_ability_v2": 20.7,
+   "player_name": "Maxi Gómez",
+   "squad": "Valencia"
   },
   {
-   "fbref_id": "11ced928",
-   "season": 2020,
-   "distance": 2.616,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yaya Sanogo",
-   "squad": "Toulouse"
-  },
-  {
-   "fbref_id": "75645f0e",
-   "season": 2020,
-   "distance": 2.695,
+   "fbref_id": "0a447501",
+   "season": 2021,
+   "distance": 2.589,
    "survived": 1,
-   "fut_ability_v2": 45.9,
-   "player_name": "Borja Iglesias",
-   "squad": "Betis"
+   "fut_ability_v2": 33.9,
+   "player_name": "Antonio Sanabria",
+   "squad": "Torino / Betis"
   },
   {
-   "fbref_id": "9853983f",
-   "season": 2019,
-   "distance": 2.705,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bobby Wood",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "a39b9ef6",
-   "season": 2018,
-   "distance": 2.759,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Diego Falcinelli",
-   "squad": "Sassuolo / Fiorentina"
+   "fbref_id": "04e17fd5",
+   "season": 2022,
+   "distance": 2.614,
+   "survived": 1,
+   "fut_ability_v2": 39.3,
+   "player_name": "Youssef En-Nesyri",
+   "squad": "Sevilla"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Casper Tengstedt(FW)의 현재 능력 점수는 37.1점이다. 플레이스타일은 '박스 포처'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 볼 손실(미스+파울), 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 도움 기대값(xAG)이다.",
-  "potential": "Casper Tengstedt의 2~3년 후 예측 중심값은 43.5점, 80% 구간 상단은 53.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 12.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Casper Tengstedt의 2~3년 후 예측 중심값은 40.9점, 80% 구간 상단은 50.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 16.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

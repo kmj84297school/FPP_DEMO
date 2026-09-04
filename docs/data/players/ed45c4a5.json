@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5443,
-  "mu": 60.9,
+  "survival_prob": 0.3126,
+  "mu": 59.1,
   "ci80": {
-   "lo": 51.7,
-   "hi": 70.1
+   "lo": 49.8,
+   "hi": 68.4
   },
   "ci50": {
-   "lo": 55.9,
-   "hi": 65.7
+   "lo": 54.2,
+   "hi": 64.0
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "b853e0ad",
+   "season": 2021,
+   "distance": 1.682,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fred",
+   "squad": "Manchester Utd"
+  },
+  {
    "fbref_id": "496aeede",
    "season": 2019,
-   "distance": 1.721,
+   "distance": 1.761,
    "survived": 1,
    "fut_ability_v2": 59.7,
    "player_name": "Christoph Kramer",
    "squad": "M'Gladbach"
   },
   {
+   "fbref_id": "b9fbae28",
+   "season": 2021,
+   "distance": 1.815,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "N'Golo Kanté",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2021,
+   "distance": 1.884,
+   "survived": 1,
+   "fut_ability_v2": 68.0,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "436a9dd0",
+   "season": 2018,
+   "distance": 1.994,
+   "survived": 1,
+   "fut_ability_v2": 68.2,
+   "player_name": "Ander Herrera",
+   "squad": "Manchester Utd"
+  },
+  {
    "fbref_id": "f4081572",
    "season": 2019,
-   "distance": 1.928,
+   "distance": 2.002,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Nuri Şahin",
@@ -67,74 +103,38 @@
   {
    "fbref_id": "44f8c299",
    "season": 2018,
-   "distance": 1.933,
+   "distance": 2.05,
    "survived": 1,
    "fut_ability_v2": 59.5,
    "player_name": "Lucas Deaux",
    "squad": "Guingamp"
   },
   {
-   "fbref_id": "69374ff5",
-   "season": 2019,
-   "distance": 2.112,
+   "fbref_id": "91f7631f",
+   "season": 2022,
+   "distance": 2.072,
    "survived": 1,
-   "fut_ability_v2": 64.1,
-   "player_name": "Julian Baumgartlinger",
-   "squad": "Leverkusen"
+   "fut_ability_v2": 56.4,
+   "player_name": "Iñigo Ruiz de Galarreta",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "c6e5d20f",
+   "season": 2022,
+   "distance": 2.088,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thiago Mendes",
+   "squad": "Lyon"
   },
   {
    "fbref_id": "436a9dd0",
-   "season": 2018,
-   "distance": 2.12,
-   "survived": 1,
-   "fut_ability_v2": 68.2,
-   "player_name": "Ander Herrera",
-   "squad": "Manchester Utd"
-  },
-  {
-   "fbref_id": "436a9dd0",
    "season": 2019,
-   "distance": 2.172,
+   "distance": 2.141,
    "survived": 1,
    "fut_ability_v2": 65.1,
    "player_name": "Ander Herrera",
    "squad": "Manchester Utd"
-  },
-  {
-   "fbref_id": "935e6b8f",
-   "season": 2019,
-   "distance": 2.233,
-   "survived": 1,
-   "fut_ability_v2": 63.9,
-   "player_name": "Jordan Henderson",
-   "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "e12b0b5b",
-   "season": 2020,
-   "distance": 2.276,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sebastian Rode",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "c50281a0",
-   "season": 2019,
-   "distance": 2.318,
-   "survived": 1,
-   "fut_ability_v2": 64.3,
-   "player_name": "Lars Bender",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "c5fa58ea",
-   "season": 2018,
-   "distance": 2.325,
-   "survived": 1,
-   "fut_ability_v2": 51.2,
-   "player_name": "Pedro Mosquera",
-   "squad": "La Coruña"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Valentin Rongier(MF)의 현재 능력 점수는 61.8점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 패스 성공률, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 박스 진입 패스이다.",
-  "potential": "Valentin Rongier의 2~3년 후 예측 중심값은 60.9점, 80% 구간 상단은 70.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Valentin Rongier의 2~3년 후 예측 중심값은 59.1점, 80% 구간 상단은 68.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

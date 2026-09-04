@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9674,
-  "mu": 63.0,
+  "survival_prob": 0.9284,
+  "mu": 64.7,
   "ci80": {
-   "lo": 52.4,
-   "hi": 73.6
+   "lo": 54.2,
+   "hi": 75.2
   },
   "ci50": {
-   "lo": 57.4,
-   "hi": 68.6
+   "lo": 59.2,
+   "hi": 70.3
   },
-  "sigma_model": 2.1,
+  "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "f4bc42b1",
    "season": 2019,
-   "distance": 1.674,
+   "distance": 1.559,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Sada Thioub",
    "squad": "Nîmes"
   },
   {
+   "fbref_id": "7c104bb7",
+   "season": 2021,
+   "distance": 1.881,
+   "survived": 1,
+   "fut_ability_v2": 81.7,
+   "player_name": "Ademola Lookman",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "e6bc67d7",
+   "season": 2021,
+   "distance": 2.19,
+   "survived": 1,
+   "fut_ability_v2": 62.3,
+   "player_name": "Gonçalo Guedes",
+   "squad": "Valencia"
+  },
+  {
    "fbref_id": "ab651565",
    "season": 2018,
-   "distance": 2.47,
+   "distance": 2.296,
    "survived": 1,
    "fut_ability_v2": 57.8,
    "player_name": "Nathan Redmond",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "01eb744d",
    "season": 2019,
-   "distance": 2.486,
+   "distance": 2.329,
    "survived": 1,
    "fut_ability_v2": 72.3,
    "player_name": "Ángel Correa",
    "squad": "Atlético Madrid"
   },
   {
-   "fbref_id": "fc8b614b",
-   "season": 2019,
-   "distance": 2.522,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "José Pozo",
-   "squad": "Rayo Vallecano"
-  },
-  {
-   "fbref_id": "6481421d",
-   "season": 2019,
-   "distance": 2.592,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Moussa Doumbia",
-   "squad": "Reims"
-  },
-  {
-   "fbref_id": "b2bd0f6c",
-   "season": 2020,
-   "distance": 2.599,
-   "survived": 1,
-   "fut_ability_v2": 64.8,
-   "player_name": "Jonathan Bamba",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "c47541e0",
-   "season": 2019,
-   "distance": 2.606,
-   "survived": 1,
-   "fut_ability_v2": 57.7,
-   "player_name": "Bertrand Traoré",
-   "squad": "Lyon"
-  },
-  {
    "fbref_id": "130a7a3f",
    "season": 2018,
-   "distance": 2.612,
+   "distance": 2.451,
    "survived": 1,
    "fut_ability_v2": 62.8,
    "player_name": "Samu Castillejo",
    "squad": "Villarreal"
   },
   {
-   "fbref_id": "2b16cb1a",
-   "season": 2020,
-   "distance": 2.688,
-   "survived": 1,
-   "fut_ability_v2": 53.4,
-   "player_name": "Allan Saint-Maximin",
-   "squad": "Newcastle Utd"
+   "fbref_id": "fc8b614b",
+   "season": 2019,
+   "distance": 2.461,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "José Pozo",
+   "squad": "Rayo Vallecano"
   },
   {
-   "fbref_id": "01eb744d",
-   "season": 2018,
-   "distance": 2.707,
+   "fbref_id": "b2bd0f6c",
+   "season": 2020,
+   "distance": 2.475,
    "survived": 1,
-   "fut_ability_v2": 65.5,
-   "player_name": "Ángel Correa",
-   "squad": "Atlético Madrid"
+   "fut_ability_v2": 64.8,
+   "player_name": "Jonathan Bamba",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "6481421d",
+   "season": 2019,
+   "distance": 2.482,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Moussa Doumbia",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "4b96c347",
+   "season": 2021,
+   "distance": 2.533,
+   "survived": 1,
+   "fut_ability_v2": 68.3,
+   "player_name": "Angelo Fulgini",
+   "squad": "Angers"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Takefusa Kubo(MF)의 현재 능력 점수는 63.7점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 전진 운반, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 클리어링이다.",
-  "potential": "Takefusa Kubo의 2~3년 후 예측 중심값은 63.0점, 80% 구간 상단은 73.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Takefusa Kubo의 2~3년 후 예측 중심값은 64.7점, 80% 구간 상단은 75.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

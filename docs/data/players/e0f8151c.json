@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6928,
-  "mu": 62.4,
+  "survival_prob": 0.5816,
+  "mu": 62.6,
   "ci80": {
-   "lo": 53.2,
-   "hi": 71.6
+   "lo": 53.3,
+   "hi": 71.9
   },
   "ci50": {
-   "lo": 57.4,
-   "hi": 67.2
+   "lo": 57.7,
+   "hi": 67.5
   },
   "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "99de6b6f",
    "season": 2018,
-   "distance": 2.13,
+   "distance": 2.083,
    "survived": 1,
    "fut_ability_v2": 64.3,
    "player_name": "Benjamin Hübner",
    "squad": "Hoffenheim"
   },
   {
+   "fbref_id": "43e7a164",
+   "season": 2022,
+   "distance": 2.164,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexander Djiku",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "e27da244",
+   "season": 2021,
+   "distance": 2.172,
+   "survived": 1,
+   "fut_ability_v2": 67.5,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "8650af85",
+   "season": 2022,
+   "distance": 2.179,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  },
+  {
    "fbref_id": "b5114f85",
    "season": 2019,
-   "distance": 2.205,
+   "distance": 2.237,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Georg Margreitter",
@@ -66,75 +93,48 @@
   },
   {
    "fbref_id": "e27da244",
-   "season": 2019,
-   "distance": 2.262,
+   "season": 2022,
+   "distance": 2.237,
    "survived": 1,
-   "fut_ability_v2": 67.3,
+   "fut_ability_v2": 67.5,
    "player_name": "John Brooks",
    "squad": "Wolfsburg"
   },
   {
    "fbref_id": "6bd5cd5d",
    "season": 2020,
-   "distance": 2.298,
+   "distance": 2.251,
    "survived": 1,
    "fut_ability_v2": 47.2,
    "player_name": "Robin Knoche",
    "squad": "Wolfsburg"
   },
   {
-   "fbref_id": "f521b80a",
-   "season": 2020,
-   "distance": 2.3,
-   "survived": 1,
-   "fut_ability_v2": 62.4,
-   "player_name": "Matthias Ginter",
-   "squad": "M'Gladbach"
+   "fbref_id": "ab096c6f",
+   "season": 2021,
+   "distance": 2.261,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Timothée Kolodziejczak",
+   "squad": "Saint-Étienne"
   },
   {
-   "fbref_id": "8cc29864",
+   "fbref_id": "89ac64a6",
+   "season": 2022,
+   "distance": 2.292,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Manuel Akanji",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "e27da244",
    "season": 2019,
    "distance": 2.31,
    "survived": 1,
-   "fut_ability_v2": 48.7,
-   "player_name": "Lorenzo Tonelli",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "8c725b43",
-   "season": 2018,
-   "distance": 2.353,
-   "survived": 1,
-   "fut_ability_v2": 52.0,
-   "player_name": "Germán Pezzella",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "5832ebfe",
-   "season": 2020,
-   "distance": 2.376,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Stefano Denswil",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "3681cfff",
-   "season": 2019,
-   "distance": 2.398,
-   "survived": 1,
-   "fut_ability_v2": 53.1,
-   "player_name": "Christophe Hérelle",
-   "squad": "Nice"
-  },
-  {
-   "fbref_id": "1ad8cb67",
-   "season": 2019,
-   "distance": 2.441,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pablo Martinez",
-   "squad": "Strasbourg"
+   "fut_ability_v2": 67.3,
+   "player_name": "John Brooks",
+   "squad": "Wolfsburg"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Kim Min-jae(DF)의 현재 능력 점수는 60.6점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 전진 패스 거리, 최종 3분의1 패스, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 박스 터치이다.",
-  "potential": "Kim Min-jae의 2~3년 후 예측 중심값은 62.4점, 80% 구간 상단은 71.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Kim Min-jae의 2~3년 후 예측 중심값은 62.6점, 80% 구간 상단은 71.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

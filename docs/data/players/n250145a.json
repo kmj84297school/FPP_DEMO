@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2928,
-  "mu": 51.3,
+  "survival_prob": 0.4102,
+  "mu": 51.9,
   "ci80": {
-   "lo": 40.4,
+   "lo": 41.4,
    "hi": 62.4
   },
   "ci50": {
-   "lo": 45.7,
-   "hi": 57.1
+   "lo": 46.3,
+   "hi": 57.3
   },
-  "sigma_model": 3.0,
+  "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "0fdcef0e",
+   "season": 2022,
+   "distance": 1.371,
+   "survived": 1,
+   "fut_ability_v2": 60.7,
+   "player_name": "Kristjan Asllani",
+   "squad": "Empoli"
+  },
+  {
    "fbref_id": "ed5c5fa3",
    "season": 2019,
-   "distance": 1.934,
+   "distance": 1.967,
    "survived": 1,
    "fut_ability_v2": 48.4,
    "player_name": "Fran Beltrán",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "ab700320",
    "season": 2018,
-   "distance": 2.016,
+   "distance": 2.028,
    "survived": 1,
    "fut_ability_v2": 42.1,
    "player_name": "Arne Maier",
@@ -67,16 +76,34 @@
   {
    "fbref_id": "c69ef855",
    "season": 2018,
-   "distance": 2.106,
+   "distance": 2.095,
    "survived": 1,
    "fut_ability_v2": 52.1,
    "player_name": "Alexis Blin",
    "squad": "Toulouse"
   },
   {
+   "fbref_id": "df10e27c",
+   "season": 2022,
+   "distance": 2.127,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Billy Gilmour",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "0db169ae",
+   "season": 2021,
+   "distance": 2.161,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sandro Tonali",
+   "squad": "Milan"
+  },
+  {
    "fbref_id": "2b09d998",
    "season": 2020,
-   "distance": 2.151,
+   "distance": 2.179,
    "survived": 1,
    "fut_ability_v2": 54.3,
    "player_name": "Tyler Adams",
@@ -85,7 +112,7 @@
   {
    "fbref_id": "7f622eef",
    "season": 2018,
-   "distance": 2.204,
+   "distance": 2.259,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Assane Dioussé",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "ec30b9c8",
    "season": 2018,
-   "distance": 2.271,
+   "distance": 2.273,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Samuel Bastien",
    "squad": "Chievo"
   },
   {
-   "fbref_id": "ed5c5fa3",
-   "season": 2020,
-   "distance": 2.381,
+   "fbref_id": "9823be92",
+   "season": 2022,
+   "distance": 2.277,
    "survived": 1,
-   "fut_ability_v2": 44.9,
-   "player_name": "Fran Beltrán",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "9228b07c",
-   "season": 2018,
-   "distance": 2.426,
-   "survived": 1,
-   "fut_ability_v2": 43.8,
-   "player_name": "Tom Davies",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "442b56fa",
-   "season": 2019,
-   "distance": 2.477,
-   "survived": 1,
-   "fut_ability_v2": 59.5,
-   "player_name": "Ridle Baku",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "9228b07c",
-   "season": 2019,
-   "distance": 2.524,
-   "survived": 1,
-   "fut_ability_v2": 41.6,
-   "player_name": "Tom Davies",
-   "squad": "Everton"
+   "fut_ability_v2": 45.6,
+   "player_name": "Samuele Ricci",
+   "squad": "Empoli / Torino"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Arthur Vermeeren(MF)의 현재 능력 점수는 43.7점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 블록, 패스 성공률, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 박스 터치이다.",
-  "potential": "Arthur Vermeeren의 2~3년 후 예측 중심값은 51.3점, 80% 구간 상단은 62.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 29.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Arthur Vermeeren의 2~3년 후 예측 중심값은 51.9점, 80% 구간 상단은 62.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 41.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

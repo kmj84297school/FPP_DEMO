@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4652,
-  "mu": 42.4,
+  "survival_prob": 0.5289,
+  "mu": 41.6,
   "ci80": {
-   "lo": 33.0,
-   "hi": 51.9
+   "lo": 31.9,
+   "hi": 51.1
   },
   "ci50": {
-   "lo": 37.5,
-   "hi": 47.4
+   "lo": 36.5,
+   "hi": 46.6
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "cedb3e36",
    "season": 2018,
-   "distance": 1.632,
+   "distance": 1.599,
    "survived": 1,
    "fut_ability_v2": 42.3,
    "player_name": "Artur Ioniță",
    "squad": "Cagliari"
   },
   {
+   "fbref_id": "58afe001",
+   "season": 2021,
+   "distance": 1.912,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mauro Arambarri",
+   "squad": "Getafe"
+  },
+  {
    "fbref_id": "04c11885",
    "season": 2018,
-   "distance": 1.921,
+   "distance": 1.925,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marvin Bakalorz",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "29b61deb",
    "season": 2019,
-   "distance": 2.1,
+   "distance": 2.019,
    "survived": 1,
    "fut_ability_v2": 33.1,
    "player_name": "Pere Pons",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "b0fce72c",
    "season": 2019,
-   "distance": 2.217,
+   "distance": 2.112,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Mikel Vesga",
    "squad": "Leganés"
   },
   {
-   "fbref_id": "eaf71a5e",
-   "season": 2018,
-   "distance": 2.231,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Karim Azamoum",
-   "squad": "Troyes"
-  },
-  {
    "fbref_id": "c951a6df",
    "season": 2020,
-   "distance": 2.246,
+   "distance": 2.168,
    "survived": 1,
    "fut_ability_v2": 44.1,
    "player_name": "Isaac Hayden",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "fdd85f94",
-   "season": 2019,
-   "distance": 2.409,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Davy Pröpper",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "04c11885",
-   "season": 2019,
-   "distance": 2.449,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marvin Bakalorz",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "3c05e082",
-   "season": 2018,
-   "distance": 2.526,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Koo Ja-cheol",
-   "squad": "Augsburg"
-  },
-  {
-   "fbref_id": "471f16b3",
-   "season": 2020,
-   "distance": 2.573,
+   "fbref_id": "a8ee54ad",
+   "season": 2022,
+   "distance": 2.199,
    "survived": 1,
-   "fut_ability_v2": 41.8,
-   "player_name": "Kenny McLean",
-   "squad": "Norwich City"
+   "fut_ability_v2": 53.3,
+   "player_name": "Kristijan Jakić",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "eaf71a5e",
+   "season": 2018,
+   "distance": 2.2,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Azamoum",
+   "squad": "Troyes"
+  },
+  {
+   "fbref_id": "71ec39ef",
+   "season": 2022,
+   "distance": 2.299,
+   "survived": 1,
+   "fut_ability_v2": 45.1,
+   "player_name": "Lucas Tousart",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "bcfc4473",
+   "season": 2022,
+   "distance": 2.304,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loum Ndiaye",
+   "squad": "Alavés"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Alex Král(MF)의 현재 능력 점수는 34.7점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승률, 공중볼 승리, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 유효슈팅이다.",
-  "potential": "Alex Král의 2~3년 후 예측 중심값은 42.4점, 80% 구간 상단은 51.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 46.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Alex Král의 2~3년 후 예측 중심값은 41.6점, 80% 구간 상단은 51.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 52.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

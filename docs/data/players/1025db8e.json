@@ -32,109 +32,109 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2032,
-  "mu": 59.3,
+  "survival_prob": 0.2006,
+  "mu": 61.5,
   "ci80": {
-   "lo": 49.9,
-   "hi": 68.5
+   "lo": 52.3,
+   "hi": 70.7
   },
   "ci50": {
-   "lo": 54.3,
-   "hi": 64.1
+   "lo": 56.7,
+   "hi": 66.3
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "f8fcd2a5",
-   "season": 2020,
-   "distance": 1.877,
+   "fbref_id": "e3d0b0c4",
+   "season": 2021,
+   "distance": 1.792,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcelo",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "b96b595c",
+   "season": 2021,
+   "distance": 1.852,
    "survived": 1,
-   "fut_ability_v2": 68.0,
-   "player_name": "Jonny Evans",
-   "squad": "Leicester City"
+   "fut_ability_v2": 59.8,
+   "player_name": "Francesco Acerbi",
+   "squad": "Lazio"
   },
   {
    "fbref_id": "3f5b4635",
    "season": 2019,
-   "distance": 1.897,
+   "distance": 1.866,
    "survived": 1,
    "fut_ability_v2": 51.9,
    "player_name": "Daniel Congré",
    "squad": "Montpellier"
   },
   {
+   "fbref_id": "f8fcd2a5",
+   "season": 2020,
+   "distance": 1.879,
+   "survived": 1,
+   "fut_ability_v2": 68.0,
+   "player_name": "Jonny Evans",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "565bf0da",
    "season": 2018,
-   "distance": 1.923,
+   "distance": 1.916,
    "survived": 1,
    "fut_ability_v2": 57.7,
    "player_name": "David Abraham",
    "squad": "Eint Frankfurt"
   },
   {
+   "fbref_id": "850c0a0d",
+   "season": 2021,
+   "distance": 1.946,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anaitz Arbilla",
+   "squad": "Eibar"
+  },
+  {
    "fbref_id": "1e0b6a73",
    "season": 2018,
-   "distance": 2.0,
+   "distance": 1.946,
    "survived": 1,
    "fut_ability_v2": 60.8,
    "player_name": "Simon Francis",
    "squad": "Bournemouth"
   },
   {
-   "fbref_id": "6b200d45",
-   "season": 2019,
-   "distance": 2.012,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Loïc Perrin",
-   "squad": "Saint-Étienne"
-  },
-  {
    "fbref_id": "e0314d87",
    "season": 2018,
-   "distance": 2.031,
+   "distance": 1.952,
    "survived": 1,
    "fut_ability_v2": 53.6,
    "player_name": "Andrea Masiello",
    "squad": "Atalanta"
   },
   {
+   "fbref_id": "6b200d45",
+   "season": 2019,
+   "distance": 1.977,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Loïc Perrin",
+   "squad": "Saint-Étienne"
+  },
+  {
    "fbref_id": "80e4c841",
    "season": 2020,
-   "distance": 2.032,
+   "distance": 2.007,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aurélien Chedjou",
    "squad": "Amiens"
-  },
-  {
-   "fbref_id": "3f65898c",
-   "season": 2020,
-   "distance": 2.032,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Theodor Gebre Selassie",
-   "squad": "Werder Bremen"
-  },
-  {
-   "fbref_id": "b96b595c",
-   "season": 2020,
-   "distance": 2.112,
-   "survived": 1,
-   "fut_ability_v2": 63.5,
-   "player_name": "Francesco Acerbi",
-   "squad": "Lazio"
-  },
-  {
-   "fbref_id": "32c2d95f",
-   "season": 2020,
-   "distance": 2.218,
-   "survived": 1,
-   "fut_ability_v2": 58.1,
-   "player_name": "Yunis Abdelhamid",
-   "squad": "Reims"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jeffrey Gouweleeuw(DF)의 현재 능력 점수는 66.3점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 전진 패스 거리, 클리어링, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 성공 드리블이다.",
-  "potential": "Jeffrey Gouweleeuw의 2~3년 후 예측 중심값은 59.3점, 80% 구간 상단은 68.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jeffrey Gouweleeuw의 2~3년 후 예측 중심값은 61.5점, 80% 구간 상단은 70.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

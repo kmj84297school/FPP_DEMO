@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6457,
-  "mu": 39.9,
+  "survival_prob": 0.6028,
+  "mu": 44.9,
   "ci80": {
-   "lo": 30.2,
-   "hi": 49.5
+   "lo": 35.4,
+   "hi": 54.4
   },
   "ci50": {
-   "lo": 34.8,
-   "hi": 44.9
+   "lo": 39.9,
+   "hi": 49.9
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "104b4ad3",
+   "season": 2022,
+   "distance": 2.165,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alberth Elis",
+   "squad": "Bordeaux"
+  },
+  {
    "fbref_id": "74c7c2db",
    "season": 2020,
-   "distance": 2.469,
+   "distance": 2.499,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Robin Quaison",
    "squad": "Mainz 05"
   },
   {
+   "fbref_id": "74c7c2db",
+   "season": 2021,
+   "distance": 2.686,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Robin Quaison",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "5f3eaaf5",
+   "season": 2021,
+   "distance": 2.856,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Moses Simon",
+   "squad": "Nantes"
+  },
+  {
    "fbref_id": "8e235926",
    "season": 2019,
-   "distance": 2.847,
+   "distance": 2.861,
    "survived": 1,
    "fut_ability_v2": 48.2,
    "player_name": "Michael Gregoritsch",
@@ -67,16 +94,34 @@
   {
    "fbref_id": "b1cd37e6",
    "season": 2018,
-   "distance": 2.877,
+   "distance": 2.913,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Filip Kostić",
    "squad": "Hamburger SV"
   },
   {
+   "fbref_id": "67d23ab0",
+   "season": 2018,
+   "distance": 3.095,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tom Ince",
+   "squad": "Huddersfield"
+  },
+  {
+   "fbref_id": "ffa90327",
+   "season": 2021,
+   "distance": 3.096,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anwar El Ghazi",
+   "squad": "Aston Villa"
+  },
+  {
    "fbref_id": "1bda5842",
    "season": 2019,
-   "distance": 3.072,
+   "distance": 3.111,
    "survived": 1,
    "fut_ability_v2": 48.4,
    "player_name": "Portu",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "90bbd822",
    "season": 2019,
-   "distance": 3.086,
+   "distance": 3.118,
    "survived": 1,
    "fut_ability_v2": 57.9,
    "player_name": "Álvaro García",
    "squad": "Rayo Vallecano"
-  },
-  {
-   "fbref_id": "67d23ab0",
-   "season": 2018,
-   "distance": 3.136,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Tom Ince",
-   "squad": "Huddersfield"
-  },
-  {
-   "fbref_id": "81255c03",
-   "season": 2018,
-   "distance": 3.157,
-   "survived": 1,
-   "fut_ability_v2": 50.9,
-   "player_name": "João Pedro",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "1bda5842",
-   "season": 2018,
-   "distance": 3.226,
-   "survived": 1,
-   "fut_ability_v2": 52.0,
-   "player_name": "Portu",
-   "squad": "Girona"
-  },
-  {
-   "fbref_id": "91f2da4c",
-   "season": 2019,
-   "distance": 3.324,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Casimir Ninga",
-   "squad": "Caen"
-  },
-  {
-   "fbref_id": "01eb744d",
-   "season": 2020,
-   "distance": 3.542,
-   "survived": 1,
-   "fut_ability_v2": 70.4,
-   "player_name": "Ángel Correa",
-   "squad": "Atlético Madrid"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Zakaria Aboukhlal(MF)의 현재 능력 점수는 45.4점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 박스 터치, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 전진 패스 거리이다.",
-  "potential": "Zakaria Aboukhlal의 2~3년 후 예측 중심값은 39.9점, 80% 구간 상단은 49.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 64.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Zakaria Aboukhlal의 2~3년 후 예측 중심값은 44.9점, 80% 구간 상단은 54.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

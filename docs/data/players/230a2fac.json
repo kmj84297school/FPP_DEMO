@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8366,
-  "mu": 57.8,
+  "survival_prob": 0.503,
+  "mu": 54.9,
   "ci80": {
-   "lo": 48.4,
-   "hi": 67.0
+   "lo": 45.6,
+   "hi": 64.2
   },
   "ci50": {
-   "lo": 52.8,
-   "hi": 62.6
+   "lo": 49.9,
+   "hi": 59.7
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "4f974391",
+   "season": 2022,
+   "distance": 1.47,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "a4b1028a",
+   "season": 2022,
+   "distance": 1.758,
+   "survived": 1,
+   "fut_ability_v2": 52.1,
+   "player_name": "Hamari Traoré",
+   "squad": "Rennes"
+  },
+  {
    "fbref_id": "b69261a0",
    "season": 2019,
-   "distance": 1.814,
+   "distance": 1.824,
    "survived": 1,
    "fut_ability_v2": 45.4,
    "player_name": "Oscar Wendt",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "00b0bb87",
    "season": 2018,
-   "distance": 1.883,
+   "distance": 1.964,
    "survived": 1,
    "fut_ability_v2": 46.3,
    "player_name": "Fabrizio Cacciatore",
    "squad": "Chievo"
   },
   {
-   "fbref_id": "088ca1bd",
-   "season": 2020,
-   "distance": 1.955,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jonathan Schmid",
-   "squad": "Freiburg"
-  },
-  {
    "fbref_id": "44eb9093",
    "season": 2018,
-   "distance": 2.049,
+   "distance": 1.982,
    "survived": 1,
    "fut_ability_v2": 54.1,
    "player_name": "Danilo D'Ambrosio",
    "squad": "Inter"
   },
   {
+   "fbref_id": "088ca1bd",
+   "season": 2020,
+   "distance": 2.008,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Schmid",
+   "squad": "Freiburg"
+  },
+  {
    "fbref_id": "3f65898c",
    "season": 2019,
-   "distance": 2.149,
+   "distance": 2.081,
    "survived": 1,
    "fut_ability_v2": 49.0,
    "player_name": "Theodor Gebre Selassie",
    "squad": "Werder Bremen"
   },
   {
-   "fbref_id": "173061c0",
-   "season": 2020,
-   "distance": 2.183,
+   "fbref_id": "0b5a292a",
+   "season": 2022,
+   "distance": 2.088,
    "survived": 1,
-   "fut_ability_v2": 53.8,
-   "player_name": "Riccardo Gagliolo",
-   "squad": "Parma"
+   "fut_ability_v2": 57.3,
+   "player_name": "Mário Rui",
+   "squad": "Napoli"
   },
   {
-   "fbref_id": "088ca1bd",
-   "season": 2019,
-   "distance": 2.189,
+   "fbref_id": "05439de2",
+   "season": 2021,
+   "distance": 2.121,
    "survived": 1,
-   "fut_ability_v2": 53.8,
-   "player_name": "Jonathan Schmid",
-   "squad": "Augsburg"
+   "fut_ability_v2": 52.1,
+   "player_name": "David Alaba",
+   "squad": "Bayern Munich"
   },
   {
    "fbref_id": "44eb9093",
    "season": 2019,
-   "distance": 2.202,
+   "distance": 2.194,
    "survived": 1,
    "fut_ability_v2": 54.9,
    "player_name": "Danilo D'Ambrosio",
    "squad": "Inter"
-  },
-  {
-   "fbref_id": "01226327",
-   "season": 2020,
-   "distance": 2.254,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ryan Bertrand",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "d83bbc54",
-   "season": 2020,
-   "distance": 2.307,
-   "survived": 1,
-   "fut_ability_v2": 41.3,
-   "player_name": "Daniel Wass",
-   "squad": "Valencia"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Giovanni Di Lorenzo(DF)의 현재 능력 점수는 57.2점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스, 박스 진입 패스, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 볼 리커버리이다.",
-  "potential": "Giovanni Di Lorenzo의 2~3년 후 예측 중심값은 57.8점, 80% 구간 상단은 67.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 83.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Giovanni Di Lorenzo의 2~3년 후 예측 중심값은 54.9점, 80% 구간 상단은 64.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 50.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

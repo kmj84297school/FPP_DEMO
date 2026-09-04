@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4252,
-  "mu": 50.6,
+  "survival_prob": 0.5453,
+  "mu": 50.5,
   "ci80": {
-   "lo": 41.2,
+   "lo": 41.1,
    "hi": 59.9
   },
   "ci50": {
    "lo": 45.6,
-   "hi": 55.5
+   "hi": 55.4
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "2334478a",
    "season": 2020,
-   "distance": 1.943,
+   "distance": 1.902,
    "survived": 1,
    "fut_ability_v2": 42.2,
    "player_name": "Stefano Sturaro",
    "squad": "Genoa"
   },
   {
+   "fbref_id": "004d185e",
+   "season": 2022,
+   "distance": 1.944,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Tete Morente",
+   "squad": "Elche"
+  },
+  {
    "fbref_id": "dfb6490a",
    "season": 2018,
-   "distance": 1.969,
+   "distance": 1.97,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Patrick Herrmann",
    "squad": "M'Gladbach"
   },
   {
+   "fbref_id": "5a8d6540",
+   "season": 2022,
+   "distance": 2.009,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jeremy Dudziak",
+   "squad": "Greuther Fürth"
+  },
+  {
    "fbref_id": "05816e19",
    "season": 2020,
-   "distance": 2.037,
+   "distance": 2.078,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juan Ferney Otero",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "16daec92",
    "season": 2020,
-   "distance": 2.076,
+   "distance": 2.142,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mijat Gaćinović",
    "squad": "Eint Frankfurt"
   },
   {
+   "fbref_id": "ea02beaf",
+   "season": 2022,
+   "distance": 2.187,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Remi Oudin",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "271b8617",
+   "season": 2021,
+   "distance": 2.193,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcus Ingvartsen",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "867501bf",
+   "season": 2021,
+   "distance": 2.304,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Benito Raman",
+   "squad": "Schalke 04"
+  },
+  {
    "fbref_id": "29f7cfd9",
    "season": 2018,
-   "distance": 2.262,
+   "distance": 2.304,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Simon Zoller",
    "squad": "Köln"
-  },
-  {
-   "fbref_id": "410ab123",
-   "season": 2018,
-   "distance": 2.317,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lewis Holtby",
-   "squad": "Hamburger SV"
-  },
-  {
-   "fbref_id": "1512328c",
-   "season": 2018,
-   "distance": 2.343,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Keko",
-   "squad": "Málaga"
-  },
-  {
-   "fbref_id": "4accb7e0",
-   "season": 2018,
-   "distance": 2.382,
-   "survived": 1,
-   "fut_ability_v2": 38.8,
-   "player_name": "Darko Brašanac",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "1a1033a1",
-   "season": 2020,
-   "distance": 2.405,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "João Victor Santos Sá",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "81255c03",
-   "season": 2018,
-   "distance": 2.418,
-   "survived": 1,
-   "fut_ability_v2": 50.9,
-   "player_name": "João Pedro",
-   "squad": "Cagliari"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mattias Svanberg(MF)의 현재 능력 점수는 50.5점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 패스 성공률이다.",
-  "potential": "Mattias Svanberg의 2~3년 후 예측 중심값은 50.6점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mattias Svanberg의 2~3년 후 예측 중심값은 50.5점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.709,
-  "mu": 42.2,
+  "survival_prob": 0.5652,
+  "mu": 41.4,
   "ci80": {
-   "lo": 31.4,
-   "hi": 53.1
+   "lo": 30.2,
+   "hi": 52.5
   },
   "ci50": {
-   "lo": 36.5,
-   "hi": 47.9
+   "lo": 35.5,
+   "hi": 47.3
   },
-  "sigma_model": 2.6,
+  "sigma_model": 3.5,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "c17bfb65",
+   "season": 2021,
+   "distance": 1.457,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Joelinton",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "a6103274",
+   "season": 2022,
+   "distance": 2.089,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Randy Ntekja",
+   "squad": "Rayo Vallecano"
+  },
+  {
    "fbref_id": "2979c05a",
    "season": 2018,
-   "distance": 2.436,
+   "distance": 2.492,
    "survived": 1,
    "fut_ability_v2": 44.1,
    "player_name": "Gerrit Holtmann",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "718b8afd",
    "season": 2020,
-   "distance": 2.537,
+   "distance": 2.544,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Florian Ayé",
    "squad": "Brescia"
   },
   {
-   "fbref_id": "62437b4f",
-   "season": 2019,
-   "distance": 2.621,
-   "survived": 1,
-   "fut_ability_v2": 58.2,
-   "player_name": "Ignacio Pussetto",
-   "squad": "Udinese"
-  },
-  {
    "fbref_id": "1fca9171",
    "season": 2018,
-   "distance": 2.635,
+   "distance": 2.653,
    "survived": 1,
    "fut_ability_v2": 47.2,
    "player_name": "Federico Di Francesco",
    "squad": "Bologna"
   },
   {
+   "fbref_id": "62437b4f",
+   "season": 2019,
+   "distance": 2.656,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Ignacio Pussetto",
+   "squad": "Udinese"
+  },
+  {
    "fbref_id": "c17bfb65",
    "season": 2020,
-   "distance": 2.68,
+   "distance": 2.704,
    "survived": 1,
    "fut_ability_v2": 58.9,
    "player_name": "Joelinton",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "78b8ac63",
-   "season": 2020,
-   "distance": 2.981,
+   "fbref_id": "9d5dcc23",
+   "season": 2021,
+   "distance": 2.741,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Oliver McBurnie",
-   "squad": "Sheffield Utd"
+   "player_name": "Lamine Gueye",
+   "squad": "Metz"
   },
   {
-   "fbref_id": "0b90bb97",
-   "season": 2020,
-   "distance": 3.033,
-   "survived": 1,
-   "fut_ability_v2": 42.9,
-   "player_name": "Santi Mina",
-   "squad": "Celta Vigo"
+   "fbref_id": "229cd98a",
+   "season": 2021,
+   "distance": 2.753,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Córdova",
+   "squad": "Arminia"
   },
   {
-   "fbref_id": "f8eca1b6",
-   "season": 2020,
-   "distance": 3.063,
-   "survived": 1,
-   "fut_ability_v2": 38.3,
-   "player_name": "Enes Ünal",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "2054d037",
-   "season": 2018,
-   "distance": 3.127,
-   "survived": 1,
-   "fut_ability_v2": 38.0,
-   "player_name": "M'Baye Niang",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "ba115a40",
-   "season": 2018,
-   "distance": 3.195,
-   "survived": 1,
-   "fut_ability_v2": 48.1,
-   "player_name": "Sébastien Haller",
-   "squad": "Eint Frankfurt"
+   "fbref_id": "d125f22f",
+   "season": 2022,
+   "distance": 2.77,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Okereke",
+   "squad": "Venezia"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Santiago Pierotti(FW)의 현재 능력 점수는 36.8점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 태클+인터셉트, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 골 창출(GCA)이다.",
-  "potential": "Santiago Pierotti의 2~3년 후 예측 중심값은 42.2점, 80% 구간 상단은 53.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 70.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Santiago Pierotti의 2~3년 후 예측 중심값은 41.4점, 80% 구간 상단은 52.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 56.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

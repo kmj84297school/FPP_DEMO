@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8113,
-  "mu": 53.3,
+  "survival_prob": 0.7525,
+  "mu": 52.6,
   "ci80": {
-   "lo": 44.1,
-   "hi": 62.4
+   "lo": 43.4,
+   "hi": 61.8
   },
   "ci50": {
-   "lo": 48.4,
-   "hi": 58.0
+   "lo": 47.7,
+   "hi": 57.4
   },
   "sigma_model": 1.1,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "3cefcaef",
+   "season": 2021,
+   "distance": 1.491,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Ferland Mendy",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "089550f5",
    "season": 2019,
-   "distance": 2.11,
+   "distance": 2.139,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kwadwo Asamoah",
@@ -58,52 +67,43 @@
   {
    "fbref_id": "86dd77d1",
    "season": 2020,
-   "distance": 2.355,
+   "distance": 2.372,
    "survived": 1,
    "fut_ability_v2": 57.7,
    "player_name": "Kyle Walker",
    "squad": "Manchester City"
   },
   {
-   "fbref_id": "16e9d0ea",
-   "season": 2019,
-   "distance": 2.387,
-   "survived": 1,
-   "fut_ability_v2": 60.3,
-   "player_name": "Álex Moreno",
-   "squad": "Rayo Vallecano"
-  },
-  {
    "fbref_id": "4958bfb2",
    "season": 2019,
-   "distance": 2.436,
+   "distance": 2.383,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Dani Carvajal",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "16e9d0ea",
+   "season": 2019,
+   "distance": 2.39,
+   "survived": 1,
+   "fut_ability_v2": 60.3,
+   "player_name": "Álex Moreno",
+   "squad": "Rayo Vallecano"
+  },
+  {
    "fbref_id": "335fa267",
    "season": 2020,
-   "distance": 2.453,
+   "distance": 2.456,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sergi Roberto",
    "squad": "Barcelona"
   },
   {
-   "fbref_id": "7f78ad23",
-   "season": 2019,
-   "distance": 2.54,
-   "survived": 1,
-   "fut_ability_v2": 56.1,
-   "player_name": "Ricardo Rodríguez",
-   "squad": "Milan"
-  },
-  {
    "fbref_id": "fbbb9269",
    "season": 2019,
-   "distance": 2.553,
+   "distance": 2.477,
    "survived": 1,
    "fut_ability_v2": 59.9,
    "player_name": "Youssouf Sabaly",
@@ -112,29 +112,29 @@
   {
    "fbref_id": "335fa267",
    "season": 2019,
-   "distance": 2.571,
+   "distance": 2.498,
    "survived": 1,
    "fut_ability_v2": 68.2,
    "player_name": "Sergi Roberto",
    "squad": "Barcelona"
   },
   {
+   "fbref_id": "7f78ad23",
+   "season": 2019,
+   "distance": 2.516,
+   "survived": 1,
+   "fut_ability_v2": 56.1,
+   "player_name": "Ricardo Rodríguez",
+   "squad": "Milan"
+  },
+  {
    "fbref_id": "335fa267",
    "season": 2018,
-   "distance": 2.605,
+   "distance": 2.559,
    "survived": 1,
    "fut_ability_v2": 62.7,
    "player_name": "Sergi Roberto",
    "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "a4b1028a",
-   "season": 2019,
-   "distance": 2.731,
-   "survived": 1,
-   "fut_ability_v2": 67.5,
-   "player_name": "Hamari Traoré",
-   "squad": "Rennes"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Kyle Walker-Peters(DF)의 현재 능력 점수는 55.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반, 성공 드리블, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 태클 성공률이다.",
-  "potential": "Kyle Walker-Peters의 2~3년 후 예측 중심값은 53.3점, 80% 구간 상단은 62.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 81.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Kyle Walker-Peters의 2~3년 후 예측 중심값은 52.6점, 80% 구간 상단은 61.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

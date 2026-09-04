@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.827,
-  "mu": 60.0,
+  "survival_prob": 0.8007,
+  "mu": 59.3,
   "ci80": {
-   "lo": 50.8,
-   "hi": 69.3
+   "lo": 49.9,
+   "hi": 68.6
   },
   "ci50": {
-   "lo": 55.2,
-   "hi": 65.0
+   "lo": 54.3,
+   "hi": 64.2
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "c40b6180",
-   "season": 2020,
-   "distance": 1.33,
+   "fbref_id": "b77f44a4",
+   "season": 2021,
+   "distance": 0.965,
    "survived": 1,
-   "fut_ability_v2": 62.1,
-   "player_name": "Adam Webster",
-   "squad": "Brighton"
+   "fut_ability_v2": 57.2,
+   "player_name": "Marvin Friedrich",
+   "squad": "Union Berlin"
   },
   {
    "fbref_id": "8b95acda",
    "season": 2020,
-   "distance": 1.373,
+   "distance": 1.324,
    "survived": 1,
    "fut_ability_v2": 52.9,
    "player_name": "Omar Colley",
    "squad": "Sampdoria"
   },
   {
+   "fbref_id": "c40b6180",
+   "season": 2020,
+   "distance": 1.34,
+   "survived": 1,
+   "fut_ability_v2": 62.1,
+   "player_name": "Adam Webster",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "5e66fa06",
+   "season": 2022,
+   "distance": 1.386,
+   "survived": 1,
+   "fut_ability_v2": 72.1,
+   "player_name": "Waldemar Anton",
+   "squad": "Stuttgart"
+  },
+  {
    "fbref_id": "080440a4",
    "season": 2020,
-   "distance": 1.421,
+   "distance": 1.452,
    "survived": 1,
    "fut_ability_v2": 68.8,
    "player_name": "Martin Hinteregger",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "4b3e1a38",
    "season": 2020,
-   "distance": 1.499,
+   "distance": 1.548,
    "survived": 1,
    "fut_ability_v2": 61.7,
    "player_name": "Amir Rrahmani",
    "squad": "Hellas Verona"
   },
   {
-   "fbref_id": "080440a4",
-   "season": 2018,
-   "distance": 1.665,
+   "fbref_id": "16aa7d4c",
+   "season": 2021,
+   "distance": 1.553,
    "survived": 1,
-   "fut_ability_v2": 65.2,
-   "player_name": "Martin Hinteregger",
-   "squad": "Augsburg"
+   "fut_ability_v2": 55.2,
+   "player_name": "Brendan Chardonnet",
+   "squad": "Brest"
   },
   {
    "fbref_id": "8c725b43",
    "season": 2018,
-   "distance": 1.71,
+   "distance": 1.635,
    "survived": 1,
    "fut_ability_v2": 52.0,
    "player_name": "Germán Pezzella",
    "squad": "Fiorentina"
   },
   {
-   "fbref_id": "e27da244",
-   "season": 2020,
-   "distance": 1.745,
-   "survived": 1,
-   "fut_ability_v2": 64.3,
-   "player_name": "John Brooks",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "c5b7c315",
-   "season": 2019,
-   "distance": 1.787,
-   "survived": 1,
-   "fut_ability_v2": 59.8,
-   "player_name": "Michael Keane",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "b82880c6",
+   "fbref_id": "080440a4",
    "season": 2018,
-   "distance": 1.806,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simon Falette",
-   "squad": "Eint Frankfurt / Metz"
+   "distance": 1.642,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Martin Hinteregger",
+   "squad": "Augsburg"
   },
   {
-   "fbref_id": "3f2d59fe",
-   "season": 2019,
-   "distance": 1.846,
+   "fbref_id": "00242715",
+   "season": 2021,
+   "distance": 1.68,
    "survived": 1,
-   "fut_ability_v2": 61.7,
-   "player_name": "Shkodran Mustafi",
-   "squad": "Arsenal"
+   "fut_ability_v2": 52.5,
+   "player_name": "Moussa Niakhate",
+   "squad": "Mainz 05"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Marc Guéhi(DF)의 현재 능력 점수는 65.7점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 슈팅당 기대득점, 블록, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 운반이다.",
-  "potential": "Marc Guéhi의 2~3년 후 예측 중심값은 60.0점, 80% 구간 상단은 69.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 82.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marc Guéhi의 2~3년 후 예측 중심값은 59.3점, 80% 구간 상단은 68.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 80.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

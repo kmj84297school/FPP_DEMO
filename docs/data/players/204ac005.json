@@ -32,24 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.224,
-  "mu": 43.5,
+  "survival_prob": 0.4468,
+  "mu": 44.5,
   "ci80": {
-   "lo": 34.0,
-   "hi": 53.2
+   "lo": 34.9,
+   "hi": 54.0
   },
   "ci50": {
-   "lo": 38.5,
-   "hi": 48.6
+   "lo": 39.4,
+   "hi": 49.5
   },
-  "sigma_model": 2.5,
-  "sigma_residual": 7.0
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "016ff750",
+   "season": 2021,
+   "distance": 2.18,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Valentino Lazaro",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "b7a5bc86",
+   "season": 2021,
+   "distance": 2.392,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mohamed Fares",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "b05e2dbd",
+   "season": 2022,
+   "distance": 2.441,
+   "survived": 1,
+   "fut_ability_v2": 58.1,
+   "player_name": "José Luis Gayà",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2021,
+   "distance": 2.442,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "6213fd82",
    "season": 2020,
-   "distance": 2.513,
+   "distance": 2.543,
    "survived": 1,
    "fut_ability_v2": 45.0,
    "player_name": "Arkadiusz Reca",
@@ -58,83 +94,47 @@
   {
    "fbref_id": "8e45910b",
    "season": 2019,
-   "distance": 2.62,
+   "distance": 2.613,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Francesco Zampano",
    "squad": "Frosinone"
   },
   {
+   "fbref_id": "037dbd30",
+   "season": 2022,
+   "distance": 2.686,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Son",
+   "squad": "Levante"
+  },
+  {
    "fbref_id": "ef5b337e",
    "season": 2018,
-   "distance": 2.717,
+   "distance": 2.731,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabio Borini",
    "squad": "Milan"
   },
   {
+   "fbref_id": "fa661778",
+   "season": 2022,
+   "distance": 2.755,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Marius Wolf",
+   "squad": "Dortmund"
+  },
+  {
    "fbref_id": "5128bde4",
    "season": 2018,
-   "distance": 2.754,
+   "distance": 2.819,
    "survived": 1,
    "fut_ability_v2": 53.6,
    "player_name": "Darko Lazović",
    "squad": "Genoa"
-  },
-  {
-   "fbref_id": "6435e737",
-   "season": 2018,
-   "distance": 2.85,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Konstantin Rausch",
-   "squad": "Köln"
-  },
-  {
-   "fbref_id": "e726e11e",
-   "season": 2018,
-   "distance": 2.853,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Victor Moses",
-   "squad": "Chelsea"
-  },
-  {
-   "fbref_id": "e5b98a70",
-   "season": 2019,
-   "distance": 2.853,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luca Paganini",
-   "squad": "Frosinone"
-  },
-  {
-   "fbref_id": "d459281d",
-   "season": 2019,
-   "distance": 2.87,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Miiko Albornoz",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "b3b7f5a6",
-   "season": 2018,
-   "distance": 2.874,
-   "survived": 1,
-   "fut_ability_v2": 52.9,
-   "player_name": "Timothy Chandler",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "f7aa75bd",
-   "season": 2019,
-   "distance": 2.889,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Marvin Plattenhardt",
-   "squad": "Hertha BSC"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Samuele Birindelli(DF)의 현재 능력 점수는 41.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 유효슈팅, 무페널티 득점, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 공중볼 승리이다.",
-  "potential": "Samuele Birindelli의 2~3년 후 예측 중심값은 43.5점, 80% 구간 상단은 53.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Samuele Birindelli의 2~3년 후 예측 중심값은 44.5점, 80% 구간 상단은 54.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

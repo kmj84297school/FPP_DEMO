@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6874,
-  "mu": 67.0,
+  "survival_prob": 0.5969,
+  "mu": 70.8,
   "ci80": {
-   "lo": 57.2,
-   "hi": 76.8
+   "lo": 60.3,
+   "hi": 81.2
   },
   "ci50": {
-   "lo": 61.8,
-   "hi": 72.2
+   "lo": 65.3,
+   "hi": 76.3
   },
-  "sigma_model": 3.1,
-  "sigma_residual": 7.0
+  "sigma_model": 4.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "49fe9070",
+   "season": 2022,
+   "distance": 2.845,
+   "survived": 1,
+   "fut_ability_v2": 78.5,
+   "player_name": "Timo Werner",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "eb2fe5b6",
    "season": 2018,
-   "distance": 3.209,
+   "distance": 3.192,
    "survived": 1,
    "fut_ability_v2": 88.1,
    "player_name": "Luis Muriel",
@@ -58,16 +67,25 @@
   {
    "fbref_id": "5ceba7fc",
    "season": 2019,
-   "distance": 3.32,
+   "distance": 3.329,
    "survived": 1,
    "fut_ability_v2": 76.1,
    "player_name": "Karl Toko Ekambi",
    "squad": "Villarreal"
   },
   {
+   "fbref_id": "8b788c01",
+   "season": 2021,
+   "distance": 3.462,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anthony Martial",
+   "squad": "Manchester Utd"
+  },
+  {
    "fbref_id": "0ae4e09a",
    "season": 2018,
-   "distance": 3.579,
+   "distance": 3.551,
    "survived": 1,
    "fut_ability_v2": 40.9,
    "player_name": "Roger Martí",
@@ -76,7 +94,7 @@
   {
    "fbref_id": "129af0db",
    "season": 2019,
-   "distance": 3.603,
+   "distance": 3.576,
    "survived": 1,
    "fut_ability_v2": 71.7,
    "player_name": "Álvaro Morata",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "5ceba7fc",
    "season": 2020,
-   "distance": 3.67,
+   "distance": 3.646,
    "survived": 1,
    "fut_ability_v2": 69.7,
    "player_name": "Karl Toko Ekambi",
    "squad": "Villarreal / Lyon"
   },
   {
+   "fbref_id": "68c720b5",
+   "season": 2022,
+   "distance": 3.665,
+   "survived": 1,
+   "fut_ability_v2": 33.0,
+   "player_name": "Adam Armstrong",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "f08490a6",
+   "season": 2022,
+   "distance": 3.733,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Arnaut Groeneveld",
+   "squad": "Villarreal"
+  },
+  {
    "fbref_id": "2973d8ff",
    "season": 2019,
-   "distance": 3.761,
+   "distance": 3.747,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Michy Batshuayi",
    "squad": "Crystal Palace / Valencia"
-  },
-  {
-   "fbref_id": "02ef8778",
-   "season": 2020,
-   "distance": 3.909,
-   "survived": 1,
-   "fut_ability_v2": 53.1,
-   "player_name": "Raúl de Tomás",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "4be0b467",
-   "season": 2019,
-   "distance": 3.927,
-   "survived": 1,
-   "fut_ability_v2": 33.0,
-   "player_name": "Lois Diony",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "e3fabb0a",
-   "season": 2019,
-   "distance": 3.978,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wu Lei",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "9f381d8b",
-   "season": 2018,
-   "distance": 3.986,
-   "survived": 1,
-   "fut_ability_v2": 55.6,
-   "player_name": "Jhon Córdoba",
-   "squad": "Köln"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Donyell Malen(FW)의 현재 능력 점수는 57.0점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 유효슈팅, 박스 터치, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 도움 기대값(xAG)이다.",
-  "potential": "Donyell Malen의 2~3년 후 예측 중심값은 67.0점, 80% 구간 상단은 76.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 68.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Donyell Malen의 2~3년 후 예측 중심값은 70.8점, 80% 구간 상단은 81.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

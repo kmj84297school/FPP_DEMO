@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8783,
-  "mu": 53.6,
+  "survival_prob": 0.8147,
+  "mu": 50.8,
   "ci80": {
-   "lo": 42.9,
-   "hi": 64.2
+   "lo": 40.2,
+   "hi": 61.5
   },
   "ci50": {
-   "lo": 48.0,
-   "hi": 59.2
+   "lo": 45.2,
+   "hi": 56.4
   },
-  "sigma_model": 2.2,
+  "sigma_model": 2.4,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "2374aaca",
    "season": 2019,
-   "distance": 2.124,
+   "distance": 2.167,
    "survived": 1,
    "fut_ability_v2": 69.5,
    "player_name": "Nicolás González",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "59e6e5bf",
    "season": 2018,
-   "distance": 2.282,
+   "distance": 2.264,
    "survived": 1,
    "fut_ability_v2": 51.0,
    "player_name": "Dominic Calvert-Lewin",
@@ -67,34 +67,43 @@
   {
    "fbref_id": "66385c46",
    "season": 2018,
-   "distance": 2.454,
+   "distance": 2.426,
    "survived": 1,
    "fut_ability_v2": 57.7,
    "player_name": "Levin Öztunalı",
    "squad": "Mainz 05"
   },
   {
-   "fbref_id": "58e933d2",
-   "season": 2019,
-   "distance": 2.576,
-   "survived": 1,
-   "fut_ability_v2": 45.4,
-   "player_name": "Christian Kouamé",
-   "squad": "Genoa"
-  },
-  {
    "fbref_id": "f8eca1b6",
    "season": 2020,
-   "distance": 2.625,
+   "distance": 2.574,
    "survived": 1,
    "fut_ability_v2": 38.3,
    "player_name": "Enes Ünal",
    "squad": "Valladolid"
   },
   {
+   "fbref_id": "58e933d2",
+   "season": 2019,
+   "distance": 2.604,
+   "survived": 1,
+   "fut_ability_v2": 45.4,
+   "player_name": "Christian Kouamé",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "a8d4428b",
+   "season": 2021,
+   "distance": 2.919,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Josh Sargent",
+   "squad": "Werder Bremen"
+  },
+  {
    "fbref_id": "59e6e5bf",
    "season": 2019,
-   "distance": 2.976,
+   "distance": 2.95,
    "survived": 1,
    "fut_ability_v2": 46.5,
    "player_name": "Dominic Calvert-Lewin",
@@ -103,7 +112,7 @@
   {
    "fbref_id": "aa1a8c7e",
    "season": 2018,
-   "distance": 2.987,
+   "distance": 2.962,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Isaac Mbenza",
@@ -112,7 +121,7 @@
   {
    "fbref_id": "71b47ab9",
    "season": 2020,
-   "distance": 3.008,
+   "distance": 3.009,
    "survived": 1,
    "fut_ability_v2": 60.5,
    "player_name": "Cucho",
@@ -121,20 +130,11 @@
   {
    "fbref_id": "19ba6c6d",
    "season": 2018,
-   "distance": 3.078,
+   "distance": 3.04,
    "survived": 1,
    "fut_ability_v2": 52.5,
    "player_name": "Steve Mounié",
    "squad": "Huddersfield"
-  },
-  {
-   "fbref_id": "62437b4f",
-   "season": 2019,
-   "distance": 3.23,
-   "survived": 1,
-   "fut_ability_v2": 58.2,
-   "player_name": "Ignacio Pussetto",
-   "squad": "Udinese"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Christantus Uche(FW)의 현재 능력 점수는 42.1점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 공중볼 승률, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 슈팅당 기대득점이다.",
-  "potential": "Christantus Uche의 2~3년 후 예측 중심값은 53.6점, 80% 구간 상단은 64.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Christantus Uche의 2~3년 후 예측 중심값은 50.8점, 80% 구간 상단은 61.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 81.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

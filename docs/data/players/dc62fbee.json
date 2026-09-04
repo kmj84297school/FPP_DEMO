@@ -32,33 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3496,
-  "mu": 58.7,
+  "survival_prob": 0.1521,
+  "mu": 53.3,
   "ci80": {
-   "lo": 49.1,
-   "hi": 68.4
+   "lo": 43.9,
+   "hi": 62.7
   },
   "ci50": {
-   "lo": 53.6,
-   "hi": 63.9
+   "lo": 48.3,
+   "hi": 58.2
   },
-  "sigma_model": 2.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "99813635",
+   "season": 2021,
+   "distance": 2.605,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Lallana",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "436a9dd0",
+   "season": 2022,
+   "distance": 2.722,
+   "survived": 1,
+   "fut_ability_v2": 65.2,
+   "player_name": "Ander Herrera",
+   "squad": "Paris S-G"
+  },
+  {
    "fbref_id": "719384c1",
    "season": 2020,
-   "distance": 2.664,
+   "distance": 2.758,
    "survived": 1,
    "fut_ability_v2": 45.0,
    "player_name": "Ángel Montoro",
    "squad": "Granada"
   },
   {
+   "fbref_id": "dc3fa3b5",
+   "season": 2021,
+   "distance": 2.768,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Demme",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "26f6dca8",
+   "season": 2022,
+   "distance": 2.798,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Lanzini",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "282679b4",
+   "season": 2022,
+   "distance": 2.848,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mateusz Klich",
+   "squad": "Leeds United"
+  },
+  {
+   "fbref_id": "4a56052c",
+   "season": 2022,
+   "distance": 2.949,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Jordan Veretout",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "11b9265b",
+   "season": 2022,
+   "distance": 3.002,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Alberto Moreno",
+   "squad": "Villarreal"
+  },
+  {
    "fbref_id": "b037bd4f",
    "season": 2018,
-   "distance": 2.996,
+   "distance": 3.01,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Beñat Etxebarria",
@@ -67,74 +130,11 @@
   {
    "fbref_id": "6cdd8245",
    "season": 2020,
-   "distance": 3.012,
+   "distance": 3.037,
    "survived": 1,
    "fut_ability_v2": 35.7,
    "player_name": "Tom Cleverley",
    "squad": "Watford"
-  },
-  {
-   "fbref_id": "ef322658",
-   "season": 2018,
-   "distance": 3.183,
-   "survived": 1,
-   "fut_ability_v2": 50.9,
-   "player_name": "Andrés Guardado",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "7c4243d4",
-   "season": 2019,
-   "distance": 3.203,
-   "survived": 1,
-   "fut_ability_v2": 48.1,
-   "player_name": "Roque Mesa",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "e12b0b5b",
-   "season": 2020,
-   "distance": 3.332,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sebastian Rode",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "436a9dd0",
-   "season": 2019,
-   "distance": 3.422,
-   "survived": 1,
-   "fut_ability_v2": 65.1,
-   "player_name": "Ander Herrera",
-   "squad": "Manchester Utd"
-  },
-  {
-   "fbref_id": "68829001",
-   "season": 2018,
-   "distance": 3.429,
-   "survived": 1,
-   "fut_ability_v2": 61.7,
-   "player_name": "Gonzalo Castro",
-   "squad": "Dortmund"
-  },
-  {
-   "fbref_id": "67cdbc0e",
-   "season": 2020,
-   "distance": 3.467,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Arturo Vidal",
-   "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "c801616a",
-   "season": 2019,
-   "distance": 3.492,
-   "survived": 1,
-   "fut_ability_v2": 56.5,
-   "player_name": "Thomas Mangani",
-   "squad": "Angers"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Leonardo Bittencourt(MF)의 현재 능력 점수는 60.5점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 시도, 유효슈팅, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 태클 성공률이다.",
-  "potential": "Leonardo Bittencourt의 2~3년 후 예측 중심값은 58.7점, 80% 구간 상단은 68.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 35.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Leonardo Bittencourt의 2~3년 후 예측 중심값은 53.3점, 80% 구간 상단은 62.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 15.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

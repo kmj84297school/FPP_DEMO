@@ -32,24 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1476,
-  "mu": 45.7,
+  "survival_prob": 0.1584,
+  "mu": 41.7,
   "ci80": {
-   "lo": 36.3,
-   "hi": 55.1
+   "lo": 32.2,
+   "hi": 51.1
   },
   "ci50": {
-   "lo": 40.7,
-   "hi": 50.6
+   "lo": 36.7,
+   "hi": 46.6
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "e94d79e3",
+   "season": 2021,
+   "distance": 1.732,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martín Cáceres",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "b69261a0",
+   "season": 2021,
+   "distance": 1.994,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "c18d22f5",
+   "season": 2021,
+   "distance": 2.344,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Peter Pekarík",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "d4cb83cc",
+   "season": 2021,
+   "distance": 2.425,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho Monreal",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "487d9b09",
+   "season": 2021,
+   "distance": 2.455,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonio Barragán",
+   "squad": "Elche"
+  },
+  {
+   "fbref_id": "be927d03",
+   "season": 2021,
+   "distance": 2.539,
+   "survived": 1,
+   "fut_ability_v2": 39.9,
+   "player_name": "Ashley Young",
+   "squad": "Inter"
+  },
+  {
    "fbref_id": "b69261a0",
    "season": 2020,
-   "distance": 2.529,
+   "distance": 2.603,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Oscar Wendt",
@@ -58,83 +112,29 @@
   {
    "fbref_id": "e97150c0",
    "season": 2020,
-   "distance": 2.608,
+   "distance": 2.627,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jérémy Morel",
    "squad": "Rennes"
   },
   {
-   "fbref_id": "d4cb83cc",
-   "season": 2020,
-   "distance": 2.741,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Nacho Monreal",
-   "squad": "Real Sociedad / Arsenal"
+   "fbref_id": "be927d03",
+   "season": 2022,
+   "distance": 2.675,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Ashley Young",
+   "squad": "Aston Villa"
   },
   {
    "fbref_id": "e94d79e3",
    "season": 2020,
-   "distance": 2.755,
+   "distance": 2.734,
    "survived": 1,
    "fut_ability_v2": 42.2,
    "player_name": "Martín Cáceres",
    "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "b18095b6",
-   "season": 2018,
-   "distance": 2.795,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Leighton Baines",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "8cea6319",
-   "season": 2019,
-   "distance": 2.9,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Felipe dal Belo",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "d0421d25",
-   "season": 2018,
-   "distance": 2.955,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Julian Schuster",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "5eb72339",
-   "season": 2018,
-   "distance": 2.956,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simone Padoin",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "d4cb83cc",
-   "season": 2019,
-   "distance": 2.977,
-   "survived": 1,
-   "fut_ability_v2": 47.2,
-   "player_name": "Nacho Monreal",
-   "squad": "Arsenal"
-  },
-  {
-   "fbref_id": "5eb72339",
-   "season": 2019,
-   "distance": 3.132,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simone Padoin",
-   "squad": "Cagliari"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Matteo Darmian(DF)의 현재 능력 점수는 44.2점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 무페널티 득점, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 전진 운반 거리이다.",
-  "potential": "Matteo Darmian의 2~3년 후 예측 중심값은 45.7점, 80% 구간 상단은 55.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 14.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Matteo Darmian의 2~3년 후 예측 중심값은 41.7점, 80% 구간 상단은 51.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 15.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1291,
-  "mu": 45.7,
+  "survival_prob": 0.1703,
+  "mu": 40.2,
   "ci80": {
-   "lo": 36.3,
-   "hi": 55.0
+   "lo": 30.8,
+   "hi": 49.6
   },
   "ci50": {
-   "lo": 40.7,
-   "hi": 50.6
+   "lo": 35.3,
+   "hi": 45.2
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "933e8c8a",
    "season": 2020,
-   "distance": 1.764,
+   "distance": 1.787,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Javi Moyano",
    "squad": "Valladolid"
   },
   {
+   "fbref_id": "1fe67e86",
+   "season": 2021,
+   "distance": 1.952,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mikel Balenziaga",
+   "squad": "Athletic Club"
+  },
+  {
    "fbref_id": "933e8c8a",
    "season": 2019,
-   "distance": 1.992,
+   "distance": 1.974,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Javi Moyano",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "63071a3f",
    "season": 2019,
-   "distance": 1.995,
+   "distance": 2.01,
    "survived": 1,
    "fut_ability_v2": 44.4,
    "player_name": "Simone Iacoponi",
@@ -76,16 +85,25 @@
   {
    "fbref_id": "cfd5e123",
    "season": 2019,
-   "distance": 2.221,
+   "distance": 2.228,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gaëtan Bong",
    "squad": "Brighton"
   },
   {
+   "fbref_id": "4b6960d2",
+   "season": 2021,
+   "distance": 2.25,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yuto Nagatomo",
+   "squad": "Marseille"
+  },
+  {
    "fbref_id": "8aa5f52c",
    "season": 2020,
-   "distance": 2.287,
+   "distance": 2.279,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Adrian Mariappa",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "97572117",
    "season": 2020,
-   "distance": 2.319,
+   "distance": 2.334,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Allan Nyom",
    "squad": "Getafe"
   },
   {
+   "fbref_id": "8db394aa",
+   "season": 2021,
+   "distance": 2.512,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ximo Navarro",
+   "squad": "Alavés"
+  },
+  {
    "fbref_id": "474ecac8",
    "season": 2020,
-   "distance": 2.563,
+   "distance": 2.516,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sergio Postigo",
    "squad": "Levante"
-  },
-  {
-   "fbref_id": "db0cd1ae",
-   "season": 2018,
-   "distance": 2.592,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alexis",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "850c0a0d",
-   "season": 2020,
-   "distance": 2.714,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Anaitz Arbilla",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "3201b03d",
-   "season": 2018,
-   "distance": 2.769,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Danny Simpson",
-   "squad": "Leicester City"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Djené(DF)의 현재 능력 점수는 31.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 박스 진입 패스, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 태클+인터셉트이다.",
-  "potential": "Djené의 2~3년 후 예측 중심값은 45.7점, 80% 구간 상단은 55.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 12.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Djené의 2~3년 후 예측 중심값은 40.2점, 80% 구간 상단은 49.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 17.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

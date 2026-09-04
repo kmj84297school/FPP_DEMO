@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4441,
-  "mu": 57.1,
+  "survival_prob": 0.3206,
+  "mu": 55.4,
   "ci80": {
-   "lo": 47.7,
-   "hi": 66.6
+   "lo": 46.1,
+   "hi": 64.8
   },
   "ci50": {
-   "lo": 52.2,
-   "hi": 62.1
+   "lo": 50.5,
+   "hi": 60.5
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "2114abf9",
    "season": 2019,
-   "distance": 3.07,
+   "distance": 3.038,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Camillo Ciano",
    "squad": "Frosinone"
   },
   {
+   "fbref_id": "2979c05a",
+   "season": 2022,
+   "distance": 3.108,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Gerrit Holtmann",
+   "squad": "Bochum"
+  },
+  {
+   "fbref_id": "b0c71810",
+   "season": 2022,
+   "distance": 3.169,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sofiane Boufal",
+   "squad": "Angers"
+  },
+  {
    "fbref_id": "d3096421",
    "season": 2019,
-   "distance": 3.249,
+   "distance": 3.195,
    "survived": 1,
    "fut_ability_v2": 72.0,
    "player_name": "Daniel Didavi",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "acc7b7ec",
    "season": 2018,
-   "distance": 3.289,
+   "distance": 3.212,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fin Bartels",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "b28bbd58",
    "season": 2018,
-   "distance": 3.331,
+   "distance": 3.271,
    "survived": 1,
    "fut_ability_v2": 47.1,
    "player_name": "Andros Townsend",
    "squad": "Crystal Palace"
   },
   {
+   "fbref_id": "8eb55dbb",
+   "season": 2022,
+   "distance": 3.533,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Sheraldo Becker",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2021,
+   "distance": 3.574,
+   "survived": 1,
+   "fut_ability_v2": 44.1,
+   "player_name": "Wahbi Khazri",
+   "squad": "Saint-Étienne"
+  },
+  {
    "fbref_id": "47dc80f5",
    "season": 2018,
-   "distance": 3.623,
+   "distance": 3.658,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Adel Taarabt",
    "squad": "Genoa"
   },
   {
-   "fbref_id": "f26834c7",
-   "season": 2020,
-   "distance": 3.736,
-   "survived": 1,
-   "fut_ability_v2": 57.3,
-   "player_name": "Karim Onisiwo",
-   "squad": "Mainz 05"
-  },
-  {
    "fbref_id": "b28bbd58",
    "season": 2019,
-   "distance": 3.749,
+   "distance": 3.695,
    "survived": 1,
    "fut_ability_v2": 50.2,
    "player_name": "Andros Townsend",
    "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "2677a1de",
-   "season": 2019,
-   "distance": 3.774,
-   "survived": 1,
-   "fut_ability_v2": 50.1,
-   "player_name": "Wahbi Khazri",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "43458538",
-   "season": 2020,
-   "distance": 3.862,
-   "survived": 1,
-   "fut_ability_v2": 50.2,
-   "player_name": "Joshua King",
-   "squad": "Bournemouth"
-  },
-  {
-   "fbref_id": "54e53b7e",
-   "season": 2020,
-   "distance": 3.923,
-   "survived": 1,
-   "fut_ability_v2": 72.6,
-   "player_name": "Gianluca Caprari",
-   "squad": "Sampdoria / Parma"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Dani Raba(FW)의 현재 능력 점수는 61.7점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 창출(SCA), 키패스, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 유효슈팅이다.",
-  "potential": "Dani Raba의 2~3년 후 예측 중심값은 57.1점, 80% 구간 상단은 66.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Dani Raba의 2~3년 후 예측 중심값은 55.4점, 80% 구간 상단은 64.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

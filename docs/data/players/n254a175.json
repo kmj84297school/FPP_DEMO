@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.967,
-  "mu": 61.8,
+  "survival_prob": 0.9566,
+  "mu": 64.4,
   "ci80": {
-   "lo": 51.0,
-   "hi": 72.7
+   "lo": 53.6,
+   "hi": 75.2
   },
   "ci50": {
-   "lo": 56.2,
-   "hi": 67.5
+   "lo": 58.7,
+   "hi": 70.2
   },
-  "sigma_model": 2.5,
+  "sigma_model": 2.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "407feb71",
+   "season": 2022,
+   "distance": 1.754,
+   "survived": 1,
+   "fut_ability_v2": 75.9,
+   "player_name": "Brahim Díaz",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "d4a2533d",
+   "season": 2021,
+   "distance": 1.891,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Josip Brekalo",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "36a59ba4",
    "season": 2019,
-   "distance": 2.056,
+   "distance": 2.033,
    "survived": 1,
    "fut_ability_v2": 60.7,
    "player_name": "Florian Neuhaus",
@@ -58,34 +76,16 @@
   {
    "fbref_id": "9674002f",
    "season": 2020,
-   "distance": 2.266,
+   "distance": 2.284,
    "survived": 1,
    "fut_ability_v2": 76.0,
    "player_name": "Mason Mount",
    "squad": "Chelsea"
   },
   {
-   "fbref_id": "e7d59f4f",
-   "season": 2020,
-   "distance": 2.355,
-   "survived": 1,
-   "fut_ability_v2": 70.1,
-   "player_name": "Amine Harit",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "4dbd0916",
-   "season": 2019,
-   "distance": 2.412,
-   "survived": 1,
-   "fut_ability_v2": 72.6,
-   "player_name": "Thomas Lemar",
-   "squad": "Atlético Madrid"
-  },
-  {
    "fbref_id": "82927de4",
    "season": 2019,
-   "distance": 2.446,
+   "distance": 2.457,
    "survived": 1,
    "fut_ability_v2": 61.6,
    "player_name": "Pablo Fornals",
@@ -94,47 +94,47 @@
   {
    "fbref_id": "15b287da",
    "season": 2020,
-   "distance": 2.459,
+   "distance": 2.475,
    "survived": 1,
    "fut_ability_v2": 55.3,
    "player_name": "Daichi Kamada",
    "squad": "Eint Frankfurt"
   },
   {
-   "fbref_id": "beb391dd",
-   "season": 2018,
-   "distance": 2.584,
-   "survived": 1,
-   "fut_ability_v2": 67.1,
-   "player_name": "Maxwel Cornet",
-   "squad": "Lyon"
-  },
-  {
-   "fbref_id": "3708e9fa",
+   "fbref_id": "4dbd0916",
    "season": 2019,
-   "distance": 2.638,
+   "distance": 2.491,
    "survived": 1,
-   "fut_ability_v2": 71.3,
-   "player_name": "Aleksandr Golovin",
+   "fut_ability_v2": 72.6,
+   "player_name": "Thomas Lemar",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "e7d59f4f",
+   "season": 2020,
+   "distance": 2.493,
+   "survived": 1,
+   "fut_ability_v2": 70.1,
+   "player_name": "Amine Harit",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "741418c3",
+   "season": 2021,
+   "distance": 2.543,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexis Claude-Maurice",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "19053e31",
+   "season": 2022,
+   "distance": 2.59,
+   "survived": 1,
+   "fut_ability_v2": 77.1,
+   "player_name": "Sofiane Diop",
    "squad": "Monaco"
-  },
-  {
-   "fbref_id": "4b96c347",
-   "season": 2018,
-   "distance": 2.653,
-   "survived": 1,
-   "fut_ability_v2": 68.6,
-   "player_name": "Angelo Fulgini",
-   "squad": "Angers"
-  },
-  {
-   "fbref_id": "6ca5ec4b",
-   "season": 2018,
-   "distance": 2.735,
-   "survived": 1,
-   "fut_ability_v2": 56.3,
-   "player_name": "Alex Iwobi",
-   "squad": "Arsenal"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Hákon Arnar Haraldsson(MF)의 현재 능력 점수는 72.5점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 전진 패스 수신, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
-  "potential": "Hákon Arnar Haraldsson의 2~3년 후 예측 중심값은 61.8점, 80% 구간 상단은 72.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Hákon Arnar Haraldsson의 2~3년 후 예측 중심값은 64.4점, 80% 구간 상단은 75.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

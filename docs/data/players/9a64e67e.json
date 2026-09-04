@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4249,
-  "mu": 55.8,
+  "survival_prob": 0.7165,
+  "mu": 53.5,
   "ci80": {
-   "lo": 46.6,
-   "hi": 65.2
+   "lo": 44.2,
+   "hi": 62.8
   },
   "ci50": {
-   "lo": 51.0,
-   "hi": 60.8
+   "lo": 48.6,
+   "hi": 58.4
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "f0da930c",
+   "season": 2022,
+   "distance": 1.07,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "José María Giménez",
+   "squad": "Atlético Madrid"
+  },
+  {
    "fbref_id": "27a013f7",
    "season": 2019,
-   "distance": 1.161,
+   "distance": 1.179,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Néstor Araujo",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "42dcf26d",
    "season": 2020,
-   "distance": 1.193,
+   "distance": 1.2,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Álvaro González",
    "squad": "Marseille"
   },
   {
+   "fbref_id": "25ab9c9c",
+   "season": 2021,
+   "distance": 1.27,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "7c473e12",
+   "season": 2021,
+   "distance": 1.313,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dedryck Boyata",
+   "squad": "Hertha BSC"
+  },
+  {
    "fbref_id": "84b6acaa",
    "season": 2020,
-   "distance": 1.297,
+   "distance": 1.323,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jhon Chancellor",
    "squad": "Brescia"
   },
   {
-   "fbref_id": "25ab9c9c",
-   "season": 2018,
-   "distance": 1.299,
-   "survived": 1,
-   "fut_ability_v2": 57.2,
-   "player_name": "Manuel Gulde",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "b857bd29",
-   "season": 2020,
-   "distance": 1.366,
-   "survived": 1,
-   "fut_ability_v2": 45.9,
-   "player_name": "Antonio Raillo",
-   "squad": "Mallorca"
-  },
-  {
    "fbref_id": "c707411f",
    "season": 2019,
-   "distance": 1.401,
+   "distance": 1.329,
    "survived": 1,
    "fut_ability_v2": 46.7,
    "player_name": "Kostas Manolas",
    "squad": "Roma"
   },
   {
-   "fbref_id": "9f8e9423",
-   "season": 2020,
-   "distance": 1.502,
+   "fbref_id": "25ab9c9c",
+   "season": 2018,
+   "distance": 1.34,
    "survived": 1,
-   "fut_ability_v2": 58.9,
-   "player_name": "Raphaël Varane",
-   "squad": "Real Madrid"
+   "fut_ability_v2": 57.2,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
   },
   {
-   "fbref_id": "c707411f",
-   "season": 2020,
-   "distance": 1.509,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kostas Manolas",
-   "squad": "Napoli"
+   "fbref_id": "282f75f3",
+   "season": 2022,
+   "distance": 1.361,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Lewis Dunk",
+   "squad": "Brighton"
   },
   {
-   "fbref_id": "9f8e9423",
-   "season": 2019,
-   "distance": 1.51,
+   "fbref_id": "ce4246f5",
+   "season": 2022,
+   "distance": 1.369,
    "survived": 1,
-   "fut_ability_v2": 59.8,
-   "player_name": "Raphaël Varane",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "b7ca5c51",
-   "season": 2020,
-   "distance": 1.515,
-   "survived": 1,
-   "fut_ability_v2": 58.2,
-   "player_name": "Gabriel Paulista",
-   "squad": "Valencia"
+   "fut_ability_v2": 49.0,
+   "player_name": "Kurt Zouma",
+   "squad": "West Ham"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Robin Le Normand(DF)의 현재 능력 점수는 52.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 슈팅당 기대득점, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 최종 3분의1 패스이다.",
-  "potential": "Robin Le Normand의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 65.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Robin Le Normand의 2~3년 후 예측 중심값은 53.5점, 80% 구간 상단은 62.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

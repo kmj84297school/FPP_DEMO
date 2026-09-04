@@ -32,33 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9899,
-  "mu": 65.2,
+  "survival_prob": 0.9358,
+  "mu": 61.1,
   "ci80": {
-   "lo": 54.2,
-   "hi": 76.1
+   "lo": 50.3,
+   "hi": 71.9
   },
   "ci50": {
-   "lo": 59.4,
-   "hi": 71.0
+   "lo": 55.4,
+   "hi": 66.8
   },
-  "sigma_model": 2.9,
+  "sigma_model": 2.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "15f24fe7",
+   "season": 2021,
+   "distance": 1.932,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sasa Kalajdzic",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "8790f988",
+   "season": 2022,
+   "distance": 2.072,
+   "survived": 1,
+   "fut_ability_v2": 70.3,
+   "player_name": "Gianluca Scamacca",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "01870104",
+   "season": 2022,
+   "distance": 2.333,
+   "survived": 1,
+   "fut_ability_v2": 45.7,
+   "player_name": "Mohamed Lamine Bayo",
+   "squad": "Clermont Foot"
+  },
+  {
    "fbref_id": "e7986081",
    "season": 2019,
-   "distance": 2.453,
+   "distance": 2.465,
    "survived": 1,
    "fut_ability_v2": 70.1,
    "player_name": "Moussa Dembélé",
    "squad": "Lyon"
   },
   {
+   "fbref_id": "8c90fd7a",
+   "season": 2022,
+   "distance": 2.478,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Victor Osimhen",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "f586779e",
+   "season": 2022,
+   "distance": 2.503,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Tammy Abraham",
+   "squad": "Roma"
+  },
+  {
    "fbref_id": "5c4dc0ff",
    "season": 2018,
-   "distance": 2.526,
+   "distance": 2.536,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mariano",
@@ -67,7 +112,7 @@
   {
    "fbref_id": "3effaa34",
    "season": 2019,
-   "distance": 2.578,
+   "distance": 2.601,
    "survived": 1,
    "fut_ability_v2": 67.2,
    "player_name": "André Silva",
@@ -76,65 +121,20 @@
   {
    "fbref_id": "5d4f7d61",
    "season": 2020,
-   "distance": 2.617,
+   "distance": 2.658,
    "survived": 1,
    "fut_ability_v2": 64.1,
    "player_name": "Patrik Schick",
    "squad": "RB Leipzig"
   },
   {
-   "fbref_id": "d705ba44",
-   "season": 2018,
-   "distance": 2.786,
-   "survived": 1,
-   "fut_ability_v2": 62.8,
-   "player_name": "Andrea Belotti",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "061e8e23",
-   "season": 2018,
-   "distance": 3.107,
-   "survived": 1,
-   "fut_ability_v2": 51.0,
-   "player_name": "Maximilian Philipp",
-   "squad": "Dortmund"
-  },
-  {
-   "fbref_id": "3eaf8817",
-   "season": 2020,
-   "distance": 3.135,
+   "fbref_id": "0cc5f4a5",
+   "season": 2022,
+   "distance": 2.72,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Lebo Mothiba",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "17f3620a",
-   "season": 2019,
-   "distance": 3.195,
-   "survived": 1,
-   "fut_ability_v2": 41.6,
-   "player_name": "Krzysztof Piątek",
-   "squad": "Genoa / Milan"
-  },
-  {
-   "fbref_id": "3effaa34",
-   "season": 2020,
-   "distance": 3.198,
-   "survived": 1,
-   "fut_ability_v2": 60.0,
-   "player_name": "André Silva",
-   "squad": "Eint Frankfurt / Milan"
-  },
-  {
-   "fbref_id": "0b90bb97",
-   "season": 2019,
-   "distance": 3.248,
-   "survived": 1,
-   "fut_ability_v2": 41.5,
-   "player_name": "Santi Mina",
-   "squad": "Valencia"
+   "player_name": "Lukas Nmecha",
+   "squad": "Wolfsburg"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Nicolas Jackson(FW)의 현재 능력 점수는 66.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 유효슈팅, 비페널티 xG, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 전진 패스 거리이다.",
-  "potential": "Nicolas Jackson의 2~3년 후 예측 중심값은 65.2점, 80% 구간 상단은 76.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 99.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Nicolas Jackson의 2~3년 후 예측 중심값은 61.1점, 80% 구간 상단은 71.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7111,
-  "mu": 48.9,
+  "survival_prob": 0.7014,
+  "mu": 46.4,
   "ci80": {
-   "lo": 39.4,
-   "hi": 58.3
+   "lo": 37.0,
+   "hi": 55.7
   },
   "ci50": {
-   "lo": 43.9,
-   "hi": 53.9
+   "lo": 41.5,
+   "hi": 51.3
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "061e8e23",
+   "season": 2021,
+   "distance": 2.514,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maximilian Philipp",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "a2d873dd",
    "season": 2020,
-   "distance": 2.529,
+   "distance": 2.535,
    "survived": 1,
    "fut_ability_v2": 31.9,
    "player_name": "Hwang Ui-jo",
    "squad": "Bordeaux"
   },
   {
+   "fbref_id": "84399660",
+   "season": 2022,
+   "distance": 2.601,
+   "survived": 1,
+   "fut_ability_v2": 32.9,
+   "player_name": "Juanmi",
+   "squad": "Betis"
+  },
+  {
    "fbref_id": "0df2b165",
    "season": 2020,
-   "distance": 2.703,
+   "distance": 2.665,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "John Lundstram",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "ca2bc3df",
    "season": 2018,
-   "distance": 2.816,
+   "distance": 2.855,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "José Izquierdo",
@@ -75,66 +93,48 @@
   },
   {
    "fbref_id": "7e82a78f",
+   "season": 2022,
+   "distance": 2.906,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Florent Mollet",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "1bda5842",
+   "season": 2021,
+   "distance": 2.918,
+   "survived": 1,
+   "fut_ability_v2": 58.1,
+   "player_name": "Portu",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "5a04fd92",
+   "season": 2022,
+   "distance": 2.924,
+   "survived": 1,
+   "fut_ability_v2": 70.0,
+   "player_name": "Saïd Benrahma",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "7e82a78f",
    "season": 2018,
-   "distance": 2.908,
+   "distance": 2.95,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Florent Mollet",
    "squad": "Metz"
   },
   {
-   "fbref_id": "ee93c1a9",
-   "season": 2020,
-   "distance": 2.932,
+   "fbref_id": "c76b7567",
+   "season": 2021,
+   "distance": 2.999,
    "survived": 1,
-   "fut_ability_v2": 56.2,
-   "player_name": "Federico Bernardeschi",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "bb7337cc",
-   "season": 2018,
-   "distance": 3.034,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Paulinho",
-   "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "7c388b20",
-   "season": 2019,
-   "distance": 3.056,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Óscar Plano",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "74c7c2db",
-   "season": 2020,
-   "distance": 3.088,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Robin Quaison",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "81255c03",
-   "season": 2018,
-   "distance": 3.127,
-   "survived": 1,
-   "fut_ability_v2": 50.9,
-   "player_name": "João Pedro",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "c650629d",
-   "season": 2018,
-   "distance": 3.161,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Younousse Sankharé",
-   "squad": "Bordeaux"
+   "fut_ability_v2": 65.0,
+   "player_name": "Adrien Thomasson",
+   "squad": "Strasbourg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Boulaye Dia(MF)의 현재 능력 점수는 52.5점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 무페널티 득점, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 볼 리커버리이다.",
-  "potential": "Boulaye Dia의 2~3년 후 예측 중심값은 48.9점, 80% 구간 상단은 58.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Boulaye Dia의 2~3년 후 예측 중심값은 46.4점, 80% 구간 상단은 55.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

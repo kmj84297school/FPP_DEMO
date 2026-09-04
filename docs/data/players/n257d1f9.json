@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8865,
-  "mu": 50.1,
+  "survival_prob": 0.8259,
+  "mu": 52.4,
   "ci80": {
-   "lo": 39.4,
-   "hi": 60.7
+   "lo": 41.9,
+   "hi": 62.8
   },
   "ci50": {
-   "lo": 44.5,
-   "hi": 55.6
+   "lo": 46.8,
+   "hi": 57.9
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "f9d5908e",
+   "season": 2021,
+   "distance": 1.913,
+   "survived": 1,
+   "fut_ability_v2": 56.7,
+   "player_name": "Hicham Boudaoui",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "c2731c10",
+   "season": 2021,
+   "distance": 2.093,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Conor Gallagher",
+   "squad": "West Brom"
+  },
+  {
    "fbref_id": "8f056768",
    "season": 2020,
-   "distance": 1.968,
+   "distance": 2.121,
    "survived": 1,
    "fut_ability_v2": 52.7,
    "player_name": "Xaver Schlager",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "8ef81d2d",
    "season": 2019,
-   "distance": 2.11,
+   "distance": 2.212,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cristian Rivera",
    "squad": "Huesca"
   },
   {
-   "fbref_id": "b3325a30",
-   "season": 2018,
-   "distance": 2.172,
-   "survived": 1,
-   "fut_ability_v2": 43.0,
-   "player_name": "Suat Serdar",
-   "squad": "Mainz 05"
-  },
-  {
    "fbref_id": "7d3cbc67",
    "season": 2019,
-   "distance": 2.216,
+   "distance": 2.287,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mehdi Léris",
    "squad": "Chievo"
   },
   {
-   "fbref_id": "e778654a",
-   "season": 2020,
-   "distance": 2.248,
-   "survived": 1,
-   "fut_ability_v2": 52.9,
-   "player_name": "Yangel Herrera",
-   "squad": "Granada"
+   "fbref_id": "e1df6989",
+   "season": 2021,
+   "distance": 2.307,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Imran Louza",
+   "squad": "Nantes"
   },
   {
    "fbref_id": "a2b105e0",
    "season": 2020,
-   "distance": 2.272,
+   "distance": 2.322,
    "survived": 1,
    "fut_ability_v2": 44.2,
    "player_name": "Sean Longstaff",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "6c203af0",
-   "season": 2019,
-   "distance": 2.385,
+   "fbref_id": "b3325a30",
+   "season": 2018,
+   "distance": 2.33,
    "survived": 1,
-   "fut_ability_v2": 57.6,
-   "player_name": "Yves Bissouma",
-   "squad": "Brighton"
+   "fut_ability_v2": 43.0,
+   "player_name": "Suat Serdar",
+   "squad": "Mainz 05"
   },
   {
-   "fbref_id": "384d58d9",
-   "season": 2019,
-   "distance": 2.4,
-   "survived": 1,
-   "fut_ability_v2": 57.2,
-   "player_name": "Denis Zakaria",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "2145368f",
+   "fbref_id": "e778654a",
    "season": 2020,
-   "distance": 2.423,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lamine Fomba",
-   "squad": "Nîmes"
+   "distance": 2.364,
+   "survived": 1,
+   "fut_ability_v2": 52.9,
+   "player_name": "Yangel Herrera",
+   "squad": "Granada"
   },
   {
-   "fbref_id": "e2f9bb5f",
-   "season": 2020,
-   "distance": 2.492,
+   "fbref_id": "999ceb5f",
+   "season": 2022,
+   "distance": 2.456,
    "survived": 1,
-   "fut_ability_v2": 48.6,
-   "player_name": "Zaydou Youssouf",
-   "squad": "Saint-Étienne"
+   "fut_ability_v2": 43.7,
+   "player_name": "Boubacar Traoré",
+   "squad": "Metz"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mario Martín(MF)의 현재 능력 점수는 47.9점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 클리어링, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 박스 진입 패스이다.",
-  "potential": "Mario Martín의 2~3년 후 예측 중심값은 50.1점, 80% 구간 상단은 60.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 88.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mario Martín의 2~3년 후 예측 중심값은 52.4점, 80% 구간 상단은 62.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 82.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2705,
-  "mu": 60.5,
+  "survival_prob": 0.2554,
+  "mu": 55.0,
   "ci80": {
-   "lo": 51.1,
-   "hi": 69.8
+   "lo": 45.6,
+   "hi": 64.3
   },
   "ci50": {
-   "lo": 55.6,
-   "hi": 65.4
+   "lo": 50.1,
+   "hi": 59.9
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "144607cc",
    "season": 2020,
-   "distance": 1.922,
+   "distance": 1.959,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jasmin Kurtić",
    "squad": "Parma / SPAL"
   },
   {
+   "fbref_id": "a128b07e",
+   "season": 2021,
+   "distance": 2.162,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ahmad Benali",
+   "squad": "Crotone"
+  },
+  {
    "fbref_id": "1b17ed86",
    "season": 2018,
-   "distance": 2.265,
+   "distance": 2.211,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Esteban Granero",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "c53083ad",
    "season": 2020,
-   "distance": 2.278,
+   "distance": 2.216,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bryan Dabo",
@@ -76,25 +85,25 @@
   {
    "fbref_id": "cc700722",
    "season": 2020,
-   "distance": 2.477,
+   "distance": 2.322,
    "survived": 1,
    "fut_ability_v2": 49.1,
    "player_name": "Allan",
    "squad": "Napoli"
   },
   {
-   "fbref_id": "2acd49b9",
-   "season": 2018,
-   "distance": 2.514,
+   "fbref_id": "ef7cd87a",
+   "season": 2021,
+   "distance": 2.476,
    "survived": 1,
-   "fut_ability_v2": 46.9,
-   "player_name": "Moussa Sissoko",
-   "squad": "Tottenham"
+   "fut_ability_v2": 52.7,
+   "player_name": "Abdoulaye Touré",
+   "squad": "Nantes"
   },
   {
    "fbref_id": "468fdbad",
    "season": 2019,
-   "distance": 2.583,
+   "distance": 2.546,
    "survived": 1,
    "fut_ability_v2": 53.2,
    "player_name": "Jonas Martin",
@@ -103,38 +112,29 @@
   {
    "fbref_id": "d6f88a1d",
    "season": 2020,
-   "distance": 2.632,
+   "distance": 2.551,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Adrien Silva",
    "squad": "Monaco"
   },
   {
-   "fbref_id": "542cc80f",
-   "season": 2020,
-   "distance": 2.702,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Paul Lasne",
-   "squad": "Brest"
-  },
-  {
-   "fbref_id": "375622c5",
-   "season": 2020,
-   "distance": 2.771,
+   "fbref_id": "e61b8aee",
+   "season": 2022,
+   "distance": 2.563,
    "survived": 1,
-   "fut_ability_v2": 50.1,
-   "player_name": "Jordan Ferri",
-   "squad": "Montpellier"
+   "fut_ability_v2": 67.5,
+   "player_name": "Granit Xhaka",
+   "squad": "Arsenal"
   },
   {
-   "fbref_id": "8011fcf6",
+   "fbref_id": "2acd49b9",
    "season": 2018,
-   "distance": 2.862,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ledian Memushaj",
-   "squad": "Benevento"
+   "distance": 2.597,
+   "survived": 1,
+   "fut_ability_v2": 46.9,
+   "player_name": "Moussa Sissoko",
+   "squad": "Tottenham"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Ruben Loftus-Cheek(MF)의 현재 능력 점수는 60.0점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 공중볼 승률, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 태클+인터셉트이다.",
-  "potential": "Ruben Loftus-Cheek의 2~3년 후 예측 중심값은 60.5점, 80% 구간 상단은 69.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 27.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ruben Loftus-Cheek의 2~3년 후 예측 중심값은 55.0점, 80% 구간 상단은 64.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

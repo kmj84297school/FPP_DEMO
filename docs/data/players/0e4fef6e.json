@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4359,
-  "mu": 45.1,
+  "survival_prob": 0.4776,
+  "mu": 44.1,
   "ci80": {
-   "lo": 35.8,
-   "hi": 54.4
+   "lo": 34.7,
+   "hi": 53.5
   },
   "ci50": {
-   "lo": 40.2,
-   "hi": 50.1
+   "lo": 39.1,
+   "hi": 49.0
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "05a4465d",
    "season": 2019,
-   "distance": 1.456,
+   "distance": 1.44,
    "survived": 1,
    "fut_ability_v2": 41.8,
    "player_name": "Manu García",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "8d3c902d",
    "season": 2020,
-   "distance": 1.522,
+   "distance": 1.587,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Cheikhou Kouyaté",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "05a4465d",
    "season": 2018,
-   "distance": 1.857,
+   "distance": 1.753,
    "survived": 1,
    "fut_ability_v2": 41.5,
    "player_name": "Manu García",
@@ -76,7 +76,7 @@
   {
    "fbref_id": "e2533c20",
    "season": 2019,
-   "distance": 1.953,
+   "distance": 1.923,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aron Gunnarsson",
@@ -85,16 +85,25 @@
   {
    "fbref_id": "ad4d0985",
    "season": 2018,
-   "distance": 2.126,
+   "distance": 2.004,
    "survived": 1,
    "fut_ability_v2": 52.7,
    "player_name": "Víctor Sánchez",
    "squad": "Espanyol"
   },
   {
+   "fbref_id": "471f16b3",
+   "season": 2022,
+   "distance": 2.256,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kenny McLean",
+   "squad": "Norwich City"
+  },
+  {
    "fbref_id": "8f4d116f",
    "season": 2019,
-   "distance": 2.248,
+   "distance": 2.263,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Damien Le Tallec",
@@ -103,7 +112,7 @@
   {
    "fbref_id": "e6c43eec",
    "season": 2020,
-   "distance": 2.327,
+   "distance": 2.325,
    "survived": 1,
    "fut_ability_v2": 59.6,
    "player_name": "Josuha Guilavogui",
@@ -112,7 +121,7 @@
   {
    "fbref_id": "ff45add5",
    "season": 2019,
-   "distance": 2.352,
+   "distance": 2.403,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alfredo Morales",
@@ -121,20 +130,11 @@
   {
    "fbref_id": "7329018e",
    "season": 2019,
-   "distance": 2.412,
+   "distance": 2.498,
    "survived": 1,
    "fut_ability_v2": 45.0,
    "player_name": "Papakouli Diop",
    "squad": "Eibar"
-  },
-  {
-   "fbref_id": "003a5c72",
-   "season": 2018,
-   "distance": 2.511,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mikel San José",
-   "squad": "Athletic Club"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Lucas Torró(MF)의 현재 능력 점수는 47.2점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 공중볼 승률, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
-  "potential": "Lucas Torró의 2~3년 후 예측 중심값은 45.1점, 80% 구간 상단은 54.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 43.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lucas Torró의 2~3년 후 예측 중심값은 44.1점, 80% 구간 상단은 53.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 47.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

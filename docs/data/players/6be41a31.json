@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8881,
-  "mu": 61.1,
+  "survival_prob": 0.9347,
+  "mu": 61.4,
   "ci80": {
-   "lo": 50.5,
-   "hi": 71.8
+   "lo": 50.8,
+   "hi": 72.0
   },
   "ci50": {
-   "lo": 55.5,
-   "hi": 66.8
+   "lo": 55.8,
+   "hi": 67.0
   },
-  "sigma_model": 2.3,
+  "sigma_model": 2.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "01eb744d",
    "season": 2018,
-   "distance": 1.874,
+   "distance": 1.812,
    "survived": 1,
    "fut_ability_v2": 65.5,
    "player_name": "Ángel Correa",
    "squad": "Atlético Madrid"
   },
   {
+   "fbref_id": "7c104bb7",
+   "season": 2021,
+   "distance": 2.201,
+   "survived": 1,
+   "fut_ability_v2": 81.7,
+   "player_name": "Ademola Lookman",
+   "squad": "Fulham"
+  },
+  {
+   "fbref_id": "e6bc67d7",
+   "season": 2021,
+   "distance": 2.203,
+   "survived": 1,
+   "fut_ability_v2": 62.3,
+   "player_name": "Gonçalo Guedes",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "3ea50f67",
+   "season": 2022,
+   "distance": 2.367,
+   "survived": 1,
+   "fut_ability_v2": 74.9,
+   "player_name": "Harvey Barnes",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "81d3318f",
+   "season": 2019,
+   "distance": 2.403,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "François Kamano",
+   "squad": "Bordeaux"
+  },
+  {
    "fbref_id": "3ef0fa48",
    "season": 2019,
-   "distance": 2.483,
+   "distance": 2.407,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Gelson Martins",
@@ -67,74 +103,38 @@
   {
    "fbref_id": "3708e9fa",
    "season": 2019,
-   "distance": 2.526,
+   "distance": 2.445,
    "survived": 1,
    "fut_ability_v2": 71.3,
    "player_name": "Aleksandr Golovin",
    "squad": "Monaco"
   },
   {
-   "fbref_id": "81d3318f",
-   "season": 2019,
-   "distance": 2.531,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "François Kamano",
-   "squad": "Bordeaux"
-  },
-  {
    "fbref_id": "15b287da",
    "season": 2020,
-   "distance": 2.572,
+   "distance": 2.493,
    "survived": 1,
    "fut_ability_v2": 55.3,
    "player_name": "Daichi Kamada",
    "squad": "Eint Frankfurt"
   },
   {
-   "fbref_id": "b2bd0f6c",
-   "season": 2020,
-   "distance": 2.665,
+   "fbref_id": "3ea50f67",
+   "season": 2021,
+   "distance": 2.567,
    "survived": 1,
-   "fut_ability_v2": 64.8,
-   "player_name": "Jonathan Bamba",
-   "squad": "Lille"
+   "fut_ability_v2": 51.0,
+   "player_name": "Harvey Barnes",
+   "squad": "Leicester City"
   },
   {
-   "fbref_id": "d7553721",
-   "season": 2019,
-   "distance": 2.674,
+   "fbref_id": "6191093d",
+   "season": 2022,
+   "distance": 2.599,
    "survived": 1,
-   "fut_ability_v2": 57.6,
-   "player_name": "Giovani Lo Celso",
-   "squad": "Betis / Paris S-G"
-  },
-  {
-   "fbref_id": "f4bc42b1",
-   "season": 2019,
-   "distance": 2.714,
-   "survived": 1,
-   "fut_ability_v2": 55.5,
-   "player_name": "Sada Thioub",
-   "squad": "Nîmes"
-  },
-  {
-   "fbref_id": "c47541e0",
-   "season": 2019,
-   "distance": 2.719,
-   "survived": 1,
-   "fut_ability_v2": 57.7,
-   "player_name": "Bertrand Traoré",
-   "squad": "Lyon"
-  },
-  {
-   "fbref_id": "dc62fbee",
-   "season": 2018,
-   "distance": 2.751,
-   "survived": 1,
-   "fut_ability_v2": 53.4,
-   "player_name": "Leonardo Bittencourt",
-   "squad": "Köln"
+   "fut_ability_v2": 62.8,
+   "player_name": "Ludovic Blas",
+   "squad": "Nantes"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Yann Gboho(MF)의 현재 능력 점수는 58.3점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 전진 운반, 박스 터치, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 볼 손실(미스+파울)이다.",
-  "potential": "Yann Gboho의 2~3년 후 예측 중심값은 61.1점, 80% 구간 상단은 71.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 88.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Yann Gboho의 2~3년 후 예측 중심값은 61.4점, 80% 구간 상단은 72.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

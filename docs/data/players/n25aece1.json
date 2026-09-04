@@ -32,24 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6501,
-  "mu": 53.8,
+  "survival_prob": 0.7172,
+  "mu": 56.7,
   "ci80": {
-   "lo": 43.3,
-   "hi": 64.4
+   "lo": 46.3,
+   "hi": 67.1
   },
   "ci50": {
-   "lo": 48.3,
-   "hi": 59.4
+   "lo": 51.2,
+   "hi": 62.2
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.5,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "aa5322d5",
+   "season": 2022,
+   "distance": 1.707,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giorgio Altare",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "a8c0acb7",
+   "season": 2022,
+   "distance": 1.939,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Kristoffer Ajer",
+   "squad": "Brentford"
+  },
+  {
+   "fbref_id": "fb614c44",
+   "season": 2022,
+   "distance": 2.009,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "James Justin",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "ca8033cb",
    "season": 2019,
-   "distance": 1.924,
+   "distance": 2.031,
    "survived": 1,
    "fut_ability_v2": 60.6,
    "player_name": "Lukas Klostermann",
@@ -58,16 +85,25 @@
   {
    "fbref_id": "f7dc2ae5",
    "season": 2018,
-   "distance": 2.09,
+   "distance": 2.124,
    "survived": 1,
    "fut_ability_v2": 65.8,
    "player_name": "Aritz Elustondo",
    "squad": "Real Sociedad"
   },
   {
+   "fbref_id": "9f7c837d",
+   "season": 2022,
+   "distance": 2.129,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Ben Godfrey",
+   "squad": "Everton"
+  },
+  {
    "fbref_id": "34bb6fbd",
    "season": 2019,
-   "distance": 2.138,
+   "distance": 2.143,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Arturo Calabresi",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "4bf69118",
    "season": 2020,
-   "distance": 2.161,
+   "distance": 2.172,
    "survived": 1,
    "fut_ability_v2": 54.2,
    "player_name": "Enock Kwateng",
    "squad": "Bordeaux"
   },
   {
-   "fbref_id": "626fab5f",
-   "season": 2020,
-   "distance": 2.178,
+   "fbref_id": "b3af9be1",
+   "season": 2022,
+   "distance": 2.181,
+   "survived": 1,
+   "fut_ability_v2": 57.9,
+   "player_name": "Takehiro Tomiyasu",
+   "squad": "Arsenal / Bologna"
+  },
+  {
+   "fbref_id": "eb76987d",
+   "season": 2022,
+   "distance": 2.193,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Raphael Framberger",
-   "squad": "Augsburg"
-  },
-  {
-   "fbref_id": "fce2302c",
-   "season": 2020,
-   "distance": 2.209,
-   "survived": 1,
-   "fut_ability_v2": 58.3,
-   "player_name": "Kieran Tierney",
-   "squad": "Arsenal"
-  },
-  {
-   "fbref_id": "f1bed920",
-   "season": 2018,
-   "distance": 2.212,
-   "survived": 1,
-   "fut_ability_v2": 46.0,
-   "player_name": "Kévin Rodrigues",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "62ab9184",
-   "season": 2018,
-   "distance": 2.214,
-   "survived": 1,
-   "fut_ability_v2": 52.1,
-   "player_name": "Yannick Gerhardt",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "cfbf9881",
-   "season": 2018,
-   "distance": 2.336,
-   "survived": 1,
-   "fut_ability_v2": 47.4,
-   "player_name": "Ibrahima Mbaye",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "1fe0492d",
-   "season": 2020,
-   "distance": 2.339,
-   "survived": 1,
-   "fut_ability_v2": 56.2,
-   "player_name": "Rubén Duarte",
-   "squad": "Alavés"
+   "player_name": "Salvador Ferrer",
+   "squad": "Spezia"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Max Geschwill(DF)의 현재 능력 점수는 55.7점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 태클+인터셉트, 어시스트, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 전진 운반 거리이다.",
-  "potential": "Max Geschwill의 2~3년 후 예측 중심값은 53.8점, 80% 구간 상단은 64.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 65.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Max Geschwill의 2~3년 후 예측 중심값은 56.7점, 80% 구간 상단은 67.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 71.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

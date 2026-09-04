@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2609,
+  "survival_prob": 0.1179,
   "mu": 58.9,
   "ci80": {
-   "lo": 49.6,
-   "hi": 68.3
+   "lo": 49.5,
+   "hi": 68.4
   },
   "ci50": {
-   "lo": 54.0,
+   "lo": 53.9,
    "hi": 63.9
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "ef322658",
+   "season": 2021,
+   "distance": 1.491,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
    "fbref_id": "07767f42",
    "season": 2019,
-   "distance": 1.576,
+   "distance": 1.623,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Francesco Magnanelli",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "ad340e17",
    "season": 2018,
-   "distance": 1.621,
+   "distance": 1.648,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alberto Aquilani",
    "squad": "Las Palmas"
   },
   {
+   "fbref_id": "54d51e22",
+   "season": 2022,
+   "distance": 1.733,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabien Lemoine",
+   "squad": "Lorient"
+  },
+  {
    "fbref_id": "07767f42",
    "season": 2020,
-   "distance": 1.736,
+   "distance": 1.742,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Francesco Magnanelli",
    "squad": "Sassuolo"
   },
   {
-   "fbref_id": "ecab64a0",
-   "season": 2019,
-   "distance": 1.983,
+   "fbref_id": "ef322658",
+   "season": 2022,
+   "distance": 1.812,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Per Ciljan Skjelbred",
-   "squad": "Hertha BSC"
+   "player_name": "Andrés Guardado",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "f1cfc209",
+   "season": 2022,
+   "distance": 1.856,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tomás Rincón",
+   "squad": "Sampdoria / Torino"
+  },
+  {
+   "fbref_id": "c5fa58ea",
+   "season": 2021,
+   "distance": 1.874,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro Mosquera",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "d6f88a1d",
+   "season": 2021,
+   "distance": 1.887,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrien Silva",
+   "squad": "Sampdoria"
   },
   {
    "fbref_id": "ecab64a0",
    "season": 2020,
-   "distance": 1.984,
+   "distance": 1.973,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Per Ciljan Skjelbred",
    "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "563a68ad",
-   "season": 2020,
-   "distance": 2.015,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Gary Medel",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "ed5886d2",
-   "season": 2020,
-   "distance": 2.077,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marco Parolo",
-   "squad": "Lazio"
-  },
-  {
-   "fbref_id": "653ee42d",
-   "season": 2020,
-   "distance": 2.163,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Dale Stephens",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "a3a306f6",
-   "season": 2018,
-   "distance": 2.227,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mehdi Lacen",
-   "squad": "Málaga / Getafe"
-  },
-  {
-   "fbref_id": "abb42ce6",
-   "season": 2018,
-   "distance": 2.279,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Matthias Lehmann",
-   "squad": "Köln"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Oriol Romeu(MF)의 현재 능력 점수는 49.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 패스 성공률, 전진 운반 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 실책이다.",
-  "potential": "Oriol Romeu의 2~3년 후 예측 중심값은 58.9점, 80% 구간 상단은 68.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 26.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Oriol Romeu의 2~3년 후 예측 중심값은 58.9점, 80% 구간 상단은 68.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 11.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3546,
-  "mu": 55.1,
+  "survival_prob": 0.2251,
+  "mu": 54.8,
   "ci80": {
-   "lo": 45.9,
-   "hi": 64.3
+   "lo": 45.6,
+   "hi": 64.0
   },
   "ci50": {
-   "lo": 50.3,
-   "hi": 60.0
+   "lo": 49.8,
+   "hi": 59.6
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "b5114f85",
    "season": 2019,
-   "distance": 1.301,
+   "distance": 1.357,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Georg Margreitter",
    "squad": "Nürnberg"
   },
   {
+   "fbref_id": "b0a0698b",
+   "season": 2021,
+   "distance": 1.389,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafael Czichos",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "d9624b51",
+   "season": 2022,
+   "distance": 1.478,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Ceccherini",
+   "squad": "Hellas Verona"
+  },
+  {
    "fbref_id": "850c0a0d",
    "season": 2018,
-   "distance": 1.545,
+   "distance": 1.536,
    "survived": 1,
    "fut_ability_v2": 53.6,
    "player_name": "Anaitz Arbilla",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "3f5b4635",
    "season": 2018,
-   "distance": 1.552,
+   "distance": 1.569,
    "survived": 1,
    "fut_ability_v2": 51.9,
    "player_name": "Daniel Congré",
@@ -76,7 +94,7 @@
   {
    "fbref_id": "1253a12e",
    "season": 2018,
-   "distance": 1.554,
+   "distance": 1.597,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ervin Zukanović",
@@ -85,16 +103,25 @@
   {
    "fbref_id": "53de807a",
    "season": 2018,
-   "distance": 1.597,
+   "distance": 1.627,
    "survived": 1,
    "fut_ability_v2": 59.8,
    "player_name": "Ștefan Radu",
    "squad": "Lazio"
   },
   {
+   "fbref_id": "a46472d0",
+   "season": 2020,
+   "distance": 1.681,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Koné",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "53de807a",
    "season": 2019,
-   "distance": 1.618,
+   "distance": 1.684,
    "survived": 1,
    "fut_ability_v2": 58.7,
    "player_name": "Ștefan Radu",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "565bf0da",
    "season": 2018,
-   "distance": 1.657,
+   "distance": 1.703,
    "survived": 1,
    "fut_ability_v2": 57.7,
    "player_name": "David Abraham",
    "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "565bf0da",
-   "season": 2020,
-   "distance": 1.661,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "David Abraham",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "b0a0698b",
-   "season": 2020,
-   "distance": 1.68,
-   "survived": 1,
-   "fut_ability_v2": 64.1,
-   "player_name": "Rafael Czichos",
-   "squad": "Köln"
-  },
-  {
-   "fbref_id": "a46472d0",
-   "season": 2020,
-   "distance": 1.68,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lamine Koné",
-   "squad": "Strasbourg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jonathan Gradit(DF)의 현재 능력 점수는 58.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 패스, 공중볼 승리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 볼 리커버리이다.",
-  "potential": "Jonathan Gradit의 2~3년 후 예측 중심값은 55.1점, 80% 구간 상단은 64.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 35.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jonathan Gradit의 2~3년 후 예측 중심값은 54.8점, 80% 구간 상단은 64.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

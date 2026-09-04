@@ -32,51 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5871,
-  "mu": 70.2,
+  "survival_prob": 0.4561,
+  "mu": 74.6,
   "ci80": {
-   "lo": 60.7,
-   "hi": 79.8
+   "lo": 65.2,
+   "hi": 84.0
   },
   "ci50": {
-   "lo": 65.2,
-   "hi": 75.2
+   "lo": 69.7,
+   "hi": 79.5
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "4c5b14d2",
    "season": 2020,
-   "distance": 4.916,
+   "distance": 4.963,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Joaquín",
    "squad": "Betis"
   },
   {
+   "fbref_id": "75bd85ea",
+   "season": 2022,
+   "distance": 5.447,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Salva Sevilla",
+   "squad": "Mallorca"
+  },
+  {
    "fbref_id": "4c5b14d2",
    "season": 2018,
-   "distance": 5.913,
+   "distance": 5.921,
    "survived": 1,
    "fut_ability_v2": 69.9,
    "player_name": "Joaquín",
    "squad": "Betis"
   },
   {
-   "fbref_id": "1ec4e202",
-   "season": 2018,
-   "distance": 6.375,
+   "fbref_id": "f61c7c4e",
+   "season": 2022,
+   "distance": 6.093,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Benjamin Nivet",
-   "squad": "Troyes"
+   "player_name": "Franck Ribéry",
+   "squad": "Salernitana"
+  },
+  {
+   "fbref_id": "101da2b5",
+   "season": 2022,
+   "distance": 6.788,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fernandinho",
+   "squad": "Manchester City"
   },
   {
    "fbref_id": "4e7bfc23",
    "season": 2019,
-   "distance": 7.081,
+   "distance": 7.041,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Florent Balmont",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "516dc25b",
    "season": 2019,
-   "distance": 8.153,
+   "distance": 8.093,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jaroslav Plašil",
@@ -94,7 +112,7 @@
   {
    "fbref_id": "7dbbe367",
    "season": 2018,
-   "distance": 8.723,
+   "distance": 8.682,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gareth Barry",
@@ -103,7 +121,7 @@
   {
    "fbref_id": "316162b6",
    "season": 2019,
-   "distance": 9.874,
+   "distance": 9.825,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Oliver Fink",
@@ -277,6 +295,6 @@
  },
  "narrative": {
   "current": "Luka Modrić(MF)의 현재 능력 점수는 78.5점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 거리, 도움 기대값(xAG), 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
-  "potential": "Luka Modrić의 2~3년 후 예측 중심값은 70.2점, 80% 구간 상단은 79.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Luka Modrić의 2~3년 후 예측 중심값은 74.6점, 80% 구간 상단은 84.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,42 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.306,
-  "mu": 56.8,
+  "survival_prob": 0.4869,
+  "mu": 51.2,
   "ci80": {
-   "lo": 46.9,
-   "hi": 66.7
+   "lo": 41.9,
+   "hi": 60.5
   },
   "ci50": {
-   "lo": 51.7,
-   "hi": 62.0
+   "lo": 46.3,
+   "hi": 56.1
   },
-  "sigma_model": 3.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "5aaef9ef",
-   "season": 2019,
-   "distance": 2.045,
-   "survived": 1,
-   "fut_ability_v2": 48.0,
-   "player_name": "Juraj Kucka",
-   "squad": "Parma"
-  },
-  {
    "fbref_id": "b7d082af",
    "season": 2018,
-   "distance": 2.207,
+   "distance": 2.146,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mohamed Diamé",
    "squad": "Newcastle Utd"
   },
   {
+   "fbref_id": "5aaef9ef",
+   "season": 2019,
+   "distance": 2.236,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Juraj Kucka",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "44f8c299",
+   "season": 2021,
+   "distance": 2.395,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Deaux",
+   "squad": "Nîmes"
+  },
+  {
    "fbref_id": "7106f0a0",
    "season": 2019,
-   "distance": 2.266,
+   "distance": 2.417,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Suárez",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "7fec31a0",
    "season": 2019,
-   "distance": 2.334,
+   "distance": 2.488,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dan Gosling",
    "squad": "Bournemouth"
   },
   {
-   "fbref_id": "cee31595",
-   "season": 2018,
-   "distance": 2.413,
-   "survived": 1,
-   "fut_ability_v2": 57.8,
-   "player_name": "James McArthur",
-   "squad": "Crystal Palace"
-  },
-  {
    "fbref_id": "5acc4a10",
    "season": 2018,
-   "distance": 2.443,
+   "distance": 2.492,
    "survived": 1,
    "fut_ability_v2": 55.8,
    "player_name": "Étienne Capoue",
    "squad": "Watford"
   },
   {
+   "fbref_id": "cee31595",
+   "season": 2018,
+   "distance": 2.543,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "James McArthur",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "3f79a1c8",
+   "season": 2022,
+   "distance": 2.562,
+   "survived": 1,
+   "fut_ability_v2": 40.9,
+   "player_name": "Gonzalo Escalante",
+   "squad": "Alavés / Lazio"
+  },
+  {
+   "fbref_id": "e6c43eec",
+   "season": 2022,
+   "distance": 2.576,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Josuha Guilavogui",
+   "squad": "Bordeaux / Wolfsburg"
+  },
+  {
    "fbref_id": "05a4465d",
    "season": 2018,
-   "distance": 2.509,
+   "distance": 2.599,
    "survived": 1,
    "fut_ability_v2": 41.5,
    "player_name": "Manu García",
    "squad": "Alavés"
-  },
-  {
-   "fbref_id": "ad4d0985",
-   "season": 2019,
-   "distance": 2.52,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Víctor Sánchez",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "90b70194",
-   "season": 2018,
-   "distance": 2.653,
-   "survived": 1,
-   "fut_ability_v2": 44.6,
-   "player_name": "Përparim Hetemaj",
-   "squad": "Chievo"
-  },
-  {
-   "fbref_id": "64b08de7",
-   "season": 2020,
-   "distance": 2.659,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "James McCarthy",
-   "squad": "Crystal Palace"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mario Lemina(MF)의 현재 능력 점수는 55.9점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 태클+인터셉트, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 운반이다.",
-  "potential": "Mario Lemina의 2~3년 후 예측 중심값은 56.8점, 80% 구간 상단은 66.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 30.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mario Lemina의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 60.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 48.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

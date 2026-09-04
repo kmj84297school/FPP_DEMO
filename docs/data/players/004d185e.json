@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3095,
-  "mu": 48.6,
+  "survival_prob": 0.3356,
+  "mu": 46.4,
   "ci80": {
-   "lo": 39.3,
-   "hi": 57.8
+   "lo": 37.1,
+   "hi": 55.7
   },
   "ci50": {
-   "lo": 43.7,
-   "hi": 53.4
+   "lo": 41.5,
+   "hi": 51.3
   },
-  "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "dd669209",
    "season": 2019,
-   "distance": 1.933,
+   "distance": 1.836,
    "survived": 1,
    "fut_ability_v2": 57.3,
    "player_name": "Renato Steffen",
@@ -58,43 +58,52 @@
   {
    "fbref_id": "ecbb3fdf",
    "season": 2019,
-   "distance": 2.46,
+   "distance": 2.401,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "André Schürrle",
    "squad": "Fulham"
   },
   {
+   "fbref_id": "79ca3e23",
+   "season": 2021,
+   "distance": 2.473,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Ondrej Duda",
+   "squad": "Köln"
+  },
+  {
    "fbref_id": "79c90e45",
    "season": 2018,
-   "distance": 2.648,
+   "distance": 2.585,
    "survived": 1,
    "fut_ability_v2": 54.9,
    "player_name": "Pavel Kadeřábek",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "eccbe56a",
-   "season": 2019,
-   "distance": 2.658,
-   "survived": 1,
-   "fut_ability_v2": 71.2,
-   "player_name": "Filip Đuričić",
-   "squad": "Sassuolo"
-  },
-  {
    "fbref_id": "b6a6e0a7",
    "season": 2018,
-   "distance": 2.676,
+   "distance": 2.631,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Steven Zuber",
    "squad": "Hoffenheim"
   },
   {
+   "fbref_id": "eccbe56a",
+   "season": 2019,
+   "distance": 2.671,
+   "survived": 1,
+   "fut_ability_v2": 71.2,
+   "player_name": "Filip Đuričić",
+   "squad": "Sassuolo"
+  },
+  {
    "fbref_id": "9ab48bde",
    "season": 2018,
-   "distance": 2.751,
+   "distance": 2.722,
    "survived": 1,
    "fut_ability_v2": 58.7,
    "player_name": "Pablo de Blasis",
@@ -103,38 +112,29 @@
   {
    "fbref_id": "f69fba57",
    "season": 2019,
-   "distance": 2.792,
+   "distance": 2.763,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Yuya Osako",
    "squad": "Werder Bremen"
   },
   {
+   "fbref_id": "a3ddb1b9",
+   "season": 2021,
+   "distance": 2.788,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  },
+  {
    "fbref_id": "f69fba57",
    "season": 2018,
-   "distance": 2.874,
+   "distance": 2.886,
    "survived": 1,
    "fut_ability_v2": 60.3,
    "player_name": "Yuya Osako",
    "squad": "Köln"
-  },
-  {
-   "fbref_id": "7cd6badb",
-   "season": 2019,
-   "distance": 2.938,
-   "survived": 1,
-   "fut_ability_v2": 65.8,
-   "player_name": "Lars Stindl",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "dc62fbee",
-   "season": 2020,
-   "distance": 2.981,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Leonardo Bittencourt",
-   "squad": "Werder Bremen / Hoffenheim"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Tete Morente(FW)의 현재 능력 점수는 46.1점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 전진 패스, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 슈팅당 기대득점이다.",
-  "potential": "Tete Morente의 2~3년 후 예측 중심값은 48.6점, 80% 구간 상단은 57.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 30.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Tete Morente의 2~3년 후 예측 중심값은 46.4점, 80% 구간 상단은 55.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 33.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

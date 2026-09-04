@@ -32,60 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5184,
-  "mu": 60.0,
+  "survival_prob": 0.4066,
+  "mu": 58.3,
   "ci80": {
-   "lo": 50.7,
-   "hi": 69.5
+   "lo": 49.0,
+   "hi": 67.6
   },
   "ci50": {
-   "lo": 55.1,
-   "hi": 65.0
+   "lo": 53.5,
+   "hi": 63.2
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "4db76f57",
    "season": 2019,
-   "distance": 1.555,
+   "distance": 1.573,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marc Muniesa",
    "squad": "Girona"
   },
   {
-   "fbref_id": "45954ec7",
-   "season": 2020,
-   "distance": 1.953,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marcel Tisserand",
-   "squad": "Wolfsburg"
-  },
-  {
    "fbref_id": "54c356b0",
    "season": 2019,
-   "distance": 1.97,
+   "distance": 1.93,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Nicolò Brighenti",
    "squad": "Frosinone"
   },
   {
+   "fbref_id": "45954ec7",
+   "season": 2020,
+   "distance": 2.066,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marcel Tisserand",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "8abd0c03",
    "season": 2018,
-   "distance": 2.008,
+   "distance": 2.069,
    "survived": 1,
    "fut_ability_v2": 46.6,
    "player_name": "Marvin Zeegelaar",
    "squad": "Watford"
   },
   {
+   "fbref_id": "ae4e2852",
+   "season": 2021,
+   "distance": 2.153,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mattia De Sciglio",
+   "squad": "Lyon / Juventus"
+  },
+  {
+   "fbref_id": "feb5d3ab",
+   "season": 2021,
+   "distance": 2.167,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dennis Appiah",
+   "squad": "Nantes"
+  },
+  {
    "fbref_id": "45da6694",
    "season": 2019,
-   "distance": 2.098,
+   "distance": 2.191,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Daryl Janmaat",
@@ -94,46 +112,28 @@
   {
    "fbref_id": "9a9c05db",
    "season": 2019,
-   "distance": 2.256,
+   "distance": 2.231,
    "survived": 1,
    "fut_ability_v2": 53.6,
    "player_name": "Matthew Lowton",
    "squad": "Burnley"
   },
   {
-   "fbref_id": "5939baa2",
-   "season": 2019,
-   "distance": 2.257,
+   "fbref_id": "c20bdcd7",
+   "season": 2022,
+   "distance": 2.237,
    "survived": 1,
-   "fut_ability_v2": 54.7,
-   "player_name": "Benjamin Stambouli",
-   "squad": "Schalke 04"
+   "fut_ability_v2": 50.5,
+   "player_name": "Reinildo Mandava",
+   "squad": "Lille / Atlético Madrid"
   },
   {
    "fbref_id": "6eaed4eb",
    "season": 2019,
-   "distance": 2.266,
+   "distance": 2.291,
    "survived": 1,
    "fut_ability_v2": 60.8,
    "player_name": "Florian Lejeune",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "30c220c3",
-   "season": 2020,
-   "distance": 2.278,
-   "survived": 1,
-   "fut_ability_v2": 63.9,
-   "player_name": "Mitchell Weiser",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "c8aa95da",
-   "season": 2020,
-   "distance": 2.35,
-   "survived": 1,
-   "fut_ability_v2": 61.1,
-   "player_name": "Fabian Schär",
    "squad": "Newcastle Utd"
   }
  ],
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Marcos Senesi(DF)의 현재 능력 점수는 64.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 슈팅당 기대득점, 전진 패스 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 패스 성공률이다.",
-  "potential": "Marcos Senesi의 2~3년 후 예측 중심값은 60.0점, 80% 구간 상단은 69.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 51.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marcos Senesi의 2~3년 후 예측 중심값은 58.3점, 80% 구간 상단은 67.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

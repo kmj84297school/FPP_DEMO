@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.784,
-  "mu": 60.5,
+  "survival_prob": 0.7204,
+  "mu": 60.2,
   "ci80": {
-   "lo": 51.1,
-   "hi": 69.8
+   "lo": 50.9,
+   "hi": 69.6
   },
   "ci50": {
-   "lo": 55.5,
-   "hi": 65.4
+   "lo": 55.3,
+   "hi": 65.2
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "8650af85",
+   "season": 2022,
+   "distance": 1.048,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  },
+  {
    "fbref_id": "6bd5cd5d",
    "season": 2019,
-   "distance": 1.504,
+   "distance": 1.528,
    "survived": 1,
    "fut_ability_v2": 54.9,
    "player_name": "Robin Knoche",
    "squad": "Wolfsburg"
   },
   {
+   "fbref_id": "c5b7c315",
+   "season": 2021,
+   "distance": 1.861,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "e06683ca",
+   "season": 2022,
+   "distance": 1.886,
+   "survived": 1,
+   "fut_ability_v2": 70.0,
+   "player_name": "Virgil van Dijk",
+   "squad": "Liverpool"
+  },
+  {
    "fbref_id": "e06683ca",
    "season": 2020,
-   "distance": 1.892,
+   "distance": 1.923,
    "survived": 1,
    "fut_ability_v2": 66.8,
    "player_name": "Virgil van Dijk",
@@ -67,74 +94,47 @@
   {
    "fbref_id": "e3d0b0c4",
    "season": 2018,
-   "distance": 2.035,
+   "distance": 2.029,
    "survived": 1,
    "fut_ability_v2": 69.6,
    "player_name": "Marcelo",
    "squad": "Lyon"
   },
   {
+   "fbref_id": "b7ca5c51",
+   "season": 2021,
+   "distance": 2.048,
+   "survived": 1,
+   "fut_ability_v2": 56.6,
+   "player_name": "Gabriel Paulista",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "f5deef4c",
+   "season": 2021,
+   "distance": 2.067,
+   "survived": 1,
+   "fut_ability_v2": 51.4,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "9f8e9423",
+   "season": 2021,
+   "distance": 2.077,
+   "survived": 1,
+   "fut_ability_v2": 66.7,
+   "player_name": "Raphaël Varane",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "42dcf26d",
    "season": 2019,
-   "distance": 2.133,
+   "distance": 2.152,
    "survived": 1,
    "fut_ability_v2": 59.6,
    "player_name": "Álvaro González",
    "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "6eee05f1",
-   "season": 2020,
-   "distance": 2.21,
-   "survived": 1,
-   "fut_ability_v2": 65.6,
-   "player_name": "Berat Djimsiti",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "1ad8cb67",
-   "season": 2019,
-   "distance": 2.219,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pablo Martinez",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "da974c7b",
-   "season": 2019,
-   "distance": 2.227,
-   "survived": 1,
-   "fut_ability_v2": 60.1,
-   "player_name": "Kalidou Koulibaly",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "4e358a2d",
-   "season": 2018,
-   "distance": 2.244,
-   "survived": 1,
-   "fut_ability_v2": 54.4,
-   "player_name": "Federico Fazio",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "791abba1",
-   "season": 2019,
-   "distance": 2.271,
-   "survived": 1,
-   "fut_ability_v2": 70.7,
-   "player_name": "Salif Sané",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "e06683ca",
-   "season": 2019,
-   "distance": 2.276,
-   "survived": 1,
-   "fut_ability_v2": 69.9,
-   "player_name": "Virgil van Dijk",
-   "squad": "Liverpool"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Jonathan Tah(DF)의 현재 능력 점수는 64.1점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 전진 패스 거리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 블록이다.",
-  "potential": "Jonathan Tah의 2~3년 후 예측 중심값은 60.5점, 80% 구간 상단은 69.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 78.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jonathan Tah의 2~3년 후 예측 중심값은 60.2점, 80% 구간 상단은 69.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 72.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

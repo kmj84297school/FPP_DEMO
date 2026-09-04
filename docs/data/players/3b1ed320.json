@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9794,
-  "mu": 63.6,
+  "survival_prob": 0.9869,
+  "mu": 65.9,
   "ci80": {
-   "lo": 52.9,
-   "hi": 74.3
+   "lo": 55.3,
+   "hi": 76.5
   },
   "ci50": {
-   "lo": 58.0,
-   "hi": 69.1
+   "lo": 60.3,
+   "hi": 71.5
   },
   "sigma_model": 2.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "6928979a",
+   "season": 2021,
+   "distance": 2.315,
+   "survived": 1,
+   "fut_ability_v2": 69.8,
+   "player_name": "Nicolò Barella",
+   "squad": "Inter"
+  },
+  {
    "fbref_id": "56f7a928",
    "season": 2020,
-   "distance": 2.896,
+   "distance": 2.856,
    "survived": 1,
    "fut_ability_v2": 62.7,
    "player_name": "Youri Tielemans",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "c0c7ff58",
    "season": 2020,
-   "distance": 2.926,
+   "distance": 3.005,
    "survived": 1,
    "fut_ability_v2": 70.6,
    "player_name": "Fabián Ruiz Peña",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "ed45c4a5",
    "season": 2019,
-   "distance": 3.064,
+   "distance": 3.063,
    "survived": 1,
    "fut_ability_v2": 63.6,
    "player_name": "Valentin Rongier",
@@ -76,68 +85,59 @@
   {
    "fbref_id": "3e092724",
    "season": 2019,
-   "distance": 3.186,
+   "distance": 3.171,
    "survived": 1,
    "fut_ability_v2": 55.9,
    "player_name": "Wylan Cyprien",
    "squad": "Nice"
   },
   {
+   "fbref_id": "a26fb8aa",
+   "season": 2022,
+   "distance": 3.179,
+   "survived": 1,
+   "fut_ability_v2": 64.2,
+   "player_name": "Teun Koopmeiners",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "56f7a928",
+   "season": 2021,
+   "distance": 3.259,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Youri Tielemans",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "20094685",
+   "season": 2022,
+   "distance": 3.287,
+   "survived": 1,
+   "fut_ability_v2": 51.4,
+   "player_name": "Maxime Lopez",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "a8a874f1",
+   "season": 2021,
+   "distance": 3.393,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Manuel Locatelli",
+   "squad": "Sassuolo"
+  },
+  {
    "fbref_id": "6fbde63a",
    "season": 2018,
-   "distance": 3.527,
+   "distance": 3.615,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Yassine Benzia",
    "squad": "Lille"
-  },
-  {
-   "fbref_id": "a167537f",
-   "season": 2020,
-   "distance": 3.825,
-   "survived": 1,
-   "fut_ability_v2": 74.7,
-   "player_name": "Julian Brandt",
-   "squad": "Dortmund"
-  },
-  {
-   "fbref_id": "b70bde8f",
-   "season": 2019,
-   "distance": 3.874,
-   "survived": 1,
-   "fut_ability_v2": 55.3,
-   "player_name": "Stefano Sensi",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "7f3b388c",
-   "season": 2018,
-   "distance": 3.913,
-   "survived": 1,
-   "fut_ability_v2": 61.8,
-   "player_name": "Fabinho",
-   "squad": "Monaco"
-  },
-  {
-   "fbref_id": "6928979a",
-   "season": 2020,
-   "distance": 3.961,
-   "survived": 1,
-   "fut_ability_v2": 73.7,
-   "player_name": "Nicolò Barella",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "36a59ba4",
-   "season": 2020,
-   "distance": 4.057,
-   "survived": 1,
-   "fut_ability_v2": 57.4,
-   "player_name": "Florian Neuhaus",
-   "squad": "M'Gladbach"
   }
  ],
- "low_confidence": true,
+ "low_confidence": false,
  "report": {
   "strengths": [
    {
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Angelo Stiller(MF)의 현재 능력 점수는 69.5점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 거리, 전진 패스, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 유효슈팅이다.",
-  "potential": "Angelo Stiller의 2~3년 후 예측 중심값은 63.6점, 80% 구간 상단은 74.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Angelo Stiller의 2~3년 후 예측 중심값은 65.9점, 80% 구간 상단은 76.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

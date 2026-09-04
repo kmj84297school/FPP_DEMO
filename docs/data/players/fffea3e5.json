@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.974,
-  "mu": 72.2,
+  "survival_prob": 0.9542,
+  "mu": 72.7,
   "ci80": {
-   "lo": 61.1,
+   "lo": 62.0,
    "hi": 83.4
   },
   "ci50": {
-   "lo": 66.3,
-   "hi": 78.1
+   "lo": 67.0,
+   "hi": 78.3
   },
-  "sigma_model": 3.4,
+  "sigma_model": 2.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "b19db005",
    "season": 2019,
-   "distance": 6.259,
+   "distance": 6.024,
    "survived": 1,
    "fut_ability_v2": 76.7,
    "player_name": "Ousmane Dembélé",
    "squad": "Barcelona"
   },
   {
-   "fbref_id": "9a28eba4",
-   "season": 2020,
-   "distance": 7.348,
+   "fbref_id": "b19db005",
+   "season": 2021,
+   "distance": 6.385,
    "survived": 1,
-   "fut_ability_v2": 59.4,
-   "player_name": "Adama Traoré",
-   "squad": "Wolves"
+   "fut_ability_v2": 77.0,
+   "player_name": "Ousmane Dembélé",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "a83d8b0c",
+   "season": 2021,
+   "distance": 7.109,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Javier Ontiveros",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "7111d552",
+   "season": 2022,
+   "distance": 7.115,
+   "survived": 1,
+   "fut_ability_v2": 77.9,
+   "player_name": "Vinicius Júnior",
+   "squad": "Real Madrid"
   },
   {
    "fbref_id": "2b16cb1a",
    "season": 2019,
-   "distance": 7.354,
+   "distance": 7.163,
    "survived": 1,
    "fut_ability_v2": 56.2,
    "player_name": "Allan Saint-Maximin",
@@ -75,8 +93,26 @@
   },
   {
    "fbref_id": "9a28eba4",
+   "season": 2020,
+   "distance": 7.183,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Adama Traoré",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "2b16cb1a",
+   "season": 2021,
+   "distance": 7.284,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Allan Saint-Maximin",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "9a28eba4",
    "season": 2019,
-   "distance": 7.454,
+   "distance": 7.313,
    "survived": 1,
    "fut_ability_v2": 55.7,
    "player_name": "Adama Traoré",
@@ -85,7 +121,7 @@
   {
    "fbref_id": "4737cebe",
    "season": 2018,
-   "distance": 8.303,
+   "distance": 8.103,
    "survived": 1,
    "fut_ability_v2": 68.4,
    "player_name": "Adnan Januzaj",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "fd9c4805",
    "season": 2018,
-   "distance": 8.649,
+   "distance": 8.472,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pione Sisto",
    "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "45b9b619",
-   "season": 2019,
-   "distance": 8.725,
-   "survived": 1,
-   "fut_ability_v2": 73.6,
-   "player_name": "Joaquín Correa",
-   "squad": "Lazio"
-  },
-  {
-   "fbref_id": "2b114be3",
-   "season": 2019,
-   "distance": 8.784,
-   "survived": 1,
-   "fut_ability_v2": 73.3,
-   "player_name": "Leroy Sané",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "3eb22ec9",
-   "season": 2018,
-   "distance": 8.798,
-   "survived": 1,
-   "fut_ability_v2": 75.9,
-   "player_name": "Bernardo Silva",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "fe012aca",
-   "season": 2019,
-   "distance": 8.92,
-   "survived": 1,
-   "fut_ability_v2": 57.2,
-   "player_name": "Jeremie Boga",
-   "squad": "Sassuolo"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jeremy Doku(FW)의 현재 능력 점수는 68.0점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 전진 운반 거리, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Jeremy Doku의 2~3년 후 예측 중심값은 72.2점, 80% 구간 상단은 83.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jeremy Doku의 2~3년 후 예측 중심값은 72.7점, 80% 구간 상단은 83.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

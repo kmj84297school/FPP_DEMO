@@ -32,24 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4397,
-  "mu": 52.9,
+  "survival_prob": 0.4538,
+  "mu": 52.3,
   "ci80": {
-   "lo": 43.7,
-   "hi": 62.3
+   "lo": 42.9,
+   "hi": 61.6
   },
   "ci50": {
-   "lo": 48.1,
-   "hi": 57.9
+   "lo": 47.4,
+   "hi": 57.2
   },
   "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "5b28b2f6",
+   "season": 2022,
+   "distance": 2.708,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Josan",
+   "squad": "Elche"
+  },
+  {
+   "fbref_id": "bb5fbd2b",
+   "season": 2022,
+   "distance": 2.731,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Solly March",
+   "squad": "Brighton"
+  },
+  {
+   "fbref_id": "5219ab4a",
+   "season": 2021,
+   "distance": 2.907,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Jonathan Clauss",
+   "squad": "Lens"
+  },
+  {
+   "fbref_id": "ba5a9545",
+   "season": 2021,
+   "distance": 2.958,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pablo Hervías",
+   "squad": "Valladolid"
+  },
+  {
    "fbref_id": "71ef519e",
    "season": 2020,
-   "distance": 3.185,
+   "distance": 3.21,
    "survived": 1,
    "fut_ability_v2": 49.7,
    "player_name": "Matt Ritchie",
@@ -58,16 +94,34 @@
   {
    "fbref_id": "79b2399c",
    "season": 2019,
-   "distance": 3.277,
+   "distance": 3.226,
    "survived": 1,
    "fut_ability_v2": 52.7,
    "player_name": "Pierrick Capelle",
    "squad": "Angers"
   },
   {
+   "fbref_id": "852351df",
+   "season": 2021,
+   "distance": 3.401,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bruno Peres",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2021,
+   "distance": 3.433,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "9ab48bde",
    "season": 2020,
-   "distance": 3.445,
+   "distance": 3.458,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pablo de Blasis",
@@ -76,65 +130,11 @@
   {
    "fbref_id": "d1661819",
    "season": 2019,
-   "distance": 3.468,
+   "distance": 3.482,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Bastian Oczipka",
    "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "060606ec",
-   "season": 2019,
-   "distance": 3.469,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marco D'Alessandro",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "5890cef1",
-   "season": 2018,
-   "distance": 3.528,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aday",
-   "squad": "Girona"
-  },
-  {
-   "fbref_id": "3e4f735d",
-   "season": 2019,
-   "distance": 3.567,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vitorino Antunes",
-   "squad": "Getafe"
-  },
-  {
-   "fbref_id": "89d10e53",
-   "season": 2019,
-   "distance": 3.598,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Danny Rose",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "71ef519e",
-   "season": 2019,
-   "distance": 3.605,
-   "survived": 1,
-   "fut_ability_v2": 47.8,
-   "player_name": "Matt Ritchie",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "9ba48d64",
-   "season": 2019,
-   "distance": 3.609,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Juanfran",
-   "squad": "Leganés"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Gerrit Holtmann(DF)의 현재 능력 점수는 56.6점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 시도, 유효슈팅, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 패스 성공률이다.",
-  "potential": "Gerrit Holtmann의 2~3년 후 예측 중심값은 52.9점, 80% 구간 상단은 62.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Gerrit Holtmann의 2~3년 후 예측 중심값은 52.3점, 80% 구간 상단은 61.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

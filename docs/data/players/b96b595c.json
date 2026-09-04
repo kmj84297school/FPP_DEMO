@@ -32,33 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5545,
-  "mu": 61.3,
+  "survival_prob": 0.2202,
+  "mu": 60.5,
   "ci80": {
-   "lo": 52.0,
-   "hi": 70.6
+   "lo": 51.1,
+   "hi": 69.8
   },
   "ci50": {
-   "lo": 56.4,
-   "hi": 66.2
+   "lo": 55.5,
+   "hi": 65.4
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "e85fb9b8",
+   "season": 2021,
+   "distance": 1.555,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "00844823",
+   "season": 2021,
+   "distance": 1.695,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Niklas Moisander",
+   "squad": "Werder Bremen"
+  },
+  {
    "fbref_id": "7c0000fd",
    "season": 2018,
-   "distance": 1.742,
+   "distance": 1.794,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andrea Barzagli",
    "squad": "Juventus"
   },
   {
+   "fbref_id": "fd2bc67d",
+   "season": 2022,
+   "distance": 1.842,
+   "survived": 1,
+   "fut_ability_v2": 63.5,
+   "player_name": "Dante",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "5570e6fb",
+   "season": 2021,
+   "distance": 1.859,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Claudio Terzi",
+   "squad": "Spezia"
+  },
+  {
+   "fbref_id": "f5efb153",
+   "season": 2021,
+   "distance": 1.9,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Laurent Koscielny",
+   "squad": "Bordeaux"
+  },
+  {
    "fbref_id": "4f2908e5",
    "season": 2020,
-   "distance": 1.929,
+   "distance": 1.993,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Federico Peluso",
@@ -67,7 +112,7 @@
   {
    "fbref_id": "55667895",
    "season": 2018,
-   "distance": 1.958,
+   "distance": 1.993,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Emiliano Moretti",
@@ -76,65 +121,20 @@
   {
    "fbref_id": "3d936ba9",
    "season": 2019,
-   "distance": 1.964,
+   "distance": 2.023,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Domenico Maietta",
    "squad": "Empoli"
   },
   {
-   "fbref_id": "13b0c150",
-   "season": 2018,
-   "distance": 2.055,
+   "fbref_id": "fc4f85b1",
+   "season": 2021,
+   "distance": 2.028,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Daniele Bonera",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "fd2bc67d",
-   "season": 2020,
-   "distance": 2.208,
-   "survived": 1,
-   "fut_ability_v2": 63.8,
-   "player_name": "Dante",
-   "squad": "Nice"
-  },
-  {
-   "fbref_id": "55667895",
-   "season": 2019,
-   "distance": 2.383,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Emiliano Moretti",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "80e4c841",
-   "season": 2020,
-   "distance": 2.528,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aurélien Chedjou",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "4f2908e5",
-   "season": 2019,
-   "distance": 2.579,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Federico Peluso",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "9ab16552",
-   "season": 2020,
-   "distance": 2.676,
-   "survived": 1,
-   "fut_ability_v2": 64.3,
-   "player_name": "Makoto Hasebe",
-   "squad": "Eint Frankfurt"
+   "player_name": "Diego Godín",
+   "squad": "Cagliari"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Francesco Acerbi(DF)의 현재 능력 점수는 68.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 공중볼 승리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 성공 드리블이다.",
-  "potential": "Francesco Acerbi의 2~3년 후 예측 중심값은 61.3점, 80% 구간 상단은 70.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Francesco Acerbi의 2~3년 후 예측 중심값은 60.5점, 80% 구간 상단은 69.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

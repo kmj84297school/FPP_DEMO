@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8234,
-  "mu": 58.7,
+  "survival_prob": 0.6491,
+  "mu": 57.3,
   "ci80": {
-   "lo": 48.0,
-   "hi": 69.5
+   "lo": 46.5,
+   "hi": 68.2
   },
   "ci50": {
-   "lo": 53.1,
-   "hi": 64.4
+   "lo": 51.7,
+   "hi": 63.0
   },
-  "sigma_model": 2.4,
+  "sigma_model": 2.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "0959c2a2",
    "season": 2018,
-   "distance": 1.968,
+   "distance": 1.871,
    "survived": 1,
    "fut_ability_v2": 63.8,
    "player_name": "Federico Valverde",
@@ -58,34 +58,43 @@
   {
    "fbref_id": "442b56fa",
    "season": 2019,
-   "distance": 2.416,
+   "distance": 2.372,
    "survived": 1,
    "fut_ability_v2": 59.5,
    "player_name": "Ridle Baku",
    "squad": "Mainz 05"
   },
   {
+   "fbref_id": "0db169ae",
+   "season": 2021,
+   "distance": 2.479,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sandro Tonali",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "3b1ed320",
+   "season": 2022,
+   "distance": 2.564,
+   "survived": 1,
+   "fut_ability_v2": 67.3,
+   "player_name": "Angelo Stiller",
+   "squad": "Hoffenheim"
+  },
+  {
    "fbref_id": "2b09d998",
    "season": 2020,
-   "distance": 2.642,
+   "distance": 2.569,
    "survived": 1,
    "fut_ability_v2": 54.3,
    "player_name": "Tyler Adams",
    "squad": "RB Leipzig"
   },
   {
-   "fbref_id": "1ae836b1",
-   "season": 2019,
-   "distance": 2.674,
-   "survived": 1,
-   "fut_ability_v2": 34.3,
-   "player_name": "Elvis Rexhbeçaj",
-   "squad": "Wolfsburg"
-  },
-  {
    "fbref_id": "7f622eef",
    "season": 2018,
-   "distance": 2.691,
+   "distance": 2.625,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Assane Dioussé",
@@ -94,16 +103,25 @@
   {
    "fbref_id": "01c3aff5",
    "season": 2018,
-   "distance": 2.693,
+   "distance": 2.64,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Weston McKennie",
    "squad": "Schalke 04"
   },
   {
+   "fbref_id": "1ae836b1",
+   "season": 2019,
+   "distance": 2.652,
+   "survived": 1,
+   "fut_ability_v2": 34.3,
+   "player_name": "Elvis Rexhbeçaj",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "ab700320",
    "season": 2018,
-   "distance": 2.772,
+   "distance": 2.694,
    "survived": 1,
    "fut_ability_v2": 42.1,
    "player_name": "Arne Maier",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "92d83c27",
    "season": 2019,
-   "distance": 2.79,
+   "distance": 2.727,
    "survived": 1,
    "fut_ability_v2": 50.3,
    "player_name": "Mattias Svanberg",
    "squad": "Bologna"
-  },
-  {
-   "fbref_id": "c6e8cf1f",
-   "season": 2018,
-   "distance": 2.836,
-   "survived": 1,
-   "fut_ability_v2": 47.9,
-   "player_name": "Saša Lukić",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "6f7d826d",
-   "season": 2019,
-   "distance": 2.84,
-   "survived": 1,
-   "fut_ability_v2": 54.1,
-   "player_name": "Douglas Luiz",
-   "squad": "Girona"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Aljoscha Kemlein(MF)의 현재 능력 점수는 53.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 손실(미스+파울), 공중볼 승리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
-  "potential": "Aljoscha Kemlein의 2~3년 후 예측 중심값은 58.7점, 80% 구간 상단은 69.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 82.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Aljoscha Kemlein의 2~3년 후 예측 중심값은 57.3점, 80% 구간 상단은 68.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 64.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

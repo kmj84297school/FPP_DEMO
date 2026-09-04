@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1969,
-  "mu": 40.2,
+  "survival_prob": 0.144,
+  "mu": 36.0,
   "ci80": {
-   "lo": 30.5,
-   "hi": 49.8
+   "lo": 26.5,
+   "hi": 45.6
   },
   "ci50": {
-   "lo": 35.2,
-   "hi": 45.2
+   "lo": 31.0,
+   "hi": 41.1
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "5eb72339",
    "season": 2018,
-   "distance": 1.572,
+   "distance": 1.598,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Simone Padoin",
@@ -58,43 +58,52 @@
   {
    "fbref_id": "b69261a0",
    "season": 2018,
-   "distance": 2.587,
+   "distance": 2.553,
    "survived": 1,
    "fut_ability_v2": 49.2,
    "player_name": "Oscar Wendt",
    "squad": "M'Gladbach"
   },
   {
+   "fbref_id": "e94d79e3",
+   "season": 2021,
+   "distance": 2.571,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Martín Cáceres",
+   "squad": "Fiorentina"
+  },
+  {
    "fbref_id": "c6896eab",
    "season": 2019,
-   "distance": 2.768,
+   "distance": 2.715,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Chris Löwe",
    "squad": "Huddersfield"
   },
   {
-   "fbref_id": "b69261a0",
-   "season": 2020,
-   "distance": 2.806,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Oscar Wendt",
-   "squad": "M'Gladbach"
-  },
-  {
    "fbref_id": "00a6485f",
    "season": 2019,
-   "distance": 2.831,
+   "distance": 2.774,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andreas Beck",
    "squad": "Stuttgart"
   },
   {
+   "fbref_id": "b69261a0",
+   "season": 2020,
+   "distance": 2.794,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oscar Wendt",
+   "squad": "M'Gladbach"
+  },
+  {
    "fbref_id": "81069528",
    "season": 2020,
-   "distance": 2.873,
+   "distance": 2.847,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Roberto Rosales",
@@ -103,38 +112,29 @@
   {
    "fbref_id": "652811aa",
    "season": 2020,
-   "distance": 3.098,
+   "distance": 3.02,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marco Calderoni",
    "squad": "Lecce"
   },
   {
-   "fbref_id": "e74f0e59",
-   "season": 2020,
-   "distance": 3.211,
-   "survived": 1,
-   "fut_ability_v2": 52.1,
-   "player_name": "Lorenzo De Silvestri",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "b18095b6",
-   "season": 2018,
-   "distance": 3.216,
+   "fbref_id": "f91e81c9",
+   "season": 2021,
+   "distance": 3.038,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Leighton Baines",
-   "squad": "Everton"
+   "player_name": "Jens Stryger Larsen",
+   "squad": "Udinese"
   },
   {
-   "fbref_id": "a7813ac4",
-   "season": 2019,
-   "distance": 3.28,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Daniel Brosinski",
-   "squad": "Mainz 05"
+   "fbref_id": "71ef519e",
+   "season": 2021,
+   "distance": 3.068,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Christian Günter(DF)의 현재 능력 점수는 41.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 키패스, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 공중볼 승리이다.",
-  "potential": "Christian Günter의 2~3년 후 예측 중심값은 40.2점, 80% 구간 상단은 49.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 19.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Christian Günter의 2~3년 후 예측 중심값은 36.0점, 80% 구간 상단은 45.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 14.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

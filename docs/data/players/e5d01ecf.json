@@ -32,42 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.234,
-  "mu": 55.7,
+  "survival_prob": 0.1612,
+  "mu": 52.9,
   "ci80": {
-   "lo": 46.5,
-   "hi": 65.1
+   "lo": 43.7,
+   "hi": 62.2
   },
   "ci50": {
-   "lo": 50.9,
-   "hi": 60.7
+   "lo": 48.0,
+   "hi": 57.8
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "99b1d0e6",
-   "season": 2018,
-   "distance": 2.41,
-   "survived": 1,
-   "fut_ability_v2": 41.5,
-   "player_name": "Stephan Lichtsteiner",
-   "squad": "Juventus"
+   "fbref_id": "2321ea6e",
+   "season": 2022,
+   "distance": 2.352,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Le Goff",
+   "squad": "Lorient"
   },
   {
    "fbref_id": "cfd8d664",
    "season": 2018,
-   "distance": 2.423,
+   "distance": 2.451,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juanfran",
    "squad": "Atlético Madrid"
   },
   {
+   "fbref_id": "99b1d0e6",
+   "season": 2018,
+   "distance": 2.453,
+   "survived": 1,
+   "fut_ability_v2": 41.5,
+   "player_name": "Stephan Lichtsteiner",
+   "squad": "Juventus"
+  },
+  {
    "fbref_id": "08aa17d0",
    "season": 2018,
-   "distance": 2.514,
+   "distance": 2.548,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Antonio Valencia",
@@ -76,16 +85,25 @@
   {
    "fbref_id": "5eb72339",
    "season": 2019,
-   "distance": 2.684,
+   "distance": 2.744,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Simone Padoin",
    "squad": "Cagliari"
   },
   {
+   "fbref_id": "c26a3918",
+   "season": 2021,
+   "distance": 2.77,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
    "fbref_id": "a7f00c8c",
    "season": 2018,
-   "distance": 2.803,
+   "distance": 2.779,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luisinho",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "be927d03",
    "season": 2018,
-   "distance": 2.814,
+   "distance": 2.807,
    "survived": 1,
    "fut_ability_v2": 56.3,
    "player_name": "Ashley Young",
    "squad": "Manchester Utd"
   },
   {
-   "fbref_id": "edd1466a",
-   "season": 2020,
-   "distance": 2.941,
+   "fbref_id": "35dd6d80",
+   "season": 2021,
+   "distance": 2.836,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Fouad Chafik",
-   "squad": "Dijon"
+   "player_name": "Domenico Criscito",
+   "squad": "Genoa"
   },
   {
-   "fbref_id": "ffad706e",
-   "season": 2019,
-   "distance": 2.977,
+   "fbref_id": "d1661819",
+   "season": 2021,
+   "distance": 2.843,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Javi López",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "b18095b6",
-   "season": 2018,
-   "distance": 2.996,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Leighton Baines",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "b69261a0",
-   "season": 2019,
-   "distance": 3.103,
-   "survived": 1,
-   "fut_ability_v2": 45.4,
-   "player_name": "Oscar Wendt",
-   "squad": "M'Gladbach"
+   "player_name": "Bastian Oczipka",
+   "squad": "Schalke 04"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Kiko Femenía(DF)의 현재 능력 점수는 53.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅당 기대득점, 태클+인터셉트, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Kiko Femenía의 2~3년 후 예측 중심값은 55.7점, 80% 구간 상단은 65.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 23.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Kiko Femenía의 2~3년 후 예측 중심값은 52.9점, 80% 구간 상단은 62.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 16.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

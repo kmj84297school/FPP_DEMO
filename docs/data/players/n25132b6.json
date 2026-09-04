@@ -32,51 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2995,
-  "mu": 46.9,
+  "survival_prob": 0.4426,
+  "mu": 46.2,
   "ci80": {
-   "lo": 37.8,
-   "hi": 56.1
+   "lo": 37.0,
+   "hi": 55.5
   },
   "ci50": {
-   "lo": 42.1,
-   "hi": 51.8
+   "lo": 41.4,
+   "hi": 51.1
   },
-  "sigma_model": 1.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "4f974391",
-   "season": 2018,
-   "distance": 1.543,
-   "survived": 1,
-   "fut_ability_v2": 53.4,
-   "player_name": "Aaron Cresswell",
-   "squad": "West Ham"
+   "fbref_id": "c010b898",
+   "season": 2021,
+   "distance": 1.58,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Barba",
+   "squad": "Benevento"
   },
   {
    "fbref_id": "173061c0",
    "season": 2019,
-   "distance": 1.62,
+   "distance": 1.584,
    "survived": 1,
    "fut_ability_v2": 59.1,
    "player_name": "Riccardo Gagliolo",
    "squad": "Parma"
   },
   {
+   "fbref_id": "4f974391",
+   "season": 2018,
+   "distance": 1.596,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Aaron Cresswell",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ab096c6f",
+   "season": 2022,
+   "distance": 1.621,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Timothée Kolodziejczak",
+   "squad": "Saint-Étienne"
+  },
+  {
    "fbref_id": "22051fbe",
    "season": 2018,
-   "distance": 1.877,
+   "distance": 1.886,
    "survived": 1,
    "fut_ability_v2": 56.8,
    "player_name": "Giulio Donati",
    "squad": "Mainz 05"
   },
   {
+   "fbref_id": "8db394aa",
+   "season": 2019,
+   "distance": 1.926,
+   "survived": 1,
+   "fut_ability_v2": 40.6,
+   "player_name": "Ximo Navarro",
+   "squad": "Alavés"
+  },
+  {
    "fbref_id": "4cee5954",
    "season": 2020,
-   "distance": 1.896,
+   "distance": 1.969,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lucas Olaza",
@@ -85,7 +112,7 @@
   {
    "fbref_id": "f03f284b",
    "season": 2020,
-   "distance": 1.958,
+   "distance": 1.978,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "David López",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "c26a3918",
    "season": 2018,
-   "distance": 1.987,
+   "distance": 1.992,
    "survived": 1,
    "fut_ability_v2": 50.1,
    "player_name": "Vincent Manceau",
    "squad": "Angers"
   },
   {
-   "fbref_id": "8db394aa",
-   "season": 2019,
-   "distance": 2.002,
-   "survived": 1,
-   "fut_ability_v2": 40.6,
-   "player_name": "Ximo Navarro",
-   "squad": "Alavés"
-  },
-  {
    "fbref_id": "ae0a7ddf",
    "season": 2019,
-   "distance": 2.009,
+   "distance": 1.999,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "DeAndre Yedlin",
    "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "f7aa75bd",
-   "season": 2018,
-   "distance": 2.017,
-   "survived": 1,
-   "fut_ability_v2": 51.1,
-   "player_name": "Marvin Plattenhardt",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "f91e81c9",
-   "season": 2018,
-   "distance": 2.06,
-   "survived": 1,
-   "fut_ability_v2": 45.8,
-   "player_name": "Jens Stryger Larsen",
-   "squad": "Udinese"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Eric Smith(DF)의 현재 능력 점수는 50.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 유효슈팅, 슈팅 창출(SCA), 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 운반 거리이다.",
-  "potential": "Eric Smith의 2~3년 후 예측 중심값은 46.9점, 80% 구간 상단은 56.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Eric Smith의 2~3년 후 예측 중심값은 46.2점, 80% 구간 상단은 55.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

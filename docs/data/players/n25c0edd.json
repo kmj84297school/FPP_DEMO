@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8454,
-  "mu": 56.8,
+  "survival_prob": 0.4361,
+  "mu": 56.1,
   "ci80": {
-   "lo": 46.2,
-   "hi": 67.4
+   "lo": 45.3,
+   "hi": 66.7
   },
   "ci50": {
-   "lo": 51.2,
-   "hi": 62.4
+   "lo": 50.4,
+   "hi": 61.6
   },
-  "sigma_model": 2.1,
+  "sigma_model": 2.4,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "1f3afdcb",
+   "season": 2022,
+   "distance": 1.435,
+   "survived": 1,
+   "fut_ability_v2": 63.3,
+   "player_name": "Odilon Kossonou",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "c795c408",
+   "season": 2021,
+   "distance": 1.755,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Panzo",
+   "squad": "Dijon"
+  },
+  {
    "fbref_id": "677da306",
    "season": 2018,
-   "distance": 1.642,
+   "distance": 1.777,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Ohis Felix Uduokhai",
    "squad": "Wolfsburg"
   },
   {
+   "fbref_id": "75438a9a",
+   "season": 2022,
+   "distance": 1.804,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Mattia Viti",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "7ef972c3",
+   "season": 2022,
+   "distance": 1.843,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Flavius Daniliuc",
+   "squad": "Nice"
+  },
+  {
    "fbref_id": "8f325097",
    "season": 2019,
-   "distance": 1.949,
+   "distance": 2.036,
    "survived": 1,
    "fut_ability_v2": 44.9,
    "player_name": "Nicolas Cozza",
@@ -67,7 +103,7 @@
   {
    "fbref_id": "972aeb2a",
    "season": 2020,
-   "distance": 1.966,
+   "distance": 2.09,
    "survived": 1,
    "fut_ability_v2": 58.7,
    "player_name": "William Saliba",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "1c7012b8",
    "season": 2018,
-   "distance": 2.092,
+   "distance": 2.127,
    "survived": 1,
    "fut_ability_v2": 59.9,
    "player_name": "Declan Rice",
    "squad": "West Ham"
   },
   {
-   "fbref_id": "88f130ed",
-   "season": 2019,
-   "distance": 2.46,
+   "fbref_id": "5b9512c5",
+   "season": 2022,
+   "distance": 2.313,
    "survived": 1,
-   "fut_ability_v2": 64.4,
-   "player_name": "Jean-Clair Todibo",
-   "squad": "Toulouse / Barcelona"
+   "fut_ability_v2": 61.4,
+   "player_name": "Castello Lukeba",
+   "squad": "Lyon"
   },
   {
-   "fbref_id": "a9142dc3",
-   "season": 2018,
-   "distance": 2.465,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Timothy Fosu-Mensah",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "a73c8f95",
-   "season": 2020,
-   "distance": 2.466,
+   "fbref_id": "f7e2af2c",
+   "season": 2022,
+   "distance": 2.321,
    "survived": 1,
-   "fut_ability_v2": 58.1,
-   "player_name": "Edmond Tapsoba",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "132a82f1",
-   "season": 2020,
-   "distance": 2.494,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wesley Fofana",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "cc77354e",
-   "season": 2019,
-   "distance": 2.502,
-   "survived": 1,
-   "fut_ability_v2": 62.9,
-   "player_name": "Boubacar Kamara",
-   "squad": "Marseille"
-  },
-  {
-   "fbref_id": "15d0c248",
-   "season": 2018,
-   "distance": 2.504,
-   "survived": 1,
-   "fut_ability_v2": 54.0,
-   "player_name": "Luiz Felipe",
-   "squad": "Lazio"
+   "fut_ability_v2": 51.8,
+   "player_name": "Andrea Carboni",
+   "squad": "Cagliari"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Christian Mawissa(DF)의 현재 능력 점수는 49.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 블록, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 볼 손실(미스+파울)이다.",
-  "potential": "Christian Mawissa의 2~3년 후 예측 중심값은 56.8점, 80% 구간 상단은 67.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 84.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Christian Mawissa의 2~3년 후 예측 중심값은 56.1점, 80% 구간 상단은 66.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 43.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

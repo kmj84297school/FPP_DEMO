@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1967,
-  "mu": 50.6,
+  "survival_prob": 0.3198,
+  "mu": 52.7,
   "ci80": {
-   "lo": 41.3,
-   "hi": 59.8
+   "lo": 43.1,
+   "hi": 62.3
   },
   "ci50": {
-   "lo": 45.7,
-   "hi": 55.4
+   "lo": 47.7,
+   "hi": 57.8
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 2.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f69fba57",
    "season": 2018,
-   "distance": 1.967,
+   "distance": 2.001,
    "survived": 1,
    "fut_ability_v2": 60.3,
    "player_name": "Yuya Osako",
    "squad": "Köln"
   },
   {
+   "fbref_id": "a3ddb1b9",
+   "season": 2021,
+   "distance": 2.305,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "d5dd5f1f",
+   "season": 2021,
+   "distance": 2.392,
+   "survived": 1,
+   "fut_ability_v2": 71.3,
+   "player_name": "Pierre-Emerick Aubameyang",
+   "squad": "Arsenal"
+  },
+  {
    "fbref_id": "bdedd861",
    "season": 2020,
-   "distance": 2.416,
+   "distance": 2.44,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rachid Alioui",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "8e87af42",
    "season": 2018,
-   "distance": 2.447,
+   "distance": 2.459,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Préjuce Nakoulma",
    "squad": "Nantes"
   },
   {
-   "fbref_id": "157d29b6",
-   "season": 2018,
-   "distance": 2.479,
-   "survived": 1,
-   "fut_ability_v2": 61.7,
-   "player_name": "Diego Farias",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "88a359d4",
-   "season": 2020,
-   "distance": 2.479,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Adrián López",
-   "squad": "Osasuna"
-  },
-  {
    "fbref_id": "4d50454e",
    "season": 2020,
-   "distance": 2.505,
+   "distance": 2.482,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ben Zolinski",
    "squad": "Paderborn 07"
   },
   {
-   "fbref_id": "f69fba57",
-   "season": 2019,
-   "distance": 2.559,
+   "fbref_id": "88a359d4",
+   "season": 2020,
+   "distance": 2.494,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Yuya Osako",
-   "squad": "Werder Bremen"
+   "player_name": "Adrián López",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "157d29b6",
+   "season": 2018,
+   "distance": 2.503,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Diego Farias",
+   "squad": "Cagliari"
   },
   {
    "fbref_id": "ecbb3fdf",
    "season": 2019,
-   "distance": 2.591,
+   "distance": 2.54,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "André Schürrle",
    "squad": "Fulham"
   },
   {
-   "fbref_id": "5592007b",
-   "season": 2020,
-   "distance": 2.669,
+   "fbref_id": "f69fba57",
+   "season": 2019,
+   "distance": 2.552,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Alfredo Donnarumma",
-   "squad": "Brescia"
-  },
-  {
-   "fbref_id": "5370cba7",
-   "season": 2018,
-   "distance": 2.71,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alessio Cerci",
-   "squad": "Hellas Verona"
+   "player_name": "Yuya Osako",
+   "squad": "Werder Bremen"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jim Allevinah(FW)의 현재 능력 점수는 43.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 리커버리, 패스 성공률, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 유효슈팅이다.",
-  "potential": "Jim Allevinah의 2~3년 후 예측 중심값은 50.6점, 80% 구간 상단은 59.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 19.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jim Allevinah의 2~3년 후 예측 중심값은 52.7점, 80% 구간 상단은 62.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

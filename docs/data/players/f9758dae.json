@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6378,
+  "survival_prob": 0.6929,
   "mu": 43.9,
   "ci80": {
    "lo": 34.5,
-   "hi": 53.3
+   "hi": 53.4
   },
   "ci50": {
-   "lo": 39.0,
+   "lo": 38.9,
    "hi": 48.9
   },
   "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "2f72f79e",
    "season": 2018,
-   "distance": 2.063,
+   "distance": 2.067,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Martin Olsson",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "247accfd",
    "season": 2019,
-   "distance": 2.327,
+   "distance": 2.323,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bakaye Dibassy",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "63071a3f",
    "season": 2019,
-   "distance": 2.352,
+   "distance": 2.339,
    "survived": 1,
    "fut_ability_v2": 44.4,
    "player_name": "Simone Iacoponi",
@@ -76,11 +76,47 @@
   {
    "fbref_id": "97572117",
    "season": 2020,
-   "distance": 2.393,
+   "distance": 2.392,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Allan Nyom",
    "squad": "Getafe"
+  },
+  {
+   "fbref_id": "69cbc8b6",
+   "season": 2022,
+   "distance": 2.455,
+   "survived": 1,
+   "fut_ability_v2": 52.4,
+   "player_name": "Leandro Cabrera",
+   "squad": "Espanyol"
+  },
+  {
+   "fbref_id": "b666421b",
+   "season": 2019,
+   "distance": 2.46,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Ismaël Traoré",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "f25b010f",
+   "season": 2020,
+   "distance": 2.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Fernández",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "173061c0",
+   "season": 2019,
+   "distance": 2.478,
+   "survived": 1,
+   "fut_ability_v2": 59.1,
+   "player_name": "Riccardo Gagliolo",
+   "squad": "Parma"
   },
   {
    "fbref_id": "b69261a0",
@@ -92,49 +128,13 @@
    "squad": "M'Gladbach"
   },
   {
-   "fbref_id": "f25b010f",
-   "season": 2020,
-   "distance": 2.503,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Federico Fernández",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "b666421b",
+   "fbref_id": "8db394aa",
    "season": 2019,
-   "distance": 2.543,
+   "distance": 2.519,
    "survived": 1,
-   "fut_ability_v2": 46.4,
-   "player_name": "Ismaël Traoré",
-   "squad": "Angers"
-  },
-  {
-   "fbref_id": "173061c0",
-   "season": 2019,
-   "distance": 2.554,
-   "survived": 1,
-   "fut_ability_v2": 59.1,
-   "player_name": "Riccardo Gagliolo",
-   "squad": "Parma"
-  },
-  {
-   "fbref_id": "d83bbc54",
-   "season": 2020,
-   "distance": 2.617,
-   "survived": 1,
-   "fut_ability_v2": 41.3,
-   "player_name": "Daniel Wass",
-   "squad": "Valencia"
-  },
-  {
-   "fbref_id": "4a895384",
-   "season": 2019,
-   "distance": 2.627,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Xabier Etxeita",
-   "squad": "Huesca"
+   "fut_ability_v2": 40.6,
+   "player_name": "Ximo Navarro",
+   "squad": "Alavés"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Emmanuel Gyasi(DF)의 현재 능력 점수는 42.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 패스이다.",
-  "potential": "Emmanuel Gyasi의 2~3년 후 예측 중심값은 43.9점, 80% 구간 상단은 53.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 63.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Emmanuel Gyasi의 2~3년 후 예측 중심값은 43.9점, 80% 구간 상단은 53.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

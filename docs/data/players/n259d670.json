@@ -32,42 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7957,
-  "mu": 61.8,
+  "survival_prob": 0.9257,
+  "mu": 58.7,
   "ci80": {
-   "lo": 51.2,
-   "hi": 72.3
+   "lo": 48.3,
+   "hi": 69.1
   },
   "ci50": {
-   "lo": 56.3,
-   "hi": 67.4
+   "lo": 53.3,
+   "hi": 64.2
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
-   "fbref_id": "4315f30d",
-   "season": 2019,
-   "distance": 1.692,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Malang Sarr",
-   "squad": "Nice"
-  },
-  {
    "fbref_id": "cc77354e",
    "season": 2019,
-   "distance": 1.753,
+   "distance": 1.723,
    "survived": 1,
    "fut_ability_v2": 62.9,
    "player_name": "Boubacar Kamara",
    "squad": "Marseille"
   },
   {
+   "fbref_id": "4315f30d",
+   "season": 2019,
+   "distance": 1.741,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Malang Sarr",
+   "squad": "Nice"
+  },
+  {
    "fbref_id": "677da306",
    "season": 2018,
-   "distance": 1.987,
+   "distance": 1.978,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Ohis Felix Uduokhai",
@@ -76,7 +76,7 @@
   {
    "fbref_id": "d6e53a3a",
    "season": 2020,
-   "distance": 2.082,
+   "distance": 2.114,
    "survived": 1,
    "fut_ability_v2": 65.0,
    "player_name": "Matthijs de Ligt",
@@ -85,11 +85,29 @@
   {
    "fbref_id": "cc77354e",
    "season": 2020,
-   "distance": 2.301,
+   "distance": 2.241,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Boubacar Kamara",
    "squad": "Marseille"
+  },
+  {
+   "fbref_id": "c795c408",
+   "season": 2021,
+   "distance": 2.298,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Panzo",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "1a066e69",
+   "season": 2022,
+   "distance": 2.327,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Maxime Estève",
+   "squad": "Montpellier"
   },
   {
    "fbref_id": "1bfb6fef",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "441197b8",
    "season": 2019,
-   "distance": 2.438,
+   "distance": 2.488,
    "survived": 1,
    "fut_ability_v2": 70.3,
    "player_name": "Obite N'Dicka",
    "squad": "Eint Frankfurt"
   },
   {
-   "fbref_id": "4d1666ff",
-   "season": 2019,
-   "distance": 2.468,
-   "survived": 1,
-   "fut_ability_v2": 63.2,
-   "player_name": "Jules Koundé",
-   "squad": "Bordeaux"
-  },
-  {
    "fbref_id": "06df8256",
    "season": 2019,
-   "distance": 2.485,
+   "distance": 2.539,
    "survived": 1,
    "fut_ability_v2": 67.0,
    "player_name": "Benoît Badiashile",
    "squad": "Monaco"
-  },
-  {
-   "fbref_id": "75b86fb3",
-   "season": 2019,
-   "distance": 2.613,
-   "survived": 1,
-   "fut_ability_v2": 61.5,
-   "player_name": "Alessandro Bastoni",
-   "squad": "Parma"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mamadou Sarr(DF)의 현재 능력 점수는 50.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 패스 성공률, 슈팅당 기대득점, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 패스이다.",
-  "potential": "Mamadou Sarr의 2~3년 후 예측 중심값은 61.8점, 80% 구간 상단은 72.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 79.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mamadou Sarr의 2~3년 후 예측 중심값은 58.7점, 80% 구간 상단은 69.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

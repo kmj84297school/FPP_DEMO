@@ -32,60 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1818,
-  "mu": 58.0,
+  "survival_prob": 0.0747,
+  "mu": 53.3,
   "ci80": {
-   "lo": 48.8,
-   "hi": 67.2
+   "lo": 43.9,
+   "hi": 62.6
   },
   "ci50": {
-   "lo": 53.1,
-   "hi": 62.8
+   "lo": 48.4,
+   "hi": 58.2
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "e0314d87",
    "season": 2020,
-   "distance": 1.991,
+   "distance": 1.97,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andrea Masiello",
    "squad": "Genoa / Atalanta"
   },
   {
+   "fbref_id": "a60823a4",
+   "season": 2021,
+   "distance": 2.183,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro López Muñoz",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "edd1466a",
+   "season": 2021,
+   "distance": 2.197,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fouad Chafik",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "35dd6d80",
+   "season": 2021,
+   "distance": 2.225,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Domenico Criscito",
+   "squad": "Genoa"
+  },
+  {
    "fbref_id": "7cefa219",
    "season": 2019,
-   "distance": 2.208,
+   "distance": 2.244,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Tito",
    "squad": "Rayo Vallecano"
   },
   {
-   "fbref_id": "00b0bb87",
-   "season": 2020,
-   "distance": 2.224,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fabrizio Cacciatore",
-   "squad": "Cagliari"
-  },
-  {
    "fbref_id": "cfd8d664",
    "season": 2018,
-   "distance": 2.254,
+   "distance": 2.256,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juanfran",
    "squad": "Atlético Madrid"
   },
   {
+   "fbref_id": "00b0bb87",
+   "season": 2020,
+   "distance": 2.269,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabrizio Cacciatore",
+   "squad": "Cagliari"
+  },
+  {
    "fbref_id": "99b1d0e6",
    "season": 2018,
-   "distance": 2.357,
+   "distance": 2.393,
    "survived": 1,
    "fut_ability_v2": 41.5,
    "player_name": "Stephan Lichtsteiner",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "5eb72339",
    "season": 2019,
-   "distance": 2.47,
+   "distance": 2.524,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Simone Padoin",
    "squad": "Cagliari"
   },
   {
-   "fbref_id": "1c8c5aed",
-   "season": 2019,
-   "distance": 2.55,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Cristian Molinaro",
-   "squad": "Frosinone"
-  },
-  {
    "fbref_id": "46d50339",
    "season": 2018,
-   "distance": 2.559,
+   "distance": 2.579,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Christophe Jallet",
    "squad": "Nice"
-  },
-  {
-   "fbref_id": "a60823a4",
-   "season": 2018,
-   "distance": 2.668,
-   "survived": 1,
-   "fut_ability_v2": 56.5,
-   "player_name": "Pedro López Muñoz",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "5a3f6fae",
-   "season": 2018,
-   "distance": 2.779,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fernando Navarro",
-   "squad": "La Coruña"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Kyle Walker(DF)의 현재 능력 점수는 53.2점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 패스, 최종 3분의1 패스, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 공중볼 승률이다.",
-  "potential": "Kyle Walker의 2~3년 후 예측 중심값은 58.0점, 80% 구간 상단은 67.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 18.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Kyle Walker의 2~3년 후 예측 중심값은 53.3점, 80% 구간 상단은 62.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 7.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8756,
-  "mu": 61.1,
+  "survival_prob": 0.755,
+  "mu": 60.9,
   "ci80": {
-   "lo": 50.6,
-   "hi": 71.6
+   "lo": 50.5,
+   "hi": 71.3
   },
   "ci50": {
-   "lo": 55.5,
-   "hi": 66.6
+   "lo": 55.4,
+   "hi": 66.3
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.4,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "be170419",
+   "season": 2021,
+   "distance": 0.996,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Unai Núñez",
+   "squad": "Athletic Club"
+  },
+  {
    "fbref_id": "ce4246f5",
    "season": 2019,
-   "distance": 1.053,
+   "distance": 1.018,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Kurt Zouma",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "92b4758e",
    "season": 2018,
-   "distance": 1.323,
+   "distance": 1.284,
    "survived": 1,
    "fut_ability_v2": 54.7,
    "player_name": "Samir Santos",
    "squad": "Udinese"
   },
   {
+   "fbref_id": "9f7c837d",
+   "season": 2021,
+   "distance": 1.289,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Ben Godfrey",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "9a64e67e",
+   "season": 2021,
+   "distance": 1.311,
+   "survived": 1,
+   "fut_ability_v2": 53.9,
+   "player_name": "Robin Le Normand",
+   "squad": "Real Sociedad"
+  },
+  {
+   "fbref_id": "0fee6bda",
+   "season": 2021,
+   "distance": 1.351,
+   "survived": 1,
+   "fut_ability_v2": 49.9,
+   "player_name": "Martin Erlic",
+   "squad": "Spezia"
+  },
+  {
    "fbref_id": "aad48be9",
    "season": 2018,
-   "distance": 1.402,
+   "distance": 1.452,
    "survived": 1,
    "fut_ability_v2": 53.2,
    "player_name": "Niklas Stark",
    "squad": "Hertha BSC"
   },
   {
+   "fbref_id": "f6bdc830",
+   "season": 2021,
+   "distance": 1.464,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Keven Schlotterbeck",
+   "squad": "Freiburg"
+  },
+  {
    "fbref_id": "3376a776",
    "season": 2018,
-   "distance": 1.425,
+   "distance": 1.491,
    "survived": 1,
    "fut_ability_v2": 59.7,
    "player_name": "Karim Rekik",
    "squad": "Hertha BSC"
   },
   {
-   "fbref_id": "bd7d2e6d",
-   "season": 2019,
-   "distance": 1.546,
-   "survived": 1,
-   "fut_ability_v2": 65.8,
-   "player_name": "Timo Baumgartl",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "00242715",
-   "season": 2019,
-   "distance": 1.562,
-   "survived": 1,
-   "fut_ability_v2": 56.9,
-   "player_name": "Moussa Niakhate",
-   "squad": "Mainz 05"
-  },
-  {
    "fbref_id": "3ecc11d8",
    "season": 2019,
-   "distance": 1.592,
+   "distance": 1.517,
    "survived": 1,
    "fut_ability_v2": 61.0,
    "player_name": "Yeray Álvarez",
    "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "450ab6fc",
-   "season": 2018,
-   "distance": 1.594,
-   "survived": 1,
-   "fut_ability_v2": 54.7,
-   "player_name": "Jamaal Lascelles",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "aad48be9",
-   "season": 2019,
-   "distance": 1.691,
-   "survived": 1,
-   "fut_ability_v2": 58.5,
-   "player_name": "Niklas Stark",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "19e4eab9",
-   "season": 2020,
-   "distance": 1.7,
-   "survived": 1,
-   "fut_ability_v2": 47.4,
-   "player_name": "Rodrigo Becão",
-   "squad": "Udinese"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jacob Greaves(DF)의 현재 능력 점수는 58.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 클리어링, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 전진 운반 거리이다.",
-  "potential": "Jacob Greaves의 2~3년 후 예측 중심값은 61.1점, 80% 구간 상단은 71.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jacob Greaves의 2~3년 후 예측 중심값은 60.9점, 80% 구간 상단은 71.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 75.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9667,
-  "mu": 64.6,
+  "survival_prob": 0.9267,
+  "mu": 66.8,
   "ci80": {
-   "lo": 53.6,
-   "hi": 75.6
+   "lo": 55.8,
+   "hi": 77.6
   },
   "ci50": {
-   "lo": 58.8,
-   "hi": 70.3
+   "lo": 61.0,
+   "hi": 72.5
   },
-  "sigma_model": 3.0,
+  "sigma_model": 2.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "515ebe8d",
+   "season": 2021,
+   "distance": 1.481,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nathaniel Phillips",
+   "squad": "Liverpool"
+  },
+  {
    "fbref_id": "aad48be9",
    "season": 2019,
-   "distance": 1.601,
+   "distance": 1.656,
    "survived": 1,
    "fut_ability_v2": 58.5,
    "player_name": "Niklas Stark",
    "squad": "Hertha BSC"
   },
   {
+   "fbref_id": "5c7845f6",
+   "season": 2021,
+   "distance": 1.798,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Igor Zubeldia",
+   "squad": "Real Sociedad"
+  },
+  {
    "fbref_id": "1cb49278",
    "season": 2020,
-   "distance": 1.949,
+   "distance": 1.907,
    "survived": 1,
    "fut_ability_v2": 73.1,
    "player_name": "Andreas Christensen",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "da7b447d",
    "season": 2019,
-   "distance": 2.026,
+   "distance": 1.952,
    "survived": 1,
    "fut_ability_v2": 63.8,
    "player_name": "Davinson Sánchez",
    "squad": "Tottenham"
   },
   {
+   "fbref_id": "2784f898",
+   "season": 2021,
+   "distance": 1.987,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Éder Militão",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "b5bf1770",
+   "season": 2021,
+   "distance": 2.018,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lyanco",
+   "squad": "Torino"
+  },
+  {
    "fbref_id": "9a64e67e",
    "season": 2020,
-   "distance": 2.03,
+   "distance": 2.072,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Robin Le Normand",
    "squad": "Real Sociedad"
   },
   {
+   "fbref_id": "7edfbb8a",
+   "season": 2021,
+   "distance": 2.117,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Fikayo Tomori",
+   "squad": "Milan / Chelsea"
+  },
+  {
    "fbref_id": "bd7d2e6d",
    "season": 2019,
-   "distance": 2.159,
+   "distance": 2.132,
    "survived": 1,
    "fut_ability_v2": 65.8,
    "player_name": "Timo Baumgartl",
    "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "119b9a8e",
-   "season": 2018,
-   "distance": 2.172,
-   "survived": 1,
-   "fut_ability_v2": 60.5,
-   "player_name": "Aymeric Laporte",
-   "squad": "Athletic Club / Manchester City"
-  },
-  {
-   "fbref_id": "1232e1dc",
-   "season": 2020,
-   "distance": 2.25,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Joris Gnagnon",
-   "squad": "Rennes"
-  },
-  {
-   "fbref_id": "815c314f",
-   "season": 2019,
-   "distance": 2.258,
-   "survived": 1,
-   "fut_ability_v2": 67.2,
-   "player_name": "Marc-Oliver Kempf",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "e34fc66d",
-   "season": 2020,
-   "distance": 2.267,
-   "survived": 1,
-   "fut_ability_v2": 58.6,
-   "player_name": "Joachim Andersen",
-   "squad": "Lyon"
-  },
-  {
-   "fbref_id": "94f8d10c",
-   "season": 2020,
-   "distance": 2.275,
-   "survived": 1,
-   "fut_ability_v2": 62.6,
-   "player_name": "Duje Ćaleta-Car",
-   "squad": "Marseille"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Anthony Rouault(DF)의 현재 능력 점수는 71.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 공중볼 승률, 전진 패스 거리, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 운반이다.",
-  "potential": "Anthony Rouault의 2~3년 후 예측 중심값은 64.6점, 80% 구간 상단은 75.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Anthony Rouault의 2~3년 후 예측 중심값은 66.8점, 80% 구간 상단은 77.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

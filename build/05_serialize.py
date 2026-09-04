@@ -32,7 +32,7 @@ from report_extras import narrative_current, narrative_potential
 from config import (DATA, DOCS_DATA, FEATURES_CSV, ABILITY_CSV, ELIGIBILITY_CSV,
                     ELIGIBILITY_META, PRED_GROWTH_CSV, PRED_PEAK_CSV,
                     KNN_GROWTH_JSON, KNN_PEAK_JSON, REPORT_EXTRAS_JSON,
-                    QUALITATIVE_JSON, VETERAN_META, TARGET_YEAR, SEASON_LABEL)
+                    QUALITATIVE_JSON, VETERAN_META, CACHE, TARGET_YEAR, SEASON_LABEL)
 
 
 def ascii_fold(s):
@@ -78,7 +78,7 @@ if __name__ == "__main__":
     with open(VETERAN_META, encoding="utf-8") as f:
         veteran_meta = json.load(f)
 
-    u23_train = pd.read_csv(DATA / "fpp_train_matrix_v2.csv")
+    u23_train = pd.read_csv(DATA / "fpp_train_matrix_u23.csv")
     veteran_train = pd.read_csv(DATA / "fpp_train_matrix_veteran.csv")
 
     with open(REPORT_EXTRAS_JSON, encoding="utf-8") as f:
@@ -86,6 +86,9 @@ if __name__ == "__main__":
 
     with open(QUALITATIVE_JSON, encoding="utf-8") as f:
         qualitative = json.load(f)
+
+    with open(CACHE / "model_metrics.json", encoding="utf-8") as f:
+        model_metrics = json.load(f)
 
     # ── 재조정 기준(SCALE) 산출: 전 시즌 능력 복합점수 + 예측치 + 실제 라벨 결과 통틀어 최댓값 ──
     composite_max = max(
@@ -223,6 +226,7 @@ if __name__ == "__main__":
             player["narrative"]["potential"] = narrative_potential(
                 row["Player"], kind, player["prediction"]["mu"], ceiling,
                 player["prediction"]["survival_prob"], headroom, out_of_range,
+                model_metrics["u23" if kind == "growth" else "veteran"]["r2"],
             )
 
         with open(DOCS_DATA / "players" / f"{fid}.json", "w", encoding="utf-8") as f:
@@ -254,9 +258,13 @@ if __name__ == "__main__":
     meta_out = {
         **u23_meta,
         "season_label": SEASON_LABEL,
-        "veteran": {**veteran_meta, "mae": round(veteran_meta["mae"] * SCALE, 2)},
-        "u23_mae": round(6.19 * SCALE, 2),
-        "u23_r2": 0.231,
+        "veteran": {**veteran_meta,
+                    **{k: model_metrics["veteran"][k] for k in ("auc", "r2", "ci80_coverage", "ci50_coverage")},
+                    "mae": round(model_metrics["veteran"]["mae"] * SCALE, 2)},
+        "u23": {**{k: model_metrics["u23"][k] for k in ("auc", "r2", "ci80_coverage", "ci50_coverage")},
+                "mae": round(model_metrics["u23"]["mae"] * SCALE, 2)},
+        "u23_mae": round(model_metrics["u23"]["mae"] * SCALE, 2),
+        "u23_r2": model_metrics["u23"]["r2"],
         "scale_factor": round(SCALE, 4),
         "oor_threshold_display": {k: round(v * SCALE, 1) for k, v in OOR_THRESHOLD.items()},
         "scale_basis": "전 시즌·전 코호트 통틀어 최고 복합점수(원점수 {:.1f})를 100으로 재조정".format(composite_max),

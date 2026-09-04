@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9764,
-  "mu": 57.1,
+  "survival_prob": 0.9472,
+  "mu": 56.7,
   "ci80": {
-   "lo": 46.5,
-   "hi": 67.7
+   "lo": 46.2,
+   "hi": 67.2
   },
   "ci50": {
-   "lo": 51.6,
-   "hi": 62.7
+   "lo": 51.1,
+   "hi": 62.3
   },
   "sigma_model": 2.0,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "7ef972c3",
+   "season": 2021,
+   "distance": 1.954,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Flavius Daniliuc",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "fcb27134",
+   "season": 2021,
+   "distance": 2.556,
+   "survived": 1,
+   "fut_ability_v2": 71.0,
+   "player_name": "Mohamed Simakan",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "4c700f46",
    "season": 2018,
-   "distance": 2.569,
+   "distance": 2.589,
    "survived": 1,
    "fut_ability_v2": 47.4,
    "player_name": "Jérémy Gélin",
    "squad": "Rennes"
   },
   {
+   "fbref_id": "a8567629",
+   "season": 2021,
+   "distance": 2.621,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mitchel Bakker",
+   "squad": "Paris S-G"
+  },
+  {
+   "fbref_id": "7b082ec2",
+   "season": 2021,
+   "distance": 2.643,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxime Busi",
+   "squad": "Parma"
+  },
+  {
    "fbref_id": "10e7f486",
    "season": 2019,
-   "distance": 2.667,
+   "distance": 2.686,
    "survived": 1,
    "fut_ability_v2": 53.1,
    "player_name": "Rogério",
@@ -67,16 +103,25 @@
   {
    "fbref_id": "f449640d",
    "season": 2018,
-   "distance": 2.735,
+   "distance": 2.727,
    "survived": 1,
    "fut_ability_v2": 52.7,
    "player_name": "Fodé Ballo-Touré",
    "squad": "Lille"
   },
   {
+   "fbref_id": "5d0e0a1f",
+   "season": 2021,
+   "distance": 2.818,
+   "survived": 1,
+   "fut_ability_v2": 65.1,
+   "player_name": "Adrien Truffert",
+   "squad": "Rennes"
+  },
+  {
    "fbref_id": "75b86fb3",
    "season": 2020,
-   "distance": 2.781,
+   "distance": 2.849,
    "survived": 1,
    "fut_ability_v2": 61.6,
    "player_name": "Alessandro Bastoni",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "b3af9be1",
    "season": 2020,
-   "distance": 2.871,
+   "distance": 2.928,
    "survived": 1,
    "fut_ability_v2": 60.9,
    "player_name": "Takehiro Tomiyasu",
    "squad": "Bologna"
-  },
-  {
-   "fbref_id": "4315f30d",
-   "season": 2020,
-   "distance": 2.951,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Malang Sarr",
-   "squad": "Nice"
-  },
-  {
-   "fbref_id": "4d1666ff",
-   "season": 2018,
-   "distance": 2.956,
-   "survived": 1,
-   "fut_ability_v2": 61.1,
-   "player_name": "Jules Koundé",
-   "squad": "Bordeaux"
-  },
-  {
-   "fbref_id": "4315f30d",
-   "season": 2018,
-   "distance": 2.965,
-   "survived": 1,
-   "fut_ability_v2": 48.9,
-   "player_name": "Malang Sarr",
-   "squad": "Nice"
-  },
-  {
-   "fbref_id": "5e74d6c8",
-   "season": 2020,
-   "distance": 3.093,
-   "survived": 1,
-   "fut_ability_v2": 50.1,
-   "player_name": "Brandon Williams",
-   "squad": "Manchester Utd"
-  },
-  {
-   "fbref_id": "24f59bb2",
-   "season": 2018,
-   "distance": 3.157,
-   "survived": 1,
-   "fut_ability_v2": 66.7,
-   "player_name": "Junior Firpo",
-   "squad": "Betis"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Rico Lewis(DF)의 현재 능력 점수는 57.2점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 패스 성공률, 박스 터치, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 전진 패스 거리이다.",
-  "potential": "Rico Lewis의 2~3년 후 예측 중심값은 57.1점, 80% 구간 상단은 67.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Rico Lewis의 2~3년 후 예측 중심값은 56.7점, 80% 구간 상단은 67.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 94.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

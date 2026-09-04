@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8843,
-  "mu": 69.3,
+  "survival_prob": 0.7375,
+  "mu": 70.3,
   "ci80": {
-   "lo": 59.9,
-   "hi": 78.8
+   "lo": 60.9,
+   "hi": 79.7
   },
   "ci50": {
-   "lo": 64.4,
-   "hi": 74.3
+   "lo": 65.4,
+   "hi": 75.2
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "7460ca0d",
    "season": 2019,
-   "distance": 2.738,
+   "distance": 2.668,
    "survived": 1,
    "fut_ability_v2": 65.9,
    "player_name": "Daniel Parejo",
    "squad": "Valencia"
   },
   {
+   "fbref_id": "6ce1f46f",
+   "season": 2022,
+   "distance": 2.929,
+   "survived": 1,
+   "fut_ability_v2": 70.8,
+   "player_name": "Toni Kroos",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "ad6df2d5",
    "season": 2018,
-   "distance": 3.067,
+   "distance": 2.951,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Miralem Pjanić",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "7460ca0d",
    "season": 2018,
-   "distance": 3.167,
+   "distance": 3.054,
    "survived": 1,
    "fut_ability_v2": 63.3,
    "player_name": "Daniel Parejo",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "ad6df2d5",
    "season": 2019,
-   "distance": 3.259,
+   "distance": 3.185,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Miralem Pjanić",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "6ce1f46f",
    "season": 2018,
-   "distance": 3.34,
+   "distance": 3.325,
    "survived": 1,
    "fut_ability_v2": 71.8,
    "player_name": "Toni Kroos",
    "squad": "Real Madrid"
   },
   {
-   "fbref_id": "33508c78",
-   "season": 2018,
-   "distance": 3.447,
-   "survived": 1,
-   "fut_ability_v2": 68.6,
-   "player_name": "Cesc Fàbregas",
-   "squad": "Chelsea"
-  },
-  {
    "fbref_id": "6ce1f46f",
    "season": 2019,
-   "distance": 3.542,
+   "distance": 3.47,
    "survived": 1,
    "fut_ability_v2": 71.2,
    "player_name": "Toni Kroos",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "33508c78",
+   "season": 2018,
+   "distance": 3.52,
+   "survived": 1,
+   "fut_ability_v2": 68.6,
+   "player_name": "Cesc Fàbregas",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "7460ca0d",
    "season": 2020,
-   "distance": 3.676,
+   "distance": 3.612,
    "survived": 1,
    "fut_ability_v2": 59.7,
    "player_name": "Daniel Parejo",
    "squad": "Valencia"
   },
   {
-   "fbref_id": "fa937f7a",
-   "season": 2020,
-   "distance": 3.776,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Éver Banega",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "f5a00fa4",
-   "season": 2018,
-   "distance": 3.825,
+   "fbref_id": "6ce1f46f",
+   "season": 2021,
+   "distance": 3.659,
    "survived": 1,
-   "fut_ability_v2": 57.3,
-   "player_name": "João Moutinho",
-   "squad": "Monaco"
+   "fut_ability_v2": 70.8,
+   "player_name": "Toni Kroos",
+   "squad": "Real Madrid"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Joshua Kimmich(MF)의 현재 능력 점수는 74.5점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스, 전진 패스 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 블록이다.",
-  "potential": "Joshua Kimmich의 2~3년 후 예측 중심값은 69.3점, 80% 구간 상단은 78.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 88.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Joshua Kimmich의 2~3년 후 예측 중심값은 70.3점, 80% 구간 상단은 79.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 73.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

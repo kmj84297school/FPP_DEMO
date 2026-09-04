@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2536,
-  "mu": 59.5,
+  "survival_prob": 0.2075,
+  "mu": 59.2,
   "ci80": {
-   "lo": 49.9,
-   "hi": 68.9
+   "lo": 49.6,
+   "hi": 68.7
   },
   "ci50": {
-   "lo": 54.4,
-   "hi": 64.4
+   "lo": 54.1,
+   "hi": 64.2
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "89f951b5",
+   "season": 2021,
+   "distance": 1.774,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Ivan Rakitić",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "b3fd7075",
    "season": 2020,
-   "distance": 2.189,
+   "distance": 2.079,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andrea Poli",
    "squad": "Bologna"
   },
   {
+   "fbref_id": "55126f3b",
+   "season": 2022,
+   "distance": 2.1,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Koke",
+   "squad": "Atlético Madrid"
+  },
+  {
    "fbref_id": "cf15bbb1",
    "season": 2018,
-   "distance": 2.194,
+   "distance": 2.183,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Steven Davis",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "ecab64a0",
    "season": 2019,
-   "distance": 2.43,
+   "distance": 2.317,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Per Ciljan Skjelbred",
@@ -76,25 +94,16 @@
   {
    "fbref_id": "c0cddebe",
    "season": 2019,
-   "distance": 2.443,
+   "distance": 2.371,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Blaise Matuidi",
    "squad": "Juventus"
   },
   {
-   "fbref_id": "0e21fc3c",
-   "season": 2018,
-   "distance": 2.511,
-   "survived": 1,
-   "fut_ability_v2": 62.2,
-   "player_name": "Borja Valero",
-   "squad": "Inter"
-  },
-  {
    "fbref_id": "c0cddebe",
    "season": 2018,
-   "distance": 2.532,
+   "distance": 2.456,
    "survived": 1,
    "fut_ability_v2": 41.9,
    "player_name": "Blaise Matuidi",
@@ -103,38 +112,29 @@
   {
    "fbref_id": "ff527768",
    "season": 2019,
-   "distance": 2.586,
+   "distance": 2.529,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mark Noble",
    "squad": "West Ham"
   },
   {
-   "fbref_id": "ef322658",
-   "season": 2020,
-   "distance": 2.597,
-   "survived": 1,
-   "fut_ability_v2": 58.7,
-   "player_name": "Andrés Guardado",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "89f951b5",
-   "season": 2020,
-   "distance": 2.612,
-   "survived": 1,
-   "fut_ability_v2": 63.1,
-   "player_name": "Ivan Rakitić",
-   "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "542cc80f",
-   "season": 2020,
-   "distance": 2.629,
+   "fbref_id": "963a328b",
+   "season": 2022,
+   "distance": 2.557,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Paul Lasne",
-   "squad": "Brest"
+   "player_name": "Tolgay Arslan",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "0e21fc3c",
+   "season": 2018,
+   "distance": 2.569,
+   "survived": 1,
+   "fut_ability_v2": 62.2,
+   "player_name": "Borja Valero",
+   "squad": "Inter"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jordan Veretout(MF)의 현재 능력 점수는 52.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 최종 3분의1 패스, 볼 손실(미스+파울), 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 도움 기대값(xAG)이다.",
-  "potential": "Jordan Veretout의 2~3년 후 예측 중심값은 59.5점, 80% 구간 상단은 68.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jordan Veretout의 2~3년 후 예측 중심값은 59.2점, 80% 구간 상단은 68.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

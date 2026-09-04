@@ -32,51 +32,87 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.9879,
-  "mu": 65.3,
+  "survival_prob": 0.9682,
+  "mu": 66.3,
   "ci80": {
-   "lo": 54.7,
-   "hi": 76.0
+   "lo": 55.6,
+   "hi": 77.2
   },
   "ci50": {
-   "lo": 59.7,
-   "hi": 71.0
+   "lo": 60.7,
+   "hi": 72.0
   },
-  "sigma_model": 2.1,
+  "sigma_model": 2.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "9b6f7fd5",
+   "season": 2021,
+   "distance": 2.007,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Lucas Paquetá",
+   "squad": "Lyon"
+  },
+  {
    "fbref_id": "16657b95",
    "season": 2018,
-   "distance": 2.349,
+   "distance": 2.381,
    "survived": 1,
    "fut_ability_v2": 59.7,
    "player_name": "Bryan Cristante",
    "squad": "Atalanta"
   },
   {
-   "fbref_id": "4e6dbac4",
-   "season": 2018,
-   "distance": 2.475,
-   "survived": 1,
-   "fut_ability_v2": 67.3,
-   "player_name": "Sergej Milinković-Savić",
-   "squad": "Lazio"
-  },
-  {
    "fbref_id": "cea4ee8f",
    "season": 2019,
-   "distance": 2.477,
+   "distance": 2.472,
    "survived": 1,
    "fut_ability_v2": 48.0,
    "player_name": "Dele Alli",
    "squad": "Tottenham"
   },
   {
+   "fbref_id": "4e6dbac4",
+   "season": 2018,
+   "distance": 2.604,
+   "survived": 1,
+   "fut_ability_v2": 67.3,
+   "player_name": "Sergej Milinković-Savić",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "92432bc6",
+   "season": 2021,
+   "distance": 2.661,
+   "survived": 1,
+   "fut_ability_v2": 68.4,
+   "player_name": "Amadou Haidara",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "ae44e8e2",
+   "season": 2021,
+   "distance": 3.006,
+   "survived": 1,
+   "fut_ability_v2": 68.4,
+   "player_name": "Dani Olmo",
+   "squad": "RB Leipzig"
+  },
+  {
+   "fbref_id": "19053e31",
+   "season": 2021,
+   "distance": 3.051,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sofiane Diop",
+   "squad": "Monaco"
+  },
+  {
    "fbref_id": "36a59ba4",
    "season": 2020,
-   "distance": 3.066,
+   "distance": 3.087,
    "survived": 1,
    "fut_ability_v2": 57.4,
    "player_name": "Florian Neuhaus",
@@ -85,7 +121,7 @@
   {
    "fbref_id": "652d4c37",
    "season": 2018,
-   "distance": 3.315,
+   "distance": 3.363,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Corentin Tolisso",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "555d5edd",
    "season": 2018,
-   "distance": 3.349,
+   "distance": 3.396,
    "survived": 1,
    "fut_ability_v2": 62.7,
    "player_name": "Nadiem Amiri",
    "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "4b96c347",
-   "season": 2020,
-   "distance": 3.484,
-   "survived": 1,
-   "fut_ability_v2": 56.5,
-   "player_name": "Angelo Fulgini",
-   "squad": "Angers"
-  },
-  {
-   "fbref_id": "a5db0bec",
-   "season": 2019,
-   "distance": 3.547,
-   "survived": 1,
-   "fut_ability_v2": 74.0,
-   "player_name": "Houssem Aouar",
-   "squad": "Lyon"
-  },
-  {
-   "fbref_id": "9b6f7fd5",
-   "season": 2020,
-   "distance": 3.557,
-   "survived": 1,
-   "fut_ability_v2": 74.7,
-   "player_name": "Lucas Paquetá",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "05e19d6a",
-   "season": 2019,
-   "distance": 3.561,
-   "survived": 1,
-   "fut_ability_v2": 64.2,
-   "player_name": "Franck Kessié",
-   "squad": "Milan"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jude Bellingham(MF)의 현재 능력 점수는 81.2점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 슈팅당 기대득점, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 볼 손실(미스+파울)이다.",
-  "potential": "Jude Bellingham의 2~3년 후 예측 중심값은 65.3점, 80% 구간 상단은 76.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.8%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Jude Bellingham의 2~3년 후 예측 중심값은 66.3점, 80% 구간 상단은 77.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.8%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

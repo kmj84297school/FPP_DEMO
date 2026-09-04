@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9343,
-  "mu": 58.5,
+  "survival_prob": 0.827,
+  "mu": 59.7,
   "ci80": {
-   "lo": 47.9,
-   "hi": 69.0
+   "lo": 49.1,
+   "hi": 70.3
   },
   "ci50": {
-   "lo": 52.9,
-   "hi": 64.1
+   "lo": 54.1,
+   "hi": 65.3
   },
-  "sigma_model": 1.9,
+  "sigma_model": 2.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "7cd520e8",
+   "season": 2022,
+   "distance": 2.471,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Iyenoma Udogie",
+   "squad": "Udinese"
+  },
+  {
    "fbref_id": "d4c9725f",
    "season": 2019,
-   "distance": 2.41,
+   "distance": 2.504,
    "survived": 1,
    "fut_ability_v2": 66.9,
    "player_name": "Theo Hernández",
@@ -58,16 +67,61 @@
   {
    "fbref_id": "3b61c9ec",
    "season": 2020,
-   "distance": 2.42,
+   "distance": 2.516,
    "survived": 1,
    "fut_ability_v2": 53.1,
    "player_name": "Luca Pellegrini",
    "squad": "Cagliari"
   },
   {
+   "fbref_id": "5d0e0a1f",
+   "season": 2021,
+   "distance": 2.541,
+   "survived": 1,
+   "fut_ability_v2": 65.1,
+   "player_name": "Adrien Truffert",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "8b609c34",
+   "season": 2022,
+   "distance": 2.58,
+   "survived": 1,
+   "fut_ability_v2": 68.7,
+   "player_name": "Wilfried Singo",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "6aa3e78b",
+   "season": 2021,
+   "distance": 2.592,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Sessegnon",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "236f02cd",
+   "season": 2022,
+   "distance": 2.62,
+   "survived": 1,
+   "fut_ability_v2": 43.4,
+   "player_name": "Joe Scally",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "9b398aea",
+   "season": 2022,
+   "distance": 2.623,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rayan Aït Nouri",
+   "squad": "Wolves"
+  },
+  {
    "fbref_id": "0a89e877",
    "season": 2018,
-   "distance": 2.614,
+   "distance": 2.655,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Benjamin Henrichs",
@@ -76,65 +130,11 @@
   {
    "fbref_id": "ce5b170a",
    "season": 2018,
-   "distance": 2.625,
+   "distance": 2.66,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Claud Adjapong",
    "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "d2424d1b",
-   "season": 2018,
-   "distance": 2.716,
-   "survived": 1,
-   "fut_ability_v2": 67.5,
-   "player_name": "Ben Chilwell",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "27d0a506",
-   "season": 2019,
-   "distance": 2.764,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pedro Porro",
-   "squad": "Girona"
-  },
-  {
-   "fbref_id": "5e74d6c8",
-   "season": 2020,
-   "distance": 2.906,
-   "survived": 1,
-   "fut_ability_v2": 50.1,
-   "player_name": "Brandon Williams",
-   "squad": "Manchester Utd"
-  },
-  {
-   "fbref_id": "df8b52a5",
-   "season": 2020,
-   "distance": 2.973,
-   "survived": 1,
-   "fut_ability_v2": 59.8,
-   "player_name": "Emerson",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "1295552e",
-   "season": 2020,
-   "distance": 3.091,
-   "survived": 1,
-   "fut_ability_v2": 53.6,
-   "player_name": "Mert Müldür",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "e3a5814e",
-   "season": 2019,
-   "distance": 3.127,
-   "survived": 1,
-   "fut_ability_v2": 42.2,
-   "player_name": "Ainsley Maitland-Niles",
-   "squad": "Arsenal"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Patrick Dorgu(DF)의 현재 능력 점수는 58.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 시도, 전진 운반, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 전진 패스 거리이다.",
-  "potential": "Patrick Dorgu의 2~3년 후 예측 중심값은 58.5점, 80% 구간 상단은 69.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Patrick Dorgu의 2~3년 후 예측 중심값은 59.7점, 80% 구간 상단은 70.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 82.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6733,
-  "mu": 60.1,
+  "survival_prob": 0.4061,
+  "mu": 65.2,
   "ci80": {
-   "lo": 50.7,
-   "hi": 69.6
+   "lo": 55.7,
+   "hi": 74.6
   },
   "ci50": {
-   "lo": 55.1,
-   "hi": 65.1
+   "lo": 60.1,
+   "hi": 70.1
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "5c2b4f07",
    "season": 2018,
-   "distance": 2.555,
+   "distance": 2.764,
    "survived": 1,
    "fut_ability_v2": 60.0,
    "player_name": "Serge Aurier",
    "squad": "Tottenham"
   },
   {
-   "fbref_id": "d4d0a9ad",
-   "season": 2020,
-   "distance": 3.38,
+   "fbref_id": "1cbe4984",
+   "season": 2021,
+   "distance": 3.33,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "William",
+   "player_name": "Paulo Otávio",
    "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "6a827d8e",
+   "season": 2022,
+   "distance": 3.426,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Youcef Atal",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "24f59bb2",
+   "season": 2022,
+   "distance": 3.434,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Junior Firpo",
+   "squad": "Leeds United"
+  },
+  {
+   "fbref_id": "88d4144a",
+   "season": 2022,
+   "distance": 3.512,
+   "survived": 1,
+   "fut_ability_v2": 75.3,
+   "player_name": "Maximilian Mittelstädt",
+   "squad": "Hertha BSC"
   },
   {
    "fbref_id": "f15a50e8",
    "season": 2018,
-   "distance": 3.397,
+   "distance": 3.553,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Scott Malone",
@@ -76,65 +103,38 @@
   {
    "fbref_id": "d9ba39fc",
    "season": 2018,
-   "distance": 3.4,
+   "distance": 3.582,
    "survived": 1,
    "fut_ability_v2": 61.8,
    "player_name": "Diego Rico",
    "squad": "Leganés"
   },
   {
-   "fbref_id": "2d970560",
-   "season": 2019,
-   "distance": 3.738,
-   "survived": 1,
-   "fut_ability_v2": 65.1,
-   "player_name": "Robin Gosens",
-   "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "5ddb8f9f",
-   "season": 2018,
-   "distance": 3.812,
-   "survived": 1,
-   "fut_ability_v2": 54.3,
-   "player_name": "Danny da Costa",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "1a4b9094",
-   "season": 2018,
-   "distance": 3.83,
-   "survived": 1,
-   "fut_ability_v2": 61.5,
-   "player_name": "Bouna Sarr",
-   "squad": "Marseille"
-  },
-  {
-   "fbref_id": "378825c7",
+   "fbref_id": "d4d0a9ad",
    "season": 2020,
-   "distance": 3.874,
-   "survived": 1,
-   "fut_ability_v2": 64.2,
-   "player_name": "Ramy Bensebaini",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "3dd738a1",
-   "season": 2020,
-   "distance": 3.931,
-   "survived": 1,
-   "fut_ability_v2": 67.2,
-   "player_name": "Ruben Aguilar",
-   "squad": "Monaco"
-  },
-  {
-   "fbref_id": "9085dd7c",
-   "season": 2020,
-   "distance": 3.989,
+   "distance": 3.604,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Paolo Faragò",
-   "squad": "Cagliari"
+   "player_name": "William",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "5d8d7454",
+   "season": 2021,
+   "distance": 3.61,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Frederic Guilbert",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "77d7c96f",
+   "season": 2021,
+   "distance": 3.748,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kenny Tete",
+   "squad": "Fulham / Lyon"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mats Wieffer(DF)의 현재 능력 점수는 70.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 골 창출(GCA), 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 볼 손실(미스+파울)이다.",
-  "potential": "Mats Wieffer의 2~3년 후 예측 중심값은 60.1점, 80% 구간 상단은 69.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 67.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mats Wieffer의 2~3년 후 예측 중심값은 65.2점, 80% 구간 상단은 74.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

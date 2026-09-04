@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1533,
-  "mu": 48.2,
+  "survival_prob": 0.2069,
+  "mu": 48.9,
   "ci80": {
-   "lo": 38.5,
-   "hi": 57.9
+   "lo": 39.3,
+   "hi": 58.5
   },
   "ci50": {
-   "lo": 43.1,
-   "hi": 53.3
+   "lo": 43.8,
+   "hi": 53.9
   },
-  "sigma_model": 2.8,
-  "sigma_residual": 7.0
+  "sigma_model": 2.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "b0547a87",
+   "season": 2022,
+   "distance": 2.335,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolas de Préville",
+   "squad": "Metz"
+  },
+  {
    "fbref_id": "1cac99dc",
    "season": 2019,
-   "distance": 2.339,
+   "distance": 2.385,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luca Siligardi",
    "squad": "Parma"
   },
   {
+   "fbref_id": "dbe56a33",
+   "season": 2021,
+   "distance": 2.604,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David McGoldrick",
+   "squad": "Sheffield Utd"
+  },
+  {
+   "fbref_id": "4ab53cdb",
+   "season": 2021,
+   "distance": 2.815,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jay Rodriguez",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "b561db50",
+   "season": 2022,
+   "distance": 3.005,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
    "fbref_id": "6b99d135",
    "season": 2019,
-   "distance": 3.102,
+   "distance": 3.012,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jonathan Biabiany",
@@ -67,7 +103,7 @@
   {
    "fbref_id": "43a2e16c",
    "season": 2019,
-   "distance": 3.358,
+   "distance": 3.352,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mirco Antenucci",
@@ -76,7 +112,7 @@
   {
    "fbref_id": "dbe56a33",
    "season": 2020,
-   "distance": 3.403,
+   "distance": 3.402,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "David McGoldrick",
@@ -85,7 +121,7 @@
   {
    "fbref_id": "88a359d4",
    "season": 2020,
-   "distance": 3.418,
+   "distance": 3.431,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Adrián López",
@@ -94,50 +130,14 @@
   {
    "fbref_id": "4a478107",
    "season": 2020,
-   "distance": 3.45,
+   "distance": 3.487,
    "survived": 1,
    "fut_ability_v2": 70.8,
    "player_name": "José Luis Morales",
    "squad": "Levante"
-  },
-  {
-   "fbref_id": "18ebca4b",
-   "season": 2020,
-   "distance": 3.545,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gaëtan Charbonnier",
-   "squad": "Brest"
-  },
-  {
-   "fbref_id": "9f472354",
-   "season": 2018,
-   "distance": 3.547,
-   "survived": 1,
-   "fut_ability_v2": 48.8,
-   "player_name": "Shane Long",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "8e87af42",
-   "season": 2018,
-   "distance": 3.611,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Préjuce Nakoulma",
-   "squad": "Nantes"
-  },
-  {
-   "fbref_id": "afa0d4e0",
-   "season": 2018,
-   "distance": 3.629,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mario Mandžukić",
-   "squad": "Juventus"
   }
  ],
- "low_confidence": true,
+ "low_confidence": false,
  "report": {
   "strengths": [
    {
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jordan Ayew(FW)의 현재 능력 점수는 39.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 태클+인터셉트, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 골 창출(GCA)이다.",
-  "potential": "Jordan Ayew의 2~3년 후 예측 중심값은 48.2점, 80% 구간 상단은 57.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 15.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jordan Ayew의 2~3년 후 예측 중심값은 48.9점, 80% 구간 상단은 58.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

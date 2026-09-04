@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9373,
-  "mu": 62.7,
+  "survival_prob": 0.9152,
+  "mu": 64.7,
   "ci80": {
-   "lo": 51.7,
-   "hi": 73.6
+   "lo": 54.1,
+   "hi": 75.3
   },
   "ci50": {
-   "lo": 56.9,
-   "hi": 68.5
+   "lo": 59.2,
+   "hi": 70.3
   },
-  "sigma_model": 3.0,
+  "sigma_model": 2.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "5f26e0c5",
    "season": 2020,
-   "distance": 1.483,
+   "distance": 1.562,
    "survived": 1,
    "fut_ability_v2": 48.9,
    "player_name": "Harold Moukoudi",
@@ -58,16 +58,52 @@
   {
    "fbref_id": "fed96827",
    "season": 2020,
-   "distance": 1.661,
+   "distance": 1.703,
    "survived": 1,
    "fut_ability_v2": 42.9,
    "player_name": "Chris Mepham",
    "squad": "Bournemouth"
   },
   {
+   "fbref_id": "7edfbb8a",
+   "season": 2021,
+   "distance": 1.74,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Fikayo Tomori",
+   "squad": "Milan / Chelsea"
+  },
+  {
+   "fbref_id": "ae7058f9",
+   "season": 2021,
+   "distance": 1.793,
+   "survived": 1,
+   "fut_ability_v2": 71.2,
+   "player_name": "Julian Chabot",
+   "squad": "Spezia"
+  },
+  {
+   "fbref_id": "afbf187b",
+   "season": 2022,
+   "distance": 1.898,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zinho Vanheusden",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "ee644761",
+   "season": 2022,
+   "distance": 1.97,
+   "survived": 1,
+   "fut_ability_v2": 67.5,
+   "player_name": "Moritz Jenz",
+   "squad": "Lorient"
+  },
+  {
    "fbref_id": "be170419",
    "season": 2019,
-   "distance": 1.902,
+   "distance": 1.992,
    "survived": 1,
    "fut_ability_v2": 60.6,
    "player_name": "Unai Núñez",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "e3cceee6",
    "season": 2019,
-   "distance": 1.95,
+   "distance": 2.018,
    "survived": 1,
    "fut_ability_v2": 60.0,
    "player_name": "Merih Demiral",
    "squad": "Sassuolo"
   },
   {
-   "fbref_id": "f86cabbd",
-   "season": 2020,
-   "distance": 2.037,
+   "fbref_id": "5fa57166",
+   "season": 2022,
+   "distance": 2.047,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Matteo Lovato",
+   "squad": "Cagliari / Atalanta"
+  },
+  {
+   "fbref_id": "2784f898",
+   "season": 2021,
+   "distance": 2.052,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Jordan Torunarigha",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "bd7d2e6d",
-   "season": 2019,
-   "distance": 2.094,
-   "survived": 1,
-   "fut_ability_v2": 65.8,
-   "player_name": "Timo Baumgartl",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "da7b447d",
-   "season": 2019,
-   "distance": 2.141,
-   "survived": 1,
-   "fut_ability_v2": 63.8,
-   "player_name": "Davinson Sánchez",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "67ac5bb8",
-   "season": 2019,
-   "distance": 2.193,
-   "survived": 1,
-   "fut_ability_v2": 57.1,
-   "player_name": "Gabriel Dos Santos",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "7a11550b",
-   "season": 2019,
-   "distance": 2.291,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Joe Gomez",
-   "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "b5bf1770",
-   "season": 2019,
-   "distance": 2.325,
-   "survived": 1,
-   "fut_ability_v2": 56.3,
-   "player_name": "Lyanco",
-   "squad": "Bologna / Torino"
+   "player_name": "Éder Militão",
+   "squad": "Real Madrid"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Abakar Sylla(DF)의 현재 능력 점수는 70.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클 성공률, 공중볼 승률, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 패스이다.",
-  "potential": "Abakar Sylla의 2~3년 후 예측 중심값은 62.7점, 80% 구간 상단은 73.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Abakar Sylla의 2~3년 후 예측 중심값은 64.7점, 80% 구간 상단은 75.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 91.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

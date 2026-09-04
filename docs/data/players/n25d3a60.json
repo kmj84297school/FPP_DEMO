@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6715,
-  "mu": 51.3,
+  "survival_prob": 0.5715,
+  "mu": 51.2,
   "ci80": {
-   "lo": 40.3,
-   "hi": 62.5
+   "lo": 40.2,
+   "hi": 62.2
   },
   "ci50": {
-   "lo": 45.6,
-   "hi": 57.2
+   "lo": 45.4,
+   "hi": 56.9
   },
-  "sigma_model": 3.3,
+  "sigma_model": 3.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "3544641e",
+   "season": 2022,
+   "distance": 2.223,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sekou Mara",
+   "squad": "Bordeaux"
+  },
+  {
    "fbref_id": "f8eca1b6",
    "season": 2018,
-   "distance": 2.585,
+   "distance": 2.589,
    "survived": 1,
    "fut_ability_v2": 41.6,
    "player_name": "Enes Ünal",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "20730eae",
    "season": 2019,
-   "distance": 2.818,
+   "distance": 2.838,
    "survived": 1,
    "fut_ability_v2": 69.1,
    "player_name": "Rafael Leão",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "f586779e",
    "season": 2018,
-   "distance": 2.847,
+   "distance": 2.885,
    "survived": 1,
    "fut_ability_v2": 57.3,
    "player_name": "Tammy Abraham",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "8e92be30",
    "season": 2020,
-   "distance": 2.872,
+   "distance": 2.908,
    "survived": 1,
    "fut_ability_v2": 55.8,
    "player_name": "Alexander Isak",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "08aa9cd1",
    "season": 2019,
-   "distance": 2.887,
+   "distance": 2.911,
    "survived": 1,
    "fut_ability_v2": 38.4,
    "player_name": "Andrea Pinamonti",
@@ -94,47 +103,38 @@
   {
    "fbref_id": "a4fe8cda",
    "season": 2018,
-   "distance": 3.232,
+   "distance": 3.244,
    "survived": 1,
    "fut_ability_v2": 53.2,
    "player_name": "Patrick Cutrone",
    "squad": "Milan"
   },
   {
+   "fbref_id": "e7aa9d7c",
+   "season": 2021,
+   "distance": 3.262,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fábio Silva",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "5b479568",
+   "season": 2022,
+   "distance": 3.367,
+   "survived": 1,
+   "fut_ability_v2": 54.1,
+   "player_name": "Myron Boadu",
+   "squad": "Monaco"
+  },
+  {
    "fbref_id": "79443529",
    "season": 2020,
-   "distance": 3.296,
+   "distance": 3.38,
    "survived": 1,
    "fut_ability_v2": 55.3,
    "player_name": "Dušan Vlahović",
    "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "1f44ac21",
-   "season": 2020,
-   "distance": 3.502,
-   "survived": 1,
-   "fut_ability_v2": 78.3,
-   "player_name": "Erling Haaland",
-   "squad": "Dortmund"
-  },
-  {
-   "fbref_id": "6f8cd6d0",
-   "season": 2018,
-   "distance": 3.539,
-   "survived": 1,
-   "fut_ability_v2": 67.7,
-   "player_name": "Marcus Thuram",
-   "squad": "Guingamp"
-  },
-  {
-   "fbref_id": "f7036e1c",
-   "season": 2019,
-   "distance": 3.567,
-   "survived": 1,
-   "fut_ability_v2": 74.2,
-   "player_name": "Lautaro Martínez",
-   "squad": "Inter"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Vitor Roque(FW)의 현재 능력 점수는 49.9점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 유효슈팅, 비페널티 xG, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스 수신이다.",
-  "potential": "Vitor Roque의 2~3년 후 예측 중심값은 51.3점, 80% 구간 상단은 62.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 67.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Vitor Roque의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 62.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 57.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

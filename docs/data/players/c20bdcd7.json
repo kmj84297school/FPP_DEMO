@@ -32,51 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1645,
-  "mu": 54.0,
+  "survival_prob": 0.2059,
+  "mu": 58.6,
   "ci80": {
-   "lo": 44.7,
-   "hi": 63.5
+   "lo": 49.2,
+   "hi": 68.1
   },
   "ci50": {
-   "lo": 49.1,
-   "hi": 59.1
+   "lo": 53.7,
+   "hi": 63.7
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "c8aa95da",
+   "season": 2021,
+   "distance": 1.918,
+   "survived": 1,
+   "fut_ability_v2": 63.3,
+   "player_name": "Fabian Schär",
+   "squad": "Newcastle Utd"
+  },
+  {
    "fbref_id": "f7c9fcd6",
    "season": 2018,
-   "distance": 1.858,
+   "distance": 1.922,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Samuel Souprayen",
    "squad": "Hellas Verona"
   },
   {
-   "fbref_id": "f5e9a8bd",
-   "season": 2018,
-   "distance": 1.9,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andrea Costa",
-   "squad": "Benevento"
-  },
-  {
    "fbref_id": "960fb42d",
    "season": 2018,
-   "distance": 1.958,
+   "distance": 1.927,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Álex Gálvez",
    "squad": "Las Palmas / Eibar"
   },
   {
+   "fbref_id": "a56da3ba",
+   "season": 2022,
+   "distance": 1.944,
+   "survived": 1,
+   "fut_ability_v2": 38.4,
+   "player_name": "Juan Cruz Armada",
+   "squad": "Osasuna"
+  },
+  {
+   "fbref_id": "f5e9a8bd",
+   "season": 2018,
+   "distance": 1.949,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Costa",
+   "squad": "Benevento"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2021,
+   "distance": 1.988,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "51e3954c",
+   "season": 2019,
+   "distance": 1.991,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Facundo Roncaglia",
+   "squad": "Celta Vigo / Valencia"
+  },
+  {
+   "fbref_id": "4a633cfe",
+   "season": 2021,
+   "distance": 1.998,
+   "survived": 1,
+   "fut_ability_v2": 40.3,
+   "player_name": "Unai García",
+   "squad": "Osasuna"
+  },
+  {
    "fbref_id": "a2609621",
    "season": 2020,
-   "distance": 1.962,
+   "distance": 2.019,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Naldo",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "019f4d0d",
    "season": 2018,
-   "distance": 1.97,
+   "distance": 2.032,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Leandro Castán",
    "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "51e3954c",
-   "season": 2019,
-   "distance": 1.985,
-   "survived": 1,
-   "fut_ability_v2": 49.1,
-   "player_name": "Facundo Roncaglia",
-   "squad": "Celta Vigo / Valencia"
-  },
-  {
-   "fbref_id": "46f5c54d",
-   "season": 2018,
-   "distance": 2.005,
-   "survived": 1,
-   "fut_ability_v2": 54.0,
-   "player_name": "Thiago Cionek",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "2946f9a1",
-   "season": 2019,
-   "distance": 2.048,
-   "survived": 1,
-   "fut_ability_v2": 52.3,
-   "player_name": "Nacho",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "51e3954c",
-   "season": 2020,
-   "distance": 2.093,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Facundo Roncaglia",
-   "squad": "Osasuna"
-  },
-  {
-   "fbref_id": "ad178594",
-   "season": 2019,
-   "distance": 2.131,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Raúl Navas",
-   "squad": "Real Sociedad"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Reinildo Mandava(DF)의 현재 능력 점수는 50.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 리커버리, 슈팅당 기대득점, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 태클 성공률이다.",
-  "potential": "Reinildo Mandava의 2~3년 후 예측 중심값은 54.0점, 80% 구간 상단은 63.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 16.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Reinildo Mandava의 2~3년 후 예측 중심값은 58.6점, 80% 구간 상단은 68.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

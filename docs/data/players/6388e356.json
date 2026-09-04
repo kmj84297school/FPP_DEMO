@@ -32,60 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1631,
-  "mu": 48.2,
+  "survival_prob": 0.2577,
+  "mu": 50.4,
   "ci80": {
-   "lo": 38.9,
-   "hi": 57.6
+   "lo": 40.8,
+   "hi": 59.9
   },
   "ci50": {
-   "lo": 43.3,
-   "hi": 53.1
+   "lo": 45.3,
+   "hi": 55.4
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "808d48f3",
    "season": 2020,
-   "distance": 1.808,
+   "distance": 1.823,
    "survived": 1,
    "fut_ability_v2": 58.3,
    "player_name": "Jaume Costa",
    "squad": "Valencia"
   },
   {
+   "fbref_id": "c26a3918",
+   "season": 2021,
+   "distance": 1.996,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Manceau",
+   "squad": "Angers"
+  },
+  {
    "fbref_id": "c2f9d19f",
    "season": 2020,
-   "distance": 2.035,
+   "distance": 2.016,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Neil Taylor",
    "squad": "Aston Villa"
   },
   {
+   "fbref_id": "f7223718",
+   "season": 2021,
+   "distance": 2.052,
+   "survived": 1,
+   "fut_ability_v2": 45.3,
+   "player_name": "Patric",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "2f3452eb",
+   "season": 2022,
+   "distance": 2.121,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Elseid Hysaj",
+   "squad": "Lazio"
+  },
+  {
    "fbref_id": "91899ca8",
    "season": 2020,
-   "distance": 2.153,
+   "distance": 2.126,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mateo Musacchio",
    "squad": "Milan"
   },
   {
-   "fbref_id": "89d10e53",
-   "season": 2020,
-   "distance": 2.288,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Danny Rose",
-   "squad": "Tottenham / Newcastle Utd"
-  },
-  {
    "fbref_id": "474ecac8",
    "season": 2018,
-   "distance": 2.29,
+   "distance": 2.259,
    "survived": 1,
    "fut_ability_v2": 46.6,
    "player_name": "Sergio Postigo",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "f03f284b",
    "season": 2019,
-   "distance": 2.291,
+   "distance": 2.26,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "David López",
    "squad": "Espanyol"
   },
   {
-   "fbref_id": "25ab9c9c",
-   "season": 2019,
-   "distance": 2.414,
+   "fbref_id": "0442183b",
+   "season": 2021,
+   "distance": 2.276,
    "survived": 1,
-   "fut_ability_v2": 49.8,
-   "player_name": "Manuel Gulde",
-   "squad": "Freiburg"
+   "fut_ability_v2": 38.7,
+   "player_name": "Nathaniel Clyne",
+   "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "474ecac8",
-   "season": 2019,
-   "distance": 2.431,
-   "survived": 1,
-   "fut_ability_v2": 51.2,
-   "player_name": "Sergio Postigo",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "7fecbcdb",
-   "season": 2018,
-   "distance": 2.458,
-   "survived": 1,
-   "fut_ability_v2": 45.0,
-   "player_name": "Abdoulaye Bamba",
-   "squad": "Angers"
-  },
-  {
-   "fbref_id": "11b9265b",
+   "fbref_id": "89d10e53",
    "season": 2020,
-   "distance": 2.471,
-   "survived": 1,
-   "fut_ability_v2": 61.0,
-   "player_name": "Alberto Moreno",
-   "squad": "Villarreal"
+   "distance": 2.283,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Danny Rose",
+   "squad": "Tottenham / Newcastle Utd"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Falaye Sacko(DF)의 현재 능력 점수는 46.4점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 슈팅당 기대득점, 전진 패스, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 태클 성공률이다.",
-  "potential": "Falaye Sacko의 2~3년 후 예측 중심값은 48.2점, 80% 구간 상단은 57.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 16.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Falaye Sacko의 2~3년 후 예측 중심값은 50.4점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

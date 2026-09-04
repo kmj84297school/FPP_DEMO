@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6198,
-  "mu": 51.0,
+  "survival_prob": 0.6862,
+  "mu": 50.2,
   "ci80": {
-   "lo": 40.4,
-   "hi": 61.5
+   "lo": 39.7,
+   "hi": 60.8
   },
   "ci50": {
-   "lo": 45.4,
-   "hi": 56.5
+   "lo": 44.6,
+   "hi": 55.7
   },
-  "sigma_model": 1.8,
+  "sigma_model": 2.1,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "41c12f75",
+   "season": 2021,
+   "distance": 2.236,
+   "survived": 1,
+   "fut_ability_v2": 69.9,
+   "player_name": "Mathías Olivera",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "30d4a2e5",
+   "season": 2022,
+   "distance": 2.589,
+   "survived": 1,
+   "fut_ability_v2": 46.9,
+   "player_name": "Vitaliy Mykolenko",
+   "squad": "Everton"
+  },
+  {
    "fbref_id": "b7a5bc86",
    "season": 2018,
-   "distance": 2.558,
+   "distance": 2.662,
    "survived": 1,
    "fut_ability_v2": 49.5,
    "player_name": "Mohamed Fares",
    "squad": "Hellas Verona"
   },
   {
+   "fbref_id": "054849d2",
+   "season": 2021,
+   "distance": 2.713,
+   "survived": 1,
+   "fut_ability_v2": 57.6,
+   "player_name": "Iago",
+   "squad": "Augsburg"
+  },
+  {
    "fbref_id": "ed9f7cfe",
    "season": 2020,
-   "distance": 2.738,
+   "distance": 2.752,
    "survived": 1,
    "fut_ability_v2": 54.6,
    "player_name": "Renan Lodi",
@@ -67,74 +94,47 @@
   {
    "fbref_id": "92948149",
    "season": 2020,
-   "distance": 2.779,
+   "distance": 2.801,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lukas Klünter",
    "squad": "Hertha BSC"
   },
   {
+   "fbref_id": "9f7c837d",
+   "season": 2022,
+   "distance": 2.837,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Ben Godfrey",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "6dfd8f05",
+   "season": 2022,
+   "distance": 2.902,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Romain Perraud",
+   "squad": "Southampton"
+  },
+  {
    "fbref_id": "41c12f75",
    "season": 2020,
-   "distance": 2.913,
+   "distance": 2.931,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Mathías Olivera",
    "squad": "Getafe"
   },
   {
-   "fbref_id": "355c883a",
-   "season": 2020,
-   "distance": 3.043,
-   "survived": 1,
-   "fut_ability_v2": 48.8,
-   "player_name": "Martin Agirregabiria",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "b66d1d8a",
-   "season": 2020,
-   "distance": 3.06,
+   "fbref_id": "1df0c0b9",
+   "season": 2021,
+   "distance": 3.068,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Florian Miguel",
-   "squad": "Nîmes"
-  },
-  {
-   "fbref_id": "1fe0492d",
-   "season": 2020,
-   "distance": 3.08,
-   "survived": 1,
-   "fut_ability_v2": 56.2,
-   "player_name": "Rubén Duarte",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "ca8033cb",
-   "season": 2019,
-   "distance": 3.099,
-   "survived": 1,
-   "fut_ability_v2": 60.6,
-   "player_name": "Lukas Klostermann",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "34bb6fbd",
-   "season": 2020,
-   "distance": 3.111,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Arturo Calabresi",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "1fe0492d",
-   "season": 2018,
-   "distance": 3.148,
-   "survived": 1,
-   "fut_ability_v2": 56.5,
-   "player_name": "Rubén Duarte",
-   "squad": "Alavés"
+   "player_name": "Robert Gumny",
+   "squad": "Augsburg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Lasse Rosenboom(DF)의 현재 능력 점수는 46.5점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 패스 성공률이다.",
-  "potential": "Lasse Rosenboom의 2~3년 후 예측 중심값은 51.0점, 80% 구간 상단은 61.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 62.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lasse Rosenboom의 2~3년 후 예측 중심값은 50.2점, 80% 구간 상단은 60.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 68.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

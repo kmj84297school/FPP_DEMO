@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3305,
+  "survival_prob": 0.4247,
   "mu": 47.5,
   "ci80": {
    "lo": 38.3,
-   "hi": 56.6
+   "hi": 56.8
   },
   "ci50": {
-   "lo": 42.6,
-   "hi": 52.3
+   "lo": 42.7,
+   "hi": 52.4
   },
-  "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "b63e789d",
+   "season": 2021,
+   "distance": 1.007,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Fleck",
+   "squad": "Sheffield Utd"
+  },
+  {
    "fbref_id": "d7bf3d19",
    "season": 2018,
-   "distance": 1.824,
+   "distance": 1.752,
    "survived": 1,
    "fut_ability_v2": 44.5,
    "player_name": "Romain Amalfitano",
    "squad": "Dijon"
   },
   {
+   "fbref_id": "279ddf6a",
+   "season": 2022,
+   "distance": 1.869,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xavier Chavalerin",
+   "squad": "Troyes / Reims"
+  },
+  {
+   "fbref_id": "aa677a35",
+   "season": 2021,
+   "distance": 2.014,
+   "survived": 1,
+   "fut_ability_v2": 43.3,
+   "player_name": "Álex Fernández",
+   "squad": "Cádiz"
+  },
+  {
+   "fbref_id": "f5044e54",
+   "season": 2022,
+   "distance": 2.021,
+   "survived": 1,
+   "fut_ability_v2": 65.1,
+   "player_name": "Pierre Lees-Melou",
+   "squad": "Norwich City"
+  },
+  {
    "fbref_id": "e7f4603c",
    "season": 2019,
-   "distance": 1.982,
+   "distance": 2.055,
    "survived": 1,
    "fut_ability_v2": 49.6,
    "player_name": "Borja García",
@@ -67,74 +103,38 @@
   {
    "fbref_id": "70f8e0bd",
    "season": 2020,
-   "distance": 1.996,
+   "distance": 2.067,
    "survived": 1,
    "fut_ability_v2": 45.2,
    "player_name": "Dani Rodríguez",
    "squad": "Mallorca"
   },
   {
-   "fbref_id": "b63e789d",
-   "season": 2020,
-   "distance": 2.066,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "John Fleck",
-   "squad": "Sheffield Utd"
-  },
-  {
    "fbref_id": "d7bf3d19",
    "season": 2019,
-   "distance": 2.112,
+   "distance": 2.072,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Romain Amalfitano",
    "squad": "Dijon"
   },
   {
-   "fbref_id": "07abb358",
-   "season": 2018,
-   "distance": 2.113,
-   "survived": 1,
-   "fut_ability_v2": 39.0,
-   "player_name": "Rômulo",
-   "squad": "Hellas Verona"
-  },
-  {
-   "fbref_id": "8e010ff4",
-   "season": 2018,
-   "distance": 2.121,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Francisco Portillo",
-   "squad": "Getafe"
-  },
-  {
    "fbref_id": "0f9b8301",
    "season": 2020,
-   "distance": 2.124,
+   "distance": 2.072,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cristian Battocchio",
    "squad": "Brest"
   },
   {
-   "fbref_id": "7c4243d4",
-   "season": 2020,
-   "distance": 2.138,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Roque Mesa",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "a64cbd35",
-   "season": 2019,
-   "distance": 2.181,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Antonino Barillà",
-   "squad": "Parma"
+   "fbref_id": "528492ea",
+   "season": 2022,
+   "distance": 2.114,
+   "survived": 1,
+   "fut_ability_v2": 55.8,
+   "player_name": "Alfred Duncan",
+   "squad": "Fiorentina"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Javier Muñoz(MF)의 현재 능력 점수는 47.4점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 박스 진입 패스, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 실책이다.",
-  "potential": "Javier Muñoz의 2~3년 후 예측 중심값은 47.5점, 80% 구간 상단은 56.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 33.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Javier Muñoz의 2~3년 후 예측 중심값은 47.5점, 80% 구간 상단은 56.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

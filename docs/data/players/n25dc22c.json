@@ -32,55 +32,91 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9837,
-  "mu": 63.3,
+  "survival_prob": 0.9664,
+  "mu": 67.8,
   "ci80": {
-   "lo": 52.9,
-   "hi": 73.8
+   "lo": 57.3,
+   "hi": 78.3
   },
   "ci50": {
-   "lo": 57.9,
-   "hi": 68.9
+   "lo": 62.3,
+   "hi": 73.3
   },
-  "sigma_model": 1.6,
+  "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "36a59ba4",
+   "season": 2021,
+   "distance": 2.143,
+   "survived": 1,
+   "fut_ability_v2": 68.7,
+   "player_name": "Florian Neuhaus",
+   "squad": "M'Gladbach"
+  },
+  {
    "fbref_id": "01efac19",
    "season": 2018,
-   "distance": 2.188,
+   "distance": 2.192,
    "survived": 1,
    "fut_ability_v2": 59.3,
    "player_name": "Antonín Barák",
    "squad": "Udinese"
   },
   {
-   "fbref_id": "36a59ba4",
-   "season": 2020,
-   "distance": 2.327,
-   "survived": 1,
-   "fut_ability_v2": 57.4,
-   "player_name": "Florian Neuhaus",
-   "squad": "M'Gladbach"
-  },
-  {
    "fbref_id": "6e7f1353",
    "season": 2019,
-   "distance": 2.353,
+   "distance": 2.269,
    "survived": 1,
    "fut_ability_v2": 45.3,
    "player_name": "Morgan Sanson",
    "squad": "Marseille"
   },
   {
+   "fbref_id": "36a59ba4",
+   "season": 2020,
+   "distance": 2.363,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Florian Neuhaus",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "0f8418aa",
+   "season": 2022,
+   "distance": 2.365,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Ibrahima Sissoko",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "16657b95",
    "season": 2019,
-   "distance": 2.398,
+   "distance": 2.381,
    "survived": 1,
    "fut_ability_v2": 60.9,
    "player_name": "Bryan Cristante",
    "squad": "Roma"
+  },
+  {
+   "fbref_id": "fed17f5a",
+   "season": 2021,
+   "distance": 2.409,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "Carlos Soler",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "10f0fdd3",
+   "season": 2022,
+   "distance": 2.493,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Jean-Ricner Bellegarde",
+   "squad": "Strasbourg"
   },
   {
    "fbref_id": "2a0c8ba4",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "e599253a",
    "season": 2019,
-   "distance": 2.588,
+   "distance": 2.55,
    "survived": 1,
    "fut_ability_v2": 75.9,
    "player_name": "Mario Pašalić",
    "squad": "Atalanta"
-  },
-  {
-   "fbref_id": "05e19d6a",
-   "season": 2020,
-   "distance": 2.631,
-   "survived": 1,
-   "fut_ability_v2": 61.2,
-   "player_name": "Franck Kessié",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "d023d70f",
-   "season": 2019,
-   "distance": 2.634,
-   "survived": 1,
-   "fut_ability_v2": 38.2,
-   "player_name": "Karol Linetty",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "6928979a",
-   "season": 2020,
-   "distance": 2.752,
-   "survived": 1,
-   "fut_ability_v2": 73.7,
-   "player_name": "Nicolò Barella",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "0fbecd11",
-   "season": 2018,
-   "distance": 2.754,
-   "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Dominik Kohr",
-   "squad": "Leverkusen"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Khéphren Thuram(MF)의 현재 능력 점수는 68.2점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반 거리, 전진 운반, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 태클+인터셉트이다.",
-  "potential": "Khéphren Thuram의 2~3년 후 예측 중심값은 63.3점, 80% 구간 상단은 73.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Khéphren Thuram의 2~3년 후 예측 중심값은 67.8점, 80% 구간 상단은 78.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4837,
-  "mu": 55.8,
+  "survival_prob": 0.4281,
+  "mu": 55.2,
   "ci80": {
-   "lo": 45.2,
-   "hi": 66.3
+   "lo": 44.7,
+   "hi": 65.6
   },
   "ci50": {
-   "lo": 50.3,
-   "hi": 61.4
+   "lo": 49.7,
+   "hi": 60.7
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "c46fa34c",
    "season": 2018,
-   "distance": 2.086,
+   "distance": 2.223,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Youssef Aït Bennasser",
    "squad": "Caen"
   },
   {
+   "fbref_id": "11ff3d56",
+   "season": 2021,
+   "distance": 2.442,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibrahima Diallo",
+   "squad": "Southampton / Brest"
+  },
+  {
    "fbref_id": "4f255115",
    "season": 2020,
-   "distance": 2.41,
+   "distance": 2.469,
    "survived": 1,
    "fut_ability_v2": 69.2,
    "player_name": "Aurélien Tchouaméni",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "7f622eef",
    "season": 2019,
-   "distance": 2.567,
+   "distance": 2.48,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Assane Dioussé",
    "squad": "Chievo / Saint-Étienne"
   },
   {
+   "fbref_id": "f81ef10d",
+   "season": 2022,
+   "distance": 2.517,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Maxence Caqueret",
+   "squad": "Lyon"
+  },
+  {
+   "fbref_id": "7d9397f8",
+   "season": 2021,
+   "distance": 2.521,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khéphren Thuram-Ulie",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "bb376bed",
+   "season": 2021,
+   "distance": 2.587,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Ivan Ilić",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "df10e27c",
+   "season": 2022,
+   "distance": 2.611,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Billy Gilmour",
+   "squad": "Norwich City"
+  },
+  {
    "fbref_id": "91e58f66",
    "season": 2019,
-   "distance": 2.642,
+   "distance": 2.626,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Thiago Maia",
    "squad": "Lille"
   },
   {
-   "fbref_id": "7f622eef",
-   "season": 2018,
-   "distance": 2.663,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Assane Dioussé",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "2b09d998",
-   "season": 2020,
-   "distance": 2.698,
+   "fbref_id": "9823be92",
+   "season": 2022,
+   "distance": 2.651,
    "survived": 1,
-   "fut_ability_v2": 54.3,
-   "player_name": "Tyler Adams",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "9a493fb7",
-   "season": 2018,
-   "distance": 2.704,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vincent Koziello",
-   "squad": "Nice / Köln"
-  },
-  {
-   "fbref_id": "a10361d2",
-   "season": 2019,
-   "distance": 2.751,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aleix García",
-   "squad": "Girona"
-  },
-  {
-   "fbref_id": "91e58f66",
-   "season": 2018,
-   "distance": 2.785,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Thiago Maia",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "ffbbc83b",
-   "season": 2018,
-   "distance": 2.787,
-   "survived": 1,
-   "fut_ability_v2": 68.2,
-   "player_name": "Florian Grillitsch",
-   "squad": "Hoffenheim"
+   "fut_ability_v2": 45.6,
+   "player_name": "Samuele Ricci",
+   "squad": "Empoli / Torino"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Djaoui Cissé(MF)의 현재 능력 점수는 56.5점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 볼 리커버리, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 도움 기대값(xAG)이다.",
-  "potential": "Djaoui Cissé의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 66.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 48.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Djaoui Cissé의 2~3년 후 예측 중심값은 55.2점, 80% 구간 상단은 65.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 42.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7494,
-  "mu": 56.4,
+  "survival_prob": 0.6853,
+  "mu": 55.0,
   "ci80": {
-   "lo": 45.8,
-   "hi": 67.1
+   "lo": 44.5,
+   "hi": 65.5
   },
   "ci50": {
-   "lo": 50.8,
-   "hi": 62.1
+   "lo": 49.4,
+   "hi": 60.6
   },
-  "sigma_model": 2.2,
+  "sigma_model": 2.0,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "df10e27c",
+   "season": 2022,
+   "distance": 2.193,
+   "survived": 1,
+   "fut_ability_v2": 60.1,
+   "player_name": "Billy Gilmour",
+   "squad": "Norwich City"
+  },
+  {
    "fbref_id": "ba3d3bea",
    "season": 2018,
-   "distance": 2.11,
+   "distance": 2.201,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Danilo Cataldi",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "a10361d2",
    "season": 2019,
-   "distance": 2.336,
+   "distance": 2.395,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aleix García",
@@ -67,16 +76,25 @@
   {
    "fbref_id": "75e60d75",
    "season": 2020,
-   "distance": 2.519,
+   "distance": 2.563,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ronaldo Vieira",
    "squad": "Sampdoria"
   },
   {
+   "fbref_id": "0db169ae",
+   "season": 2021,
+   "distance": 2.608,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sandro Tonali",
+   "squad": "Milan"
+  },
+  {
    "fbref_id": "7d937aa1",
    "season": 2019,
-   "distance": 2.608,
+   "distance": 2.661,
    "survived": 1,
    "fut_ability_v2": 60.1,
    "player_name": "Antonin Bobichon",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "3bb625ac",
    "season": 2019,
-   "distance": 2.657,
+   "distance": 2.681,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Edimilson Fernandes",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "fb2c533b",
    "season": 2019,
-   "distance": 2.74,
+   "distance": 2.695,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alessandro Murgia",
    "squad": "SPAL / Lazio"
   },
   {
+   "fbref_id": "20094685",
+   "season": 2021,
+   "distance": 2.721,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Maxime Lopez",
+   "squad": "Sassuolo / Marseille"
+  },
+  {
    "fbref_id": "ed45c4a5",
    "season": 2018,
-   "distance": 2.804,
+   "distance": 2.826,
    "survived": 1,
    "fut_ability_v2": 62.7,
    "player_name": "Valentin Rongier",
    "squad": "Nantes"
-  },
-  {
-   "fbref_id": "fb2c533b",
-   "season": 2020,
-   "distance": 2.932,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alessandro Murgia",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "b6dac747",
-   "season": 2018,
-   "distance": 2.963,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lebogang Phiri",
-   "squad": "Guingamp"
-  },
-  {
-   "fbref_id": "05e19d6a",
-   "season": 2020,
-   "distance": 3.008,
-   "survived": 1,
-   "fut_ability_v2": 61.2,
-   "player_name": "Franck Kessié",
-   "squad": "Milan"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Máximo Perrone(MF)의 현재 능력 점수는 55.5점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 전진 패스 거리, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 슈팅 시도이다.",
-  "potential": "Máximo Perrone의 2~3년 후 예측 중심값은 56.4점, 80% 구간 상단은 67.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 74.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Máximo Perrone의 2~3년 후 예측 중심값은 55.0점, 80% 구간 상단은 65.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 68.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2287,
-  "mu": 53.4,
+  "survival_prob": 0.2349,
+  "mu": 51.1,
   "ci80": {
-   "lo": 44.2,
-   "hi": 62.5
+   "lo": 41.8,
+   "hi": 60.3
   },
   "ci50": {
-   "lo": 48.6,
-   "hi": 58.2
+   "lo": 46.2,
+   "hi": 55.9
   },
-  "sigma_model": 1.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "0420d84f",
    "season": 2018,
-   "distance": 1.34,
+   "distance": 1.422,
    "survived": 1,
    "fut_ability_v2": 56.2,
    "player_name": "Séamus Coleman",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "1f079188",
    "season": 2020,
-   "distance": 1.598,
+   "distance": 1.58,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rubén Peña",
    "squad": "Villarreal"
   },
   {
+   "fbref_id": "37f1cf47",
+   "season": 2021,
+   "distance": 1.589,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ander Capa",
+   "squad": "Athletic Club"
+  },
+  {
    "fbref_id": "6d8f8441",
    "season": 2018,
-   "distance": 1.701,
+   "distance": 1.69,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Coke",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "6d8f8441",
    "season": 2019,
-   "distance": 1.807,
+   "distance": 1.824,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Coke",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "5cec2487",
    "season": 2020,
-   "distance": 1.839,
+   "distance": 1.837,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Martín Montoya",
    "squad": "Brighton"
   },
   {
-   "fbref_id": "ad6295d4",
-   "season": 2018,
-   "distance": 1.854,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Miguel Layún",
-   "squad": "Sevilla"
+   "fbref_id": "8332db56",
+   "season": 2021,
+   "distance": 1.844,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Thomas Delaine",
+   "squad": "Metz"
   },
   {
    "fbref_id": "b0616e3d",
    "season": 2019,
-   "distance": 1.876,
+   "distance": 1.852,
    "survived": 1,
    "fut_ability_v2": 57.7,
    "player_name": "Sergio Escudero",
    "squad": "Sevilla"
   },
   {
+   "fbref_id": "ad6295d4",
+   "season": 2018,
+   "distance": 1.863,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Miguel Layún",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "6d8f8441",
    "season": 2020,
-   "distance": 1.881,
+   "distance": 1.886,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Coke",
    "squad": "Levante"
-  },
-  {
-   "fbref_id": "9d107085",
-   "season": 2019,
-   "distance": 2.037,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Charlie Daniels",
-   "squad": "Bournemouth"
-  },
-  {
-   "fbref_id": "8617e3d9",
-   "season": 2018,
-   "distance": 2.101,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Matías Aguirregaray",
-   "squad": "Las Palmas"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Issiaga Sylla(DF)의 현재 능력 점수는 55.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 슈팅당 기대득점, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 패스 성공률이다.",
-  "potential": "Issiaga Sylla의 2~3년 후 예측 중심값은 53.4점, 80% 구간 상단은 62.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Issiaga Sylla의 2~3년 후 예측 중심값은 51.1점, 80% 구간 상단은 60.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 23.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

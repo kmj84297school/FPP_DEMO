@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6837,
-  "mu": 59.8,
+  "survival_prob": 0.5922,
+  "mu": 59.4,
   "ci80": {
-   "lo": 50.4,
-   "hi": 69.1
+   "lo": 50.1,
+   "hi": 68.8
   },
   "ci50": {
-   "lo": 54.9,
-   "hi": 64.7
+   "lo": 54.4,
+   "hi": 64.3
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "2677a1de",
    "season": 2018,
-   "distance": 1.766,
+   "distance": 1.739,
    "survived": 1,
    "fut_ability_v2": 51.8,
    "player_name": "Wahbi Khazri",
    "squad": "Rennes"
   },
   {
+   "fbref_id": "e14ec482",
+   "season": 2022,
+   "distance": 1.963,
+   "survived": 1,
+   "fut_ability_v2": 68.5,
+   "player_name": "Riccardo Orsolini",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "1880614f",
+   "season": 2022,
+   "distance": 1.967,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cengiz Ünder",
+   "squad": "Marseille"
+  },
+  {
    "fbref_id": "1f8c7aa9",
    "season": 2018,
-   "distance": 2.045,
+   "distance": 2.115,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ronny Rodelin",
    "squad": "Caen"
   },
   {
+   "fbref_id": "bc6bd723",
+   "season": 2021,
+   "distance": 2.201,
+   "survived": 1,
+   "fut_ability_v2": 67.3,
+   "player_name": "Alassane Pléa",
+   "squad": "M'Gladbach"
+  },
+  {
    "fbref_id": "64f69877",
    "season": 2018,
-   "distance": 2.206,
+   "distance": 2.239,
    "survived": 1,
    "fut_ability_v2": 69.7,
    "player_name": "Kevin Volland",
@@ -76,65 +103,38 @@
   {
    "fbref_id": "43458538",
    "season": 2018,
-   "distance": 2.271,
+   "distance": 2.349,
    "survived": 1,
    "fut_ability_v2": 54.0,
    "player_name": "Joshua King",
    "squad": "Bournemouth"
   },
   {
-   "fbref_id": "7cdda3bf",
-   "season": 2019,
-   "distance": 2.329,
-   "survived": 1,
-   "fut_ability_v2": 66.6,
-   "player_name": "Gaëtan Laborde",
-   "squad": "Montpellier / Bordeaux"
-  },
-  {
    "fbref_id": "ffa90327",
    "season": 2020,
-   "distance": 2.364,
+   "distance": 2.389,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Anwar El Ghazi",
    "squad": "Aston Villa"
   },
   {
-   "fbref_id": "a53b661f",
-   "season": 2020,
-   "distance": 2.415,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Ihlas Bebou",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "81f0781e",
+   "fbref_id": "7cdda3bf",
    "season": 2019,
-   "distance": 2.424,
+   "distance": 2.394,
    "survived": 1,
-   "fut_ability_v2": 78.7,
-   "player_name": "Gerard Moreno",
-   "squad": "Villarreal"
+   "fut_ability_v2": 66.6,
+   "player_name": "Gaëtan Laborde",
+   "squad": "Montpellier / Bordeaux"
   },
   {
-   "fbref_id": "f69fba57",
-   "season": 2018,
-   "distance": 2.459,
+   "fbref_id": "d705ba44",
+   "season": 2021,
+   "distance": 2.4,
    "survived": 1,
-   "fut_ability_v2": 60.3,
-   "player_name": "Yuya Osako",
-   "squad": "Köln"
-  },
-  {
-   "fbref_id": "35f6db55",
-   "season": 2019,
-   "distance": 2.498,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Léo Baptistão",
-   "squad": "Espanyol"
+   "fut_ability_v2": 48.0,
+   "player_name": "Andrea Belotti",
+   "squad": "Torino"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Robin Hack(FW)의 현재 능력 점수는 63.0점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 볼 리커버리, 블록, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 박스 터치이다.",
-  "potential": "Robin Hack의 2~3년 후 예측 중심값은 59.8점, 80% 구간 상단은 69.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 68.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Robin Hack의 2~3년 후 예측 중심값은 59.4점, 80% 구간 상단은 68.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

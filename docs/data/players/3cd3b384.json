@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7241,
-  "mu": 54.4,
+  "survival_prob": 0.5856,
+  "mu": 52.3,
   "ci80": {
-   "lo": 45.3,
-   "hi": 63.6
+   "lo": 43.0,
+   "hi": 61.6
   },
   "ci50": {
-   "lo": 49.6,
-   "hi": 59.3
+   "lo": 47.4,
+   "hi": 57.2
   },
-  "sigma_model": 1.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "608f2092",
+   "season": 2022,
+   "distance": 1.891,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Johan Mojica",
+   "squad": "Elche"
+  },
+  {
+   "fbref_id": "1b84dbe1",
+   "season": 2021,
+   "distance": 2.028,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Lucas Digne",
+   "squad": "Everton"
+  },
+  {
    "fbref_id": "f3cccffe",
    "season": 2019,
-   "distance": 2.024,
+   "distance": 2.028,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Emiliano Insúa",
@@ -58,16 +76,43 @@
   {
    "fbref_id": "3024e383",
    "season": 2020,
-   "distance": 2.091,
+   "distance": 2.031,
    "survived": 1,
    "fut_ability_v2": 63.5,
    "player_name": "José Ángel",
    "squad": "Eibar"
   },
   {
+   "fbref_id": "fdf3cb77",
+   "season": 2021,
+   "distance": 2.111,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Vladimír Coufal",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "fdf3cb77",
+   "season": 2022,
+   "distance": 2.164,
+   "survived": 1,
+   "fut_ability_v2": 51.7,
+   "player_name": "Vladimír Coufal",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2021,
+   "distance": 2.172,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
+  },
+  {
    "fbref_id": "3024e383",
    "season": 2019,
-   "distance": 2.178,
+   "distance": 2.22,
    "survived": 1,
    "fut_ability_v2": 58.5,
    "player_name": "José Ángel",
@@ -76,65 +121,20 @@
   {
    "fbref_id": "9ba48d64",
    "season": 2018,
-   "distance": 2.254,
+   "distance": 2.261,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juanfran",
    "squad": "La Coruña"
   },
   {
-   "fbref_id": "7242b495",
-   "season": 2020,
-   "distance": 2.344,
-   "survived": 1,
-   "fut_ability_v2": 48.8,
-   "player_name": "Niko Gießelmann",
-   "squad": "Düsseldorf"
-  },
-  {
-   "fbref_id": "ba5004e1",
-   "season": 2019,
-   "distance": 2.354,
-   "survived": 1,
-   "fut_ability_v2": 52.2,
-   "player_name": "Damián Suárez",
-   "squad": "Getafe"
-  },
-  {
-   "fbref_id": "cb574619",
-   "season": 2019,
-   "distance": 2.365,
-   "survived": 1,
-   "fut_ability_v2": 62.4,
-   "player_name": "Hugo Mallo",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "f3cccffe",
-   "season": 2018,
-   "distance": 2.401,
+   "fbref_id": "33a61a52",
+   "season": 2021,
+   "distance": 2.274,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Emiliano Insúa",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "3024e383",
-   "season": 2018,
-   "distance": 2.401,
-   "survived": 1,
-   "fut_ability_v2": 58.3,
-   "player_name": "José Ángel",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "3624ce4c",
-   "season": 2020,
-   "distance": 2.406,
-   "survived": 1,
-   "fut_ability_v2": 50.4,
-   "player_name": "Víctor Díaz",
-   "squad": "Granada"
+   "player_name": "Carlos Clerc",
+   "squad": "Levante"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Tommaso Augello(DF)의 현재 능력 점수는 57.8점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 골 창출(GCA), 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 박스 터치이다.",
-  "potential": "Tommaso Augello의 2~3년 후 예측 중심값은 54.4점, 80% 구간 상단은 63.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 72.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Tommaso Augello의 2~3년 후 예측 중심값은 52.3점, 80% 구간 상단은 61.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

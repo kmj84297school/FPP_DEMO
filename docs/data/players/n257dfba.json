@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4304,
-  "mu": 52.3,
+  "survival_prob": 0.5299,
+  "mu": 52.5,
   "ci80": {
-   "lo": 43.1,
-   "hi": 61.5
+   "lo": 43.2,
+   "hi": 61.7
   },
   "ci50": {
-   "lo": 47.5,
-   "hi": 57.1
+   "lo": 47.6,
+   "hi": 57.3
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "b86a64b2",
+   "season": 2021,
+   "distance": 1.272,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joaquín Fernández",
+   "squad": "Valladolid"
+  },
+  {
    "fbref_id": "84b6acaa",
    "season": 2020,
-   "distance": 1.297,
+   "distance": 1.328,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jhon Chancellor",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "08082af0",
    "season": 2019,
-   "distance": 1.41,
+   "distance": 1.352,
    "survived": 1,
    "fut_ability_v2": 51.7,
    "player_name": "Loïck Landre",
    "squad": "Nîmes"
   },
   {
-   "fbref_id": "fd47b4f2",
-   "season": 2020,
-   "distance": 1.438,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Rodrigo Ely",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "7f203b54",
-   "season": 2018,
-   "distance": 1.521,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Chema",
-   "squad": "Levante"
-  },
-  {
    "fbref_id": "b233e8e4",
    "season": 2020,
-   "distance": 1.537,
+   "distance": 1.467,
    "survived": 1,
    "fut_ability_v2": 57.4,
    "player_name": "Jeison Murillo",
    "squad": "Celta Vigo / Sampdoria"
   },
   {
-   "fbref_id": "4fdf1fd9",
+   "fbref_id": "fd47b4f2",
    "season": 2020,
-   "distance": 1.547,
+   "distance": 1.509,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Rodrigo Ely",
+   "squad": "Alavés"
+  },
+  {
+   "fbref_id": "93090f69",
+   "season": 2022,
+   "distance": 1.522,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Domingos Duarte",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "7f203b54",
+   "season": 2018,
+   "distance": 1.565,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Björn Engels",
-   "squad": "Aston Villa"
+   "player_name": "Chema",
+   "squad": "Levante"
   },
   {
    "fbref_id": "9b30df1e",
    "season": 2019,
-   "distance": 1.563,
+   "distance": 1.578,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bartosz Salamon",
    "squad": "Frosinone"
   },
   {
-   "fbref_id": "f6ac68c1",
-   "season": 2019,
-   "distance": 1.602,
-   "survived": 1,
-   "fut_ability_v2": 55.9,
-   "player_name": "Stefan Savić",
-   "squad": "Atlético Madrid"
-  },
-  {
    "fbref_id": "450ab6fc",
-   "season": 2020,
-   "distance": 1.603,
+   "season": 2021,
+   "distance": 1.59,
    "survived": 1,
-   "fut_ability_v2": 50.6,
+   "fut_ability_v2": 59.2,
    "player_name": "Jamaal Lascelles",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "01a49bd2",
+   "fbref_id": "4fdf1fd9",
    "season": 2020,
-   "distance": 1.69,
+   "distance": 1.591,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Lisandro Magallán",
-   "squad": "Alavés"
+   "player_name": "Björn Engels",
+   "squad": "Aston Villa"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jakov Medić(DF)의 현재 능력 점수는 51.0점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 블록, 클리어링, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 패스이다.",
-  "potential": "Jakov Medić의 2~3년 후 예측 중심값은 52.3점, 80% 구간 상단은 61.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 43.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jakov Medić의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 61.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

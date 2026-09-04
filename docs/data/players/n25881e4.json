@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4833,
-  "mu": 54.4,
+  "survival_prob": 0.6092,
+  "mu": 58.5,
   "ci80": {
-   "lo": 45.1,
-   "hi": 63.7
+   "lo": 49.3,
+   "hi": 67.8
   },
   "ci50": {
-   "lo": 49.5,
-   "hi": 59.3
+   "lo": 53.7,
+   "hi": 63.5
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "ff0ab48c",
+   "season": 2022,
+   "distance": 1.251,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Leo Dubois",
+   "squad": "Lyon"
+  },
+  {
    "fbref_id": "f9acca3a",
    "season": 2019,
-   "distance": 1.432,
+   "distance": 1.402,
    "survived": 1,
    "fut_ability_v2": 60.5,
    "player_name": "Wendell",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "f9acca3a",
    "season": 2018,
-   "distance": 1.62,
+   "distance": 1.726,
    "survived": 1,
    "fut_ability_v2": 63.8,
    "player_name": "Wendell",
    "squad": "Leverkusen"
   },
   {
-   "fbref_id": "2f3452eb",
-   "season": 2019,
-   "distance": 1.765,
-   "survived": 1,
-   "fut_ability_v2": 52.7,
-   "player_name": "Elseid Hysaj",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "0b5a292a",
-   "season": 2018,
-   "distance": 1.772,
-   "survived": 1,
-   "fut_ability_v2": 66.2,
-   "player_name": "Mário Rui",
-   "squad": "Napoli"
-  },
-  {
    "fbref_id": "e5d01ecf",
    "season": 2018,
-   "distance": 1.796,
+   "distance": 1.737,
    "survived": 1,
    "fut_ability_v2": 51.1,
    "player_name": "Kiko Femenía",
    "squad": "Watford"
   },
   {
-   "fbref_id": "fbbb9269",
+   "fbref_id": "2f3452eb",
    "season": 2019,
-   "distance": 1.95,
+   "distance": 1.855,
    "survived": 1,
-   "fut_ability_v2": 59.9,
-   "player_name": "Youssouf Sabaly",
-   "squad": "Bordeaux"
+   "fut_ability_v2": 52.7,
+   "player_name": "Elseid Hysaj",
+   "squad": "Napoli"
   },
   {
-   "fbref_id": "a4b1028a",
-   "season": 2019,
-   "distance": 2.049,
+   "fbref_id": "197640fd",
+   "season": 2021,
+   "distance": 1.874,
    "survived": 1,
-   "fut_ability_v2": 67.5,
-   "player_name": "Hamari Traoré",
+   "fut_ability_v2": 53.6,
+   "player_name": "Timothy Castagne",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "0b5a292a",
+   "season": 2018,
+   "distance": 1.878,
+   "survived": 1,
+   "fut_ability_v2": 66.2,
+   "player_name": "Mário Rui",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "70c52749",
+   "season": 2022,
+   "distance": 1.909,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Birger Meling",
    "squad": "Rennes"
   },
   {
-   "fbref_id": "fdd60087",
-   "season": 2019,
-   "distance": 2.089,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Santiago Arias",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "7f78ad23",
-   "season": 2018,
-   "distance": 2.124,
+   "fbref_id": "2f3452eb",
+   "season": 2021,
+   "distance": 1.989,
    "survived": 1,
-   "fut_ability_v2": 54.7,
-   "player_name": "Ricardo Rodríguez",
-   "squad": "Milan"
+   "fut_ability_v2": 54.4,
+   "player_name": "Elseid Hysaj",
+   "squad": "Napoli"
   },
   {
-   "fbref_id": "da5a981b",
-   "season": 2019,
-   "distance": 2.193,
+   "fbref_id": "70c52749",
+   "season": 2021,
+   "distance": 2.018,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Jacopo Sala",
-   "squad": "Sampdoria"
+   "player_name": "Birger Meling",
+   "squad": "Nîmes"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Fran Garcia(DF)의 현재 능력 점수는 61.3점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 전진 패스 수신, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Fran Garcia의 2~3년 후 예측 중심값은 54.4점, 80% 구간 상단은 63.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 48.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Fran Garcia의 2~3년 후 예측 중심값은 58.5점, 80% 구간 상단은 67.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,24 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.7351,
-  "mu": 74.1,
+  "survival_prob": 0.654,
+  "mu": 76.5,
   "ci80": {
-   "lo": 64.7,
-   "hi": 83.4
+   "lo": 67.0,
+   "hi": 86.1
   },
   "ci50": {
-   "lo": 69.1,
-   "hi": 79.0
+   "lo": 71.5,
+   "hi": 81.6
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a39bb753",
    "season": 2020,
-   "distance": 3.094,
+   "distance": 3.08,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Eden Hazard",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "a40d5a0c",
    "season": 2018,
-   "distance": 3.437,
+   "distance": 3.487,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Diego Perotti",
@@ -67,7 +67,7 @@
   {
    "fbref_id": "849c826a",
    "season": 2018,
-   "distance": 3.582,
+   "distance": 3.508,
    "survived": 1,
    "fut_ability_v2": 61.8,
    "player_name": "Andriy Yarmolenko",
@@ -76,16 +76,25 @@
   {
    "fbref_id": "892d5bb1",
    "season": 2019,
-   "distance": 3.662,
+   "distance": 3.593,
    "survived": 1,
    "fut_ability_v2": 82.0,
    "player_name": "Riyad Mahrez",
    "squad": "Manchester City"
   },
   {
+   "fbref_id": "892d5bb1",
+   "season": 2021,
+   "distance": 3.839,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Riyad Mahrez",
+   "squad": "Manchester City"
+  },
+  {
    "fbref_id": "2f557579",
    "season": 2020,
-   "distance": 4.014,
+   "distance": 4.001,
    "survived": 1,
    "fut_ability_v2": 77.4,
    "player_name": "Lorenzo Insigne",
@@ -93,8 +102,17 @@
   },
   {
    "fbref_id": "892d5bb1",
+   "season": 2022,
+   "distance": 4.02,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Riyad Mahrez",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "892d5bb1",
    "season": 2020,
-   "distance": 4.095,
+   "distance": 4.086,
    "survived": 1,
    "fut_ability_v2": 83.3,
    "player_name": "Riyad Mahrez",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "c691bfe2",
    "season": 2020,
-   "distance": 4.285,
+   "distance": 4.239,
    "survived": 1,
    "fut_ability_v2": 76.2,
    "player_name": "Sadio Mané",
    "squad": "Liverpool"
   },
   {
-   "fbref_id": "0ef89a37",
-   "season": 2019,
-   "distance": 4.415,
-   "survived": 1,
-   "fut_ability_v2": 72.2,
-   "player_name": "Philippe Coutinho",
-   "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "8b9ebd03",
-   "season": 2020,
-   "distance": 4.46,
+   "fbref_id": "eb2fe5b6",
+   "season": 2022,
+   "distance": 4.332,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Willian",
-   "squad": "Chelsea"
-  },
-  {
-   "fbref_id": "fd51b456",
-   "season": 2019,
-   "distance": 4.78,
-   "survived": 1,
-   "fut_ability_v2": 64.7,
-   "player_name": "Lucas Vázquez",
-   "squad": "Real Madrid"
+   "player_name": "Luis Muriel",
+   "squad": "Atalanta"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Kingsley Coman(FW)의 현재 능력 점수는 86.7점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 수신, 슈팅 창출(SCA), 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Kingsley Coman의 2~3년 후 예측 중심값은 74.1점, 80% 구간 상단은 83.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 73.5%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Kingsley Coman의 2~3년 후 예측 중심값은 76.5점, 80% 구간 상단은 86.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 65.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

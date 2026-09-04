@@ -32,78 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6213,
-  "mu": 65.0,
+  "survival_prob": 0.5502,
+  "mu": 61.1,
   "ci80": {
-   "lo": 55.6,
-   "hi": 74.2
+   "lo": 51.8,
+   "hi": 70.3
   },
   "ci50": {
-   "lo": 60.0,
-   "hi": 69.8
+   "lo": 56.2,
+   "hi": 65.9
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "1633fc8a",
-   "season": 2019,
-   "distance": 1.399,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Juanpe",
-   "squad": "Girona"
-  },
-  {
-   "fbref_id": "b5114f85",
-   "season": 2019,
-   "distance": 1.423,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Georg Margreitter",
-   "squad": "Nürnberg"
-  },
-  {
    "fbref_id": "5832ebfe",
    "season": 2020,
-   "distance": 1.444,
+   "distance": 1.367,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Stefano Denswil",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "42dcf26d",
+   "fbref_id": "bcfb0142",
+   "season": 2022,
+   "distance": 1.371,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ben Gibson",
+   "squad": "Norwich City"
+  },
+  {
+   "fbref_id": "1633fc8a",
    "season": 2019,
-   "distance": 1.508,
+   "distance": 1.4,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Juanpe",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "ac861941",
+   "season": 2021,
+   "distance": 1.425,
    "survived": 1,
-   "fut_ability_v2": 59.6,
-   "player_name": "Álvaro González",
-   "squad": "Villarreal"
+   "fut_ability_v2": 57.8,
+   "player_name": "Eric Dier",
+   "squad": "Tottenham"
+  },
+  {
+   "fbref_id": "b5114f85",
+   "season": 2019,
+   "distance": 1.428,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Georg Margreitter",
+   "squad": "Nürnberg"
   },
   {
    "fbref_id": "3fc45c73",
    "season": 2020,
-   "distance": 1.527,
+   "distance": 1.557,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Iñigo Martínez",
    "squad": "Athletic Club"
   },
   {
-   "fbref_id": "791abba1",
+   "fbref_id": "42dcf26d",
    "season": 2019,
-   "distance": 1.586,
+   "distance": 1.572,
    "survived": 1,
-   "fut_ability_v2": 70.7,
-   "player_name": "Salif Sané",
-   "squad": "Schalke 04"
+   "fut_ability_v2": 59.6,
+   "player_name": "Álvaro González",
+   "squad": "Villarreal"
   },
   {
    "fbref_id": "e27da244",
    "season": 2020,
-   "distance": 1.617,
+   "distance": 1.596,
    "survived": 1,
    "fut_ability_v2": 64.3,
    "player_name": "John Brooks",
@@ -112,29 +121,20 @@
   {
    "fbref_id": "b0a0698b",
    "season": 2020,
-   "distance": 1.633,
+   "distance": 1.608,
    "survived": 1,
    "fut_ability_v2": 64.1,
    "player_name": "Rafael Czichos",
    "squad": "Köln"
   },
   {
-   "fbref_id": "952a03fe",
-   "season": 2018,
-   "distance": 1.675,
-   "survived": 1,
-   "fut_ability_v2": 54.1,
-   "player_name": "Sebastien De Maio",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "c5b7c315",
-   "season": 2020,
-   "distance": 1.731,
-   "survived": 1,
-   "fut_ability_v2": 57.6,
-   "player_name": "Michael Keane",
-   "squad": "Everton"
+   "fbref_id": "c67cd65c",
+   "season": 2022,
+   "distance": 1.615,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Joachim Andersen(DF)의 현재 능력 점수는 66.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 패스 거리, 최종 3분의1 패스, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 태클+인터셉트이다.",
-  "potential": "Joachim Andersen의 2~3년 후 예측 중심값은 65.0점, 80% 구간 상단은 74.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 62.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Joachim Andersen의 2~3년 후 예측 중심값은 61.1점, 80% 구간 상단은 70.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

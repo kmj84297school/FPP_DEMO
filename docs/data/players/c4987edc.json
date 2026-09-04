@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8436,
-  "mu": 61.4,
+  "survival_prob": 0.7801,
+  "mu": 61.2,
   "ci80": {
-   "lo": 52.3,
-   "hi": 70.6
+   "lo": 52.0,
+   "hi": 70.5
   },
   "ci50": {
-   "lo": 56.6,
-   "hi": 66.2
+   "lo": 56.4,
+   "hi": 66.1
   },
-  "sigma_model": 1.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "00242715",
+   "season": 2022,
+   "distance": 1.25,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Moussa Niakhate",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "bd7d2e6d",
+   "season": 2022,
+   "distance": 1.325,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Timo Baumgartl",
+   "squad": "Union Berlin"
+  },
+  {
    "fbref_id": "89976232",
    "season": 2019,
-   "distance": 1.392,
+   "distance": 1.468,
    "survived": 1,
    "fut_ability_v2": 58.7,
    "player_name": "Armando Izzo",
    "squad": "Torino"
   },
   {
+   "fbref_id": "a5ec3ede",
+   "season": 2022,
+   "distance": 1.63,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexander Hack",
+   "squad": "Mainz 05"
+  },
+  {
    "fbref_id": "a4ac4b8f",
    "season": 2019,
-   "distance": 1.699,
+   "distance": 1.763,
    "survived": 1,
    "fut_ability_v2": 57.8,
    "player_name": "Willy Boly",
@@ -67,34 +94,34 @@
   {
    "fbref_id": "3f2d59fe",
    "season": 2019,
-   "distance": 1.744,
+   "distance": 1.807,
    "survived": 1,
    "fut_ability_v2": 61.7,
    "player_name": "Shkodran Mustafi",
    "squad": "Arsenal"
   },
   {
-   "fbref_id": "b82880c6",
-   "season": 2018,
-   "distance": 1.779,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simon Falette",
-   "squad": "Eint Frankfurt / Metz"
-  },
-  {
    "fbref_id": "1f9a3a04",
    "season": 2019,
-   "distance": 1.844,
+   "distance": 1.814,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Terence Kongolo",
    "squad": "Huddersfield"
   },
   {
+   "fbref_id": "b82880c6",
+   "season": 2018,
+   "distance": 1.897,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simon Falette",
+   "squad": "Eint Frankfurt / Metz"
+  },
+  {
    "fbref_id": "3e9e06cb",
    "season": 2018,
-   "distance": 1.865,
+   "distance": 1.946,
    "survived": 1,
    "fut_ability_v2": 52.6,
    "player_name": "Craig Dawson",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "7d50454d",
    "season": 2018,
-   "distance": 1.902,
+   "distance": 1.987,
    "survived": 1,
    "fut_ability_v2": 52.7,
    "player_name": "Luca Ceppitelli",
    "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "080440a4",
-   "season": 2018,
-   "distance": 1.91,
-   "survived": 1,
-   "fut_ability_v2": 65.2,
-   "player_name": "Martin Hinteregger",
-   "squad": "Augsburg"
-  },
-  {
-   "fbref_id": "3e5e4e63",
-   "season": 2019,
-   "distance": 1.937,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Steve Cook",
-   "squad": "Bournemouth"
-  },
-  {
-   "fbref_id": "68635c10",
-   "season": 2018,
-   "distance": 1.99,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Frederik Sørensen",
-   "squad": "Köln"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Diogo Leite(DF)의 현재 능력 점수는 70.3점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 태클+인터셉트, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 전진 운반 거리이다.",
-  "potential": "Diogo Leite의 2~3년 후 예측 중심값은 61.4점, 80% 구간 상단은 70.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Diogo Leite의 2~3년 후 예측 중심값은 61.2점, 80% 구간 상단은 70.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 78.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

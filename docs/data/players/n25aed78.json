@@ -32,42 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9501,
-  "mu": 44.6,
+  "survival_prob": 0.939,
+  "mu": 52.3,
   "ci80": {
-   "lo": 32.8,
-   "hi": 56.4
+   "lo": 40.6,
+   "hi": 64.1
   },
   "ci50": {
-   "lo": 38.4,
-   "hi": 50.8
+   "lo": 46.1,
+   "hi": 58.5
   },
   "sigma_model": 4.5,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
-   "fbref_id": "aa1a8c7e",
-   "season": 2018,
-   "distance": 2.564,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Isaac Mbenza",
-   "squad": "Montpellier"
-  },
-  {
    "fbref_id": "50e6dc35",
    "season": 2019,
-   "distance": 2.576,
+   "distance": 2.525,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Jean-Philippe Mateta",
    "squad": "Mainz 05"
   },
   {
+   "fbref_id": "aa1a8c7e",
+   "season": 2018,
+   "distance": 2.534,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Isaac Mbenza",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "79443529",
+   "season": 2021,
+   "distance": 2.668,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Dušan Vlahović",
+   "squad": "Fiorentina"
+  },
+  {
    "fbref_id": "1238a3f9",
    "season": 2018,
-   "distance": 2.842,
+   "distance": 2.814,
    "survived": 1,
    "fut_ability_v2": 28.8,
    "player_name": "Davie Selke",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "f8eca1b6",
    "season": 2020,
-   "distance": 2.921,
+   "distance": 2.88,
    "survived": 1,
    "fut_ability_v2": 38.3,
    "player_name": "Enes Ünal",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "04e17fd5",
    "season": 2019,
-   "distance": 2.973,
+   "distance": 2.991,
    "survived": 1,
    "fut_ability_v2": 46.1,
    "player_name": "Youssef En-Nesyri",
@@ -94,16 +103,25 @@
   {
    "fbref_id": "43a166b4",
    "season": 2018,
-   "distance": 3.04,
+   "distance": 2.997,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Divock Origi",
    "squad": "Wolfsburg / Liverpool"
   },
   {
+   "fbref_id": "8790f988",
+   "season": 2022,
+   "distance": 3.0,
+   "survived": 1,
+   "fut_ability_v2": 70.3,
+   "player_name": "Gianluca Scamacca",
+   "squad": "Sassuolo"
+  },
+  {
    "fbref_id": "4c2e9442",
    "season": 2019,
-   "distance": 3.082,
+   "distance": 3.048,
    "survived": 1,
    "fut_ability_v2": 32.2,
    "player_name": "Maxi Gómez",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "59e6e5bf",
    "season": 2020,
-   "distance": 3.146,
+   "distance": 3.107,
    "survived": 1,
    "fut_ability_v2": 40.5,
    "player_name": "Dominic Calvert-Lewin",
    "squad": "Everton"
-  },
-  {
-   "fbref_id": "5e080f73",
-   "season": 2020,
-   "distance": 3.27,
-   "survived": 1,
-   "fut_ability_v2": 42.9,
-   "player_name": "Irvin Cardona",
-   "squad": "Brest"
-  },
-  {
-   "fbref_id": "923f4dda",
-   "season": 2019,
-   "distance": 3.386,
-   "survived": 1,
-   "fut_ability_v2": 56.8,
-   "player_name": "Sehrou Guirassy",
-   "squad": "Amiens"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Benjamin Šeško(FW)의 현재 능력 점수는 45.7점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승률, 공중볼 승리, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 키패스이다.",
-  "potential": "Benjamin Šeško의 2~3년 후 예측 중심값은 44.6점, 80% 구간 상단은 56.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Benjamin Šeško의 2~3년 후 예측 중심값은 52.3점, 80% 구간 상단은 64.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

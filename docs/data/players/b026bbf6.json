@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7546,
-  "mu": 60.2,
+  "survival_prob": 0.8353,
+  "mu": 58.6,
   "ci80": {
-   "lo": 51.0,
-   "hi": 69.5
+   "lo": 49.4,
+   "hi": 67.8
   },
   "ci50": {
-   "lo": 55.4,
-   "hi": 65.1
+   "lo": 53.8,
+   "hi": 63.5
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "16e9d0ea",
-   "season": 2020,
-   "distance": 1.924,
+   "fbref_id": "984a5a64",
+   "season": 2022,
+   "distance": 1.539,
    "survived": 1,
-   "fut_ability_v2": 60.0,
-   "player_name": "Álex Moreno",
-   "squad": "Betis"
+   "fut_ability_v2": 55.5,
+   "player_name": "Kyle Walker-Peters",
+   "squad": "Southampton"
+  },
+  {
+   "fbref_id": "6213fd82",
+   "season": 2021,
+   "distance": 1.799,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Arkadiusz Reca",
+   "squad": "Crotone"
   },
   {
    "fbref_id": "e726e11e",
    "season": 2018,
-   "distance": 1.968,
+   "distance": 1.955,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Victor Moses",
    "squad": "Chelsea"
   },
   {
+   "fbref_id": "16e9d0ea",
+   "season": 2020,
+   "distance": 1.956,
+   "survived": 1,
+   "fut_ability_v2": 60.0,
+   "player_name": "Álex Moreno",
+   "squad": "Betis"
+  },
+  {
    "fbref_id": "13203c45",
    "season": 2019,
-   "distance": 2.03,
+   "distance": 2.069,
    "survived": 1,
    "fut_ability_v2": 50.5,
    "player_name": "Jérôme Roussillon",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "6213fd82",
    "season": 2020,
-   "distance": 2.107,
+   "distance": 2.075,
    "survived": 1,
    "fut_ability_v2": 45.0,
    "player_name": "Arkadiusz Reca",
    "squad": "SPAL"
   },
   {
+   "fbref_id": "0a483542",
+   "season": 2022,
+   "distance": 2.116,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Giorgos Kyriakopoulos",
+   "squad": "Sassuolo"
+  },
+  {
    "fbref_id": "f26e3c59",
    "season": 2018,
-   "distance": 2.138,
+   "distance": 2.157,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Diego Laxalt",
    "squad": "Genoa"
   },
   {
-   "fbref_id": "16e9d0ea",
-   "season": 2019,
-   "distance": 2.203,
+   "fbref_id": "63f04c6c",
+   "season": 2021,
+   "distance": 2.159,
    "survived": 1,
-   "fut_ability_v2": 60.3,
-   "player_name": "Álex Moreno",
-   "squad": "Rayo Vallecano"
-  },
-  {
-   "fbref_id": "608f2092",
-   "season": 2018,
-   "distance": 2.226,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Johan Mojica",
-   "squad": "Girona"
-  },
-  {
-   "fbref_id": "30c220c3",
-   "season": 2019,
-   "distance": 2.27,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mitchell Weiser",
-   "squad": "Leverkusen"
+   "fut_ability_v2": 57.7,
+   "player_name": "Alfonso Pedraza",
+   "squad": "Villarreal"
   },
   {
    "fbref_id": "f4290206",
    "season": 2018,
-   "distance": 2.274,
+   "distance": 2.176,
    "survived": 1,
    "fut_ability_v2": 66.1,
    "player_name": "Marcos Alonso",
    "squad": "Chelsea"
-  },
-  {
-   "fbref_id": "3b333ac3",
-   "season": 2019,
-   "distance": 2.284,
-   "survived": 1,
-   "fut_ability_v2": 53.6,
-   "player_name": "Hans Hateboer",
-   "squad": "Atalanta"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Lorenz Assignon(DF)의 현재 능력 점수는 61.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 박스 터치, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 태클 성공률이다.",
-  "potential": "Lorenz Assignon의 2~3년 후 예측 중심값은 60.2점, 80% 구간 상단은 69.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lorenz Assignon의 2~3년 후 예측 중심값은 58.6점, 80% 구간 상단은 67.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 83.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

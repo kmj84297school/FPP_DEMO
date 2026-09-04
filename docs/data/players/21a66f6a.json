@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9233,
-  "mu": 64.4,
+  "survival_prob": 0.7832,
+  "mu": 73.7,
   "ci80": {
-   "lo": 54.3,
-   "hi": 74.5
+   "lo": 64.2,
+   "hi": 83.3
   },
   "ci50": {
-   "lo": 59.2,
-   "hi": 69.8
+   "lo": 68.7,
+   "hi": 78.8
   },
-  "sigma_model": 3.5,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "70d74ece",
    "season": 2019,
-   "distance": 2.321,
+   "distance": 2.375,
    "survived": 1,
    "fut_ability_v2": 85.4,
    "player_name": "Karim Benzema",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "70d74ece",
+   "season": 2021,
+   "distance": 2.433,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Benzema",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "00459419",
    "season": 2019,
-   "distance": 2.475,
+   "distance": 2.462,
    "survived": 1,
    "fut_ability_v2": 60.2,
    "player_name": "Marko Arnautović",
@@ -67,16 +76,34 @@
   {
    "fbref_id": "3bb7f478",
    "season": 2020,
-   "distance": 2.551,
+   "distance": 2.608,
    "survived": 1,
    "fut_ability_v2": 79.4,
    "player_name": "Edin Džeko",
    "squad": "Roma"
   },
   {
+   "fbref_id": "df69b544",
+   "season": 2021,
+   "distance": 2.741,
+   "survived": 1,
+   "fut_ability_v2": 68.1,
+   "player_name": "Antoine Griezmann",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "603cb947",
+   "season": 2022,
+   "distance": 2.831,
+   "survived": 1,
+   "fut_ability_v2": 71.8,
+   "player_name": "Andrej Kramarić",
+   "squad": "Hoffenheim"
+  },
+  {
    "fbref_id": "70d74ece",
    "season": 2020,
-   "distance": 2.817,
+   "distance": 2.856,
    "survived": 1,
    "fut_ability_v2": 87.5,
    "player_name": "Karim Benzema",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "a6154613",
    "season": 2020,
-   "distance": 2.868,
+   "distance": 2.886,
    "survived": 1,
    "fut_ability_v2": 48.2,
    "player_name": "Luis Suárez",
    "squad": "Barcelona"
   },
   {
+   "fbref_id": "00459419",
+   "season": 2022,
+   "distance": 2.936,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Arnautović",
+   "squad": "Bologna"
+  },
+  {
    "fbref_id": "3bb7f478",
    "season": 2019,
-   "distance": 2.955,
+   "distance": 3.018,
    "survived": 1,
    "fut_ability_v2": 75.0,
    "player_name": "Edin Džeko",
    "squad": "Roma"
-  },
-  {
-   "fbref_id": "3bb7f478",
-   "season": 2018,
-   "distance": 3.116,
-   "survived": 1,
-   "fut_ability_v2": 74.4,
-   "player_name": "Edin Džeko",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "4d034881",
-   "season": 2019,
-   "distance": 3.18,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sergio Agüero",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "a6154613",
-   "season": 2019,
-   "distance": 3.189,
-   "survived": 1,
-   "fut_ability_v2": 56.5,
-   "player_name": "Luis Suárez",
-   "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "8a08491a",
-   "season": 2020,
-   "distance": 3.208,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gonzalo Higuaín",
-   "squad": "Juventus"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Harry Kane(FW)의 현재 능력 점수는 79.7점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 골 창출(GCA), 유효슈팅, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
-  "potential": "Harry Kane의 2~3년 후 예측 중심값은 64.4점, 80% 구간 상단은 74.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 92.3%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Harry Kane의 2~3년 후 예측 중심값은 73.7점, 80% 구간 상단은 83.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 78.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

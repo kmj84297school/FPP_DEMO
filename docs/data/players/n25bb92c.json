@@ -32,24 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7888,
-  "mu": 55.8,
+  "survival_prob": 0.5365,
+  "mu": 54.0,
   "ci80": {
-   "lo": 44.9,
-   "hi": 66.9
+   "lo": 43.4,
+   "hi": 64.5
   },
   "ci50": {
-   "lo": 50.1,
-   "hi": 61.6
+   "lo": 48.4,
+   "hi": 59.6
   },
-  "sigma_model": 3.0,
+  "sigma_model": 2.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "c795c408",
+   "season": 2021,
+   "distance": 1.201,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Panzo",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "75438a9a",
+   "season": 2022,
+   "distance": 1.403,
+   "survived": 1,
+   "fut_ability_v2": 49.2,
+   "player_name": "Mattia Viti",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "1f3afdcb",
+   "season": 2022,
+   "distance": 1.447,
+   "survived": 1,
+   "fut_ability_v2": 63.3,
+   "player_name": "Odilon Kossonou",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "677da306",
    "season": 2018,
-   "distance": 1.481,
+   "distance": 1.582,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Ohis Felix Uduokhai",
@@ -58,83 +85,56 @@
   {
    "fbref_id": "1c7012b8",
    "season": 2018,
-   "distance": 1.613,
+   "distance": 1.584,
    "survived": 1,
    "fut_ability_v2": 59.9,
    "player_name": "Declan Rice",
    "squad": "West Ham"
   },
   {
-   "fbref_id": "9f979eb2",
-   "season": 2018,
-   "distance": 1.86,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Jorge Meré",
-   "squad": "Köln"
-  },
-  {
-   "fbref_id": "5ed9b537",
-   "season": 2018,
-   "distance": 1.868,
+   "fbref_id": "f6b94e8d",
+   "season": 2021,
+   "distance": 1.767,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Ibrahima Konaté",
-   "squad": "RB Leipzig"
+   "player_name": "Saidou Sow",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "ff5ea0bf",
+   "season": 2021,
+   "distance": 1.833,
+   "survived": 1,
+   "fut_ability_v2": 58.1,
+   "player_name": "Malick Thiaw",
+   "squad": "Schalke 04"
   },
   {
    "fbref_id": "a40819d9",
    "season": 2020,
-   "distance": 1.886,
+   "distance": 1.859,
    "survived": 1,
    "fut_ability_v2": 50.2,
    "player_name": "Marash Kumbulla",
    "squad": "Hellas Verona"
   },
   {
-   "fbref_id": "972aeb2a",
-   "season": 2020,
-   "distance": 2.023,
+   "fbref_id": "f4d296e4",
+   "season": 2021,
+   "distance": 1.942,
    "survived": 1,
-   "fut_ability_v2": 58.7,
-   "player_name": "William Saliba",
-   "squad": "Saint-Étienne"
+   "fut_ability_v2": 60.7,
+   "player_name": "Pascal Struijk",
+   "squad": "Leeds United"
   },
   {
-   "fbref_id": "cc77354e",
-   "season": 2019,
-   "distance": 2.079,
-   "survived": 1,
-   "fut_ability_v2": 62.9,
-   "player_name": "Boubacar Kamara",
-   "squad": "Marseille"
-  },
-  {
-   "fbref_id": "bee704fc",
+   "fbref_id": "5ed9b537",
    "season": 2018,
-   "distance": 2.114,
-   "survived": 1,
-   "fut_ability_v2": 64.3,
-   "player_name": "Nikola Milenković",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "a73c8f95",
-   "season": 2020,
-   "distance": 2.123,
-   "survived": 1,
-   "fut_ability_v2": 58.1,
-   "player_name": "Edmond Tapsoba",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "441197b8",
-   "season": 2019,
-   "distance": 2.223,
-   "survived": 1,
-   "fut_ability_v2": 70.3,
-   "player_name": "Obite N'Dicka",
-   "squad": "Eint Frankfurt"
+   "distance": 1.991,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibrahima Konaté",
+   "squad": "RB Leipzig"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Nathan Zeze(DF)의 현재 능력 점수는 61.3점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 태클+인터셉트, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 운반이다.",
-  "potential": "Nathan Zeze의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 66.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 78.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Nathan Zeze의 2~3년 후 예측 중심값은 54.0점, 80% 구간 상단은 64.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 53.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

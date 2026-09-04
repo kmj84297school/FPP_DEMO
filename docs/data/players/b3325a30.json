@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4241,
-  "mu": 47.7,
+  "survival_prob": 0.2664,
+  "mu": 49.7,
   "ci80": {
-   "lo": 38.5,
-   "hi": 57.0
+   "lo": 40.3,
+   "hi": 59.2
   },
   "ci50": {
-   "lo": 42.9,
-   "hi": 52.6
+   "lo": 44.8,
+   "hi": 54.7
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "144607cc",
    "season": 2018,
-   "distance": 1.689,
+   "distance": 1.694,
    "survived": 1,
    "fut_ability_v2": 55.7,
    "player_name": "Jasmin Kurtić",
@@ -58,61 +58,70 @@
   {
    "fbref_id": "3312f911",
    "season": 2019,
-   "distance": 1.736,
+   "distance": 1.722,
    "survived": 1,
    "fut_ability_v2": 50.5,
    "player_name": "Jeffrey Schlupp",
    "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "2334478a",
-   "season": 2020,
-   "distance": 1.822,
-   "survived": 1,
-   "fut_ability_v2": 42.2,
-   "player_name": "Stefano Sturaro",
-   "squad": "Genoa"
-  },
-  {
    "fbref_id": "3f79a1c8",
    "season": 2019,
-   "distance": 1.834,
+   "distance": 1.75,
    "survived": 1,
    "fut_ability_v2": 50.4,
    "player_name": "Gonzalo Escalante",
    "squad": "Eibar"
   },
   {
+   "fbref_id": "2334478a",
+   "season": 2020,
+   "distance": 1.785,
+   "survived": 1,
+   "fut_ability_v2": 42.2,
+   "player_name": "Stefano Sturaro",
+   "squad": "Genoa"
+  },
+  {
    "fbref_id": "4a57580c",
    "season": 2019,
-   "distance": 1.87,
+   "distance": 1.885,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kévin Monnet-Paquet",
    "squad": "Saint-Étienne"
   },
   {
-   "fbref_id": "c53083ad",
-   "season": 2018,
-   "distance": 1.936,
-   "survived": 1,
-   "fut_ability_v2": 54.4,
-   "player_name": "Bryan Dabo",
-   "squad": "Saint-Étienne / Fiorentina"
-  },
-  {
    "fbref_id": "86695068",
    "season": 2020,
-   "distance": 1.981,
+   "distance": 1.903,
    "survived": 1,
    "fut_ability_v2": 53.4,
    "player_name": "Dennis Praet",
    "squad": "Leicester City"
   },
   {
+   "fbref_id": "c53083ad",
+   "season": 2018,
+   "distance": 1.951,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Bryan Dabo",
+   "squad": "Saint-Étienne / Fiorentina"
+  },
+  {
+   "fbref_id": "22cd43d2",
+   "season": 2022,
+   "distance": 1.977,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Domen Črnigoj",
+   "squad": "Venezia"
+  },
+  {
    "fbref_id": "999908af",
    "season": 2019,
-   "distance": 2.016,
+   "distance": 1.995,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Wakaso",
@@ -121,20 +130,11 @@
   {
    "fbref_id": "c1febb46",
    "season": 2018,
-   "distance": 2.118,
+   "distance": 2.004,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Somália",
    "squad": "Toulouse"
-  },
-  {
-   "fbref_id": "9d4c45d6",
-   "season": 2018,
-   "distance": 2.168,
-   "survived": 1,
-   "fut_ability_v2": 69.9,
-   "player_name": "Roberto Soriano",
-   "squad": "Villarreal"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Suat Serdar(MF)의 현재 능력 점수는 43.3점이다. 플레이스타일은 '공격형 MF'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅 시도, 성공 드리블, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 박스 진입 패스이다.",
-  "potential": "Suat Serdar의 2~3년 후 예측 중심값은 47.7점, 80% 구간 상단은 57.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Suat Serdar의 2~3년 후 예측 중심값은 49.7점, 80% 구간 상단은 59.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 26.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

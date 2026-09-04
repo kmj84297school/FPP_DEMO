@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3478,
-  "mu": 53.9,
+  "survival_prob": 0.3126,
+  "mu": 53.2,
   "ci80": {
-   "lo": 44.7,
-   "hi": 63.0
+   "lo": 43.9,
+   "hi": 62.4
   },
   "ci50": {
-   "lo": 49.0,
-   "hi": 58.7
+   "lo": 48.3,
+   "hi": 58.0
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a7f00c8c",
    "season": 2018,
-   "distance": 1.858,
+   "distance": 1.829,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luisinho",
    "squad": "La Coruña"
   },
   {
+   "fbref_id": "0420d84f",
+   "season": 2022,
+   "distance": 2.189,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "ba5004e1",
+   "season": 2022,
+   "distance": 2.353,
+   "survived": 1,
+   "fut_ability_v2": 50.8,
+   "player_name": "Damián Suárez",
+   "squad": "Getafe"
+  },
+  {
    "fbref_id": "be927d03",
    "season": 2018,
-   "distance": 2.457,
+   "distance": 2.465,
    "survived": 1,
    "fut_ability_v2": 56.3,
    "player_name": "Ashley Young",
@@ -67,16 +85,43 @@
   {
    "fbref_id": "ffad706e",
    "season": 2019,
-   "distance": 2.531,
+   "distance": 2.49,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Javi López",
    "squad": "Espanyol"
   },
   {
+   "fbref_id": "3f65898c",
+   "season": 2021,
+   "distance": 2.509,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Theodor Gebre Selassie",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "7f4c7c9f",
+   "season": 2022,
+   "distance": 2.562,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jorge Miramón",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "808d48f3",
+   "season": 2022,
+   "distance": 2.652,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Jaume Costa",
+   "squad": "Mallorca"
+  },
+  {
    "fbref_id": "767212e6",
    "season": 2020,
-   "distance": 2.619,
+   "distance": 2.718,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Julien Faussurier",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "b69261a0",
    "season": 2019,
-   "distance": 2.663,
+   "distance": 2.729,
    "survived": 1,
    "fut_ability_v2": 45.4,
    "player_name": "Oscar Wendt",
    "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "edd1466a",
-   "season": 2020,
-   "distance": 2.735,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fouad Chafik",
-   "squad": "Dijon"
-  },
-  {
-   "fbref_id": "5eb72339",
-   "season": 2019,
-   "distance": 2.807,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simone Padoin",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "6813ac34",
-   "season": 2019,
-   "distance": 2.821,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pablo Zabaleta",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "46f5c54d",
-   "season": 2019,
-   "distance": 2.871,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Thiago Cionek",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "b18095b6",
-   "season": 2018,
-   "distance": 2.984,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Leighton Baines",
-   "squad": "Everton"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Florent Hanin(DF)의 현재 능력 점수는 54.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 박스 진입 패스, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Florent Hanin의 2~3년 후 예측 중심값은 53.9점, 80% 구간 상단은 63.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Florent Hanin의 2~3년 후 예측 중심값은 53.2점, 80% 구간 상단은 62.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

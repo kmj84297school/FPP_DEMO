@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6782,
-  "mu": 56.8,
+  "survival_prob": 0.3732,
+  "mu": 56.6,
   "ci80": {
-   "lo": 47.4,
-   "hi": 66.3
+   "lo": 47.1,
+   "hi": 66.1
   },
   "ci50": {
-   "lo": 51.9,
-   "hi": 61.8
+   "lo": 51.6,
+   "hi": 61.6
   },
   "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "5f09991f",
    "season": 2020,
-   "distance": 2.102,
+   "distance": 2.07,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Patrick van Aanholt",
    "squad": "Crystal Palace"
   },
   {
+   "fbref_id": "9e1577aa",
+   "season": 2022,
+   "distance": 2.1,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Cristiano Biraghi",
+   "squad": "Fiorentina"
+  },
+  {
    "fbref_id": "4601e194",
    "season": 2019,
-   "distance": 2.214,
+   "distance": 2.221,
    "survived": 1,
    "fut_ability_v2": 65.9,
    "player_name": "Jordi Alba",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "d83bbc54",
    "season": 2019,
-   "distance": 2.25,
+   "distance": 2.23,
    "survived": 1,
    "fut_ability_v2": 47.2,
    "player_name": "Daniel Wass",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "44eb9093",
    "season": 2019,
-   "distance": 2.344,
+   "distance": 2.268,
    "survived": 1,
    "fut_ability_v2": 54.9,
    "player_name": "Danilo D'Ambrosio",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "4601e194",
    "season": 2020,
-   "distance": 2.348,
+   "distance": 2.306,
    "survived": 1,
    "fut_ability_v2": 65.9,
    "player_name": "Jordi Alba",
    "squad": "Barcelona"
   },
   {
+   "fbref_id": "7fe90ccd",
+   "season": 2022,
+   "distance": 2.352,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Davide Zappacosta",
+   "squad": "Atalanta"
+  },
+  {
+   "fbref_id": "0b5a292a",
+   "season": 2022,
+   "distance": 2.394,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Mário Rui",
+   "squad": "Napoli"
+  },
+  {
    "fbref_id": "e29d1111",
    "season": 2020,
-   "distance": 2.539,
+   "distance": 2.471,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Nacho",
    "squad": "Valladolid"
   },
   {
-   "fbref_id": "a7813ac4",
-   "season": 2019,
-   "distance": 2.556,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Daniel Brosinski",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "f91e81c9",
-   "season": 2020,
-   "distance": 2.584,
+   "fbref_id": "4601e194",
+   "season": 2021,
+   "distance": 2.514,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Jens Stryger Larsen",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "767212e6",
-   "season": 2020,
-   "distance": 2.625,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Julien Faussurier",
-   "squad": "Brest"
-  },
-  {
-   "fbref_id": "088ca1bd",
-   "season": 2019,
-   "distance": 2.709,
-   "survived": 1,
-   "fut_ability_v2": 53.8,
-   "player_name": "Jonathan Schmid",
-   "squad": "Augsburg"
+   "player_name": "Jordi Alba",
+   "squad": "Barcelona"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Andrew Robertson(DF)의 현재 능력 점수는 52.9점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스, 도움 기대값(xAG), 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 공중볼 승리이다.",
-  "potential": "Andrew Robertson의 2~3년 후 예측 중심값은 56.8점, 80% 구간 상단은 66.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 67.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Andrew Robertson의 2~3년 후 예측 중심값은 56.6점, 80% 구간 상단은 66.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 37.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

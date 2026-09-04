@@ -32,24 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1096,
-  "mu": 37.1,
+  "survival_prob": 0.0627,
+  "mu": 35.0,
   "ci80": {
-   "lo": 27.5,
-   "hi": 46.7
+   "lo": 25.4,
+   "hi": 44.8
   },
   "ci50": {
-   "lo": 32.0,
-   "hi": 42.1
+   "lo": 30.0,
+   "hi": 40.2
   },
   "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "5046b7d4",
+   "season": 2022,
+   "distance": 1.58,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stéphane Bahoken",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "4ab53cdb",
+   "season": 2021,
+   "distance": 2.124,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jay Rodriguez",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "abb3bb95",
+   "season": 2021,
+   "distance": 2.301,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luuk de Jong",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "4ab53cdb",
+   "season": 2022,
+   "distance": 2.369,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jay Rodriguez",
+   "squad": "Burnley"
+  },
+  {
+   "fbref_id": "8f898ba8",
+   "season": 2022,
+   "distance": 2.495,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Carrillo",
+   "squad": "Elche"
+  },
+  {
+   "fbref_id": "601ef102",
+   "season": 2021,
+   "distance": 2.576,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefano Okaka",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "8f898ba8",
+   "season": 2021,
+   "distance": 2.776,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Guido Carrillo",
+   "squad": "Elche"
+  },
+  {
+   "fbref_id": "f93e6e94",
+   "season": 2021,
+   "distance": 2.911,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nils Petersen",
+   "squad": "Freiburg"
+  },
+  {
    "fbref_id": "4ab53cdb",
    "season": 2020,
-   "distance": 2.874,
+   "distance": 2.934,
    "survived": 1,
    "fut_ability_v2": 43.1,
    "player_name": "Jay Rodriguez",
@@ -58,83 +130,11 @@
   {
    "fbref_id": "68796d61",
    "season": 2018,
-   "distance": 2.957,
+   "distance": 3.01,
    "survived": 1,
    "fut_ability_v2": 19.3,
    "player_name": "Shinji Okazaki",
    "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "dbe56a33",
-   "season": 2020,
-   "distance": 3.015,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "David McGoldrick",
-   "squad": "Sheffield Utd"
-  },
-  {
-   "fbref_id": "f4ec4fd0",
-   "season": 2019,
-   "distance": 3.044,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kevin-Prince Boateng",
-   "squad": "Sassuolo / Barcelona"
-  },
-  {
-   "fbref_id": "b09a3ecc",
-   "season": 2019,
-   "distance": 3.115,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Daniel Ciofani",
-   "squad": "Frosinone"
-  },
-  {
-   "fbref_id": "3071a619",
-   "season": 2019,
-   "distance": 3.151,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Nolan Roux",
-   "squad": "Guingamp"
-  },
-  {
-   "fbref_id": "bb4b1242",
-   "season": 2020,
-   "distance": 3.158,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sergi Enrich",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "b1236c63",
-   "season": 2020,
-   "distance": 3.164,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ilija Nestorovski",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "42276181",
-   "season": 2018,
-   "distance": 3.222,
-   "survived": 1,
-   "fut_ability_v2": 37.7,
-   "player_name": "Kévin Gameiro",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "863ff1ee",
-   "season": 2018,
-   "distance": 3.231,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simon Terodde",
-   "squad": "Köln / Stuttgart"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Juanmi(FW)의 현재 능력 점수는 32.9점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 태클+인터셉트, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 슈팅 창출(SCA)이다.",
-  "potential": "Juanmi의 2~3년 후 예측 중심값은 37.1점, 80% 구간 상단은 46.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 11.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Juanmi의 2~3년 후 예측 중심값은 35.0점, 80% 구간 상단은 44.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 6.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

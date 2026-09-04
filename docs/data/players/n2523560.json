@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8911,
-  "mu": 52.8,
+  "survival_prob": 0.8073,
+  "mu": 48.8,
   "ci80": {
-   "lo": 41.8,
-   "hi": 63.9
+   "lo": 37.6,
+   "hi": 59.9
   },
   "ci50": {
-   "lo": 47.1,
-   "hi": 58.6
+   "lo": 42.9,
+   "hi": 54.6
   },
-  "sigma_model": 3.1,
+  "sigma_model": 3.5,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "9d5dcc23",
+   "season": 2021,
+   "distance": 2.438,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lamine Gueye",
+   "squad": "Metz"
+  },
+  {
    "fbref_id": "ba115a40",
    "season": 2018,
-   "distance": 2.447,
+   "distance": 2.44,
    "survived": 1,
    "fut_ability_v2": 48.1,
    "player_name": "Sébastien Haller",
@@ -58,16 +67,25 @@
   {
    "fbref_id": "0b90bb97",
    "season": 2020,
-   "distance": 2.632,
+   "distance": 2.57,
    "survived": 1,
    "fut_ability_v2": 42.9,
    "player_name": "Santi Mina",
    "squad": "Celta Vigo"
   },
   {
+   "fbref_id": "a6103274",
+   "season": 2022,
+   "distance": 2.686,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Randy Ntekja",
+   "squad": "Rayo Vallecano"
+  },
+  {
    "fbref_id": "f8eca1b6",
    "season": 2020,
-   "distance": 2.753,
+   "distance": 2.711,
    "survived": 1,
    "fut_ability_v2": 38.3,
    "player_name": "Enes Ünal",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "fa031b34",
    "season": 2020,
-   "distance": 2.772,
+   "distance": 2.814,
    "survived": 1,
    "fut_ability_v2": 49.4,
    "player_name": "Richarlison",
    "squad": "Everton"
   },
   {
+   "fbref_id": "c17bfb65",
+   "season": 2021,
+   "distance": 2.862,
+   "survived": 1,
+   "fut_ability_v2": 59.5,
+   "player_name": "Joelinton",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "2c44a35d",
+   "season": 2022,
+   "distance": 2.88,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emmanuel Dennis",
+   "squad": "Watford"
+  },
+  {
    "fbref_id": "2979c05a",
    "season": 2018,
-   "distance": 2.919,
+   "distance": 2.897,
    "survived": 1,
    "fut_ability_v2": 44.1,
    "player_name": "Gerrit Holtmann",
    "squad": "Mainz 05"
   },
   {
-   "fbref_id": "62437b4f",
-   "season": 2019,
-   "distance": 3.008,
+   "fbref_id": "c0b3669f",
+   "season": 2022,
+   "distance": 2.911,
    "survived": 1,
-   "fut_ability_v2": 58.2,
-   "player_name": "Ignacio Pussetto",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "e08647d6",
-   "season": 2020,
-   "distance": 3.025,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Carlos Fernández",
-   "squad": "Granada"
-  },
-  {
-   "fbref_id": "176674ab",
-   "season": 2018,
-   "distance": 3.091,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ndombe Mubele",
-   "squad": "Rennes / Toulouse"
-  },
-  {
-   "fbref_id": "1238a3f9",
-   "season": 2019,
-   "distance": 3.157,
-   "survived": 1,
-   "fut_ability_v2": 29.8,
-   "player_name": "Davie Selke",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "19ba6c6d",
-   "season": 2019,
-   "distance": 3.182,
-   "survived": 1,
-   "fut_ability_v2": 50.4,
-   "player_name": "Steve Mounié",
-   "squad": "Huddersfield"
+   "fut_ability_v2": 65.2,
+   "player_name": "Randal Kolo Muani",
+   "squad": "Nantes"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Issa Soumaré(FW)의 현재 능력 점수는 52.3점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 공중볼 승리, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 최종 3분의1 패스이다.",
-  "potential": "Issa Soumaré의 2~3년 후 예측 중심값은 52.8점, 80% 구간 상단은 63.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 89.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Issa Soumaré의 2~3년 후 예측 중심값은 48.8점, 80% 구간 상단은 59.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 80.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

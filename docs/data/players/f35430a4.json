@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2505,
-  "mu": 52.7,
+  "survival_prob": 0.3579,
+  "mu": 50.5,
   "ci80": {
-   "lo": 43.3,
-   "hi": 62.2
+   "lo": 41.1,
+   "hi": 60.0
   },
   "ci50": {
-   "lo": 47.8,
-   "hi": 57.7
+   "lo": 45.6,
+   "hi": 55.5
   },
   "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "13d820de",
    "season": 2018,
-   "distance": 1.269,
+   "distance": 1.288,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marco Andreolli",
@@ -57,8 +57,17 @@
   },
   {
    "fbref_id": "89e4b358",
+   "season": 2022,
+   "distance": 1.408,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Craig Cathcart",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "89e4b358",
    "season": 2020,
-   "distance": 1.428,
+   "distance": 1.458,
    "survived": 1,
    "fut_ability_v2": 45.9,
    "player_name": "Craig Cathcart",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "ac3fb1be",
    "season": 2018,
-   "distance": 1.494,
+   "distance": 1.47,
    "survived": 1,
    "fut_ability_v2": 52.3,
    "player_name": "Ezequiel Garay",
    "squad": "Valencia"
   },
   {
+   "fbref_id": "e6777e6b",
+   "season": 2022,
+   "distance": 1.507,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stefan Mitrović",
+   "squad": "Getafe"
+  },
+  {
+   "fbref_id": "1c2c55fc",
+   "season": 2022,
+   "distance": 1.509,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gonzalo Verdú",
+   "squad": "Elche"
+  },
+  {
+   "fbref_id": "023937a9",
+   "season": 2021,
+   "distance": 1.543,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ivan Radovanović",
+   "squad": "Genoa"
+  },
+  {
    "fbref_id": "117beb8f",
    "season": 2018,
-   "distance": 1.58,
+   "distance": 1.589,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Giancarlo González",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "32d1c24f",
-   "season": 2018,
-   "distance": 1.799,
+   "fbref_id": "ea468ea8",
+   "season": 2021,
+   "distance": 1.674,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Thomas Heurtaux",
-   "squad": "Hellas Verona"
+   "player_name": "Luca Marrone",
+   "squad": "Crotone"
   },
   {
-   "fbref_id": "1bab7b66",
-   "season": 2020,
-   "distance": 1.86,
+   "fbref_id": "1db295e5",
+   "season": 2021,
+   "distance": 1.755,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Stoppila Sunzu",
-   "squad": "Metz"
-  },
-  {
-   "fbref_id": "f5e6d08d",
-   "season": 2018,
-   "distance": 1.992,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sebastian Prödl",
-   "squad": "Watford"
-  },
-  {
-   "fbref_id": "a63a995f",
-   "season": 2019,
-   "distance": 2.0,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fabian Lustenberger",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "47a500ae",
-   "season": 2019,
-   "distance": 2.011,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luca Rossettini",
-   "squad": "Chievo"
-  },
-  {
-   "fbref_id": "7768df30",
-   "season": 2018,
-   "distance": 2.023,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jérémy Sorbon",
-   "squad": "Guingamp"
+   "player_name": "Vladimir Golemić",
+   "squad": "Crotone"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Matija Nastasić(DF)의 현재 능력 점수는 53.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 클리어링, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 볼 리커버리이다.",
-  "potential": "Matija Nastasić의 2~3년 후 예측 중심값은 52.7점, 80% 구간 상단은 62.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Matija Nastasić의 2~3년 후 예측 중심값은 50.5점, 80% 구간 상단은 60.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 35.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

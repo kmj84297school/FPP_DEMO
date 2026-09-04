@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8256,
-  "mu": 61.5,
+  "survival_prob": 0.7214,
+  "mu": 60.5,
   "ci80": {
-   "lo": 52.1,
-   "hi": 71.0
+   "lo": 51.1,
+   "hi": 69.8
   },
   "ci50": {
-   "lo": 56.5,
-   "hi": 66.5
+   "lo": 55.5,
+   "hi": 65.3
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "7460ca0d",
+   "season": 2021,
+   "distance": 1.988,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Daniel Parejo",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "7460ca0d",
    "season": 2020,
-   "distance": 2.529,
+   "distance": 2.52,
    "survived": 1,
    "fut_ability_v2": 59.7,
    "player_name": "Daniel Parejo",
@@ -58,25 +67,61 @@
   {
    "fbref_id": "ad6df2d5",
    "season": 2020,
-   "distance": 2.607,
+   "distance": 2.521,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Miralem Pjanić",
    "squad": "Juventus"
   },
   {
+   "fbref_id": "5ab0ea87",
+   "season": 2021,
+   "distance": 2.573,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Busquets",
+   "squad": "Barcelona"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2022,
+   "distance": 2.709,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "c801616a",
+   "season": 2021,
+   "distance": 2.758,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
    "fbref_id": "f5a00fa4",
    "season": 2018,
-   "distance": 2.841,
+   "distance": 2.799,
    "survived": 1,
    "fut_ability_v2": 57.3,
    "player_name": "João Moutinho",
    "squad": "Monaco"
   },
   {
+   "fbref_id": "7460ca0d",
+   "season": 2022,
+   "distance": 2.812,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Daniel Parejo",
+   "squad": "Villarreal"
+  },
+  {
    "fbref_id": "56413b1f",
    "season": 2019,
-   "distance": 2.906,
+   "distance": 2.841,
    "survived": 1,
    "fut_ability_v2": 55.6,
    "player_name": "Charles Aránguiz",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "7460ca0d",
    "season": 2019,
-   "distance": 2.965,
+   "distance": 2.98,
    "survived": 1,
    "fut_ability_v2": 65.9,
    "player_name": "Daniel Parejo",
    "squad": "Valencia"
-  },
-  {
-   "fbref_id": "89f951b5",
-   "season": 2018,
-   "distance": 3.066,
-   "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Ivan Rakitić",
-   "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "bd84fc61",
-   "season": 2019,
-   "distance": 3.305,
-   "survived": 1,
-   "fut_ability_v2": 52.0,
-   "player_name": "Pasquale Schiattarella",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "80f36c88",
-   "season": 2020,
-   "distance": 3.319,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sebastian Rudy",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "ab1ca213",
-   "season": 2020,
-   "distance": 3.34,
-   "survived": 1,
-   "fut_ability_v2": 63.2,
-   "player_name": "Miguel Veloso",
-   "squad": "Hellas Verona"
-  },
-  {
-   "fbref_id": "ae64d449",
-   "season": 2018,
-   "distance": 3.45,
-   "survived": 1,
-   "fut_ability_v2": 59.5,
-   "player_name": "Luca Cigarini",
-   "squad": "Cagliari"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Granit Xhaka(MF)의 현재 능력 점수는 67.1점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 최종 3분의1 패스, 전진 패스, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 박스 터치이다.",
-  "potential": "Granit Xhaka의 2~3년 후 예측 중심값은 61.5점, 80% 구간 상단은 71.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 82.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Granit Xhaka의 2~3년 후 예측 중심값은 60.5점, 80% 구간 상단은 69.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 72.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1922,
-  "mu": 46.0,
+  "survival_prob": 0.1645,
+  "mu": 40.0,
   "ci80": {
-   "lo": 36.3,
-   "hi": 55.6
+   "lo": 28.9,
+   "hi": 50.9
   },
   "ci50": {
-   "lo": 40.9,
-   "hi": 51.0
+   "lo": 34.2,
+   "hi": 45.8
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 4.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "1238a3f9",
+   "season": 2022,
+   "distance": 2.148,
+   "survived": 1,
+   "fut_ability_v2": 37.7,
+   "player_name": "Davie Selke",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "1238a3f9",
    "season": 2020,
-   "distance": 2.499,
+   "distance": 2.507,
    "survived": 1,
    "fut_ability_v2": 29.8,
    "player_name": "Davie Selke",
    "squad": "Hertha BSC / Werder Bremen"
   },
   {
+   "fbref_id": "bbf5c11b",
+   "season": 2022,
+   "distance": 2.529,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafa Mir",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "8c44e37b",
    "season": 2019,
-   "distance": 2.721,
+   "distance": 2.741,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Borja Bastón",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "7ffaf233",
    "season": 2018,
-   "distance": 2.987,
+   "distance": 3.035,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Suk Hyun-jun",
    "squad": "Troyes"
   },
   {
+   "fbref_id": "04e17fd5",
+   "season": 2022,
+   "distance": 3.093,
+   "survived": 1,
+   "fut_ability_v2": 39.3,
+   "player_name": "Youssef En-Nesyri",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "4e9a0555",
    "season": 2018,
-   "distance": 3.06,
+   "distance": 3.102,
    "survived": 1,
    "fut_ability_v2": 44.9,
    "player_name": "Chris Wood",
    "squad": "Burnley"
   },
   {
-   "fbref_id": "8c8b4a01",
-   "season": 2019,
-   "distance": 3.217,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Adam Zreľák",
-   "squad": "Nürnberg"
-  },
-  {
-   "fbref_id": "a39b9ef6",
-   "season": 2018,
-   "distance": 3.218,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Diego Falcinelli",
-   "squad": "Sassuolo / Fiorentina"
-  },
-  {
-   "fbref_id": "11ced928",
-   "season": 2020,
-   "distance": 3.266,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yaya Sanogo",
-   "squad": "Toulouse"
-  },
-  {
-   "fbref_id": "4e9a0555",
-   "season": 2019,
-   "distance": 3.315,
+   "fbref_id": "4c2e9442",
+   "season": 2022,
+   "distance": 3.106,
    "survived": 1,
-   "fut_ability_v2": 36.4,
-   "player_name": "Chris Wood",
-   "squad": "Burnley"
+   "fut_ability_v2": 20.7,
+   "player_name": "Maxi Gómez",
+   "squad": "Valencia"
   },
   {
-   "fbref_id": "5046b7d4",
-   "season": 2018,
-   "distance": 3.323,
-   "survived": 1,
-   "fut_ability_v2": 42.4,
-   "player_name": "Stéphane Bahoken",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "2e52206e",
-   "season": 2018,
-   "distance": 3.338,
+   "fbref_id": "17f3620a",
+   "season": 2021,
+   "distance": 3.138,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Benjamin Jeannot",
-   "squad": "Dijon"
+   "player_name": "Krzysztof Piątek",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "59e6e5bf",
+   "season": 2022,
+   "distance": 3.198,
+   "survived": 1,
+   "fut_ability_v2": 44.9,
+   "player_name": "Dominic Calvert-Lewin",
+   "squad": "Everton"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Diego(FW)의 현재 능력 점수는 29.0점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 공중볼 승률, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 도움 기대값(xAG)이다.",
-  "potential": "Diego의 2~3년 후 예측 중심값은 46.0점, 80% 구간 상단은 55.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 19.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Diego의 2~3년 후 예측 중심값은 40.0점, 80% 구간 상단은 50.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 16.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

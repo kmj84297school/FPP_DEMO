@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9714,
-  "mu": 71.8,
+  "survival_prob": 0.9225,
+  "mu": 73.6,
   "ci80": {
-   "lo": 61.0,
-   "hi": 82.5
+   "lo": 62.8,
+   "hi": 84.5
   },
   "ci50": {
-   "lo": 66.1,
-   "hi": 77.5
+   "lo": 68.0,
+   "hi": 79.3
   },
-  "sigma_model": 2.5,
+  "sigma_model": 2.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "8f696594",
    "season": 2018,
-   "distance": 2.348,
+   "distance": 2.349,
    "survived": 1,
    "fut_ability_v2": 78.0,
    "player_name": "Memphis Depay",
    "squad": "Lyon"
   },
   {
+   "fbref_id": "9674002f",
+   "season": 2022,
+   "distance": 2.58,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mason Mount",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "e0921a4f",
    "season": 2018,
-   "distance": 2.716,
+   "distance": 2.733,
    "survived": 1,
    "fut_ability_v2": 79.8,
    "player_name": "Paulo Dybala",
    "squad": "Juventus"
   },
   {
+   "fbref_id": "ee38d9c5",
+   "season": 2019,
+   "distance": 2.735,
+   "survived": 1,
+   "fut_ability_v2": 69.0,
+   "player_name": "James Maddison",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "aeed5c06",
+   "season": 2022,
+   "distance": 2.8,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Moussa Diaby",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "a167537f",
    "season": 2019,
-   "distance": 2.741,
+   "distance": 2.842,
    "survived": 1,
    "fut_ability_v2": 73.4,
    "player_name": "Julian Brandt",
@@ -75,66 +102,39 @@
   },
   {
    "fbref_id": "ee38d9c5",
-   "season": 2019,
-   "distance": 2.78,
-   "survived": 1,
-   "fut_ability_v2": 69.0,
-   "player_name": "James Maddison",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "ee38d9c5",
    "season": 2020,
-   "distance": 2.992,
+   "distance": 3.004,
    "survived": 1,
    "fut_ability_v2": 67.2,
    "player_name": "James Maddison",
    "squad": "Leicester City"
   },
   {
+   "fbref_id": "f42d6c13",
+   "season": 2022,
+   "distance": 3.129,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Nedim Bajrami",
+   "squad": "Empoli"
+  },
+  {
+   "fbref_id": "ee38d9c5",
+   "season": 2021,
+   "distance": 3.136,
+   "survived": 1,
+   "fut_ability_v2": 73.5,
+   "player_name": "James Maddison",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "d4a2533d",
    "season": 2020,
-   "distance": 3.394,
+   "distance": 3.425,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Josip Brekalo",
    "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "a167537f",
-   "season": 2018,
-   "distance": 3.45,
-   "survived": 1,
-   "fut_ability_v2": 73.0,
-   "player_name": "Julian Brandt",
-   "squad": "Leverkusen"
-  },
-  {
-   "fbref_id": "4dbd0916",
-   "season": 2018,
-   "distance": 3.542,
-   "survived": 1,
-   "fut_ability_v2": 56.8,
-   "player_name": "Thomas Lemar",
-   "squad": "Monaco"
-  },
-  {
-   "fbref_id": "cea4ee8f",
-   "season": 2018,
-   "distance": 3.583,
-   "survived": 1,
-   "fut_ability_v2": 63.9,
-   "player_name": "Dele Alli",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "4a5a45c7",
-   "season": 2020,
-   "distance": 3.653,
-   "survived": 1,
-   "fut_ability_v2": 64.7,
-   "player_name": "Lorenzo Pellegrini",
-   "squad": "Roma"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Cole Palmer(MF)의 현재 능력 점수는 78.1점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅 시도, 도움 기대값(xAG), 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 블록이다.",
-  "potential": "Cole Palmer의 2~3년 후 예측 중심값은 71.8점, 80% 구간 상단은 82.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Cole Palmer의 2~3년 후 예측 중심값은 73.6점, 80% 구간 상단은 84.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

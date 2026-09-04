@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8445,
-  "mu": 60.0,
+  "survival_prob": 0.8415,
+  "mu": 60.2,
   "ci80": {
-   "lo": 49.3,
+   "lo": 49.7,
    "hi": 70.6
   },
   "ci50": {
-   "lo": 54.3,
-   "hi": 65.6
+   "lo": 54.7,
+   "hi": 65.7
   },
-  "sigma_model": 2.2,
+  "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "7d9397f8",
+   "season": 2021,
+   "distance": 2.441,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Khéphren Thuram-Ulie",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "6250083a",
+   "season": 2022,
+   "distance": 2.622,
+   "survived": 1,
+   "fut_ability_v2": 36.0,
+   "player_name": "Oliver Skipp",
+   "squad": "Tottenham"
+  },
+  {
    "fbref_id": "4f255115",
    "season": 2020,
-   "distance": 2.748,
+   "distance": 2.73,
    "survived": 1,
    "fut_ability_v2": 69.2,
    "player_name": "Aurélien Tchouaméni",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "ae59b359",
    "season": 2020,
-   "distance": 2.77,
+   "distance": 2.776,
    "survived": 1,
    "fut_ability_v2": 44.8,
    "player_name": "Boubakary Soumaré",
    "squad": "Lille"
   },
   {
+   "fbref_id": "ae59b359",
+   "season": 2021,
+   "distance": 2.856,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Boubakary Soumaré",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "3ee0dd59",
+   "season": 2021,
+   "distance": 2.896,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Martín Zubimendi",
+   "squad": "Real Sociedad"
+  },
+  {
    "fbref_id": "9a493fb7",
    "season": 2018,
-   "distance": 3.011,
+   "distance": 2.928,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Vincent Koziello",
    "squad": "Nice / Köln"
   },
   {
-   "fbref_id": "5ea8ef20",
-   "season": 2020,
-   "distance": 3.075,
-   "survived": 1,
-   "fut_ability_v2": 64.4,
-   "player_name": "Mattéo Guendouzi",
-   "squad": "Arsenal"
-  },
-  {
    "fbref_id": "91e58f66",
    "season": 2018,
-   "distance": 3.119,
+   "distance": 3.081,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Thiago Maia",
    "squad": "Lille"
   },
   {
-   "fbref_id": "da27e268",
-   "season": 2019,
-   "distance": 3.188,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marc Roca",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "91e58f66",
-   "season": 2019,
-   "distance": 3.236,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Thiago Maia",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "c46fa34c",
-   "season": 2018,
-   "distance": 3.294,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Youssef Aït Bennasser",
-   "squad": "Caen"
-  },
-  {
-   "fbref_id": "6f7d826d",
-   "season": 2019,
-   "distance": 3.3,
+   "fbref_id": "3b1ed320",
+   "season": 2022,
+   "distance": 3.086,
    "survived": 1,
-   "fut_ability_v2": 54.1,
-   "player_name": "Douglas Luiz",
-   "squad": "Girona"
+   "fut_ability_v2": 67.3,
+   "player_name": "Angelo Stiller",
+   "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "7f622eef",
-   "season": 2018,
-   "distance": 3.383,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Assane Dioussé",
-   "squad": "Saint-Étienne"
+   "fbref_id": "9823be92",
+   "season": 2022,
+   "distance": 3.111,
+   "survived": 1,
+   "fut_ability_v2": 45.6,
+   "player_name": "Samuele Ricci",
+   "squad": "Empoli / Torino"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Aleksandar Pavlovic(MF)의 현재 능력 점수는 61.2점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 최종 3분의1 패스, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 키패스이다.",
-  "potential": "Aleksandar Pavlovic의 2~3년 후 예측 중심값은 60.0점, 80% 구간 상단은 70.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 84.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Aleksandar Pavlovic의 2~3년 후 예측 중심값은 60.2점, 80% 구간 상단은 70.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 84.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

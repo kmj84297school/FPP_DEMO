@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8313,
-  "mu": 59.4,
+  "survival_prob": 0.8906,
+  "mu": 57.1,
   "ci80": {
-   "lo": 49.9,
-   "hi": 68.8
+   "lo": 47.6,
+   "hi": 66.7
   },
   "ci50": {
-   "lo": 54.3,
-   "hi": 64.3
+   "lo": 52.1,
+   "hi": 62.2
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "79ca3e23",
+   "season": 2021,
+   "distance": 2.212,
+   "survived": 1,
+   "fut_ability_v2": 50.2,
+   "player_name": "Ondrej Duda",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "a08b974a",
+   "season": 2021,
+   "distance": 2.539,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Lucas Ocampos",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "43458538",
    "season": 2018,
-   "distance": 2.663,
+   "distance": 2.673,
    "survived": 1,
    "fut_ability_v2": 54.0,
    "player_name": "Joshua King",
@@ -58,16 +76,25 @@
   {
    "fbref_id": "81f0781e",
    "season": 2018,
-   "distance": 2.689,
+   "distance": 2.702,
    "survived": 1,
    "fut_ability_v2": 76.2,
    "player_name": "Gerard Moreno",
    "squad": "Espanyol"
   },
   {
+   "fbref_id": "710fbdd1",
+   "season": 2022,
+   "distance": 2.769,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Branimir Hrgota",
+   "squad": "Greuther Fürth"
+  },
+  {
    "fbref_id": "b28bbd58",
    "season": 2018,
-   "distance": 2.75,
+   "distance": 2.775,
    "survived": 1,
    "fut_ability_v2": 47.1,
    "player_name": "Andros Townsend",
@@ -76,7 +103,7 @@
   {
    "fbref_id": "a53b661f",
    "season": 2020,
-   "distance": 2.794,
+   "distance": 2.78,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Ihlas Bebou",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "43458538",
    "season": 2019,
-   "distance": 2.821,
+   "distance": 2.818,
    "survived": 1,
    "fut_ability_v2": 50.2,
    "player_name": "Joshua King",
    "squad": "Bournemouth"
   },
   {
+   "fbref_id": "9f1893b9",
+   "season": 2022,
+   "distance": 2.885,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Felipe Anderson",
+   "squad": "Lazio"
+  },
+  {
    "fbref_id": "7cdda3bf",
    "season": 2019,
-   "distance": 2.895,
+   "distance": 2.9,
    "survived": 1,
    "fut_ability_v2": 66.6,
    "player_name": "Gaëtan Laborde",
    "squad": "Montpellier / Bordeaux"
-  },
-  {
-   "fbref_id": "a08b974a",
-   "season": 2020,
-   "distance": 2.919,
-   "survived": 1,
-   "fut_ability_v2": 53.8,
-   "player_name": "Lucas Ocampos",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "b28bbd58",
-   "season": 2019,
-   "distance": 2.961,
-   "survived": 1,
-   "fut_ability_v2": 50.2,
-   "player_name": "Andros Townsend",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "1f8c7aa9",
-   "season": 2018,
-   "distance": 3.057,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ronny Rodelin",
-   "squad": "Caen"
-  },
-  {
-   "fbref_id": "0375723e",
-   "season": 2018,
-   "distance": 3.15,
-   "survived": 1,
-   "fut_ability_v2": 59.2,
-   "player_name": "Simone Verdi",
-   "squad": "Bologna"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Ritsu Doan(FW)의 현재 능력 점수는 61.7점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 태클+인터셉트, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 키패스이다.",
-  "potential": "Ritsu Doan의 2~3년 후 예측 중심값은 59.4점, 80% 구간 상단은 68.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 83.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ritsu Doan의 2~3년 후 예측 중심값은 57.1점, 80% 구간 상단은 66.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 89.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

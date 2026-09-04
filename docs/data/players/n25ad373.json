@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5289,
-  "mu": 61.4,
+  "survival_prob": 0.6427,
+  "mu": 61.8,
   "ci80": {
-   "lo": 50.8,
-   "hi": 71.9
+   "lo": 51.3,
+   "hi": 72.3
   },
   "ci50": {
-   "lo": 55.8,
-   "hi": 66.9
+   "lo": 56.3,
+   "hi": 67.4
   },
   "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "12c35abe",
+   "season": 2022,
+   "distance": 2.215,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jens Petter Hauge",
+   "squad": "Eint Frankfurt"
+  },
+  {
    "fbref_id": "3a233281",
    "season": 2020,
-   "distance": 2.354,
+   "distance": 2.362,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Leon Bailey",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "d4a2533d",
    "season": 2018,
-   "distance": 2.668,
+   "distance": 2.572,
    "survived": 1,
    "fut_ability_v2": 69.3,
    "player_name": "Josip Brekalo",
    "squad": "Wolfsburg / Stuttgart"
   },
   {
+   "fbref_id": "16aa3654",
+   "season": 2021,
+   "distance": 2.742,
+   "survived": 1,
+   "fut_ability_v2": 67.5,
+   "player_name": "Takefusa Kubo",
+   "squad": "Getafe / Villarreal"
+  },
+  {
    "fbref_id": "b8a642fc",
    "season": 2019,
-   "distance": 2.827,
+   "distance": 2.826,
    "survived": 1,
    "fut_ability_v2": 62.8,
    "player_name": "Samuel Chukwueze",
    "squad": "Villarreal"
   },
   {
-   "fbref_id": "24eb7ed6",
-   "season": 2019,
-   "distance": 2.945,
+   "fbref_id": "afdc14d7",
+   "season": 2022,
+   "distance": 2.829,
    "survived": 1,
-   "fut_ability_v2": 56.8,
-   "player_name": "Junior Sambia",
-   "squad": "Montpellier"
+   "fut_ability_v2": 70.0,
+   "player_name": "Nico Williams",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "94816803",
+   "season": 2021,
+   "distance": 2.857,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Riccardo Sottil",
+   "squad": "Cagliari"
   },
   {
    "fbref_id": "dc62b55d",
    "season": 2020,
-   "distance": 2.976,
+   "distance": 2.91,
    "survived": 1,
    "fut_ability_v2": 70.3,
    "player_name": "Matheus Cunha",
    "squad": "Hertha BSC / RB Leipzig"
   },
   {
-   "fbref_id": "f972644c",
+   "fbref_id": "24eb7ed6",
    "season": 2019,
-   "distance": 3.078,
+   "distance": 2.913,
    "survived": 1,
-   "fut_ability_v2": 50.4,
-   "player_name": "Marco Richter",
-   "squad": "Augsburg"
+   "fut_ability_v2": 56.8,
+   "player_name": "Junior Sambia",
+   "squad": "Montpellier"
   },
   {
-   "fbref_id": "19709006",
-   "season": 2020,
-   "distance": 3.128,
-   "survived": 1,
-   "fut_ability_v2": 52.8,
-   "player_name": "Óscar Rodríguez Arnaiz",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "7b9a9e25",
-   "season": 2019,
-   "distance": 3.128,
-   "survived": 1,
-   "fut_ability_v2": 49.4,
-   "player_name": "Arnaud Nordin",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "31114001",
-   "season": 2018,
-   "distance": 3.139,
+   "fbref_id": "45c1c326",
+   "season": 2021,
+   "distance": 2.935,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Berkay Özcan",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "34a0f5ff",
-   "season": 2020,
-   "distance": 3.19,
-   "survived": 1,
-   "fut_ability_v2": 55.3,
-   "player_name": "Javairô Dilrosun",
-   "squad": "Hertha BSC"
+   "player_name": "Mounir Chouiar",
+   "squad": "Dijon"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Julio Enciso(MF)의 현재 능력 점수는 57.2점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅 시도, 유효슈팅, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 태클+인터셉트이다.",
-  "potential": "Julio Enciso의 2~3년 후 예측 중심값은 61.4점, 80% 구간 상단은 71.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 52.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Julio Enciso의 2~3년 후 예측 중심값은 61.8점, 80% 구간 상단은 72.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 64.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

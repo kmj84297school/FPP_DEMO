@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6801,
-  "mu": 62.4,
+  "survival_prob": 0.504,
+  "mu": 57.6,
   "ci80": {
-   "lo": 53.1,
-   "hi": 71.7
+   "lo": 48.2,
+   "hi": 66.8
   },
   "ci50": {
-   "lo": 57.4,
-   "hi": 67.2
+   "lo": 52.6,
+   "hi": 62.4
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "c67cd65c",
+   "season": 2021,
+   "distance": 1.104,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "18abe173",
+   "season": 2022,
+   "distance": 1.558,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joseph Aidoo",
+   "squad": "Celta Vigo"
+  },
+  {
    "fbref_id": "699fb8db",
    "season": 2020,
-   "distance": 1.566,
+   "distance": 1.57,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dominique Heintz",
@@ -58,7 +76,7 @@
   {
    "fbref_id": "ce4246f5",
    "season": 2020,
-   "distance": 1.601,
+   "distance": 1.608,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Kurt Zouma",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "e0f3a1f6",
    "season": 2020,
-   "distance": 1.73,
+   "distance": 1.746,
    "survived": 1,
    "fut_ability_v2": 58.5,
    "player_name": "Jean-Charles Castelletto",
    "squad": "Brest"
   },
   {
-   "fbref_id": "89ac64a6",
-   "season": 2020,
-   "distance": 1.785,
+   "fbref_id": "d0f72bf1",
+   "season": 2022,
+   "distance": 1.756,
    "survived": 1,
-   "fut_ability_v2": 66.9,
-   "player_name": "Manuel Akanji",
-   "squad": "Dortmund"
+   "fut_ability_v2": 66.2,
+   "player_name": "Max Kilman",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "bd142efb",
+   "season": 2021,
+   "distance": 1.767,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Jonathan Tah",
+   "squad": "Leverkusen"
   },
   {
    "fbref_id": "5832ebfe",
    "season": 2020,
-   "distance": 1.803,
+   "distance": 1.776,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Stefano Denswil",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "3ecc11d8",
+   "fbref_id": "89ac64a6",
    "season": 2020,
-   "distance": 1.927,
+   "distance": 1.777,
    "survived": 1,
-   "fut_ability_v2": 61.5,
-   "player_name": "Yeray Álvarez",
-   "squad": "Athletic Club"
+   "fut_ability_v2": 66.9,
+   "player_name": "Manuel Akanji",
+   "squad": "Dortmund"
   },
   {
-   "fbref_id": "bba30585",
-   "season": 2019,
-   "distance": 1.928,
+   "fbref_id": "e34fc66d",
+   "season": 2021,
+   "distance": 1.858,
    "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "Diego Llorente",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "c40b6180",
-   "season": 2020,
-   "distance": 2.0,
-   "survived": 1,
-   "fut_ability_v2": 62.1,
-   "player_name": "Adam Webster",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "bba30585",
-   "season": 2020,
-   "distance": 2.047,
-   "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Diego Llorente",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "27f0ddef",
-   "season": 2018,
-   "distance": 2.069,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Filip Helander",
-   "squad": "Bologna"
+   "fut_ability_v2": 63.2,
+   "player_name": "Joachim Andersen",
+   "squad": "Fulham / Lyon"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Moïse Bombito(DF)의 현재 능력 점수는 61.3점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 패스 성공률, 전진 패스 거리, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 박스 터치이다.",
-  "potential": "Moïse Bombito의 2~3년 후 예측 중심값은 62.4점, 80% 구간 상단은 71.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 68.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Moïse Bombito의 2~3년 후 예측 중심값은 57.6점, 80% 구간 상단은 66.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 50.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,42 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2875,
-  "mu": 47.7,
+  "survival_prob": 0.3467,
+  "mu": 47.8,
   "ci80": {
-   "lo": 38.4,
-   "hi": 57.0
+   "lo": 38.5,
+   "hi": 57.1
   },
   "ci50": {
-   "lo": 42.8,
-   "hi": 52.5
+   "lo": 42.9,
+   "hi": 52.7
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "19a12bed",
    "season": 2019,
-   "distance": 2.085,
+   "distance": 2.106,
    "survived": 1,
    "fut_ability_v2": 56.1,
    "player_name": "Hassane Kamara",
    "squad": "Reims"
   },
   {
+   "fbref_id": "be2706c0",
+   "season": 2021,
+   "distance": 2.265,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Mërgim Vojvoda",
+   "squad": "Torino"
+  },
+  {
    "fbref_id": "5efc5389",
    "season": 2020,
-   "distance": 2.332,
+   "distance": 2.375,
    "survived": 1,
    "fut_ability_v2": 41.9,
    "player_name": "Charalambos Lykogiannis",
    "squad": "Cagliari"
   },
   {
+   "fbref_id": "6213fd82",
+   "season": 2022,
+   "distance": 2.392,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Arkadiusz Reca",
+   "squad": "Spezia"
+  },
+  {
+   "fbref_id": "eb0ec070",
+   "season": 2022,
+   "distance": 2.452,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Pasquale Mazzocchi",
+   "squad": "Salernitana / Venezia"
+  },
+  {
+   "fbref_id": "6af30900",
+   "season": 2022,
+   "distance": 2.462,
+   "survived": 1,
+   "fut_ability_v2": 38.6,
+   "player_name": "Tyronne Ebuehi",
+   "squad": "Venezia"
+  },
+  {
    "fbref_id": "45e17712",
    "season": 2020,
-   "distance": 2.438,
+   "distance": 2.486,
    "survived": 1,
    "fut_ability_v2": 44.3,
    "player_name": "Dimitri Foulquier",
@@ -76,7 +112,7 @@
   {
    "fbref_id": "e5b98a70",
    "season": 2019,
-   "distance": 2.537,
+   "distance": 2.559,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luca Paganini",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "e4b72e34",
    "season": 2020,
-   "distance": 2.586,
+   "distance": 2.616,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Miguel Trauco",
    "squad": "Saint-Étienne"
   },
   {
-   "fbref_id": "839c14e1",
-   "season": 2019,
-   "distance": 2.76,
-   "survived": 1,
-   "fut_ability_v2": 56.2,
-   "player_name": "Cédric Soares",
-   "squad": "Southampton / Inter"
-  },
-  {
-   "fbref_id": "2a29eb9b",
-   "season": 2019,
-   "distance": 2.764,
-   "survived": 1,
-   "fut_ability_v2": 55.3,
-   "player_name": "Lukas Kübler",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "9050ddc4",
-   "season": 2020,
-   "distance": 2.767,
-   "survived": 1,
-   "fut_ability_v2": 54.3,
-   "player_name": "Jetro Willems",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "33a61a52",
-   "season": 2020,
-   "distance": 2.816,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Carlos Clerc",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "fba81826",
-   "season": 2020,
-   "distance": 2.824,
+   "fbref_id": "13203c45",
+   "season": 2021,
+   "distance": 2.67,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Federico Mattiello",
-   "squad": "Cagliari"
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Théo Sainte-Luce(DF)의 현재 능력 점수는 43.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 성공 드리블, 유효슈팅, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 최종 3분의1 패스이다.",
-  "potential": "Théo Sainte-Luce의 2~3년 후 예측 중심값은 47.7점, 80% 구간 상단은 57.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Théo Sainte-Luce의 2~3년 후 예측 중심값은 47.8점, 80% 구간 상단은 57.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

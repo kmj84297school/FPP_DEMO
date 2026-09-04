@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.363,
-  "mu": 58.3,
+  "survival_prob": 0.5623,
+  "mu": 57.3,
   "ci80": {
-   "lo": 49.1,
-   "hi": 67.5
+   "lo": 48.0,
+   "hi": 66.6
   },
   "ci50": {
-   "lo": 53.5,
-   "hi": 63.1
+   "lo": 52.4,
+   "hi": 62.2
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "d9764034",
    "season": 2019,
-   "distance": 1.626,
+   "distance": 1.631,
    "survived": 1,
    "fut_ability_v2": 60.0,
    "player_name": "Guillermo Maripán",
@@ -58,83 +58,83 @@
   {
    "fbref_id": "1900032e",
    "season": 2020,
-   "distance": 1.637,
+   "distance": 1.697,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jannik Vestergaard",
    "squad": "Southampton"
   },
   {
+   "fbref_id": "16bb656a",
+   "season": 2021,
+   "distance": 1.709,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Paweł Dawidowicz",
+   "squad": "Hellas Verona"
+  },
+  {
    "fbref_id": "6eee05f1",
    "season": 2019,
-   "distance": 1.814,
+   "distance": 1.722,
    "survived": 1,
    "fut_ability_v2": 67.0,
    "player_name": "Berat Djimsiti",
    "squad": "Atalanta"
   },
   {
-   "fbref_id": "08082af0",
-   "season": 2019,
-   "distance": 1.849,
-   "survived": 1,
-   "fut_ability_v2": 51.7,
-   "player_name": "Loïck Landre",
-   "squad": "Nîmes"
-  },
-  {
    "fbref_id": "25f50295",
    "season": 2018,
-   "distance": 1.899,
+   "distance": 1.829,
    "survived": 1,
    "fut_ability_v2": 50.2,
    "player_name": "Mike van der Hoorn",
    "squad": "Swansea City"
   },
   {
-   "fbref_id": "857a5abe",
-   "season": 2018,
-   "distance": 1.917,
+   "fbref_id": "08082af0",
+   "season": 2019,
+   "distance": 1.831,
    "survived": 1,
-   "fut_ability_v2": 64.3,
-   "player_name": "Stefan Bell",
-   "squad": "Mainz 05"
+   "fut_ability_v2": 51.7,
+   "player_name": "Loïck Landre",
+   "squad": "Nîmes"
   },
   {
-   "fbref_id": "27f0ddef",
-   "season": 2019,
-   "distance": 1.924,
+   "fbref_id": "450ab6fc",
+   "season": 2021,
+   "distance": 1.856,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Jamaal Lascelles",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "8bc373ea",
+   "season": 2021,
+   "distance": 1.857,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Filip Helander",
-   "squad": "Bologna"
+   "player_name": "Pape Abou Cisse",
+   "squad": "Saint-Étienne"
   },
   {
-   "fbref_id": "ac861941",
-   "season": 2020,
-   "distance": 1.926,
+   "fbref_id": "14b8fcdf",
+   "season": 2021,
+   "distance": 1.91,
    "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Eric Dier",
-   "squad": "Tottenham"
+   "fut_ability_v2": 52.5,
+   "player_name": "Daniele Rugani",
+   "squad": "Cagliari / Rennes"
   },
   {
-   "fbref_id": "b4a014b1",
-   "season": 2018,
-   "distance": 1.942,
+   "fbref_id": "18abe173",
+   "season": 2021,
+   "distance": 1.911,
    "survived": 1,
-   "fut_ability_v2": 53.8,
-   "player_name": "Diego Carlos",
-   "squad": "Nantes"
-  },
-  {
-   "fbref_id": "c67cd65c",
-   "season": 2019,
-   "distance": 2.003,
-   "survived": 1,
-   "fut_ability_v2": 57.6,
-   "player_name": "Rúben Vezo",
-   "squad": "Levante / Valencia"
+   "fut_ability_v2": 50.2,
+   "player_name": "Joseph Aidoo",
+   "squad": "Celta Vigo"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "David Zec(DF)의 현재 능력 점수는 60.1점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 무페널티 득점, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 최종 3분의1 패스이다.",
-  "potential": "David Zec의 2~3년 후 예측 중심값은 58.3점, 80% 구간 상단은 67.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 36.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "David Zec의 2~3년 후 예측 중심값은 57.3점, 80% 구간 상단은 66.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 56.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

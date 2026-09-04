@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5286,
-  "mu": 55.1,
+  "survival_prob": 0.6226,
+  "mu": 57.0,
   "ci80": {
-   "lo": 45.8,
-   "hi": 64.3
+   "lo": 47.7,
+   "hi": 66.3
   },
   "ci50": {
-   "lo": 50.2,
-   "hi": 59.9
+   "lo": 52.1,
+   "hi": 62.0
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a63a995f",
    "season": 2019,
-   "distance": 1.092,
+   "distance": 1.1,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabian Lustenberger",
    "squad": "Hertha BSC"
   },
   {
+   "fbref_id": "f5deef4c",
+   "season": 2022,
+   "distance": 1.157,
+   "survived": 1,
+   "fut_ability_v2": 51.4,
+   "player_name": "Victor Lindelöf",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "87935cf3",
+   "season": 2022,
+   "distance": 1.208,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mamadou Sakho",
+   "squad": "Montpellier"
+  },
+  {
    "fbref_id": "87935cf3",
    "season": 2019,
-   "distance": 1.192,
+   "distance": 1.238,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Mamadou Sakho",
@@ -67,73 +85,55 @@
   {
    "fbref_id": "b7ca5c51",
    "season": 2019,
-   "distance": 1.262,
+   "distance": 1.324,
    "survived": 1,
    "fut_ability_v2": 55.2,
    "player_name": "Gabriel Paulista",
    "squad": "Valencia"
   },
   {
-   "fbref_id": "7914b9fe",
-   "season": 2018,
-   "distance": 1.344,
-   "survived": 1,
-   "fut_ability_v2": 52.7,
-   "player_name": "Gary Cahill",
-   "squad": "Chelsea"
+   "fbref_id": "debe38a0",
+   "season": 2021,
+   "distance": 1.4,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Egan",
+   "squad": "Sheffield Utd"
   },
   {
    "fbref_id": "b682dcf6",
    "season": 2019,
-   "distance": 1.363,
+   "distance": 1.405,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sokratis Papastathopoulos",
    "squad": "Arsenal"
   },
   {
+   "fbref_id": "7914b9fe",
+   "season": 2018,
+   "distance": 1.41,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Gary Cahill",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "9f8e9423",
+   "season": 2022,
+   "distance": 1.478,
+   "survived": 1,
+   "fut_ability_v2": 66.7,
+   "player_name": "Raphaël Varane",
+   "squad": "Manchester Utd"
+  },
+  {
    "fbref_id": "92b4a127",
    "season": 2018,
-   "distance": 1.433,
+   "distance": 1.487,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gustavo Cabral",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "c707411f",
-   "season": 2019,
-   "distance": 1.454,
-   "survived": 1,
-   "fut_ability_v2": 46.7,
-   "player_name": "Kostas Manolas",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "ac3fb1be",
-   "season": 2018,
-   "distance": 1.481,
-   "survived": 1,
-   "fut_ability_v2": 52.3,
-   "player_name": "Ezequiel Garay",
-   "squad": "Valencia"
-  },
-  {
-   "fbref_id": "e33f36d5",
-   "season": 2018,
-   "distance": 1.486,
-   "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "Bram Nuytinck",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "27a013f7",
-   "season": 2020,
-   "distance": 1.521,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Néstor Araujo",
    "squad": "Celta Vigo"
   }
  ],
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Carl Starfelt(DF)의 현재 능력 점수는 59.7점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 볼 손실(미스+파울), 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 성공 드리블이다.",
-  "potential": "Carl Starfelt의 2~3년 후 예측 중심값은 55.1점, 80% 구간 상단은 64.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 52.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Carl Starfelt의 2~3년 후 예측 중심값은 57.0점, 80% 구간 상단은 66.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 62.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,51 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.407,
-  "mu": 52.4,
+  "survival_prob": 0.3539,
+  "mu": 52.1,
   "ci80": {
-   "lo": 43.1,
-   "hi": 61.7
+   "lo": 42.7,
+   "hi": 61.5
   },
   "ci50": {
-   "lo": 47.5,
-   "hi": 57.3
+   "lo": 47.2,
+   "hi": 57.1
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "c562c5b4",
+   "season": 2021,
+   "distance": 1.779,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joakim Nilsson",
+   "squad": "Arminia"
+  },
+  {
    "fbref_id": "93cf32a8",
    "season": 2020,
-   "distance": 1.739,
+   "distance": 1.783,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Nicolas Nkoulou",
    "squad": "Torino"
   },
   {
-   "fbref_id": "f6ac68c1",
-   "season": 2018,
-   "distance": 1.991,
-   "survived": 1,
-   "fut_ability_v2": 55.4,
-   "player_name": "Stefan Savić",
-   "squad": "Atlético Madrid"
+   "fbref_id": "00891164",
+   "season": 2022,
+   "distance": 1.867,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Hountondji",
+   "squad": "Clermont Foot"
+  },
+  {
+   "fbref_id": "c562c5b4",
+   "season": 2022,
+   "distance": 1.894,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joakim Nilsson",
+   "squad": "Arminia"
+  },
+  {
+   "fbref_id": "37f827ec",
+   "season": 2022,
+   "distance": 1.978,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enzo Roco",
+   "squad": "Elche"
   },
   {
    "fbref_id": "8ae9869d",
    "season": 2019,
-   "distance": 1.996,
+   "distance": 2.01,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Christopher Schindler",
    "squad": "Huddersfield"
   },
   {
+   "fbref_id": "f6ac68c1",
+   "season": 2018,
+   "distance": 2.057,
+   "survived": 1,
+   "fut_ability_v2": 55.4,
+   "player_name": "Stefan Savić",
+   "squad": "Atlético Madrid"
+  },
+  {
    "fbref_id": "1f54ed90",
    "season": 2019,
-   "distance": 2.022,
+   "distance": 2.059,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Abdoulaye Ba",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "93cf32a8",
    "season": 2019,
-   "distance": 2.026,
+   "distance": 2.085,
    "survived": 1,
    "fut_ability_v2": 54.4,
    "player_name": "Nicolas Nkoulou",
    "squad": "Torino"
   },
   {
-   "fbref_id": "e33f36d5",
-   "season": 2019,
-   "distance": 2.059,
-   "survived": 1,
-   "fut_ability_v2": 55.5,
-   "player_name": "Bram Nuytinck",
-   "squad": "Udinese"
-  },
-  {
    "fbref_id": "def899bd",
    "season": 2018,
-   "distance": 2.112,
+   "distance": 2.091,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Phil Jones",
    "squad": "Manchester Utd"
-  },
-  {
-   "fbref_id": "b6964eb6",
-   "season": 2019,
-   "distance": 2.242,
-   "survived": 1,
-   "fut_ability_v2": 56.9,
-   "player_name": "Chris Smalling",
-   "squad": "Manchester Utd"
-  },
-  {
-   "fbref_id": "616aea37",
-   "season": 2019,
-   "distance": 2.249,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marco Capuano",
-   "squad": "Frosinone"
-  },
-  {
-   "fbref_id": "7cab69b5",
-   "season": 2019,
-   "distance": 2.249,
-   "survived": 1,
-   "fut_ability_v2": 48.7,
-   "player_name": "Jemerson",
-   "squad": "Monaco"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Ardian Ismajli(DF)의 현재 능력 점수는 59.4점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 공중볼 승률, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스이다.",
-  "potential": "Ardian Ismajli의 2~3년 후 예측 중심값은 52.4점, 80% 구간 상단은 61.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ardian Ismajli의 2~3년 후 예측 중심값은 52.1점, 80% 구간 상단은 61.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 35.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1909,
+  "survival_prob": 0.3139,
   "mu": 49.1,
   "ci80": {
-   "lo": 39.9,
+   "lo": 39.7,
    "hi": 58.4
   },
   "ci50": {
-   "lo": 44.3,
+   "lo": 44.2,
    "hi": 54.0
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "3f79a1c8",
+   "season": 2022,
+   "distance": 1.341,
+   "survived": 1,
+   "fut_ability_v2": 40.9,
+   "player_name": "Gonzalo Escalante",
+   "squad": "Alavés / Lazio"
+  },
+  {
    "fbref_id": "6613c819",
    "season": 2020,
-   "distance": 1.677,
+   "distance": 1.585,
    "survived": 1,
    "fut_ability_v2": 49.1,
    "player_name": "Tomáš Souček",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "f86ca403",
    "season": 2018,
-   "distance": 1.925,
+   "distance": 1.969,
    "survived": 1,
    "fut_ability_v2": 55.1,
    "player_name": "Vincent Pajot",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "3befc2b6",
    "season": 2018,
-   "distance": 2.09,
+   "distance": 2.058,
    "survived": 1,
    "fut_ability_v2": 65.5,
    "player_name": "Andrei Girotto",
    "squad": "Nantes"
   },
   {
-   "fbref_id": "ff45add5",
-   "season": 2019,
-   "distance": 2.096,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alfredo Morales",
-   "squad": "Düsseldorf"
-  },
-  {
    "fbref_id": "3f79a1c8",
    "season": 2018,
-   "distance": 2.131,
+   "distance": 2.072,
    "survived": 1,
    "fut_ability_v2": 52.5,
    "player_name": "Gonzalo Escalante",
    "squad": "Eibar"
   },
   {
-   "fbref_id": "987718f5",
-   "season": 2018,
-   "distance": 2.394,
+   "fbref_id": "7f267d66",
+   "season": 2022,
+   "distance": 2.119,
+   "survived": 1,
+   "fut_ability_v2": 44.7,
+   "player_name": "Alessandro Deiola",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "ff45add5",
+   "season": 2019,
+   "distance": 2.123,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Sam Clucas",
-   "squad": "Swansea City"
+   "player_name": "Alfredo Morales",
+   "squad": "Düsseldorf"
   },
   {
-   "fbref_id": "614c38fb",
-   "season": 2018,
-   "distance": 2.435,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Joel Obi",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "3f79a1c8",
-   "season": 2020,
-   "distance": 2.451,
+   "fbref_id": "924f9191",
+   "season": 2021,
+   "distance": 2.188,
    "survived": 1,
-   "fut_ability_v2": 50.4,
-   "player_name": "Gonzalo Escalante",
-   "squad": "Eibar"
+   "fut_ability_v2": 43.4,
+   "player_name": "Grischa Prömel",
+   "squad": "Union Berlin"
   },
   {
-   "fbref_id": "3f79a1c8",
-   "season": 2019,
-   "distance": 2.458,
+   "fbref_id": "0e4fef6e",
+   "season": 2021,
+   "distance": 2.242,
    "survived": 1,
-   "fut_ability_v2": 50.4,
-   "player_name": "Gonzalo Escalante",
-   "squad": "Eibar"
+   "fut_ability_v2": 42.6,
+   "player_name": "Lucas Torró",
+   "squad": "Osasuna"
   },
   {
-   "fbref_id": "1b82f8df",
-   "season": 2019,
-   "distance": 2.541,
+   "fbref_id": "2acf0cd7",
+   "season": 2022,
+   "distance": 2.376,
    "survived": 1,
    "fut_ability_v2": 43.6,
-   "player_name": "Lukas Lerager",
-   "squad": "Bordeaux / Genoa"
+   "player_name": "Marshall Munetsi",
+   "squad": "Reims"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Dani de Wit(MF)의 현재 능력 점수는 50.6점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 볼 손실(미스+파울), 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 성공 드리블이다.",
-  "potential": "Dani de Wit의 2~3년 후 예측 중심값은 49.1점, 80% 구간 상단은 58.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 19.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Dani de Wit의 2~3년 후 예측 중심값은 49.1점, 80% 구간 상단은 58.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

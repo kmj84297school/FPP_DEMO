@@ -32,51 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7244,
-  "mu": 59.8,
+  "survival_prob": 0.8218,
+  "mu": 60.0,
   "ci80": {
-   "lo": 50.6,
-   "hi": 69.0
+   "lo": 50.8,
+   "hi": 69.3
   },
   "ci50": {
-   "lo": 55.0,
-   "hi": 64.6
+   "lo": 55.2,
+   "hi": 65.0
   },
-  "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "1ad8cb67",
    "season": 2019,
-   "distance": 1.275,
+   "distance": 1.339,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pablo Martinez",
    "squad": "Strasbourg"
   },
   {
-   "fbref_id": "070ec0b1",
-   "season": 2018,
-   "distance": 1.504,
-   "survived": 1,
-   "fut_ability_v2": 66.6,
-   "player_name": "Sven Bender",
-   "squad": "Leverkusen"
-  },
-  {
    "fbref_id": "d9764034",
    "season": 2020,
-   "distance": 1.531,
+   "distance": 1.467,
    "survived": 1,
    "fut_ability_v2": 57.9,
    "player_name": "Guillermo Maripán",
    "squad": "Monaco / Alavés"
   },
   {
+   "fbref_id": "8650af85",
+   "season": 2022,
+   "distance": 1.47,
+   "survived": 1,
+   "fut_ability_v2": 56.5,
+   "player_name": "Gian Marco Ferrari",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "070ec0b1",
+   "season": 2018,
+   "distance": 1.542,
+   "survived": 1,
+   "fut_ability_v2": 66.6,
+   "player_name": "Sven Bender",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "bc6f5f06",
    "season": 2018,
-   "distance": 1.596,
+   "distance": 1.597,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sergi Gómez",
@@ -85,16 +94,25 @@
   {
    "fbref_id": "3681cfff",
    "season": 2019,
-   "distance": 1.642,
+   "distance": 1.63,
    "survived": 1,
    "fut_ability_v2": 53.1,
    "player_name": "Christophe Hérelle",
    "squad": "Nice"
   },
   {
+   "fbref_id": "5aa53281",
+   "season": 2022,
+   "distance": 1.652,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Gianluca Mancini",
+   "squad": "Roma"
+  },
+  {
    "fbref_id": "c707411f",
    "season": 2018,
-   "distance": 1.658,
+   "distance": 1.709,
    "survived": 1,
    "fut_ability_v2": 50.1,
    "player_name": "Kostas Manolas",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "fbd6378b",
    "season": 2018,
-   "distance": 1.731,
+   "distance": 1.714,
    "survived": 1,
    "fut_ability_v2": 55.2,
    "player_name": "Aïssa Mandi",
    "squad": "Betis"
   },
   {
-   "fbref_id": "6bd5cd5d",
-   "season": 2019,
-   "distance": 1.785,
+   "fbref_id": "288e1e13",
+   "season": 2022,
+   "distance": 1.744,
    "survived": 1,
-   "fut_ability_v2": 54.9,
-   "player_name": "Robin Knoche",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "f7d50789",
-   "season": 2019,
-   "distance": 1.803,
-   "survived": 1,
-   "fut_ability_v2": 59.3,
-   "player_name": "Toby Alderweireld",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "18b896d6",
-   "season": 2019,
-   "distance": 1.867,
-   "survived": 1,
-   "fut_ability_v2": 66.7,
-   "player_name": "Antonio Rüdiger",
-   "squad": "Chelsea"
+   "fut_ability_v2": 62.8,
+   "player_name": "Nayef Aguerd",
+   "squad": "Rennes"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Thilo Kehrer(DF)의 현재 능력 점수는 63.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 패스 거리, 볼 손실(미스+파울), 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 전진 패스 수신이다.",
-  "potential": "Thilo Kehrer의 2~3년 후 예측 중심값은 59.8점, 80% 구간 상단은 69.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 72.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Thilo Kehrer의 2~3년 후 예측 중심값은 60.0점, 80% 구간 상단은 69.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 82.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3064,
-  "mu": 55.2,
+  "survival_prob": 0.4361,
+  "mu": 53.1,
   "ci80": {
-   "lo": 44.5,
-   "hi": 66.0
+   "lo": 42.4,
+   "hi": 63.7
   },
   "ci50": {
-   "lo": 49.5,
-   "hi": 60.9
+   "lo": 47.5,
+   "hi": 58.6
   },
-  "sigma_model": 2.5,
+  "sigma_model": 2.3,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "52611641",
    "season": 2019,
-   "distance": 1.77,
+   "distance": 1.746,
    "survived": 1,
    "fut_ability_v2": 61.8,
    "player_name": "Lucas Torreira",
    "squad": "Arsenal"
   },
   {
+   "fbref_id": "4c6facae",
+   "season": 2021,
+   "distance": 1.904,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Djibril Sow",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "4db2157a",
+   "season": 2018,
+   "distance": 1.998,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ole Selnæs",
+   "squad": "Saint-Étienne"
+  },
+  {
    "fbref_id": "da27e268",
    "season": 2020,
-   "distance": 1.894,
+   "distance": 2.035,
    "survived": 1,
    "fut_ability_v2": 52.5,
    "player_name": "Marc Roca",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "9ceb7642",
    "season": 2019,
-   "distance": 1.98,
+   "distance": 2.069,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pierre Kunde",
    "squad": "Mainz 05"
   },
   {
-   "fbref_id": "4db2157a",
-   "season": 2018,
-   "distance": 1.995,
+   "fbref_id": "2cfae697",
+   "season": 2021,
+   "distance": 2.089,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Ole Selnæs",
-   "squad": "Saint-Étienne"
+   "player_name": "Jerdy Schouten",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "beb882a8",
+   "season": 2021,
+   "distance": 2.141,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Maximilian Eggestein",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "27dc1378",
+   "season": 2022,
+   "distance": 2.173,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "José Luis García Vayá",
+   "squad": "Levante"
   },
   {
    "fbref_id": "44bfb6c5",
-   "season": 2020,
-   "distance": 2.147,
+   "season": 2021,
+   "distance": 2.175,
    "survived": 1,
-   "fut_ability_v2": 52.5,
+   "fut_ability_v2": 50.4,
    "player_name": "Rúben Neves",
    "squad": "Wolves"
   },
   {
-   "fbref_id": "ffbbc83b",
+   "fbref_id": "44bfb6c5",
    "season": 2020,
-   "distance": 2.229,
+   "distance": 2.239,
    "survived": 1,
-   "fut_ability_v2": 61.5,
-   "player_name": "Florian Grillitsch",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "070a3904",
-   "season": 2018,
-   "distance": 2.274,
-   "survived": 1,
-   "fut_ability_v2": 42.6,
-   "player_name": "Sergi Darder",
-   "squad": "Espanyol / Lyon"
-  },
-  {
-   "fbref_id": "9b5ce51a",
-   "season": 2019,
-   "distance": 2.356,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jefferson Lerma",
-   "squad": "Bournemouth"
-  },
-  {
-   "fbref_id": "26db8853",
-   "season": 2019,
-   "distance": 2.409,
-   "survived": 1,
-   "fut_ability_v2": 51.2,
-   "player_name": "Walace",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "c2211709",
-   "season": 2018,
-   "distance": 2.422,
-   "survived": 1,
-   "fut_ability_v2": 60.5,
-   "player_name": "Ellyes Skhiri",
-   "squad": "Montpellier"
+   "fut_ability_v2": 52.5,
+   "player_name": "Rúben Neves",
+   "squad": "Wolves"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Nicolas Seiwald(MF)의 현재 능력 점수는 58.9점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 볼 손실(미스+파울), 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 비페널티 xG이다.",
-  "potential": "Nicolas Seiwald의 2~3년 후 예측 중심값은 55.2점, 80% 구간 상단은 66.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 30.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Nicolas Seiwald의 2~3년 후 예측 중심값은 53.1점, 80% 구간 상단은 63.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 43.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

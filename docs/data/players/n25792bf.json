@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4043,
-  "mu": 43.9,
+  "survival_prob": 0.2584,
+  "mu": 42.8,
   "ci80": {
-   "lo": 33.0,
-   "hi": 54.9
+   "lo": 31.5,
+   "hi": 54.0
   },
   "ci50": {
-   "lo": 38.2,
-   "hi": 49.6
+   "lo": 36.9,
+   "hi": 48.7
   },
-  "sigma_model": 2.8,
+  "sigma_model": 3.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "46fa7204",
+   "season": 2021,
+   "distance": 2.114,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kevin Agudelo",
+   "squad": "Spezia"
+  },
+  {
    "fbref_id": "46faabfa",
    "season": 2020,
-   "distance": 2.79,
+   "distance": 2.741,
    "survived": 1,
    "fut_ability_v2": 24.9,
    "player_name": "Ibrahima Niane",
    "squad": "Metz"
   },
   {
+   "fbref_id": "05ba9d7c",
+   "season": 2022,
+   "distance": 2.868,
+   "survived": 1,
+   "fut_ability_v2": 40.9,
+   "player_name": "Tanguy Coulibaly",
+   "squad": "Stuttgart"
+  },
+  {
    "fbref_id": "24228180",
    "season": 2018,
-   "distance": 3.115,
+   "distance": 3.119,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bruno Petković",
@@ -67,77 +85,59 @@
   {
    "fbref_id": "71b47ab9",
    "season": 2020,
-   "distance": 3.257,
+   "distance": 3.214,
    "survived": 1,
    "fut_ability_v2": 60.5,
    "player_name": "Cucho",
    "squad": "Mallorca"
   },
   {
+   "fbref_id": "77e39b04",
+   "season": 2022,
+   "distance": 3.294,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Francisco Trincão",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "13fe7b69",
+   "season": 2022,
+   "distance": 3.337,
+   "survived": 1,
+   "fut_ability_v2": 62.4,
+   "player_name": "Jamie Leweling",
+   "squad": "Greuther Fürth"
+  },
+  {
+   "fbref_id": "71b47ab9",
+   "season": 2021,
+   "distance": 3.419,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cucho",
+   "squad": "Getafe"
+  },
+  {
    "fbref_id": "66385c46",
    "season": 2018,
-   "distance": 3.538,
+   "distance": 3.51,
    "survived": 1,
    "fut_ability_v2": 57.7,
    "player_name": "Levin Öztunalı",
    "squad": "Mainz 05"
   },
   {
-   "fbref_id": "2979c05a",
-   "season": 2018,
-   "distance": 3.584,
+   "fbref_id": "05f99a4a",
+   "season": 2021,
+   "distance": 3.522,
    "survived": 1,
-   "fut_ability_v2": 44.1,
-   "player_name": "Gerrit Holtmann",
+   "fut_ability_v2": 43.7,
+   "player_name": "Jonathan Burkardt",
    "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "e77dc3b2",
-   "season": 2020,
-   "distance": 3.609,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Dominic Solanke",
-   "squad": "Bournemouth"
-  },
-  {
-   "fbref_id": "2054d037",
-   "season": 2018,
-   "distance": 3.753,
-   "survived": 1,
-   "fut_ability_v2": 38.0,
-   "player_name": "M'Baye Niang",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "23c63b7f",
-   "season": 2020,
-   "distance": 3.769,
-   "survived": 1,
-   "fut_ability_v2": 48.7,
-   "player_name": "Ignatius Ganago",
-   "squad": "Nice"
-  },
-  {
-   "fbref_id": "718b8afd",
-   "season": 2020,
-   "distance": 3.81,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Florian Ayé",
-   "squad": "Brescia"
-  },
-  {
-   "fbref_id": "0b4f388a",
-   "season": 2018,
-   "distance": 4.065,
-   "survived": 1,
-   "fut_ability_v2": 68.7,
-   "player_name": "Breel Embolo",
-   "squad": "Schalke 04"
   }
  ],
- "low_confidence": true,
+ "low_confidence": false,
  "report": {
   "strengths": [
    {
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Antoniu(FW)의 현재 능력 점수는 34.3점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 성공 드리블, 태클+인터셉트, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 박스 터치이다.",
-  "potential": "Antoniu의 2~3년 후 예측 중심값은 43.9점, 80% 구간 상단은 54.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 40.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Antoniu의 2~3년 후 예측 중심값은 42.8점, 80% 구간 상단은 54.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 25.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

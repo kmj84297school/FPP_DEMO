@@ -32,28 +32,46 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1817,
-  "mu": 53.8,
+  "survival_prob": 0.3551,
+  "mu": 54.1,
   "ci80": {
-   "lo": 44.5,
-   "hi": 63.1
+   "lo": 44.8,
+   "hi": 63.6
   },
   "ci50": {
-   "lo": 48.9,
-   "hi": 58.6
+   "lo": 49.2,
+   "hi": 59.1
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "27f0ddef",
    "season": 2019,
-   "distance": 1.283,
+   "distance": 1.307,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Filip Helander",
    "squad": "Bologna"
+  },
+  {
+   "fbref_id": "93090f69",
+   "season": 2022,
+   "distance": 1.357,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Domingos Duarte",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "b2d31e83",
+   "season": 2022,
+   "distance": 1.376,
+   "survived": 1,
+   "fut_ability_v2": 55.7,
+   "player_name": "Dan Burn",
+   "squad": "Newcastle Utd / Brighton"
   },
   {
    "fbref_id": "2d5f03bf",
@@ -65,9 +83,36 @@
    "squad": "Norwich City"
   },
   {
+   "fbref_id": "450ab6fc",
+   "season": 2021,
+   "distance": 1.601,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Jamaal Lascelles",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "14b8fcdf",
+   "season": 2021,
+   "distance": 1.612,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Daniele Rugani",
+   "squad": "Cagliari / Rennes"
+  },
+  {
+   "fbref_id": "3626f7d9",
+   "season": 2021,
+   "distance": 1.616,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabián Balbuena",
+   "squad": "West Ham"
+  },
+  {
    "fbref_id": "1f54ed90",
    "season": 2019,
-   "distance": 1.671,
+   "distance": 1.631,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Abdoulaye Ba",
@@ -76,65 +121,20 @@
   {
    "fbref_id": "8494acc4",
    "season": 2019,
-   "distance": 1.71,
+   "distance": 1.678,
    "survived": 1,
    "fut_ability_v2": 57.7,
    "player_name": "Stefan Ilsanker",
    "squad": "RB Leipzig"
   },
   {
-   "fbref_id": "a2609621",
-   "season": 2019,
-   "distance": 1.738,
+   "fbref_id": "b742cc0d",
+   "season": 2021,
+   "distance": 1.724,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Naldo",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "1900032e",
-   "season": 2020,
-   "distance": 1.765,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jannik Vestergaard",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "6aafdc27",
-   "season": 2018,
-   "distance": 1.824,
-   "survived": 1,
-   "fut_ability_v2": 61.2,
-   "player_name": "Nenad Tomović",
-   "squad": "Chievo / Fiorentina"
-  },
-  {
-   "fbref_id": "08082af0",
-   "season": 2019,
-   "distance": 1.869,
-   "survived": 1,
-   "fut_ability_v2": 51.7,
-   "player_name": "Loïck Landre",
-   "squad": "Nîmes"
-  },
-  {
-   "fbref_id": "78cd577c",
-   "season": 2019,
-   "distance": 1.885,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ewerton",
-   "squad": "Nürnberg"
-  },
-  {
-   "fbref_id": "7314bba4",
-   "season": 2020,
-   "distance": 1.889,
-   "survived": 1,
-   "fut_ability_v2": 65.2,
-   "player_name": "Shane Duffy",
-   "squad": "Brighton"
+   "player_name": "Marc Bartra",
+   "squad": "Betis"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Andreas Hanche-Olsen(DF)의 현재 능력 점수는 58.1점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 공중볼 승률, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 운반이다.",
-  "potential": "Andreas Hanche-Olsen의 2~3년 후 예측 중심값은 53.8점, 80% 구간 상단은 63.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 18.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Andreas Hanche-Olsen의 2~3년 후 예측 중심값은 54.1점, 80% 구간 상단은 63.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 35.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

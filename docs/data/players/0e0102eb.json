@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9659,
-  "mu": 74.6,
+  "survival_prob": 0.8194,
+  "mu": 75.6,
   "ci80": {
-   "lo": 65.2,
-   "hi": 84.1
+   "lo": 65.8,
+   "hi": 85.4
   },
   "ci50": {
-   "lo": 69.7,
-   "hi": 79.6
+   "lo": 70.4,
+   "hi": 80.8
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 2.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "849c826a",
    "season": 2018,
-   "distance": 2.466,
+   "distance": 2.425,
    "survived": 1,
    "fut_ability_v2": 61.8,
    "player_name": "Andriy Yarmolenko",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "8f696594",
    "season": 2020,
-   "distance": 2.653,
+   "distance": 2.694,
    "survived": 1,
    "fut_ability_v2": 77.4,
    "player_name": "Memphis Depay",
@@ -67,74 +67,74 @@
   {
    "fbref_id": "bc6bd723",
    "season": 2020,
-   "distance": 2.79,
+   "distance": 2.727,
    "survived": 1,
    "fut_ability_v2": 73.5,
    "player_name": "Alassane Pléa",
    "squad": "M'Gladbach"
   },
   {
-   "fbref_id": "54e53b7e",
-   "season": 2018,
-   "distance": 3.071,
-   "survived": 1,
-   "fut_ability_v2": 57.4,
-   "player_name": "Gianluca Caprari",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "a69e4806",
-   "season": 2020,
-   "distance": 3.076,
-   "survived": 1,
-   "fut_ability_v2": 71.3,
-   "player_name": "Hirving Lozano",
-   "squad": "Napoli"
+   "fbref_id": "8f696594",
+   "season": 2022,
+   "distance": 2.86,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Memphis Depay",
+   "squad": "Barcelona"
   },
   {
    "fbref_id": "c691bfe2",
    "season": 2018,
-   "distance": 3.085,
+   "distance": 3.027,
    "survived": 1,
    "fut_ability_v2": 83.9,
    "player_name": "Sadio Mané",
    "squad": "Liverpool"
   },
   {
+   "fbref_id": "a69e4806",
+   "season": 2020,
+   "distance": 3.034,
+   "survived": 1,
+   "fut_ability_v2": 71.3,
+   "player_name": "Hirving Lozano",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "b66315ae",
+   "season": 2022,
+   "distance": 3.051,
+   "survived": 1,
+   "fut_ability_v2": 71.2,
+   "player_name": "Gabriel Jesus",
+   "squad": "Manchester City"
+  },
+  {
+   "fbref_id": "4a1a9578",
+   "season": 2022,
+   "distance": 3.061,
+   "survived": 1,
+   "fut_ability_v2": 78.5,
+   "player_name": "Luis Díaz",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "54e53b7e",
+   "season": 2018,
+   "distance": 3.069,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Gianluca Caprari",
+   "squad": "Sampdoria"
+  },
+  {
    "fbref_id": "c691bfe2",
    "season": 2020,
-   "distance": 3.375,
+   "distance": 3.341,
    "survived": 1,
    "fut_ability_v2": 76.2,
    "player_name": "Sadio Mané",
    "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "81f0781e",
-   "season": 2020,
-   "distance": 3.527,
-   "survived": 1,
-   "fut_ability_v2": 80.4,
-   "player_name": "Gerard Moreno",
-   "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "39583cfd",
-   "season": 2019,
-   "distance": 3.543,
-   "survived": 1,
-   "fut_ability_v2": 73.7,
-   "player_name": "Gerard Deulofeu",
-   "squad": "Watford"
-  },
-  {
-   "fbref_id": "536cebe5",
-   "season": 2019,
-   "distance": 3.768,
-   "survived": 1,
-   "fut_ability_v2": 63.2,
-   "player_name": "Ante Rebić",
-   "squad": "Eint Frankfurt"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Omar Marmoush(FW)의 현재 능력 점수는 80.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 유효슈팅, 슈팅 시도, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 전진 패스 수신이다.",
-  "potential": "Omar Marmoush의 2~3년 후 예측 중심값은 74.6점, 80% 구간 상단은 84.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 96.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Omar Marmoush의 2~3년 후 예측 중심값은 75.6점, 80% 구간 상단은 85.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 81.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8933,
-  "mu": 64.4,
+  "survival_prob": 0.664,
+  "mu": 64.1,
   "ci80": {
-   "lo": 55.1,
-   "hi": 73.6
+   "lo": 54.7,
+   "hi": 73.4
   },
   "ci50": {
-   "lo": 59.5,
-   "hi": 69.2
+   "lo": 59.2,
+   "hi": 69.0
   },
   "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "bc6bd723",
+   "season": 2022,
+   "distance": 1.63,
+   "survived": 1,
+   "fut_ability_v2": 68.4,
+   "player_name": "Alassane Pléa",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "54e4866f",
+   "season": 2021,
+   "distance": 1.695,
+   "survived": 1,
+   "fut_ability_v2": 60.6,
+   "player_name": "Vincenzo Grifo",
+   "squad": "Freiburg"
+  },
+  {
    "fbref_id": "980522ec",
    "season": 2019,
-   "distance": 1.763,
+   "distance": 1.798,
    "survived": 1,
    "fut_ability_v2": 65.0,
    "player_name": "Christian Eriksen",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "440c84ed",
    "season": 2018,
-   "distance": 2.216,
+   "distance": 2.263,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Iago Falque",
    "squad": "Torino"
   },
   {
+   "fbref_id": "507c7bdf",
+   "season": 2022,
+   "distance": 2.311,
+   "survived": 1,
+   "fut_ability_v2": 75.6,
+   "player_name": "Bruno Fernandes",
+   "squad": "Manchester Utd"
+  },
+  {
    "fbref_id": "9744ff80",
    "season": 2019,
-   "distance": 2.28,
+   "distance": 2.336,
    "survived": 1,
    "fut_ability_v2": 81.2,
    "player_name": "Pablo Sarabia",
    "squad": "Sevilla"
   },
   {
-   "fbref_id": "50871bcc",
-   "season": 2020,
-   "distance": 2.331,
-   "survived": 1,
-   "fut_ability_v2": 61.4,
-   "player_name": "Thorgan Hazard",
-   "squad": "Dortmund"
-  },
-  {
    "fbref_id": "54e4866f",
    "season": 2020,
-   "distance": 2.373,
+   "distance": 2.37,
    "survived": 1,
    "fut_ability_v2": 65.1,
    "player_name": "Vincenzo Grifo",
    "squad": "Freiburg / Hoffenheim"
   },
   {
+   "fbref_id": "50871bcc",
+   "season": 2020,
+   "distance": 2.381,
+   "survived": 1,
+   "fut_ability_v2": 61.4,
+   "player_name": "Thorgan Hazard",
+   "squad": "Dortmund"
+  },
+  {
    "fbref_id": "7e82a78f",
    "season": 2020,
-   "distance": 2.484,
+   "distance": 2.44,
    "survived": 1,
    "fut_ability_v2": 49.1,
    "player_name": "Florent Mollet",
    "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "356c9002",
-   "season": 2018,
-   "distance": 2.678,
-   "survived": 1,
-   "fut_ability_v2": 62.8,
-   "player_name": "Antonio Candreva",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "455a2b79",
-   "season": 2018,
-   "distance": 2.689,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Valter Birsa",
-   "squad": "Chievo"
-  },
-  {
-   "fbref_id": "94c18565",
-   "season": 2020,
-   "distance": 2.722,
-   "survived": 1,
-   "fut_ability_v2": 62.4,
-   "player_name": "Florian Kainz",
-   "squad": "Köln"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Julian Brandt(MF)의 현재 능력 점수는 73.2점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 어시스트, 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 태클+인터셉트이다.",
-  "potential": "Julian Brandt의 2~3년 후 예측 중심값은 64.4점, 80% 구간 상단은 73.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 89.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Julian Brandt의 2~3년 후 예측 중심값은 64.1점, 80% 구간 상단은 73.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 66.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

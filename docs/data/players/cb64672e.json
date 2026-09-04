@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.853,
-  "mu": 51.8,
+  "survival_prob": 0.7193,
+  "mu": 54.1,
   "ci80": {
-   "lo": 41.2,
-   "hi": 62.4
+   "lo": 43.7,
+   "hi": 64.5
   },
   "ci50": {
-   "lo": 46.2,
-   "hi": 57.3
+   "lo": 48.7,
+   "hi": 59.6
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "46750e9c",
+   "season": 2021,
+   "distance": 1.256,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nathanael Mbuku",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "95bb6ddc",
+   "season": 2021,
+   "distance": 1.931,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Junior Dina Ebimbe",
+   "squad": "Dijon"
+  },
+  {
    "fbref_id": "6aa3e78b",
    "season": 2019,
-   "distance": 2.155,
+   "distance": 2.151,
    "survived": 1,
    "fut_ability_v2": 54.7,
    "player_name": "Ryan Sessegnon",
@@ -58,7 +76,7 @@
   {
    "fbref_id": "31114001",
    "season": 2018,
-   "distance": 2.363,
+   "distance": 2.422,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Berkay Özcan",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "9907b1c8",
    "season": 2019,
-   "distance": 2.501,
+   "distance": 2.527,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Nicolò Zaniolo",
@@ -76,7 +94,7 @@
   {
    "fbref_id": "9e1035f8",
    "season": 2020,
-   "distance": 2.544,
+   "distance": 2.618,
    "survived": 1,
    "fut_ability_v2": 65.2,
    "player_name": "Ferrán Torres",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "01c3aff5",
    "season": 2019,
-   "distance": 2.655,
+   "distance": 2.649,
    "survived": 1,
    "fut_ability_v2": 55.9,
    "player_name": "Weston McKennie",
    "squad": "Schalke 04"
   },
   {
-   "fbref_id": "d0643f8f",
-   "season": 2018,
-   "distance": 2.744,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Enrico Brignola",
-   "squad": "Benevento"
+   "fbref_id": "200e89e1",
+   "season": 2021,
+   "distance": 2.666,
+   "survived": 1,
+   "fut_ability_v2": 48.4,
+   "player_name": "Ander Barrenetxea",
+   "squad": "Real Sociedad"
   },
   {
    "fbref_id": "92d83c27",
    "season": 2019,
-   "distance": 2.804,
+   "distance": 2.747,
    "survived": 1,
    "fut_ability_v2": 50.3,
    "player_name": "Mattias Svanberg",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "e5d85da8",
-   "season": 2019,
-   "distance": 2.853,
+   "fbref_id": "d0643f8f",
+   "season": 2018,
+   "distance": 2.792,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Linton Maina",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "bfdb33aa",
-   "season": 2018,
-   "distance": 2.883,
-   "survived": 1,
-   "fut_ability_v2": 53.6,
-   "player_name": "Ismaila Sarr",
-   "squad": "Rennes"
-  },
-  {
-   "fbref_id": "9228b07c",
-   "season": 2018,
-   "distance": 2.888,
-   "survived": 1,
-   "fut_ability_v2": 43.8,
-   "player_name": "Tom Davies",
-   "squad": "Everton"
+   "player_name": "Enrico Brignola",
+   "squad": "Benevento"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Paul Wanner(MF)의 현재 능력 점수는 46.6점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 성공 드리블, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 패스 성공률이다.",
-  "potential": "Paul Wanner의 2~3년 후 예측 중심값은 51.8점, 80% 구간 상단은 62.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 85.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Paul Wanner의 2~3년 후 예측 중심값은 54.1점, 80% 구간 상단은 64.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 71.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,42 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9573,
-  "mu": 65.3,
+  "survival_prob": 0.9122,
+  "mu": 62.4,
   "ci80": {
-   "lo": 54.3,
-   "hi": 76.3
+   "lo": 51.9,
+   "hi": 73.0
   },
   "ci50": {
-   "lo": 59.6,
-   "hi": 71.1
+   "lo": 56.9,
+   "hi": 68.0
   },
-  "sigma_model": 3.0,
+  "sigma_model": 2.0,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
-   "fbref_id": "53a0e358",
-   "season": 2019,
-   "distance": 2.773,
+   "fbref_id": "9907b1c8",
+   "season": 2022,
+   "distance": 2.289,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolò Zaniolo",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "2374aaca",
+   "season": 2022,
+   "distance": 2.643,
    "survived": 1,
-   "fut_ability_v2": 77.6,
-   "player_name": "Domenico Berardi",
-   "squad": "Sassuolo"
+   "fut_ability_v2": 58.9,
+   "player_name": "Nicolás González",
+   "squad": "Fiorentina"
   },
   {
    "fbref_id": "57e3f0c7",
    "season": 2018,
-   "distance": 2.795,
+   "distance": 2.785,
    "survived": 1,
    "fut_ability_v2": 57.9,
    "player_name": "Nicolas Pépé",
    "squad": "Lille"
   },
   {
+   "fbref_id": "53a0e358",
+   "season": 2019,
+   "distance": 2.791,
+   "survived": 1,
+   "fut_ability_v2": 77.6,
+   "player_name": "Domenico Berardi",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "2d22cea7",
+   "season": 2022,
+   "distance": 2.84,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Armand Lauriente",
+   "squad": "Lorient"
+  },
+  {
+   "fbref_id": "e5bf73f3",
+   "season": 2022,
+   "distance": 2.927,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Musa Barrow",
+   "squad": "Bologna"
+  },
+  {
    "fbref_id": "178ae8f8",
    "season": 2020,
-   "distance": 2.952,
+   "distance": 2.968,
    "survived": 1,
    "fut_ability_v2": 81.2,
    "player_name": "Diogo Jota",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "8b788c01",
    "season": 2019,
-   "distance": 2.965,
+   "distance": 3.016,
    "survived": 1,
    "fut_ability_v2": 66.9,
    "player_name": "Anthony Martial",
    "squad": "Manchester Utd"
   },
   {
-   "fbref_id": "5e861944",
-   "season": 2018,
-   "distance": 3.078,
+   "fbref_id": "864163f3",
+   "season": 2022,
+   "distance": 3.061,
    "survived": 1,
-   "fut_ability_v2": 69.3,
-   "player_name": "Matteo Politano",
-   "squad": "Sassuolo"
+   "fut_ability_v2": 63.8,
+   "player_name": "Donyell Malen",
+   "squad": "Dortmund"
   },
   {
-   "fbref_id": "fd9c4805",
-   "season": 2018,
-   "distance": 3.084,
+   "fbref_id": "2c44a35d",
+   "season": 2022,
+   "distance": 3.101,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Pione Sisto",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "130a7a3f",
-   "season": 2019,
-   "distance": 3.23,
-   "survived": 1,
-   "fut_ability_v2": 52.2,
-   "player_name": "Samu Castillejo",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "0be95d34",
-   "season": 2020,
-   "distance": 3.386,
-   "survived": 1,
-   "fut_ability_v2": 56.8,
-   "player_name": "Romain Del Castillo",
-   "squad": "Rennes"
-  },
-  {
-   "fbref_id": "8696bc90",
-   "season": 2020,
-   "distance": 3.411,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Munir El Haddadi",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "2054d037",
-   "season": 2018,
-   "distance": 3.426,
-   "survived": 1,
-   "fut_ability_v2": 38.0,
-   "player_name": "M'Baye Niang",
-   "squad": "Torino"
+   "player_name": "Emmanuel Dennis",
+   "squad": "Watford"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Dan Ndoye(FW)의 현재 능력 점수는 62.6점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반, 전진 운반 거리, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 슈팅 시도이다.",
-  "potential": "Dan Ndoye의 2~3년 후 예측 중심값은 65.3점, 80% 구간 상단은 76.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Dan Ndoye의 2~3년 후 예측 중심값은 62.4점, 80% 구간 상단은 73.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 91.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

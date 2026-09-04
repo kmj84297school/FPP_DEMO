@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.325,
-  "mu": 54.8,
+  "survival_prob": 0.4082,
+  "mu": 56.6,
   "ci80": {
-   "lo": 45.2,
-   "hi": 64.3
+   "lo": 46.9,
+   "hi": 66.1
   },
   "ci50": {
-   "lo": 49.7,
-   "hi": 59.8
+   "lo": 51.6,
+   "hi": 61.6
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_model": 2.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "253a06b9",
    "season": 2019,
-   "distance": 2.437,
+   "distance": 2.447,
    "survived": 1,
    "fut_ability_v2": 44.2,
    "player_name": "Ezequiel Ávila",
@@ -58,25 +58,52 @@
   {
    "fbref_id": "909222de",
    "season": 2019,
-   "distance": 2.521,
+   "distance": 2.499,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Nuno da Costa",
    "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "ae86d473",
+   "season": 2022,
+   "distance": 2.515,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maranhão",
+   "squad": "Valencia"
   },
   {
    "fbref_id": "909222de",
    "season": 2018,
-   "distance": 2.557,
+   "distance": 2.563,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Nuno da Costa",
    "squad": "Strasbourg"
   },
   {
+   "fbref_id": "e14ec482",
+   "season": 2022,
+   "distance": 2.638,
+   "survived": 1,
+   "fut_ability_v2": 68.5,
+   "player_name": "Riccardo Orsolini",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "ca618d23",
+   "season": 2021,
+   "distance": 2.695,
+   "survived": 1,
+   "fut_ability_v2": 45.9,
+   "player_name": "Lucas Höler",
+   "squad": "Freiburg"
+  },
+  {
    "fbref_id": "3ae14ed1",
    "season": 2020,
-   "distance": 2.775,
+   "distance": 2.741,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Trézéguet",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "35f6db55",
    "season": 2019,
-   "distance": 2.797,
+   "distance": 2.762,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Léo Baptistão",
    "squad": "Espanyol"
   },
   {
+   "fbref_id": "62437b4f",
+   "season": 2022,
+   "distance": 2.775,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ignacio Pussetto",
+   "squad": "Udinese"
+  },
+  {
    "fbref_id": "19b776e9",
    "season": 2018,
-   "distance": 2.82,
+   "distance": 2.776,
    "survived": 1,
    "fut_ability_v2": 40.0,
    "player_name": "Rubén Sobrino",
    "squad": "Alavés"
-  },
-  {
-   "fbref_id": "e5f63987",
-   "season": 2019,
-   "distance": 2.883,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Daniel Ginczek",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "ecbb3fdf",
-   "season": 2019,
-   "distance": 2.906,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "André Schürrle",
-   "squad": "Fulham"
-  },
-  {
-   "fbref_id": "ffa90327",
-   "season": 2020,
-   "distance": 2.92,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Anwar El Ghazi",
-   "squad": "Aston Villa"
-  },
-  {
-   "fbref_id": "a53b661f",
-   "season": 2020,
-   "distance": 3.082,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Ihlas Bebou",
-   "squad": "Hoffenheim"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Alexander Bernhardsson(FW)의 현재 능력 점수는 57.7점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 태클 성공률, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
-  "potential": "Alexander Bernhardsson의 2~3년 후 예측 중심값은 54.8점, 80% 구간 상단은 64.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Alexander Bernhardsson의 2~3년 후 예측 중심값은 56.6점, 80% 구간 상단은 66.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

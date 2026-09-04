@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7644,
-  "mu": 62.4,
+  "survival_prob": 0.8087,
+  "mu": 62.6,
   "ci80": {
-   "lo": 53.1,
-   "hi": 71.7
+   "lo": 53.2,
+   "hi": 72.0
   },
   "ci50": {
-   "lo": 57.4,
-   "hi": 67.3
+   "lo": 57.7,
+   "hi": 67.5
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "f0da930c",
+   "season": 2021,
+   "distance": 1.134,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "José María Giménez",
+   "squad": "Atlético Madrid"
+  },
+  {
    "fbref_id": "6bd5cd5d",
    "season": 2018,
-   "distance": 1.234,
+   "distance": 1.266,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Robin Knoche",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "6eee05f1",
    "season": 2018,
-   "distance": 1.303,
+   "distance": 1.317,
    "survived": 1,
    "fut_ability_v2": 67.5,
    "player_name": "Berat Djimsiti",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "9f8e9423",
    "season": 2018,
-   "distance": 1.317,
+   "distance": 1.333,
    "survived": 1,
    "fut_ability_v2": 56.2,
    "player_name": "Raphaël Varane",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "9f8e9423",
    "season": 2019,
-   "distance": 1.323,
+   "distance": 1.351,
    "survived": 1,
    "fut_ability_v2": 59.8,
    "player_name": "Raphaël Varane",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "6d5701f2",
+   "season": 2021,
+   "distance": 1.386,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Yerry Mina",
+   "squad": "Everton"
+  },
+  {
    "fbref_id": "f0da930c",
    "season": 2020,
-   "distance": 1.395,
+   "distance": 1.389,
    "survived": 1,
    "fut_ability_v2": 47.7,
    "player_name": "José María Giménez",
    "squad": "Atlético Madrid"
   },
   {
+   "fbref_id": "ac861941",
+   "season": 2021,
+   "distance": 1.409,
+   "survived": 1,
+   "fut_ability_v2": 57.8,
+   "player_name": "Eric Dier",
+   "squad": "Tottenham"
+  },
+  {
    "fbref_id": "25ab9c9c",
    "season": 2018,
-   "distance": 1.503,
+   "distance": 1.536,
    "survived": 1,
    "fut_ability_v2": 57.2,
    "player_name": "Manuel Gulde",
    "squad": "Freiburg"
   },
   {
-   "fbref_id": "9f8e9423",
-   "season": 2020,
-   "distance": 1.551,
-   "survived": 1,
-   "fut_ability_v2": 58.9,
-   "player_name": "Raphaël Varane",
-   "squad": "Real Madrid"
-  },
-  {
    "fbref_id": "c707411f",
    "season": 2018,
-   "distance": 1.552,
+   "distance": 1.554,
    "survived": 1,
    "fut_ability_v2": 50.1,
    "player_name": "Kostas Manolas",
    "squad": "Roma"
-  },
-  {
-   "fbref_id": "d0d8dd44",
-   "season": 2018,
-   "distance": 1.57,
-   "survived": 1,
-   "fut_ability_v2": 60.1,
-   "player_name": "Stefan de Vrij",
-   "squad": "Lazio"
-  },
-  {
-   "fbref_id": "f35430a4",
-   "season": 2019,
-   "distance": 1.595,
-   "survived": 1,
-   "fut_ability_v2": 49.7,
-   "player_name": "Matija Nastasić",
-   "squad": "Schalke 04"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Matteo Gabbia(DF)의 현재 능력 점수는 60.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 공중볼 승률, 볼 손실(미스+파울), 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 전진 패스 수신이다.",
-  "potential": "Matteo Gabbia의 2~3년 후 예측 중심값은 62.4점, 80% 구간 상단은 71.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 76.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Matteo Gabbia의 2~3년 후 예측 중심값은 62.6점, 80% 구간 상단은 72.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 80.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3659,
-  "mu": 54.7,
+  "survival_prob": 0.2665,
+  "mu": 53.9,
   "ci80": {
-   "lo": 45.4,
-   "hi": 63.9
+   "lo": 44.6,
+   "hi": 63.1
   },
   "ci50": {
-   "lo": 49.8,
-   "hi": 59.5
+   "lo": 49.0,
+   "hi": 58.7
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "56413b1f",
+   "season": 2021,
+   "distance": 1.499,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "56413b1f",
    "season": 2020,
-   "distance": 1.853,
+   "distance": 1.919,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Charles Aránguiz",
    "squad": "Leverkusen"
   },
   {
+   "fbref_id": "56413b1f",
+   "season": 2022,
+   "distance": 2.043,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "b825a650",
+   "season": 2022,
+   "distance": 2.047,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Kevin Kampl",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "ff527768",
    "season": 2019,
-   "distance": 2.054,
+   "distance": 2.084,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mark Noble",
@@ -67,74 +94,47 @@
   {
    "fbref_id": "7d41b619",
    "season": 2018,
-   "distance": 2.168,
+   "distance": 2.21,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andrew Surman",
    "squad": "Bournemouth"
   },
   {
-   "fbref_id": "cf15bbb1",
-   "season": 2018,
-   "distance": 2.224,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Steven Davis",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "e8c930bb",
-   "season": 2020,
-   "distance": 2.238,
+   "fbref_id": "868eaba0",
+   "season": 2022,
+   "distance": 2.229,
    "survived": 1,
-   "fut_ability_v2": 55.5,
-   "player_name": "Milan Badelj",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "43a1bea5",
-   "season": 2018,
-   "distance": 2.262,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Édgar Barreto",
-   "squad": "Sampdoria"
+   "fut_ability_v2": 51.2,
+   "player_name": "Johan Gastien",
+   "squad": "Clermont Foot"
   },
   {
    "fbref_id": "65d750b5",
    "season": 2018,
-   "distance": 2.263,
+   "distance": 2.23,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gabi",
    "squad": "Atlético Madrid"
   },
   {
-   "fbref_id": "c0cddebe",
-   "season": 2019,
-   "distance": 2.278,
+   "fbref_id": "d6f88a1d",
+   "season": 2021,
+   "distance": 2.234,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Blaise Matuidi",
-   "squad": "Juventus"
+   "player_name": "Adrien Silva",
+   "squad": "Sampdoria"
   },
   {
-   "fbref_id": "ecab64a0",
-   "season": 2019,
-   "distance": 2.279,
+   "fbref_id": "43a1bea5",
+   "season": 2018,
+   "distance": 2.248,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Per Ciljan Skjelbred",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "1b17ed86",
-   "season": 2019,
-   "distance": 2.36,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Esteban Granero",
-   "squad": "Espanyol"
+   "player_name": "Édgar Barreto",
+   "squad": "Sampdoria"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Koke(MF)의 현재 능력 점수는 56.6점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 패스 거리, 볼 손실(미스+파울), 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
-  "potential": "Koke의 2~3년 후 예측 중심값은 54.7점, 80% 구간 상단은 63.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 36.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Koke의 2~3년 후 예측 중심값은 53.9점, 80% 구간 상단은 63.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 26.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,109 +32,109 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9928,
-  "mu": 57.2,
+  "survival_prob": 0.9655,
+  "mu": 63.7,
   "ci80": {
-   "lo": 46.5,
-   "hi": 68.1
+   "lo": 53.1,
+   "hi": 74.2
   },
   "ci50": {
-   "lo": 51.7,
-   "hi": 62.9
+   "lo": 58.1,
+   "hi": 69.1
   },
-  "sigma_model": 2.4,
+  "sigma_model": 2.0,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "e1df6989",
    "season": 2020,
-   "distance": 2.493,
+   "distance": 2.557,
    "survived": 1,
    "fut_ability_v2": 44.6,
    "player_name": "Imran Louza",
    "squad": "Nantes"
   },
   {
+   "fbref_id": "26777636",
+   "season": 2021,
+   "distance": 2.71,
+   "survived": 1,
+   "fut_ability_v2": 66.5,
+   "player_name": "Yacine Adli",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "57d88cf9",
+   "season": 2022,
+   "distance": 2.734,
+   "survived": 1,
+   "fut_ability_v2": 80.8,
+   "player_name": "Jude Bellingham",
+   "squad": "Dortmund"
+  },
+  {
    "fbref_id": "a8a874f1",
    "season": 2019,
-   "distance": 2.763,
+   "distance": 2.819,
    "survived": 1,
    "fut_ability_v2": 67.1,
    "player_name": "Manuel Locatelli",
    "squad": "Sassuolo"
   },
   {
+   "fbref_id": "e58cbfd5",
+   "season": 2022,
+   "distance": 2.854,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Nicolò Rovella",
+   "squad": "Genoa"
+  },
+  {
    "fbref_id": "570bb4b9",
    "season": 2019,
-   "distance": 2.862,
+   "distance": 2.952,
    "survived": 1,
    "fut_ability_v2": 66.9,
    "player_name": "Hamed Junior Traorè",
    "squad": "Empoli"
   },
   {
+   "fbref_id": "19053e31",
+   "season": 2021,
+   "distance": 3.001,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sofiane Diop",
+   "squad": "Monaco"
+  },
+  {
    "fbref_id": "0db169ae",
    "season": 2020,
-   "distance": 3.037,
+   "distance": 3.139,
    "survived": 1,
    "fut_ability_v2": 57.7,
    "player_name": "Sandro Tonali",
    "squad": "Brescia"
   },
   {
+   "fbref_id": "437f2b00",
+   "season": 2021,
+   "distance": 3.334,
+   "survived": 1,
+   "fut_ability_v2": 63.7,
+   "player_name": "Christoph Baumgartner",
+   "squad": "Hoffenheim"
+  },
+  {
    "fbref_id": "6928979a",
    "season": 2018,
-   "distance": 3.321,
+   "distance": 3.392,
    "survived": 1,
    "fut_ability_v2": 65.5,
    "player_name": "Nicolò Barella",
    "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "37f606f0",
-   "season": 2018,
-   "distance": 3.407,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Dennis Geiger",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "05e19d6a",
-   "season": 2018,
-   "distance": 3.431,
-   "survived": 1,
-   "fut_ability_v2": 59.8,
-   "player_name": "Franck Kessié",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "a5db0bec",
-   "season": 2018,
-   "distance": 3.445,
-   "survived": 1,
-   "fut_ability_v2": 72.7,
-   "player_name": "Houssem Aouar",
-   "squad": "Lyon"
-  },
-  {
-   "fbref_id": "fed17f5a",
-   "season": 2018,
-   "distance": 3.52,
-   "survived": 1,
-   "fut_ability_v2": 50.2,
-   "player_name": "Carlos Soler",
-   "squad": "Valencia"
-  },
-  {
-   "fbref_id": "56f7a928",
-   "season": 2018,
-   "distance": 3.537,
-   "survived": 1,
-   "fut_ability_v2": 61.2,
-   "player_name": "Youri Tielemans",
-   "squad": "Monaco"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Tom Bischof(MF)의 현재 능력 점수는 64.5점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 태클+인터셉트, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 공중볼 승률이다.",
-  "potential": "Tom Bischof의 2~3년 후 예측 중심값은 57.2점, 80% 구간 상단은 68.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 99.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Tom Bischof의 2~3년 후 예측 중심값은 63.7점, 80% 구간 상단은 74.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4056,
-  "mu": 52.5,
+  "survival_prob": 0.5666,
+  "mu": 54.0,
   "ci80": {
-   "lo": 41.6,
-   "hi": 63.3
+   "lo": 43.2,
+   "hi": 64.8
   },
   "ci50": {
-   "lo": 46.7,
-   "hi": 58.2
+   "lo": 48.3,
+   "hi": 59.7
   },
-  "sigma_model": 2.8,
+  "sigma_model": 2.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "d8992b84",
-   "season": 2020,
-   "distance": 2.315,
+   "season": 2021,
+   "distance": 1.975,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Victorien Angban",
    "squad": "Metz"
   },
   {
-   "fbref_id": "4dbd0916",
+   "fbref_id": "873ce3a2",
+   "season": 2021,
+   "distance": 2.098,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pape Cheikh Diop",
+   "squad": "Dijon"
+  },
+  {
+   "fbref_id": "11ff3d56",
+   "season": 2021,
+   "distance": 2.195,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibrahima Diallo",
+   "squad": "Southampton / Brest"
+  },
+  {
+   "fbref_id": "d8992b84",
    "season": 2020,
-   "distance": 2.365,
-   "survived": 1,
-   "fut_ability_v2": 78.2,
-   "player_name": "Thomas Lemar",
-   "squad": "Atlético Madrid"
+   "distance": 2.33,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Victorien Angban",
+   "squad": "Metz"
   },
   {
    "fbref_id": "6c811eb7",
    "season": 2020,
-   "distance": 2.383,
+   "distance": 2.435,
    "survived": 1,
    "fut_ability_v2": 36.2,
    "player_name": "Carles Aleñá",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "434cf5b7",
    "season": 2019,
-   "distance": 2.478,
+   "distance": 2.441,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Federico Palacios Martínez",
    "squad": "Nürnberg"
   },
   {
-   "fbref_id": "2f7acede",
-   "season": 2019,
-   "distance": 2.484,
-   "survived": 1,
-   "fut_ability_v2": 59.6,
-   "player_name": "Harry Winks",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "b579e83d",
-   "season": 2018,
-   "distance": 2.507,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Oghenekaro Etebo",
-   "squad": "Las Palmas"
-  },
-  {
-   "fbref_id": "31223bcf",
-   "season": 2018,
-   "distance": 2.509,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Álvaro Medrán",
-   "squad": "Alavés / Valencia"
-  },
-  {
    "fbref_id": "0984c5d5",
    "season": 2018,
-   "distance": 2.539,
+   "distance": 2.479,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rémi Walter",
    "squad": "Troyes / Nice"
   },
   {
-   "fbref_id": "96960855",
-   "season": 2020,
-   "distance": 2.599,
+   "fbref_id": "968a1c2f",
+   "season": 2022,
+   "distance": 2.48,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Francesco Cassata",
-   "squad": "Genoa"
+   "player_name": "Oier Zarraga",
+   "squad": "Athletic Club"
   },
   {
-   "fbref_id": "c6e8cf1f",
+   "fbref_id": "4dbd0916",
    "season": 2020,
-   "distance": 2.603,
+   "distance": 2.486,
    "survived": 1,
-   "fut_ability_v2": 61.4,
-   "player_name": "Saša Lukić",
-   "squad": "Torino"
+   "fut_ability_v2": 78.2,
+   "player_name": "Thomas Lemar",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "b579e83d",
+   "season": 2018,
+   "distance": 2.52,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Oghenekaro Etebo",
+   "squad": "Las Palmas"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Beñat Turrientes(MF)의 현재 능력 점수는 40.1점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 패스 성공률, 성공 드리블, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 슈팅 창출(SCA)이다.",
-  "potential": "Beñat Turrientes의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 63.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 40.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Beñat Turrientes의 2~3년 후 예측 중심값은 54.0점, 80% 구간 상단은 64.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 56.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

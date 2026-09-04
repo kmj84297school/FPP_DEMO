@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2963,
-  "mu": 42.9,
+  "survival_prob": 0.3252,
+  "mu": 41.5,
   "ci80": {
-   "lo": 33.5,
-   "hi": 52.2
+   "lo": 32.0,
+   "hi": 50.8
   },
   "ci50": {
-   "lo": 38.0,
-   "hi": 47.8
+   "lo": 36.5,
+   "hi": 46.4
   },
   "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "924f9191",
+   "season": 2022,
+   "distance": 1.485,
+   "survived": 1,
+   "fut_ability_v2": 48.0,
+   "player_name": "Grischa Prömel",
+   "squad": "Union Berlin"
+  },
+  {
    "fbref_id": "77b41ac0",
    "season": 2019,
-   "distance": 1.556,
+   "distance": 1.591,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Hanno Behrens",
    "squad": "Nürnberg"
   },
   {
+   "fbref_id": "beae3a73",
+   "season": 2021,
+   "distance": 1.651,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Renaud Ripart",
+   "squad": "Nîmes"
+  },
+  {
+   "fbref_id": "7c388b20",
+   "season": 2021,
+   "distance": 1.656,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Óscar Plano",
+   "squad": "Valladolid"
+  },
+  {
    "fbref_id": "3c05e082",
    "season": 2018,
-   "distance": 1.972,
+   "distance": 1.878,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Koo Ja-cheol",
@@ -67,74 +94,47 @@
   {
    "fbref_id": "cedb3e36",
    "season": 2018,
-   "distance": 2.08,
+   "distance": 2.023,
    "survived": 1,
    "fut_ability_v2": 42.3,
    "player_name": "Artur Ioniță",
    "squad": "Cagliari"
   },
   {
-   "fbref_id": "04c11885",
-   "season": 2018,
-   "distance": 2.269,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marvin Bakalorz",
-   "squad": "Hannover 96"
-  },
-  {
    "fbref_id": "cedb3e36",
    "season": 2019,
-   "distance": 2.289,
+   "distance": 2.241,
    "survived": 1,
    "fut_ability_v2": 38.4,
    "player_name": "Artur Ioniță",
    "squad": "Cagliari"
   },
   {
-   "fbref_id": "a64cbd35",
-   "season": 2019,
-   "distance": 2.352,
+   "fbref_id": "04c11885",
+   "season": 2018,
+   "distance": 2.248,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Antonino Barillà",
-   "squad": "Parma"
+   "player_name": "Marvin Bakalorz",
+   "squad": "Hannover 96"
   },
   {
-   "fbref_id": "7c388b20",
-   "season": 2020,
-   "distance": 2.356,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Óscar Plano",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "989d5705",
-   "season": 2019,
-   "distance": 2.414,
+   "fbref_id": "0f7533cd",
+   "season": 2021,
+   "distance": 2.25,
    "survived": 1,
-   "fut_ability_v2": 31.9,
-   "player_name": "Jeff Hendrick",
-   "squad": "Burnley"
+   "fut_ability_v2": 45.0,
+   "player_name": "Bobby Reid",
+   "squad": "Fulham"
   },
   {
-   "fbref_id": "57ebd662",
-   "season": 2018,
-   "distance": 2.42,
+   "fbref_id": "c77a8043",
+   "season": 2022,
+   "distance": 2.25,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Adrián González",
-   "squad": "Málaga"
-  },
-  {
-   "fbref_id": "f4ec4fd0",
-   "season": 2018,
-   "distance": 2.452,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kevin-Prince Boateng",
-   "squad": "Eint Frankfurt"
+   "player_name": "Antonio Puertas",
+   "squad": "Granada"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Mauro Arambarri(MF)의 현재 능력 점수는 38.6점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승리, 공중볼 승률, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 전진 운반 거리이다.",
-  "potential": "Mauro Arambarri의 2~3년 후 예측 중심값은 42.9점, 80% 구간 상단은 52.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mauro Arambarri의 2~3년 후 예측 중심값은 41.5점, 80% 구간 상단은 50.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

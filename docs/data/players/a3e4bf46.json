@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0606,
-  "mu": 44.9,
+  "survival_prob": 0.0599,
+  "mu": 41.1,
   "ci80": {
-   "lo": 35.4,
-   "hi": 54.4
+   "lo": 31.6,
+   "hi": 50.5
   },
   "ci50": {
-   "lo": 39.9,
-   "hi": 49.9
+   "lo": 36.1,
+   "hi": 46.1
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "244f57b9",
    "season": 2020,
-   "distance": 2.015,
+   "distance": 2.05,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jony",
    "squad": "Lazio"
   },
   {
+   "fbref_id": "71ef519e",
+   "season": 2021,
+   "distance": 2.441,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Matt Ritchie",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "a7813ac4",
+   "season": 2021,
+   "distance": 2.448,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Brosinski",
+   "squad": "Mainz 05"
+  },
+  {
    "fbref_id": "00b0bb87",
    "season": 2019,
-   "distance": 2.597,
+   "distance": 2.594,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabrizio Cacciatore",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "76e5da9d",
    "season": 2019,
-   "distance": 2.653,
+   "distance": 2.62,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabian Johnson",
@@ -76,16 +94,25 @@
   {
    "fbref_id": "5e6342d4",
    "season": 2018,
-   "distance": 2.667,
+   "distance": 2.69,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Vincent Bessat",
    "squad": "Caen"
   },
   {
+   "fbref_id": "e29d1111",
+   "season": 2021,
+   "distance": 2.741,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho",
+   "squad": "Valladolid"
+  },
+  {
    "fbref_id": "9ba48d64",
    "season": 2019,
-   "distance": 2.698,
+   "distance": 2.754,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juanfran",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "81069528",
    "season": 2020,
-   "distance": 2.856,
+   "distance": 2.846,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Roberto Rosales",
    "squad": "Leganés"
   },
   {
-   "fbref_id": "dbe519cf",
-   "season": 2019,
-   "distance": 2.898,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Antoñito",
-   "squad": "Valladolid"
-  },
-  {
-   "fbref_id": "b18095b6",
-   "season": 2018,
-   "distance": 2.929,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Leighton Baines",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "cfd8d664",
-   "season": 2018,
-   "distance": 2.991,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Juanfran",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "e29d1111",
-   "season": 2020,
-   "distance": 3.036,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Nacho",
-   "squad": "Valladolid"
+   "fbref_id": "9f323c71",
+   "season": 2021,
+   "distance": 2.85,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Brian Oliván(DF)의 현재 능력 점수는 42.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 전진 패스 수신, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 공중볼 승리이다.",
-  "potential": "Brian Oliván의 2~3년 후 예측 중심값은 44.9점, 80% 구간 상단은 54.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 6.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Brian Oliván의 2~3년 후 예측 중심값은 41.1점, 80% 구간 상단은 50.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 6.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

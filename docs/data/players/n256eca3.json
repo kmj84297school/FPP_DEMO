@@ -32,51 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4526,
-  "mu": 48.9,
+  "survival_prob": 0.3925,
+  "mu": 50.5,
   "ci80": {
-   "lo": 38.0,
-   "hi": 59.8
+   "lo": 39.8,
+   "hi": 61.1
   },
   "ci50": {
-   "lo": 43.2,
-   "hi": 54.7
+   "lo": 44.8,
+   "hi": 56.1
   },
-  "sigma_model": 2.8,
+  "sigma_model": 2.3,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "8f325097",
    "season": 2019,
-   "distance": 2.032,
+   "distance": 1.996,
    "survived": 1,
    "fut_ability_v2": 44.9,
    "player_name": "Nicolas Cozza",
    "squad": "Montpellier"
   },
   {
+   "fbref_id": "217875a4",
+   "season": 2021,
+   "distance": 2.338,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Sebastian Walukiewicz",
+   "squad": "Cagliari"
+  },
+  {
    "fbref_id": "6aeb647a",
    "season": 2018,
-   "distance": 2.314,
+   "distance": 2.341,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Vahid Selimović",
    "squad": "Metz"
   },
   {
+   "fbref_id": "620922ed",
+   "season": 2022,
+   "distance": 2.406,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Radu Drăgușin",
+   "squad": "Sampdoria / Salernitana"
+  },
+  {
    "fbref_id": "228b0d9d",
    "season": 2019,
-   "distance": 2.385,
+   "distance": 2.456,
    "survived": 1,
    "fut_ability_v2": 47.7,
    "player_name": "Aihen Muñoz",
    "squad": "Real Sociedad"
   },
   {
+   "fbref_id": "4d753a3f",
+   "season": 2022,
+   "distance": 2.511,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Raúl Torrente",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "f7e2af2c",
+   "season": 2021,
+   "distance": 2.536,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Andrea Carboni",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "acf7e795",
+   "season": 2022,
+   "distance": 2.599,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zima",
+   "squad": "Torino"
+  },
+  {
    "fbref_id": "88f130ed",
    "season": 2019,
-   "distance": 2.645,
+   "distance": 2.633,
    "survived": 1,
    "fut_ability_v2": 64.4,
    "player_name": "Jean-Clair Todibo",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "75b86fb3",
    "season": 2019,
-   "distance": 2.705,
+   "distance": 2.733,
    "survived": 1,
    "fut_ability_v2": 61.5,
    "player_name": "Alessandro Bastoni",
    "squad": "Parma"
-  },
-  {
-   "fbref_id": "f0797d57",
-   "season": 2018,
-   "distance": 2.806,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rick van Drongelen",
-   "squad": "Hamburger SV"
-  },
-  {
-   "fbref_id": "70d8e84c",
-   "season": 2018,
-   "distance": 2.837,
-   "survived": 1,
-   "fut_ability_v2": 44.3,
-   "player_name": "Chidozie Awaziem",
-   "squad": "Nantes"
-  },
-  {
-   "fbref_id": "3067cbef",
-   "season": 2018,
-   "distance": 2.848,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kouadio-Yves Dabila",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "a9142dc3",
-   "season": 2018,
-   "distance": 2.859,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Timothy Fosu-Mensah",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "1c7012b8",
-   "season": 2018,
-   "distance": 2.87,
-   "survived": 1,
-   "fut_ability_v2": 59.9,
-   "player_name": "Declan Rice",
-   "squad": "West Ham"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Alan Matturro(DF)의 현재 능력 점수는 39.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 유효슈팅, 실책, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 최종 3분의1 패스이다.",
-  "potential": "Alan Matturro의 2~3년 후 예측 중심값은 48.9점, 80% 구간 상단은 59.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 45.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Alan Matturro의 2~3년 후 예측 중심값은 50.5점, 80% 구간 상단은 61.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 39.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

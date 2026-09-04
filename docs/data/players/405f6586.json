@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0276,
-  "mu": 44.5,
+  "survival_prob": 0.0412,
+  "mu": 37.9,
   "ci80": {
-   "lo": 34.8,
-   "hi": 54.2
+   "lo": 27.0,
+   "hi": 48.8
   },
   "ci50": {
-   "lo": 39.4,
-   "hi": 49.6
+   "lo": 32.2,
+   "hi": 43.6
   },
-  "sigma_model": 2.8,
-  "sigma_residual": 7.0
+  "sigma_model": 4.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "e21042ae",
+   "season": 2022,
+   "distance": 3.411,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fabian Klos",
+   "squad": "Arminia"
+  },
+  {
    "fbref_id": "2ec0f902",
    "season": 2019,
-   "distance": 3.705,
+   "distance": 3.636,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Riccardo Meggiorini",
    "squad": "Chievo"
   },
   {
+   "fbref_id": "63b0ca6b",
+   "season": 2022,
+   "distance": 3.646,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro Negredo",
+   "squad": "Cádiz"
+  },
+  {
    "fbref_id": "f2f29dda",
    "season": 2018,
-   "distance": 3.813,
+   "distance": 3.817,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Glenn Murray",
    "squad": "Brighton"
   },
   {
+   "fbref_id": "63b0ca6b",
+   "season": 2021,
+   "distance": 3.869,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Álvaro Negredo",
+   "squad": "Cádiz"
+  },
+  {
    "fbref_id": "f2f29dda",
    "season": 2019,
-   "distance": 3.888,
+   "distance": 3.899,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Glenn Murray",
@@ -76,7 +103,7 @@
   {
    "fbref_id": "73d9bdc7",
    "season": 2018,
-   "distance": 3.895,
+   "distance": 3.9,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Peter Crouch",
@@ -85,7 +112,7 @@
   {
    "fbref_id": "b09a3ecc",
    "season": 2019,
-   "distance": 3.928,
+   "distance": 3.908,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Daniel Ciofani",
@@ -94,7 +121,7 @@
   {
    "fbref_id": "293211e1",
    "season": 2018,
-   "distance": 3.993,
+   "distance": 3.991,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aritz Aduriz",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "6ca663b4",
    "season": 2018,
-   "distance": 4.048,
+   "distance": 4.025,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Giampaolo Pazzini",
    "squad": "Hellas Verona / Levante"
-  },
-  {
-   "fbref_id": "c4b8bcf4",
-   "season": 2020,
-   "distance": 4.074,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Charles",
-   "squad": "Eibar"
-  },
-  {
-   "fbref_id": "71a20ce8",
-   "season": 2018,
-   "distance": 4.177,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mario Gómez",
-   "squad": "Stuttgart / Wolfsburg"
-  },
-  {
-   "fbref_id": "82e9b89d",
-   "season": 2020,
-   "distance": 4.187,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Enric Gallego",
-   "squad": "Osasuna / Getafe"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Milan Đurić(FW)의 현재 능력 점수는 29.8점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 볼 손실(미스+파울), 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 슈팅 창출(SCA)이다.",
-  "potential": "Milan Đurić의 2~3년 후 예측 중심값은 44.5점, 80% 구간 상단은 54.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 2.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Milan Đurić의 2~3년 후 예측 중심값은 37.9점, 80% 구간 상단은 48.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 4.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

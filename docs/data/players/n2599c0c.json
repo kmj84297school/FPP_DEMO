@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9617,
-  "mu": 65.8,
+  "survival_prob": 0.9226,
+  "mu": 70.8,
   "ci80": {
-   "lo": 54.9,
-   "hi": 76.7
+   "lo": 60.2,
+   "hi": 81.5
   },
   "ci50": {
-   "lo": 60.0,
-   "hi": 71.6
+   "lo": 65.3,
+   "hi": 76.4
   },
-  "sigma_model": 2.9,
+  "sigma_model": 2.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "178ae8f8",
    "season": 2019,
-   "distance": 3.015,
+   "distance": 2.98,
    "survived": 1,
    "fut_ability_v2": 78.3,
    "player_name": "Diogo Jota",
    "squad": "Wolves"
   },
   {
+   "fbref_id": "e8832875",
+   "season": 2022,
+   "distance": 3.038,
+   "survived": 1,
+   "fut_ability_v2": 64.4,
+   "player_name": "João Pedro",
+   "squad": "Watford"
+  },
+  {
    "fbref_id": "b0f7e36c",
    "season": 2019,
-   "distance": 3.096,
+   "distance": 3.185,
    "survived": 1,
    "fut_ability_v2": 72.7,
    "player_name": "Federico Chiesa",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "71b47ab9",
    "season": 2019,
-   "distance": 3.25,
+   "distance": 3.196,
    "survived": 1,
    "fut_ability_v2": 54.6,
    "player_name": "Cucho",
    "squad": "Huesca"
   },
   {
+   "fbref_id": "87e9c7cd",
+   "season": 2021,
+   "distance": 3.43,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Papa Ndiaga Yade",
+   "squad": "Metz"
+  },
+  {
    "fbref_id": "2b114be3",
    "season": 2018,
-   "distance": 3.418,
+   "distance": 3.439,
    "survived": 1,
    "fut_ability_v2": 67.3,
    "player_name": "Leroy Sané",
    "squad": "Manchester City"
   },
   {
-   "fbref_id": "3a233281",
-   "season": 2019,
-   "distance": 3.451,
-   "survived": 1,
-   "fut_ability_v2": 75.9,
-   "player_name": "Leon Bailey",
-   "squad": "Leverkusen"
-  },
-  {
    "fbref_id": "81d3318f",
    "season": 2018,
-   "distance": 3.513,
+   "distance": 3.482,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "François Kamano",
    "squad": "Bordeaux"
   },
   {
-   "fbref_id": "1880614f",
-   "season": 2018,
-   "distance": 3.635,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Cengiz Ünder",
-   "squad": "Roma"
+   "fbref_id": "3a233281",
+   "season": 2019,
+   "distance": 3.518,
+   "survived": 1,
+   "fut_ability_v2": 75.9,
+   "player_name": "Leon Bailey",
+   "squad": "Leverkusen"
   },
   {
    "fbref_id": "7111d552",
-   "season": 2020,
-   "distance": 3.646,
+   "season": 2021,
+   "distance": 3.585,
    "survived": 1,
-   "fut_ability_v2": 84.4,
+   "fut_ability_v2": 78.8,
    "player_name": "Vinicius Júnior",
    "squad": "Real Madrid"
   },
   {
-   "fbref_id": "b0f7e36c",
-   "season": 2020,
-   "distance": 3.709,
+   "fbref_id": "1880614f",
+   "season": 2018,
+   "distance": 3.59,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Federico Chiesa",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "71b47ab9",
-   "season": 2020,
-   "distance": 3.812,
-   "survived": 1,
-   "fut_ability_v2": 60.5,
-   "player_name": "Cucho",
-   "squad": "Mallorca"
+   "player_name": "Cengiz Ünder",
+   "squad": "Roma"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Yankuba Minteh(FW)의 현재 능력 점수는 68.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 박스 터치, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 슈팅 시도이다.",
-  "potential": "Yankuba Minteh의 2~3년 후 예측 중심값은 65.8점, 80% 구간 상단은 76.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Yankuba Minteh의 2~3년 후 예측 중심값은 70.8점, 80% 구간 상단은 81.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

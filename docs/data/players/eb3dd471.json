@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6896,
-  "mu": 50.4,
+  "survival_prob": 0.636,
+  "mu": 47.2,
   "ci80": {
-   "lo": 41.2,
-   "hi": 59.6
+   "lo": 37.8,
+   "hi": 56.5
   },
   "ci50": {
-   "lo": 45.6,
-   "hi": 55.2
+   "lo": 42.2,
+   "hi": 52.1
   },
   "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "1cac99dc",
    "season": 2019,
-   "distance": 2.52,
+   "distance": 2.484,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luca Siligardi",
    "squad": "Parma"
   },
   {
+   "fbref_id": "710fbdd1",
+   "season": 2022,
+   "distance": 2.511,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Branimir Hrgota",
+   "squad": "Greuther Fürth"
+  },
+  {
    "fbref_id": "4a478107",
    "season": 2020,
-   "distance": 2.768,
+   "distance": 2.754,
    "survived": 1,
    "fut_ability_v2": 70.8,
    "player_name": "José Luis Morales",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "5370cba7",
    "season": 2018,
-   "distance": 2.957,
+   "distance": 2.941,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alessio Cerci",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "b28bbd58",
    "season": 2020,
-   "distance": 2.999,
+   "distance": 2.963,
    "survived": 1,
    "fut_ability_v2": 49.1,
    "player_name": "Andros Townsend",
    "squad": "Crystal Palace"
   },
   {
+   "fbref_id": "da052c14",
+   "season": 2022,
+   "distance": 2.998,
+   "survived": 1,
+   "fut_ability_v2": 44.3,
+   "player_name": "Jordan Ayew",
+   "squad": "Crystal Palace"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2021,
+   "distance": 3.081,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  },
+  {
+   "fbref_id": "2677a1de",
+   "season": 2022,
+   "distance": 3.134,
+   "survived": 1,
+   "fut_ability_v2": 44.6,
+   "player_name": "Wahbi Khazri",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "b561db50",
+   "season": 2022,
+   "distance": 3.225,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Raúl Jiménez",
+   "squad": "Wolves"
+  },
+  {
    "fbref_id": "88a359d4",
    "season": 2020,
-   "distance": 3.275,
+   "distance": 3.242,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Adrián López",
    "squad": "Osasuna"
-  },
-  {
-   "fbref_id": "18ebca4b",
-   "season": 2020,
-   "distance": 3.297,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gaëtan Charbonnier",
-   "squad": "Brest"
-  },
-  {
-   "fbref_id": "7dcf86f6",
-   "season": 2020,
-   "distance": 3.349,
-   "survived": 1,
-   "fut_ability_v2": 66.6,
-   "player_name": "Iago Aspas",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "9ab48bde",
-   "season": 2018,
-   "distance": 3.374,
-   "survived": 1,
-   "fut_ability_v2": 58.7,
-   "player_name": "Pablo de Blasis",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "43a2e16c",
-   "season": 2018,
-   "distance": 3.566,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mirco Antenucci",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "aa51343f",
-   "season": 2019,
-   "distance": 3.574,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kevin Mirallas",
-   "squad": "Fiorentina"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Luis Rioja(FW)의 현재 능력 점수는 48.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 박스 진입 패스, 볼 손실(미스+파울), 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 슈팅 시도이다.",
-  "potential": "Luis Rioja의 2~3년 후 예측 중심값은 50.4점, 80% 구간 상단은 59.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Luis Rioja의 2~3년 후 예측 중심값은 47.2점, 80% 구간 상단은 56.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 63.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

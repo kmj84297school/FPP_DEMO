@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8454,
-  "mu": 61.0,
+  "survival_prob": 0.6595,
+  "mu": 60.1,
   "ci80": {
-   "lo": 51.7,
-   "hi": 70.3
+   "lo": 50.8,
+   "hi": 69.5
   },
   "ci50": {
-   "lo": 56.1,
-   "hi": 65.9
+   "lo": 55.3,
+   "hi": 65.1
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "8794e251",
+   "season": 2021,
+   "distance": 1.722,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Adrien Rabiot",
+   "squad": "Juventus"
+  },
+  {
    "fbref_id": "ea06dd97",
    "season": 2018,
-   "distance": 1.785,
+   "distance": 1.782,
    "survived": 1,
    "fut_ability_v2": 51.2,
    "player_name": "Daniele Baselli",
    "squad": "Torino"
   },
   {
+   "fbref_id": "529f49ab",
+   "season": 2022,
+   "distance": 1.866,
+   "survived": 1,
+   "fut_ability_v2": 62.6,
+   "player_name": "Thomas Partey",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "4d224fe8",
+   "season": 2018,
+   "distance": 1.926,
+   "survived": 1,
+   "fut_ability_v2": 67.8,
+   "player_name": "Casemiro",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "fe641c1a",
    "season": 2019,
-   "distance": 1.996,
+   "distance": 1.927,
    "survived": 1,
    "fut_ability_v2": 54.2,
    "player_name": "Thomas Delaney",
@@ -66,75 +93,48 @@
   },
   {
    "fbref_id": "4d224fe8",
-   "season": 2018,
-   "distance": 2.093,
+   "season": 2021,
+   "distance": 2.025,
    "survived": 1,
-   "fut_ability_v2": 67.8,
+   "fut_ability_v2": 66.9,
    "player_name": "Casemiro",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "e0b113a7",
+   "season": 2022,
+   "distance": 2.094,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Robert Andrich",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "52611641",
+   "season": 2022,
+   "distance": 2.187,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Torreira",
+   "squad": "Fiorentina"
+  },
+  {
    "fbref_id": "b8836910",
    "season": 2018,
-   "distance": 2.165,
+   "distance": 2.2,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Celso Borges",
    "squad": "La Coruña"
   },
   {
-   "fbref_id": "02b29014",
-   "season": 2019,
-   "distance": 2.181,
-   "survived": 1,
-   "fut_ability_v2": 55.5,
-   "player_name": "Abdoulaye Doucouré",
-   "squad": "Watford"
-  },
-  {
    "fbref_id": "a4c3f7af",
    "season": 2019,
-   "distance": 2.202,
+   "distance": 2.227,
    "survived": 1,
    "fut_ability_v2": 51.8,
    "player_name": "Mehdi Abeid",
    "squad": "Dijon"
-  },
-  {
-   "fbref_id": "33b554b7",
-   "season": 2019,
-   "distance": 2.206,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Danny Latza",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "ba1e04b3",
-   "season": 2020,
-   "distance": 2.306,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pedro Obiang",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "d5f2f82b",
-   "season": 2020,
-   "distance": 2.332,
-   "survived": 1,
-   "fut_ability_v2": 58.9,
-   "player_name": "Marquinhos",
-   "squad": "Paris S-G"
-  },
-  {
-   "fbref_id": "44ac04e9",
-   "season": 2018,
-   "distance": 2.337,
-   "survived": 1,
-   "fut_ability_v2": 54.4,
-   "player_name": "Matías Vecino",
-   "squad": "Inter"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Denis Zakaria(MF)의 현재 능력 점수는 68.6점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클 성공률, 볼 리커버리, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 전진 패스 수신이다.",
-  "potential": "Denis Zakaria의 2~3년 후 예측 중심값은 61.0점, 80% 구간 상단은 70.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Denis Zakaria의 2~3년 후 예측 중심값은 60.1점, 80% 구간 상단은 69.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 66.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

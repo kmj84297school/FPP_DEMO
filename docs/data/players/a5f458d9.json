@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9234,
-  "mu": 56.1,
+  "survival_prob": 0.9165,
+  "mu": 54.2,
   "ci80": {
-   "lo": 45.4,
-   "hi": 66.6
+   "lo": 43.8,
+   "hi": 64.6
   },
   "ci50": {
-   "lo": 50.5,
-   "hi": 61.6
+   "lo": 48.8,
+   "hi": 59.7
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.4,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "05e19d6a",
    "season": 2020,
-   "distance": 1.865,
+   "distance": 1.846,
    "survived": 1,
    "fut_ability_v2": 61.2,
    "player_name": "Franck Kessié",
    "squad": "Milan"
   },
   {
+   "fbref_id": "80556f08",
+   "season": 2021,
+   "distance": 1.967,
+   "survived": 1,
+   "fut_ability_v2": 40.7,
+   "player_name": "Toma Bašić",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "22bfb57e",
+   "season": 2022,
+   "distance": 2.235,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean-Victor Makengo",
+   "squad": "Udinese"
+  },
+  {
    "fbref_id": "ba3d3bea",
    "season": 2018,
-   "distance": 2.371,
+   "distance": 2.353,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Danilo Cataldi",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "7d937aa1",
    "season": 2019,
-   "distance": 2.51,
+   "distance": 2.481,
    "survived": 1,
    "fut_ability_v2": 60.1,
    "player_name": "Antonin Bobichon",
    "squad": "Nîmes"
   },
   {
-   "fbref_id": "5313ed43",
-   "season": 2018,
-   "distance": 2.55,
-   "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Seko Fofana",
-   "squad": "Udinese"
-  },
-  {
    "fbref_id": "f3600c02",
    "season": 2019,
-   "distance": 2.569,
+   "distance": 2.529,
    "survived": 1,
    "fut_ability_v2": 56.6,
    "player_name": "Xeka",
    "squad": "Lille"
   },
   {
+   "fbref_id": "5313ed43",
+   "season": 2018,
+   "distance": 2.557,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Seko Fofana",
+   "squad": "Udinese"
+  },
+  {
    "fbref_id": "070a3904",
    "season": 2018,
-   "distance": 2.627,
+   "distance": 2.56,
    "survived": 1,
    "fut_ability_v2": 42.6,
    "player_name": "Sergi Darder",
    "squad": "Espanyol / Lyon"
   },
   {
+   "fbref_id": "9939e168",
+   "season": 2022,
+   "distance": 2.611,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Jon Moncayola",
+   "squad": "Osasuna"
+  },
+  {
    "fbref_id": "c8090cb3",
    "season": 2020,
-   "distance": 2.71,
+   "distance": 2.684,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Theo Valls",
    "squad": "Nîmes"
-  },
-  {
-   "fbref_id": "86e119e0",
-   "season": 2018,
-   "distance": 2.715,
-   "survived": 1,
-   "fut_ability_v2": 61.6,
-   "player_name": "Maximilian Arnold",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "44bfb6c5",
-   "season": 2020,
-   "distance": 2.769,
-   "survived": 1,
-   "fut_ability_v2": 52.5,
-   "player_name": "Rúben Neves",
-   "squad": "Wolves"
-  },
-  {
-   "fbref_id": "fed17f5a",
-   "season": 2020,
-   "distance": 2.778,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Carlos Soler",
-   "squad": "Valencia"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Simon Sohm(MF)의 현재 능력 점수는 50.5점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 공중볼 승률, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 태클+인터셉트이다.",
-  "potential": "Simon Sohm의 2~3년 후 예측 중심값은 56.1점, 80% 구간 상단은 66.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Simon Sohm의 2~3년 후 예측 중심값은 54.2점, 80% 구간 상단은 64.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 91.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

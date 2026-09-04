@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5763,
-  "mu": 56.2,
+  "survival_prob": 0.4517,
+  "mu": 54.3,
   "ci80": {
-   "lo": 47.1,
-   "hi": 65.3
+   "lo": 45.1,
+   "hi": 63.6
   },
   "ci50": {
-   "lo": 51.4,
-   "hi": 61.0
+   "lo": 49.5,
+   "hi": 59.3
   },
-  "sigma_model": 1.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "16e9d0ea",
+   "season": 2021,
+   "distance": 1.583,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Álex Moreno",
+   "squad": "Betis"
+  },
+  {
    "fbref_id": "d4535821",
    "season": 2019,
-   "distance": 1.664,
+   "distance": 1.645,
    "survived": 1,
    "fut_ability_v2": 52.5,
    "player_name": "Adam Marušić",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "608f2092",
    "season": 2018,
-   "distance": 1.692,
+   "distance": 1.733,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Johan Mojica",
    "squad": "Girona"
   },
   {
+   "fbref_id": "b7a5bc86",
+   "season": 2021,
+   "distance": 1.753,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mohamed Fares",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "13203c45",
+   "season": 2021,
+   "distance": 1.86,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérôme Roussillon",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "63f04c6c",
+   "season": 2021,
+   "distance": 1.894,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Alfonso Pedraza",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "016ff750",
+   "season": 2021,
+   "distance": 1.912,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Valentino Lazaro",
+   "squad": "M'Gladbach"
+  },
+  {
+   "fbref_id": "fce2302c",
+   "season": 2022,
+   "distance": 2.033,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Kieran Tierney",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "24eb7ed6",
+   "season": 2022,
+   "distance": 2.049,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Junior Sambia",
+   "squad": "Montpellier"
+  },
+  {
    "fbref_id": "e726e11e",
    "season": 2018,
-   "distance": 2.042,
+   "distance": 2.062,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Victor Moses",
    "squad": "Chelsea"
-  },
-  {
-   "fbref_id": "7fe90ccd",
-   "season": 2018,
-   "distance": 2.202,
-   "survived": 1,
-   "fut_ability_v2": 49.2,
-   "player_name": "Davide Zappacosta",
-   "squad": "Chelsea / Torino"
-  },
-  {
-   "fbref_id": "3cefcaef",
-   "season": 2020,
-   "distance": 2.231,
-   "survived": 1,
-   "fut_ability_v2": 61.4,
-   "player_name": "Ferland Mendy",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "6213fd82",
-   "season": 2020,
-   "distance": 2.233,
-   "survived": 1,
-   "fut_ability_v2": 45.0,
-   "player_name": "Arkadiusz Reca",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "9050ddc4",
-   "season": 2020,
-   "distance": 2.235,
-   "survived": 1,
-   "fut_ability_v2": 54.3,
-   "player_name": "Jetro Willems",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "16e9d0ea",
-   "season": 2020,
-   "distance": 2.244,
-   "survived": 1,
-   "fut_ability_v2": 60.0,
-   "player_name": "Álex Moreno",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "2ef637bd",
-   "season": 2019,
-   "distance": 2.363,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pierre-Yves Polomat",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "ef5b337e",
-   "season": 2018,
-   "distance": 2.372,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fabio Borini",
-   "squad": "Milan"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Derrick Köhn(DF)의 현재 능력 점수는 57.9점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 수신, 무페널티 득점, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 클리어링이다.",
-  "potential": "Derrick Köhn의 2~3년 후 예측 중심값은 56.2점, 80% 구간 상단은 65.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 57.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Derrick Köhn의 2~3년 후 예측 중심값은 54.3점, 80% 구간 상단은 63.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

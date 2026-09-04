@@ -32,42 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2883,
-  "mu": 51.3,
+  "survival_prob": 0.2854,
+  "mu": 49.2,
   "ci80": {
-   "lo": 42.1,
-   "hi": 60.5
+   "lo": 40.0,
+   "hi": 58.4
   },
   "ci50": {
-   "lo": 46.5,
-   "hi": 56.2
+   "lo": 44.4,
+   "hi": 54.0
   },
-  "sigma_model": 1.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "e54bd0a2",
    "season": 2018,
-   "distance": 1.413,
+   "distance": 1.518,
    "survived": 1,
    "fut_ability_v2": 49.1,
    "player_name": "Tomás Pina Isla",
    "squad": "Alavés"
   },
   {
+   "fbref_id": "036bba5f",
+   "season": 2021,
+   "distance": 1.556,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Rubén Alcaraz",
+   "squad": "Valladolid"
+  },
+  {
+   "fbref_id": "f503ea63",
+   "season": 2021,
+   "distance": 1.65,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Albin Ekdal",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "901c0f97",
+   "season": 2022,
+   "distance": 1.657,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Prietl",
+   "squad": "Arminia"
+  },
+  {
    "fbref_id": "8d3c902d",
    "season": 2019,
-   "distance": 1.572,
+   "distance": 1.701,
    "survived": 1,
    "fut_ability_v2": 51.9,
    "player_name": "Cheikhou Kouyaté",
    "squad": "Crystal Palace"
   },
   {
+   "fbref_id": "f86ca403",
+   "season": 2022,
+   "distance": 1.748,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Pajot",
+   "squad": "Metz"
+  },
+  {
    "fbref_id": "05a4465d",
    "season": 2019,
-   "distance": 1.676,
+   "distance": 1.758,
    "survived": 1,
    "fut_ability_v2": 41.8,
    "player_name": "Manu García",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "74e0a984",
    "season": 2019,
-   "distance": 1.826,
+   "distance": 1.828,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Damián Musto",
    "squad": "Huesca"
   },
   {
-   "fbref_id": "8f4d116f",
-   "season": 2019,
-   "distance": 1.846,
-   "survived": 1,
-   "fut_ability_v2": 48.7,
-   "player_name": "Damien Le Tallec",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "e54bd0a2",
-   "season": 2019,
-   "distance": 1.85,
-   "survived": 1,
-   "fut_ability_v2": 45.7,
-   "player_name": "Tomás Pina Isla",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "e6c43eec",
-   "season": 2020,
-   "distance": 1.917,
-   "survived": 1,
-   "fut_ability_v2": 59.6,
-   "player_name": "Josuha Guilavogui",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "3c05e082",
-   "season": 2018,
-   "distance": 1.957,
+   "fbref_id": "f503ea63",
+   "season": 2022,
+   "distance": 1.842,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Koo Ja-cheol",
-   "squad": "Augsburg"
+   "player_name": "Albin Ekdal",
+   "squad": "Sampdoria"
   },
   {
-   "fbref_id": "05a4465d",
-   "season": 2018,
-   "distance": 1.975,
-   "survived": 1,
-   "fut_ability_v2": 41.5,
-   "player_name": "Manu García",
-   "squad": "Alavés"
-  },
-  {
-   "fbref_id": "5acc4a10",
-   "season": 2018,
-   "distance": 1.983,
-   "survived": 1,
-   "fut_ability_v2": 55.8,
-   "player_name": "Étienne Capoue",
-   "squad": "Watford"
+   "fbref_id": "901c0f97",
+   "season": 2021,
+   "distance": 1.846,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Prietl",
+   "squad": "Arminia"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jean-Eudes Aholou(MF)의 현재 능력 점수는 50.7점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 공중볼 승리, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 골 창출(GCA)이다.",
-  "potential": "Jean-Eudes Aholou의 2~3년 후 예측 중심값은 51.3점, 80% 구간 상단은 60.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jean-Eudes Aholou의 2~3년 후 예측 중심값은 49.2점, 80% 구간 상단은 58.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6147,
-  "mu": 60.0,
+  "survival_prob": 0.6847,
+  "mu": 60.3,
   "ci80": {
-   "lo": 50.8,
-   "hi": 69.2
+   "lo": 51.0,
+   "hi": 69.8
   },
   "ci50": {
-   "lo": 55.1,
-   "hi": 64.8
+   "lo": 55.4,
+   "hi": 65.3
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "16324e1d",
    "season": 2020,
-   "distance": 1.288,
+   "distance": 1.305,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Anthony Briançon",
    "squad": "Nîmes"
   },
   {
+   "fbref_id": "e0f3a1f6",
+   "season": 2021,
+   "distance": 1.402,
+   "survived": 1,
+   "fut_ability_v2": 55.0,
+   "player_name": "Jean-Charles Castelletto",
+   "squad": "Nantes"
+  },
+  {
    "fbref_id": "f35430a4",
    "season": 2020,
-   "distance": 1.445,
+   "distance": 1.416,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Matija Nastasić",
    "squad": "Schalke 04"
   },
   {
+   "fbref_id": "e0f3a1f6",
+   "season": 2022,
+   "distance": 1.515,
+   "survived": 1,
+   "fut_ability_v2": 55.1,
+   "player_name": "Jean-Charles Castelletto",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "16bb656a",
+   "season": 2021,
+   "distance": 1.522,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Paweł Dawidowicz",
+   "squad": "Hellas Verona"
+  },
+  {
    "fbref_id": "c5b7c315",
    "season": 2020,
-   "distance": 1.445,
+   "distance": 1.531,
    "survived": 1,
    "fut_ability_v2": 57.6,
    "player_name": "Michael Keane",
@@ -76,7 +103,7 @@
   {
    "fbref_id": "b7ca5c51",
    "season": 2018,
-   "distance": 1.619,
+   "distance": 1.603,
    "survived": 1,
    "fut_ability_v2": 53.2,
    "player_name": "Gabriel Paulista",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "0821331c",
    "season": 2020,
-   "distance": 1.645,
+   "distance": 1.65,
    "survived": 1,
    "fut_ability_v2": 62.6,
    "player_name": "Mattia Bani",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "f35430a4",
-   "season": 2018,
-   "distance": 1.714,
-   "survived": 1,
-   "fut_ability_v2": 59.1,
-   "player_name": "Matija Nastasić",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "f35430a4",
-   "season": 2019,
-   "distance": 1.745,
-   "survived": 1,
-   "fut_ability_v2": 49.7,
-   "player_name": "Matija Nastasić",
-   "squad": "Schalke 04"
-  },
-  {
-   "fbref_id": "27a013f7",
-   "season": 2019,
-   "distance": 1.767,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Néstor Araujo",
-   "squad": "Celta Vigo"
-  },
-  {
    "fbref_id": "6d5701f2",
-   "season": 2020,
-   "distance": 1.853,
-   "survived": 0,
-   "fut_ability_v2": null,
+   "season": 2021,
+   "distance": 1.683,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
    "player_name": "Yerry Mina",
    "squad": "Everton"
   },
   {
-   "fbref_id": "d0d8dd44",
+   "fbref_id": "f35430a4",
    "season": 2018,
-   "distance": 1.864,
+   "distance": 1.737,
    "survived": 1,
-   "fut_ability_v2": 60.1,
-   "player_name": "Stefan de Vrij",
-   "squad": "Lazio"
+   "fut_ability_v2": 59.1,
+   "player_name": "Matija Nastasić",
+   "squad": "Schalke 04"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Matthijs de Ligt(DF)의 현재 능력 점수는 60.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 유효슈팅, 볼 손실(미스+파울), 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 성공 드리블이다.",
-  "potential": "Matthijs de Ligt의 2~3년 후 예측 중심값은 60.0점, 80% 구간 상단은 69.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Matthijs de Ligt의 2~3년 후 예측 중심값은 60.3점, 80% 구간 상단은 69.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 68.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

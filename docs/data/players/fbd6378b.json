@@ -32,64 +32,73 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3862,
-  "mu": 53.2,
+  "survival_prob": 0.3194,
+  "mu": 54.2,
   "ci80": {
-   "lo": 43.8,
-   "hi": 62.4
+   "lo": 44.9,
+   "hi": 63.6
   },
   "ci50": {
-   "lo": 48.2,
-   "hi": 58.0
+   "lo": 49.3,
+   "hi": 59.2
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "4bd414c1",
    "season": 2019,
-   "distance": 1.293,
+   "distance": 1.316,
    "survived": 1,
    "fut_ability_v2": 54.4,
    "player_name": "Raúl Albiol",
    "squad": "Napoli"
   },
   {
-   "fbref_id": "53de807a",
-   "season": 2020,
-   "distance": 1.616,
+   "fbref_id": "070ec0b1",
+   "season": 2021,
+   "distance": 1.503,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Ștefan Radu",
-   "squad": "Lazio"
+   "player_name": "Sven Bender",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "2db2fd7b",
+   "season": 2022,
+   "distance": 1.566,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérôme Boateng",
+   "squad": "Lyon"
   },
   {
    "fbref_id": "e0314d87",
    "season": 2020,
-   "distance": 1.641,
+   "distance": 1.67,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andrea Masiello",
    "squad": "Genoa / Atalanta"
   },
   {
+   "fbref_id": "53de807a",
+   "season": 2020,
+   "distance": 1.682,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
    "fbref_id": "16714a62",
    "season": 2019,
-   "distance": 1.823,
+   "distance": 1.837,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Khaled Adénon",
    "squad": "Amiens"
-  },
-  {
-   "fbref_id": "e85fb9b8",
-   "season": 2018,
-   "distance": 1.842,
-   "survived": 1,
-   "fut_ability_v2": 58.6,
-   "player_name": "Giorgio Chiellini",
-   "squad": "Juventus"
   },
   {
    "fbref_id": "314f2124",
@@ -101,40 +110,31 @@
    "squad": "Inter"
   },
   {
-   "fbref_id": "9ab16552",
+   "fbref_id": "e85fb9b8",
    "season": 2018,
-   "distance": 1.938,
+   "distance": 1.898,
    "survived": 1,
-   "fut_ability_v2": 59.4,
-   "player_name": "Makoto Hasebe",
-   "squad": "Eint Frankfurt"
+   "fut_ability_v2": 58.6,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
   },
   {
-   "fbref_id": "5d311e8d",
-   "season": 2019,
-   "distance": 1.966,
+   "fbref_id": "00844823",
+   "season": 2021,
+   "distance": 1.901,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Héctor Moreno",
-   "squad": "Real Sociedad"
+   "player_name": "Niklas Moisander",
+   "squad": "Werder Bremen"
   },
   {
-   "fbref_id": "3f5b4635",
-   "season": 2020,
-   "distance": 1.978,
+   "fbref_id": "474ecac8",
+   "season": 2021,
+   "distance": 1.916,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Daniel Congré",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "ad178594",
-   "season": 2019,
-   "distance": 1.979,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Raúl Navas",
-   "squad": "Real Sociedad"
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Aïssa Mandi(DF)의 현재 능력 점수는 59.1점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 최종 3분의1 패스, 태클 성공률, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 클리어링이다.",
-  "potential": "Aïssa Mandi의 2~3년 후 예측 중심값은 53.2점, 80% 구간 상단은 62.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 38.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Aïssa Mandi의 2~3년 후 예측 중심값은 54.2점, 80% 구간 상단은 63.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7695,
-  "mu": 54.1,
+  "survival_prob": 0.8485,
+  "mu": 56.1,
   "ci80": {
-   "lo": 44.9,
-   "hi": 63.3
+   "lo": 46.8,
+   "hi": 65.3
   },
   "ci50": {
-   "lo": 49.3,
-   "hi": 58.9
+   "lo": 51.2,
+   "hi": 61.0
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "274ab13c",
+   "season": 2022,
+   "distance": 0.945,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Catena",
+   "squad": "Rayo Vallecano"
+  },
+  {
    "fbref_id": "f35430a4",
    "season": 2019,
-   "distance": 1.081,
+   "distance": 1.086,
    "survived": 1,
    "fut_ability_v2": 49.7,
    "player_name": "Matija Nastasić",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "f03f284b",
    "season": 2018,
-   "distance": 1.234,
+   "distance": 1.187,
    "survived": 1,
    "fut_ability_v2": 54.2,
    "player_name": "David López",
    "squad": "Espanyol"
   },
   {
-   "fbref_id": "b4a014b1",
-   "season": 2020,
-   "distance": 1.282,
-   "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Diego Carlos",
-   "squad": "Sevilla"
-  },
-  {
    "fbref_id": "282f75f3",
    "season": 2019,
-   "distance": 1.337,
+   "distance": 1.292,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Lewis Dunk",
    "squad": "Brighton"
   },
   {
-   "fbref_id": "4242011c",
-   "season": 2018,
-   "distance": 1.368,
+   "fbref_id": "b4a014b1",
+   "season": 2020,
+   "distance": 1.299,
    "survived": 1,
-   "fut_ability_v2": 50.6,
-   "player_name": "Bernardo Espinosa",
-   "squad": "Girona"
+   "fut_ability_v2": 60.2,
+   "player_name": "Diego Carlos",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "4d1efb48",
+   "season": 2022,
+   "distance": 1.306,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pietro Ceccaroni",
+   "squad": "Venezia"
   },
   {
    "fbref_id": "27a013f7",
    "season": 2019,
-   "distance": 1.37,
+   "distance": 1.345,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Néstor Araujo",
    "squad": "Celta Vigo"
   },
   {
+   "fbref_id": "4242011c",
+   "season": 2018,
+   "distance": 1.364,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Bernardo Espinosa",
+   "squad": "Girona"
+  },
+  {
+   "fbref_id": "302527b2",
+   "season": 2022,
+   "distance": 1.417,
+   "survived": 1,
+   "fut_ability_v2": 58.2,
+   "player_name": "Philipp Lienhart",
+   "squad": "Freiburg"
+  },
+  {
    "fbref_id": "c6056d58",
    "season": 2018,
-   "distance": 1.415,
+   "distance": 1.47,
    "survived": 1,
    "fut_ability_v2": 55.8,
    "player_name": "Kamil Glik",
    "squad": "Monaco"
-  },
-  {
-   "fbref_id": "b857bd29",
-   "season": 2020,
-   "distance": 1.503,
-   "survived": 1,
-   "fut_ability_v2": 45.9,
-   "player_name": "Antonio Raillo",
-   "squad": "Mallorca"
-  },
-  {
-   "fbref_id": "27a013f7",
-   "season": 2020,
-   "distance": 1.537,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Néstor Araujo",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "bc6f5f06",
-   "season": 2019,
-   "distance": 1.556,
-   "survived": 1,
-   "fut_ability_v2": 42.2,
-   "player_name": "Sergi Gómez",
-   "squad": "Sevilla"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Sebastiano Luperto(DF)의 현재 능력 점수는 56.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 공중볼 승률, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 블록이다.",
-  "potential": "Sebastiano Luperto의 2~3년 후 예측 중심값은 54.1점, 80% 구간 상단은 63.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 77.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Sebastiano Luperto의 2~3년 후 예측 중심값은 56.1점, 80% 구간 상단은 65.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

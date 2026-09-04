@@ -32,24 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9686,
-  "mu": 63.1,
+  "survival_prob": 0.7914,
+  "mu": 63.6,
   "ci80": {
-   "lo": 52.6,
-   "hi": 73.6
+   "lo": 53.1,
+   "hi": 74.1
   },
   "ci50": {
-   "lo": 57.7,
-   "hi": 68.7
+   "lo": 58.1,
+   "hi": 69.0
   },
-  "sigma_model": 1.7,
+  "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "b5bf1770",
+   "season": 2021,
+   "distance": 1.213,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lyanco",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "ae7058f9",
+   "season": 2021,
+   "distance": 1.366,
+   "survived": 1,
+   "fut_ability_v2": 71.2,
+   "player_name": "Julian Chabot",
+   "squad": "Spezia"
+  },
+  {
+   "fbref_id": "0a3d6d2b",
+   "season": 2022,
+   "distance": 1.436,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Chris Richards",
+   "squad": "Hoffenheim / Bayern Munich"
+  },
+  {
+   "fbref_id": "5515376c",
+   "season": 2022,
+   "distance": 1.541,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Trevoh Chalobah",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "815c314f",
    "season": 2019,
-   "distance": 1.448,
+   "distance": 1.547,
    "survived": 1,
    "fut_ability_v2": 67.2,
    "player_name": "Marc-Oliver Kempf",
@@ -58,7 +94,7 @@
   {
    "fbref_id": "f86cabbd",
    "season": 2020,
-   "distance": 1.574,
+   "distance": 1.619,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jordan Torunarigha",
@@ -67,74 +103,38 @@
   {
    "fbref_id": "7edfbb8a",
    "season": 2020,
-   "distance": 1.606,
+   "distance": 1.66,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Fikayo Tomori",
    "squad": "Chelsea"
   },
   {
-   "fbref_id": "cfbf9881",
-   "season": 2018,
-   "distance": 1.674,
+   "fbref_id": "fcb27134",
+   "season": 2022,
+   "distance": 1.661,
    "survived": 1,
-   "fut_ability_v2": 47.4,
-   "player_name": "Ibrahima Mbaye",
-   "squad": "Bologna"
+   "fut_ability_v2": 71.0,
+   "player_name": "Mohamed Simakan",
+   "squad": "RB Leipzig"
   },
   {
-   "fbref_id": "d61b3354",
-   "season": 2019,
-   "distance": 1.716,
+   "fbref_id": "8b6e0db2",
+   "season": 2021,
+   "distance": 1.661,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Wallace",
-   "squad": "Lazio"
+   "player_name": "Reece Oxford",
+   "squad": "Augsburg"
   },
   {
-   "fbref_id": "2a6cd437",
-   "season": 2020,
-   "distance": 1.795,
+   "fbref_id": "515ebe8d",
+   "season": 2021,
+   "distance": 1.691,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Marin Pongračić",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "7f609bfc",
-   "season": 2019,
-   "distance": 1.823,
-   "survived": 1,
-   "fut_ability_v2": 61.1,
-   "player_name": "Stefan Posch",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "f7dc2ae5",
-   "season": 2018,
-   "distance": 1.847,
-   "survived": 1,
-   "fut_ability_v2": 65.8,
-   "player_name": "Aritz Elustondo",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "d0042ab9",
-   "season": 2020,
-   "distance": 1.899,
-   "survived": 1,
-   "fut_ability_v2": 48.7,
-   "player_name": "Mason Holgate",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "aad48be9",
-   "season": 2019,
-   "distance": 1.904,
-   "survived": 1,
-   "fut_ability_v2": 58.5,
-   "player_name": "Niklas Stark",
-   "squad": "Hertha BSC"
+   "player_name": "Nathaniel Phillips",
+   "squad": "Liverpool"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Christopher Wooh(DF)의 현재 능력 점수는 65.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 태클+인터셉트, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 볼 리커버리이다.",
-  "potential": "Christopher Wooh의 2~3년 후 예측 중심값은 63.1점, 80% 구간 상단은 73.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Christopher Wooh의 2~3년 후 예측 중심값은 63.6점, 80% 구간 상단은 74.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 79.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

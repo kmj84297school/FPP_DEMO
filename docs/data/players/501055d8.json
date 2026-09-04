@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9048,
-  "mu": 65.8,
+  "survival_prob": 0.9284,
+  "mu": 64.2,
   "ci80": {
-   "lo": 55.0,
-   "hi": 76.7
+   "lo": 53.4,
+   "hi": 75.0
   },
   "ci50": {
-   "lo": 60.1,
-   "hi": 71.6
+   "lo": 58.5,
+   "hi": 69.9
   },
-  "sigma_model": 2.7,
+  "sigma_model": 2.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "4737cebe",
    "season": 2018,
-   "distance": 2.654,
+   "distance": 2.768,
    "survived": 1,
    "fut_ability_v2": 68.4,
    "player_name": "Adnan Januzaj",
    "squad": "Real Sociedad"
   },
   {
+   "fbref_id": "8aafd64f",
+   "season": 2022,
+   "distance": 2.813,
+   "survived": 1,
+   "fut_ability_v2": 75.0,
+   "player_name": "João Félix",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "3a233281",
+   "season": 2021,
+   "distance": 2.837,
+   "survived": 1,
+   "fut_ability_v2": 71.0,
+   "player_name": "Leon Bailey",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "88e357ef",
    "season": 2018,
-   "distance": 2.885,
+   "distance": 2.919,
    "survived": 1,
    "fut_ability_v2": 76.4,
    "player_name": "Serge Gnabry",
@@ -67,7 +85,7 @@
   {
    "fbref_id": "178ae8f8",
    "season": 2019,
-   "distance": 3.026,
+   "distance": 3.017,
    "survived": 1,
    "fut_ability_v2": 78.3,
    "player_name": "Diogo Jota",
@@ -76,34 +94,34 @@
   {
    "fbref_id": "2b114be3",
    "season": 2019,
-   "distance": 3.068,
+   "distance": 3.132,
    "survived": 1,
    "fut_ability_v2": 73.3,
    "player_name": "Leroy Sané",
    "squad": "Manchester City"
   },
   {
-   "fbref_id": "6c6a3300",
-   "season": 2019,
-   "distance": 3.236,
-   "survived": 1,
-   "fut_ability_v2": 47.8,
-   "player_name": "Milot Rashica",
-   "squad": "Werder Bremen"
-  },
-  {
    "fbref_id": "0b4f388a",
    "season": 2020,
-   "distance": 3.245,
+   "distance": 3.168,
    "survived": 1,
    "fut_ability_v2": 62.4,
    "player_name": "Breel Embolo",
    "squad": "M'Gladbach"
   },
   {
+   "fbref_id": "6c6a3300",
+   "season": 2019,
+   "distance": 3.297,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Milot Rashica",
+   "squad": "Werder Bremen"
+  },
+  {
    "fbref_id": "2b114be3",
    "season": 2018,
-   "distance": 3.392,
+   "distance": 3.421,
    "survived": 1,
    "fut_ability_v2": 67.3,
    "player_name": "Leroy Sané",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "b0f7e36c",
    "season": 2020,
-   "distance": 3.413,
+   "distance": 3.455,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Federico Chiesa",
    "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "6f8cd6d0",
-   "season": 2020,
-   "distance": 3.5,
-   "survived": 1,
-   "fut_ability_v2": 66.5,
-   "player_name": "Marcus Thuram",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "c17bfb65",
-   "season": 2019,
-   "distance": 3.673,
-   "survived": 1,
-   "fut_ability_v2": 51.3,
-   "player_name": "Joelinton",
-   "squad": "Hoffenheim"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Karim Adeyemi(FW)의 현재 능력 점수는 74.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 도움 기대값(xAG), 어시스트, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스이다.",
-  "potential": "Karim Adeyemi의 2~3년 후 예측 중심값은 65.8점, 80% 구간 상단은 76.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 90.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Karim Adeyemi의 2~3년 후 예측 중심값은 64.2점, 80% 구간 상단은 75.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

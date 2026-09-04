@@ -32,42 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.423,
-  "mu": 53.2,
+  "survival_prob": 0.3463,
+  "mu": 55.4,
   "ci80": {
-   "lo": 43.9,
-   "hi": 62.3
+   "lo": 46.1,
+   "hi": 64.6
   },
   "ci50": {
-   "lo": 48.3,
-   "hi": 58.0
+   "lo": 50.5,
+   "hi": 60.2
   },
   "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f1bed920",
    "season": 2020,
-   "distance": 1.959,
+   "distance": 2.009,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kévin Rodrigues",
    "squad": "Leganés / Real Sociedad"
   },
   {
+   "fbref_id": "de112b84",
+   "season": 2021,
+   "distance": 2.04,
+   "survived": 1,
+   "fut_ability_v2": 70.5,
+   "player_name": "Jacob Murphy",
+   "squad": "Newcastle Utd"
+  },
+  {
+   "fbref_id": "6b2c894b",
+   "season": 2022,
+   "distance": 2.206,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ghislain Konan",
+   "squad": "Reims"
+  },
+  {
    "fbref_id": "1f079188",
    "season": 2018,
-   "distance": 2.174,
+   "distance": 2.209,
    "survived": 1,
    "fut_ability_v2": 56.1,
    "player_name": "Rubén Peña",
    "squad": "Eibar"
   },
   {
+   "fbref_id": "5d8d7454",
+   "season": 2021,
+   "distance": 2.234,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Frederic Guilbert",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "246d153b",
+   "season": 2022,
+   "distance": 2.269,
+   "survived": 1,
+   "fut_ability_v2": 47.7,
+   "player_name": "Ola Aina",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "75a72a99",
+   "season": 2021,
+   "distance": 2.302,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ricardo Pereira",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "608f2092",
    "season": 2018,
-   "distance": 2.254,
+   "distance": 2.323,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Johan Mojica",
@@ -76,65 +121,20 @@
   {
    "fbref_id": "fba81826",
    "season": 2020,
-   "distance": 2.528,
+   "distance": 2.415,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Federico Mattiello",
    "squad": "Cagliari"
   },
   {
-   "fbref_id": "19a12bed",
-   "season": 2019,
-   "distance": 2.572,
-   "survived": 1,
-   "fut_ability_v2": 56.1,
-   "player_name": "Hassane Kamara",
-   "squad": "Reims"
-  },
-  {
-   "fbref_id": "e4b72e34",
-   "season": 2020,
-   "distance": 2.585,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Miguel Trauco",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "493924a7",
-   "season": 2020,
-   "distance": 2.694,
-   "survived": 1,
-   "fut_ability_v2": 63.8,
-   "player_name": "Kevin Mbabu",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "59b7d823",
-   "season": 2018,
-   "distance": 2.721,
+   "fbref_id": "6213fd82",
+   "season": 2021,
+   "distance": 2.49,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Iñigo Lekue",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "839c14e1",
-   "season": 2019,
-   "distance": 2.721,
-   "survived": 1,
-   "fut_ability_v2": 56.2,
-   "player_name": "Cédric Soares",
-   "squad": "Southampton / Inter"
-  },
-  {
-   "fbref_id": "45e17712",
-   "season": 2018,
-   "distance": 2.745,
-   "survived": 1,
-   "fut_ability_v2": 40.1,
-   "player_name": "Dimitri Foulquier",
-   "squad": "Strasbourg"
+   "player_name": "Arkadiusz Reca",
+   "squad": "Crotone"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Lilian Raolisoa(DF)의 현재 능력 점수는 54.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 어시스트, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 태클 성공률이다.",
-  "potential": "Lilian Raolisoa의 2~3년 후 예측 중심값은 53.2점, 80% 구간 상단은 62.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lilian Raolisoa의 2~3년 후 예측 중심값은 55.4점, 80% 구간 상단은 64.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

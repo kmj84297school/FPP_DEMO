@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8969,
-  "mu": 50.7,
+  "survival_prob": 0.8746,
+  "mu": 48.2,
   "ci80": {
-   "lo": 41.4,
-   "hi": 59.9
+   "lo": 38.9,
+   "hi": 57.4
   },
   "ci50": {
-   "lo": 45.8,
-   "hi": 55.5
+   "lo": 43.3,
+   "hi": 53.1
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "bbd86530",
    "season": 2020,
-   "distance": 2.149,
+   "distance": 2.12,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Christopher Lenz",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "c067631c",
    "season": 2020,
-   "distance": 2.261,
+   "distance": 2.172,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ryan Fredericks",
@@ -67,16 +67,34 @@
   {
    "fbref_id": "ae0a7ddf",
    "season": 2019,
-   "distance": 2.341,
+   "distance": 2.333,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "DeAndre Yedlin",
    "squad": "Newcastle Utd"
   },
   {
+   "fbref_id": "8a3c1dc7",
+   "season": 2022,
+   "distance": 2.384,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rico Henry",
+   "squad": "Brentford"
+  },
+  {
+   "fbref_id": "5db04597",
+   "season": 2022,
+   "distance": 2.386,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Pablo Maffeo",
+   "squad": "Mallorca"
+  },
+  {
    "fbref_id": "9e1577aa",
    "season": 2018,
-   "distance": 2.364,
+   "distance": 2.433,
    "survived": 1,
    "fut_ability_v2": 53.6,
    "player_name": "Cristiano Biraghi",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "de488e56",
    "season": 2018,
-   "distance": 2.499,
+   "distance": 2.497,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Charles Traore",
@@ -94,7 +112,7 @@
   {
    "fbref_id": "839c14e1",
    "season": 2018,
-   "distance": 2.502,
+   "distance": 2.54,
    "survived": 1,
    "fut_ability_v2": 54.7,
    "player_name": "Cédric Soares",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "f2308b33",
    "season": 2019,
-   "distance": 2.525,
+   "distance": 2.571,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jonathan Silva",
    "squad": "Leganés"
   },
   {
-   "fbref_id": "394854c4",
-   "season": 2020,
-   "distance": 2.582,
+   "fbref_id": "bbd86530",
+   "season": 2021,
+   "distance": 2.603,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "George Baldock",
-   "squad": "Sheffield Utd"
-  },
-  {
-   "fbref_id": "5c2b4f07",
-   "season": 2020,
-   "distance": 2.629,
-   "survived": 1,
-   "fut_ability_v2": 66.8,
-   "player_name": "Serge Aurier",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "13203c45",
-   "season": 2020,
-   "distance": 2.632,
-   "survived": 1,
-   "fut_ability_v2": 48.7,
-   "player_name": "Jérôme Roussillon",
-   "squad": "Wolfsburg"
+   "player_name": "Christopher Lenz",
+   "squad": "Union Berlin"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Tyrick Mitchell(DF)의 현재 능력 점수는 52.5점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 도움 기대값(xAG), 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 최종 3분의1 패스이다.",
-  "potential": "Tyrick Mitchell의 2~3년 후 예측 중심값은 50.7점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 89.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Tyrick Mitchell의 2~3년 후 예측 중심값은 48.2점, 80% 구간 상단은 57.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 87.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1186,
-  "mu": 50.6,
+  "survival_prob": 0.0611,
+  "mu": 47.2,
   "ci80": {
-   "lo": 41.3,
-   "hi": 60.0
+   "lo": 37.6,
+   "hi": 56.7
   },
   "ci50": {
-   "lo": 45.7,
-   "hi": 55.5
+   "lo": 42.1,
+   "hi": 52.1
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "12aa7661",
    "season": 2020,
-   "distance": 3.305,
+   "distance": 3.301,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "José Holebas",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "99b1d0e6",
    "season": 2020,
-   "distance": 3.36,
+   "distance": 3.354,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Stephan Lichtsteiner",
@@ -67,16 +67,34 @@
   {
    "fbref_id": "1c8c5aed",
    "season": 2019,
-   "distance": 3.429,
+   "distance": 3.443,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cristian Molinaro",
    "squad": "Frosinone"
   },
   {
+   "fbref_id": "be927d03",
+   "season": 2022,
+   "distance": 3.54,
+   "survived": 1,
+   "fut_ability_v2": 46.2,
+   "player_name": "Ashley Young",
+   "squad": "Aston Villa"
+  },
+  {
+   "fbref_id": "635b0bae",
+   "season": 2018,
+   "distance": 3.819,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Massimo Gobbi",
+   "squad": "Chievo"
+  },
+  {
    "fbref_id": "edd6c8e9",
    "season": 2019,
-   "distance": 3.765,
+   "distance": 3.832,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Darijo Srna",
@@ -84,17 +102,8 @@
   },
   {
    "fbref_id": "635b0bae",
-   "season": 2018,
-   "distance": 3.773,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Massimo Gobbi",
-   "squad": "Chievo"
-  },
-  {
-   "fbref_id": "635b0bae",
    "season": 2019,
-   "distance": 4.045,
+   "distance": 4.032,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Massimo Gobbi",
@@ -103,38 +112,29 @@
   {
    "fbref_id": "78803d03",
    "season": 2019,
-   "distance": 4.136,
+   "distance": 4.095,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bruno",
    "squad": "Brighton"
+  },
+  {
+   "fbref_id": "a60823a4",
+   "season": 2021,
+   "distance": 4.127,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pedro López Muñoz",
+   "squad": "Huesca"
   },
   {
    "fbref_id": "78803d03",
    "season": 2018,
-   "distance": 4.255,
+   "distance": 4.21,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bruno",
    "squad": "Brighton"
-  },
-  {
-   "fbref_id": "548902cc",
-   "season": 2019,
-   "distance": 4.364,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Manuel Pasqual",
-   "squad": "Empoli"
-  },
-  {
-   "fbref_id": "5a3f6fae",
-   "season": 2018,
-   "distance": 4.564,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fernando Navarro",
-   "squad": "La Coruña"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Christopher Trimmel(DF)의 현재 능력 점수는 54.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 슈팅 창출(SCA), 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 전진 운반 거리이다.",
-  "potential": "Christopher Trimmel의 2~3년 후 예측 중심값은 50.6점, 80% 구간 상단은 60.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 11.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Christopher Trimmel의 2~3년 후 예측 중심값은 47.2점, 80% 구간 상단은 56.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 6.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,42 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9406,
-  "mu": 63.0,
+  "survival_prob": 0.8888,
+  "mu": 64.0,
   "ci80": {
-   "lo": 52.1,
-   "hi": 74.0
+   "lo": 53.5,
+   "hi": 74.6
   },
   "ci50": {
-   "lo": 57.2,
-   "hi": 68.8
+   "lo": 58.5,
+   "hi": 69.6
   },
-  "sigma_model": 2.9,
+  "sigma_model": 2.1,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "5e080f73",
    "season": 2020,
-   "distance": 1.995,
+   "distance": 1.928,
    "survived": 1,
    "fut_ability_v2": 42.9,
    "player_name": "Irvin Cardona",
    "squad": "Brest"
   },
   {
+   "fbref_id": "20730eae",
+   "season": 2021,
+   "distance": 2.237,
+   "survived": 1,
+   "fut_ability_v2": 83.7,
+   "player_name": "Rafael Leão",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "0562b7f1",
+   "season": 2022,
+   "distance": 2.309,
+   "survived": 1,
+   "fut_ability_v2": 49.5,
+   "player_name": "Odsonne Édouard",
+   "squad": "Crystal Palace"
+  },
+  {
    "fbref_id": "2054d037",
    "season": 2019,
-   "distance": 2.613,
+   "distance": 2.541,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "M'Baye Niang",
    "squad": "Rennes"
   },
   {
+   "fbref_id": "2c44a35d",
+   "season": 2022,
+   "distance": 2.578,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emmanuel Dennis",
+   "squad": "Watford"
+  },
+  {
+   "fbref_id": "0c61c77c",
+   "season": 2021,
+   "distance": 2.588,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Dodi Lukebakio",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "2374aaca",
+   "season": 2022,
+   "distance": 2.729,
+   "survived": 1,
+   "fut_ability_v2": 58.9,
+   "player_name": "Nicolás González",
+   "squad": "Fiorentina"
+  },
+  {
    "fbref_id": "178ae8f8",
    "season": 2019,
-   "distance": 2.721,
+   "distance": 2.747,
    "survived": 1,
    "fut_ability_v2": 78.3,
    "player_name": "Diogo Jota",
@@ -76,7 +121,7 @@
   {
    "fbref_id": "d2416c2e",
    "season": 2018,
-   "distance": 2.845,
+   "distance": 2.816,
    "survived": 1,
    "fut_ability_v2": 64.2,
    "player_name": "Yussuf Poulsen",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "1238a3f9",
    "season": 2019,
-   "distance": 2.87,
+   "distance": 2.842,
    "survived": 1,
    "fut_ability_v2": 29.8,
    "player_name": "Davie Selke",
    "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "0b90bb97",
-   "season": 2020,
-   "distance": 2.928,
-   "survived": 1,
-   "fut_ability_v2": 42.9,
-   "player_name": "Santi Mina",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "fa031b34",
-   "season": 2020,
-   "distance": 2.93,
-   "survived": 1,
-   "fut_ability_v2": 49.4,
-   "player_name": "Richarlison",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "aa1a8c7e",
-   "season": 2018,
-   "distance": 3.049,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Isaac Mbenza",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "6f8cd6d0",
-   "season": 2020,
-   "distance": 3.07,
-   "survived": 1,
-   "fut_ability_v2": 66.5,
-   "player_name": "Marcus Thuram",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "49fe9070",
-   "season": 2018,
-   "distance": 3.081,
-   "survived": 1,
-   "fut_ability_v2": 77.6,
-   "player_name": "Timo Werner",
-   "squad": "RB Leipzig"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Adam Hložek(FW)의 현재 능력 점수는 63.9점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 태클 성공률, 유효슈팅, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 슈팅당 기대득점이다.",
-  "potential": "Adam Hložek의 2~3년 후 예측 중심값은 63.0점, 80% 구간 상단은 74.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 94.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Adam Hložek의 2~3년 후 예측 중심값은 64.0점, 80% 구간 상단은 74.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 88.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

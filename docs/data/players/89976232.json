@@ -32,42 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2917,
-  "mu": 51.9,
+  "survival_prob": 0.2299,
+  "mu": 50.6,
   "ci80": {
-   "lo": 42.7,
-   "hi": 61.2
+   "lo": 41.3,
+   "hi": 59.8
   },
   "ci50": {
-   "lo": 47.1,
-   "hi": 56.8
+   "lo": 45.7,
+   "hi": 55.4
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a63a995f",
    "season": 2019,
-   "distance": 1.25,
+   "distance": 1.247,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabian Lustenberger",
    "squad": "Hertha BSC"
   },
   {
+   "fbref_id": "e0314d87",
+   "season": 2021,
+   "distance": 1.269,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Masiello",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "6993927b",
+   "season": 2022,
+   "distance": 1.346,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Florent Ogier",
+   "squad": "Clermont Foot"
+  },
+  {
    "fbref_id": "314f2124",
    "season": 2018,
-   "distance": 1.314,
+   "distance": 1.404,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Miranda",
    "squad": "Inter"
   },
   {
+   "fbref_id": "023937a9",
+   "season": 2021,
+   "distance": 1.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ivan Radovanović",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "b682dcf6",
+   "season": 2019,
+   "distance": 1.528,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sokratis Papastathopoulos",
+   "squad": "Arsenal"
+  },
+  {
    "fbref_id": "3f5b4635",
    "season": 2020,
-   "distance": 1.486,
+   "distance": 1.583,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Daniel Congré",
@@ -76,61 +112,25 @@
   {
    "fbref_id": "b666421b",
    "season": 2020,
-   "distance": 1.504,
+   "distance": 1.603,
    "survived": 1,
    "fut_ability_v2": 43.9,
    "player_name": "Ismaël Traoré",
    "squad": "Angers"
   },
   {
-   "fbref_id": "b682dcf6",
-   "season": 2019,
-   "distance": 1.504,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sokratis Papastathopoulos",
-   "squad": "Arsenal"
-  },
-  {
    "fbref_id": "6b200d45",
    "season": 2020,
-   "distance": 1.579,
+   "distance": 1.61,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Loïc Perrin",
    "squad": "Saint-Étienne"
   },
   {
-   "fbref_id": "16714a62",
-   "season": 2019,
-   "distance": 1.581,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Khaled Adénon",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "8aa5f52c",
-   "season": 2019,
-   "distance": 1.604,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Adrian Mariappa",
-   "squad": "Watford"
-  },
-  {
-   "fbref_id": "6e5b5a45",
-   "season": 2019,
-   "distance": 1.649,
-   "survived": 1,
-   "fut_ability_v2": 48.1,
-   "player_name": "Wesley Lautoa",
-   "squad": "Dijon"
-  },
-  {
    "fbref_id": "779847d6",
    "season": 2020,
-   "distance": 1.654,
+   "distance": 1.638,
    "survived": 1,
    "fut_ability_v2": 60.0,
    "player_name": "Nicolas Pallois",
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Armando Izzo(DF)의 현재 능력 점수는 54.4점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 블록, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 태클 성공률이다.",
-  "potential": "Armando Izzo의 2~3년 후 예측 중심값은 51.9점, 80% 구간 상단은 61.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Armando Izzo의 2~3년 후 예측 중심값은 50.6점, 80% 구간 상단은 59.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 23.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

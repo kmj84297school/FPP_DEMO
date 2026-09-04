@@ -32,24 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.988,
-  "mu": 70.3,
+  "survival_prob": 0.966,
+  "mu": 72.0,
   "ci80": {
-   "lo": 59.4,
-   "hi": 81.1
+   "lo": 61.3,
+   "hi": 82.9
   },
   "ci50": {
-   "lo": 64.5,
-   "hi": 76.0
+   "lo": 66.3,
+   "hi": 77.7
   },
   "sigma_model": 2.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "864163f3",
+   "season": 2022,
+   "distance": 2.727,
+   "survived": 1,
+   "fut_ability_v2": 63.8,
+   "player_name": "Donyell Malen",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "2d22cea7",
+   "season": 2022,
+   "distance": 3.089,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Armand Lauriente",
+   "squad": "Lorient"
+  },
+  {
+   "fbref_id": "e5bf73f3",
+   "season": 2022,
+   "distance": 3.091,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Musa Barrow",
+   "squad": "Bologna"
+  },
+  {
    "fbref_id": "8b788c01",
    "season": 2019,
-   "distance": 3.05,
+   "distance": 3.13,
    "survived": 1,
    "fut_ability_v2": 66.9,
    "player_name": "Anthony Martial",
@@ -58,86 +85,59 @@
   {
    "fbref_id": "178ae8f8",
    "season": 2020,
-   "distance": 3.144,
+   "distance": 3.192,
    "survived": 1,
    "fut_ability_v2": 81.2,
    "player_name": "Diogo Jota",
    "squad": "Wolves"
   },
   {
+   "fbref_id": "9907b1c8",
+   "season": 2022,
+   "distance": 3.221,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nicolò Zaniolo",
+   "squad": "Roma"
+  },
+  {
    "fbref_id": "8b788c01",
    "season": 2020,
-   "distance": 3.246,
+   "distance": 3.236,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Anthony Martial",
    "squad": "Manchester Utd"
   },
   {
+   "fbref_id": "fed7cb61",
+   "season": 2022,
+   "distance": 3.326,
+   "survived": 1,
+   "fut_ability_v2": 63.2,
+   "player_name": "Kai Havertz",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "03f946ed",
    "season": 2018,
-   "distance": 3.344,
+   "distance": 3.333,
    "survived": 1,
    "fut_ability_v2": 56.3,
    "player_name": "Andrea Petagna",
    "squad": "Atalanta"
   },
   {
-   "fbref_id": "5e861944",
-   "season": 2018,
-   "distance": 3.408,
+   "fbref_id": "2374aaca",
+   "season": 2022,
+   "distance": 3.365,
    "survived": 1,
-   "fut_ability_v2": 69.3,
-   "player_name": "Matteo Politano",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "57e3f0c7",
-   "season": 2018,
-   "distance": 3.484,
-   "survived": 1,
-   "fut_ability_v2": 57.9,
-   "player_name": "Nicolas Pépé",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "3effaa34",
-   "season": 2019,
-   "distance": 3.489,
-   "survived": 1,
-   "fut_ability_v2": 67.2,
-   "player_name": "André Silva",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "88e357ef",
-   "season": 2018,
-   "distance": 3.606,
-   "survived": 1,
-   "fut_ability_v2": 76.4,
-   "player_name": "Serge Gnabry",
-   "squad": "Hoffenheim"
-  },
-  {
-   "fbref_id": "90fcf472",
-   "season": 2019,
-   "distance": 3.74,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Wesley Saïd",
-   "squad": "Dijon"
-  },
-  {
-   "fbref_id": "8696bc90",
-   "season": 2020,
-   "distance": 3.808,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Munir El Haddadi",
-   "squad": "Sevilla"
+   "fut_ability_v2": 58.9,
+   "player_name": "Nicolás González",
+   "squad": "Fiorentina"
   }
  ],
- "low_confidence": true,
+ "low_confidence": false,
  "report": {
   "strengths": [
    {
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Gabriel Martinelli(FW)의 현재 능력 점수는 64.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 박스 터치, 전진 패스 수신, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 골 창출(GCA)이다.",
-  "potential": "Gabriel Martinelli의 2~3년 후 예측 중심값은 70.3점, 80% 구간 상단은 81.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Gabriel Martinelli의 2~3년 후 예측 중심값은 72.0점, 80% 구간 상단은 82.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

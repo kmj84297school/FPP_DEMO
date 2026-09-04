@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7541,
-  "mu": 60.7,
+  "survival_prob": 0.5753,
+  "mu": 60.6,
   "ci80": {
-   "lo": 51.2,
-   "hi": 70.1
+   "lo": 50.8,
+   "hi": 70.3
   },
   "ci50": {
-   "lo": 55.6,
-   "hi": 65.6
+   "lo": 55.4,
+   "hi": 65.7
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 2.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "c691bfe2",
+   "season": 2022,
+   "distance": 2.353,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
    "fbref_id": "a58bb1e1",
    "season": 2019,
-   "distance": 2.667,
+   "distance": 2.607,
    "survived": 1,
    "fut_ability_v2": 76.6,
    "player_name": "Gareth Bale",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "4d034881",
    "season": 2019,
-   "distance": 2.7,
+   "distance": 2.645,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sergio Agüero",
@@ -67,16 +76,34 @@
   {
    "fbref_id": "4d034881",
    "season": 2018,
-   "distance": 2.705,
+   "distance": 2.682,
    "survived": 1,
    "fut_ability_v2": 75.2,
    "player_name": "Sergio Agüero",
    "squad": "Manchester City"
   },
   {
+   "fbref_id": "ac05f970",
+   "season": 2021,
+   "distance": 2.697,
+   "survived": 1,
+   "fut_ability_v2": 34.3,
+   "player_name": "Michail Antonio",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "603cb947",
+   "season": 2021,
+   "distance": 2.787,
+   "survived": 1,
+   "fut_ability_v2": 72.7,
+   "player_name": "Andrej Kramarić",
+   "squad": "Hoffenheim"
+  },
+  {
    "fbref_id": "d5dd5f1f",
    "season": 2019,
-   "distance": 2.867,
+   "distance": 2.853,
    "survived": 1,
    "fut_ability_v2": 53.5,
    "player_name": "Pierre-Emerick Aubameyang",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "93b891d1",
    "season": 2019,
-   "distance": 2.948,
+   "distance": 2.892,
    "survived": 1,
    "fut_ability_v2": 59.6,
    "player_name": "Felipe Caicedo",
    "squad": "Lazio"
   },
   {
-   "fbref_id": "a6154613",
-   "season": 2019,
-   "distance": 2.977,
+   "fbref_id": "942b4f90",
+   "season": 2022,
+   "distance": 2.926,
    "survived": 1,
-   "fut_ability_v2": 56.5,
-   "player_name": "Luis Suárez",
-   "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "3bb7f478",
-   "season": 2019,
-   "distance": 3.015,
-   "survived": 1,
-   "fut_ability_v2": 75.0,
-   "player_name": "Edin Džeko",
-   "squad": "Roma"
+   "fut_ability_v2": 64.8,
+   "player_name": "Wissam Ben Yedder",
+   "squad": "Monaco"
   },
   {
    "fbref_id": "70d74ece",
    "season": 2019,
-   "distance": 3.029,
+   "distance": 2.993,
    "survived": 1,
    "fut_ability_v2": 85.4,
    "player_name": "Karim Benzema",
    "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "7dcf86f6",
-   "season": 2018,
-   "distance": 3.076,
-   "survived": 1,
-   "fut_ability_v2": 68.5,
-   "player_name": "Iago Aspas",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "42276181",
-   "season": 2019,
-   "distance": 3.174,
-   "survived": 1,
-   "fut_ability_v2": 44.9,
-   "player_name": "Kévin Gameiro",
-   "squad": "Valencia"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Ayoze Pérez(FW)의 현재 능력 점수는 70.3점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 비페널티 xG, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 골 창출(GCA), 어시스트이다.",
-  "potential": "Ayoze Pérez의 2~3년 후 예측 중심값은 60.7점, 80% 구간 상단은 70.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ayoze Pérez의 2~3년 후 예측 중심값은 60.6점, 80% 구간 상단은 70.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 57.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

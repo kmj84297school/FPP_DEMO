@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9846,
-  "mu": 61.7,
+  "survival_prob": 0.9789,
+  "mu": 65.5,
   "ci80": {
-   "lo": 51.1,
-   "hi": 72.3
+   "lo": 55.0,
+   "hi": 76.0
   },
   "ci50": {
-   "lo": 56.2,
-   "hi": 67.3
+   "lo": 60.0,
+   "hi": 71.0
   },
-  "sigma_model": 2.1,
+  "sigma_model": 1.8,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "fed17f5a",
+   "season": 2021,
+   "distance": 1.742,
+   "survived": 1,
+   "fut_ability_v2": 64.8,
+   "player_name": "Carlos Soler",
+   "squad": "Valencia"
+  },
+  {
    "fbref_id": "56f7a928",
    "season": 2020,
-   "distance": 1.912,
+   "distance": 1.941,
    "survived": 1,
    "fut_ability_v2": 62.7,
    "player_name": "Youri Tielemans",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "ba3d3bea",
    "season": 2018,
-   "distance": 2.229,
+   "distance": 2.184,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Danilo Cataldi",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "3e092724",
    "season": 2019,
-   "distance": 2.332,
+   "distance": 2.382,
    "survived": 1,
    "fut_ability_v2": 55.9,
    "player_name": "Wylan Cyprien",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "ed45c4a5",
    "season": 2019,
-   "distance": 2.455,
+   "distance": 2.518,
    "survived": 1,
    "fut_ability_v2": 63.6,
    "player_name": "Valentin Rongier",
    "squad": "Nantes"
   },
   {
-   "fbref_id": "86e119e0",
-   "season": 2018,
-   "distance": 2.633,
-   "survived": 1,
-   "fut_ability_v2": 61.6,
-   "player_name": "Maximilian Arnold",
-   "squad": "Wolfsburg"
-  },
-  {
    "fbref_id": "d023d70f",
    "season": 2019,
-   "distance": 2.658,
+   "distance": 2.579,
    "survived": 1,
    "fut_ability_v2": 38.2,
    "player_name": "Karol Linetty",
    "squad": "Sampdoria"
   },
   {
+   "fbref_id": "86e119e0",
+   "season": 2018,
+   "distance": 2.607,
+   "survived": 1,
+   "fut_ability_v2": 61.6,
+   "player_name": "Maximilian Arnold",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "88050721",
    "season": 2020,
-   "distance": 2.742,
+   "distance": 2.689,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Unai López",
    "squad": "Athletic Club"
   },
   {
-   "fbref_id": "2a0c8ba4",
-   "season": 2018,
-   "distance": 2.846,
+   "fbref_id": "56f7a928",
+   "season": 2021,
+   "distance": 2.719,
    "survived": 1,
-   "fut_ability_v2": 63.6,
-   "player_name": "Joan Jordán",
-   "squad": "Eibar"
+   "fut_ability_v2": 61.7,
+   "player_name": "Youri Tielemans",
+   "squad": "Leicester City"
   },
   {
    "fbref_id": "05e19d6a",
    "season": 2020,
-   "distance": 2.861,
+   "distance": 2.843,
    "survived": 1,
    "fut_ability_v2": 61.2,
    "player_name": "Franck Kessié",
    "squad": "Milan"
-  },
-  {
-   "fbref_id": "b70bde8f",
-   "season": 2019,
-   "distance": 2.864,
-   "survived": 1,
-   "fut_ability_v2": 55.3,
-   "player_name": "Stefano Sensi",
-   "squad": "Sassuolo"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Lucas Da Cunha(MF)의 현재 능력 점수는 67.3점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 볼 손실(미스+파울), 키패스, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 성공 드리블이다.",
-  "potential": "Lucas Da Cunha의 2~3년 후 예측 중심값은 61.7점, 80% 구간 상단은 72.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lucas Da Cunha의 2~3년 후 예측 중심값은 65.5점, 80% 구간 상단은 76.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

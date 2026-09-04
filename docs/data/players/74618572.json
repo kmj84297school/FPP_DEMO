@@ -32,42 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9176,
-  "mu": 68.1,
+  "survival_prob": 0.8674,
+  "mu": 69.2,
   "ci80": {
-   "lo": 58.7,
-   "hi": 77.3
+   "lo": 59.9,
+   "hi": 78.6
   },
   "ci50": {
-   "lo": 63.1,
-   "hi": 72.9
+   "lo": 64.3,
+   "hi": 74.2
   },
   "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "a08b974a",
+   "season": 2021,
+   "distance": 2.843,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "Lucas Ocampos",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "d85c238b",
+   "season": 2022,
+   "distance": 2.913,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Mattia Zaccagni",
+   "squad": "Lazio / Hellas Verona"
+  },
+  {
    "fbref_id": "c691bfe2",
    "season": 2018,
-   "distance": 3.029,
+   "distance": 3.015,
    "survived": 1,
    "fut_ability_v2": 83.9,
    "player_name": "Sadio Mané",
    "squad": "Liverpool"
   },
   {
-   "fbref_id": "0ef89a37",
-   "season": 2019,
-   "distance": 3.052,
-   "survived": 1,
-   "fut_ability_v2": 72.2,
-   "player_name": "Philippe Coutinho",
-   "squad": "Barcelona"
-  },
-  {
    "fbref_id": "a08b974a",
    "season": 2020,
-   "distance": 3.061,
+   "distance": 3.02,
    "survived": 1,
    "fut_ability_v2": 53.8,
    "player_name": "Lucas Ocampos",
@@ -75,66 +84,57 @@
   },
   {
    "fbref_id": "c691bfe2",
-   "season": 2020,
-   "distance": 3.087,
-   "survived": 1,
-   "fut_ability_v2": 76.2,
-   "player_name": "Sadio Mané",
-   "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "c691bfe2",
    "season": 2019,
-   "distance": 3.093,
+   "distance": 3.074,
    "survived": 1,
    "fut_ability_v2": 79.5,
    "player_name": "Sadio Mané",
    "squad": "Liverpool"
   },
   {
+   "fbref_id": "c691bfe2",
+   "season": 2020,
+   "distance": 3.092,
+   "survived": 1,
+   "fut_ability_v2": 76.2,
+   "player_name": "Sadio Mané",
+   "squad": "Liverpool"
+  },
+  {
+   "fbref_id": "9f1893b9",
+   "season": 2022,
+   "distance": 3.094,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Felipe Anderson",
+   "squad": "Lazio"
+  },
+  {
+   "fbref_id": "0ef89a37",
+   "season": 2019,
+   "distance": 3.131,
+   "survived": 1,
+   "fut_ability_v2": 72.2,
+   "player_name": "Philippe Coutinho",
+   "squad": "Barcelona"
+  },
+  {
    "fbref_id": "1fb1c435",
    "season": 2018,
-   "distance": 3.315,
+   "distance": 3.278,
    "survived": 1,
    "fut_ability_v2": 67.0,
    "player_name": "Rodrigo",
    "squad": "Valencia"
   },
   {
-   "fbref_id": "92e7e919",
-   "season": 2019,
-   "distance": 3.375,
+   "fbref_id": "5ceba7fc",
+   "season": 2021,
+   "distance": 3.309,
    "survived": 1,
-   "fut_ability_v2": 64.2,
-   "player_name": "Son Heung-min",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "4c370d81",
-   "season": 2020,
-   "distance": 3.417,
-   "survived": 1,
-   "fut_ability_v2": 80.4,
-   "player_name": "Roberto Firmino",
-   "squad": "Liverpool"
-  },
-  {
-   "fbref_id": "2f557579",
-   "season": 2020,
-   "distance": 3.493,
-   "survived": 1,
-   "fut_ability_v2": 77.4,
-   "player_name": "Lorenzo Insigne",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "4c370d81",
-   "season": 2018,
-   "distance": 3.506,
-   "survived": 1,
-   "fut_ability_v2": 76.2,
-   "player_name": "Roberto Firmino",
-   "squad": "Liverpool"
+   "fut_ability_v2": 69.9,
+   "player_name": "Karl Toko Ekambi",
+   "squad": "Lyon"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Kaoru Mitoma(FW)의 현재 능력 점수는 69.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 블록, 전진 운반 거리, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 최종 3분의1 패스이다.",
-  "potential": "Kaoru Mitoma의 2~3년 후 예측 중심값은 68.1점, 80% 구간 상단은 77.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 91.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Kaoru Mitoma의 2~3년 후 예측 중심값은 69.2점, 80% 구간 상단은 78.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 86.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

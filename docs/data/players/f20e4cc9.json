@@ -32,64 +32,91 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9021,
-  "mu": 65.4,
+  "survival_prob": 0.814,
+  "mu": 61.3,
   "ci80": {
-   "lo": 54.7,
-   "hi": 76.2
+   "lo": 50.6,
+   "hi": 72.0
   },
   "ci50": {
-   "lo": 59.8,
-   "hi": 71.1
+   "lo": 55.6,
+   "hi": 67.0
   },
-  "sigma_model": 2.5,
+  "sigma_model": 2.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "30941e96",
    "season": 2020,
-   "distance": 2.321,
+   "distance": 2.391,
    "survived": 1,
    "fut_ability_v2": 53.1,
    "player_name": "Angeliño",
    "squad": "RB Leipzig / Manchester City"
   },
   {
-   "fbref_id": "bd6351cd",
-   "season": 2018,
-   "distance": 2.746,
+   "fbref_id": "1265a93a",
+   "season": 2022,
+   "distance": 2.587,
    "survived": 1,
-   "fut_ability_v2": 71.2,
-   "player_name": "João Cancelo",
-   "squad": "Inter / Valencia"
+   "fut_ability_v2": 54.4,
+   "player_name": "Reece James",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "d4c9725f",
+   "season": 2022,
+   "distance": 2.592,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Theo Hernández",
+   "squad": "Milan"
   },
   {
    "fbref_id": "3353737a",
    "season": 2020,
-   "distance": 2.834,
+   "distance": 2.829,
    "survived": 1,
    "fut_ability_v2": 57.4,
    "player_name": "Sergio Reguilón",
    "squad": "Sevilla"
   },
   {
+   "fbref_id": "bd6351cd",
+   "season": 2018,
+   "distance": 2.851,
+   "survived": 1,
+   "fut_ability_v2": 71.2,
+   "player_name": "João Cancelo",
+   "squad": "Inter / Valencia"
+  },
+  {
+   "fbref_id": "442b56fa",
+   "season": 2022,
+   "distance": 2.854,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Ridle Baku",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "30c220c3",
    "season": 2018,
-   "distance": 2.981,
+   "distance": 2.984,
    "survived": 1,
    "fut_ability_v2": 65.7,
    "player_name": "Mitchell Weiser",
    "squad": "Hertha BSC"
   },
   {
-   "fbref_id": "3cefcaef",
-   "season": 2019,
-   "distance": 3.02,
-   "survived": 1,
-   "fut_ability_v2": 57.3,
-   "player_name": "Ferland Mendy",
-   "squad": "Lyon"
+   "fbref_id": "1ac232b8",
+   "season": 2021,
+   "distance": 3.008,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Simone Bastoni",
+   "squad": "Spezia"
   },
   {
    "fbref_id": "d4c9725f",
@@ -103,37 +130,10 @@
   {
    "fbref_id": "ff0ab48c",
    "season": 2019,
-   "distance": 3.098,
+   "distance": 3.073,
    "survived": 1,
    "fut_ability_v2": 65.4,
    "player_name": "Leo Dubois",
-   "squad": "Lyon"
-  },
-  {
-   "fbref_id": "3cefcaef",
-   "season": 2018,
-   "distance": 3.21,
-   "survived": 1,
-   "fut_ability_v2": 56.2,
-   "player_name": "Ferland Mendy",
-   "squad": "Lyon"
-  },
-  {
-   "fbref_id": "49296448",
-   "season": 2018,
-   "distance": 3.265,
-   "survived": 1,
-   "fut_ability_v2": 76.5,
-   "player_name": "Joshua Kimmich",
-   "squad": "Bayern Munich"
-  },
-  {
-   "fbref_id": "77d7c96f",
-   "season": 2020,
-   "distance": 3.307,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kenny Tete",
    "squad": "Lyon"
   }
  ],
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Nuno Mendes(DF)의 현재 능력 점수는 66.1점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 슈팅 창출(SCA), 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 클리어링이다.",
-  "potential": "Nuno Mendes의 2~3년 후 예측 중심값은 65.4점, 80% 구간 상단은 76.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 90.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Nuno Mendes의 2~3년 후 예측 중심값은 61.3점, 80% 구간 상단은 72.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 81.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

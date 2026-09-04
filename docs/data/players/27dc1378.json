@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8062,
-  "mu": 57.2,
+  "survival_prob": 0.6692,
+  "mu": 54.7,
   "ci80": {
-   "lo": 47.9,
-   "hi": 66.6
+   "lo": 45.3,
+   "hi": 64.0
   },
   "ci50": {
-   "lo": 52.3,
-   "hi": 62.2
+   "lo": 49.7,
+   "hi": 59.5
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "e947ee4a",
+   "season": 2021,
+   "distance": 1.921,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Brugman",
+   "squad": "Parma"
+  },
+  {
    "fbref_id": "6cdd8245",
    "season": 2018,
-   "distance": 1.928,
+   "distance": 1.923,
    "survived": 1,
    "fut_ability_v2": 53.2,
    "player_name": "Tom Cleverley",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "02febfdc",
    "season": 2019,
-   "distance": 2.104,
+   "distance": 2.072,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Raffaele Maiello",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "4db2157a",
    "season": 2019,
-   "distance": 2.188,
+   "distance": 2.163,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ole Selnæs",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "dc3fa3b5",
    "season": 2019,
-   "distance": 2.218,
+   "distance": 2.203,
    "survived": 1,
    "fut_ability_v2": 56.2,
    "player_name": "Diego Demme",
    "squad": "RB Leipzig"
   },
   {
-   "fbref_id": "e61b8aee",
-   "season": 2019,
-   "distance": 2.304,
-   "survived": 1,
-   "fut_ability_v2": 63.9,
-   "player_name": "Granit Xhaka",
-   "squad": "Arsenal"
-  },
-  {
-   "fbref_id": "3727dd3c",
-   "season": 2018,
-   "distance": 2.366,
-   "survived": 1,
-   "fut_ability_v2": 53.3,
-   "player_name": "Jonjo Shelvey",
-   "squad": "Newcastle Utd"
+   "fbref_id": "8872ed17",
+   "season": 2022,
+   "distance": 2.274,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paul Seguin",
+   "squad": "Greuther Fürth"
   },
   {
    "fbref_id": "e12b0b5b",
    "season": 2019,
-   "distance": 2.44,
+   "distance": 2.337,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Sebastian Rode",
    "squad": "Eint Frankfurt"
   },
   {
-   "fbref_id": "3730fcbc",
+   "fbref_id": "e61b8aee",
    "season": 2019,
-   "distance": 2.506,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Joe Ralls",
-   "squad": "Cardiff City"
-  },
-  {
-   "fbref_id": "c6e5d20f",
-   "season": 2019,
-   "distance": 2.609,
+   "distance": 2.366,
    "survived": 1,
-   "fut_ability_v2": 57.7,
-   "player_name": "Thiago Mendes",
-   "squad": "Lille"
+   "fut_ability_v2": 63.9,
+   "player_name": "Granit Xhaka",
+   "squad": "Arsenal"
   },
   {
-   "fbref_id": "c75b6a02",
-   "season": 2018,
-   "distance": 2.677,
+   "fbref_id": "51c30111",
+   "season": 2022,
+   "distance": 2.416,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Andrea Bertolacci",
-   "squad": "Genoa"
+   "player_name": "Sanjin Prcić",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "3727dd3c",
+   "season": 2018,
+   "distance": 2.421,
+   "survived": 1,
+   "fut_ability_v2": 53.3,
+   "player_name": "Jonjo Shelvey",
+   "squad": "Newcastle Utd"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "José Luis García Vayá(MF)의 현재 능력 점수는 61.1점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 최종 3분의1 패스, 전진 패스 거리, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 박스 진입 패스이다.",
-  "potential": "José Luis García Vayá의 2~3년 후 예측 중심값은 57.2점, 80% 구간 상단은 66.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 80.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "José Luis García Vayá의 2~3년 후 예측 중심값은 54.7점, 80% 구간 상단은 64.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 66.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

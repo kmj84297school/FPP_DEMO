@@ -32,42 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5833,
-  "mu": 55.9,
+  "survival_prob": 0.3952,
+  "mu": 55.6,
   "ci80": {
-   "lo": 46.7,
-   "hi": 65.3
+   "lo": 46.3,
+   "hi": 65.0
   },
   "ci50": {
-   "lo": 51.1,
-   "hi": 60.9
+   "lo": 50.7,
+   "hi": 60.5
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "cf15bbb1",
-   "season": 2018,
-   "distance": 2.102,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Steven Davis",
-   "squad": "Southampton"
-  },
-  {
    "fbref_id": "e12b0b5b",
    "season": 2020,
-   "distance": 2.113,
+   "distance": 2.027,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sebastian Rode",
    "squad": "Eint Frankfurt"
   },
   {
+   "fbref_id": "61220da2",
+   "season": 2022,
+   "distance": 2.141,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "cf15bbb1",
+   "season": 2018,
+   "distance": 2.155,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Steven Davis",
+   "squad": "Southampton"
+  },
+  {
    "fbref_id": "56413b1f",
    "season": 2020,
-   "distance": 2.236,
+   "distance": 2.265,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Charles Aránguiz",
@@ -76,16 +85,25 @@
   {
    "fbref_id": "7d41b619",
    "season": 2018,
-   "distance": 2.281,
+   "distance": 2.302,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andrew Surman",
    "squad": "Bournemouth"
   },
   {
+   "fbref_id": "56413b1f",
+   "season": 2021,
+   "distance": 2.312,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "5710a281",
    "season": 2018,
-   "distance": 2.325,
+   "distance": 2.321,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lucas Biglia",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "d6f88a1d",
    "season": 2020,
-   "distance": 2.351,
+   "distance": 2.323,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Adrien Silva",
    "squad": "Monaco"
   },
   {
+   "fbref_id": "84d94b91",
+   "season": 2021,
+   "distance": 2.327,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thomas Monconduit",
+   "squad": "Lorient"
+  },
+  {
    "fbref_id": "b746d309",
    "season": 2018,
-   "distance": 2.367,
+   "distance": 2.371,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Riccardo Montolivo",
    "squad": "Milan"
-  },
-  {
-   "fbref_id": "c801616a",
-   "season": 2019,
-   "distance": 2.384,
-   "survived": 1,
-   "fut_ability_v2": 56.5,
-   "player_name": "Thomas Mangani",
-   "squad": "Angers"
-  },
-  {
-   "fbref_id": "b3fd7075",
-   "season": 2020,
-   "distance": 2.452,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andrea Poli",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "e8c930bb",
-   "season": 2020,
-   "distance": 2.511,
-   "survived": 1,
-   "fut_ability_v2": 55.5,
-   "player_name": "Milan Badelj",
-   "squad": "Fiorentina"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Leandro Paredes(MF)의 현재 능력 점수는 60.7점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 전진 패스 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 박스 터치이다.",
-  "potential": "Leandro Paredes의 2~3년 후 예측 중심값은 55.9점, 80% 구간 상단은 65.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Leandro Paredes의 2~3년 후 예측 중심값은 55.6점, 80% 구간 상단은 65.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 39.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

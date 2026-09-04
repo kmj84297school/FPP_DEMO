@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8774,
+  "survival_prob": 0.8164,
   "mu": 58.5,
   "ci80": {
-   "lo": 47.8,
-   "hi": 69.1
+   "lo": 48.1,
+   "hi": 69.0
   },
   "ci50": {
-   "lo": 52.8,
+   "lo": 53.1,
    "hi": 64.1
   },
-  "sigma_model": 2.2,
+  "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "ce5b170a",
    "season": 2018,
-   "distance": 2.046,
+   "distance": 2.115,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Claud Adjapong",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "6e33125f",
    "season": 2018,
-   "distance": 2.346,
+   "distance": 2.392,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kevin Danso",
@@ -67,25 +67,52 @@
   {
    "fbref_id": "5db04597",
    "season": 2018,
-   "distance": 2.434,
+   "distance": 2.487,
    "survived": 1,
    "fut_ability_v2": 55.6,
    "player_name": "Pablo Maffeo",
    "squad": "Girona"
   },
   {
+   "fbref_id": "ead61f73",
+   "season": 2021,
+   "distance": 2.692,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Juan Miranda",
+   "squad": "Betis"
+  },
+  {
    "fbref_id": "41c12f75",
    "season": 2019,
-   "distance": 2.601,
+   "distance": 2.694,
    "survived": 1,
    "fut_ability_v2": 57.4,
    "player_name": "Mathías Olivera",
    "squad": "Getafe"
   },
   {
+   "fbref_id": "fc027d02",
+   "season": 2021,
+   "distance": 2.719,
+   "survived": 1,
+   "fut_ability_v2": 39.7,
+   "player_name": "Luke Thomas",
+   "squad": "Leicester City"
+  },
+  {
+   "fbref_id": "a8c19eb8",
+   "season": 2022,
+   "distance": 2.744,
+   "survived": 1,
+   "fut_ability_v2": 64.0,
+   "player_name": "Nathan Collins",
+   "squad": "Burnley"
+  },
+  {
    "fbref_id": "531a4aa8",
    "season": 2019,
-   "distance": 2.719,
+   "distance": 2.798,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Yan Valery",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "d0042ab9",
    "season": 2018,
-   "distance": 2.806,
+   "distance": 2.831,
    "survived": 1,
    "fut_ability_v2": 52.5,
    "player_name": "Mason Holgate",
    "squad": "Everton"
   },
   {
-   "fbref_id": "2d61d13a",
-   "season": 2019,
-   "distance": 3.179,
+   "fbref_id": "8b609c34",
+   "season": 2022,
+   "distance": 2.945,
    "survived": 1,
-   "fut_ability_v2": 51.3,
-   "player_name": "Ozan Kabak",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "099e666f",
-   "season": 2018,
-   "distance": 3.215,
-   "survived": 1,
-   "fut_ability_v2": 52.2,
-   "player_name": "Jonjoe Kenny",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "e54a9890",
-   "season": 2019,
-   "distance": 3.27,
-   "survived": 1,
-   "fut_ability_v2": 57.2,
-   "player_name": "Faitout Maouassa",
-   "squad": "Nîmes"
-  },
-  {
-   "fbref_id": "d97f2e8d",
-   "season": 2018,
-   "distance": 3.276,
-   "survived": 1,
-   "fut_ability_v2": 47.3,
-   "player_name": "Fabio Depaoli",
-   "squad": "Chievo"
+   "fut_ability_v2": 68.7,
+   "player_name": "Wilfried Singo",
+   "squad": "Torino"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Tom Rothe(DF)의 현재 능력 점수는 56.8점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 블록, 유효슈팅, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 볼 손실(미스+파울)이다.",
-  "potential": "Tom Rothe의 2~3년 후 예측 중심값은 58.5점, 80% 구간 상단은 69.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Tom Rothe의 2~3년 후 예측 중심값은 58.5점, 80% 구간 상단은 69.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 81.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

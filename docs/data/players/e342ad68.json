@@ -32,24 +32,24 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.966,
-  "mu": 78.0,
+  "survival_prob": 0.8454,
+  "mu": 80.2,
   "ci80": {
-   "lo": 68.4,
-   "hi": 87.7
+   "lo": 70.6,
+   "hi": 89.8
   },
   "ci50": {
-   "lo": 73.0,
-   "hi": 83.1
+   "lo": 75.1,
+   "hi": 85.2
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 2.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a6154613",
    "season": 2019,
-   "distance": 4.041,
+   "distance": 3.997,
    "survived": 1,
    "fut_ability_v2": 56.5,
    "player_name": "Luis Suárez",
@@ -58,25 +58,43 @@
   {
    "fbref_id": "89b2c8a9",
    "season": 2019,
-   "distance": 4.202,
+   "distance": 4.135,
    "survived": 1,
    "fut_ability_v2": 73.5,
    "player_name": "Dries Mertens",
    "squad": "Napoli"
   },
   {
+   "fbref_id": "d3de9af0",
+   "season": 2022,
+   "distance": 4.173,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Duván Zapata",
+   "squad": "Atalanta"
+  },
+  {
    "fbref_id": "a6154613",
    "season": 2018,
-   "distance": 4.221,
+   "distance": 4.177,
    "survived": 1,
    "fut_ability_v2": 70.1,
    "player_name": "Luis Suárez",
    "squad": "Barcelona"
   },
   {
+   "fbref_id": "70d74ece",
+   "season": 2022,
+   "distance": 4.337,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Karim Benzema",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "dea698d9",
    "season": 2020,
-   "distance": 4.605,
+   "distance": 4.561,
    "survived": 1,
    "fut_ability_v2": 69.2,
    "player_name": "Cristiano Ronaldo",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "ffec9769",
    "season": 2020,
-   "distance": 4.611,
+   "distance": 4.567,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Islam Slimani",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "89b2c8a9",
    "season": 2018,
-   "distance": 4.647,
+   "distance": 4.614,
    "survived": 1,
    "fut_ability_v2": 76.7,
    "player_name": "Dries Mertens",
    "squad": "Napoli"
   },
   {
-   "fbref_id": "89b2c8a9",
-   "season": 2020,
-   "distance": 4.795,
-   "survived": 1,
-   "fut_ability_v2": 71.0,
-   "player_name": "Dries Mertens",
-   "squad": "Napoli"
+   "fbref_id": "892d5bb1",
+   "season": 2022,
+   "distance": 4.625,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Riyad Mahrez",
+   "squad": "Manchester City"
   },
   {
-   "fbref_id": "dea698d9",
-   "season": 2019,
-   "distance": 4.902,
-   "survived": 1,
-   "fut_ability_v2": 73.0,
-   "player_name": "Cristiano Ronaldo",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "70d74ece",
-   "season": 2020,
-   "distance": 4.941,
-   "survived": 1,
-   "fut_ability_v2": 87.5,
-   "player_name": "Karim Benzema",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "70d74ece",
-   "season": 2019,
-   "distance": 5.136,
-   "survived": 1,
-   "fut_ability_v2": 85.4,
-   "player_name": "Karim Benzema",
-   "squad": "Real Madrid"
+   "fbref_id": "eb2fe5b6",
+   "season": 2022,
+   "distance": 4.667,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luis Muriel",
+   "squad": "Atalanta"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Mohamed Salah(FW)의 현재 능력 점수는 83.5점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 터치, 어시스트, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 성공 드리블이다.",
-  "potential": "Mohamed Salah의 2~3년 후 예측 중심값은 78.0점, 80% 구간 상단은 87.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 96.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "Mohamed Salah의 2~3년 후 예측 중심값은 80.2점, 80% 구간 상단은 89.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없으므로 점추정이 실제보다 과도하게 낮게 나온다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

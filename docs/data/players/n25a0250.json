@@ -32,51 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7619,
+  "survival_prob": 0.8192,
   "mu": 48.8,
   "ci80": {
-   "lo": 39.4,
-   "hi": 58.1
+   "lo": 39.3,
+   "hi": 58.3
   },
   "ci50": {
    "lo": 43.8,
-   "hi": 53.7
+   "hi": 53.8
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "462475ed",
    "season": 2020,
-   "distance": 1.783,
+   "distance": 1.721,
    "survived": 1,
    "fut_ability_v2": 56.7,
    "player_name": "Ludovic Ajorque",
    "squad": "Strasbourg"
   },
   {
+   "fbref_id": "19ba6c6d",
+   "season": 2021,
+   "distance": 2.085,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Steve Mounié",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "462475ed",
+   "season": 2021,
+   "distance": 2.185,
+   "survived": 1,
+   "fut_ability_v2": 32.2,
+   "player_name": "Ludovic Ajorque",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "c4e87b8b",
    "season": 2019,
-   "distance": 2.236,
+   "distance": 2.224,
    "survived": 1,
    "fut_ability_v2": 57.9,
    "player_name": "Wout Weghorst",
    "squad": "Wolfsburg"
   },
   {
+   "fbref_id": "aed3a70f",
+   "season": 2022,
+   "distance": 2.424,
+   "survived": 1,
+   "fut_ability_v2": 64.3,
+   "player_name": "Ollie Watkins",
+   "squad": "Aston Villa"
+  },
+  {
    "fbref_id": "09538fdb",
    "season": 2019,
-   "distance": 2.46,
+   "distance": 2.439,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Kevin Lasagna",
    "squad": "Udinese"
   },
   {
+   "fbref_id": "19ba6c6d",
+   "season": 2022,
+   "distance": 2.45,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Steve Mounié",
+   "squad": "Brest"
+  },
+  {
    "fbref_id": "6605d143",
    "season": 2020,
-   "distance": 2.506,
+   "distance": 2.538,
    "survived": 1,
    "fut_ability_v2": 50.9,
    "player_name": "Habib Diallo",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "ab070c55",
    "season": 2018,
-   "distance": 2.549,
+   "distance": 2.566,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Christian Benteke",
    "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "2054d037",
-   "season": 2020,
-   "distance": 2.61,
+   "fbref_id": "f8eca1b6",
+   "season": 2022,
+   "distance": 2.58,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "M'Baye Niang",
-   "squad": "Rennes"
-  },
-  {
-   "fbref_id": "75645f0e",
-   "season": 2019,
-   "distance": 2.613,
-   "survived": 1,
-   "fut_ability_v2": 38.8,
-   "player_name": "Borja Iglesias",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "35f6db55",
-   "season": 2018,
-   "distance": 2.626,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Léo Baptistão",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "ba115a40",
-   "season": 2020,
-   "distance": 2.634,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sébastien Haller",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "4e9a0555",
-   "season": 2019,
-   "distance": 2.643,
-   "survived": 1,
-   "fut_ability_v2": 36.4,
-   "player_name": "Chris Wood",
-   "squad": "Burnley"
+   "player_name": "Enes Ünal",
+   "squad": "Getafe"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Nikola Krstović(FW)의 현재 능력 점수는 47.6점이다. 플레이스타일은 '박스 포처'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅 시도, 공중볼 승률, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 전진 패스 수신이다.",
-  "potential": "Nikola Krstović의 2~3년 후 예측 중심값은 48.8점, 80% 구간 상단은 58.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 76.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Nikola Krstović의 2~3년 후 예측 중심값은 48.8점, 80% 구간 상단은 58.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 81.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

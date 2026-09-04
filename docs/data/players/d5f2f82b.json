@@ -32,51 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4683,
-  "mu": 60.5,
+  "survival_prob": 0.4165,
+  "mu": 65.6,
   "ci80": {
-   "lo": 51.0,
-   "hi": 69.9
+   "lo": 56.4,
+   "hi": 74.9
   },
   "ci50": {
-   "lo": 55.5,
-   "hi": 65.5
+   "lo": 60.8,
+   "hi": 70.5
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "6fd8a334",
+   "season": 2021,
+   "distance": 1.828,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aleksandar Dragović",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "7aac47fe",
    "season": 2019,
-   "distance": 2.125,
+   "distance": 2.067,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ermin Bičakčić",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "4bd414c1",
-   "season": 2018,
-   "distance": 2.289,
-   "survived": 1,
-   "fut_ability_v2": 54.6,
-   "player_name": "Raúl Albiol",
-   "squad": "Napoli"
-  },
-  {
    "fbref_id": "2db2fd7b",
    "season": 2020,
-   "distance": 2.335,
+   "distance": 2.333,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Jérôme Boateng",
    "squad": "Bayern Munich"
   },
   {
+   "fbref_id": "4bd414c1",
+   "season": 2018,
+   "distance": 2.344,
+   "survived": 1,
+   "fut_ability_v2": 54.6,
+   "player_name": "Raúl Albiol",
+   "squad": "Napoli"
+  },
+  {
    "fbref_id": "6fd8a334",
    "season": 2020,
-   "distance": 2.412,
+   "distance": 2.379,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aleksandar Dragović",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "8cc29864",
    "season": 2019,
-   "distance": 2.492,
+   "distance": 2.474,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Lorenzo Tonelli",
    "squad": "Sampdoria"
   },
   {
-   "fbref_id": "c5fd13e9",
-   "season": 2018,
-   "distance": 2.538,
-   "survived": 1,
-   "fut_ability_v2": 59.2,
-   "player_name": "Ömer Toprak",
-   "squad": "Dortmund"
-  },
-  {
    "fbref_id": "da974c7b",
    "season": 2020,
-   "distance": 2.603,
+   "distance": 2.556,
    "survived": 1,
    "fut_ability_v2": 61.0,
    "player_name": "Kalidou Koulibaly",
    "squad": "Napoli"
   },
   {
-   "fbref_id": "2db2fd7b",
+   "fbref_id": "c5fd13e9",
    "season": 2018,
-   "distance": 2.655,
+   "distance": 2.56,
    "survived": 1,
-   "fut_ability_v2": 63.8,
-   "player_name": "Jérôme Boateng",
-   "squad": "Bayern Munich"
+   "fut_ability_v2": 59.2,
+   "player_name": "Ömer Toprak",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "1ec7e1c5",
+   "season": 2021,
+   "distance": 2.677,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Damien Da Silva",
+   "squad": "Rennes"
   },
   {
    "fbref_id": "e85fb9b8",
    "season": 2018,
-   "distance": 2.69,
+   "distance": 2.677,
    "survived": 1,
    "fut_ability_v2": 58.6,
    "player_name": "Giorgio Chiellini",
    "squad": "Juventus"
-  },
-  {
-   "fbref_id": "05d548d8",
-   "season": 2019,
-   "distance": 2.726,
-   "survived": 1,
-   "fut_ability_v2": 72.3,
-   "player_name": "Mats Hummels",
-   "squad": "Bayern Munich"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Marquinhos(DF)의 현재 능력 점수는 74.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 전진 운반 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 전진 패스 수신이다.",
-  "potential": "Marquinhos의 2~3년 후 예측 중심값은 60.5점, 80% 구간 상단은 69.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 46.8%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marquinhos의 2~3년 후 예측 중심값은 65.6점, 80% 구간 상단은 74.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

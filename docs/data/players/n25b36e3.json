@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8367,
-  "mu": 52.2,
+  "survival_prob": 0.6159,
+  "mu": 50.7,
   "ci80": {
-   "lo": 41.3,
-   "hi": 63.1
+   "lo": 40.0,
+   "hi": 61.3
   },
   "ci50": {
-   "lo": 46.5,
-   "hi": 58.0
+   "lo": 45.0,
+   "hi": 56.3
   },
-  "sigma_model": 2.8,
+  "sigma_model": 2.3,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "3cd7820a",
+   "season": 2022,
+   "distance": 2.206,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Gourna-Douath",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "3cd7820a",
+   "season": 2021,
+   "distance": 2.925,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lucas Gourna-Douath",
+   "squad": "Saint-Étienne"
+  },
+  {
    "fbref_id": "7909ffa4",
    "season": 2020,
-   "distance": 2.798,
+   "distance": 2.955,
    "survived": 1,
    "fut_ability_v2": 39.0,
    "player_name": "Joris Chotard",
@@ -58,29 +76,65 @@
   {
    "fbref_id": "7b9c2d84",
    "season": 2020,
-   "distance": 3.217,
+   "distance": 3.267,
    "survived": 1,
    "fut_ability_v2": 67.5,
    "player_name": "Eduardo Camavinga",
    "squad": "Rennes"
   },
   {
+   "fbref_id": "7b9c2d84",
+   "season": 2021,
+   "distance": 3.783,
+   "survived": 1,
+   "fut_ability_v2": 68.7,
+   "player_name": "Eduardo Camavinga",
+   "squad": "Rennes"
+  },
+  {
+   "fbref_id": "b51b1b9c",
+   "season": 2021,
+   "distance": 3.88,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Yunus Musah",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "feb5d972",
+   "season": 2021,
+   "distance": 4.091,
+   "survived": 1,
+   "fut_ability_v2": 63.7,
+   "player_name": "Pape Matar Sarr",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "57d88cf9",
+   "season": 2021,
+   "distance": 4.801,
+   "survived": 1,
+   "fut_ability_v2": 78.5,
+   "player_name": "Jude Bellingham",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "19cae58d",
+   "season": 2022,
+   "distance": 5.054,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Gavi",
+   "squad": "Barcelona"
+  },
+  {
    "fbref_id": "58eee997",
    "season": 2020,
-   "distance": 5.532,
+   "distance": 5.59,
    "survived": 1,
    "fut_ability_v2": 65.0,
    "player_name": "Mason Greenwood",
    "squad": "Manchester Utd"
-  },
-  {
-   "fbref_id": "5722eced",
-   "season": 2018,
-   "distance": 5.542,
-   "survived": 1,
-   "fut_ability_v2": 45.0,
-   "player_name": "Mickaël Cuisance",
-   "squad": "M'Gladbach"
   }
  ],
  "low_confidence": true,
@@ -255,6 +309,6 @@
  },
  "narrative": {
   "current": "Ayyoub Bouaddi(MF)의 현재 능력 점수는 41.5점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 태클 성공률, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 비페널티 xG이다.",
-  "potential": "Ayyoub Bouaddi의 2~3년 후 예측 중심값은 52.2점, 80% 구간 상단은 63.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 83.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ayyoub Bouaddi의 2~3년 후 예측 중심값은 50.7점, 80% 구간 상단은 61.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 61.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

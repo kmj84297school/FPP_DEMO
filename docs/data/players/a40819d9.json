@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4937,
-  "mu": 54.7,
+  "survival_prob": 0.5332,
+  "mu": 56.6,
   "ci80": {
-   "lo": 45.2,
-   "hi": 64.0
+   "lo": 47.2,
+   "hi": 65.9
   },
   "ci50": {
-   "lo": 49.7,
-   "hi": 59.6
+   "lo": 51.7,
+   "hi": 61.5
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "282f75f3",
    "season": 2019,
-   "distance": 1.086,
+   "distance": 1.103,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Lewis Dunk",
@@ -58,16 +58,43 @@
   {
    "fbref_id": "3681cfff",
    "season": 2018,
-   "distance": 1.163,
+   "distance": 1.188,
    "survived": 1,
    "fut_ability_v2": 58.4,
    "player_name": "Christophe Hérelle",
    "squad": "Troyes"
   },
   {
+   "fbref_id": "4d1efb48",
+   "season": 2022,
+   "distance": 1.244,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pietro Ceccaroni",
+   "squad": "Venezia"
+  },
+  {
+   "fbref_id": "c562c5b4",
+   "season": 2021,
+   "distance": 1.318,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joakim Nilsson",
+   "squad": "Arminia"
+  },
+  {
+   "fbref_id": "6043997c",
+   "season": 2022,
+   "distance": 1.327,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Gerzino Nyamsi",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "27a013f7",
    "season": 2019,
-   "distance": 1.322,
+   "distance": 1.342,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Néstor Araujo",
@@ -76,7 +103,7 @@
   {
    "fbref_id": "c67cd65c",
    "season": 2020,
-   "distance": 1.353,
+   "distance": 1.367,
    "survived": 1,
    "fut_ability_v2": 59.8,
    "player_name": "Rúben Vezo",
@@ -85,7 +112,7 @@
   {
    "fbref_id": "7cab69b5",
    "season": 2018,
-   "distance": 1.355,
+   "distance": 1.377,
    "survived": 1,
    "fut_ability_v2": 41.8,
    "player_name": "Jemerson",
@@ -94,7 +121,7 @@
   {
    "fbref_id": "debe38a0",
    "season": 2020,
-   "distance": 1.356,
+   "distance": 1.419,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "John Egan",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "b4a014b1",
    "season": 2020,
-   "distance": 1.395,
+   "distance": 1.45,
    "survived": 1,
    "fut_ability_v2": 60.2,
    "player_name": "Diego Carlos",
    "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "d9624b51",
-   "season": 2018,
-   "distance": 1.432,
-   "survived": 1,
-   "fut_ability_v2": 57.9,
-   "player_name": "Federico Ceccherini",
-   "squad": "Crotone"
-  },
-  {
-   "fbref_id": "3ecc11d8",
-   "season": 2020,
-   "distance": 1.466,
-   "survived": 1,
-   "fut_ability_v2": 61.5,
-   "player_name": "Yeray Álvarez",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "93090f69",
-   "season": 2020,
-   "distance": 1.495,
-   "survived": 1,
-   "fut_ability_v2": 50.9,
-   "player_name": "Domingos Duarte",
-   "squad": "Granada"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Marash Kumbulla(DF)의 현재 능력 점수는 54.8점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 클리어링, 볼 손실(미스+파울), 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 최종 3분의1 패스이다.",
-  "potential": "Marash Kumbulla의 2~3년 후 예측 중심값은 54.7점, 80% 구간 상단은 64.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 49.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marash Kumbulla의 2~3년 후 예측 중심값은 56.6점, 80% 구간 상단은 65.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

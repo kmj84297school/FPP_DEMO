@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8499,
-  "mu": 56.1,
+  "survival_prob": 0.7497,
+  "mu": 60.7,
   "ci80": {
-   "lo": 46.8,
-   "hi": 65.3
+   "lo": 51.3,
+   "hi": 70.0
   },
   "ci50": {
-   "lo": 51.2,
-   "hi": 60.9
+   "lo": 55.7,
+   "hi": 65.6
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f03f284b",
    "season": 2018,
-   "distance": 1.123,
+   "distance": 1.112,
    "survived": 1,
    "fut_ability_v2": 54.2,
    "player_name": "David López",
    "squad": "Espanyol"
   },
   {
+   "fbref_id": "3e42f707",
+   "season": 2022,
+   "distance": 1.14,
+   "survived": 1,
+   "fut_ability_v2": 64.1,
+   "player_name": "David García",
+   "squad": "Osasuna"
+  },
+  {
    "fbref_id": "b18a3023",
    "season": 2018,
-   "distance": 1.143,
+   "distance": 1.163,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Júnior Alonso",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "b4a014b1",
    "season": 2019,
-   "distance": 1.15,
+   "distance": 1.196,
    "survived": 1,
    "fut_ability_v2": 55.9,
    "player_name": "Diego Carlos",
    "squad": "Nantes"
   },
   {
+   "fbref_id": "6043997c",
+   "season": 2022,
+   "distance": 1.198,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Gerzino Nyamsi",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "1633fc8a",
    "season": 2019,
-   "distance": 1.206,
+   "distance": 1.233,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Juanpe",
    "squad": "Girona"
   },
   {
-   "fbref_id": "3fc45c73",
-   "season": 2019,
-   "distance": 1.317,
+   "fbref_id": "aad48be9",
+   "season": 2021,
+   "distance": 1.27,
    "survived": 1,
-   "fut_ability_v2": 59.3,
-   "player_name": "Iñigo Martínez",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "8b95acda",
-   "season": 2020,
-   "distance": 1.339,
-   "survived": 1,
-   "fut_ability_v2": 52.9,
-   "player_name": "Omar Colley",
-   "squad": "Sampdoria"
+   "fut_ability_v2": 57.9,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
   },
   {
    "fbref_id": "8c725b43",
    "season": 2018,
-   "distance": 1.357,
+   "distance": 1.282,
    "survived": 1,
    "fut_ability_v2": 52.0,
    "player_name": "Germán Pezzella",
    "squad": "Fiorentina"
   },
   {
-   "fbref_id": "f35430a4",
-   "season": 2019,
-   "distance": 1.371,
-   "survived": 1,
-   "fut_ability_v2": 49.7,
-   "player_name": "Matija Nastasić",
-   "squad": "Schalke 04"
+   "fbref_id": "c5b7c315",
+   "season": 2021,
+   "distance": 1.303,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
   },
   {
-   "fbref_id": "6690ef25",
-   "season": 2018,
-   "distance": 1.409,
-   "survived": 1,
-   "fut_ability_v2": 48.7,
-   "player_name": "Pedro Mendes",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "6eee05f1",
+   "fbref_id": "8b95acda",
    "season": 2020,
-   "distance": 1.411,
+   "distance": 1.303,
    "survived": 1,
-   "fut_ability_v2": 65.6,
-   "player_name": "Berat Djimsiti",
-   "squad": "Atalanta"
+   "fut_ability_v2": 52.9,
+   "player_name": "Omar Colley",
+   "squad": "Sampdoria"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jaka Bijol(DF)의 현재 능력 점수는 59.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 공중볼 승리, 전진 운반 거리, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 볼 리커버리이다.",
-  "potential": "Jaka Bijol의 2~3년 후 예측 중심값은 56.1점, 80% 구간 상단은 65.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 85.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jaka Bijol의 2~3년 후 예측 중심값은 60.7점, 80% 구간 상단은 70.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

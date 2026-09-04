@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2252,
-  "mu": 50.6,
+  "survival_prob": 0.2105,
+  "mu": 49.5,
   "ci80": {
-   "lo": 41.4,
-   "hi": 59.8
+   "lo": 40.2,
+   "hi": 58.7
   },
   "ci50": {
-   "lo": 45.8,
-   "hi": 55.5
+   "lo": 44.6,
+   "hi": 54.3
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "00b0bb87",
    "season": 2019,
-   "distance": 1.301,
+   "distance": 1.327,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabrizio Cacciatore",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "58027adc",
    "season": 2020,
-   "distance": 1.489,
+   "distance": 1.53,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ladislav Krejčí",
    "squad": "Bologna"
   },
   {
+   "fbref_id": "c50281a0",
+   "season": 2021,
+   "distance": 1.767,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lars Bender",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "1c529186",
    "season": 2018,
-   "distance": 1.769,
+   "distance": 1.788,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ignazio Abate",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "e288d4b3",
    "season": 2020,
-   "distance": 1.81,
+   "distance": 1.854,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Alessandro Florenzi",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "d4ef9ac5",
    "season": 2020,
-   "distance": 1.84,
+   "distance": 1.901,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Toño",
    "squad": "Levante"
   },
   {
+   "fbref_id": "f7aa75bd",
+   "season": 2021,
+   "distance": 1.908,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marvin Plattenhardt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "0b5a292a",
+   "season": 2021,
+   "distance": 1.956,
+   "survived": 1,
+   "fut_ability_v2": 57.3,
+   "player_name": "Mário Rui",
+   "squad": "Napoli"
+  },
+  {
    "fbref_id": "22051fbe",
    "season": 2020,
-   "distance": 2.032,
+   "distance": 2.001,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Giulio Donati",
    "squad": "Lecce"
   },
   {
-   "fbref_id": "3535098b",
-   "season": 2018,
-   "distance": 2.038,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vincent Laurini",
-   "squad": "Fiorentina"
-  },
-  {
    "fbref_id": "808d48f3",
    "season": 2019,
-   "distance": 2.055,
+   "distance": 2.014,
    "survived": 1,
    "fut_ability_v2": 58.3,
    "player_name": "Jaume Costa",
    "squad": "Villarreal"
-  },
-  {
-   "fbref_id": "5b5724d2",
-   "season": 2019,
-   "distance": 2.066,
-   "survived": 1,
-   "fut_ability_v2": 60.5,
-   "player_name": "Lionel Carole",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "8497faf7",
-   "season": 2018,
-   "distance": 2.16,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alberto de la Bella",
-   "squad": "Real Sociedad"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Mërgim Vojvoda(DF)의 현재 능력 점수는 55.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 전진 패스, 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 클리어링이다.",
-  "potential": "Mërgim Vojvoda의 2~3년 후 예측 중심값은 50.6점, 80% 구간 상단은 59.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mërgim Vojvoda의 2~3년 후 예측 중심값은 49.5점, 80% 구간 상단은 58.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 21.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5206,
-  "mu": 44.1,
+  "survival_prob": 0.515,
+  "mu": 46.3,
   "ci80": {
-   "lo": 34.6,
-   "hi": 53.4
+   "lo": 36.8,
+   "hi": 55.8
   },
   "ci50": {
-   "lo": 39.1,
-   "hi": 49.0
+   "lo": 41.3,
+   "hi": 51.3
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 2.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "de112b84",
+   "season": 2022,
+   "distance": 1.861,
+   "survived": 1,
+   "fut_ability_v2": 69.8,
+   "player_name": "Jacob Murphy",
+   "squad": "Newcastle Utd"
+  },
+  {
    "fbref_id": "da052c14",
    "season": 2019,
-   "distance": 2.277,
+   "distance": 2.309,
    "survived": 1,
    "fut_ability_v2": 40.8,
    "player_name": "Jordan Ayew",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "bb5fbd2b",
    "season": 2019,
-   "distance": 2.565,
+   "distance": 2.674,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Solly March",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "dc62fbee",
    "season": 2020,
-   "distance": 2.771,
+   "distance": 2.856,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Leonardo Bittencourt",
@@ -76,16 +85,25 @@
   {
    "fbref_id": "19b776e9",
    "season": 2018,
-   "distance": 2.874,
+   "distance": 2.94,
    "survived": 1,
    "fut_ability_v2": 40.0,
    "player_name": "Rubén Sobrino",
    "squad": "Alavés"
   },
   {
+   "fbref_id": "13ddc856",
+   "season": 2022,
+   "distance": 3.078,
+   "survived": 1,
+   "fut_ability_v2": 40.9,
+   "player_name": "Takuma Asano",
+   "squad": "Bochum"
+  },
+  {
    "fbref_id": "f13d02a6",
    "season": 2019,
-   "distance": 3.039,
+   "distance": 3.144,
    "survived": 1,
    "fut_ability_v2": 41.2,
    "player_name": "Hélder Costa",
@@ -94,7 +112,7 @@
   {
    "fbref_id": "cba16a46",
    "season": 2019,
-   "distance": 3.109,
+   "distance": 3.147,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Yuya Kubo",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "b0547a87",
    "season": 2018,
-   "distance": 3.201,
+   "distance": 3.295,
    "survived": 1,
    "fut_ability_v2": 59.4,
    "player_name": "Nicolas de Préville",
    "squad": "Bordeaux / Lille"
   },
   {
-   "fbref_id": "3ae14ed1",
-   "season": 2020,
-   "distance": 3.305,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Trézéguet",
-   "squad": "Aston Villa"
-  },
-  {
    "fbref_id": "6cc47ae1",
    "season": 2019,
-   "distance": 3.333,
+   "distance": 3.36,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jürgen Locadia",
    "squad": "Brighton"
-  },
-  {
-   "fbref_id": "0f7533cd",
-   "season": 2019,
-   "distance": 3.425,
-   "survived": 1,
-   "fut_ability_v2": 42.6,
-   "player_name": "Bobby Reid",
-   "squad": "Cardiff City"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jesper Lindstrøm(FW)의 현재 능력 점수는 43.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 볼 리커버리, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 골 창출(GCA)이다.",
-  "potential": "Jesper Lindstrøm의 2~3년 후 예측 중심값은 44.1점, 80% 구간 상단은 53.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 52.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jesper Lindstrøm의 2~3년 후 예측 중심값은 46.3점, 80% 구간 상단은 55.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 51.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6045,
-  "mu": 63.5,
+  "survival_prob": 0.8424,
+  "mu": 66.6,
   "ci80": {
-   "lo": 54.0,
-   "hi": 72.8
+   "lo": 57.1,
+   "hi": 76.0
   },
   "ci50": {
-   "lo": 58.4,
-   "hi": 68.4
+   "lo": 61.6,
+   "hi": 71.5
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "b7ca5c51",
    "season": 2018,
-   "distance": 1.338,
+   "distance": 1.352,
    "survived": 1,
    "fut_ability_v2": 53.2,
    "player_name": "Gabriel Paulista",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "921f6058",
    "season": 2019,
-   "distance": 1.429,
+   "distance": 1.368,
    "survived": 1,
    "fut_ability_v2": 71.4,
    "player_name": "José Luis Palomino",
@@ -67,16 +67,34 @@
   {
    "fbref_id": "c707411f",
    "season": 2019,
-   "distance": 1.453,
+   "distance": 1.515,
    "survived": 1,
    "fut_ability_v2": 46.7,
    "player_name": "Kostas Manolas",
    "squad": "Roma"
   },
   {
+   "fbref_id": "f2c1300a",
+   "season": 2019,
+   "distance": 1.56,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vitor Hugo",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "e0f3a1f6",
+   "season": 2022,
+   "distance": 1.612,
+   "survived": 1,
+   "fut_ability_v2": 55.1,
+   "player_name": "Jean-Charles Castelletto",
+   "squad": "Nantes"
+  },
+  {
    "fbref_id": "c5b7c315",
    "season": 2020,
-   "distance": 1.515,
+   "distance": 1.618,
    "survived": 1,
    "fut_ability_v2": 57.6,
    "player_name": "Michael Keane",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "8b8a56ce",
    "season": 2019,
-   "distance": 1.596,
+   "distance": 1.667,
    "survived": 1,
    "fut_ability_v2": 60.5,
    "player_name": "Simon Kjær",
    "squad": "Sevilla"
   },
   {
-   "fbref_id": "f2c1300a",
-   "season": 2019,
-   "distance": 1.605,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vitor Hugo",
-   "squad": "Fiorentina"
-  },
-  {
    "fbref_id": "b7ca5c51",
    "season": 2019,
-   "distance": 1.627,
+   "distance": 1.673,
    "survived": 1,
    "fut_ability_v2": 55.2,
    "player_name": "Gabriel Paulista",
    "squad": "Valencia"
   },
   {
-   "fbref_id": "e33f36d5",
-   "season": 2018,
-   "distance": 1.69,
-   "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "Bram Nuytinck",
-   "squad": "Udinese"
-  },
-  {
    "fbref_id": "caffaf5a",
    "season": 2018,
-   "distance": 1.72,
+   "distance": 1.682,
    "survived": 1,
    "fut_ability_v2": 52.0,
    "player_name": "Maya Yoshida",
    "squad": "Southampton"
   },
   {
-   "fbref_id": "8c725b43",
-   "season": 2019,
-   "distance": 1.732,
+   "fbref_id": "d0d8dd44",
+   "season": 2022,
+   "distance": 1.687,
    "survived": 1,
-   "fut_ability_v2": 52.0,
-   "player_name": "Germán Pezzella",
-   "squad": "Fiorentina"
+   "fut_ability_v2": 65.2,
+   "player_name": "Stefan de Vrij",
+   "squad": "Inter"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Nico Elvedi(DF)의 현재 능력 점수는 73.0점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 클리어링, 볼 손실(미스+파울), 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 패스이다.",
-  "potential": "Nico Elvedi의 2~3년 후 예측 중심값은 63.5점, 80% 구간 상단은 72.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Nico Elvedi의 2~3년 후 예측 중심값은 66.6점, 80% 구간 상단은 76.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

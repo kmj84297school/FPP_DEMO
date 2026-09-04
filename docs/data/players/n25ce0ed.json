@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7874,
-  "mu": 58.1,
+  "survival_prob": 0.7407,
+  "mu": 56.2,
   "ci80": {
-   "lo": 46.9,
-   "hi": 69.1
+   "lo": 45.6,
+   "hi": 66.8
   },
   "ci50": {
-   "lo": 52.2,
-   "hi": 63.9
+   "lo": 50.6,
+   "hi": 61.7
   },
-  "sigma_model": 3.2,
+  "sigma_model": 2.3,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "75b86fb3",
    "season": 2019,
-   "distance": 1.241,
+   "distance": 1.233,
    "survived": 1,
    "fut_ability_v2": 61.5,
    "player_name": "Alessandro Bastoni",
    "squad": "Parma"
   },
   {
+   "fbref_id": "217875a4",
+   "season": 2021,
+   "distance": 1.414,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Sebastian Walukiewicz",
+   "squad": "Cagliari"
+  },
+  {
    "fbref_id": "1bfb6fef",
    "season": 2020,
-   "distance": 1.722,
+   "distance": 1.721,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Bafodé Diakité",
    "squad": "Toulouse"
   },
   {
+   "fbref_id": "1a066e69",
+   "season": 2022,
+   "distance": 1.82,
+   "survived": 1,
+   "fut_ability_v2": 55.9,
+   "player_name": "Maxime Estève",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "acf7e795",
+   "season": 2022,
+   "distance": 1.874,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zima",
+   "squad": "Torino"
+  },
+  {
    "fbref_id": "88f130ed",
    "season": 2019,
-   "distance": 2.037,
+   "distance": 1.975,
    "survived": 1,
    "fut_ability_v2": 64.4,
    "player_name": "Jean-Clair Todibo",
@@ -76,65 +103,38 @@
   {
    "fbref_id": "677da306",
    "season": 2018,
-   "distance": 2.297,
+   "distance": 2.278,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Ohis Felix Uduokhai",
    "squad": "Wolfsburg"
   },
   {
+   "fbref_id": "a40819d9",
+   "season": 2021,
+   "distance": 2.341,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marash Kumbulla",
+   "squad": "Roma"
+  },
+  {
    "fbref_id": "0b33f6ad",
    "season": 2020,
-   "distance": 2.357,
+   "distance": 2.417,
    "survived": 1,
    "fut_ability_v2": 65.6,
    "player_name": "Mohammed Salisu",
    "squad": "Valladolid"
   },
   {
-   "fbref_id": "9f979eb2",
-   "season": 2018,
-   "distance": 2.458,
+   "fbref_id": "2d61d13a",
+   "season": 2021,
+   "distance": 2.481,
    "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Jorge Meré",
-   "squad": "Köln"
-  },
-  {
-   "fbref_id": "d6e53a3a",
-   "season": 2020,
-   "distance": 2.557,
-   "survived": 1,
-   "fut_ability_v2": 65.0,
-   "player_name": "Matthijs de Ligt",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "610aa1e9",
-   "season": 2020,
-   "distance": 2.584,
-   "survived": 1,
-   "fut_ability_v2": 55.1,
-   "player_name": "Luca Kilian",
-   "squad": "Paderborn 07"
-  },
-  {
-   "fbref_id": "8f325097",
-   "season": 2019,
-   "distance": 2.593,
-   "survived": 1,
-   "fut_ability_v2": 44.9,
-   "player_name": "Nicolas Cozza",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "1232e1dc",
-   "season": 2018,
-   "distance": 2.699,
-   "survived": 1,
-   "fut_ability_v2": 62.4,
-   "player_name": "Joris Gnagnon",
-   "squad": "Rennes"
+   "fut_ability_v2": 61.7,
+   "player_name": "Ozan Kabak",
+   "squad": "Schalke 04 / Liverpool"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Emmanuel Biumla(DF)의 현재 능력 점수는 46.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 클리어링, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 최종 3분의1 패스이다.",
-  "potential": "Emmanuel Biumla의 2~3년 후 예측 중심값은 58.1점, 80% 구간 상단은 69.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 78.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Emmanuel Biumla의 2~3년 후 예측 중심값은 56.2점, 80% 구간 상단은 66.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 74.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

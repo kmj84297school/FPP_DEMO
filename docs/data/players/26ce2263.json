@@ -32,33 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6994,
-  "mu": 58.7,
+  "survival_prob": 0.4363,
+  "mu": 58.1,
   "ci80": {
-   "lo": 49.5,
-   "hi": 68.0
+   "lo": 48.8,
+   "hi": 67.3
   },
   "ci50": {
-   "lo": 53.9,
-   "hi": 63.6
+   "lo": 53.2,
+   "hi": 62.9
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "b827d5b3",
+   "season": 2021,
+   "distance": 1.782,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Albrighton",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "47b7e3af",
    "season": 2019,
-   "distance": 1.916,
+   "distance": 1.907,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aaron Mooy",
    "squad": "Huddersfield"
   },
   {
+   "fbref_id": "54b4dc4e",
+   "season": 2022,
+   "distance": 1.998,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kerem Demirbay",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "635f2732",
+   "season": 2022,
+   "distance": 2.047,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jean-Paul Boëtius",
+   "squad": "Mainz 05"
+  },
+  {
+   "fbref_id": "3eb0f2df",
+   "season": 2021,
+   "distance": 2.256,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vladimír Darida",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "106bca06",
+   "season": 2022,
+   "distance": 2.369,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alessandro Schöpf",
+   "squad": "Arminia"
+  },
+  {
+   "fbref_id": "79b2399c",
+   "season": 2018,
+   "distance": 2.407,
+   "survived": 1,
+   "fut_ability_v2": 54.7,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
    "fbref_id": "3eb0f2df",
    "season": 2020,
-   "distance": 2.37,
+   "distance": 2.421,
    "survived": 1,
    "fut_ability_v2": 47.8,
    "player_name": "Vladimír Darida",
@@ -67,74 +121,20 @@
   {
    "fbref_id": "f7691f63",
    "season": 2020,
-   "distance": 2.404,
+   "distance": 2.426,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Dimitri Liénard",
    "squad": "Strasbourg"
   },
   {
-   "fbref_id": "47b7e3af",
-   "season": 2020,
-   "distance": 2.421,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aaron Mooy",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "79b2399c",
-   "season": 2018,
-   "distance": 2.427,
-   "survived": 1,
-   "fut_ability_v2": 54.7,
-   "player_name": "Pierrick Capelle",
-   "squad": "Angers"
-  },
-  {
    "fbref_id": "809940aa",
    "season": 2020,
-   "distance": 2.44,
+   "distance": 2.481,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dominick Drexler",
    "squad": "Köln"
-  },
-  {
-   "fbref_id": "a25250f8",
-   "season": 2018,
-   "distance": 2.483,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Álex Granell",
-   "squad": "Girona"
-  },
-  {
-   "fbref_id": "6bde367b",
-   "season": 2020,
-   "distance": 2.534,
-   "survived": 1,
-   "fut_ability_v2": 66.5,
-   "player_name": "Téji Savanier",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "56b2957b",
-   "season": 2018,
-   "distance": 2.535,
-   "survived": 1,
-   "fut_ability_v2": 53.8,
-   "player_name": "Lucas Castro",
-   "squad": "Chievo"
-  },
-  {
-   "fbref_id": "f7691f63",
-   "season": 2018,
-   "distance": 2.536,
-   "survived": 1,
-   "fut_ability_v2": 65.6,
-   "player_name": "Dimitri Liénard",
-   "squad": "Strasbourg"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Ryan Christie(MF)의 현재 능력 점수는 62.8점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 볼 리커버리, 블록, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 슈팅당 기대득점이다.",
-  "potential": "Ryan Christie의 2~3년 후 예측 중심값은 58.7점, 80% 구간 상단은 68.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ryan Christie의 2~3년 후 예측 중심값은 58.1점, 80% 구간 상단은 67.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 43.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

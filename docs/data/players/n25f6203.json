@@ -32,42 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8063,
-  "mu": 57.8,
+  "survival_prob": 0.6516,
+  "mu": 59.4,
   "ci80": {
-   "lo": 47.2,
-   "hi": 68.4
+   "lo": 49.0,
+   "hi": 69.9
   },
   "ci50": {
-   "lo": 52.2,
-   "hi": 63.3
+   "lo": 53.9,
+   "hi": 65.0
   },
-  "sigma_model": 2.1,
+  "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
-   "fbref_id": "441197b8",
-   "season": 2019,
-   "distance": 1.454,
-   "survived": 1,
-   "fut_ability_v2": 70.3,
-   "player_name": "Obite N'Dicka",
-   "squad": "Eint Frankfurt"
-  },
-  {
    "fbref_id": "132a82f1",
    "season": 2020,
-   "distance": 1.549,
+   "distance": 1.524,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Wesley Fofana",
    "squad": "Saint-Étienne"
   },
   {
+   "fbref_id": "441197b8",
+   "season": 2019,
+   "distance": 1.549,
+   "survived": 1,
+   "fut_ability_v2": 70.3,
+   "player_name": "Obite N'Dicka",
+   "squad": "Eint Frankfurt"
+  },
+  {
+   "fbref_id": "10b9fa99",
+   "season": 2021,
+   "distance": 1.688,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ethan Ampadu",
+   "squad": "Sheffield Utd"
+  },
+  {
    "fbref_id": "5ed9b537",
    "season": 2019,
-   "distance": 1.798,
+   "distance": 1.902,
    "survived": 1,
    "fut_ability_v2": 67.5,
    "player_name": "Ibrahima Konaté",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "677da306",
    "season": 2018,
-   "distance": 1.902,
+   "distance": 1.909,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Ohis Felix Uduokhai",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "cc77354e",
    "season": 2019,
-   "distance": 2.003,
+   "distance": 2.007,
    "survived": 1,
    "fut_ability_v2": 62.9,
    "player_name": "Boubacar Kamara",
    "squad": "Marseille"
   },
   {
-   "fbref_id": "5ed9b537",
-   "season": 2018,
-   "distance": 2.13,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ibrahima Konaté",
-   "squad": "RB Leipzig"
+   "fbref_id": "5fa57166",
+   "season": 2021,
+   "distance": 2.064,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Matteo Lovato",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "114bbdee",
+   "season": 2021,
+   "distance": 2.074,
+   "survived": 1,
+   "fut_ability_v2": 64.3,
+   "player_name": "Loïc Bade",
+   "squad": "Lens"
+  },
+  {
+   "fbref_id": "1f3afdcb",
+   "season": 2022,
+   "distance": 2.112,
+   "survived": 1,
+   "fut_ability_v2": 63.3,
+   "player_name": "Odilon Kossonou",
+   "squad": "Leverkusen"
   },
   {
    "fbref_id": "d248cd8f",
    "season": 2019,
-   "distance": 2.132,
+   "distance": 2.168,
    "survived": 1,
    "fut_ability_v2": 69.5,
    "player_name": "Dayot Upamecano",
    "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "bee704fc",
-   "season": 2018,
-   "distance": 2.183,
-   "survived": 1,
-   "fut_ability_v2": 64.3,
-   "player_name": "Nikola Milenković",
-   "squad": "Fiorentina"
-  },
-  {
-   "fbref_id": "84594618",
-   "season": 2018,
-   "distance": 2.257,
-   "survived": 1,
-   "fut_ability_v2": 53.4,
-   "player_name": "Filippo Romagna",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "6e33125f",
-   "season": 2019,
-   "distance": 2.271,
-   "survived": 1,
-   "fut_ability_v2": 59.9,
-   "player_name": "Kevin Danso",
-   "squad": "Augsburg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Pietro Comuzzo(DF)의 현재 능력 점수는 62.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클 성공률, 공중볼 승률, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 박스 터치이다.",
-  "potential": "Pietro Comuzzo의 2~3년 후 예측 중심값은 57.8점, 80% 구간 상단은 68.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 80.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pietro Comuzzo의 2~3년 후 예측 중심값은 59.4점, 80% 구간 상단은 69.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 65.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3438,
-  "mu": 60.8,
+  "survival_prob": 0.2509,
+  "mu": 58.4,
   "ci80": {
-   "lo": 51.2,
-   "hi": 70.2
+   "lo": 49.1,
+   "hi": 67.6
   },
   "ci50": {
-   "lo": 55.7,
-   "hi": 65.7
+   "lo": 53.5,
+   "hi": 63.2
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "89f951b5",
    "season": 2020,
-   "distance": 1.88,
+   "distance": 1.83,
    "survived": 1,
    "fut_ability_v2": 63.1,
    "player_name": "Ivan Rakitić",
    "squad": "Barcelona"
   },
   {
+   "fbref_id": "61220da2",
+   "season": 2022,
+   "distance": 2.233,
+   "survived": 1,
+   "fut_ability_v2": 53.8,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
    "fbref_id": "cf15bbb1",
    "season": 2018,
-   "distance": 2.317,
+   "distance": 2.286,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Steven Davis",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "144607cc",
    "season": 2020,
-   "distance": 2.482,
+   "distance": 2.487,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jasmin Kurtić",
    "squad": "Parma / SPAL"
   },
   {
-   "fbref_id": "719384c1",
-   "season": 2020,
-   "distance": 2.623,
+   "fbref_id": "e61b8aee",
+   "season": 2022,
+   "distance": 2.596,
    "survived": 1,
-   "fut_ability_v2": 45.0,
-   "player_name": "Ángel Montoro",
-   "squad": "Granada"
+   "fut_ability_v2": 67.5,
+   "player_name": "Granit Xhaka",
+   "squad": "Arsenal"
+  },
+  {
+   "fbref_id": "26f6dca8",
+   "season": 2022,
+   "distance": 2.606,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manuel Lanzini",
+   "squad": "West Ham"
   },
   {
    "fbref_id": "bd84fc61",
    "season": 2019,
-   "distance": 2.639,
+   "distance": 2.615,
    "survived": 1,
    "fut_ability_v2": 52.0,
    "player_name": "Pasquale Schiattarella",
    "squad": "SPAL"
   },
   {
-   "fbref_id": "1bcca8b8",
-   "season": 2018,
-   "distance": 2.758,
+   "fbref_id": "99813635",
+   "season": 2021,
+   "distance": 2.626,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Jonathan de Guzmán",
-   "squad": "Eint Frankfurt"
+   "player_name": "Adam Lallana",
+   "squad": "Brighton"
   },
   {
-   "fbref_id": "33b554b7",
-   "season": 2019,
-   "distance": 2.759,
+   "fbref_id": "436a9dd0",
+   "season": 2021,
+   "distance": 2.631,
    "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Danny Latza",
-   "squad": "Mainz 05"
+   "fut_ability_v2": 65.2,
+   "player_name": "Ander Herrera",
+   "squad": "Paris S-G"
   },
   {
-   "fbref_id": "819b3158",
+   "fbref_id": "719384c1",
    "season": 2020,
-   "distance": 2.774,
+   "distance": 2.642,
    "survived": 1,
-   "fut_ability_v2": 77.1,
-   "player_name": "İlkay Gündoğan",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "b746d309",
-   "season": 2018,
-   "distance": 2.774,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Riccardo Montolivo",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "468fdbad",
-   "season": 2019,
-   "distance": 2.78,
-   "survived": 1,
-   "fut_ability_v2": 53.2,
-   "player_name": "Jonas Martin",
-   "squad": "Strasbourg"
+   "fut_ability_v2": 45.0,
+   "player_name": "Ángel Montoro",
+   "squad": "Granada"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Piotr Zieliński(MF)의 현재 능력 점수는 69.2점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반 거리, 최종 3분의1 패스, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 실책이다.",
-  "potential": "Piotr Zieliński의 2~3년 후 예측 중심값은 60.8점, 80% 구간 상단은 70.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Piotr Zieliński의 2~3년 후 예측 중심값은 58.4점, 80% 구간 상단은 67.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

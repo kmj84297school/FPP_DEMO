@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4576,
-  "mu": 58.1,
+  "survival_prob": 0.5967,
+  "mu": 59.6,
   "ci80": {
-   "lo": 48.8,
-   "hi": 67.5
+   "lo": 50.3,
+   "hi": 68.8
   },
   "ci50": {
-   "lo": 53.3,
-   "hi": 63.0
+   "lo": 54.7,
+   "hi": 64.4
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "f7dc2ae5",
+   "season": 2022,
+   "distance": 1.256,
+   "survived": 1,
+   "fut_ability_v2": 51.8,
+   "player_name": "Aritz Elustondo",
+   "squad": "Real Sociedad"
+  },
+  {
    "fbref_id": "c707411f",
    "season": 2018,
-   "distance": 1.307,
+   "distance": 1.323,
    "survived": 1,
    "fut_ability_v2": 50.1,
    "player_name": "Kostas Manolas",
@@ -57,84 +66,75 @@
   },
   {
    "fbref_id": "18b896d6",
+   "season": 2021,
+   "distance": 1.383,
+   "survived": 1,
+   "fut_ability_v2": 57.1,
+   "player_name": "Antonio Rüdiger",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "18b896d6",
    "season": 2020,
-   "distance": 1.447,
+   "distance": 1.469,
    "survived": 1,
    "fut_ability_v2": 67.1,
    "player_name": "Antonio Rüdiger",
    "squad": "Chelsea"
   },
   {
+   "fbref_id": "d8931174",
+   "season": 2022,
+   "distance": 1.512,
+   "survived": 1,
+   "fut_ability_v2": 66.3,
+   "player_name": "Harry Maguire",
+   "squad": "Manchester Utd"
+  },
+  {
+   "fbref_id": "d9764034",
+   "season": 2021,
+   "distance": 1.575,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Guillermo Maripán",
+   "squad": "Monaco"
+  },
+  {
    "fbref_id": "7aac47fe",
    "season": 2020,
-   "distance": 1.6,
+   "distance": 1.644,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ermin Bičakčić",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "b5114f85",
-   "season": 2019,
-   "distance": 1.64,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Georg Margreitter",
-   "squad": "Nürnberg"
-  },
-  {
-   "fbref_id": "8cc29864",
-   "season": 2019,
-   "distance": 1.684,
+   "fbref_id": "3ead85f9",
+   "season": 2022,
+   "distance": 1.648,
    "survived": 1,
-   "fut_ability_v2": 48.7,
-   "player_name": "Lorenzo Tonelli",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "89151b16",
-   "season": 2019,
-   "distance": 1.691,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Zouhair Feddal",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "51e3954c",
-   "season": 2018,
-   "distance": 1.718,
-   "survived": 1,
-   "fut_ability_v2": 52.5,
-   "player_name": "Facundo Roncaglia",
-   "squad": "Celta Vigo"
+   "fut_ability_v2": 64.2,
+   "player_name": "Alessio Romagnoli",
+   "squad": "Milan"
   },
   {
    "fbref_id": "3b15ef2d",
    "season": 2018,
-   "distance": 1.754,
+   "distance": 1.656,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Medhi Benatia",
    "squad": "Juventus"
   },
   {
-   "fbref_id": "7d50454d",
+   "fbref_id": "b5114f85",
    "season": 2019,
-   "distance": 1.797,
-   "survived": 1,
-   "fut_ability_v2": 56.4,
-   "player_name": "Luca Ceppitelli",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "070ec0b1",
-   "season": 2018,
-   "distance": 1.8,
-   "survived": 1,
-   "fut_ability_v2": 66.6,
-   "player_name": "Sven Bender",
-   "squad": "Leverkusen"
+   "distance": 1.686,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Georg Margreitter",
+   "squad": "Nürnberg"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Nayef Aguerd(DF)의 현재 능력 점수는 65.9점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 운반 거리, 비페널티 xG, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 태클+인터셉트이다.",
-  "potential": "Nayef Aguerd의 2~3년 후 예측 중심값은 58.1점, 80% 구간 상단은 67.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Nayef Aguerd의 2~3년 후 예측 중심값은 59.6점, 80% 구간 상단은 68.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

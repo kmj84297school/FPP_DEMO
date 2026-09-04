@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5005,
-  "mu": 54.1,
+  "survival_prob": 0.6018,
+  "mu": 54.4,
   "ci80": {
-   "lo": 44.8,
-   "hi": 63.3
+   "lo": 45.1,
+   "hi": 63.8
   },
   "ci50": {
-   "lo": 49.2,
-   "hi": 58.9
+   "lo": 49.5,
+   "hi": 59.3
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "92d38e6c",
    "season": 2019,
-   "distance": 1.324,
+   "distance": 1.223,
    "survived": 1,
    "fut_ability_v2": 62.4,
    "player_name": "Dimitris Siovas",
    "squad": "Leganés"
   },
   {
+   "fbref_id": "f0a37d36",
+   "season": 2021,
+   "distance": 1.713,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cédric Brunner",
+   "squad": "Arminia"
+  },
+  {
    "fbref_id": "b2d31e83",
    "season": 2020,
-   "distance": 1.757,
+   "distance": 1.725,
    "survived": 1,
    "fut_ability_v2": 57.3,
    "player_name": "Dan Burn",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "312626c1",
    "season": 2020,
-   "distance": 1.97,
+   "distance": 1.952,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jack O'Connell",
    "squad": "Sheffield Utd"
   },
   {
-   "fbref_id": "de0f152c",
-   "season": 2020,
-   "distance": 2.128,
-   "survived": 1,
-   "fut_ability_v2": 49.8,
-   "player_name": "Adam Masina",
-   "squad": "Watford"
+   "fbref_id": "3a9c4b7b",
+   "season": 2022,
+   "distance": 2.009,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho Vidal",
+   "squad": "Osasuna"
   },
   {
    "fbref_id": "f3112790",
    "season": 2020,
-   "distance": 2.188,
+   "distance": 2.07,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Unai Bustinza",
    "squad": "Leganés"
   },
   {
-   "fbref_id": "69cbc8b6",
-   "season": 2019,
-   "distance": 2.225,
+   "fbref_id": "de0f152c",
+   "season": 2020,
+   "distance": 2.103,
    "survived": 1,
-   "fut_ability_v2": 47.8,
-   "player_name": "Leandro Cabrera",
-   "squad": "Getafe"
+   "fut_ability_v2": 49.8,
+   "player_name": "Adam Masina",
+   "squad": "Watford"
   },
   {
    "fbref_id": "3e9e06cb",
    "season": 2018,
-   "distance": 2.25,
+   "distance": 2.103,
    "survived": 1,
    "fut_ability_v2": 52.6,
    "player_name": "Craig Dawson",
    "squad": "West Brom"
   },
   {
-   "fbref_id": "b82880c6",
-   "season": 2018,
-   "distance": 2.317,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simon Falette",
-   "squad": "Eint Frankfurt / Metz"
-  },
-  {
-   "fbref_id": "68635c10",
-   "season": 2018,
-   "distance": 2.347,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Frederik Sørensen",
-   "squad": "Köln"
-  },
-  {
-   "fbref_id": "247accfd",
-   "season": 2018,
-   "distance": 2.385,
+   "fbref_id": "5efc5389",
+   "season": 2021,
+   "distance": 2.176,
    "survived": 1,
-   "fut_ability_v2": 51.0,
-   "player_name": "Bakaye Dibassy",
-   "squad": "Amiens"
+   "fut_ability_v2": 57.7,
+   "player_name": "Charalambos Lykogiannis",
+   "squad": "Cagliari"
+  },
+  {
+   "fbref_id": "3a9c4b7b",
+   "season": 2021,
+   "distance": 2.207,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Nacho Vidal",
+   "squad": "Osasuna"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Omar Alderete(DF)의 현재 능력 점수는 59.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 슈팅 시도, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 전진 패스 수신이다.",
-  "potential": "Omar Alderete의 2~3년 후 예측 중심값은 54.1점, 80% 구간 상단은 63.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 50.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Omar Alderete의 2~3년 후 예측 중심값은 54.4점, 80% 구간 상단은 63.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9872,
-  "mu": 67.7,
+  "survival_prob": 0.9805,
+  "mu": 68.2,
   "ci80": {
-   "lo": 56.5,
-   "hi": 79.0
+   "lo": 57.6,
+   "hi": 78.7
   },
   "ci50": {
-   "lo": 61.8,
+   "lo": 62.6,
    "hi": 73.6
   },
-  "sigma_model": 3.5,
+  "sigma_model": 2.0,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "e7986081",
    "season": 2019,
-   "distance": 3.317,
+   "distance": 3.258,
    "survived": 1,
    "fut_ability_v2": 70.1,
    "player_name": "Moussa Dembélé",
    "squad": "Lyon"
   },
   {
+   "fbref_id": "1f44ac21",
+   "season": 2022,
+   "distance": 3.365,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Erling Haaland",
+   "squad": "Dortmund"
+  },
+  {
    "fbref_id": "49fe9070",
    "season": 2018,
-   "distance": 3.463,
+   "distance": 3.458,
    "survived": 1,
    "fut_ability_v2": 77.6,
    "player_name": "Timo Werner",
@@ -67,16 +76,25 @@
   {
    "fbref_id": "3effaa34",
    "season": 2020,
-   "distance": 3.577,
+   "distance": 3.55,
    "survived": 1,
    "fut_ability_v2": 60.0,
    "player_name": "André Silva",
    "squad": "Eint Frankfurt / Milan"
   },
   {
+   "fbref_id": "f7036e1c",
+   "season": 2022,
+   "distance": 3.622,
+   "survived": 1,
+   "fut_ability_v2": 67.7,
+   "player_name": "Lautaro Martínez",
+   "squad": "Inter"
+  },
+  {
    "fbref_id": "6f8cd6d0",
    "season": 2020,
-   "distance": 3.61,
+   "distance": 3.644,
    "survived": 1,
    "fut_ability_v2": 66.5,
    "player_name": "Marcus Thuram",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "0b4f388a",
    "season": 2020,
-   "distance": 3.675,
+   "distance": 3.645,
    "survived": 1,
    "fut_ability_v2": 62.4,
    "player_name": "Breel Embolo",
    "squad": "M'Gladbach"
   },
   {
-   "fbref_id": "b400bde0",
-   "season": 2018,
-   "distance": 3.898,
+   "fbref_id": "f7036e1c",
+   "season": 2021,
+   "distance": 3.702,
    "survived": 1,
-   "fut_ability_v2": 79.0,
-   "player_name": "Raheem Sterling",
-   "squad": "Manchester City"
+   "fut_ability_v2": 69.8,
+   "player_name": "Lautaro Martínez",
+   "squad": "Inter"
   },
   {
-   "fbref_id": "49fe9070",
-   "season": 2019,
-   "distance": 3.915,
+   "fbref_id": "7c56da38",
+   "season": 2022,
+   "distance": 3.868,
    "survived": 1,
-   "fut_ability_v2": 62.2,
-   "player_name": "Timo Werner",
+   "fut_ability_v2": 74.2,
+   "player_name": "Christopher Nkunku",
    "squad": "RB Leipzig"
   },
   {
-   "fbref_id": "49fe9070",
-   "season": 2020,
-   "distance": 3.99,
+   "fbref_id": "f586779e",
+   "season": 2022,
+   "distance": 3.932,
    "survived": 1,
-   "fut_ability_v2": 53.9,
-   "player_name": "Timo Werner",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "b66315ae",
-   "season": 2020,
-   "distance": 4.067,
-   "survived": 1,
-   "fut_ability_v2": 80.2,
-   "player_name": "Gabriel Jesus",
-   "squad": "Manchester City"
-  },
-  {
-   "fbref_id": "178ae8f8",
-   "season": 2020,
-   "distance": 4.154,
-   "survived": 1,
-   "fut_ability_v2": 81.2,
-   "player_name": "Diogo Jota",
-   "squad": "Wolves"
+   "fut_ability_v2": 56.5,
+   "player_name": "Tammy Abraham",
+   "squad": "Roma"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Hugo Ekitike(FW)의 현재 능력 점수는 78.9점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 슈팅 시도, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스 거리이다.",
-  "potential": "Hugo Ekitike의 2~3년 후 예측 중심값은 67.7점, 80% 구간 상단은 79.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Hugo Ekitike의 2~3년 후 예측 중심값은 68.2점, 80% 구간 상단은 78.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

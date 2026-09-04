@@ -32,51 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9373,
-  "mu": 72.9,
+  "survival_prob": 0.8628,
+  "mu": 71.7,
   "ci80": {
-   "lo": 63.5,
-   "hi": 82.2
+   "lo": 62.2,
+   "hi": 81.1
   },
   "ci50": {
-   "lo": 67.8,
-   "hi": 77.8
+   "lo": 66.7,
+   "hi": 76.6
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "8b9ebd03",
-   "season": 2018,
-   "distance": 3.478,
+   "fbref_id": "a69e4806",
+   "season": 2021,
+   "distance": 3.099,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hirving Lozano",
+   "squad": "Napoli"
+  },
+  {
+   "fbref_id": "042e8a49",
+   "season": 2021,
+   "distance": 3.166,
    "survived": 1,
-   "fut_ability_v2": 68.0,
-   "player_name": "Willian",
-   "squad": "Chelsea"
+   "fut_ability_v2": 79.3,
+   "player_name": "Kingsley Coman",
+   "squad": "Bayern Munich"
+  },
+  {
+   "fbref_id": "042e8a49",
+   "season": 2022,
+   "distance": 3.325,
+   "survived": 1,
+   "fut_ability_v2": 83.1,
+   "player_name": "Kingsley Coman",
+   "squad": "Bayern Munich"
   },
   {
    "fbref_id": "fd51b456",
    "season": 2018,
-   "distance": 3.509,
+   "distance": 3.376,
    "survived": 1,
    "fut_ability_v2": 65.0,
    "player_name": "Lucas Vázquez",
    "squad": "Real Madrid"
   },
   {
-   "fbref_id": "2b9fdeea",
+   "fbref_id": "8b9ebd03",
    "season": 2018,
-   "distance": 3.61,
+   "distance": 3.461,
    "survived": 1,
-   "fut_ability_v2": 72.2,
-   "player_name": "Florian Thauvin",
-   "squad": "Marseille"
+   "fut_ability_v2": 68.0,
+   "player_name": "Willian",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "88e357ef",
+   "season": 2021,
+   "distance": 3.542,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Serge Gnabry",
+   "squad": "Bayern Munich"
   },
   {
    "fbref_id": "2b9fdeea",
    "season": 2019,
-   "distance": 3.684,
+   "distance": 3.619,
    "survived": 1,
    "fut_ability_v2": 72.2,
    "player_name": "Florian Thauvin",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "467bae22",
    "season": 2018,
-   "distance": 3.747,
+   "distance": 3.63,
    "survived": 1,
    "fut_ability_v2": 57.3,
    "player_name": "Franco Vázquez",
    "squad": "Sevilla"
   },
   {
-   "fbref_id": "3c6089ab",
-   "season": 2019,
-   "distance": 3.962,
-   "survived": 1,
-   "fut_ability_v2": 75.2,
-   "player_name": "Thomas Müller",
-   "squad": "Bayern Munich"
-  },
-  {
-   "fbref_id": "6fe90922",
+   "fbref_id": "2b9fdeea",
    "season": 2018,
-   "distance": 4.041,
+   "distance": 3.658,
    "survived": 1,
-   "fut_ability_v2": 63.3,
-   "player_name": "Ivan Perišić",
-   "squad": "Inter"
+   "fut_ability_v2": 72.2,
+   "player_name": "Florian Thauvin",
+   "squad": "Marseille"
   },
   {
-   "fbref_id": "bece776f",
-   "season": 2019,
-   "distance": 4.077,
+   "fbref_id": "4a5a45c7",
+   "season": 2022,
+   "distance": 3.831,
    "survived": 1,
-   "fut_ability_v2": 72.9,
-   "player_name": "Nabil Fekir",
-   "squad": "Lyon"
-  },
-  {
-   "fbref_id": "130a7a3f",
-   "season": 2020,
-   "distance": 4.08,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Samu Castillejo",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "9744ff80",
-   "season": 2019,
-   "distance": 4.098,
-   "survived": 1,
-   "fut_ability_v2": 81.2,
-   "player_name": "Pablo Sarabia",
-   "squad": "Sevilla"
+   "fut_ability_v2": 62.4,
+   "player_name": "Lorenzo Pellegrini",
+   "squad": "Roma"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Ademola Lookman(MF)의 현재 능력 점수는 74.4점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 수신, 전진 운반, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 볼 손실(미스+파울)이다.",
-  "potential": "Ademola Lookman의 2~3년 후 예측 중심값은 72.9점, 80% 구간 상단은 82.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 93.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ademola Lookman의 2~3년 후 예측 중심값은 71.7점, 80% 구간 상단은 81.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 86.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

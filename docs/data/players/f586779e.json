@@ -32,51 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3243,
-  "mu": 42.3,
+  "survival_prob": 0.3158,
+  "mu": 42.0,
   "ci80": {
-   "lo": 32.6,
-   "hi": 52.0
+   "lo": 32.3,
+   "hi": 51.9
   },
   "ci50": {
-   "lo": 37.2,
-   "hi": 47.4
+   "lo": 36.9,
+   "hi": 47.2
   },
   "sigma_model": 2.8,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "8f898ba8",
    "season": 2020,
-   "distance": 2.25,
+   "distance": 2.244,
    "survived": 1,
    "fut_ability_v2": 30.8,
    "player_name": "Guido Carrillo",
    "squad": "Leganés"
   },
   {
+   "fbref_id": "15f24fe7",
+   "season": 2022,
+   "distance": 2.349,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sasa Kalajdzic",
+   "squad": "Stuttgart"
+  },
+  {
    "fbref_id": "abb3bb95",
    "season": 2020,
-   "distance": 2.511,
+   "distance": 2.515,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luuk de Jong",
    "squad": "Sevilla"
   },
   {
-   "fbref_id": "df85d472",
-   "season": 2019,
-   "distance": 2.571,
+   "fbref_id": "daa78200",
+   "season": 2021,
+   "distance": 2.537,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Federico Santander",
-   "squad": "Bologna"
+   "player_name": "Andreas Voglsammer",
+   "squad": "Arminia"
+  },
+  {
+   "fbref_id": "c4e87b8b",
+   "season": 2022,
+   "distance": 2.575,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Wout Weghorst",
+   "squad": "Wolfsburg / Burnley"
   },
   {
    "fbref_id": "e3fabb0a",
    "season": 2019,
-   "distance": 2.589,
+   "distance": 2.624,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Wu Lei",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "462475ed",
    "season": 2019,
-   "distance": 2.657,
+   "distance": 2.64,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Ludovic Ajorque",
    "squad": "Strasbourg"
   },
   {
+   "fbref_id": "df85d472",
+   "season": 2019,
+   "distance": 2.643,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Federico Santander",
+   "squad": "Bologna"
+  },
+  {
    "fbref_id": "c693347d",
    "season": 2020,
-   "distance": 2.664,
+   "distance": 2.691,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Andreas Cornelius",
    "squad": "Parma"
   },
   {
-   "fbref_id": "8e235926",
-   "season": 2020,
-   "distance": 2.816,
+   "fbref_id": "5eae500a",
+   "season": 2022,
+   "distance": 2.698,
    "survived": 1,
-   "fut_ability_v2": 55.4,
-   "player_name": "Michael Gregoritsch",
-   "squad": "Schalke 04 / Augsburg"
-  },
-  {
-   "fbref_id": "bdedd861",
-   "season": 2019,
-   "distance": 2.894,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rachid Alioui",
-   "squad": "Nîmes"
-  },
-  {
-   "fbref_id": "ef5b337e",
-   "season": 2019,
-   "distance": 2.933,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fabio Borini",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "9a104dee",
-   "season": 2019,
-   "distance": 3.015,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Cenk Tosun",
-   "squad": "Everton"
+   "fut_ability_v2": 48.7,
+   "player_name": "Romelu Lukaku",
+   "squad": "Chelsea"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Tammy Abraham(FW)의 현재 능력 점수는 56.5점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 슈팅당 기대득점, 태클 성공률, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 운반이다.",
-  "potential": "Tammy Abraham의 2~3년 후 예측 중심값은 42.3점, 80% 구간 상단은 52.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.4%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Tammy Abraham의 2~3년 후 예측 중심값은 42.0점, 80% 구간 상단은 51.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.6%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

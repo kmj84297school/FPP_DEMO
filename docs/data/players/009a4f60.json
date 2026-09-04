@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6993,
+  "survival_prob": 0.7451,
   "mu": 52.2,
   "ci80": {
-   "lo": 43.1,
+   "lo": 43.0,
    "hi": 61.4
   },
   "ci50": {
-   "lo": 47.4,
+   "lo": 47.3,
    "hi": 57.0
   },
-  "sigma_model": 1.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "0a483542",
+   "season": 2022,
+   "distance": 1.808,
+   "survived": 1,
+   "fut_ability_v2": 51.0,
+   "player_name": "Giorgos Kyriakopoulos",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "81442ecb",
+   "season": 2021,
+   "distance": 1.881,
+   "survived": 1,
+   "fut_ability_v2": 57.4,
+   "player_name": "Marcos Acuña",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "433dc9a2",
    "season": 2020,
-   "distance": 2.018,
+   "distance": 1.945,
    "survived": 1,
    "fut_ability_v2": 48.3,
    "player_name": "Juan Bernat",
    "squad": "Paris S-G"
   },
   {
+   "fbref_id": "6b2c894b",
+   "season": 2022,
+   "distance": 1.98,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ghislain Konan",
+   "squad": "Reims"
+  },
+  {
    "fbref_id": "4958bfb2",
    "season": 2019,
-   "distance": 2.118,
+   "distance": 2.106,
    "survived": 1,
    "fut_ability_v2": 64.5,
    "player_name": "Dani Carvajal",
@@ -67,74 +94,47 @@
   {
    "fbref_id": "30c220c3",
    "season": 2019,
-   "distance": 2.208,
+   "distance": 2.175,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mitchell Weiser",
    "squad": "Leverkusen"
   },
   {
-   "fbref_id": "fbbb9269",
-   "season": 2019,
-   "distance": 2.242,
-   "survived": 1,
-   "fut_ability_v2": 59.9,
-   "player_name": "Youssouf Sabaly",
-   "squad": "Bordeaux"
-  },
-  {
    "fbref_id": "433dc9a2",
    "season": 2019,
-   "distance": 2.266,
+   "distance": 2.182,
    "survived": 1,
    "fut_ability_v2": 48.3,
    "player_name": "Juan Bernat",
    "squad": "Paris S-G"
   },
   {
+   "fbref_id": "fbbb9269",
+   "season": 2019,
+   "distance": 2.208,
+   "survived": 1,
+   "fut_ability_v2": 59.9,
+   "player_name": "Youssouf Sabaly",
+   "squad": "Bordeaux"
+  },
+  {
+   "fbref_id": "b05e2dbd",
+   "season": 2021,
+   "distance": 2.23,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "José Luis Gayà",
+   "squad": "Valencia"
+  },
+  {
    "fbref_id": "a96e5dc0",
    "season": 2020,
-   "distance": 2.327,
+   "distance": 2.317,
    "survived": 1,
    "fut_ability_v2": 51.0,
    "player_name": "Jeremy Toljan",
    "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "3cefcaef",
-   "season": 2020,
-   "distance": 2.337,
-   "survived": 1,
-   "fut_ability_v2": 61.4,
-   "player_name": "Ferland Mendy",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "16e9d0ea",
-   "season": 2019,
-   "distance": 2.368,
-   "survived": 1,
-   "fut_ability_v2": 60.3,
-   "player_name": "Álex Moreno",
-   "squad": "Rayo Vallecano"
-  },
-  {
-   "fbref_id": "d6a889ea",
-   "season": 2018,
-   "distance": 2.404,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kévin Malcuit",
-   "squad": "Lille"
-  },
-  {
-   "fbref_id": "5f09991f",
-   "season": 2020,
-   "distance": 2.495,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Patrick van Aanholt",
-   "squad": "Crystal Palace"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Julian Ryerson(DF)의 현재 능력 점수는 59.8점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 도움 기대값(xAG), 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 공중볼 승리이다.",
-  "potential": "Julian Ryerson의 2~3년 후 예측 중심값은 52.2점, 80% 구간 상단은 61.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Julian Ryerson의 2~3년 후 예측 중심값은 52.2점, 80% 구간 상단은 61.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 74.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

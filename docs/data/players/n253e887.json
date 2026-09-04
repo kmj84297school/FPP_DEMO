@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3307,
-  "mu": 45.2,
+  "survival_prob": 0.3174,
+  "mu": 48.4,
   "ci80": {
-   "lo": 35.9,
-   "hi": 54.4
+   "lo": 39.0,
+   "hi": 57.9
   },
   "ci50": {
-   "lo": 40.3,
-   "hi": 50.1
+   "lo": 43.4,
+   "hi": 53.4
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "90eb507d",
+   "season": 2022,
+   "distance": 1.571,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Thomas Foket",
+   "squad": "Reims"
+  },
+  {
    "fbref_id": "7fecbcdb",
    "season": 2019,
-   "distance": 1.576,
+   "distance": 1.625,
    "survived": 1,
    "fut_ability_v2": 45.0,
    "player_name": "Abdoulaye Bamba",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "7af0e1f8",
    "season": 2018,
-   "distance": 1.921,
+   "distance": 1.83,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jonathan Rivierez",
    "squad": "Metz"
   },
   {
-   "fbref_id": "d541e703",
-   "season": 2019,
-   "distance": 1.985,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Freddie Veseli",
-   "squad": "Empoli"
+   "fbref_id": "45e17712",
+   "season": 2021,
+   "distance": 1.863,
+   "survived": 1,
+   "fut_ability_v2": 43.3,
+   "player_name": "Dimitri Foulquier",
+   "squad": "Granada"
   },
   {
    "fbref_id": "ff16ecad",
    "season": 2018,
-   "distance": 2.012,
+   "distance": 1.965,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mathieu Deplagne",
    "squad": "Troyes"
   },
   {
+   "fbref_id": "d541e703",
+   "season": 2019,
+   "distance": 1.997,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Freddie Veseli",
+   "squad": "Empoli"
+  },
+  {
    "fbref_id": "05384ea1",
    "season": 2018,
-   "distance": 2.042,
+   "distance": 2.086,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Michel",
    "squad": "Las Palmas"
   },
   {
+   "fbref_id": "2f3452eb",
+   "season": 2022,
+   "distance": 2.11,
+   "survived": 1,
+   "fut_ability_v2": 54.4,
+   "player_name": "Elseid Hysaj",
+   "squad": "Lazio"
+  },
+  {
    "fbref_id": "c26a3918",
    "season": 2018,
-   "distance": 2.104,
+   "distance": 2.14,
    "survived": 1,
    "fut_ability_v2": 50.1,
    "player_name": "Vincent Manceau",
    "squad": "Angers"
   },
   {
-   "fbref_id": "474ecac8",
-   "season": 2018,
-   "distance": 2.166,
-   "survived": 1,
-   "fut_ability_v2": 46.6,
-   "player_name": "Sergio Postigo",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "872cd68c",
-   "season": 2018,
-   "distance": 2.205,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yoann Andreu",
-   "squad": "Angers"
-  },
-  {
-   "fbref_id": "1cd87320",
-   "season": 2019,
-   "distance": 2.258,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Matthias Ostrzolek",
-   "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "96e0490d",
-   "season": 2020,
-   "distance": 2.279,
+   "fbref_id": "3935e52e",
+   "season": 2021,
+   "distance": 2.144,
    "survived": 1,
    "fut_ability_v2": 52.0,
-   "player_name": "Matteo Darmian",
-   "squad": "Parma"
+   "player_name": "Sead Kolašinac",
+   "squad": "Schalke 04 / Arsenal"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Aurélio Buta(DF)의 현재 능력 점수는 42.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 골 창출(GCA), 실책, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Aurélio Buta의 2~3년 후 예측 중심값은 45.2점, 80% 구간 상단은 54.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 33.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Aurélio Buta의 2~3년 후 예측 중심값은 48.4점, 80% 구간 상단은 57.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4099,
-  "mu": 56.9,
+  "survival_prob": 0.4242,
+  "mu": 62.6,
   "ci80": {
-   "lo": 47.5,
-   "hi": 66.2
+   "lo": 52.8,
+   "hi": 72.2
   },
   "ci50": {
-   "lo": 51.9,
-   "hi": 61.8
+   "lo": 57.4,
+   "hi": 67.6
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 2.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "f15a50e8",
    "season": 2018,
-   "distance": 2.374,
+   "distance": 2.528,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Scott Malone",
    "squad": "Huddersfield"
   },
   {
+   "fbref_id": "88d4144a",
+   "season": 2022,
+   "distance": 2.715,
+   "survived": 1,
+   "fut_ability_v2": 75.3,
+   "player_name": "Maximilian Mittelstädt",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "1cbe4984",
+   "season": 2021,
+   "distance": 3.012,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Paulo Otávio",
+   "squad": "Wolfsburg"
+  },
+  {
+   "fbref_id": "5d8d7454",
+   "season": 2021,
+   "distance": 3.015,
+   "survived": 1,
+   "fut_ability_v2": 54.2,
+   "player_name": "Frederic Guilbert",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "d4d0a9ad",
    "season": 2020,
-   "distance": 3.244,
+   "distance": 3.441,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "William",
@@ -67,74 +94,47 @@
   {
    "fbref_id": "d9ba39fc",
    "season": 2018,
-   "distance": 3.358,
+   "distance": 3.506,
    "survived": 1,
    "fut_ability_v2": 61.8,
    "player_name": "Diego Rico",
    "squad": "Leganés"
   },
   {
+   "fbref_id": "77d7c96f",
+   "season": 2021,
+   "distance": 3.65,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kenny Tete",
+   "squad": "Fulham / Lyon"
+  },
+  {
+   "fbref_id": "5d8d7454",
+   "season": 2022,
+   "distance": 3.678,
+   "survived": 1,
+   "fut_ability_v2": 52.7,
+   "player_name": "Frederic Guilbert",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "5c2b4f07",
    "season": 2018,
-   "distance": 3.625,
+   "distance": 3.734,
    "survived": 1,
    "fut_ability_v2": 60.0,
    "player_name": "Serge Aurier",
    "squad": "Tottenham"
   },
   {
-   "fbref_id": "5ddb8f9f",
-   "season": 2018,
-   "distance": 3.808,
-   "survived": 1,
-   "fut_ability_v2": 54.3,
-   "player_name": "Danny da Costa",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "5d8d7454",
-   "season": 2020,
-   "distance": 3.861,
-   "survived": 1,
-   "fut_ability_v2": 55.4,
-   "player_name": "Frederic Guilbert",
-   "squad": "Aston Villa"
-  },
-  {
-   "fbref_id": "3312f911",
-   "season": 2018,
-   "distance": 4.052,
-   "survived": 1,
-   "fut_ability_v2": 41.7,
-   "player_name": "Jeffrey Schlupp",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "9085dd7c",
-   "season": 2018,
-   "distance": 4.098,
-   "survived": 1,
-   "fut_ability_v2": 65.0,
-   "player_name": "Paolo Faragò",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "af69e7f0",
-   "season": 2019,
-   "distance": 4.126,
+   "fbref_id": "6a827d8e",
+   "season": 2022,
+   "distance": 3.87,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Joe Bryan",
-   "squad": "Fulham"
-  },
-  {
-   "fbref_id": "fba81826",
-   "season": 2020,
-   "distance": 4.145,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Federico Mattiello",
-   "squad": "Cagliari"
+   "player_name": "Youcef Atal",
+   "squad": "Nice"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Paul Joly(DF)의 현재 능력 점수는 60.5점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 유효슈팅, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 볼 손실(미스+파울)이다.",
-  "potential": "Paul Joly의 2~3년 후 예측 중심값은 56.9점, 80% 구간 상단은 66.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Paul Joly의 2~3년 후 예측 중심값은 62.6점, 80% 구간 상단은 72.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

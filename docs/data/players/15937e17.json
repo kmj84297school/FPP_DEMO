@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2922,
-  "mu": 54.2,
+  "survival_prob": 0.3816,
+  "mu": 53.5,
   "ci80": {
-   "lo": 44.8,
-   "hi": 63.7
+   "lo": 43.9,
+   "hi": 63.0
   },
   "ci50": {
-   "lo": 49.3,
-   "hi": 59.2
+   "lo": 48.4,
+   "hi": 58.5
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 2.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "67b7357e",
+   "season": 2021,
+   "distance": 1.057,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Senou Coulibaly",
+   "squad": "Dijon"
+  },
+  {
    "fbref_id": "34b306a1",
    "season": 2019,
-   "distance": 1.571,
+   "distance": 1.506,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "André Hoffmann",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "8b95acda",
    "season": 2019,
-   "distance": 1.612,
+   "distance": 1.636,
    "survived": 1,
    "fut_ability_v2": 58.7,
    "player_name": "Omar Colley",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "7cab69b5",
    "season": 2019,
-   "distance": 1.671,
+   "distance": 1.645,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Jemerson",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "b233e8e4",
    "season": 2020,
-   "distance": 1.672,
+   "distance": 1.654,
    "survived": 1,
    "fut_ability_v2": 57.4,
    "player_name": "Jeison Murillo",
    "squad": "Celta Vigo / Sampdoria"
   },
   {
-   "fbref_id": "616aea37",
-   "season": 2018,
-   "distance": 1.712,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marco Capuano",
-   "squad": "Crotone / Cagliari"
-  },
-  {
-   "fbref_id": "c3725db2",
-   "season": 2018,
-   "distance": 1.729,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yoann Salmier",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "25ab9c9c",
-   "season": 2019,
-   "distance": 1.731,
-   "survived": 1,
-   "fut_ability_v2": 49.8,
-   "player_name": "Manuel Gulde",
-   "squad": "Freiburg"
-  },
-  {
    "fbref_id": "6ec6fde0",
    "season": 2020,
-   "distance": 1.735,
+   "distance": 1.708,
    "survived": 1,
    "fut_ability_v2": 60.6,
    "player_name": "Kevin Akpoguma",
    "squad": "Hoffenheim"
   },
   {
-   "fbref_id": "7ed4921e",
-   "season": 2020,
-   "distance": 1.764,
-   "survived": 1,
-   "fut_ability_v2": 48.2,
-   "player_name": "William Troost-Ekong",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "6ba71da5",
+   "fbref_id": "c3725db2",
    "season": 2018,
-   "distance": 1.777,
+   "distance": 1.709,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Jimmy Giraudon",
-   "squad": "Troyes"
+   "player_name": "Yoann Salmier",
+   "squad": "Strasbourg"
+  },
+  {
+   "fbref_id": "a5ae8f8e",
+   "season": 2021,
+   "distance": 1.763,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Miloš Veljković",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "616aea37",
+   "season": 2018,
+   "distance": 1.763,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marco Capuano",
+   "squad": "Crotone / Cagliari"
+  },
+  {
+   "fbref_id": "25ab9c9c",
+   "season": 2019,
+   "distance": 1.803,
+   "survived": 1,
+   "fut_ability_v2": 49.8,
+   "player_name": "Manuel Gulde",
+   "squad": "Freiburg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Eray Cömert(DF)의 현재 능력 점수는 43.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 패스 성공률, 슈팅당 기대득점, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 볼 리커버리이다.",
-  "potential": "Eray Cömert의 2~3년 후 예측 중심값은 54.2점, 80% 구간 상단은 63.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Eray Cömert의 2~3년 후 예측 중심값은 53.5점, 80% 구간 상단은 63.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 38.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

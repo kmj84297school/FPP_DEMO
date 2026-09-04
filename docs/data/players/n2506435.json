@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2873,
-  "mu": 51.3,
+  "survival_prob": 0.2448,
+  "mu": 49.8,
   "ci80": {
-   "lo": 42.1,
-   "hi": 60.6
+   "lo": 40.6,
+   "hi": 59.1
   },
   "ci50": {
-   "lo": 46.5,
-   "hi": 56.2
+   "lo": 45.0,
+   "hi": 54.8
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "a96e5dc0",
    "season": 2020,
-   "distance": 1.733,
+   "distance": 1.766,
    "survived": 1,
    "fut_ability_v2": 51.0,
    "player_name": "Jeremy Toljan",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "f7aa75bd",
    "season": 2019,
-   "distance": 1.798,
+   "distance": 1.868,
    "survived": 1,
    "fut_ability_v2": 50.8,
    "player_name": "Marvin Plattenhardt",
    "squad": "Hertha BSC"
   },
   {
+   "fbref_id": "fce2302c",
+   "season": 2022,
+   "distance": 1.954,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Kieran Tierney",
+   "squad": "Arsenal"
+  },
+  {
    "fbref_id": "e4b72e34",
    "season": 2020,
-   "distance": 2.012,
+   "distance": 1.991,
    "survived": 1,
    "fut_ability_v2": 49.3,
    "player_name": "Miguel Trauco",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "2ef637bd",
    "season": 2019,
-   "distance": 2.058,
+   "distance": 2.022,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pierre-Yves Polomat",
    "squad": "Saint-Étienne"
   },
   {
+   "fbref_id": "b05e2dbd",
+   "season": 2022,
+   "distance": 2.124,
+   "survived": 1,
+   "fut_ability_v2": 58.1,
+   "player_name": "José Luis Gayà",
+   "squad": "Valencia"
+  },
+  {
+   "fbref_id": "b7a5bc86",
+   "season": 2021,
+   "distance": 2.146,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mohamed Fares",
+   "squad": "Lazio"
+  },
+  {
    "fbref_id": "fbbb9269",
    "season": 2019,
-   "distance": 2.148,
+   "distance": 2.166,
    "survived": 1,
    "fut_ability_v2": 59.9,
    "player_name": "Youssouf Sabaly",
    "squad": "Bordeaux"
   },
   {
-   "fbref_id": "8e45910b",
-   "season": 2019,
-   "distance": 2.178,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Francesco Zampano",
-   "squad": "Frosinone"
-  },
-  {
-   "fbref_id": "1e12c53b",
-   "season": 2020,
-   "distance": 2.191,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bruno Martella",
-   "squad": "Brescia"
-  },
-  {
-   "fbref_id": "0a3065c8",
-   "season": 2020,
-   "distance": 2.206,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mitchell Dijks",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "1f079188",
-   "season": 2018,
-   "distance": 2.277,
-   "survived": 1,
-   "fut_ability_v2": 56.1,
-   "player_name": "Rubén Peña",
-   "squad": "Eibar"
-  },
-  {
    "fbref_id": "e5d01ecf",
    "season": 2018,
-   "distance": 2.303,
+   "distance": 2.179,
    "survived": 1,
    "fut_ability_v2": 51.1,
    "player_name": "Kiko Femenía",
    "squad": "Watford"
+  },
+  {
+   "fbref_id": "90eb507d",
+   "season": 2022,
+   "distance": 2.182,
+   "survived": 1,
+   "fut_ability_v2": 45.2,
+   "player_name": "Thomas Foket",
+   "squad": "Reims"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Yukinari Sugawara(DF)의 현재 능력 점수는 48.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 도움 기대값(xAG), 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
-  "potential": "Yukinari Sugawara의 2~3년 후 예측 중심값은 51.3점, 80% 구간 상단은 60.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Yukinari Sugawara의 2~3년 후 예측 중심값은 49.8점, 80% 구간 상단은 59.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 24.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

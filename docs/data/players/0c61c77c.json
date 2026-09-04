@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8679,
-  "mu": 63.3,
+  "survival_prob": 0.8666,
+  "mu": 60.9,
   "ci80": {
-   "lo": 53.7,
-   "hi": 72.9
+   "lo": 51.2,
+   "hi": 70.4
   },
   "ci50": {
-   "lo": 58.3,
-   "hi": 68.4
+   "lo": 55.8,
+   "hi": 65.9
   },
-  "sigma_model": 2.5,
-  "sigma_residual": 7.0
+  "sigma_model": 2.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "2b16cb1a",
+   "season": 2022,
+   "distance": 2.485,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Allan Saint-Maximin",
+   "squad": "Newcastle Utd"
+  },
+  {
    "fbref_id": "43458538",
    "season": 2018,
-   "distance": 3.008,
+   "distance": 2.893,
    "survived": 1,
    "fut_ability_v2": 54.0,
    "player_name": "Joshua King",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "7cdda3bf",
    "season": 2019,
-   "distance": 3.017,
+   "distance": 2.912,
    "survived": 1,
    "fut_ability_v2": 66.6,
    "player_name": "Gaëtan Laborde",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "a08b974a",
    "season": 2020,
-   "distance": 3.083,
+   "distance": 2.962,
    "survived": 1,
    "fut_ability_v2": 53.8,
    "player_name": "Lucas Ocampos",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "43458538",
    "season": 2020,
-   "distance": 3.159,
+   "distance": 3.071,
    "survived": 1,
    "fut_ability_v2": 50.2,
    "player_name": "Joshua King",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "b561db50",
    "season": 2020,
-   "distance": 3.242,
+   "distance": 3.152,
    "survived": 1,
    "fut_ability_v2": 47.2,
    "player_name": "Raúl Jiménez",
@@ -94,7 +103,7 @@
   {
    "fbref_id": "43458538",
    "season": 2019,
-   "distance": 3.273,
+   "distance": 3.172,
    "survived": 1,
    "fut_ability_v2": 50.2,
    "player_name": "Joshua King",
@@ -102,39 +111,30 @@
   },
   {
    "fbref_id": "b2bc3b1f",
-   "season": 2020,
-   "distance": 3.292,
-   "survived": 1,
-   "fut_ability_v2": 61.1,
+   "season": 2022,
+   "distance": 3.186,
+   "survived": 0,
+   "fut_ability_v2": null,
    "player_name": "Wilfried Zaha",
    "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "0375723e",
-   "season": 2018,
-   "distance": 3.295,
-   "survived": 1,
-   "fut_ability_v2": 59.2,
-   "player_name": "Simone Verdi",
-   "squad": "Bologna"
-  },
-  {
    "fbref_id": "1fb1c435",
    "season": 2018,
-   "distance": 3.328,
+   "distance": 3.234,
    "survived": 1,
    "fut_ability_v2": 67.0,
    "player_name": "Rodrigo",
    "squad": "Valencia"
   },
   {
-   "fbref_id": "b2bc3b1f",
-   "season": 2019,
-   "distance": 3.457,
+   "fbref_id": "0375723e",
+   "season": 2018,
+   "distance": 3.256,
    "survived": 1,
-   "fut_ability_v2": 59.6,
-   "player_name": "Wilfried Zaha",
-   "squad": "Crystal Palace"
+   "fut_ability_v2": 59.2,
+   "player_name": "Simone Verdi",
+   "squad": "Bologna"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Dodi Lukebakio(FW)의 현재 능력 점수는 60.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 성공 드리블, 태클 성공률, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 어시스트, 슈팅당 기대득점이다.",
-  "potential": "Dodi Lukebakio의 2~3년 후 예측 중심값은 63.3점, 80% 구간 상단은 72.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 86.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Dodi Lukebakio의 2~3년 후 예측 중심값은 60.9점, 80% 구간 상단은 70.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 86.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

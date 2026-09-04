@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.351,
-  "mu": 51.9,
+  "survival_prob": 0.4852,
+  "mu": 52.0,
   "ci80": {
-   "lo": 42.6,
-   "hi": 61.1
+   "lo": 42.8,
+   "hi": 61.2
   },
   "ci50": {
-   "lo": 46.9,
-   "hi": 56.7
+   "lo": 47.1,
+   "hi": 56.8
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "088ca1bd",
+   "season": 2021,
+   "distance": 1.337,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonathan Schmid",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "3727dd3c",
+   "season": 2021,
+   "distance": 1.624,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jonjo Shelvey",
+   "squad": "Newcastle Utd"
+  },
+  {
    "fbref_id": "33b554b7",
    "season": 2018,
-   "distance": 1.695,
+   "distance": 1.669,
    "survived": 1,
    "fut_ability_v2": 52.4,
    "player_name": "Danny Latza",
    "squad": "Mainz 05"
   },
   {
+   "fbref_id": "495945ef",
+   "season": 2019,
+   "distance": 1.869,
+   "survived": 1,
+   "fut_ability_v2": 46.6,
+   "player_name": "Ashley Westwood",
+   "squad": "Burnley"
+  },
+  {
    "fbref_id": "76dd1480",
    "season": 2020,
-   "distance": 1.911,
+   "distance": 1.895,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gylfi Sigurðsson",
@@ -67,16 +94,25 @@
   {
    "fbref_id": "15fd5593",
    "season": 2020,
-   "distance": 1.925,
+   "distance": 1.905,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Davy Klaassen",
    "squad": "Werder Bremen"
   },
   {
+   "fbref_id": "ef2e5e1a",
+   "season": 2019,
+   "distance": 1.918,
+   "survived": 1,
+   "fut_ability_v2": 65.3,
+   "player_name": "Kevin Strootman",
+   "squad": "Marseille / Roma"
+  },
+  {
    "fbref_id": "495945ef",
    "season": 2020,
-   "distance": 1.929,
+   "distance": 1.971,
    "survived": 1,
    "fut_ability_v2": 45.3,
    "player_name": "Ashley Westwood",
@@ -92,49 +128,13 @@
    "squad": "Mainz 05"
   },
   {
-   "fbref_id": "495945ef",
-   "season": 2019,
-   "distance": 2.007,
-   "survived": 1,
-   "fut_ability_v2": 46.6,
-   "player_name": "Ashley Westwood",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "ef2e5e1a",
-   "season": 2019,
-   "distance": 2.036,
-   "survived": 1,
-   "fut_ability_v2": 65.3,
-   "player_name": "Kevin Strootman",
-   "squad": "Marseille / Roma"
-  },
-  {
    "fbref_id": "0f9b8301",
    "season": 2020,
-   "distance": 2.117,
+   "distance": 2.041,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cristian Battocchio",
    "squad": "Brest"
-  },
-  {
-   "fbref_id": "f4ec4fd0",
-   "season": 2018,
-   "distance": 2.152,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Kevin-Prince Boateng",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "80f36c88",
-   "season": 2020,
-   "distance": 2.183,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Sebastian Rudy",
-   "squad": "Hoffenheim"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Vincent Sierro(MF)의 현재 능력 점수는 53.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 패스 거리, 전진 패스, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 패스 수신이다.",
-  "potential": "Vincent Sierro의 2~3년 후 예측 중심값은 51.9점, 80% 구간 상단은 61.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 35.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Vincent Sierro의 2~3년 후 예측 중심값은 52.0점, 80% 구간 상단은 61.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 48.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

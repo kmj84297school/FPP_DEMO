@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5268,
-  "mu": 50.9,
+  "survival_prob": 0.3765,
+  "mu": 50.5,
   "ci80": {
-   "lo": 41.6,
-   "hi": 60.1
+   "lo": 41.2,
+   "hi": 59.8
   },
   "ci50": {
-   "lo": 46.0,
-   "hi": 55.7
+   "lo": 45.6,
+   "hi": 55.4
   },
   "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "056d2d95",
+   "season": 2021,
+   "distance": 1.721,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Christopher Trimmel",
+   "squad": "Union Berlin"
+  },
+  {
    "fbref_id": "97572117",
    "season": 2019,
-   "distance": 1.783,
+   "distance": 1.829,
    "survived": 1,
    "fut_ability_v2": 40.1,
    "player_name": "Allan Nyom",
    "squad": "Leganés"
   },
   {
+   "fbref_id": "e5d01ecf",
+   "season": 2022,
+   "distance": 1.9,
+   "survived": 1,
+   "fut_ability_v2": 55.2,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
+  },
+  {
    "fbref_id": "056d2d95",
    "season": 2020,
-   "distance": 1.881,
+   "distance": 2.0,
    "survived": 1,
    "fut_ability_v2": 62.6,
    "player_name": "Christopher Trimmel",
    "squad": "Union Berlin"
   },
   {
+   "fbref_id": "0e7ccfc4",
+   "season": 2021,
+   "distance": 2.145,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sébastien Corchia",
+   "squad": "Nantes"
+  },
+  {
    "fbref_id": "652811aa",
    "season": 2020,
-   "distance": 2.13,
+   "distance": 2.184,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marco Calderoni",
@@ -76,7 +103,7 @@
   {
    "fbref_id": "3624ce4c",
    "season": 2020,
-   "distance": 2.131,
+   "distance": 2.215,
    "survived": 1,
    "fut_ability_v2": 50.4,
    "player_name": "Víctor Díaz",
@@ -85,56 +112,29 @@
   {
    "fbref_id": "1ef37668",
    "season": 2020,
-   "distance": 2.275,
+   "distance": 2.3,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Erik Pieters",
    "squad": "Burnley"
   },
   {
-   "fbref_id": "81069528",
-   "season": 2020,
-   "distance": 2.282,
+   "fbref_id": "808d48f3",
+   "season": 2022,
+   "distance": 2.31,
+   "survived": 1,
+   "fut_ability_v2": 46.4,
+   "player_name": "Jaume Costa",
+   "squad": "Mallorca"
+  },
+  {
+   "fbref_id": "9a9c05db",
+   "season": 2022,
+   "distance": 2.311,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Roberto Rosales",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "7f4c7c9f",
-   "season": 2020,
-   "distance": 2.366,
-   "survived": 1,
-   "fut_ability_v2": 47.2,
-   "player_name": "Jorge Miramón",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "9f323c71",
-   "season": 2019,
-   "distance": 2.473,
-   "survived": 1,
-   "fut_ability_v2": 57.0,
-   "player_name": "Óscar de Marcos",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "3e4f735d",
-   "season": 2018,
-   "distance": 2.499,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vitorino Antunes",
-   "squad": "Getafe"
-  },
-  {
-   "fbref_id": "12aa7661",
-   "season": 2018,
-   "distance": 2.544,
-   "survived": 1,
-   "fut_ability_v2": 54.2,
-   "player_name": "José Holebas",
-   "squad": "Watford"
+   "player_name": "Matthew Lowton",
+   "squad": "Burnley"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Lucas Digne(DF)의 현재 능력 점수는 55.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 키패스, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 최종 3분의1 패스이다.",
-  "potential": "Lucas Digne의 2~3년 후 예측 중심값은 50.9점, 80% 구간 상단은 60.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 52.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Lucas Digne의 2~3년 후 예측 중심값은 50.5점, 80% 구간 상단은 59.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 37.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

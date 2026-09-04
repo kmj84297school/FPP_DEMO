@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9594,
-  "mu": 65.0,
+  "survival_prob": 0.8778,
+  "mu": 67.2,
   "ci80": {
-   "lo": 55.4,
-   "hi": 74.5
+   "lo": 57.9,
+   "hi": 76.5
   },
   "ci50": {
-   "lo": 59.9,
-   "hi": 70.0
+   "lo": 62.3,
+   "hi": 72.1
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "b825a650",
    "season": 2019,
-   "distance": 1.787,
+   "distance": 1.748,
    "survived": 1,
    "fut_ability_v2": 56.5,
    "player_name": "Kevin Kampl",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "b825a650",
    "season": 2018,
-   "distance": 1.929,
+   "distance": 1.883,
    "survived": 1,
    "fut_ability_v2": 61.3,
    "player_name": "Kevin Kampl",
    "squad": "RB Leipzig / Leverkusen"
   },
   {
+   "fbref_id": "162efffd",
+   "season": 2022,
+   "distance": 1.971,
+   "survived": 1,
+   "fut_ability_v2": 70.4,
+   "player_name": "Rodrigo De Paul",
+   "squad": "Atlético Madrid"
+  },
+  {
    "fbref_id": "ad6df2d5",
    "season": 2018,
-   "distance": 2.123,
+   "distance": 2.019,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Miralem Pjanić",
@@ -83,18 +92,9 @@
    "squad": "Valencia"
   },
   {
-   "fbref_id": "61220da2",
-   "season": 2020,
-   "distance": 2.223,
-   "survived": 1,
-   "fut_ability_v2": 62.0,
-   "player_name": "José Campaña",
-   "squad": "Levante"
-  },
-  {
    "fbref_id": "55126f3b",
    "season": 2018,
-   "distance": 2.274,
+   "distance": 2.164,
    "survived": 1,
    "fut_ability_v2": 59.5,
    "player_name": "Koke",
@@ -103,38 +103,38 @@
   {
    "fbref_id": "7460ca0d",
    "season": 2018,
-   "distance": 2.319,
+   "distance": 2.25,
    "survived": 1,
    "fut_ability_v2": 63.3,
    "player_name": "Daniel Parejo",
    "squad": "Valencia"
   },
   {
+   "fbref_id": "54b4dc4e",
+   "season": 2021,
+   "distance": 2.263,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kerem Demirbay",
+   "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "61220da2",
+   "season": 2020,
+   "distance": 2.288,
+   "survived": 1,
+   "fut_ability_v2": 62.0,
+   "player_name": "José Campaña",
+   "squad": "Levante"
+  },
+  {
    "fbref_id": "8b298f56",
    "season": 2019,
-   "distance": 2.413,
+   "distance": 2.38,
    "survived": 1,
    "fut_ability_v2": 72.2,
    "player_name": "Clément Grenier",
    "squad": "Rennes"
-  },
-  {
-   "fbref_id": "1f9328da",
-   "season": 2018,
-   "distance": 2.449,
-   "survived": 1,
-   "fut_ability_v2": 57.4,
-   "player_name": "Radja Nainggolan",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "9d4c45d6",
-   "season": 2020,
-   "distance": 2.463,
-   "survived": 1,
-   "fut_ability_v2": 55.9,
-   "player_name": "Roberto Soriano",
-   "squad": "Bologna"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Nicolò Barella(MF)의 현재 능력 점수는 73.1점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스, 박스 진입 패스, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 슈팅당 기대득점이다.",
-  "potential": "Nicolò Barella의 2~3년 후 예측 중심값은 65.0점, 80% 구간 상단은 74.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 95.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Nicolò Barella의 2~3년 후 예측 중심값은 67.2점, 80% 구간 상단은 76.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 87.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

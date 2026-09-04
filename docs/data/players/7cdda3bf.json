@@ -32,51 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5339,
-  "mu": 55.8,
+  "survival_prob": 0.7286,
+  "mu": 51.0,
   "ci80": {
-   "lo": 46.4,
-   "hi": 65.4
-  },
-  "ci50": {
-   "lo": 50.9,
+   "lo": 41.2,
    "hi": 60.9
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "ci50": {
+   "lo": 45.9,
+   "hi": 56.2
+  },
+  "sigma_model": 2.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "00459419",
    "season": 2019,
-   "distance": 2.056,
+   "distance": 2.021,
    "survived": 1,
    "fut_ability_v2": 60.2,
    "player_name": "Marko Arnautović",
    "squad": "West Ham"
   },
   {
+   "fbref_id": "00459419",
+   "season": 2022,
+   "distance": 2.046,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Arnautović",
+   "squad": "Bologna"
+  },
+  {
+   "fbref_id": "5eae500a",
+   "season": 2022,
+   "distance": 2.322,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Romelu Lukaku",
+   "squad": "Chelsea"
+  },
+  {
    "fbref_id": "0fe7f7bc",
    "season": 2018,
-   "distance": 2.317,
+   "distance": 2.325,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Giovanni Sio",
    "squad": "Montpellier"
   },
   {
+   "fbref_id": "129af0db",
+   "season": 2022,
+   "distance": 2.34,
+   "survived": 1,
+   "fut_ability_v2": 53.5,
+   "player_name": "Álvaro Morata",
+   "squad": "Juventus"
+  },
+  {
    "fbref_id": "53e07d0b",
    "season": 2019,
-   "distance": 2.345,
+   "distance": 2.348,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ádám Szalai",
    "squad": "Hoffenheim"
   },
   {
+   "fbref_id": "64f69877",
+   "season": 2021,
+   "distance": 2.381,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Kevin Volland",
+   "squad": "Monaco"
+  },
+  {
    "fbref_id": "3bb7f478",
    "season": 2018,
-   "distance": 2.357,
+   "distance": 2.426,
    "survived": 1,
    "fut_ability_v2": 74.4,
    "player_name": "Edin Džeko",
@@ -85,56 +121,20 @@
   {
    "fbref_id": "00459419",
    "season": 2018,
-   "distance": 2.392,
+   "distance": 2.461,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marko Arnautović",
    "squad": "West Ham"
   },
   {
-   "fbref_id": "3bb7f478",
-   "season": 2019,
-   "distance": 2.513,
-   "survived": 1,
-   "fut_ability_v2": 75.0,
-   "player_name": "Edin Džeko",
-   "squad": "Roma"
-  },
-  {
    "fbref_id": "0b4d8274",
    "season": 2018,
-   "distance": 2.552,
+   "distance": 2.55,
    "survived": 1,
    "fut_ability_v2": 59.4,
    "player_name": "Romain Hamouma",
    "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "a58bb1e1",
-   "season": 2019,
-   "distance": 2.603,
-   "survived": 1,
-   "fut_ability_v2": 76.6,
-   "player_name": "Gareth Bale",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "d6862409",
-   "season": 2020,
-   "distance": 2.604,
-   "survived": 1,
-   "fut_ability_v2": 53.7,
-   "player_name": "Florian Niederlechner",
-   "squad": "Augsburg"
-  },
-  {
-   "fbref_id": "f9e7c4ac",
-   "season": 2019,
-   "distance": 2.689,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alfreð Finnbogason",
-   "squad": "Augsburg"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Gaëtan Laborde(FW)의 현재 능력 점수는 65.8점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅 시도, 박스 터치, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
-  "potential": "Gaëtan Laborde의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 65.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Gaëtan Laborde의 2~3년 후 예측 중심값은 51.0점, 80% 구간 상단은 60.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 72.9%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

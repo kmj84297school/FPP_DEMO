@@ -32,42 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8269,
-  "mu": 56.3,
+  "survival_prob": 0.4215,
+  "mu": 53.5,
   "ci80": {
-   "lo": 45.6,
-   "hi": 67.0
+   "lo": 43.0,
+   "hi": 64.0
   },
   "ci50": {
-   "lo": 50.6,
-   "hi": 61.8
+   "lo": 47.9,
+   "hi": 59.1
   },
-  "sigma_model": 2.3,
+  "sigma_model": 2.0,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "7b082ec2",
+   "season": 2021,
+   "distance": 2.316,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxime Busi",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "6aa3e78b",
+   "season": 2021,
+   "distance": 2.356,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ryan Sessegnon",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "fc027d02",
+   "season": 2021,
+   "distance": 2.367,
+   "survived": 1,
+   "fut_ability_v2": 39.7,
+   "player_name": "Luke Thomas",
+   "squad": "Leicester City"
+  },
+  {
    "fbref_id": "3c16d927",
    "season": 2020,
-   "distance": 2.293,
+   "distance": 2.375,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alejandro Pozo Pozo",
    "squad": "Mallorca / Sevilla"
   },
   {
+   "fbref_id": "e3a5814e",
+   "season": 2018,
+   "distance": 2.401,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Ainsley Maitland-Niles",
+   "squad": "Arsenal"
+  },
+  {
    "fbref_id": "5314e067",
    "season": 2019,
-   "distance": 2.467,
+   "distance": 2.421,
    "survived": 1,
    "fut_ability_v2": 54.4,
    "player_name": "Sofiane Alakouch",
    "squad": "Nîmes"
   },
   {
+   "fbref_id": "8bbe2df5",
+   "season": 2021,
+   "distance": 2.448,
+   "survived": 1,
+   "fut_ability_v2": 43.6,
+   "player_name": "Domagoj Bradarić",
+   "squad": "Lille"
+  },
+  {
+   "fbref_id": "f20e4cc9",
+   "season": 2022,
+   "distance": 2.5,
+   "survived": 1,
+   "fut_ability_v2": 66.1,
+   "player_name": "Nuno Mendes",
+   "squad": "Paris S-G"
+  },
+  {
    "fbref_id": "f449640d",
    "season": 2018,
-   "distance": 2.475,
+   "distance": 2.547,
    "survived": 1,
    "fut_ability_v2": 52.7,
    "player_name": "Fodé Ballo-Touré",
@@ -76,65 +130,11 @@
   {
    "fbref_id": "64ba07c0",
    "season": 2018,
-   "distance": 2.495,
+   "distance": 2.548,
    "survived": 1,
    "fut_ability_v2": 55.1,
    "player_name": "Ronaël Pierre-Gabriel",
    "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "10e7f486",
-   "season": 2018,
-   "distance": 2.56,
-   "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Rogério",
-   "squad": "Sassuolo"
-  },
-  {
-   "fbref_id": "b7de5bad",
-   "season": 2020,
-   "distance": 2.572,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Victor Perea",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "e3a5814e",
-   "season": 2018,
-   "distance": 2.602,
-   "survived": 1,
-   "fut_ability_v2": 48.9,
-   "player_name": "Ainsley Maitland-Niles",
-   "squad": "Arsenal"
-  },
-  {
-   "fbref_id": "c1b7847c",
-   "season": 2018,
-   "distance": 2.76,
-   "survived": 1,
-   "fut_ability_v2": 63.7,
-   "player_name": "Konrad Laimer",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "e27de4fa",
-   "season": 2020,
-   "distance": 2.767,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Noah Katterbach",
-   "squad": "Köln"
-  },
-  {
-   "fbref_id": "3b61c9ec",
-   "season": 2019,
-   "distance": 2.781,
-   "survived": 1,
-   "fut_ability_v2": 53.1,
-   "player_name": "Luca Pellegrini",
-   "squad": "Cagliari / Roma"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Sael Kumbedi(DF)의 현재 능력 점수는 53.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 수신, 골 창출(GCA), 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 전진 패스 거리이다.",
-  "potential": "Sael Kumbedi의 2~3년 후 예측 중심값은 56.3점, 80% 구간 상단은 67.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 82.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Sael Kumbedi의 2~3년 후 예측 중심값은 53.5점, 80% 구간 상단은 64.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 42.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7965,
-  "mu": 60.1,
+  "survival_prob": 0.7263,
+  "mu": 59.5,
   "ci80": {
-   "lo": 49.5,
-   "hi": 70.7
+   "lo": 48.9,
+   "hi": 70.0
   },
   "ci50": {
-   "lo": 54.6,
-   "hi": 65.7
+   "lo": 53.9,
+   "hi": 65.1
   },
-  "sigma_model": 2.0,
+  "sigma_model": 2.1,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "2d61d13a",
+   "season": 2021,
+   "distance": 1.469,
+   "survived": 1,
+   "fut_ability_v2": 61.7,
+   "player_name": "Ozan Kabak",
+   "squad": "Schalke 04 / Liverpool"
+  },
+  {
    "fbref_id": "677da306",
    "season": 2018,
-   "distance": 1.529,
+   "distance": 1.51,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Ohis Felix Uduokhai",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "88f130ed",
    "season": 2019,
-   "distance": 1.838,
+   "distance": 1.782,
    "survived": 1,
    "fut_ability_v2": 64.4,
    "player_name": "Jean-Clair Todibo",
    "squad": "Toulouse / Barcelona"
   },
   {
-   "fbref_id": "5ed9b537",
-   "season": 2018,
-   "distance": 1.838,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ibrahima Konaté",
-   "squad": "RB Leipzig"
+   "fbref_id": "217875a4",
+   "season": 2021,
+   "distance": 1.796,
+   "survived": 1,
+   "fut_ability_v2": 53.4,
+   "player_name": "Sebastian Walukiewicz",
+   "squad": "Cagliari"
   },
   {
    "fbref_id": "8f325097",
    "season": 2019,
-   "distance": 1.913,
+   "distance": 1.838,
    "survived": 1,
    "fut_ability_v2": 44.9,
    "player_name": "Nicolas Cozza",
    "squad": "Montpellier"
   },
   {
-   "fbref_id": "9f979eb2",
+   "fbref_id": "5ed9b537",
    "season": 2018,
-   "distance": 1.931,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Jorge Meré",
-   "squad": "Köln"
+   "distance": 1.85,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ibrahima Konaté",
+   "squad": "RB Leipzig"
   },
   {
    "fbref_id": "a73c8f95",
    "season": 2020,
-   "distance": 1.947,
+   "distance": 1.923,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Edmond Tapsoba",
    "squad": "Leverkusen"
   },
   {
-   "fbref_id": "b871bf55",
-   "season": 2019,
-   "distance": 1.982,
+   "fbref_id": "c795c408",
+   "season": 2021,
+   "distance": 1.952,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Nicholas Opoku",
-   "squad": "Udinese"
+   "player_name": "Jonathan Panzo",
+   "squad": "Dijon"
   },
   {
-   "fbref_id": "67ac5bb8",
-   "season": 2019,
-   "distance": 2.091,
-   "survived": 1,
-   "fut_ability_v2": 57.1,
-   "player_name": "Gabriel Dos Santos",
-   "squad": "Lille"
+   "fbref_id": "acf7e795",
+   "season": 2022,
+   "distance": 1.973,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "David Zima",
+   "squad": "Torino"
   },
   {
-   "fbref_id": "972aeb2a",
-   "season": 2020,
-   "distance": 2.231,
+   "fbref_id": "9f979eb2",
+   "season": 2018,
+   "distance": 1.999,
    "survived": 1,
-   "fut_ability_v2": 58.7,
-   "player_name": "William Saliba",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "610aa1e9",
-   "season": 2020,
-   "distance": 2.272,
-   "survived": 1,
-   "fut_ability_v2": 55.1,
-   "player_name": "Luca Kilian",
-   "squad": "Paderborn 07"
+   "fut_ability_v2": 49.9,
+   "player_name": "Jorge Meré",
+   "squad": "Köln"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Yael Mouanga(DF)의 현재 능력 점수는 56.4점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 태클 성공률, 공중볼 승률, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 볼 리커버리이다.",
-  "potential": "Yael Mouanga의 2~3년 후 예측 중심값은 60.1점, 80% 구간 상단은 70.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 79.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Yael Mouanga의 2~3년 후 예측 중심값은 59.5점, 80% 구간 상단은 70.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 72.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

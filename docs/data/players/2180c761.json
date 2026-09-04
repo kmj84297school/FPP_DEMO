@@ -32,42 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5853,
-  "mu": 61.0,
+  "survival_prob": 0.6314,
+  "mu": 60.9,
   "ci80": {
-   "lo": 50.3,
-   "hi": 71.7
+   "lo": 50.4,
+   "hi": 71.4
   },
   "ci50": {
    "lo": 55.4,
-   "hi": 66.7
+   "hi": 66.5
   },
-  "sigma_model": 2.3,
+  "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "0a3d6d2b",
+   "season": 2021,
+   "distance": 1.809,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Chris Richards",
+   "squad": "Hoffenheim / Bayern Munich"
+  },
+  {
    "fbref_id": "bee704fc",
    "season": 2018,
-   "distance": 2.155,
+   "distance": 2.163,
    "survived": 1,
    "fut_ability_v2": 64.3,
    "player_name": "Nikola Milenković",
    "squad": "Fiorentina"
   },
   {
-   "fbref_id": "441197b8",
-   "season": 2020,
-   "distance": 2.291,
-   "survived": 1,
-   "fut_ability_v2": 64.4,
-   "player_name": "Obite N'Dicka",
-   "squad": "Eint Frankfurt"
+   "fbref_id": "10b9fa99",
+   "season": 2021,
+   "distance": 2.262,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ethan Ampadu",
+   "squad": "Sheffield Utd"
   },
   {
    "fbref_id": "d248cd8f",
    "season": 2019,
-   "distance": 2.3,
+   "distance": 2.342,
    "survived": 1,
    "fut_ability_v2": 69.5,
    "player_name": "Dayot Upamecano",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "d0042ab9",
    "season": 2018,
-   "distance": 2.318,
+   "distance": 2.347,
    "survived": 1,
    "fut_ability_v2": 52.5,
    "player_name": "Mason Holgate",
    "squad": "Everton"
   },
   {
-   "fbref_id": "d248cd8f",
-   "season": 2018,
-   "distance": 2.486,
+   "fbref_id": "441197b8",
+   "season": 2020,
+   "distance": 2.357,
    "survived": 1,
-   "fut_ability_v2": 70.5,
-   "player_name": "Dayot Upamecano",
-   "squad": "RB Leipzig"
+   "fut_ability_v2": 64.4,
+   "player_name": "Obite N'Dicka",
+   "squad": "Eint Frankfurt"
   },
   {
-   "fbref_id": "5ed9b537",
-   "season": 2018,
-   "distance": 2.513,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ibrahima Konaté",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "4bd00a50",
-   "season": 2018,
-   "distance": 2.537,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Panagiotis Retsos",
+   "fbref_id": "0c7a48f8",
+   "season": 2022,
+   "distance": 2.382,
+   "survived": 1,
+   "fut_ability_v2": 70.6,
+   "player_name": "Piero Hincapié",
    "squad": "Leverkusen"
+  },
+  {
+   "fbref_id": "fc027d02",
+   "season": 2022,
+   "distance": 2.469,
+   "survived": 1,
+   "fut_ability_v2": 41.4,
+   "player_name": "Luke Thomas",
+   "squad": "Leicester City"
   },
   {
    "fbref_id": "099e666f",
    "season": 2018,
-   "distance": 2.542,
+   "distance": 2.477,
    "survived": 1,
    "fut_ability_v2": 52.2,
    "player_name": "Jonjoe Kenny",
    "squad": "Everton"
   },
   {
-   "fbref_id": "6e33125f",
-   "season": 2019,
-   "distance": 2.635,
+   "fbref_id": "d248cd8f",
+   "season": 2018,
+   "distance": 2.523,
    "survived": 1,
-   "fut_ability_v2": 59.9,
-   "player_name": "Kevin Danso",
-   "squad": "Augsburg"
-  },
-  {
-   "fbref_id": "441197b8",
-   "season": 2019,
-   "distance": 2.648,
-   "survived": 1,
-   "fut_ability_v2": 70.3,
-   "player_name": "Obite N'Dicka",
-   "squad": "Eint Frankfurt"
+   "fut_ability_v2": 70.5,
+   "player_name": "Dayot Upamecano",
+   "squad": "RB Leipzig"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "El Chadaille Bitshiabu(DF)의 현재 능력 점수는 60.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 전진 패스 거리, 클리어링, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 운반이다.",
-  "potential": "El Chadaille Bitshiabu의 2~3년 후 예측 중심값은 61.0점, 80% 구간 상단은 71.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 58.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "El Chadaille Bitshiabu의 2~3년 후 예측 중심값은 60.9점, 80% 구간 상단은 71.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 63.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

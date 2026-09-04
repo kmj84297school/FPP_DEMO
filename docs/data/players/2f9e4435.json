@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9547,
-  "mu": 62.1,
+  "survival_prob": 0.9594,
+  "mu": 65.3,
   "ci80": {
-   "lo": 51.3,
-   "hi": 72.8
+   "lo": 54.4,
+   "hi": 76.0
   },
   "ci50": {
-   "lo": 56.4,
-   "hi": 67.7
+   "lo": 59.6,
+   "hi": 70.8
   },
-  "sigma_model": 2.4,
+  "sigma_model": 2.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "6f8cd6d0",
    "season": 2020,
-   "distance": 2.342,
+   "distance": 2.376,
    "survived": 1,
    "fut_ability_v2": 66.5,
    "player_name": "Marcus Thuram",
    "squad": "M'Gladbach"
   },
   {
+   "fbref_id": "2c44a35d",
+   "season": 2022,
+   "distance": 2.845,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Emmanuel Dennis",
+   "squad": "Watford"
+  },
+  {
    "fbref_id": "536cebe5",
    "season": 2018,
-   "distance": 2.881,
+   "distance": 2.941,
    "survived": 1,
    "fut_ability_v2": 64.2,
    "player_name": "Ante Rebić",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "fa031b34",
    "season": 2020,
-   "distance": 3.022,
+   "distance": 3.012,
    "survived": 1,
    "fut_ability_v2": 49.4,
    "player_name": "Richarlison",
    "squad": "Everton"
   },
   {
-   "fbref_id": "6c6a3300",
-   "season": 2019,
-   "distance": 3.155,
-   "survived": 1,
-   "fut_ability_v2": 47.8,
-   "player_name": "Milot Rashica",
-   "squad": "Werder Bremen"
-  },
-  {
    "fbref_id": "5e080f73",
    "season": 2020,
-   "distance": 3.181,
+   "distance": 3.133,
    "survived": 1,
    "fut_ability_v2": 42.9,
    "player_name": "Irvin Cardona",
    "squad": "Brest"
   },
   {
-   "fbref_id": "178ae8f8",
+   "fbref_id": "6c6a3300",
    "season": 2019,
-   "distance": 3.289,
+   "distance": 3.221,
    "survived": 1,
-   "fut_ability_v2": 78.3,
-   "player_name": "Diogo Jota",
-   "squad": "Wolves"
+   "fut_ability_v2": 47.8,
+   "player_name": "Milot Rashica",
+   "squad": "Werder Bremen"
+  },
+  {
+   "fbref_id": "0e0102eb",
+   "season": 2022,
+   "distance": 3.272,
+   "survived": 1,
+   "fut_ability_v2": 71.9,
+   "player_name": "Omar Marmoush",
+   "squad": "Stuttgart / Wolfsburg"
   },
   {
    "fbref_id": "d2416c2e",
    "season": 2018,
-   "distance": 3.321,
+   "distance": 3.281,
    "survived": 1,
    "fut_ability_v2": 64.2,
    "player_name": "Yussuf Poulsen",
    "squad": "RB Leipzig"
   },
   {
-   "fbref_id": "176674ab",
-   "season": 2018,
-   "distance": 3.551,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ndombe Mubele",
-   "squad": "Rennes / Toulouse"
-  },
-  {
-   "fbref_id": "258a6f4d",
-   "season": 2018,
-   "distance": 3.559,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Tim Kleindienst",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "2054d037",
-   "season": 2018,
-   "distance": 3.577,
+   "fbref_id": "178ae8f8",
+   "season": 2019,
+   "distance": 3.297,
    "survived": 1,
-   "fut_ability_v2": 38.0,
-   "player_name": "M'Baye Niang",
-   "squad": "Torino"
+   "fut_ability_v2": 78.3,
+   "player_name": "Diogo Jota",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "6f8cd6d0",
+   "season": 2022,
+   "distance": 3.298,
+   "survived": 1,
+   "fut_ability_v2": 67.4,
+   "player_name": "Marcus Thuram",
+   "squad": "M'Gladbach"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Dango Ouattara(FW)의 현재 능력 점수는 69.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 블록, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 골 창출(GCA)이다.",
-  "potential": "Dango Ouattara의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 72.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Dango Ouattara의 2~3년 후 예측 중심값은 65.3점, 80% 구간 상단은 76.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

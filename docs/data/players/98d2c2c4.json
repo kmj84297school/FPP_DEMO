@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4399,
-  "mu": 51.9,
+  "survival_prob": 0.3146,
+  "mu": 52.5,
   "ci80": {
-   "lo": 42.7,
-   "hi": 61.1
+   "lo": 43.2,
+   "hi": 61.8
   },
   "ci50": {
-   "lo": 46.9,
-   "hi": 56.7
+   "lo": 47.6,
+   "hi": 57.3
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "f5a00fa4",
+   "season": 2022,
+   "distance": 1.562,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "João Moutinho",
+   "squad": "Wolves"
+  },
+  {
    "fbref_id": "653ee42d",
    "season": 2020,
-   "distance": 2.099,
+   "distance": 2.02,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dale Stephens",
@@ -58,16 +67,25 @@
   {
    "fbref_id": "5ab0ea87",
    "season": 2019,
-   "distance": 2.101,
+   "distance": 2.054,
    "survived": 1,
    "fut_ability_v2": 66.9,
    "player_name": "Sergio Busquets",
    "squad": "Barcelona"
   },
   {
+   "fbref_id": "868eaba0",
+   "season": 2022,
+   "distance": 2.12,
+   "survived": 1,
+   "fut_ability_v2": 51.2,
+   "player_name": "Johan Gastien",
+   "squad": "Clermont Foot"
+  },
+  {
    "fbref_id": "65d750b5",
    "season": 2018,
-   "distance": 2.202,
+   "distance": 2.184,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gabi",
@@ -76,7 +94,7 @@
   {
    "fbref_id": "ff527768",
    "season": 2018,
-   "distance": 2.305,
+   "distance": 2.238,
    "survived": 1,
    "fut_ability_v2": 48.8,
    "player_name": "Mark Noble",
@@ -84,57 +102,39 @@
   },
   {
    "fbref_id": "56413b1f",
-   "season": 2020,
-   "distance": 2.446,
-   "survived": 1,
-   "fut_ability_v2": 56.4,
+   "season": 2021,
+   "distance": 2.374,
+   "survived": 0,
+   "fut_ability_v2": null,
    "player_name": "Charles Aránguiz",
    "squad": "Leverkusen"
   },
   {
+   "fbref_id": "b825a650",
+   "season": 2022,
+   "distance": 2.43,
+   "survived": 1,
+   "fut_ability_v2": 58.3,
+   "player_name": "Kevin Kampl",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "c0cddebe",
    "season": 2019,
-   "distance": 2.485,
+   "distance": 2.498,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Blaise Matuidi",
    "squad": "Juventus"
   },
   {
-   "fbref_id": "82671804",
-   "season": 2019,
-   "distance": 2.518,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luiz Gustavo",
-   "squad": "Marseille"
-  },
-  {
-   "fbref_id": "f261abcb",
-   "season": 2019,
-   "distance": 2.585,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Daniel Baier",
-   "squad": "Augsburg"
-  },
-  {
-   "fbref_id": "ff527768",
-   "season": 2019,
-   "distance": 2.611,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mark Noble",
-   "squad": "West Ham"
-  },
-  {
-   "fbref_id": "331c0a43",
-   "season": 2019,
-   "distance": 2.636,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Simone Missiroli",
-   "squad": "SPAL"
+   "fbref_id": "56413b1f",
+   "season": 2020,
+   "distance": 2.511,
+   "survived": 1,
+   "fut_ability_v2": 56.4,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Remo Freuler(MF)의 현재 능력 점수는 54.0점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 최종 3분의1 패스, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 슈팅 시도이다.",
-  "potential": "Remo Freuler의 2~3년 후 예측 중심값은 51.9점, 80% 구간 상단은 61.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Remo Freuler의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 61.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.306,
+  "survival_prob": 0.4028,
   "mu": 47.2,
   "ci80": {
-   "lo": 37.8,
-   "hi": 56.6
+   "lo": 37.6,
+   "hi": 56.7
   },
   "ci50": {
-   "lo": 42.2,
-   "hi": 52.1
+   "lo": 42.1,
+   "hi": 52.2
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 2.1,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "2677a1de",
    "season": 2018,
-   "distance": 2.081,
+   "distance": 2.066,
    "survived": 1,
    "fut_ability_v2": 51.8,
    "player_name": "Wahbi Khazri",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "a190d597",
    "season": 2018,
-   "distance": 2.321,
+   "distance": 2.307,
    "survived": 1,
    "fut_ability_v2": 51.9,
    "player_name": "Diego Costa",
    "squad": "Atlético Madrid"
   },
   {
+   "fbref_id": "d2416c2e",
+   "season": 2021,
+   "distance": 2.326,
+   "survived": 1,
+   "fut_ability_v2": 49.1,
+   "player_name": "Yussuf Poulsen",
+   "squad": "RB Leipzig"
+  },
+  {
    "fbref_id": "a58bb1e1",
    "season": 2020,
-   "distance": 2.353,
+   "distance": 2.361,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gareth Bale",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "4c7940d6",
    "season": 2018,
-   "distance": 2.445,
+   "distance": 2.446,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Massimo Coda",
@@ -85,7 +94,7 @@
   {
    "fbref_id": "f69fba57",
    "season": 2019,
-   "distance": 2.504,
+   "distance": 2.467,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Yuya Osako",
@@ -94,47 +103,38 @@
   {
    "fbref_id": "ecbb3fdf",
    "season": 2019,
-   "distance": 2.591,
+   "distance": 2.511,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "André Schürrle",
    "squad": "Fulham"
   },
   {
+   "fbref_id": "ff182fdc",
+   "season": 2022,
+   "distance": 2.569,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ishak Belfodil",
+   "squad": "Hertha BSC"
+  },
+  {
    "fbref_id": "157d29b6",
    "season": 2018,
-   "distance": 2.598,
+   "distance": 2.591,
    "survived": 1,
    "fut_ability_v2": 61.7,
    "player_name": "Diego Farias",
    "squad": "Cagliari"
   },
   {
-   "fbref_id": "b0547a87",
-   "season": 2018,
-   "distance": 2.637,
-   "survived": 1,
-   "fut_ability_v2": 59.4,
-   "player_name": "Nicolas de Préville",
-   "squad": "Bordeaux / Lille"
-  },
-  {
-   "fbref_id": "601ef102",
-   "season": 2019,
-   "distance": 2.654,
-   "survived": 1,
-   "fut_ability_v2": 30.7,
-   "player_name": "Stefano Okaka",
-   "squad": "Udinese / Watford"
-  },
-  {
    "fbref_id": "43458538",
-   "season": 2020,
-   "distance": 2.695,
+   "season": 2022,
+   "distance": 2.651,
    "survived": 1,
-   "fut_ability_v2": 50.2,
+   "fut_ability_v2": 54.9,
    "player_name": "Joshua King",
-   "squad": "Bournemouth"
+   "squad": "Watford"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Mama Samba Baldé(FW)의 현재 능력 점수는 52.1점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 어시스트, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 유효슈팅이다.",
-  "potential": "Mama Samba Baldé의 2~3년 후 예측 중심값은 47.2점, 80% 구간 상단은 56.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 30.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mama Samba Baldé의 2~3년 후 예측 중심값은 47.2점, 80% 구간 상단은 56.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.3%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

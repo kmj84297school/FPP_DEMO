@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7691,
-  "mu": 64.5,
+  "survival_prob": 0.7508,
+  "mu": 66.5,
   "ci80": {
-   "lo": 55.1,
-   "hi": 73.8
+   "lo": 56.9,
+   "hi": 76.0
   },
   "ci50": {
-   "lo": 59.5,
-   "hi": 69.5
+   "lo": 61.4,
+   "hi": 71.5
   },
   "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "01efac19",
+   "season": 2022,
+   "distance": 2.336,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonín Barák",
+   "squad": "Hellas Verona"
+  },
+  {
+   "fbref_id": "a69e4806",
+   "season": 2022,
+   "distance": 2.457,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Hirving Lozano",
+   "squad": "Napoli"
+  },
+  {
    "fbref_id": "90fcf472",
    "season": 2020,
-   "distance": 2.554,
+   "distance": 2.529,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Wesley Saïd",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "38c7feef",
    "season": 2020,
-   "distance": 2.593,
+   "distance": 2.571,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alex Oxlade-Chamberlain",
    "squad": "Liverpool"
   },
   {
+   "fbref_id": "5a04fd92",
+   "season": 2022,
+   "distance": 2.656,
+   "survived": 1,
+   "fut_ability_v2": 70.0,
+   "player_name": "Saïd Benrahma",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "ffa90327",
+   "season": 2021,
+   "distance": 2.668,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Anwar El Ghazi",
+   "squad": "Aston Villa"
+  },
+  {
    "fbref_id": "c05dfb74",
    "season": 2019,
-   "distance": 2.671,
+   "distance": 2.684,
    "survived": 1,
    "fut_ability_v2": 69.5,
    "player_name": "Iker Muniain",
    "squad": "Athletic Club"
   },
   {
+   "fbref_id": "1956b948",
+   "season": 2022,
+   "distance": 2.721,
+   "survived": 1,
+   "fut_ability_v2": 47.8,
+   "player_name": "Jim Allevinah",
+   "squad": "Clermont Foot"
+  },
+  {
    "fbref_id": "810e3c74",
    "season": 2018,
-   "distance": 2.754,
+   "distance": 2.734,
    "survived": 1,
    "fut_ability_v2": 64.3,
    "player_name": "Jesse Lingard",
    "squad": "Manchester Utd"
   },
   {
-   "fbref_id": "d85c238b",
-   "season": 2020,
-   "distance": 2.759,
-   "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "Mattia Zaccagni",
-   "squad": "Hellas Verona"
-  },
-  {
    "fbref_id": "ee93c1a9",
    "season": 2020,
-   "distance": 2.784,
+   "distance": 2.756,
    "survived": 1,
    "fut_ability_v2": 56.2,
    "player_name": "Federico Bernardeschi",
    "squad": "Juventus"
-  },
-  {
-   "fbref_id": "d3aaad90",
-   "season": 2019,
-   "distance": 2.79,
-   "survived": 1,
-   "fut_ability_v2": 74.9,
-   "player_name": "Stephan El Shaarawy",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "bb4a42be",
-   "season": 2018,
-   "distance": 2.817,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yannis Salibur",
-   "squad": "Guingamp"
-  },
-  {
-   "fbref_id": "7e82a78f",
-   "season": 2018,
-   "distance": 2.856,
-   "survived": 1,
-   "fut_ability_v2": 58.1,
-   "player_name": "Florent Mollet",
-   "squad": "Metz"
-  },
-  {
-   "fbref_id": "f3722c97",
-   "season": 2018,
-   "distance": 2.948,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yunus Mallı",
-   "squad": "Wolfsburg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Oihan Sancet(MF)의 현재 능력 점수는 66.0점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 비페널티 xG, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 태클+인터셉트이다.",
-  "potential": "Oihan Sancet의 2~3년 후 예측 중심값은 64.5점, 80% 구간 상단은 73.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 76.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Oihan Sancet의 2~3년 후 예측 중심값은 66.5점, 80% 구간 상단은 76.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

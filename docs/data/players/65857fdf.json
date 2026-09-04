@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5159,
-  "mu": 47.4,
+  "survival_prob": 0.456,
+  "mu": 44.7,
   "ci80": {
-   "lo": 37.9,
-   "hi": 56.8
+   "lo": 35.2,
+   "hi": 54.2
   },
   "ci50": {
-   "lo": 42.3,
-   "hi": 52.3
+   "lo": 39.7,
+   "hi": 49.7
   },
   "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "19b776e9",
    "season": 2018,
-   "distance": 1.638,
+   "distance": 1.604,
    "survived": 1,
    "fut_ability_v2": 40.0,
    "player_name": "Rubén Sobrino",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "ecbb3fdf",
    "season": 2019,
-   "distance": 1.844,
+   "distance": 1.767,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "André Schürrle",
    "squad": "Fulham"
   },
   {
+   "fbref_id": "13ddc856",
+   "season": 2022,
+   "distance": 1.885,
+   "survived": 1,
+   "fut_ability_v2": 40.9,
+   "player_name": "Takuma Asano",
+   "squad": "Bochum"
+  },
+  {
    "fbref_id": "549c6ba7",
    "season": 2018,
-   "distance": 1.979,
+   "distance": 1.974,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Franco Di Santo",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "4d50454e",
    "season": 2020,
-   "distance": 2.08,
+   "distance": 2.038,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Ben Zolinski",
    "squad": "Paderborn 07"
   },
   {
+   "fbref_id": "5343eb4e",
+   "season": 2021,
+   "distance": 2.098,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yoshinori Mutō",
+   "squad": "Eibar"
+  },
+  {
+   "fbref_id": "e75750a3",
+   "season": 2021,
+   "distance": 2.136,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Callum Robinson",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "75a63397",
+   "season": 2022,
+   "distance": 2.144,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Opa Nguette",
+   "squad": "Metz"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2021,
+   "distance": 2.189,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  },
+  {
    "fbref_id": "9853983f",
    "season": 2019,
-   "distance": 2.28,
+   "distance": 2.232,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bobby Wood",
    "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "4c7940d6",
-   "season": 2018,
-   "distance": 2.283,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Massimo Coda",
-   "squad": "Benevento"
-  },
-  {
-   "fbref_id": "0f7533cd",
-   "season": 2019,
-   "distance": 2.353,
-   "survived": 1,
-   "fut_ability_v2": 42.6,
-   "player_name": "Bobby Reid",
-   "squad": "Cardiff City"
-  },
-  {
-   "fbref_id": "ef5b337e",
-   "season": 2019,
-   "distance": 2.355,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fabio Borini",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "f69fba57",
-   "season": 2019,
-   "distance": 2.439,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yuya Osako",
-   "squad": "Werder Bremen"
-  },
-  {
-   "fbref_id": "a3ddb1b9",
-   "season": 2019,
-   "distance": 2.457,
-   "survived": 1,
-   "fut_ability_v2": 57.1,
-   "player_name": "Mark Uth",
-   "squad": "Schalke 04"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Tim Skarke(FW)의 현재 능력 점수는 43.8점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 클리어링, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 박스 터치이다.",
-  "potential": "Tim Skarke의 2~3년 후 예측 중심값은 47.4점, 80% 구간 상단은 56.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 51.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Tim Skarke의 2~3년 후 예측 중심값은 44.7점, 80% 구간 상단은 54.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

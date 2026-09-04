@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.126,
-  "mu": 57.2,
+  "survival_prob": 0.0501,
+  "mu": 53.6,
   "ci80": {
-   "lo": 47.9,
-   "hi": 66.5
+   "lo": 44.2,
+   "hi": 63.0
   },
   "ci50": {
-   "lo": 52.3,
-   "hi": 62.1
+   "lo": 48.7,
+   "hi": 58.5
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "3233eefd",
    "season": 2018,
-   "distance": 2.218,
+   "distance": 2.278,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Phil Jagielka",
    "squad": "Everton"
   },
   {
+   "fbref_id": "e0314d87",
+   "season": 2021,
+   "distance": 2.82,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Andrea Masiello",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "e97150c0",
+   "season": 2021,
+   "distance": 2.827,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Morel",
+   "squad": "Lorient"
+  },
+  {
+   "fbref_id": "ea9b2ef9",
+   "season": 2022,
+   "distance": 2.919,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Germán Sánchez",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "c18d22f5",
+   "season": 2022,
+   "distance": 2.969,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Peter Pekarík",
+   "squad": "Hertha BSC"
+  },
+  {
    "fbref_id": "7768df30",
    "season": 2019,
-   "distance": 2.912,
+   "distance": 2.971,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jérémy Sorbon",
@@ -66,8 +102,17 @@
   },
   {
    "fbref_id": "3f5b4635",
+   "season": 2021,
+   "distance": 3.012,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Congré",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "3f5b4635",
    "season": 2020,
-   "distance": 2.952,
+   "distance": 3.032,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Daniel Congré",
@@ -75,66 +120,21 @@
   },
   {
    "fbref_id": "fed5f993",
-   "season": 2020,
-   "distance": 3.045,
+   "season": 2021,
+   "distance": 3.049,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Danilo Larangeira",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "78803d03",
-   "season": 2018,
-   "distance": 3.064,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Bruno",
-   "squad": "Brighton"
-  },
-  {
    "fbref_id": "80c31c97",
    "season": 2019,
-   "distance": 3.066,
+   "distance": 3.131,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Wes Morgan",
    "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "80e4c841",
-   "season": 2020,
-   "distance": 3.176,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aurélien Chedjou",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "55667895",
-   "season": 2018,
-   "distance": 3.211,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Emiliano Moretti",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "3858e611",
-   "season": 2018,
-   "distance": 3.252,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Dario Dainelli",
-   "squad": "Chievo"
-  },
-  {
-   "fbref_id": "4f2908e5",
-   "season": 2019,
-   "distance": 3.302,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Federico Peluso",
-   "squad": "Sassuolo"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Nicolas Pallois(DF)의 현재 능력 점수는 53.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 클리어링, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 운반이다.",
-  "potential": "Nicolas Pallois의 2~3년 후 예측 중심값은 57.2점, 80% 구간 상단은 66.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 12.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Nicolas Pallois의 2~3년 후 예측 중심값은 53.6점, 80% 구간 상단은 63.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 5.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

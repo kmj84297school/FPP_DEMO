@@ -32,55 +32,55 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.484,
-  "mu": 52.1,
+  "survival_prob": 0.5169,
+  "mu": 56.7,
   "ci80": {
-   "lo": 42.6,
-   "hi": 61.6
+   "lo": 47.2,
+   "hi": 66.3
   },
   "ci50": {
-   "lo": 47.1,
-   "hi": 57.1
+   "lo": 51.7,
+   "hi": 61.8
   },
   "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "1fca9171",
    "season": 2020,
-   "distance": 2.077,
+   "distance": 2.152,
    "survived": 1,
    "fut_ability_v2": 47.4,
    "player_name": "Federico Di Francesco",
    "squad": "SPAL"
   },
   {
-   "fbref_id": "1fca9171",
-   "season": 2019,
-   "distance": 2.222,
-   "survived": 1,
-   "fut_ability_v2": 47.4,
-   "player_name": "Federico Di Francesco",
-   "squad": "Sassuolo"
-  },
-  {
    "fbref_id": "dd669209",
    "season": 2019,
-   "distance": 2.252,
+   "distance": 2.202,
    "survived": 1,
    "fut_ability_v2": 57.3,
    "player_name": "Renato Steffen",
    "squad": "Wolfsburg"
   },
   {
-   "fbref_id": "f69fba57",
-   "season": 2018,
-   "distance": 2.484,
+   "fbref_id": "1fca9171",
+   "season": 2019,
+   "distance": 2.286,
    "survived": 1,
-   "fut_ability_v2": 60.3,
-   "player_name": "Yuya Osako",
-   "squad": "Köln"
+   "fut_ability_v2": 47.4,
+   "player_name": "Federico Di Francesco",
+   "squad": "Sassuolo"
+  },
+  {
+   "fbref_id": "2c38b327",
+   "season": 2021,
+   "distance": 2.421,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marko Pjaca",
+   "squad": "Genoa"
   },
   {
    "fbref_id": "4d50454e",
@@ -92,9 +92,27 @@
    "squad": "Paderborn 07"
   },
   {
+   "fbref_id": "f69fba57",
+   "season": 2018,
+   "distance": 2.548,
+   "survived": 1,
+   "fut_ability_v2": 60.3,
+   "player_name": "Yuya Osako",
+   "squad": "Köln"
+  },
+  {
+   "fbref_id": "169fd162",
+   "season": 2022,
+   "distance": 2.551,
+   "survived": 1,
+   "fut_ability_v2": 47.2,
+   "player_name": "Hwang Hee-chan",
+   "squad": "Wolves / RB Leipzig"
+  },
+  {
    "fbref_id": "eccbe56a",
    "season": 2019,
-   "distance": 2.578,
+   "distance": 2.64,
    "survived": 1,
    "fut_ability_v2": 71.2,
    "player_name": "Filip Đuričić",
@@ -103,7 +121,7 @@
   {
    "fbref_id": "157d29b6",
    "season": 2018,
-   "distance": 2.606,
+   "distance": 2.66,
    "survived": 1,
    "fut_ability_v2": 61.7,
    "player_name": "Diego Farias",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "9853983f",
    "season": 2019,
-   "distance": 2.781,
+   "distance": 2.771,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Bobby Wood",
    "squad": "Hannover 96"
-  },
-  {
-   "fbref_id": "ecbb3fdf",
-   "season": 2019,
-   "distance": 2.825,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "André Schürrle",
-   "squad": "Fulham"
-  },
-  {
-   "fbref_id": "db750822",
-   "season": 2018,
-   "distance": 2.859,
-   "survived": 1,
-   "fut_ability_v2": 58.3,
-   "player_name": "Vitolo",
-   "squad": "Las Palmas / Atlético Madrid"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Andrea Colpani(FW)의 현재 능력 점수는 46.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 전진 패스, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 박스 터치이다.",
-  "potential": "Andrea Colpani의 2~3년 후 예측 중심값은 52.1점, 80% 구간 상단은 61.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 48.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Andrea Colpani의 2~3년 후 예측 중심값은 56.7점, 80% 구간 상단은 66.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 51.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

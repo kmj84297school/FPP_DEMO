@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6947,
-  "mu": 56.3,
+  "survival_prob": 0.5547,
+  "mu": 56.2,
   "ci80": {
-   "lo": 46.8,
-   "hi": 65.7
+   "lo": 46.6,
+   "hi": 65.6
   },
   "ci50": {
-   "lo": 51.3,
-   "hi": 61.2
+   "lo": 51.1,
+   "hi": 61.1
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "54e4866f",
    "season": 2020,
-   "distance": 2.391,
+   "distance": 2.313,
    "survived": 1,
    "fut_ability_v2": 65.1,
    "player_name": "Vincenzo Grifo",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "643b39a6",
    "season": 2018,
-   "distance": 2.483,
+   "distance": 2.454,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Emre Çolak",
    "squad": "La Coruña"
   },
   {
+   "fbref_id": "cac2537b",
+   "season": 2022,
+   "distance": 2.474,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Enis Bardhi",
+   "squad": "Levante"
+  },
+  {
    "fbref_id": "94c18565",
    "season": 2020,
-   "distance": 2.562,
+   "distance": 2.566,
    "survived": 1,
    "fut_ability_v2": 62.4,
    "player_name": "Florian Kainz",
@@ -76,7 +85,7 @@
   {
    "fbref_id": "a6de370d",
    "season": 2018,
-   "distance": 2.823,
+   "distance": 2.853,
    "survived": 1,
    "fut_ability_v2": 66.5,
    "player_name": "Sergio Canales",
@@ -85,56 +94,47 @@
   {
    "fbref_id": "12c50af5",
    "season": 2020,
-   "distance": 2.85,
+   "distance": 2.951,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Denis Suárez",
    "squad": "Celta Vigo"
   },
   {
-   "fbref_id": "2e0367a6",
-   "season": 2019,
-   "distance": 2.878,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Naïm Sliti",
-   "squad": "Dijon"
-  },
-  {
    "fbref_id": "4737cebe",
    "season": 2020,
-   "distance": 2.909,
+   "distance": 2.955,
    "survived": 1,
    "fut_ability_v2": 60.7,
    "player_name": "Adnan Januzaj",
    "squad": "Real Sociedad"
   },
   {
+   "fbref_id": "9efa1d25",
+   "season": 2018,
+   "distance": 3.016,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Götze",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "7e82a78f",
+   "season": 2019,
+   "distance": 3.039,
+   "survived": 1,
+   "fut_ability_v2": 51.4,
+   "player_name": "Florent Mollet",
+   "squad": "Montpellier"
+  },
+  {
    "fbref_id": "9a2e0ccc",
    "season": 2019,
-   "distance": 3.031,
+   "distance": 3.044,
    "survived": 1,
    "fut_ability_v2": 67.4,
    "player_name": "Emil Forsberg",
    "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "9a2e0ccc",
-   "season": 2018,
-   "distance": 3.043,
-   "survived": 1,
-   "fut_ability_v2": 68.6,
-   "player_name": "Emil Forsberg",
-   "squad": "RB Leipzig"
-  },
-  {
-   "fbref_id": "2648e18f",
-   "season": 2018,
-   "distance": 3.052,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Adem Ljajić",
-   "squad": "Torino"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Dwight McNeil(MF)의 현재 능력 점수는 67.1점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 도움 기대값(xAG), 어시스트, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 블록이다.",
-  "potential": "Dwight McNeil의 2~3년 후 예측 중심값은 56.3점, 80% 구간 상단은 65.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Dwight McNeil의 2~3년 후 예측 중심값은 56.2점, 80% 구간 상단은 65.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

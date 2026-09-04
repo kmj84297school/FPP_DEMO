@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7148,
-  "mu": 49.8,
+  "survival_prob": 0.5373,
+  "mu": 47.2,
   "ci80": {
-   "lo": 40.6,
-   "hi": 59.1
+   "lo": 37.8,
+   "hi": 56.4
   },
   "ci50": {
-   "lo": 45.0,
-   "hi": 54.7
+   "lo": 42.2,
+   "hi": 52.0
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "85a44ecc",
+   "season": 2022,
+   "distance": 1.731,
+   "survived": 1,
+   "fut_ability_v2": 42.6,
+   "player_name": "Lassana Coulibaly",
+   "squad": "Salernitana"
+  },
+  {
+   "fbref_id": "8da74c05",
+   "season": 2021,
+   "distance": 1.75,
+   "survived": 1,
+   "fut_ability_v2": 47.9,
+   "player_name": "Adrien Tameze",
+   "squad": "Hellas Verona"
+  },
+  {
    "fbref_id": "fdd85f94",
    "season": 2019,
-   "distance": 1.802,
+   "distance": 1.772,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Davy Pröpper",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "8da74c05",
    "season": 2019,
-   "distance": 1.807,
+   "distance": 1.821,
    "survived": 1,
    "fut_ability_v2": 56.7,
    "player_name": "Adrien Tameze",
    "squad": "Nice"
   },
   {
-   "fbref_id": "ef7cd87a",
-   "season": 2020,
-   "distance": 1.968,
+   "fbref_id": "885b7aa7",
+   "season": 2021,
+   "distance": 1.851,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Abdoulaye Touré",
-   "squad": "Nantes"
+   "player_name": "Didier Ibrahim Ndong",
+   "squad": "Dijon"
   },
   {
-   "fbref_id": "b5dd3469",
-   "season": 2020,
-   "distance": 2.019,
+   "fbref_id": "26db8853",
+   "season": 2021,
+   "distance": 1.995,
    "survived": 1,
-   "fut_ability_v2": 43.1,
-   "player_name": "Nemanja Radoja",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "5d8e331f",
-   "season": 2018,
-   "distance": 2.057,
-   "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Nicolas Höfler",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "a8797cf1",
-   "season": 2018,
-   "distance": 2.11,
-   "survived": 1,
-   "fut_ability_v2": 50.7,
-   "player_name": "Bongani Zungu",
-   "squad": "Amiens"
-  },
-  {
-   "fbref_id": "02febfdc",
-   "season": 2019,
-   "distance": 2.157,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Raffaele Maiello",
-   "squad": "Frosinone"
+   "fut_ability_v2": 42.0,
+   "player_name": "Walace",
+   "squad": "Udinese"
   },
   {
    "fbref_id": "1961b2aa",
-   "season": 2020,
-   "distance": 2.217,
+   "season": 2021,
+   "distance": 1.997,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "André Gomes",
    "squad": "Everton"
   },
   {
-   "fbref_id": "31bbb7e2",
-   "season": 2018,
-   "distance": 2.222,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gerónimo Poblete",
-   "squad": "Metz"
+   "fbref_id": "b5dd3469",
+   "season": 2020,
+   "distance": 2.01,
+   "survived": 1,
+   "fut_ability_v2": 43.1,
+   "player_name": "Nemanja Radoja",
+   "squad": "Levante"
   },
   {
-   "fbref_id": "529f49ab",
+   "fbref_id": "a8797cf1",
    "season": 2018,
-   "distance": 2.231,
+   "distance": 2.043,
    "survived": 1,
-   "fut_ability_v2": 67.5,
-   "player_name": "Thomas Partey",
-   "squad": "Atlético Madrid"
+   "fut_ability_v2": 50.7,
+   "player_name": "Bongani Zungu",
+   "squad": "Amiens"
+  },
+  {
+   "fbref_id": "ef7cd87a",
+   "season": 2020,
+   "distance": 2.05,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Abdoulaye Touré",
+   "squad": "Nantes"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Boubakary Soumaré(MF)의 현재 능력 점수는 50.8점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클 성공률, 볼 리커버리, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 슈팅 시도이다.",
-  "potential": "Boubakary Soumaré의 2~3년 후 예측 중심값은 49.8점, 80% 구간 상단은 59.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Boubakary Soumaré의 2~3년 후 예측 중심값은 47.2점, 80% 구간 상단은 56.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

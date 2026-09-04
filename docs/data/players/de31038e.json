@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.969,
-  "mu": 62.3,
+  "survival_prob": 0.9369,
+  "mu": 60.7,
   "ci80": {
-   "lo": 51.7,
-   "hi": 73.0
+   "lo": 50.2,
+   "hi": 71.1
   },
   "ci50": {
-   "lo": 56.7,
-   "hi": 68.0
+   "lo": 55.1,
+   "hi": 66.1
   },
-  "sigma_model": 2.2,
+  "sigma_model": 1.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "c1b7847c",
    "season": 2019,
-   "distance": 2.037,
+   "distance": 1.957,
    "survived": 1,
    "fut_ability_v2": 63.7,
    "player_name": "Konrad Laimer",
    "squad": "RB Leipzig"
   },
   {
+   "fbref_id": "8f056768",
+   "season": 2021,
+   "distance": 2.334,
+   "survived": 1,
+   "fut_ability_v2": 65.6,
+   "player_name": "Xaver Schlager",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "6928979a",
    "season": 2018,
-   "distance": 2.258,
+   "distance": 2.334,
    "survived": 1,
    "fut_ability_v2": 65.5,
    "player_name": "Nicolò Barella",
    "squad": "Cagliari"
   },
   {
+   "fbref_id": "442b56fa",
+   "season": 2021,
+   "distance": 2.391,
+   "survived": 1,
+   "fut_ability_v2": 56.2,
+   "player_name": "Ridle Baku",
+   "squad": "Wolfsburg / Mainz 05"
+  },
+  {
    "fbref_id": "6928979a",
    "season": 2019,
-   "distance": 2.298,
+   "distance": 2.415,
    "survived": 1,
    "fut_ability_v2": 73.6,
    "player_name": "Nicolò Barella",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "7d3cbc67",
    "season": 2019,
-   "distance": 2.635,
+   "distance": 2.583,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mehdi Léris",
    "squad": "Chievo"
   },
   {
-   "fbref_id": "6191093d",
-   "season": 2019,
-   "distance": 2.702,
+   "fbref_id": "822d51d7",
+   "season": 2022,
+   "distance": 2.608,
    "survived": 1,
-   "fut_ability_v2": 55.7,
-   "player_name": "Ludovic Blas",
-   "squad": "Guingamp"
+   "fut_ability_v2": 62.2,
+   "player_name": "Youssouf Fofana",
+   "squad": "Monaco"
+  },
+  {
+   "fbref_id": "5c74c0f5",
+   "season": 2022,
+   "distance": 2.722,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Kiernan Dewsbury-Hall",
+   "squad": "Leicester City"
   },
   {
    "fbref_id": "8f056768",
    "season": 2020,
-   "distance": 2.722,
+   "distance": 2.741,
    "survived": 1,
    "fut_ability_v2": 52.7,
    "player_name": "Xaver Schlager",
    "squad": "Wolfsburg"
   },
   {
-   "fbref_id": "d080ed5e",
-   "season": 2019,
-   "distance": 2.731,
-   "survived": 1,
-   "fut_ability_v2": 62.1,
-   "player_name": "Mikel Merino",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "1daec722",
-   "season": 2020,
-   "distance": 2.761,
-   "survived": 1,
-   "fut_ability_v2": 68.7,
-   "player_name": "Marc Cucurella",
-   "squad": "Getafe"
-  },
-  {
    "fbref_id": "8b04d6c1",
    "season": 2019,
-   "distance": 2.79,
+   "distance": 2.765,
    "survived": 1,
    "fut_ability_v2": 65.5,
    "player_name": "Pierre Højbjerg",
    "squad": "Southampton"
-  },
-  {
-   "fbref_id": "0000acda",
-   "season": 2018,
-   "distance": 2.808,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Marco Benassi",
-   "squad": "Fiorentina"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Elliot Anderson(MF)의 현재 능력 점수는 60.2점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 클리어링, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 볼 손실(미스+파울)이다.",
-  "potential": "Elliot Anderson의 2~3년 후 예측 중심값은 62.3점, 80% 구간 상단은 73.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Elliot Anderson의 2~3년 후 예측 중심값은 60.7점, 80% 구간 상단은 71.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

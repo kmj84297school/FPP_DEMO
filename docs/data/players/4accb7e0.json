@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1235,
-  "mu": 43.3,
+  "survival_prob": 0.123,
+  "mu": 43.8,
   "ci80": {
-   "lo": 34.1,
-   "hi": 52.5
+   "lo": 34.5,
+   "hi": 53.2
   },
   "ci50": {
-   "lo": 38.4,
-   "hi": 48.1
+   "lo": 38.9,
+   "hi": 48.8
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "8f4d116f",
+   "season": 2021,
+   "distance": 1.578,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Damien Le Tallec",
+   "squad": "Montpellier"
+  },
+  {
+   "fbref_id": "74e12f1e",
+   "season": 2022,
+   "distance": 1.627,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jack Cork",
+   "squad": "Burnley"
+  },
+  {
    "fbref_id": "a64cbd35",
    "season": 2020,
-   "distance": 1.665,
+   "distance": 1.635,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Antonino Barillà",
@@ -58,16 +76,25 @@
   {
    "fbref_id": "ad1ffcfd",
    "season": 2019,
-   "distance": 1.684,
+   "distance": 1.641,
    "survived": 1,
    "fut_ability_v2": 52.2,
    "player_name": "Vicente Iborra",
    "squad": "Villarreal / Leicester City"
   },
   {
+   "fbref_id": "05a4465d",
+   "season": 2021,
+   "distance": 1.662,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Manu García",
+   "squad": "Alavés"
+  },
+  {
    "fbref_id": "4dba2a97",
    "season": 2019,
-   "distance": 1.701,
+   "distance": 1.665,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Luca Rigoni",
@@ -76,65 +103,38 @@
   {
    "fbref_id": "05a4465d",
    "season": 2020,
-   "distance": 1.709,
+   "distance": 1.7,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Manu García",
    "squad": "Alavés"
   },
   {
+   "fbref_id": "d83bbc54",
+   "season": 2022,
+   "distance": 1.833,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Daniel Wass",
+   "squad": "Valencia / Atlético Madrid"
+  },
+  {
    "fbref_id": "7329018e",
-   "season": 2020,
-   "distance": 1.937,
+   "season": 2021,
+   "distance": 1.926,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Papakouli Diop",
    "squad": "Eibar"
   },
   {
-   "fbref_id": "482b70ad",
-   "season": 2018,
-   "distance": 1.979,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Mike Frantz",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "04a65a8f",
-   "season": 2018,
-   "distance": 2.093,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Markel Bergara",
-   "squad": "Getafe"
-  },
-  {
-   "fbref_id": "677ee102",
-   "season": 2018,
-   "distance": 2.1,
-   "survived": 1,
-   "fut_ability_v2": 47.7,
-   "player_name": "Yannick Cahuzac",
-   "squad": "Toulouse"
-  },
-  {
-   "fbref_id": "bb8a42fa",
+   "fbref_id": "7329018e",
    "season": 2020,
-   "distance": 2.148,
+   "distance": 1.968,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Adam Bodzek",
-   "squad": "Düsseldorf"
-  },
-  {
-   "fbref_id": "e54bd0a2",
-   "season": 2020,
-   "distance": 2.189,
-   "survived": 1,
-   "fut_ability_v2": 43.1,
-   "player_name": "Tomás Pina Isla",
-   "squad": "Alavés"
+   "player_name": "Papakouli Diop",
+   "squad": "Eibar"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Darko Brašanac(MF)의 현재 능력 점수는 45.6점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 슈팅당 기대득점, 공중볼 승률, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 박스 진입 패스이다.",
-  "potential": "Darko Brašanac의 2~3년 후 예측 중심값은 43.3점, 80% 구간 상단은 52.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 12.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Darko Brašanac의 2~3년 후 예측 중심값은 43.8점, 80% 구간 상단은 53.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 12.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,51 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4741,
-  "mu": 55.2,
+  "survival_prob": 0.6697,
+  "mu": 55.7,
   "ci80": {
-   "lo": 44.7,
-   "hi": 65.6
+   "lo": 45.4,
+   "hi": 66.1
   },
   "ci50": {
-   "lo": 49.6,
-   "hi": 60.7
+   "lo": 50.4,
+   "hi": 61.2
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "6adbc307",
    "season": 2018,
-   "distance": 1.091,
+   "distance": 1.098,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Jack Stephens",
    "squad": "Southampton"
   },
   {
-   "fbref_id": "92b4758e",
-   "season": 2019,
-   "distance": 1.478,
+   "fbref_id": "f7c491f1",
+   "season": 2022,
+   "distance": 1.186,
    "survived": 1,
-   "fut_ability_v2": 55.5,
-   "player_name": "Samir Santos",
+   "fut_ability_v2": 65.4,
+   "player_name": "Nehuén Pérez",
    "squad": "Udinese"
+  },
+  {
+   "fbref_id": "49136c42",
+   "season": 2021,
+   "distance": 1.261,
+   "survived": 1,
+   "fut_ability_v2": 48.9,
+   "player_name": "Andrew Gravillon",
+   "squad": "Lorient"
   },
   {
    "fbref_id": "c3ee18ef",
    "season": 2018,
-   "distance": 1.524,
+   "distance": 1.445,
    "survived": 1,
    "fut_ability_v2": 72.7,
    "player_name": "Lucas Hernández",
    "squad": "Atlético Madrid"
   },
   {
+   "fbref_id": "4ae67f27",
+   "season": 2022,
+   "distance": 1.524,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Alessandro Buongiorno",
+   "squad": "Torino"
+  },
+  {
+   "fbref_id": "92b4758e",
+   "season": 2019,
+   "distance": 1.539,
+   "survived": 1,
+   "fut_ability_v2": 55.5,
+   "player_name": "Samir Santos",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "7e12a98d",
+   "season": 2022,
+   "distance": 1.601,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxim Leitsch",
+   "squad": "Bochum"
+  },
+  {
+   "fbref_id": "d0042ab9",
+   "season": 2021,
+   "distance": 1.632,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mason Holgate",
+   "squad": "Everton"
+  },
+  {
    "fbref_id": "4115ce4e",
    "season": 2019,
-   "distance": 1.662,
+   "distance": 1.69,
    "survived": 1,
    "fut_ability_v2": 66.7,
    "player_name": "Jan Bednarek",
@@ -85,56 +130,11 @@
   {
    "fbref_id": "f9714604",
    "season": 2018,
-   "distance": 1.723,
+   "distance": 1.703,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Arlind Ajeti",
    "squad": "Crotone"
-  },
-  {
-   "fbref_id": "167d5018",
-   "season": 2019,
-   "distance": 1.767,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Félix Eboa Eboa",
-   "squad": "Guingamp"
-  },
-  {
-   "fbref_id": "92b4758e",
-   "season": 2018,
-   "distance": 1.836,
-   "survived": 1,
-   "fut_ability_v2": 54.7,
-   "player_name": "Samir Santos",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "4ac7608e",
-   "season": 2018,
-   "distance": 1.861,
-   "survived": 1,
-   "fut_ability_v2": 51.1,
-   "player_name": "Diego González",
-   "squad": "Málaga"
-  },
-  {
-   "fbref_id": "5fd5ed86",
-   "season": 2020,
-   "distance": 1.904,
-   "survived": 1,
-   "fut_ability_v2": 66.3,
-   "player_name": "Gleison Bremer",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "c67cd65c",
-   "season": 2018,
-   "distance": 1.933,
-   "survived": 1,
-   "fut_ability_v2": 56.2,
-   "player_name": "Rúben Vezo",
-   "squad": "Valencia"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Santiago Mouriño(DF)의 현재 능력 점수는 55.8점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 태클+인터셉트, 실책 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 패스이다.",
-  "potential": "Santiago Mouriño의 2~3년 후 예측 중심값은 55.2점, 80% 구간 상단은 65.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 47.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Santiago Mouriño의 2~3년 후 예측 중심값은 55.7점, 80% 구간 상단은 66.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 67.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

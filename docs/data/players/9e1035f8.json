@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6701,
-  "mu": 59.6,
+  "survival_prob": 0.6182,
+  "mu": 75.3,
   "ci80": {
-   "lo": 48.9,
-   "hi": 70.3
+   "lo": 65.5,
+   "hi": 85.2
   },
   "ci50": {
-   "lo": 54.0,
-   "hi": 65.3
+   "lo": 70.2,
+   "hi": 80.5
   },
-  "sigma_model": 4.5,
-  "sigma_residual": 7.0
+  "sigma_model": 2.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "ff182fdc",
-   "season": 2019,
-   "distance": 2.718,
+   "fbref_id": "509a4ccb",
+   "season": 2021,
+   "distance": 2.655,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Keita Baldé",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "178ae8f8",
+   "season": 2022,
+   "distance": 2.707,
    "survived": 1,
-   "fut_ability_v2": 43.2,
-   "player_name": "Ishak Belfodil",
-   "squad": "Hoffenheim"
+   "fut_ability_v2": 71.2,
+   "player_name": "Diogo Jota",
+   "squad": "Liverpool"
   },
   {
    "fbref_id": "942b4f90",
    "season": 2018,
-   "distance": 2.726,
+   "distance": 2.73,
    "survived": 1,
    "fut_ability_v2": 74.8,
    "player_name": "Wissam Ben Yedder",
@@ -67,25 +76,52 @@
   {
    "fbref_id": "5ceba7fc",
    "season": 2020,
-   "distance": 2.762,
+   "distance": 2.766,
    "survived": 1,
    "fut_ability_v2": 69.7,
    "player_name": "Karl Toko Ekambi",
    "squad": "Villarreal / Lyon"
   },
   {
+   "fbref_id": "ff182fdc",
+   "season": 2019,
+   "distance": 2.793,
+   "survived": 1,
+   "fut_ability_v2": 43.2,
+   "player_name": "Ishak Belfodil",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "45b9b619",
+   "season": 2022,
+   "distance": 2.837,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Joaquín Correa",
+   "squad": "Inter"
+  },
+  {
    "fbref_id": "9dbb75ca",
    "season": 2018,
-   "distance": 2.982,
+   "distance": 3.002,
    "survived": 1,
    "fut_ability_v2": 64.4,
    "player_name": "Alexandre Lacazette",
    "squad": "Arsenal"
   },
   {
+   "fbref_id": "f08490a6",
+   "season": 2022,
+   "distance": 3.165,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Arnaut Groeneveld",
+   "squad": "Villarreal"
+  },
+  {
    "fbref_id": "129af0db",
    "season": 2018,
-   "distance": 3.182,
+   "distance": 3.226,
    "survived": 1,
    "fut_ability_v2": 70.0,
    "player_name": "Álvaro Morata",
@@ -94,47 +130,11 @@
   {
    "fbref_id": "bc6bd723",
    "season": 2020,
-   "distance": 3.261,
+   "distance": 3.321,
    "survived": 1,
    "fut_ability_v2": 73.5,
    "player_name": "Alassane Pléa",
    "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "eb2fe5b6",
-   "season": 2018,
-   "distance": 3.521,
-   "survived": 1,
-   "fut_ability_v2": 88.1,
-   "player_name": "Luis Muriel",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "962e54cb",
-   "season": 2020,
-   "distance": 3.65,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gonçalo Paciência",
-   "squad": "Eint Frankfurt"
-  },
-  {
-   "fbref_id": "21a66f6a",
-   "season": 2019,
-   "distance": 3.692,
-   "survived": 1,
-   "fut_ability_v2": 78.3,
-   "player_name": "Harry Kane",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "834d0be5",
-   "season": 2020,
-   "distance": 3.733,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lucas Alario",
-   "squad": "Leverkusen"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Ferrán Torres(FW)의 현재 능력 점수는 81.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 어시스트, 유효슈팅, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 운반이다.",
-  "potential": "Ferrán Torres의 2~3년 후 예측 중심값은 59.6점, 80% 구간 상단은 70.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 67.0%로 추정된다. 종합하면 현재 대비 다소의 하락 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ferrán Torres의 2~3년 후 예측 중심값은 75.3점, 80% 구간 상단은 85.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

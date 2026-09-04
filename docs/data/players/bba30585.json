@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3706,
-  "mu": 56.3,
+  "survival_prob": 0.5515,
+  "mu": 57.8,
   "ci80": {
-   "lo": 46.9,
-   "hi": 65.5
+   "lo": 48.6,
+   "hi": 67.1
   },
   "ci50": {
-   "lo": 51.3,
-   "hi": 61.1
+   "lo": 52.9,
+   "hi": 62.7
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "f25b010f",
-   "season": 2018,
-   "distance": 1.24,
+   "fbref_id": "8b8a56ce",
+   "season": 2021,
+   "distance": 1.014,
    "survived": 1,
-   "fut_ability_v2": 49.7,
-   "player_name": "Federico Fernández",
-   "squad": "Swansea City"
+   "fut_ability_v2": 60.7,
+   "player_name": "Simon Kjær",
+   "squad": "Milan"
   },
   {
-   "fbref_id": "6aafdc27",
-   "season": 2018,
-   "distance": 1.261,
+   "fbref_id": "32c2d95f",
+   "season": 2021,
+   "distance": 1.052,
    "survived": 1,
-   "fut_ability_v2": 61.2,
-   "player_name": "Nenad Tomović",
-   "squad": "Chievo / Fiorentina"
+   "fut_ability_v2": 63.5,
+   "player_name": "Yunis Abdelhamid",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "b3dc6eca",
+   "season": 2021,
+   "distance": 1.183,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Víctor Ruiz",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "6eaed4eb",
+   "season": 2022,
+   "distance": 1.253,
+   "survived": 1,
+   "fut_ability_v2": 58.8,
+   "player_name": "Florian Lejeune",
+   "squad": "Alavés"
   },
   {
    "fbref_id": "b3dc6eca",
    "season": 2018,
-   "distance": 1.266,
+   "distance": 1.261,
    "survived": 1,
    "fut_ability_v2": 56.7,
    "player_name": "Víctor Ruiz",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "fc4f85b1",
    "season": 2018,
-   "distance": 1.282,
+   "distance": 1.263,
    "survived": 1,
    "fut_ability_v2": 67.2,
    "player_name": "Diego Godín",
    "squad": "Atlético Madrid"
   },
   {
+   "fbref_id": "f25b010f",
+   "season": 2018,
+   "distance": 1.287,
+   "survived": 1,
+   "fut_ability_v2": 49.7,
+   "player_name": "Federico Fernández",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "6aafdc27",
+   "season": 2018,
+   "distance": 1.305,
+   "survived": 1,
+   "fut_ability_v2": 61.2,
+   "player_name": "Nenad Tomović",
+   "squad": "Chievo / Fiorentina"
+  },
+  {
+   "fbref_id": "bcfb0142",
+   "season": 2022,
+   "distance": 1.308,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ben Gibson",
+   "squad": "Norwich City"
+  },
+  {
    "fbref_id": "45b7edae",
    "season": 2018,
-   "distance": 1.318,
+   "distance": 1.342,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Holger Badstuber",
    "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "6b200d45",
-   "season": 2019,
-   "distance": 1.416,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Loïc Perrin",
-   "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "92b4a127",
-   "season": 2018,
-   "distance": 1.416,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gustavo Cabral",
-   "squad": "Celta Vigo"
-  },
-  {
-   "fbref_id": "1ec7e1c5",
-   "season": 2018,
-   "distance": 1.421,
-   "survived": 1,
-   "fut_ability_v2": 61.4,
-   "player_name": "Damien Da Silva",
-   "squad": "Caen"
-  },
-  {
-   "fbref_id": "7c473e12",
-   "season": 2020,
-   "distance": 1.425,
-   "survived": 1,
-   "fut_ability_v2": 53.8,
-   "player_name": "Dedryck Boyata",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "87935cf3",
-   "season": 2019,
-   "distance": 1.432,
-   "survived": 1,
-   "fut_ability_v2": 64.5,
-   "player_name": "Mamadou Sakho",
-   "squad": "Crystal Palace"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Diego Llorente(DF)의 현재 능력 점수는 62.3점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 공중볼 승리, 슈팅당 기대득점, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 패스 수신이다.",
-  "potential": "Diego Llorente의 2~3년 후 예측 중심값은 56.3점, 80% 구간 상단은 65.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 37.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Diego Llorente의 2~3년 후 예측 중심값은 57.8점, 80% 구간 상단은 67.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

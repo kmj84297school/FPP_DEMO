@@ -32,69 +32,96 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9846,
-  "mu": 60.3,
+  "survival_prob": 0.9764,
+  "mu": 59.6,
   "ci80": {
-   "lo": 49.7,
-   "hi": 71.0
+   "lo": 49.1,
+   "hi": 70.1
   },
   "ci50": {
-   "lo": 54.8,
-   "hi": 65.9
+   "lo": 54.0,
+   "hi": 65.1
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "67ac5bb8",
+   "season": 2022,
+   "distance": 1.395,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Dos Santos",
+   "squad": "Arsenal"
+  },
+  {
    "fbref_id": "555f3a0b",
    "season": 2019,
-   "distance": 1.437,
+   "distance": 1.433,
    "survived": 1,
    "fut_ability_v2": 60.2,
    "player_name": "Mario Hermoso",
    "squad": "Espanyol"
   },
   {
-   "fbref_id": "d368feb8",
-   "season": 2018,
-   "distance": 1.591,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alfie Mawson",
-   "squad": "Swansea City"
-  },
-  {
    "fbref_id": "21166ff4",
    "season": 2020,
-   "distance": 1.598,
+   "distance": 1.541,
    "survived": 1,
    "fut_ability_v2": 66.9,
    "player_name": "Çağlar Söyüncü",
    "squad": "Leicester City"
   },
   {
-   "fbref_id": "47af88b8",
-   "season": 2019,
-   "distance": 1.761,
+   "fbref_id": "d368feb8",
+   "season": 2018,
+   "distance": 1.578,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alfie Mawson",
+   "squad": "Swansea City"
+  },
+  {
+   "fbref_id": "9a64e67e",
+   "season": 2021,
+   "distance": 1.691,
    "survived": 1,
-   "fut_ability_v2": 51.6,
-   "player_name": "Jason Denayer",
-   "squad": "Lyon"
+   "fut_ability_v2": 53.9,
+   "player_name": "Robin Le Normand",
+   "squad": "Real Sociedad"
   },
   {
    "fbref_id": "4f28a6ff",
    "season": 2018,
-   "distance": 1.77,
+   "distance": 1.727,
    "survived": 1,
    "fut_ability_v2": 66.2,
    "player_name": "Clément Lenglet",
    "squad": "Sevilla"
   },
   {
+   "fbref_id": "bee704fc",
+   "season": 2021,
+   "distance": 1.755,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Nikola Milenković",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "47af88b8",
+   "season": 2019,
+   "distance": 1.787,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Jason Denayer",
+   "squad": "Lyon"
+  },
+  {
    "fbref_id": "94f8d10c",
    "season": 2020,
-   "distance": 1.775,
+   "distance": 1.792,
    "survived": 1,
    "fut_ability_v2": 62.6,
    "player_name": "Duje Ćaleta-Car",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "ea6bc03a",
    "season": 2020,
-   "distance": 1.83,
+   "distance": 1.822,
    "survived": 1,
    "fut_ability_v2": 46.7,
    "player_name": "Robin Koch",
    "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "4fdf1fd9",
-   "season": 2019,
-   "distance": 1.929,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Björn Engels",
-   "squad": "Reims"
-  },
-  {
-   "fbref_id": "30f5ffa9",
-   "season": 2019,
-   "distance": 1.976,
-   "survived": 1,
-   "fut_ability_v2": 55.2,
-   "player_name": "Milan Škriniar",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "2200181e",
-   "season": 2019,
-   "distance": 1.996,
-   "survived": 1,
-   "fut_ability_v2": 51.1,
-   "player_name": "Kaan Ayhan",
-   "squad": "Düsseldorf"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Bafodé Diakité(DF)의 현재 능력 점수는 56.3점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 패스 성공률, 전진 운반 거리, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 패스 수신이다.",
-  "potential": "Bafodé Diakité의 2~3년 후 예측 중심값은 60.3점, 80% 구간 상단은 71.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 98.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Bafodé Diakité의 2~3년 후 예측 중심값은 59.6점, 80% 구간 상단은 70.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

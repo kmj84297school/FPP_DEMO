@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1431,
-  "mu": 42.9,
+  "survival_prob": 0.1521,
+  "mu": 42.7,
   "ci80": {
-   "lo": 33.5,
-   "hi": 52.2
+   "lo": 33.4,
+   "hi": 52.0
   },
   "ci50": {
-   "lo": 37.9,
-   "hi": 47.8
+   "lo": 37.8,
+   "hi": 47.6
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "8332db56",
+   "season": 2021,
+   "distance": 1.866,
+   "survived": 1,
+   "fut_ability_v2": 46.0,
+   "player_name": "Thomas Delaine",
+   "squad": "Metz"
+  },
+  {
    "fbref_id": "c6896eab",
    "season": 2019,
-   "distance": 2.181,
+   "distance": 2.146,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Chris Löwe",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "1b729ba2",
    "season": 2018,
-   "distance": 2.202,
+   "distance": 2.181,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Aleandro Rosi",
@@ -67,16 +76,34 @@
   {
    "fbref_id": "76e5da9d",
    "season": 2019,
-   "distance": 2.244,
+   "distance": 2.219,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabian Johnson",
    "squad": "M'Gladbach"
   },
   {
+   "fbref_id": "9f323c71",
+   "season": 2021,
+   "distance": 2.28,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "cf623c78",
+   "season": 2021,
+   "distance": 2.297,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Erik Durm",
+   "squad": "Eint Frankfurt"
+  },
+  {
    "fbref_id": "dbe519cf",
    "season": 2019,
-   "distance": 2.396,
+   "distance": 2.447,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Antoñito",
@@ -85,7 +112,7 @@
   {
    "fbref_id": "1cd87320",
    "season": 2019,
-   "distance": 2.501,
+   "distance": 2.469,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Matthias Ostrzolek",
@@ -94,7 +121,7 @@
   {
    "fbref_id": "0420d84f",
    "season": 2018,
-   "distance": 2.529,
+   "distance": 2.557,
    "survived": 1,
    "fut_ability_v2": 56.2,
    "player_name": "Séamus Coleman",
@@ -103,38 +130,11 @@
   {
    "fbref_id": "6d8f8441",
    "season": 2019,
-   "distance": 2.584,
+   "distance": 2.571,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Coke",
    "squad": "Levante"
-  },
-  {
-   "fbref_id": "00a6485f",
-   "season": 2019,
-   "distance": 2.661,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andreas Beck",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "00a6485f",
-   "season": 2018,
-   "distance": 2.673,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andreas Beck",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "244f57b9",
-   "season": 2020,
-   "distance": 2.714,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jony",
-   "squad": "Lazio"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Francesco Zampano(DF)의 현재 능력 점수는 41.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅당 기대득점, 전진 운반, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 클리어링이다.",
-  "potential": "Francesco Zampano의 2~3년 후 예측 중심값은 42.9점, 80% 구간 상단은 52.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 14.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Francesco Zampano의 2~3년 후 예측 중심값은 42.7점, 80% 구간 상단은 52.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 15.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

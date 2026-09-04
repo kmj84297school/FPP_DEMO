@@ -32,33 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.517,
-  "mu": 52.5,
+  "survival_prob": 0.6416,
+  "mu": 52.8,
   "ci80": {
-   "lo": 43.3,
-   "hi": 61.7
+   "lo": 43.6,
+   "hi": 62.1
   },
   "ci50": {
-   "lo": 47.7,
-   "hi": 57.3
+   "lo": 48.0,
+   "hi": 57.7
   },
-  "sigma_model": 1.4,
-  "sigma_residual": 7.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "ab096c6f",
+   "season": 2022,
+   "distance": 1.771,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Timothée Kolodziejczak",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "fb5d47b3",
+   "season": 2021,
+   "distance": 1.839,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mario Gaspar",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "2e3406ae",
+   "season": 2020,
+   "distance": 1.923,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fran Gámez",
+   "squad": "Mallorca"
+  },
+  {
    "fbref_id": "bad38a94",
    "season": 2020,
-   "distance": 1.931,
+   "distance": 1.972,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dídac Vilà",
    "squad": "Espanyol"
   },
   {
+   "fbref_id": "bf97c188",
+   "season": 2018,
+   "distance": 1.975,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gabriel Mercado",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "16e9d0ea",
+   "season": 2021,
+   "distance": 2.01,
+   "survived": 1,
+   "fut_ability_v2": 52.8,
+   "player_name": "Álex Moreno",
+   "squad": "Betis"
+  },
+  {
    "fbref_id": "fb5d47b3",
    "season": 2019,
-   "distance": 1.971,
+   "distance": 2.017,
    "survived": 1,
    "fut_ability_v2": 59.6,
    "player_name": "Mario Gaspar",
@@ -67,74 +112,29 @@
   {
    "fbref_id": "652811aa",
    "season": 2020,
-   "distance": 1.975,
+   "distance": 2.041,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marco Calderoni",
    "squad": "Lecce"
   },
   {
-   "fbref_id": "2e3406ae",
-   "season": 2020,
-   "distance": 1.984,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fran Gámez",
-   "squad": "Mallorca"
-  },
-  {
-   "fbref_id": "173061c0",
-   "season": 2020,
-   "distance": 2.014,
-   "survived": 1,
-   "fut_ability_v2": 53.8,
-   "player_name": "Riccardo Gagliolo",
-   "squad": "Parma"
-  },
-  {
-   "fbref_id": "bf97c188",
-   "season": 2018,
-   "distance": 2.016,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gabriel Mercado",
-   "squad": "Sevilla"
-  },
-  {
    "fbref_id": "7f4c7c9f",
    "season": 2020,
-   "distance": 2.071,
+   "distance": 2.079,
    "survived": 1,
    "fut_ability_v2": 47.2,
    "player_name": "Jorge Miramón",
    "squad": "Levante"
   },
   {
-   "fbref_id": "c18d22f5",
-   "season": 2018,
-   "distance": 2.115,
-   "survived": 1,
-   "fut_ability_v2": 51.1,
-   "player_name": "Peter Pekarík",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "01226327",
+   "fbref_id": "e5d01ecf",
    "season": 2019,
-   "distance": 2.143,
+   "distance": 2.119,
    "survived": 1,
-   "fut_ability_v2": 47.2,
-   "player_name": "Ryan Bertrand",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "1f079188",
-   "season": 2020,
-   "distance": 2.156,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Rubén Peña",
-   "squad": "Villarreal"
+   "fut_ability_v2": 49.9,
+   "player_name": "Kiko Femenía",
+   "squad": "Watford"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Emerson Palmieri(DF)의 현재 능력 점수는 52.8점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 유효슈팅, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 전진 패스 거리이다.",
-  "potential": "Emerson Palmieri의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 61.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 51.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Emerson Palmieri의 2~3년 후 예측 중심값은 52.8점, 80% 구간 상단은 62.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 64.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

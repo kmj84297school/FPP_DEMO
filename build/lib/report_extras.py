@@ -244,14 +244,14 @@ def narrative_current(name, pos, ability, groups, style_primary, strengths, weak
     )
 
 
-def narrative_potential(name, kind, mu, ceiling, survival_prob, headroom, out_of_range=False):
+def narrative_potential(name, kind, mu, ceiling, survival_prob, headroom, out_of_range=False, r2=None):
     model_txt = "성장기 모델(23세 이하 학습)" if kind == "growth" else "성숙기 모델(24세 이상 학습)"
     surv_txt = "빅5 잔존확률" if kind == "growth" else "빅5 현역 유지확률"
     trend = "추가 상승" if headroom is not None and headroom > 5 else "현 수준 유지" if headroom is not None and headroom > -3 else "다소의 하락"
     base = (
         f"{name}의 2~3년 후 예측 중심값은 {mu:.1f}점, 80% 구간 상단은 {ceiling:.1f}점이다({model_txt}). "
         f"{surv_txt}은 {survival_prob * 100:.1f}%로 추정된다. 종합하면 현재 대비 {trend} 경향으로 예측된다 "
-        f"(단, 이 모델의 R²는 {'0.231' if kind == 'growth' else '0.502'}로 예측에는 상당한 불확실성이 남아있다)."
+        f"(단, 이 모델의 R²는 {r2 if r2 is not None else '—'}로 예측에는 상당한 불확실성이 남아있다)."
     )
     if out_of_range:
         base += (

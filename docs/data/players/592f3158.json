@@ -32,69 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3635,
-  "mu": 47.8,
+  "survival_prob": 0.2491,
+  "mu": 48.1,
   "ci80": {
-   "lo": 38.6,
-   "hi": 57.1
+   "lo": 38.8,
+   "hi": 57.4
   },
   "ci50": {
-   "lo": 43.0,
-   "hi": 52.7
+   "lo": 43.2,
+   "hi": 53.1
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "9f1938ab",
+   "season": 2022,
+   "distance": 1.392,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Forshaw",
+   "squad": "Leeds United"
+  },
+  {
    "fbref_id": "3c7bc9bd",
    "season": 2019,
-   "distance": 1.373,
+   "distance": 1.429,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rubén Pérez",
    "squad": "Leganés"
   },
   {
-   "fbref_id": "e54bd0a2",
-   "season": 2018,
-   "distance": 1.46,
-   "survived": 1,
-   "fut_ability_v2": 49.1,
-   "player_name": "Tomás Pina Isla",
-   "squad": "Alavés"
-  },
-  {
    "fbref_id": "64b08de7",
    "season": 2020,
-   "distance": 1.532,
+   "distance": 1.439,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "James McCarthy",
    "squad": "Crystal Palace"
   },
   {
-   "fbref_id": "ff527768",
+   "fbref_id": "e54bd0a2",
    "season": 2018,
-   "distance": 1.629,
+   "distance": 1.507,
    "survived": 1,
-   "fut_ability_v2": 48.8,
-   "player_name": "Mark Noble",
-   "squad": "West Ham"
+   "fut_ability_v2": 49.1,
+   "player_name": "Tomás Pina Isla",
+   "squad": "Alavés"
   },
   {
    "fbref_id": "3f7cd8f1",
    "season": 2018,
-   "distance": 1.637,
+   "distance": 1.627,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Philipp Bargfrede",
    "squad": "Werder Bremen"
   },
   {
+   "fbref_id": "ff527768",
+   "season": 2018,
+   "distance": 1.647,
+   "survived": 1,
+   "fut_ability_v2": 48.8,
+   "player_name": "Mark Noble",
+   "squad": "West Ham"
+  },
+  {
+   "fbref_id": "d6f88a1d",
+   "season": 2021,
+   "distance": 1.668,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adrien Silva",
+   "squad": "Sampdoria"
+  },
+  {
    "fbref_id": "80f36c88",
    "season": 2019,
-   "distance": 1.656,
+   "distance": 1.721,
    "survived": 1,
    "fut_ability_v2": 56.4,
    "player_name": "Sebastian Rudy",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "73489527",
    "season": 2018,
-   "distance": 1.764,
+   "distance": 1.812,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Steven Defour",
    "squad": "Burnley"
   },
   {
-   "fbref_id": "02febfdc",
-   "season": 2019,
-   "distance": 1.8,
+   "fbref_id": "17780d2b",
+   "season": 2021,
+   "distance": 1.845,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Raffaele Maiello",
-   "squad": "Frosinone"
-  },
-  {
-   "fbref_id": "5d8e331f",
-   "season": 2019,
-   "distance": 1.82,
-   "survived": 1,
-   "fut_ability_v2": 60.8,
-   "player_name": "Nicolas Höfler",
-   "squad": "Freiburg"
-  },
-  {
-   "fbref_id": "e54bd0a2",
-   "season": 2019,
-   "distance": 1.87,
-   "survived": 1,
-   "fut_ability_v2": 45.7,
-   "player_name": "Tomás Pina Isla",
-   "squad": "Alavés"
+   "player_name": "Tobias Strobl",
+   "squad": "Augsburg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Óscar Valentín(MF)의 현재 능력 점수는 51.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 블록, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 전진 패스 수신이다.",
-  "potential": "Óscar Valentín의 2~3년 후 예측 중심값은 47.8점, 80% 구간 상단은 57.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 36.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Óscar Valentín의 2~3년 후 예측 중심값은 48.1점, 80% 구간 상단은 57.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 24.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

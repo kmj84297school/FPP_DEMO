@@ -32,42 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4646,
-  "mu": 66.1,
+  "survival_prob": 0.4792,
+  "mu": 67.6,
   "ci80": {
-   "lo": 56.7,
-   "hi": 75.5
+   "lo": 58.3,
+   "hi": 77.1
   },
   "ci50": {
-   "lo": 61.2,
-   "hi": 71.1
+   "lo": 62.7,
+   "hi": 72.6
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "c801616a",
    "season": 2020,
-   "distance": 1.941,
+   "distance": 2.01,
    "survived": 1,
    "fut_ability_v2": 57.4,
    "player_name": "Thomas Mangani",
    "squad": "Angers"
   },
   {
+   "fbref_id": "7460ca0d",
+   "season": 2022,
+   "distance": 2.106,
+   "survived": 1,
+   "fut_ability_v2": 59.3,
+   "player_name": "Daniel Parejo",
+   "squad": "Villarreal"
+  },
+  {
    "fbref_id": "75bd85ea",
    "season": 2020,
-   "distance": 2.267,
+   "distance": 2.246,
    "survived": 1,
    "fut_ability_v2": 61.5,
    "player_name": "Salva Sevilla",
    "squad": "Mallorca"
   },
   {
+   "fbref_id": "03e91055",
+   "season": 2022,
+   "distance": 2.286,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jason Berthomier",
+   "squad": "Clermont Foot"
+  },
+  {
+   "fbref_id": "935e6b8f",
+   "season": 2022,
+   "distance": 2.614,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jordan Henderson",
+   "squad": "Liverpool"
+  },
+  {
    "fbref_id": "2f90f6b8",
    "season": 2019,
-   "distance": 2.771,
+   "distance": 2.74,
    "survived": 1,
    "fut_ability_v2": 68.2,
    "player_name": "James Milner",
@@ -76,65 +103,38 @@
   {
    "fbref_id": "f5a00fa4",
    "season": 2020,
-   "distance": 2.875,
+   "distance": 2.804,
    "survived": 1,
    "fut_ability_v2": 49.7,
    "player_name": "João Moutinho",
    "squad": "Wolves"
   },
   {
-   "fbref_id": "f7691f63",
-   "season": 2020,
-   "distance": 3.011,
+   "fbref_id": "dd0daf32",
+   "season": 2022,
+   "distance": 2.854,
    "survived": 1,
-   "fut_ability_v2": 62.0,
+   "fut_ability_v2": 71.5,
+   "player_name": "Henrikh Mkhitaryan",
+   "squad": "Roma"
+  },
+  {
+   "fbref_id": "f7691f63",
+   "season": 2021,
+   "distance": 2.926,
+   "survived": 0,
+   "fut_ability_v2": null,
    "player_name": "Dimitri Liénard",
    "squad": "Strasbourg"
   },
   {
-   "fbref_id": "d054d8b0",
-   "season": 2018,
-   "distance": 3.08,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Xabi Prieto",
-   "squad": "Real Sociedad"
-  },
-  {
-   "fbref_id": "f5a00fa4",
-   "season": 2019,
-   "distance": 3.096,
+   "fbref_id": "89f951b5",
+   "season": 2022,
+   "distance": 2.926,
    "survived": 1,
-   "fut_ability_v2": 53.4,
-   "player_name": "João Moutinho",
-   "squad": "Wolves"
-  },
-  {
-   "fbref_id": "ae64d449",
-   "season": 2020,
-   "distance": 3.103,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Luca Cigarini",
-   "squad": "Cagliari"
-  },
-  {
-   "fbref_id": "6025fab1",
-   "season": 2020,
-   "distance": 3.105,
-   "survived": 1,
-   "fut_ability_v2": 70.6,
-   "player_name": "Luka Modrić",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "c801616a",
-   "season": 2019,
-   "distance": 3.111,
-   "survived": 1,
-   "fut_ability_v2": 56.5,
-   "player_name": "Thomas Mangani",
-   "squad": "Angers"
+   "fut_ability_v2": 63.2,
+   "player_name": "Ivan Rakitić",
+   "squad": "Sevilla"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Pascal Groß(MF)의 현재 능력 점수는 71.4점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 골 창출(GCA), 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 태클 성공률이다.",
-  "potential": "Pascal Groß의 2~3년 후 예측 중심값은 66.1점, 80% 구간 상단은 75.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 46.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pascal Groß의 2~3년 후 예측 중심값은 67.6점, 80% 구간 상단은 77.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 47.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

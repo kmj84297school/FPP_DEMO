@@ -32,42 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4012,
-  "mu": 50.9,
+  "survival_prob": 0.3289,
+  "mu": 49.9,
   "ci80": {
-   "lo": 41.7,
-   "hi": 60.1
+   "lo": 40.6,
+   "hi": 59.4
   },
   "ci50": {
-   "lo": 46.1,
-   "hi": 55.8
+   "lo": 45.0,
+   "hi": 54.9
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "0df2b165",
-   "season": 2020,
-   "distance": 2.473,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "John Lundstram",
-   "squad": "Sheffield Utd"
-  },
-  {
    "fbref_id": "3902e91b",
    "season": 2020,
-   "distance": 2.484,
+   "distance": 2.505,
    "survived": 1,
    "fut_ability_v2": 48.0,
    "player_name": "Gonzalo Melero",
    "squad": "Levante"
   },
   {
+   "fbref_id": "0df2b165",
+   "season": 2020,
+   "distance": 2.513,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "John Lundstram",
+   "squad": "Sheffield Utd"
+  },
+  {
    "fbref_id": "ff764de3",
    "season": 2020,
-   "distance": 2.608,
+   "distance": 2.586,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Yevhen Shakhov",
@@ -76,16 +76,34 @@
   {
    "fbref_id": "0f9b8301",
    "season": 2020,
-   "distance": 2.622,
+   "distance": 2.635,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cristian Battocchio",
    "squad": "Brest"
   },
   {
+   "fbref_id": "3902e91b",
+   "season": 2022,
+   "distance": 2.659,
+   "survived": 1,
+   "fut_ability_v2": 48.7,
+   "player_name": "Gonzalo Melero",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "817c6964",
+   "season": 2022,
+   "distance": 2.693,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rade Krunić",
+   "squad": "Milan"
+  },
+  {
    "fbref_id": "44ac04e9",
    "season": 2020,
-   "distance": 2.757,
+   "distance": 2.775,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Matías Vecino",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "d5575935",
    "season": 2020,
-   "distance": 2.793,
+   "distance": 2.799,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Valon Berisha",
    "squad": "Düsseldorf / Lazio"
   },
   {
-   "fbref_id": "bf13975c",
-   "season": 2020,
-   "distance": 2.865,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Žan Majer",
-   "squad": "Lecce"
-  },
-  {
    "fbref_id": "5a626448",
-   "season": 2020,
-   "distance": 2.872,
+   "season": 2022,
+   "distance": 2.809,
    "survived": 1,
-   "fut_ability_v2": 59.2,
+   "fut_ability_v2": 48.7,
    "player_name": "Moi Gómez",
    "squad": "Villarreal"
   },
   {
-   "fbref_id": "86695068",
-   "season": 2020,
-   "distance": 2.928,
+   "fbref_id": "79bc4c45",
+   "season": 2021,
+   "distance": 2.886,
    "survived": 1,
-   "fut_ability_v2": 53.4,
-   "player_name": "Dennis Praet",
-   "squad": "Leicester City"
-  },
-  {
-   "fbref_id": "9b337c7c",
-   "season": 2018,
-   "distance": 2.929,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jozabed",
-   "squad": "Celta Vigo"
+   "fut_ability_v2": 39.2,
+   "player_name": "Ben Osborn",
+   "squad": "Sheffield Utd"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Donny van de Beek(MF)의 현재 능력 점수는 47.9점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 박스 터치, 도움 기대값(xAG), 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 최종 3분의1 패스이다.",
-  "potential": "Donny van de Beek의 2~3년 후 예측 중심값은 50.9점, 80% 구간 상단은 60.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Donny van de Beek의 2~3년 후 예측 중심값은 49.9점, 80% 구간 상단은 59.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5609,
-  "mu": 63.3,
+  "survival_prob": 0.6903,
+  "mu": 66.1,
   "ci80": {
-   "lo": 53.8,
-   "hi": 72.9
+   "lo": 56.7,
+   "hi": 75.5
   },
   "ci50": {
-   "lo": 58.3,
-   "hi": 68.4
+   "lo": 61.2,
+   "hi": 71.1
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "cce9f582",
+   "season": 2021,
+   "distance": 1.47,
+   "survived": 1,
+   "fut_ability_v2": 57.7,
+   "player_name": "Giangiacomo Magnani",
+   "squad": "Hellas Verona"
+  },
+  {
    "fbref_id": "921f6058",
    "season": 2018,
-   "distance": 1.488,
+   "distance": 1.511,
    "survived": 1,
    "fut_ability_v2": 68.3,
    "player_name": "José Luis Palomino",
    "squad": "Atalanta"
   },
   {
+   "fbref_id": "aad48be9",
+   "season": 2022,
+   "distance": 1.534,
+   "survived": 1,
+   "fut_ability_v2": 60.9,
+   "player_name": "Niklas Stark",
+   "squad": "Hertha BSC"
+  },
+  {
+   "fbref_id": "8bc373ea",
+   "season": 2021,
+   "distance": 1.621,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pape Abou Cisse",
+   "squad": "Saint-Étienne"
+  },
+  {
    "fbref_id": "1f54ed90",
    "season": 2019,
-   "distance": 1.641,
+   "distance": 1.742,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Abdoulaye Ba",
@@ -66,75 +93,48 @@
   },
   {
    "fbref_id": "0821331c",
-   "season": 2020,
-   "distance": 1.79,
+   "season": 2022,
+   "distance": 1.839,
    "survived": 1,
-   "fut_ability_v2": 62.6,
+   "fut_ability_v2": 49.4,
    "player_name": "Mattia Bani",
-   "squad": "Bologna"
+   "squad": "Genoa"
   },
   {
-   "fbref_id": "87935cf3",
-   "season": 2018,
-   "distance": 1.815,
+   "fbref_id": "4115ce4e",
+   "season": 2022,
+   "distance": 1.839,
    "survived": 1,
-   "fut_ability_v2": 42.8,
-   "player_name": "Mamadou Sakho",
-   "squad": "Crystal Palace"
-  },
-  {
-   "fbref_id": "914ab9a1",
-   "season": 2018,
-   "distance": 1.842,
-   "survived": 1,
-   "fut_ability_v2": 45.0,
-   "player_name": "Christian Kabasele",
-   "squad": "Watford"
+   "fut_ability_v2": 60.7,
+   "player_name": "Jan Bednarek",
+   "squad": "Southampton"
   },
   {
    "fbref_id": "f2c1300a",
    "season": 2018,
-   "distance": 1.843,
+   "distance": 1.846,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Vitor Hugo",
    "squad": "Fiorentina"
   },
   {
-   "fbref_id": "d9764034",
-   "season": 2019,
-   "distance": 1.843,
-   "survived": 1,
-   "fut_ability_v2": 60.0,
-   "player_name": "Guillermo Maripán",
-   "squad": "Alavés"
-  },
-  {
    "fbref_id": "6eaed4eb",
    "season": 2018,
-   "distance": 1.85,
+   "distance": 1.866,
    "survived": 1,
    "fut_ability_v2": 63.0,
    "player_name": "Florian Lejeune",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "b14d0c5d",
+   "fbref_id": "87935cf3",
    "season": 2018,
-   "distance": 1.879,
+   "distance": 1.866,
    "survived": 1,
-   "fut_ability_v2": 63.8,
-   "player_name": "Sidnei",
-   "squad": "La Coruña"
-  },
-  {
-   "fbref_id": "b4a014b1",
-   "season": 2018,
-   "distance": 1.883,
-   "survived": 1,
-   "fut_ability_v2": 53.8,
-   "player_name": "Diego Carlos",
-   "squad": "Nantes"
+   "fut_ability_v2": 42.8,
+   "player_name": "Mamadou Sakho",
+   "squad": "Crystal Palace"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Moritz Jenz(DF)의 현재 능력 점수는 69.1점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 클리어링, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
-  "potential": "Moritz Jenz의 2~3년 후 예측 중심값은 63.3점, 80% 구간 상단은 72.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 56.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Moritz Jenz의 2~3년 후 예측 중심값은 66.1점, 80% 구간 상단은 75.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

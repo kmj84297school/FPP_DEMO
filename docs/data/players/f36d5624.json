@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8492,
-  "mu": 62.4,
+  "survival_prob": 0.8607,
+  "mu": 57.4,
   "ci80": {
-   "lo": 51.6,
-   "hi": 73.2
+   "lo": 46.7,
+   "hi": 68.2
   },
   "ci50": {
-   "lo": 56.7,
-   "hi": 68.1
+   "lo": 51.9,
+   "hi": 63.0
   },
-  "sigma_model": 2.7,
+  "sigma_model": 2.4,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "e42d61c7",
+   "season": 2021,
+   "distance": 2.95,
+   "survived": 1,
+   "fut_ability_v2": 68.7,
+   "player_name": "Achraf Hakimi",
+   "squad": "Inter"
+  },
+  {
    "fbref_id": "ff800ed8",
    "season": 2020,
-   "distance": 3.096,
+   "distance": 3.035,
    "survived": 1,
    "fut_ability_v2": 54.7,
    "player_name": "Pol Lirola",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "ff98492b",
    "season": 2020,
-   "distance": 3.179,
+   "distance": 3.108,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Robert Skov",
@@ -67,7 +76,7 @@
   {
    "fbref_id": "016ff750",
    "season": 2019,
-   "distance": 3.372,
+   "distance": 3.276,
    "survived": 1,
    "fut_ability_v2": 49.7,
    "player_name": "Valentino Lazaro",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "1d1691ad",
    "season": 2018,
-   "distance": 3.484,
+   "distance": 3.425,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Álvaro Odriozola",
    "squad": "Real Sociedad"
   },
   {
+   "fbref_id": "23610943",
+   "season": 2022,
+   "distance": 3.46,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Nahuel Molina",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "6dfd8f05",
+   "season": 2021,
+   "distance": 3.467,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Romain Perraud",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "fce2302c",
+   "season": 2021,
+   "distance": 3.638,
+   "survived": 1,
+   "fut_ability_v2": 57.0,
+   "player_name": "Kieran Tierney",
+   "squad": "Arsenal"
+  },
+  {
    "fbref_id": "0cd0e21b",
    "season": 2018,
-   "distance": 3.72,
+   "distance": 3.684,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jordan Lukaku",
    "squad": "Lazio"
   },
   {
-   "fbref_id": "2f3e911a",
-   "season": 2019,
-   "distance": 3.743,
-   "survived": 1,
-   "fut_ability_v2": 43.4,
-   "player_name": "Aarón Martín",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "30c220c3",
-   "season": 2018,
-   "distance": 3.785,
-   "survived": 1,
-   "fut_ability_v2": 65.7,
-   "player_name": "Mitchell Weiser",
-   "squad": "Hertha BSC"
-  },
-  {
    "fbref_id": "674cfc5a",
    "season": 2020,
-   "distance": 3.824,
+   "distance": 3.691,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gabriel Strefezza",
    "squad": "SPAL"
-  },
-  {
-   "fbref_id": "02caf6e0",
-   "season": 2018,
-   "distance": 3.919,
-   "survived": 1,
-   "fut_ability_v2": 47.4,
-   "player_name": "Manuel Lazzari",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "f874dd44",
-   "season": 2018,
-   "distance": 4.01,
-   "survived": 1,
-   "fut_ability_v2": 52.4,
-   "player_name": "Héctor Bellerín",
-   "squad": "Arsenal"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Luis Henrique(DF)의 현재 능력 점수는 63.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클 성공률, 전진 패스 수신, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 공중볼 승리이다.",
-  "potential": "Luis Henrique의 2~3년 후 예측 중심값은 62.4점, 80% 구간 상단은 73.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 84.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Luis Henrique의 2~3년 후 예측 중심값은 57.4점, 80% 구간 상단은 68.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 86.1%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

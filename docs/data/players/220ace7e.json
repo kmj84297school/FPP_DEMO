@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9681,
-  "mu": 64.8,
+  "survival_prob": 0.9395,
+  "mu": 66.1,
   "ci80": {
-   "lo": 55.3,
-   "hi": 74.4
+   "lo": 56.9,
+   "hi": 75.5
   },
   "ci50": {
-   "lo": 59.8,
-   "hi": 69.9
+   "lo": 61.3,
+   "hi": 71.1
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "867239d3",
    "season": 2019,
-   "distance": 2.713,
+   "distance": 2.631,
    "survived": 1,
    "fut_ability_v2": 73.4,
    "player_name": "Paul Pogba",
@@ -57,44 +57,53 @@
   },
   {
    "fbref_id": "162efffd",
-   "season": 2019,
-   "distance": 2.734,
+   "season": 2021,
+   "distance": 2.633,
    "survived": 1,
-   "fut_ability_v2": 66.7,
+   "fut_ability_v2": 73.4,
    "player_name": "Rodrigo De Paul",
    "squad": "Udinese"
   },
   {
    "fbref_id": "61220da2",
    "season": 2020,
-   "distance": 2.769,
+   "distance": 2.677,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "José Campaña",
    "squad": "Levante"
   },
   {
-   "fbref_id": "cd0fa27b",
+   "fbref_id": "162efffd",
    "season": 2019,
-   "distance": 3.026,
+   "distance": 2.81,
    "survived": 1,
-   "fut_ability_v2": 72.5,
-   "player_name": "Hakan Çalhanoğlu",
-   "squad": "Milan"
+   "fut_ability_v2": 66.7,
+   "player_name": "Rodrigo De Paul",
+   "squad": "Udinese"
   },
   {
    "fbref_id": "817c6964",
    "season": 2019,
-   "distance": 3.027,
+   "distance": 2.911,
    "survived": 1,
    "fut_ability_v2": 51.4,
    "player_name": "Rade Krunić",
    "squad": "Empoli"
   },
   {
+   "fbref_id": "cd0fa27b",
+   "season": 2019,
+   "distance": 2.933,
+   "survived": 1,
+   "fut_ability_v2": 72.5,
+   "player_name": "Hakan Çalhanoğlu",
+   "squad": "Milan"
+  },
+  {
    "fbref_id": "892d5bb1",
    "season": 2018,
-   "distance": 3.107,
+   "distance": 3.054,
    "survived": 1,
    "fut_ability_v2": 84.0,
    "player_name": "Riyad Mahrez",
@@ -103,38 +112,29 @@
   {
    "fbref_id": "980522ec",
    "season": 2018,
-   "distance": 3.12,
+   "distance": 3.062,
    "survived": 1,
    "fut_ability_v2": 60.6,
    "player_name": "Christian Eriksen",
    "squad": "Tottenham"
   },
   {
-   "fbref_id": "162efffd",
-   "season": 2020,
-   "distance": 3.247,
-   "survived": 1,
-   "fut_ability_v2": 65.0,
-   "player_name": "Rodrigo De Paul",
-   "squad": "Udinese"
-  },
-  {
    "fbref_id": "980522ec",
    "season": 2019,
-   "distance": 3.293,
+   "distance": 3.197,
    "survived": 1,
    "fut_ability_v2": 65.0,
    "player_name": "Christian Eriksen",
    "squad": "Tottenham"
   },
   {
-   "fbref_id": "a0f9b535",
-   "season": 2019,
-   "distance": 3.316,
+   "fbref_id": "162efffd",
+   "season": 2020,
+   "distance": 3.216,
    "survived": 1,
-   "fut_ability_v2": 69.1,
-   "player_name": "Flavien Tait",
-   "squad": "Angers"
+   "fut_ability_v2": 65.0,
+   "player_name": "Rodrigo De Paul",
+   "squad": "Udinese"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Romano Schmid(MF)의 현재 능력 점수는 74.5점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 전진 패스, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 볼 손실(미스+파울)이다.",
-  "potential": "Romano Schmid의 2~3년 후 예측 중심값은 64.8점, 80% 구간 상단은 74.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 96.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Romano Schmid의 2~3년 후 예측 중심값은 66.1점, 80% 구간 상단은 75.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 94.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

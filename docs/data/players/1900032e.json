@@ -32,24 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2193,
-  "mu": 55.1,
+  "survival_prob": 0.4791,
+  "mu": 56.1,
   "ci80": {
-   "lo": 45.9,
-   "hi": 64.4
+   "lo": 46.7,
+   "hi": 65.5
   },
   "ci50": {
-   "lo": 50.3,
-   "hi": 60.0
+   "lo": 51.2,
+   "hi": 61.0
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "ea468ea8",
+   "season": 2021,
+   "distance": 1.278,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Luca Marrone",
+   "squad": "Crotone"
+  },
+  {
+   "fbref_id": "e33f36d5",
+   "season": 2021,
+   "distance": 1.411,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bram Nuytinck",
+   "squad": "Udinese"
+  },
+  {
+   "fbref_id": "474ecac8",
+   "season": 2021,
+   "distance": 1.458,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sergio Postigo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "b233e8e4",
+   "season": 2022,
+   "distance": 1.563,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jeison Murillo",
+   "squad": "Celta Vigo"
+  },
+  {
    "fbref_id": "314f2124",
    "season": 2019,
-   "distance": 1.588,
+   "distance": 1.635,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Miranda",
@@ -58,83 +94,47 @@
   {
    "fbref_id": "8b8a56ce",
    "season": 2020,
-   "distance": 1.625,
+   "distance": 1.639,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Simon Kjær",
    "squad": "Milan / Atalanta"
   },
   {
-   "fbref_id": "ac3fb1be",
-   "season": 2018,
-   "distance": 1.639,
-   "survived": 1,
-   "fut_ability_v2": 52.3,
-   "player_name": "Ezequiel Garay",
-   "squad": "Valencia"
-  },
-  {
    "fbref_id": "28b40c9c",
    "season": 2019,
-   "distance": 1.644,
+   "distance": 1.678,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Tim Ream",
    "squad": "Fulham"
   },
   {
-   "fbref_id": "4e358a2d",
-   "season": 2020,
-   "distance": 1.672,
+   "fbref_id": "ac3fb1be",
+   "season": 2018,
+   "distance": 1.709,
    "survived": 1,
-   "fut_ability_v2": 69.7,
-   "player_name": "Federico Fazio",
-   "squad": "Roma"
+   "fut_ability_v2": 52.3,
+   "player_name": "Ezequiel Garay",
+   "squad": "Valencia"
   },
   {
-   "fbref_id": "16714a62",
-   "season": 2019,
-   "distance": 1.69,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Khaled Adénon",
-   "squad": "Amiens"
+   "fbref_id": "132ac341",
+   "season": 2022,
+   "distance": 1.71,
+   "survived": 1,
+   "fut_ability_v2": 52.5,
+   "player_name": "Aridane Hernández",
+   "squad": "Osasuna"
   },
   {
    "fbref_id": "b14d0c5d",
    "season": 2020,
-   "distance": 1.691,
+   "distance": 1.723,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sidnei",
    "squad": "Betis"
-  },
-  {
-   "fbref_id": "b1deecf8",
-   "season": 2019,
-   "distance": 1.81,
-   "survived": 1,
-   "fut_ability_v2": 57.4,
-   "player_name": "Cristián Zapata",
-   "squad": "Milan"
-  },
-  {
-   "fbref_id": "a63a995f",
-   "season": 2019,
-   "distance": 1.93,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Fabian Lustenberger",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "1bab7b66",
-   "season": 2020,
-   "distance": 1.944,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Stoppila Sunzu",
-   "squad": "Metz"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Jannik Vestergaard(DF)의 현재 능력 점수는 57.1점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 패스 성공률, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 패스이다.",
-  "potential": "Jannik Vestergaard의 2~3년 후 예측 중심값은 55.1점, 80% 구간 상단은 64.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 21.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Jannik Vestergaard의 2~3년 후 예측 중심값은 56.1점, 80% 구간 상단은 65.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 47.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

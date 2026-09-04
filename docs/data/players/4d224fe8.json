@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4113,
-  "mu": 64.8,
+  "survival_prob": 0.2097,
+  "mu": 60.3,
   "ci80": {
-   "lo": 55.4,
-   "hi": 74.3
-  },
-  "ci50": {
-   "lo": 59.8,
+   "lo": 50.9,
    "hi": 69.8
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 7.0
+  "ci50": {
+   "lo": 55.4,
+   "hi": 65.3
+  },
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "ef2e5e1a",
+   "season": 2021,
+   "distance": 3.016,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Kevin Strootman",
+   "squad": "Genoa / Marseille"
+  },
+  {
    "fbref_id": "ad7b19ef",
    "season": 2018,
-   "distance": 3.208,
+   "distance": 3.34,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Yohan Cabaye",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "67cdbc0e",
    "season": 2019,
-   "distance": 3.335,
+   "distance": 3.396,
    "survived": 1,
    "fut_ability_v2": 71.7,
    "player_name": "Arturo Vidal",
    "squad": "Barcelona"
   },
   {
+   "fbref_id": "79b2399c",
+   "season": 2022,
+   "distance": 3.458,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Pierrick Capelle",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "036bba5f",
+   "season": 2022,
+   "distance": 3.497,
+   "survived": 1,
+   "fut_ability_v2": 52.0,
+   "player_name": "Rubén Alcaraz",
+   "squad": "Cádiz"
+  },
+  {
+   "fbref_id": "e8c930bb",
+   "season": 2021,
+   "distance": 3.582,
+   "survived": 1,
+   "fut_ability_v2": 50.3,
+   "player_name": "Milan Badelj",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "56413b1f",
+   "season": 2022,
+   "distance": 3.657,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Charles Aránguiz",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "44f8c299",
    "season": 2020,
-   "distance": 3.549,
+   "distance": 3.69,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lucas Deaux",
    "squad": "Nîmes"
   },
   {
+   "fbref_id": "c801616a",
+   "season": 2022,
+   "distance": 3.694,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thomas Mangani",
+   "squad": "Angers"
+  },
+  {
    "fbref_id": "ad4d0985",
    "season": 2020,
-   "distance": 3.629,
+   "distance": 3.743,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Víctor Sánchez",
    "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "5aaef9ef",
-   "season": 2019,
-   "distance": 3.676,
-   "survived": 1,
-   "fut_ability_v2": 48.0,
-   "player_name": "Juraj Kucka",
-   "squad": "Parma"
-  },
-  {
-   "fbref_id": "ab1ca213",
-   "season": 2019,
-   "distance": 3.726,
-   "survived": 1,
-   "fut_ability_v2": 61.6,
-   "player_name": "Miguel Veloso",
-   "squad": "Genoa"
-  },
-  {
-   "fbref_id": "f4081572",
-   "season": 2020,
-   "distance": 3.73,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Nuri Şahin",
-   "squad": "Werder Bremen"
-  },
-  {
-   "fbref_id": "68829001",
-   "season": 2019,
-   "distance": 3.736,
-   "survived": 1,
-   "fut_ability_v2": 61.7,
-   "player_name": "Gonzalo Castro",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "ec7e6ad1",
-   "season": 2018,
-   "distance": 3.745,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Chris Brunt",
-   "squad": "West Brom"
-  },
-  {
-   "fbref_id": "5528407e",
-   "season": 2018,
-   "distance": 3.765,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Pirmin Schwegler",
-   "squad": "Hannover 96"
   }
  ],
  "low_confidence": true,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Casemiro(MF)의 현재 능력 점수는 68.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 블록, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 실책이다.",
-  "potential": "Casemiro의 2~3년 후 예측 중심값은 64.8점, 80% 구간 상단은 74.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Casemiro의 2~3년 후 예측 중심값은 60.3점, 80% 구간 상단은 69.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 21.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

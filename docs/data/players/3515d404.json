@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4128,
-  "mu": 57.6,
+  "survival_prob": 0.5137,
+  "mu": 52.6,
   "ci80": {
-   "lo": 48.1,
-   "hi": 66.9
+   "lo": 43.3,
+   "hi": 62.1
   },
   "ci50": {
-   "lo": 52.6,
-   "hi": 62.5
+   "lo": 47.7,
+   "hi": 57.6
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "963829d0",
    "season": 2020,
-   "distance": 2.601,
+   "distance": 2.694,
    "survived": 1,
    "fut_ability_v2": 64.1,
    "player_name": "Manu Trigueros",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "542cc80f",
    "season": 2020,
-   "distance": 2.694,
+   "distance": 2.734,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Paul Lasne",
@@ -67,25 +67,34 @@
   {
    "fbref_id": "6cdd8245",
    "season": 2020,
-   "distance": 2.772,
+   "distance": 2.773,
    "survived": 1,
    "fut_ability_v2": 35.7,
    "player_name": "Tom Cleverley",
    "squad": "Watford"
   },
   {
-   "fbref_id": "719384c1",
-   "season": 2020,
-   "distance": 2.863,
+   "fbref_id": "817c6964",
+   "season": 2022,
+   "distance": 2.868,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rade Krunić",
+   "squad": "Milan"
+  },
+  {
+   "fbref_id": "5a626448",
+   "season": 2022,
+   "distance": 2.873,
    "survived": 1,
-   "fut_ability_v2": 45.0,
-   "player_name": "Ángel Montoro",
-   "squad": "Granada"
+   "fut_ability_v2": 48.7,
+   "player_name": "Moi Gómez",
+   "squad": "Villarreal"
   },
   {
    "fbref_id": "0f9b8301",
    "season": 2020,
-   "distance": 2.87,
+   "distance": 2.879,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Cristian Battocchio",
@@ -94,7 +103,7 @@
   {
    "fbref_id": "1b17ed86",
    "season": 2018,
-   "distance": 2.884,
+   "distance": 2.899,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Esteban Granero",
@@ -103,38 +112,29 @@
   {
    "fbref_id": "80f36c88",
    "season": 2018,
-   "distance": 2.943,
+   "distance": 2.9,
    "survived": 1,
    "fut_ability_v2": 56.6,
    "player_name": "Sebastian Rudy",
    "squad": "Bayern Munich"
   },
   {
+   "fbref_id": "719384c1",
+   "season": 2020,
+   "distance": 2.955,
+   "survived": 1,
+   "fut_ability_v2": 45.0,
+   "player_name": "Ángel Montoro",
+   "squad": "Granada"
+  },
+  {
    "fbref_id": "c311243f",
    "season": 2018,
-   "distance": 2.945,
+   "distance": 2.959,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dennis Aogo",
    "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "495945ef",
-   "season": 2018,
-   "distance": 3.039,
-   "survived": 1,
-   "fut_ability_v2": 47.8,
-   "player_name": "Ashley Westwood",
-   "squad": "Burnley"
-  },
-  {
-   "fbref_id": "b3fd7075",
-   "season": 2020,
-   "distance": 3.05,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Andrea Poli",
-   "squad": "Bologna"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "James Ward-Prowse(MF)의 현재 능력 점수는 55.9점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 최종 3분의1 패스, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 패스 수신이다.",
-  "potential": "James Ward-Prowse의 2~3년 후 예측 중심값은 57.6점, 80% 구간 상단은 66.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "James Ward-Prowse의 2~3년 후 예측 중심값은 52.6점, 80% 구간 상단은 62.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 51.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

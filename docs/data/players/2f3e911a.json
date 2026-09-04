@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8396,
-  "mu": 47.3,
+  "survival_prob": 0.6661,
+  "mu": 46.7,
   "ci80": {
-   "lo": 37.9,
-   "hi": 56.5
+   "lo": 37.3,
+   "hi": 56.1
   },
   "ci50": {
-   "lo": 42.3,
-   "hi": 52.1
+   "lo": 41.8,
+   "hi": 51.6
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "fdf3cb77",
+   "season": 2021,
+   "distance": 2.068,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Vladimír Coufal",
+   "squad": "West Ham"
+  },
+  {
    "fbref_id": "088ca1bd",
    "season": 2019,
-   "distance": 2.088,
+   "distance": 2.083,
    "survived": 1,
    "fut_ability_v2": 53.8,
    "player_name": "Jonathan Schmid",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "4f974391",
    "season": 2018,
-   "distance": 2.121,
+   "distance": 2.112,
    "survived": 1,
    "fut_ability_v2": 53.4,
    "player_name": "Aaron Cresswell",
@@ -67,25 +76,43 @@
   {
    "fbref_id": "9e1577aa",
    "season": 2019,
-   "distance": 2.166,
+   "distance": 2.245,
    "survived": 1,
    "fut_ability_v2": 53.6,
    "player_name": "Cristiano Biraghi",
    "squad": "Fiorentina"
   },
   {
+   "fbref_id": "f45f9427",
+   "season": 2022,
+   "distance": 2.273,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dalbert Henrique",
+   "squad": "Cagliari"
+  },
+  {
    "fbref_id": "4cee5954",
    "season": 2020,
-   "distance": 2.257,
+   "distance": 2.274,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Lucas Olaza",
    "squad": "Celta Vigo"
   },
   {
+   "fbref_id": "8593f88c",
+   "season": 2021,
+   "distance": 2.282,
+   "survived": 1,
+   "fut_ability_v2": 40.1,
+   "player_name": "Christian Günter",
+   "squad": "Freiburg"
+  },
+  {
    "fbref_id": "ae0a7ddf",
    "season": 2019,
-   "distance": 2.344,
+   "distance": 2.286,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "DeAndre Yedlin",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "f45f9427",
    "season": 2020,
-   "distance": 2.352,
+   "distance": 2.344,
    "survived": 1,
    "fut_ability_v2": 45.2,
    "player_name": "Dalbert Henrique",
    "squad": "Fiorentina"
   },
   {
-   "fbref_id": "71ef519e",
-   "season": 2019,
-   "distance": 2.466,
+   "fbref_id": "cee88597",
+   "season": 2022,
+   "distance": 2.35,
    "survived": 1,
-   "fut_ability_v2": 47.8,
-   "player_name": "Matt Ritchie",
-   "squad": "Newcastle Utd"
-  },
-  {
-   "fbref_id": "22051fbe",
-   "season": 2018,
-   "distance": 2.48,
-   "survived": 1,
-   "fut_ability_v2": 56.8,
-   "player_name": "Giulio Donati",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "f7aa75bd",
-   "season": 2019,
-   "distance": 2.595,
-   "survived": 1,
-   "fut_ability_v2": 50.8,
-   "player_name": "Marvin Plattenhardt",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "f2308b33",
-   "season": 2020,
-   "distance": 2.618,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jonathan Silva",
-   "squad": "Leganés"
+   "fut_ability_v2": 41.1,
+   "player_name": "Iván Balliu",
+   "squad": "Rayo Vallecano"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Aarón Martín(DF)의 현재 능력 점수는 52.5점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 어시스트, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 클리어링이다.",
-  "potential": "Aarón Martín의 2~3년 후 예측 중심값은 47.3점, 80% 구간 상단은 56.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Aarón Martín의 2~3년 후 예측 중심값은 46.7점, 80% 구간 상단은 56.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 66.6%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

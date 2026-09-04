@@ -32,33 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2509,
-  "mu": 54.7,
+  "survival_prob": 0.3073,
+  "mu": 55.5,
   "ci80": {
-   "lo": 45.4,
-   "hi": 63.9
+   "lo": 46.2,
+   "hi": 64.7
   },
   "ci50": {
-   "lo": 49.7,
-   "hi": 59.5
+   "lo": 50.6,
+   "hi": 60.3
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "ba71d071",
    "season": 2019,
-   "distance": 0.756,
+   "distance": 0.791,
    "survived": 1,
    "fut_ability_v2": 47.7,
    "player_name": "Pedro Alcalá",
    "squad": "Girona"
   },
   {
+   "fbref_id": "51a3c4c8",
+   "season": 2022,
+   "distance": 0.966,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Felipe",
+   "squad": "Atlético Madrid"
+  },
+  {
+   "fbref_id": "caffaf5a",
+   "season": 2021,
+   "distance": 1.132,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Maya Yoshida",
+   "squad": "Sampdoria"
+  },
+  {
+   "fbref_id": "a4ac4b8f",
+   "season": 2021,
+   "distance": 1.174,
+   "survived": 1,
+   "fut_ability_v2": 70.0,
+   "player_name": "Willy Boly",
+   "squad": "Wolves"
+  },
+  {
+   "fbref_id": "caffaf5a",
+   "season": 2022,
+   "distance": 1.254,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maya Yoshida",
+   "squad": "Sampdoria"
+  },
+  {
    "fbref_id": "92b4a127",
    "season": 2019,
-   "distance": 1.306,
+   "distance": 1.308,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Gustavo Cabral",
@@ -66,8 +102,26 @@
   },
   {
    "fbref_id": "f8fcd2a5",
+   "season": 2018,
+   "distance": 1.322,
+   "survived": 1,
+   "fut_ability_v2": 65.6,
+   "player_name": "Jonny Evans",
+   "squad": "West Brom"
+  },
+  {
+   "fbref_id": "b742cc0d",
+   "season": 2021,
+   "distance": 1.34,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Marc Bartra",
+   "squad": "Betis"
+  },
+  {
+   "fbref_id": "f8fcd2a5",
    "season": 2019,
-   "distance": 1.358,
+   "distance": 1.344,
    "survived": 1,
    "fut_ability_v2": 65.3,
    "player_name": "Jonny Evans",
@@ -76,65 +130,11 @@
   {
    "fbref_id": "821233cc",
    "season": 2019,
-   "distance": 1.378,
+   "distance": 1.399,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Neven Subotić",
    "squad": "Saint-Étienne"
-  },
-  {
-   "fbref_id": "f8fcd2a5",
-   "season": 2018,
-   "distance": 1.378,
-   "survived": 1,
-   "fut_ability_v2": 65.6,
-   "player_name": "Jonny Evans",
-   "squad": "West Brom"
-  },
-  {
-   "fbref_id": "51a3c4c8",
-   "season": 2020,
-   "distance": 1.405,
-   "survived": 1,
-   "fut_ability_v2": 59.6,
-   "player_name": "Felipe",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "caffaf5a",
-   "season": 2019,
-   "distance": 1.457,
-   "survived": 1,
-   "fut_ability_v2": 57.8,
-   "player_name": "Maya Yoshida",
-   "squad": "Southampton"
-  },
-  {
-   "fbref_id": "6aafdc27",
-   "season": 2018,
-   "distance": 1.457,
-   "survived": 1,
-   "fut_ability_v2": 61.2,
-   "player_name": "Nenad Tomović",
-   "squad": "Chievo / Fiorentina"
-  },
-  {
-   "fbref_id": "fc4f85b1",
-   "season": 2019,
-   "distance": 1.499,
-   "survived": 1,
-   "fut_ability_v2": 69.9,
-   "player_name": "Diego Godín",
-   "squad": "Atlético Madrid"
-  },
-  {
-   "fbref_id": "92b4a127",
-   "season": 2018,
-   "distance": 1.519,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gustavo Cabral",
-   "squad": "Celta Vigo"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Ethan Pinnock(DF)의 현재 능력 점수는 56.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 볼 손실(미스+파울), 클리어링, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 전진 운반이다.",
-  "potential": "Ethan Pinnock의 2~3년 후 예측 중심값은 54.7점, 80% 구간 상단은 63.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ethan Pinnock의 2~3년 후 예측 중심값은 55.5점, 80% 구간 상단은 64.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 30.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,33 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6798,
-  "mu": 56.8,
+  "survival_prob": 0.7124,
+  "mu": 57.7,
   "ci80": {
-   "lo": 47.6,
-   "hi": 66.0
+   "lo": 48.3,
+   "hi": 67.0
   },
   "ci50": {
-   "lo": 52.0,
-   "hi": 61.6
+   "lo": 52.7,
+   "hi": 62.6
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "c5b7c315",
+   "season": 2021,
+   "distance": 1.193,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Michael Keane",
+   "squad": "Everton"
+  },
+  {
+   "fbref_id": "274ab13c",
+   "season": 2022,
+   "distance": 1.275,
+   "survived": 1,
+   "fut_ability_v2": 53.6,
+   "player_name": "Catena",
+   "squad": "Rayo Vallecano"
+  },
+  {
    "fbref_id": "f35430a4",
    "season": 2019,
-   "distance": 1.378,
+   "distance": 1.385,
    "survived": 1,
    "fut_ability_v2": 49.7,
    "player_name": "Matija Nastasić",
    "squad": "Schalke 04"
   },
   {
+   "fbref_id": "6043997c",
+   "season": 2022,
+   "distance": 1.454,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Gerzino Nyamsi",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "6eee05f1",
    "season": 2020,
-   "distance": 1.535,
+   "distance": 1.481,
    "survived": 1,
    "fut_ability_v2": 65.6,
    "player_name": "Berat Djimsiti",
@@ -67,7 +94,7 @@
   {
    "fbref_id": "bc6f5f06",
    "season": 2019,
-   "distance": 1.617,
+   "distance": 1.555,
    "survived": 1,
    "fut_ability_v2": 42.2,
    "player_name": "Sergi Gómez",
@@ -76,65 +103,38 @@
   {
    "fbref_id": "6eee05f1",
    "season": 2018,
-   "distance": 1.624,
+   "distance": 1.598,
    "survived": 1,
    "fut_ability_v2": 67.5,
    "player_name": "Berat Djimsiti",
    "squad": "Benevento"
   },
   {
-   "fbref_id": "b4a014b1",
-   "season": 2020,
-   "distance": 1.658,
+   "fbref_id": "e34fc66d",
+   "season": 2022,
+   "distance": 1.599,
    "survived": 1,
-   "fut_ability_v2": 60.2,
-   "player_name": "Diego Carlos",
-   "squad": "Sevilla"
-  },
-  {
-   "fbref_id": "3ecc11d8",
-   "season": 2020,
-   "distance": 1.662,
-   "survived": 1,
-   "fut_ability_v2": 61.5,
-   "player_name": "Yeray Álvarez",
-   "squad": "Athletic Club"
+   "fut_ability_v2": 66.3,
+   "player_name": "Joachim Andersen",
+   "squad": "Crystal Palace"
   },
   {
    "fbref_id": "6690ef25",
    "season": 2018,
-   "distance": 1.668,
+   "distance": 1.601,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Pedro Mendes",
    "squad": "Montpellier"
   },
   {
-   "fbref_id": "b4a014b1",
-   "season": 2019,
-   "distance": 1.673,
+   "fbref_id": "ac861941",
+   "season": 2021,
+   "distance": 1.603,
    "survived": 1,
-   "fut_ability_v2": 55.9,
-   "player_name": "Diego Carlos",
-   "squad": "Nantes"
-  },
-  {
-   "fbref_id": "c5b7c315",
-   "season": 2020,
-   "distance": 1.681,
-   "survived": 1,
-   "fut_ability_v2": 57.6,
-   "player_name": "Michael Keane",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "f5deef4c",
-   "season": 2019,
-   "distance": 1.704,
-   "survived": 1,
-   "fut_ability_v2": 59.5,
-   "player_name": "Victor Lindelöf",
-   "squad": "Manchester Utd"
+   "fut_ability_v2": 57.8,
+   "player_name": "Eric Dier",
+   "squad": "Tottenham"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Luca Ranieri(DF)의 현재 능력 점수는 62.8점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 태클 성공률, 공중볼 승률, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 볼 리커버리이다.",
-  "potential": "Luca Ranieri의 2~3년 후 예측 중심값은 56.8점, 80% 구간 상단은 66.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 68.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Luca Ranieri의 2~3년 후 예측 중심값은 57.7점, 80% 구간 상단은 67.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9628,
-  "mu": 69.6,
+  "survival_prob": 0.8898,
+  "mu": 64.3,
   "ci80": {
-   "lo": 58.5,
-   "hi": 80.7
+   "lo": 53.5,
+   "hi": 75.1
   },
   "ci50": {
-   "lo": 63.8,
-   "hi": 75.5
+   "lo": 58.6,
+   "hi": 70.0
   },
-  "sigma_model": 3.2,
+  "sigma_model": 2.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "1f44ac21",
+   "season": 2022,
+   "distance": 2.633,
+   "survived": 1,
+   "fut_ability_v2": 61.8,
+   "player_name": "Erling Haaland",
+   "squad": "Dortmund"
+  },
+  {
+   "fbref_id": "40774c6b",
+   "season": 2022,
+   "distance": 3.567,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Bamba Dieng",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "8c90fd7a",
+   "season": 2021,
+   "distance": 3.687,
+   "survived": 1,
+   "fut_ability_v2": 59.2,
+   "player_name": "Victor Osimhen",
+   "squad": "Napoli"
+  },
+  {
    "fbref_id": "f7036e1c",
    "season": 2019,
-   "distance": 3.689,
+   "distance": 3.724,
    "survived": 1,
    "fut_ability_v2": 74.2,
    "player_name": "Lautaro Martínez",
@@ -58,16 +85,25 @@
   {
    "fbref_id": "e7986081",
    "season": 2019,
-   "distance": 3.935,
+   "distance": 3.971,
    "survived": 1,
    "fut_ability_v2": 70.1,
    "player_name": "Moussa Dembélé",
    "squad": "Lyon"
   },
   {
+   "fbref_id": "0cc5f4a5",
+   "season": 2022,
+   "distance": 4.032,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lukas Nmecha",
+   "squad": "Wolfsburg"
+  },
+  {
    "fbref_id": "f586779e",
    "season": 2020,
-   "distance": 4.087,
+   "distance": 4.098,
    "survived": 1,
    "fut_ability_v2": 65.0,
    "player_name": "Tammy Abraham",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "4d8cd038",
    "season": 2019,
-   "distance": 4.17,
+   "distance": 4.206,
    "survived": 1,
    "fut_ability_v2": 48.2,
    "player_name": "Luka Jović",
    "squad": "Eint Frankfurt"
   },
   {
-   "fbref_id": "3effaa34",
-   "season": 2019,
-   "distance": 4.441,
+   "fbref_id": "1f44ac21",
+   "season": 2021,
+   "distance": 4.221,
    "survived": 1,
-   "fut_ability_v2": 67.2,
-   "player_name": "André Silva",
-   "squad": "Sevilla"
+   "fut_ability_v2": 71.3,
+   "player_name": "Erling Haaland",
+   "squad": "Dortmund"
   },
   {
-   "fbref_id": "0b4f388a",
-   "season": 2020,
-   "distance": 4.501,
+   "fbref_id": "8c90fd7a",
+   "season": 2022,
+   "distance": 4.26,
    "survived": 1,
-   "fut_ability_v2": 62.4,
-   "player_name": "Breel Embolo",
-   "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "50e6dc35",
-   "season": 2019,
-   "distance": 4.522,
-   "survived": 1,
-   "fut_ability_v2": 48.7,
-   "player_name": "Jean-Philippe Mateta",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "2e23c66b",
-   "season": 2018,
-   "distance": 4.71,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Emmanuel Boateng",
-   "squad": "Levante"
-  },
-  {
-   "fbref_id": "5e080f73",
-   "season": 2020,
-   "distance": 4.713,
-   "survived": 1,
-   "fut_ability_v2": 42.9,
-   "player_name": "Irvin Cardona",
-   "squad": "Brest"
-  },
-  {
-   "fbref_id": "a1d5bd30",
-   "season": 2019,
-   "distance": 4.723,
-   "survived": 1,
-   "fut_ability_v2": 55.3,
-   "player_name": "Marcus Rashford",
-   "squad": "Manchester Utd"
+   "fut_ability_v2": 59.2,
+   "player_name": "Victor Osimhen",
+   "squad": "Napoli"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Mika Biereth(FW)의 현재 능력 점수는 70.7점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 비페널티 xG, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 운반 거리이다.",
-  "potential": "Mika Biereth의 2~3년 후 예측 중심값은 69.6점, 80% 구간 상단은 80.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Mika Biereth의 2~3년 후 예측 중심값은 64.3점, 80% 구간 상단은 75.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 89.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

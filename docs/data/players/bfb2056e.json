@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9543,
-  "mu": 59.3,
+  "survival_prob": 0.8169,
+  "mu": 59.6,
   "ci80": {
-   "lo": 48.7,
-   "hi": 69.9
+   "lo": 49.2,
+   "hi": 70.1
   },
   "ci50": {
-   "lo": 53.7,
-   "hi": 64.8
+   "lo": 54.1,
+   "hi": 65.1
   },
-  "sigma_model": 2.1,
+  "sigma_model": 1.7,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "9a64e67e",
    "season": 2020,
-   "distance": 1.095,
+   "distance": 1.06,
    "survived": 1,
    "fut_ability_v2": 62.0,
    "player_name": "Robin Le Normand",
@@ -58,7 +58,7 @@
   {
    "fbref_id": "aad48be9",
    "season": 2019,
-   "distance": 1.244,
+   "distance": 1.227,
    "survived": 1,
    "fut_ability_v2": 58.5,
    "player_name": "Niklas Stark",
@@ -66,17 +66,35 @@
   },
   {
    "fbref_id": "94f8d10c",
+   "season": 2021,
+   "distance": 1.354,
+   "survived": 1,
+   "fut_ability_v2": 61.1,
+   "player_name": "Duje Ćaleta-Car",
+   "squad": "Marseille"
+  },
+  {
+   "fbref_id": "94f8d10c",
    "season": 2020,
-   "distance": 1.407,
+   "distance": 1.396,
    "survived": 1,
    "fut_ability_v2": 62.6,
    "player_name": "Duje Ćaleta-Car",
    "squad": "Marseille"
   },
   {
+   "fbref_id": "35e413f1",
+   "season": 2022,
+   "distance": 1.407,
+   "survived": 1,
+   "fut_ability_v2": 57.2,
+   "player_name": "Ben White",
+   "squad": "Arsenal"
+  },
+  {
    "fbref_id": "45a03961",
    "season": 2019,
-   "distance": 1.434,
+   "distance": 1.442,
    "survived": 1,
    "fut_ability_v2": 71.1,
    "player_name": "Benjamin Pavard",
@@ -84,57 +102,39 @@
   },
   {
    "fbref_id": "e34fc66d",
-   "season": 2019,
-   "distance": 1.448,
-   "survived": 1,
-   "fut_ability_v2": 61.5,
-   "player_name": "Joachim Andersen",
-   "squad": "Sampdoria"
-  },
-  {
-   "fbref_id": "e34fc66d",
    "season": 2020,
-   "distance": 1.472,
+   "distance": 1.47,
    "survived": 1,
    "fut_ability_v2": 58.6,
    "player_name": "Joachim Andersen",
    "squad": "Lyon"
   },
   {
+   "fbref_id": "e34fc66d",
+   "season": 2019,
+   "distance": 1.506,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Joachim Andersen",
+   "squad": "Sampdoria"
+  },
+  {
    "fbref_id": "3ead85f9",
    "season": 2018,
-   "distance": 1.559,
+   "distance": 1.55,
    "survived": 1,
    "fut_ability_v2": 56.8,
    "player_name": "Alessio Romagnoli",
    "squad": "Milan"
   },
   {
-   "fbref_id": "4fdf1fd9",
-   "season": 2019,
-   "distance": 1.644,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Björn Engels",
-   "squad": "Reims"
-  },
-  {
-   "fbref_id": "3376a776",
-   "season": 2018,
-   "distance": 1.679,
+   "fbref_id": "ad82197c",
+   "season": 2022,
+   "distance": 1.579,
    "survived": 1,
-   "fut_ability_v2": 59.7,
-   "player_name": "Karim Rekik",
-   "squad": "Hertha BSC"
-  },
-  {
-   "fbref_id": "aad48be9",
-   "season": 2018,
-   "distance": 1.685,
-   "survived": 1,
-   "fut_ability_v2": 53.2,
-   "player_name": "Niklas Stark",
-   "squad": "Hertha BSC"
+   "fut_ability_v2": 62.0,
+   "player_name": "Axel Disasi",
+   "squad": "Monaco"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Logan Costa(DF)의 현재 능력 점수는 61.1점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 태클 성공률, 볼 손실(미스+파울), 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 박스 터치이다.",
-  "potential": "Logan Costa의 2~3년 후 예측 중심값은 59.3점, 80% 구간 상단은 69.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Logan Costa의 2~3년 후 예측 중심값은 59.6점, 80% 구간 상단은 70.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 81.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5925,
-  "mu": 55.7,
+  "survival_prob": 0.5941,
+  "mu": 57.3,
   "ci80": {
-   "lo": 46.3,
-   "hi": 65.1
+   "lo": 48.0,
+   "hi": 66.7
   },
   "ci50": {
-   "lo": 50.8,
-   "hi": 60.7
+   "lo": 52.4,
+   "hi": 62.2
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "16e9d0ea",
+   "season": 2022,
+   "distance": 2.311,
+   "survived": 1,
+   "fut_ability_v2": 50.6,
+   "player_name": "Álex Moreno",
+   "squad": "Betis"
+  },
+  {
    "fbref_id": "92232aad",
    "season": 2018,
-   "distance": 2.594,
+   "distance": 2.607,
    "survived": 1,
    "fut_ability_v2": 66.0,
    "player_name": "Mathieu Debuchy",
@@ -58,83 +67,74 @@
   {
    "fbref_id": "79b2399c",
    "season": 2019,
-   "distance": 2.675,
+   "distance": 2.713,
    "survived": 1,
    "fut_ability_v2": 52.7,
    "player_name": "Pierrick Capelle",
    "squad": "Angers"
   },
   {
+   "fbref_id": "f4290206",
+   "season": 2022,
+   "distance": 3.108,
+   "survived": 1,
+   "fut_ability_v2": 67.5,
+   "player_name": "Marcos Alonso",
+   "squad": "Chelsea"
+  },
+  {
+   "fbref_id": "0420d84f",
+   "season": 2021,
+   "distance": 3.149,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Séamus Coleman",
+   "squad": "Everton"
+  },
+  {
    "fbref_id": "6d8f8441",
    "season": 2018,
-   "distance": 3.125,
+   "distance": 3.185,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Coke",
    "squad": "Levante / Schalke 04"
   },
   {
-   "fbref_id": "9ab48bde",
-   "season": 2020,
-   "distance": 3.279,
+   "fbref_id": "b0616e3d",
+   "season": 2022,
+   "distance": 3.23,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Pablo de Blasis",
-   "squad": "Eibar"
+   "player_name": "Sergio Escudero",
+   "squad": "Granada"
   },
   {
-   "fbref_id": "bad38a94",
-   "season": 2019,
-   "distance": 3.289,
+   "fbref_id": "e73c9bb2",
+   "season": 2022,
+   "distance": 3.327,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Dídac Vilà",
-   "squad": "Espanyol"
-  },
-  {
-   "fbref_id": "c50281a0",
-   "season": 2018,
-   "distance": 3.312,
-   "survived": 1,
-   "fut_ability_v2": 67.5,
-   "player_name": "Lars Bender",
-   "squad": "Leverkusen"
+   "player_name": "Alex Telles",
+   "squad": "Manchester Utd"
   },
   {
    "fbref_id": "1ef37668",
    "season": 2019,
-   "distance": 3.351,
+   "distance": 3.34,
    "survived": 1,
    "fut_ability_v2": 49.1,
    "player_name": "Erik Pieters",
    "squad": "Amiens"
   },
   {
-   "fbref_id": "89d10e53",
+   "fbref_id": "bad38a94",
    "season": 2019,
-   "distance": 3.408,
+   "distance": 3.34,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Danny Rose",
-   "squad": "Tottenham"
-  },
-  {
-   "fbref_id": "0420d84f",
-   "season": 2018,
-   "distance": 3.475,
-   "survived": 1,
-   "fut_ability_v2": 56.2,
-   "player_name": "Séamus Coleman",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "5cec2487",
-   "season": 2020,
-   "distance": 3.488,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Martín Montoya",
-   "squad": "Brighton"
+   "player_name": "Dídac Vilà",
+   "squad": "Espanyol"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Ali Abdi(DF)의 현재 능력 점수는 62.6점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 무페널티 득점, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 최종 3분의1 패스이다.",
-  "potential": "Ali Abdi의 2~3년 후 예측 중심값은 55.7점, 80% 구간 상단은 65.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.2%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Ali Abdi의 2~3년 후 예측 중심값은 57.3점, 80% 구간 상단은 66.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

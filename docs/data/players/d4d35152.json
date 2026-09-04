@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4449,
-  "mu": 46.7,
+  "survival_prob": 0.6465,
+  "mu": 46.5,
   "ci80": {
-   "lo": 37.2,
+   "lo": 36.9,
    "hi": 56.2
   },
   "ci50": {
-   "lo": 41.7,
+   "lo": 41.5,
    "hi": 51.7
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 7.0
+  "sigma_model": 2.5,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "1598599e",
    "season": 2019,
-   "distance": 1.729,
+   "distance": 1.708,
    "survived": 1,
    "fut_ability_v2": 41.6,
    "player_name": "Nampalys Mendy",
    "squad": "Leicester City"
   },
   {
+   "fbref_id": "2b1bed19",
+   "season": 2021,
+   "distance": 2.127,
+   "survived": 1,
+   "fut_ability_v2": 50.4,
+   "player_name": "Haris Belkebla",
+   "squad": "Brest"
+  },
+  {
    "fbref_id": "2f4c5a52",
    "season": 2019,
-   "distance": 2.206,
+   "distance": 2.136,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Harry Arter",
    "squad": "Cardiff City"
   },
   {
+   "fbref_id": "0b2c8585",
+   "season": 2022,
+   "distance": 2.141,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Raúl Guti",
+   "squad": "Elche"
+  },
+  {
    "fbref_id": "29b61deb",
    "season": 2018,
-   "distance": 2.228,
+   "distance": 2.244,
    "survived": 1,
    "fut_ability_v2": 38.4,
    "player_name": "Pere Pons",
@@ -76,25 +94,16 @@
   {
    "fbref_id": "b3fd7075",
    "season": 2018,
-   "distance": 2.278,
+   "distance": 2.275,
    "survived": 1,
    "fut_ability_v2": 54.0,
    "player_name": "Andrea Poli",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "1d8c99b0",
-   "season": 2018,
-   "distance": 2.44,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ki Sung-yueng",
-   "squad": "Swansea City"
-  },
-  {
    "fbref_id": "0d2158d5",
    "season": 2018,
-   "distance": 2.453,
+   "distance": 2.342,
    "survived": 1,
    "fut_ability_v2": 40.5,
    "player_name": "Jordan Marié",
@@ -103,38 +112,29 @@
   {
    "fbref_id": "2b1bed19",
    "season": 2020,
-   "distance": 2.518,
+   "distance": 2.399,
    "survived": 1,
    "fut_ability_v2": 48.1,
    "player_name": "Haris Belkebla",
    "squad": "Brest"
   },
   {
-   "fbref_id": "d7bf3d19",
-   "season": 2019,
-   "distance": 2.623,
+   "fbref_id": "1d8c99b0",
+   "season": 2018,
+   "distance": 2.447,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Romain Amalfitano",
-   "squad": "Dijon"
+   "player_name": "Ki Sung-yueng",
+   "squad": "Swansea City"
   },
   {
-   "fbref_id": "243f4a0b",
-   "season": 2019,
-   "distance": 2.653,
+   "fbref_id": "f2dd9a21",
+   "season": 2021,
+   "distance": 2.509,
    "survived": 1,
-   "fut_ability_v2": 46.6,
-   "player_name": "Otávio",
-   "squad": "Bordeaux"
-  },
-  {
-   "fbref_id": "54073b28",
-   "season": 2020,
-   "distance": 2.683,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Recio",
-   "squad": "Leganés"
+   "fut_ability_v2": 27.4,
+   "player_name": "Carlos Gruezo",
+   "squad": "Augsburg"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Hugo Magnetti(MF)의 현재 능력 점수는 37.3점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 패스 성공률, 실책 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 슈팅 창출(SCA)이다.",
-  "potential": "Hugo Magnetti의 2~3년 후 예측 중심값은 46.7점, 80% 구간 상단은 56.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Hugo Magnetti의 2~3년 후 예측 중심값은 46.5점, 80% 구간 상단은 56.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 64.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

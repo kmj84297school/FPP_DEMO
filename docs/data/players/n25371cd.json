@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6006,
-  "mu": 52.2,
+  "survival_prob": 0.5006,
+  "mu": 51.3,
   "ci80": {
-   "lo": 42.6,
-   "hi": 61.8
+   "lo": 41.7,
+   "hi": 61.0
   },
   "ci50": {
-   "lo": 47.2,
-   "hi": 57.2
+   "lo": 46.3,
+   "hi": 56.4
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 2.4,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "462475ed",
    "season": 2019,
-   "distance": 2.343,
+   "distance": 2.302,
    "survived": 1,
    "fut_ability_v2": 57.0,
    "player_name": "Ludovic Ajorque",
@@ -58,25 +58,43 @@
   {
    "fbref_id": "43b78598",
    "season": 2019,
-   "distance": 2.377,
+   "distance": 2.396,
    "survived": 1,
    "fut_ability_v2": 56.6,
    "player_name": "Mauro Icardi",
    "squad": "Inter"
   },
   {
+   "fbref_id": "5d4f7d61",
+   "season": 2021,
+   "distance": 2.396,
+   "survived": 1,
+   "fut_ability_v2": 50.9,
+   "player_name": "Patrik Schick",
+   "squad": "Leverkusen"
+  },
+  {
    "fbref_id": "462475ed",
    "season": 2020,
-   "distance": 2.416,
+   "distance": 2.404,
    "survived": 1,
    "fut_ability_v2": 56.7,
    "player_name": "Ludovic Ajorque",
    "squad": "Strasbourg"
   },
   {
+   "fbref_id": "462475ed",
+   "season": 2021,
+   "distance": 2.556,
+   "survived": 1,
+   "fut_ability_v2": 32.2,
+   "player_name": "Ludovic Ajorque",
+   "squad": "Strasbourg"
+  },
+  {
    "fbref_id": "43b78598",
    "season": 2018,
-   "distance": 2.592,
+   "distance": 2.61,
    "survived": 1,
    "fut_ability_v2": 65.6,
    "player_name": "Mauro Icardi",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "9592289a",
    "season": 2018,
-   "distance": 2.639,
+   "distance": 2.644,
    "survived": 1,
    "fut_ability_v2": 44.3,
    "player_name": "Simone Zaza",
@@ -94,7 +112,7 @@
   {
    "fbref_id": "c4e87b8b",
    "season": 2019,
-   "distance": 2.675,
+   "distance": 2.699,
    "survived": 1,
    "fut_ability_v2": 57.9,
    "player_name": "Wout Weghorst",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "e58a03c6",
    "season": 2018,
-   "distance": 2.704,
+   "distance": 2.716,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Dwight Gayle",
    "squad": "Newcastle Utd"
   },
   {
-   "fbref_id": "09538fdb",
-   "season": 2019,
-   "distance": 2.817,
-   "survived": 1,
-   "fut_ability_v2": 49.3,
-   "player_name": "Kevin Lasagna",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "85613cf0",
-   "season": 2020,
-   "distance": 2.843,
-   "survived": 1,
-   "fut_ability_v2": 62.7,
-   "player_name": "Arkadiusz Milik",
-   "squad": "Napoli"
-  },
-  {
-   "fbref_id": "5046b7d4",
-   "season": 2018,
-   "distance": 2.873,
-   "survived": 1,
-   "fut_ability_v2": 42.4,
-   "player_name": "Stéphane Bahoken",
-   "squad": "Strasbourg"
+   "fbref_id": "93feac6e",
+   "season": 2021,
+   "distance": 2.75,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Patrick Bamford",
+   "squad": "Leeds United"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Evanilson(FW)의 현재 능력 점수는 53.4점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 태클 성공률, 볼 손실(미스+파울), 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 패스 수신이다.",
-  "potential": "Evanilson의 2~3년 후 예측 중심값은 52.2점, 80% 구간 상단은 61.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Evanilson의 2~3년 후 예측 중심값은 51.3점, 80% 구간 상단은 61.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 50.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

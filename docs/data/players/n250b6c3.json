@@ -32,24 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.501,
-  "mu": 54.8,
+  "survival_prob": 0.4962,
+  "mu": 50.3,
   "ci80": {
-   "lo": 44.2,
-   "hi": 65.4
+   "lo": 39.9,
+   "hi": 60.8
   },
   "ci50": {
-   "lo": 49.2,
-   "hi": 60.3
+   "lo": 44.8,
+   "hi": 55.8
   },
-  "sigma_model": 2.1,
+  "sigma_model": 1.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "82598b71",
+   "season": 2022,
+   "distance": 2.446,
+   "survived": 1,
+   "fut_ability_v2": 42.3,
+   "player_name": "Nadir Zortea",
+   "squad": "Salernitana"
+  },
+  {
    "fbref_id": "3c16d927",
    "season": 2020,
-   "distance": 2.444,
+   "distance": 2.501,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Alejandro Pozo Pozo",
@@ -58,7 +67,7 @@
   {
    "fbref_id": "c2846353",
    "season": 2018,
-   "distance": 2.537,
+   "distance": 2.581,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marc Navarro",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "5314e067",
    "season": 2019,
-   "distance": 2.713,
+   "distance": 2.661,
    "survived": 1,
    "fut_ability_v2": 54.4,
    "player_name": "Sofiane Alakouch",
    "squad": "Nîmes"
   },
   {
+   "fbref_id": "3b61c9ec",
+   "season": 2022,
+   "distance": 2.71,
+   "survived": 1,
+   "fut_ability_v2": 61.3,
+   "player_name": "Luca Pellegrini",
+   "squad": "Juventus"
+  },
+  {
+   "fbref_id": "7b082ec2",
+   "season": 2022,
+   "distance": 2.718,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Maxime Busi",
+   "squad": "Reims"
+  },
+  {
+   "fbref_id": "247ed022",
+   "season": 2022,
+   "distance": 2.746,
+   "survived": 1,
+   "fut_ability_v2": 54.1,
+   "player_name": "Andrea Cambiaso",
+   "squad": "Genoa"
+  },
+  {
+   "fbref_id": "d38fdf53",
+   "season": 2021,
+   "distance": 2.759,
+   "survived": 1,
+   "fut_ability_v2": 67.2,
+   "player_name": "Pervis Estupiñán",
+   "squad": "Villarreal"
+  },
+  {
    "fbref_id": "d97f2e8d",
    "season": 2019,
-   "distance": 2.717,
+   "distance": 2.778,
    "survived": 1,
    "fut_ability_v2": 44.8,
    "player_name": "Fabio Depaoli",
    "squad": "Chievo"
   },
   {
-   "fbref_id": "59d53e8a",
-   "season": 2019,
-   "distance": 2.798,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Francis Guerrero",
-   "squad": "Betis"
-  },
-  {
-   "fbref_id": "f9acf8bf",
-   "season": 2020,
-   "distance": 2.825,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Joan Sastre Vanrell",
-   "squad": "Mallorca"
-  },
-  {
-   "fbref_id": "2f3e911a",
-   "season": 2020,
-   "distance": 2.836,
+   "fbref_id": "23610943",
+   "season": 2021,
+   "distance": 2.797,
    "survived": 1,
-   "fut_ability_v2": 49.1,
-   "player_name": "Aarón Martín",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "674cfc5a",
-   "season": 2020,
-   "distance": 2.92,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Gabriel Strefezza",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "71dc23da",
-   "season": 2020,
-   "distance": 2.94,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Paolo Ghiglione",
-   "squad": "Genoa"
-  },
-  {
-   "fbref_id": "e514ab62",
-   "season": 2019,
-   "distance": 2.944,
-   "survived": 1,
-   "fut_ability_v2": 60.7,
-   "player_name": "Matt Targett",
-   "squad": "Southampton"
+   "fut_ability_v2": 51.6,
+   "player_name": "Nahuel Molina",
+   "squad": "Udinese"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Frans Krätzig(DF)의 현재 능력 점수는 52.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 슈팅 창출(SCA), 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 공중볼 승리이다.",
-  "potential": "Frans Krätzig의 2~3년 후 예측 중심값은 54.8점, 80% 구간 상단은 65.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 50.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Frans Krätzig의 2~3년 후 예측 중심값은 50.3점, 80% 구간 상단은 60.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 49.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

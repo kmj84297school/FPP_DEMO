@@ -32,42 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3368,
-  "mu": 53.7,
+  "survival_prob": 0.5276,
+  "mu": 52.5,
   "ci80": {
-   "lo": 43.1,
-   "hi": 64.3
+   "lo": 42.1,
+   "hi": 62.8
   },
   "ci50": {
-   "lo": 48.1,
-   "hi": 59.3
+   "lo": 47.1,
+   "hi": 58.0
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.2,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "8954fddc",
    "season": 2020,
-   "distance": 1.959,
+   "distance": 1.94,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mohamed Dräger",
    "squad": "Paderborn 07"
   },
   {
+   "fbref_id": "0bb6e193",
+   "season": 2022,
+   "distance": 2.066,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Yvann Macon",
+   "squad": "Saint-Étienne"
+  },
+  {
+   "fbref_id": "23610943",
+   "season": 2021,
+   "distance": 2.235,
+   "survived": 1,
+   "fut_ability_v2": 51.6,
+   "player_name": "Nahuel Molina",
+   "squad": "Udinese"
+  },
+  {
    "fbref_id": "fba81826",
    "season": 2019,
-   "distance": 2.298,
+   "distance": 2.301,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Federico Mattiello",
    "squad": "Bologna"
   },
   {
+   "fbref_id": "009a4f60",
+   "season": 2022,
+   "distance": 2.344,
+   "survived": 1,
+   "fut_ability_v2": 56.3,
+   "player_name": "Julian Ryerson",
+   "squad": "Union Berlin"
+  },
+  {
+   "fbref_id": "5db04597",
+   "season": 2021,
+   "distance": 2.364,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Pablo Maffeo",
+   "squad": "Huesca"
+  },
+  {
+   "fbref_id": "82598b71",
+   "season": 2022,
+   "distance": 2.393,
+   "survived": 1,
+   "fut_ability_v2": 42.3,
+   "player_name": "Nadir Zortea",
+   "squad": "Salernitana"
+  },
+  {
    "fbref_id": "71dc23da",
    "season": 2020,
-   "distance": 2.356,
+   "distance": 2.397,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Paolo Ghiglione",
@@ -76,65 +121,20 @@
   {
    "fbref_id": "00528660",
    "season": 2018,
-   "distance": 2.383,
+   "distance": 2.445,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Filippo Costa",
    "squad": "SPAL"
   },
   {
-   "fbref_id": "a55d8df5",
-   "season": 2020,
-   "distance": 2.517,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aitor Ruibal",
-   "squad": "Leganés"
-  },
-  {
-   "fbref_id": "073b1b37",
-   "season": 2020,
-   "distance": 2.532,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Lumor Agbenyenu",
-   "squad": "Mallorca"
-  },
-  {
-   "fbref_id": "62ab9184",
-   "season": 2018,
-   "distance": 2.592,
+   "fbref_id": "3b61c9ec",
+   "season": 2022,
+   "distance": 2.482,
    "survived": 1,
-   "fut_ability_v2": 52.1,
-   "player_name": "Yannick Gerhardt",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "246d153b",
-   "season": 2020,
-   "distance": 2.645,
-   "survived": 1,
-   "fut_ability_v2": 54.3,
-   "player_name": "Ola Aina",
-   "squad": "Torino"
-  },
-  {
-   "fbref_id": "f9acf8bf",
-   "season": 2020,
-   "distance": 2.653,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Joan Sastre Vanrell",
-   "squad": "Mallorca"
-  },
-  {
-   "fbref_id": "59d53e8a",
-   "season": 2019,
-   "distance": 2.679,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Francis Guerrero",
-   "squad": "Betis"
+   "fut_ability_v2": 61.3,
+   "player_name": "Luca Pellegrini",
+   "squad": "Juventus"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Alexander Prass(DF)의 현재 능력 점수는 54.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 박스 진입 패스, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 태클 성공률이다.",
-  "potential": "Alexander Prass의 2~3년 후 예측 중심값은 53.7점, 80% 구간 상단은 64.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 33.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Alexander Prass의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 62.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 52.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

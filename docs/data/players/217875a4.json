@@ -32,33 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6887,
-  "mu": 52.5,
+  "survival_prob": 0.4796,
+  "mu": 52.4,
   "ci80": {
-   "lo": 43.3,
+   "lo": 43.1,
    "hi": 61.7
   },
   "ci50": {
-   "lo": 47.7,
+   "lo": 47.5,
    "hi": 57.3
   },
   "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "699fb8db",
+   "season": 2021,
+   "distance": 1.267,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Dominique Heintz",
+   "squad": "Freiburg"
+  },
+  {
+   "fbref_id": "99f7e9aa",
+   "season": 2021,
+   "distance": 1.35,
+   "survived": 1,
+   "fut_ability_v2": 59.4,
+   "player_name": "Pascal Stenzel",
+   "squad": "Stuttgart"
+  },
+  {
+   "fbref_id": "6ec6fde0",
+   "season": 2021,
+   "distance": 1.373,
+   "survived": 1,
+   "fut_ability_v2": 68.1,
+   "player_name": "Kevin Akpoguma",
+   "squad": "Hoffenheim"
+  },
+  {
+   "fbref_id": "c67cd65c",
+   "season": 2021,
+   "distance": 1.563,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rúben Vezo",
+   "squad": "Levante"
+  },
+  {
+   "fbref_id": "6adbc307",
+   "season": 2021,
+   "distance": 1.582,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jack Stephens",
+   "squad": "Southampton"
+  },
+  {
    "fbref_id": "faf55ce4",
    "season": 2019,
-   "distance": 1.569,
+   "distance": 1.584,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Kevin Wimmer",
    "squad": "Hannover 96"
   },
   {
+   "fbref_id": "475583ff",
+   "season": 2021,
+   "distance": 1.603,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gaëtan Paquiez",
+   "squad": "Nîmes"
+  },
+  {
    "fbref_id": "cda2ec29",
    "season": 2018,
-   "distance": 1.634,
+   "distance": 1.66,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Sampirisi",
@@ -67,74 +121,20 @@
   {
    "fbref_id": "aad48be9",
    "season": 2020,
-   "distance": 1.678,
+   "distance": 1.674,
    "survived": 1,
    "fut_ability_v2": 63.5,
    "player_name": "Niklas Stark",
    "squad": "Hertha BSC"
   },
   {
-   "fbref_id": "0fbb73c2",
-   "season": 2020,
-   "distance": 1.719,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Laurent Jans",
-   "squad": "Paderborn 07"
-  },
-  {
-   "fbref_id": "bba30585",
-   "season": 2019,
-   "distance": 1.771,
-   "survived": 1,
-   "fut_ability_v2": 61.3,
-   "player_name": "Diego Llorente",
-   "squad": "Real Sociedad"
-  },
-  {
    "fbref_id": "de0f152c",
    "season": 2019,
-   "distance": 1.807,
+   "distance": 1.75,
    "survived": 1,
    "fut_ability_v2": 49.8,
    "player_name": "Adam Masina",
    "squad": "Watford"
-  },
-  {
-   "fbref_id": "79083382",
-   "season": 2018,
-   "distance": 1.838,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Juan Jesus",
-   "squad": "Roma"
-  },
-  {
-   "fbref_id": "463503e2",
-   "season": 2018,
-   "distance": 1.929,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Marcin Kamiński",
-   "squad": "Stuttgart"
-  },
-  {
-   "fbref_id": "ae4e2852",
-   "season": 2019,
-   "distance": 1.929,
-   "survived": 1,
-   "fut_ability_v2": 61.4,
-   "player_name": "Mattia De Sciglio",
-   "squad": "Juventus"
-  },
-  {
-   "fbref_id": "7cab69b5",
-   "season": 2020,
-   "distance": 1.942,
-   "survived": 1,
-   "fut_ability_v2": 48.7,
-   "player_name": "Jemerson",
-   "squad": "Monaco"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Sebastian Walukiewicz(DF)의 현재 능력 점수는 54.2점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 전진 패스, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 볼 리커버리이다.",
-  "potential": "Sebastian Walukiewicz의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 61.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 68.9%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Sebastian Walukiewicz의 2~3년 후 예측 중심값은 52.4점, 80% 구간 상단은 61.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 48.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

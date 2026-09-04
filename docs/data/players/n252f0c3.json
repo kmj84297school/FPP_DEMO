@@ -32,20 +32,38 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.615,
-  "mu": 60.7,
+  "survival_prob": 0.7568,
+  "mu": 63.9,
   "ci80": {
-   "lo": 51.0,
-   "hi": 70.3
+   "lo": 54.1,
+   "hi": 73.6
   },
   "ci50": {
-   "lo": 55.6,
-   "hi": 65.7
+   "lo": 58.7,
+   "hi": 69.0
   },
-  "sigma_model": 2.7,
-  "sigma_residual": 7.0
+  "sigma_model": 2.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
+  {
+   "fbref_id": "7c2965bb",
+   "season": 2021,
+   "distance": 1.465,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rony Lopes",
+   "squad": "Nice"
+  },
+  {
+   "fbref_id": "1880614f",
+   "season": 2022,
+   "distance": 1.689,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cengiz Ünder",
+   "squad": "Marseille"
+  },
   {
    "fbref_id": "2677a1de",
    "season": 2018,
@@ -56,9 +74,27 @@
    "squad": "Rennes"
   },
   {
+   "fbref_id": "fb938d24",
+   "season": 2022,
+   "distance": 2.211,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jesús Corona",
+   "squad": "Sevilla"
+  },
+  {
+   "fbref_id": "a3ddb1b9",
+   "season": 2021,
+   "distance": 2.25,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Mark Uth",
+   "squad": "Schalke 04"
+  },
+  {
    "fbref_id": "dfb6490a",
    "season": 2019,
-   "distance": 2.268,
+   "distance": 2.278,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Patrick Herrmann",
@@ -67,74 +103,38 @@
   {
    "fbref_id": "f69fba57",
    "season": 2018,
-   "distance": 2.315,
+   "distance": 2.337,
    "survived": 1,
    "fut_ability_v2": 60.3,
    "player_name": "Yuya Osako",
    "squad": "Köln"
   },
   {
-   "fbref_id": "1fca9171",
-   "season": 2020,
-   "distance": 2.497,
-   "survived": 1,
-   "fut_ability_v2": 47.4,
-   "player_name": "Federico Di Francesco",
-   "squad": "SPAL"
-  },
-  {
-   "fbref_id": "ffa90327",
-   "season": 2020,
-   "distance": 2.554,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Anwar El Ghazi",
-   "squad": "Aston Villa"
-  },
-  {
    "fbref_id": "dc62fbee",
    "season": 2020,
-   "distance": 2.578,
+   "distance": 2.499,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Leonardo Bittencourt",
    "squad": "Werder Bremen / Hoffenheim"
   },
   {
-   "fbref_id": "ccee698e",
-   "season": 2019,
-   "distance": 2.672,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Anthony Limbombe",
-   "squad": "Nantes"
+   "fbref_id": "1fca9171",
+   "season": 2020,
+   "distance": 2.515,
+   "survived": 1,
+   "fut_ability_v2": 47.4,
+   "player_name": "Federico Di Francesco",
+   "squad": "SPAL"
   },
   {
-   "fbref_id": "b500b384",
-   "season": 2019,
-   "distance": 2.679,
+   "fbref_id": "7ec7738e",
+   "season": 2022,
+   "distance": 2.554,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Admir Mehmedi",
-   "squad": "Wolfsburg"
-  },
-  {
-   "fbref_id": "f69fba57",
-   "season": 2019,
-   "distance": 2.688,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Yuya Osako",
-   "squad": "Werder Bremen"
-  },
-  {
-   "fbref_id": "fa274d97",
-   "season": 2018,
-   "distance": 2.719,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Nico Schulz",
-   "squad": "Hoffenheim"
+   "player_name": "Gastón Pereiro",
+   "squad": "Cagliari"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Viktor Tsyhankov(FW)의 현재 능력 점수는 55.1점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 볼 손실(미스+파울), 전진 패스 거리, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 비페널티 xG이다.",
-  "potential": "Viktor Tsyhankov의 2~3년 후 예측 중심값은 60.7점, 80% 구간 상단은 70.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Viktor Tsyhankov의 2~3년 후 예측 중심값은 63.9점, 80% 구간 상단은 73.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

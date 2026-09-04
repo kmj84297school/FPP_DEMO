@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2767,
-  "mu": 43.9,
+  "survival_prob": 0.2826,
+  "mu": 43.5,
   "ci80": {
-   "lo": 34.1,
-   "hi": 53.8
+   "lo": 33.4,
+   "hi": 53.6
   },
   "ci50": {
-   "lo": 38.7,
-   "hi": 49.1
+   "lo": 38.3,
+   "hi": 48.9
   },
-  "sigma_model": 3.1,
-  "sigma_residual": 7.0
+  "sigma_model": 3.3,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "7ffaf233",
    "season": 2018,
-   "distance": 2.054,
+   "distance": 2.095,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Suk Hyun-jun",
    "squad": "Troyes"
   },
   {
+   "fbref_id": "1238a3f9",
+   "season": 2022,
+   "distance": 2.395,
+   "survived": 1,
+   "fut_ability_v2": 37.7,
+   "player_name": "Davie Selke",
+   "squad": "Hertha BSC"
+  },
+  {
    "fbref_id": "11ced928",
    "season": 2018,
-   "distance": 2.45,
+   "distance": 2.491,
    "survived": 1,
    "fut_ability_v2": 37.5,
    "player_name": "Yaya Sanogo",
    "squad": "Toulouse"
   },
   {
+   "fbref_id": "bbf5c11b",
+   "season": 2022,
+   "distance": 2.553,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rafa Mir",
+   "squad": "Sevilla"
+  },
+  {
    "fbref_id": "4e9a0555",
    "season": 2018,
-   "distance": 2.582,
+   "distance": 2.61,
    "survived": 1,
    "fut_ability_v2": 44.9,
    "player_name": "Chris Wood",
@@ -76,65 +94,47 @@
   {
    "fbref_id": "8c44e37b",
    "season": 2019,
-   "distance": 2.874,
+   "distance": 2.878,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Borja Bastón",
    "squad": "Alavés"
   },
   {
+   "fbref_id": "19ba6c6d",
+   "season": 2022,
+   "distance": 2.906,
+   "survived": 1,
+   "fut_ability_v2": 53.2,
+   "player_name": "Steve Mounié",
+   "squad": "Brest"
+  },
+  {
+   "fbref_id": "59e6e5bf",
+   "season": 2022,
+   "distance": 2.916,
+   "survived": 1,
+   "fut_ability_v2": 44.9,
+   "player_name": "Dominic Calvert-Lewin",
+   "squad": "Everton"
+  },
+  {
    "fbref_id": "1238a3f9",
    "season": 2020,
-   "distance": 2.934,
+   "distance": 2.923,
    "survived": 1,
    "fut_ability_v2": 29.8,
    "player_name": "Davie Selke",
    "squad": "Hertha BSC / Werder Bremen"
   },
   {
-   "fbref_id": "d7d32194",
-   "season": 2018,
-   "distance": 3.075,
-   "survived": 1,
-   "fut_ability_v2": 41.8,
-   "player_name": "Mattia Destro",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "11ced928",
-   "season": 2019,
-   "distance": 3.226,
+   "fbref_id": "6922f806",
+   "season": 2021,
+   "distance": 3.016,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Yaya Sanogo",
-   "squad": "Toulouse"
-  },
-  {
-   "fbref_id": "5046b7d4",
-   "season": 2018,
-   "distance": 3.251,
-   "survived": 1,
-   "fut_ability_v2": 42.4,
-   "player_name": "Stéphane Bahoken",
-   "squad": "Strasbourg"
-  },
-  {
-   "fbref_id": "09538fdb",
-   "season": 2018,
-   "distance": 3.271,
-   "survived": 1,
-   "fut_ability_v2": 45.2,
-   "player_name": "Kevin Lasagna",
-   "squad": "Udinese"
-  },
-  {
-   "fbref_id": "8c8b4a01",
-   "season": 2019,
-   "distance": 3.291,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Adam Zreľák",
-   "squad": "Nürnberg"
+   "player_name": "Jonathan Calleri",
+   "squad": "Osasuna"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Andrej Ilic(FW)의 현재 능력 점수는 42.0점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 무페널티 득점, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 성공 드리블이다.",
-  "potential": "Andrej Ilic의 2~3년 후 예측 중심값은 43.9점, 80% 구간 상단은 53.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 27.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Andrej Ilic의 2~3년 후 예측 중심값은 43.5점, 80% 구간 상단은 53.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

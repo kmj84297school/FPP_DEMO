@@ -32,42 +32,60 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5325,
-  "mu": 55.8,
+  "survival_prob": 0.7228,
+  "mu": 54.8,
   "ci80": {
-   "lo": 45.2,
-   "hi": 66.5
+   "lo": 44.4,
+   "hi": 65.2
   },
   "ci50": {
-   "lo": 50.3,
-   "hi": 61.4
+   "lo": 49.3,
+   "hi": 60.2
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.5,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
-   "fbref_id": "84fb6aff",
-   "season": 2020,
-   "distance": 2.635,
+   "fbref_id": "29c02c9f",
+   "season": 2021,
+   "distance": 2.267,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Xavi Quintillà",
-   "squad": "Villarreal"
+   "player_name": "Colin Dagba",
+   "squad": "Paris S-G"
   },
   {
    "fbref_id": "4c700f46",
    "season": 2019,
-   "distance": 2.641,
+   "distance": 2.619,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Jérémy Gélin",
    "squad": "Rennes"
   },
   {
+   "fbref_id": "84fb6aff",
+   "season": 2020,
+   "distance": 2.663,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Xavi Quintillà",
+   "squad": "Villarreal"
+  },
+  {
+   "fbref_id": "056269d7",
+   "season": 2021,
+   "distance": 2.686,
+   "survived": 1,
+   "fut_ability_v2": 58.5,
+   "player_name": "Óscar Mingueza",
+   "squad": "Barcelona"
+  },
+  {
    "fbref_id": "a96e5dc0",
    "season": 2018,
-   "distance": 2.703,
+   "distance": 2.735,
    "survived": 1,
    "fut_ability_v2": 50.7,
    "player_name": "Jeremy Toljan",
@@ -76,7 +94,7 @@
   {
    "fbref_id": "4c700f46",
    "season": 2018,
-   "distance": 2.767,
+   "distance": 2.809,
    "survived": 1,
    "fut_ability_v2": 47.4,
    "player_name": "Jérémy Gélin",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "cdf65d12",
    "season": 2019,
-   "distance": 2.852,
+   "distance": 2.844,
    "survived": 1,
    "fut_ability_v2": 62.6,
    "player_name": "Marlon",
@@ -94,47 +112,29 @@
   {
    "fbref_id": "983ff2c7",
    "season": 2018,
-   "distance": 2.856,
+   "distance": 2.848,
    "survived": 1,
    "fut_ability_v2": 38.6,
    "player_name": "Lorenzo Venuti",
    "squad": "Benevento"
   },
   {
+   "fbref_id": "fc4cf6a7",
+   "season": 2022,
+   "distance": 2.853,
+   "survived": 1,
+   "fut_ability_v2": 48.6,
+   "player_name": "Jordan Lotomba",
+   "squad": "Nice"
+  },
+  {
    "fbref_id": "15d0c248",
    "season": 2019,
-   "distance": 2.913,
+   "distance": 2.864,
    "survived": 1,
    "fut_ability_v2": 53.7,
    "player_name": "Luiz Felipe",
    "squad": "Lazio"
-  },
-  {
-   "fbref_id": "aef6e670",
-   "season": 2019,
-   "distance": 3.145,
-   "survived": 1,
-   "fut_ability_v2": 58.4,
-   "player_name": "Presnel Kimpembe",
-   "squad": "Paris S-G"
-  },
-  {
-   "fbref_id": "cdf65d12",
-   "season": 2018,
-   "distance": 3.156,
-   "survived": 1,
-   "fut_ability_v2": 59.6,
-   "player_name": "Marlon",
-   "squad": "Nice"
-  },
-  {
-   "fbref_id": "34bb6fbd",
-   "season": 2019,
-   "distance": 3.291,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Arturo Calabresi",
-   "squad": "Bologna"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Nicolò Savona(DF)의 현재 능력 점수는 53.2점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 무페널티 득점, 패스 성공률, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 공중볼 승리이다.",
-  "potential": "Nicolò Savona의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 66.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 53.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Nicolò Savona의 2~3년 후 예측 중심값은 54.8점, 80% 구간 상단은 65.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 72.3%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

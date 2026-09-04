@@ -32,69 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5383,
-  "mu": 61.1,
+  "survival_prob": 0.57,
+  "mu": 61.0,
   "ci80": {
-   "lo": 51.8,
-   "hi": 70.3
+   "lo": 51.6,
+   "hi": 70.4
   },
   "ci50": {
-   "lo": 56.2,
+   "lo": 56.1,
    "hi": 65.9
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "a40d5a0c",
-   "season": 2018,
-   "distance": 2.53,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Diego Perotti",
-   "squad": "Roma"
-  },
-  {
    "fbref_id": "5e861944",
    "season": 2020,
-   "distance": 2.554,
+   "distance": 2.565,
    "survived": 1,
    "fut_ability_v2": 65.7,
    "player_name": "Matteo Politano",
    "squad": "Napoli / Inter"
   },
   {
+   "fbref_id": "a40d5a0c",
+   "season": 2018,
+   "distance": 2.66,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Diego Perotti",
+   "squad": "Roma"
+  },
+  {
    "fbref_id": "fd51b456",
    "season": 2019,
-   "distance": 3.041,
+   "distance": 2.916,
    "survived": 1,
    "fut_ability_v2": 64.7,
    "player_name": "Lucas Vázquez",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "b0c71810",
+   "season": 2022,
+   "distance": 2.936,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Sofiane Boufal",
+   "squad": "Angers"
+  },
+  {
    "fbref_id": "47dc80f5",
    "season": 2018,
-   "distance": 3.138,
+   "distance": 3.17,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Adel Taarabt",
    "squad": "Genoa"
   },
   {
-   "fbref_id": "a39bb753",
-   "season": 2020,
-   "distance": 3.411,
+   "fbref_id": "9a28eba4",
+   "season": 2022,
+   "distance": 3.203,
+   "survived": 1,
+   "fut_ability_v2": 69.2,
+   "player_name": "Adama Traoré",
+   "squad": "Wolves / Barcelona"
+  },
+  {
+   "fbref_id": "b2bc3b1f",
+   "season": 2022,
+   "distance": 3.391,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Eden Hazard",
-   "squad": "Real Madrid"
+   "player_name": "Wilfried Zaha",
+   "squad": "Crystal Palace"
   },
   {
    "fbref_id": "4e219ad2",
    "season": 2020,
-   "distance": 3.45,
+   "distance": 3.43,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Suso",
@@ -103,41 +121,23 @@
   {
    "fbref_id": "849c826a",
    "season": 2018,
-   "distance": 3.469,
+   "distance": 3.437,
    "survived": 1,
    "fut_ability_v2": 61.8,
    "player_name": "Andriy Yarmolenko",
    "squad": "Dortmund"
   },
   {
-   "fbref_id": "8f696594",
+   "fbref_id": "a39bb753",
    "season": 2020,
-   "distance": 3.515,
-   "survived": 1,
-   "fut_ability_v2": 77.4,
-   "player_name": "Memphis Depay",
-   "squad": "Lyon"
-  },
-  {
-   "fbref_id": "e23f56c1",
-   "season": 2020,
-   "distance": 3.548,
+   "distance": 3.453,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Filippo Falco",
-   "squad": "Lecce"
-  },
-  {
-   "fbref_id": "a0b4bb3e",
-   "season": 2020,
-   "distance": 3.551,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Isco",
+   "player_name": "Eden Hazard",
    "squad": "Real Madrid"
   }
  ],
- "low_confidence": false,
+ "low_confidence": true,
  "report": {
   "strengths": [
    {
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "David Neres(FW)의 현재 능력 점수는 66.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클 성공률, 전진 운반, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 무페널티 득점이다.",
-  "potential": "David Neres의 2~3년 후 예측 중심값은 61.1점, 80% 구간 상단은 70.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.8%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "David Neres의 2~3년 후 예측 중심값은 61.0점, 80% 구간 상단은 70.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 57.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

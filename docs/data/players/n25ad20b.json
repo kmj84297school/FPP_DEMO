@@ -32,33 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5848,
-  "mu": 46.1,
+  "survival_prob": 0.642,
+  "mu": 45.8,
   "ci80": {
-   "lo": 36.9,
-   "hi": 55.4
+   "lo": 36.4,
+   "hi": 55.2
   },
   "ci50": {
-   "lo": 41.3,
-   "hi": 51.0
+   "lo": 40.8,
+   "hi": 50.7
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "4b029b31",
    "season": 2019,
-   "distance": 1.087,
+   "distance": 1.108,
    "survived": 1,
    "fut_ability_v2": 45.4,
    "player_name": "Edoardo Goldaniga",
    "squad": "Frosinone"
   },
   {
+   "fbref_id": "ed3f5f4c",
+   "season": 2021,
+   "distance": 1.284,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Josema",
+   "squad": "Elche"
+  },
+  {
    "fbref_id": "933d3b51",
    "season": 2018,
-   "distance": 1.324,
+   "distance": 1.318,
    "survived": 1,
    "fut_ability_v2": 52.7,
    "player_name": "Koffi Djidji",
@@ -67,74 +76,65 @@
   {
    "fbref_id": "6690ef25",
    "season": 2018,
-   "distance": 1.459,
+   "distance": 1.437,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Pedro Mendes",
    "squad": "Montpellier"
   },
   {
-   "fbref_id": "cd387ff4",
-   "season": 2018,
-   "distance": 1.488,
+   "fbref_id": "c010b898",
+   "season": 2021,
+   "distance": 1.469,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Fallou Diagne",
-   "squad": "Metz"
+   "player_name": "Federico Barba",
+   "squad": "Benevento"
   },
   {
    "fbref_id": "cda2ec29",
    "season": 2018,
-   "distance": 1.504,
+   "distance": 1.505,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Mario Sampirisi",
    "squad": "Crotone"
   },
   {
+   "fbref_id": "93090f69",
+   "season": 2021,
+   "distance": 1.547,
+   "survived": 1,
+   "fut_ability_v2": 46.1,
+   "player_name": "Domingos Duarte",
+   "squad": "Granada"
+  },
+  {
+   "fbref_id": "cd387ff4",
+   "season": 2018,
+   "distance": 1.549,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Fallou Diagne",
+   "squad": "Metz"
+  },
+  {
    "fbref_id": "a4971d84",
    "season": 2019,
-   "distance": 1.564,
+   "distance": 1.575,
    "survived": 1,
    "fut_ability_v2": 52.5,
    "player_name": "Djené",
    "squad": "Getafe"
   },
   {
-   "fbref_id": "c010b898",
-   "season": 2019,
-   "distance": 1.63,
-   "survived": 1,
-   "fut_ability_v2": 42.0,
-   "player_name": "Federico Barba",
-   "squad": "Chievo"
-  },
-  {
    "fbref_id": "a8fbae1d",
    "season": 2018,
-   "distance": 1.655,
+   "distance": 1.614,
    "survived": 1,
    "fut_ability_v2": 55.9,
    "player_name": "Paulo Oliveira",
    "squad": "Eibar"
-  },
-  {
-   "fbref_id": "3ecc11d8",
-   "season": 2020,
-   "distance": 1.657,
-   "survived": 1,
-   "fut_ability_v2": 61.5,
-   "player_name": "Yeray Álvarez",
-   "squad": "Athletic Club"
-  },
-  {
-   "fbref_id": "6adbc307",
-   "season": 2020,
-   "distance": 1.657,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jack Stephens",
-   "squad": "Southampton"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Abdel Abqar(DF)의 현재 능력 점수는 48.1점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 볼 손실(미스+파울), 실책 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 패스 성공률이다.",
-  "potential": "Abdel Abqar의 2~3년 후 예측 중심값은 46.1점, 80% 구간 상단은 55.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.5%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Abdel Abqar의 2~3년 후 예측 중심값은 45.8점, 80% 구간 상단은 55.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 64.2%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

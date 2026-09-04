@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2995,
-  "mu": 62.1,
+  "survival_prob": 0.1952,
+  "mu": 60.8,
   "ci80": {
-   "lo": 52.4,
-   "hi": 71.7
+   "lo": 50.9,
+   "hi": 70.6
   },
   "ci50": {
-   "lo": 57.0,
-   "hi": 67.1
+   "lo": 55.6,
+   "hi": 66.0
   },
-  "sigma_model": 2.6,
-  "sigma_residual": 7.0
+  "sigma_model": 3.0,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "d711d04f",
    "season": 2019,
-   "distance": 2.857,
+   "distance": 2.82,
    "survived": 1,
    "fut_ability_v2": 53.8,
    "player_name": "Goran Pandev",
@@ -58,25 +58,43 @@
   {
    "fbref_id": "4c5b14d2",
    "season": 2019,
-   "distance": 3.353,
+   "distance": 3.384,
    "survived": 1,
    "fut_ability_v2": 67.6,
    "player_name": "Joaquín",
    "squad": "Betis"
   },
   {
+   "fbref_id": "f61c7c4e",
+   "season": 2021,
+   "distance": 3.787,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Franck Ribéry",
+   "squad": "Fiorentina"
+  },
+  {
    "fbref_id": "d711d04f",
    "season": 2020,
-   "distance": 3.853,
+   "distance": 3.803,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Goran Pandev",
    "squad": "Genoa"
   },
   {
+   "fbref_id": "8d8178ac",
+   "season": 2021,
+   "distance": 3.959,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Rodrigo Palacio",
+   "squad": "Bologna"
+  },
+  {
    "fbref_id": "f61c7c4e",
    "season": 2020,
-   "distance": 3.885,
+   "distance": 4.072,
    "survived": 1,
    "fut_ability_v2": 57.7,
    "player_name": "Franck Ribéry",
@@ -85,7 +103,7 @@
   {
    "fbref_id": "2bee98fd",
    "season": 2019,
-   "distance": 4.313,
+   "distance": 4.277,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Sergio García",
@@ -94,7 +112,7 @@
   {
    "fbref_id": "8d8178ac",
    "season": 2019,
-   "distance": 4.34,
+   "distance": 4.321,
    "survived": 1,
    "fut_ability_v2": 69.0,
    "player_name": "Rodrigo Palacio",
@@ -103,38 +121,20 @@
   {
    "fbref_id": "8d8178ac",
    "season": 2020,
-   "distance": 4.35,
+   "distance": 4.328,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rodrigo Palacio",
    "squad": "Bologna"
   },
   {
-   "fbref_id": "8d8178ac",
-   "season": 2018,
-   "distance": 5.254,
-   "survived": 1,
-   "fut_ability_v2": 67.3,
-   "player_name": "Rodrigo Palacio",
-   "squad": "Bologna"
-  },
-  {
-   "fbref_id": "43f71e77",
-   "season": 2020,
-   "distance": 5.441,
-   "survived": 1,
-   "fut_ability_v2": 51.7,
-   "player_name": "Jorge Molina",
-   "squad": "Getafe"
-  },
-  {
-   "fbref_id": "43f71e77",
-   "season": 2019,
-   "distance": 5.573,
-   "survived": 1,
-   "fut_ability_v2": 52.5,
-   "player_name": "Jorge Molina",
-   "squad": "Getafe"
+   "fbref_id": "d711d04f",
+   "season": 2021,
+   "distance": 4.961,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Goran Pandev",
+   "squad": "Genoa"
   }
  ],
  "low_confidence": true,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Pedro(FW)의 현재 능력 점수는 73.3점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 최종 3분의1 패스, 전진 패스, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 어시스트, 골 창출(GCA)이다.",
-  "potential": "Pedro의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 71.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.9%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Pedro의 2~3년 후 예측 중심값은 60.8점, 80% 구간 상단은 70.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 19.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

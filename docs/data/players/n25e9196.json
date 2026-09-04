@@ -32,24 +32,24 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9545,
-  "mu": 42.0,
+  "survival_prob": 0.8499,
+  "mu": 41.6,
   "ci80": {
-   "lo": 29.5,
-   "hi": 54.7
+   "lo": 28.8,
+   "hi": 54.2
   },
   "ci50": {
-   "lo": 35.5,
-   "hi": 48.7
+   "lo": 34.8,
+   "hi": 48.2
   },
-  "sigma_model": 5.7,
+  "sigma_model": 5.9,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
    "fbref_id": "50e6dc35",
    "season": 2019,
-   "distance": 2.269,
+   "distance": 2.257,
    "survived": 1,
    "fut_ability_v2": 48.7,
    "player_name": "Jean-Philippe Mateta",
@@ -58,16 +58,25 @@
   {
    "fbref_id": "59e6e5bf",
    "season": 2020,
-   "distance": 2.579,
+   "distance": 2.552,
    "survived": 1,
    "fut_ability_v2": 40.5,
    "player_name": "Dominic Calvert-Lewin",
    "squad": "Everton"
   },
   {
+   "fbref_id": "79443529",
+   "season": 2021,
+   "distance": 2.644,
+   "survived": 1,
+   "fut_ability_v2": 58.7,
+   "player_name": "Dušan Vlahović",
+   "squad": "Fiorentina"
+  },
+  {
    "fbref_id": "1238a3f9",
    "season": 2018,
-   "distance": 2.655,
+   "distance": 2.651,
    "survived": 1,
    "fut_ability_v2": 28.8,
    "player_name": "Davie Selke",
@@ -76,65 +85,56 @@
   {
    "fbref_id": "8c90fd7a",
    "season": 2020,
-   "distance": 2.783,
+   "distance": 2.793,
    "survived": 1,
    "fut_ability_v2": 58.1,
    "player_name": "Victor Osimhen",
    "squad": "Lille"
   },
   {
+   "fbref_id": "8790f988",
+   "season": 2022,
+   "distance": 2.916,
+   "survived": 1,
+   "fut_ability_v2": 70.3,
+   "player_name": "Gianluca Scamacca",
+   "squad": "Sassuolo"
+  },
+  {
    "fbref_id": "04e17fd5",
    "season": 2019,
-   "distance": 2.877,
+   "distance": 2.921,
    "survived": 1,
    "fut_ability_v2": 46.1,
    "player_name": "Youssef En-Nesyri",
    "squad": "Leganés"
   },
   {
-   "fbref_id": "50e6dc35",
-   "season": 2020,
-   "distance": 3.104,
-   "survived": 1,
-   "fut_ability_v2": 49.1,
-   "player_name": "Jean-Philippe Mateta",
-   "squad": "Mainz 05"
+   "fbref_id": "57be54ec",
+   "season": 2021,
+   "distance": 3.027,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Asier Villalibre",
+   "squad": "Athletic Club"
+  },
+  {
+   "fbref_id": "0cc5f4a5",
+   "season": 2022,
+   "distance": 3.041,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Lukas Nmecha",
+   "squad": "Wolfsburg"
   },
   {
    "fbref_id": "2e23c66b",
    "season": 2018,
-   "distance": 3.122,
+   "distance": 3.089,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Emmanuel Boateng",
    "squad": "Levante"
-  },
-  {
-   "fbref_id": "5e080f73",
-   "season": 2020,
-   "distance": 3.228,
-   "survived": 1,
-   "fut_ability_v2": 42.9,
-   "player_name": "Irvin Cardona",
-   "squad": "Brest"
-  },
-  {
-   "fbref_id": "aa1a8c7e",
-   "season": 2018,
-   "distance": 3.284,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Isaac Mbenza",
-   "squad": "Montpellier"
-  },
-  {
-   "fbref_id": "f586779e",
-   "season": 2020,
-   "distance": 3.382,
-   "survived": 1,
-   "fut_ability_v2": 65.0,
-   "player_name": "Tammy Abraham",
-   "squad": "Chelsea"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Thierno Barry(FW)의 현재 능력 점수는 52.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승률, 공중볼 승리, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 전진 패스이다.",
-  "potential": "Thierno Barry의 2~3년 후 예측 중심값은 42.0점, 80% 구간 상단은 54.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Thierno Barry의 2~3년 후 예측 중심값은 41.6점, 80% 구간 상단은 54.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 85.0%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

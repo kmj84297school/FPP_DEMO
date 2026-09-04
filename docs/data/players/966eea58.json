@@ -32,33 +32,51 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6457,
-  "mu": 53.6,
+  "survival_prob": 0.4172,
+  "mu": 53.7,
   "ci80": {
    "lo": 44.3,
    "hi": 63.0
   },
   "ci50": {
-   "lo": 48.7,
-   "hi": 58.5
+   "lo": 48.8,
+   "hi": 58.6
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
+   "fbref_id": "6ca5ec4b",
+   "season": 2022,
+   "distance": 1.761,
+   "survived": 1,
+   "fut_ability_v2": 71.7,
+   "player_name": "Alex Iwobi",
+   "squad": "Everton"
+  },
+  {
    "fbref_id": "20e73fac",
    "season": 2019,
-   "distance": 1.82,
+   "distance": 1.793,
    "survived": 1,
    "fut_ability_v2": 66.7,
    "player_name": "Benjamin Bourigeaud",
    "squad": "Rennes"
   },
   {
+   "fbref_id": "97333cf5",
+   "season": 2021,
+   "distance": 1.825,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Stuart Armstrong",
+   "squad": "Southampton"
+  },
+  {
    "fbref_id": "635f2732",
    "season": 2020,
-   "distance": 1.9,
+   "distance": 1.879,
    "survived": 1,
    "fut_ability_v2": 52.2,
    "player_name": "Jean-Paul Boëtius",
@@ -67,74 +85,56 @@
   {
    "fbref_id": "e7f4603c",
    "season": 2019,
-   "distance": 1.981,
+   "distance": 1.967,
    "survived": 1,
    "fut_ability_v2": 49.6,
    "player_name": "Borja García",
    "squad": "Girona"
   },
   {
-   "fbref_id": "ef345601",
-   "season": 2018,
-   "distance": 1.992,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Tana",
-   "squad": "Las Palmas"
-  },
-  {
    "fbref_id": "88895312",
    "season": 2019,
-   "distance": 2.016,
+   "distance": 1.978,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Daniel Bessa",
    "squad": "Genoa"
   },
   {
+   "fbref_id": "ef345601",
+   "season": 2018,
+   "distance": 2.013,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Tana",
+   "squad": "Las Palmas"
+  },
+  {
    "fbref_id": "528492ea",
    "season": 2019,
-   "distance": 2.035,
+   "distance": 2.034,
    "survived": 1,
    "fut_ability_v2": 50.9,
    "player_name": "Alfred Duncan",
    "squad": "Sassuolo"
   },
   {
-   "fbref_id": "47b7e3af",
-   "season": 2020,
-   "distance": 2.054,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Aaron Mooy",
-   "squad": "Brighton"
-  },
-  {
-   "fbref_id": "b63e789d",
-   "season": 2020,
-   "distance": 2.073,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "John Fleck",
-   "squad": "Sheffield Utd"
-  },
-  {
    "fbref_id": "58a9a4d9",
    "season": 2020,
-   "distance": 2.109,
+   "distance": 2.042,
    "survived": 1,
    "fut_ability_v2": 53.9,
    "player_name": "Óliver Torres",
    "squad": "Sevilla"
   },
   {
-   "fbref_id": "cac2537b",
+   "fbref_id": "47b7e3af",
    "season": 2020,
-   "distance": 2.146,
-   "survived": 1,
-   "fut_ability_v2": 56.6,
-   "player_name": "Enis Bardhi",
-   "squad": "Levante"
+   "distance": 2.075,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Aaron Mooy",
+   "squad": "Brighton"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Sandi Lovrić(MF)의 현재 능력 점수는 57.7점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 시도, 전진 운반, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
-  "potential": "Sandi Lovrić의 2~3년 후 예측 중심값은 53.6점, 80% 구간 상단은 63.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 64.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Sandi Lovrić의 2~3년 후 예측 중심값은 53.7점, 80% 구간 상단은 63.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.7%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

@@ -32,42 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6759,
-  "mu": 68.5,
+  "survival_prob": 0.4137,
+  "mu": 66.3,
   "ci80": {
-   "lo": 59.2,
-   "hi": 77.9
+   "lo": 56.8,
+   "hi": 75.8
   },
   "ci50": {
-   "lo": 63.6,
-   "hi": 73.4
+   "lo": 61.3,
+   "hi": 71.3
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "6025fab1",
    "season": 2020,
-   "distance": 1.93,
+   "distance": 2.043,
    "survived": 1,
    "fut_ability_v2": 70.6,
    "player_name": "Luka Modrić",
    "squad": "Real Madrid"
   },
   {
+   "fbref_id": "d995ed27",
+   "season": 2022,
+   "distance": 2.09,
+   "survived": 1,
+   "fut_ability_v2": 64.7,
+   "player_name": "Giacomo Bonaventura",
+   "squad": "Fiorentina"
+  },
+  {
+   "fbref_id": "99813635",
+   "season": 2021,
+   "distance": 2.233,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Adam Lallana",
+   "squad": "Brighton"
+  },
+  {
    "fbref_id": "ef322658",
    "season": 2019,
-   "distance": 2.324,
+   "distance": 2.319,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Andrés Guardado",
    "squad": "Betis"
   },
   {
+   "fbref_id": "6025fab1",
+   "season": 2022,
+   "distance": 2.327,
+   "survived": 1,
+   "fut_ability_v2": 78.5,
+   "player_name": "Luka Modrić",
+   "squad": "Real Madrid"
+  },
+  {
+   "fbref_id": "dd0daf32",
+   "season": 2022,
+   "distance": 2.448,
+   "survived": 1,
+   "fut_ability_v2": 71.5,
+   "player_name": "Henrikh Mkhitaryan",
+   "squad": "Roma"
+  },
+  {
    "fbref_id": "75bd85ea",
    "season": 2020,
-   "distance": 2.459,
+   "distance": 2.481,
    "survived": 1,
    "fut_ability_v2": 61.5,
    "player_name": "Salva Sevilla",
@@ -76,65 +112,29 @@
   {
    "fbref_id": "d054d8b0",
    "season": 2018,
-   "distance": 2.502,
+   "distance": 2.505,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Xabi Prieto",
    "squad": "Real Sociedad"
   },
   {
-   "fbref_id": "0e21fc3c",
-   "season": 2020,
-   "distance": 2.757,
+   "fbref_id": "03e91055",
+   "season": 2022,
+   "distance": 2.527,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Borja Valero",
-   "squad": "Inter"
+   "player_name": "Jason Berthomier",
+   "squad": "Clermont Foot"
   },
   {
-   "fbref_id": "6025fab1",
-   "season": 2019,
-   "distance": 2.792,
-   "survived": 1,
-   "fut_ability_v2": 71.0,
-   "player_name": "Luka Modrić",
-   "squad": "Real Madrid"
-  },
-  {
-   "fbref_id": "0e21fc3c",
-   "season": 2018,
-   "distance": 2.852,
-   "survived": 1,
-   "fut_ability_v2": 62.2,
-   "player_name": "Borja Valero",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "c3a8bcd8",
-   "season": 2020,
-   "distance": 2.857,
+   "fbref_id": "6e4df551",
+   "season": 2022,
+   "distance": 2.624,
    "survived": 0,
    "fut_ability_v2": null,
-   "player_name": "Lasse Schöne",
-   "squad": "Genoa"
-  },
-  {
-   "fbref_id": "89f951b5",
-   "season": 2020,
-   "distance": 2.919,
-   "survived": 1,
-   "fut_ability_v2": 63.1,
-   "player_name": "Ivan Rakitić",
-   "squad": "Barcelona"
-  },
-  {
-   "fbref_id": "6025fab1",
-   "season": 2018,
-   "distance": 2.92,
-   "survived": 1,
-   "fut_ability_v2": 71.3,
-   "player_name": "Luka Modrić",
-   "squad": "Real Madrid"
+   "player_name": "Papu Gómez",
+   "squad": "Sevilla"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "İlkay Gündoğan(MF)의 현재 능력 점수는 71.0점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 패스 성공률, 전진 운반 거리, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 태클+인터셉트이다.",
-  "potential": "İlkay Gündoğan의 2~3년 후 예측 중심값은 68.5점, 80% 구간 상단은 77.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 67.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "İlkay Gündoğan의 2~3년 후 예측 중심값은 66.3점, 80% 구간 상단은 75.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

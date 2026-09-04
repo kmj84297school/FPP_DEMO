@@ -32,60 +32,78 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2805,
-  "mu": 53.8,
+  "survival_prob": 0.4214,
+  "mu": 53.3,
   "ci80": {
-   "lo": 44.6,
-   "hi": 63.0
+   "lo": 43.9,
+   "hi": 62.6
   },
   "ci50": {
-   "lo": 49.0,
-   "hi": 58.6
+   "lo": 48.3,
+   "hi": 58.2
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "dbe519cf",
    "season": 2019,
-   "distance": 2.159,
+   "distance": 2.16,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Antoñito",
    "squad": "Valladolid"
   },
   {
+   "fbref_id": "9f323c71",
+   "season": 2021,
+   "distance": 2.363,
+   "survived": 1,
+   "fut_ability_v2": 60.2,
+   "player_name": "Óscar de Marcos",
+   "squad": "Athletic Club"
+  },
+  {
    "fbref_id": "6d8f8441",
    "season": 2019,
-   "distance": 2.466,
+   "distance": 2.411,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Coke",
    "squad": "Levante"
   },
   {
-   "fbref_id": "5e6342d4",
-   "season": 2018,
-   "distance": 2.636,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Vincent Bessat",
-   "squad": "Caen"
-  },
-  {
    "fbref_id": "b69261a0",
    "season": 2020,
-   "distance": 2.636,
+   "distance": 2.618,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Oscar Wendt",
    "squad": "M'Gladbach"
   },
   {
+   "fbref_id": "5e6342d4",
+   "season": 2018,
+   "distance": 2.625,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Vincent Bessat",
+   "squad": "Caen"
+  },
+  {
+   "fbref_id": "fd51b456",
+   "season": 2022,
+   "distance": 2.662,
+   "survived": 1,
+   "fut_ability_v2": 61.5,
+   "player_name": "Lucas Vázquez",
+   "squad": "Real Madrid"
+  },
+  {
    "fbref_id": "4601e194",
    "season": 2020,
-   "distance": 2.717,
+   "distance": 2.681,
    "survived": 1,
    "fut_ability_v2": 65.9,
    "player_name": "Jordi Alba",
@@ -94,7 +112,7 @@
   {
    "fbref_id": "767212e6",
    "season": 2020,
-   "distance": 2.807,
+   "distance": 2.785,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Julien Faussurier",
@@ -103,7 +121,7 @@
   {
    "fbref_id": "9ab48bde",
    "season": 2020,
-   "distance": 2.883,
+   "distance": 2.824,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Pablo de Blasis",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "76e5da9d",
    "season": 2019,
-   "distance": 2.89,
+   "distance": 2.852,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Fabian Johnson",
    "squad": "M'Gladbach"
-  },
-  {
-   "fbref_id": "a7813ac4",
-   "season": 2019,
-   "distance": 3.009,
-   "survived": 1,
-   "fut_ability_v2": 49.9,
-   "player_name": "Daniel Brosinski",
-   "squad": "Mainz 05"
-  },
-  {
-   "fbref_id": "b18095b6",
-   "season": 2018,
-   "distance": 3.038,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Leighton Baines",
-   "squad": "Everton"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Davide Zappacosta(DF)의 현재 능력 점수는 55.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 시도, 유효슈팅, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 태클+인터셉트이다.",
-  "potential": "Davide Zappacosta의 2~3년 후 예측 중심값은 53.8점, 80% 구간 상단은 63.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Davide Zappacosta의 2~3년 후 예측 중심값은 53.3점, 80% 구간 상단은 62.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.1%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

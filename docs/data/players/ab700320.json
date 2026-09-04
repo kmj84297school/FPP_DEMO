@@ -32,42 +32,33 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5568,
-  "mu": 57.4,
+  "survival_prob": 0.425,
+  "mu": 57.7,
   "ci80": {
-   "lo": 48.1,
-   "hi": 66.9
+   "lo": 48.2,
+   "hi": 67.1
   },
   "ci50": {
-   "lo": 52.5,
-   "hi": 62.5
+   "lo": 52.7,
+   "hi": 62.6
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 7.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
    "fbref_id": "2306bfde",
    "season": 2019,
-   "distance": 2.075,
+   "distance": 2.07,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Rubén Pardo",
    "squad": "Real Sociedad"
   },
   {
-   "fbref_id": "61fc9685",
-   "season": 2018,
-   "distance": 2.202,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Alexandru Maxim",
-   "squad": "Mainz 05"
-  },
-  {
    "fbref_id": "2c851997",
    "season": 2019,
-   "distance": 2.279,
+   "distance": 2.243,
    "survived": 1,
    "fut_ability_v2": 60.6,
    "player_name": "Gastón Ramírez",
@@ -76,25 +67,52 @@
   {
    "fbref_id": "7e689867",
    "season": 2018,
-   "distance": 2.319,
+   "distance": 2.271,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Marco Terrazzino",
    "squad": "Freiburg"
   },
   {
+   "fbref_id": "61fc9685",
+   "season": 2018,
+   "distance": 2.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Alexandru Maxim",
+   "squad": "Mainz 05"
+  },
+  {
    "fbref_id": "97333cf5",
    "season": 2019,
-   "distance": 2.389,
+   "distance": 2.283,
    "survived": 1,
    "fut_ability_v2": 59.2,
    "player_name": "Stuart Armstrong",
    "squad": "Southampton"
   },
   {
+   "fbref_id": "7d937aa1",
+   "season": 2021,
+   "distance": 2.328,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Antonin Bobichon",
+   "squad": "Angers"
+  },
+  {
+   "fbref_id": "0f134faf",
+   "season": 2022,
+   "distance": 2.346,
+   "survived": 1,
+   "fut_ability_v2": 52.3,
+   "player_name": "Mathias Jensen",
+   "squad": "Brentford"
+  },
+  {
    "fbref_id": "54b4dc4e",
    "season": 2018,
-   "distance": 2.407,
+   "distance": 2.427,
    "survived": 1,
    "fut_ability_v2": 67.0,
    "player_name": "Kerem Demirbay",
@@ -103,7 +121,7 @@
   {
    "fbref_id": "1001ae82",
    "season": 2018,
-   "distance": 2.479,
+   "distance": 2.507,
    "survived": 1,
    "fut_ability_v2": 51.6,
    "player_name": "Ryad Boudebouz",
@@ -112,29 +130,11 @@
   {
    "fbref_id": "5c96b017",
    "season": 2020,
-   "distance": 2.613,
+   "distance": 2.624,
    "survived": 1,
    "fut_ability_v2": 55.9,
    "player_name": "Rubén García",
    "squad": "Osasuna"
-  },
-  {
-   "fbref_id": "980522ec",
-   "season": 2020,
-   "distance": 2.658,
-   "survived": 1,
-   "fut_ability_v2": 69.7,
-   "player_name": "Christian Eriksen",
-   "squad": "Tottenham / Inter"
-  },
-  {
-   "fbref_id": "6992791d",
-   "season": 2018,
-   "distance": 2.668,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Junior Stanislas",
-   "squad": "Bournemouth"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Arne Maier(MF)의 현재 능력 점수는 64.0점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 볼 리커버리, 키패스, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 공중볼 승리이다.",
-  "potential": "Arne Maier의 2~3년 후 예측 중심값은 57.4점, 80% 구간 상단은 66.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Arne Maier의 2~3년 후 예측 중심값은 57.7점, 80% 구간 상단은 67.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.5%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

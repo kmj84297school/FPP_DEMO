@@ -32,24 +32,42 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6056,
-  "mu": 49.7,
+  "survival_prob": 0.6543,
+  "mu": 50.2,
   "ci80": {
-   "lo": 39.1,
-   "hi": 60.3
+   "lo": 39.7,
+   "hi": 60.6
   },
   "ci50": {
-   "lo": 44.2,
-   "hi": 55.3
+   "lo": 44.6,
+   "hi": 55.6
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.6,
   "sigma_residual": 8.0
  },
  "neighbors": [
   {
+   "fbref_id": "e1df6989",
+   "season": 2021,
+   "distance": 1.532,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Imran Louza",
+   "squad": "Nantes"
+  },
+  {
+   "fbref_id": "c2731c10",
+   "season": 2021,
+   "distance": 1.678,
+   "survived": 1,
+   "fut_ability_v2": 64.5,
+   "player_name": "Conor Gallagher",
+   "squad": "West Brom"
+  },
+  {
    "fbref_id": "c69ef855",
    "season": 2018,
-   "distance": 1.857,
+   "distance": 1.89,
    "survived": 1,
    "fut_ability_v2": 52.1,
    "player_name": "Alexis Blin",
@@ -58,83 +76,65 @@
   {
    "fbref_id": "283c7121",
    "season": 2020,
-   "distance": 1.978,
+   "distance": 2.055,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Edu Expósito",
    "squad": "Eibar"
   },
   {
-   "fbref_id": "99f7e9aa",
-   "season": 2018,
-   "distance": 2.017,
-   "survived": 1,
-   "fut_ability_v2": 54.3,
-   "player_name": "Pascal Stenzel",
-   "squad": "Freiburg"
+   "fbref_id": "e2f9bb5f",
+   "season": 2022,
+   "distance": 2.06,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Zaydou Youssouf",
+   "squad": "Saint-Étienne"
   },
   {
    "fbref_id": "e26fcca3",
    "season": 2019,
-   "distance": 2.042,
+   "distance": 2.096,
    "survived": 1,
    "fut_ability_v2": 49.4,
    "player_name": "Santiago Ascacíbar",
    "squad": "Stuttgart"
   },
   {
+   "fbref_id": "99f7e9aa",
+   "season": 2018,
+   "distance": 2.107,
+   "survived": 1,
+   "fut_ability_v2": 54.3,
+   "player_name": "Pascal Stenzel",
+   "squad": "Freiburg"
+  },
+  {
    "fbref_id": "3bb625ac",
    "season": 2019,
-   "distance": 2.092,
+   "distance": 2.178,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Edimilson Fernandes",
    "squad": "Fiorentina"
   },
   {
-   "fbref_id": "5ae499d0",
-   "season": 2019,
-   "distance": 2.113,
-   "survived": 1,
-   "fut_ability_v2": 63.7,
-   "player_name": "Santi Comesaña",
-   "squad": "Rayo Vallecano"
-  },
-  {
    "fbref_id": "384d58d9",
    "season": 2019,
-   "distance": 2.118,
+   "distance": 2.195,
    "survived": 1,
    "fut_ability_v2": 57.2,
    "player_name": "Denis Zakaria",
    "squad": "M'Gladbach"
   },
   {
-   "fbref_id": "6f7d826d",
-   "season": 2020,
-   "distance": 2.166,
+   "fbref_id": "5ae499d0",
+   "season": 2019,
+   "distance": 2.204,
    "survived": 1,
-   "fut_ability_v2": 51.4,
-   "player_name": "Douglas Luiz",
-   "squad": "Aston Villa"
-  },
-  {
-   "fbref_id": "9228b07c",
-   "season": 2020,
-   "distance": 2.236,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Tom Davies",
-   "squad": "Everton"
-  },
-  {
-   "fbref_id": "d3112d86",
-   "season": 2020,
-   "distance": 2.332,
-   "survived": 1,
-   "fut_ability_v2": 39.7,
-   "player_name": "Sebastian Vasiliadis",
-   "squad": "Paderborn 07"
+   "fut_ability_v2": 63.7,
+   "player_name": "Santi Comesaña",
+   "squad": "Rayo Vallecano"
   }
  ],
  "low_confidence": false,
@@ -309,6 +309,6 @@
  },
  "narrative": {
   "current": "Johann Lepenant(MF)의 현재 능력 점수는 45.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 블록, 태클+인터셉트, 실책 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 전진 운반 거리이다.",
-  "potential": "Johann Lepenant의 2~3년 후 예측 중심값은 49.7점, 80% 구간 상단은 60.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 60.6%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.231로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Johann Lepenant의 2~3년 후 예측 중심값은 50.2점, 80% 구간 상단은 60.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 65.4%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

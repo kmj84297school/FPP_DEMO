@@ -32,51 +32,69 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5502,
-  "mu": 59.3,
+  "survival_prob": 0.1975,
+  "mu": 58.8,
   "ci80": {
-   "lo": 49.9,
-   "hi": 68.6
+   "lo": 49.4,
+   "hi": 68.2
   },
   "ci50": {
-   "lo": 54.3,
-   "hi": 64.2
+   "lo": 53.9,
+   "hi": 63.8
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 7.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "e85fb9b8",
-   "season": 2018,
-   "distance": 1.96,
+   "fbref_id": "4bd414c1",
+   "season": 2021,
+   "distance": 1.929,
    "survived": 1,
-   "fut_ability_v2": 58.6,
-   "player_name": "Giorgio Chiellini",
-   "squad": "Juventus"
+   "fut_ability_v2": 53.2,
+   "player_name": "Raúl Albiol",
+   "squad": "Villarreal"
   },
   {
    "fbref_id": "3f5b4635",
    "season": 2020,
-   "distance": 1.992,
+   "distance": 1.952,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Daniel Congré",
    "squad": "Montpellier"
   },
   {
+   "fbref_id": "e85fb9b8",
+   "season": 2018,
+   "distance": 1.957,
+   "survived": 1,
+   "fut_ability_v2": 58.6,
+   "player_name": "Giorgio Chiellini",
+   "squad": "Juventus"
+  },
+  {
    "fbref_id": "4bd414c1",
    "season": 2019,
-   "distance": 2.04,
+   "distance": 2.014,
    "survived": 1,
    "fut_ability_v2": 54.4,
    "player_name": "Raúl Albiol",
    "squad": "Napoli"
   },
   {
+   "fbref_id": "53de807a",
+   "season": 2020,
+   "distance": 2.109,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ștefan Radu",
+   "squad": "Lazio"
+  },
+  {
    "fbref_id": "52ec54d0",
    "season": 2020,
-   "distance": 2.094,
+   "distance": 2.144,
    "survived": 1,
    "fut_ability_v2": 55.5,
    "player_name": "Leonardo Bonucci",
@@ -85,56 +103,38 @@
   {
    "fbref_id": "b6ca47a2",
    "season": 2018,
-   "distance": 2.113,
+   "distance": 2.151,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Matías Silvestre",
    "squad": "Sampdoria"
   },
   {
-   "fbref_id": "53de807a",
-   "season": 2020,
-   "distance": 2.115,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Ștefan Radu",
-   "squad": "Lazio"
-  },
-  {
-   "fbref_id": "e97150c0",
-   "season": 2020,
-   "distance": 2.136,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Jérémy Morel",
-   "squad": "Rennes"
-  },
-  {
    "fbref_id": "e97150c0",
    "season": 2018,
-   "distance": 2.168,
+   "distance": 2.152,
    "survived": 1,
    "fut_ability_v2": 44.1,
    "player_name": "Jérémy Morel",
    "squad": "Lyon"
   },
   {
+   "fbref_id": "e97150c0",
+   "season": 2020,
+   "distance": 2.158,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Jérémy Morel",
+   "squad": "Rennes"
+  },
+  {
    "fbref_id": "3d936ba9",
    "season": 2019,
-   "distance": 2.172,
+   "distance": 2.165,
    "survived": 0,
    "fut_ability_v2": null,
    "player_name": "Domenico Maietta",
    "squad": "Empoli"
-  },
-  {
-   "fbref_id": "314f2124",
-   "season": 2018,
-   "distance": 2.209,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Miranda",
-   "squad": "Inter"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "David López(DF)의 현재 능력 점수는 55.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 운반 거리, 전진 패스 거리, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 블록이다.",
-  "potential": "David López의 2~3년 후 예측 중심값은 59.3점, 80% 구간 상단은 68.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 55.0%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "David López의 2~3년 후 예측 중심값은 58.8점, 80% 구간 상단은 68.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 19.8%로 추정된다. 종합하면 현재 대비 추가 상승 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }

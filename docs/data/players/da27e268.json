@@ -32,60 +32,87 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5842,
-  "mu": 51.2,
+  "survival_prob": 0.2565,
+  "mu": 53.2,
   "ci80": {
-   "lo": 41.9,
-   "hi": 60.7
+   "lo": 43.7,
+   "hi": 62.5
   },
   "ci50": {
-   "lo": 46.3,
-   "hi": 56.2
+   "lo": 48.2,
+   "hi": 58.1
   },
-  "sigma_model": 2.0,
-  "sigma_residual": 7.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.1
  },
  "neighbors": [
   {
-   "fbref_id": "6cdd8245",
-   "season": 2020,
-   "distance": 2.083,
-   "survived": 1,
-   "fut_ability_v2": 35.7,
-   "player_name": "Tom Cleverley",
-   "squad": "Watford"
+   "fbref_id": "84d94b91",
+   "season": 2021,
+   "distance": 1.845,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Thomas Monconduit",
+   "squad": "Lorient"
+  },
+  {
+   "fbref_id": "1f2d714c",
+   "season": 2022,
+   "distance": 1.906,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Ajdin Hrustic",
+   "squad": "Eint Frankfurt"
   },
   {
    "fbref_id": "0fbecd11",
    "season": 2020,
-   "distance": 2.14,
+   "distance": 2.098,
    "survived": 1,
    "fut_ability_v2": 52.1,
    "player_name": "Dominik Kohr",
    "squad": "Eint Frankfurt"
   },
   {
-   "fbref_id": "0f9b8301",
+   "fbref_id": "6cdd8245",
    "season": 2020,
-   "distance": 2.274,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Cristian Battocchio",
-   "squad": "Brest"
+   "distance": 2.128,
+   "survived": 1,
+   "fut_ability_v2": 35.7,
+   "player_name": "Tom Cleverley",
+   "squad": "Watford"
   },
   {
    "fbref_id": "80f36c88",
    "season": 2018,
-   "distance": 2.281,
+   "distance": 2.264,
    "survived": 1,
    "fut_ability_v2": 56.6,
    "player_name": "Sebastian Rudy",
    "squad": "Bayern Munich"
   },
   {
+   "fbref_id": "e947ee4a",
+   "season": 2021,
+   "distance": 2.281,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Gastón Brugman",
+   "squad": "Parma"
+  },
+  {
+   "fbref_id": "0f9b8301",
+   "season": 2020,
+   "distance": 2.313,
+   "survived": 0,
+   "fut_ability_v2": null,
+   "player_name": "Cristian Battocchio",
+   "squad": "Brest"
+  },
+  {
    "fbref_id": "3902e91b",
    "season": 2020,
-   "distance": 2.286,
+   "distance": 2.32,
    "survived": 1,
    "fut_ability_v2": 48.0,
    "player_name": "Gonzalo Melero",
@@ -94,47 +121,20 @@
   {
    "fbref_id": "ef2e5e1a",
    "season": 2019,
-   "distance": 2.323,
+   "distance": 2.339,
    "survived": 1,
    "fut_ability_v2": 65.3,
    "player_name": "Kevin Strootman",
    "squad": "Marseille / Roma"
   },
   {
-   "fbref_id": "c50281a0",
-   "season": 2019,
-   "distance": 2.401,
-   "survived": 1,
-   "fut_ability_v2": 64.3,
-   "player_name": "Lars Bender",
-   "squad": "Leverkusen"
-  },
-  {
    "fbref_id": "c5fa58ea",
    "season": 2018,
-   "distance": 2.404,
+   "distance": 2.382,
    "survived": 1,
    "fut_ability_v2": 51.2,
    "player_name": "Pedro Mosquera",
    "squad": "La Coruña"
-  },
-  {
-   "fbref_id": "44ac04e9",
-   "season": 2020,
-   "distance": 2.428,
-   "survived": 0,
-   "fut_ability_v2": null,
-   "player_name": "Matías Vecino",
-   "squad": "Inter"
-  },
-  {
-   "fbref_id": "3eb0f2df",
-   "season": 2018,
-   "distance": 2.444,
-   "survived": 1,
-   "fut_ability_v2": 55.0,
-   "player_name": "Vladimír Darida",
-   "squad": "Hertha BSC"
   }
  ],
  "low_confidence": false,
@@ -304,6 +304,6 @@
  },
  "narrative": {
   "current": "Marc Roca(MF)의 현재 능력 점수는 57.6점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 블록, 어시스트, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 골 창출(GCA)이다.",
-  "potential": "Marc Roca의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 60.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.4%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.502로 예측에는 상당한 불확실성이 남아있다)."
+  "potential": "Marc Roca의 2~3년 후 예측 중심값은 53.2점, 80% 구간 상단은 62.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.7%로 추정된다. 종합하면 현재 대비 현 수준 유지 경향으로 예측된다 (단, 이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다)."
  }
 }
