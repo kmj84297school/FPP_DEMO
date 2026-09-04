@@ -108,7 +108,8 @@ DIST_COLS z-거리 k=10, 상위 10% 거리면 "비교 신뢰도 낮음". fbref_i
 크롤링·서버 없음. 빌드(`build/01…05`) → `docs/data/*.json` → 바닐라 JS + vendored Chart.js.
 `main`의 `/docs`가 배포본. 페이지: `index.html`(검색·필터·permalink), `player.html`(상세·SHAP 설명),
 `compare.html`(두 선수 비교). 구간은 `mu ± z·sqrt(σ_model² + σ_residual²)`, mu는 앙상블 평균.
-디자인 시스템 "Orbit"(다크 유리 + 별·궤도 로고, FC26식 선수 카드, 모션): `dev_docs/DESIGN.md`. 카드의 두 숫자는
+디자인 시스템 "Orbit"(다크 유리 + 별·궤도 로고, FC26식 선수 카드, 모션): `dev_docs/DESIGN.md`.
+비전문가용 활동 보고서: `dev_docs/ACTIVITY_REPORT.md` · 발표자료 프롬프트: `dev_docs/PPT_PROMPT.md`(+ `dev_docs/ppt_assets/`). 카드의 두 숫자는
 "현재"/"2~3년 후 상한(80% 구간 상단)"으로만 부른다 — OVR/POT식 과장 금지.
 (옛 계획의 Render/FastAPI 배포는 폐기. legacy app.py는 참고용으로만 남음.)
 

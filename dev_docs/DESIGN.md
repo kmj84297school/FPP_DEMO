@@ -39,7 +39,7 @@ Football Manager(스카우트 리포트 스탬프), Sofascore/FotMob(원형 평�
 - 색만으로 정보를 전달하지 않는다(등급 텍스트, ▲/▼, aria-label).
 
 ## 측정 (2026-09-04, Chromium)
-- 첫 로드(index.html + css + common/motion/app.js + index.json + meta.json): **272 KB** (목표 350 KB 이하). Chart.js(200 KB)는 상세·비교에서만.
+- 첫 로드(index.html + css + common/motion/app.js + index.json + meta.json): **266 KB** (목표 350 KB 이하). Chart.js(200 KB)는 상세·비교에서만.
   index.json은 nation 열 추가로 190 → 201 KB.
 - 375px: index/player/compare `scrollWidth` 375(가로 스크롤 0). 콘솔 스크립트 오류 0(FBref 헤드샷 핫링크 차단 로그만).
 - reduced-motion 에뮬레이션: `html.no-motion` 부여, 레이아웃 동일, 인트로 없음.
