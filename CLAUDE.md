@@ -99,23 +99,24 @@ FPP_V2/
 
 ## 6. 남은 작업 (우선순위 순)
 
-### A. 유사 선수 k-NN 레이어 (분석 기능 마지막 조각)
-- 입력: 학습 행렬과 동일 피처 공간 (시즌 내 표준화 필수 — 시대 보정)
-- 같은 포지션 그룹 내에서 (나이±1, 스탯 z-거리) k=10 최근접 과거 선수 검색
-- 출력: 유사 선수들의 실제 t+2~t+3 결과 분포 → 실증 구간 + 사례 서술
-- 주의: 유사도 거리가 멀면 "비교 신뢰도 낮음" 표시 (아웃라이어의 고독 문제)
-- fbref_id로만 조인 (이름 조인 금지 — 동명이인 33명 존재 확인됨)
+### A. 유사 선수 k-NN 레이어 — 완료
+`build/lib/knn.py` + `04_knn_neighbors.py`(성장기) / `09_knn_veteran.py`(성숙기). 같은 포지션·나이±1,
+DIST_COLS z-거리 k=10, 상위 10% 거리면 "비교 신뢰도 낮음". fbref_id로만 조인. 역할(A1) 기반 후보
+축소는 실험 결과 중립~악화라 쓰지 않는다.
 
-### B. FastAPI 웹 서빙 재구축 (핵심 작업)
-- legacy의 app.py 구조 참고하되 신규 작성 권장
-- 서버는 크롤링 없음: CSV + 모델 로드 → 선수 검색 → 즉시 응답
-- 응답 구성: 현재 능력(이중 렌즈 분해) + 잔존 확률 + 예측 잠재력 + 80%/50% 구간
-  + 유사 선수 비교 + 레이더/차트
-- 구간 계산: mu ± z * sqrt(sigma_model² + 7.49²)  (z80=1.2816, z50=0.6745)
-  sigma_model은 부트스트랩 앙상블 예측 표준편차 (앙상블 재학습 필요 시 boot_ci.py 참조)
-- 주의: legacy app.py는 구식 TemplateResponse 규약 — 최신 starlette은
-  `TemplateResponse(request, "x.html", ctx)` 순서
-- 배포 목표: Render (기존 서비스 FPP_PROTOTYPE / fpp-prototype.onrender.com 계정 존재)
+### B. 서빙 — FastAPI 대신 **정적 GitHub Pages**로 완료
+크롤링·서버 없음. 빌드(`build/01…05`) → `docs/data/*.json` → 바닐라 JS + vendored Chart.js.
+`main`의 `/docs`가 배포본. 페이지: `index.html`(검색·필터·permalink), `player.html`(상세·SHAP 설명),
+`compare.html`(두 선수 비교). 구간은 `mu ± z·sqrt(σ_model² + σ_residual²)`, mu는 앙상블 평균.
+(옛 계획의 Render/FastAPI 배포는 폐기. legacy app.py는 참고용으로만 남음.)
+
+### B-2. 3단계(2026-09) 완료 요약 — 상세는 dev_docs/PHASE3_REPORT.md
+- 채택: A4 잔존 피처 13개 + A3 튜닝(별도 분할 확인) + 앙상블 평균 점추정 → §5 지표.
+  A5 SHAP 설명 패널·서술문. A8 인터페이스(필터·permalink·비교·모바일·접근성·190KB index).
+  2023-24 반입 결함 2건 수정(Wolverhampton 2배 합산, 동명이인 6쌍 병합). A7 id 복구 1건(보수 규칙).
+- 기각(지표 악화, 기록 보존): A1 역할 단위 채점(v2), A2 최댓값 라벨, A2 분위수 회귀.
+- 데이터가 있어야 하는 것: dev_docs/DATA_REQUESTS.md (B1~B6). B2 검증 스크립트
+  `build/exp/b2_external_validation.py`와 FBref↔TM 매핑(`data/fbref_tm_mapping_subset.csv`, 실 id 99.7%)은 준비됨.
 
 ### C. 최신 시즌 데이터 보충 — 2024·2025 반입 완료
 현재 데이터: `fpp_features_clean_2018_2025.csv` **19,783행 × 169열** (2018~2025).
@@ -189,10 +190,13 @@ shape z-축으로 CB/FB/DM/CM/AM/W/ST를 추론해 시즌×역할 풀로 채점�
 
 ### D. 백로그 (착수 전 소유자와 상의)
 - 능력점수 v2: 박스 포처 저평가(그룹 내 균등가중 한계), 수비수 팀 강도 편향,
-  포지션 간 분산 불일치(FW sd 13.8 vs DF 7.5) — 진단 완료, 처방 미착수
-- GK 전용 모델 (keepers 데이터 미포함 상태)
-- SHAP 해석 레이어
-- 외부 라벨(시장가치 등)로 능력점수 타당성 교차검증 — "라벨 순환성" 비판 대응
+  포지션 간 분산 불일치(FW sd 13.6 vs DF 7.5) — 진단 완료. 역할 단위 채점으로는 안 풀림(A1 기각).
+  다음 후보: 시즌×포지션 내 표준화(50+10z) — 라벨 정의가 바뀌므로 §4 승인 필요.
+- 2022-23(=2023) 시즌이 원 아카이브 자체가 13경기 부분 시즌(최대 1,170분)이라 코호트 2020 t+3 /
+  2021 t+2 라벨이 900분 기준을 거의 못 넘긴다. 부분 시즌 비례 임계(≈308분) 적용 여부는 라벨 정의 변경.
+- A3 선택 설정이 격자 경계(lr 0.03, 트리 150, 깊이 3)에 있다 — 더 강한 정규화 탐색 여지.
+- 외부 라벨 검증(B2): 데이터만 오면 즉시 실행 가능(스크립트·매핑 준비됨).
+- GK 전용 모델(B6), 빅5 밖 리그 라벨 분리(B4), 부상 기록(B3): DATA_REQUESTS.md 참조.
 
 ## 7. 데이터 출처·라이선스 (상업화 관련 중대사항)
 
@@ -208,4 +212,6 @@ shape z-축으로 CB/FB/DM/CM/AM/W/ST를 추론해 시즌×역할 풀로 채점�
 - Python 3.12, 주요 의존성: pandas, numpy, xgboost, scikit-learn, fastapi,
   uvicorn, jinja2, matplotlib
 - pip 설치 시 시스템에 따라 --break-system-packages 필요할 수 있음
-- 모델 로드: `XGBRegressor(); m.load_model("models/xgb_ability_v2.json")`
+- 모델 로드: `XGBRegressor(); m.load_model("models/xgb_delta_u23.json")` (서빙 mu는 03의 앙상블 평균)
+- 전체 재빌드 순서: `01 → 06 → 07 → 02 → 03 → 04 → 09 → 10 → 11 → 05` (`build/exp/*`는 실험용, 파이프라인 아님)
+- 스크린샷/스모크 테스트: Playwright + `/opt/pw-browsers/chromium`, `docs/`를 `python3 -m http.server`로 서빙

@@ -49,6 +49,7 @@ def split_params(d):
 
 if __name__ == "__main__":
     metrics = {}
+    OOF_ROWS = []
     for name in ("u23", "veteran"):
         M = pd.read_csv(DATA / f"fpp_train_matrix_{name}.csv")
         surv_p, surv_f = split_params(HP[name]["surv"])
@@ -115,6 +116,15 @@ if __name__ == "__main__":
         final_reg.save_model(MODELS / f"xgb_delta_{name}.json")  # 참고용 단일 모델(서빙 mu는 03의 앙상블 평균)
         np.save(MODELS / f"resid_sigma_{name}.npy", sig_r)
 
+        # B2 외부검증용 폴드 밖 예측 저장 (fbref_id, season, pred_delta, survival_prob)
+        surv_oof = np.full(len(M), np.nan)
+        for tr, te in gkf.split(X, y_surv, g):
+            m = XGBClassifier(random_state=2026, tree_method="hist", subsample=0.8, colsample_bytree=0.8, **surv_p)
+            m.fit(X.iloc[tr], y_surv[tr]); surv_oof[te] = m.predict_proba(X.iloc[te])[:, 1]
+        oof_df = M[["fbref_id", "season"]].copy(); oof_df["survival_prob"] = np.round(surv_oof, 4); oof_df["cohort"] = name
+        oof_df = oof_df.merge(pd.DataFrame({"fbref_id": S["fbref_id"], "season": S["season"], "pred_delta": np.round(oof - cur, 2)}), on=["fbref_id", "season"], how="left")
+        OOF_ROWS.append(oof_df)
+
         metrics[name] = {
             "auc": round(auc, 3), "auc_sd": round(float(np.std(aucs)), 3),
             "mae": round(mae, 2), "r2": round(r2, 3),
@@ -131,6 +141,7 @@ if __name__ == "__main__":
         }
         print()
 
+    pd.concat(OOF_ROWS).to_csv(CACHE / "oof_predictions.csv", index=False)
     with open(CACHE / "model_metrics.json", "w", encoding="utf-8") as f:
         json.dump(metrics, f, ensure_ascii=False, indent=1)
     print("지표 저장:", CACHE / "model_metrics.json")
