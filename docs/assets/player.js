@@ -113,7 +113,7 @@ function renderPlayer(p) {
         <h1>${m.player_name}</h1>
         <div class="sub">${flagChip(m.nation)} ${m.squad || "—"} · ${m.comps || "—"}<br>${m.pos_primary}${m.role ? ` · ${m.role.label}${m.role.borderline ? "(경계)" : ""}` : ""} · 만 ${m.age_years}세 · 2024-25시즌 ${m.minutes_season}분 · ${p.style.primary || "스타일 미판정"}</div>
         <div class="stamps">${stamps.join("")}</div>
-        <div style="margin-top:12px;max-width:360px;">${orbitGaugeHtml(c.ability, pred ? pred.ci80.hi : null)}</div>
+        <div style="margin-top:12px;max-width:380px;">${orbitGaugeHtml(c.ability, pred ? pred.ci80.hi : null, { mu: pred ? pred.mu : null })}</div>
       </div>
       <div class="head-right">
         <div class="rings">
@@ -248,8 +248,12 @@ function renderPlayer(p) {
             <span class="lbl">2~3년 후 상한 (80% 구간 상단)</span>
             ${scoreBadge(pred.ci80.hi, "2~3년 후 상한", "show-tier")}
           </div>
+          <div class="stat-row" style="padding:10px 0;">
+            <span class="lbl">예측 중심값 (가장 가능성 높은 값)</span>
+            ${scoreBadge(pred.mu, "예측 중심값", "show-tier mu-badge")}
+          </div>
+          <div class="hint" style="margin:2px 0 8px;">상한은 <b>상위 10% 시나리오</b>, 중심값은 <b>가장 가능성이 높은 값</b>입니다. 두 숫자를 함께 보세요.</div>
           <div class="stat-row"><span class="lbl">${survivalLabel}</span><span>${(pred.survival_prob * 100).toFixed(1)}%</span></div>
-          <div class="stat-row"><span class="lbl">예측 중심값 (mu)</span><span>${fmt1(pred.mu)}</span></div>
           <div class="stat-row"><span class="lbl">80% 구간</span><span>${fmt1(pred.ci80.lo)} ~ ${fmt1(pred.ci80.hi)}</span></div>
           <div class="stat-row"><span class="lbl">50% 구간</span><span>${fmt1(pred.ci50.lo)} ~ ${fmt1(pred.ci50.hi)}</span></div>
           ${oor ? `<div class="note" style="margin-top:10px;">모델 검증 범위 밖입니다 — 이 선수의 현재 능력(${fmt1(c.ability)})은 학습 데이터에서 관측된 2~3년 후 능력의 상위 1%를 넘습니다. ${topBandText(isGrowth)} 점추정과 함께 <b>유사 선수의 실제 결과</b>를 참고하세요.</div>` : ""}

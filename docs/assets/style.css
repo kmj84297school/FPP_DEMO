@@ -235,14 +235,20 @@ header.top {
 .flag .iso { font-size: 0.66rem; letter-spacing: 0.06em; padding: 1px 5px; border-radius: 4px; background: rgba(255,255,255,0.08); color: var(--ink2); }
 
 /* 궤도 게이지: 현재 → 2~3년 후 상한 (한 궤도 위의 두 점) */
-.orbit-gauge { position: relative; height: 26px; }
-.orbit-gauge svg { width: 100%; height: 100%; overflow: visible; }
+.orbit-gauge { position: relative; }
+.orbit-gauge svg { display: block; width: 100%; height: 26px; overflow: visible; }
 .orbit-gauge .track { stroke: rgba(255,255,255,0.12); stroke-width: 2; fill: none; }
 .orbit-gauge .arc { stroke: url(#gaugeGrad); stroke-width: 3; fill: none; stroke-linecap: round; }
 .orbit-gauge .dot-now { fill: var(--accent2); filter: drop-shadow(0 0 4px var(--accent2)); }
 .orbit-gauge .dot-fut { fill: var(--gold); filter: drop-shadow(0 0 4px var(--gold)); }
 .orbit-gauge .dot-fut.star { fill: none; stroke: var(--gold); stroke-width: 1.5; }
-.orbit-gauge .lbls { display: flex; justify-content: space-between; font-size: 0.6rem; color: var(--muted); margin-top: 2px; }
+.orbit-gauge .dot-mu { fill: rgba(11,14,23,0.9); stroke: var(--ink2); stroke-width: 1.6; }
+.orbit-gauge .lbls { display: flex; justify-content: space-between; gap: 4px; font-size: 0.6rem; color: var(--muted); margin-top: 2px; }
+.orbit-gauge .lbls .mid { color: var(--ink2); font-weight: 600; }
+.orbit-gauge .lbls.mu-only { justify-content: center; font-size: 0.66rem; margin-top: 3px; }
+.sub-val { font-size: 0.72rem; color: var(--ink2); margin-top: 3px; font-variant-numeric: tabular-nums; }
+/* 예측 중심값 배지 — 상한(채운 배지)보다 한 단계 약하되 충분히 눈에 띄는 아웃라인 */
+.badge.mu-badge { background: transparent; border: 1.5px solid var(--band-c, var(--ink2)); color: var(--band-c, var(--ink)); font-size: 0.95rem; }
 
 /* 원형 링 게이지 (상세 헤더) */
 .ring { position: relative; width: 96px; height: 96px; }
@@ -276,12 +282,12 @@ tr:focus-visible { outline: 2px solid var(--accent2); outline-offset: -2px; }
 .badge.tag { background: rgba(255,255,255,0.03); border: 1px solid var(--border2); color: var(--muted); font-weight: 500; }
 .badge .tier { display: none; }
 .badge.show-tier .tier, .cards .badge .tier { display: inline; margin-left: 6px; font-size: 0.72rem; opacity: 0.85; font-weight: 500; }
-.band-elite { background: var(--band-elite); }
-.band-great { background: var(--band-great); }
-.band-good  { background: var(--band-good); }
-.band-ok    { background: var(--band-ok); }
-.band-mid   { background: var(--band-mid); }
-.band-bad   { background: var(--band-bad); }
+.band-elite { background: var(--band-elite); --band-c: var(--band-elite); }
+.band-great { background: var(--band-great); --band-c: var(--band-great); }
+.band-good  { background: var(--band-good);  --band-c: var(--band-good); }
+.band-ok    { background: var(--band-ok);    --band-c: var(--band-ok); }
+.band-mid   { background: var(--band-mid);   --band-c: var(--band-mid); }
+.band-bad   { background: var(--band-bad);   --band-c: var(--band-bad); }
 
 .back-link { display: inline-block; margin-bottom: 14px; color: var(--muted); }
 .page-nav { display: flex; justify-content: space-between; gap: 12px; }

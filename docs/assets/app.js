@@ -8,7 +8,7 @@ const SORT_MODES = {
 };
 const SORT_HINTS = {
   ability: "",
-  ceiling: "예측 대상만 표시됩니다. 80% 신뢰구간의 상단값이며, 실제 계산된 구간입니다(임의로 올린 숫자가 아님). 예측 시점은 '커리어 전성기'가 아니라 정확히 2~3년 후입니다.",
+  ceiling: "예측 대상만 표시됩니다. 80% 신뢰구간의 상단값이며, 실제 계산된 구간입니다(임의로 올린 숫자가 아님). 상한은 상위 10% 시나리오이고, 함께 표시되는 <b>중심값이 가장 가능성 높은 값</b>입니다. 예측 시점은 '커리어 전성기'가 아니라 정확히 2~3년 후입니다.",
   headroom: "2~3년 후 상한(80% 구간 상단)에서 현재 능력을 뺀 값입니다. 값이 클수록 모델이 현재보다 더 올라갈 여지가 있다고 보는 선수입니다.",
 };
 const AGE_BANDS = {
@@ -64,7 +64,11 @@ function valueCell(p, mode) {
     const t = v > 5 ? "상승 여지 큼" : v > 0 ? "상승 여지" : v > -3 ? "유지" : "하락 위험";
     return `<span class="badge ${deltaCls(v)}" aria-label="상승 여력 ${sign}${fmt1(v)}, ${t}" title="${t}">${sign}${fmt1(v)}<span class="tier">${t}</span></span>`;
   }
-  return mode === "ceiling" ? scoreBadge(p.ceiling, "2~3년 후 상한") : scoreBadge(p.ability, "현재능력");
+  if (mode === "ceiling") {
+    return scoreBadge(p.ceiling, "2~3년 후 상한")
+      + (p.mu != null ? `<div class="sub-val" title="예측 중심값 — 가장 가능성이 높은 값">중심 ${fmt1(p.mu)}</div>` : "");
+  }
+  return scoreBadge(p.ability, "현재능력");
 }
 function roleLabel(code) {
   return META && META.role_labels && code ? META.role_labels[code] || code : (code || "");
@@ -159,7 +163,7 @@ function applyStateToControls() {
   });
   const hintEl = document.getElementById("sortHint");
   hintEl.style.display = SORT_HINTS[state.sort] ? "block" : "none";
-  hintEl.textContent = SORT_HINTS[state.sort];
+  hintEl.innerHTML = SORT_HINTS[state.sort];
   for (const [k, id] of Object.entries(FILTER_IDS)) document.getElementById(id).value = state[k];
   document.querySelectorAll(".view-btn").forEach((b) => {
     const on = b.dataset.view === state.view;
@@ -225,7 +229,7 @@ Promise.all([fetch("data/index.json").then((r) => r.json()), fetch("data/meta.js
       ? ` (${meta.target_year}시즌은 데이터 수집 시점상 부분 시즌이라, 원래 기준(${meta.original_pred_min_minutes}분)을 실제 관측된 최대 출전시간(${meta.season_max_minutes}분) 대비 동일 비율로 환산했습니다.)`
       : "";
     document.getElementById("eligibilityHint").innerHTML =
-      `현재능력 점수는 전체 ${meta.n_players.toLocaleString()}명에게 제공됩니다. 카드의 <b>2~3년 후 상한</b>은 80% 신뢰구간의 상단(상위 10% 시나리오)이며 최댓값이 아닙니다. 예측은 <b>2~3년 후 시점</b>의 능력이며(커리어 전성기가 아님), ` +
+      `현재능력 점수는 전체 ${meta.n_players.toLocaleString()}명에게 제공됩니다. 카드의 <b>2~3년 후 상한</b>은 80% 신뢰구간의 상단(상위 10% 시나리오)이며 최댓값이 아닙니다. 카드 아래 <b>중심</b>이 가장 가능성 높은 값이니 두 숫자를 함께 보세요. 예측은 <b>2~3년 후 시점</b>의 능력이며(커리어 전성기가 아님), ` +
       `만 ${meta.pred_age_max}세 이하·${meta.pred_min_minutes}분 이상은 <b>성장기 모델</b>, ` +
       `만 ${meta.veteran.age_min}~${meta.veteran.age_max}세·${meta.veteran.pred_min_minutes}분 이상은 <b>성숙기 모델</b>이 적용됩니다.${partialNote}` +
       `<br>성숙기 모델이 성장기 모델보다 정확도가 높습니다 (MAE ${meta.veteran.mae} vs ${meta.u23_mae}, R² ${meta.veteran.r2} vs ${meta.u23_r2}, GroupKFold 5겹 검증).` +

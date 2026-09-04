@@ -94,23 +94,35 @@ function flagChip(iso) {
   return iso ? `<span class="flag"><span class="iso">${iso}</span></span>` : "";
 }
 
-// ── 궤도 게이지: 현재(초록 점) → 2~3년 후 상한(금색 별) 을 한 궤도 위에 ──
+// ── 궤도 게이지: 현재(초록 점) → 중심값(속 빈 원) → 2~3년 후 상한(금색 별) ──
+// 상한만 보고 판단하지 않도록 중심값(가장 가능성 높은 값)을 같은 궤도 위에 함께 찍는다.
 function orbitGaugeHtml(now, fut, opts) {
   const o = opts || {};
+  const mu = o.mu === null || o.mu === undefined ? null : o.mu;
   const W = 200, H = 26, y = 14;
   const x = (v) => 6 + Math.max(0, Math.min(100, v ?? 0)) / 100 * (W - 12);
   const hasFut = fut !== null && fut !== undefined;
   const a = x(now), b = hasFut ? x(fut) : a;
   const lo = Math.min(a, b), hi = Math.max(a, b);
+  const aria = `현재 ${fmt1(now)}${mu !== null ? `, 예측 중심값 ${fmt1(mu)}` : ""}${hasFut ? `, 2~3년 후 상한 ${fmt1(fut)}` : ""}`;
+  let lbls = "";
+  if (o.labels !== false) {
+    const mid = mu !== null ? `<span class="mid">중심 ${fmt1(mu)}</span>` : "";
+    // "mu-only": 카드처럼 현재·상한이 이미 큰 숫자로 있는 곳에서는 중심값만 덧붙인다.
+    lbls = o.labels === "mu-only"
+      ? (mu !== null ? `<div class="lbls mu-only">${mid}</div>` : "")
+      : `<div class="lbls"><span>현재 ${fmt1(now)}</span>${mid}<span>${hasFut ? `2~3년 후 상한 ${fmt1(fut)}` : "예측 없음"}</span></div>`;
+  }
   return `
-    <div class="orbit-gauge" role="img" aria-label="현재 ${fmt1(now)}${hasFut ? `, 2~3년 후 상한 ${fmt1(fut)}` : ""}">
+    <div class="orbit-gauge" role="img" aria-label="${aria}">
       <svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
         <path class="track" d="M6 ${y} Q ${W / 2} ${y - 9} ${W - 6} ${y}"/>
         ${hasFut ? `<path class="arc" d="M${lo} ${y - 4} Q ${(lo + hi) / 2} ${y - 9} ${hi} ${y - 4}"/>` : ""}
         <circle class="dot-now" cx="${a}" cy="${y - 4}" r="4"/>
+        ${mu !== null ? `<circle class="dot-mu" cx="${x(mu)}" cy="${y - 4}" r="3.4"><title>예측 중심값 ${fmt1(mu)}</title></circle>` : ""}
         ${hasFut ? `<path class="dot-fut" transform="translate(${b} ${y - 4})" d="M0 -6 L1.8 -1.8 L6 0 L1.8 1.8 L0 6 L-1.8 1.8 L-6 0 L-1.8 -1.8 Z"/>` : ""}
       </svg>
-      ${o.labels === false ? "" : `<div class="lbls"><span>현재 ${fmt1(now)}</span><span>${hasFut ? `2~3년 후 상한 ${fmt1(fut)}` : "예측 없음"}</span></div>`}
+      ${lbls}
     </div>`;
 }
 
@@ -140,7 +152,7 @@ function playerCardHtml(p, roleLabelFn) {
           <span class="lbl">현재</span><span class="val g">${fmt1(p.ability)}</span><span class="tier">${tierText(p.ability)}</span>
         </div>
         <button type="button" class="btn-mini pc-cmp" data-cmp-id="${p.fbref_id}" data-cmp-name="${p.name}" aria-pressed="false">비교</button>
-        <div class="pc-num" title="2~3년 후 능력의 80% 신뢰구간 상단 — 최댓값이 아니라 상위 10% 시나리오">
+        <div class="pc-num" title="2~3년 후 능력의 80% 신뢰구간 상단 — 최댓값이 아니라 상위 10% 시나리오. 가장 가능성이 높은 값은 아래 '중심'입니다.">
           <span class="lbl">2~3년 후 상한</span><span class="val ${futVal != null ? "y" : "n"}">${futVal != null ? fmt1(futVal) : "—"}</span><span class="tier">${futVal != null ? tierText(futVal) : "예측 없음"}</span>
         </div>
       </div>
@@ -148,7 +160,7 @@ function playerCardHtml(p, roleLabelFn) {
       <div class="pc-name">${p.name}</div>
       <div class="pc-meta">${flagChip(p.nation)}<b>${p.pos_primary}</b>${role ? `<span>${role}</span>` : ""}<span>· ${p.age ?? "—"}세</span></div>
       <div class="pc-meta"><span>${p.squad || "—"}</span></div>
-      <div class="pc-orbit">${orbitGaugeHtml(p.ability, futVal, { labels: false })}</div>
+      <div class="pc-orbit">${orbitGaugeHtml(p.ability, futVal, { mu: p.mu, labels: p.mu != null ? "mu-only" : false })}</div>
       ${tags.length ? `<div class="pc-tags">${tags.join("")}</div>` : ""}
     </a>`;
 }

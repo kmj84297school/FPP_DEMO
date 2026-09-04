@@ -70,7 +70,7 @@ function headCard(p, slot) {
       <div style="flex:1;min-width:0;">
         <h2><a href="player.html?id=${m.fbref_id}">${m.player_name}</a></h2>
         <div class="sub muted small">${flagChip(m.nation)} ${m.squad || "—"} · ${m.pos_primary}${m.role ? ` (${m.role.label})` : ""} · 만 ${m.age_years}세</div>
-        <div style="margin-top:8px;">${orbitGaugeHtml(c.ability, pr ? pr.ci80.hi : null)}</div>
+        <div style="margin-top:8px;">${orbitGaugeHtml(c.ability, pr ? pr.ci80.hi : null, { mu: pr ? pr.mu : null })}</div>
       </div>
     </div>`;
 }
@@ -105,8 +105,8 @@ function render(A, B) {
           <tr><td>대표 스타일</td><td>${A.style.primary || "—"}</td><td class="diff"></td><td>${B.style.primary || "—"}</td></tr>
           ${samePos ? radarKeys.map((k) => row(mapA[k].label + " (pct)", mapA[k].percentile, mapB[k] ? mapB[k].percentile : null)).join("") : ""}
           <tr><td colspan="4" class="muted small" style="text-align:left;padding-top:12px;">2~3년 후 예측 (${pa ? (A.eligibility.kind === "growth" ? "성장기" : "성숙기") : "대상 아님"} / ${pb ? (B.eligibility.kind === "growth" ? "성장기" : "성숙기") : "대상 아님"} 모델)</td></tr>
-          ${row("예측 중심값", pa ? pa.mu : null, pb ? pb.mu : null)}
-          ${row("80% 구간 상단", pa ? pa.ci80.hi : null, pb ? pb.ci80.hi : null)}
+          ${row("예측 중심값 (가장 가능성 높은 값)", pa ? pa.mu : null, pb ? pb.mu : null)}
+          ${row("80% 구간 상단 (상위 10% 시나리오)", pa ? pa.ci80.hi : null, pb ? pb.ci80.hi : null)}
           ${row("80% 구간 하단", pa ? pa.ci80.lo : null, pb ? pb.ci80.lo : null)}
           ${row("빅5 잔존/유지 확률", pa ? pa.survival_prob : null, pb ? pb.survival_prob : null, pct)}
           ${A.eligibility.out_of_validated_range || B.eligibility.out_of_validated_range ? `<tr><td colspan="4" class="muted small" style="text-align:left;">※ ${[A, B].filter((p) => p.eligibility.out_of_validated_range).map((p) => p.meta.player_name).join(", ")}: 모델 검증 범위 밖(상세 페이지 참조)</td></tr>` : ""}
