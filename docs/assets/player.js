@@ -64,7 +64,7 @@ function renderPlayer(p) {
         </div>
         <div>
           <h1>${m.player_name}</h1>
-          <div class="sub">${m.squad || "—"} · ${m.comps || "—"} · ${m.pos_primary} · ${m.nation || "—"} · 만 ${m.age_years}세 · 2024-25시즌 ${m.minutes_season}분</div>
+          <div class="sub">${m.squad || "—"} · ${m.comps || "—"} · ${m.pos_primary}${m.role ? ` (${m.role.label}${m.role.borderline ? "·경계" : ""})` : ""} · ${m.nation || "—"} · 만 ${m.age_years}세 · 2024-25시즌 ${m.minutes_season}분</div>
         </div>
       </div>
       <span class="badge ${bandcls(c.ability)}" style="font-size:1.3rem;padding:8px 16px;">${fmt1(c.ability)}</span>

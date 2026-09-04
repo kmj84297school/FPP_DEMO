@@ -42,6 +42,21 @@ def ascii_fold(s):
     return "".join(c for c in nfkd if not unicodedata.combining(c)).lower()
 
 
+ROLE_LABEL_KO = {"CB": "센터백", "FB": "풀백", "DM": "수비형 MF", "CM": "중앙 MF",
+                 "AM": "공격형 MF", "W": "윙어", "ST": "스트라이커"}
+
+
+def role_block(row):
+    """세부 역할(추정) — 구성비 z-축으로 판정한 참고 라벨. 점수 계산에는 쓰이지 않는다
+    (A1 실험: 역할 단위 채점은 OOF 지표 악화로 기각). |축|이 작으면 경계 사례라고 표시."""
+    r = row.get("role")
+    if not isinstance(r, str):
+        return None
+    axis = to_native(row.get("role_axis"))
+    return {"code": r, "label": ROLE_LABEL_KO.get(r, r), "axis": axis,
+            "borderline": bool(axis is not None and abs(axis) < 0.3)}
+
+
 def to_native(v):
     if pd.isna(v):
         return None
@@ -162,6 +177,7 @@ if __name__ == "__main__":
                 "squad": row["Squads"],
                 "comps": row["Comps"],
                 "pos_primary": row["pos_primary"],
+                "role": role_block(row),
                 "minutes_season": to_native(row["std_Min_Playing"]),
             },
             "current": {
@@ -241,6 +257,7 @@ if __name__ == "__main__":
             "name_ascii": ascii_fold(row["Player"]),
             "squad": row["Squads"],
             "pos_primary": row["pos_primary"],
+            "role": row["role"] if isinstance(row.get("role"), str) else None,
             "age": to_native(row["age_y"]),
             "ability": ability_scaled,
             "style": player["style"]["primary"],

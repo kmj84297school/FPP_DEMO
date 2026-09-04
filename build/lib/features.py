@@ -51,8 +51,10 @@ def compute_raw90(features_df):
     return out
 
 
-def build_feature_matrix(features_df, ability_df, target_year):
+def build_feature_matrix(features_df, ability_df, target_year, extra_cols=()):
     """target_year 시즌 행에 대해 모델 입력 51피처 매트릭스 생성.
+
+    extra_cols: MODEL_FEATURES 외에 ability_df에서 그대로 실어 보낼 열(실험용, 예: role).
 
     features_df: data/fpp_features_clean_2018_2023.csv 전체 (raw per90 계산용)
     ability_df:  scoring_v1.build_scores() 출력, 전체 시즌
@@ -85,7 +87,8 @@ def build_feature_matrix(features_df, ability_df, target_year):
         cur[f"sty_{s}"] = (cur["style"] == s).astype(int)
 
     meta_cols = ["Player", "pos_primary", "style", "Squads", "Comps"]
-    return cur[MODEL_FEATURES + meta_cols].copy()
+    extra = [c for c in extra_cols if c not in MODEL_FEATURES and c not in meta_cols]
+    return cur[MODEL_FEATURES + meta_cols + extra].copy()
 
 
 def reindex_for_model(feat_df, booster):
