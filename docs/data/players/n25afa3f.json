@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9273,
-  "mu": 71.5,
+  "survival_prob": 0.8053,
+  "mu": 67.5,
   "ci80": {
-   "lo": 60.9,
-   "hi": 82.2
+   "lo": 57.3,
+   "hi": 77.8
   },
   "ci50": {
-   "lo": 65.9,
-   "hi": 77.2
+   "lo": 62.2,
+   "hi": 73.0
   },
-  "sigma_model": 2.5,
-  "sigma_residual": 8.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 1.11,
-   "total": 2.18,
+   "base": 0.93,
+   "rest": 0.66,
+   "total": -1.78,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "72.3",
-     "contrib": -2.78
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "6.2",
-     "contrib": 2.22
+     "contrib": -2.38
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "69.3",
-     "contrib": -1.25
+     "contrib": -1.12
     },
     {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "2.4",
-     "contrib": 0.99
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "8.9",
+     "contrib": -0.84
     },
-    {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "77.7",
-     "contrib": 0.91
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.939,
-   "rest": 0.552,
-   "base_prob": 0.719,
-   "prob": 0.927,
-   "top": [
     {
      "feature": "AttPenT90",
      "label": "박스 터치/90",
      "value_text": "6.2",
-     "contrib": 0.95
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "66.3",
-     "contrib": 0.35
+     "contrib": 0.59
     },
     {
      "feature": "AerPct",
      "label": "공중볼 승률",
      "value_text": "10.5",
-     "contrib": -0.23
-    },
+     "contrib": 0.39
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.956,
+   "rest": -0.073,
+   "base_prob": 0.722,
+   "prob": 0.805,
+   "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1340.0",
-     "contrib": -0.22
+     "contrib": -0.33
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.3",
-     "contrib": 0.21
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "60.4",
+     "contrib": 0.32
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "6.2",
+     "contrib": 0.26
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.17
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "66.3",
+     "contrib": 0.12
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Francisco Conceição(FW)의 현재 능력 점수는 69.3점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 전진 운반 거리, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Francisco Conceição의 2~3년 후 예측 중심값은 71.5점, 80% 구간 상단은 82.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.7%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 82.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.2점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 박스 터치/90(6.2, +2.2), 성공 드리블/90(2.4, +1.0), 전진 그룹 점수(77.7, +0.9); 내린 요인은 스타일 렌즈 점수(72.3, -2.8), 현재 능력(69.3, -1.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(박스 터치/90, 포지션 렌즈 점수)과 하락 요인(공중볼 승률, 시즌 출전시간(분))을 거쳐 92.7%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Francisco Conceição의 2~3년 후 예측 중심값은 67.5점, 80% 구간 상단은 77.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 80.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 77.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.8점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 박스 터치/90(6.2, +0.6), 공중볼 승률(10.5, +0.4); 내린 요인은 스타일 렌즈 점수(72.3, -2.4), 현재 능력(69.3, -1.1), 팀 평균 대비 본인 능력(8.9, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 박스 터치/90)과 하락 요인(시즌 출전시간(분))을 거쳐 80.5%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

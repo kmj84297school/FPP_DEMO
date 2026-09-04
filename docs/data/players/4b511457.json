@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1179,
-  "mu": 58.9,
+  "survival_prob": 0.1749,
+  "mu": 54.1,
   "ci80": {
-   "lo": 49.5,
-   "hi": 68.4
+   "lo": 44.8,
+   "hi": 63.5
   },
   "ci50": {
-   "lo": 53.9,
-   "hi": 63.9
+   "lo": 49.2,
+   "hi": 58.9
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 2.66,
-   "total": 9.54,
+   "base": -1.93,
+   "rest": 0.48,
+   "total": 4.68,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-12.6",
-     "contrib": 3.88
+     "contrib": 3.67
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "49.4",
+     "contrib": 0.86
     },
     {
      "feature": "grp_chance",
      "label": "찬스 그룹 점수",
      "value_text": "8.1",
-     "contrib": 1.61
+     "contrib": 0.64
     },
     {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "39.6",
-     "contrib": 1.14
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-4.7",
+     "contrib": 0.48
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "40.9",
-     "contrib": 1.08
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "10.2",
-     "contrib": 1.06
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "57.9",
+     "contrib": 0.47
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.319,
+   "base_logit": 0.151,
+   "rest": -0.372,
    "base_prob": 0.538,
-   "prob": 0.118,
+   "prob": 0.175,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "32.0",
-     "contrib": -0.77
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.5",
-     "contrib": -0.36
+     "contrib": -0.67
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1356.0",
-     "contrib": -0.28
+     "contrib": -0.3
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "420.0",
-     "contrib": -0.23
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "39.6",
+     "contrib": -0.13
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "10.2",
-     "contrib": -0.22
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "884.0",
+     "contrib": -0.11
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "54.2",
+     "contrib": -0.11
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Oriol Romeu(MF)의 현재 능력 점수는 49.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 패스 성공률, 전진 운반 거리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 실책이다.",
-  "potential": "Oriol Romeu의 2~3년 후 예측 중심값은 58.9점, 80% 구간 상단은 68.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 11.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 68.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +9.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-12.6, +3.9), 찬스 그룹 점수(8.1, +1.6), 팀 출전시간 비중(%)(39.6, +1.1), 포지션 렌즈 점수(40.9, +1.1), 생산 그룹 점수(10.2, +1.1)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 전진 운반/90)을 거쳐 11.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Oriol Romeu의 2~3년 후 예측 중심값은 54.1점, 80% 구간 상단은 63.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 17.5%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 63.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-12.6, +3.7), 현재 능력(49.4, +0.9), 찬스 그룹 점수(8.1, +0.6), 팀 평균 대비 본인 능력(-4.7, +0.5), 스타일 렌즈 점수(57.9, +0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 시즌 출전시간(분))을 거쳐 17.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

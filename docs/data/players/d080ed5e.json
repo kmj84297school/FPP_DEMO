@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4408,
-  "mu": 55.9,
+  "survival_prob": 0.5297,
+  "mu": 55.7,
   "ci80": {
    "lo": 46.5,
-   "hi": 65.5
+   "hi": 65.1
   },
   "ci50": {
-   "lo": 51.0,
-   "hi": 61.0
+   "lo": 50.9,
+   "hi": 60.7
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.22,
-   "total": -2.73,
+   "base": -1.93,
+   "rest": -1.17,
+   "total": -2.95,
    "top": [
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-5.2",
+     "contrib": 0.66
+    },
     {
      "feature": "d_npxG90",
      "label": "npxG/90 변화",
      "value_text": "0.2",
-     "contrib": 1.56
+     "contrib": 0.52
     },
     {
      "feature": "PrgCarry90",
      "label": "전진 운반/90",
      "value_text": "0.6",
-     "contrib": -0.65
+     "contrib": -0.39
     },
     {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "38.3",
-     "contrib": -0.53
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "62.2",
+     "contrib": -0.35
     },
     {
-     "feature": "d_SCA90",
-     "label": "SCA/90 변화",
-     "value_text": "0.1",
-     "contrib": 0.5
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "55.4",
-     "contrib": -0.48
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "72.7",
+     "contrib": -0.3
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.607,
+   "base_logit": 0.151,
+   "rest": 0.244,
    "base_prob": 0.538,
-   "prob": 0.441,
+   "prob": 0.53,
    "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1586.0",
+     "contrib": -0.26
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.16
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "46.4",
+     "contrib": -0.15
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "998.0",
+     "contrib": -0.15
+    },
     {
      "feature": "d_std_Min_Playing",
      "label": "출전시간 변화(분)",
      "value_text": "-896.0",
-     "contrib": 0.3
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.6",
-     "contrib": -0.27
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "27.3",
-     "contrib": -0.22
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "83.0",
-     "contrib": 0.21
-    },
-    {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.3",
-     "contrib": 0.19
+     "contrib": 0.12
     }
    ]
   },
@@ -144,7 +144,7 @@
    "season": 2022,
    "distance": 2.149,
    "survived": 1,
-   "fut_ability_v2": 55.6,
+   "fut_ability_v2": 55.5,
    "player_name": "Lee Jae-sung",
    "squad": "Mainz 05"
   },
@@ -153,7 +153,7 @@
    "season": 2022,
    "distance": 2.453,
    "survived": 1,
-   "fut_ability_v2": 38.5,
+   "fut_ability_v2": 38.4,
    "player_name": "Jeffrey Schlupp",
    "squad": "Crystal Palace"
   },
@@ -171,7 +171,7 @@
    "season": 2021,
    "distance": 2.8,
    "survived": 1,
-   "fut_ability_v2": 43.4,
+   "fut_ability_v2": 43.3,
    "player_name": "Yannick Gerhardt",
    "squad": "Wolfsburg"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Mikel Merino(MF)의 현재 능력 점수는 58.7점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승리, 무페널티 득점, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 운반이다.",
-  "potential": "Mikel Merino의 2~3년 후 예측 중심값은 55.9점, 80% 구간 상단은 65.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 65.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 npxG/90 변화(0.2, +1.6), SCA/90 변화(0.1, +0.5); 내린 요인은 전진 운반/90(0.6, -0.7), 전진 그룹 점수(38.3, -0.5), 포지션 렌즈 점수(55.4, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(출전시간 변화(분), 생산 그룹 점수)과 하락 요인(전진 운반/90, 안정 그룹 점수)을 거쳐 44.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Mikel Merino의 2~3년 후 예측 중심값은 55.7점, 80% 구간 상단은 65.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 65.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-5.2, +0.7), npxG/90 변화(0.2, +0.5); 내린 요인은 전진 운반/90(0.6, -0.4), 스타일 렌즈 점수(62.2, -0.3), 수비 그룹 점수(72.7, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(팀 강도 리그 내 순위(0=최강), 출전시간 변화(분))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 53.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

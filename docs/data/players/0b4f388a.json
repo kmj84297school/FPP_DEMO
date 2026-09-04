@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.719,
-  "mu": 55.6,
+  "survival_prob": 0.6921,
+  "mu": 56.9,
   "ci80": {
-   "lo": 46.1,
-   "hi": 65.2
+   "lo": 47.6,
+   "hi": 66.3
   },
   "ci50": {
-   "lo": 50.6,
-   "hi": 60.7
+   "lo": 52.0,
+   "hi": 61.8
   },
-  "sigma_model": 2.1,
+  "sigma_model": 1.7,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.22,
-   "total": -6.53,
+   "base": -1.93,
+   "rest": -1.49,
+   "total": -5.23,
    "top": [
     {
      "feature": "npxG90",
      "label": "비페널티 xG/90",
      "value_text": "0.5",
-     "contrib": -0.98
+     "contrib": -1.02
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.1",
-     "contrib": -0.82
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-4.6",
+     "contrib": 0.64
     },
     {
      "feature": "sty_연결형 공격수",
      "label": "스타일: 연결형 공격수",
      "value_text": "예",
-     "contrib": -0.66
+     "contrib": -0.54
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "60.8",
-     "contrib": 0.58
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "62.2",
+     "contrib": -0.46
     },
     {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "1.6",
-     "contrib": -0.51
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.42
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.403,
+   "base_logit": 0.151,
+   "rest": -0.098,
    "base_prob": 0.538,
-   "prob": 0.719,
+   "prob": 0.692,
    "top": [
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "5.9",
-     "contrib": 0.35
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "66.8",
+     "contrib": 0.44
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "27.0",
-     "contrib": 0.24
+     "contrib": 0.23
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.1",
-     "contrib": -0.2
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.18
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "21.3",
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "1002.0",
      "contrib": -0.17
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "62.2",
-     "contrib": 0.17
+     "contrib": 0.08
     }
    ]
   },
@@ -180,7 +180,7 @@
    "season": 2021,
    "distance": 2.639,
    "survived": 1,
-   "fut_ability_v2": 60.3,
+   "fut_ability_v2": 60.2,
    "player_name": "Álvaro Morata",
    "squad": "Juventus"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Breel Embolo(FW)의 현재 능력 점수는 62.2점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
-  "potential": "Breel Embolo의 2~3년 후 예측 중심값은 55.6점, 80% 구간 상단은 65.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.9%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 65.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -6.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(60.8, +0.6); 내린 요인은 비페널티 xG/90(0.5, -1.0), 전진 운반/90(1.1, -0.8), 스타일: 연결형 공격수(예, -0.7), 키패스/90(1.6, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(박스 터치/90, 나이)과 하락 요인(전진 운반/90, 안정 그룹 점수)을 거쳐 71.9%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Breel Embolo의 2~3년 후 예측 중심값은 56.9점, 80% 구간 상단은 66.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 66.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-4.6, +0.6); 내린 요인은 비페널티 xG/90(0.5, -1.0), 스타일: 연결형 공격수(예, -0.5), 현재 능력(62.2, -0.5), 능력 변화(전 시즌 대비)(결측, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 나이)과 하락 요인(2시즌 전 출전시간(분))을 거쳐 69.2%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3251,
-  "mu": 44.1,
+  "survival_prob": 0.3126,
+  "mu": 45.7,
   "ci80": {
-   "lo": 33.8,
-   "hi": 54.3
+   "lo": 35.9,
+   "hi": 55.4
   },
   "ci50": {
-   "lo": 38.7,
-   "hi": 49.4
+   "lo": 40.5,
+   "hi": 50.8
   },
-  "sigma_model": 3.7,
+  "sigma_model": 2.7,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.3,
-   "total": -1.39,
+   "base": -1.93,
+   "rest": -0.31,
+   "total": 0.2,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "42.1",
-     "contrib": 2.49
+     "contrib": 2.5
     },
     {
      "feature": "npxG90",
      "label": "비페널티 xG/90",
      "value_text": "0.4",
-     "contrib": -2.23
+     "contrib": -1.5
     },
     {
-     "feature": "d_npxG90",
-     "label": "npxG/90 변화",
-     "value_text": "0.2",
-     "contrib": 1.57
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-12.8",
+     "contrib": 1.13
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "45.4",
+     "contrib": 1.08
     },
     {
      "feature": "PrgPass90",
      "label": "전진 패스/90",
      "value_text": "1.3",
-     "contrib": -1.42
-    },
-    {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "45.4",
-     "contrib": 1.41
+     "contrib": -0.77
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.123,
+   "base_logit": 0.151,
+   "rest": -0.082,
    "base_prob": 0.538,
-   "prob": 0.325,
+   "prob": 0.313,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "31.0",
-     "contrib": -0.67
+     "contrib": -0.6
     },
     {
-     "feature": "d_grp_chance",
-     "label": "찬스 그룹 변화",
-     "value_text": "-35.1",
-     "contrib": 0.41
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "1288.0",
-     "contrib": -0.29
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "42.1",
-     "contrib": -0.24
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "909.0",
+     "contrib": -0.14
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "45.4",
-     "contrib": -0.21
+     "contrib": -0.12
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "57.1",
+     "contrib": -0.12
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "58.2",
+     "contrib": 0.11
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Borja Iglesias(FW)의 현재 능력 점수는 45.4점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 무페널티 득점, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 전진 운반 거리이다.",
-  "potential": "Borja Iglesias의 2~3년 후 예측 중심값은 44.1점, 80% 구간 상단은 54.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 54.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(42.1, +2.5), npxG/90 변화(0.2, +1.6), 현재 능력(45.4, +1.4); 내린 요인은 비페널티 xG/90(0.4, -2.2), 전진 패스/90(1.3, -1.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(찬스 그룹 변화)과 하락 요인(나이, 출전시간 변화(분))을 거쳐 32.5%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Borja Iglesias의 2~3년 후 예측 중심값은 45.7점, 80% 구간 상단은 55.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.3%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 55.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(42.1, +2.5), 팀 평균 대비 본인 능력(-12.8, +1.1), 현재 능력(45.4, +1.1); 내린 요인은 비페널티 xG/90(0.4, -1.5), 전진 패스/90(1.3, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도))과 하락 요인(나이, 2시즌 전 출전시간(분))을 거쳐 31.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

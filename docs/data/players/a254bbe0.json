@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3421,
-  "mu": 49.3,
+  "survival_prob": 0.4181,
+  "mu": 46.5,
   "ci80": {
-   "lo": 39.5,
-   "hi": 58.9
+   "lo": 37.0,
+   "hi": 55.9
   },
   "ci50": {
-   "lo": 44.2,
-   "hi": 54.3
+   "lo": 41.5,
+   "hi": 51.4
   },
-  "sigma_model": 2.5,
+  "sigma_model": 2.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 2.03,
-   "total": 12.51,
+   "base": -1.93,
+   "rest": 3.17,
+   "total": 9.72,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "40.6",
-     "contrib": 5.76
+     "contrib": 3.54
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "10.1",
-     "contrib": 2.62
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "36.8",
+     "contrib": 1.42
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-6.9",
-     "contrib": 1.64
+     "contrib": 1.38
     },
     {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "36.8",
-     "contrib": 1.24
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-15.5",
+     "contrib": 1.22
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "32.9",
-     "contrib": 1.13
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "10.1",
+     "contrib": 0.91
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.061,
+   "base_logit": 0.151,
+   "rest": -0.235,
    "base_prob": 0.538,
-   "prob": 0.342,
+   "prob": 0.418,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "27.0",
-     "contrib": 0.41
+     "contrib": 0.36
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1395.0",
-     "contrib": -0.35
+     "contrib": -0.26
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "52.3",
+     "contrib": -0.13
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "36.8",
-     "contrib": -0.28
+     "contrib": -0.11
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "40.6",
-     "contrib": -0.27
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.2",
-     "contrib": -0.26
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "40.8",
+     "contrib": -0.11
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Antonio Sánchez(MF)의 현재 능력 점수는 36.8점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 성공 드리블, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 슈팅 창출(SCA)이다.",
-  "potential": "Antonio Sánchez의 2~3년 후 예측 중심값은 49.3점, 80% 구간 상단은 58.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 58.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +12.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(40.6, +5.8), 찬스 그룹 점수(10.1, +2.6), 능력 변화(전 시즌 대비)(-6.9, +1.6), 현재 능력(36.8, +1.2), 포지션 렌즈 점수(32.9, +1.1)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 현재 능력)을 거쳐 34.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Antonio Sánchez의 2~3년 후 예측 중심값은 46.5점, 80% 구간 상단은 55.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 55.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +9.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(40.6, +3.5), 현재 능력(36.8, +1.4), 능력 변화(전 시즌 대비)(-6.9, +1.4), 팀 평균 대비 본인 능력(-15.5, +1.2), 찬스 그룹 점수(10.1, +0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 41.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

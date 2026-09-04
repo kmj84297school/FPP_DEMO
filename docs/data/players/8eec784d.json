@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6686,
-  "mu": 54.1,
+  "survival_prob": 0.6135,
+  "mu": 53.7,
   "ci80": {
-   "lo": 45.0,
-   "hi": 63.3
+   "lo": 44.4,
+   "hi": 62.9
   },
   "ci50": {
-   "lo": 49.3,
-   "hi": 59.1
+   "lo": 48.8,
+   "hi": 58.5
   },
-  "sigma_model": 1.0,
+  "sigma_model": 1.3,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.92,
-   "total": -0.7,
+   "base": -1.93,
+   "rest": 0.71,
+   "total": -1.23,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "3.6",
-     "contrib": -1.12
+     "contrib": -1.11
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "91.5",
-     "contrib": 1.05
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.72
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "137.0",
+     "contrib": 0.65
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-5.5",
+     "contrib": 0.63
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.98
-    },
-    {
-     "feature": "d_grp_progress",
-     "label": "전진 그룹 변화",
-     "value_text": "3.1",
-     "contrib": 0.66
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "48.8",
-     "contrib": 0.56
+     "contrib": 0.55
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.063,
+   "base_logit": 0.151,
+   "rest": 0.165,
    "base_prob": 0.538,
-   "prob": 0.669,
+   "prob": 0.613,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.66
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "91.5",
-     "contrib": 0.58
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "28.8",
-     "contrib": -0.23
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "380.0",
-     "contrib": -0.21
+     "contrib": 0.49
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1638.0",
-     "contrib": -0.19
+     "contrib": -0.23
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.17
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "137.0",
+     "contrib": -0.15
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "47.9",
+     "contrib": -0.14
     }
    ]
   },
@@ -207,7 +207,7 @@
    "season": 2021,
    "distance": 2.259,
    "survived": 1,
-   "fut_ability_v2": 53.6,
+   "fut_ability_v2": 53.5,
    "player_name": "Mërgim Vojvoda",
    "squad": "Torino"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Timothy Weah(DF)의 현재 능력 점수는 54.9점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 비페널티 xG, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 전진 패스 거리이다.",
-  "potential": "Timothy Weah의 2~3년 후 예측 중심값은 54.1점, 80% 구간 상단은 63.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 66.9%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 63.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 생산 그룹 점수(91.5, +1.1), 나이(24.0, +1.0), 전진 그룹 변화(3.1, +0.7), 포지션 렌즈 점수(48.8, +0.6); 내린 요인은 능력 변화(전 시즌 대비)(3.6, -1.1)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 생산 그룹 점수)과 하락 요인(안정 그룹 점수, 출전시간 변화(분))을 거쳐 66.9%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Timothy Weah의 2~3년 후 예측 중심값은 53.7점, 80% 구간 상단은 62.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 62.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 2시즌 전 출전시간(분)(137.0, +0.7), 팀 평균 대비 본인 능력(-5.5, +0.6), 나이(24.0, +0.6); 내린 요인은 능력 변화(전 시즌 대비)(3.6, -1.1), 리그: 세리에A(예, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 팀 강도 리그 내 순위(0=최강))과 하락 요인(시즌 출전시간(분), 2시즌 전 출전시간(분))을 거쳐 61.4%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3251,
-  "mu": 52.6,
+  "survival_prob": 0.4054,
+  "mu": 53.7,
   "ci80": {
-   "lo": 43.0,
-   "hi": 62.4
+   "lo": 44.2,
+   "hi": 63.1
   },
   "ci50": {
-   "lo": 47.6,
-   "hi": 57.8
+   "lo": 48.7,
+   "hi": 58.6
   },
-  "sigma_model": 2.7,
+  "sigma_model": 2.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.96,
-   "total": -8.85,
+   "base": -1.93,
+   "rest": -3.34,
+   "total": -7.85,
    "top": [
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.5",
-     "contrib": -2.15
-    },
     {
      "feature": "npxG90",
      "label": "비페널티 xG/90",
      "value_text": "0.4",
-     "contrib": -1.11
+     "contrib": -1.0
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "7.8",
-     "contrib": 0.99
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "1.5",
+     "contrib": -0.99
     },
     {
-     "feature": "SCA90",
-     "label": "슈팅 창출/90",
-     "value_text": "3.3",
-     "contrib": -0.94
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "61.5",
+     "contrib": -0.59
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.2",
-     "contrib": -0.77
+     "feature": "PassPct",
+     "label": "패스 성공률",
+     "value_text": "59.9",
+     "contrib": -0.55
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "159.0",
+     "contrib": 0.54
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.061,
+   "base_logit": 0.151,
+   "rest": 0.072,
    "base_prob": 0.538,
-   "prob": 0.325,
+   "prob": 0.405,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "908.0",
-     "contrib": -1.07
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "95.2",
-     "contrib": -0.48
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "7.8",
-     "contrib": 0.26
+     "contrib": -0.74
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "27.0",
-     "contrib": 0.24
+     "contrib": 0.27
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.5",
-     "contrib": 0.23
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "29.7",
+     "contrib": -0.15
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "60.7",
+     "contrib": 0.13
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "159.0",
+     "contrib": -0.12
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Oliver Burke(FW)의 현재 능력 점수는 61.5점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 박스 터치, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 어시스트이다.",
-  "potential": "Oliver Burke의 2~3년 후 예측 중심값은 52.6점, 80% 구간 상단은 62.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 62.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -8.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 박스 터치/90(7.8, +1.0); 내린 요인은 전진 패스/90(1.5, -2.1), 비페널티 xG/90(0.4, -1.1), 슈팅 창출/90(3.3, -0.9), 전진 운반/90(2.2, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(박스 터치/90, 나이)과 하락 요인(시즌 출전시간(분), 공중볼 승률)을 거쳐 32.5%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Oliver Burke의 2~3년 후 예측 중심값은 53.7점, 80% 구간 상단은 63.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 63.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 2시즌 전 출전시간(분)(159.0, +0.5); 내린 요인은 비페널티 xG/90(0.4, -1.0), 전진 패스/90(1.5, -1.0), 현재 능력(61.5, -0.6), 패스 성공률(59.9, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 40.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

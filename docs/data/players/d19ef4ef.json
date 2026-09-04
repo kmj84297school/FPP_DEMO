@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5424,
-  "mu": 57.1,
+  "survival_prob": 0.4513,
+  "mu": 53.4,
   "ci80": {
-   "lo": 47.7,
-   "hi": 66.6
+   "lo": 44.1,
+   "hi": 62.8
   },
   "ci50": {
-   "lo": 52.1,
-   "hi": 62.1
+   "lo": 48.4,
+   "hi": 58.3
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.7,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 1.79,
-   "total": 2.45,
+   "base": -1.93,
+   "rest": 0.51,
+   "total": -1.27,
    "top": [
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "25.0",
-     "contrib": 1.06
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "8.7",
+     "contrib": -1.06
     },
     {
-     "feature": "style_confidence",
-     "label": "스타일 확신도",
-     "value_text": "3.6",
-     "contrib": 0.94
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "54.0",
+     "contrib": 0.65
     },
     {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "65.4",
-     "contrib": -0.65
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "48.3",
-     "contrib": 0.63
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.59
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "54.7",
      "contrib": 0.59
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "25.0",
+     "contrib": 0.56
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.385,
+   "base_logit": 0.151,
+   "rest": -0.065,
    "base_prob": 0.538,
-   "prob": 0.542,
+   "prob": 0.451,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.5
+     "contrib": 0.35
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.0",
+     "contrib": -0.32
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1520.0",
-     "contrib": -0.25
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "17.4",
-     "contrib": -0.22
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "686.0",
      "contrib": -0.21
     },
     {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "44.3",
-     "contrib": -0.19
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.2
+    },
+    {
+     "feature": "d_npxG90",
+     "label": "npxG/90 변화",
+     "value_text": "0.0",
+     "contrib": 0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Alessio Zerbin(DF)의 현재 능력 점수는 54.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 박스 터치, 성공 드리블, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 볼 손실(미스+파울)이다.",
-  "potential": "Alessio Zerbin의 2~3년 후 예측 중심값은 57.1점, 80% 구간 상단은 66.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 66.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(25.0, +1.1), 스타일 확신도(3.6, +0.9), 포지션 렌즈 점수(48.3, +0.6), 현재 능력(54.7, +0.6); 내린 요인은 패스 성공률(65.4, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 안정 그룹 점수)을 거쳐 54.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Alessio Zerbin의 2~3년 후 예측 중심값은 53.4점, 80% 구간 상단은 62.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 62.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 2시즌 전 출전시간(분)(54.0, +0.7), 현재 능력(54.7, +0.6), 나이(25.0, +0.6); 내린 요인은 팀 평균 대비 본인 능력(8.7, -1.1), 리그: 세리에A(예, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, npxG/90 변화)과 하락 요인(소속팀 평균 능력(팀 강도), 시즌 출전시간(분))을 거쳐 45.1%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

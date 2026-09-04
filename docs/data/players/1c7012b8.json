@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9376,
-  "mu": 65.8,
+  "survival_prob": 0.8708,
+  "mu": 66.8,
   "ci80": {
-   "lo": 56.6,
-   "hi": 75.1
+   "lo": 57.6,
+   "hi": 76.0
   },
   "ci50": {
-   "lo": 61.0,
-   "hi": 70.7
+   "lo": 62.0,
+   "hi": 71.6
   },
-  "sigma_model": 1.4,
+  "sigma_model": 1.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.9,
-   "total": -6.82,
+   "base": -1.93,
+   "rest": 0.32,
+   "total": -5.91,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "74.4",
-     "contrib": -1.91
+     "contrib": -1.23
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "72.7",
-     "contrib": -1.39
+     "contrib": -0.96
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "2.6",
-     "contrib": 0.94
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "8.7",
+     "contrib": -0.91
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "1.7",
-     "contrib": -0.92
+     "contrib": -0.68
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "70.8",
-     "contrib": -0.74
+     "contrib": -0.52
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.74,
+   "base_logit": 0.151,
+   "rest": 0.4,
    "base_prob": 0.538,
-   "prob": 0.938,
+   "prob": 0.871,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.55
+     "contrib": 0.41
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2825.0",
-     "contrib": 0.41
+     "contrib": 0.37
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "82.6",
-     "contrib": 0.34
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "74.4",
-     "contrib": 0.27
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "70.8",
      "contrib": 0.24
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "63.9",
+     "contrib": 0.18
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.16
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Declan Rice(MF)의 현재 능력 점수는 72.7점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 도움 기대값(xAG), 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 성공 드리블이다.",
-  "potential": "Declan Rice의 2~3년 후 예측 중심값은 65.8점, 80% 구간 상단은 75.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 93.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 75.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -6.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 박스 터치/90(2.6, +0.9); 내린 요인은 스타일 렌즈 점수(74.4, -1.9), 현재 능력(72.7, -1.4), 능력 변화(전 시즌 대비)(1.7, -0.9), 포지션 렌즈 점수(70.8, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))을 거쳐 93.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Declan Rice의 2~3년 후 예측 중심값은 66.8점, 80% 구간 상단은 76.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 87.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 76.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(74.4, -1.2), 현재 능력(72.7, -1.0), 팀 평균 대비 본인 능력(8.7, -0.9), 능력 변화(전 시즌 대비)(1.7, -0.7), 포지션 렌즈 점수(70.8, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))을 거쳐 87.1%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

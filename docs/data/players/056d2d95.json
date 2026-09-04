@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0611,
-  "mu": 47.2,
+  "survival_prob": 0.1429,
+  "mu": 51.1,
   "ci80": {
-   "lo": 37.6,
-   "hi": 56.7
+   "lo": 41.9,
+   "hi": 60.3
   },
   "ci50": {
-   "lo": 42.1,
-   "hi": 52.1
+   "lo": 46.3,
+   "hi": 55.9
   },
-  "sigma_model": 2.2,
+  "sigma_model": 1.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.46,
-   "total": -7.11,
+   "base": -1.93,
+   "rest": -1.22,
+   "total": -3.12,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "1.7",
-     "contrib": -1.77
+     "contrib": -1.1
     },
     {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "1.8",
-     "contrib": -1.11
-    },
-    {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "0.1",
-     "contrib": -0.82
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "41.6",
-     "contrib": -0.76
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "54.2",
+     "contrib": 0.52
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "57.8",
-     "contrib": 0.7
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": -0.824,
-   "base_prob": 0.538,
-   "prob": 0.061,
-   "top": [
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "37.0",
-     "contrib": -1.59
+     "contrib": 0.51
     },
     {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1740.0",
-     "contrib": -0.25
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "50.8",
+     "contrib": 0.37
     },
     {
      "feature": "PrgCarry90",
      "label": "전진 운반/90",
      "value_text": "0.9",
+     "contrib": -0.27
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": -0.301,
+   "base_prob": 0.538,
+   "prob": 0.143,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "37.0",
+     "contrib": -1.09
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1740.0",
      "contrib": -0.2
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.16
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "56.9",
-     "contrib": -0.15
+     "contrib": -0.11
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "88.7",
-     "contrib": 0.12
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "53.7",
+     "contrib": -0.09
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Christopher Trimmel(DF)의 현재 능력 점수는 54.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 슈팅 창출(SCA), 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 전진 운반 거리이다.",
-  "potential": "Christopher Trimmel의 2~3년 후 예측 중심값은 47.2점, 80% 구간 상단은 56.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 6.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 56.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(57.8, +0.7); 내린 요인은 능력 변화(전 시즌 대비)(1.7, -1.8), 키패스/90(1.8, -1.1), 성공 드리블/90(0.1, -0.8), 안정 그룹 점수(41.6, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(찬스 그룹 점수)과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 6.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Christopher Trimmel의 2~3년 후 예측 중심값은 51.1점, 80% 구간 상단은 60.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 14.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 60.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 현재 능력(54.2, +0.5), 스타일 렌즈 점수(57.8, +0.5), 포지션 렌즈 점수(50.8, +0.4); 내린 요인은 능력 변화(전 시즌 대비)(1.7, -1.1), 전진 운반/90(0.9, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 시즌 출전시간(분))을 거쳐 14.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

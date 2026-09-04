@@ -11,6 +11,11 @@ shooting·playing_time CSV가 따로 있어, 팀 단위로 Player 키 병합 후
   2025에서 합성 id(n25xxxxx)를 받은 선수도 같은 키로 연결되므로, 2024·2025 두 시즌을
   가진 선수는 성장궤적(Δ) 피처를 실제로 갖게 된다.
 - 'Squad Total'/'Opponent Total' 집계행 제거, GK 제외(기존 파일과 동일 기준).
+- (2026-09 수정) ① Wolverhampton은 같은 내용의 폴더가 둘이라 별칭 통합 후 **합산**돼
+  출전시간이 2배로 잡혔다 → 같은 팀은 한 폴더만 읽는다. ② 선수 집계 키가 정규화
+  이름뿐이라 동명이인(Danilo 포레스트/유벤투스, Rodri 시티/베티스)이 한 명으로 합쳐졌다
+  → 키를 (이름, 생년), 생년이 없으면 (이름, 시즌 나이)로 바꾼다. Born 조회도
+  (이름, 나이)로 해서 동명이인에게 같은 생년이 붙지 않게 한다.
 - 다중 클럽 시즌은 누적 합산 + 비율 재계산 (원 전처리 명세와 동일 규칙).
 - 재실행 가능: 기존 2024 행을 지우고 다시 붙인다.
 """
@@ -122,8 +127,13 @@ def load_team(d):
 if __name__ == "__main__":
     frames = []
     for league_dir, comp in LEAGUES.items():
+        seen = set()
         for d in sorted(glob.glob(str(SEASON_DIR / league_dir / "*/"))):
             squad = os.path.basename(d.rstrip("/"))
+            if SQUAD_ALIASES.get(squad, squad) in seen:
+                print(f"  중복 폴더 건너뜀: {league_dir}/{squad}")
+                continue
+            seen.add(SQUAD_ALIASES.get(squad, squad))
             t = load_team(d)
             if t is None or t.empty:
                 continue
@@ -142,12 +152,28 @@ if __name__ == "__main__":
 
     born_src = pd.read_csv(BORN_CSV, low_memory=False)
     born_src["_k"] = born_src["Player"].map(fold)
-    born_lut = born_src.drop_duplicates("_k").set_index("_k")["Born"]
-    raw["Born"] = raw["_k"].map(born_lut)
+    born_src["Age"] = pd.to_numeric(born_src["Age"], errors="coerce")
+    # (이름, 시즌 나이)로 조회 — 동명이인은 나이가 다르면 갈라진다. 같은 (이름, 나이)에
+    # 생년이 둘 이상이면 모호하므로 붙이지 않는다.
+    by_name_age = born_src.groupby(["_k", "Age"])["Born"].agg(lambda x: set(x.dropna()))
+    by_name = born_src.groupby("_k")["Born"].agg(lambda x: set(x.dropna()))
+    def lookup_born(k, age):
+        c = by_name_age.get((k, age)) if pd.notna(age) else None
+        if c is None or len(c) == 0:
+            c = by_name.get(k)
+        return next(iter(c)) if c and len(c) == 1 else np.nan
+    raw["Born"] = [lookup_born(k, a) for k, a in zip(raw["_k"], raw["Age"])]
     print("Born 확보:", raw["Born"].notna().sum(), "/", len(raw))
+    # 선수 집계 키: (이름, 생년) — 생년이 없으면 (이름, 시즌 나이)
+    raw["_g"] = [f"{k}|b{int(b)}" if pd.notna(b) else f"{k}|a{a}" for k, b, a in zip(raw["_k"], raw["Born"], raw["Age"])]
+    multi = raw.groupby("_k")["_g"].nunique()
+    for k in multi[multi > 1].index:
+        sub = raw[raw["_k"] == k]
+        print(f"  동명이인 분리: {sub['Player'].iloc[0]} -> " + " | ".join(f"{s}({n}, Age {a})" for s, n, a in zip(sub["Squad"], sub["Nation"], sub["Age"])))
 
     rows = []
-    for k, g in raw.groupby("_k", dropna=False):
+    for gk, g in raw.groupby("_g", dropna=False):
+        k = g["_k"].iloc[0]
         minutes = g["Playing Time Min"].fillna(0)
         rec = {
             "Player": g["Player"].iloc[0], "_k": k,

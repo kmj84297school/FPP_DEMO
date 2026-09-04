@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1526,
-  "mu": 46.8,
+  "survival_prob": 0.2739,
+  "mu": 45.3,
   "ci80": {
-   "lo": 37.5,
-   "hi": 56.2
+   "lo": 36.2,
+   "hi": 54.6
   },
   "ci50": {
-   "lo": 41.9,
-   "hi": 51.8
+   "lo": 40.5,
+   "hi": 50.2
   },
-  "sigma_model": 1.5,
+  "sigma_model": 0.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.29,
-   "total": 2.03,
+   "base": -1.93,
+   "rest": -0.26,
+   "total": 0.57,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "50.5",
-     "contrib": 1.56
+     "contrib": 1.23
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "44.8",
-     "contrib": 1.2
+     "contrib": 1.06
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "39.2",
-     "contrib": 1.07
+     "contrib": 0.5
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "14.0",
-     "contrib": 0.85
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.37
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "3.9",
-     "contrib": 0.55
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-2.7",
+     "contrib": 0.35
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -1.09,
+   "base_logit": 0.151,
+   "rest": -0.494,
    "base_prob": 0.538,
-   "prob": 0.153,
+   "prob": 0.274,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "32.0",
-     "contrib": -0.77
+     "contrib": -0.58
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.7",
-     "contrib": -0.4
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "47.5",
+     "contrib": -0.37
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2751.0",
-     "contrib": 0.31
+     "contrib": 0.34
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.27
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "80.4",
-     "contrib": 0.29
-    },
-    {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "44.8",
-     "contrib": -0.2
+     "contrib": 0.24
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Sam Morsy(MF)의 현재 능력 점수는 44.8점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 최종 3분의1 패스, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
-  "potential": "Sam Morsy의 2~3년 후 예측 중심값은 46.8점, 80% 구간 상단은 56.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 15.3%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 56.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.5, +1.6), 현재 능력(44.8, +1.2), 포지션 렌즈 점수(39.2, +1.1), 생산 그룹 점수(14.0, +0.8), 전진 패스/90(3.9, +0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(나이, 전진 운반/90)을 거쳐 15.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Sam Morsy의 2~3년 후 예측 중심값은 45.3점, 80% 구간 상단은 54.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 27.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 54.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.5, +1.2), 현재 능력(44.8, +1.1), 포지션 렌즈 점수(39.2, +0.5), 팀 평균 대비 본인 능력(-2.7, +0.3); 내린 요인은 능력 변화(전 시즌 대비)(결측, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(나이, 소속팀 평균 능력(팀 강도))을 거쳐 27.4%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

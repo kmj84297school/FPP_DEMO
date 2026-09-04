@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9773,
-  "mu": 45.1,
+  "survival_prob": 0.8278,
+  "mu": 47.2,
   "ci80": {
-   "lo": 34.4,
-   "hi": 55.7
+   "lo": 36.9,
+   "hi": 57.4
   },
   "ci50": {
-   "lo": 39.4,
-   "hi": 50.7
+   "lo": 41.8,
+   "hi": 52.6
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 8.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -1.1,
-   "total": 6.49,
+   "base": 0.93,
+   "rest": 0.72,
+   "total": 8.59,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "37.6",
-     "contrib": 4.17
+     "contrib": 3.11
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "38.6",
-     "contrib": 1.7
+     "contrib": 1.68
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-10.0",
+     "contrib": 0.89
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-13.9",
-     "contrib": 0.83
+     "contrib": 0.81
     },
     {
-     "feature": "d_grp_progress",
-     "label": "전진 그룹 변화",
-     "value_text": "-14.0",
-     "contrib": -0.72
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "39.5",
-     "contrib": 0.63
+     "feature": "d_SCA90",
+     "label": "SCA/90 변화",
+     "value_text": "-1.0",
+     "contrib": 0.45
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.736,
-   "base_prob": 0.719,
-   "prob": 0.977,
+   "base_logit": 0.956,
+   "rest": -0.427,
+   "base_prob": 0.722,
+   "prob": 0.828,
    "top": [
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "82.6",
-     "contrib": 0.94
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2825.0",
-     "contrib": 0.61
+     "contrib": 0.54
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "82.6",
+     "contrib": 0.48
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "48.6",
+     "contrib": -0.35
+    },
+    {
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.23
     },
     {
      "feature": "d_xAG90",
      "label": "xAG/90 변화",
      "value_text": "-0.1",
-     "contrib": 0.44
-    },
-    {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-13.9",
-     "contrib": 0.41
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.4",
-     "contrib": -0.32
+     "contrib": 0.15
     }
    ]
   },
@@ -180,7 +180,7 @@
    "season": 2021,
    "distance": 1.92,
    "survived": 1,
-   "fut_ability_v2": 49.3,
+   "fut_ability_v2": 49.4,
    "player_name": "Jon Moncayola",
    "squad": "Osasuna"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Samuele Ricci(MF)의 현재 능력 점수는 38.6점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 태클 성공률, 패스 성공률, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 성공 드리블이다.",
-  "potential": "Samuele Ricci의 2~3년 후 예측 중심값은 45.1점, 80% 구간 상단은 55.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 97.7%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 55.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +6.5점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(37.6, +4.2), 현재 능력(38.6, +1.7), 능력 변화(전 시즌 대비)(-13.9, +0.8), 포지션 렌즈 점수(39.5, +0.6); 내린 요인은 전진 그룹 변화(-14.0, -0.7)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(전진 운반/90)을 거쳐 97.7%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Samuele Ricci의 2~3년 후 예측 중심값은 47.2점, 80% 구간 상단은 57.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 82.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 57.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +8.6점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(37.6, +3.1), 현재 능력(38.6, +1.7), 팀 평균 대비 본인 능력(-10.0, +0.9), 능력 변화(전 시즌 대비)(-13.9, +0.8), SCA/90 변화(-1.0, +0.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(소속팀 평균 능력(팀 강도))을 거쳐 82.8%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0599,
-  "mu": 41.1,
+  "survival_prob": 0.1383,
+  "mu": 43.0,
   "ci80": {
-   "lo": 31.6,
-   "hi": 50.5
+   "lo": 33.8,
+   "hi": 52.2
   },
   "ci50": {
-   "lo": 36.1,
-   "hi": 46.1
+   "lo": 38.2,
+   "hi": 47.8
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.72,
-   "total": -1.35,
+   "base": -1.93,
+   "rest": -1.48,
+   "total": 0.53,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "49.6",
-     "contrib": 1.8
+     "contrib": 1.2
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "42.4",
-     "contrib": 1.47
+     "contrib": 1.14
     },
     {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "0.1",
-     "contrib": -1.42
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "5.8",
+     "contrib": 0.56
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "35.2",
-     "contrib": 1.12
+     "contrib": 0.56
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.9",
-     "contrib": -0.7
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-3.5",
+     "contrib": 0.48
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -1.032,
+   "base_logit": 0.151,
+   "rest": -0.531,
    "base_prob": 0.538,
-   "prob": 0.06,
+   "prob": 0.138,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1017.0",
-     "contrib": -0.81
+     "contrib": -0.56
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "30.0",
-     "contrib": -0.38
+     "contrib": -0.33
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "35.2",
-     "contrib": -0.26
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.0",
+     "contrib": -0.29
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.9",
-     "contrib": -0.26
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.15
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "42.4",
-     "contrib": -0.16
+     "contrib": -0.13
     }
    ]
   },
@@ -216,7 +216,7 @@
    "season": 2021,
    "distance": 2.85,
    "survived": 1,
-   "fut_ability_v2": 60.2,
+   "fut_ability_v2": 60.1,
    "player_name": "Óscar de Marcos",
    "squad": "Athletic Club"
   }
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Brian Oliván(DF)의 현재 능력 점수는 42.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 전진 패스 수신, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 공중볼 승리이다.",
-  "potential": "Brian Oliván의 2~3년 후 예측 중심값은 41.1점, 80% 구간 상단은 50.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 6.0%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 50.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(49.6, +1.8), 현재 능력(42.4, +1.5), 포지션 렌즈 점수(35.2, +1.1); 내린 요인은 성공 드리블/90(0.1, -1.4), 전진 운반/90(1.9, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(시즌 출전시간(분), 나이)을 거쳐 6.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Brian Oliván의 2~3년 후 예측 중심값은 43.0점, 80% 구간 상단은 52.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 13.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 52.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(49.6, +1.2), 현재 능력(42.4, +1.1), 수비 그룹 점수(5.8, +0.6), 포지션 렌즈 점수(35.2, +0.6), 팀 평균 대비 본인 능력(-3.5, +0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(시즌 출전시간(분), 나이)을 거쳐 13.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

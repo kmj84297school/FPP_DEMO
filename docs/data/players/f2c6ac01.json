@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6053,
-  "mu": 51.2,
+  "survival_prob": 0.5985,
+  "mu": 52.7,
   "ci80": {
-   "lo": 41.9,
-   "hi": 60.6
+   "lo": 43.6,
+   "hi": 62.0
   },
   "ci50": {
-   "lo": 46.3,
-   "hi": 56.2
+   "lo": 47.9,
+   "hi": 57.7
   },
-  "sigma_model": 1.4,
+  "sigma_model": 0.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.02,
-   "total": -4.06,
+   "base": -1.93,
+   "rest": -0.36,
+   "total": -2.52,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "6.6",
-     "contrib": -1.5
+     "contrib": -1.53
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.1",
+     "contrib": 0.68
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.7",
-     "contrib": 1.14
+     "contrib": 0.66
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.0",
-     "contrib": -0.72
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "3.0",
+     "contrib": -0.43
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.6",
-     "contrib": -0.59
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "27.2",
-     "contrib": 0.53
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "55.3",
+     "contrib": 0.38
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.657,
+   "base_logit": 0.151,
+   "rest": -0.151,
    "base_prob": 0.538,
-   "prob": 0.605,
+   "prob": 0.598,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2763.0",
-     "contrib": 0.44
+     "contrib": 0.36
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "80.8",
-     "contrib": 0.34
+     "contrib": 0.2
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "83.1",
-     "contrib": -0.32
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "52.3",
+     "contrib": -0.18
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "70.6",
-     "contrib": 0.3
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.09
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "28.0",
-     "contrib": 0.18
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "975.0",
+     "contrib": -0.07
     }
    ]
   },
@@ -153,7 +153,7 @@
    "season": 2021,
    "distance": 1.08,
    "survived": 1,
-   "fut_ability_v2": 57.8,
+   "fut_ability_v2": 57.7,
    "player_name": "Eric Dier",
    "squad": "Tottenham"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Martin Valjent(DF)의 현재 능력 점수는 55.3점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 클리어링, 볼 손실(미스+파울), 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 박스 터치이다.",
-  "potential": "Martin Valjent의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 60.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 60.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.7, +1.1), 찬스 그룹 점수(27.2, +0.5); 내린 요인은 능력 변화(전 시즌 대비)(6.6, -1.5), xAG/90(0.0, -0.7), 태클+인터셉트/90(1.6, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(공중볼 승률)을 거쳐 60.5%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Martin Valjent의 2~3년 후 예측 중심값은 52.7점, 80% 구간 상단은 62.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.9%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 62.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 키패스/90(0.1, +0.7), 스타일 렌즈 점수(56.7, +0.7), 현재 능력(55.3, +0.4); 내린 요인은 능력 변화(전 시즌 대비)(6.6, -1.5), 팀 평균 대비 본인 능력(3.0, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(소속팀 평균 능력(팀 강도), 2시즌 전 출전시간(분))을 거쳐 59.9%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

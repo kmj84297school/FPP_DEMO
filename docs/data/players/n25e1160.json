@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4451,
-  "mu": 42.9,
+  "survival_prob": 0.5109,
+  "mu": 44.8,
   "ci80": {
-   "lo": 31.9,
-   "hi": 53.8
+   "lo": 34.4,
+   "hi": 55.2
   },
   "ci50": {
-   "lo": 37.1,
-   "hi": 48.6
+   "lo": 39.3,
+   "hi": 50.3
   },
-  "sigma_model": 3.0,
-  "sigma_residual": 8.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -2.53,
-   "total": 7.24,
+   "base": 0.93,
+   "rest": -0.24,
+   "total": 9.21,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "35.7",
-     "contrib": 5.21
+     "contrib": 3.56
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "35.6",
-     "contrib": 2.54
+     "contrib": 2.38
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "92.9",
-     "contrib": 1.3
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-11.1",
+     "contrib": 1.18
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -1.09
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.7",
+     "contrib": 0.81
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "35.5",
-     "contrib": 0.83
+     "contrib": 0.6
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.327,
-   "base_prob": 0.719,
-   "prob": 0.445,
+   "base_logit": 0.956,
+   "rest": -0.292,
+   "base_prob": 0.722,
+   "prob": 0.511,
    "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.7",
+     "contrib": -0.46
+    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1907.0",
-     "contrib": 0.41
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "35.5",
-     "contrib": -0.39
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.36
+     "contrib": 0.27
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "35.6",
-     "contrib": -0.28
+     "contrib": -0.16
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.5",
-     "contrib": -0.22
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.14
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
+     "contrib": -0.12
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Amin Sarr(FW)의 현재 능력 점수는 35.6점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승률, 공중볼 승리, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 슈팅 시도이다.",
-  "potential": "Amin Sarr의 2~3년 후 예측 중심값은 42.9점, 80% 구간 상단은 53.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 44.5%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 53.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +7.3점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(35.7, +5.2), 현재 능력(35.6, +2.5), 공중볼 승률(92.9, +1.3), 포지션 렌즈 점수(35.5, +0.8); 내린 요인은 나이(23.0, -1.1)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분))과 하락 요인(포지션 렌즈 점수, 나이)을 거쳐 44.5%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Amin Sarr의 2~3년 후 예측 중심값은 44.8점, 80% 구간 상단은 55.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 51.1%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 55.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +9.2점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(35.7, +3.6), 현재 능력(35.6, +2.4), 팀 평균 대비 본인 능력(-11.1, +1.2), 소속팀 평균 능력(팀 강도)(46.7, +0.8), 포지션 렌즈 점수(35.5, +0.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도), 현재 능력)을 거쳐 51.1%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

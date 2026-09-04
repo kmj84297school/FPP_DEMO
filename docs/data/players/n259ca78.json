@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9535,
-  "mu": 73.1,
+  "survival_prob": 0.9268,
+  "mu": 72.7,
   "ci80": {
    "lo": 62.3,
-   "hi": 83.9
+   "hi": 83.2
   },
   "ci50": {
-   "lo": 67.4,
-   "hi": 78.9
+   "lo": 67.2,
+   "hi": 78.2
   },
-  "sigma_model": 2.8,
-  "sigma_residual": 8.0
+  "sigma_model": 1.8,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 0.36,
-   "total": -4.79,
+   "base": 0.93,
+   "rest": 0.71,
+   "total": -5.2,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "81.0",
-     "contrib": -4.92
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "74.8",
-     "contrib": -2.82
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "7.8",
-     "contrib": 2.17
+     "contrib": -3.27
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "77.9",
-     "contrib": -1.89
-    },
-    {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "2.6",
-     "contrib": 1.33
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.939,
-   "rest": 0.777,
-   "base_prob": 0.719,
-   "prob": 0.953,
-   "top": [
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "7.8",
-     "contrib": 0.79
-    },
-    {
-     "feature": "d_SCA90",
-     "label": "SCA/90 변화",
-     "value_text": "2.1",
-     "contrib": -0.53
+     "contrib": -1.74
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "74.8",
-     "contrib": 0.39
+     "contrib": -1.4
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "81.0",
-     "contrib": 0.35
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "12.1",
+     "contrib": -1.03
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-1210.0",
-     "contrib": 0.32
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "7.8",
+     "contrib": 0.6
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.956,
+   "rest": 0.517,
+   "base_prob": 0.722,
+   "prob": 0.927,
+   "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "65.8",
+     "contrib": 0.33
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "7.8",
+     "contrib": 0.31
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.17
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "20.0",
+     "contrib": 0.13
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "74.8",
+     "contrib": 0.13
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Sávio(FW)의 현재 능력 점수는 77.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반 거리, 전진 운반, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 슈팅당 기대득점이다.",
-  "potential": "Sávio의 2~3년 후 예측 중심값은 73.1점, 80% 구간 상단은 83.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 83.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.8점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 박스 터치/90(7.8, +2.2), 성공 드리블/90(2.6, +1.3); 내린 요인은 스타일 렌즈 점수(81.0, -4.9), 포지션 렌즈 점수(74.8, -2.8), 현재 능력(77.9, -1.9)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(박스 터치/90, 포지션 렌즈 점수)과 하락 요인(SCA/90 변화)을 거쳐 95.3%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Sávio의 2~3년 후 예측 중심값은 72.7점, 80% 구간 상단은 83.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 83.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.2점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 박스 터치/90(7.8, +0.6); 내린 요인은 스타일 렌즈 점수(81.0, -3.3), 현재 능력(77.9, -1.7), 포지션 렌즈 점수(74.8, -1.4), 팀 평균 대비 본인 능력(12.1, -1.0)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 박스 터치/90)을 거쳐 92.7%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

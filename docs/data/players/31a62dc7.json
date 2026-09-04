@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2281,
-  "mu": 50.2,
+  "survival_prob": 0.6093,
+  "mu": 51.7,
   "ci80": {
-   "lo": 40.9,
-   "hi": 59.4
+   "lo": 42.4,
+   "hi": 60.9
   },
   "ci50": {
-   "lo": 45.3,
-   "hi": 55.1
+   "lo": 46.8,
+   "hi": 56.5
   },
-  "sigma_model": 1.0,
+  "sigma_model": 0.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.42,
-   "total": -2.65,
+   "base": -1.93,
+   "rest": -0.7,
+   "total": -1.17,
    "top": [
+    {
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.67
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.7",
-     "contrib": 0.92
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "38.1",
-     "contrib": 0.45
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.1",
-     "contrib": -0.45
+     "contrib": 0.65
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "52.8",
-     "contrib": 0.42
+     "contrib": 0.58
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-5.2",
+     "contrib": 0.55
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "49.0",
-     "contrib": 0.34
+     "contrib": 0.33
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -1.174,
+   "base_logit": 0.151,
+   "rest": -0.419,
    "base_prob": 0.538,
-   "prob": 0.228,
+   "prob": 0.609,
    "top": [
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "1585.0",
-     "contrib": -0.36
-    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "27.0",
-     "contrib": 0.34
+     "contrib": 0.31
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2256.0",
+     "contrib": 0.22
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "58.1",
      "contrib": 0.2
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.1",
-     "contrib": -0.2
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "439.0",
+     "contrib": -0.13
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "4.2",
-     "contrib": -0.18
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.3",
+     "contrib": 0.11
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Zeki Çelik(DF)의 현재 능력 점수는 52.8점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 최종 3분의1 패스, 박스 터치, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 실책이다.",
-  "potential": "Zeki Çelik의 2~3년 후 예측 중심값은 50.2점, 80% 구간 상단은 59.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 59.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.7, +0.9), 수비 그룹 점수(38.1, +0.5), 현재 능력(52.8, +0.4), 포지션 렌즈 점수(49.0, +0.3); 내린 요인은 전진 운반/90(1.1, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(출전시간 변화(분), 전진 운반/90)을 거쳐 22.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Zeki Çelik의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 60.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.9%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 60.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.7, +0.7), 현재 능력(52.8, +0.6), 팀 평균 대비 본인 능력(-5.2, +0.6), 포지션 렌즈 점수(49.0, +0.3); 내린 요인은 리그: 세리에A(예, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(2시즌 전 출전시간(분))을 거쳐 60.9%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

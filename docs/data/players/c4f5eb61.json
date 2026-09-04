@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3311,
-  "mu": 48.8,
+  "survival_prob": 0.4416,
+  "mu": 51.8,
   "ci80": {
-   "lo": 38.3,
-   "hi": 59.2
+   "lo": 41.5,
+   "hi": 62.1
   },
   "ci50": {
-   "lo": 43.2,
-   "hi": 54.2
+   "lo": 46.4,
+   "hi": 57.2
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 8.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -1.77,
-   "total": -1.86,
+   "base": 0.93,
+   "rest": -0.4,
+   "total": 1.19,
    "top": [
     {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "76.9",
-     "contrib": -1.06
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "50.6",
+     "contrib": 0.65
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.0",
+     "contrib": 0.61
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "4.6",
+     "contrib": -0.55
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "23.0",
-     "contrib": -0.95
+     "contrib": -0.41
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "41.3",
-     "contrib": 0.75
-    },
-    {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "50.6",
-     "contrib": 0.74
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "59.9",
-     "contrib": -0.55
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": 0.36
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.385,
-   "base_prob": 0.719,
-   "prob": 0.331,
+   "base_logit": 0.956,
+   "rest": -0.409,
+   "base_prob": 0.722,
+   "prob": 0.442,
    "top": [
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "41.3",
-     "contrib": -0.37
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.0",
+     "contrib": -0.54
+    },
+    {
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.9",
+     "contrib": 0.36
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1419.0",
-     "contrib": -0.28
+     "contrib": -0.3
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.16
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "23.0",
-     "contrib": -0.26
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "4.0",
-     "contrib": -0.18
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "33.0",
-     "contrib": -0.15
+     "contrib": -0.13
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Urko González(MF)의 현재 능력 점수는 50.6점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클 성공률, 블록, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 전진 패스 수신이다.",
-  "potential": "Urko González의 2~3년 후 예측 중심값은 48.8점, 80% 구간 상단은 59.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 33.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 59.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.8점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 포지션 렌즈 점수(41.3, +0.8), 현재 능력(50.6, +0.7); 내린 요인은 수비 그룹 점수(76.9, -1.1), 나이(23.0, -0.9), 스타일 렌즈 점수(59.9, -0.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 하락 요인(포지션 렌즈 점수, 시즌 출전시간(분))을 거쳐 33.1%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Urko González의 2~3년 후 예측 중심값은 51.8점, 80% 구간 상단은 62.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 44.2%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 62.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.2점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 현재 능력(50.6, +0.7), 소속팀 평균 능력(팀 강도)(46.0, +0.6), 팀 강도 리그 내 순위(0=최강)(0.9, +0.4); 내린 요인은 팀 평균 대비 본인 능력(4.6, -0.6), 나이(23.0, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(선발 비율)과 하락 요인(소속팀 평균 능력(팀 강도), 시즌 출전시간(분))을 거쳐 44.2%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

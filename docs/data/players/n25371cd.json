@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5006,
-  "mu": 51.3,
+  "survival_prob": 0.7355,
+  "mu": 51.7,
   "ci80": {
-   "lo": 41.7,
+   "lo": 42.2,
    "hi": 61.0
   },
   "ci50": {
-   "lo": 46.3,
-   "hi": 56.4
+   "lo": 46.6,
+   "hi": 56.6
   },
-  "sigma_model": 2.4,
+  "sigma_model": 1.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 1.5,
-   "total": -2.02,
+   "base": -1.93,
+   "rest": -1.6,
+   "total": -1.76,
    "top": [
     {
      "feature": "npxG90",
      "label": "비페널티 xG/90",
      "value_text": "0.5",
-     "contrib": -1.57
+     "contrib": -1.37
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.1",
-     "contrib": -0.89
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-8.5",
+     "contrib": 1.25
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 0.88
-    },
-    {
-     "feature": "SCA90",
-     "label": "슈팅 창출/90",
-     "value_text": "2.4",
-     "contrib": -0.82
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "53.4",
+     "contrib": 0.69
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.6",
-     "contrib": 0.79
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": -0.628,
-   "base_prob": 0.538,
-   "prob": 0.5,
-   "top": [
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "91.3",
-     "contrib": -0.44
+     "contrib": 0.66
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.39
+     "contrib": 0.54
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": -0.051,
+   "base_prob": 0.538,
+   "prob": 0.736,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.42
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.1",
-     "contrib": 0.22
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "61.8",
+     "contrib": 0.21
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2319.0",
-     "contrib": 0.17
+     "contrib": 0.21
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "63.2",
-     "contrib": 0.15
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.3",
+     "contrib": 0.16
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "56.6",
+     "contrib": -0.08
     }
    ]
   },
@@ -153,7 +153,7 @@
    "season": 2021,
    "distance": 2.396,
    "survived": 1,
-   "fut_ability_v2": 50.9,
+   "fut_ability_v2": 51.0,
    "player_name": "Patrik Schick",
    "squad": "Leverkusen"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Evanilson(FW)의 현재 능력 점수는 53.4점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 태클 성공률, 볼 손실(미스+파울), 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 패스 수신이다.",
-  "potential": "Evanilson의 2~3년 후 예측 중심값은 51.3점, 80% 구간 상단은 61.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 50.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 61.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +0.9), 스타일 렌즈 점수(56.6, +0.8); 내린 요인은 비페널티 xG/90(0.5, -1.6), 전진 운반/90(1.1, -0.9), 슈팅 창출/90(2.4, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 전진 패스/90)과 하락 요인(공중볼 승률)을 거쳐 50.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Evanilson의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 61.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 73.6%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 61.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-8.5, +1.2), 현재 능력(53.4, +0.7), 스타일 렌즈 점수(56.6, +0.7), 나이(24.0, +0.5); 내린 요인은 비페널티 xG/90(0.5, -1.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(스타일 렌즈 점수)을 거쳐 73.6%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

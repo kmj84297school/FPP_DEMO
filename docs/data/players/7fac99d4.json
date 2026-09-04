@@ -38,7 +38,7 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.263,
+  "survival_prob": 0.3305,
   "mu": 49.6,
   "ci80": {
    "lo": 40.3,
@@ -48,82 +48,82 @@
    "lo": 44.7,
    "hi": 54.6
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.6,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.59,
-   "total": -3.95,
+   "base": -1.93,
+   "rest": -0.71,
+   "total": -3.96,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "7.7",
-     "contrib": -1.63
+     "contrib": -1.56
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "53.6",
-     "contrib": 1.07
+     "contrib": 0.75
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.5",
-     "contrib": -0.76
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.7
     },
     {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "2.2",
-     "contrib": -0.74
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "53.6",
+     "contrib": 0.55
     },
     {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "35.9",
-     "contrib": 0.6
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "3.1",
+     "contrib": -0.37
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.464,
+   "base_logit": 0.151,
+   "rest": -0.095,
    "base_prob": 0.538,
-   "prob": 0.263,
+   "prob": 0.33,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1406.0",
-     "contrib": -0.33
+     "contrib": -0.32
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.5",
+     "contrib": -0.12
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "41.1",
-     "contrib": -0.22
+     "contrib": -0.12
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.4",
-     "contrib": -0.17
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.4",
+     "contrib": -0.11
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-412.0",
-     "contrib": 0.15
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "31.1",
-     "contrib": -0.15
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "784.0",
+     "contrib": -0.09
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Răzvan Marin(MF)의 현재 능력 점수는 53.6점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 도움 기대값(xAG), 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 슈팅당 기대득점이다.",
-  "potential": "Răzvan Marin의 2~3년 후 예측 중심값은 49.6점, 80% 구간 상단은 58.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 26.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 58.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(53.6, +1.1), 수비 그룹 점수(35.9, +0.6); 내린 요인은 능력 변화(전 시즌 대비)(7.7, -1.6), 태클+인터셉트/90(1.5, -0.8), 키패스/90(2.2, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(출전시간 변화(분))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 26.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Răzvan Marin의 2~3년 후 예측 중심값은 49.6점, 80% 구간 상단은 58.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 33.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 58.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(53.6, +0.8), 현재 능력(53.6, +0.6); 내린 요인은 능력 변화(전 시즌 대비)(7.7, -1.6), 리그: 세리에A(예, -0.7), 팀 평균 대비 본인 능력(3.1, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 33.1%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

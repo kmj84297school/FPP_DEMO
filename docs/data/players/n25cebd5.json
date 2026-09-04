@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8518,
-  "mu": 58.2,
+  "survival_prob": 0.6612,
+  "mu": 57.9,
   "ci80": {
-   "lo": 48.9,
-   "hi": 67.5
+   "lo": 48.7,
+   "hi": 67.0
   },
   "ci50": {
-   "lo": 53.3,
-   "hi": 63.0
+   "lo": 53.1,
+   "hi": 62.7
   },
-  "sigma_model": 1.4,
+  "sigma_model": 0.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.11,
-   "total": -2.69,
+   "base": -1.93,
+   "rest": 0.19,
+   "total": -3.01,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "68.4",
-     "contrib": -1.1
+     "contrib": -0.79
     },
     {
      "feature": "AerPct",
      "label": "공중볼 승률",
      "value_text": "23.6",
-     "contrib": 0.64
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "95.8",
-     "contrib": -0.43
+     "contrib": 0.3
     },
     {
      "feature": "PrgCarry90",
      "label": "전진 운반/90",
      "value_text": "1.7",
-     "contrib": -0.42
+     "contrib": -0.28
     },
     {
-     "feature": "d_grp_progress",
-     "label": "전진 그룹 변화",
-     "value_text": "0.3",
-     "contrib": 0.41
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "95.8",
+     "contrib": -0.26
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "5.2",
+     "contrib": -0.24
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.579,
+   "base_logit": 0.151,
+   "rest": 0.032,
    "base_prob": 0.538,
-   "prob": 0.852,
+   "prob": 0.661,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.39
+     "contrib": 0.33
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "95.8",
-     "contrib": 0.36
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "55.6",
+     "contrib": -0.18
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2163.0",
-     "contrib": 0.27
+     "contrib": 0.12
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.7",
-     "contrib": -0.23
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-194.0",
+     "contrib": 0.11
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "68.4",
-     "contrib": 0.23
+     "contrib": 0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Gabriel Suazo(DF)의 현재 능력 점수는 60.9점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 골 창출(GCA), 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 태클 성공률이다.",
-  "potential": "Gabriel Suazo의 2~3년 후 예측 중심값은 58.2점, 80% 구간 상단은 67.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 85.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 67.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 공중볼 승률(23.6, +0.6), 전진 그룹 변화(0.3, +0.4); 내린 요인은 스타일 렌즈 점수(68.4, -1.1), 찬스 그룹 점수(95.8, -0.4), 전진 운반/90(1.7, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 찬스 그룹 점수)과 하락 요인(전진 운반/90)을 거쳐 85.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Gabriel Suazo의 2~3년 후 예측 중심값은 57.9점, 80% 구간 상단은 67.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 66.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 67.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 공중볼 승률(23.6, +0.3); 내린 요인은 스타일 렌즈 점수(68.4, -0.8), 전진 운반/90(1.7, -0.3), 찬스 그룹 점수(95.8, -0.3), 팀 평균 대비 본인 능력(5.2, -0.2)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도))을 거쳐 66.1%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

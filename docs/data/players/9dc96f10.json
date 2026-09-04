@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9657,
-  "mu": 66.2,
+  "survival_prob": 0.8783,
+  "mu": 66.5,
   "ci80": {
-   "lo": 55.6,
+   "lo": 56.1,
    "hi": 76.7
   },
   "ci50": {
-   "lo": 60.7,
+   "lo": 61.0,
    "hi": 71.8
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 8.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.56,
-   "total": -5.95,
+   "base": 0.93,
+   "rest": -0.44,
+   "total": -5.72,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "72.8",
-     "contrib": -3.96
+     "contrib": -2.76
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "71.5",
-     "contrib": -2.79
+     "contrib": -1.38
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "72.1",
-     "contrib": -1.43
+     "contrib": -1.35
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "12.7",
+     "contrib": -1.1
     },
     {
      "feature": "AttPenT90",
      "label": "박스 터치/90",
      "value_text": "6.2",
-     "contrib": 1.0
-    },
-    {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.2",
-     "contrib": 0.81
+     "contrib": 0.39
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.401,
-   "base_prob": 0.719,
-   "prob": 0.966,
+   "base_logit": 0.956,
+   "rest": -0.0,
+   "base_prob": 0.722,
+   "prob": 0.878,
    "top": [
     {
      "feature": "AttPenT90",
      "label": "박스 터치/90",
      "value_text": "6.2",
-     "contrib": 0.89
+     "contrib": 0.29
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "71.5",
-     "contrib": 0.44
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "59.4",
+     "contrib": 0.24
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1901.0",
-     "contrib": 0.31
+     "contrib": 0.22
     },
     {
-     "feature": "SCA90",
-     "label": "슈팅 창출/90",
-     "value_text": "4.6",
-     "contrib": 0.19
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "71.5",
+     "contrib": 0.16
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.2",
-     "contrib": 0.17
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "72.1",
+     "contrib": 0.11
     }
    ]
   },
@@ -189,7 +189,7 @@
    "season": 2021,
    "distance": 2.712,
    "survived": 1,
-   "fut_ability_v2": 66.3,
+   "fut_ability_v2": 66.2,
    "player_name": "Federico Chiesa",
    "squad": "Juventus / Fiorentina"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Amad Diallo(MF)의 현재 능력 점수는 72.1점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 골 창출(GCA), 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 블록이다.",
-  "potential": "Amad Diallo의 2~3년 후 예측 중심값은 66.2점, 80% 구간 상단은 76.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 76.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.9점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 박스 터치/90(6.2, +1.0), 비페널티 xG/90(0.2, +0.8); 내린 요인은 스타일 렌즈 점수(72.8, -4.0), 포지션 렌즈 점수(71.5, -2.8), 현재 능력(72.1, -1.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(박스 터치/90, 포지션 렌즈 점수)을 거쳐 96.6%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Amad Diallo의 2~3년 후 예측 중심값은 66.5점, 80% 구간 상단은 76.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 76.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.6점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 박스 터치/90(6.2, +0.4); 내린 요인은 스타일 렌즈 점수(72.8, -2.8), 포지션 렌즈 점수(71.5, -1.4), 현재 능력(72.1, -1.4), 팀 평균 대비 본인 능력(12.7, -1.1)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(박스 터치/90, 소속팀 평균 능력(팀 강도))을 거쳐 87.8%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

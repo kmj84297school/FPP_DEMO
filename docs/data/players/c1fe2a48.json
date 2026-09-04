@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7046,
-  "mu": 50.6,
+  "survival_prob": 0.5759,
+  "mu": 51.0,
   "ci80": {
-   "lo": 41.4,
-   "hi": 59.8
+   "lo": 41.8,
+   "hi": 60.1
   },
   "ci50": {
-   "lo": 45.8,
-   "hi": 55.4
+   "lo": 46.1,
+   "hi": 55.8
   },
-  "sigma_model": 1.2,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.44,
-   "total": -2.79,
+   "base": -1.93,
+   "rest": -0.31,
+   "total": -2.39,
    "top": [
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "43.7",
-     "contrib": 0.67
-    },
-    {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.1",
-     "contrib": 0.64
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "53.4",
+     "contrib": 0.54
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "62.9",
-     "contrib": -0.6
+     "contrib": -0.52
     },
     {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "21.4",
-     "contrib": -0.59
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.8",
-     "contrib": -0.55
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": -0.08,
-   "base_prob": 0.538,
-   "prob": 0.705,
-   "top": [
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "26.0",
-     "contrib": 0.42
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "43.7",
+     "contrib": 0.43
     },
     {
      "feature": "grp_defense",
      "label": "수비 그룹 점수",
      "value_text": "77.3",
-     "contrib": 0.25
+     "contrib": -0.32
     },
     {
      "feature": "PrgCarry90",
      "label": "전진 운반/90",
      "value_text": "0.8",
-     "contrib": -0.24
+     "contrib": -0.29
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": -0.13,
+   "base_prob": 0.538,
+   "prob": 0.576,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "26.0",
+     "contrib": 0.36
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
+     "contrib": -0.19
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "77.3",
+     "contrib": 0.13
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "55.5",
+     "contrib": -0.12
     },
     {
      "feature": "d_std_Min_Playing",
      "label": "출전시간 변화(분)",
      "value_text": "-77.0",
-     "contrib": 0.2
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "52.8",
-     "contrib": 0.17
+     "contrib": 0.1
     }
    ]
   },
@@ -198,7 +198,7 @@
    "season": 2021,
    "distance": 1.61,
    "survived": 1,
-   "fut_ability_v2": 45.9,
+   "fut_ability_v2": 45.7,
    "player_name": "Abdoulaye Doucouré",
    "squad": "Everton"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Ryan Yates(MF)의 현재 능력 점수는 53.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 공중볼 승리, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 전진 패스 수신이다.",
-  "potential": "Ryan Yates의 2~3년 후 예측 중심값은 50.6점, 80% 구간 상단은 59.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 59.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 포지션 렌즈 점수(43.7, +0.7), 비페널티 xG/90(0.1, +0.6); 내린 요인은 스타일 렌즈 점수(62.9, -0.6), 전진 그룹 점수(21.4, -0.6), 전진 운반/90(0.8, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 수비 그룹 점수)과 하락 요인(전진 운반/90)을 거쳐 70.5%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Ryan Yates의 2~3년 후 예측 중심값은 51.0점, 80% 구간 상단은 60.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 57.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 60.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 현재 능력(53.4, +0.5), 포지션 렌즈 점수(43.7, +0.4); 내린 요인은 스타일 렌즈 점수(62.9, -0.5), 수비 그룹 점수(77.3, -0.3), 전진 운반/90(0.8, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 수비 그룹 점수)과 하락 요인(팀 강도 리그 내 순위(0=최강), 소속팀 평균 능력(팀 강도))을 거쳐 57.6%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

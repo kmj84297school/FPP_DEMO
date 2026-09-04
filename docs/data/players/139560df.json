@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8425,
-  "mu": 48.0,
+  "survival_prob": 0.7398,
+  "mu": 52.2,
   "ci80": {
-   "lo": 37.5,
-   "hi": 58.5
+   "lo": 41.9,
+   "hi": 62.4
   },
   "ci50": {
-   "lo": 42.6,
-   "hi": 53.6
+   "lo": 46.7,
+   "hi": 57.6
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 8.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -2.35,
-   "total": 0.44,
+   "base": 0.93,
+   "rest": -0.55,
+   "total": 4.56,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "43.9",
-     "contrib": 3.49
-    },
-    {
-     "feature": "sty_공격형 풀백",
-     "label": "스타일: 공격형 풀백",
-     "value_text": "예",
-     "contrib": -0.82
-    },
-    {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "4.5",
-     "contrib": -0.76
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "0.1",
-     "contrib": -0.63
+     "contrib": 2.81
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "47.6",
-     "contrib": 0.54
+     "contrib": 0.76
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.0",
+     "contrib": 0.64
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "1.6",
+     "contrib": -0.35
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": 0.33
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.329,
-   "base_prob": 0.719,
-   "prob": 0.843,
+   "base_logit": 0.956,
+   "rest": -0.441,
+   "base_prob": 0.722,
+   "prob": 0.74,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "3153.0",
-     "contrib": 0.54
+     "contrib": 0.46
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "0.1",
-     "contrib": -0.47
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.0",
+     "contrib": -0.42
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "92.2",
-     "contrib": 0.41
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "20.0",
      "contrib": 0.39
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "2.4",
-     "contrib": 0.2
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.29
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "0.1",
+     "contrib": -0.2
     }
    ]
   },
@@ -144,7 +144,7 @@
    "season": 2022,
    "distance": 2.271,
    "survived": 1,
-   "fut_ability_v2": 51.8,
+   "fut_ability_v2": 51.7,
    "player_name": "Andrea Carboni",
    "squad": "Cagliari"
   },
@@ -162,7 +162,7 @@
    "season": 2022,
    "distance": 2.503,
    "survived": 1,
-   "fut_ability_v2": 63.3,
+   "fut_ability_v2": 63.2,
    "player_name": "Odilon Kossonou",
    "squad": "Leverkusen"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Omar El Hilali(DF)의 현재 능력 점수는 47.6점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 블록, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스이다.",
-  "potential": "Omar El Hilali의 2~3년 후 예측 중심값은 48.0점, 80% 구간 상단은 58.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 84.2%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 58.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.4점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(43.9, +3.5), 현재 능력(47.6, +0.5); 내린 요인은 스타일: 공격형 풀백(예, -0.8), 태클+인터셉트/90(4.5, -0.8), 박스 터치/90(0.1, -0.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(박스 터치/90)을 거쳐 84.2%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Omar El Hilali의 2~3년 후 예측 중심값은 52.2점, 80% 구간 상단은 62.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 74.0%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 62.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.6점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(43.9, +2.8), 현재 능력(47.6, +0.8), 소속팀 평균 능력(팀 강도)(46.0, +0.6), 팀 강도 리그 내 순위(0=최강)(0.9, +0.3); 내린 요인은 팀 평균 대비 본인 능력(1.6, -0.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(소속팀 평균 능력(팀 강도), 박스 터치/90)을 거쳐 74.0%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

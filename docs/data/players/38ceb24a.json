@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7212,
-  "mu": 64.2,
+  "survival_prob": 0.69,
+  "mu": 63.7,
   "ci80": {
-   "lo": 54.9,
-   "hi": 73.5
+   "lo": 54.4,
+   "hi": 72.9
   },
   "ci50": {
-   "lo": 59.4,
-   "hi": 69.1
+   "lo": 58.8,
+   "hi": 68.6
   },
-  "sigma_model": 1.4,
+  "sigma_model": 1.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.55,
-   "total": -2.01,
+   "base": -1.93,
+   "rest": 0.18,
+   "total": -2.53,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "68.0",
-     "contrib": -1.06
+     "contrib": -0.78
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-3.2",
-     "contrib": 0.89
+     "contrib": 0.76
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "66.2",
+     "contrib": -0.71
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "29.0",
+     "contrib": -0.36
     },
     {
      "feature": "sty_돌파형 윙어",
      "label": "스타일: 돌파형 윙어",
      "value_text": "예",
-     "contrib": 0.82
-    },
-    {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.4",
-     "contrib": -0.79
-    },
-    {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "72.9",
-     "contrib": 0.58
+     "contrib": 0.3
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.128,
+   "base_logit": 0.151,
+   "rest": -0.06,
    "base_prob": 0.538,
-   "prob": 0.721,
+   "prob": 0.69,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2546.0",
-     "contrib": 0.42
+     "contrib": 0.34
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "74.4",
-     "contrib": 0.33
+     "contrib": 0.21
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "897.0",
-     "contrib": -0.25
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "5.6",
-     "contrib": 0.24
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "68.0",
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "63.9",
      "contrib": 0.19
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "29.0",
+     "contrib": -0.16
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.14
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Leandro Trossard(FW)의 현재 능력 점수는 66.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 박스 진입 패스, 블록, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 유효슈팅이다.",
-  "potential": "Leandro Trossard의 2~3년 후 예측 중심값은 64.2점, 80% 구간 상단은 73.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 72.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 73.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-3.2, +0.9), 스타일: 돌파형 윙어(예, +0.8), 전진 그룹 점수(72.9, +0.6); 내린 요인은 스타일 렌즈 점수(68.0, -1.1), 태클+인터셉트/90(1.4, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(출전시간 변화(분))을 거쳐 72.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Leandro Trossard의 2~3년 후 예측 중심값은 63.7점, 80% 구간 상단은 72.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 72.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-3.2, +0.8), 스타일: 돌파형 윙어(예, +0.3); 내린 요인은 스타일 렌즈 점수(68.0, -0.8), 현재 능력(66.2, -0.7), 나이(29.0, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(나이)을 거쳐 69.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

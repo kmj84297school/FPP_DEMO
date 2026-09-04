@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4632,
-  "mu": 57.1,
+  "survival_prob": 0.5337,
+  "mu": 56.4,
   "ci80": {
-   "lo": 47.9,
-   "hi": 66.5
+   "lo": 47.2,
+   "hi": 65.6
   },
   "ci50": {
-   "lo": 52.3,
-   "hi": 62.1
+   "lo": 51.6,
+   "hi": 61.2
   },
-  "sigma_model": 1.4,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.69,
-   "total": -2.86,
+   "base": -1.93,
+   "rest": -1.29,
+   "total": -3.62,
    "top": [
+    {
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.63
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "58.9",
-     "contrib": 1.44
+     "contrib": 0.57
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.84
+     "contrib": 0.55
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "67.9",
-     "contrib": -0.62
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "7.7",
+     "contrib": -0.48
     },
     {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "60.0",
-     "contrib": 0.54
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "64.0",
-     "contrib": -0.45
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.41
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.772,
+   "base_logit": 0.151,
+   "rest": -0.12,
    "base_prob": 0.538,
-   "prob": 0.463,
+   "prob": 0.534,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.68
+     "contrib": 0.44
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.1",
-     "contrib": -0.33
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1672.0",
+     "contrib": -0.17
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "52.3",
+     "contrib": -0.15
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "48.9",
-     "contrib": -0.16
+     "contrib": -0.09
     },
     {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "88.5",
-     "contrib": 0.15
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "67.1",
-     "contrib": 0.14
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.08
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Oumar Solet(DF)의 현재 능력 점수는 60.0점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 유효슈팅, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 볼 손실(미스+파울)이다.",
-  "potential": "Oumar Solet의 2~3년 후 예측 중심값은 57.1점, 80% 구간 상단은 66.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 46.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 66.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(58.9, +1.4), 나이(24.0, +0.8), 현재 능력(60.0, +0.5); 내린 요인은 찬스 그룹 점수(67.9, -0.6), 수비 그룹 점수(64.0, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 패스 성공률)과 하락 요인(전진 운반/90, 팀 출전시간 비중(%))을 거쳐 46.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Oumar Solet의 2~3년 후 예측 중심값은 56.4점, 80% 구간 상단은 65.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.4%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 65.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(58.9, +0.6), 나이(24.0, +0.6); 내린 요인은 리그: 세리에A(예, -0.6), 팀 평균 대비 본인 능력(7.7, -0.5), 능력 변화(전 시즌 대비)(결측, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 선발 비율)과 하락 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 53.4%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

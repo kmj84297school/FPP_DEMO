@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6862,
-  "mu": 50.2,
+  "survival_prob": 0.5483,
+  "mu": 51.4,
   "ci80": {
-   "lo": 39.7,
-   "hi": 60.8
+   "lo": 41.2,
+   "hi": 61.7
   },
   "ci50": {
-   "lo": 44.6,
-   "hi": 55.7
+   "lo": 46.1,
+   "hi": 56.8
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 8.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -2.05,
-   "total": 3.67,
+   "base": 0.93,
+   "rest": -0.39,
+   "total": 4.93,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "48.9",
-     "contrib": 3.67
-    },
-    {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "65.1",
-     "contrib": -0.68
+     "contrib": 2.67
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "46.5",
-     "contrib": 0.65
+     "contrib": 0.82
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "66.7",
-     "contrib": 0.58
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-4.3",
+     "contrib": 0.47
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "6.4",
-     "contrib": 0.53
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.8",
+     "contrib": 0.23
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": 0.21
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.034,
-   "base_prob": 0.719,
-   "prob": 0.686,
+   "base_logit": 0.956,
+   "rest": -0.268,
+   "base_prob": 0.722,
+   "prob": 0.548,
    "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.8",
+     "contrib": -0.26
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.14
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "46.5",
+     "contrib": -0.11
+    },
     {
      "feature": "grp_prod",
      "label": "생산 그룹 점수",
      "value_text": "79.4",
-     "contrib": 0.26
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "6.4",
-     "contrib": -0.25
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.8",
-     "contrib": 0.25
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "22.0",
-     "contrib": -0.21
+     "contrib": 0.11
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "44.1",
-     "contrib": -0.17
+     "contrib": -0.09
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Lasse Rosenboom(DF)의 현재 능력 점수는 46.5점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 패스 성공률이다.",
-  "potential": "Lasse Rosenboom의 2~3년 후 예측 중심값은 50.2점, 80% 구간 상단은 60.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 68.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 60.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.7점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(48.9, +3.7), 현재 능력(46.5, +0.7), 공중볼 승률(66.7, +0.6), 안정 그룹 점수(6.4, +0.5); 내린 요인은 패스 성공률(65.1, -0.7)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(생산 그룹 점수, 전진 패스/90)과 하락 요인(안정 그룹 점수, 나이)을 거쳐 68.6%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Lasse Rosenboom의 2~3년 후 예측 중심값은 51.4점, 80% 구간 상단은 61.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 54.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 61.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.9점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(48.9, +2.7), 현재 능력(46.5, +0.8), 팀 평균 대비 본인 능력(-4.3, +0.5), 소속팀 평균 능력(팀 강도)(50.8, +0.2), 팀 강도 리그 내 순위(0=최강)(0.9, +0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(생산 그룹 점수)과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 54.8%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

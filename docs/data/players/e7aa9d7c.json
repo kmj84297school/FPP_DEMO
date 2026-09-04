@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7077,
-  "mu": 49.4,
+  "survival_prob": 0.676,
+  "mu": 50.7,
   "ci80": {
-   "lo": 38.0,
-   "hi": 60.8
+   "lo": 40.3,
+   "hi": 61.2
   },
   "ci50": {
-   "lo": 43.4,
-   "hi": 55.4
+   "lo": 45.2,
+   "hi": 56.3
   },
-  "sigma_model": 3.9,
-  "sigma_residual": 8.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 0.89,
-   "total": -0.13,
+   "base": 0.93,
+   "rest": 0.13,
+   "total": 1.23,
    "top": [
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "0.8",
-     "contrib": -1.75
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "51.7",
+     "contrib": 1.51
     },
     {
      "feature": "sty_타겟맨",
      "label": "스타일: 타겟맨",
      "value_text": "예",
-     "contrib": -1.63
+     "contrib": -0.93
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "51.7",
-     "contrib": 1.34
-    },
-    {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.3",
-     "contrib": 1.29
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "49.5",
+     "contrib": 0.49
     },
     {
      "feature": "PrgPass90",
      "label": "전진 패스/90",
      "value_text": "1.3",
-     "contrib": -1.25
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.939,
-   "rest": -0.384,
-   "base_prob": 0.719,
-   "prob": 0.708,
-   "top": [
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1866.0",
-     "contrib": 0.38
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "4.9",
-     "contrib": 0.24
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.4",
-     "contrib": -0.23
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "22.0",
-     "contrib": -0.21
+     "contrib": -0.47
     },
     {
      "feature": "TklInt90",
      "label": "태클+인터셉트/90",
      "value_text": "0.8",
-     "contrib": 0.15
+     "contrib": -0.44
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.956,
+   "rest": 0.057,
+   "base_prob": 0.722,
+   "prob": 0.676,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1866.0",
+     "contrib": 0.24
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "51.6",
+     "contrib": -0.21
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "49.5",
+     "contrib": -0.12
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "22.0",
+     "contrib": -0.09
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "47.4",
+     "contrib": -0.09
     }
    ]
   },
@@ -207,7 +207,7 @@
    "season": 2022,
    "distance": 2.389,
    "survived": 1,
-   "fut_ability_v2": 70.3,
+   "fut_ability_v2": 70.2,
    "player_name": "Gianluca Scamacca",
    "squad": "Sassuolo"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Fábio Silva(FW)의 현재 능력 점수는 49.5점이다. 플레이스타일은 '타겟맨'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 클리어링, 공중볼 승리, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스이다.",
-  "potential": "Fábio Silva의 2~3년 후 예측 중심값은 49.4점, 80% 구간 상단은 60.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 70.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 60.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.1점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(51.7, +1.3), 비페널티 xG/90(0.3, +1.3); 내린 요인은 태클+인터셉트/90(0.8, -1.8), 스타일: 타겟맨(예, -1.6), 전진 패스/90(1.3, -1.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 박스 터치/90)과 하락 요인(전진 운반/90, 나이)을 거쳐 70.8%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Fábio Silva의 2~3년 후 예측 중심값은 50.7점, 80% 구간 상단은 61.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 67.6%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 61.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.2점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(51.7, +1.5), 현재 능력(49.5, +0.5); 내린 요인은 스타일: 타겟맨(예, -0.9), 전진 패스/90(1.3, -0.5), 태클+인터셉트/90(0.8, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도), 현재 능력)을 거쳐 67.6%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

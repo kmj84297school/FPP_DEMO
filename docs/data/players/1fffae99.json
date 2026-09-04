@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.708,
-  "mu": 56.8,
+  "survival_prob": 0.8107,
+  "mu": 58.9,
   "ci80": {
-   "lo": 47.5,
-   "hi": 66.2
+   "lo": 49.7,
+   "hi": 68.3
   },
   "ci50": {
-   "lo": 51.9,
-   "hi": 61.8
+   "lo": 54.1,
+   "hi": 63.9
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.32,
-   "total": -8.95,
+   "base": -1.93,
+   "rest": -1.28,
+   "total": -6.83,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "8.1",
-     "contrib": -1.74
+     "contrib": -1.4
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "68.6",
-     "contrib": -1.19
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.1",
-     "contrib": -0.65
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "71.1",
-     "contrib": -0.58
+     "contrib": -0.84
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "65.8",
-     "contrib": -0.56
+     "contrib": -0.71
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "71.1",
+     "contrib": -0.34
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "5.1",
+     "contrib": -0.34
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.416,
+   "base_logit": 0.151,
+   "rest": 0.63,
    "base_prob": 0.538,
-   "prob": 0.708,
+   "prob": 0.811,
    "top": [
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "84.4",
-     "contrib": 0.33
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.1",
-     "contrib": -0.3
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "27.0",
+     "contrib": 0.28
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2204.0",
-     "contrib": 0.26
+     "contrib": 0.21
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "27.0",
-     "contrib": 0.25
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "60.7",
+     "contrib": 0.19
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "4.2",
-     "contrib": -0.21
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "496.0",
+     "contrib": -0.14
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "72.0",
+     "contrib": 0.14
     }
    ]
   },
@@ -135,7 +135,7 @@
    "season": 2021,
    "distance": 2.222,
    "survived": 1,
-   "fut_ability_v2": 43.4,
+   "fut_ability_v2": 43.3,
    "player_name": "Yannick Gerhardt",
    "squad": "Wolfsburg"
   },
@@ -189,7 +189,7 @@
    "season": 2022,
    "distance": 2.442,
    "survived": 1,
-   "fut_ability_v2": 55.6,
+   "fut_ability_v2": 55.5,
    "player_name": "Lee Jae-sung",
    "squad": "Mainz 05"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Jens Stage(MF)의 현재 능력 점수는 65.8점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 슈팅당 기대득점, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 전진 운반 거리이다.",
-  "potential": "Jens Stage의 2~3년 후 예측 중심값은 56.8점, 80% 구간 상단은 66.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 66.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -9.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 능력 변화(전 시즌 대비)(8.1, -1.7), 스타일 렌즈 점수(68.6, -1.2), 전진 운반/90(1.1, -0.7), 수비 그룹 점수(71.1, -0.6), 현재 능력(65.8, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(생산 그룹 점수, 시즌 출전시간(분))과 하락 요인(전진 운반/90, 전진 패스/90)을 거쳐 70.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Jens Stage의 2~3년 후 예측 중심값은 58.9점, 80% 구간 상단은 68.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 81.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 68.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -6.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 능력 변화(전 시즌 대비)(8.1, -1.4), 스타일 렌즈 점수(68.6, -0.8), 현재 능력(65.8, -0.7), 수비 그룹 점수(71.1, -0.3), 팀 평균 대비 본인 능력(5.1, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(2시즌 전 출전시간(분))을 거쳐 81.1%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

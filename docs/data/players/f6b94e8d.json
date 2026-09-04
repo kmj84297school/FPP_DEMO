@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.391,
-  "mu": 55.5,
+  "survival_prob": 0.67,
+  "mu": 54.9,
   "ci80": {
-   "lo": 45.1,
-   "hi": 65.9
+   "lo": 44.6,
+   "hi": 65.2
   },
   "ci50": {
-   "lo": 50.1,
-   "hi": 61.0
+   "lo": 49.5,
+   "hi": 60.2
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 8.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 0.09,
-   "total": 5.45,
+   "base": 0.93,
+   "rest": 0.38,
+   "total": 4.83,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "52.7",
-     "contrib": 2.13
+     "contrib": 1.51
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-8.5",
+     "contrib": 0.86
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-9.4",
-     "contrib": 1.24
+     "contrib": 0.77
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "74.4",
-     "contrib": 0.94
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "50.1",
+     "contrib": 0.63
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.5",
-     "contrib": 0.75
-    },
-    {
-     "feature": "d_grp_progress",
-     "label": "전진 그룹 변화",
-     "value_text": "-14.4",
-     "contrib": -0.68
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.2",
+     "contrib": -0.23
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.557,
-   "base_prob": 0.719,
-   "prob": 0.391,
+   "base_logit": 0.956,
+   "rest": -0.28,
+   "base_prob": 0.722,
+   "prob": 0.67,
    "top": [
     {
-     "feature": "d_grp_stability",
-     "label": "안정 그룹 변화",
-     "value_text": "10.6",
-     "contrib": -0.37
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "58.5",
+     "contrib": 0.2
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "1098.0",
-     "contrib": -0.26
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.19
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.0",
-     "contrib": -0.2
+     "feature": "lg_Ligue 1",
+     "label": "리그: 리그1",
+     "value_text": "예",
+     "contrib": -0.12
     },
     {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-9.4",
-     "contrib": 0.18
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "50.1",
+     "contrib": -0.12
     },
     {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "30.1",
-     "contrib": -0.17
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "47.3",
+     "contrib": -0.12
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Saidou Sow(DF)의 현재 능력 점수는 50.1점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 블록, 볼 손실(미스+파울), 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 패스이다.",
-  "potential": "Saidou Sow의 2~3년 후 예측 중심값은 55.5점, 80% 구간 상단은 65.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 39.1%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 65.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.4점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(52.7, +2.1), 능력 변화(전 시즌 대비)(-9.4, +1.2), 공중볼 승률(74.4, +0.9), 전진 패스/90(1.5, +0.8); 내린 요인은 전진 그룹 변화(-14.4, -0.7)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(능력 변화(전 시즌 대비))과 하락 요인(안정 그룹 변화, 출전시간 변화(분))을 거쳐 39.1%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Saidou Sow의 2~3년 후 예측 중심값은 54.9점, 80% 구간 상단은 65.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 67.0%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 65.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.8점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(52.7, +1.5), 팀 평균 대비 본인 능력(-8.5, +0.9), 능력 변화(전 시즌 대비)(-9.4, +0.8), 현재 능력(50.1, +0.6); 내린 요인은 성공 드리블/90(0.2, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 선발 비율)과 하락 요인(리그: 리그1, 현재 능력)을 거쳐 67.0%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

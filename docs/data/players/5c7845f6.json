@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4153,
-  "mu": 56.4,
+  "survival_prob": 0.5944,
+  "mu": 56.1,
   "ci80": {
-   "lo": 47.2,
-   "hi": 65.6
+   "lo": 46.8,
+   "hi": 65.2
   },
   "ci50": {
-   "lo": 51.6,
-   "hi": 61.3
+   "lo": 51.2,
+   "hi": 60.9
   },
-  "sigma_model": 1.2,
+  "sigma_model": 0.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.0,
-   "total": -0.41,
+   "base": -1.93,
+   "rest": 0.32,
+   "total": -0.77,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.9",
-     "contrib": 1.21
+     "contrib": 0.71
     },
     {
      "feature": "KP90",
      "label": "키패스/90",
      "value_text": "0.2",
-     "contrib": 0.68
-    },
-    {
-     "feature": "d_grp_progress",
-     "label": "전진 그룹 변화",
-     "value_text": "0.0",
-     "contrib": 0.56
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "23.5",
      "contrib": 0.48
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "4.0",
+     "contrib": -0.38
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "56.8",
+     "contrib": 0.26
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "56.7",
-     "contrib": -0.44
+     "contrib": -0.22
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.262,
+   "base_logit": 0.151,
+   "rest": -0.244,
    "base_prob": 0.538,
-   "prob": 0.415,
+   "prob": 0.594,
    "top": [
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "84.4",
-     "contrib": -0.4
-    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "27.0",
-     "contrib": 0.35
+     "contrib": 0.3
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.9",
-     "contrib": -0.23
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "52.8",
+     "contrib": -0.17
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2269.0",
-     "contrib": 0.21
+     "contrib": 0.14
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "4.0",
-     "contrib": -0.17
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-249.0",
+     "contrib": 0.12
+    },
+    {
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.09
     }
    ]
   },
@@ -153,7 +153,7 @@
    "season": 2021,
    "distance": 1.104,
    "survived": 1,
-   "fut_ability_v2": 52.3,
+   "fut_ability_v2": 52.2,
    "player_name": "Yeray Álvarez",
    "squad": "Athletic Club"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Igor Zubeldia(DF)의 현재 능력 점수는 56.8점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 운반 거리, 볼 손실(미스+파울), 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 박스 터치이다.",
-  "potential": "Igor Zubeldia의 2~3년 후 예측 중심값은 56.4점, 80% 구간 상단은 65.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 65.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.9, +1.2), 키패스/90(0.2, +0.7), 전진 그룹 변화(0.0, +0.6), 찬스 그룹 점수(23.5, +0.5); 내린 요인은 포지션 렌즈 점수(56.7, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(공중볼 승률, 전진 운반/90)을 거쳐 41.5%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Igor Zubeldia의 2~3년 후 예측 중심값은 56.1점, 80% 구간 상단은 65.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 65.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.9, +0.7), 키패스/90(0.2, +0.5), 현재 능력(56.8, +0.3); 내린 요인은 팀 평균 대비 본인 능력(4.0, -0.4), 포지션 렌즈 점수(56.7, -0.2)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도))을 거쳐 59.4%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

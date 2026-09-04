@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4428,
-  "mu": 57.8,
+  "survival_prob": 0.4448,
+  "mu": 57.9,
   "ci80": {
-   "lo": 48.0,
-   "hi": 67.4
+   "lo": 48.1,
+   "hi": 67.5
   },
   "ci50": {
-   "lo": 52.6,
-   "hi": 62.8
+   "lo": 52.7,
+   "hi": 62.9
   },
-  "sigma_model": 2.6,
+  "sigma_model": 2.5,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.57,
-   "total": -7.45,
+   "base": -1.93,
+   "rest": 0.14,
+   "total": -7.34,
    "top": [
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "14.7",
+     "contrib": -1.37
+    },
+    {
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.3",
+     "contrib": -1.37
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "72.8",
-     "contrib": -1.3
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "25.8",
-     "contrib": 1.03
+     "contrib": -1.02
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "5.4",
-     "contrib": -0.94
+     "contrib": -0.97
     },
     {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.4",
-     "contrib": -0.92
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.0",
-     "contrib": -0.84
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.82
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.246,
+   "base_logit": 0.151,
+   "rest": 0.032,
    "base_prob": 0.538,
-   "prob": 0.443,
+   "prob": 0.445,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1009.0",
-     "contrib": -0.94
+     "contrib": -0.54
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.69
+     "contrib": 0.48
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "89.3",
-     "contrib": 0.52
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.5",
+     "contrib": -0.14
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.0",
-     "contrib": -0.22
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "29.5",
+     "contrib": -0.11
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "27.1",
-     "contrib": -0.2
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "32.0",
+     "contrib": -0.1
     }
    ]
   },
@@ -162,7 +162,7 @@
    "season": 2022,
    "distance": 2.85,
    "survived": 1,
-   "fut_ability_v2": 62.1,
+   "fut_ability_v2": 62.0,
    "player_name": "Roland Sallai",
    "squad": "Freiburg"
   },
@@ -216,7 +216,7 @@
    "season": 2022,
    "distance": 3.001,
    "survived": 1,
-   "fut_ability_v2": 70.0,
+   "fut_ability_v2": 69.9,
    "player_name": "Saïd Benrahma",
    "squad": "West Ham"
   }
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Gianluca Gaetano(MF)의 현재 능력 점수는 65.2점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 비페널티 xG, 어시스트, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 전진 운반 거리이다.",
-  "potential": "Gianluca Gaetano의 2~3년 후 예측 중심값은 57.8점, 80% 구간 상단은 67.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 67.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 수비 그룹 점수(25.8, +1.0); 내린 요인은 스타일 렌즈 점수(72.8, -1.3), 능력 변화(전 시즌 대비)(5.4, -0.9), 비페널티 xG/90(0.4, -0.9), 전진 운반/90(1.0, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 생산 그룹 점수)과 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 44.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Gianluca Gaetano의 2~3년 후 예측 중심값은 57.9점, 80% 구간 상단은 67.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 44.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 67.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 팀 평균 대비 본인 능력(14.7, -1.4), 선발 비율(0.3, -1.4), 스타일 렌즈 점수(72.8, -1.0), 능력 변화(전 시즌 대비)(5.4, -1.0), 리그: 세리에A(예, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 44.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

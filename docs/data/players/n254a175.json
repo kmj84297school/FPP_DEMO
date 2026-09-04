@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9566,
-  "mu": 64.4,
+  "survival_prob": 0.8546,
+  "mu": 64.3,
   "ci80": {
-   "lo": 53.6,
-   "hi": 75.2
+   "lo": 53.8,
+   "hi": 74.8
   },
   "ci50": {
-   "lo": 58.7,
-   "hi": 70.2
+   "lo": 58.8,
+   "hi": 69.9
   },
-  "sigma_model": 2.8,
-  "sigma_residual": 8.0
+  "sigma_model": 2.0,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -1.71,
-   "total": -7.99,
+   "base": 0.93,
+   "rest": -1.49,
+   "total": -8.12,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "78.0",
-     "contrib": -4.43
-    },
-    {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "72.5",
-     "contrib": -2.05
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "16.8",
-     "contrib": 1.63
+     "contrib": -3.09
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "36.2",
-     "contrib": -1.48
+     "contrib": -2.62
     },
     {
-     "feature": "d_PrgPass90",
-     "label": "전진 패스/90 변화",
-     "value_text": "1.9",
-     "contrib": -0.92
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "72.5",
+     "contrib": -1.44
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "10.8",
+     "contrib": -0.85
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "16.8",
+     "contrib": 0.45
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 1.402,
-   "base_prob": 0.719,
-   "prob": 0.957,
+   "base_logit": 0.956,
+   "rest": 0.293,
+   "base_prob": 0.722,
+   "prob": 0.855,
    "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "61.7",
+     "contrib": 0.31
+    },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "66.9",
-     "contrib": 0.43
+     "contrib": 0.16
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "10.5",
-     "contrib": -0.34
+     "feature": "lg_Ligue 1",
+     "label": "리그: 리그1",
+     "value_text": "예",
+     "contrib": -0.16
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "79.4",
-     "contrib": 0.24
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "3.9",
-     "contrib": 0.21
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "72.5",
+     "contrib": 0.11
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1755.0",
-     "contrib": 0.2
+     "contrib": 0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Hákon Arnar Haraldsson(MF)의 현재 능력 점수는 72.5점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 전진 패스 수신, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
-  "potential": "Hákon Arnar Haraldsson의 2~3년 후 예측 중심값은 64.4점, 80% 구간 상단은 75.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 75.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -8.1점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 수비 그룹 점수(16.8, +1.6); 내린 요인은 스타일 렌즈 점수(78.0, -4.4), 현재 능력(72.5, -2.0), 능력 변화(전 시즌 대비)(36.2, -1.5), 전진 패스/90 변화(1.9, -0.9)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(포지션 렌즈 점수, 생산 그룹 점수)과 하락 요인(공중볼 승률)을 거쳐 95.7%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Hákon Arnar Haraldsson의 2~3년 후 예측 중심값은 64.3점, 80% 구간 상단은 74.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 85.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 74.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -8.2점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 수비 그룹 점수(16.8, +0.5); 내린 요인은 스타일 렌즈 점수(78.0, -3.1), 능력 변화(전 시즌 대비)(36.2, -2.6), 현재 능력(72.5, -1.4), 팀 평균 대비 본인 능력(10.8, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 포지션 렌즈 점수)과 하락 요인(리그: 리그1)을 거쳐 85.5%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

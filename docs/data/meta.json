@@ -13,22 +13,81 @@
   "age_min": 24,
   "age_max": 38,
   "pred_min_minutes": 900,
-  "auc": 0.732,
-  "r2": 0.5,
-  "ci80_coverage": 0.832,
-  "ci50_coverage": 0.532,
-  "mae": 5.69
+  "auc": 0.759,
+  "r2": 0.521,
+  "ci80_coverage": 0.829,
+  "ci50_coverage": 0.533,
+  "mae": 5.55
  },
  "u23": {
-  "auc": 0.693,
-  "r2": 0.306,
-  "ci80_coverage": 0.826,
-  "ci50_coverage": 0.522,
-  "mae": 6.43
+  "auc": 0.745,
+  "r2": 0.346,
+  "ci80_coverage": 0.811,
+  "ci50_coverage": 0.517,
+  "mae": 6.21
  },
- "u23_mae": 6.43,
- "u23_r2": 0.306,
+ "u23_mae": 6.21,
+ "u23_r2": 0.346,
  "scale_factor": 1.0718,
+ "top_band": {
+  "u23": {
+   "threshold_raw": 75,
+   "n": 19,
+   "mae": 6.91,
+   "bias": 1.56,
+   "ci80_coverage": 0.789,
+   "threshold_display": 80.4
+  },
+  "veteran": {
+   "threshold_raw": 75,
+   "n": 61,
+   "mae": 5.28,
+   "bias": 1.49,
+   "ci80_coverage": 0.852,
+   "threshold_display": 80.4
+  }
+ },
+ "n_players": 1692,
+ "filters": {
+  "leagues": [
+   "Bundesliga",
+   "La Liga",
+   "Ligue 1",
+   "Premier League",
+   "Serie A"
+  ],
+  "styles": [
+   "공격형 MF",
+   "공격형 풀백",
+   "돌파형 윙어",
+   "딥 플레이메이커",
+   "박스 포처",
+   "볼 운반형",
+   "빌드업 수비수",
+   "수비형 파괴자",
+   "스토퍼",
+   "연결형 공격수",
+   "타겟맨"
+  ],
+  "roles": [
+   "CB",
+   "FB",
+   "DM",
+   "CM",
+   "AM",
+   "W",
+   "ST"
+  ]
+ },
+ "role_labels": {
+  "CB": "센터백",
+  "FB": "풀백",
+  "DM": "수비형 MF",
+  "CM": "중앙 MF",
+  "AM": "공격형 MF",
+  "W": "윙어",
+  "ST": "스트라이커"
+ },
  "oor_threshold_display": {
   "growth": 81.2,
   "peak": 81.7

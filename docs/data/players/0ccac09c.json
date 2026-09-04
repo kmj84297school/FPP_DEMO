@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2082,
-  "mu": 44.5,
+  "survival_prob": 0.2655,
+  "mu": 46.2,
   "ci80": {
-   "lo": 35.2,
-   "hi": 53.9
+   "lo": 37.0,
+   "hi": 55.4
   },
   "ci50": {
-   "lo": 39.5,
-   "hi": 49.4
+   "lo": 41.3,
+   "hi": 51.0
   },
-  "sigma_model": 1.7,
+  "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -3.13,
-   "total": -5.31,
+   "base": -1.93,
+   "rest": -1.47,
+   "total": -3.68,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "13.1",
-     "contrib": -2.31
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "53.1",
-     "contrib": 1.07
+     "contrib": -1.91
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "49.8",
-     "contrib": 0.92
+     "contrib": 0.86
     },
     {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "36.9",
-     "contrib": 0.51
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "53.1",
+     "contrib": 0.83
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.6",
-     "contrib": -0.45
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.44
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "46.6",
+     "contrib": 0.39
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.44,
+   "base_logit": 0.151,
+   "rest": -0.387,
    "base_prob": 0.538,
-   "prob": 0.208,
+   "prob": 0.266,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "31.0",
-     "contrib": -0.7
+     "contrib": -0.52
     },
     {
-     "feature": "d_grp_stability",
-     "label": "안정 그룹 변화",
-     "value_text": "15.8",
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "48.5",
+     "contrib": -0.26
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
      "contrib": -0.19
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2058.0",
-     "contrib": 0.17
+     "contrib": 0.1
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.6",
-     "contrib": -0.16
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "3.8",
-     "contrib": -0.16
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-371.0",
+     "contrib": 0.09
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Stefano Sabelli(DF)의 현재 능력 점수는 49.8점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 태클+인터셉트, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 태클 성공률이다.",
-  "potential": "Stefano Sabelli의 2~3년 후 예측 중심값은 44.5점, 80% 구간 상단은 53.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 53.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(53.1, +1.1), 현재 능력(49.8, +0.9), 수비 그룹 점수(36.9, +0.5); 내린 요인은 능력 변화(전 시즌 대비)(13.1, -2.3), 전진 운반/90(1.6, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분))과 하락 요인(나이, 안정 그룹 변화)을 거쳐 20.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Stefano Sabelli의 2~3년 후 예측 중심값은 46.2점, 80% 구간 상단은 55.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 26.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 55.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 현재 능력(49.8, +0.9), 스타일 렌즈 점수(53.1, +0.8), 포지션 렌즈 점수(46.6, +0.4); 내린 요인은 능력 변화(전 시즌 대비)(13.1, -1.9), 리그: 세리에A(예, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 출전시간 변화(분))과 하락 요인(나이, 소속팀 평균 능력(팀 강도))을 거쳐 26.6%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

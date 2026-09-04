@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6223,
-  "mu": 62.3,
+  "survival_prob": 0.6472,
+  "mu": 58.9,
   "ci80": {
-   "lo": 52.4,
-   "hi": 72.1
+   "lo": 49.4,
+   "hi": 68.4
   },
   "ci50": {
-   "lo": 57.1,
-   "hi": 67.5
+   "lo": 53.9,
+   "hi": 63.9
   },
-  "sigma_model": 2.9,
+  "sigma_model": 2.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.89,
-   "total": -0.09,
+   "base": -1.93,
+   "rest": -1.27,
+   "total": -3.47,
    "top": [
     {
      "feature": "PrgPass90",
      "label": "전진 패스/90",
      "value_text": "1.4",
-     "contrib": -2.2
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "22.3",
-     "contrib": 1.48
-    },
-    {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "62.5",
-     "contrib": 1.36
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "7.5",
-     "contrib": 1.13
-    },
-    {
-     "feature": "sty_돌파형 윙어",
-     "label": "스타일: 돌파형 윙어",
-     "value_text": "예",
-     "contrib": 0.94
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": 0.041,
-   "base_prob": 0.538,
-   "prob": 0.622,
-   "top": [
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "25.0",
-     "contrib": 0.4
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1371.0",
-     "contrib": -0.33
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "7.5",
-     "contrib": 0.25
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "40.1",
-     "contrib": -0.16
+     "contrib": -1.16
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "62.4",
+     "contrib": -0.78
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "22.3",
+     "contrib": 0.65
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "25.0",
+     "contrib": 0.56
+    },
+    {
+     "feature": "sty_돌파형 윙어",
+     "label": "스타일: 돌파형 윙어",
+     "value_text": "예",
+     "contrib": 0.46
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": 0.222,
+   "base_prob": 0.538,
+   "prob": 0.647,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "25.0",
+     "contrib": 0.44
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1371.0",
+     "contrib": -0.32
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "58.2",
      "contrib": 0.15
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "40.1",
+     "contrib": -0.14
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.3",
+     "contrib": 0.11
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Alfon(FW)의 현재 능력 점수는 62.4점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 박스 터치, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스 거리이다.",
-  "potential": "Alfon의 2~3년 후 예측 중심값은 62.3점, 80% 구간 상단은 72.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 62.2%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 72.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 수비 그룹 점수(22.3, +1.5), 전진 그룹 점수(62.5, +1.4), 박스 터치/90(7.5, +1.1), 스타일: 돌파형 윙어(예, +0.9); 내린 요인은 전진 패스/90(1.4, -2.2)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 박스 터치/90)과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 62.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Alfon의 2~3년 후 예측 중심값은 58.9점, 80% 구간 상단은 68.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 64.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 68.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 수비 그룹 점수(22.3, +0.7), 나이(25.0, +0.6), 스타일: 돌파형 윙어(예, +0.5); 내린 요인은 전진 패스/90(1.4, -1.2), 현재 능력(62.4, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 64.7%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

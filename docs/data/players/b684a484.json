@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2563,
-  "mu": 42.2,
+  "survival_prob": 0.3198,
+  "mu": 42.0,
   "ci80": {
-   "lo": 32.6,
-   "hi": 51.8
+   "lo": 32.5,
+   "hi": 51.4
   },
   "ci50": {
-   "lo": 37.1,
-   "hi": 47.3
+   "lo": 37.0,
+   "hi": 46.9
   },
-  "sigma_model": 2.4,
+  "sigma_model": 1.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.71,
-   "total": 5.97,
+   "base": -1.93,
+   "rest": -0.86,
+   "total": 5.74,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "34.4",
-     "contrib": 4.79
+     "contrib": 3.18
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-10.1",
-     "contrib": 3.27
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "38.0",
-     "contrib": 1.53
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.1",
-     "contrib": -1.39
+     "contrib": 3.12
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "36.2",
-     "contrib": 1.39
+     "contrib": 1.68
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-16.2",
+     "contrib": 1.21
+    },
+    {
+     "feature": "sty_연결형 공격수",
+     "label": "스타일: 연결형 공격수",
+     "value_text": "예",
+     "contrib": -0.67
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.28,
+   "base_logit": 0.151,
+   "rest": -0.092,
    "base_prob": 0.538,
-   "prob": 0.256,
+   "prob": 0.32,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1288.0",
-     "contrib": -0.45
+     "contrib": -0.32
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
+     "contrib": -0.15
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "36.2",
-     "contrib": -0.34
+     "contrib": -0.12
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "91.5",
-     "contrib": -0.26
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "24.6",
+     "contrib": -0.12
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "34.4",
-     "contrib": -0.23
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "38.0",
-     "contrib": -0.21
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "52.4",
+     "contrib": -0.11
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Jordan Pefok(FW)의 현재 능력 점수는 36.2점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 공중볼 승리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 운반이다.",
-  "potential": "Jordan Pefok의 2~3년 후 예측 중심값은 42.2점, 80% 구간 상단은 51.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 51.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +6.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(34.4, +4.8), 능력 변화(전 시즌 대비)(-10.1, +3.3), 포지션 렌즈 점수(38.0, +1.5), 현재 능력(36.2, +1.4); 내린 요인은 전진 패스/90(1.1, -1.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(시즌 출전시간(분), 현재 능력)을 거쳐 25.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Jordan Pefok의 2~3년 후 예측 중심값은 42.0점, 80% 구간 상단은 51.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.0%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 51.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(34.4, +3.2), 능력 변화(전 시즌 대비)(-10.1, +3.1), 현재 능력(36.2, +1.7), 팀 평균 대비 본인 능력(-16.2, +1.2); 내린 요인은 스타일: 연결형 공격수(예, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(시즌 출전시간(분), 팀 강도 리그 내 순위(0=최강))을 거쳐 32.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

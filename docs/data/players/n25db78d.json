@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3126,
-  "mu": 53.2,
+  "survival_prob": 0.3646,
+  "mu": 52.8,
   "ci80": {
-   "lo": 43.9,
-   "hi": 62.4
+   "lo": 43.7,
+   "hi": 62.0
   },
   "ci50": {
-   "lo": 48.3,
-   "hi": 58.0
+   "lo": 48.0,
+   "hi": 57.7
   },
-  "sigma_model": 1.1,
+  "sigma_model": 0.7,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.73,
-   "total": -1.52,
+   "base": -1.93,
+   "rest": -0.61,
+   "total": -1.81,
    "top": [
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "54.7",
+     "contrib": 0.61
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "59.2",
-     "contrib": 0.95
+     "contrib": 0.46
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "50.3",
-     "contrib": 0.56
+     "contrib": 0.39
     },
     {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "54.7",
-     "contrib": 0.53
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "34.0",
+     "contrib": -0.37
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "82.4",
-     "contrib": -0.46
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.6",
-     "contrib": -0.46
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.37
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.334,
+   "base_logit": 0.151,
+   "rest": -0.205,
    "base_prob": 0.538,
-   "prob": 0.313,
+   "prob": 0.365,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "34.0",
-     "contrib": -1.07
+     "contrib": -0.82
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "87.3",
-     "contrib": 0.44
+     "contrib": 0.4
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2672.0",
-     "contrib": 0.37
+     "contrib": 0.34
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.6",
-     "contrib": -0.21
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.24
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "0.6",
-     "contrib": -0.13
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "49.9",
+     "contrib": -0.18
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Florent Hanin(DF)의 현재 능력 점수는 54.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 박스 진입 패스, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Florent Hanin의 2~3년 후 예측 중심값은 53.2점, 80% 구간 상단은 62.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.3%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 62.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(59.2, +0.9), 포지션 렌즈 점수(50.3, +0.6), 현재 능력(54.7, +0.5); 내린 요인은 찬스 그룹 점수(82.4, -0.5), 전진 운반/90(1.6, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(나이, 전진 운반/90)을 거쳐 31.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Florent Hanin의 2~3년 후 예측 중심값은 52.8점, 80% 구간 상단은 62.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 36.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 62.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 현재 능력(54.7, +0.6), 스타일 렌즈 점수(59.2, +0.5), 포지션 렌즈 점수(50.3, +0.4); 내린 요인은 나이(34.0, -0.4), 능력 변화(전 시즌 대비)(결측, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(나이, 팀 강도 리그 내 순위(0=최강))을 거쳐 36.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

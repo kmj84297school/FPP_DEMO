@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7067,
-  "mu": 60.5,
+  "survival_prob": 0.8084,
+  "mu": 63.9,
   "ci80": {
-   "lo": 51.1,
-   "hi": 69.7
+   "lo": 54.7,
+   "hi": 73.2
   },
   "ci50": {
-   "lo": 55.5,
-   "hi": 65.3
+   "lo": 59.1,
+   "hi": 68.8
   },
-  "sigma_model": 1.3,
+  "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.81,
-   "total": -3.69,
+   "base": -1.93,
+   "rest": 0.28,
+   "total": -0.18,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-6.9",
-     "contrib": 1.82
+     "contrib": 1.68
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "64.2",
-     "contrib": -1.04
+     "contrib": -0.71
     },
     {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "0.1",
-     "contrib": -0.76
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "64.1",
+     "contrib": -0.68
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "25.0",
-     "contrib": 0.62
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "22.0",
+     "contrib": 0.66
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "986.0",
-     "contrib": -0.61
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-3.6",
+     "contrib": 0.51
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.767,
+   "base_logit": 0.151,
+   "rest": 0.22,
    "base_prob": 0.538,
-   "prob": 0.707,
+   "prob": 0.808,
    "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "67.7",
+     "contrib": 0.43
+    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.55
+     "contrib": 0.41
     },
     {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "74.9",
-     "contrib": 0.31
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2560.0",
+     "contrib": 0.24
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.9",
-     "contrib": -0.3
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "22.0",
+     "contrib": -0.18
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "88.1",
-     "contrib": -0.29
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "986.0",
-     "contrib": -0.29
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.0",
+     "contrib": 0.17
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Ibrahima Konaté(DF)의 현재 능력 점수는 64.1점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 최종 3분의1 패스, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 태클+인터셉트이다.",
-  "potential": "Ibrahima Konaté의 2~3년 후 예측 중심값은 60.5점, 80% 구간 상단은 69.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 69.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-6.9, +1.8), 나이(25.0, +0.6); 내린 요인은 스타일 렌즈 점수(64.2, -1.0), 성공 드리블/90(0.1, -0.8), 출전시간 변화(분)(986.0, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 팀 출전시간 비중(%))과 하락 요인(전진 운반/90, 공중볼 승률)을 거쳐 70.7%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Ibrahima Konaté의 2~3년 후 예측 중심값은 63.9점, 80% 구간 상단은 73.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 80.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 73.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-6.9, +1.7), 2시즌 전 출전시간(분)(22.0, +0.7), 팀 평균 대비 본인 능력(-3.6, +0.5); 내린 요인은 스타일 렌즈 점수(64.2, -0.7), 현재 능력(64.1, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 나이)과 하락 요인(2시즌 전 출전시간(분))을 거쳐 80.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4215,
-  "mu": 50.3,
+  "survival_prob": 0.3294,
+  "mu": 44.6,
   "ci80": {
-   "lo": 39.1,
-   "hi": 61.4
+   "lo": 33.9,
+   "hi": 55.2
   },
   "ci50": {
-   "lo": 44.4,
-   "hi": 56.2
+   "lo": 39.0,
+   "hi": 50.2
   },
-  "sigma_model": 3.5,
-  "sigma_residual": 8.0
+  "sigma_model": 2.5,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 3.35,
-   "total": 17.7,
+   "base": 0.93,
+   "rest": 1.51,
+   "total": 11.98,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "32.2",
-     "contrib": 6.71
+     "contrib": 4.03
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "32.6",
-     "contrib": 3.85
+     "contrib": 2.66
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "15.2",
-     "contrib": 1.12
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-13.4",
+     "contrib": 1.19
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "33.1",
-     "contrib": 0.97
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": 0.84
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "17.5",
-     "contrib": 0.73
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.0",
+     "contrib": 0.83
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.069,
-   "base_prob": 0.719,
-   "prob": 0.422,
+   "base_logit": 0.956,
+   "rest": -0.574,
+   "base_prob": 0.722,
+   "prob": 0.329,
    "top": [
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "33.1",
-     "contrib": -0.53
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "27.5",
-     "contrib": -0.5
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.0",
+     "contrib": -0.48
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "939.0",
-     "contrib": -0.49
+     "contrib": -0.39
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "33.1",
+     "contrib": -0.26
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "20.0",
-     "contrib": 0.45
+     "contrib": 0.23
     },
     {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "32.6",
-     "contrib": -0.25
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.19
     }
    ]
   },
@@ -207,7 +207,7 @@
    "season": 2021,
    "distance": 2.757,
    "survived": 1,
-   "fut_ability_v2": 63.6,
+   "fut_ability_v2": 63.5,
    "player_name": "Ismail Jakobs",
    "squad": "Köln"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Issa Doumbia(MF)의 현재 능력 점수는 32.6점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승리, 블록, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 박스 진입 패스이다.",
-  "potential": "Issa Doumbia의 2~3년 후 예측 중심값은 50.3점, 80% 구간 상단은 61.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 42.1%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 61.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +17.7점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(32.2, +6.7), 현재 능력(32.6, +3.9), 찬스 그룹 점수(15.2, +1.1), 포지션 렌즈 점수(33.1, +1.0), 안정 그룹 점수(17.5, +0.7)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이)과 하락 요인(포지션 렌즈 점수, 팀 출전시간 비중(%))을 거쳐 42.1%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Issa Doumbia의 2~3년 후 예측 중심값은 44.6점, 80% 구간 상단은 55.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 32.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 55.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +12.0점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(32.2, +4.0), 현재 능력(32.6, +2.7), 팀 평균 대비 본인 능력(-13.4, +1.2), 팀 강도 리그 내 순위(0=최강)(1.0, +0.8), 소속팀 평균 능력(팀 강도)(46.0, +0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이)과 하락 요인(소속팀 평균 능력(팀 강도), 시즌 출전시간(분))을 거쳐 32.9%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

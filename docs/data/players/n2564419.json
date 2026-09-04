@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6937,
-  "mu": 52.5,
+  "survival_prob": 0.475,
+  "mu": 52.2,
   "ci80": {
    "lo": 43.0,
-   "hi": 62.0
+   "hi": 61.5
   },
   "ci50": {
-   "lo": 47.5,
-   "hi": 57.4
+   "lo": 47.4,
+   "hi": 57.1
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.23,
-   "total": 0.82,
+   "base": -1.93,
+   "rest": 0.47,
+   "total": 0.56,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "53.5",
-     "contrib": 1.16
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "2.0",
-     "contrib": -0.86
-    },
-    {
-     "feature": "sty_돌파형 윙어",
-     "label": "스타일: 돌파형 윙어",
-     "value_text": "예",
-     "contrib": 0.86
+     "contrib": 0.75
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "51.7",
-     "contrib": 0.69
+     "contrib": 0.72
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "49.9",
-     "contrib": 0.65
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": -0.061,
-   "base_prob": 0.538,
-   "prob": 0.694,
-   "top": [
+     "contrib": 0.45
+    },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "27.0",
-     "contrib": 0.39
+     "feature": "sty_돌파형 윙어",
+     "label": "스타일: 돌파형 윙어",
+     "value_text": "예",
+     "contrib": 0.43
     },
     {
      "feature": "PrgPass90",
      "label": "전진 패스/90",
      "value_text": "2.0",
-     "contrib": 0.18
+     "contrib": -0.34
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": 0.142,
+   "base_prob": 0.538,
+   "prob": 0.475,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "27.0",
+     "contrib": 0.27
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "5.1",
-     "contrib": 0.16
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "49.7",
+     "contrib": -0.21
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "4.1",
-     "contrib": 0.13
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.18
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1683.0",
-     "contrib": -0.13
+     "contrib": -0.15
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "30.4",
+     "contrib": -0.11
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Musa Al-Taamari(FW)의 현재 능력 점수는 51.7점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 운반, 패스 성공률, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 어시스트, 무페널티 득점이다.",
-  "potential": "Musa Al-Taamari의 2~3년 후 예측 중심값은 52.5점, 80% 구간 상단은 62.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 62.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(53.5, +1.2), 스타일: 돌파형 윙어(예, +0.9), 현재 능력(51.7, +0.7), 포지션 렌즈 점수(49.9, +0.7); 내린 요인은 전진 패스/90(2.0, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 전진 패스/90)과 하락 요인(시즌 출전시간(분))을 거쳐 69.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Musa Al-Taamari의 2~3년 후 예측 중심값은 52.2점, 80% 구간 상단은 61.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 47.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 61.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(53.5, +0.8), 현재 능력(51.7, +0.7), 포지션 렌즈 점수(49.9, +0.5), 스타일: 돌파형 윙어(예, +0.4); 내린 요인은 전진 패스/90(2.0, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 47.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

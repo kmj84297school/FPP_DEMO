@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7193,
-  "mu": 54.1,
+  "survival_prob": 0.7052,
+  "mu": 52.9,
   "ci80": {
-   "lo": 43.7,
-   "hi": 64.5
+   "lo": 42.7,
+   "hi": 63.2
   },
   "ci50": {
-   "lo": 48.7,
-   "hi": 59.6
+   "lo": 47.6,
+   "hi": 58.4
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 8.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.46,
-   "total": 7.49,
+   "base": 0.93,
+   "rest": 0.02,
+   "total": 6.34,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "46.8",
-     "contrib": 4.19
+     "contrib": 2.49
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "18.0",
-     "contrib": 2.44
+     "contrib": 1.47
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "41.4",
-     "contrib": -0.42
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-8.3",
+     "contrib": 0.83
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "46.6",
-     "contrib": 0.39
+     "contrib": 0.75
     },
     {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "37.2",
-     "contrib": 0.37
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "1.3",
+     "contrib": -0.15
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.414,
-   "base_prob": 0.719,
-   "prob": 0.719,
+   "base_logit": 0.956,
+   "rest": -0.074,
+   "base_prob": 0.722,
+   "prob": 0.705,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "18.0",
-     "contrib": 0.49
+     "contrib": 0.22
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "27.7",
-     "contrib": -0.18
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "46.4",
+     "contrib": -0.12
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "46.6",
+     "contrib": -0.12
+    },
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "56.5",
+     "contrib": 0.05
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "57.9",
-     "contrib": -0.16
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1771.0",
-     "contrib": 0.14
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "46.8",
-     "contrib": 0.13
+     "contrib": -0.05
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Paul Wanner(MF)의 현재 능력 점수는 46.6점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 성공 드리블, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 패스 성공률이다.",
-  "potential": "Paul Wanner의 2~3년 후 예측 중심값은 54.1점, 80% 구간 상단은 64.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 71.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 64.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +7.5점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(46.8, +4.2), 나이(18.0, +2.4), 현재 능력(46.6, +0.4), 수비 그룹 점수(37.2, +0.4); 내린 요인은 공중볼 승률(41.4, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(안정 그룹 점수, 팀 출전시간 비중(%))을 거쳐 71.9%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Paul Wanner의 2~3년 후 예측 중심값은 52.9점, 80% 구간 상단은 63.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 70.5%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 63.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +6.3점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(46.8, +2.5), 나이(18.0, +1.5), 팀 평균 대비 본인 능력(-8.3, +0.8), 현재 능력(46.6, +0.8); 내린 요인은 성공 드리블/90(1.3, -0.1)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 생산 그룹 점수)과 하락 요인(포지션 렌즈 점수, 현재 능력)을 거쳐 70.5%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

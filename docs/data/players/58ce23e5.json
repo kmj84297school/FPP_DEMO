@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.213,
-  "mu": 58.6,
+  "survival_prob": 0.2696,
+  "mu": 55.3,
   "ci80": {
-   "lo": 49.3,
-   "hi": 68.0
+   "lo": 46.1,
+   "hi": 64.5
   },
   "ci50": {
-   "lo": 53.7,
-   "hi": 63.5
+   "lo": 50.4,
+   "hi": 60.1
   },
-  "sigma_model": 1.4,
+  "sigma_model": 1.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.08,
-   "total": -1.21,
+   "base": -1.93,
+   "rest": -0.25,
+   "total": -4.53,
    "top": [
     {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "23.2",
-     "contrib": 1.24
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "9.0",
+     "contrib": -1.1
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "66.6",
-     "contrib": -1.08
+     "contrib": -0.82
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "23.2",
+     "contrib": 0.5
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "31.0",
-     "contrib": -0.74
+     "contrib": -0.49
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "53.1",
-     "contrib": 0.63
-    },
-    {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "2.0",
-     "contrib": 0.57
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.45
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.55,
+   "base_logit": 0.151,
+   "rest": 0.074,
    "base_prob": 0.538,
-   "prob": 0.213,
+   "prob": 0.27,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "31.0",
-     "contrib": -0.41
+     "contrib": -0.44
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1323.0",
-     "contrib": -0.37
+     "contrib": -0.28
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "83.3",
-     "contrib": 0.35
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.21
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.8",
+     "contrib": -0.16
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "43.2",
-     "contrib": -0.24
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.2",
-     "contrib": -0.24
+     "contrib": -0.13
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Steven Skrzybski(MF)의 현재 능력 점수는 59.8점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 유효슈팅, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 태클 성공률이다.",
-  "potential": "Steven Skrzybski의 2~3년 후 예측 중심값은 58.6점, 80% 구간 상단은 68.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 21.3%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 68.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 수비 그룹 점수(23.2, +1.2), 포지션 렌즈 점수(53.1, +0.6), 태클+인터셉트/90(2.0, +0.6); 내린 요인은 스타일 렌즈 점수(66.6, -1.1), 나이(31.0, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(생산 그룹 점수)과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 21.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Steven Skrzybski의 2~3년 후 예측 중심값은 55.3점, 80% 구간 상단은 64.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 27.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 64.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 수비 그룹 점수(23.2, +0.5); 내린 요인은 팀 평균 대비 본인 능력(9.0, -1.1), 스타일 렌즈 점수(66.6, -0.8), 나이(31.0, -0.5), 능력 변화(전 시즌 대비)(결측, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 시즌 출전시간(분))을 거쳐 27.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

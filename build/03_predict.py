@@ -22,13 +22,16 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "build" / "lib"))
 sys.path.insert(0, str(ROOT / "src"))
 
-from features import build_feature_matrix, reindex_for_model, MODEL_FEATURES
+from features import build_feature_matrix, reindex_for_model, MODEL_FEATURES, feature_set
 from ensemble import fit_ensemble, predict_ensemble
+from cohorts import LABEL_COLS
 from config import (DATA, ABILITY_CSV, FEATURES_CSV, ELIGIBILITY_CSV, ELIGIBILITY_META,
                     FEATURES_CURRENT_CSV, PRED_GROWTH_CSV, PRED_PEAK_CSV,
                     VETERAN_META, TARGET_YEAR, SHAP_GROWTH_JSON, SHAP_PEAK_JSON)
 
 MODELS = ROOT / "models"
+with open(ROOT / "build" / "hparams.json", encoding="utf-8") as f:
+    HP = json.load(f)
 Z80, Z50 = 1.2816, 0.6745
 VET_AGE_MIN, VET_AGE_MAX = 24, 38
 ORIGINAL_PRED_MIN = 900
@@ -37,9 +40,11 @@ ORIGINAL_PRED_MIN = 900
 TOP_K_CONTRIB = 5
 
 
-def contributions(booster, X, top_k=TOP_K_CONTRIB):
-    """행별 SHAP 기여도 → [{"base", "top": [{"feature","value","contrib"}...], "rest", "total"}]"""
-    C = booster.predict(xgb.DMatrix(X), pred_contribs=True)
+def contributions(boosters, X, top_k=TOP_K_CONTRIB):
+    """행별 SHAP 기여도 → [{"base", "top": [{"feature","value","contrib"}...], "rest", "total"}]
+    boosters가 여러 개면(앙상블) 기여도를 평균한다 — 평균의 SHAP = SHAP의 평균(가법성)."""
+    D = xgb.DMatrix(X)
+    C = np.mean([b.predict(D, pred_contribs=True) for b in boosters], axis=0)
     names = list(X.columns)
     out = []
     for i in range(len(X)):
@@ -57,21 +62,22 @@ def contributions(booster, X, top_k=TOP_K_CONTRIB):
 
 
 def predict_cohort(name, query, cur_ability, out_csv, shap_json):
-    reg = xgb.XGBRegressor(); reg.load_model(MODELS / f"xgb_delta_{name}.json")
+    surv_p = {k: v for k, v in HP[name]["surv"].items() if k != "features"}
+    reg_p = {k: v for k, v in HP[name]["reg"].items() if k != "features"}
+    cols_r = feature_set(HP[name]["reg"]["features"])
     clf = xgb.XGBClassifier(); clf.load_model(MODELS / f"xgb_survival_{name}.json")
-
-    Xr = reindex_for_model(query[MODEL_FEATURES], reg.get_booster())
-    Xc = reindex_for_model(query[MODEL_FEATURES], clf.get_booster())
-    mu = reg.predict(Xr) + cur_ability          # Δ 예측 → 레벨 환산
+    Xc = reindex_for_model(query, clf.get_booster())
     survival_prob = clf.predict_proba(Xc)[:, 1]
 
+    # 점추정 mu = 부트스트랩 앙상블 평균 + 현재 능력 (07과 동일 설정·시드로 전체 데이터 재학습)
     M = pd.read_csv(DATA / f"fpp_train_matrix_{name}.csv")
     S = M[M["survived"] == 1].reset_index(drop=True)
-    Xcols = [c for c in S.columns if c not in ("fbref_id", "season", "survived", "fut_ability_v2")]
     y_delta = S["fut_ability_v2"].values - S["ability"].values
-    print(f"  [{name}] 부트스트랩 앙상블 학습 (B=60)...")
-    boot = fit_ensemble(S[Xcols].astype(float), y_delta, S["fbref_id"].values, B=60, seed=2026)
-    _, sigma_model = predict_ensemble(boot, query[Xcols].astype(float))
+    print(f"  [{name}] 부트스트랩 앙상블 학습 (B=60, 피처 {len(cols_r)})...")
+    boot = fit_ensemble(S[cols_r].astype(float), y_delta, S["fbref_id"].values, B=60, seed=2026, params=reg_p)
+    Xr = query[cols_r].astype(float)
+    delta_mean, sigma_model = predict_ensemble(boot, Xr)
+    mu = delta_mean + cur_ability
 
     sigma_residual = float(np.load(MODELS / f"resid_sigma_{name}.npy"))
     sigma = np.sqrt(sigma_model ** 2 + sigma_residual ** 2)
@@ -90,8 +96,8 @@ def predict_cohort(name, query, cur_ability, out_csv, shap_json):
     print(f"  [{name}] 저장 완료: {out.shape} -> {out_csv}")
 
     # ── 설명(A5): Δ 회귀·잔존 분류 각각의 기여도 ──
-    delta_c = contributions(reg.get_booster(), Xr)
-    surv_c = contributions(clf.get_booster(), Xc)
+    delta_c = contributions([m.get_booster() for m in boot], Xr)
+    surv_c = contributions([clf.get_booster()], Xc)
     expl = {fid: {"delta": d, "survival": s} for fid, d, s in zip(query.index, delta_c, surv_c)}
     with open(shap_json, "w", encoding="utf-8") as f:
         json.dump(expl, f, ensure_ascii=False, indent=1)

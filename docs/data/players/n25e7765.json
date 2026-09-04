@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9531,
+  "survival_prob": 0.9146,
   "mu": 59.1,
   "ci80": {
-   "lo": 48.7,
-   "hi": 69.5
+   "lo": 48.9,
+   "hi": 69.3
   },
   "ci50": {
-   "lo": 53.6,
+   "lo": 53.7,
    "hi": 64.5
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 8.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.76,
-   "total": -2.45,
+   "base": 0.93,
+   "rest": -0.12,
+   "total": -2.42,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "67.7",
-     "contrib": -1.34
+     "contrib": -1.31
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "61.5",
-     "contrib": -0.77
+     "contrib": -0.6
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "4.6",
+     "contrib": -0.58
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "23.0",
-     "contrib": -0.72
+     "contrib": -0.44
     },
     {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "1.8",
-     "contrib": 0.59
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "86.1",
-     "contrib": -0.42
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "83.6",
+     "contrib": -0.29
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.201,
-   "base_prob": 0.719,
-   "prob": 0.953,
+   "base_logit": 0.956,
+   "rest": 0.236,
+   "base_prob": 0.722,
+   "prob": 0.915,
    "top": [
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "90.9",
-     "contrib": 0.61
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "3109.0",
-     "contrib": 0.52
+     "contrib": 0.46
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-1549.0",
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "90.9",
      "contrib": 0.34
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.2",
-     "contrib": 0.21
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.19
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "55.4",
-     "contrib": 0.19
+     "feature": "d_grp_progress",
+     "label": "전진 그룹 변화",
+     "value_text": "3.0",
+     "contrib": 0.09
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "57.0",
+     "contrib": 0.09
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Rayan Aït-Nouri(DF)의 현재 능력 점수는 61.5점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 박스 터치, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 전진 패스 거리이다.",
-  "potential": "Rayan Aït-Nouri의 2~3년 후 예측 중심값은 59.1점, 80% 구간 상단은 69.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 95.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 69.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.4점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 성공 드리블/90(1.8, +0.6); 내린 요인은 스타일 렌즈 점수(67.7, -1.3), 현재 능력(61.5, -0.8), 나이(23.0, -0.7), 찬스 그룹 점수(86.1, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))을 거쳐 95.3%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Rayan Aït-Nouri의 2~3년 후 예측 중심값은 59.1점, 80% 구간 상단은 69.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 91.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 69.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.4점(같은 코호트 평균 변화 +0.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(67.7, -1.3), 현재 능력(61.5, -0.6), 팀 평균 대비 본인 능력(4.6, -0.6), 나이(23.0, -0.4), 생산 그룹 점수(83.6, -0.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 91.5%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

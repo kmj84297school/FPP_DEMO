@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3383,
-  "mu": 53.6,
+  "survival_prob": 0.6265,
+  "mu": 51.2,
   "ci80": {
-   "lo": 44.3,
-   "hi": 63.0
+   "lo": 42.1,
+   "hi": 60.5
   },
   "ci50": {
-   "lo": 48.7,
-   "hi": 58.5
+   "lo": 46.4,
+   "hi": 56.1
   },
-  "sigma_model": 1.6,
+  "sigma_model": 0.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 1.64,
-   "total": 2.19,
+   "base": -1.93,
+   "rest": -0.16,
+   "total": -0.2,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "7.8",
-     "contrib": -1.82
+     "contrib": -1.48
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "51.1",
-     "contrib": 1.62
+     "contrib": 1.2
     },
     {
      "feature": "KP90",
      "label": "키패스/90",
      "value_text": "0.1",
-     "contrib": 1.54
+     "contrib": 0.9
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "32.1",
-     "contrib": 0.58
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "51.4",
+     "contrib": 0.65
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "91.2",
-     "contrib": 0.54
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-5.4",
+     "contrib": 0.62
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.197,
+   "base_logit": 0.151,
+   "rest": -0.117,
    "base_prob": 0.538,
-   "prob": 0.338,
+   "prob": 0.626,
    "top": [
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "30.0",
-     "contrib": -0.44
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "91.2",
-     "contrib": -0.37
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2532.0",
-     "contrib": 0.31
+     "contrib": 0.34
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "1521.0",
-     "contrib": -0.27
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "30.0",
+     "contrib": -0.32
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.7",
-     "contrib": -0.24
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "74.0",
+     "contrib": 0.2
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "56.8",
+     "contrib": 0.17
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.4",
+     "contrib": 0.1
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Edoardo Goldaniga(DF)의 현재 능력 점수는 51.4점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 공중볼 승률, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 블록이다.",
-  "potential": "Edoardo Goldaniga의 2~3년 후 예측 중심값은 53.6점, 80% 구간 상단은 63.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 33.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 63.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(51.1, +1.6), 키패스/90(0.1, +1.5), 찬스 그룹 점수(32.1, +0.6), 공중볼 승률(91.2, +0.5); 내린 요인은 능력 변화(전 시즌 대비)(7.8, -1.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분))과 하락 요인(나이, 공중볼 승률)을 거쳐 33.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Edoardo Goldaniga의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 60.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 62.6%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 60.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(51.1, +1.2), 키패스/90(0.1, +0.9), 현재 능력(51.4, +0.7), 팀 평균 대비 본인 능력(-5.4, +0.6); 내린 요인은 능력 변화(전 시즌 대비)(7.8, -1.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(나이)을 거쳐 62.6%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

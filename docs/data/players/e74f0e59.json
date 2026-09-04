@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0457,
-  "mu": 42.7,
+  "survival_prob": 0.1054,
+  "mu": 45.3,
   "ci80": {
-   "lo": 33.3,
-   "hi": 52.1
+   "lo": 36.1,
+   "hi": 54.7
   },
   "ci50": {
-   "lo": 37.7,
-   "hi": 47.6
+   "lo": 40.5,
+   "hi": 50.3
   },
-  "sigma_model": 1.7,
+  "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.58,
-   "total": -2.12,
+   "base": -1.93,
+   "rest": -0.9,
+   "total": 0.59,
    "top": [
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "19.6",
-     "contrib": -1.83
-    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "48.2",
-     "contrib": 1.66
+     "contrib": 1.45
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "41.3",
-     "contrib": 1.35
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-11.7",
+     "contrib": 1.03
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "44.8",
-     "contrib": 1.2
+     "contrib": 0.99
     },
     {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "0.1",
-     "contrib": -1.0
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.75
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-5.1",
+     "contrib": 0.69
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.103,
+   "base_logit": 0.151,
+   "rest": -0.145,
    "base_prob": 0.538,
-   "prob": 0.046,
+   "prob": 0.105,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "36.0",
-     "contrib": -1.54
+     "contrib": -1.18
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1060.0",
-     "contrib": -0.8
+     "contrib": -0.57
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "386.0",
-     "contrib": -0.28
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.3",
-     "contrib": -0.28
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "31.0",
+     "contrib": -0.16
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "44.8",
-     "contrib": -0.19
+     "contrib": -0.12
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "518.0",
+     "contrib": -0.11
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Lorenzo De Silvestri(DF)의 현재 능력 점수는 44.8점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 유효슈팅, 무페널티 득점, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 전진 운반 거리이다.",
-  "potential": "Lorenzo De Silvestri의 2~3년 후 예측 중심값은 42.7점, 80% 구간 상단은 52.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 4.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 52.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(48.2, +1.7), 포지션 렌즈 점수(41.3, +1.4), 현재 능력(44.8, +1.2); 내린 요인은 수비 그룹 점수(19.6, -1.8), 성공 드리블/90(0.1, -1.0)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 시즌 출전시간(분))을 거쳐 4.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Lorenzo De Silvestri의 2~3년 후 예측 중심값은 45.3점, 80% 구간 상단은 54.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 10.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 54.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(48.2, +1.4), 팀 평균 대비 본인 능력(-11.7, +1.0), 현재 능력(44.8, +1.0), 능력 변화(전 시즌 대비)(-5.1, +0.7); 내린 요인은 리그: 세리에A(예, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 시즌 출전시간(분))을 거쳐 10.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

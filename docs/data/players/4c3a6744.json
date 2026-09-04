@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7526,
-  "mu": 62.4,
+  "survival_prob": 0.7714,
+  "mu": 62.8,
   "ci80": {
-   "lo": 52.8,
-   "hi": 72.0
+   "lo": 53.5,
+   "hi": 72.1
   },
   "ci50": {
-   "lo": 57.3,
-   "hi": 67.4
+   "lo": 57.9,
+   "hi": 67.7
   },
-  "sigma_model": 2.3,
+  "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 1.18,
-   "total": -5.99,
+   "base": -1.93,
+   "rest": 0.1,
+   "total": -5.55,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "15.9",
-     "contrib": -3.81
+     "contrib": -2.62
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "75.5",
-     "contrib": -2.25
+     "contrib": -1.21
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "68.4",
+     "contrib": -0.75
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "16.4",
+     "contrib": 0.45
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.8
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "85.4",
-     "contrib": -0.58
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "5.2",
-     "contrib": 0.58
+     "contrib": 0.41
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.512,
+   "base_logit": 0.151,
+   "rest": 0.213,
    "base_prob": 0.538,
-   "prob": 0.753,
+   "prob": 0.771,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.39
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "85.4",
-     "contrib": 0.34
+     "contrib": 0.41
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2340.0",
-     "contrib": 0.31
+     "contrib": 0.25
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "75.5",
-     "contrib": 0.27
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "61.8",
+     "contrib": 0.21
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "5.2",
-     "contrib": 0.17
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "422.0",
+     "contrib": -0.15
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.3",
+     "contrib": 0.14
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Justin Kluivert(MF)의 현재 능력 점수는 68.4점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 박스 터치, 유효슈팅, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 볼 리커버리이다.",
-  "potential": "Justin Kluivert의 2~3년 후 예측 중심값은 62.4점, 80% 구간 상단은 72.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 75.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 72.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -6.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(25.0, +0.8), 박스 터치/90(5.2, +0.6); 내린 요인은 능력 변화(전 시즌 대비)(15.9, -3.8), 스타일 렌즈 점수(75.5, -2.2), 생산 그룹 점수(85.4, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 생산 그룹 점수)을 거쳐 75.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Justin Kluivert의 2~3년 후 예측 중심값은 62.8점, 80% 구간 상단은 72.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 77.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 72.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 수비 그룹 점수(16.4, +0.5), 나이(25.0, +0.4); 내린 요인은 능력 변화(전 시즌 대비)(15.9, -2.6), 스타일 렌즈 점수(75.5, -1.2), 현재 능력(68.4, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(2시즌 전 출전시간(분))을 거쳐 77.1%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

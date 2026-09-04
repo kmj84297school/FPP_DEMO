@@ -38,74 +38,74 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3131,
-  "mu": 52.0,
+  "survival_prob": 0.431,
+  "mu": 51.3,
   "ci80": {
-   "lo": 42.7,
-   "hi": 61.3
+   "lo": 42.1,
+   "hi": 60.6
   },
   "ci50": {
-   "lo": 47.1,
-   "hi": 56.9
+   "lo": 46.5,
+   "hi": 56.2
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.83,
-   "total": -0.43,
+   "base": -1.93,
+   "rest": -0.25,
+   "total": -1.07,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "53.6",
-     "contrib": 1.05
+     "contrib": 0.8
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "52.4",
-     "contrib": 0.68
+     "contrib": 0.72
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "6.4",
+     "contrib": -0.47
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "51.2",
-     "contrib": 0.63
+     "contrib": 0.42
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "2.2",
-     "contrib": -0.59
-    },
-    {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "0.0",
-     "contrib": 0.55
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "33.0",
+     "contrib": -0.37
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.432,
+   "base_logit": 0.151,
+   "rest": -0.18,
    "base_prob": 0.538,
-   "prob": 0.313,
+   "prob": 0.431,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "33.0",
-     "contrib": -0.97
+     "contrib": -0.83
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2869.0",
-     "contrib": 0.69
+     "contrib": 0.6
     },
     {
      "feature": "MinPct",
@@ -114,16 +114,16 @@
      "contrib": 0.41
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "84.6",
-     "contrib": -0.41
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.0",
+     "contrib": -0.24
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.3",
-     "contrib": -0.23
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.18
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Leandro Cabrera(DF)의 현재 능력 점수는 52.4점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 클리어링, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 성공 드리블이다.",
-  "potential": "Leandro Cabrera의 2~3년 후 예측 중심값은 52.0점, 80% 구간 상단은 61.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.3%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 61.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(53.6, +1.1), 현재 능력(52.4, +0.7), 포지션 렌즈 점수(51.2, +0.6), 성공 드리블/90(0.0, +0.6); 내린 요인은 전진 패스/90(2.2, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(나이, 공중볼 승률)을 거쳐 31.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Leandro Cabrera의 2~3년 후 예측 중심값은 51.3점, 80% 구간 상단은 60.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 43.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 60.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(53.6, +0.8), 현재 능력(52.4, +0.7), 포지션 렌즈 점수(51.2, +0.4); 내린 요인은 팀 평균 대비 본인 능력(6.4, -0.5), 나이(33.0, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(나이, 소속팀 평균 능력(팀 강도))을 거쳐 43.1%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

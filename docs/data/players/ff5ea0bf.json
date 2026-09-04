@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7592,
-  "mu": 61.0,
+  "survival_prob": 0.8213,
+  "mu": 59.2,
   "ci80": {
-   "lo": 50.5,
-   "hi": 71.5
+   "lo": 48.9,
+   "hi": 69.3
   },
   "ci50": {
-   "lo": 55.5,
-   "hi": 66.6
+   "lo": 53.7,
+   "hi": 64.5
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 8.0
+  "sigma_model": 0.8,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.56,
-   "total": 3.33,
+   "base": 0.93,
+   "rest": -0.09,
+   "total": 1.45,
    "top": [
     {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "93.1",
-     "contrib": 1.64
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-5.5",
+     "contrib": 0.6
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "92.5",
-     "contrib": 0.7
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-0.4",
+     "contrib": 0.24
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.1",
+     "contrib": -0.23
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "22.0",
+     "contrib": -0.19
     },
     {
      "feature": "TklInt90",
      "label": "태클+인터셉트/90",
      "value_text": "1.9",
-     "contrib": 0.6
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.6",
-     "contrib": -0.43
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "34.7",
-     "contrib": 0.4
+     "contrib": 0.18
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.174,
-   "base_prob": 0.719,
-   "prob": 0.759,
+   "base_logit": 0.956,
+   "rest": -0.117,
+   "base_prob": 0.722,
+   "prob": 0.821,
    "top": [
     {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "93.1",
-     "contrib": 0.39
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "63.1",
+     "contrib": 0.33
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.6",
-     "contrib": -0.23
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.21
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "56.4",
-     "contrib": 0.22
-    },
-    {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.0",
-     "contrib": -0.17
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1806.0",
+     "contrib": 0.15
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "52.8",
-     "contrib": -0.17
+     "contrib": -0.11
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "56.4",
+     "contrib": 0.11
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Malick Thiaw(DF)의 현재 능력 점수는 57.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 공중볼 승률, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 블록이다.",
-  "potential": "Malick Thiaw의 2~3년 후 예측 중심값은 61.0점, 80% 구간 상단은 71.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 75.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 71.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.3점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 패스 성공률(93.1, +1.6), 공중볼 승률(92.5, +0.7), 태클+인터셉트/90(1.9, +0.6), 생산 그룹 점수(34.7, +0.4); 내린 요인은 전진 운반/90(0.6, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(패스 성공률, 포지션 렌즈 점수)과 하락 요인(전진 운반/90, xAG/90)을 거쳐 75.9%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Malick Thiaw의 2~3년 후 예측 중심값은 59.2점, 80% 구간 상단은 69.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 82.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 69.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.5점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-5.5, +0.6), 능력 변화(전 시즌 대비)(-0.4, +0.2), 태클+인터셉트/90(1.9, +0.2); 내린 요인은 성공 드리블/90(0.1, -0.2), 나이(22.0, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))과 하락 요인(팀 출전시간 비중(%))을 거쳐 82.1%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

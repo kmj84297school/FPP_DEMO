@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4679,
-  "mu": 49.0,
+  "survival_prob": 0.5943,
+  "mu": 49.5,
   "ci80": {
-   "lo": 39.2,
-   "hi": 58.6
+   "lo": 40.1,
+   "hi": 58.9
   },
   "ci50": {
-   "lo": 43.8,
-   "hi": 54.0
+   "lo": 44.5,
+   "hi": 54.4
   },
-  "sigma_model": 2.6,
+  "sigma_model": 2.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 2.34,
-   "total": -0.69,
+   "base": -1.93,
+   "rest": 1.55,
+   "total": -0.13,
    "top": [
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "0.8",
-     "contrib": -1.19
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "45.9",
-     "contrib": 1.16
-    },
     {
      "feature": "npxG90",
      "label": "비페널티 xG/90",
      "value_text": "0.5",
-     "contrib": -1.14
+     "contrib": -1.41
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-7.2",
+     "contrib": 0.84
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "49.6",
-     "contrib": 0.99
+     "contrib": 0.82
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.0",
-     "contrib": -0.95
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": -0.083,
-   "base_prob": 0.538,
-   "prob": 0.468,
-   "top": [
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 0.66
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1280.0",
-     "contrib": -0.4
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "375.0",
-     "contrib": -0.21
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.0",
-     "contrib": -0.13
+     "feature": "PrgPass90",
+     "label": "전진 패스/90",
+     "value_text": "0.8",
+     "contrib": -0.79
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "53.4",
-     "contrib": -0.12
+     "contrib": 0.78
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": 0.118,
+   "base_prob": 0.538,
+   "prob": 0.594,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.53
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1280.0",
+     "contrib": -0.32
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "18.9",
+     "contrib": -0.14
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "56.8",
+     "contrib": 0.14
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "53.4",
+     "contrib": -0.08
     }
    ]
   },
@@ -135,7 +135,7 @@
    "season": 2022,
    "distance": 1.821,
    "survived": 1,
-   "fut_ability_v2": 48.1,
+   "fut_ability_v2": 48.0,
    "player_name": "Jean-Philippe Mateta",
    "squad": "Crystal Palace"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Anastasios Douvikas(FW)의 현재 능력 점수는 49.6점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 비페널티 xG, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 전진 패스이다.",
-  "potential": "Anastasios Douvikas의 2~3년 후 예측 중심값은 49.0점, 80% 구간 상단은 58.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 46.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 58.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 포지션 렌즈 점수(45.9, +1.2), 현재 능력(49.6, +1.0); 내린 요인은 전진 패스/90(0.8, -1.2), 비페널티 xG/90(0.5, -1.1), 전진 운반/90(1.0, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 출전시간 변화(분))을 거쳐 46.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Anastasios Douvikas의 2~3년 후 예측 중심값은 49.5점, 80% 구간 상단은 58.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 58.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-7.2, +0.8), 현재 능력(49.6, +0.8), 스타일 렌즈 점수(53.4, +0.8); 내린 요인은 비페널티 xG/90(0.5, -1.4), 전진 패스/90(0.8, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 59.4%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

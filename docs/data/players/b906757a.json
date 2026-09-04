@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.619,
-  "mu": 50.5,
+  "survival_prob": 0.6487,
+  "mu": 51.0,
   "ci80": {
-   "lo": 41.1,
-   "hi": 59.9
+   "lo": 41.7,
+   "hi": 60.2
   },
   "ci50": {
-   "lo": 45.6,
-   "hi": 55.5
+   "lo": 46.1,
+   "hi": 55.8
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.17,
-   "total": 5.28,
+   "base": -1.93,
+   "rest": 2.2,
+   "total": 5.76,
    "top": [
-    {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "0.1",
-     "contrib": 2.05
-    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "47.6",
-     "contrib": 1.97
+     "contrib": 1.53
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "42.8",
-     "contrib": 1.16
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-10.8",
+     "contrib": 1.17
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.1",
+     "contrib": 1.11
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "45.2",
-     "contrib": 1.07
+     "contrib": 1.03
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 0.77
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "23.0",
+     "contrib": 0.66
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.138,
+   "base_logit": 0.151,
+   "rest": 0.093,
    "base_prob": 0.538,
-   "prob": 0.619,
+   "prob": 0.649,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.65
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "81.1",
-     "contrib": -0.32
+     "contrib": 0.54
     },
     {
      "feature": "d_std_Min_Playing",
      "label": "출전시간 변화(분)",
      "value_text": "-892.0",
-     "contrib": 0.3
+     "contrib": 0.13
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.2",
-     "contrib": -0.25
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1812.0",
+     "contrib": -0.1
     },
     {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "45.2",
-     "contrib": -0.19
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "23.0",
+     "contrib": -0.1
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "53.0",
+     "contrib": -0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Aitor Paredes(DF)의 현재 능력 점수는 45.2점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 무페널티 득점, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 운반이다.",
-  "potential": "Aitor Paredes의 2~3년 후 예측 중심값은 50.5점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 59.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 키패스/90(0.1, +2.0), 스타일 렌즈 점수(47.6, +2.0), 포지션 렌즈 점수(42.8, +1.2), 현재 능력(45.2, +1.1), 나이(24.0, +0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))과 하락 요인(공중볼 승률, 전진 운반/90)을 거쳐 61.9%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Aitor Paredes의 2~3년 후 예측 중심값은 51.0점, 80% 구간 상단은 60.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 64.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 60.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(47.6, +1.5), 팀 평균 대비 본인 능력(-10.8, +1.2), 키패스/90(0.1, +1.1), 현재 능력(45.2, +1.0), 2시즌 전 출전시간(분)(23.0, +0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))과 하락 요인(시즌 출전시간(분), 2시즌 전 출전시간(분))을 거쳐 64.9%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

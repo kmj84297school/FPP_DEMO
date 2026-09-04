@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7087,
-  "mu": 59.8,
+  "survival_prob": 0.74,
+  "mu": 62.0,
   "ci80": {
-   "lo": 50.5,
-   "hi": 69.1
+   "lo": 52.7,
+   "hi": 71.2
   },
   "ci50": {
-   "lo": 54.9,
-   "hi": 64.7
+   "lo": 57.1,
+   "hi": 66.8
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.01,
-   "total": -5.12,
+   "base": -1.93,
+   "rest": -0.87,
+   "total": -3.01,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "71.3",
-     "contrib": -1.46
+     "contrib": -0.95
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.7",
-     "contrib": -0.89
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "65.0",
+     "contrib": -0.63
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "29.0",
-     "contrib": -0.76
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "256.0",
+     "contrib": 0.54
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.1",
-     "contrib": -0.6
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "29.7",
+     "contrib": 0.45
     },
     {
-     "feature": "style_confidence",
-     "label": "스타일 확신도",
-     "value_text": "1.9",
-     "contrib": 0.49
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-1.8",
+     "contrib": 0.38
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.445,
+   "base_logit": 0.151,
+   "rest": 0.382,
    "base_prob": 0.538,
-   "prob": 0.709,
+   "prob": 0.74,
    "top": [
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "88.5",
-     "contrib": 0.51
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "66.8",
+     "contrib": 0.49
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2231.0",
-     "contrib": 0.43
+     "contrib": 0.21
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.1",
-     "contrib": -0.28
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "256.0",
+     "contrib": -0.18
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "71.3",
-     "contrib": 0.27
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "29.0",
+     "contrib": -0.17
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "5.4",
-     "contrib": 0.26
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.16
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Takumi Minamino(MF)의 현재 능력 점수는 65.0점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 박스 터치, 비페널티 xG, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 태클+인터셉트이다.",
-  "potential": "Takumi Minamino의 2~3년 후 예측 중심값은 59.8점, 80% 구간 상단은 69.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.9%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 69.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 확신도(1.9, +0.5); 내린 요인은 스타일 렌즈 점수(71.3, -1.5), 태클+인터셉트/90(1.7, -0.9), 나이(29.0, -0.8), 전진 운반/90(2.1, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(생산 그룹 점수, 시즌 출전시간(분))과 하락 요인(전진 운반/90)을 거쳐 70.9%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Takumi Minamino의 2~3년 후 예측 중심값은 62.0점, 80% 구간 상단은 71.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 74.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 71.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 2시즌 전 출전시간(분)(256.0, +0.5), 수비 그룹 점수(29.7, +0.5), 팀 평균 대비 본인 능력(-1.8, +0.4); 내린 요인은 스타일 렌즈 점수(71.3, -0.9), 현재 능력(65.0, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 시즌 출전시간(분))과 하락 요인(2시즌 전 출전시간(분), 나이)을 거쳐 74.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

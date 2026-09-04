@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6902,
-  "mu": 64.3,
+  "survival_prob": 0.5619,
+  "mu": 65.9,
   "ci80": {
-   "lo": 55.0,
-   "hi": 73.5
+   "lo": 56.7,
+   "hi": 75.1
   },
   "ci50": {
-   "lo": 59.4,
-   "hi": 69.1
+   "lo": 61.1,
+   "hi": 70.7
   },
-  "sigma_model": 1.2,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
+   "base": -1.93,
    "rest": 0.26,
-   "total": -3.15,
+   "total": -1.5,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-6.0",
-     "contrib": 2.02
+     "contrib": 1.77
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "70.3",
-     "contrib": -1.61
-    },
-    {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.7",
-     "contrib": -0.8
+     "contrib": -1.02
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "67.4",
-     "contrib": -0.56
+     "contrib": -0.7
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "28.3",
+     "contrib": 0.47
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "30.0",
-     "contrib": -0.55
+     "contrib": -0.36
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.08,
+   "base_logit": 0.151,
+   "rest": 0.078,
    "base_prob": 0.538,
-   "prob": 0.69,
+   "prob": 0.562,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "30.0",
-     "contrib": -0.42
+     "contrib": -0.34
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2106.0",
-     "contrib": 0.28
+     "contrib": 0.19
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "70.3",
-     "contrib": 0.27
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.17
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "9.9",
-     "contrib": 0.26
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "60.8",
+     "contrib": 0.14
     },
     {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "67.4",
-     "contrib": 0.18
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "557.0",
+     "contrib": -0.14
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Rodrigo De Paul(MF)의 현재 능력 점수는 67.4점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반 거리, 전진 패스, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
-  "potential": "Rodrigo De Paul의 2~3년 후 예측 중심값은 64.3점, 80% 구간 상단은 73.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 73.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-6.0, +2.0); 내린 요인은 스타일 렌즈 점수(70.3, -1.6), 태클+인터셉트/90(1.7, -0.8), 현재 능력(67.4, -0.6), 나이(30.0, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 스타일 렌즈 점수)과 하락 요인(나이)을 거쳐 69.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Rodrigo De Paul의 2~3년 후 예측 중심값은 65.9점, 80% 구간 상단은 75.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 56.2%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 75.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-6.0, +1.8), 수비 그룹 점수(28.3, +0.5); 내린 요인은 스타일 렌즈 점수(70.3, -1.0), 현재 능력(67.4, -0.7), 나이(30.0, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 강도 리그 내 순위(0=최강))과 하락 요인(나이, 2시즌 전 출전시간(분))을 거쳐 56.2%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

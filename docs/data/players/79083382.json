@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0984,
+  "survival_prob": 0.16,
   "mu": 54.3,
   "ci80": {
-   "lo": 44.9,
-   "hi": 63.8
+   "lo": 45.1,
+   "hi": 63.7
   },
   "ci50": {
-   "lo": 49.4,
-   "hi": 59.4
+   "lo": 49.5,
+   "hi": 59.3
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.82,
-   "total": -2.13,
+   "base": -1.93,
+   "rest": -0.67,
+   "total": -2.1,
    "top": [
-    {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "0.1",
-     "contrib": 1.93
-    },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "2.0",
-     "contrib": -1.39
+     "contrib": -1.04
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.1",
+     "contrib": 1.0
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.8",
-     "contrib": 1.23
+     "contrib": 0.73
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.0",
-     "contrib": -0.94
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.68
     },
     {
-     "feature": "d_grp_progress",
-     "label": "전진 그룹 변화",
-     "value_text": "2.9",
-     "contrib": 0.77
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "360.0",
+     "contrib": 0.49
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.593,
+   "base_logit": 0.151,
+   "rest": -0.039,
    "base_prob": 0.538,
-   "prob": 0.098,
+   "prob": 0.16,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "33.0",
-     "contrib": -1.4
+     "contrib": -1.18
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1074.0",
-     "contrib": -0.69
+     "contrib": -0.47
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "80.4",
-     "contrib": 0.38
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "31.4",
+     "contrib": -0.17
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.3",
-     "contrib": -0.31
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.15
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-1042.0",
-     "contrib": 0.23
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "360.0",
+     "contrib": -0.11
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Juan Jesus(DF)의 현재 능력 점수는 56.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 패스 거리, 볼 손실(미스+파울), 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 볼 리커버리이다.",
-  "potential": "Juan Jesus의 2~3년 후 예측 중심값은 54.3점, 80% 구간 상단은 63.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 9.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 63.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 키패스/90(0.1, +1.9), 스타일 렌즈 점수(56.8, +1.2), 전진 그룹 변화(2.9, +0.8); 내린 요인은 능력 변화(전 시즌 대비)(2.0, -1.4), xAG/90(0.0, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(안정 그룹 점수, 출전시간 변화(분))과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 9.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Juan Jesus의 2~3년 후 예측 중심값은 54.3점, 80% 구간 상단은 63.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 16.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 63.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 키패스/90(0.1, +1.0), 스타일 렌즈 점수(56.8, +0.7), 2시즌 전 출전시간(분)(360.0, +0.5); 내린 요인은 능력 변화(전 시즌 대비)(2.0, -1.0), 리그: 세리에A(예, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(팀 강도 리그 내 순위(0=최강))과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 16.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,68 +38,68 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5666,
-  "mu": 47.5,
+  "survival_prob": 0.6892,
+  "mu": 51.1,
   "ci80": {
-   "lo": 37.1,
-   "hi": 58.0
+   "lo": 40.8,
+   "hi": 61.3
   },
   "ci50": {
-   "lo": 42.0,
-   "hi": 53.1
+   "lo": 45.7,
+   "hi": 56.5
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 8.0
+  "sigma_model": 0.9,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -1.93,
-   "total": 1.97,
+   "base": 0.93,
+   "rest": -0.2,
+   "total": 5.54,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "47.6",
-     "contrib": 3.2
-    },
-    {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-8.9",
-     "contrib": 0.92
-    },
-    {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "0.3",
-     "contrib": -0.9
-    },
-    {
-     "feature": "sty_공격형 풀백",
-     "label": "스타일: 공격형 풀백",
-     "value_text": "예",
-     "contrib": -0.83
+     "contrib": 2.62
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "45.6",
-     "contrib": 0.54
+     "contrib": 0.87
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-8.9",
+     "contrib": 0.71
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-3.3",
+     "contrib": 0.33
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "48.9",
+     "contrib": 0.29
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.456,
-   "base_prob": 0.719,
-   "prob": 0.567,
+   "base_logit": 0.956,
+   "rest": -0.118,
+   "base_prob": 0.722,
+   "prob": 0.689,
    "top": [
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.4",
-     "contrib": -0.3
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "48.9",
+     "contrib": -0.38
     },
     {
      "feature": "std_Min_Playing",
@@ -108,22 +108,22 @@
      "contrib": 0.29
     },
     {
-     "feature": "d_grp_stability",
-     "label": "안정 그룹 변화",
-     "value_text": "-22.9",
-     "contrib": -0.24
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.25
     },
     {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-8.9",
-     "contrib": 0.23
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.1
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "43.5",
-     "contrib": -0.19
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.0",
+     "contrib": -0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Victor Bernth Kristiansen(DF)의 현재 능력 점수는 45.6점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 박스 진입 패스, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 패스 성공률이다.",
-  "potential": "Victor Bernth Kristiansen의 2~3년 후 예측 중심값은 47.5점, 80% 구간 상단은 58.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 56.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 58.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.9점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(47.6, +3.2), 능력 변화(전 시즌 대비)(-8.9, +0.9), 현재 능력(45.6, +0.5); 내린 요인은 성공 드리블/90(0.3, -0.9), 스타일: 공격형 풀백(예, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 능력 변화(전 시즌 대비))과 하락 요인(전진 운반/90, 안정 그룹 변화)을 거쳐 56.7%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Victor Bernth Kristiansen의 2~3년 후 예측 중심값은 51.1점, 80% 구간 상단은 61.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 68.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 61.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.5점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(47.6, +2.6), 현재 능력(45.6, +0.9), 능력 변화(전 시즌 대비)(-8.9, +0.7), 팀 평균 대비 본인 능력(-3.3, +0.3), 소속팀 평균 능력(팀 강도)(48.9, +0.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 선발 비율)과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 68.9%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": true
  },
  "prediction": {
-  "survival_prob": 0.8399,
-  "mu": 75.1,
+  "survival_prob": 0.6248,
+  "mu": 76.2,
   "ci80": {
-   "lo": 65.6,
-   "hi": 84.6
+   "lo": 66.9,
+   "hi": 85.4
   },
   "ci50": {
-   "lo": 70.1,
-   "hi": 80.1
+   "lo": 71.3,
+   "hi": 81.0
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.54,
-   "total": -7.0,
+   "base": -1.93,
+   "rest": 0.41,
+   "total": -5.93,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "88.7",
-     "contrib": -3.29
+     "contrib": -1.62
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "21.2",
+     "contrib": -1.47
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "82.1",
-     "contrib": -2.28
+     "contrib": -1.2
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "91.9",
-     "contrib": 1.39
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "75.6",
+     "contrib": -0.54
     },
     {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "2.0",
-     "contrib": -0.76
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.2",
-     "contrib": -0.69
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "18.1",
+     "contrib": 0.44
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.364,
+   "base_logit": 0.151,
+   "rest": 0.341,
    "base_prob": 0.538,
-   "prob": 0.84,
+   "prob": 0.625,
    "top": [
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "91.9",
-     "contrib": 0.55
-    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "27.0",
-     "contrib": 0.41
+     "contrib": 0.31
     },
     {
-     "feature": "d_SCA90",
-     "label": "SCA/90 변화",
-     "value_text": "-2.1",
-     "contrib": -0.3
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "984.0",
+     "contrib": -0.15
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "8.2",
-     "contrib": 0.25
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1809.0",
+     "contrib": -0.14
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "93.7",
-     "contrib": 0.23
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "52.9",
+     "contrib": -0.12
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "60.9",
+     "contrib": 0.12
     }
    ]
   },
@@ -387,12 +387,12 @@
    "n_seasons": 7
   },
   "consistency": {
-   "ability_std": 7.1,
+   "ability_std": 7.2,
    "n_rated_seasons": 7
   }
  },
  "narrative": {
   "current": "James Maddison(MF)의 현재 능력 점수는 82.1점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 골 창출(GCA), 무페널티 득점, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 공중볼 승률이다.",
-  "potential": "James Maddison의 2~3년 후 예측 중심값은 75.1점, 80% 구간 상단은 84.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 84.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 생산 그룹 점수(91.9, +1.4); 내린 요인은 스타일 렌즈 점수(88.7, -3.3), 현재 능력(82.1, -2.3), 키패스/90(2.0, -0.8), 전진 운반/90(2.2, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(생산 그룹 점수, 나이)과 하락 요인(SCA/90 변화)을 거쳐 84.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 이 구간에서는 검증된 오차 수치가 없으므로 점추정보다 아래 유사 선수의 실제 결과를 함께 참고할 것."
+  "potential": "James Maddison의 2~3년 후 예측 중심값은 76.2점, 80% 구간 상단은 85.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 62.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 85.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 수비 그룹 점수(18.1, +0.4); 내린 요인은 스타일 렌즈 점수(88.7, -1.6), 팀 평균 대비 본인 능력(21.2, -1.5), 현재 능력(82.1, -1.2), 포지션 렌즈 점수(75.6, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(2시즌 전 출전시간(분), 시즌 출전시간(분))을 거쳐 62.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다). 다만 이 선수의 현재 능력은 학습 데이터의 미래 능력 상위 1%를 넘어서, 모델이 검증된 범위 밖이다 — 이 구간은 검증 표본이 매우 적어(현재능력 75+ 기준 성장기 19명/성숙기 61명) 오차 수치의 신뢰도가 낮다. 그 표본의 실측 편향은 약 +1점(약간 낙관)이다. 아래 유사 선수의 실제 결과를 함께 참고할 것."
  }
 }

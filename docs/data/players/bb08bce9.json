@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6018,
-  "mu": 54.4,
+  "survival_prob": 0.6594,
+  "mu": 55.1,
   "ci80": {
-   "lo": 45.1,
-   "hi": 63.8
+   "lo": 45.9,
+   "hi": 64.3
   },
   "ci50": {
-   "lo": 49.5,
-   "hi": 59.3
+   "lo": 50.3,
+   "hi": 59.9
   },
-  "sigma_model": 1.3,
+  "sigma_model": 1.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.11,
-   "total": -5.48,
+   "base": -1.93,
+   "rest": 0.33,
+   "total": -4.81,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "5.9",
-     "contrib": -1.78
+     "contrib": -1.31
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "61.7",
-     "contrib": -0.56
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "67.6",
-     "contrib": -0.47
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "14.2",
+     "contrib": -0.95
     },
     {
      "feature": "PassPct",
      "label": "패스 성공률",
      "value_text": "65.5",
-     "contrib": -0.46
+     "contrib": -0.39
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.8",
-     "contrib": -0.41
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "61.7",
+     "contrib": -0.33
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "67.6",
+     "contrib": -0.23
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.278,
+   "base_logit": 0.151,
+   "rest": 0.11,
    "base_prob": 0.538,
-   "prob": 0.602,
+   "prob": 0.659,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2971.0",
-     "contrib": 0.69
+     "contrib": 0.54
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "91.0",
-     "contrib": -0.47
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "45.7",
+     "contrib": -0.38
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "86.9",
-     "contrib": 0.28
+     "contrib": 0.25
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.22
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "27.0",
-     "contrib": 0.26
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.8",
-     "contrib": -0.23
+     "contrib": 0.2
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Omar Alderete(DF)의 현재 능력 점수는 59.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 슈팅 시도, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 전진 패스 수신이다.",
-  "potential": "Omar Alderete의 2~3년 후 예측 중심값은 54.4점, 80% 구간 상단은 63.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 63.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 능력 변화(전 시즌 대비)(5.9, -1.8), 스타일 렌즈 점수(61.7, -0.6), 수비 그룹 점수(67.6, -0.5), 패스 성공률(65.5, -0.5), 전진 운반/90(0.8, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(공중볼 승률, 전진 운반/90)을 거쳐 60.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Omar Alderete의 2~3년 후 예측 중심값은 55.1점, 80% 구간 상단은 64.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 65.9%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 64.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 능력 변화(전 시즌 대비)(5.9, -1.3), 팀 평균 대비 본인 능력(14.2, -0.9), 패스 성공률(65.5, -0.4), 스타일 렌즈 점수(61.7, -0.3), 수비 그룹 점수(67.6, -0.2)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 65.9%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

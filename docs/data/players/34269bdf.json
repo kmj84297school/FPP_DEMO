@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2866,
-  "mu": 47.8,
+  "survival_prob": 0.4329,
+  "mu": 50.1,
   "ci80": {
-   "lo": 38.4,
-   "hi": 57.3
+   "lo": 40.8,
+   "hi": 59.4
   },
   "ci50": {
-   "lo": 42.9,
-   "hi": 52.8
+   "lo": 45.2,
+   "hi": 55.0
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.43,
-   "total": 0.04,
+   "base": -1.93,
+   "rest": 0.06,
+   "total": 2.3,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-9.6",
-     "contrib": 3.09
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "11.6",
-     "contrib": 0.84
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "1087.0",
-     "contrib": -0.81
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "17.7",
-     "contrib": 0.67
+     "contrib": 3.05
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "47.8",
-     "contrib": 0.6
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": -0.307,
-   "base_prob": 0.538,
-   "prob": 0.287,
-   "top": [
+     "contrib": 0.84
+    },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.6",
-     "contrib": -0.36
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "77.2",
+     "contrib": -0.39
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "36.2",
-     "contrib": -0.21
+     "contrib": 0.35
     },
     {
-     "feature": "ability",
-     "label": "현재 능력",
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "59.5",
+     "contrib": 0.31
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": -0.292,
+   "base_prob": 0.538,
+   "prob": 0.433,
+   "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
      "value_text": "47.8",
-     "contrib": -0.2
+     "contrib": -0.3
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2424.0",
-     "contrib": 0.19
+     "contrib": 0.29
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "1087.0",
-     "contrib": -0.19
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
+     "contrib": -0.13
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "77.2",
+     "contrib": 0.12
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "29.0",
+     "contrib": -0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Renato Tapia(MF)의 현재 능력 점수는 47.8점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 블록, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 도움 기대값(xAG)이다.",
-  "potential": "Renato Tapia의 2~3년 후 예측 중심값은 47.8점, 80% 구간 상단은 57.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 57.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-9.6, +3.1), 찬스 그룹 점수(11.6, +0.8), 생산 그룹 점수(17.7, +0.7), 현재 능력(47.8, +0.6); 내린 요인은 출전시간 변화(분)(1087.0, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분))과 하락 요인(전진 운반/90, 포지션 렌즈 점수)을 거쳐 28.7%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Renato Tapia의 2~3년 후 예측 중심값은 50.1점, 80% 구간 상단은 59.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 43.3%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 59.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-9.6, +3.0), 현재 능력(47.8, +0.8), 포지션 렌즈 점수(36.2, +0.3), 스타일 렌즈 점수(59.5, +0.3); 내린 요인은 수비 그룹 점수(77.2, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 수비 그룹 점수)과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 43.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

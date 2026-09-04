@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7683,
-  "mu": 56.7,
+  "survival_prob": 0.6616,
+  "mu": 55.8,
   "ci80": {
-   "lo": 47.4,
-   "hi": 65.9
+   "lo": 46.6,
+   "hi": 65.0
   },
   "ci50": {
-   "lo": 51.8,
-   "hi": 61.5
+   "lo": 51.0,
+   "hi": 60.7
   },
-  "sigma_model": 1.3,
+  "sigma_model": 0.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.09,
-   "total": 0.84,
+   "base": -1.93,
+   "rest": 0.54,
+   "total": -0.04,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "58.0",
-     "contrib": 1.42
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.5",
-     "contrib": -0.87
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "25.0",
-     "contrib": 0.75
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "2039.0",
-     "contrib": 0.73
+     "contrib": 0.5
     },
     {
      "feature": "grp_defense",
      "label": "수비 그룹 점수",
      "value_text": "24.9",
-     "contrib": 0.63
+     "contrib": 0.41
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "25.0",
+     "contrib": 0.38
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "55.8",
+     "contrib": 0.34
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "2.5",
+     "contrib": -0.29
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.358,
+   "base_logit": 0.151,
+   "rest": 0.085,
    "base_prob": 0.538,
-   "prob": 0.768,
+   "prob": 0.662,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.56
+     "contrib": 0.44
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-690.0",
-     "contrib": 0.28
-    },
-    {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "90.2",
-     "contrib": 0.22
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "54.2",
+     "contrib": -0.18
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2039.0",
-     "contrib": 0.19
+     "contrib": 0.13
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "56.2",
-     "contrib": 0.15
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-690.0",
+     "contrib": 0.13
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "58.0",
+     "contrib": -0.09
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Iván Martín(MF)의 현재 능력 점수는 55.8점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 슈팅당 기대득점, 패스 성공률, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 공중볼 승률이다.",
-  "potential": "Iván Martín의 2~3년 후 예측 중심값은 56.7점, 80% 구간 상단은 65.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 76.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 65.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(58.0, +1.4), 나이(25.0, +0.8), 시즌 출전시간(분)(2039.0, +0.7), 수비 그룹 점수(24.9, +0.6); 내린 요인은 전진 운반/90(2.5, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))을 거쳐 76.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Iván Martín의 2~3년 후 예측 중심값은 55.8점, 80% 구간 상단은 65.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 66.2%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 65.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(58.0, +0.5), 수비 그룹 점수(24.9, +0.4), 나이(25.0, +0.4), 현재 능력(55.8, +0.3); 내린 요인은 전진 운반/90(2.5, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도), 스타일 렌즈 점수)을 거쳐 66.2%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.299,
-  "mu": 51.2,
+  "survival_prob": 0.5749,
+  "mu": 54.0,
   "ci80": {
-   "lo": 40.6,
-   "hi": 61.7
+   "lo": 43.7,
+   "hi": 64.4
   },
   "ci50": {
-   "lo": 45.6,
-   "hi": 56.8
+   "lo": 48.7,
+   "hi": 59.5
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 8.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.65,
-   "total": 1.34,
+   "base": 0.93,
+   "rest": -0.85,
+   "total": 4.22,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "51.1",
-     "contrib": 2.41
+     "contrib": 1.89
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "0.2",
-     "contrib": -0.88
-    },
-    {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "49.8",
-     "contrib": 0.84
-    },
-    {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.0",
-     "contrib": -0.7
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "17.8",
-     "contrib": -0.65
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.939,
-   "rest": -0.026,
-   "base_prob": 0.719,
-   "prob": 0.299,
-   "top": [
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "0.2",
-     "contrib": -0.74
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "26.8",
-     "contrib": -0.61
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "916.0",
-     "contrib": -0.47
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-11.6",
+     "contrib": 1.12
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "19.0",
-     "contrib": 0.39
+     "contrib": 0.79
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.3",
-     "contrib": -0.33
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "49.8",
+     "contrib": 0.64
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.0",
+     "contrib": -0.3
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.956,
+   "rest": -0.577,
+   "base_prob": 0.722,
+   "prob": 0.575,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "916.0",
+     "contrib": -0.37
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "0.2",
+     "contrib": -0.37
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "61.4",
+     "contrib": 0.29
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.1",
+     "contrib": 0.2
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "19.0",
+     "contrib": 0.16
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Pau Navarro(DF)의 현재 능력 점수는 49.8점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 볼 리커버리, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 공중볼 승률이다.",
-  "potential": "Pau Navarro의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 61.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 29.9%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 61.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.4점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(51.1, +2.4), 현재 능력(49.8, +0.8); 내린 요인은 박스 터치/90(0.2, -0.9), 비페널티 xG/90(0.0, -0.7), 생산 그룹 점수(17.8, -0.7)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이)과 하락 요인(박스 터치/90, 팀 출전시간 비중(%))을 거쳐 29.9%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Pau Navarro의 2~3년 후 예측 중심값은 54.0점, 80% 구간 상단은 64.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 57.5%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 64.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.2점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(51.1, +1.9), 팀 평균 대비 본인 능력(-11.6, +1.1), 나이(19.0, +0.8), 현재 능력(49.8, +0.6); 내린 요인은 비페널티 xG/90(0.0, -0.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 키패스/90)과 하락 요인(시즌 출전시간(분), 박스 터치/90)을 거쳐 57.5%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

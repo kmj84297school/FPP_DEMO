@@ -38,74 +38,68 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1368,
-  "mu": 48.2,
+  "survival_prob": 0.1965,
+  "mu": 48.3,
   "ci80": {
-   "lo": 39.0,
+   "lo": 39.1,
    "hi": 57.6
   },
   "ci50": {
-   "lo": 43.4,
+   "lo": 43.5,
    "hi": 53.2
   },
-  "sigma_model": 1.4,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.26,
-   "total": 0.04,
+   "base": -1.93,
+   "rest": -0.86,
+   "total": 0.08,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "50.7",
-     "contrib": 2.01
+     "contrib": 1.19
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "48.2",
-     "contrib": 0.83
+     "contrib": 0.82
     },
     {
-     "feature": "d_SCA90",
-     "label": "SCA/90 변화",
-     "value_text": "0.9",
-     "contrib": -0.79
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-7.0",
+     "contrib": 0.72
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "45.7",
-     "contrib": 0.6
+     "contrib": 0.43
     },
     {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "34.7",
-     "contrib": 0.56
+     "feature": "d_SCA90",
+     "label": "SCA/90 변화",
+     "value_text": "0.9",
+     "contrib": -0.3
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.594,
+   "base_logit": 0.151,
+   "rest": -0.451,
    "base_prob": 0.538,
-   "prob": 0.137,
+   "prob": 0.196,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "31.0",
-     "contrib": -0.63
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "937.0",
-     "contrib": -0.29
+     "contrib": -0.56
     },
     {
      "feature": "std_Min_Playing",
@@ -117,13 +111,19 @@
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "54.8",
-     "contrib": -0.16
+     "contrib": -0.13
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "33.6",
-     "contrib": -0.13
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "55.2",
+     "contrib": -0.11
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "708.0",
+     "contrib": -0.11
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Massadio Haïdara(DF)의 현재 능력 점수는 48.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반, 성공 드리블, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 볼 리커버리이다.",
-  "potential": "Massadio Haïdara의 2~3년 후 예측 중심값은 48.2점, 80% 구간 상단은 57.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 13.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 57.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.7, +2.0), 현재 능력(48.2, +0.8), 포지션 렌즈 점수(45.7, +0.6), 수비 그룹 점수(34.7, +0.6); 내린 요인은 SCA/90 변화(0.9, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 출전시간 변화(분))을 거쳐 13.7%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Massadio Haïdara의 2~3년 후 예측 중심값은 48.3점, 80% 구간 상단은 57.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 19.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 57.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.7, +1.2), 현재 능력(48.2, +0.8), 팀 평균 대비 본인 능력(-7.0, +0.7), 포지션 렌즈 점수(45.7, +0.4); 내린 요인은 SCA/90 변화(0.9, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 시즌 출전시간(분))을 거쳐 19.7%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

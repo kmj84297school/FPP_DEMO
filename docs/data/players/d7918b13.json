@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3,
-  "mu": 46.4,
+  "survival_prob": 0.3216,
+  "mu": 44.7,
   "ci80": {
-   "lo": 37.1,
-   "hi": 55.7
+   "lo": 35.5,
+   "hi": 53.9
   },
   "ci50": {
-   "lo": 41.5,
-   "hi": 51.3
+   "lo": 39.8,
+   "hi": 49.5
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.57,
-   "total": 3.13,
+   "base": -1.93,
+   "rest": -0.65,
+   "total": 1.37,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "44.4",
-     "contrib": 3.35
+     "contrib": 2.37
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "43.3",
-     "contrib": 1.36
+     "contrib": 1.16
+    },
+    {
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.62
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "42.3",
-     "contrib": 1.19
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.7",
-     "contrib": -0.81
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "29.2",
      "contrib": 0.53
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-3.1",
+     "contrib": 0.5
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.771,
+   "base_logit": 0.151,
+   "rest": -0.505,
    "base_prob": 0.538,
-   "prob": 0.3,
+   "prob": 0.322,
    "top": [
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.7",
-     "contrib": -0.27
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.4",
+     "contrib": -0.41
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2337.0",
-     "contrib": 0.22
+     "contrib": 0.18
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.17
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "28.0",
+     "contrib": 0.12
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "43.3",
-     "contrib": -0.2
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "55.0",
-     "contrib": 0.15
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "42.3",
-     "contrib": -0.14
+     "contrib": -0.11
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Liam Henderson(MF)의 현재 능력 점수는 43.3점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 도움 기대값(xAG), 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 전진 운반 거리이다.",
-  "potential": "Liam Henderson의 2~3년 후 예측 중심값은 46.4점, 80% 구간 상단은 55.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 30.0%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 55.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(44.4, +3.4), 현재 능력(43.3, +1.4), 포지션 렌즈 점수(42.3, +1.2), 수비 그룹 점수(29.2, +0.5); 내린 요인은 전진 운반/90(0.7, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 안정 그룹 점수)과 하락 요인(전진 운반/90, 현재 능력)을 거쳐 30.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Liam Henderson의 2~3년 후 예측 중심값은 44.7점, 80% 구간 상단은 53.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.2%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 53.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(44.4, +2.4), 현재 능력(43.3, +1.2), 포지션 렌즈 점수(42.3, +0.5), 팀 평균 대비 본인 능력(-3.1, +0.5); 내린 요인은 리그: 세리에A(예, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 나이)과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 32.2%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4517,
-  "mu": 56.2,
+  "survival_prob": 0.4154,
+  "mu": 58.0,
   "ci80": {
-   "lo": 45.6,
-   "hi": 66.8
+   "lo": 47.6,
+   "hi": 68.3
   },
   "ci50": {
-   "lo": 50.6,
-   "hi": 61.7
+   "lo": 52.5,
+   "hi": 63.3
   },
-  "sigma_model": 2.2,
-  "sigma_residual": 8.0
+  "sigma_model": 1.4,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.71,
-   "total": -0.26,
+   "base": 0.93,
+   "rest": 0.14,
+   "total": 1.56,
    "top": [
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "10.7",
+     "contrib": -0.82
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "45.7",
+     "contrib": 0.69
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": 0.58
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "57.1",
+     "contrib": 0.47
+    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1006.0",
-     "contrib": -0.57
-    },
-    {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "1.7",
-     "contrib": 0.5
-    },
-    {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "64.4",
-     "contrib": -0.48
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "59.4",
-     "contrib": 0.45
-    },
-    {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "57.5",
      "contrib": -0.42
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.071,
-   "base_prob": 0.719,
-   "prob": 0.452,
+   "base_logit": 0.956,
+   "rest": -0.026,
+   "base_prob": 0.722,
+   "prob": 0.415,
    "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "45.7",
+     "contrib": -0.62
+    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1006.0",
-     "contrib": -0.63
+     "contrib": -0.42
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.4",
-     "contrib": -0.32
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.19
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "29.4",
-     "contrib": -0.26
+     "contrib": -0.13
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "55.6",
-     "contrib": 0.23
-    },
-    {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "64.4",
-     "contrib": -0.22
+     "contrib": 0.09
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Coba da Costa(MF)의 현재 능력 점수는 56.4점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 전진 운반, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 패스 성공률이다.",
-  "potential": "Coba da Costa의 2~3년 후 예측 중심값은 56.2점, 80% 구간 상단은 66.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 45.2%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 66.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.2점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 성공 드리블/90(1.7, +0.5), 공중볼 승률(59.4, +0.5); 내린 요인은 시즌 출전시간(분)(1006.0, -0.6), 패스 성공률(64.4, -0.5), 전진 그룹 점수(57.5, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(포지션 렌즈 점수)과 하락 요인(시즌 출전시간(분), 전진 패스/90)을 거쳐 45.2%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Coba da Costa의 2~3년 후 예측 중심값은 58.0점, 80% 구간 상단은 68.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 41.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 68.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.6점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 소속팀 평균 능력(팀 강도)(45.7, +0.7), 팀 강도 리그 내 순위(0=최강)(1.0, +0.6), 스타일 렌즈 점수(57.1, +0.5); 내린 요인은 팀 평균 대비 본인 능력(10.7, -0.8), 시즌 출전시간(분)(1006.0, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(포지션 렌즈 점수)과 하락 요인(소속팀 평균 능력(팀 강도), 시즌 출전시간(분))을 거쳐 41.5%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

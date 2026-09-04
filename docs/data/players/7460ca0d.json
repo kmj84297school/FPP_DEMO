@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2071,
-  "mu": 54.8,
+  "survival_prob": 0.3257,
+  "mu": 56.6,
   "ci80": {
-   "lo": 45.4,
-   "hi": 64.0
+   "lo": 47.4,
+   "hi": 65.7
   },
   "ci50": {
-   "lo": 49.8,
-   "hi": 59.6
+   "lo": 51.8,
+   "hi": 61.4
   },
-  "sigma_model": 1.3,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.87,
-   "total": -7.45,
+   "base": -1.93,
+   "rest": -0.67,
+   "total": -5.61,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "5.8",
-     "contrib": -1.48
+     "contrib": -1.23
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "65.6",
-     "contrib": -1.13
+     "contrib": -0.77
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "62.2",
+     "contrib": -0.46
     },
     {
      "feature": "PrgCarry90",
      "label": "전진 운반/90",
      "value_text": "0.8",
-     "contrib": -0.78
+     "contrib": -0.31
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "0.5",
-     "contrib": -0.68
-    },
-    {
-     "feature": "SCA90",
-     "label": "슈팅 창출/90",
-     "value_text": "3.0",
-     "contrib": -0.59
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "61.6",
+     "contrib": -0.24
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.038,
+   "base_logit": 0.151,
+   "rest": 0.018,
    "base_prob": 0.538,
-   "prob": 0.207,
+   "prob": 0.326,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "35.0",
-     "contrib": -1.74
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "75.3",
-     "contrib": 0.51
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.8",
-     "contrib": -0.3
+     "contrib": -1.26
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2273.0",
-     "contrib": 0.2
+     "contrib": 0.18
     },
     {
-     "feature": "d_grp_stability",
-     "label": "안정 그룹 변화",
-     "value_text": "14.6",
-     "contrib": -0.2
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.17
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "61.4",
+     "contrib": 0.1
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "1053.0",
+     "contrib": -0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Daniel Parejo(MF)의 현재 능력 점수는 62.2점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 패스 거리, 최종 3분의1 패스, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 박스 터치이다.",
-  "potential": "Daniel Parejo의 2~3년 후 예측 중심값은 54.8점, 80% 구간 상단은 64.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 64.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 능력 변화(전 시즌 대비)(5.8, -1.5), 스타일 렌즈 점수(65.6, -1.1), 전진 운반/90(0.8, -0.8), 박스 터치/90(0.5, -0.7), 슈팅 창출/90(3.0, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(안정 그룹 점수, 시즌 출전시간(분))과 하락 요인(나이, 전진 운반/90)을 거쳐 20.7%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Daniel Parejo의 2~3년 후 예측 중심값은 56.6점, 80% 구간 상단은 65.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 32.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 65.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 능력 변화(전 시즌 대비)(5.8, -1.2), 스타일 렌즈 점수(65.6, -0.8), 현재 능력(62.2, -0.5), 전진 운반/90(0.8, -0.3), 수비 그룹 점수(61.6, -0.2)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 강도 리그 내 순위(0=최강))과 하락 요인(나이, 2시즌 전 출전시간(분))을 거쳐 32.6%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

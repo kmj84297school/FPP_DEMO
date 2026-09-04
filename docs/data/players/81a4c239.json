@@ -38,68 +38,68 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4187,
-  "mu": 51.1,
+  "survival_prob": 0.4684,
+  "mu": 49.9,
   "ci80": {
-   "lo": 41.8,
-   "hi": 60.3
+   "lo": 40.7,
+   "hi": 59.2
   },
   "ci50": {
-   "lo": 46.2,
-   "hi": 55.9
+   "lo": 45.1,
+   "hi": 54.8
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.17,
-   "total": -0.59,
+   "base": -1.93,
+   "rest": -0.68,
+   "total": -1.7,
    "top": [
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "49.3",
-     "contrib": 0.92
-    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "54.0",
-     "contrib": 0.88
+     "contrib": 0.79
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "51.7",
+     "contrib": 0.68
+    },
+    {
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.61
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.82
+     "contrib": 0.51
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.7",
-     "contrib": -0.8
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "37.7",
-     "contrib": 0.67
+     "feature": "sty_연결형 공격수",
+     "label": "스타일: 연결형 공격수",
+     "value_text": "예",
+     "contrib": -0.47
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.319,
+   "base_logit": 0.151,
+   "rest": -0.138,
    "base_prob": 0.538,
-   "prob": 0.419,
+   "prob": 0.468,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.61
+     "contrib": 0.47
     },
     {
      "feature": "std_Min_Playing",
@@ -108,22 +108,22 @@
      "contrib": -0.28
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.7",
-     "contrib": -0.22
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.6",
+     "contrib": -0.14
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "37.7",
-     "contrib": -0.15
+     "contrib": -0.1
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "32.5",
-     "contrib": -0.13
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "54.0",
+     "contrib": -0.08
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Valentin Mihaila(FW)의 현재 능력 점수는 51.7점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 블록, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 박스 터치이다.",
-  "potential": "Valentin Mihaila의 2~3년 후 예측 중심값은 51.1점, 80% 구간 상단은 60.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.9%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 60.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 포지션 렌즈 점수(49.3, +0.9), 스타일 렌즈 점수(54.0, +0.9), 나이(24.0, +0.8), 팀 출전시간 비중(%)(37.7, +0.7); 내린 요인은 전진 운반/90(1.7, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 41.9%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Valentin Mihaila의 2~3년 후 예측 중심값은 49.9점, 80% 구간 상단은 59.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 46.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 59.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(54.0, +0.8), 현재 능력(51.7, +0.7), 나이(24.0, +0.5); 내린 요인은 리그: 세리에A(예, -0.6), 스타일: 연결형 공격수(예, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 46.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

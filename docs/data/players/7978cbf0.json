@@ -38,69 +38,63 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8843,
-  "mu": 62.4,
+  "survival_prob": 0.6165,
+  "mu": 61.0,
   "ci80": {
-   "lo": 53.1,
-   "hi": 71.7
+   "lo": 51.8,
+   "hi": 70.2
   },
   "ci50": {
-   "lo": 57.4,
-   "hi": 67.2
+   "lo": 56.2,
+   "hi": 65.8
   },
-  "sigma_model": 1.4,
+  "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.08,
-   "total": 0.19,
+   "base": -1.93,
+   "rest": 1.78,
+   "total": -1.19,
    "top": [
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "12.3",
+     "contrib": -1.04
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "65.4",
-     "contrib": -1.09
+     "contrib": -0.75
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 1.0
+     "contrib": 0.64
     },
     {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "32.0",
-     "contrib": 0.83
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "214.0",
+     "contrib": 0.62
     },
     {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "79.0",
-     "contrib": 0.71
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "28.3",
-     "contrib": 0.57
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "62.2",
+     "contrib": -0.51
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.025,
+   "base_logit": 0.151,
+   "rest": -0.094,
    "base_prob": 0.538,
-   "prob": 0.884,
+   "prob": 0.617,
    "top": [
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 0.6
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
@@ -108,22 +102,28 @@
      "contrib": 0.4
     },
     {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.31
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.27
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "49.9",
+     "contrib": -0.27
+    },
+    {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "92.9",
-     "contrib": 0.39
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "6.6",
-     "contrib": 0.33
-    },
-    {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "79.0",
-     "contrib": 0.15
+     "contrib": 0.25
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Himad Abdelli(MF)의 현재 능력 점수는 62.2점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반 거리, 성공 드리블, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 블록이다.",
-  "potential": "Himad Abdelli의 2~3년 후 예측 중심값은 62.4점, 80% 구간 상단은 71.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 88.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 71.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +1.0), 수비 그룹 점수(32.0, +0.8), 전진 그룹 점수(79.0, +0.7), 공중볼 승률(28.3, +0.6); 내린 요인은 스타일 렌즈 점수(65.4, -1.1)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))을 거쳐 88.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Himad Abdelli의 2~3년 후 예측 중심값은 61.0점, 80% 구간 상단은 70.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 70.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +0.6), 2시즌 전 출전시간(분)(214.0, +0.6); 내린 요인은 팀 평균 대비 본인 능력(12.3, -1.0), 스타일 렌즈 점수(65.4, -0.8), 현재 능력(62.2, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 나이)과 하락 요인(팀 강도 리그 내 순위(0=최강), 소속팀 평균 능력(팀 강도))을 거쳐 61.7%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

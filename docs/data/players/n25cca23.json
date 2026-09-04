@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6543,
-  "mu": 61.2,
+  "survival_prob": 0.7137,
+  "mu": 61.8,
   "ci80": {
-   "lo": 50.8,
-   "hi": 71.6
+   "lo": 51.6,
+   "hi": 72.0
   },
   "ci50": {
-   "lo": 55.7,
-   "hi": 66.7
+   "lo": 56.5,
+   "hi": 67.2
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 8.0
+  "sigma_model": 0.9,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -1.39,
-   "total": -2.71,
+   "base": 0.93,
+   "rest": -0.14,
+   "total": -2.06,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "65.6",
-     "contrib": -1.65
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "87.9",
-     "contrib": 1.42
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.79
+     "contrib": -1.12
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "63.9",
-     "contrib": -0.77
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.6",
-     "contrib": -0.5
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.939,
-   "rest": 0.089,
-   "base_prob": 0.719,
-   "prob": 0.654,
-   "top": [
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1154.0",
-     "contrib": -0.46
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "61.4",
-     "contrib": 0.27
+     "contrib": -0.74
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "23.0",
-     "contrib": -0.22
+     "contrib": -0.39
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "87.9",
-     "contrib": 0.15
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.4",
+     "contrib": -0.38
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.4",
+     "contrib": -0.21
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.956,
+   "rest": 0.179,
+   "base_prob": 0.722,
+   "prob": 0.714,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1154.0",
+     "contrib": -0.45
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "65.4",
+     "contrib": 0.35
+    },
+    {
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.4",
+     "contrib": -0.15
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.13
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "37.7",
-     "contrib": -0.12
+     "contrib": -0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Ramon Hendriks(DF)의 현재 능력 점수는 63.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승률, 슈팅당 기대득점, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 볼 리커버리이다.",
-  "potential": "Ramon Hendriks의 2~3년 후 예측 중심값은 61.2점, 80% 구간 상단은 71.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 65.4%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 71.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.7점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 공중볼 승률(87.9, +1.4); 내린 요인은 스타일 렌즈 점수(65.6, -1.6), 나이(23.0, -0.8), 현재 능력(63.9, -0.8), 전진 운반/90(0.6, -0.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(안정 그룹 점수, 공중볼 승률)과 하락 요인(시즌 출전시간(분), 나이)을 거쳐 65.4%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Ramon Hendriks의 2~3년 후 예측 중심값은 61.8점, 80% 구간 상단은 72.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 71.4%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 72.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.1점(같은 코호트 평균 변화 +0.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(65.6, -1.1), 현재 능력(63.9, -0.7), 나이(23.0, -0.4), 선발 비율(0.4, -0.4), 성공 드리블/90(0.4, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))과 하락 요인(시즌 출전시간(분), 선발 비율)을 거쳐 71.4%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9065,
-  "mu": 59.3,
+  "survival_prob": 0.8663,
+  "mu": 61.3,
   "ci80": {
-   "lo": 49.9,
-   "hi": 68.5
+   "lo": 52.2,
+   "hi": 70.5
   },
   "ci50": {
-   "lo": 54.3,
-   "hi": 64.1
+   "lo": 56.5,
+   "hi": 66.2
   },
-  "sigma_model": 1.4,
+  "sigma_model": 0.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.68,
-   "total": -5.72,
+   "base": -1.93,
+   "rest": -1.1,
+   "total": -3.6,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "72.0",
-     "contrib": -1.5
-    },
-    {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "2.0",
-     "contrib": -0.9
+     "contrib": -1.05
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "65.0",
-     "contrib": -0.73
+     "contrib": -0.69
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.55
+     "contrib": 0.52
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.2",
-     "contrib": -0.55
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-1.5",
+     "contrib": 0.35
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "26.7",
+     "contrib": 0.31
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.23,
+   "base_logit": 0.151,
+   "rest": 0.456,
    "base_prob": 0.538,
-   "prob": 0.906,
+   "prob": 0.866,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.66
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "72.0",
-     "contrib": 0.35
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "94.9",
-     "contrib": 0.34
+     "contrib": 0.4
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2610.0",
-     "contrib": 0.31
+     "contrib": 0.33
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "60.9",
+     "contrib": 0.22
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "76.3",
-     "contrib": 0.22
+     "contrib": 0.18
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "72.0",
+     "contrib": 0.13
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Pedro Porro(DF)의 현재 능력 점수는 65.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 슈팅 창출(SCA), 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Pedro Porro의 2~3년 후 예측 중심값은 59.3점, 80% 구간 상단은 68.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 90.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 68.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +0.6); 내린 요인은 스타일 렌즈 점수(72.0, -1.5), 키패스/90(2.0, -0.9), 현재 능력(65.0, -0.7), 전진 운반/90(2.2, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 스타일 렌즈 점수)을 거쳐 90.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Pedro Porro의 2~3년 후 예측 중심값은 61.3점, 80% 구간 상단은 70.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 86.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 70.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +0.5), 능력 변화(전 시즌 대비)(-1.5, +0.3), 공중볼 승률(26.7, +0.3); 내린 요인은 스타일 렌즈 점수(72.0, -1.1), 현재 능력(65.0, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))을 거쳐 86.6%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

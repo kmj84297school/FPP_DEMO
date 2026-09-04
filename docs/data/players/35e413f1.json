@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5898,
-  "mu": 52.3,
+  "survival_prob": 0.539,
+  "mu": 55.4,
   "ci80": {
-   "lo": 42.9,
-   "hi": 61.7
+   "lo": 46.1,
+   "hi": 64.7
   },
   "ci50": {
-   "lo": 47.4,
-   "hi": 57.2
+   "lo": 50.5,
+   "hi": 60.2
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.95,
-   "total": 0.66,
+   "base": -1.93,
+   "rest": -0.44,
+   "total": 3.72,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-11.0",
-     "contrib": 3.68
+     "contrib": 3.23
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "69.3",
-     "contrib": -0.97
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-12.3",
+     "contrib": 0.97
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "55.0",
-     "contrib": 0.86
+     "contrib": 0.8
     },
     {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "0.0",
-     "contrib": -0.78
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "51.7",
+     "contrib": 0.68
     },
     {
      "feature": "grp_defense",
      "label": "수비 그룹 점수",
      "value_text": "25.7",
-     "contrib": 0.72
+     "contrib": 0.4
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.222,
+   "base_logit": 0.151,
+   "rest": -0.24,
    "base_prob": 0.538,
-   "prob": 0.59,
+   "prob": 0.539,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.4
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-1790.0",
-     "contrib": 0.39
+     "contrib": 0.34
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1198.0",
-     "contrib": -0.34
+     "contrib": -0.31
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.7",
-     "contrib": -0.25
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.19
     },
     {
-     "feature": "d_grp_chance",
-     "label": "찬스 그룹 변화",
-     "value_text": "-14.2",
-     "contrib": 0.24
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-1790.0",
+     "contrib": 0.18
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "970.0",
+     "contrib": -0.16
     }
    ]
   },
@@ -198,7 +198,7 @@
    "season": 2022,
    "distance": 2.035,
    "survived": 1,
-   "fut_ability_v2": 57.0,
+   "fut_ability_v2": 58.1,
    "player_name": "Kieran Tierney",
    "squad": "Arsenal"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Ben White(DF)의 현재 능력 점수는 51.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 터치, 어시스트, 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 성공 드리블이다.",
-  "potential": "Ben White의 2~3년 후 예측 중심값은 52.3점, 80% 구간 상단은 61.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.0%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 61.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-11.0, +3.7), 스타일 렌즈 점수(55.0, +0.9), 수비 그룹 점수(25.7, +0.7); 내린 요인은 찬스 그룹 점수(69.3, -1.0), 성공 드리블/90(0.0, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))과 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 59.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Ben White의 2~3년 후 예측 중심값은 55.4점, 80% 구간 상단은 64.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 64.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-11.0, +3.2), 팀 평균 대비 본인 능력(-12.3, +1.0), 스타일 렌즈 점수(55.0, +0.8), 현재 능력(51.7, +0.7), 수비 그룹 점수(25.7, +0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 팀 강도 리그 내 순위(0=최강))과 하락 요인(시즌 출전시간(분), 2시즌 전 출전시간(분))을 거쳐 53.9%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

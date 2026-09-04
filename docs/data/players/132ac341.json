@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0697,
-  "mu": 53.7,
+  "survival_prob": 0.1641,
+  "mu": 55.0,
   "ci80": {
-   "lo": 44.1,
-   "hi": 63.2
+   "lo": 45.7,
+   "hi": 64.3
   },
   "ci50": {
-   "lo": 48.7,
-   "hi": 58.7
+   "lo": 50.1,
+   "hi": 59.9
   },
-  "sigma_model": 2.2,
+  "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.12,
-   "total": -6.15,
+   "base": -1.93,
+   "rest": -0.87,
+   "total": -4.82,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "14.6",
-     "contrib": -2.18
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1025.0",
-     "contrib": -1.15
-    },
-    {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.7",
-     "contrib": -0.83
-    },
-    {
-     "feature": "style_confidence",
-     "label": "스타일 확신도",
-     "value_text": "3.3",
-     "contrib": 0.75
+     "contrib": -1.88
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "64.4",
-     "contrib": -0.72
+     "contrib": -0.63
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "144.0",
+     "contrib": 0.45
+    },
+    {
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.2",
+     "contrib": 0.44
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "4.6",
+     "contrib": -0.4
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.033,
+   "base_logit": 0.151,
+   "rest": 0.264,
    "base_prob": 0.538,
-   "prob": 0.07,
+   "prob": 0.164,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "35.0",
-     "contrib": -1.54
+     "contrib": -1.08
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1025.0",
-     "contrib": -0.92
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.2",
-     "contrib": -0.28
+     "contrib": -0.61
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "30.0",
-     "contrib": -0.22
+     "contrib": -0.18
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-665.0",
-     "contrib": 0.18
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "144.0",
+     "contrib": -0.1
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "55.2",
+     "contrib": -0.09
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Aridane Hernández(DF)의 현재 능력 점수는 59.8점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 공중볼 승률, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 운반이다.",
-  "potential": "Aridane Hernández의 2~3년 후 예측 중심값은 53.7점, 80% 구간 상단은 63.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 7.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 63.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -6.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 확신도(3.3, +0.8); 내린 요인은 능력 변화(전 시즌 대비)(14.6, -2.2), 시즌 출전시간(분)(1025.0, -1.1), 태클+인터셉트/90(1.7, -0.8), 스타일 렌즈 점수(64.4, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(출전시간 변화(분))과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 7.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Aridane Hernández의 2~3년 후 예측 중심값은 55.0점, 80% 구간 상단은 64.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 16.4%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 64.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 2시즌 전 출전시간(분)(144.0, +0.5), 키패스/90(0.2, +0.4); 내린 요인은 능력 변화(전 시즌 대비)(14.6, -1.9), 스타일 렌즈 점수(64.4, -0.6), 팀 평균 대비 본인 능력(4.6, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 시즌 출전시간(분))을 거쳐 16.4%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8906,
-  "mu": 57.1,
+  "survival_prob": 0.7771,
+  "mu": 57.9,
   "ci80": {
-   "lo": 47.6,
-   "hi": 66.7
+   "lo": 48.6,
+   "hi": 67.1
   },
   "ci50": {
-   "lo": 52.1,
-   "hi": 62.2
+   "lo": 52.9,
+   "hi": 62.7
   },
-  "sigma_model": 2.1,
+  "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.79,
-   "total": -4.6,
+   "base": -1.93,
+   "rest": -0.25,
+   "total": -3.9,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "11.5",
-     "contrib": -1.85
+     "contrib": -1.72
     },
     {
-     "feature": "sty_돌파형 윙어",
-     "label": "스타일: 돌파형 윙어",
-     "value_text": "예",
-     "contrib": 0.8
+     "feature": "d_grp_defense",
+     "label": "수비 그룹 변화",
+     "value_text": "45.7",
+     "contrib": 0.57
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "63.8",
-     "contrib": -0.8
+     "contrib": -0.52
     },
     {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "73.0",
-     "contrib": -0.75
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "61.7",
+     "contrib": -0.47
     },
     {
      "feature": "d_grp_prod",
      "label": "생산 그룹 변화",
-     "value_text": "-45.8",
-     "contrib": 0.7
+     "value_text": "-45.9",
+     "contrib": 0.41
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.413,
+   "base_logit": 0.151,
+   "rest": 0.171,
    "base_prob": 0.538,
-   "prob": 0.891,
+   "prob": 0.777,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2862.0",
-     "contrib": 0.76
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "93.5",
-     "contrib": 0.43
+     "contrib": 0.58
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.32
+     "contrib": 0.28
     },
     {
-     "feature": "d_grp_prod",
-     "label": "생산 그룹 변화",
-     "value_text": "-45.8",
-     "contrib": 0.29
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "93.5",
+     "contrib": 0.27
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.0",
-     "contrib": -0.28
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "54.6",
+     "contrib": -0.1
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "847.0",
+     "contrib": -0.09
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Ritsu Doan(FW)의 현재 능력 점수는 61.7점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 블록, 태클+인터셉트, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 키패스이다.",
-  "potential": "Ritsu Doan의 2~3년 후 예측 중심값은 57.1점, 80% 구간 상단은 66.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 89.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 66.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일: 돌파형 윙어(예, +0.8), 생산 그룹 변화(-45.8, +0.7); 내린 요인은 능력 변화(전 시즌 대비)(11.5, -1.9), 스타일 렌즈 점수(63.8, -0.8), 수비 그룹 점수(73.0, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(전진 운반/90)을 거쳐 89.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Ritsu Doan의 2~3년 후 예측 중심값은 57.9점, 80% 구간 상단은 67.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 77.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 67.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 수비 그룹 변화(45.7, +0.6), 생산 그룹 변화(-45.9, +0.4); 내린 요인은 능력 변화(전 시즌 대비)(11.5, -1.7), 스타일 렌즈 점수(63.8, -0.5), 현재 능력(61.7, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 나이)과 하락 요인(소속팀 평균 능력(팀 강도), 2시즌 전 출전시간(분))을 거쳐 77.7%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

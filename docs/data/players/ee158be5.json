@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3319,
-  "mu": 54.4,
+  "survival_prob": 0.4568,
+  "mu": 54.3,
   "ci80": {
    "lo": 44.1,
-   "hi": 64.8
+   "hi": 64.5
   },
   "ci50": {
    "lo": 49.0,
-   "hi": 59.9
+   "hi": 59.7
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 8.0
+  "sigma_model": 0.8,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.88,
-   "total": 3.46,
+   "base": 0.93,
+   "rest": 0.39,
+   "total": 3.31,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "55.2",
-     "contrib": 2.17
+     "contrib": 1.43
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "51.0",
-     "contrib": 0.61
+     "contrib": 0.62
     },
     {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "26.0",
-     "contrib": 0.58
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "51.5",
+     "contrib": 0.28
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-202.0",
-     "contrib": -0.34
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.6",
+     "contrib": -0.17
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "46.9",
-     "contrib": 0.33
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-0.4",
+     "contrib": -0.17
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.123,
-   "base_prob": 0.719,
-   "prob": 0.332,
+   "base_logit": 0.956,
+   "rest": 0.046,
+   "base_prob": 0.722,
+   "prob": 0.457,
    "top": [
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "26.0",
-     "contrib": -0.73
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1248.0",
-     "contrib": -0.64
+     "contrib": -0.43
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "46.9",
-     "contrib": -0.16
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "51.5",
+     "contrib": -0.31
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "3.8",
-     "contrib": -0.12
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "26.0",
+     "contrib": -0.15
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.2",
-     "contrib": -0.11
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.15
+    },
+    {
+     "feature": "lg_Ligue 1",
+     "label": "리그: 리그1",
+     "value_text": "예",
+     "contrib": -0.14
     }
    ]
   },
@@ -135,7 +135,7 @@
    "season": 2022,
    "distance": 1.922,
    "survived": 1,
-   "fut_ability_v2": 70.3,
+   "fut_ability_v2": 66.8,
    "player_name": "Éderson",
    "squad": "Salernitana"
   },
@@ -180,7 +180,7 @@
    "season": 2021,
    "distance": 2.227,
    "survived": 1,
-   "fut_ability_v2": 62.0,
+   "fut_ability_v2": 61.7,
    "player_name": "Ainsley Maitland-Niles",
    "squad": "West Brom / Arsenal"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Junior Mwanga(MF)의 현재 능력 점수는 51.0점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 태클 성공률, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 박스 진입 패스이다.",
-  "potential": "Junior Mwanga의 2~3년 후 예측 중심값은 54.4점, 80% 구간 상단은 64.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 33.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 64.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.4점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(55.2, +2.2), 현재 능력(51.0, +0.6), 팀 출전시간 비중(%)(26.0, +0.6), 포지션 렌즈 점수(46.9, +0.3); 내린 요인은 출전시간 변화(분)(-202.0, -0.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 하락 요인(팀 출전시간 비중(%), 시즌 출전시간(분))을 거쳐 33.2%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Junior Mwanga의 2~3년 후 예측 중심값은 54.3점, 80% 구간 상단은 64.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 45.7%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 64.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.3점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(55.2, +1.4), 현재 능력(51.0, +0.6), 소속팀 평균 능력(팀 강도)(51.5, +0.3); 내린 요인은 성공 드리블/90(0.6, -0.2), 팀 평균 대비 본인 능력(-0.4, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 하락 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 45.7%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7914,
-  "mu": 63.6,
+  "survival_prob": 0.7716,
+  "mu": 62.8,
   "ci80": {
-   "lo": 53.1,
-   "hi": 74.1
+   "lo": 52.6,
+   "hi": 73.0
   },
   "ci50": {
-   "lo": 58.1,
-   "hi": 69.0
+   "lo": 57.4,
+   "hi": 68.2
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 8.0
+  "sigma_model": 0.7,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 0.19,
-   "total": -1.92,
+   "base": 0.93,
+   "rest": -0.18,
+   "total": -2.65,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "68.1",
-     "contrib": -1.68
+     "contrib": -1.35
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "65.5",
-     "contrib": -1.02
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "82.4",
-     "contrib": 0.77
+     "contrib": -0.88
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "8.3",
-     "contrib": -0.61
+     "contrib": -0.48
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "68.0",
-     "contrib": -0.55
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "2.2",
+     "contrib": -0.47
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "22.0",
+     "contrib": -0.22
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.163,
-   "base_prob": 0.719,
-   "prob": 0.791,
+   "base_logit": 0.956,
+   "rest": -0.005,
+   "base_prob": 0.722,
+   "prob": 0.772,
    "top": [
     {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "0.1",
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "63.3",
      "contrib": 0.35
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1456.0",
-     "contrib": -0.34
+     "contrib": -0.32
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "63.7",
-     "contrib": 0.28
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.1",
+     "contrib": 0.22
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.9",
-     "contrib": -0.26
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.16
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "62.9",
-     "contrib": 0.2
+     "feature": "lg_Ligue 1",
+     "label": "리그: 리그1",
+     "value_text": "예",
+     "contrib": -0.14
     }
    ]
   },
@@ -198,7 +198,7 @@
    "season": 2022,
    "distance": 1.661,
    "survived": 1,
-   "fut_ability_v2": 71.0,
+   "fut_ability_v2": 70.8,
    "player_name": "Mohamed Simakan",
    "squad": "RB Leipzig"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Christopher Wooh(DF)의 현재 능력 점수는 65.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 태클+인터셉트, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 볼 리커버리이다.",
-  "potential": "Christopher Wooh의 2~3년 후 예측 중심값은 63.6점, 80% 구간 상단은 74.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 79.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 74.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.9점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 공중볼 승률(82.4, +0.8); 내린 요인은 스타일 렌즈 점수(68.1, -1.7), 현재 능력(65.5, -1.0), 능력 변화(전 시즌 대비)(8.3, -0.6), 출전시간 변화(분)(68.0, -0.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(키패스/90, 안정 그룹 점수)과 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 79.1%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Christopher Wooh의 2~3년 후 예측 중심값은 62.8점, 80% 구간 상단은 73.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 77.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 73.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.7점(같은 코호트 평균 변화 +0.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(68.1, -1.4), 현재 능력(65.5, -0.9), 능력 변화(전 시즌 대비)(8.3, -0.5), 팀 평균 대비 본인 능력(2.2, -0.5), 나이(22.0, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 키패스/90)과 하락 요인(시즌 출전시간(분), 리그: 리그1)을 거쳐 77.2%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6323,
-  "mu": 65.0,
+  "survival_prob": 0.6899,
+  "mu": 67.2,
   "ci80": {
-   "lo": 55.7,
-   "hi": 74.3
+   "lo": 58.0,
+   "hi": 76.4
   },
   "ci50": {
-   "lo": 60.1,
-   "hi": 69.9
+   "lo": 62.4,
+   "hi": 72.0
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.88,
-   "total": -11.21,
+   "base": -1.93,
+   "rest": -1.9,
+   "total": -9.0,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "78.5",
-     "contrib": -1.87
+     "contrib": -1.31
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "5.9",
-     "contrib": -1.55
+     "contrib": -1.1
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "9.0",
+     "contrib": -1.0
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "76.2",
-     "contrib": -1.33
+     "contrib": -0.98
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "74.0",
-     "contrib": -0.85
-    },
-    {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.7",
-     "contrib": -0.81
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.79
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.418,
+   "base_logit": 0.151,
+   "rest": 0.241,
    "base_prob": 0.538,
-   "prob": 0.632,
+   "prob": 0.69,
    "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "67.2",
+     "contrib": 0.51
+    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "29.0",
-     "contrib": -0.41
+     "contrib": -0.21
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.0",
-     "contrib": -0.28
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.0",
+     "contrib": 0.19
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "654.0",
+     "contrib": -0.17
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "78.5",
-     "contrib": 0.24
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-84.0",
-     "contrib": 0.23
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "6.8",
-     "contrib": 0.19
+     "contrib": 0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Mario Pašalić(MF)의 현재 능력 점수는 76.2점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 전진 운반 거리, 비페널티 xG, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 성공 드리블, 태클+인터셉트이다.",
-  "potential": "Mario Pašalić의 2~3년 후 예측 중심값은 65.0점, 80% 구간 상단은 74.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 63.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 74.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -11.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(78.5, -1.9), 능력 변화(전 시즌 대비)(5.9, -1.6), 현재 능력(76.2, -1.3), 포지션 렌즈 점수(74.0, -0.8), 태클+인터셉트/90(1.7, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(스타일 렌즈 점수, 출전시간 변화(분))과 하락 요인(나이, 전진 운반/90)을 거쳐 63.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Mario Pašalić의 2~3년 후 예측 중심값은 67.2점, 80% 구간 상단은 76.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 69.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 76.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -9.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(78.5, -1.3), 능력 변화(전 시즌 대비)(5.9, -1.1), 팀 평균 대비 본인 능력(9.0, -1.0), 현재 능력(76.2, -1.0), 리그: 세리에A(예, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))과 하락 요인(나이, 2시즌 전 출전시간(분))을 거쳐 69.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

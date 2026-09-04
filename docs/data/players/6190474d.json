@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.544,
-  "mu": 58.0,
+  "survival_prob": 0.4765,
+  "mu": 59.3,
   "ci80": {
-   "lo": 48.7,
-   "hi": 67.3
+   "lo": 50.1,
+   "hi": 68.5
   },
   "ci50": {
-   "lo": 53.1,
-   "hi": 62.8
+   "lo": 54.3,
+   "hi": 64.1
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.46,
-   "total": -6.36,
+   "base": -1.93,
+   "rest": -0.2,
+   "total": -5.06,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "4.6",
-     "contrib": -1.35
+     "contrib": -1.09
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "10.6",
+     "contrib": -0.97
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "68.8",
-     "contrib": -1.06
+     "contrib": -0.83
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "64.3",
+     "contrib": -0.63
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.86
-    },
-    {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.5",
-     "contrib": -0.76
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.3",
-     "contrib": -0.68
+     "contrib": 0.58
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.232,
+   "base_logit": 0.151,
+   "rest": -0.039,
    "base_prob": 0.538,
-   "prob": 0.544,
+   "prob": 0.477,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.79
+     "contrib": 0.45
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1263.0",
-     "contrib": -0.35
+     "contrib": -0.27
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.17
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "53.7",
+     "contrib": -0.11
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "41.3",
-     "contrib": -0.24
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "68.8",
-     "contrib": 0.22
-    },
-    {
-     "feature": "sty_공격형 MF",
-     "label": "스타일: 공격형 MF",
-     "value_text": "예",
-     "contrib": -0.17
+     "contrib": -0.11
     }
    ]
   },
@@ -207,7 +207,7 @@
    "season": 2022,
    "distance": 2.297,
    "survived": 1,
-   "fut_ability_v2": 70.0,
+   "fut_ability_v2": 69.9,
    "player_name": "Saïd Benrahma",
    "squad": "West Ham"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Jeong Woo-yeong(MF)의 현재 능력 점수는 64.3점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 수신, 박스 진입 패스, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 태클+인터셉트이다.",
-  "potential": "Jeong Woo-yeong의 2~3년 후 예측 중심값은 58.0점, 80% 구간 상단은 67.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.4%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 67.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -6.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +0.9); 내린 요인은 능력 변화(전 시즌 대비)(4.6, -1.4), 스타일 렌즈 점수(68.8, -1.1), 태클+인터셉트/90(1.5, -0.8), 전진 운반/90(2.3, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 스타일 렌즈 점수)과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 54.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Jeong Woo-yeong의 2~3년 후 예측 중심값은 59.3점, 80% 구간 상단은 68.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 47.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 68.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +0.6); 내린 요인은 능력 변화(전 시즌 대비)(4.6, -1.1), 팀 평균 대비 본인 능력(10.6, -1.0), 스타일 렌즈 점수(68.8, -0.8), 현재 능력(64.3, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 팀 강도 리그 내 순위(0=최강))을 거쳐 47.6%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1526,
+  "survival_prob": 0.2809,
   "mu": 48.2,
   "ci80": {
-   "lo": 38.8,
-   "hi": 57.6
+   "lo": 39.1,
+   "hi": 57.4
   },
   "ci50": {
-   "lo": 43.3,
+   "lo": 43.4,
    "hi": 53.2
   },
-  "sigma_model": 1.7,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.15,
-   "total": 0.81,
+   "base": -1.93,
+   "rest": -0.63,
+   "total": 0.91,
    "top": [
-    {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "47.4",
-     "contrib": 1.07
-    },
-    {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "2.1",
-     "contrib": -1.05
-    },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-5.1",
-     "contrib": 1.02
+     "contrib": 0.88
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "39.9",
-     "contrib": 0.92
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "47.4",
+     "contrib": 0.85
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "54.9",
-     "contrib": 0.9
+     "contrib": 0.75
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-6.3",
+     "contrib": 0.53
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "39.9",
+     "contrib": 0.45
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.711,
+   "base_logit": 0.151,
+   "rest": -0.135,
    "base_prob": 0.538,
-   "prob": 0.153,
+   "prob": 0.281,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1159.0",
-     "contrib": -0.67
+     "contrib": -0.48
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "18.6",
-     "contrib": -0.22
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.16
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "37.9",
-     "contrib": -0.21
+     "contrib": -0.12
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.5",
-     "contrib": -0.18
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "53.7",
+     "contrib": -0.11
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "90.1",
-     "contrib": 0.13
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "47.4",
+     "contrib": -0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Josip Juranović(DF)의 현재 능력 점수는 47.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 창출(SCA), 키패스, 박스 진입 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 패스 성공률, 공중볼 승률이다.",
-  "potential": "Josip Juranović의 2~3년 후 예측 중심값은 48.2점, 80% 구간 상단은 57.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 15.3%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 57.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 현재 능력(47.4, +1.1), 능력 변화(전 시즌 대비)(-5.1, +1.0), 포지션 렌즈 점수(39.9, +0.9), 스타일 렌즈 점수(54.9, +0.9); 내린 요인은 키패스/90(2.1, -1.1)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(찬스 그룹 점수)과 하락 요인(시즌 출전시간(분), 안정 그룹 점수)을 거쳐 15.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Josip Juranović의 2~3년 후 예측 중심값은 48.2점, 80% 구간 상단은 57.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 57.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-5.1, +0.9), 현재 능력(47.4, +0.8), 스타일 렌즈 점수(54.9, +0.8), 팀 평균 대비 본인 능력(-6.3, +0.5), 포지션 렌즈 점수(39.9, +0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(시즌 출전시간(분), 팀 강도 리그 내 순위(0=최강))을 거쳐 28.1%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

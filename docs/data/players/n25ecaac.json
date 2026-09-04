@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7516,
-  "mu": 61.2,
+  "survival_prob": 0.5985,
+  "mu": 57.1,
   "ci80": {
-   "lo": 50.8,
-   "hi": 71.6
+   "lo": 46.8,
+   "hi": 67.4
   },
   "ci50": {
-   "lo": 55.7,
-   "hi": 66.7
+   "lo": 51.8,
+   "hi": 62.6
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 8.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.5,
-   "total": 6.62,
+   "base": 0.93,
+   "rest": 1.2,
+   "total": 2.61,
    "top": [
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "3.0",
+     "contrib": -0.59
+    },
     {
      "feature": "grp_chance",
      "label": "찬스 그룹 점수",
      "value_text": "7.1",
-     "contrib": 2.2
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "86.3",
-     "contrib": 1.09
-    },
-    {
-     "feature": "style_confidence",
-     "label": "스타일 확신도",
-     "value_text": "2.3",
-     "contrib": 1.07
-    },
-    {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.0",
-     "contrib": 0.91
+     "contrib": 0.55
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "54.6",
-     "contrib": 0.86
+     "contrib": 0.53
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.0",
+     "contrib": -0.23
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "51.6",
+     "contrib": 0.22
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.415,
-   "base_prob": 0.719,
-   "prob": 0.752,
+   "base_logit": 0.956,
+   "rest": 0.052,
+   "base_prob": 0.722,
+   "prob": 0.598,
    "top": [
-    {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "0.0",
-     "contrib": 0.34
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1315.0",
-     "contrib": -0.33
+     "contrib": -0.4
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "77.8",
-     "contrib": 0.21
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "51.6",
+     "contrib": -0.35
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.8",
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.0",
      "contrib": 0.2
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "50.8",
-     "contrib": 0.17
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "38.5",
+     "contrib": -0.1
+    },
+    {
+     "feature": "lg_La Liga",
+     "label": "리그: 라리가",
+     "value_text": "예",
+     "contrib": 0.06
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Juan Herzog(DF)의 현재 능력 점수는 54.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 공중볼 승리, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 전진 운반 거리이다.",
-  "potential": "Juan Herzog의 2~3년 후 예측 중심값은 61.2점, 80% 구간 상단은 71.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 75.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 71.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +6.6점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 찬스 그룹 점수(7.1, +2.2), 공중볼 승률(86.3, +1.1), 스타일 확신도(2.3, +1.1), xAG/90(0.0, +0.9), 현재 능력(54.6, +0.9)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(키패스/90, 안정 그룹 점수)과 하락 요인(시즌 출전시간(분))을 거쳐 75.2%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Juan Herzog의 2~3년 후 예측 중심값은 57.1점, 80% 구간 상단은 67.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 59.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 67.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.5점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 찬스 그룹 점수(7.1, +0.6), 현재 능력(54.6, +0.5), 소속팀 평균 능력(팀 강도)(51.6, +0.2); 내린 요인은 팀 평균 대비 본인 능력(3.0, -0.6), 성공 드리블/90(0.0, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(키패스/90, 리그: 라리가)과 하락 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 59.9%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

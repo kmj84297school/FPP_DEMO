@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5962,
-  "mu": 43.1,
+  "survival_prob": 0.6438,
+  "mu": 44.7,
   "ci80": {
-   "lo": 33.7,
-   "hi": 52.5
+   "lo": 35.5,
+   "hi": 54.0
   },
   "ci50": {
-   "lo": 38.2,
-   "hi": 48.1
+   "lo": 39.9,
+   "hi": 49.6
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.71,
-   "total": -2.14,
+   "base": -1.93,
+   "rest": -0.79,
+   "total": -0.52,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "46.7",
-     "contrib": 2.23
+     "contrib": 1.67
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "45.2",
-     "contrib": 1.87
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.2",
-     "contrib": -1.31
+     "contrib": 1.2
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "3.2",
-     "contrib": -1.23
+     "contrib": -1.19
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "43.8",
-     "contrib": 0.92
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": -0.197,
-   "base_prob": 0.538,
-   "prob": 0.596,
-   "top": [
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "2770.0",
-     "contrib": 0.41
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-11.7",
+     "contrib": 1.14
     },
     {
      "feature": "PrgPass90",
      "label": "전진 패스/90",
      "value_text": "1.2",
-     "contrib": 0.21
+     "contrib": -0.61
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": -0.044,
+   "base_prob": 0.538,
+   "prob": 0.644,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2770.0",
+     "contrib": 0.43
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "57.0",
+     "contrib": 0.17
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "46.0",
-     "contrib": -0.18
-    },
-    {
-     "feature": "sty_공격형 MF",
-     "label": "스타일: 공격형 MF",
-     "value_text": "예",
-     "contrib": -0.17
+     "contrib": -0.12
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "28.0",
-     "contrib": 0.17
+     "contrib": 0.11
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "843.0",
+     "contrib": -0.1
     }
    ]
   },
@@ -153,7 +153,7 @@
    "season": 2022,
    "distance": 2.414,
    "survived": 1,
-   "fut_ability_v2": 38.5,
+   "fut_ability_v2": 38.4,
    "player_name": "Jeffrey Schlupp",
    "squad": "Crystal Palace"
   },
@@ -198,7 +198,7 @@
    "season": 2022,
    "distance": 2.612,
    "survived": 1,
-   "fut_ability_v2": 40.9,
+   "fut_ability_v2": 41.1,
    "player_name": "Gonzalo Escalante",
    "squad": "Alavés / Lazio"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Marshall Munetsi(MF)의 현재 능력 점수는 45.2점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 공중볼 승리, 공중볼 승률, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 패스이다.",
-  "potential": "Marshall Munetsi의 2~3년 후 예측 중심값은 43.1점, 80% 구간 상단은 52.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 52.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(46.7, +2.2), 현재 능력(45.2, +1.9), 포지션 렌즈 점수(43.8, +0.9); 내린 요인은 전진 패스/90(1.2, -1.3), 능력 변화(전 시즌 대비)(3.2, -1.2)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 전진 패스/90)과 하락 요인(팀 출전시간 비중(%), 스타일: 공격형 MF)을 거쳐 59.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Marshall Munetsi의 2~3년 후 예측 중심값은 44.7점, 80% 구간 상단은 54.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 64.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 54.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(46.7, +1.7), 현재 능력(45.2, +1.2), 팀 평균 대비 본인 능력(-11.7, +1.1); 내린 요인은 능력 변화(전 시즌 대비)(3.2, -1.2), 전진 패스/90(1.2, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))과 하락 요인(팀 출전시간 비중(%), 2시즌 전 출전시간(분))을 거쳐 64.4%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

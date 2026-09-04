@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2251,
-  "mu": 54.8,
+  "survival_prob": 0.4726,
+  "mu": 56.1,
   "ci80": {
-   "lo": 45.6,
-   "hi": 64.0
+   "lo": 46.9,
+   "hi": 65.3
   },
   "ci50": {
-   "lo": 49.8,
-   "hi": 59.6
+   "lo": 51.2,
+   "hi": 60.9
   },
-  "sigma_model": 1.2,
+  "sigma_model": 0.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.29,
-   "total": -4.2,
+   "base": -1.93,
+   "rest": 0.42,
+   "total": -2.86,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "1.5",
-     "contrib": -1.13
+     "contrib": -0.94
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "59.8",
-     "contrib": 0.65
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "31.0",
-     "contrib": -0.47
-    },
-    {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "0.1",
-     "contrib": -0.41
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "56.2",
      "contrib": 0.35
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": -0.371,
-   "base_prob": 0.538,
-   "prob": 0.225,
-   "top": [
+    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "31.0",
-     "contrib": -0.62
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "79.0",
-     "contrib": -0.42
+     "contrib": -0.3
     },
     {
      "feature": "PrgCarry90",
      "label": "전진 운반/90",
      "value_text": "0.8",
-     "contrib": -0.31
+     "contrib": -0.24
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.1",
+     "contrib": -0.22
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": -0.042,
+   "base_prob": 0.538,
+   "prob": 0.473,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "31.0",
+     "contrib": -0.56
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2112.0",
-     "contrib": 0.2
+     "contrib": 0.19
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "56.2",
-     "contrib": 0.14
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "59.1",
+     "contrib": 0.15
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.4",
+     "contrib": 0.13
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "622.0",
+     "contrib": -0.12
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Jonathan Gradit(DF)의 현재 능력 점수는 58.9점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 패스, 공중볼 승리, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 볼 리커버리이다.",
-  "potential": "Jonathan Gradit의 2~3년 후 예측 중심값은 54.8점, 80% 구간 상단은 64.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 64.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(59.8, +0.7), 안정 그룹 점수(56.2, +0.3); 내린 요인은 능력 변화(전 시즌 대비)(1.5, -1.1), 나이(31.0, -0.5), 성공 드리블/90(0.1, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 안정 그룹 점수)과 하락 요인(나이, 공중볼 승률)을 거쳐 22.5%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Jonathan Gradit의 2~3년 후 예측 중심값은 56.1점, 80% 구간 상단은 65.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 47.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 65.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(59.8, +0.3); 내린 요인은 능력 변화(전 시즌 대비)(1.5, -0.9), 나이(31.0, -0.3), 전진 운반/90(0.8, -0.2), 성공 드리블/90(0.1, -0.2)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))과 하락 요인(나이, 2시즌 전 출전시간(분))을 거쳐 47.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

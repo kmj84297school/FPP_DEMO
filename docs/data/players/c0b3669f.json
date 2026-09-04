@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3493,
-  "mu": 56.8,
+  "survival_prob": 0.6147,
+  "mu": 57.9,
   "ci80": {
-   "lo": 46.9,
-   "hi": 66.6
+   "lo": 48.6,
+   "hi": 67.3
   },
   "ci50": {
-   "lo": 51.7,
-   "hi": 62.0
+   "lo": 52.9,
+   "hi": 62.9
   },
-  "sigma_model": 2.8,
+  "sigma_model": 1.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.59,
-   "total": -4.85,
+   "base": -1.93,
+   "rest": -1.69,
+   "total": -3.71,
    "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-7.0",
+     "contrib": 1.72
+    },
     {
      "feature": "PrgPass90",
      "label": "전진 패스/90",
      "value_text": "1.5",
-     "contrib": -2.6
+     "contrib": -1.11
     },
     {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-7.1",
-     "contrib": 1.16
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.67
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.5",
+     "contrib": -0.58
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 1.05
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "6.0",
-     "contrib": 0.94
-    },
-    {
-     "feature": "d_xAG90",
-     "label": "xAG/90 변화",
-     "value_text": "-0.1",
-     "contrib": -0.89
+     "contrib": 0.56
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.085,
+   "base_logit": 0.151,
+   "rest": 0.211,
    "base_prob": 0.538,
-   "prob": 0.349,
+   "prob": 0.615,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.59
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "86.4",
-     "contrib": -0.46
-    },
-    {
-     "feature": "d_grp_progress",
-     "label": "전진 그룹 변화",
-     "value_text": "-24.6",
-     "contrib": -0.37
+     "contrib": 0.47
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1518.0",
-     "contrib": -0.26
+     "contrib": -0.24
     },
     {
-     "feature": "d_SCA90",
-     "label": "SCA/90 변화",
-     "value_text": "-0.9",
-     "contrib": -0.19
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.17
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "847.0",
+     "contrib": -0.16
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "28.7",
+     "contrib": -0.14
     }
    ]
   },
@@ -382,12 +382,12 @@
    "n_seasons": 6
   },
   "consistency": {
-   "ability_std": 7.2,
+   "ability_std": 7.1,
    "n_rated_seasons": 5
   }
  },
  "narrative": {
   "current": "Randal Kolo Muani(FW)의 현재 능력 점수는 61.6점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 태클 성공률, 박스 터치 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스 거리이다.",
-  "potential": "Randal Kolo Muani의 2~3년 후 예측 중심값은 56.8점, 80% 구간 상단은 66.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.9%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 66.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-7.1, +1.2), 나이(25.0, +1.1), 박스 터치/90(6.0, +0.9); 내린 요인은 전진 패스/90(1.5, -2.6), xAG/90 변화(-0.1, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(공중볼 승률, 전진 그룹 변화)을 거쳐 34.9%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Randal Kolo Muani의 2~3년 후 예측 중심값은 57.9점, 80% 구간 상단은 67.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 67.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-7.0, +1.7), 나이(25.0, +0.6); 내린 요인은 전진 패스/90(1.5, -1.1), 리그: 세리에A(예, -0.7), 비페널티 xG/90(0.5, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 팀 강도 리그 내 순위(0=최강))과 하락 요인(시즌 출전시간(분), 2시즌 전 출전시간(분))을 거쳐 61.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

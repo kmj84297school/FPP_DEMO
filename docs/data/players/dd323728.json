@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9289,
-  "mu": 58.4,
+  "survival_prob": 0.8778,
+  "mu": 58.0,
   "ci80": {
-   "lo": 48.1,
-   "hi": 68.8
+   "lo": 47.8,
+   "hi": 68.3
   },
   "ci50": {
-   "lo": 52.9,
-   "hi": 63.9
+   "lo": 52.6,
+   "hi": 63.3
   },
-  "sigma_model": 1.4,
-  "sigma_residual": 8.0
+  "sigma_model": 0.8,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.45,
-   "total": 1.01,
+   "base": 0.93,
+   "rest": 0.27,
+   "total": 0.57,
    "top": [
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.99
-    },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-3.1",
-     "contrib": 0.73
+     "contrib": 0.49
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "20.5",
-     "contrib": 0.71
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.44
     },
     {
-     "feature": "d_xAG90",
-     "label": "xAG/90 변화",
-     "value_text": "-0.0",
-     "contrib": 0.35
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "2.0",
+     "contrib": -0.35
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "4.2",
-     "contrib": -0.32
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.6",
+     "contrib": -0.19
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "70.7",
+     "contrib": -0.13
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.345,
-   "base_prob": 0.719,
-   "prob": 0.929,
+   "base_logit": 0.956,
+   "rest": -0.012,
+   "base_prob": 0.722,
+   "prob": 0.878,
    "top": [
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "75.8",
-     "contrib": 0.96
+     "contrib": 0.54
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2594.0",
-     "contrib": 0.54
+     "contrib": 0.43
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "20.5",
-     "contrib": -0.24
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
+     "contrib": -0.11
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "54.4",
-     "contrib": 0.2
+     "feature": "d_grp_progress",
+     "label": "전진 그룹 변화",
+     "value_text": "-1.2",
+     "contrib": 0.09
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.17
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "55.5",
+     "contrib": 0.08
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Neco Williams(DF)의 현재 능력 점수는 57.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 시도, 태클+인터셉트, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 패스 성공률이다.",
-  "potential": "Neco Williams의 2~3년 후 예측 중심값은 58.4점, 80% 구간 상단은 68.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.9%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 68.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.0점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-3.1, +0.7), 안정 그룹 점수(20.5, +0.7), xAG/90 변화(-0.0, +0.3); 내린 요인은 나이(23.0, -1.0), 태클+인터셉트/90(4.2, -0.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(안정 그룹 점수, 나이)을 거쳐 92.9%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Neco Williams의 2~3년 후 예측 중심값은 58.0점, 80% 구간 상단은 68.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 68.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.6점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-3.1, +0.5); 내린 요인은 나이(23.0, -0.4), 팀 평균 대비 본인 능력(2.0, -0.3), 성공 드리블/90(0.6, -0.2), 찬스 그룹 점수(70.7, -0.1)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(팀 강도 리그 내 순위(0=최강))을 거쳐 87.8%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

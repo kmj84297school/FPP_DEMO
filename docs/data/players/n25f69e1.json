@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6253,
-  "mu": 62.1,
+  "survival_prob": 0.6849,
+  "mu": 59.1,
   "ci80": {
-   "lo": 51.2,
-   "hi": 72.9
+   "lo": 48.7,
+   "hi": 69.3
   },
   "ci50": {
-   "lo": 56.4,
-   "hi": 67.7
+   "lo": 53.6,
+   "hi": 64.4
   },
-  "sigma_model": 2.8,
-  "sigma_residual": 8.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -1.66,
-   "total": 2.57,
+   "base": 0.93,
+   "rest": -0.29,
+   "total": -0.47,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "18.0",
-     "contrib": 2.16
+     "contrib": 1.2
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "94.6",
-     "contrib": 1.65
-    },
-    {
-     "feature": "style_confidence",
-     "label": "스타일 확신도",
-     "value_text": "2.4",
-     "contrib": 1.13
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "6.7",
+     "contrib": -0.77
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "904.0",
-     "contrib": -0.9
+     "contrib": -0.72
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "59.5",
-     "contrib": -0.79
+     "contrib": -0.5
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "62.1",
+     "contrib": -0.31
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.12,
-   "base_prob": 0.719,
-   "prob": 0.625,
+   "base_logit": 0.956,
+   "rest": 0.223,
+   "base_prob": 0.722,
+   "prob": 0.685,
    "top": [
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "26.4",
-     "contrib": -0.58
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "904.0",
-     "contrib": -0.47
+     "contrib": -0.4
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "18.0",
-     "contrib": 0.43
+     "contrib": 0.21
+    },
+    {
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.5",
+     "contrib": -0.15
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "26.4",
+     "contrib": -0.14
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "56.9",
-     "contrib": 0.22
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "37.4",
-     "contrib": -0.15
+     "contrib": 0.07
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Jon Martin(DF)의 현재 능력 점수는 59.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 클리어링, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 전진 패스 수신이다.",
-  "potential": "Jon Martin의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 72.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 62.5%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 72.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.6점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 나이(18.0, +2.2), 공중볼 승률(94.6, +1.6), 스타일 확신도(2.4, +1.1); 내린 요인은 시즌 출전시간(분)(904.0, -0.9), 현재 능력(59.5, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 포지션 렌즈 점수)과 하락 요인(팀 출전시간 비중(%), 시즌 출전시간(분))을 거쳐 62.5%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Jon Martin의 2~3년 후 예측 중심값은 59.1점, 80% 구간 상단은 69.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 68.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 69.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.4점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 나이(18.0, +1.2); 내린 요인은 팀 평균 대비 본인 능력(6.7, -0.8), 시즌 출전시간(분)(904.0, -0.7), 현재 능력(59.5, -0.5), 스타일 렌즈 점수(62.1, -0.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 포지션 렌즈 점수)과 하락 요인(시즌 출전시간(분), 선발 비율)을 거쳐 68.5%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9358,
-  "mu": 61.1,
+  "survival_prob": 0.8779,
+  "mu": 62.1,
   "ci80": {
-   "lo": 50.3,
-   "hi": 71.9
+   "lo": 51.7,
+   "hi": 72.3
   },
   "ci50": {
-   "lo": 55.4,
-   "hi": 66.8
+   "lo": 56.6,
+   "hi": 67.5
   },
-  "sigma_model": 2.7,
-  "sigma_residual": 8.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -1.23,
-   "total": -5.16,
+   "base": 0.93,
+   "rest": -0.46,
+   "total": -4.2,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "69.5",
-     "contrib": -3.13
+     "contrib": -1.88
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.88
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.5",
+     "contrib": -0.84
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "66.2",
-     "contrib": -0.86
+     "contrib": -0.82
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.9",
-     "contrib": -0.76
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "2.4",
+     "contrib": -0.63
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "5.7",
-     "contrib": 0.73
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.49
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.549,
-   "base_prob": 0.719,
-   "prob": 0.936,
+   "base_logit": 0.956,
+   "rest": 0.028,
+   "base_prob": 0.722,
+   "prob": 0.878,
    "top": [
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "5.7",
-     "contrib": 0.52
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2220.0",
-     "contrib": 0.41
+     "contrib": 0.27
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "63.9",
+     "contrib": 0.21
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "5.7",
+     "contrib": 0.2
+    },
+    {
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.9",
+     "contrib": 0.17
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
      "value_text": "0.2",
-     "contrib": 0.26
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-579.0",
-     "contrib": 0.23
-    },
-    {
-     "feature": "d_grp_progress",
-     "label": "전진 그룹 변화",
-     "value_text": "-13.3",
-     "contrib": -0.23
+     "contrib": 0.14
     }
    ]
   },
@@ -144,7 +144,7 @@
    "season": 2022,
    "distance": 2.072,
    "survived": 1,
-   "fut_ability_v2": 70.3,
+   "fut_ability_v2": 70.2,
    "player_name": "Gianluca Scamacca",
    "squad": "Sassuolo"
   },
@@ -153,7 +153,7 @@
    "season": 2022,
    "distance": 2.333,
    "survived": 1,
-   "fut_ability_v2": 45.7,
+   "fut_ability_v2": 45.4,
    "player_name": "Mohamed Lamine Bayo",
    "squad": "Clermont Foot"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Nicolas Jackson(FW)의 현재 능력 점수는 66.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 유효슈팅, 비페널티 xG, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 전진 패스 거리이다.",
-  "potential": "Nicolas Jackson의 2~3년 후 예측 중심값은 61.1점, 80% 구간 상단은 71.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 71.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.1점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 박스 터치/90(5.7, +0.7); 내린 요인은 스타일 렌즈 점수(69.5, -3.1), 나이(23.0, -0.9), 현재 능력(66.2, -0.9), 전진 운반/90(1.9, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(박스 터치/90, 시즌 출전시간(분))과 하락 요인(전진 그룹 변화)을 거쳐 93.6%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Nicolas Jackson의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 72.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 72.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.1점(같은 코호트 평균 변화 +0.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(69.5, -1.9), 비페널티 xG/90(0.5, -0.8), 현재 능력(66.2, -0.8), 팀 평균 대비 본인 능력(2.4, -0.6), 나이(23.0, -0.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 87.8%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

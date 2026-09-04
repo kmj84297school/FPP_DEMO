@@ -38,68 +38,68 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6441,
-  "mu": 51.2,
+  "survival_prob": 0.7234,
+  "mu": 53.3,
   "ci80": {
-   "lo": 41.9,
-   "hi": 60.5
+   "lo": 44.1,
+   "hi": 62.5
   },
   "ci50": {
-   "lo": 46.3,
-   "hi": 56.1
+   "lo": 48.4,
+   "hi": 58.1
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.56,
-   "total": -5.19,
+   "base": -1.93,
+   "rest": 0.14,
+   "total": -3.09,
    "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "1.9",
+     "contrib": -1.01
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.6",
-     "contrib": 1.27
-    },
-    {
-     "feature": "d_xAG90",
-     "label": "xAG/90 변화",
-     "value_text": "-0.1",
-     "contrib": -1.1
+     "contrib": 0.64
     },
     {
      "feature": "grp_stability",
      "label": "안정 그룹 점수",
      "value_text": "15.0",
-     "contrib": -1.09
+     "contrib": -0.33
     },
     {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "1.8",
-     "contrib": -1.09
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "68.6",
+     "contrib": -0.32
     },
     {
      "feature": "PrgCarry90",
      "label": "전진 운반/90",
      "value_text": "1.0",
-     "contrib": -0.71
+     "contrib": -0.29
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.085,
+   "base_logit": 0.151,
+   "rest": -0.02,
    "base_prob": 0.538,
-   "prob": 0.644,
+   "prob": 0.724,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.35
+     "contrib": 0.33
     },
     {
      "feature": "std_Min_Playing",
@@ -108,22 +108,22 @@
      "contrib": 0.3
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "15.0",
-     "contrib": -0.27
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "57.5",
+     "contrib": 0.22
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.0",
-     "contrib": -0.22
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "567.0",
+     "contrib": -0.12
     },
     {
      "feature": "d_std_Min_Playing",
      "label": "출전시간 변화(분)",
      "value_text": "-242.0",
-     "contrib": 0.19
+     "contrib": 0.11
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Lucas Paquetá(MF)의 현재 능력 점수는 56.4점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 공중볼 승리, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 볼 손실(미스+파울)이다.",
-  "potential": "Lucas Paquetá의 2~3년 후 예측 중심값은 51.2점, 80% 구간 상단은 60.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 64.4%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 60.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.6, +1.3); 내린 요인은 xAG/90 변화(-0.1, -1.1), 안정 그룹 점수(15.0, -1.1), 능력 변화(전 시즌 대비)(1.8, -1.1), 전진 운반/90(1.0, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(안정 그룹 점수, 전진 운반/90)을 거쳐 64.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Lucas Paquetá의 2~3년 후 예측 중심값은 53.3점, 80% 구간 상단은 62.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 72.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 62.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.6, +0.6); 내린 요인은 능력 변화(전 시즌 대비)(1.9, -1.0), 안정 그룹 점수(15.0, -0.3), 수비 그룹 점수(68.6, -0.3), 전진 운반/90(1.0, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(2시즌 전 출전시간(분))을 거쳐 72.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

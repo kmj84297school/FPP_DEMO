@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2202,
-  "mu": 60.5,
+  "survival_prob": 0.3151,
+  "mu": 60.8,
   "ci80": {
-   "lo": 51.1,
-   "hi": 69.8
+   "lo": 51.6,
+   "hi": 70.0
   },
   "ci50": {
-   "lo": 55.5,
-   "hi": 65.4
+   "lo": 55.9,
+   "hi": 65.6
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.1,
-   "total": -8.04,
+   "base": -1.93,
+   "rest": -1.18,
+   "total": -7.71,
    "top": [
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "69.8",
-     "contrib": -2.22
-    },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "8.7",
-     "contrib": -1.9
+     "contrib": -1.38
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "67.2",
-     "contrib": -0.74
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "69.8",
+     "contrib": -1.14
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "68.5",
-     "contrib": -0.62
+     "contrib": -0.84
     },
     {
-     "feature": "d_grp_prod",
-     "label": "생산 그룹 변화",
-     "value_text": "-28.1",
-     "contrib": 0.44
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.8
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "67.2",
+     "contrib": -0.44
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.067,
+   "base_logit": 0.151,
+   "rest": 0.034,
    "base_prob": 0.538,
-   "prob": 0.22,
+   "prob": 0.315,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "36.0",
-     "contrib": -1.49
+     "contrib": -1.14
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "82.5",
-     "contrib": 0.43
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "65.5",
+     "contrib": 0.29
     },
     {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "92.5",
-     "contrib": 0.4
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.22
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.0",
-     "contrib": -0.39
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1710.0",
+     "contrib": -0.18
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "50.0",
-     "contrib": -0.31
+     "contrib": -0.15
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Francesco Acerbi(DF)의 현재 능력 점수는 68.5점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 공중볼 승리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 성공 드리블이다.",
-  "potential": "Francesco Acerbi의 2~3년 후 예측 중심값은 60.5점, 80% 구간 상단은 69.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 69.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -8.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 생산 그룹 변화(-28.1, +0.4); 내린 요인은 스타일 렌즈 점수(69.8, -2.2), 능력 변화(전 시즌 대비)(8.7, -1.9), 포지션 렌즈 점수(67.2, -0.7), 현재 능력(68.5, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(안정 그룹 점수, 패스 성공률)과 하락 요인(나이, 전진 운반/90)을 거쳐 22.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Francesco Acerbi의 2~3년 후 예측 중심값은 60.8점, 80% 구간 상단은 70.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 70.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 능력 변화(전 시즌 대비)(8.7, -1.4), 스타일 렌즈 점수(69.8, -1.1), 현재 능력(68.5, -0.8), 리그: 세리에A(예, -0.8), 포지션 렌즈 점수(67.2, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 31.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

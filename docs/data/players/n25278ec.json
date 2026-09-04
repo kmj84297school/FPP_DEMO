@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6384,
-  "mu": 68.6,
+  "survival_prob": 0.6865,
+  "mu": 66.9,
   "ci80": {
-   "lo": 57.7,
-   "hi": 79.5
+   "lo": 56.5,
+   "hi": 77.4
   },
   "ci50": {
-   "lo": 62.9,
-   "hi": 74.4
+   "lo": 61.4,
+   "hi": 72.5
   },
-  "sigma_model": 3.1,
-  "sigma_residual": 8.0
+  "sigma_model": 1.9,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.06,
-   "total": 1.11,
+   "base": 0.93,
+   "rest": 0.79,
+   "total": -0.61,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "73.8",
-     "contrib": -3.95
+     "contrib": -2.46
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "19.0",
-     "contrib": 2.48
-    },
-    {
-     "feature": "d_PrgCarry90",
-     "label": "전진 운반/90 변화",
-     "value_text": "-2.1",
-     "contrib": 1.33
-    },
-    {
-     "feature": "d_SCA90",
-     "label": "SCA/90 변화",
-     "value_text": "-1.2",
-     "contrib": 1.27
+     "contrib": 1.1
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "67.5",
-     "contrib": -0.95
+     "contrib": -0.92
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "4.8",
+     "contrib": -0.68
+    },
+    {
+     "feature": "d_SCA90",
+     "label": "SCA/90 변화",
+     "value_text": "-1.2",
+     "contrib": 0.64
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.224,
-   "base_prob": 0.719,
-   "prob": 0.638,
+   "base_logit": 0.956,
+   "rest": 0.004,
+   "base_prob": 0.722,
+   "prob": 0.687,
    "top": [
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "19.0",
-     "contrib": 0.53
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1099.0",
-     "contrib": -0.51
+     "contrib": -0.42
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "61.3",
-     "contrib": 0.3
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "62.8",
+     "contrib": 0.27
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "14.3",
-     "contrib": -0.23
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "19.0",
+     "contrib": 0.2
     },
     {
-     "feature": "style_confidence",
-     "label": "스타일 확신도",
-     "value_text": "0.0",
-     "contrib": -0.23
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.4",
+     "contrib": -0.12
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "35.9",
+     "contrib": -0.11
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Badredine Bouanani(MF)의 현재 능력 점수는 67.5점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 골 창출(GCA), 유효슈팅, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 클리어링이다.",
-  "potential": "Badredine Bouanani의 2~3년 후 예측 중심값은 68.6점, 80% 구간 상단은 79.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 63.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 79.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.1점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 나이(19.0, +2.5), 전진 운반/90 변화(-2.1, +1.3), SCA/90 변화(-1.2, +1.3); 내린 요인은 스타일 렌즈 점수(73.8, -4.0), 현재 능력(67.5, -0.9)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 포지션 렌즈 점수)과 하락 요인(시즌 출전시간(분), 공중볼 승률)을 거쳐 63.8%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Badredine Bouanani의 2~3년 후 예측 중심값은 66.9점, 80% 구간 상단은 77.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 68.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 77.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.6점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 나이(19.0, +1.1), SCA/90 변화(-1.2, +0.6); 내린 요인은 스타일 렌즈 점수(73.8, -2.5), 현재 능력(67.5, -0.9), 팀 평균 대비 본인 능력(4.8, -0.7)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 나이)과 하락 요인(시즌 출전시간(분), 선발 비율)을 거쳐 68.7%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

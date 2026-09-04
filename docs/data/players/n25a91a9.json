@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.292,
-  "mu": 51.7,
+  "survival_prob": 0.3483,
+  "mu": 53.3,
   "ci80": {
-   "lo": 42.3,
-   "hi": 61.0
+   "lo": 44.1,
+   "hi": 62.6
   },
   "ci50": {
-   "lo": 46.7,
-   "hi": 56.6
+   "lo": 48.4,
+   "hi": 58.2
   },
-  "sigma_model": 1.6,
+  "sigma_model": 1.3,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -3.28,
-   "total": -5.26,
+   "base": -1.93,
+   "rest": -0.59,
+   "total": -3.6,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "58.9",
-     "contrib": 1.21
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "54.9",
-     "contrib": -0.87
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "4.3",
      "contrib": 0.53
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "6.9",
+     "contrib": -0.48
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.44
     },
     {
      "feature": "sty_연결형 공격수",
      "label": "스타일: 연결형 공격수",
      "value_text": "예",
-     "contrib": -0.48
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "50.3",
-     "contrib": -0.46
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": -0.361,
-   "base_prob": 0.538,
-   "prob": 0.292,
-   "top": [
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1250.0",
-     "contrib": -0.38
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "27.0",
-     "contrib": 0.32
+     "contrib": -0.41
     },
     {
      "feature": "PrgCarry90",
      "label": "전진 운반/90",
      "value_text": "1.2",
-     "contrib": -0.29
+     "contrib": -0.3
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": -0.168,
+   "base_prob": 0.538,
+   "prob": 0.348,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1250.0",
+     "contrib": -0.27
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "27.0",
+     "contrib": 0.26
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.25
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.0",
+     "contrib": -0.24
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "40.8",
-     "contrib": -0.17
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "4.3",
-     "contrib": -0.16
+     "contrib": -0.12
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Danel Sinani(FW)의 현재 능력 점수는 56.9점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 최종 3분의1 패스, 전진 패스 거리, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 박스 터치이다.",
-  "potential": "Danel Sinani의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 61.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 29.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 61.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(58.9, +1.2), 전진 패스/90(4.3, +0.5); 내린 요인은 포지션 렌즈 점수(54.9, -0.9), 스타일: 연결형 공격수(예, -0.5), 안정 그룹 점수(50.3, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 29.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Danel Sinani의 2~3년 후 예측 중심값은 53.3점, 80% 구간 상단은 62.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 34.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 62.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(58.9, +0.5); 내린 요인은 팀 평균 대비 본인 능력(6.9, -0.5), 능력 변화(전 시즌 대비)(결측, -0.4), 스타일: 연결형 공격수(예, -0.4), 전진 운반/90(1.2, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 팀 강도 리그 내 순위(0=최강))을 거쳐 34.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

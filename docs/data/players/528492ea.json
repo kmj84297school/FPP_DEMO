@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1537,
-  "mu": 53.7,
+  "survival_prob": 0.1762,
+  "mu": 53.9,
   "ci80": {
-   "lo": 44.3,
-   "hi": 63.0
+   "lo": 44.6,
+   "hi": 63.2
   },
   "ci50": {
-   "lo": 48.8,
-   "hi": 58.6
+   "lo": 49.0,
+   "hi": 58.8
   },
-  "sigma_model": 1.7,
+  "sigma_model": 1.6,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.3,
-   "total": 2.45,
+   "base": -1.93,
+   "rest": -0.66,
+   "total": 2.69,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-9.2",
-     "contrib": 4.27
+     "contrib": 3.47
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "51.3",
-     "contrib": 1.65
+     "contrib": 1.29
     },
     {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "38.5",
-     "contrib": 0.85
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.81
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.0",
-     "contrib": -0.78
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "51.2",
+     "contrib": 0.72
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "51.1",
-     "contrib": 0.67
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "189.0",
+     "contrib": 0.61
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.49,
+   "base_logit": 0.151,
+   "rest": -0.086,
    "base_prob": 0.538,
-   "prob": 0.154,
+   "prob": 0.176,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "957.0",
-     "contrib": -0.87
+     "contrib": -0.58
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "31.0",
-     "contrib": -0.58
+     "contrib": -0.46
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.0",
+     "contrib": -0.26
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
      "value_text": "1.0",
-     "contrib": -0.32
+     "contrib": -0.18
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-931.0",
-     "contrib": 0.23
-    },
-    {
-     "feature": "d_PrgPass90",
-     "label": "전진 패스/90 변화",
-     "value_text": "-1.4",
-     "contrib": 0.16
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "28.0",
+     "contrib": -0.13
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Alfred Duncan(MF)의 현재 능력 점수는 51.2점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 성공 드리블, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 박스 터치이다.",
-  "potential": "Alfred Duncan의 2~3년 후 예측 중심값은 53.7점, 80% 구간 상단은 63.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 15.4%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 63.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-9.2, +4.3), 스타일 렌즈 점수(51.3, +1.6), 수비 그룹 점수(38.5, +0.8), 포지션 렌즈 점수(51.1, +0.7); 내린 요인은 전진 운반/90(1.0, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(출전시간 변화(분), 전진 패스/90 변화)과 하락 요인(시즌 출전시간(분), 나이)을 거쳐 15.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Alfred Duncan의 2~3년 후 예측 중심값은 53.9점, 80% 구간 상단은 63.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 17.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 63.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-9.2, +3.5), 스타일 렌즈 점수(51.3, +1.3), 현재 능력(51.2, +0.7), 2시즌 전 출전시간(분)(189.0, +0.6); 내린 요인은 리그: 세리에A(예, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(시즌 출전시간(분), 나이)을 거쳐 17.6%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

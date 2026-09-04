@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3139,
-  "mu": 49.1,
+  "survival_prob": 0.3689,
+  "mu": 50.2,
   "ci80": {
-   "lo": 39.7,
-   "hi": 58.4
+   "lo": 40.9,
+   "hi": 59.5
   },
   "ci50": {
-   "lo": 44.2,
-   "hi": 54.0
+   "lo": 45.3,
+   "hi": 55.1
   },
-  "sigma_model": 1.6,
+  "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.98,
-   "total": -1.53,
+   "base": -1.93,
+   "rest": -0.36,
+   "total": -0.4,
    "top": [
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "43.2",
-     "contrib": 1.07
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "50.6",
+     "contrib": 0.72
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-3.3",
+     "contrib": 0.51
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "57.9",
-     "contrib": 0.98
+     "contrib": 0.51
     },
     {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "37.7",
-     "contrib": 0.77
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "43.2",
+     "contrib": 0.5
     },
     {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "0.1",
-     "contrib": -0.74
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "70.5",
-     "contrib": -0.72
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.36
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.172,
+   "base_logit": 0.151,
+   "rest": -0.213,
    "base_prob": 0.538,
-   "prob": 0.314,
+   "prob": 0.369,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1153.0",
-     "contrib": -0.52
+     "contrib": -0.39
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.34
+     "contrib": 0.33
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.4",
-     "contrib": -0.31
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
+     "contrib": -0.18
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "53.9",
+     "contrib": -0.12
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "37.7",
-     "contrib": -0.15
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "57.9",
-     "contrib": -0.13
+     "contrib": -0.12
     }
    ]
   },
@@ -135,7 +135,7 @@
    "season": 2022,
    "distance": 1.341,
    "survived": 1,
-   "fut_ability_v2": 40.9,
+   "fut_ability_v2": 41.1,
    "player_name": "Gonzalo Escalante",
    "squad": "Alavés / Lazio"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Dani de Wit(MF)의 현재 능력 점수는 50.6점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 볼 손실(미스+파울), 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 성공 드리블이다.",
-  "potential": "Dani de Wit의 2~3년 후 예측 중심값은 49.1점, 80% 구간 상단은 58.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 58.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 포지션 렌즈 점수(43.2, +1.1), 스타일 렌즈 점수(57.9, +1.0), 팀 출전시간 비중(%)(37.7, +0.8); 내린 요인은 성공 드리블/90(0.1, -0.7), 수비 그룹 점수(70.5, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 31.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Dani de Wit의 2~3년 후 예측 중심값은 50.2점, 80% 구간 상단은 59.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 36.9%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 59.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 현재 능력(50.6, +0.7), 팀 평균 대비 본인 능력(-3.3, +0.5), 스타일 렌즈 점수(57.9, +0.5), 포지션 렌즈 점수(43.2, +0.5); 내린 요인은 능력 변화(전 시즌 대비)(결측, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 팀 강도 리그 내 순위(0=최강))을 거쳐 36.9%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

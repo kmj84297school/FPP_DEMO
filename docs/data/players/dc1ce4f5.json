@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8784,
-  "mu": 58.3,
+  "survival_prob": 0.89,
+  "mu": 56.1,
   "ci80": {
-   "lo": 47.7,
-   "hi": 68.9
+   "lo": 45.8,
+   "hi": 66.2
   },
   "ci50": {
-   "lo": 52.7,
-   "hi": 63.9
+   "lo": 50.6,
+   "hi": 61.4
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 8.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.81,
-   "total": 6.43,
+   "base": 0.93,
+   "rest": -0.0,
+   "total": 4.14,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "50.9",
-     "contrib": 3.32
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "8.3",
-     "contrib": 2.26
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "0.2",
-     "contrib": -0.82
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "82.0",
-     "contrib": 0.75
+     "contrib": 2.07
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "51.9",
-     "contrib": 0.74
+     "contrib": 0.58
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "8.3",
+     "contrib": 0.51
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-2.4",
+     "contrib": 0.29
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.0",
+     "contrib": -0.23
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.588,
-   "base_prob": 0.719,
-   "prob": 0.878,
+   "base_logit": 0.956,
+   "rest": 0.225,
+   "base_prob": 0.722,
+   "prob": 0.89,
    "top": [
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "0.2",
-     "contrib": -0.58
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "3319.0",
+     "contrib": 0.43
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "97.0",
-     "contrib": 0.57
+     "contrib": 0.4
     },
     {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "3319.0",
-     "contrib": 0.55
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "0.2",
+     "contrib": -0.31
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.9",
-     "contrib": -0.44
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.22
     },
     {
      "feature": "KP90",
      "label": "키패스/90",
      "value_text": "0.0",
-     "contrib": 0.35
+     "contrib": 0.17
     }
    ]
   },
@@ -144,7 +144,7 @@
    "season": 2022,
    "distance": 1.504,
    "survived": 1,
-   "fut_ability_v2": 59.4,
+   "fut_ability_v2": 59.2,
    "player_name": "Warmed Omari",
    "squad": "Rennes"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Cristhian Mosquera(DF)의 현재 능력 점수는 51.9점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 태클 성공률, 볼 리커버리, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
-  "potential": "Cristhian Mosquera의 2~3년 후 예측 중심값은 58.3점, 80% 구간 상단은 68.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 87.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 68.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +6.4점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.9, +3.3), 찬스 그룹 점수(8.3, +2.3), 공중볼 승률(82.0, +0.8), 현재 능력(51.9, +0.7); 내린 요인은 박스 터치/90(0.2, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(박스 터치/90, 전진 운반/90)을 거쳐 87.8%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Cristhian Mosquera의 2~3년 후 예측 중심값은 56.1점, 80% 구간 상단은 66.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 89.0%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 66.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.2점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.9, +2.1), 현재 능력(51.9, +0.6), 찬스 그룹 점수(8.3, +0.5), 팀 평균 대비 본인 능력(-2.4, +0.3); 내린 요인은 비페널티 xG/90(0.0, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))과 하락 요인(박스 터치/90)을 거쳐 89.0%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6314,
-  "mu": 60.9,
+  "survival_prob": 0.6849,
+  "mu": 60.0,
   "ci80": {
-   "lo": 50.4,
-   "hi": 71.4
+   "lo": 49.7,
+   "hi": 70.3
   },
   "ci50": {
-   "lo": 55.4,
-   "hi": 66.5
+   "lo": 54.7,
+   "hi": 65.4
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 8.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -2.86,
-   "total": 0.33,
+   "base": 0.93,
+   "rest": -0.82,
+   "total": -0.53,
    "top": [
-    {
-     "feature": "style_confidence",
-     "label": "스타일 확신도",
-     "value_text": "2.1",
-     "contrib": 1.41
-    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "19.0",
-     "contrib": 1.4
+     "contrib": 0.86
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "60.6",
-     "contrib": -0.71
+     "contrib": -0.62
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "71.0",
-     "contrib": 0.61
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "2.0",
+     "contrib": -0.37
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "62.5",
+     "contrib": -0.27
     },
     {
      "feature": "TakeOn90",
      "label": "성공 드리블/90",
      "value_text": "0.2",
-     "contrib": -0.5
+     "contrib": -0.23
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.264,
-   "base_prob": 0.719,
-   "prob": 0.631,
+   "base_logit": 0.956,
+   "rest": -0.08,
+   "base_prob": 0.722,
+   "prob": 0.685,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1130.0",
-     "contrib": -0.43
+     "contrib": -0.33
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "58.6",
+     "contrib": 0.29
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "19.0",
-     "contrib": 0.4
+     "contrib": 0.17
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "58.6",
-     "contrib": 0.27
+     "feature": "min_trend2",
+     "label": "2년 출전시간 추세(분)",
+     "value_text": "1122.0",
+     "contrib": -0.12
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.0",
-     "contrib": -0.2
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "43.6",
-     "contrib": -0.17
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "36.9",
+     "contrib": -0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "El Chadaille Bitshiabu(DF)의 현재 능력 점수는 60.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 전진 패스 거리, 클리어링, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 운반이다.",
-  "potential": "El Chadaille Bitshiabu의 2~3년 후 예측 중심값은 60.9점, 80% 구간 상단은 71.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 63.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 71.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.3점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 확신도(2.1, +1.4), 나이(19.0, +1.4), 공중볼 승률(71.0, +0.6); 내린 요인은 현재 능력(60.6, -0.7), 성공 드리블/90(0.2, -0.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 포지션 렌즈 점수)과 하락 요인(시즌 출전시간(분), xAG/90)을 거쳐 63.1%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "El Chadaille Bitshiabu의 2~3년 후 예측 중심값은 60.0점, 80% 구간 상단은 70.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 68.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 70.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.6점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 나이(19.0, +0.9); 내린 요인은 현재 능력(60.6, -0.6), 팀 평균 대비 본인 능력(2.0, -0.4), 스타일 렌즈 점수(62.5, -0.3), 성공 드리블/90(0.2, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 나이)과 하락 요인(시즌 출전시간(분), 2년 출전시간 추세(분))을 거쳐 68.5%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

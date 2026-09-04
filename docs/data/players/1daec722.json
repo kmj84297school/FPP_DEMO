@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7102,
-  "mu": 53.2,
+  "survival_prob": 0.7957,
+  "mu": 55.7,
   "ci80": {
-   "lo": 43.8,
-   "hi": 62.4
+   "lo": 46.5,
+   "hi": 64.8
   },
   "ci50": {
-   "lo": 48.2,
-   "hi": 58.0
+   "lo": 50.9,
+   "hi": 60.6
   },
-  "sigma_model": 1.2,
+  "sigma_model": 0.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.53,
-   "total": -2.28,
+   "base": -1.93,
+   "rest": -0.07,
+   "total": 0.31,
    "top": [
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-8.5",
+     "contrib": 1.0
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.6",
-     "contrib": 1.06
+     "contrib": 0.66
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-3.5",
-     "contrib": 0.73
+     "contrib": 0.51
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "55.4",
+     "contrib": 0.41
     },
     {
      "feature": "TakeOn90",
      "label": "성공 드리블/90",
      "value_text": "0.1",
-     "contrib": -0.58
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.1",
-     "contrib": -0.37
-    },
-    {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.1",
-     "contrib": 0.32
+     "contrib": -0.26
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.123,
+   "base_logit": 0.151,
+   "rest": -0.235,
    "base_prob": 0.538,
-   "prob": 0.71,
+   "prob": 0.796,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2988.0",
-     "contrib": 0.7
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "26.0",
-     "contrib": 0.33
+     "contrib": 0.48
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "87.4",
-     "contrib": 0.32
+     "contrib": 0.31
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.1",
-     "contrib": -0.26
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "26.0",
+     "contrib": 0.31
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "1206.0",
-     "contrib": -0.23
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "63.9",
+     "contrib": 0.18
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.16
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Marc Cucurella(DF)의 현재 능력 점수는 55.4점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 박스 터치, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 성공 드리블이다.",
-  "potential": "Marc Cucurella의 2~3년 후 예측 중심값은 53.2점, 80% 구간 상단은 62.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 62.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.6, +1.1), 능력 변화(전 시즌 대비)(-3.5, +0.7), 비페널티 xG/90(0.1, +0.3); 내린 요인은 성공 드리블/90(0.1, -0.6), 전진 운반/90(1.1, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 나이)과 하락 요인(전진 운반/90, 출전시간 변화(분))을 거쳐 71.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Marc Cucurella의 2~3년 후 예측 중심값은 55.7점, 80% 구간 상단은 64.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 79.6%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 64.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-8.5, +1.0), 스타일 렌즈 점수(56.6, +0.7), 능력 변화(전 시즌 대비)(-3.5, +0.5), 현재 능력(55.4, +0.4); 내린 요인은 성공 드리블/90(0.1, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 79.6%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

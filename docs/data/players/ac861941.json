@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2503,
-  "mu": 63.8,
+  "survival_prob": 0.5478,
+  "mu": 66.2,
   "ci80": {
-   "lo": 54.4,
-   "hi": 73.2
+   "lo": 57.0,
+   "hi": 75.5
   },
   "ci50": {
-   "lo": 58.8,
-   "hi": 68.7
+   "lo": 61.4,
+   "hi": 71.1
   },
-  "sigma_model": 1.7,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.72,
-   "total": -8.23,
+   "base": -1.93,
+   "rest": -0.52,
+   "total": -5.81,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "73.8",
-     "contrib": -2.09
+     "contrib": -1.28
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "72.0",
-     "contrib": -1.29
+     "contrib": -0.99
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "3.6",
+     "contrib": -0.82
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "70.2",
-     "contrib": -1.02
-    },
-    {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "3.5",
-     "contrib": -0.93
+     "contrib": -0.6
     },
     {
      "feature": "KP90",
      "label": "키패스/90",
      "value_text": "0.2",
-     "contrib": 0.72
+     "contrib": 0.33
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.003,
+   "base_logit": 0.151,
+   "rest": -0.001,
    "base_prob": 0.538,
-   "prob": 0.25,
+   "prob": 0.548,
    "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "73.3",
+     "contrib": 0.52
+    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "30.0",
-     "contrib": -0.51
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.7",
-     "contrib": -0.49
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "74.5",
-     "contrib": 0.4
+     "contrib": -0.31
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1463.0",
-     "contrib": -0.38
+     "contrib": -0.26
     },
     {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "47.8",
-     "contrib": -0.27
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.0",
+     "contrib": 0.23
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "1105.0",
+     "contrib": -0.14
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Eric Dier(DF)의 현재 능력 점수는 72.0점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 최종 3분의1 패스, 패스 성공률, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 성공 드리블이다.",
-  "potential": "Eric Dier의 2~3년 후 예측 중심값은 63.8점, 80% 구간 상단은 73.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 73.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -8.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 키패스/90(0.2, +0.7); 내린 요인은 스타일 렌즈 점수(73.8, -2.1), 현재 능력(72.0, -1.3), 포지션 렌즈 점수(70.2, -1.0), 능력 변화(전 시즌 대비)(3.5, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(안정 그룹 점수)과 하락 요인(나이, 전진 운반/90)을 거쳐 25.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Eric Dier의 2~3년 후 예측 중심값은 66.2점, 80% 구간 상단은 75.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 75.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 키패스/90(0.2, +0.3); 내린 요인은 스타일 렌즈 점수(73.8, -1.3), 현재 능력(72.0, -1.0), 능력 변화(전 시즌 대비)(3.6, -0.8), 포지션 렌즈 점수(70.2, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 54.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

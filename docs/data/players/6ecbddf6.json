@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.762,
-  "mu": 59.5,
+  "survival_prob": 0.4782,
+  "mu": 57.7,
   "ci80": {
-   "lo": 49.8,
-   "hi": 69.2
+   "lo": 48.2,
+   "hi": 67.0
   },
   "ci50": {
-   "lo": 54.4,
-   "hi": 64.6
+   "lo": 52.7,
+   "hi": 62.6
   },
-  "sigma_model": 2.6,
+  "sigma_model": 1.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.44,
-   "total": -0.4,
+   "base": -1.93,
+   "rest": -0.38,
+   "total": -2.28,
    "top": [
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "16.6",
-     "contrib": 1.14
-    },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "2.4",
-     "contrib": -1.1
+     "contrib": -0.94
     },
     {
-     "feature": "d_SCA90",
-     "label": "SCA/90 변화",
-     "value_text": "1.3",
-     "contrib": 1.09
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "976.0",
-     "contrib": -0.88
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "345.0",
+     "contrib": 0.49
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.82
+     "contrib": 0.48
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "63.5",
+     "contrib": -0.41
+    },
+    {
+     "feature": "sty_돌파형 윙어",
+     "label": "스타일: 돌파형 윙어",
+     "value_text": "예",
+     "contrib": 0.41
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 1.071,
+   "base_logit": 0.151,
+   "rest": 0.082,
    "base_prob": 0.538,
-   "prob": 0.762,
+   "prob": 0.478,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "976.0",
-     "contrib": -0.91
+     "contrib": -0.7
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.57
+     "contrib": 0.49
     },
     {
-     "feature": "d_grp_prod",
-     "label": "생산 그룹 변화",
-     "value_text": "-36.9",
-     "contrib": 0.25
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "16.6",
+     "contrib": -0.12
     },
     {
      "feature": "d_std_Min_Playing",
      "label": "출전시간 변화(분)",
      "value_text": "-986.0",
-     "contrib": 0.25
+     "contrib": 0.12
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "27.7",
-     "contrib": -0.22
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.6",
+     "contrib": -0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Ruben Vargas(FW)의 현재 능력 점수는 59.9점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅 창출(SCA), 볼 리커버리, 키패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 무페널티 득점이다.",
-  "potential": "Ruben Vargas의 2~3년 후 예측 중심값은 59.5점, 80% 구간 상단은 69.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 76.2%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 69.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 출전시간 비중(%)(16.6, +1.1), SCA/90 변화(1.3, +1.1), 나이(25.0, +0.8); 내린 요인은 능력 변화(전 시즌 대비)(2.4, -1.1), 시즌 출전시간(분)(976.0, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 생산 그룹 변화)과 하락 요인(시즌 출전시간(분), 안정 그룹 점수)을 거쳐 76.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Ruben Vargas의 2~3년 후 예측 중심값은 57.7점, 80% 구간 상단은 67.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 47.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 67.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 2시즌 전 출전시간(분)(345.0, +0.5), 나이(25.0, +0.5), 스타일: 돌파형 윙어(예, +0.4); 내린 요인은 능력 변화(전 시즌 대비)(2.4, -0.9), 스타일 렌즈 점수(63.5, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 47.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

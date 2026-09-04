@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.966,
-  "mu": 72.0,
+  "survival_prob": 0.9016,
+  "mu": 67.0,
   "ci80": {
-   "lo": 61.3,
-   "hi": 82.9
+   "lo": 56.6,
+   "hi": 77.4
   },
   "ci50": {
-   "lo": 66.3,
-   "hi": 77.7
+   "lo": 61.5,
+   "hi": 72.5
   },
-  "sigma_model": 2.8,
-  "sigma_residual": 8.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 0.25,
-   "total": 7.87,
+   "base": 0.93,
+   "rest": 0.5,
+   "total": 2.78,
    "top": [
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "7.2",
-     "contrib": 3.5
-    },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-10.0",
-     "contrib": 1.74
+     "contrib": 1.08
+    },
+    {
+     "feature": "AttPenT90",
+     "label": "박스 터치/90",
+     "value_text": "7.2",
+     "contrib": 1.04
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "65.0",
+     "contrib": -0.89
     },
     {
      "feature": "d_SCA90",
      "label": "SCA/90 변화",
      "value_text": "-1.2",
-     "contrib": 1.4
+     "contrib": 0.73
     },
     {
-     "feature": "sty_돌파형 윙어",
-     "label": "스타일: 돌파형 윙어",
-     "value_text": "예",
-     "contrib": 0.99
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.98
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "64.2",
+     "contrib": -0.6
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.904,
-   "base_prob": 0.719,
-   "prob": 0.966,
+   "base_logit": 0.956,
+   "rest": 0.143,
+   "base_prob": 0.722,
+   "prob": 0.902,
    "top": [
     {
      "feature": "AttPenT90",
      "label": "박스 터치/90",
      "value_text": "7.2",
-     "contrib": 0.72
-    },
-    {
-     "feature": "d_xAG90",
-     "label": "xAG/90 변화",
-     "value_text": "-0.1",
-     "contrib": 0.5
+     "contrib": 0.3
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2290.0",
-     "contrib": 0.31
+     "contrib": 0.26
     },
     {
-     "feature": "d_grp_progress",
-     "label": "전진 그룹 변화",
-     "value_text": "-13.4",
-     "contrib": -0.21
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "63.9",
+     "contrib": 0.23
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.1",
-     "contrib": 0.18
+     "feature": "d_xAG90",
+     "label": "xAG/90 변화",
+     "value_text": "-0.1",
+     "contrib": 0.17
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.15
     }
    ]
   },
@@ -144,7 +144,7 @@
    "season": 2022,
    "distance": 3.089,
    "survived": 1,
-   "fut_ability_v2": 54.6,
+   "fut_ability_v2": 54.4,
    "player_name": "Armand Lauriente",
    "squad": "Lorient"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Gabriel Martinelli(FW)의 현재 능력 점수는 64.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 박스 터치, 전진 패스 수신, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 골 창출(GCA)이다.",
-  "potential": "Gabriel Martinelli의 2~3년 후 예측 중심값은 72.0점, 80% 구간 상단은 82.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 82.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +7.8점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 박스 터치/90(7.2, +3.5), 능력 변화(전 시즌 대비)(-10.0, +1.7), SCA/90 변화(-1.2, +1.4), 스타일: 돌파형 윙어(예, +1.0); 내린 요인은 나이(23.0, -1.0)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(박스 터치/90, xAG/90 변화)과 하락 요인(전진 그룹 변화)을 거쳐 96.6%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Gabriel Martinelli의 2~3년 후 예측 중심값은 67.0점, 80% 구간 상단은 77.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 90.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 77.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.8점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-10.0, +1.1), 박스 터치/90(7.2, +1.0), SCA/90 변화(-1.2, +0.7); 내린 요인은 스타일 렌즈 점수(65.0, -0.9), 현재 능력(64.2, -0.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(박스 터치/90, 시즌 출전시간(분))을 거쳐 90.2%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

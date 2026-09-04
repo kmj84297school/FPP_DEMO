@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5809,
-  "mu": 53.9,
+  "survival_prob": 0.5233,
+  "mu": 53.6,
   "ci80": {
-   "lo": 44.7,
-   "hi": 63.1
+   "lo": 44.5,
+   "hi": 62.8
   },
   "ci50": {
-   "lo": 49.1,
-   "hi": 58.8
+   "lo": 48.8,
+   "hi": 58.4
   },
-  "sigma_model": 1.3,
+  "sigma_model": 0.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.08,
-   "total": -1.49,
+   "base": -1.93,
+   "rest": -0.22,
+   "total": -1.79,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.3",
-     "contrib": 1.28
+     "contrib": 0.73
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.3",
-     "contrib": -0.68
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.69
     },
     {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "34.8",
-     "contrib": 0.53
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "6.8",
+     "contrib": -0.42
     },
     {
-     "feature": "SCA90",
-     "label": "슈팅 창출/90",
-     "value_text": "3.0",
-     "contrib": -0.43
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "55.4",
+     "contrib": 0.4
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "54.6",
-     "contrib": -0.36
+     "feature": "style_confidence",
+     "label": "스타일 확신도",
+     "value_text": "0.0",
+     "contrib": 0.33
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.336,
+   "base_logit": 0.151,
+   "rest": -0.229,
    "base_prob": 0.538,
-   "prob": 0.581,
+   "prob": 0.523,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.38
+     "contrib": 0.32
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "48.6",
+     "contrib": -0.29
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2117.0",
-     "contrib": 0.24
+     "contrib": 0.12
     },
     {
-     "feature": "d_PrgPass90",
-     "label": "전진 패스/90 변화",
-     "value_text": "-1.2",
-     "contrib": 0.17
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-491.0",
+     "contrib": 0.11
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.3",
-     "contrib": -0.16
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "4.0",
-     "contrib": -0.13
+     "contrib": -0.09
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Nikola Vlašić(MF)의 현재 능력 점수는 55.4점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 전진 운반, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 블록, 전진 패스 거리이다.",
-  "potential": "Nikola Vlašić의 2~3년 후 예측 중심값은 53.9점, 80% 구간 상단은 63.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 63.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.3, +1.3), 수비 그룹 점수(34.8, +0.5); 내린 요인은 전진 운반/90(2.3, -0.7), 슈팅 창출/90(3.0, -0.4), 포지션 렌즈 점수(54.6, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(스타일 렌즈 점수, 전진 패스/90)을 거쳐 58.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Nikola Vlašić의 2~3년 후 예측 중심값은 53.6점, 80% 구간 상단은 62.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 52.3%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 62.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.3, +0.7), 현재 능력(55.4, +0.4), 스타일 확신도(0.0, +0.3); 내린 요인은 리그: 세리에A(예, -0.7), 팀 평균 대비 본인 능력(6.8, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도), 스타일 렌즈 점수)을 거쳐 52.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

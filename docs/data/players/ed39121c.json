@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1699,
-  "mu": 60.6,
+  "survival_prob": 0.2305,
+  "mu": 61.0,
   "ci80": {
-   "lo": 51.2,
-   "hi": 69.9
+   "lo": 51.8,
+   "hi": 70.2
   },
   "ci50": {
-   "lo": 55.7,
-   "hi": 65.5
+   "lo": 56.2,
+   "hi": 65.8
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.41,
-   "total": -7.8,
+   "base": -1.93,
+   "rest": -1.29,
+   "total": -7.4,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "69.8",
-     "contrib": -1.76
+     "contrib": -1.18
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "67.0",
-     "contrib": -0.92
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "11.6",
+     "contrib": -1.13
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "68.4",
-     "contrib": -0.7
+     "contrib": -0.91
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.8",
-     "contrib": -0.66
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.5
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "10.0",
-     "contrib": 0.56
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "67.0",
+     "contrib": -0.47
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.101,
+   "base_logit": 0.151,
+   "rest": -0.143,
    "base_prob": 0.538,
-   "prob": 0.17,
+   "prob": 0.23,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "32.0",
-     "contrib": -0.77
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.8",
-     "contrib": -0.49
+     "contrib": -0.69
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1252.0",
-     "contrib": -0.34
+     "contrib": -0.33
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "40.9",
-     "contrib": -0.18
+     "contrib": -0.15
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "10.0",
-     "contrib": 0.15
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "877.0",
+     "contrib": -0.13
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "56.8",
+     "contrib": 0.09
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Florian Tardieu(MF)의 현재 능력 점수는 68.4점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스, 최종 3분의1 패스, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 성공 드리블이다.",
-  "potential": "Florian Tardieu의 2~3년 후 예측 중심값은 60.6점, 80% 구간 상단은 69.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 17.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 69.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 전진 패스/90(10.0, +0.6); 내린 요인은 스타일 렌즈 점수(69.8, -1.8), 포지션 렌즈 점수(67.0, -0.9), 현재 능력(68.4, -0.7), 전진 운반/90(0.8, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(전진 패스/90)과 하락 요인(나이, 전진 운반/90)을 거쳐 17.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Florian Tardieu의 2~3년 후 예측 중심값은 61.0점, 80% 구간 상단은 70.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 23.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 70.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(69.8, -1.2), 팀 평균 대비 본인 능력(11.6, -1.1), 현재 능력(68.4, -0.9), 능력 변화(전 시즌 대비)(결측, -0.5), 포지션 렌즈 점수(67.0, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도))과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 23.1%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

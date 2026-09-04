@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9301,
-  "mu": 52.7,
+  "survival_prob": 0.8595,
+  "mu": 54.1,
   "ci80": {
-   "lo": 42.1,
-   "hi": 63.5
+   "lo": 43.7,
+   "hi": 64.4
   },
   "ci50": {
-   "lo": 47.2,
-   "hi": 58.4
+   "lo": 48.7,
+   "hi": 59.5
   },
-  "sigma_model": 2.4,
-  "sigma_residual": 8.0
+  "sigma_model": 1.5,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -2.24,
-   "total": 3.57,
+   "base": 0.93,
+   "rest": -0.81,
+   "total": 4.88,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "50.7",
-     "contrib": 2.8
+     "contrib": 2.04
     },
     {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.3",
-     "contrib": 1.53
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-14.1",
+     "contrib": 1.13
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "0.8",
-     "contrib": -1.4
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "73.3",
-     "contrib": 1.08
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "49.2",
+     "contrib": 0.67
     },
     {
      "feature": "d_SCA90",
      "label": "SCA/90 변화",
      "value_text": "-1.2",
-     "contrib": 0.83
+     "contrib": 0.65
+    },
+    {
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.3",
+     "contrib": 0.27
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.662,
-   "base_prob": 0.719,
-   "prob": 0.93,
+   "base_logit": 0.956,
+   "rest": -0.004,
+   "base_prob": 0.722,
+   "prob": 0.859,
    "top": [
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "84.2",
-     "contrib": 0.57
+     "contrib": 0.4
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2578.0",
-     "contrib": 0.27
+     "contrib": 0.26
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.7",
-     "contrib": -0.21
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "63.3",
+     "contrib": 0.2
     },
     {
-     "feature": "d_grp_stability",
-     "label": "안정 그룹 변화",
-     "value_text": "-2.7",
-     "contrib": 0.18
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "47.7",
+     "contrib": -0.15
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "73.3",
-     "contrib": 0.17
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.9",
+     "contrib": 0.15
     }
    ]
   },
@@ -198,7 +198,7 @@
    "season": 2022,
    "distance": 2.68,
    "survived": 1,
-   "fut_ability_v2": 60.7,
+   "fut_ability_v2": 60.6,
    "player_name": "Jonathan David",
    "squad": "Lille"
   },
@@ -207,7 +207,7 @@
    "season": 2022,
    "distance": 2.746,
    "survived": 1,
-   "fut_ability_v2": 41.8,
+   "fut_ability_v2": 41.7,
    "player_name": "Terem Moffi",
    "squad": "Lorient"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Arnaud Kalimuendo(FW)의 현재 능력 점수는 49.2점이다. 플레이스타일은 '박스 포처'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 패스 성공률, 무페널티 득점, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 도움 기대값(xAG)이다.",
-  "potential": "Arnaud Kalimuendo의 2~3년 후 예측 중심값은 52.7점, 80% 구간 상단은 63.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.0%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 63.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.5점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.7, +2.8), 비페널티 xG/90(0.3, +1.5), 공중볼 승률(73.3, +1.1), SCA/90 변화(-1.2, +0.8); 내린 요인은 태클+인터셉트/90(0.8, -1.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(전진 운반/90)을 거쳐 93.0%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Arnaud Kalimuendo의 2~3년 후 예측 중심값은 54.1점, 80% 구간 상단은 64.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 86.0%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 64.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.9점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.7, +2.0), 팀 평균 대비 본인 능력(-14.1, +1.1), 현재 능력(49.2, +0.7), SCA/90 변화(-1.2, +0.7), 비페널티 xG/90(0.3, +0.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(포지션 렌즈 점수)을 거쳐 86.0%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

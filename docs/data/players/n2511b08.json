@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7357,
+  "survival_prob": 0.6063,
   "mu": 56.3,
   "ci80": {
-   "lo": 46.8,
-   "hi": 65.7
+   "lo": 47.1,
+   "hi": 65.6
   },
   "ci50": {
-   "lo": 51.3,
+   "lo": 51.4,
    "hi": 61.2
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.3,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.75,
-   "total": 2.45,
+   "base": -1.93,
+   "rest": 0.94,
+   "total": 2.48,
    "top": [
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "7.3",
-     "contrib": 2.41
-    },
     {
      "feature": "KP90",
      "label": "키패스/90",
      "value_text": "0.1",
-     "contrib": 1.7
+     "contrib": 0.99
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "7.3",
+     "contrib": 0.71
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.5",
-     "contrib": 0.97
+     "contrib": 0.68
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.0",
-     "contrib": -0.75
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "53.8",
+     "contrib": 0.61
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "76.4",
-     "contrib": -0.73
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-3.2",
+     "contrib": 0.48
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.219,
+   "base_logit": 0.151,
+   "rest": -0.079,
    "base_prob": 0.538,
-   "prob": 0.736,
+   "prob": 0.606,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.67
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "76.4",
-     "contrib": 0.59
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.7",
-     "contrib": -0.25
+     "contrib": 0.49
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1654.0",
-     "contrib": -0.18
+     "contrib": -0.25
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "7.3",
-     "contrib": -0.18
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "57.0",
+     "contrib": 0.13
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "54.1",
+     "contrib": -0.1
+    },
+    {
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-192.0",
+     "contrib": 0.09
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Gabriel Osho(DF)의 현재 능력 점수는 53.8점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 블록, 슈팅당 기대득점, 패스 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 태클+인터셉트이다.",
-  "potential": "Gabriel Osho의 2~3년 후 예측 중심값은 56.3점, 80% 구간 상단은 65.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 73.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 65.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 찬스 그룹 점수(7.3, +2.4), 키패스/90(0.1, +1.7), 스타일 렌즈 점수(56.5, +1.0); 내린 요인은 xAG/90(0.0, -0.8), 안정 그룹 점수(76.4, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 안정 그룹 점수)과 하락 요인(전진 운반/90, 시즌 출전시간(분))을 거쳐 73.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Gabriel Osho의 2~3년 후 예측 중심값은 56.3점, 80% 구간 상단은 65.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 65.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 키패스/90(0.1, +1.0), 찬스 그룹 점수(7.3, +0.7), 스타일 렌즈 점수(56.5, +0.7), 현재 능력(53.8, +0.6), 팀 평균 대비 본인 능력(-3.2, +0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 60.6%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

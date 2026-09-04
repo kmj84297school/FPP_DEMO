@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5865,
-  "mu": 62.3,
+  "survival_prob": 0.6108,
+  "mu": 60.3,
   "ci80": {
-   "lo": 52.9,
-   "hi": 71.6
+   "lo": 51.1,
+   "hi": 69.6
   },
   "ci50": {
-   "lo": 57.4,
-   "hi": 67.2
+   "lo": 55.5,
+   "hi": 65.2
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.74,
-   "total": -5.65,
+   "base": -1.93,
+   "rest": -0.87,
+   "total": -7.62,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
-     "value_text": "13.4",
-     "contrib": -1.87
+     "value_text": "13.5",
+     "contrib": -1.64
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "70.7",
-     "contrib": -1.74
+     "contrib": -1.12
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "8.5",
+     "contrib": -0.9
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "68.0",
-     "contrib": -0.66
+     "contrib": -0.81
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "65.2",
-     "contrib": -0.63
-    },
-    {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "68.0",
-     "contrib": 0.42
+     "contrib": -0.36
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.056,
+   "base_logit": 0.151,
+   "rest": 0.269,
    "base_prob": 0.538,
-   "prob": 0.586,
+   "prob": 0.611,
    "top": [
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "78.9",
-     "contrib": 0.65
-    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.5
+     "contrib": 0.41
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.2",
-     "contrib": -0.44
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "1105.0",
-     "contrib": -0.34
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1751.0",
+     "contrib": -0.25
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "51.2",
-     "contrib": -0.23
+     "contrib": -0.12
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "1024.0",
+     "contrib": -0.11
+    },
+    {
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.1
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Lisandro Martínez(DF)의 현재 능력 점수는 68.0점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 전진 운반 거리, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Lisandro Martínez의 2~3년 후 예측 중심값은 62.3점, 80% 구간 상단은 71.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 71.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 전진 그룹 점수(68.0, +0.4); 내린 요인은 능력 변화(전 시즌 대비)(13.4, -1.9), 스타일 렌즈 점수(70.7, -1.7), 현재 능력(68.0, -0.7), 포지션 렌즈 점수(65.2, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(안정 그룹 점수, 나이)과 하락 요인(전진 운반/90, 출전시간 변화(분))을 거쳐 58.7%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Lisandro Martínez의 2~3년 후 예측 중심값은 60.3점, 80% 구간 상단은 69.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 69.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 능력 변화(전 시즌 대비)(13.5, -1.6), 스타일 렌즈 점수(70.7, -1.1), 팀 평균 대비 본인 능력(8.5, -0.9), 현재 능력(68.0, -0.8), 포지션 렌즈 점수(65.2, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 선발 비율)과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 61.1%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

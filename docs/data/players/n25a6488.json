@@ -38,75 +38,63 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4323,
-  "mu": 59.9,
+  "survival_prob": 0.5301,
+  "mu": 60.7,
   "ci80": {
-   "lo": 50.7,
-   "hi": 69.1
+   "lo": 51.6,
+   "hi": 69.9
   },
   "ci50": {
-   "lo": 55.0,
-   "hi": 64.7
+   "lo": 55.8,
+   "hi": 65.5
   },
-  "sigma_model": 1.1,
+  "sigma_model": 0.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.23,
-   "total": -7.22,
+   "base": -1.93,
+   "rest": -0.67,
+   "total": -6.42,
    "top": [
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "14.7",
+     "contrib": -1.14
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "69.1",
-     "contrib": -1.32
+     "contrib": -0.96
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "67.1",
-     "contrib": -0.95
+     "contrib": -0.85
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.45
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "65.0",
-     "contrib": -0.74
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "69.1",
-     "contrib": -0.63
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.7",
-     "contrib": -0.43
+     "contrib": -0.42
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.269,
+   "base_logit": 0.151,
+   "rest": -0.026,
    "base_prob": 0.538,
-   "prob": 0.432,
+   "prob": 0.53,
    "top": [
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.7",
-     "contrib": -0.52
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "80.4",
-     "contrib": -0.31
-    },
     {
      "feature": "age_y",
      "label": "나이",
@@ -114,16 +102,28 @@
      "contrib": 0.27
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "69.1",
-     "contrib": 0.21
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
+     "contrib": -0.25
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "52.4",
+     "contrib": -0.2
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2190.0",
-     "contrib": 0.19
+     "contrib": 0.1
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "69.1",
+     "contrib": 0.09
     }
    ]
   },
@@ -153,7 +153,7 @@
    "season": 2022,
    "distance": 1.476,
    "survived": 1,
-   "fut_ability_v2": 67.5,
+   "fut_ability_v2": 67.4,
    "player_name": "John Brooks",
    "squad": "Wolfsburg"
   },
@@ -180,7 +180,7 @@
    "season": 2021,
    "distance": 1.699,
    "survived": 1,
-   "fut_ability_v2": 52.3,
+   "fut_ability_v2": 52.2,
    "player_name": "Yeray Álvarez",
    "squad": "Athletic Club"
   },
@@ -198,7 +198,7 @@
    "season": 2022,
    "distance": 1.727,
    "survived": 1,
-   "fut_ability_v2": 55.3,
+   "fut_ability_v2": 55.2,
    "player_name": "Yoann Salmier",
    "squad": "Troyes"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Cédric Kipré(DF)의 현재 능력 점수는 67.1점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 블록, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 볼 리커버리이다.",
-  "potential": "Cédric Kipré의 2~3년 후 예측 중심값은 59.9점, 80% 구간 상단은 69.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 43.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 69.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(69.1, -1.3), 현재 능력(67.1, -0.9), 포지션 렌즈 점수(65.0, -0.7), 수비 그룹 점수(69.1, -0.6), 전진 운반/90(0.7, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 스타일 렌즈 점수)과 하락 요인(전진 운반/90, 공중볼 승률)을 거쳐 43.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Cédric Kipré의 2~3년 후 예측 중심값은 60.7점, 80% 구간 상단은 69.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 53.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 69.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -6.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 팀 평균 대비 본인 능력(14.7, -1.1), 스타일 렌즈 점수(69.1, -1.0), 현재 능력(67.1, -0.8), 능력 변화(전 시즌 대비)(결측, -0.5), 포지션 렌즈 점수(65.0, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(팀 강도 리그 내 순위(0=최강), 소속팀 평균 능력(팀 강도))을 거쳐 53.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

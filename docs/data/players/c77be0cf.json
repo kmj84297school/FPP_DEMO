@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4025,
-  "mu": 45.9,
+  "survival_prob": 0.4272,
+  "mu": 46.4,
   "ci80": {
-   "lo": 36.3,
-   "hi": 55.3
+   "lo": 37.1,
+   "hi": 55.6
   },
   "ci50": {
-   "lo": 40.8,
-   "hi": 50.8
+   "lo": 41.5,
+   "hi": 51.2
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -3.16,
-   "total": 3.39,
+   "base": -1.93,
+   "rest": -0.21,
+   "total": 3.91,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-16.0",
-     "contrib": 3.69
+     "contrib": 3.47
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "46.1",
-     "contrib": 2.13
+     "contrib": 1.74
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "42.4",
-     "contrib": 1.02
+     "contrib": 1.13
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "38.8",
-     "contrib": 1.01
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.76
     },
     {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "31.5",
-     "contrib": 0.61
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-4.0",
+     "contrib": 0.47
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.155,
+   "base_logit": 0.151,
+   "rest": -0.432,
    "base_prob": 0.538,
-   "prob": 0.403,
+   "prob": 0.427,
    "top": [
     {
-     "feature": "d_grp_progress",
-     "label": "전진 그룹 변화",
-     "value_text": "-28.5",
-     "contrib": -0.45
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.4",
+     "contrib": -0.46
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.37
+     "contrib": 0.28
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "1824.0",
-     "contrib": -0.32
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2665.0",
+     "contrib": 0.28
     },
     {
-     "feature": "d_grp_chance",
-     "label": "찬스 그룹 변화",
-     "value_text": "-32.3",
-     "contrib": 0.3
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.24
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "25.9",
-     "contrib": -0.29
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "77.9",
+     "contrib": 0.13
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Pedro Pereira(DF)의 현재 능력 점수는 42.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 어시스트, 전진 운반, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 패스 거리이다.",
-  "potential": "Pedro Pereira의 2~3년 후 예측 중심값은 45.9점, 80% 구간 상단은 55.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 55.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-16.0, +3.7), 스타일 렌즈 점수(46.1, +2.1), 현재 능력(42.4, +1.0), 포지션 렌즈 점수(38.8, +1.0), 수비 그룹 점수(31.5, +0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 찬스 그룹 변화)과 하락 요인(전진 그룹 변화, 출전시간 변화(분))을 거쳐 40.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Pedro Pereira의 2~3년 후 예측 중심값은 46.4점, 80% 구간 상단은 55.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.7%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 55.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-16.0, +3.5), 스타일 렌즈 점수(46.1, +1.7), 현재 능력(42.4, +1.1), 팀 평균 대비 본인 능력(-4.0, +0.5); 내린 요인은 리그: 세리에A(예, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 42.7%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

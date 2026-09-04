@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2018,
-  "mu": 50.1,
+  "survival_prob": 0.2816,
+  "mu": 50.5,
   "ci80": {
-   "lo": 40.7,
-   "hi": 59.4
+   "lo": 41.3,
+   "hi": 59.7
   },
   "ci50": {
-   "lo": 45.1,
-   "hi": 54.9
+   "lo": 45.7,
+   "hi": 55.3
   },
-  "sigma_model": 1.5,
+  "sigma_model": 0.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.11,
-   "total": -2.82,
+   "base": -1.93,
+   "rest": -1.59,
+   "total": -2.34,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.6",
-     "contrib": 1.14
-    },
-    {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "2.1",
-     "contrib": -0.9
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "49.2",
-     "contrib": 0.86
+     "contrib": 0.74
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "52.8",
-     "contrib": 0.79
+     "contrib": 0.71
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "2.2",
-     "contrib": -0.68
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "49.2",
+     "contrib": 0.48
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "3.7",
+     "contrib": -0.38
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.37
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.529,
+   "base_logit": 0.151,
+   "rest": -0.218,
    "base_prob": 0.538,
-   "prob": 0.202,
+   "prob": 0.282,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1462.0",
-     "contrib": -0.36
+     "contrib": -0.3
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "49.1",
+     "contrib": -0.22
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
      "value_text": "0.9",
-     "contrib": -0.27
+     "contrib": -0.18
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "42.7",
-     "contrib": -0.17
+     "contrib": -0.12
     },
     {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.0",
-     "contrib": -0.1
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "44.9",
-     "contrib": -0.1
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "56.6",
+     "contrib": -0.05
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Ryan Manning(DF)의 현재 능력 점수는 52.8점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 도움 기대값(xAG), 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 전진 운반 거리이다.",
-  "potential": "Ryan Manning의 2~3년 후 예측 중심값은 50.1점, 80% 구간 상단은 59.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 59.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.6, +1.1), 포지션 렌즈 점수(49.2, +0.9), 현재 능력(52.8, +0.8); 내린 요인은 키패스/90(2.1, -0.9), 전진 패스/90(2.2, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 20.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Ryan Manning의 2~3년 후 예측 중심값은 50.5점, 80% 구간 상단은 59.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 59.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.6, +0.7), 현재 능력(52.8, +0.7), 포지션 렌즈 점수(49.2, +0.5); 내린 요인은 팀 평균 대비 본인 능력(3.7, -0.4), 능력 변화(전 시즌 대비)(결측, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 28.2%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

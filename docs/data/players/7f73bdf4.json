@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3968,
-  "mu": 46.8,
+  "survival_prob": 0.4518,
+  "mu": 46.5,
   "ci80": {
-   "lo": 37.4,
-   "hi": 56.4
+   "lo": 37.3,
+   "hi": 55.8
   },
   "ci50": {
-   "lo": 41.9,
-   "hi": 51.9
+   "lo": 41.7,
+   "hi": 51.4
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.6,
-   "total": -0.09,
+   "base": -1.93,
+   "rest": -1.09,
+   "total": -0.41,
    "top": [
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "46.8",
-     "contrib": 2.1
-    },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "7.0",
-     "contrib": -1.88
+     "contrib": -1.65
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "46.8",
+     "contrib": 1.59
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-8.3",
+     "contrib": 1.12
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "46.9",
-     "contrib": 1.35
+     "contrib": 1.05
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "47.1",
-     "contrib": 1.02
-    },
-    {
-     "feature": "d_SCA90",
-     "label": "SCA/90 변화",
-     "value_text": "1.2",
-     "contrib": 0.83
+     "contrib": 0.49
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.402,
+   "base_logit": 0.151,
+   "rest": -0.126,
    "base_prob": 0.538,
-   "prob": 0.397,
+   "prob": 0.452,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.4
+     "contrib": 0.38
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1367.0",
-     "contrib": -0.36
+     "contrib": -0.28
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.9",
-     "contrib": -0.2
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "55.3",
+     "contrib": -0.11
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "42.6",
-     "contrib": -0.19
+     "contrib": -0.11
     },
     {
-     "feature": "d_grp_stability",
-     "label": "안정 그룹 변화",
-     "value_text": "-13.6",
-     "contrib": 0.18
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "46.8",
+     "contrib": -0.1
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Niklas Dorsch(MF)의 현재 능력 점수는 46.9점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클 성공률, 슈팅당 기대득점, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 박스 터치이다.",
-  "potential": "Niklas Dorsch의 2~3년 후 예측 중심값은 46.8점, 80% 구간 상단은 56.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 39.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 56.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(46.8, +2.1), 현재 능력(46.9, +1.4), 포지션 렌즈 점수(47.1, +1.0), SCA/90 변화(1.2, +0.8); 내린 요인은 능력 변화(전 시즌 대비)(7.0, -1.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 안정 그룹 변화)과 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 39.7%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Niklas Dorsch의 2~3년 후 예측 중심값은 46.5점, 80% 구간 상단은 55.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.2%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 55.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(46.8, +1.6), 팀 평균 대비 본인 능력(-8.3, +1.1), 현재 능력(46.9, +1.1), 포지션 렌즈 점수(47.1, +0.5); 내린 요인은 능력 변화(전 시즌 대비)(7.0, -1.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 45.2%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

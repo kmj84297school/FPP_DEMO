@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5061,
-  "mu": 53.3,
+  "survival_prob": 0.568,
+  "mu": 53.6,
   "ci80": {
-   "lo": 42.9,
+   "lo": 43.3,
    "hi": 63.8
   },
   "ci50": {
-   "lo": 47.8,
-   "hi": 58.8
+   "lo": 48.1,
+   "hi": 58.9
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 8.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.43,
-   "total": 3.56,
+   "base": 0.93,
+   "rest": -0.59,
+   "total": 3.82,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "52.7",
-     "contrib": 2.05
+     "contrib": 1.48
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "9.1",
-     "contrib": 1.63
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "23.5",
-     "contrib": -1.02
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-12.6",
+     "contrib": 1.05
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "49.7",
-     "contrib": 0.71
+     "contrib": 0.62
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "66.5",
-     "contrib": -0.36
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "9.1",
+     "contrib": 0.5
+    },
+    {
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.7",
+     "contrib": -0.18
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.616,
-   "base_prob": 0.719,
-   "prob": 0.506,
+   "base_logit": 0.956,
+   "rest": -0.297,
+   "base_prob": 0.722,
+   "prob": 0.568,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1234.0",
-     "contrib": -0.45
+     "contrib": -0.39
     },
     {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "89.4",
-     "contrib": 0.32
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "62.3",
+     "contrib": 0.34
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "66.5",
-     "contrib": 0.21
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "49.7",
+     "contrib": -0.12
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "22.0",
-     "contrib": -0.2
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.5",
+     "contrib": -0.1
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "4.1",
-     "contrib": -0.19
+     "feature": "lg_Ligue 1",
+     "label": "리그: 리그1",
+     "value_text": "예",
+     "contrib": -0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Tanner Tessmann(MF)의 현재 능력 점수는 49.7점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 유효슈팅, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 진입 패스, 슈팅 창출(SCA)이다.",
-  "potential": "Tanner Tessmann의 2~3년 후 예측 중심값은 53.3점, 80% 구간 상단은 63.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 50.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 63.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.6점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(52.7, +2.0), 찬스 그룹 점수(9.1, +1.6), 현재 능력(49.7, +0.7); 내린 요인은 공중볼 승률(23.5, -1.0), 안정 그룹 점수(66.5, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(패스 성공률, 안정 그룹 점수)과 하락 요인(시즌 출전시간(분), 나이)을 거쳐 50.6%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Tanner Tessmann의 2~3년 후 예측 중심값은 53.6점, 80% 구간 상단은 63.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 56.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 63.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.9점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(52.7, +1.5), 팀 평균 대비 본인 능력(-12.6, +1.1), 현재 능력(49.7, +0.6), 찬스 그룹 점수(9.1, +0.5); 내린 요인은 성공 드리블/90(0.7, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도))과 하락 요인(시즌 출전시간(분), 현재 능력)을 거쳐 56.8%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

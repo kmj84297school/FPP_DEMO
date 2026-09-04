@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8769,
-  "mu": 56.8,
+  "survival_prob": 0.6401,
+  "mu": 57.1,
   "ci80": {
-   "lo": 47.6,
-   "hi": 66.1
+   "lo": 47.9,
+   "hi": 66.3
   },
   "ci50": {
-   "lo": 52.0,
-   "hi": 61.7
+   "lo": 52.3,
+   "hi": 62.0
   },
-  "sigma_model": 1.2,
+  "sigma_model": 0.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.72,
-   "total": -6.61,
+   "base": -1.93,
+   "rest": -0.03,
+   "total": -6.32,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
-     "value_text": "10.3",
-     "contrib": -1.82
+     "value_text": "10.2",
+     "contrib": -1.48
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "71.1",
-     "contrib": -1.6
+     "contrib": -1.07
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.5",
-     "contrib": -0.56
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "16.9",
-     "contrib": 0.48
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "11.0",
+     "contrib": -0.91
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "63.5",
-     "contrib": -0.48
+     "contrib": -0.63
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "73.4",
+     "contrib": -0.26
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.519,
+   "base_logit": 0.151,
+   "rest": 0.283,
    "base_prob": 0.538,
-   "prob": 0.877,
+   "prob": 0.64,
    "top": [
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "76.2",
-     "contrib": 0.71
-    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "27.0",
-     "contrib": 0.35
+     "contrib": 0.26
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.5",
-     "contrib": -0.31
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "52.5",
+     "contrib": -0.24
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "71.1",
-     "contrib": 0.3
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2307.0",
+     "contrib": 0.13
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
+     "contrib": -0.12
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "75.4",
-     "contrib": 0.24
+     "contrib": 0.11
     }
    ]
   },
@@ -387,12 +387,12 @@
    "n_seasons": 2
   },
   "consistency": {
-   "ability_std": 7.3,
+   "ability_std": 7.2,
    "n_rated_seasons": 2
   }
  },
  "narrative": {
   "current": "Douglas(MF)의 현재 능력 점수는 63.5점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 블록, 볼 손실(미스+파울), 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 전진 운반이다.",
-  "potential": "Douglas의 2~3년 후 예측 중심값은 56.8점, 80% 구간 상단은 66.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 87.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 66.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -6.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 찬스 그룹 점수(16.9, +0.5); 내린 요인은 능력 변화(전 시즌 대비)(10.3, -1.8), 스타일 렌즈 점수(71.1, -1.6), 전진 운반/90(0.5, -0.6), 현재 능력(63.5, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(안정 그룹 점수, 나이)과 하락 요인(전진 운반/90)을 거쳐 87.7%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Douglas의 2~3년 후 예측 중심값은 57.1점, 80% 구간 상단은 66.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 64.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 66.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -6.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 능력 변화(전 시즌 대비)(10.2, -1.5), 스타일 렌즈 점수(71.1, -1.1), 팀 평균 대비 본인 능력(11.0, -0.9), 현재 능력(63.5, -0.6), 수비 그룹 점수(73.4, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 64.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

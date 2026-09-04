@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.659,
-  "mu": 51.8,
+  "survival_prob": 0.7076,
+  "mu": 54.4,
   "ci80": {
-   "lo": 42.1,
-   "hi": 61.4
+   "lo": 44.8,
+   "hi": 64.2
   },
   "ci50": {
-   "lo": 46.6,
-   "hi": 56.8
+   "lo": 49.4,
+   "hi": 59.6
   },
-  "sigma_model": 2.5,
+  "sigma_model": 2.6,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -3.39,
-   "total": -9.34,
+   "base": -1.93,
+   "rest": -1.32,
+   "total": -6.59,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "21.0",
-     "contrib": -3.94
+     "contrib": -2.62
     },
     {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "991.0",
-     "contrib": -1.16
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-6.1",
+     "contrib": 0.88
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 0.87
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.65
     },
     {
-     "feature": "d_npxG90",
-     "label": "npxG/90 변화",
-     "value_text": "0.2",
-     "contrib": 0.83
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "61.1",
+     "contrib": -0.49
     },
     {
-     "feature": "d_grp_progress",
-     "label": "전진 그룹 변화",
-     "value_text": "21.5",
-     "contrib": -0.63
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.3",
+     "contrib": -0.47
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.62,
+   "base_logit": 0.151,
+   "rest": 0.392,
    "base_prob": 0.538,
-   "prob": 0.659,
+   "prob": 0.708,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "991.0",
-     "contrib": -0.94
+     "contrib": -0.71
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.69
+     "contrib": 0.52
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "85.7",
-     "contrib": -0.37
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "67.2",
+     "contrib": 0.49
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-1330.0",
-     "contrib": 0.29
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.0",
+     "contrib": 0.2
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "82.4",
-     "contrib": 0.21
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "29.0",
+     "contrib": -0.16
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Marco Brescianini(MF)의 현재 능력 점수는 61.1점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 태클 성공률, 공중볼 승률, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 클리어링이다.",
-  "potential": "Marco Brescianini의 2~3년 후 예측 중심값은 51.8점, 80% 구간 상단은 61.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 65.9%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 61.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -9.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +0.9), npxG/90 변화(0.2, +0.8); 내린 요인은 능력 변화(전 시즌 대비)(21.0, -3.9), 시즌 출전시간(분)(991.0, -1.2), 전진 그룹 변화(21.5, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))과 하락 요인(시즌 출전시간(분), 공중볼 승률)을 거쳐 65.9%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Marco Brescianini의 2~3년 후 예측 중심값은 54.4점, 80% 구간 상단은 64.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 70.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 64.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -6.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-6.1, +0.9); 내린 요인은 능력 변화(전 시즌 대비)(21.0, -2.6), 리그: 세리에A(예, -0.7), 현재 능력(61.1, -0.5), 선발 비율(0.3, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 70.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

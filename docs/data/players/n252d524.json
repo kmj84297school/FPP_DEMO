@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8095,
-  "mu": 53.5,
+  "survival_prob": 0.6542,
+  "mu": 53.9,
   "ci80": {
-   "lo": 43.0,
-   "hi": 64.1
+   "lo": 43.6,
+   "hi": 64.2
   },
   "ci50": {
-   "lo": 48.0,
-   "hi": 59.1
+   "lo": 48.6,
+   "hi": 59.4
   },
-  "sigma_model": 1.9,
-  "sigma_residual": 8.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 0.27,
-   "total": 5.2,
+   "base": 0.93,
+   "rest": 0.72,
+   "total": 5.6,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "49.7",
-     "contrib": 3.28
-    },
-    {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.1",
-     "contrib": -0.71
+     "contrib": 2.37
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "48.3",
-     "contrib": 0.52
+     "contrib": 0.68
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "34.3",
-     "contrib": 0.43
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-3.1",
+     "contrib": 0.39
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.8",
-     "contrib": 0.43
+     "feature": "sty_돌파형 윙어",
+     "label": "스타일: 돌파형 윙어",
+     "value_text": "예",
+     "contrib": 0.26
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "51.5",
+     "contrib": 0.25
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.098,
-   "base_prob": 0.719,
-   "prob": 0.81,
+   "base_logit": 0.956,
+   "rest": 0.042,
+   "base_prob": 0.722,
+   "prob": 0.654,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1997.0",
-     "contrib": 0.42
+     "contrib": 0.3
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.2",
-     "contrib": 0.23
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "51.5",
+     "contrib": -0.25
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "34.3",
-     "contrib": -0.22
+     "feature": "lg_Ligue 1",
+     "label": "리그: 리그1",
+     "value_text": "예",
+     "contrib": -0.17
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "22.0",
-     "contrib": -0.21
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "48.3",
+     "contrib": -0.13
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.8",
-     "contrib": 0.19
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.11
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Josué Casimir(FW)의 현재 능력 점수는 48.3점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 태클 성공률, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 유효슈팅이다.",
-  "potential": "Josué Casimir의 2~3년 후 예측 중심값은 53.5점, 80% 구간 상단은 64.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 81.0%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 64.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.2점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(49.7, +3.3), 현재 능력(48.3, +0.5), 생산 그룹 점수(34.3, +0.4), 전진 패스/90(1.8, +0.4); 내린 요인은 비페널티 xG/90(0.1, -0.7)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), xAG/90)과 하락 요인(생산 그룹 점수, 나이)을 거쳐 81.0%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Josué Casimir의 2~3년 후 예측 중심값은 53.9점, 80% 구간 상단은 64.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 65.4%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 64.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.6점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(49.7, +2.4), 현재 능력(48.3, +0.7), 팀 평균 대비 본인 능력(-3.1, +0.4), 스타일: 돌파형 윙어(예, +0.3), 소속팀 평균 능력(팀 강도)(51.5, +0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도), 리그: 리그1)을 거쳐 65.4%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

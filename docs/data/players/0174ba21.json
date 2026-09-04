@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5922,
-  "mu": 59.4,
+  "survival_prob": 0.7748,
+  "mu": 58.8,
   "ci80": {
-   "lo": 50.1,
-   "hi": 68.8
+   "lo": 49.6,
+   "hi": 68.0
   },
   "ci50": {
-   "lo": 54.4,
-   "hi": 64.3
+   "lo": 53.9,
+   "hi": 63.7
   },
-  "sigma_model": 1.6,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.29,
-   "total": -3.6,
+   "base": -1.93,
+   "rest": -0.87,
+   "total": -4.23,
    "top": [
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.1",
-     "contrib": -0.86
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "63.0",
+     "contrib": -0.57
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "63.9",
-     "contrib": -0.77
+     "contrib": -0.49
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "1.2",
+     "contrib": -0.42
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.63
+     "contrib": 0.42
     },
     {
      "feature": "sty_연결형 공격수",
      "label": "스타일: 연결형 공격수",
      "value_text": "예",
-     "contrib": -0.5
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "65.6",
-     "contrib": -0.49
+     "contrib": -0.37
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.161,
+   "base_logit": 0.151,
+   "rest": 0.075,
    "base_prob": 0.538,
-   "prob": 0.592,
+   "prob": 0.775,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.53
+     "contrib": 0.43
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.1",
-     "contrib": -0.28
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "824.0",
-     "contrib": -0.19
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "59.7",
+     "contrib": 0.22
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2172.0",
-     "contrib": 0.19
+     "contrib": 0.2
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "3.9",
-     "contrib": -0.19
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "71.0",
+     "contrib": 0.09
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "63.9",
+     "contrib": 0.07
     }
    ]
   },
@@ -144,7 +144,7 @@
    "season": 2022,
    "distance": 1.963,
    "survived": 1,
-   "fut_ability_v2": 68.5,
+   "fut_ability_v2": 68.4,
    "player_name": "Riccardo Orsolini",
    "squad": "Bologna"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Robin Hack(FW)의 현재 능력 점수는 63.0점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 볼 리커버리, 블록, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 박스 터치이다.",
-  "potential": "Robin Hack의 2~3년 후 예측 중심값은 59.4점, 80% 구간 상단은 68.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 68.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(25.0, +0.6); 내린 요인은 전진 운반/90(2.1, -0.9), 스타일 렌즈 점수(63.9, -0.8), 스타일: 연결형 공격수(예, -0.5), 수비 그룹 점수(65.6, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(전진 운반/90, 출전시간 변화(분))을 거쳐 59.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Robin Hack의 2~3년 후 예측 중심값은 58.8점, 80% 구간 상단은 68.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 77.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 68.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(25.0, +0.4); 내린 요인은 현재 능력(63.0, -0.6), 스타일 렌즈 점수(63.9, -0.5), 능력 변화(전 시즌 대비)(1.2, -0.4), 스타일: 연결형 공격수(예, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))을 거쳐 77.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

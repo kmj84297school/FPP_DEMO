@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8073,
-  "mu": 48.8,
+  "survival_prob": 0.6513,
+  "mu": 52.6,
   "ci80": {
-   "lo": 37.6,
-   "hi": 59.9
+   "lo": 42.1,
+   "hi": 63.2
   },
   "ci50": {
-   "lo": 42.9,
-   "hi": 54.6
+   "lo": 47.1,
+   "hi": 58.2
   },
-  "sigma_model": 3.5,
-  "sigma_residual": 8.0
+  "sigma_model": 2.2,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.7,
-   "total": -3.57,
+   "base": 0.93,
+   "rest": 0.26,
+   "total": 0.34,
    "top": [
     {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "61.2",
-     "contrib": -2.65
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "53.8",
+     "contrib": 1.04
     },
     {
      "feature": "sty_타겟맨",
      "label": "스타일: 타겟맨",
      "value_text": "예",
-     "contrib": -1.79
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -1.25
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "53.8",
-     "contrib": 1.2
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "70.0",
-     "contrib": 0.64
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.939,
-   "rest": 0.151,
-   "base_prob": 0.719,
-   "prob": 0.807,
-   "top": [
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1902.0",
-     "contrib": 0.46
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.33
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "4.1",
-     "contrib": 0.26
+     "contrib": -0.94
     },
     {
      "feature": "PassPct",
      "label": "패스 성공률",
      "value_text": "61.2",
-     "contrib": -0.24
+     "contrib": -0.88
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.1",
-     "contrib": 0.2
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.45
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "52.3",
+     "contrib": 0.38
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.956,
+   "rest": -0.012,
+   "base_prob": 0.722,
+   "prob": 0.651,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1902.0",
+     "contrib": 0.35
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "51.5",
+     "contrib": -0.29
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.16
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.12
+    },
+    {
+     "feature": "lg_Ligue 1",
+     "label": "리그: 리그1",
+     "value_text": "예",
+     "contrib": -0.11
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Issa Soumaré(FW)의 현재 능력 점수는 52.3점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 리커버리, 공중볼 승리, 클리어링 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 최종 3분의1 패스이다.",
-  "potential": "Issa Soumaré의 2~3년 후 예측 중심값은 48.8점, 80% 구간 상단은 59.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 80.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 59.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.5점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(53.8, +1.2), 공중볼 승률(70.0, +0.6); 내린 요인은 패스 성공률(61.2, -2.6), 스타일: 타겟맨(예, -1.8), 나이(23.0, -1.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 박스 터치/90)과 하락 요인(나이, 패스 성공률)을 거쳐 80.7%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Issa Soumaré의 2~3년 후 예측 중심값은 52.6점, 80% 구간 상단은 63.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 65.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 63.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.3점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(53.8, +1.0), 현재 능력(52.3, +0.4); 내린 요인은 스타일: 타겟맨(예, -0.9), 패스 성공률(61.2, -0.9), 나이(23.0, -0.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 65.1%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

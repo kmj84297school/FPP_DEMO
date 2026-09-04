@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4828,
-  "mu": 71.7,
+  "survival_prob": 0.1652,
+  "mu": 72.3,
   "ci80": {
-   "lo": 62.3,
-   "hi": 81.1
+   "lo": 63.2,
+   "hi": 81.6
   },
   "ci50": {
-   "lo": 66.8,
-   "hi": 76.7
+   "lo": 67.5,
+   "hi": 77.3
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.11,
-   "total": -8.21,
+   "base": -1.93,
+   "rest": -0.06,
+   "total": -7.56,
    "top": [
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "18.3",
+     "contrib": -1.55
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "83.1",
-     "contrib": -2.57
+     "contrib": -1.37
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "80.0",
-     "contrib": -1.43
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1011.0",
-     "contrib": -1.09
+     "contrib": -1.06
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "4.5",
-     "contrib": -1.04
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "73.2",
-     "contrib": 0.93
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": 1.476,
-   "base_prob": 0.538,
-   "prob": 0.483,
-   "top": [
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "34.0",
-     "contrib": -1.37
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1011.0",
-     "contrib": -0.75
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "73.2",
-     "contrib": 0.47
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "33.0",
-     "contrib": -0.31
+     "contrib": -1.0
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "76.8",
-     "contrib": 0.26
+     "contrib": -0.6
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": 0.412,
+   "base_prob": 0.538,
+   "prob": 0.165,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "34.0",
+     "contrib": -1.11
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1011.0",
+     "contrib": -0.68
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "33.0",
+     "contrib": -0.19
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "545.0",
+     "contrib": -0.12
+    },
+    {
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.5",
+     "contrib": -0.09
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Rémy Cabella(FW)의 현재 능력 점수는 80.0점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 전진 패스 거리, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 유효슈팅이다.",
-  "potential": "Rémy Cabella의 2~3년 후 예측 중심값은 71.7점, 80% 구간 상단은 81.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 48.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 81.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -8.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 안정 그룹 점수(73.2, +0.9); 내린 요인은 스타일 렌즈 점수(83.1, -2.6), 현재 능력(80.0, -1.4), 시즌 출전시간(분)(1011.0, -1.1), 능력 변화(전 시즌 대비)(4.5, -1.0)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(안정 그룹 점수, 포지션 렌즈 점수)과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 48.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Rémy Cabella의 2~3년 후 예측 중심값은 72.3점, 80% 구간 상단은 81.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 16.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 81.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 팀 평균 대비 본인 능력(18.3, -1.6), 스타일 렌즈 점수(83.1, -1.4), 현재 능력(80.0, -1.1), 능력 변화(전 시즌 대비)(4.5, -1.0), 포지션 렌즈 점수(76.8, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 시즌 출전시간(분))을 거쳐 16.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

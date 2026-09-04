@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.72,
-  "mu": 57.9,
+  "survival_prob": 0.7281,
+  "mu": 59.2,
   "ci80": {
-   "lo": 47.1,
-   "hi": 68.8
+   "lo": 48.9,
+   "hi": 69.6
   },
   "ci50": {
-   "lo": 52.2,
-   "hi": 63.7
+   "lo": 53.7,
+   "hi": 64.6
   },
-  "sigma_model": 3.0,
-  "sigma_residual": 8.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 0.27,
-   "total": 0.91,
+   "base": 0.93,
+   "rest": 0.72,
+   "total": 2.17,
    "top": [
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "0.8",
-     "contrib": -1.81
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -1.46
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "5.8",
+     "contrib": -0.8
     },
     {
      "feature": "d_grp_prod",
      "label": "생산 그룹 변화",
-     "value_text": "-44.1",
-     "contrib": 1.18
+     "value_text": "-44.0",
+     "contrib": 0.73
     },
     {
      "feature": "TakeOn90",
      "label": "성공 드리블/90",
      "value_text": "2.8",
-     "contrib": 0.96
-    },
-    {
-     "feature": "SCA90",
-     "label": "슈팅 창출/90",
-     "value_text": "3.5",
-     "contrib": 0.79
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.939,
-   "rest": 0.15,
-   "base_prob": 0.719,
-   "prob": 0.72,
-   "top": [
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1836.0",
-     "contrib": 0.34
-    },
-    {
-     "feature": "d_grp_stability",
-     "label": "안정 그룹 변화",
-     "value_text": "26.8",
-     "contrib": -0.27
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "11.8",
-     "contrib": -0.25
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "53.2",
-     "contrib": 0.23
+     "contrib": 0.68
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "23.0",
-     "contrib": -0.2
+     "contrib": -0.45
+    },
+    {
+     "feature": "AerPct",
+     "label": "공중볼 승률",
+     "value_text": "11.8",
+     "contrib": 0.37
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.956,
+   "rest": 0.091,
+   "base_prob": 0.722,
+   "prob": 0.728,
+   "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "51.2",
+     "contrib": -0.32
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1836.0",
+     "contrib": 0.2
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.11
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "53.2",
+     "contrib": 0.09
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "57.0",
+     "contrib": 0.07
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Bryan Zaragoza(FW)의 현재 능력 점수는 57.0점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 성공 드리블, 전진 운반, 전진 운반 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 무페널티 득점, 슈팅당 기대득점이다.",
-  "potential": "Bryan Zaragoza의 2~3년 후 예측 중심값은 57.9점, 80% 구간 상단은 68.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 72.0%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 68.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.9점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 생산 그룹 변화(-44.1, +1.2), 성공 드리블/90(2.8, +1.0), 슈팅 창출/90(3.5, +0.8); 내린 요인은 태클+인터셉트/90(0.8, -1.8), 나이(23.0, -1.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 포지션 렌즈 점수)과 하락 요인(안정 그룹 변화, 공중볼 승률)을 거쳐 72.0%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Bryan Zaragoza의 2~3년 후 예측 중심값은 59.2점, 80% 구간 상단은 69.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 72.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 69.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.2점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 생산 그룹 변화(-44.0, +0.7), 성공 드리블/90(2.8, +0.7), 공중볼 승률(11.8, +0.4); 내린 요인은 팀 평균 대비 본인 능력(5.8, -0.8), 나이(23.0, -0.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 포지션 렌즈 점수)과 하락 요인(소속팀 평균 능력(팀 강도), 나이)을 거쳐 72.8%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

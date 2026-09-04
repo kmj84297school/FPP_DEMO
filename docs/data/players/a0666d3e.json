@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2657,
-  "mu": 44.7,
+  "survival_prob": 0.4283,
+  "mu": 46.0,
   "ci80": {
-   "lo": 35.4,
-   "hi": 54.0
+   "lo": 36.8,
+   "hi": 55.3
   },
   "ci50": {
-   "lo": 39.8,
-   "hi": 49.6
+   "lo": 41.2,
+   "hi": 50.9
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.7,
-   "total": 1.54,
+   "base": -1.93,
+   "rest": -0.72,
+   "total": 2.83,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "43.6",
-     "contrib": 2.88
+     "contrib": 2.24
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "43.2",
-     "contrib": 1.23
+     "contrib": 1.05
     },
     {
-     "feature": "d_grp_stability",
-     "label": "안정 그룹 변화",
-     "value_text": "-18.6",
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-14.4",
      "contrib": 1.01
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "42.8",
-     "contrib": 0.74
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "79.0",
+     "contrib": 0.67
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.9",
-     "contrib": -0.72
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-4.2",
+     "contrib": 0.51
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.602,
+   "base_logit": 0.151,
+   "rest": -0.357,
    "base_prob": 0.538,
-   "prob": 0.266,
+   "prob": 0.428,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "29.0",
-     "contrib": -0.24
+     "contrib": -0.23
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2108.0",
-     "contrib": 0.23
+     "contrib": 0.19
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.9",
-     "contrib": -0.23
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "42.8",
-     "contrib": -0.17
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "57.6",
+     "contrib": 0.15
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "43.2",
-     "contrib": -0.16
+     "contrib": -0.1
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "79.0",
+     "contrib": -0.1
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Will Hughes(MF)의 현재 능력 점수는 43.2점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 키패스, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 성공 드리블이다.",
-  "potential": "Will Hughes의 2~3년 후 예측 중심값은 44.7점, 80% 구간 상단은 54.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 26.6%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 54.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(43.6, +2.9), 현재 능력(43.2, +1.2), 안정 그룹 변화(-18.6, +1.0), 포지션 렌즈 점수(42.8, +0.7); 내린 요인은 전진 운반/90(0.9, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분))과 하락 요인(나이, 전진 운반/90)을 거쳐 26.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Will Hughes의 2~3년 후 예측 중심값은 46.0점, 80% 구간 상단은 55.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 55.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(43.6, +2.2), 현재 능력(43.2, +1.1), 팀 평균 대비 본인 능력(-14.4, +1.0), 2시즌 전 출전시간(분)(79.0, +0.7), 능력 변화(전 시즌 대비)(-4.2, +0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))과 하락 요인(나이, 현재 능력)을 거쳐 42.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

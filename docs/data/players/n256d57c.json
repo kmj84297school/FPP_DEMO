@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8437,
-  "mu": 57.3,
+  "survival_prob": 0.8528,
+  "mu": 57.1,
   "ci80": {
-   "lo": 48.1,
-   "hi": 66.6
+   "lo": 47.9,
+   "hi": 66.2
   },
   "ci50": {
-   "lo": 52.5,
-   "hi": 62.2
+   "lo": 52.2,
+   "hi": 62.0
   },
-  "sigma_model": 1.2,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 1.95,
-   "total": -0.86,
+   "base": -1.93,
+   "rest": 0.07,
+   "total": -1.12,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "69.2",
-     "contrib": -1.12
+     "contrib": -0.84
     },
     {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "81.1",
-     "contrib": 0.62
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-4.1",
+     "contrib": 0.59
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-3.1",
-     "contrib": 0.58
+     "value_text": "-3.0",
+     "contrib": 0.37
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.4",
-     "contrib": -0.52
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "47.2",
+     "contrib": 0.35
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "97.2",
-     "contrib": -0.46
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "18.1",
+     "contrib": 0.26
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.447,
+   "base_logit": 0.151,
+   "rest": 0.486,
    "base_prob": 0.538,
-   "prob": 0.844,
+   "prob": 0.853,
    "top": [
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "86.1",
-     "contrib": 0.41
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2636.0",
-     "contrib": 0.39
+     "contrib": 0.4
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "97.2",
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "86.1",
      "contrib": 0.28
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "26.7",
-     "contrib": -0.24
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "62.3",
+     "contrib": 0.19
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "69.2",
-     "contrib": 0.23
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.14
+    },
+    {
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.1
     }
    ]
   },
@@ -162,7 +162,7 @@
    "season": 2022,
    "distance": 2.665,
    "survived": 1,
-   "fut_ability_v2": 51.0,
+   "fut_ability_v2": 50.9,
    "player_name": "Cristiano Biraghi",
    "squad": "Fiorentina"
   },
@@ -189,7 +189,7 @@
    "season": 2021,
    "distance": 3.08,
    "survived": 1,
-   "fut_ability_v2": 54.6,
+   "fut_ability_v2": 54.4,
    "player_name": "Cristiano Biraghi",
    "squad": "Fiorentina"
   },
@@ -387,12 +387,12 @@
    "n_seasons": 2
   },
   "consistency": {
-   "ability_std": 2.3,
+   "ability_std": 2.1,
    "n_rated_seasons": 2
   }
  },
  "narrative": {
   "current": "Álex Grimaldo(DF)의 현재 능력 점수는 58.2점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 슈팅 창출(SCA), 도움 기대값(xAG) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 태클 성공률이다.",
-  "potential": "Álex Grimaldo의 2~3년 후 예측 중심값은 57.3점, 80% 구간 상단은 66.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 84.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 66.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 전진 그룹 점수(81.1, +0.6), 능력 변화(전 시즌 대비)(-3.1, +0.6); 내린 요인은 스타일 렌즈 점수(69.2, -1.1), 태클+인터셉트/90(1.4, -0.5), 찬스 그룹 점수(97.2, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(안정 그룹 점수)을 거쳐 84.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Álex Grimaldo의 2~3년 후 예측 중심값은 57.1점, 80% 구간 상단은 66.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 85.3%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 66.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-4.1, +0.6), 능력 변화(전 시즌 대비)(-3.0, +0.4), 포지션 렌즈 점수(47.2, +0.3), 수비 그룹 점수(18.1, +0.3); 내린 요인은 스타일 렌즈 점수(69.2, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 85.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

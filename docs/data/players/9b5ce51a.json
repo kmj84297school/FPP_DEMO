@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6063,
-  "mu": 53.1,
+  "survival_prob": 0.5941,
+  "mu": 53.7,
   "ci80": {
-   "lo": 43.8,
-   "hi": 62.3
+   "lo": 44.5,
+   "hi": 62.8
   },
   "ci50": {
-   "lo": 48.2,
-   "hi": 57.9
+   "lo": 48.9,
+   "hi": 58.5
   },
-  "sigma_model": 1.2,
+  "sigma_model": 0.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.86,
-   "total": -2.26,
+   "base": -1.93,
+   "rest": -0.17,
+   "total": -1.65,
    "top": [
-    {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-4.3",
-     "contrib": 1.29
-    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "66.1",
-     "contrib": -0.97
+     "contrib": -0.8
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-4.3",
+     "contrib": 0.78
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "55.3",
+     "contrib": 0.42
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "44.6",
+     "contrib": 0.35
     },
     {
      "feature": "grp_defense",
      "label": "수비 그룹 점수",
      "value_text": "82.1",
-     "contrib": -0.53
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "29.0",
-     "contrib": -0.5
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.5",
-     "contrib": -0.49
+     "contrib": -0.31
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.215,
+   "base_logit": 0.151,
+   "rest": -0.203,
    "base_prob": 0.538,
-   "prob": 0.606,
+   "prob": 0.594,
    "top": [
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.5",
-     "contrib": -0.34
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2274.0",
-     "contrib": 0.24
+     "contrib": 0.27
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "29.0",
-     "contrib": -0.19
+     "contrib": -0.2
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "57.6",
+     "contrib": 0.16
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "82.1",
+     "contrib": 0.1
     },
     {
      "feature": "d_std_Min_Playing",
      "label": "출전시간 변화(분)",
      "value_text": "-126.0",
-     "contrib": 0.18
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "82.1",
-     "contrib": 0.18
+     "contrib": 0.1
     }
    ]
   },
@@ -216,7 +216,7 @@
    "season": 2022,
    "distance": 1.766,
    "survived": 1,
-   "fut_ability_v2": 58.7,
+   "fut_ability_v2": 58.6,
    "player_name": "Dominik Kohr",
    "squad": "Mainz 05"
   }
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Jefferson Lerma(MF)의 현재 능력 점수는 55.3점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 볼 리커버리, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 키패스, 전진 운반이다.",
-  "potential": "Jefferson Lerma의 2~3년 후 예측 중심값은 53.1점, 80% 구간 상단은 62.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 62.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-4.3, +1.3); 내린 요인은 스타일 렌즈 점수(66.1, -1.0), 수비 그룹 점수(82.1, -0.5), 나이(29.0, -0.5), 전진 운반/90(0.5, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 출전시간 변화(분))과 하락 요인(전진 운반/90, 나이)을 거쳐 60.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Jefferson Lerma의 2~3년 후 예측 중심값은 53.7점, 80% 구간 상단은 62.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 62.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-4.3, +0.8), 현재 능력(55.3, +0.4), 포지션 렌즈 점수(44.6, +0.3); 내린 요인은 스타일 렌즈 점수(66.1, -0.8), 수비 그룹 점수(82.1, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))과 하락 요인(나이)을 거쳐 59.4%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

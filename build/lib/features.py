@@ -23,6 +23,23 @@ MODEL_FEATURES = [
 
 STYLE_NAMES = [c[4:] for c in MODEL_FEATURES if c.startswith("sty_")]
 
+# A4 후보 피처 — 잔존(빅5 이탈) 분류 보강용. 전부 2025 스냅샷에서도 계산 가능한 것만
+# (FBref pt_*_Team_Success 계열은 2024·2025 반입분에 없어 쓰지 않는다).
+LEAGUES = ["Premier League", "La Liga", "Serie A", "Bundesliga", "Ligue 1"]
+SURVIVAL_EXTRA = [
+    "squad_mean_ability",   # 같은 시즌 소속팀(600분+ 동료) 능력점수의 출전시간 가중 평균 — 클럽 강도 대리변수
+    "ability_vs_squad",     # 본인 능력 − 팀 평균 (팀 내 위상)
+    "squad_rank_in_league", # 팀 평균 능력의 리그 내 순위(0=최강, 1=최약)
+    "starts_share",         # 선발 비율 = Starts / MP
+    "n_squads",             # 시즌 내 소속팀 수(중도 이적)
+    "has_prev2", "min_prev2", "min_trend2",  # t−2 시즌 출전시간과 2년 추세
+] + [f"lg_{l}" for l in LEAGUES]
+
+
+def feature_set(name):
+    """build/hparams.json의 features 값("base" | "ext") → 컬럼 목록."""
+    return list(MODEL_FEATURES) + (list(SURVIVAL_EXTRA) if name == "ext" else [])
+
 # 컬럼명: (원본 누적/비율 컬럼, per90 변환 필요 여부) — src/scoring_v1.py의 PER90/RATE와 동일 매핑
 RAW90_SOURCE = {
     "npxG90": ("std_npxG_Expected", True),
@@ -86,9 +103,39 @@ def build_feature_matrix(features_df, ability_df, target_year, extra_cols=()):
     for s in STYLE_NAMES:
         cur[f"sty_{s}"] = (cur["style"] == s).astype(int)
 
+    # ── A4 후보 피처 ──
+    fcur = features_df[features_df["Season_End_Year"] == target_year].set_index("fbref_id")
+    fcur = fcur[~fcur.index.duplicated(keep="first")].reindex(cur.index)
+    mp = fcur["std_MP_Playing"].replace(0, np.nan)
+    cur["starts_share"] = fcur["std_Starts_Playing"] / mp
+    cur["n_squads"] = fcur["Squads"].fillna("").astype(str).str.count("/") + 1
+    first_comp = fcur["Comps"].fillna("").astype(str).str.split(" / ").str[0]
+    for l in LEAGUES:
+        cur[f"lg_{l}"] = (first_comp == l).astype(int)
+    # 팀 강도 대리변수: 시즌×팀(첫 소속팀) 600분+ 선수의 능력 가중평균
+    tm = cur[["ability", "std_Min_Playing"]].copy()
+    tm["squad"] = fcur["Squads"].fillna("").astype(str).str.split(" / ").str[0]
+    tm["comp"] = first_comp
+    pool = tm[(tm["std_Min_Playing"] >= PREV_SEASON_MIN) & tm["ability"].notna()]
+    w = pool["ability"] * pool["std_Min_Playing"]
+    sq = (w.groupby(pool["squad"]).sum() / pool["std_Min_Playing"].groupby(pool["squad"]).sum())
+    cur["squad_mean_ability"] = tm["squad"].map(sq)
+    cur["ability_vs_squad"] = cur["ability"] - cur["squad_mean_ability"]
+    sq_comp = pool.groupby("squad")["comp"].first()
+    rank = pd.DataFrame({"m": sq, "comp": sq_comp})
+    rank["r"] = rank.groupby("comp")["m"].rank(ascending=False)
+    rank["r"] = (rank["r"] - 1) / (rank.groupby("comp")["m"].transform("count") - 1).replace(0, np.nan)
+    cur["squad_rank_in_league"] = tm["squad"].map(rank["r"])
+    # t−2 출전시간
+    prev2 = base[base["Season_End_Year"] == target_year - 2].set_index("fbref_id")
+    prev2 = prev2[~prev2.index.duplicated(keep="first")]
+    cur["has_prev2"] = cur.index.isin(prev2.index).astype(int)
+    cur["min_prev2"] = prev2["std_Min_Playing"].reindex(cur.index)
+    cur["min_trend2"] = cur["std_Min_Playing"] - cur["min_prev2"]
+
     meta_cols = ["Player", "pos_primary", "style", "Squads", "Comps"]
-    extra = [c for c in extra_cols if c not in MODEL_FEATURES and c not in meta_cols]
-    return cur[MODEL_FEATURES + meta_cols + extra].copy()
+    extra = [c for c in extra_cols if c not in MODEL_FEATURES and c not in meta_cols and c not in SURVIVAL_EXTRA]
+    return cur[MODEL_FEATURES + SURVIVAL_EXTRA + meta_cols + extra].copy()
 
 
 def reindex_for_model(feat_df, booster):

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6092,
-  "mu": 58.5,
+  "survival_prob": 0.8349,
+  "mu": 57.6,
   "ci80": {
-   "lo": 49.3,
-   "hi": 67.8
+   "lo": 48.3,
+   "hi": 66.8
   },
   "ci50": {
-   "lo": 53.7,
-   "hi": 63.5
+   "lo": 52.7,
+   "hi": 62.4
   },
-  "sigma_model": 1.4,
+  "sigma_model": 0.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 1.44,
-   "total": -2.75,
+   "base": -1.93,
+   "rest": -0.75,
+   "total": -3.76,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "6.6",
-     "contrib": -1.42
+     "contrib": -1.35
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 0.75
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-8.2",
+     "contrib": 0.83
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "64.4",
-     "contrib": -0.61
+     "contrib": -0.62
     },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "74.7",
-     "contrib": -0.5
-    },
-    {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.0",
-     "contrib": -0.5
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": -0.588,
-   "base_prob": 0.538,
-   "prob": 0.609,
-   "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.66
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "773.0",
-     "contrib": -0.23
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "2171.0",
-     "contrib": 0.19
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "55.9",
-     "contrib": 0.15
+     "contrib": 0.45
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "61.3",
-     "contrib": 0.12
+     "contrib": -0.4
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": 0.124,
+   "base_prob": 0.538,
+   "prob": 0.835,
+   "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "69.5",
+     "contrib": 0.62
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.42
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.23
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2171.0",
+     "contrib": 0.16
+    },
+    {
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "773.0",
+     "contrib": -0.08
     }
    ]
   },
@@ -207,7 +207,7 @@
    "season": 2021,
    "distance": 1.989,
    "survived": 1,
-   "fut_ability_v2": 54.4,
+   "fut_ability_v2": 54.3,
    "player_name": "Elseid Hysaj",
    "squad": "Napoli"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Fran Garcia(DF)의 현재 능력 점수는 61.3점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 전진 패스 수신, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Fran Garcia의 2~3년 후 예측 중심값은 58.5점, 80% 구간 상단은 67.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.9%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 67.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +0.8); 내린 요인은 능력 변화(전 시즌 대비)(6.6, -1.4), 스타일 렌즈 점수(64.4, -0.6), 찬스 그룹 점수(74.7, -0.5), 비페널티 xG/90(0.0, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(출전시간 변화(분))을 거쳐 60.9%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Fran Garcia의 2~3년 후 예측 중심값은 57.6점, 80% 구간 상단은 66.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 83.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 66.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-8.2, +0.8), 나이(24.0, +0.5); 내린 요인은 능력 변화(전 시즌 대비)(6.6, -1.4), 스타일 렌즈 점수(64.4, -0.6), 현재 능력(61.3, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 나이)과 하락 요인(출전시간 변화(분))을 거쳐 83.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

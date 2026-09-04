@@ -38,74 +38,68 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1577,
-  "mu": 47.5,
+  "survival_prob": 0.2827,
+  "mu": 50.8,
   "ci80": {
-   "lo": 37.7,
-   "hi": 57.2
+   "lo": 41.3,
+   "hi": 60.2
   },
   "ci50": {
-   "lo": 42.3,
-   "hi": 52.6
+   "lo": 45.8,
+   "hi": 55.7
   },
-  "sigma_model": 2.6,
+  "sigma_model": 2.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -4.07,
-   "total": -10.39,
+   "base": -1.93,
+   "rest": -1.87,
+   "total": -7.11,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
-     "value_text": "6.6",
-     "contrib": -1.64
+     "value_text": "6.8",
+     "contrib": -1.62
     },
     {
      "feature": "npxG90",
      "label": "비페널티 xG/90",
      "value_text": "0.4",
-     "contrib": -1.53
+     "contrib": -1.03
     },
     {
      "feature": "PrgPass90",
      "label": "전진 패스/90",
      "value_text": "1.7",
-     "contrib": -1.32
+     "contrib": -0.7
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.3",
-     "contrib": 1.22
+     "contrib": 0.62
     },
     {
      "feature": "sty_연결형 공격수",
      "label": "스타일: 연결형 공격수",
      "value_text": "예",
-     "contrib": -1.15
+     "contrib": -0.59
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.43,
+   "base_logit": 0.151,
+   "rest": 0.168,
    "base_prob": 0.538,
-   "prob": 0.158,
+   "prob": 0.283,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1097.0",
-     "contrib": -0.76
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "89.7",
-     "contrib": -0.34
+     "contrib": -0.56
     },
     {
      "feature": "age_y",
@@ -114,16 +108,22 @@
      "contrib": -0.31
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.7",
-     "contrib": 0.25
-    },
-    {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "32.1",
-     "contrib": -0.24
+     "contrib": -0.18
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "54.0",
+     "contrib": -0.1
+    },
+    {
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.4",
+     "contrib": -0.1
     }
    ]
   },
@@ -382,12 +382,12 @@
    "n_seasons": 5
   },
   "consistency": {
-   "ability_std": 11.8,
+   "ability_std": 11.9,
    "n_rated_seasons": 4
   }
  },
  "narrative": {
   "current": "Eldor Shomurodov(FW)의 현재 능력 점수는 57.9점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 어시스트, 골 창출(GCA), 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스 수신이다.",
-  "potential": "Eldor Shomurodov의 2~3년 후 예측 중심값은 47.5점, 80% 구간 상단은 57.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 15.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 57.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -10.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.3, +1.2); 내린 요인은 능력 변화(전 시즌 대비)(6.6, -1.6), 비페널티 xG/90(0.4, -1.5), 전진 패스/90(1.7, -1.3), 스타일: 연결형 공격수(예, -1.1)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(전진 패스/90)과 하락 요인(시즌 출전시간(분), 공중볼 승률)을 거쳐 15.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Eldor Shomurodov의 2~3년 후 예측 중심값은 50.8점, 80% 구간 상단은 60.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 60.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.3, +0.6); 내린 요인은 능력 변화(전 시즌 대비)(6.8, -1.6), 비페널티 xG/90(0.4, -1.0), 전진 패스/90(1.7, -0.7), 스타일: 연결형 공격수(예, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(시즌 출전시간(분), 나이)을 거쳐 28.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4096,
-  "mu": 54.1,
+  "survival_prob": 0.5046,
+  "mu": 52.4,
   "ci80": {
-   "lo": 44.8,
-   "hi": 63.3
+   "lo": 43.3,
+   "hi": 61.6
   },
   "ci50": {
-   "lo": 49.2,
-   "hi": 58.9
+   "lo": 47.6,
+   "hi": 57.2
   },
-  "sigma_model": 1.1,
+  "sigma_model": 0.7,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.44,
-   "total": 1.77,
+   "base": -1.93,
+   "rest": -0.85,
+   "total": 0.14,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "55.0",
-     "contrib": 1.36
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 0.78
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "35.7",
-     "contrib": 0.73
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "49.7",
-     "contrib": 0.68
+     "contrib": 0.76
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "52.3",
-     "contrib": 0.57
+     "contrib": 0.64
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-6.2",
+     "contrib": 0.63
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.47
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "49.7",
+     "contrib": 0.41
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.415,
+   "base_logit": 0.151,
+   "rest": -0.262,
    "base_prob": 0.538,
-   "prob": 0.41,
+   "prob": 0.504,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.6
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.2",
-     "contrib": -0.25
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "50.9",
-     "contrib": -0.17
+     "contrib": 0.45
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1557.0",
-     "contrib": -0.16
+     "contrib": -0.28
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "5.4",
-     "contrib": -0.12
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "58.6",
+     "contrib": 0.14
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "50.9",
+     "contrib": -0.11
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "55.0",
+     "contrib": -0.08
     }
    ]
   },
@@ -135,7 +135,7 @@
    "season": 2021,
    "distance": 1.812,
    "survived": 1,
-   "fut_ability_v2": 54.4,
+   "fut_ability_v2": 54.3,
    "player_name": "Elseid Hysaj",
    "squad": "Napoli"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Lutsharel Geertruida(DF)의 현재 능력 점수는 52.3점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 최종 3분의1 패스, 전진 패스, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 태클 성공률이다.",
-  "potential": "Lutsharel Geertruida의 2~3년 후 예측 중심값은 54.1점, 80% 구간 상단은 63.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 41.0%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 63.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(55.0, +1.4), 나이(24.0, +0.8), 수비 그룹 점수(35.7, +0.7), 포지션 렌즈 점수(49.7, +0.7), 현재 능력(52.3, +0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(전진 운반/90, 팀 출전시간 비중(%))을 거쳐 41.0%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Lutsharel Geertruida의 2~3년 후 예측 중심값은 52.4점, 80% 구간 상단은 61.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 50.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 61.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(55.0, +0.8), 현재 능력(52.3, +0.6), 팀 평균 대비 본인 능력(-6.2, +0.6), 나이(24.0, +0.5), 포지션 렌즈 점수(49.7, +0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 50.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

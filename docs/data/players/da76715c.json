@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6018,
-  "mu": 53.1,
+  "survival_prob": 0.615,
+  "mu": 52.6,
   "ci80": {
-   "lo": 42.8,
-   "hi": 63.5
+   "lo": 42.4,
+   "hi": 62.9
   },
   "ci50": {
-   "lo": 47.6,
-   "hi": 58.5
+   "lo": 47.3,
+   "hi": 58.0
   },
-  "sigma_model": 1.4,
-  "sigma_residual": 8.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 1.09,
-   "total": 4.64,
+   "base": 0.93,
+   "rest": -0.02,
+   "total": 4.2,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "50.9",
-     "contrib": 2.86
-    },
-    {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "0.4",
-     "contrib": -0.82
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.71
+     "contrib": 2.12
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "48.4",
-     "contrib": 0.69
+     "contrib": 0.7
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.0",
-     "contrib": 0.55
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": 0.6
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.39
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.0",
+     "contrib": 0.25
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.243,
-   "base_prob": 0.719,
-   "prob": 0.602,
+   "base_logit": 0.956,
+   "rest": -0.552,
+   "base_prob": 0.722,
+   "prob": 0.615,
    "top": [
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.6",
-     "contrib": -0.32
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.0",
+     "contrib": -0.36
     },
     {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "0.1",
-     "contrib": 0.28
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.3
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.25
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2137.0",
-     "contrib": 0.27
+     "contrib": 0.22
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "23.7",
-     "contrib": -0.27
-    },
-    {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.0",
-     "contrib": -0.25
+     "feature": "KP90",
+     "label": "키패스/90",
+     "value_text": "0.1",
+     "contrib": 0.15
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "David Nemeth(DF)의 현재 능력 점수는 48.4점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 패스 성공률, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 박스 터치, 전진 패스 수신이다.",
-  "potential": "David Nemeth의 2~3년 후 예측 중심값은 53.1점, 80% 구간 상단은 63.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 60.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 63.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.7점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.9, +2.9), 현재 능력(48.4, +0.7), xAG/90(0.0, +0.6); 내린 요인은 박스 터치/90(0.4, -0.8), 나이(23.0, -0.7)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(키패스/90, 시즌 출전시간(분))과 하락 요인(전진 운반/90, 생산 그룹 점수)을 거쳐 60.2%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "David Nemeth의 2~3년 후 예측 중심값은 52.6점, 80% 구간 상단은 62.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 61.5%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 62.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.2점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(50.9, +2.1), 현재 능력(48.4, +0.7), 팀 강도 리그 내 순위(0=최강)(1.0, +0.6), 소속팀 평균 능력(팀 강도)(50.0, +0.2); 내린 요인은 나이(23.0, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(선발 비율, 시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 61.5%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

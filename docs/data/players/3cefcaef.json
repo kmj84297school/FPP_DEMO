@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5858,
-  "mu": 48.0,
+  "survival_prob": 0.403,
+  "mu": 49.4,
   "ci80": {
-   "lo": 38.5,
-   "hi": 57.6
+   "lo": 40.1,
+   "hi": 58.8
   },
   "ci50": {
-   "lo": 43.0,
-   "hi": 53.1
+   "lo": 44.5,
+   "hi": 54.3
   },
-  "sigma_model": 2.1,
+  "sigma_model": 1.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.76,
-   "total": 5.02,
+   "base": -1.93,
+   "rest": 0.72,
+   "total": 6.45,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "44.7",
-     "contrib": 3.91
+     "contrib": 2.61
     },
     {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "43.0",
-     "contrib": 1.46
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-26.5",
+     "contrib": 1.97
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-7.2",
-     "contrib": 1.4
+     "contrib": 1.39
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "43.0",
+     "contrib": 1.14
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "41.3",
-     "contrib": 1.32
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "24.5",
-     "contrib": 0.59
+     "contrib": 0.55
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.034,
+   "base_logit": 0.151,
+   "rest": -0.164,
    "base_prob": 0.538,
-   "prob": 0.586,
+   "prob": 0.403,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1005.0",
-     "contrib": -0.6
+     "contrib": -0.53
     },
     {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "93.9",
-     "contrib": 0.44
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "69.5",
+     "contrib": 0.37
     },
     {
-     "feature": "d_grp_chance",
-     "label": "찬스 그룹 변화",
-     "value_text": "-33.7",
-     "contrib": 0.32
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "29.0",
+     "contrib": -0.23
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.1",
-     "contrib": -0.22
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.2
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-715.0",
-     "contrib": 0.21
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "29.4",
+     "contrib": -0.18
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Ferland Mendy(DF)의 현재 능력 점수는 43.0점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 슈팅당 기대득점, 패스 성공률, 태클 성공률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 공중볼 승리이다.",
-  "potential": "Ferland Mendy의 2~3년 후 예측 중심값은 48.0점, 80% 구간 상단은 57.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 58.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 57.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(44.7, +3.9), 현재 능력(43.0, +1.5), 능력 변화(전 시즌 대비)(-7.2, +1.4), 포지션 렌즈 점수(41.3, +1.3), 찬스 그룹 점수(24.5, +0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(패스 성공률, 찬스 그룹 변화)과 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 58.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Ferland Mendy의 2~3년 후 예측 중심값은 49.4점, 80% 구간 상단은 58.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.3%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 58.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +6.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(44.7, +2.6), 팀 평균 대비 본인 능력(-26.5, +2.0), 능력 변화(전 시즌 대비)(-7.2, +1.4), 현재 능력(43.0, +1.1), 포지션 렌즈 점수(41.3, +0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))과 하락 요인(시즌 출전시간(분), 나이)을 거쳐 40.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

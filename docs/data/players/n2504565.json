@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4754,
-  "mu": 50.7,
+  "survival_prob": 0.6168,
+  "mu": 51.3,
   "ci80": {
-   "lo": 41.5,
-   "hi": 59.9
+   "lo": 42.2,
+   "hi": 60.6
   },
   "ci50": {
-   "lo": 45.9,
-   "hi": 55.6
+   "lo": 46.5,
+   "hi": 56.2
   },
-  "sigma_model": 1.1,
+  "sigma_model": 0.7,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.23,
-   "total": -3.07,
+   "base": -1.93,
+   "rest": -0.66,
+   "total": -2.45,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "1.4",
-     "contrib": -1.48
+     "contrib": -0.97
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "16.2",
-     "contrib": 0.98
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-3.7",
+     "contrib": 0.56
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "61.7",
-     "contrib": -0.66
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "53.8",
+     "contrib": 0.53
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "45.9",
-     "contrib": 0.63
+     "contrib": 0.39
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "20.1",
-     "contrib": 0.59
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "61.7",
+     "contrib": -0.37
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.29,
+   "base_logit": 0.151,
+   "rest": -0.067,
    "base_prob": 0.538,
-   "prob": 0.476,
+   "prob": 0.617,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.45
+     "contrib": 0.42
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.2",
-     "contrib": -0.26
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1772.0",
+     "contrib": -0.2
     },
     {
      "feature": "d_std_Min_Playing",
      "label": "출전시간 변화(분)",
      "value_text": "-605.0",
-     "contrib": 0.21
+     "contrib": 0.14
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "57.5",
+     "contrib": 0.13
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "51.8",
-     "contrib": -0.18
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "16.2",
-     "contrib": -0.18
+     "contrib": -0.1
     }
    ]
   },
@@ -180,7 +180,7 @@
    "season": 2022,
    "distance": 1.52,
    "survived": 1,
-   "fut_ability_v2": 59.3,
+   "fut_ability_v2": 59.2,
    "player_name": "Nabil Bentaleb",
    "squad": "Angers"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Edson Álvarez(MF)의 현재 능력 점수는 53.8점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 공중볼 승리, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 슈팅당 기대득점이다.",
-  "potential": "Edson Álvarez의 2~3년 후 예측 중심값은 50.7점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 47.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 59.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 생산 그룹 점수(16.2, +1.0), 포지션 렌즈 점수(45.9, +0.6), 찬스 그룹 점수(20.1, +0.6); 내린 요인은 능력 변화(전 시즌 대비)(1.4, -1.5), 스타일 렌즈 점수(61.7, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))과 하락 요인(전진 운반/90, 팀 출전시간 비중(%))을 거쳐 47.5%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Edson Álvarez의 2~3년 후 예측 중심값은 51.3점, 80% 구간 상단은 60.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 60.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-3.7, +0.6), 현재 능력(53.8, +0.5), 포지션 렌즈 점수(45.9, +0.4); 내린 요인은 능력 변화(전 시즌 대비)(1.4, -1.0), 스타일 렌즈 점수(61.7, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 61.7%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

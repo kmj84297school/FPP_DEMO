@@ -1,0 +1,34 @@
+{
+ "u23": {
+  "surv": {
+   "max_depth": 3,
+   "learning_rate": 0.03,
+   "n_estimators": 150,
+   "min_child_weight": 5,
+   "features": "ext"
+  },
+  "reg": {
+   "max_depth": 3,
+   "learning_rate": 0.03,
+   "n_estimators": 150,
+   "min_child_weight": 1,
+   "features": "ext"
+  }
+ },
+ "veteran": {
+  "surv": {
+   "max_depth": 3,
+   "learning_rate": 0.03,
+   "n_estimators": 150,
+   "min_child_weight": 5,
+   "features": "ext"
+  },
+  "reg": {
+   "max_depth": 3,
+   "learning_rate": 0.05,
+   "n_estimators": 150,
+   "min_child_weight": 1,
+   "features": "ext"
+  }
+ }
+}

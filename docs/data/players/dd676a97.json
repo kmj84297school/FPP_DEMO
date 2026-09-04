@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3951,
-  "mu": 60.6,
+  "survival_prob": 0.3781,
+  "mu": 54.0,
   "ci80": {
-   "lo": 49.0,
-   "hi": 72.0
+   "lo": 43.4,
+   "hi": 64.7
   },
   "ci50": {
-   "lo": 54.4,
-   "hi": 66.6
+   "lo": 48.4,
+   "hi": 59.7
   },
-  "sigma_model": 4.1,
-  "sigma_residual": 8.0
+  "sigma_model": 2.6,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 2.33,
-   "total": 15.29,
+   "base": 0.93,
+   "rest": 0.95,
+   "total": 8.82,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "49.3",
-     "contrib": 5.17
-    },
-    {
-     "feature": "d_grp_prod",
-     "label": "생산 그룹 변화",
-     "value_text": "-49.3",
-     "contrib": 2.45
+     "contrib": 2.92
     },
     {
      "feature": "d_grp_chance",
      "label": "찬스 그룹 변화",
      "value_text": "-46.9",
-     "contrib": 2.09
+     "contrib": 1.19
     },
     {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-5.4",
-     "contrib": 1.14
+     "feature": "d_grp_prod",
+     "label": "생산 그룹 변화",
+     "value_text": "-49.4",
+     "contrib": 1.17
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "71.4",
-     "contrib": 1.12
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "45.2",
+     "contrib": 1.01
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": 0.66
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.022,
-   "base_prob": 0.719,
-   "prob": 0.395,
+   "base_logit": 0.956,
+   "rest": -0.225,
+   "base_prob": 0.722,
+   "prob": 0.378,
    "top": [
     {
-     "feature": "d_grp_defense",
-     "label": "수비 그룹 변화",
-     "value_text": "30.3",
-     "contrib": -0.54
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.0",
+     "contrib": -0.4
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1240.0",
-     "contrib": -0.47
+     "contrib": -0.38
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "41.2",
-     "contrib": -0.37
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "20.5",
+     "contrib": -0.16
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "35.6",
-     "contrib": -0.26
+     "contrib": -0.14
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "71.4",
-     "contrib": 0.24
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.14
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Noah Weißhaupt(FW)의 현재 능력 점수는 45.2점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 전진 운반, 전진 패스 거리, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 골 창출(GCA)이다.",
-  "potential": "Noah Weißhaupt의 2~3년 후 예측 중심값은 60.6점, 80% 구간 상단은 72.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 39.5%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 72.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +15.4점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(49.3, +5.2), 생산 그룹 변화(-49.3, +2.5), 찬스 그룹 변화(-46.9, +2.1), 능력 변화(전 시즌 대비)(-5.4, +1.1), 공중볼 승률(71.4, +1.1)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(공중볼 승률)과 하락 요인(수비 그룹 변화, 시즌 출전시간(분))을 거쳐 39.5%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Noah Weißhaupt의 2~3년 후 예측 중심값은 54.0점, 80% 구간 상단은 64.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 37.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 64.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +8.8점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(49.3, +2.9), 찬스 그룹 변화(-46.9, +1.2), 생산 그룹 변화(-49.4, +1.2), 현재 능력(45.2, +1.0), 팀 강도 리그 내 순위(0=최강)(1.0, +0.7)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 하락 요인(소속팀 평균 능력(팀 강도), 시즌 출전시간(분))을 거쳐 37.8%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

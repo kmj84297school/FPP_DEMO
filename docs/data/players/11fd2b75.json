@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1113,
-  "mu": 47.5,
+  "survival_prob": 0.2018,
+  "mu": 47.9,
   "ci80": {
-   "lo": 38.2,
-   "hi": 56.8
+   "lo": 38.7,
+   "hi": 57.1
   },
   "ci50": {
-   "lo": 42.6,
-   "hi": 52.4
+   "lo": 43.0,
+   "hi": 52.7
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.43,
-   "total": 1.82,
+   "base": -1.93,
+   "rest": 0.44,
+   "total": 2.24,
    "top": [
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "2.4",
-     "contrib": 1.94
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "45.7",
+     "contrib": 0.94
     },
     {
      "feature": "KP90",
      "label": "키패스/90",
      "value_text": "0.1",
-     "contrib": 1.7
+     "contrib": 0.88
     },
     {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "45.7",
-     "contrib": 0.9
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "2.4",
+     "contrib": 0.68
     },
     {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-4.5",
-     "contrib": 0.81
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "57.0",
+     "contrib": 0.62
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "16.2",
-     "contrib": 0.8
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-6.6",
+     "contrib": 0.6
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.341,
+   "base_logit": 0.151,
+   "rest": -0.39,
    "base_prob": 0.538,
-   "prob": 0.111,
+   "prob": 0.202,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "31.0",
-     "contrib": -0.81
+     "contrib": -0.64
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.5",
-     "contrib": -0.39
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "52.3",
+     "contrib": -0.17
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "45.7",
-     "contrib": -0.25
+     "contrib": -0.14
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "421.0",
-     "contrib": -0.24
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "834.0",
+     "contrib": -0.1
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "34.2",
-     "contrib": -0.2
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "57.0",
+     "contrib": -0.08
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Omar Mascarell(MF)의 현재 능력 점수는 45.7점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 손실(미스+파울), 클리어링, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 슈팅 창출(SCA)이다.",
-  "potential": "Omar Mascarell의 2~3년 후 예측 중심값은 47.5점, 80% 구간 상단은 56.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 11.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 56.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 찬스 그룹 점수(2.4, +1.9), 키패스/90(0.1, +1.7), 현재 능력(45.7, +0.9), 능력 변화(전 시즌 대비)(-4.5, +0.8), 생산 그룹 점수(16.2, +0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 전진 운반/90)을 거쳐 11.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Omar Mascarell의 2~3년 후 예측 중심값은 47.9점, 80% 구간 상단은 57.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 20.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 57.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 현재 능력(45.7, +0.9), 키패스/90(0.1, +0.9), 찬스 그룹 점수(2.4, +0.7), 스타일 렌즈 점수(57.0, +0.6), 팀 평균 대비 본인 능력(-6.6, +0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 소속팀 평균 능력(팀 강도))을 거쳐 20.2%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

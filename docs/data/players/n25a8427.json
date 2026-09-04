@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8403,
-  "mu": 68.1,
+  "survival_prob": 0.8239,
+  "mu": 67.1,
   "ci80": {
-   "lo": 57.3,
-   "hi": 78.9
+   "lo": 56.7,
+   "hi": 77.4
   },
   "ci50": {
-   "lo": 62.4,
-   "hi": 73.7
+   "lo": 61.6,
+   "hi": 72.6
   },
-  "sigma_model": 2.7,
-  "sigma_residual": 8.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -1.71,
-   "total": -3.95,
+   "base": 0.93,
+   "rest": -1.41,
+   "total": -4.98,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "77.5",
-     "contrib": -3.68
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "14.9",
-     "contrib": 1.61
+     "contrib": -2.96
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "72.0",
-     "contrib": -1.28
+     "contrib": -1.21
     },
     {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.3",
-     "contrib": 0.76
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "13.5",
+     "contrib": -1.15
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.2",
-     "contrib": -0.63
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.939,
-   "rest": 0.207,
-   "base_prob": 0.719,
-   "prob": 0.84,
-   "top": [
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "66.5",
-     "contrib": 0.4
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "2107.0",
-     "contrib": 0.35
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "14.9",
+     "contrib": 0.48
     },
     {
      "feature": "AerPct",
      "label": "공중볼 승률",
      "value_text": "17.6",
-     "contrib": -0.25
+     "contrib": 0.35
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.956,
+   "rest": -0.053,
+   "base_prob": 0.722,
+   "prob": 0.824,
+   "top": [
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2107.0",
+     "contrib": 0.25
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "60.5",
-     "contrib": 0.21
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "58.5",
+     "contrib": 0.23
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "22.0",
-     "contrib": -0.2
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "66.5",
+     "contrib": 0.17
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "72.0",
+     "contrib": 0.1
+    },
+    {
+     "feature": "lg_Ligue 1",
+     "label": "리그: 리그1",
+     "value_text": "예",
+     "contrib": -0.1
     }
    ]
   },
@@ -180,7 +180,7 @@
    "season": 2021,
    "distance": 2.842,
    "survived": 1,
-   "fut_ability_v2": 73.5,
+   "fut_ability_v2": 73.6,
    "player_name": "James Maddison",
    "squad": "Leicester City"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Sebastian Nanasi(MF)의 현재 능력 점수는 72.0점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 슈팅당 기대득점, 골 창출(GCA), 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승리, 태클+인터셉트이다.",
-  "potential": "Sebastian Nanasi의 2~3년 후 예측 중심값은 68.1점, 80% 구간 상단은 78.9점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 84.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 78.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.9점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 수비 그룹 점수(14.9, +1.6), 비페널티 xG/90(0.3, +0.8); 내린 요인은 스타일 렌즈 점수(77.5, -3.7), 현재 능력(72.0, -1.3), 태클+인터셉트/90(1.2, -0.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(포지션 렌즈 점수, 시즌 출전시간(분))과 하락 요인(공중볼 승률, 나이)을 거쳐 84.0%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Sebastian Nanasi의 2~3년 후 예측 중심값은 67.1점, 80% 구간 상단은 77.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 82.4%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 77.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.9점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 수비 그룹 점수(14.9, +0.5), 공중볼 승률(17.6, +0.3); 내린 요인은 스타일 렌즈 점수(77.5, -3.0), 현재 능력(72.0, -1.2), 팀 평균 대비 본인 능력(13.5, -1.1)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))과 하락 요인(리그: 리그1)을 거쳐 82.4%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

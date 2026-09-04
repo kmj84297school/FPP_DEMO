@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6156,
-  "mu": 62.0,
+  "survival_prob": 0.7153,
+  "mu": 60.9,
   "ci80": {
-   "lo": 52.6,
-   "hi": 71.3
+   "lo": 51.7,
+   "hi": 70.1
   },
   "ci50": {
-   "lo": 57.0,
-   "hi": 66.9
+   "lo": 56.1,
+   "hi": 65.7
   },
-  "sigma_model": 1.6,
+  "sigma_model": 1.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.27,
-   "total": 0.01,
+   "base": -1.93,
+   "rest": 1.1,
+   "total": -1.09,
    "top": [
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 1.16
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "101.0",
+     "contrib": 0.75
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "68.1",
-     "contrib": -0.89
+     "contrib": -0.75
     },
     {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "19.0",
-     "contrib": 0.48
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.64
     },
     {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "62.1",
-     "contrib": 0.47
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "62.0",
+     "contrib": -0.46
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "26.1",
-     "contrib": 0.43
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.45
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.571,
+   "base_logit": 0.151,
+   "rest": 0.012,
    "base_prob": 0.538,
-   "prob": 0.616,
+   "prob": 0.715,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.5
+     "contrib": 0.4
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "68.1",
-     "contrib": 0.25
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "26.1",
-     "contrib": -0.23
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "57.0",
+     "contrib": 0.21
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2093.0",
-     "contrib": 0.19
+     "contrib": 0.18
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "82.9",
-     "contrib": 0.17
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "101.0",
+     "contrib": -0.13
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "68.1",
+     "contrib": 0.1
     }
    ]
   },
@@ -189,7 +189,7 @@
    "season": 2022,
    "distance": 2.201,
    "survived": 1,
-   "fut_ability_v2": 70.0,
+   "fut_ability_v2": 69.9,
    "player_name": "Saïd Benrahma",
    "squad": "West Ham"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Hamed Junior Traorè(MF)의 현재 능력 점수는 62.0점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 유효슈팅, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 태클 성공률이다.",
-  "potential": "Hamed Junior Traorè의 2~3년 후 예측 중심값은 62.0점, 80% 구간 상단은 71.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.6%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 71.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +1.2), 수비 그룹 점수(19.0, +0.5), 전진 그룹 점수(62.1, +0.5), 안정 그룹 점수(26.1, +0.4); 내린 요인은 스타일 렌즈 점수(68.1, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 스타일 렌즈 점수)과 하락 요인(안정 그룹 점수)을 거쳐 61.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Hamed Junior Traorè의 2~3년 후 예측 중심값은 60.9점, 80% 구간 상단은 70.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 70.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 2시즌 전 출전시간(분)(101.0, +0.8), 나이(24.0, +0.6); 내린 요인은 스타일 렌즈 점수(68.1, -0.8), 현재 능력(62.0, -0.5), 능력 변화(전 시즌 대비)(결측, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(2시즌 전 출전시간(분))을 거쳐 71.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

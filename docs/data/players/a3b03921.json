@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4523,
-  "mu": 56.8,
+  "survival_prob": 0.5182,
+  "mu": 58.1,
   "ci80": {
-   "lo": 47.5,
-   "hi": 66.1
+   "lo": 48.7,
+   "hi": 67.6
   },
   "ci50": {
-   "lo": 51.9,
-   "hi": 61.7
+   "lo": 53.2,
+   "hi": 63.1
   },
-  "sigma_model": 1.6,
+  "sigma_model": 2.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.74,
-   "total": -3.19,
+   "base": -1.93,
+   "rest": -0.32,
+   "total": -1.89,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.96
+     "contrib": 0.54
     },
     {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1086.0",
-     "contrib": -0.73
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.3",
+     "contrib": -0.46
     },
     {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "1.8",
-     "contrib": -0.72
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.45
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "69.4",
-     "contrib": -0.61
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-2.1",
+     "contrib": 0.38
     },
     {
      "feature": "AerPct",
      "label": "공중볼 승률",
      "value_text": "27.8",
-     "contrib": 0.55
+     "contrib": 0.34
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.162,
+   "base_logit": 0.151,
+   "rest": 0.047,
    "base_prob": 0.538,
-   "prob": 0.452,
+   "prob": 0.518,
    "top": [
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1086.0",
-     "contrib": -0.65
-    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.61
+     "contrib": 0.52
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1086.0",
+     "contrib": -0.48
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "958.0",
+     "contrib": -0.16
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "31.8",
-     "contrib": -0.23
+     "contrib": -0.15
     },
     {
-     "feature": "SCA90",
-     "label": "슈팅 창출/90",
-     "value_text": "3.7",
-     "contrib": -0.13
-    },
-    {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "1.8",
-     "contrib": -0.11
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.14
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Joe Willock(MF)의 현재 능력 점수는 60.0점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 박스 터치, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 전진 패스 거리이다.",
-  "potential": "Joe Willock의 2~3년 후 예측 중심값은 56.8점, 80% 구간 상단은 66.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 45.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 66.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +1.0), 공중볼 승률(27.8, +0.6); 내린 요인은 시즌 출전시간(분)(1086.0, -0.7), 키패스/90(1.8, -0.7), 찬스 그룹 점수(69.4, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 45.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Joe Willock의 2~3년 후 예측 중심값은 58.1점, 80% 구간 상단은 67.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 51.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 67.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +0.5), 팀 평균 대비 본인 능력(-2.1, +0.4), 공중볼 승률(27.8, +0.3); 내린 요인은 선발 비율(0.3, -0.5), 능력 변화(전 시즌 대비)(결측, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 팀 강도 리그 내 순위(0=최강))과 하락 요인(시즌 출전시간(분), 2시즌 전 출전시간(분))을 거쳐 51.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

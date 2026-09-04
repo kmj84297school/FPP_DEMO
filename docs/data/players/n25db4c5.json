@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6184,
-  "mu": 43.8,
+  "survival_prob": 0.5263,
+  "mu": 43.1,
   "ci80": {
-   "lo": 34.3,
-   "hi": 53.3
+   "lo": 33.7,
+   "hi": 52.4
   },
   "ci50": {
-   "lo": 38.8,
-   "hi": 48.8
+   "lo": 38.2,
+   "hi": 48.0
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.05,
-   "total": 5.02,
+   "base": -1.93,
+   "rest": 0.35,
+   "total": 4.25,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "39.5",
-     "contrib": 4.2
+     "contrib": 3.21
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-11.8",
+     "contrib": 1.47
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "38.8",
-     "contrib": 1.85
+     "contrib": 1.42
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "1.9",
+     "contrib": -1.01
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "38.0",
-     "contrib": 1.39
-    },
-    {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "1.7",
-     "contrib": -1.09
-    },
-    {
-     "feature": "sty_돌파형 윙어",
-     "label": "스타일: 돌파형 윙어",
-     "value_text": "예",
-     "contrib": 0.62
+     "contrib": 0.74
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.181,
+   "base_logit": 0.151,
+   "rest": -0.137,
    "base_prob": 0.538,
-   "prob": 0.618,
+   "prob": 0.526,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.67
+     "contrib": 0.56
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1112.0",
-     "contrib": -0.45
+     "contrib": -0.35
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.6",
+     "contrib": -0.14
     },
     {
      "feature": "d_std_Min_Playing",
      "label": "출전시간 변화(분)",
      "value_text": "-995.0",
-     "contrib": 0.3
+     "contrib": 0.14
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "38.8",
-     "contrib": -0.28
-    },
-    {
-     "feature": "d_grp_chance",
-     "label": "찬스 그룹 변화",
-     "value_text": "-22.0",
-     "contrib": 0.26
+     "contrib": -0.12
     }
    ]
   },
@@ -189,7 +189,7 @@
    "season": 2022,
    "distance": 2.944,
    "survived": 1,
-   "fut_ability_v2": 47.2,
+   "fut_ability_v2": 47.3,
    "player_name": "Hwang Hee-chan",
    "squad": "Wolves / RB Leipzig"
   },
@@ -387,12 +387,12 @@
    "n_seasons": 2
   },
   "consistency": {
-   "ability_std": 1.2,
+   "ability_std": 1.4,
    "n_rated_seasons": 2
   }
  },
  "narrative": {
   "current": "Pontus Almqvist(FW)의 현재 능력 점수는 38.8점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 블록, 성공 드리블 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 전진 패스이다.",
-  "potential": "Pontus Almqvist의 2~3년 후 예측 중심값은 43.8점, 80% 구간 상단은 53.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 61.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 53.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(39.5, +4.2), 현재 능력(38.8, +1.9), 포지션 렌즈 점수(38.0, +1.4), 스타일: 돌파형 윙어(예, +0.6); 내린 요인은 능력 변화(전 시즌 대비)(1.7, -1.1)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))과 하락 요인(시즌 출전시간(분), 현재 능력)을 거쳐 61.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Pontus Almqvist의 2~3년 후 예측 중심값은 43.1점, 80% 구간 상단은 52.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 52.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 52.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(39.5, +3.2), 팀 평균 대비 본인 능력(-11.8, +1.5), 현재 능력(38.8, +1.4), 포지션 렌즈 점수(38.0, +0.7); 내린 요인은 능력 변화(전 시즌 대비)(1.9, -1.0)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))과 하락 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 52.6%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

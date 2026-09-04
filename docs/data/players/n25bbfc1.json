@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.792,
-  "mu": 59.6,
+  "survival_prob": 0.8967,
+  "mu": 58.2,
   "ci80": {
-   "lo": 49.0,
-   "hi": 70.1
+   "lo": 47.9,
+   "hi": 68.6
   },
   "ci50": {
-   "lo": 54.0,
-   "hi": 65.2
+   "lo": 52.7,
+   "hi": 63.7
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 8.0
+  "sigma_model": 1.6,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 0.7,
-   "total": 2.45,
+   "base": 0.93,
+   "rest": 0.37,
+   "total": 1.11,
    "top": [
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "10.1",
+     "contrib": -0.67
+    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "23.0",
-     "contrib": -1.43
+     "contrib": -0.5
     },
     {
      "feature": "npxG90",
      "label": "비페널티 xG/90",
      "value_text": "0.2",
-     "contrib": 1.38
-    },
-    {
-     "feature": "SCA90",
-     "label": "슈팅 창출/90",
-     "value_text": "3.8",
-     "contrib": 1.05
-    },
-    {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "10.1",
-     "contrib": -1.02
+     "contrib": 0.41
     },
     {
      "feature": "TakeOn90",
      "label": "성공 드리블/90",
      "value_text": "1.8",
-     "contrib": 0.79
+     "contrib": 0.29
+    },
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "36.5",
+     "contrib": 0.27
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.028,
-   "base_prob": 0.719,
-   "prob": 0.792,
+   "base_logit": 0.956,
+   "rest": 0.25,
+   "base_prob": 0.722,
+   "prob": 0.897,
    "top": [
-    {
-     "feature": "d_xAG90",
-     "label": "xAG/90 변화",
-     "value_text": "-0.1",
-     "contrib": 0.43
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2210.0",
-     "contrib": 0.32
+     "contrib": 0.28
     },
     {
-     "feature": "d_grp_stability",
-     "label": "안정 그룹 변화",
-     "value_text": "39.3",
-     "contrib": -0.31
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "58.6",
+     "contrib": 0.28
     },
     {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "1.4",
-     "contrib": -0.26
+     "feature": "d_xAG90",
+     "label": "xAG/90 변화",
+     "value_text": "-0.1",
+     "contrib": 0.18
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.3",
+     "contrib": 0.11
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "54.7",
-     "contrib": 0.25
+     "contrib": 0.1
     }
    ]
   },
@@ -153,7 +153,7 @@
    "season": 2022,
    "distance": 2.625,
    "survived": 1,
-   "fut_ability_v2": 54.6,
+   "fut_ability_v2": 54.4,
    "player_name": "Armand Lauriente",
    "squad": "Lorient"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Gustav Isaksen(FW)의 현재 능력 점수는 57.1점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 패스 수신, 성공 드리블, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 최종 3분의1 패스, 도움 기대값(xAG)이다.",
-  "potential": "Gustav Isaksen의 2~3년 후 예측 중심값은 59.6점, 80% 구간 상단은 70.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 79.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 70.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.5점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 비페널티 xG/90(0.2, +1.4), 슈팅 창출/90(3.8, +1.1), 성공 드리블/90(1.8, +0.8); 내린 요인은 나이(23.0, -1.4), 능력 변화(전 시즌 대비)(10.1, -1.0)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(xAG/90 변화, 시즌 출전시간(분))과 하락 요인(안정 그룹 변화, 키패스/90)을 거쳐 79.2%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Gustav Isaksen의 2~3년 후 예측 중심값은 58.2점, 80% 구간 상단은 68.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 89.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 68.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.1점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 비페널티 xG/90(0.2, +0.4), 성공 드리블/90(1.8, +0.3), 생산 그룹 점수(36.5, +0.3); 내린 요인은 능력 변화(전 시즌 대비)(10.1, -0.7), 나이(23.0, -0.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 89.7%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

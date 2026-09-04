@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5961,
-  "mu": 63.1,
+  "survival_prob": 0.64,
+  "mu": 63.8,
   "ci80": {
-   "lo": 53.8,
-   "hi": 72.3
+   "lo": 54.6,
+   "hi": 73.0
   },
   "ci50": {
-   "lo": 58.2,
-   "hi": 68.0
+   "lo": 58.9,
+   "hi": 68.6
   },
-  "sigma_model": 1.3,
+  "sigma_model": 0.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.45,
-   "total": -5.41,
+   "base": -1.93,
+   "rest": 0.39,
+   "total": -4.71,
    "top": [
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "69.5",
-     "contrib": -1.11
-    },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "3.8",
-     "contrib": -1.07
+     "contrib": -0.93
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "67.5",
-     "contrib": -0.66
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.3",
-     "contrib": -0.65
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "69.5",
+     "contrib": -0.86
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "68.5",
-     "contrib": -0.46
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": 0.162,
-   "base_prob": 0.538,
-   "prob": 0.596,
-   "top": [
+     "contrib": -0.73
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "67.5",
+     "contrib": -0.33
+    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "30.0",
-     "contrib": -0.49
+     "contrib": -0.31
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": 0.092,
+   "base_prob": 0.538,
+   "prob": 0.64,
+   "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "65.8",
+     "contrib": 0.42
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "69.5",
-     "contrib": 0.27
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "30.0",
+     "contrib": -0.29
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "70.6",
-     "contrib": 0.25
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.19
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2198.0",
-     "contrib": 0.25
+     "contrib": 0.17
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.3",
-     "contrib": -0.21
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "532.0",
+     "contrib": -0.16
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Mateo Kovačić(MF)의 현재 능력 점수는 68.5점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 전진 운반 거리, 패스 성공률, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 슈팅당 기대득점이다.",
-  "potential": "Mateo Kovačić의 2~3년 후 예측 중심값은 63.1점, 80% 구간 상단은 72.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 72.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(69.5, -1.1), 능력 변화(전 시즌 대비)(3.8, -1.1), 포지션 렌즈 점수(67.5, -0.7), 전진 운반/90(2.3, -0.7), 현재 능력(68.5, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(스타일 렌즈 점수, 안정 그룹 점수)과 하락 요인(나이, 전진 운반/90)을 거쳐 59.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Mateo Kovačić의 2~3년 후 예측 중심값은 63.8점, 80% 구간 상단은 73.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 64.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 73.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 능력 변화(전 시즌 대비)(3.8, -0.9), 스타일 렌즈 점수(69.5, -0.9), 현재 능력(68.5, -0.7), 포지션 렌즈 점수(67.5, -0.3), 나이(30.0, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))과 하락 요인(나이, 2시즌 전 출전시간(분))을 거쳐 64.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

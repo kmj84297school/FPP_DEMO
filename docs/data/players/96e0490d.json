@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1584,
-  "mu": 41.7,
+  "survival_prob": 0.2328,
+  "mu": 45.8,
   "ci80": {
-   "lo": 32.2,
-   "hi": 51.1
+   "lo": 36.4,
+   "hi": 55.1
   },
   "ci50": {
-   "lo": 36.7,
-   "hi": 46.6
+   "lo": 40.8,
+   "hi": 50.7
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.5,
-   "total": -2.48,
+   "base": -1.93,
+   "rest": -1.12,
+   "total": 1.59,
    "top": [
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-21.4",
+     "contrib": 2.0
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "46.9",
-     "contrib": 1.81
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "15.0",
-     "contrib": -1.41
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "41.3",
-     "contrib": 1.24
+     "contrib": 1.66
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "44.2",
-     "contrib": 0.99
+     "contrib": 1.12
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "34.0",
-     "contrib": -0.69
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.7
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "41.3",
+     "contrib": 0.55
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.35,
+   "base_logit": 0.151,
+   "rest": -0.347,
    "base_prob": 0.538,
-   "prob": 0.158,
+   "prob": 0.233,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "34.0",
-     "contrib": -1.58
+     "contrib": -1.22
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-623.0",
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "65.5",
      "contrib": 0.32
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.7",
-     "contrib": -0.25
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.19
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "77.2",
-     "contrib": 0.23
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1781.0",
+     "contrib": -0.14
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "52.1",
-     "contrib": -0.19
+     "contrib": -0.14
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Matteo Darmian(DF)의 현재 능력 점수는 44.2점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅당 기대득점, 무페널티 득점, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 리커버리, 전진 운반 거리이다.",
-  "potential": "Matteo Darmian의 2~3년 후 예측 중심값은 41.7점, 80% 구간 상단은 51.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 15.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 51.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(46.9, +1.8), 포지션 렌즈 점수(41.3, +1.2), 현재 능력(44.2, +1.0); 내린 요인은 수비 그룹 점수(15.0, -1.4), 나이(34.0, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(출전시간 변화(분), 생산 그룹 점수)과 하락 요인(나이, 전진 운반/90)을 거쳐 15.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Matteo Darmian의 2~3년 후 예측 중심값은 45.8점, 80% 구간 상단은 55.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 23.3%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 55.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-21.4, +2.0), 스타일 렌즈 점수(46.9, +1.7), 현재 능력(44.2, +1.1), 포지션 렌즈 점수(41.3, +0.6); 내린 요인은 리그: 세리에A(예, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 23.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

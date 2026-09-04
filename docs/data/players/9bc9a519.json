@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8304,
-  "mu": 62.1,
+  "survival_prob": 0.8323,
+  "mu": 61.2,
   "ci80": {
-   "lo": 51.4,
-   "hi": 72.7
+   "lo": 50.8,
+   "hi": 71.6
   },
   "ci50": {
-   "lo": 56.5,
-   "hi": 67.6
+   "lo": 55.7,
+   "hi": 66.7
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 8.0
+  "sigma_model": 1.7,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.37,
-   "total": -4.61,
+   "base": 0.93,
+   "rest": -0.45,
+   "total": -5.45,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "17.4",
-     "contrib": -2.2
+     "contrib": -2.56
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "68.8",
-     "contrib": -1.82
+     "contrib": -1.44
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "66.7",
-     "contrib": -1.2
+     "contrib": -0.96
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "75.0",
-     "contrib": 0.8
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "5.8",
+     "contrib": -0.6
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "23.0",
-     "contrib": -0.8
+     "contrib": -0.37
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.357,
-   "base_prob": 0.719,
-   "prob": 0.83,
+   "base_logit": 0.956,
+   "rest": -0.137,
+   "base_prob": 0.722,
+   "prob": 0.832,
    "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "60.9",
+     "contrib": 0.32
+    },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "64.4",
-     "contrib": 0.35
+     "contrib": 0.13
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.26
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1792.0",
+     "contrib": 0.12
     },
     {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "17.4",
-     "contrib": 0.2
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.4",
+     "contrib": 0.11
     },
     {
-     "feature": "d_PrgPass90",
-     "label": "전진 패스/90 변화",
-     "value_text": "2.7",
-     "contrib": 0.18
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "52.4",
-     "contrib": -0.17
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "66.7",
+     "contrib": 0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Djed Spence(DF)의 현재 능력 점수는 66.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 성공 드리블, 전진 운반, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 전진 패스 거리이다.",
-  "potential": "Djed Spence의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 72.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 83.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 72.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.6점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 공중볼 승률(75.0, +0.8); 내린 요인은 능력 변화(전 시즌 대비)(17.4, -2.2), 스타일 렌즈 점수(68.8, -1.8), 현재 능력(66.7, -1.2), 나이(23.0, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(포지션 렌즈 점수, 능력 변화(전 시즌 대비))과 하락 요인(나이, 팀 출전시간 비중(%))을 거쳐 83.0%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Djed Spence의 2~3년 후 예측 중심값은 61.2점, 80% 구간 상단은 71.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 83.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 71.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.5점(같은 코호트 평균 변화 +0.9점 기준)으로, 내린 요인은 능력 변화(전 시즌 대비)(17.4, -2.6), 스타일 렌즈 점수(68.8, -1.4), 현재 능력(66.7, -1.0), 팀 평균 대비 본인 능력(5.8, -0.6), 나이(23.0, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 포지션 렌즈 점수)을 거쳐 83.2%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8649,
-  "mu": 57.9,
+  "survival_prob": 0.828,
+  "mu": 60.0,
   "ci80": {
-   "lo": 47.4,
-   "hi": 68.4
+   "lo": 49.8,
+   "hi": 70.3
   },
   "ci50": {
-   "lo": 52.3,
-   "hi": 63.5
+   "lo": 54.7,
+   "hi": 65.4
   },
-  "sigma_model": 2.1,
-  "sigma_residual": 8.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -3.25,
-   "total": -5.79,
+   "base": 0.93,
+   "rest": -1.04,
+   "total": -3.63,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "68.9",
-     "contrib": -2.08
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.89
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "17.6",
-     "contrib": 0.73
+     "contrib": -1.62
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "63.7",
-     "contrib": -0.68
+     "contrib": -0.74
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
-     "value_text": "7.3",
-     "contrib": -0.6
+     "value_text": "7.4",
+     "contrib": -0.45
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.43
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "0.9",
+     "contrib": -0.28
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.01,
-   "base_prob": 0.719,
-   "prob": 0.865,
+   "base_logit": 0.956,
+   "rest": 0.033,
+   "base_prob": 0.722,
+   "prob": 0.828,
    "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "62.8",
+     "contrib": 0.28
+    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1938.0",
-     "contrib": 0.39
+     "contrib": 0.24
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-716.0",
-     "contrib": 0.35
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "17.6",
-     "contrib": -0.29
+     "feature": "lg_Ligue 1",
+     "label": "리그: 리그1",
+     "value_text": "예",
+     "contrib": -0.19
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "58.4",
-     "contrib": 0.25
+     "contrib": 0.14
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "79.9",
-     "contrib": 0.23
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.12
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Melvin Bard(DF)의 현재 능력 점수는 63.7점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 볼 리커버리, 유효슈팅, 슈팅 시도 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 볼 손실(미스+파울)이다.",
-  "potential": "Melvin Bard의 2~3년 후 예측 중심값은 57.9점, 80% 구간 상단은 68.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 86.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 68.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.8점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 안정 그룹 점수(17.6, +0.7); 내린 요인은 스타일 렌즈 점수(68.9, -2.1), 나이(23.0, -0.9), 현재 능력(63.7, -0.7), 능력 변화(전 시즌 대비)(7.3, -0.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 출전시간 변화(분))과 하락 요인(안정 그룹 점수)을 거쳐 86.5%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Melvin Bard의 2~3년 후 예측 중심값은 60.0점, 80% 구간 상단은 70.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 82.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 70.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.7점(같은 코호트 평균 변화 +0.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(68.9, -1.6), 현재 능력(63.7, -0.7), 능력 변화(전 시즌 대비)(7.4, -0.5), 나이(23.0, -0.4), 팀 평균 대비 본인 능력(0.9, -0.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 시즌 출전시간(분))과 하락 요인(리그: 리그1)을 거쳐 82.8%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

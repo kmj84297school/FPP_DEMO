@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1281,
-  "mu": 50.1,
+  "survival_prob": 0.227,
+  "mu": 50.5,
   "ci80": {
-   "lo": 40.8,
-   "hi": 59.3
+   "lo": 41.3,
+   "hi": 59.6
   },
   "ci50": {
-   "lo": 45.2,
-   "hi": 54.9
+   "lo": 45.7,
+   "hi": 55.3
   },
-  "sigma_model": 1.1,
+  "sigma_model": 0.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.96,
-   "total": 0.76,
+   "base": -1.93,
+   "rest": -0.84,
+   "total": 1.13,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "49.5",
-     "contrib": 1.73
+     "contrib": 1.25
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-11.6",
+     "contrib": 1.06
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "49.3",
-     "contrib": 0.98
+     "contrib": 0.82
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "49.0",
-     "contrib": 0.95
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "32.0",
-     "contrib": -0.46
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "44.9",
      "contrib": 0.44
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-3.4",
+     "contrib": 0.33
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.549,
+   "base_logit": 0.151,
+   "rest": -0.255,
    "base_prob": 0.538,
-   "prob": 0.128,
+   "prob": 0.227,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "32.0",
-     "contrib": -0.76
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.7",
-     "contrib": -0.23
+     "contrib": -0.7
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1697.0",
-     "contrib": -0.23
+     "contrib": -0.25
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "914.0",
+     "contrib": -0.14
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "49.6",
-     "contrib": -0.18
+     "contrib": -0.14
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "4.5",
-     "contrib": -0.12
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "60.9",
+     "contrib": 0.1
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Joël Veltman(DF)의 현재 능력 점수는 49.3점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 전진 패스, 태클+인터셉트, 전진 운반 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 박스 터치이다.",
-  "potential": "Joël Veltman의 2~3년 후 예측 중심값은 50.1점, 80% 구간 상단은 59.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 12.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 59.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(49.5, +1.7), 현재 능력(49.3, +1.0), 포지션 렌즈 점수(49.0, +0.9), 수비 그룹 점수(44.9, +0.4); 내린 요인은 나이(32.0, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(나이, 전진 운반/90)을 거쳐 12.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Joël Veltman의 2~3년 후 예측 중심값은 50.5점, 80% 구간 상단은 59.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 59.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(49.5, +1.2), 팀 평균 대비 본인 능력(-11.6, +1.1), 현재 능력(49.3, +0.8), 포지션 렌즈 점수(49.0, +0.4), 능력 변화(전 시즌 대비)(-3.4, +0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도))과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 22.7%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

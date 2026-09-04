@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9051,
-  "mu": 55.0,
+  "survival_prob": 0.6563,
+  "mu": 57.3,
   "ci80": {
-   "lo": 44.5,
-   "hi": 65.5
+   "lo": 47.1,
+   "hi": 67.6
   },
   "ci50": {
-   "lo": 49.4,
-   "hi": 60.5
+   "lo": 51.9,
+   "hi": 62.7
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 8.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -2.28,
-   "total": -0.34,
+   "base": 0.93,
+   "rest": -0.3,
+   "total": 2.02,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-11.6",
-     "contrib": 1.55
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1049.0",
-     "contrib": -0.86
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.68
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "59.1",
-     "contrib": 0.49
+     "contrib": 0.97
     },
     {
      "feature": "d_SCA90",
      "label": "SCA/90 변화",
      "value_text": "-1.4",
-     "contrib": 0.46
+     "contrib": 0.55
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "57.7",
+     "contrib": 0.45
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.33
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "0.3",
+     "contrib": -0.25
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.766,
-   "base_prob": 0.719,
-   "prob": 0.905,
+   "base_logit": 0.956,
+   "rest": 0.241,
+   "base_prob": 0.722,
+   "prob": 0.656,
    "top": [
-    {
-     "feature": "d_xAG90",
-     "label": "xAG/90 변화",
-     "value_text": "-0.1",
-     "contrib": 0.63
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1049.0",
-     "contrib": -0.48
+     "contrib": -0.4
     },
     {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-11.6",
-     "contrib": 0.41
+     "feature": "d_xAG90",
+     "label": "xAG/90 변화",
+     "value_text": "-0.1",
+     "contrib": 0.18
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "30.7",
-     "contrib": -0.14
+     "contrib": -0.12
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "59.1",
-     "contrib": 0.13
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.4",
+     "contrib": -0.12
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.09
     }
    ]
   },
@@ -153,7 +153,7 @@
    "season": 2022,
    "distance": 1.894,
    "survived": 1,
-   "fut_ability_v2": 57.6,
+   "fut_ability_v2": 57.4,
    "player_name": "Matías Viña",
    "squad": "Roma"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Fabiano Parisi(DF)의 현재 능력 점수는 55.3점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 볼 리커버리, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 볼 손실(미스+파울)이다.",
-  "potential": "Fabiano Parisi의 2~3년 후 예측 중심값은 55.0점, 80% 구간 상단은 65.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 90.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 65.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.3점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-11.6, +1.6), 공중볼 승률(59.1, +0.5), SCA/90 변화(-1.4, +0.5); 내린 요인은 시즌 출전시간(분)(1049.0, -0.9), 나이(23.0, -0.7)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(xAG/90 변화, 능력 변화(전 시즌 대비))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 90.5%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Fabiano Parisi의 2~3년 후 예측 중심값은 57.3점, 80% 구간 상단은 67.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 65.6%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 67.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.0점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-11.6, +1.0), SCA/90 변화(-1.4, +0.6), 스타일 렌즈 점수(57.7, +0.5); 내린 요인은 나이(23.0, -0.3), 팀 평균 대비 본인 능력(0.3, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(xAG/90 변화)과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 65.6%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

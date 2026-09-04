@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0579,
-  "mu": 45.4,
+  "survival_prob": 0.1133,
+  "mu": 46.0,
   "ci80": {
-   "lo": 35.8,
-   "hi": 55.1
+   "lo": 36.7,
+   "hi": 55.3
   },
   "ci50": {
-   "lo": 40.3,
-   "hi": 50.5
+   "lo": 41.1,
+   "hi": 50.9
   },
-  "sigma_model": 2.4,
+  "sigma_model": 1.7,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.19,
-   "total": 0.4,
+   "base": -1.93,
+   "rest": -1.01,
+   "total": 0.98,
    "top": [
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-8.9",
+     "contrib": 1.22
+    },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "45.0",
-     "contrib": 1.34
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "37.2",
-     "contrib": 1.12
+     "contrib": 1.06
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.4",
-     "contrib": 0.96
+     "contrib": 0.7
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "33.5",
+     "contrib": 0.58
     },
     {
      "feature": "grp_prod",
      "label": "생산 그룹 점수",
      "value_text": "10.8",
-     "contrib": 0.95
-    },
-    {
-     "feature": "TakeOn90",
-     "label": "성공 드리블/90",
-     "value_text": "0.1",
-     "contrib": -0.88
+     "contrib": 0.36
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.638,
+   "base_logit": 0.151,
+   "rest": -0.483,
    "base_prob": 0.538,
-   "prob": 0.058,
+   "prob": 0.113,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "38.0",
-     "contrib": -1.61
+     "contrib": -1.21
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1137.0",
-     "contrib": -0.55
+     "contrib": -0.36
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
+     "contrib": -0.17
     },
     {
      "feature": "d_std_Min_Playing",
      "label": "출전시간 변화(분)",
      "value_text": "-1439.0",
-     "contrib": 0.37
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.2",
-     "contrib": -0.32
+     "contrib": 0.15
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "37.2",
-     "contrib": -0.19
+     "contrib": -0.14
     }
    ]
   },
@@ -384,6 +384,6 @@
  },
  "narrative": {
   "current": "Anthony Losilla(MF)의 현재 능력 점수는 45.0점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 블록, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 슈팅당 기대득점이다.",
-  "potential": "Anthony Losilla의 2~3년 후 예측 중심값은 45.4점, 80% 구간 상단은 55.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 5.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 55.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 현재 능력(45.0, +1.3), 팀 출전시간 비중(%)(37.2, +1.1), 스타일 렌즈 점수(56.4, +1.0), 생산 그룹 점수(10.8, +0.9); 내린 요인은 성공 드리블/90(0.1, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(출전시간 변화(분))과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 5.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Anthony Losilla의 2~3년 후 예측 중심값은 46.0점, 80% 구간 상단은 55.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 11.3%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 55.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-8.9, +1.2), 현재 능력(45.0, +1.1), 스타일 렌즈 점수(56.4, +0.7), 포지션 렌즈 점수(33.5, +0.6), 생산 그룹 점수(10.8, +0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(출전시간 변화(분))과 하락 요인(나이, 시즌 출전시간(분))을 거쳐 11.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

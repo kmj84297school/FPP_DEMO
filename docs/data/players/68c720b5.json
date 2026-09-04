@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3008,
-  "mu": 38.4,
+  "survival_prob": 0.2701,
+  "mu": 37.5,
   "ci80": {
-   "lo": 28.7,
-   "hi": 48.0
+   "lo": 28.2,
+   "hi": 46.8
   },
   "ci50": {
-   "lo": 33.2,
-   "hi": 43.5
+   "lo": 32.6,
+   "hi": 42.3
   },
-  "sigma_model": 2.5,
+  "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.52,
-   "total": 5.35,
+   "base": -1.93,
+   "rest": -0.32,
+   "total": 4.47,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "33.0",
-     "contrib": 4.78
+     "contrib": 3.14
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "33.0",
-     "contrib": 2.29
+     "contrib": 1.87
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-16.1",
+     "contrib": 1.47
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "32.9",
-     "contrib": 1.75
+     "contrib": 0.77
     },
     {
      "feature": "PrgPass90",
      "label": "전진 패스/90",
      "value_text": "1.5",
-     "contrib": -1.32
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "36.5",
-     "contrib": 1.29
+     "contrib": -0.54
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.813,
+   "base_logit": 0.151,
+   "rest": -0.689,
    "base_prob": 0.538,
-   "prob": 0.301,
+   "prob": 0.27,
    "top": [
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "72.1",
-     "contrib": 0.41
-    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "27.0",
-     "contrib": 0.38
+     "contrib": 0.3
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1248.0",
-     "contrib": -0.35
+     "contrib": -0.26
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "33.0",
-     "contrib": -0.33
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "49.1",
+     "contrib": -0.22
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.16
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "33.0",
-     "contrib": -0.3
+     "contrib": -0.12
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Adam Armstrong(FW)의 현재 능력 점수는 33.0점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 패스 성공률, 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 창출(SCA), 키패스이다.",
-  "potential": "Adam Armstrong의 2~3년 후 예측 중심값은 38.4점, 80% 구간 상단은 48.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 30.1%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 48.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(33.0, +4.8), 현재 능력(33.0, +2.3), 포지션 렌즈 점수(32.9, +1.8), 팀 출전시간 비중(%)(36.5, +1.3); 내린 요인은 전진 패스/90(1.5, -1.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(안정 그룹 점수, 나이)과 하락 요인(시즌 출전시간(분), 스타일 렌즈 점수)을 거쳐 30.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Adam Armstrong의 2~3년 후 예측 중심값은 37.5점, 80% 구간 상단은 46.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 27.0%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 46.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(33.0, +3.1), 현재 능력(33.0, +1.9), 팀 평균 대비 본인 능력(-16.1, +1.5), 포지션 렌즈 점수(32.9, +0.8); 내린 요인은 전진 패스/90(1.5, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 27.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

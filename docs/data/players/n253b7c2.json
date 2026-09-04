@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2388,
-  "mu": 46.9,
+  "survival_prob": 0.2544,
+  "mu": 48.2,
   "ci80": {
-   "lo": 37.3,
-   "hi": 56.6
+   "lo": 38.9,
+   "hi": 57.7
   },
   "ci50": {
-   "lo": 41.8,
-   "hi": 52.0
+   "lo": 43.3,
+   "hi": 53.2
   },
-  "sigma_model": 2.5,
+  "sigma_model": 1.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.84,
-   "total": 2.96,
+   "base": -1.93,
+   "rest": -0.23,
+   "total": 4.32,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "42.7",
-     "contrib": 4.97
+     "contrib": 3.24
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "43.9",
-     "contrib": 1.85
+     "contrib": 1.37
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-6.1",
+     "contrib": 0.71
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "45.2",
-     "contrib": 1.4
+     "contrib": 0.68
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "2.0",
-     "contrib": -0.9
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "42.4",
-     "contrib": -0.61
+     "feature": "style_confidence",
+     "label": "스타일 확신도",
+     "value_text": "0.0",
+     "contrib": 0.47
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.482,
+   "base_logit": 0.151,
+   "rest": -0.442,
    "base_prob": 0.538,
-   "prob": 0.239,
+   "prob": 0.254,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "922.0",
-     "contrib": -0.84
+     "contrib": -0.53
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.3
+     "contrib": 0.32
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.8",
-     "contrib": -0.29
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.24
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "2.0",
-     "contrib": 0.2
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.0",
+     "contrib": -0.22
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "5.9",
-     "contrib": -0.2
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "30.1",
+     "contrib": -0.11
     }
    ]
   },
@@ -171,7 +171,7 @@
    "season": 2022,
    "distance": 2.849,
    "survived": 1,
-   "fut_ability_v2": 49.2,
+   "fut_ability_v2": 49.1,
    "player_name": "Emil Krafth",
    "squad": "Newcastle Utd"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Lars Ritzka(DF)의 현재 능력 점수는 43.9점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 태클+인터셉트, 무페널티 득점, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 공중볼 승률이다.",
-  "potential": "Lars Ritzka의 2~3년 후 예측 중심값은 46.9점, 80% 구간 상단은 56.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 23.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 56.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(42.7, +5.0), 현재 능력(43.9, +1.9), 포지션 렌즈 점수(45.2, +1.4); 내린 요인은 전진 패스/90(2.0, -0.9), 안정 그룹 점수(42.4, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 전진 패스/90)과 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 23.9%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Lars Ritzka의 2~3년 후 예측 중심값은 48.2점, 80% 구간 상단은 57.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.4%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 57.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(42.7, +3.2), 현재 능력(43.9, +1.4), 팀 평균 대비 본인 능력(-6.1, +0.7), 포지션 렌즈 점수(45.2, +0.7), 스타일 확신도(0.0, +0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 팀 강도 리그 내 순위(0=최강))을 거쳐 25.4%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

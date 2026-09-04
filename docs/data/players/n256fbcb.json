@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.137,
-  "mu": 44.2,
+  "survival_prob": 0.3859,
+  "mu": 41.4,
   "ci80": {
-   "lo": 34.2,
-   "hi": 54.2
+   "lo": 31.5,
+   "hi": 51.2
   },
   "ci50": {
-   "lo": 38.9,
-   "hi": 49.5
+   "lo": 36.2,
+   "hi": 46.5
   },
-  "sigma_model": 3.3,
+  "sigma_model": 3.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.56,
-   "total": 10.96,
+   "base": -1.93,
+   "rest": -1.16,
+   "total": 8.15,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "38.7",
-     "contrib": 6.83
+     "contrib": 4.02
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-22.0",
+     "contrib": 2.78
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "33.2",
+     "contrib": 2.17
     },
     {
      "feature": "grp_chance",
      "label": "찬스 그룹 점수",
      "value_text": "10.4",
-     "contrib": 3.58
-    },
-    {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "33.2",
-     "contrib": 2.86
+     "contrib": 1.17
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "27.9",
-     "contrib": 2.14
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "0.6",
-     "contrib": -0.98
+     "contrib": 1.1
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -1.077,
+   "base_logit": 0.151,
+   "rest": -0.231,
    "base_prob": 0.538,
-   "prob": 0.137,
+   "prob": 0.386,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1129.0",
-     "contrib": -0.44
+     "contrib": -0.42
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.37
+     "contrib": 0.4
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "85.4",
-     "contrib": -0.32
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "33.0",
+     "contrib": -0.13
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "33.2",
-     "contrib": -0.29
+     "contrib": -0.12
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "27.9",
-     "contrib": -0.23
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "55.2",
+     "contrib": -0.11
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Randy Nteka(FW)의 현재 능력 점수는 33.2점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 클리어링, 공중볼 승리, 슈팅당 기대득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스, 전진 패스 거리이다.",
-  "potential": "Randy Nteka의 2~3년 후 예측 중심값은 44.2점, 80% 구간 상단은 54.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 13.7%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 54.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +11.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(38.7, +6.8), 찬스 그룹 점수(10.4, +3.6), 현재 능력(33.2, +2.9), 포지션 렌즈 점수(27.9, +2.1); 내린 요인은 전진 패스/90(0.6, -1.0)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 공중볼 승률)을 거쳐 13.7%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Randy Nteka의 2~3년 후 예측 중심값은 41.4점, 80% 구간 상단은 51.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 38.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 51.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +8.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(38.7, +4.0), 팀 평균 대비 본인 능력(-22.0, +2.8), 현재 능력(33.2, +2.2), 찬스 그룹 점수(10.4, +1.2), 포지션 렌즈 점수(27.9, +1.1)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 38.6%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

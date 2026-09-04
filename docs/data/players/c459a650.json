@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6729,
-  "mu": 55.4,
+  "survival_prob": 0.6296,
+  "mu": 56.6,
   "ci80": {
-   "lo": 46.1,
-   "hi": 64.7
+   "lo": 47.4,
+   "hi": 65.8
   },
   "ci50": {
-   "lo": 50.5,
-   "hi": 60.2
+   "lo": 51.8,
+   "hi": 61.4
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 1.68,
-   "total": 0.27,
+   "base": -1.93,
+   "rest": -0.09,
+   "total": 1.53,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-10.7",
-     "contrib": 3.05
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.4",
-     "contrib": -0.66
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "75.5",
-     "contrib": -0.66
+     "contrib": 2.99
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "62.2",
-     "contrib": -0.63
+     "contrib": -0.58
     },
     {
-     "feature": "d_grp_prod",
-     "label": "생산 그룹 변화",
-     "value_text": "13.6",
-     "contrib": -0.59
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "55.1",
+     "contrib": 0.47
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "28.6",
+     "contrib": 0.37
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "48.0",
+     "contrib": 0.3
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.066,
+   "base_logit": 0.151,
+   "rest": 0.125,
    "base_prob": 0.538,
-   "prob": 0.673,
+   "prob": 0.629,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "27.0",
-     "contrib": 0.3
+     "contrib": 0.28
     },
     {
-     "feature": "d_SCA90",
-     "label": "SCA/90 변화",
-     "value_text": "-0.8",
-     "contrib": -0.19
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "54.4",
+     "contrib": -0.14
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "82.8",
-     "contrib": 0.18
+     "feature": "d_std_Min_Playing",
+     "label": "출전시간 변화(분)",
+     "value_text": "-264.0",
+     "contrib": 0.12
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2188.0",
-     "contrib": 0.18
+     "contrib": 0.12
     },
     {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "71.5",
-     "contrib": 0.16
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
+     "contrib": -0.12
     }
    ]
   },
@@ -171,7 +171,7 @@
    "season": 2021,
    "distance": 1.754,
    "survived": 1,
-   "fut_ability_v2": 55.3,
+   "fut_ability_v2": 55.2,
    "player_name": "Davide Zappacosta",
    "squad": "Genoa"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Joakim Mæhle(DF)의 현재 능력 점수는 55.1점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 무페널티 득점, 어시스트, 골 창출(GCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 공중볼 승률이다.",
-  "potential": "Joakim Mæhle의 2~3년 후 예측 중심값은 55.4점, 80% 구간 상단은 64.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 67.3%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 64.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-10.7, +3.0); 내린 요인은 전진 운반/90(2.4, -0.7), 찬스 그룹 점수(75.5, -0.7), 스타일 렌즈 점수(62.2, -0.6), 생산 그룹 변화(13.6, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 생산 그룹 점수)과 하락 요인(SCA/90 변화)을 거쳐 67.3%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Joakim Mæhle의 2~3년 후 예측 중심값은 56.6점, 80% 구간 상단은 65.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 63.0%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 65.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-10.7, +3.0), 현재 능력(55.1, +0.5), 수비 그룹 점수(28.6, +0.4), 포지션 렌즈 점수(48.0, +0.3); 내린 요인은 스타일 렌즈 점수(62.2, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 63.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

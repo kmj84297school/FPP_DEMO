@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.5422,
-  "mu": 44.4,
+  "survival_prob": 0.5935,
+  "mu": 48.0,
   "ci80": {
-   "lo": 33.1,
-   "hi": 55.7
+   "lo": 37.8,
+   "hi": 58.2
   },
   "ci50": {
-   "lo": 38.5,
-   "hi": 50.4
+   "lo": 42.7,
+   "hi": 53.4
   },
-  "sigma_model": 5.2,
+  "sigma_model": 3.6,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.44,
-   "total": -7.16,
+   "base": -1.93,
+   "rest": -0.27,
+   "total": -3.53,
    "top": [
     {
      "feature": "TklInt90",
      "label": "태클+인터셉트/90",
      "value_text": "0.3",
-     "contrib": -4.21
+     "contrib": -3.25
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 1.55
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.4",
-     "contrib": -1.15
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-8.9",
+     "contrib": 1.15
     },
     {
      "feature": "npxG90",
      "label": "비페널티 xG/90",
      "value_text": "0.5",
-     "contrib": -0.97
+     "contrib": -1.07
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.1",
-     "contrib": -0.91
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-7.2",
+     "contrib": 0.95
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.88
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.304,
+   "base_logit": 0.151,
+   "rest": -0.197,
    "base_prob": 0.538,
-   "prob": 0.542,
+   "prob": 0.594,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.56
+     "contrib": 0.46
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "90.7",
-     "contrib": -0.4
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1784.0",
+     "contrib": -0.19
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "27.8",
-     "contrib": -0.23
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.19
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "1.1",
-     "contrib": 0.2
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "849.0",
+     "contrib": -0.14
     },
     {
-     "feature": "d_grp_chance",
-     "label": "찬스 그룹 변화",
-     "value_text": "-13.8",
-     "contrib": 0.18
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "60.4",
+     "contrib": 0.12
     }
    ]
   },
@@ -144,7 +144,7 @@
    "season": 2021,
    "distance": 2.575,
    "survived": 1,
-   "fut_ability_v2": 50.9,
+   "fut_ability_v2": 51.0,
    "player_name": "Patrik Schick",
    "squad": "Leverkusen"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Dušan Vlahović(FW)의 현재 능력 점수는 51.6점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 슈팅 시도, 박스 터치, 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 거리, 최종 3분의1 패스이다.",
-  "potential": "Dušan Vlahović의 2~3년 후 예측 중심값은 44.4점, 80% 구간 상단은 55.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 55.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -7.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +1.6); 내린 요인은 태클+인터셉트/90(0.3, -4.2), 전진 운반/90(1.4, -1.1), 비페널티 xG/90(0.5, -1.0), 전진 패스/90(1.1, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 전진 패스/90)과 하락 요인(공중볼 승률, 안정 그룹 점수)을 거쳐 54.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Dušan Vlahović의 2~3년 후 예측 중심값은 48.0점, 80% 구간 상단은 58.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 59.4%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 58.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-8.9, +1.1), 능력 변화(전 시즌 대비)(-7.2, +0.9), 나이(24.0, +0.9); 내린 요인은 태클+인터셉트/90(0.3, -3.2), 비페널티 xG/90(0.5, -1.1)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 팀 강도 리그 내 순위(0=최강))과 하락 요인(시즌 출전시간(분), 2시즌 전 출전시간(분))을 거쳐 59.4%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

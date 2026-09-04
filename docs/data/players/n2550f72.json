@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7679,
-  "mu": 54.8,
+  "survival_prob": 0.5125,
+  "mu": 52.9,
   "ci80": {
-   "lo": 44.4,
-   "hi": 65.1
+   "lo": 42.7,
+   "hi": 63.1
   },
   "ci50": {
-   "lo": 49.3,
-   "hi": 60.2
+   "lo": 47.5,
+   "hi": 58.3
   },
-  "sigma_model": 1.4,
-  "sigma_residual": 8.0
+  "sigma_model": 0.9,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.12,
-   "total": 5.65,
+   "base": 0.93,
+   "rest": 0.33,
+   "total": 3.82,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "55.9",
-     "contrib": 2.03
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "15.3",
-     "contrib": 0.91
+     "contrib": 1.37
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "49.1",
-     "contrib": 0.74
+     "contrib": 0.67
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "42.3",
-     "contrib": 0.59
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "49.1",
+     "contrib": 0.38
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "20.0",
-     "contrib": 0.52
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "15.3",
+     "contrib": 0.36
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-0.1",
+     "contrib": -0.21
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.176,
-   "base_prob": 0.719,
-   "prob": 0.768,
+   "base_logit": 0.956,
+   "rest": -0.278,
+   "base_prob": 0.722,
+   "prob": 0.512,
    "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "49.1",
+     "contrib": -0.49
+    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "20.0",
-     "contrib": 0.56
+     "contrib": 0.24
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "42.3",
-     "contrib": -0.28
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.15
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "58.4",
-     "contrib": 0.16
-    },
-    {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "3.5",
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "48.4",
      "contrib": -0.12
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "1.3",
-     "contrib": 0.12
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "49.1",
+     "contrib": -0.11
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Lesley Ugochukwu(MF)의 현재 능력 점수는 49.1점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 볼 손실(미스+파울), 블록, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 슈팅 창출(SCA)이다.",
-  "potential": "Lesley Ugochukwu의 2~3년 후 예측 중심값은 54.8점, 80% 구간 상단은 65.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 76.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 65.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.7점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(55.9, +2.0), 찬스 그룹 점수(15.3, +0.9), 현재 능력(49.1, +0.7), 포지션 렌즈 점수(42.3, +0.6), 나이(20.0, +0.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 안정 그룹 점수)과 하락 요인(포지션 렌즈 점수, 태클+인터셉트/90)을 거쳐 76.8%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Lesley Ugochukwu의 2~3년 후 예측 중심값은 52.9점, 80% 구간 상단은 63.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 51.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 63.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.8점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(55.9, +1.4), 현재 능력(49.1, +0.7), 소속팀 평균 능력(팀 강도)(49.1, +0.4), 찬스 그룹 점수(15.3, +0.4); 내린 요인은 팀 평균 대비 본인 능력(-0.1, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이)과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 51.2%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

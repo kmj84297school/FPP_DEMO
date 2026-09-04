@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9254,
-  "mu": 61.2,
+  "survival_prob": 0.8044,
+  "mu": 59.8,
   "ci80": {
-   "lo": 50.8,
-   "hi": 71.7
+   "lo": 49.6,
+   "hi": 70.1
   },
   "ci50": {
-   "lo": 55.7,
-   "hi": 66.8
+   "lo": 54.4,
+   "hi": 65.2
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 8.0
+  "sigma_model": 0.7,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 0.94,
-   "total": 0.36,
+   "base": 0.93,
+   "rest": 0.08,
+   "total": -1.04,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "66.5",
-     "contrib": -1.67
-    },
-    {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-0.4",
-     "contrib": 0.77
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.6",
-     "contrib": -0.54
+     "contrib": -1.14
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "60.9",
-     "contrib": -0.52
+     "contrib": -0.59
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "4.5",
-     "contrib": 0.4
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "4.4",
+     "contrib": -0.48
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "-0.4",
+     "contrib": 0.37
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "22.0",
+     "contrib": -0.2
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.749,
-   "base_prob": 0.719,
-   "prob": 0.925,
+   "base_logit": 0.956,
+   "rest": 0.245,
+   "base_prob": 0.722,
+   "prob": 0.804,
    "top": [
     {
      "feature": "d_xAG90",
      "label": "xAG/90 변화",
      "value_text": "-0.1",
-     "contrib": 0.7
+     "contrib": 0.23
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "47.3",
+     "contrib": -0.12
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "60.9",
+     "contrib": 0.1
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "55.2",
-     "contrib": 0.26
+     "contrib": 0.09
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "61.5",
-     "contrib": 0.22
-    },
-    {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.0",
-     "contrib": -0.17
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "4.2",
-     "contrib": -0.17
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1617.0",
+     "contrib": -0.09
     }
    ]
   },
@@ -162,7 +162,7 @@
    "season": 2021,
    "distance": 1.837,
    "survived": 1,
-   "fut_ability_v2": 52.2,
+   "fut_ability_v2": 52.3,
    "player_name": "Scott McTominay",
    "squad": "Manchester Utd"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Amadou Onana(MF)의 현재 능력 점수는 60.9점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클+인터셉트, 볼 손실(미스+파울), 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 전진 패스 수신이다.",
-  "potential": "Amadou Onana의 2~3년 후 예측 중심값은 61.2점, 80% 구간 상단은 71.7점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 71.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.3점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-0.4, +0.8), 태클+인터셉트/90(4.5, +0.4); 내린 요인은 스타일 렌즈 점수(66.5, -1.7), 전진 운반/90(1.6, -0.5), 현재 능력(60.9, -0.5)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(xAG/90 변화, 포지션 렌즈 점수)과 하락 요인(xAG/90, 전진 패스/90)을 거쳐 92.5%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Amadou Onana의 2~3년 후 예측 중심값은 59.8점, 80% 구간 상단은 70.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 80.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 70.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.1점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-0.4, +0.4); 내린 요인은 스타일 렌즈 점수(66.5, -1.1), 현재 능력(60.9, -0.6), 팀 평균 대비 본인 능력(4.4, -0.5), 나이(22.0, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(xAG/90 변화, 현재 능력)과 하락 요인(팀 출전시간 비중(%), 시즌 출전시간(분))을 거쳐 80.4%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

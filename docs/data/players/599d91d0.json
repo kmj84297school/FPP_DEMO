@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.421,
-  "mu": 49.1,
+  "survival_prob": 0.547,
+  "mu": 48.9,
   "ci80": {
-   "lo": 39.9,
-   "hi": 58.3
+   "lo": 39.7,
+   "hi": 58.1
   },
   "ci50": {
-   "lo": 44.3,
-   "hi": 53.9
+   "lo": 43.9,
+   "hi": 53.7
   },
-  "sigma_model": 0.8,
+  "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.2,
-   "total": 0.43,
+   "base": -1.93,
+   "rest": -0.13,
+   "total": 0.18,
    "top": [
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "53.9",
-     "contrib": 0.96
-    },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "48.7",
-     "contrib": 0.8
+     "contrib": 0.84
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 0.71
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "53.9",
+     "contrib": 0.81
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "43.5",
-     "contrib": 0.59
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "92.0",
+     "contrib": 0.74
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "30.4",
-     "contrib": 0.48
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": -0.416,
-   "base_prob": 0.538,
-   "prob": 0.421,
-   "top": [
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.63
+    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
      "contrib": 0.47
-    },
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": -0.254,
+   "base_prob": 0.538,
+   "prob": 0.547,
+   "top": [
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.7",
-     "contrib": -0.34
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "53.9",
-     "contrib": -0.2
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.42
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2409.0",
-     "contrib": 0.17
+     "contrib": 0.22
     },
     {
-     "feature": "ability",
-     "label": "현재 능력",
-     "value_text": "48.7",
-     "contrib": -0.16
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.5",
+     "contrib": -0.17
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "53.9",
+     "contrib": -0.09
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "92.0",
+     "contrib": -0.09
     }
    ]
   },
@@ -180,7 +180,7 @@
    "season": 2021,
    "distance": 1.793,
    "survived": 1,
-   "fut_ability_v2": 47.9,
+   "fut_ability_v2": 47.8,
    "player_name": "Adrien Tameze",
    "squad": "Hellas Verona"
   },
@@ -207,7 +207,7 @@
    "season": 2022,
    "distance": 1.849,
    "survived": 1,
-   "fut_ability_v2": 59.1,
+   "fut_ability_v2": 58.9,
    "player_name": "Baptiste Santamaria",
    "squad": "Rennes / Freiburg"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Michel Ndary Adopo(MF)의 현재 능력 점수는 48.7점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 공중볼 승률, 공중볼 승리, 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 블록이다.",
-  "potential": "Michel Ndary Adopo의 2~3년 후 예측 중심값은 49.1점, 80% 구간 상단은 58.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 42.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 58.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(53.9, +1.0), 현재 능력(48.7, +0.8), 나이(24.0, +0.7), 포지션 렌즈 점수(43.5, +0.6), 찬스 그룹 점수(30.4, +0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(전진 운반/90, 스타일 렌즈 점수)을 거쳐 42.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Michel Ndary Adopo의 2~3년 후 예측 중심값은 48.9점, 80% 구간 상단은 58.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 58.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 현재 능력(48.7, +0.8), 스타일 렌즈 점수(53.9, +0.8), 2시즌 전 출전시간(분)(92.0, +0.7), 나이(24.0, +0.5); 내린 요인은 리그: 세리에A(예, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도), 스타일 렌즈 점수)을 거쳐 54.7%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

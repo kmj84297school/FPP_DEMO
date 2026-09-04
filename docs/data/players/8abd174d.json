@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3073,
-  "mu": 54.0,
+  "survival_prob": 0.3128,
+  "mu": 52.3,
   "ci80": {
-   "lo": 44.8,
-   "hi": 63.3
+   "lo": 43.1,
+   "hi": 61.5
   },
   "ci50": {
-   "lo": 49.2,
-   "hi": 58.9
+   "lo": 47.5,
+   "hi": 57.1
   },
-  "sigma_model": 1.1,
+  "sigma_model": 0.9,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.39,
-   "total": -0.39,
+   "base": -1.93,
+   "rest": -0.53,
+   "total": -2.14,
    "top": [
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "8.5",
+     "contrib": -0.94
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.6",
-     "contrib": 1.03
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "52.3",
-     "contrib": 0.96
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "38.4",
-     "contrib": 0.74
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "25.0",
-     "contrib": 0.63
+     "contrib": 0.77
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "54.4",
-     "contrib": 0.55
+     "contrib": 0.64
+    },
+    {
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.62
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "52.3",
+     "contrib": 0.47
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.503,
+   "base_logit": 0.151,
+   "rest": -0.241,
    "base_prob": 0.538,
-   "prob": 0.307,
+   "prob": 0.313,
    "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.0",
+     "contrib": -0.4
+    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.43
+     "contrib": 0.36
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.29
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1314.0",
-     "contrib": -0.31
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.9",
-     "contrib": -0.3
-    },
-    {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.0",
-     "contrib": -0.14
+     "contrib": -0.26
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "38.4",
-     "contrib": -0.14
+     "contrib": -0.11
     }
    ]
   },
@@ -171,7 +171,7 @@
    "season": 2021,
    "distance": 1.668,
    "survived": 1,
-   "fut_ability_v2": 68.1,
+   "fut_ability_v2": 68.0,
    "player_name": "Kevin Akpoguma",
    "squad": "Hoffenheim"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Michael Svoboda(DF)의 현재 능력 점수는 54.4점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 전진 운반 거리, 볼 리커버리, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 실책이다.",
-  "potential": "Michael Svoboda의 2~3년 후 예측 중심값은 54.0점, 80% 구간 상단은 63.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 30.7%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 63.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.6, +1.0), 포지션 렌즈 점수(52.3, +1.0), 팀 출전시간 비중(%)(38.4, +0.7), 나이(25.0, +0.6), 현재 능력(54.4, +0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 30.7%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Michael Svoboda의 2~3년 후 예측 중심값은 52.3점, 80% 구간 상단은 61.5점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 61.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(56.6, +0.8), 현재 능력(54.4, +0.6), 포지션 렌즈 점수(52.3, +0.5); 내린 요인은 팀 평균 대비 본인 능력(8.5, -0.9), 리그: 세리에A(예, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 31.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

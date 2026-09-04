@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6847,
-  "mu": 60.3,
+  "survival_prob": 0.6885,
+  "mu": 59.7,
   "ci80": {
-   "lo": 51.0,
-   "hi": 69.8
+   "lo": 50.5,
+   "hi": 68.9
   },
   "ci50": {
-   "lo": 55.4,
-   "hi": 65.3
+   "lo": 54.9,
+   "hi": 64.5
   },
-  "sigma_model": 1.7,
+  "sigma_model": 1.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.43,
-   "total": -0.31,
+   "base": -1.93,
+   "rest": 0.7,
+   "total": -0.97,
    "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.52
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "59.3",
-     "contrib": 1.24
+     "contrib": 0.49
     },
     {
      "feature": "TakeOn90",
      "label": "성공 드리블/90",
      "value_text": "0.1",
-     "contrib": -0.88
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 0.83
-    },
-    {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "36.0",
-     "contrib": -0.48
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "21.2",
-     "contrib": 0.46
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": 0.228,
-   "base_prob": 0.538,
-   "prob": 0.685,
-   "top": [
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "82.6",
-     "contrib": 0.7
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 0.58
-    },
-    {
-     "feature": "d_PrgPass90",
-     "label": "전진 패스/90 변화",
-     "value_text": "-4.0",
-     "contrib": -0.32
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "86.6",
      "contrib": -0.3
     },
     {
      "feature": "PrgCarry90",
      "label": "전진 운반/90",
      "value_text": "0.3",
-     "contrib": -0.26
+     "contrib": -0.23
+    },
+    {
+     "feature": "grp_defense",
+     "label": "수비 그룹 점수",
+     "value_text": "61.3",
+     "contrib": -0.22
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": 0.011,
+   "base_prob": 0.538,
+   "prob": 0.688,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.47
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "59.4",
+     "contrib": 0.2
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2123.0",
+     "contrib": 0.17
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "736.0",
+     "contrib": -0.13
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "59.3",
+     "contrib": -0.08
     }
    ]
   },
@@ -144,7 +144,7 @@
    "season": 2021,
    "distance": 1.402,
    "survived": 1,
-   "fut_ability_v2": 55.0,
+   "fut_ability_v2": 54.9,
    "player_name": "Jean-Charles Castelletto",
    "squad": "Nantes"
   },
@@ -171,7 +171,7 @@
    "season": 2021,
    "distance": 1.522,
    "survived": 1,
-   "fut_ability_v2": 58.7,
+   "fut_ability_v2": 58.6,
    "player_name": "Paweł Dawidowicz",
    "squad": "Hellas Verona"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Matthijs de Ligt(DF)의 현재 능력 점수는 60.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 유효슈팅, 볼 손실(미스+파울), 비페널티 xG 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 성공 드리블이다.",
-  "potential": "Matthijs de Ligt의 2~3년 후 예측 중심값은 60.3점, 80% 구간 상단은 69.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 68.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 69.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(59.3, +1.2), 나이(24.0, +0.8), 찬스 그룹 점수(21.2, +0.5); 내린 요인은 성공 드리블/90(0.1, -0.9), 전진 그룹 점수(36.0, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(안정 그룹 점수, 나이)과 하락 요인(전진 패스/90 변화, 공중볼 승률)을 거쳐 68.5%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Matthijs de Ligt의 2~3년 후 예측 중심값은 59.7점, 80% 구간 상단은 68.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 68.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 68.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +0.5), 스타일 렌즈 점수(59.3, +0.5); 내린 요인은 성공 드리블/90(0.1, -0.3), 전진 운반/90(0.3, -0.2), 수비 그룹 점수(61.3, -0.2)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(2시즌 전 출전시간(분), 스타일 렌즈 점수)을 거쳐 68.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

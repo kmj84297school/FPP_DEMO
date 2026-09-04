@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4061,
-  "mu": 65.2,
+  "survival_prob": 0.6051,
+  "mu": 64.5,
   "ci80": {
-   "lo": 55.7,
-   "hi": 74.6
+   "lo": 55.2,
+   "hi": 73.8
   },
   "ci50": {
-   "lo": 60.1,
-   "hi": 70.1
+   "lo": 59.6,
+   "hi": 69.5
   },
-  "sigma_model": 1.9,
+  "sigma_model": 1.7,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -4.18,
-   "total": -5.3,
+   "base": -1.93,
+   "rest": -2.32,
+   "total": -5.89,
    "top": [
-    {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "6.7",
-     "contrib": 4.34
-    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "74.5",
-     "contrib": -2.27
+     "contrib": -1.41
+    },
+    {
+     "feature": "TklInt90",
+     "label": "태클+인터셉트/90",
+     "value_text": "6.7",
+     "contrib": 1.24
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "70.4",
-     "contrib": -1.3
+     "contrib": -1.05
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "9.5",
+     "contrib": -0.99
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 1.02
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "66.3",
-     "contrib": -1.01
+     "contrib": 0.57
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.451,
+   "base_logit": 0.151,
+   "rest": 0.28,
    "base_prob": 0.538,
-   "prob": 0.406,
+   "prob": 0.605,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1015.0",
-     "contrib": -0.81
+     "contrib": -0.61
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.68
+     "contrib": 0.5
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.6",
-     "contrib": -0.41
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "60.9",
+     "contrib": 0.15
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "82.9",
-     "contrib": 0.23
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "29.7",
+     "contrib": -0.14
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "74.5",
-     "contrib": 0.22
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.3",
+     "contrib": 0.09
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Mats Wieffer(DF)의 현재 능력 점수는 70.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 태클+인터셉트, 골 창출(GCA), 볼 리커버리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 실책, 볼 손실(미스+파울)이다.",
-  "potential": "Mats Wieffer의 2~3년 후 예측 중심값은 65.2점, 80% 구간 상단은 74.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 74.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 태클+인터셉트/90(6.7, +4.3), 나이(24.0, +1.0); 내린 요인은 스타일 렌즈 점수(74.5, -2.3), 현재 능력(70.4, -1.3), 포지션 렌즈 점수(66.3, -1.0)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 생산 그룹 점수)과 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 40.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Mats Wieffer의 2~3년 후 예측 중심값은 64.5점, 80% 구간 상단은 73.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 60.5%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 73.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 태클+인터셉트/90(6.7, +1.2), 나이(24.0, +0.6); 내린 요인은 스타일 렌즈 점수(74.5, -1.4), 현재 능력(70.4, -1.1), 팀 평균 대비 본인 능력(9.5, -1.0)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 60.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

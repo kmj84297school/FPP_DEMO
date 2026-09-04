@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.3559,
-  "mu": 52.8,
+  "survival_prob": 0.5475,
+  "mu": 53.8,
   "ci80": {
-   "lo": 43.5,
-   "hi": 62.1
+   "lo": 44.6,
+   "hi": 63.0
   },
   "ci50": {
-   "lo": 47.9,
-   "hi": 57.7
+   "lo": 49.0,
+   "hi": 58.6
   },
-  "sigma_model": 1.4,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.86,
-   "total": -2.94,
+   "base": -1.93,
+   "rest": -0.09,
+   "total": -1.93,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "4.2",
-     "contrib": -1.68
+     "contrib": -1.49
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "59.2",
-     "contrib": 0.93
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-5.0",
+     "contrib": 0.58
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "52.2",
-     "contrib": 0.55
-    },
-    {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "69.4",
-     "contrib": 0.54
+     "contrib": 0.35
     },
     {
      "feature": "grp_defense",
      "label": "수비 그룹 점수",
      "value_text": "31.0",
-     "contrib": 0.49
+     "contrib": 0.33
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "59.2",
+     "contrib": 0.32
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.802,
+   "base_logit": 0.151,
+   "rest": 0.001,
    "base_prob": 0.538,
-   "prob": 0.356,
+   "prob": 0.548,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.42
+     "contrib": 0.37
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.0",
-     "contrib": -0.19
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1590.0",
+     "contrib": -0.22
     },
     {
-     "feature": "style_confidence",
-     "label": "스타일 확신도",
-     "value_text": "0.1",
-     "contrib": -0.16
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.18
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "805.0",
+     "contrib": -0.15
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "46.5",
      "contrib": -0.15
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-262.0",
-     "contrib": 0.14
     }
    ]
   },
@@ -189,7 +189,7 @@
    "season": 2021,
    "distance": 1.972,
    "survived": 1,
-   "fut_ability_v2": 52.8,
+   "fut_ability_v2": 52.7,
    "player_name": "Álex Moreno",
    "squad": "Betis"
   },
@@ -207,7 +207,7 @@
    "season": 2022,
    "distance": 2.065,
    "survived": 1,
-   "fut_ability_v2": 57.0,
+   "fut_ability_v2": 58.1,
    "player_name": "Kieran Tierney",
    "squad": "Arsenal"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Nahuel Molina(DF)의 현재 능력 점수는 55.7점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 전진 패스 수신, 슈팅 창출(SCA) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 공중볼 승률, 공중볼 승리이다.",
-  "potential": "Nahuel Molina의 2~3년 후 예측 중심값은 52.8점, 80% 구간 상단은 62.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 35.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 62.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(59.2, +0.9), 포지션 렌즈 점수(52.2, +0.6), 전진 그룹 점수(69.4, +0.5), 수비 그룹 점수(31.0, +0.5); 내린 요인은 능력 변화(전 시즌 대비)(4.2, -1.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 출전시간 변화(분))과 하락 요인(전진 운반/90, 스타일 확신도)을 거쳐 35.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Nahuel Molina의 2~3년 후 예측 중심값은 53.8점, 80% 구간 상단은 63.0점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 54.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 63.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-5.0, +0.6), 포지션 렌즈 점수(52.2, +0.3), 수비 그룹 점수(31.0, +0.3), 스타일 렌즈 점수(59.2, +0.3); 내린 요인은 능력 변화(전 시즌 대비)(4.2, -1.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 팀 강도 리그 내 순위(0=최강))과 하락 요인(시즌 출전시간(분), 2시즌 전 출전시간(분))을 거쳐 54.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

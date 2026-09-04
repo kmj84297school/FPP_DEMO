@@ -8,9 +8,11 @@
 import numpy as np
 import pandas as pd
 
-from features import build_feature_matrix, MODEL_FEATURES
+from features import build_feature_matrix, MODEL_FEATURES, SURVIVAL_EXTRA
 
 COHORT_YEARS = [2018, 2019, 2020, 2021, 2022]
+# 학습 행렬에서 피처가 아닌 열 — 07_train_models.py / 03_predict.py가 Xcols 선정 시 제외해야 한다.
+LABEL_COLS = ("fbref_id", "season", "survived", "fut_ability_v2", "fut_ability_max", "fut_n")
 FUTURE_OFFSETS = (2, 3)
 MIN_MINUTES = 900
 U23_AGE_MAX = 23
@@ -29,7 +31,7 @@ def build_cohorts(ability_df, features_df, extra_cols=(), verbose=True):
             & ability_df["ability"].notna()
         ]
         feat = build_feature_matrix(features_df, ability_df, year, extra_cols=extra_cols)
-        keep = list(MODEL_FEATURES) + list(extra_cols)
+        keep = list(MODEL_FEATURES) + list(SURVIVAL_EXTRA) + [c for c in extra_cols if c not in SURVIVAL_EXTRA]
 
         for _, row in cohort.iterrows():
             age = row["age_y"]
@@ -61,7 +63,9 @@ def build_cohorts(ability_df, features_df, extra_cols=(), verbose=True):
             rec["fbref_id"] = fid
             rec["season"] = year
             rec["survived"] = int(len(future) > 0)
-            rec["fut_ability_v2"] = float(np.mean(future)) if future else np.nan
+            rec["fut_ability_v2"] = float(np.mean(future)) if future else np.nan   # 평균 라벨(현행)
+            rec["fut_ability_max"] = float(np.max(future)) if future else np.nan   # 최댓값 라벨(A2 비교용)
+            rec["fut_n"] = len(future)
             rows[bucket].append(rec)
         if verbose:
             print(f"  {year} 처리 완료 (누적 u23={len(rows['u23'])}, veteran={len(rows['veteran'])})")

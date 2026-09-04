@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8683,
-  "mu": 58.5,
+  "survival_prob": 0.8726,
+  "mu": 59.8,
   "ci80": {
-   "lo": 49.3,
-   "hi": 67.8
+   "lo": 50.6,
+   "hi": 68.9
   },
   "ci50": {
-   "lo": 53.7,
-   "hi": 63.5
+   "lo": 55.0,
+   "hi": 64.6
   },
-  "sigma_model": 1.2,
+  "sigma_model": 0.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.0,
-   "total": -6.81,
+   "base": -1.93,
+   "rest": -0.58,
+   "total": -5.58,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "70.8",
-     "contrib": -1.6
+     "contrib": -1.03
     },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "3.0",
-     "contrib": -0.84
-    },
-    {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "79.8",
-     "contrib": 0.56
-    },
-    {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "88.7",
-     "contrib": -0.54
+     "contrib": -0.86
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "65.4",
-     "contrib": -0.48
+     "contrib": -0.67
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "5.9",
+     "contrib": -0.3
+    },
+    {
+     "feature": "grp_chance",
+     "label": "찬스 그룹 점수",
+     "value_text": "88.7",
+     "contrib": -0.22
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.134,
+   "base_logit": 0.151,
+   "rest": 0.543,
    "base_prob": 0.538,
-   "prob": 0.868,
+   "prob": 0.873,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "3167.0",
-     "contrib": 0.78
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "92.6",
-     "contrib": 0.33
+     "contrib": 0.56
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.31
+     "contrib": 0.33
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "70.8",
-     "contrib": 0.25
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "92.6",
+     "contrib": 0.28
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-98.0",
-     "contrib": 0.19
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "59.5",
+     "contrib": 0.18
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "928.0",
+     "contrib": -0.12
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Antonee Robinson(DF)의 현재 능력 점수는 65.4점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 어시스트, 전진 운반, 태클+인터셉트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클 성공률, 패스 성공률이다.",
-  "potential": "Antonee Robinson의 2~3년 후 예측 중심값은 58.5점, 80% 구간 상단은 67.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 86.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 67.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -6.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 전진 그룹 점수(79.8, +0.6); 내린 요인은 스타일 렌즈 점수(70.8, -1.6), 능력 변화(전 시즌 대비)(3.0, -0.8), 찬스 그룹 점수(88.7, -0.5), 현재 능력(65.4, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 86.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Antonee Robinson의 2~3년 후 예측 중심값은 59.8점, 80% 구간 상단은 68.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 87.3%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 68.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(70.8, -1.0), 능력 변화(전 시즌 대비)(3.0, -0.9), 현재 능력(65.4, -0.7), 팀 평균 대비 본인 능력(5.9, -0.3), 찬스 그룹 점수(88.7, -0.2)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 나이)과 하락 요인(2시즌 전 출전시간(분))을 거쳐 87.3%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

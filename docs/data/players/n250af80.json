@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2264,
-  "mu": 54.8,
+  "survival_prob": 0.3179,
+  "mu": 51.7,
   "ci80": {
-   "lo": 45.3,
-   "hi": 64.1
+   "lo": 42.4,
+   "hi": 60.8
   },
   "ci50": {
-   "lo": 49.7,
-   "hi": 59.7
+   "lo": 46.7,
+   "hi": 56.5
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.53,
-   "total": 4.14,
+   "base": -1.93,
+   "rest": 0.06,
+   "total": 1.02,
    "top": [
     {
      "feature": "KP90",
      "label": "키패스/90",
      "value_text": "0.1",
-     "contrib": 2.73
+     "contrib": 1.1
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "54.6",
-     "contrib": 1.24
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "46.5",
-     "contrib": 1.17
+     "contrib": 0.86
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "50.6",
-     "contrib": 1.06
+     "contrib": 0.86
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.0",
-     "contrib": -0.69
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "46.5",
+     "contrib": 0.59
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "4.9",
+     "contrib": -0.52
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.759,
+   "base_logit": 0.151,
+   "rest": -0.242,
    "base_prob": 0.538,
-   "prob": 0.226,
+   "prob": 0.318,
    "top": [
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1063.0",
-     "contrib": -0.75
-    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "25.0",
-     "contrib": 0.51
+     "contrib": 0.44
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "88.2",
-     "contrib": -0.32
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1063.0",
+     "contrib": -0.43
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.1",
-     "contrib": -0.27
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "45.7",
+     "contrib": -0.36
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "2.1",
-     "contrib": 0.2
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.23
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "31.1",
+     "contrib": -0.1
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Juan Berrocal(DF)의 현재 능력 점수는 50.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 볼 손실(미스+파울), 공중볼 승률, 공중볼 승리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반 거리, 전진 운반이다.",
-  "potential": "Juan Berrocal의 2~3년 후 예측 중심값은 54.8점, 80% 구간 상단은 64.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 64.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 키패스/90(0.1, +2.7), 스타일 렌즈 점수(54.6, +1.2), 포지션 렌즈 점수(46.5, +1.2), 현재 능력(50.6, +1.1); 내린 요인은 xAG/90(0.0, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 전진 패스/90)과 하락 요인(시즌 출전시간(분), 공중볼 승률)을 거쳐 22.6%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Juan Berrocal의 2~3년 후 예측 중심값은 51.7점, 80% 구간 상단은 60.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 31.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 60.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.1점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 키패스/90(0.1, +1.1), 스타일 렌즈 점수(54.6, +0.9), 현재 능력(50.6, +0.9), 포지션 렌즈 점수(46.5, +0.6); 내린 요인은 팀 평균 대비 본인 능력(4.9, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))을 거쳐 31.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.7177,
-  "mu": 70.7,
+  "survival_prob": 0.7237,
+  "mu": 71.4,
   "ci80": {
-   "lo": 61.4,
-   "hi": 80.2
+   "lo": 62.2,
+   "hi": 80.6
   },
   "ci50": {
-   "lo": 65.9,
-   "hi": 75.7
+   "lo": 66.6,
+   "hi": 76.3
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.38,
-   "total": 0.69,
+   "base": -1.93,
+   "rest": 1.34,
+   "total": 1.31,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-11.6",
-     "contrib": 4.68
+     "contrib": 3.56
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "71.5",
-     "contrib": -1.5
+     "contrib": -1.05
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "70.1",
+     "contrib": -0.81
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 1.01
+     "contrib": 0.6
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "2.5",
-     "contrib": -0.88
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "20.0",
-     "contrib": 0.67
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "68.6",
+     "contrib": -0.4
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.12,
+   "base_logit": 0.151,
+   "rest": 0.141,
    "base_prob": 0.538,
-   "prob": 0.718,
+   "prob": 0.724,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.88
+     "contrib": 0.49
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "69.5",
+     "contrib": 0.42
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1385.0",
-     "contrib": -0.28
+     "contrib": -0.25
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "71.5",
-     "contrib": 0.26
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
+     "contrib": 0.2
     },
     {
-     "feature": "d_grp_chance",
-     "label": "찬스 그룹 변화",
-     "value_text": "-12.9",
-     "contrib": 0.25
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "40.5",
-     "contrib": -0.21
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "459.0",
+     "contrib": -0.19
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Brahim Díaz(FW)의 현재 능력 점수는 70.1점이다. 플레이스타일은 '연결형 공격수'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 패스 성공률, 골 창출(GCA), 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 박스 터치이다.",
-  "potential": "Brahim Díaz의 2~3년 후 예측 중심값은 70.7점, 80% 구간 상단은 80.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 80.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-11.6, +4.7), 나이(24.0, +1.0), 공중볼 승률(20.0, +0.7); 내린 요인은 스타일 렌즈 점수(71.5, -1.5), 전진 운반/90(2.5, -0.9)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 스타일 렌즈 점수)과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 71.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Brahim Díaz의 2~3년 후 예측 중심값은 71.4점, 80% 구간 상단은 80.6점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 72.4%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 80.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-11.6, +3.6), 나이(24.0, +0.6); 내린 요인은 스타일 렌즈 점수(71.5, -1.1), 현재 능력(70.1, -0.8), 포지션 렌즈 점수(68.6, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(시즌 출전시간(분), 2시즌 전 출전시간(분))을 거쳐 72.4%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

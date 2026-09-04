@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2882,
-  "mu": 59.5,
+  "survival_prob": 0.4972,
+  "mu": 59.8,
   "ci80": {
-   "lo": 50.1,
-   "hi": 68.8
+   "lo": 50.5,
+   "hi": 69.1
   },
   "ci50": {
-   "lo": 54.4,
-   "hi": 64.4
+   "lo": 54.9,
+   "hi": 64.7
   },
-  "sigma_model": 1.8,
+  "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.08,
-   "total": -5.51,
+   "base": -1.93,
+   "rest": -1.45,
+   "total": -5.14,
    "top": [
     {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "1162.0",
-     "contrib": -0.83
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "1.7",
+     "contrib": -0.7
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "65.0",
+     "contrib": -0.68
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "135.0",
+     "contrib": 0.56
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "64.6",
+     "contrib": -0.54
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "65.2",
-     "contrib": -0.76
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.7",
-     "contrib": -0.72
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "66.0",
-     "contrib": -0.71
-    },
-    {
-     "feature": "d_ability",
-     "label": "능력 변화(전 시즌 대비)",
-     "value_text": "2.6",
-     "contrib": -0.67
+     "contrib": -0.4
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.056,
+   "base_logit": 0.151,
+   "rest": 0.185,
    "base_prob": 0.538,
-   "prob": 0.288,
+   "prob": 0.497,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1162.0",
-     "contrib": -0.71
+     "contrib": -0.49
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "27.0",
-     "contrib": 0.41
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.7",
-     "contrib": -0.34
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "4.0",
-     "contrib": -0.24
+     "contrib": 0.31
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "34.0",
-     "contrib": -0.22
+     "contrib": -0.15
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "135.0",
+     "contrib": -0.13
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "59.5",
+     "contrib": 0.11
     }
    ]
   },
@@ -382,12 +382,12 @@
    "n_seasons": 4
   },
   "consistency": {
-   "ability_std": 5.5,
+   "ability_std": 5.7,
    "n_rated_seasons": 3
   }
  },
  "narrative": {
   "current": "Harry Wilson(FW)의 현재 능력 점수는 65.0점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 볼 손실(미스+파울), 태클 성공률, 유효슈팅 순으로 나타난다. 상대적으로 보완이 필요한 부분은 도움 기대값(xAG), 어시스트이다.",
-  "potential": "Harry Wilson의 2~3년 후 예측 중심값은 59.5점, 80% 구간 상단은 68.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 28.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 68.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 내린 요인은 시즌 출전시간(분)(1162.0, -0.8), 포지션 렌즈 점수(65.2, -0.8), 전진 운반/90(1.7, -0.7), 수비 그룹 점수(66.0, -0.7), 능력 변화(전 시즌 대비)(2.6, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(시즌 출전시간(분), 전진 운반/90)을 거쳐 28.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Harry Wilson의 2~3년 후 예측 중심값은 59.8점, 80% 구간 상단은 69.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 49.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 69.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 2시즌 전 출전시간(분)(135.0, +0.6); 내린 요인은 능력 변화(전 시즌 대비)(1.7, -0.7), 현재 능력(65.0, -0.7), 스타일 렌즈 점수(64.6, -0.5), 포지션 렌즈 점수(65.2, -0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 49.7%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

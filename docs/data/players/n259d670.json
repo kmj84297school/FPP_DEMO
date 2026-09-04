@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9257,
-  "mu": 58.7,
+  "survival_prob": 0.848,
+  "mu": 55.9,
   "ci80": {
-   "lo": 48.3,
-   "hi": 69.1
+   "lo": 45.8,
+   "hi": 66.2
   },
   "ci50": {
-   "lo": 53.3,
-   "hi": 64.2
+   "lo": 50.6,
+   "hi": 61.4
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 8.0
+  "sigma_model": 1.1,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 0.27,
-   "total": 8.12,
+   "base": 0.93,
+   "rest": 0.42,
+   "total": 5.41,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "18.0",
-     "contrib": 2.15
+     "contrib": 1.49
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "52.8",
-     "contrib": 1.81
+     "contrib": 1.33
     },
     {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "93.8",
-     "contrib": 1.09
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-8.0",
+     "contrib": 0.85
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "78.9",
-     "contrib": 1.05
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "50.6",
+     "contrib": 0.58
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "18.2",
-     "contrib": 0.77
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "0.4",
+     "contrib": -0.2
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.223,
-   "base_prob": 0.719,
-   "prob": 0.926,
+   "base_logit": 0.956,
+   "rest": -0.517,
+   "base_prob": 0.722,
+   "prob": 0.848,
    "top": [
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "77.3",
-     "contrib": 0.77
+     "contrib": 0.48
     },
     {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "93.8",
-     "contrib": 0.51
-    },
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "18.0",
-     "contrib": 0.4
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "1.0",
+     "contrib": 0.24
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2365.0",
-     "contrib": 0.3
+     "contrib": 0.19
     },
     {
-     "feature": "SCA90",
-     "label": "슈팅 창출/90",
-     "value_text": "0.5",
-     "contrib": -0.18
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "58.5",
+     "contrib": 0.18
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "18.0",
+     "contrib": 0.18
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Mamadou Sarr(DF)의 현재 능력 점수는 50.6점이다. 플레이스타일은 '스토퍼'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 패스 성공률, 슈팅당 기대득점, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 전진 패스이다.",
-  "potential": "Mamadou Sarr의 2~3년 후 예측 중심값은 58.7점, 80% 구간 상단은 69.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 92.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 69.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +8.1점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 나이(18.0, +2.1), 스타일 렌즈 점수(52.8, +1.8), 패스 성공률(93.8, +1.1), 공중볼 승률(78.9, +1.1), 찬스 그룹 점수(18.2, +0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 패스 성공률)과 하락 요인(슈팅 창출/90)을 거쳐 92.6%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Mamadou Sarr의 2~3년 후 예측 중심값은 55.9점, 80% 구간 상단은 66.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 84.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 66.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.3점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 나이(18.0, +1.5), 스타일 렌즈 점수(52.8, +1.3), 팀 평균 대비 본인 능력(-8.0, +0.8), 현재 능력(50.6, +0.6); 내린 요인은 성공 드리블/90(0.4, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 선발 비율)을 거쳐 84.8%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

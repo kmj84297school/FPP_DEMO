@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6352,
-  "mu": 39.1,
+  "survival_prob": 0.331,
+  "mu": 43.6,
   "ci80": {
-   "lo": 29.7,
-   "hi": 48.7
+   "lo": 34.2,
+   "hi": 53.1
   },
   "ci50": {
-   "lo": 34.2,
-   "hi": 44.2
+   "lo": 38.7,
+   "hi": 48.6
   },
-  "sigma_model": 2.0,
+  "sigma_model": 1.8,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.41,
-   "total": 5.38,
+   "base": -1.93,
+   "rest": 1.7,
+   "total": 9.84,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-25.2",
-     "contrib": 4.25
+     "contrib": 3.93
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "33.0",
-     "contrib": 4.2
+     "contrib": 3.07
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "33.8",
-     "contrib": 0.96
+     "contrib": 1.6
     },
     {
-     "feature": "d_xAG90",
-     "label": "xAG/90 변화",
-     "value_text": "-0.1",
-     "contrib": -0.89
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-13.7",
+     "contrib": 0.9
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "943.0",
-     "contrib": -0.82
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "373.0",
+     "contrib": 0.58
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.435,
+   "base_logit": 0.151,
+   "rest": -0.419,
    "base_prob": 0.538,
-   "prob": 0.635,
+   "prob": 0.331,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.74
+     "contrib": 0.42
     },
     {
-     "feature": "d_grp_chance",
-     "label": "찬스 그룹 변화",
-     "value_text": "-53.4",
-     "contrib": 0.34
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "47.5",
+     "contrib": -0.39
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "33.0",
-     "contrib": -0.24
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.26
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "33.8",
-     "contrib": -0.22
+     "contrib": -0.1
     },
     {
-     "feature": "d_grp_prod",
-     "label": "생산 그룹 변화",
-     "value_text": "-35.3",
-     "contrib": 0.21
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "33.0",
+     "contrib": -0.1
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Jens Cajuste(MF)의 현재 능력 점수는 33.8점이다. 플레이스타일은 '볼 운반형'로 분류된다. 그룹별 점수는 특별히 두드러지는 항목 없이 대체로 평이하며, 세부 강점은 성공 드리블, 태클+인터셉트, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 유효슈팅, 박스 진입 패스이다.",
-  "potential": "Jens Cajuste의 2~3년 후 예측 중심값은 39.1점, 80% 구간 상단은 48.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 63.5%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 48.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +5.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-25.2, +4.2), 스타일 렌즈 점수(33.0, +4.2), 현재 능력(33.8, +1.0); 내린 요인은 xAG/90 변화(-0.1, -0.9), 출전시간 변화(분)(943.0, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 찬스 그룹 변화)과 하락 요인(스타일 렌즈 점수, 현재 능력)을 거쳐 63.5%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Jens Cajuste의 2~3년 후 예측 중심값은 43.6점, 80% 구간 상단은 53.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 33.1%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 53.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +9.8점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-25.2, +3.9), 스타일 렌즈 점수(33.0, +3.1), 현재 능력(33.8, +1.6), 팀 평균 대비 본인 능력(-13.7, +0.9), 2시즌 전 출전시간(분)(373.0, +0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 33.1%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

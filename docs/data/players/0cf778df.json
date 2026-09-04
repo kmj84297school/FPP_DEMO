@@ -38,91 +38,91 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8512,
-  "mu": 67.3,
+  "survival_prob": 0.7677,
+  "mu": 70.1,
   "ci80": {
-   "lo": 58.0,
-   "hi": 76.7
+   "lo": 60.9,
+   "hi": 79.4
   },
   "ci50": {
-   "lo": 62.5,
-   "hi": 72.2
+   "lo": 65.3,
+   "hi": 75.0
   },
-  "sigma_model": 1.6,
+  "sigma_model": 1.3,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": 0.46,
-   "total": -2.52,
+   "base": -1.93,
+   "rest": 1.33,
+   "total": 0.25,
    "top": [
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "74.1",
-     "contrib": -2.16
-    },
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "-5.5",
-     "contrib": 1.75
+     "contrib": 1.61
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.0",
-     "contrib": -0.97
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "74.1",
+     "contrib": -1.23
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "69.9",
+     "contrib": -0.73
     },
     {
      "feature": "grp_defense",
      "label": "수비 그룹 점수",
      "value_text": "22.3",
-     "contrib": 0.95
+     "contrib": 0.64
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "82.5",
-     "contrib": -0.66
+     "feature": "TakeOn90",
+     "label": "성공 드리블/90",
+     "value_text": "1.8",
+     "contrib": 0.55
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": 0.225,
+   "base_logit": 0.151,
+   "rest": 0.228,
    "base_prob": 0.538,
-   "prob": 0.851,
+   "prob": 0.768,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "26.0",
-     "contrib": 0.41
+     "contrib": 0.33
     },
     {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "74.1",
-     "contrib": 0.31
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "65.4",
+     "contrib": 0.32
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1981.0",
-     "contrib": 0.23
+     "contrib": 0.18
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-586.0",
-     "contrib": 0.23
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "706.0",
+     "contrib": -0.18
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "5.2",
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.1",
      "contrib": 0.17
     }
    ]
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Chris Führich(MF)의 현재 능력 점수는 69.9점이다. 플레이스타일은 '공격형 MF'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 전진 운반, 박스 터치, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 태클+인터셉트, 볼 리커버리이다.",
-  "potential": "Chris Führich의 2~3년 후 예측 중심값은 67.3점, 80% 구간 상단은 76.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 85.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 76.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -2.6점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-5.5, +1.8), 수비 그룹 점수(22.3, +0.9); 내린 요인은 스타일 렌즈 점수(74.1, -2.2), 태클+인터셉트/90(1.0, -1.0), 찬스 그룹 점수(82.5, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 스타일 렌즈 점수)을 거쳐 85.1%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Chris Führich의 2~3년 후 예측 중심값은 70.1점, 80% 구간 상단은 79.4점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 76.8%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 79.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +0.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-5.5, +1.6), 수비 그룹 점수(22.3, +0.6), 성공 드리블/90(1.8, +0.6); 내린 요인은 스타일 렌즈 점수(74.1, -1.2), 현재 능력(69.9, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 소속팀 평균 능력(팀 강도))과 하락 요인(2시즌 전 출전시간(분))을 거쳐 76.8%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

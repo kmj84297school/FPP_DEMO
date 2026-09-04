@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.8384,
-  "mu": 59.4,
+  "survival_prob": 0.7098,
+  "mu": 57.9,
   "ci80": {
-   "lo": 49.9,
-   "hi": 68.7
+   "lo": 48.7,
+   "hi": 67.1
   },
   "ci50": {
-   "lo": 54.4,
-   "hi": 64.3
+   "lo": 53.1,
+   "hi": 62.8
   },
-  "sigma_model": 1.7,
+  "sigma_model": 1.2,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -2.14,
-   "total": -3.47,
+   "base": -1.93,
+   "rest": -1.01,
+   "total": -4.9,
    "top": [
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 1.26
-    },
-    {
-     "feature": "sty_돌파형 윙어",
-     "label": "스타일: 돌파형 윙어",
-     "value_text": "예",
-     "contrib": 1.12
-    },
-    {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "42.4",
-     "contrib": -0.74
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "63.2",
-     "contrib": -0.57
-    },
-    {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.4",
-     "contrib": -0.51
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": 0.126,
-   "base_prob": 0.538,
-   "prob": 0.838,
-   "top": [
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "24.0",
-     "contrib": 0.47
-    },
-    {
-     "feature": "std_Min_Playing",
-     "label": "시즌 출전시간(분)",
-     "value_text": "2467.0",
-     "contrib": 0.33
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "80.6",
-     "contrib": 0.3
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "8.4",
+     "contrib": -0.89
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "62.8",
-     "contrib": 0.14
+     "contrib": -0.8
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "4.6",
-     "contrib": 0.12
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.68
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "63.2",
+     "contrib": -0.51
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.45
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": 0.221,
+   "base_prob": 0.538,
+   "prob": 0.71,
+   "top": [
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "24.0",
+     "contrib": 0.35
+    },
+    {
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "2467.0",
+     "contrib": 0.26
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "80.6",
+     "contrib": 0.18
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "54.4",
+     "contrib": -0.15
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
+     "contrib": -0.12
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Mohamed Amoura(FW)의 현재 능력 점수는 62.8점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 블록, 어시스트, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 최종 3분의1 패스이다.",
-  "potential": "Mohamed Amoura의 2~3년 후 예측 중심값은 59.4점, 80% 구간 상단은 68.7점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 83.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 68.7점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +1.3), 스타일: 돌파형 윙어(예, +1.1); 내린 요인은 안정 그룹 점수(42.4, -0.7), 스타일 렌즈 점수(63.2, -0.6), 태클+인터셉트/90(1.4, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))을 거쳐 83.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Mohamed Amoura의 2~3년 후 예측 중심값은 57.9점, 80% 구간 상단은 67.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 71.0%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 67.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.9점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 나이(24.0, +0.7); 내린 요인은 팀 평균 대비 본인 능력(8.4, -0.9), 현재 능력(62.8, -0.8), 스타일 렌즈 점수(63.2, -0.5), 능력 변화(전 시즌 대비)(결측, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 시즌 출전시간(분))과 하락 요인(소속팀 평균 능력(팀 강도), 팀 강도 리그 내 순위(0=최강))을 거쳐 71.0%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

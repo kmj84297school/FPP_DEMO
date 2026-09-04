@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.384,
-  "mu": 49.8,
+  "survival_prob": 0.4047,
+  "mu": 47.1,
   "ci80": {
-   "lo": 40.5,
-   "hi": 59.2
+   "lo": 37.8,
+   "hi": 56.3
   },
   "ci50": {
-   "lo": 44.9,
-   "hi": 54.8
+   "lo": 42.1,
+   "hi": 51.9
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.1,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.58,
-   "total": 2.36,
+   "base": -1.93,
+   "rest": -0.56,
+   "total": -0.47,
    "top": [
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "47.5",
-     "contrib": 1.11
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "10.8",
-     "contrib": 1.04
+     "contrib": 0.96
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "56.2",
-     "contrib": 1.04
+     "contrib": 0.75
+    },
+    {
+     "feature": "lg_Serie A",
+     "label": "리그: 세리에A",
+     "value_text": "예",
+     "contrib": -0.6
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "38.8",
-     "contrib": 0.96
+     "contrib": 0.46
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.7
+     "contrib": 0.44
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.982,
+   "base_logit": 0.151,
+   "rest": -0.433,
    "base_prob": 0.538,
-   "prob": 0.384,
+   "prob": 0.405,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "24.0",
-     "contrib": 0.58
+     "contrib": 0.45
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.7",
-     "contrib": -0.37
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "50.0",
+     "contrib": -0.23
     },
     {
-     "feature": "style_confidence",
-     "label": "스타일 확신도",
-     "value_text": "1.1",
-     "contrib": 0.15
+     "feature": "std_Min_Playing",
+     "label": "시즌 출전시간(분)",
+     "value_text": "1723.0",
+     "contrib": -0.16
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "10.8",
-     "contrib": -0.14
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "50.4",
+     "contrib": -0.09
     },
     {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "0.5",
-     "contrib": 0.14
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "56.2",
+     "contrib": -0.07
     }
    ]
   },
@@ -180,7 +180,7 @@
    "season": 2022,
    "distance": 1.78,
    "survived": 1,
-   "fut_ability_v2": 59.3,
+   "fut_ability_v2": 59.2,
    "player_name": "Nabil Bentaleb",
    "squad": "Angers"
   },
@@ -216,7 +216,7 @@
    "season": 2022,
    "distance": 1.899,
    "survived": 1,
-   "fut_ability_v2": 49.0,
+   "fut_ability_v2": 49.1,
    "player_name": "Yohann Magnin",
    "squad": "Clermont Foot"
   }
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Balthazar Pierret(MF)의 현재 능력 점수는 47.5점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 태클+인터셉트, 공중볼 승률 순으로 나타난다. 상대적으로 보완이 필요한 부분은 비페널티 xG, 유효슈팅이다.",
-  "potential": "Balthazar Pierret의 2~3년 후 예측 중심값은 49.8점, 80% 구간 상단은 59.2점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 38.4%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 59.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.3점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 현재 능력(47.5, +1.1), 생산 그룹 점수(10.8, +1.0), 스타일 렌즈 점수(56.2, +1.0), 포지션 렌즈 점수(38.8, +1.0), 나이(24.0, +0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이, 스타일 확신도)과 하락 요인(전진 운반/90, 생산 그룹 점수)을 거쳐 38.4%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Balthazar Pierret의 2~3년 후 예측 중심값은 47.1점, 80% 구간 상단은 56.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 40.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 56.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.4점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 현재 능력(47.5, +1.0), 스타일 렌즈 점수(56.2, +0.8), 포지션 렌즈 점수(38.8, +0.5), 나이(24.0, +0.4); 내린 요인은 리그: 세리에A(예, -0.6)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(나이)과 하락 요인(소속팀 평균 능력(팀 강도), 시즌 출전시간(분))을 거쳐 40.5%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

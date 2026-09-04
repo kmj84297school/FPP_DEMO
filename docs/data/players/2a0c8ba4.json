@@ -38,74 +38,68 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2266,
-  "mu": 54.4,
+  "survival_prob": 0.2509,
+  "mu": 54.9,
   "ci80": {
-   "lo": 45.1,
-   "hi": 63.8
+   "lo": 45.8,
+   "hi": 64.1
   },
   "ci50": {
-   "lo": 49.5,
-   "hi": 59.3
+   "lo": 50.1,
+   "hi": 59.8
   },
-  "sigma_model": 1.5,
+  "sigma_model": 1.0,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.43,
-   "total": -4.96,
+   "base": -1.93,
+   "rest": -0.74,
+   "total": -4.45,
    "top": [
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "12.7",
+     "contrib": -1.2
+    },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "59.5",
-     "contrib": 1.28
+     "contrib": 0.53
     },
     {
-     "feature": "KP90",
-     "label": "키패스/90",
-     "value_text": "2.0",
-     "contrib": -1.2
-    },
-    {
-     "feature": "SCA90",
-     "label": "슈팅 창출/90",
-     "value_text": "3.5",
-     "contrib": -0.62
-    },
-    {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.1",
-     "contrib": -0.59
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "59.3",
-     "contrib": -0.48
-    }
-   ]
-  },
-  "survival": {
-   "base_logit": 0.154,
-   "rest": -0.366,
-   "base_prob": 0.538,
-   "prob": 0.227,
-   "top": [
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.4",
-     "contrib": -0.43
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "결측",
+     "contrib": -0.46
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "30.0",
-     "contrib": -0.34
+     "contrib": -0.35
+    },
+    {
+     "feature": "PrgCarry90",
+     "label": "전진 운반/90",
+     "value_text": "0.4",
+     "contrib": -0.31
+    }
+   ]
+  },
+  "survival": {
+   "base_logit": 0.151,
+   "rest": -0.149,
+   "base_prob": 0.538,
+   "prob": 0.251,
+   "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.7",
+     "contrib": -0.28
     },
     {
      "feature": "std_Min_Playing",
@@ -114,16 +108,22 @@
      "contrib": -0.28
     },
     {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "6.6",
-     "contrib": 0.2
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "30.0",
+     "contrib": -0.26
     },
     {
-     "feature": "style_confidence",
-     "label": "스타일 확신도",
-     "value_text": "0.1",
-     "contrib": -0.17
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.9",
+     "contrib": -0.14
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "41.3",
+     "contrib": -0.13
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Joan Jordán(MF)의 현재 능력 점수는 59.4점이다. 플레이스타일은 '딥 플레이메이커'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 최종 3분의1 패스, 키패스, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 운반, 박스 터치이다.",
-  "potential": "Joan Jordán의 2~3년 후 예측 중심값은 54.4점, 80% 구간 상단은 63.8점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 22.7%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 63.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -5.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(59.5, +1.3); 내린 요인은 키패스/90(2.0, -1.2), 슈팅 창출/90(3.5, -0.6), xAG/90(0.1, -0.6), 포지션 렌즈 점수(59.3, -0.5)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(전진 패스/90)과 하락 요인(전진 운반/90, 나이)을 거쳐 22.7%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Joan Jordán의 2~3년 후 예측 중심값은 54.9점, 80% 구간 상단은 64.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.1%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 64.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.5점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(59.5, +0.5); 내린 요인은 팀 평균 대비 본인 능력(12.7, -1.2), 능력 변화(전 시즌 대비)(결측, -0.5), 나이(30.0, -0.3), 전진 운반/90(0.4, -0.3)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(소속팀 평균 능력(팀 강도), 시즌 출전시간(분))을 거쳐 25.1%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

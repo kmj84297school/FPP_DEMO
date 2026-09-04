@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.4962,
-  "mu": 50.3,
+  "survival_prob": 0.6608,
+  "mu": 53.5,
   "ci80": {
-   "lo": 39.9,
-   "hi": 60.8
+   "lo": 43.3,
+   "hi": 63.8
   },
   "ci50": {
-   "lo": 44.8,
-   "hi": 55.8
+   "lo": 48.1,
+   "hi": 58.9
   },
-  "sigma_model": 1.6,
-  "sigma_residual": 8.0
+  "sigma_model": 0.8,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -1.54,
-   "total": -1.66,
+   "base": 0.93,
+   "rest": -0.73,
+   "total": 1.55,
    "top": [
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "52.0",
-     "contrib": 0.76
+     "contrib": 0.52
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "26.7",
-     "contrib": -0.67
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-2.9",
+     "contrib": 0.47
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.8",
-     "contrib": -0.45
-    },
-    {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "49.8",
-     "contrib": -0.4
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "58.0",
+     "contrib": 0.4
     },
     {
      "feature": "TakeOn90",
      "label": "성공 드리블/90",
      "value_text": "0.6",
-     "contrib": -0.34
+     "contrib": -0.2
+    },
+    {
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "46.0",
+     "contrib": 0.16
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.527,
-   "base_prob": 0.719,
-   "prob": 0.496,
+   "base_logit": 0.956,
+   "rest": -0.11,
+   "base_prob": 0.722,
+   "prob": 0.661,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1273.0",
-     "contrib": -0.59
+     "contrib": -0.36
     },
     {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "68.8",
-     "contrib": 0.23
-    },
-    {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.1",
-     "contrib": 0.2
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.9",
+     "contrib": 0.33
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "38.1",
-     "contrib": -0.14
+     "contrib": -0.11
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "26.7",
-     "contrib": -0.13
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "46.0",
+     "contrib": -0.1
+    },
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "68.8",
+     "contrib": 0.06
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Frans Krätzig(DF)의 현재 능력 점수는 52.0점이다. 플레이스타일은 '공격형 풀백'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 키패스, 슈팅 창출(SCA), 어시스트 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 공중볼 승리이다.",
-  "potential": "Frans Krätzig의 2~3년 후 예측 중심값은 50.3점, 80% 구간 상단은 60.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 49.6%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 60.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -1.7점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 현재 능력(52.0, +0.8); 내린 요인은 공중볼 승률(26.7, -0.7), 전진 운반/90(1.8, -0.5), 전진 그룹 점수(49.8, -0.4), 성공 드리블/90(0.6, -0.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(생산 그룹 점수, xAG/90)과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 49.6%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Frans Krätzig의 2~3년 후 예측 중심값은 53.5점, 80% 구간 상단은 63.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 66.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 63.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.5점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 현재 능력(52.0, +0.5), 팀 평균 대비 본인 능력(-2.9, +0.5), 스타일 렌즈 점수(58.0, +0.4), 포지션 렌즈 점수(46.0, +0.2); 내린 요인은 성공 드리블/90(0.6, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(선발 비율, 생산 그룹 점수)과 하락 요인(시즌 출전시간(분), 팀 출전시간 비중(%))을 거쳐 66.1%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

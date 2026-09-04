@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.673,
-  "mu": 65.4,
+  "survival_prob": 0.6546,
+  "mu": 62.1,
   "ci80": {
-   "lo": 54.8,
-   "hi": 76.0
+   "lo": 51.8,
+   "hi": 72.3
   },
   "ci50": {
-   "lo": 59.8,
-   "hi": 71.0
+   "lo": 56.7,
+   "hi": 67.5
   },
-  "sigma_model": 2.3,
-  "sigma_residual": 8.0
+  "sigma_model": 1.2,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.15,
-   "total": 2.58,
+   "base": 0.93,
+   "rest": 0.45,
+   "total": -0.74,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "67.5",
-     "contrib": -1.61
+     "contrib": -1.24
     },
     {
-     "feature": "SCA90",
-     "label": "슈팅 창출/90",
-     "value_text": "3.9",
-     "contrib": 0.96
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "8.7",
+     "contrib": -0.73
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "1.9",
-     "contrib": 0.89
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "62.8",
+     "contrib": -0.66
+    },
+    {
+     "feature": "grp_prod",
+     "label": "생산 그룹 점수",
+     "value_text": "34.0",
+     "contrib": 0.28
     },
     {
      "feature": "TakeOn90",
      "label": "성공 드리블/90",
      "value_text": "1.9",
-     "contrib": 0.8
-    },
-    {
-     "feature": "sty_돌파형 윙어",
-     "label": "스타일: 돌파형 윙어",
-     "value_text": "예",
-     "contrib": 0.71
+     "contrib": 0.23
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.229,
-   "base_prob": 0.719,
-   "prob": 0.673,
+   "base_logit": 0.956,
+   "rest": -0.046,
+   "base_prob": 0.722,
+   "prob": 0.655,
    "top": [
-    {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "20.0",
-     "contrib": 0.41
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1405.0",
-     "contrib": -0.32
+     "contrib": -0.31
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "58.0",
-     "contrib": 0.3
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "20.0",
+     "contrib": 0.19
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "21.1",
-     "contrib": -0.2
+     "feature": "starts_share",
+     "label": "선발 비율",
+     "value_text": "0.6",
+     "contrib": -0.13
     },
     {
-     "feature": "AttPenT90",
-     "label": "박스 터치/90",
-     "value_text": "3.1",
-     "contrib": -0.18
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "41.1",
+     "contrib": -0.12
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "62.8",
+     "contrib": 0.1
     }
    ]
   },
@@ -180,7 +180,7 @@
    "season": 2022,
    "distance": 3.03,
    "survived": 1,
-   "fut_ability_v2": 68.5,
+   "fut_ability_v2": 68.4,
    "player_name": "Oihan Sancet",
    "squad": "Athletic Club"
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Yaser Asprilla(FW)의 현재 능력 점수는 62.8점이다. 플레이스타일은 '돌파형 윙어'로 분류된다. 가장 두드러지는 항목은 찬스 그룹이며, 세부 강점은 박스 진입 패스, 전진 패스, 전진 패스 거리 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅당 기대득점, 비페널티 xG이다.",
-  "potential": "Yaser Asprilla의 2~3년 후 예측 중심값은 65.4점, 80% 구간 상단은 76.0점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 67.3%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 76.0점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +2.6점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 슈팅 창출/90(3.9, +1.0), 태클+인터셉트/90(1.9, +0.9), 성공 드리블/90(1.9, +0.8), 스타일: 돌파형 윙어(예, +0.7); 내린 요인은 스타일 렌즈 점수(67.5, -1.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 포지션 렌즈 점수)과 하락 요인(시즌 출전시간(분), 공중볼 승률)을 거쳐 67.3%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Yaser Asprilla의 2~3년 후 예측 중심값은 62.1점, 80% 구간 상단은 72.3점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 65.5%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 72.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -0.7점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 생산 그룹 점수(34.0, +0.3), 성공 드리블/90(1.9, +0.2); 내린 요인은 스타일 렌즈 점수(67.5, -1.2), 팀 평균 대비 본인 능력(8.7, -0.7), 현재 능력(62.8, -0.7)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 현재 능력)과 하락 요인(시즌 출전시간(분), 선발 비율)을 거쳐 65.5%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

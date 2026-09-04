@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.0621,
-  "mu": 50.6,
+  "survival_prob": 0.2442,
+  "mu": 52.1,
   "ci80": {
-   "lo": 41.1,
-   "hi": 60.1
+   "lo": 42.8,
+   "hi": 61.3
   },
   "ci50": {
-   "lo": 45.6,
-   "hi": 55.6
+   "lo": 47.2,
+   "hi": 56.9
   },
-  "sigma_model": 2.2,
+  "sigma_model": 1.4,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -0.27,
-   "total": -4.74,
+   "base": -1.93,
+   "rest": -0.62,
+   "total": -3.23,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
      "value_text": "4.1",
-     "contrib": -1.41
-    },
-    {
-     "feature": "score_style",
-     "label": "스타일 렌즈 점수",
-     "value_text": "57.8",
-     "contrib": 1.24
-    },
-    {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "27.7",
-     "contrib": -0.81
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.9",
-     "contrib": -0.81
+     "contrib": -1.4
     },
     {
      "feature": "npxG90",
      "label": "비페널티 xG/90",
      "value_text": "0.4",
-     "contrib": -0.76
+     "contrib": -0.73
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-5.6",
+     "contrib": 0.64
+    },
+    {
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "55.3",
+     "contrib": 0.42
+    },
+    {
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "57.8",
+     "contrib": 0.39
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.587,
+   "base_logit": 0.151,
+   "rest": -0.107,
    "base_prob": 0.538,
-   "prob": 0.062,
+   "prob": 0.244,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "33.0",
-     "contrib": -1.73
-    },
-    {
-     "feature": "d_SCA90",
-     "label": "SCA/90 변화",
-     "value_text": "-1.5",
-     "contrib": -0.31
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.9",
-     "contrib": -0.21
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "422.0",
-     "contrib": -0.2
+     "contrib": -1.25
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2115.0",
-     "contrib": 0.18
+     "contrib": 0.16
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "60.9",
+     "contrib": 0.11
+    },
+    {
+     "feature": "min_prev2",
+     "label": "2시즌 전 출전시간(분)",
+     "value_text": "912.0",
+     "contrib": -0.11
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "61.8",
+     "contrib": -0.08
     }
    ]
   },
@@ -144,7 +144,7 @@
    "season": 2021,
    "distance": 2.312,
    "survived": 1,
-   "fut_ability_v2": 71.3,
+   "fut_ability_v2": 71.4,
    "player_name": "Pierre-Emerick Aubameyang",
    "squad": "Arsenal"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Danny Welbeck(FW)의 현재 능력 점수는 55.3점이다. 플레이스타일은 '박스 포처'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 패스 성공률, 비페널티 xG, 무페널티 득점 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 도움 기대값(xAG)이다.",
-  "potential": "Danny Welbeck의 2~3년 후 예측 중심값은 50.6점, 80% 구간 상단은 60.1점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 6.2%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 60.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -4.7점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(57.8, +1.2); 내린 요인은 능력 변화(전 시즌 대비)(4.1, -1.4), 전진 그룹 점수(27.7, -0.8), 전진 운반/90(0.9, -0.8), 비페널티 xG/90(0.4, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분))과 하락 요인(나이, SCA/90 변화)을 거쳐 6.2%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Danny Welbeck의 2~3년 후 예측 중심값은 52.1점, 80% 구간 상단은 61.3점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 24.4%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 61.3점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 팀 평균 대비 본인 능력(-5.6, +0.6), 현재 능력(55.3, +0.4), 스타일 렌즈 점수(57.8, +0.4); 내린 요인은 능력 변화(전 시즌 대비)(4.1, -1.4), 비페널티 xG/90(0.4, -0.7)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(시즌 출전시간(분), 소속팀 평균 능력(팀 강도))과 하락 요인(나이, 2시즌 전 출전시간(분))을 거쳐 24.4%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

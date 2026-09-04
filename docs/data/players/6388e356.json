@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.2577,
-  "mu": 50.4,
+  "survival_prob": 0.2419,
+  "mu": 50.6,
   "ci80": {
-   "lo": 40.8,
+   "lo": 41.3,
    "hi": 59.9
   },
   "ci50": {
-   "lo": 45.3,
-   "hi": 55.4
+   "lo": 45.7,
+   "hi": 55.5
   },
-  "sigma_model": 2.1,
+  "sigma_model": 1.5,
   "sigma_residual": 7.1
  },
  "explanation": {
   "delta": {
-   "base": -1.91,
-   "rest": -1.36,
-   "total": 3.98,
+   "base": -1.93,
+   "rest": -0.1,
+   "total": 4.19,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-8.7",
-     "contrib": 3.34
+     "value_text": "-8.6",
+     "contrib": 2.99
     },
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "49.1",
-     "contrib": 2.53
-    },
-    {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "43.7",
-     "contrib": 1.15
+     "contrib": 1.44
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "46.4",
-     "contrib": 0.98
+     "contrib": 0.99
     },
     {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.5",
-     "contrib": -0.75
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "43.7",
+     "contrib": 0.43
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-3.3",
+     "contrib": 0.36
     }
    ]
   },
   "survival": {
-   "base_logit": 0.154,
-   "rest": -0.305,
+   "base_logit": 0.151,
+   "rest": -0.355,
    "base_prob": 0.538,
-   "prob": 0.258,
+   "prob": 0.242,
    "top": [
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "1233.0",
-     "contrib": -0.42
+     "contrib": -0.3
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "1.0",
+     "contrib": -0.19
     },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "29.0",
-     "contrib": -0.29
-    },
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "1.5",
-     "contrib": -0.23
-    },
-    {
-     "feature": "npxG90",
-     "label": "비페널티 xG/90",
-     "value_text": "0.0",
-     "contrib": 0.21
-    },
-    {
-     "feature": "PrgPass90",
-     "label": "전진 패스/90",
-     "value_text": "4.3",
      "contrib": -0.18
+    },
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "49.7",
+     "contrib": -0.14
+    },
+    {
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "40.3",
+     "contrib": -0.12
     }
    ]
   },
@@ -171,7 +171,7 @@
    "season": 2022,
    "distance": 2.121,
    "survived": 1,
-   "fut_ability_v2": 54.4,
+   "fut_ability_v2": 54.3,
    "player_name": "Elseid Hysaj",
    "squad": "Lazio"
   },
@@ -207,7 +207,7 @@
    "season": 2021,
    "distance": 2.276,
    "survived": 1,
-   "fut_ability_v2": 38.7,
+   "fut_ability_v2": 38.6,
    "player_name": "Nathaniel Clyne",
    "squad": "Crystal Palace"
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Falaye Sacko(DF)의 현재 능력 점수는 46.4점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 안정 그룹이며, 세부 강점은 슈팅당 기대득점, 전진 패스, 볼 손실(미스+파울) 순으로 나타난다. 상대적으로 보완이 필요한 부분은 클리어링, 태클 성공률이다.",
-  "potential": "Falaye Sacko의 2~3년 후 예측 중심값은 50.4점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 25.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 59.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.0점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-8.7, +3.3), 스타일 렌즈 점수(49.1, +2.5), 포지션 렌즈 점수(43.7, +1.1), 현재 능력(46.4, +1.0); 내린 요인은 전진 운반/90(1.5, -0.8)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 상승 요인(비페널티 xG/90)과 하락 요인(시즌 출전시간(분), 나이)을 거쳐 25.8%가 되었다 (이 모델의 R²는 0.5로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Falaye Sacko의 2~3년 후 예측 중심값은 50.6점, 80% 구간 상단은 59.9점이다(성숙기 모델(24세 이상 학습)). 빅5 현역 유지확률은 24.2%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 59.9점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +4.2점(같은 코호트 평균 변화 -1.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-8.6, +3.0), 스타일 렌즈 점수(49.1, +1.4), 현재 능력(46.4, +1.0), 포지션 렌즈 점수(43.7, +0.4), 팀 평균 대비 본인 능력(-3.3, +0.4)이다. 빅5 현역 유지확률은 코호트 기준 54%에서 출발해 하락 요인(시즌 출전시간(분), 팀 강도 리그 내 순위(0=최강))을 거쳐 24.2%가 되었다 (이 모델의 R²는 0.521로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

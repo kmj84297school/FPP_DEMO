@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6565,
-  "mu": 60.2,
+  "survival_prob": 0.789,
+  "mu": 59.8,
   "ci80": {
-   "lo": 49.8,
-   "hi": 70.5
+   "lo": 49.5,
+   "hi": 70.1
   },
   "ci50": {
-   "lo": 54.7,
-   "hi": 65.7
+   "lo": 54.4,
+   "hi": 65.2
   },
-  "sigma_model": 1.5,
-  "sigma_residual": 8.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.27,
-   "total": 3.59,
+   "base": 0.93,
+   "rest": -0.07,
+   "total": 3.22,
    "top": [
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "19.0",
-     "contrib": 2.32
+     "contrib": 1.17
     },
     {
      "feature": "TakeOn90",
      "label": "성공 드리블/90",
      "value_text": "2.3",
-     "contrib": 0.84
+     "contrib": 0.45
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "25.0",
-     "contrib": -0.46
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-2.0",
+     "contrib": 0.29
     },
     {
-     "feature": "TklInt90",
-     "label": "태클+인터셉트/90",
-     "value_text": "2.2",
-     "contrib": 0.43
+     "feature": "score_style",
+     "label": "스타일 렌즈 점수",
+     "value_text": "58.1",
+     "contrib": 0.29
     },
     {
-     "feature": "grp_chance",
-     "label": "찬스 그룹 점수",
-     "value_text": "60.0",
-     "contrib": -0.26
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "56.6",
+     "contrib": 0.16
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.742,
-   "base_prob": 0.719,
-   "prob": 0.657,
+   "base_logit": 0.956,
+   "rest": -0.171,
+   "base_prob": 0.722,
+   "prob": 0.789,
    "top": [
+    {
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "58.6",
+     "contrib": 0.27
+    },
     {
      "feature": "age_y",
      "label": "나이",
      "value_text": "19.0",
-     "contrib": 0.42
+     "contrib": 0.18
     },
     {
      "feature": "score_position",
      "label": "포지션 렌즈 점수",
      "value_text": "55.0",
-     "contrib": 0.24
+     "contrib": 0.1
     },
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "50.9",
-     "contrib": -0.23
+     "contrib": -0.09
     },
     {
-     "feature": "xAG90",
-     "label": "xAG/90",
-     "value_text": "0.2",
-     "contrib": 0.2
-    },
-    {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "74.2",
-     "contrib": -0.18
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "56.6",
+     "contrib": 0.07
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Antonio Nusa(MF)의 현재 능력 점수는 56.6점이다. 플레이스타일은 '볼 운반형'로 분류된다. 가장 두드러지는 항목은 생산 그룹이며, 세부 강점은 성공 드리블, 전진 운반, 전진 패스 수신 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 최종 3분의1 패스이다.",
-  "potential": "Antonio Nusa의 2~3년 후 예측 중심값은 60.2점, 80% 구간 상단은 70.5점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 65.6%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 70.5점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.6점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 나이(19.0, +2.3), 성공 드리블/90(2.3, +0.8), 태클+인터셉트/90(2.2, +0.4); 내린 요인은 공중볼 승률(25.0, -0.5), 찬스 그룹 점수(60.0, -0.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(나이, 포지션 렌즈 점수)과 하락 요인(팀 출전시간 비중(%), 패스 성공률)을 거쳐 65.6%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Antonio Nusa의 2~3년 후 예측 중심값은 59.8점, 80% 구간 상단은 70.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 78.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 70.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.2점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 나이(19.0, +1.2), 성공 드리블/90(2.3, +0.5), 팀 평균 대비 본인 능력(-2.0, +0.3), 스타일 렌즈 점수(58.1, +0.3), 현재 능력(56.6, +0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(소속팀 평균 능력(팀 강도), 나이)과 하락 요인(팀 출전시간 비중(%))을 거쳐 78.9%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

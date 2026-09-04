@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.1176,
-  "mu": 47.5,
+  "survival_prob": 0.2342,
+  "mu": 44.3,
   "ci80": {
-   "lo": 36.0,
-   "hi": 58.8
+   "lo": 33.4,
+   "hi": 55.1
   },
   "ci50": {
-   "lo": 41.4,
-   "hi": 53.5
+   "lo": 38.6,
+   "hi": 49.9
   },
-  "sigma_model": 4.0,
-  "sigma_residual": 8.0
+  "sigma_model": 2.9,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 2.02,
-   "total": 10.56,
+   "base": 0.93,
+   "rest": -0.54,
+   "total": 7.38,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "39.7",
-     "contrib": 5.8
+     "contrib": 3.41
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "36.9",
-     "contrib": 3.04
+     "contrib": 2.32
     },
     {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "84.2",
-     "contrib": 1.31
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-9.8",
+     "contrib": 1.07
     },
     {
-     "feature": "sty_타겟맨",
-     "label": "스타일: 타겟맨",
-     "value_text": "예",
-     "contrib": -1.31
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.7",
+     "contrib": 1.01
     },
     {
      "feature": "PassPct",
      "label": "패스 성공률",
      "value_text": "53.9",
-     "contrib": -1.28
+     "contrib": -0.82
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.817,
-   "base_prob": 0.719,
-   "prob": 0.118,
+   "base_logit": 0.956,
+   "rest": -0.608,
+   "base_prob": 0.722,
+   "prob": 0.234,
    "top": [
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "34.0",
-     "contrib": -0.54
-    },
-    {
-     "feature": "MinPct",
-     "label": "팀 출전시간 비중(%)",
-     "value_text": "27.5",
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "46.7",
      "contrib": -0.52
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "940.0",
-     "contrib": -0.5
+     "contrib": -0.43
     },
     {
-     "feature": "PassPct",
-     "label": "패스 성공률",
-     "value_text": "53.9",
-     "contrib": -0.3
+     "feature": "score_position",
+     "label": "포지션 렌즈 점수",
+     "value_text": "34.0",
+     "contrib": -0.25
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.28
+     "feature": "MinPct",
+     "label": "팀 출전시간 비중(%)",
+     "value_text": "27.5",
+     "contrib": -0.19
+    },
+    {
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.8",
+     "contrib": -0.14
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Dailon Livramento(FW)의 현재 능력 점수는 36.9점이다. 플레이스타일은 '타겟맨'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 공중볼 승리, 태클 성공률, 블록 순으로 나타난다. 상대적으로 보완이 필요한 부분은 슈팅 시도, 유효슈팅이다.",
-  "potential": "Dailon Livramento의 2~3년 후 예측 중심값은 47.5점, 80% 구간 상단은 58.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 11.8%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 58.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +10.6점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 스타일 렌즈 점수(39.7, +5.8), 현재 능력(36.9, +3.0), 공중볼 승률(84.2, +1.3); 내린 요인은 스타일: 타겟맨(예, -1.3), 패스 성공률(53.9, -1.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 하락 요인(포지션 렌즈 점수, 팀 출전시간 비중(%))을 거쳐 11.8%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Dailon Livramento의 2~3년 후 예측 중심값은 44.3점, 80% 구간 상단은 55.1점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 23.4%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 55.1점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +7.4점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 스타일 렌즈 점수(39.7, +3.4), 현재 능력(36.9, +2.3), 팀 평균 대비 본인 능력(-9.8, +1.1), 소속팀 평균 능력(팀 강도)(46.7, +1.0); 내린 요인은 패스 성공률(53.9, -0.8)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 하락 요인(소속팀 평균 능력(팀 강도), 시즌 출전시간(분))을 거쳐 23.4%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

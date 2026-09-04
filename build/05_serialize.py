@@ -291,23 +291,27 @@ if __name__ == "__main__":
         index_entries.append({
             "fbref_id": fid,
             "name": row["Player"],
-            "name_ascii": ascii_fold(row["Player"]),
             "squad": row["Squads"],
+            "league": str(row["Comps"]).split(" / ")[0] if isinstance(row["Comps"], str) else None,
             "pos_primary": row["pos_primary"],
             "role": row["role"] if isinstance(row.get("role"), str) else None,
             "age": to_native(row["age_y"]),
             "ability": ability_scaled,
             "style": player["style"]["primary"],
-            "eligible": kind is not None,
             "kind": kind,
             "out_of_range": out_of_range,
             "mu": mu,
             "ceiling": ceiling,
-            "headroom": round(ceiling - ability_scaled, 1) if ceiling is not None and ability_scaled is not None else None,
         })
 
+    # index.json은 첫 로드 크기를 위해 열 기반(columnar)·무들여쓰기로 저장한다.
+    # (행 기반 indent=1: 569KB → 열 기반 compact: ~180KB. name_ascii·headroom·eligible은 클라이언트가 계산)
+    INDEX_COLS = ["fbref_id", "name", "squad", "league", "pos_primary", "role", "age", "ability",
+                  "style", "kind", "out_of_range", "mu", "ceiling"]
     with open(DOCS_DATA / "index.json", "w", encoding="utf-8") as f:
-        json.dump(index_entries, f, ensure_ascii=False, indent=1, allow_nan=False)
+        json.dump({"cols": INDEX_COLS, "rows": [[e[c] for c in INDEX_COLS] for e in index_entries]},
+                  f, ensure_ascii=False, separators=(",", ":"), allow_nan=False)
+    print("index.json:", (DOCS_DATA / "index.json").stat().st_size // 1024, "KB")
 
     meta_out = {
         **u23_meta,
@@ -320,6 +324,16 @@ if __name__ == "__main__":
         "u23_mae": round(model_metrics["u23"]["mae"] * SCALE, 2),
         "u23_r2": model_metrics["u23"]["r2"],
         "scale_factor": round(SCALE, 4),
+        "top_band": {k: {**model_metrics[k]["top_band"],
+                         "threshold_display": round(model_metrics[k]["top_band"]["threshold_raw"] * SCALE, 1),
+                         "mae": round(model_metrics[k]["top_band"]["mae"] * SCALE, 2),
+                         "bias": round(model_metrics[k]["top_band"]["bias"] * SCALE, 2)}
+                     for k in ("u23", "veteran") if "top_band" in model_metrics[k]},
+        "n_players": len(index_entries),
+        "filters": {"leagues": sorted({e["league"] for e in index_entries if e["league"]}),
+                    "styles": sorted({e["style"] for e in index_entries if e["style"]}),
+                    "roles": ["CB", "FB", "DM", "CM", "AM", "W", "ST"]},
+        "role_labels": ROLE_LABEL_KO,
         "oor_threshold_display": {k: round(v * SCALE, 1) for k, v in OOR_THRESHOLD.items()},
         "scale_basis": "전 시즌·전 코호트 통틀어 최고 복합점수(원점수 {:.1f})를 100으로 재조정".format(composite_max),
     }

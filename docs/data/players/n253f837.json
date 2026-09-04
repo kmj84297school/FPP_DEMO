@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.6783,
-  "mu": 57.9,
+  "survival_prob": 0.7856,
+  "mu": 57.7,
   "ci80": {
    "lo": 47.4,
-   "hi": 68.4
+   "hi": 67.8
   },
   "ci50": {
-   "lo": 52.4,
-   "hi": 63.3
+   "lo": 52.3,
+   "hi": 63.0
   },
-  "sigma_model": 1.8,
-  "sigma_residual": 8.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": -0.03,
-   "total": -3.22,
+   "base": 0.93,
+   "rest": -0.29,
+   "total": -3.44,
    "top": [
     {
      "feature": "score_style",
      "label": "스타일 렌즈 점수",
      "value_text": "70.0",
-     "contrib": -2.54
+     "contrib": -1.97
     },
     {
-     "feature": "age_y",
-     "label": "나이",
-     "value_text": "23.0",
-     "contrib": -0.96
-    },
-    {
-     "feature": "grp_defense",
-     "label": "수비 그룹 점수",
-     "value_text": "77.9",
-     "contrib": -0.8
-    },
-    {
-     "feature": "AerPct",
-     "label": "공중볼 승률",
-     "value_text": "72.5",
-     "contrib": 0.69
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "6.9",
+     "contrib": -0.64
     },
     {
      "feature": "ability",
      "label": "현재 능력",
      "value_text": "61.1",
-     "contrib": -0.55
+     "contrib": -0.63
+    },
+    {
+     "feature": "d_ability",
+     "label": "능력 변화(전 시즌 대비)",
+     "value_text": "8.5",
+     "contrib": -0.43
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.4
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": -0.263,
-   "base_prob": 0.719,
-   "prob": 0.678,
+   "base_logit": 0.956,
+   "rest": 0.08,
+   "base_prob": 0.722,
+   "prob": 0.785,
    "top": [
-    {
-     "feature": "PrgCarry90",
-     "label": "전진 운반/90",
-     "value_text": "0.9",
-     "contrib": -0.46
-    },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2191.0",
-     "contrib": 0.3
+     "contrib": 0.25
     },
     {
-     "feature": "grp_stability",
-     "label": "안정 그룹 점수",
-     "value_text": "67.8",
-     "contrib": 0.24
+     "feature": "ability",
+     "label": "현재 능력",
+     "value_text": "61.1",
+     "contrib": 0.1
+    },
+    {
+     "feature": "age_y",
+     "label": "나이",
+     "value_text": "23.0",
+     "contrib": -0.1
+    },
+    {
+     "feature": "lg_La Liga",
+     "label": "리그: 라리가",
+     "value_text": "예",
+     "contrib": 0.08
     },
     {
      "feature": "AttPenT90",
      "label": "박스 터치/90",
      "value_text": "0.6",
-     "contrib": -0.2
-    },
-    {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "-620.0",
-     "contrib": 0.19
+     "contrib": -0.06
     }
    ]
   },
@@ -393,6 +393,6 @@
  },
  "narrative": {
   "current": "Enzo Barrenechea(MF)의 현재 능력 점수는 61.1점이다. 플레이스타일은 '수비형 파괴자'로 분류된다. 가장 두드러지는 항목은 수비 그룹이며, 세부 강점은 태클 성공률, 공중볼 승률, 최종 3분의1 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 전진 패스 수신, 박스 진입 패스이다.",
-  "potential": "Enzo Barrenechea의 2~3년 후 예측 중심값은 57.9점, 80% 구간 상단은 68.4점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 67.8%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 68.4점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.2점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 공중볼 승률(72.5, +0.7); 내린 요인은 스타일 렌즈 점수(70.0, -2.5), 나이(23.0, -1.0), 수비 그룹 점수(77.9, -0.8), 현재 능력(61.1, -0.6)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 안정 그룹 점수)과 하락 요인(전진 운반/90, 박스 터치/90)을 거쳐 67.8%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Enzo Barrenechea의 2~3년 후 예측 중심값은 57.7점, 80% 구간 상단은 67.8점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 78.6%로 추정된다. 중심값 기준으로는 현재 대비 하락 경향이며, 상단 67.8점은 상위 10% 시나리오다. 모델이 예측한 변화량은 -3.4점(같은 코호트 평균 변화 +0.9점 기준)으로, 내린 요인은 스타일 렌즈 점수(70.0, -2.0), 팀 평균 대비 본인 능력(6.9, -0.6), 현재 능력(61.1, -0.6), 능력 변화(전 시즌 대비)(8.5, -0.4), 나이(23.0, -0.4)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(시즌 출전시간(분), 현재 능력)과 하락 요인(나이, 박스 터치/90)을 거쳐 78.6%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }

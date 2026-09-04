@@ -38,92 +38,92 @@
   "out_of_validated_range": false
  },
  "prediction": {
-  "survival_prob": 0.9691,
-  "mu": 59.8,
+  "survival_prob": 0.9312,
+  "mu": 58.3,
   "ci80": {
-   "lo": 49.3,
-   "hi": 70.2
+   "lo": 48.1,
+   "hi": 68.6
   },
   "ci50": {
-   "lo": 54.2,
-   "hi": 65.3
+   "lo": 52.9,
+   "hi": 63.7
   },
-  "sigma_model": 1.7,
-  "sigma_residual": 8.0
+  "sigma_model": 1.0,
+  "sigma_residual": 7.9
  },
  "explanation": {
   "delta": {
-   "base": 0.98,
-   "rest": 0.1,
-   "total": 3.29,
+   "base": 0.93,
+   "rest": -0.31,
+   "total": 1.83,
    "top": [
     {
      "feature": "d_ability",
      "label": "능력 변화(전 시즌 대비)",
-     "value_text": "-5.8",
-     "contrib": 0.94
+     "value_text": "-5.7",
+     "contrib": 0.61
+    },
+    {
+     "feature": "ability_vs_squad",
+     "label": "팀 평균 대비 본인 능력",
+     "value_text": "-5.6",
+     "contrib": 0.57
     },
     {
      "feature": "d_SCA90",
      "label": "SCA/90 변화",
      "value_text": "-1.0",
-     "contrib": 0.71
-    },
-    {
-     "feature": "grp_prod",
-     "label": "생산 그룹 점수",
-     "value_text": "33.5",
-     "contrib": 0.58
+     "contrib": 0.5
     },
     {
      "feature": "d_PrgPass90",
      "label": "전진 패스/90 변화",
      "value_text": "0.8",
-     "contrib": -0.35
+     "contrib": -0.23
     },
     {
-     "feature": "grp_progress",
-     "label": "전진 그룹 점수",
-     "value_text": "71.3",
-     "contrib": 0.33
+     "feature": "npxG90",
+     "label": "비페널티 xG/90",
+     "value_text": "0.0",
+     "contrib": -0.23
     }
    ]
   },
   "survival": {
-   "base_logit": 0.939,
-   "rest": 0.643,
-   "base_prob": 0.719,
-   "prob": 0.969,
+   "base_logit": 0.956,
+   "rest": 0.229,
+   "base_prob": 0.722,
+   "prob": 0.931,
    "top": [
     {
      "feature": "MinPct",
      "label": "팀 출전시간 비중(%)",
      "value_text": "83.0",
-     "contrib": 1.1
+     "contrib": 0.47
     },
     {
      "feature": "std_Min_Playing",
      "label": "시즌 출전시간(분)",
      "value_text": "2840.0",
-     "contrib": 0.54
+     "contrib": 0.43
     },
     {
-     "feature": "d_grp_prod",
-     "label": "생산 그룹 변화",
-     "value_text": "-14.9",
-     "contrib": 0.22
+     "feature": "squad_mean_ability",
+     "label": "소속팀 평균 능력(팀 강도)",
+     "value_text": "62.1",
+     "contrib": 0.28
     },
     {
-     "feature": "score_position",
-     "label": "포지션 렌즈 점수",
-     "value_text": "54.1",
-     "contrib": 0.21
+     "feature": "squad_rank_in_league",
+     "label": "팀 강도 리그 내 순위(0=최강)",
+     "value_text": "0.2",
+     "contrib": 0.16
     },
     {
-     "feature": "d_std_Min_Playing",
-     "label": "출전시간 변화(분)",
-     "value_text": "1526.0",
-     "contrib": -0.21
+     "feature": "d_grp_progress",
+     "label": "전진 그룹 변화",
+     "value_text": "-1.3",
+     "contrib": 0.09
     }
    ]
   },
@@ -388,6 +388,6 @@
  },
  "narrative": {
   "current": "Valentino Livramento(DF)의 현재 능력 점수는 56.5점이다. 플레이스타일은 '빌드업 수비수'로 분류된다. 가장 두드러지는 항목은 전진 그룹이며, 세부 강점은 볼 리커버리, 전진 운반, 전진 패스 순으로 나타난다. 상대적으로 보완이 필요한 부분은 볼 손실(미스+파울), 공중볼 승률이다.",
-  "potential": "Valentino Livramento의 2~3년 후 예측 중심값은 59.8점, 80% 구간 상단은 70.2점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 96.9%로 추정된다. 중심값 기준으로는 현재 대비 상승 경향이며, 상단 70.2점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +3.3점(같은 코호트 평균 변화 +1.0점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-5.8, +0.9), SCA/90 변화(-1.0, +0.7), 생산 그룹 점수(33.5, +0.6), 전진 그룹 점수(71.3, +0.3); 내린 요인은 전진 패스/90 변화(0.8, -0.3)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))과 하락 요인(출전시간 변화(분))을 거쳐 96.9%가 되었다 (이 모델의 R²는 0.306로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
+  "potential": "Valentino Livramento의 2~3년 후 예측 중심값은 58.3점, 80% 구간 상단은 68.6점이다(성장기 모델(23세 이하 학습)). 빅5 잔존확률은 93.1%로 추정된다. 중심값 기준으로는 현재 대비 현 수준 유지 경향이며, 상단 68.6점은 상위 10% 시나리오다. 모델이 예측한 변화량은 +1.8점(같은 코호트 평균 변화 +0.9점 기준)으로, 올린 요인은 능력 변화(전 시즌 대비)(-5.7, +0.6), 팀 평균 대비 본인 능력(-5.6, +0.6), SCA/90 변화(-1.0, +0.5); 내린 요인은 전진 패스/90 변화(0.8, -0.2), 비페널티 xG/90(0.0, -0.2)이다. 빅5 잔존확률은 코호트 기준 72%에서 출발해 상승 요인(팀 출전시간 비중(%), 시즌 출전시간(분))을 거쳐 93.1%가 되었다 (이 모델의 R²는 0.346로 예측에는 상당한 불확실성이 남아있다. 기여도는 모델 설명이지 인과가 아니다)."
  }
 }
