@@ -3,21 +3,33 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#070911">
 <title>FPP — 선수 비교</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 120%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%22 stop-color=%22%2319ffa7%22/%3E%3Cstop offset=%221%22 stop-color=%22%23a78bfa%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%22120%22 height=%22120%22 rx=%2226%22 fill=%22%23070911%22/%3E%3Cellipse cx=%2260%22 cy=%2260%22 rx=%2246%22 ry=%2218%22 transform=%22rotate(-28 60 60)%22 fill=%22none%22 stroke=%22url(%23g)%22 stroke-width=%227%22/%3E%3Cpath d=%22M60 34 L67 53 L86 60 L67 67 L60 86 L53 67 L34 60 L53 53 Z%22 fill=%22%2319ffa7%22/%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/style.css">
 <script src="vendor/chart.umd.js"></script>
 </head>
 <body>
 <div class="wrap">
-  <div class="page-nav"><a class="back-link" href="index.html">&larr; 검색으로 돌아가기</a></div>
   <header class="top">
-    <div>
-      <div class="brand">FPP <span>Compare</span></div>
-      <div class="tagline">두 선수를 나란히 — 능력 그룹·핵심 지표·2~3년 후 예측 비교 (2024-25 스냅샷)</div>
-    </div>
+    <a class="brand-link" href="index.html">
+      <svg class="logo" aria-hidden="true"><use href="#fpp-logo"/></svg>
+      <div>
+        <div class="brand">F<span>P</span>P</div>
+        <div class="tagline">Football Player Potential · 2024-25 스냅샷</div>
+      </div>
+    </a>
+    <nav class="topnav" aria-label="주요 메뉴">
+      <a href="index.html" class="">탐색</a>
+      <a href="compare.html" class="active">선수 비교</a>
+    </nav>
   </header>
 
-  <div class="panel">
+  <section class="hero reveal" style="padding-top:8px;">
+    <h1>두 선수를 <em>한 궤도</em>에</h1>
+    <p class="lead">능력 그룹·핵심 지표·2~3년 후 예측을 나란히 비교합니다. 주소창의 URL이 비교 상태를 그대로 담습니다.</p>
+  </section>
+  <div class="panel reveal">
     <div class="compare-pick">
       <div class="pick-list">
         <label for="pickA" class="sr-only">선수 A 검색</label>
@@ -31,16 +43,18 @@
         <ul id="listB" hidden></ul>
       </div>
     </div>
-    <div class="hint">주소창의 URL이 비교 상태를 그대로 담습니다(permalink). 목록·상세 페이지의 "비교" 버튼으로도 고를 수 있습니다.</div>
+    <div class="hint">목록·상세 페이지의 "비교" 버튼으로도 고를 수 있습니다.</div>
   </div>
 
   <div id="content"><div class="empty-state">두 선수를 선택하세요.</div></div>
 
   <footer class="foot">
-    데이터: worldfootballR 공개 아카이브 (원출처 FBref) · 교육·연구 목적. 상업적 사용 불가.
+    <span>데이터: worldfootballR 공개 아카이브 (원출처 FBref) · 교육·연구 목적. 상업적 사용 불가.</span>
+    <span>점수는 같은 시즌·같은 포지션 내 상대 순위 기반 · 예측은 정확히 2~3년 후 시점</span>
   </footer>
 </div>
 <script src="assets/common.js"></script>
+<script src="assets/motion.js"></script>
 <script src="assets/compare.js"></script>
 </body>
 </html>

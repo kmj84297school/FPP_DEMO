@@ -293,9 +293,10 @@ if __name__ == "__main__":
             "name": row["Player"],
             "squad": row["Squads"],
             "league": str(row["Comps"]).split(" / ")[0] if isinstance(row["Comps"], str) else None,
+            "nation": to_native(nation.get(fid)),
             "pos_primary": row["pos_primary"],
             "role": row["role"] if isinstance(row.get("role"), str) else None,
-            "age": to_native(row["age_y"]),
+            "age": int(row["age_y"]) if pd.notna(row["age_y"]) else None,
             "ability": ability_scaled,
             "style": player["style"]["primary"],
             "kind": kind,
@@ -306,7 +307,7 @@ if __name__ == "__main__":
 
     # index.json은 첫 로드 크기를 위해 열 기반(columnar)·무들여쓰기로 저장한다.
     # (행 기반 indent=1: 569KB → 열 기반 compact: ~180KB. name_ascii·headroom·eligible은 클라이언트가 계산)
-    INDEX_COLS = ["fbref_id", "name", "squad", "league", "pos_primary", "role", "age", "ability",
+    INDEX_COLS = ["fbref_id", "name", "squad", "league", "nation", "pos_primary", "role", "age", "ability",
                   "style", "kind", "out_of_range", "mu", "ceiling"]
     with open(DOCS_DATA / "index.json", "w", encoding="utf-8") as f:
         json.dump({"cols": INDEX_COLS, "rows": [[e[c] for c in INDEX_COLS] for e in index_entries]},

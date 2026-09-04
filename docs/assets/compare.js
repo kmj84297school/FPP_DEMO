@@ -57,21 +57,21 @@ function radar(canvasId, labels, dataA, dataB, nameA, nameB) {
       { label: nameA, data: dataA, backgroundColor: "rgba(25,255,167,0.15)", borderColor: COLORS.a, pointBackgroundColor: COLORS.a },
       { label: nameB, data: dataB, backgroundColor: "rgba(255,215,0,0.15)", borderColor: COLORS.b, pointBackgroundColor: COLORS.b },
     ] },
-    options: { scales: { r: { min: 0, max: 100, ticks: { color: "#7e8a97", backdropColor: "transparent" }, grid: { color: "#232a33" }, angleLines: { color: "#232a33" }, pointLabels: { color: "#e9eef5" } } },
+    options: { scales: { r: { min: 0, max: 100, ticks: { color: "#7e8a97", backdropColor: "transparent" }, grid: { color: "rgba(255,255,255,0.08)" }, angleLines: { color: "rgba(255,255,255,0.08)" }, pointLabels: { color: "#e9eef5" } } },
       plugins: { legend: { labels: { color: "#e9eef5" } } } },
   }));
 }
 
-function headCard(p, color) {
-  const m = p.meta, c = p.current;
+function headCard(p, slot) {
+  const m = p.meta, c = p.current, pr = p.prediction;
   return `
-    <div class="panel cmp-card" style="border-top:3px solid ${color};">
-      ${avatarHtml(m.fbref_id, m.player_name, 56)}
+    <div class="panel cmp-card ${slot} reveal">
+      ${avatarHtml(m.fbref_id, m.player_name, 60)}
       <div style="flex:1;min-width:0;">
         <h2><a href="player.html?id=${m.fbref_id}">${m.player_name}</a></h2>
-        <div class="sub">${m.squad || "—"} · ${m.pos_primary}${m.role ? ` (${m.role.label})` : ""} · 만 ${m.age_years}세 · ${m.minutes_season}분</div>
+        <div class="sub muted small">${flagChip(m.nation)} ${m.squad || "—"} · ${m.pos_primary}${m.role ? ` (${m.role.label})` : ""} · 만 ${m.age_years}세</div>
+        <div style="margin-top:8px;">${orbitGaugeHtml(c.ability, pr ? pr.ci80.hi : null)}</div>
       </div>
-      ${scoreBadge(c.ability, "현재능력", "show-tier")}
     </div>`;
 }
 
@@ -86,7 +86,7 @@ function render(A, B) {
   const mapB = Object.fromEntries(B.report.position_radar.map((s) => [s.key, s]));
 
   let html = `
-    <div class="cmp-head">${headCard(A, COLORS.a)}${headCard(B, COLORS.b)}</div>
+    <div class="cmp-head">${headCard(A, "a")}<div class="vs-badge" aria-hidden="true">VS</div>${headCard(B, "b")}</div>
     <div class="grid-2">
       <div class="panel"><div class="section-title">능력 그룹 레이더 (겹침)</div><canvas id="cmpRadar" height="240"></canvas></div>
       <div class="panel"><div class="section-title">포지션 핵심 지표 퍼센타일${samePos ? "" : " — 포지션이 달라 겹치지 않음"}</div>
@@ -118,6 +118,8 @@ function render(A, B) {
       <div class="hint">퍼센타일은 같은 시즌·같은 포지션 풀(600분+) 내 순위입니다. 능력점수는 전 시즌 최고 복합점수를 100으로 재조정한 표시 스케일입니다.</div>
     </div>`;
   document.getElementById("content").innerHTML = html;
+  if (window.FPPMotion) window.FPPMotion.observe();
+  document.querySelectorAll(".cmp-table tbody tr").forEach((tr, i) => { tr.style.transitionDelay = `${Math.min(i, 20) * 40}ms`; });
   radar("cmpRadar", GROUP_ORDER.map((k) => GROUP_LABELS[k]), GROUP_ORDER.map((k) => A.current.groups[k] ?? 0), GROUP_ORDER.map((k) => B.current.groups[k] ?? 0), nA, nB);
   if (samePos) radar("cmpPosRadar", radarKeys.map((k) => mapA[k].label), radarKeys.map((k) => mapA[k].percentile), radarKeys.map((k) => (mapB[k] ? mapB[k].percentile : 0)), nA, nB);
 }

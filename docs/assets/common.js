@@ -88,3 +88,67 @@ function renderCompareBar() {
     el.textContent = on ? "비교 ✓" : "비교";
   });
 }
+
+// ── 국가 코드 칩 (이미지 없이 텍스트) ──
+function flagChip(iso) {
+  return iso ? `<span class="flag"><span class="iso">${iso}</span></span>` : "";
+}
+
+// ── 궤도 게이지: 현재(초록 점) → 2~3년 후 상한(금색 별) 을 한 궤도 위에 ──
+function orbitGaugeHtml(now, fut, opts) {
+  const o = opts || {};
+  const W = 200, H = 26, y = 14;
+  const x = (v) => 6 + Math.max(0, Math.min(100, v ?? 0)) / 100 * (W - 12);
+  const hasFut = fut !== null && fut !== undefined;
+  const a = x(now), b = hasFut ? x(fut) : a;
+  const lo = Math.min(a, b), hi = Math.max(a, b);
+  return `
+    <div class="orbit-gauge" role="img" aria-label="현재 ${fmt1(now)}${hasFut ? `, 2~3년 후 상한 ${fmt1(fut)}` : ""}">
+      <svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+        <path class="track" d="M6 ${y} Q ${W / 2} ${y - 9} ${W - 6} ${y}"/>
+        ${hasFut ? `<path class="arc" d="M${lo} ${y - 4} Q ${(lo + hi) / 2} ${y - 9} ${hi} ${y - 4}"/>` : ""}
+        <circle class="dot-now" cx="${a}" cy="${y - 4}" r="4"/>
+        ${hasFut ? `<path class="dot-fut" transform="translate(${b} ${y - 4})" d="M0 -6 L1.8 -1.8 L6 0 L1.8 1.8 L0 6 L-1.8 1.8 L-6 0 L-1.8 -1.8 Z"/>` : ""}
+      </svg>
+      ${o.labels === false ? "" : `<div class="lbls"><span>현재 ${fmt1(now)}</span><span>${hasFut ? `2~3년 후 상한 ${fmt1(fut)}` : "예측 없음"}</span></div>`}
+    </div>`;
+}
+
+// ── 원형 링 게이지 (상세 헤더) ──
+function ringHtml(value, label, cls, title) {
+  const v = value === null || value === undefined ? null : value;
+  return `
+    <div class="ring ${cls}" title="${title || label}" role="img" aria-label="${label} ${fmt1(v)}, ${tierText(v)}">
+      <svg viewBox="0 0 100 100"><circle class="bg" cx="50" cy="50" r="42"/><circle class="fg" cx="50" cy="50" r="42" data-value="${v ?? 0}"/></svg>
+      <div class="num"><span data-countup="${v ?? 0}" data-dec="1">${v === null ? "—" : "0.0"}</span><small>${label}</small></div>
+    </div>`;
+}
+
+// ── FC26식 선수 카드 (목록용) ──
+function playerCardHtml(p, roleLabelFn) {
+  const kind = p.kind || "none";
+  const futVal = p.ceiling;
+  const role = p.role && roleLabelFn ? roleLabelFn(p.role) : "";
+  const tags = [];
+  if (p.kind === "growth") tags.push('<span class="badge tag small">성장기 모델</span>');
+  if (p.kind === "peak") tags.push('<span class="badge tag small">성숙기 모델</span>');
+  if (p.out_of_range) tags.push('<span class="badge tag small" title="현재 능력이 학습 라벨 상위 1%를 넘어 검증 표본이 적음">범위 밖</span>');
+  return `
+    <a class="pcard kind-${kind}" href="player.html?id=${p.fbref_id}" aria-label="${p.name}, 현재 ${fmt1(p.ability)}${futVal != null ? `, 2~3년 후 상한 ${fmt1(futVal)}` : ""}">
+      <div class="pc-top">
+        <div class="pc-num" title="현재 능력 (2024-25 시즌, 같은 포지션 내 상대 순위 기반)">
+          <span class="lbl">현재</span><span class="val g">${fmt1(p.ability)}</span><span class="tier">${tierText(p.ability)}</span>
+        </div>
+        <button type="button" class="btn-mini pc-cmp" data-cmp-id="${p.fbref_id}" data-cmp-name="${p.name}" aria-pressed="false">비교</button>
+        <div class="pc-num" title="2~3년 후 능력의 80% 신뢰구간 상단 — 최댓값이 아니라 상위 10% 시나리오">
+          <span class="lbl">2~3년 후 상한</span><span class="val ${futVal != null ? "y" : "n"}">${futVal != null ? fmt1(futVal) : "—"}</span><span class="tier">${futVal != null ? tierText(futVal) : "예측 없음"}</span>
+        </div>
+      </div>
+      <div class="pc-avatar">${avatarHtml(p.fbref_id, p.name, 84)}</div>
+      <div class="pc-name">${p.name}</div>
+      <div class="pc-meta">${flagChip(p.nation)}<b>${p.pos_primary}</b>${role ? `<span>${role}</span>` : ""}<span>· ${p.age ?? "—"}세</span></div>
+      <div class="pc-meta"><span>${p.squad || "—"}</span></div>
+      <div class="pc-orbit">${orbitGaugeHtml(p.ability, futVal, { labels: false })}</div>
+      ${tags.length ? `<div class="pc-tags">${tags.join("")}</div>` : ""}
+    </a>`;
+}

@@ -7,7 +7,7 @@ function contribRow(t) {
     <div class="contrib-row" role="listitem">
       <span class="contrib-lbl">${t.label}${t.value_text ? ` <span class="muted">= ${t.value_text}</span>` : ""}</span>
       <span class="contrib-bar ${pos ? "pos" : "neg"}" aria-hidden="true">
-        <span class="contrib-fill" style="width:${Math.min(100, Math.abs(t.contrib) / t._max * 100)}%"></span>
+        <span class="contrib-fill" style="--w:${Math.min(100, Math.abs(t.contrib) / t._max * 100)}%"></span>
       </span>
       <span class="contrib-val ${pos ? "pos" : "neg"}">${pos ? "▲" : "▼"} ${t.contrib > 0 ? "+" : ""}${t.contrib.toFixed(2)}</span>
     </div>`;
@@ -29,7 +29,7 @@ function explanationHtml(p, c) {
     <div class="panel explain">
       <div class="section-title">왜 이 예측인가 — 피처 기여도 (SHAP)</div>
       <div class="explain-flow">
-        <span class="chip">현재 ${fmt1(c.ability)}</span><span class="arrow">→</span>
+        <span class="chip green">현재 ${fmt1(c.ability)}</span><span class="arrow">→</span>
         <span class="chip muted-chip">코호트 평균 변화 ${d.base >= 0 ? "+" : ""}${d.base.toFixed(1)}</span><span class="arrow">→</span>
         <span class="chip muted-chip">기여도 합 ${(d.total - d.base) >= 0 ? "+" : ""}${(d.total - d.base).toFixed(1)}</span><span class="arrow">→</span>
         <span class="chip gold">예측 중심값 ${fmt1(p.prediction.mu)} (${deltaPred >= 0 ? "+" : ""}${deltaPred.toFixed(1)})</span>
@@ -59,7 +59,7 @@ function groupBarsHtml(groups) {
       <div class="stat-row">
         <span class="lbl">${GROUP_LABELS[k]}</span>
         <div style="display:flex;align-items:center;gap:10px;">
-          <div class="bar-track"><div class="bar-fill ${bandcls(v)}" style="width:${Math.max(0, Math.min(100, v))}%"></div></div>
+          <div class="bar-track"><div class="bar-fill ${bandcls(v)}" style="--w:${Math.max(0, Math.min(100, v))}%"></div></div>
           <span>${fmt1(v)}</span>
         </div>
       </div>`;
@@ -72,7 +72,7 @@ function metricBarsHtml(items) {
     <div class="stat-row">
       <span class="lbl">${it.label}</span>
       <div style="display:flex;align-items:center;gap:10px;">
-        <div class="bar-track"><div class="bar-fill ${bandcls(it.percentile)}" style="width:${Math.max(0, Math.min(100, it.percentile))}%"></div></div>
+        <div class="bar-track"><div class="bar-fill ${bandcls(it.percentile)}" style="--w:${Math.max(0, Math.min(100, it.percentile))}%"></div></div>
         <span>${fmt1(it.percentile)}</span>
       </div>
     </div>`).join("");
@@ -97,21 +97,44 @@ function renderPlayer(p) {
   const m = p.meta;
   const c = p.current;
 
+  const pred = p.prediction;
+  const kind = p.eligibility.kind;
+  const stamps = [];
+  if (kind === "growth") stamps.push('<span class="stamp growth">성장기 모델</span>');
+  if (kind === "peak") stamps.push('<span class="stamp peak">성숙기 모델</span>');
+  if (!kind) stamps.push('<span class="stamp none">예측 대상 아님</span>');
+  if (p.eligibility.out_of_validated_range) stamps.push('<span class="stamp warn" title="현재 능력이 학습 라벨 상위 1%를 넘어 검증 표본이 적음">검증 범위 밖</span>');
+  if (p.low_confidence) stamps.push('<span class="stamp low" title="유사 선수와의 거리가 멀어 비교 신뢰도가 낮음">비교 신뢰도 낮음</span>');
+
   let html = `
-    <div class="panel player-head">
-      <div style="display:flex;align-items:center;gap:16px;">
-        ${avatarHtml(m.fbref_id, m.player_name, 72)}
-        <div>
-          <h1>${m.player_name}</h1>
-          <div class="sub">${m.squad || "—"} · ${m.comps || "—"} · ${m.pos_primary}${m.role ? ` (${m.role.label}${m.role.borderline ? "·경계" : ""})` : ""} · ${m.nation || "—"} · 만 ${m.age_years}세 · 2024-25시즌 ${m.minutes_season}분</div>
-        </div>
+    <div class="panel player-hero reveal">
+      ${avatarHtml(m.fbref_id, m.player_name, 112)}
+      <div>
+        <h1>${m.player_name}</h1>
+        <div class="sub">${flagChip(m.nation)} ${m.squad || "—"} · ${m.comps || "—"}<br>${m.pos_primary}${m.role ? ` · ${m.role.label}${m.role.borderline ? "(경계)" : ""}` : ""} · 만 ${m.age_years}세 · 2024-25시즌 ${m.minutes_season}분 · ${p.style.primary || "스타일 미판정"}</div>
+        <div class="stamps">${stamps.join("")}</div>
+        <div style="margin-top:12px;max-width:360px;">${orbitGaugeHtml(c.ability, pred ? pred.ci80.hi : null)}</div>
       </div>
       <div class="head-right">
-        ${scoreBadge(c.ability, "현재능력", "show-tier head-badge")}
-        <button type="button" class="btn-mini" data-cmp-id="${m.fbref_id}" data-cmp-name="${m.player_name}" aria-pressed="false">비교</button>
+        <div class="rings">
+          ${ringHtml(c.ability, "현재", "g", "현재 능력 (같은 포지션 내 상대 순위 기반)")}
+          ${pred ? ringHtml(pred.ci80.hi, "2~3년 후 상한", "y", "2~3년 후 능력의 80% 신뢰구간 상단 (상위 10% 시나리오)") : ""}
+        </div>
+        <button type="button" class="btn-mini" data-cmp-id="${m.fbref_id}" data-cmp-name="${m.player_name}" aria-pressed="false">비교에 추가</button>
       </div>
     </div>
 
+    <nav class="section-tabs" aria-label="섹션">
+      <a href="#sec-ability" class="active">능력</a>
+      <a href="#sec-style">스타일</a>
+      ${p.qualitative ? '<a href="#sec-signal">정성 시그널</a>' : ""}
+      <a href="#sec-predict">예측</a>
+      ${pred && p.explanation ? '<a href="#sec-why">왜 이 예측인가</a>' : ""}
+      ${pred ? '<a href="#sec-neighbors">유사 선수</a>' : ""}
+      <a href="#sec-report">리포트</a>
+    </nav>
+
+    <section class="sec" id="sec-ability">
     <div class="grid-2">
       <div class="panel">
         <div class="section-title">현재 능력 (포지션 렌즈 ${fmt1(c.score_position)} / 스타일 렌즈 ${fmt1(c.score_style)})</div>
@@ -129,18 +152,20 @@ function renderPlayer(p) {
 
     <div class="grid-2">
       <div class="panel">
-        <div class="section-title">Top Strengths</div>
+        <div class="section-title">강점 Top</div>
         ${metricBarsHtml(p.report.strengths)}
       </div>
       <div class="panel">
-        <div class="section-title">Weaknesses (포지션 고려)</div>
+        <div class="section-title">약점 (포지션 고려)</div>
         ${metricBarsHtml(p.report.weaknesses)}
       </div>
     </div>
 
+    </section>
+    <section class="sec" id="sec-style">
     <div class="grid-2">
       <div class="panel">
-        <div class="section-title">Playstyle Engine</div>
+        <div class="section-title">플레이스타일 엔진</div>
         <div class="stat-row"><span class="lbl">대표 스타일</span><span class="badge tag small">${p.style.primary || "—"}</span></div>
         <div class="stat-row" style="align-items:flex-start;">
           <span class="lbl">Top 3 후보</span>
@@ -154,6 +179,7 @@ function renderPlayer(p) {
         <canvas id="positionRadarChart" height="220"></canvas>
       </div>
     </div>
+    </section>
   `;
 
   if (p.qualitative) {
@@ -164,6 +190,7 @@ function renderPlayer(p) {
       : consStd <= 6 ? `보통 (시즌 간 ±${consStd})`
       : `기복 있음 (시즌 간 ±${consStd})`;
     html += `
+      <section class="sec" id="sec-signal">
       <div class="panel">
         <div class="section-title">정성 시그널 (경기 기록 기반)</div>
         <div class="grid-2">
@@ -187,8 +214,10 @@ function renderPlayer(p) {
           존재하지 않아 측정하지 않습니다.
         </div>
       </div>
+      </section>
     `;
   }
+  html += '<section class="sec" id="sec-predict">';
 
   if (!p.eligibility.eligible_for_prediction) {
     const reasonMap = {
@@ -199,10 +228,11 @@ function renderPlayer(p) {
     const reasonText = reasonMap[p.eligibility.reason] || "기준 미달";
     html += `
       <div class="panel">
+        <div class="section-title">2~3년 후 능력 예측</div>
         <div class="note">예측 모델 적용 대상 아님 — ${reasonText}. 현재 능력 점수만 제공됩니다.</div>
-      </div>`;
+      </div>
+      </section>`;
   } else {
-    const pred = p.prediction;
     const isGrowth = p.eligibility.kind === "growth";
     const oor = p.eligibility.out_of_validated_range;
     const sectionTitle = isGrowth ? "2~3년 후 능력 예측 (성장기 모델)" : "2~3년 후 능력 예측 (성숙기 모델)";
@@ -216,7 +246,7 @@ function renderPlayer(p) {
           <div class="section-title">${sectionTitle}</div>
           <div class="stat-row" style="padding:12px 0;">
             <span class="lbl">2~3년 후 상한 (80% 구간 상단)</span>
-            <span class="badge ${bandcls(pred.ci80.hi)}" style="font-size:1.15rem;padding:6px 14px;">${fmt1(pred.ci80.hi)}</span>
+            ${scoreBadge(pred.ci80.hi, "2~3년 후 상한", "show-tier")}
           </div>
           <div class="stat-row"><span class="lbl">${survivalLabel}</span><span>${(pred.survival_prob * 100).toFixed(1)}%</span></div>
           <div class="stat-row"><span class="lbl">예측 중심값 (mu)</span><span>${fmt1(pred.mu)}</span></div>
@@ -232,8 +262,10 @@ function renderPlayer(p) {
         </div>
       </div>
 
-      ${p.explanation ? explanationHtml(p, c) : ""}
+      </section>
+      ${p.explanation ? `<section class="sec" id="sec-why">${explanationHtml(p, c)}</section>` : ""}
 
+      <section class="sec" id="sec-neighbors">
       <div class="panel">
         <div class="section-title">유사 선수 (실제 2~3년 후 결과, k=${p.neighbors.length})</div>
         <table class="neighbors">
@@ -251,13 +283,15 @@ function renderPlayer(p) {
           </tbody>
         </table>
       </div>
+      </section>
     `;
   }
 
+  html += '<section class="sec" id="sec-report">';
   if (p.narrative.current || p.narrative.potential) {
     html += `
       <div class="panel">
-        <div class="section-title">Narrative Report</div>
+        <div class="section-title">서술 리포트</div>
         ${p.narrative.current ? `<p>${p.narrative.current}</p>` : ""}
         ${p.narrative.potential ? `<p>${p.narrative.potential}</p>` : ""}
       </div>
@@ -268,14 +302,14 @@ function renderPlayer(p) {
     html += `
       <div class="grid-2">
         <div class="panel">
-          <div class="section-title">Coaching 추천</div>
+          <div class="section-title">코칭 제안</div>
           <div class="hint" style="margin-bottom:8px;">규칙 기반 제안입니다 — 검증된 예측이 아니라, 현재 퍼센타일을 근거로 한 참고용 훈련 방향입니다.</div>
           <ul style="margin:0;padding-left:18px;">
             ${p.report.coaching.map((t) => `<li style="margin-bottom:6px;">${t}</li>`).join("")}
           </ul>
         </div>
         <div class="panel">
-          <div class="section-title">Growth Roadmap</div>
+          <div class="section-title">성장 로드맵</div>
           ${p.report.roadmap.map((r) => `
             <div class="stat-row" style="align-items:flex-start;">
               <span class="lbl">${r.phase}</span>
@@ -286,8 +320,10 @@ function renderPlayer(p) {
     `;
   }
 
+  html += "</section>";
   document.getElementById("content").innerHTML = html;
   renderCompareBar();
+  if (window.FPPMotion) { window.FPPMotion.observe(); window.FPPMotion.rings(); window.FPPMotion.spy(); }
 
   new Chart(document.getElementById("radarChart"), {
     type: "radar",
@@ -306,8 +342,8 @@ function renderPlayer(p) {
         r: {
           min: 0, max: 100,
           ticks: { color: "#7e8a97", backdropColor: "transparent" },
-          grid: { color: "#232a33" },
-          angleLines: { color: "#232a33" },
+          grid: { color: "rgba(255,255,255,0.08)" },
+          angleLines: { color: "rgba(255,255,255,0.08)" },
           pointLabels: { color: "#e9eef5" },
         },
       },
@@ -334,8 +370,8 @@ function renderPlayer(p) {
           r: {
             min: 0, max: 100,
             ticks: { color: "#7e8a97", backdropColor: "transparent" },
-            grid: { color: "#232a33" },
-            angleLines: { color: "#232a33" },
+            grid: { color: "rgba(255,255,255,0.08)" },
+            angleLines: { color: "rgba(255,255,255,0.08)" },
             pointLabels: { color: "#e9eef5", font: { size: 10 } },
           },
         },
@@ -379,7 +415,7 @@ function renderPlayer(p) {
       options: {
         indexAxis: "y",
         scales: {
-          x: { min: 0, max: 100, ticks: { color: "#7e8a97" }, grid: { color: "#232a33" } },
+          x: { min: 0, max: 100, ticks: { color: "#7e8a97" }, grid: { color: "rgba(255,255,255,0.08)" } },
           y: { ticks: { color: "#e9eef5" }, grid: { display: false } },
         },
         plugins: { legend: { labels: { color: "#e9eef5" } } },

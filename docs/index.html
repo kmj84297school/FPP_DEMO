@@ -3,30 +3,48 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#070911">
 <title>FPP — Football Player Potential</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 120%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%22 stop-color=%22%2319ffa7%22/%3E%3Cstop offset=%221%22 stop-color=%22%23a78bfa%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%22120%22 height=%22120%22 rx=%2226%22 fill=%22%23070911%22/%3E%3Cellipse cx=%2260%22 cy=%2260%22 rx=%2246%22 ry=%2218%22 transform=%22rotate(-28 60 60)%22 fill=%22none%22 stroke=%22url(%23g)%22 stroke-width=%227%22/%3E%3Cpath d=%22M60 34 L67 53 L86 60 L67 67 L60 86 L53 67 L34 60 L53 53 Z%22 fill=%22%2319ffa7%22/%3E%3C/svg%3E">
 <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
+<body data-intro="1">
 <div class="wrap">
   <header class="top">
-    <div>
-      <div class="brand">FPP <span>Scout</span></div>
-      <div class="tagline">FBref 빅5리그 데이터 기반 선수 잠재력 조회 (2024-25 시즌 스냅샷)</div>
-    </div>
-    <nav class="topnav"><a href="compare.html" id="compareNav">선수 비교</a></nav>
+    <a class="brand-link" href="index.html">
+      <svg class="logo" aria-hidden="true"><use href="#fpp-logo"/></svg>
+      <div>
+        <div class="brand">F<span>P</span>P</div>
+        <div class="tagline">Football Player Potential · 2024-25 스냅샷</div>
+      </div>
+    </a>
+    <nav class="topnav" aria-label="주요 메뉴">
+      <a href="index.html" class="active">탐색</a>
+      <a href="compare.html" class="">선수 비교</a>
+    </nav>
   </header>
 
-  <div class="panel search-box">
-    <label for="searchInput" class="sr-only">선수 이름 또는 클럽 검색</label>
-    <input id="searchInput" type="search" placeholder="선수 이름·클럽 검색 (예: Mbappe, Bellingham, Arsenal)" autocomplete="off">
-    <div class="hint" id="eligibilityHint">현재능력 점수는 전체 검색 대상에게 제공됩니다. 잔존확률·미래잠재력·유사선수 비교는 일부 선수에게만 제공됩니다 (기준 로딩 중…).</div>
-  </div>
+  <section class="hero reveal">
+    <h1>2~3년 후, <em>누가 올라오는가</em></h1>
+    <p class="lead">빅5 리그 선수의 현재 능력을 같은 포지션 안에서 점수화하고, 실제 2~3년 후 성과로 학습한 모델이 <b>상승 여지</b>와 <b>빅5 잔존 확률</b>을 예측합니다. 유사한 과거 선수의 실제 결과와 예측 이유까지 함께 보여드립니다.</p>
+    <div class="panel search-box">
+      <label for="searchInput" class="sr-only">선수 이름 또는 클럽 검색</label>
+      <div class="search-wrap"><input id="searchInput" type="search" placeholder="선수 이름·클럽 검색 (예: Mbappe, Bellingham, Arsenal)" autocomplete="off"></div>
+      <div class="hint" id="eligibilityHint">현재능력 점수는 전체 검색 대상에게 제공됩니다. 예측은 일부 선수에게만 제공됩니다 (기준 로딩 중…).</div>
+    </div>
+  </section>
 
-  <div class="panel">
-    <div class="sort-tabs" id="sortTabs" role="group" aria-label="정렬 기준">
-      <button class="sort-tab active" data-sort="ability" aria-pressed="true">현재능력순</button>
-      <button class="sort-tab" data-sort="ceiling" aria-pressed="false">2~3년 후 상한순</button>
-      <button class="sort-tab" data-sort="headroom" aria-pressed="false">상승 여력순</button>
+  <div class="panel reveal">
+    <div class="controls">
+      <div class="sort-tabs" id="sortTabs" role="group" aria-label="정렬 기준">
+        <button class="sort-tab active" data-sort="ability" aria-pressed="true">현재능력순</button>
+        <button class="sort-tab" data-sort="ceiling" aria-pressed="false">2~3년 후 상한순</button>
+        <button class="sort-tab" data-sort="headroom" aria-pressed="false">상승 여력순</button>
+      </div>
+      <div class="view-toggle" role="group" aria-label="보기 방식">
+        <button class="view-btn active" data-view="card" aria-pressed="true">카드</button>
+        <button class="view-btn" data-view="table" aria-pressed="false">표</button>
+      </div>
     </div>
     <div class="filters" id="filters" aria-label="필터">
       <label>리그 <select id="fLeague"><option value="">전체</option></select></label>
@@ -40,9 +58,10 @@
     <div class="hint" id="sortHint" style="display:none;"></div>
   </div>
 
-  <div class="panel">
+  <div class="panel reveal">
     <div class="section-title" id="resultCount" aria-live="polite">로딩 중…</div>
-    <table class="roster" id="rosterTable">
+    <div class="cards stagger" id="cardGrid" hidden></div>
+    <table class="roster" id="rosterTable" hidden>
       <thead id="rosterHead">
         <tr><th>선수</th><th>클럽</th><th>포지션</th><th>나이</th><th>스타일</th><th id="headValueCol">현재능력</th><th>모델</th><th><span class="sr-only">비교</span></th></tr>
       </thead>
@@ -53,12 +72,14 @@
   </div>
 
   <footer class="foot">
-    데이터: worldfootballR 공개 아카이브 (원출처 FBref) · 교육·연구 목적. 상업적 사용 불가.
+    <span>데이터: worldfootballR 공개 아카이브 (원출처 FBref) · 교육·연구 목적. 상업적 사용 불가.</span>
+    <span>점수는 같은 시즌·같은 포지션 내 상대 순위 기반 · 예측은 정확히 2~3년 후 시점</span>
   </footer>
 </div>
 <div class="compare-bar" id="compareBar" hidden></div>
 
 <script src="assets/common.js"></script>
+<script src="assets/motion.js"></script>
 <script src="assets/app.js"></script>
 </body>
 </html>

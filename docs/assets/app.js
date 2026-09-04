@@ -19,7 +19,8 @@ const FILTER_IDS = { lg: "fLeague", pos: "fPos", role: "fRole", age: "fAge", sty
 
 let INDEX = [];
 let META = null;
-let state = { q: "", sort: "ability", lg: "", pos: "", role: "", age: "", sty: "", kind: "", all: false };
+const DEFAULT_STATE = { q: "", sort: "ability", lg: "", pos: "", role: "", age: "", sty: "", kind: "", view: "card", all: false };
+let state = { ...DEFAULT_STATE };
 
 // ── URL permalink ──
 function readStateFromUrl() {
@@ -29,12 +30,13 @@ function readStateFromUrl() {
     if (u.has(k)) state[k] = u.get(k);
   }
   if (!SORT_MODES[state.sort]) state.sort = "ability";
+  if (state.view !== "table") state.view = "card";
 }
 function writeStateToUrl() {
   const u = new URLSearchParams();
   for (const [k, v] of Object.entries(state)) {
     if (k === "all") { if (v) u.set("all", "1"); continue; }
-    if (v && !(k === "sort" && v === "ability")) u.set(k, v);
+    if (v && !(k === "sort" && v === "ability") && !(k === "view" && v === "card")) u.set(k, v);
   }
   const qs = u.toString();
   history.replaceState(null, "", qs ? `?${qs}` : window.location.pathname);
@@ -70,15 +72,18 @@ function roleLabel(code) {
 
 function render(rows) {
   const mode = state.sort;
+  const grid = document.getElementById("cardGrid");
+  const table = document.getElementById("rosterTable");
   const body = document.getElementById("rosterBody");
   const empty = document.getElementById("emptyState");
   const count = document.getElementById("resultCount");
   const more = document.getElementById("moreHint");
   document.getElementById("headValueCol").textContent = SORT_MODES[mode].col;
 
-  body.innerHTML = "";
+  body.innerHTML = ""; grid.innerHTML = "";
+  grid.hidden = state.view !== "card"; table.hidden = state.view !== "table";
   if (rows.length === 0) {
-    empty.style.display = "block"; more.style.display = "none";
+    empty.style.display = "block"; more.style.display = "none"; grid.hidden = true; table.hidden = true;
     count.textContent = "0명 — 필터를 완화해 보세요";
     return;
   }
@@ -88,33 +93,41 @@ function render(rows) {
   const limit = interacted ? MAX_ROWS : HIGHLIGHT_ROWS;
   count.textContent = interacted
     ? `${rows.length}명${scopeNote} · ${SORT_MODES[mode].label}${rows.length > limit ? ` · 상위 ${limit}명 표시` : ""}`
-    : `대표 선수 ${Math.min(limit, rows.length)}명 · ${SORT_MODES[mode].label} — 검색·필터·정렬을 쓰면 전체 목록이 표시됩니다`;
-  more.style.display = interacted && rows.length > limit ? "block" : (!interacted ? "block" : "none");
+    : `이번 시즌 대표 ${Math.min(limit, rows.length)}명 · ${SORT_MODES[mode].label}`;
+  more.style.display = "block";
   more.innerHTML = interacted
-    ? `상위 ${limit}명만 표시했습니다. 검색어나 필터로 범위를 좁혀 보세요.`
-    : `<a href="#" id="showAll">전체 ${rows.length}명 보기</a>`;
+    ? (rows.length > limit ? `상위 ${limit}명만 표시했습니다. 검색어나 필터로 범위를 좁혀 보세요.` : "")
+    : `<a href="#" id="showAll">전체 ${rows.length}명 보기</a> · 검색·필터·정렬을 쓰면 전체 목록이 표시됩니다`;
+  if (!more.innerHTML) more.style.display = "none";
 
-  const frag = document.createDocumentFragment();
-  rows.slice(0, limit).forEach((p) => {
-    const tr = document.createElement("tr");
-    tr.tabIndex = 0;
-    const go = () => { window.location.href = `player.html?id=${p.fbref_id}`; };
-    tr.addEventListener("click", (e) => { if (!e.target.closest("[data-cmp-id]")) go(); });
-    tr.addEventListener("keydown", (e) => { if (e.key === "Enter") go(); });
-    const role = p.role ? `<span class="muted small">${roleLabel(p.role)}</span>` : "";
-    tr.innerHTML = `
-      <td class="name" data-label="선수"><div class="name-cell">${avatarHtml(p.fbref_id, p.name, 30)}<span>${p.name}</span></div></td>
-      <td class="muted" data-label="클럽">${p.squad || "—"}<span class="small league"> · ${p.league || ""}</span></td>
-      <td class="muted" data-label="포지션">${p.pos_primary} ${role}</td>
-      <td class="muted" data-label="나이">${p.age ?? "—"}</td>
-      <td class="muted" data-label="스타일">${p.style || "—"}</td>
-      <td data-label="${SORT_MODES[mode].col}">${valueCell(p, mode)}</td>
-      <td data-label="모델">${kindTag(p)}</td>
-      <td class="cmp-cell"><button type="button" class="btn-mini" data-cmp-id="${p.fbref_id}" data-cmp-name="${p.name}" aria-pressed="false">비교</button></td>
-    `;
-    frag.appendChild(tr);
-  });
-  body.appendChild(frag);
+  const shown = rows.slice(0, limit);
+  if (state.view === "card") {
+    grid.classList.remove("revealed");
+    grid.innerHTML = shown.map((p) => playerCardHtml(p, roleLabel)).join("");
+    if (window.FPPMotion) { window.FPPMotion.tilt(grid); window.FPPMotion.observe(grid.parentElement); }
+  } else {
+    const frag = document.createDocumentFragment();
+    shown.forEach((p) => {
+      const tr = document.createElement("tr");
+      tr.tabIndex = 0;
+      const go = () => { window.location.href = `player.html?id=${p.fbref_id}`; };
+      tr.addEventListener("click", (e) => { if (!e.target.closest("[data-cmp-id]")) go(); });
+      tr.addEventListener("keydown", (e) => { if (e.key === "Enter") go(); });
+      const role = p.role ? `<span class="muted small">${roleLabel(p.role)}</span>` : "";
+      tr.innerHTML = `
+        <td class="name" data-label="선수"><div class="name-cell">${avatarHtml(p.fbref_id, p.name, 30)}<span>${p.name}</span></div></td>
+        <td class="muted" data-label="클럽">${p.squad || "—"}<span class="small league"> · ${p.league || ""}</span></td>
+        <td class="muted" data-label="포지션">${p.pos_primary} ${role}</td>
+        <td class="muted" data-label="나이">${p.age ?? "—"}</td>
+        <td class="muted" data-label="스타일">${p.style || "—"}</td>
+        <td data-label="${SORT_MODES[mode].col}">${valueCell(p, mode)}</td>
+        <td data-label="모델">${kindTag(p)}</td>
+        <td class="cmp-cell"><button type="button" class="btn-mini" data-cmp-id="${p.fbref_id}" data-cmp-name="${p.name}" aria-pressed="false">비교</button></td>
+      `;
+      frag.appendChild(tr);
+    });
+    body.appendChild(frag);
+  }
   renderCompareBar();
   const showAll = document.getElementById("showAll");
   if (showAll) showAll.addEventListener("click", (e) => { e.preventDefault(); state.all = true; writeStateToUrl(); search(); });
@@ -148,6 +161,10 @@ function applyStateToControls() {
   hintEl.style.display = SORT_HINTS[state.sort] ? "block" : "none";
   hintEl.textContent = SORT_HINTS[state.sort];
   for (const [k, id] of Object.entries(FILTER_IDS)) document.getElementById(id).value = state[k];
+  document.querySelectorAll(".view-btn").forEach((b) => {
+    const on = b.dataset.view === state.view;
+    b.classList.toggle("active", on); b.setAttribute("aria-pressed", on ? "true" : "false");
+  });
 }
 
 function fillSelect(id, values, labelFn) {
@@ -167,8 +184,14 @@ document.getElementById("filters").addEventListener("change", (e) => {
   state[k] = e.target.value; state.all = true;
   writeStateToUrl(); search();
 });
+document.querySelector(".view-toggle").addEventListener("click", (e) => {
+  const btn = e.target.closest(".view-btn");
+  if (!btn) return;
+  state.view = btn.dataset.view;
+  applyStateToControls(); writeStateToUrl(); search();
+});
 document.getElementById("fReset").addEventListener("click", () => {
-  state = { q: "", sort: "ability", lg: "", pos: "", role: "", age: "", sty: "", kind: "", all: false };
+  state = { ...DEFAULT_STATE, view: state.view };
   applyStateToControls(); writeStateToUrl(); search();
 });
 document.getElementById("searchInput").addEventListener("input", (e) => {
@@ -177,9 +200,9 @@ document.getElementById("searchInput").addEventListener("input", (e) => {
 document.body.addEventListener("click", (e) => {
   const b = e.target.closest("[data-cmp-id]");
   if (!b) return;
-  e.stopPropagation();
+  e.preventDefault(); e.stopPropagation();
   cmpToggle(b.dataset.cmpId, b.dataset.cmpName);
-});
+}, true);
 
 readStateFromUrl();
 Promise.all([fetch("data/index.json").then((r) => r.json()), fetch("data/meta.json").then((r) => r.json())])
@@ -202,7 +225,7 @@ Promise.all([fetch("data/index.json").then((r) => r.json()), fetch("data/meta.js
       ? ` (${meta.target_year}시즌은 데이터 수집 시점상 부분 시즌이라, 원래 기준(${meta.original_pred_min_minutes}분)을 실제 관측된 최대 출전시간(${meta.season_max_minutes}분) 대비 동일 비율로 환산했습니다.)`
       : "";
     document.getElementById("eligibilityHint").innerHTML =
-      `현재능력 점수는 전체 ${meta.n_players.toLocaleString()}명에게 제공됩니다. 예측은 <b>2~3년 후 시점</b>의 능력이며(커리어 전성기가 아님), ` +
+      `현재능력 점수는 전체 ${meta.n_players.toLocaleString()}명에게 제공됩니다. 카드의 <b>2~3년 후 상한</b>은 80% 신뢰구간의 상단(상위 10% 시나리오)이며 최댓값이 아닙니다. 예측은 <b>2~3년 후 시점</b>의 능력이며(커리어 전성기가 아님), ` +
       `만 ${meta.pred_age_max}세 이하·${meta.pred_min_minutes}분 이상은 <b>성장기 모델</b>, ` +
       `만 ${meta.veteran.age_min}~${meta.veteran.age_max}세·${meta.veteran.pred_min_minutes}분 이상은 <b>성숙기 모델</b>이 적용됩니다.${partialNote}` +
       `<br>성숙기 모델이 성장기 모델보다 정확도가 높습니다 (MAE ${meta.veteran.mae} vs ${meta.u23_mae}, R² ${meta.veteran.r2} vs ${meta.u23_r2}, GroupKFold 5겹 검증).` +
