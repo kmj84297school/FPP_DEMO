@@ -84,16 +84,13 @@ function renderNotFound() {
 
 let META = null;
 
-// FBref 헤드샷 CDN 패턴 — legacy가 og:image로 추출하던 것과 동일한 이미지.
-// 방문자 브라우저가 직접 요청하며(핫링크), 없거나 차단되면 onerror로 이니셜 아바타 대체.
-const HEADSHOT_URL = (fbrefId) => `https://fbref.com/req/202302030/images/headshots/${fbrefId}_2022.jpg`;
+// 아바타(FBref 헤드샷 핫링크 + 이니셜 폴백)·등급 텍스트·비교 바구니는 common.js 공용.
 
-function initialsOf(name) {
-  if (!name) return "?";
-  const parts = name.trim().split(/\s+/);
-  const first = parts[0] ? parts[0][0] : "";
-  const last = parts.length > 1 ? parts[parts.length - 1][0] : "";
-  return (first + last).toUpperCase();
+function topBandText(isGrowth) {
+  const tb = META && META.top_band ? META.top_band[isGrowth ? "u23" : "veteran"] : null;
+  if (!tb) return "이 구간은 검증 표본이 매우 적어 오차 수치의 신뢰도가 낮습니다.";
+  const sign = tb.bias > 0 ? "+" : "";
+  return `이 구간은 검증 표본이 적어(현재능력 ${tb.threshold_display}+ 기준 ${tb.n}명, 폴드 밖) 오차 수치의 신뢰도가 낮습니다. 그 표본에서 실측된 MAE는 ${tb.mae}, 편향은 ${sign}${tb.bias}점(${tb.bias > 0 ? "약간 낙관" : "약간 비관"}), 80% 구간 커버리지는 ${(tb.ci80_coverage * 100).toFixed(0)}%입니다.`;
 }
 
 function renderPlayer(p) {
@@ -103,18 +100,16 @@ function renderPlayer(p) {
   let html = `
     <div class="panel player-head">
       <div style="display:flex;align-items:center;gap:16px;">
-        <div class="avatar-wrap">
-          <img class="avatar-img" src="${HEADSHOT_URL(m.fbref_id)}" alt=""
-               referrerpolicy="no-referrer" loading="lazy"
-               onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-          <div class="avatar-fallback" style="display:none;">${initialsOf(m.player_name)}</div>
-        </div>
+        ${avatarHtml(m.fbref_id, m.player_name, 72)}
         <div>
           <h1>${m.player_name}</h1>
           <div class="sub">${m.squad || "—"} · ${m.comps || "—"} · ${m.pos_primary}${m.role ? ` (${m.role.label}${m.role.borderline ? "·경계" : ""})` : ""} · ${m.nation || "—"} · 만 ${m.age_years}세 · 2024-25시즌 ${m.minutes_season}분</div>
         </div>
       </div>
-      <span class="badge ${bandcls(c.ability)}" style="font-size:1.3rem;padding:8px 16px;">${fmt1(c.ability)}</span>
+      <div class="head-right">
+        ${scoreBadge(c.ability, "현재능력", "show-tier head-badge")}
+        <button type="button" class="btn-mini" data-cmp-id="${m.fbref_id}" data-cmp-name="${m.player_name}" aria-pressed="false">비교</button>
+      </div>
     </div>
 
     <div class="grid-2">
@@ -227,7 +222,7 @@ function renderPlayer(p) {
           <div class="stat-row"><span class="lbl">예측 중심값 (mu)</span><span>${fmt1(pred.mu)}</span></div>
           <div class="stat-row"><span class="lbl">80% 구간</span><span>${fmt1(pred.ci80.lo)} ~ ${fmt1(pred.ci80.hi)}</span></div>
           <div class="stat-row"><span class="lbl">50% 구간</span><span>${fmt1(pred.ci50.lo)} ~ ${fmt1(pred.ci50.hi)}</span></div>
-          ${oor ? `<div class="note" style="margin-top:10px;">모델 검증 범위 밖입니다 — 이 선수의 현재 능력(${fmt1(c.ability)})은 학습 데이터에서 관측된 2~3년 후 능력의 상위 1%를 넘습니다. 트리 모델은 학습 라벨보다 높은 값을 예측할 수 없어, 아래 점추정이 실제보다 과도하게 낮게 나옵니다. 예측치보다 <b>유사 선수의 실제 결과</b>를 참고하세요.</div>` : ""}
+          ${oor ? `<div class="note" style="margin-top:10px;">모델 검증 범위 밖입니다 — 이 선수의 현재 능력(${fmt1(c.ability)})은 학습 데이터에서 관측된 2~3년 후 능력의 상위 1%를 넘습니다. ${topBandText(isGrowth)} 점추정과 함께 <b>유사 선수의 실제 결과</b>를 참고하세요.</div>` : ""}
           ${!oor && pred.mu < c.ability ? `<div class="hint" style="margin-top:10px;">${regressionNote}</div>` : ""}
           ${p.low_confidence ? '<div class="note" style="margin-top:10px;">유사 선수와의 거리가 멀어 비교 신뢰도가 낮습니다 (아웃라이어 가능성).</div>' : ""}
         </div>
@@ -292,6 +287,7 @@ function renderPlayer(p) {
   }
 
   document.getElementById("content").innerHTML = html;
+  renderCompareBar();
 
   new Chart(document.getElementById("radarChart"), {
     type: "radar",

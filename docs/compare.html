@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FPP — 선수 비교</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="vendor/chart.umd.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <div class="page-nav"><a class="back-link" href="index.html">&larr; 검색으로 돌아가기</a></div>
+  <header class="top">
+    <div>
+      <div class="brand">FPP <span>Compare</span></div>
+      <div class="tagline">두 선수를 나란히 — 능력 그룹·핵심 지표·2~3년 후 예측 비교 (2024-25 스냅샷)</div>
+    </div>
+  </header>
+
+  <div class="panel">
+    <div class="compare-pick">
+      <div class="pick-list">
+        <label for="pickA" class="sr-only">선수 A 검색</label>
+        <input id="pickA" type="search" placeholder="선수 A 검색" autocomplete="off">
+        <ul id="listA" hidden></ul>
+      </div>
+      <div class="vs">VS</div>
+      <div class="pick-list">
+        <label for="pickB" class="sr-only">선수 B 검색</label>
+        <input id="pickB" type="search" placeholder="선수 B 검색" autocomplete="off">
+        <ul id="listB" hidden></ul>
+      </div>
+    </div>
+    <div class="hint">주소창의 URL이 비교 상태를 그대로 담습니다(permalink). 목록·상세 페이지의 "비교" 버튼으로도 고를 수 있습니다.</div>
+  </div>
+
+  <div id="content"><div class="empty-state">두 선수를 선택하세요.</div></div>
+
+  <footer class="foot">
+    데이터: worldfootballR 공개 아카이브 (원출처 FBref) · 교육·연구 목적. 상업적 사용 불가.
+  </footer>
+</div>
+<script src="assets/common.js"></script>
+<script src="assets/compare.js"></script>
+</body>
+</html>

@@ -13,37 +13,50 @@
       <div class="brand">FPP <span>Scout</span></div>
       <div class="tagline">FBref 빅5리그 데이터 기반 선수 잠재력 조회 (2024-25 시즌 스냅샷)</div>
     </div>
+    <nav class="topnav"><a href="compare.html" id="compareNav">선수 비교</a></nav>
   </header>
 
   <div class="panel search-box">
-    <input id="searchInput" type="text" placeholder="선수 이름 검색 (예: Mbappe, Bellingham)" autocomplete="off">
+    <label for="searchInput" class="sr-only">선수 이름 또는 클럽 검색</label>
+    <input id="searchInput" type="search" placeholder="선수 이름·클럽 검색 (예: Mbappe, Bellingham, Arsenal)" autocomplete="off">
     <div class="hint" id="eligibilityHint">현재능력 점수는 전체 검색 대상에게 제공됩니다. 잔존확률·미래잠재력·유사선수 비교는 일부 선수에게만 제공됩니다 (기준 로딩 중…).</div>
   </div>
 
   <div class="panel">
-    <div class="sort-tabs" id="sortTabs">
-      <button class="sort-tab active" data-sort="ability">현재능력순</button>
-      <button class="sort-tab" data-sort="ceiling">잠재력 상한순</button>
-      <button class="sort-tab" data-sort="headroom">성장 여력순</button>
+    <div class="sort-tabs" id="sortTabs" role="group" aria-label="정렬 기준">
+      <button class="sort-tab active" data-sort="ability" aria-pressed="true">현재능력순</button>
+      <button class="sort-tab" data-sort="ceiling" aria-pressed="false">2~3년 후 상한순</button>
+      <button class="sort-tab" data-sort="headroom" aria-pressed="false">상승 여력순</button>
+    </div>
+    <div class="filters" id="filters" aria-label="필터">
+      <label>리그 <select id="fLeague"><option value="">전체</option></select></label>
+      <label>포지션 <select id="fPos"><option value="">전체</option><option>FW</option><option>MF</option><option>DF</option></select></label>
+      <label>세부 역할 <select id="fRole"><option value="">전체</option></select></label>
+      <label>나이 <select id="fAge"><option value="">전체</option><option value="u21">~21</option><option value="22-23">22~23</option><option value="24-27">24~27</option><option value="28-31">28~31</option><option value="32+">32+</option></select></label>
+      <label>스타일 <select id="fStyle"><option value="">전체</option></select></label>
+      <label>예측 <select id="fKind"><option value="">전체</option><option value="growth">성장기 모델</option><option value="peak">성숙기 모델</option><option value="any">예측 대상만</option><option value="none">예측 없음</option></select></label>
+      <button class="btn-ghost" id="fReset" type="button">초기화</button>
     </div>
     <div class="hint" id="sortHint" style="display:none;"></div>
   </div>
 
   <div class="panel">
-    <div class="section-title" id="resultCount">로딩 중…</div>
-    <table class="roster">
+    <div class="section-title" id="resultCount" aria-live="polite">로딩 중…</div>
+    <table class="roster" id="rosterTable">
       <thead id="rosterHead">
-        <tr><th>선수</th><th>클럽</th><th>포지션</th><th>나이</th><th>스타일</th><th id="headValueCol">현재능력</th><th></th></tr>
+        <tr><th>선수</th><th>클럽</th><th>포지션</th><th>나이</th><th>스타일</th><th id="headValueCol">현재능력</th><th>모델</th><th><span class="sr-only">비교</span></th></tr>
       </thead>
       <tbody id="rosterBody"></tbody>
     </table>
     <div class="empty-state" id="emptyState" style="display:none;">검색 결과가 없습니다.</div>
+    <div class="hint" id="moreHint" style="display:none;"></div>
   </div>
 
   <footer class="foot">
     데이터: worldfootballR 공개 아카이브 (원출처 FBref) · 교육·연구 목적. 상업적 사용 불가.
   </footer>
 </div>
+<div class="compare-bar" id="compareBar" hidden></div>
 
 <script src="assets/common.js"></script>
 <script src="assets/app.js"></script>
